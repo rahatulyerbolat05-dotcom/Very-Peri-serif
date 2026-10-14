@@ -123,8 +123,8 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`.
-- `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`: контуры эскизов (GLIF, SVG).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`.
+- `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
 
@@ -164,7 +164,8 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D14 | Состав символов первого выпуска |
 | D15 | Выбор ш: R1 или R2; правка раздела 3 инструкции под круглый низ |
 | D16 | Дно арок ш −6 против зоны −9 |
-| D17 | Выбор ы: зазор 182 или 119, головки флажком или как у u, чаша от b или p; согласовать с ш |
+| D17 | Выбор ы: зазор 182 или 119, головки флажком или как у u; чаша берётся от выбранной ь (D18) |
+| D18 | Выбор ь: S1–S4 (чаша от a, крючок или без, флажок или головка u); согласовать с ш |
 
 ## 11. Запреты
 
@@ -183,4 +184,5 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | Буква | Статус | Карточка |
 |---|---|---|
 | ш | две кандидатуры сохранены, выбор D15: R1 (головки как у u) и R2 (флажки), обе из перевёрнутой m | `docs/glyphs/sha.md` |
-| ы | четыре эскиза Y1–Y4, выбор D17 | `docs/glyphs/yery.md` |
+| ь | четыре эскиза S1–S4, выбор D18 | `docs/glyphs/soft.md` |
+| ы | отложена: эскизы Y1–Y4 читались как «D» (чаша от b или p), пересобрать от выбранной ь, выбор D17 | `docs/glyphs/yery.md` |

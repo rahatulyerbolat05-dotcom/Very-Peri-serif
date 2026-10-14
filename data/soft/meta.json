@@ -1,0 +1,46 @@
+{
+ "S1": {
+  "adv": 381,
+  "xmin": -19,
+  "xmax": 351,
+  "ymin": -9,
+  "ymax": 513,
+  "label": "S1   чаша от a, флажок",
+  "bowl": "a",
+  "heads": "flag",
+  "bowl_right": 351
+ },
+ "S2": {
+  "adv": 381,
+  "xmin": -19,
+  "xmax": 351,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "S2   чаша от a, головка u",
+  "bowl": "a",
+  "heads": "u",
+  "bowl_right": 351
+ },
+ "S3": {
+  "adv": 381,
+  "xmin": -2,
+  "xmax": 351,
+  "ymin": -9,
+  "ymax": 513,
+  "label": "S3   без крючка, флажок",
+  "bowl": "a_notail",
+  "heads": "flag",
+  "bowl_right": 351
+ },
+ "S4": {
+  "adv": 381,
+  "xmin": -2,
+  "xmax": 351,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "S4   без крючка, головка u",
+  "bowl": "a_notail",
+  "heads": "u",
+  "bowl_right": 351
+ }
+}
