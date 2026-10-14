@@ -72,7 +72,7 @@ for combo in latest:
 
 rebuilt_count=0
 if args.rebuilt_dir:
-    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic']:
+    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic','de-cursive']:
         saved=ROOT/'studies/regular'/stage
         rebuilt=args.rebuilt_dir.resolve()/stage
         for expected in saved.rglob('*.ttf'):

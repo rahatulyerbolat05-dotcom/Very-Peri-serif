@@ -4,10 +4,18 @@ Read CLAUDE.md, docs/decisions.md and data/progress.json before drawing.
 Explicit user decisions take priority over historical construction recipes.
 Keep Instrument Serif Regular geometry and the approved glyph hashes intact.
 
+Lowercase designs use Cyrillic handwritten/cursive skeletons in upright
+Regular. Preserve Instrument Serif Regular stress, contrast, terminals and
+curve character; the separate Italic style is still postponed. Do not enforce
+historical bans on cursive skeletons or assume all curves must be smooth.
+
 The primary и is the native u-shaped Regular form; ss07 is its diagonal
 alternative. The user requested redesign of д; old versions and the new
 native-g studies remain retained, but the user rejected them as reading like
-Latin g. New д must have a recognizable Cyrillic silhouette; no primary is approved. Both к and
+Latin g. The printed platform-and-feet de-cyrillic studies are also rejected:
+they abandon the agreed cursive construction. Research real Cyrillic д forms
+in other fonts for skeletons and ductus, then draw with Instrument details;
+do not transplant their outlines. New д has no approved primary. Both к and
 й variants remain unselected. Do not infer approval from a technical default.
 
 Use the portable tools and requirements-fonts.txt described in README.md.

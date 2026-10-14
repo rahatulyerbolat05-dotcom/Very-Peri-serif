@@ -15,7 +15,7 @@ def add_order(tt, names):
     tt['hhea'].numberOfHMetrics = len(tt.getGlyphOrder())
     tt['maxp'].numGlyphs = len(tt.getGlyphOrder())
 
-def mark_base(tt, name, donor, top=None, bottom=None):
+def mark_base(tt, name, donor, top=None, bottom=None, active_classes=None):
     gid = tt.getReverseGlyphMap()
     for lookup in tt['GPOS'].table.LookupList.Lookup:
         if lookup.LookupType != 4:
@@ -25,11 +25,14 @@ def mark_base(tt, name, donor, top=None, bottom=None):
                 continue
             records = dict(zip(sub.BaseCoverage.glyphs, sub.BaseArray.BaseRecord))
             record = copy.deepcopy(records[donor])
+            if active_classes is not None:
+                record.BaseAnchor = [anchor if i in active_classes else None
+                                     for i, anchor in enumerate(record.BaseAnchor)]
             if top is not None:
                 # Original top mark class is 0, as verified on u/breve.
                 record.BaseAnchor[0].XCoordinate, record.BaseAnchor[0].YCoordinate = top
             if bottom is not None:
-                # Native bottom marks use class 2; short de feet need a new anchor.
+                # Native bottom marks use class 2; new outlines may change its height.
                 assert record.BaseAnchor[2] is not None
                 record.BaseAnchor[2].XCoordinate, record.BaseAnchor[2].YCoordinate = bottom
             records[name] = record

@@ -1,0 +1,69 @@
+{
+  "source_file": "de-01.ttf / de-02.ttf (handwritten Cyrillic de proposals, not selected)",
+  "fixed_glyphs": {
+    "uni0431": {
+      "hmtx": [
+        408,
+        23
+      ],
+      "glyf_sha256": "ec5a99d33e46b3194f1cdf1cd052ee2d97ba4a0182201585d712c5e7b9a19651"
+    },
+    "be.altFlag": {
+      "hmtx": [
+        416,
+        23
+      ],
+      "glyf_sha256": "77f091694158cbe4b5e4790b4d6970c4b59864989166ff6355dc28a591c08a75"
+    },
+    "be.altWave": {
+      "hmtx": [
+        438,
+        23
+      ],
+      "glyf_sha256": "558e0fad2f821d6f424c326c9e0dad206da5005b479570e98d08d24738114788"
+    },
+    "uni0433": {
+      "hmtx": [
+        335,
+        15
+      ],
+      "glyf_sha256": "cb08e533e65895be59927df4f9a742f275d6552570a6e9c07548675071b01cae"
+    },
+    "ghe.altBeak": {
+      "hmtx": [
+        339,
+        15
+      ],
+      "glyf_sha256": "6204d70e7423650fa46a2e9cd70875310a3111f40e5705c09aea24b0b01c580c"
+    },
+    "uni0436": {
+      "hmtx": [
+        552,
+        -3
+      ],
+      "glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea"
+    },
+    "uni0437": {
+      "hmtx": [
+        349,
+        24
+      ],
+      "glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb"
+    },
+    "uni0438": {
+      "hmtx": [
+        454,
+        11
+      ],
+      "glyf_sha256": "b2291c418e92333b5a9f8066d3898467b9cb39e8ac1656d36cedd1a6970932c8"
+    },
+    "i.altDiagonal": {
+      "hmtx": [
+        470,
+        15
+      ],
+      "glyf_sha256": "49fd2f0c849964809605c6e9c6e9939df398f574bffb497b7dc5c3ca51442688"
+    }
+  },
+  "policy": "No accumulated metric drift; changes require concrete design reason and review"
+}

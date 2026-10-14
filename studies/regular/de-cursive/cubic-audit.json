@@ -1,0 +1,384 @@
+{
+  "01": {
+    "bounds": [
+      23,
+      -9,
+      383,
+      740
+    ],
+    "contours": 2,
+    "counter_count": 1,
+    "sampled_polygon_valid": true,
+    "sampled_rings_simple": true,
+    "adjacent_sampled_duplicates": [],
+    "min_explicit_chord": 18.110770276274835,
+    "max_G1_angle_degrees": 0.0,
+    "tangents": [
+      {
+        "contour": 0,
+        "point": [
+          383.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          348.0,
+          510.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          231.0,
+          740.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          147.0,
+          702.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          145.0,
+          684.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          164.0,
+          684.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          231.0,
+          715.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          280.0,
+          574.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "lineTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          280.0,
+          520.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "lineTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          266.0,
+          495.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          203.0,
+          516.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          23.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          203.0,
+          -9.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          99.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          203.0,
+          491.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          307.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          203.0,
+          16.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      }
+    ],
+    "cubic_sampling_per_segment": 1600,
+    "area": 86911.89197089891,
+    "exact_native_cubic_segments": 7,
+    "native_inner_counter_exact": true
+  },
+  "02": {
+    "bounds": [
+      23,
+      -9,
+      383,
+      740
+    ],
+    "contours": 2,
+    "counter_count": 1,
+    "sampled_polygon_valid": true,
+    "sampled_rings_simple": true,
+    "adjacent_sampled_duplicates": [],
+    "min_explicit_chord": 20.09975124224178,
+    "max_G1_angle_degrees": 0.0,
+    "tangents": [
+      {
+        "contour": 0,
+        "point": [
+          383.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          348.0,
+          510.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          245.0,
+          740.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          90.0,
+          662.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          88.0,
+          642.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          108.0,
+          644.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          245.0,
+          715.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          280.0,
+          574.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "lineTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          280.0,
+          520.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "lineTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          266.0,
+          495.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          203.0,
+          516.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          23.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 0,
+        "point": [
+          203.0,
+          -9.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          99.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          203.0,
+          491.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          307.0,
+          254.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      },
+      {
+        "contour": 1,
+        "point": [
+          203.0,
+          16.0
+        ],
+        "angle_degrees": 0.0,
+        "incoming": "curveTo",
+        "outgoing": "curveTo"
+      }
+    ],
+    "cubic_sampling_per_segment": 1600,
+    "area": 89373.46696860423,
+    "exact_native_cubic_segments": 7,
+    "native_inner_counter_exact": true
+  }
+}

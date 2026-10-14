@@ -1,0 +1,204 @@
+{
+  "variants": {
+    "01": {
+      "name": "Сдержанный загиб",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
+      "status": "unselected handwritten Cyrillic design study",
+      "advance": 408,
+      "bbox_cubic": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "hmtx": [
+        408,
+        23
+      ],
+      "cubic_nodes": 49,
+      "ttf_points": 68,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+        "exact_native_fragments": [
+          "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+          "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+          "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+          "o complete inner counter: four exact native cubic segments, unchanged"
+        ],
+        "proposed_fragments": [
+          "outer upper-right o quarter replaced by continuous upper curl",
+          "upper entry and descending spine drawn anew without foreign outline transfer",
+          "narrow open neck from inner upper stroke into native o crown"
+        ],
+        "reference_skeleton_only": [
+          "Lora Italic U+0434",
+          "Literata Italic U+0434",
+          "Alegreya Italic U+0434",
+          "EB Garamond Italic U+0434",
+          "Playfair Display Italic U+0434"
+        ],
+        "facts": {
+          "native_o_advance": 408,
+          "native_o_bbox": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "native_o_counter_bbox": [
+            99,
+            16,
+            307,
+            491
+          ],
+          "native_o_side_thickness": 76,
+          "native_o_crown_thickness": 25,
+          "native_n_d_stem": 68,
+          "native_b_d_ascender": 740
+        },
+        "proposals": {
+          "upper_limit": 740,
+          "new_stem_at_y510": 68,
+          "upper_crown_vertical_thickness": 25,
+          "upper_terminal_profile": "rounded compact stroke cap; no ball"
+        }
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    },
+    "02": {
+      "name": "Открытая дуга",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
+      "status": "unselected handwritten Cyrillic design study",
+      "advance": 408,
+      "bbox_cubic": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "hmtx": [
+        408,
+        23
+      ],
+      "cubic_nodes": 49,
+      "ttf_points": 69,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+        "exact_native_fragments": [
+          "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+          "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+          "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+          "o complete inner counter: four exact native cubic segments, unchanged"
+        ],
+        "proposed_fragments": [
+          "outer upper-right o quarter replaced by continuous upper curl",
+          "upper entry and descending spine drawn anew without foreign outline transfer",
+          "narrow open neck from inner upper stroke into native o crown"
+        ],
+        "reference_skeleton_only": [
+          "Lora Italic U+0434",
+          "Literata Italic U+0434",
+          "Alegreya Italic U+0434",
+          "EB Garamond Italic U+0434",
+          "Playfair Display Italic U+0434"
+        ],
+        "facts": {
+          "native_o_advance": 408,
+          "native_o_bbox": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "native_o_counter_bbox": [
+            99,
+            16,
+            307,
+            491
+          ],
+          "native_o_side_thickness": 76,
+          "native_o_crown_thickness": 25,
+          "native_n_d_stem": 68,
+          "native_b_d_ascender": 740
+        },
+        "proposals": {
+          "upper_limit": 740,
+          "new_stem_at_y510": 68,
+          "upper_crown_vertical_thickness": 25,
+          "upper_terminal_profile": "rounded compact stroke cap; no ball"
+        }
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    }
+  },
+  "combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-02.ttf"
+    }
+  ]
+}

@@ -85,7 +85,7 @@
     "з": "01 only; 02 deleted and not retained",
     "и": "02 exact native u primary; 01 diagonal alternate ss07",
     "в": "01/02 unresolved; 01 technical default in cumulative trials",
-    "д": "Native-g studies rejected; two unselected explicit Cyrillic pedestal proposals, previous versions retained.",
+    "д": "Native two-storey g and printed pedestal rejected; new handwritten upper-ascender proposals01/02 unselected; all old versions retained.",
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved"
   },
@@ -1025,25 +1025,25 @@
       "character": "д",
       "name": "de",
       "silhouette": {
-        "evidence": "new design proposal after explicit user rejection of g-like silhouettes",
-        "description": "Thin sloping/curving left stroke, 68-unit upright right stem, platform and two short descending feet. Flat cap or native n-derived arched shoulder.",
-        "source": "studies/regular/de-cyrillic/README.md"
+        "evidence": "unselected new design based on actual Cyrillic reference skeletons",
+        "description": "One full x-height bowl with upper-left entry and a continuous right descending stroke; upright Regular stress and native o counter.",
+        "source": "studies/regular/de-cursive/README.md"
       },
-      "type": "cyrillic_pedestal_proposals_with_one_counter",
+      "type": "handwritten_upper_ascender_single_counter",
       "ductus": {
-        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
-        "reference": "docs/instruction.md §7 (revised)",
+        "evidence": "designer interpretation; not documented original-author ductus",
+        "reference": "studies/regular/de-cursive/README.md",
         "strokes": [
-          "Design interpretation: left stroke rises into cap/shoulder; right stem descends; platform connects the body and two short feet. Not a documented historical author stroke sequence."
+          "Thin upper-left entry, return arch to the right, descending thick right stroke, lower bowl turn left, thin rising bowl return."
         ],
-        "entry": null,
-        "exit": null,
-        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+        "entry": "upper left",
+        "exit": "bowl return",
+        "pressure": "native Regular vertical stress"
       },
       "upright": {
         "style": "Regular",
-        "status": "new Cyrillic candidates under review",
-        "construction_evidence": "studies/regular/de-cyrillic/README.md"
+        "status": "two unselected handwritten upper-ascender proposals",
+        "construction_evidence": "studies/regular/de-cursive/README.md"
       },
       "italic": {
         "status": "not designed in these artifacts",
@@ -1052,78 +1052,101 @@
       "components": [],
       "donors": [
         {
-          "glyph": "u",
-          "role": "Variant 01 outer and inner right cap, reversed and translated +12 x without scaling.",
+          "glyph": "o",
+          "role": "Seven exact native cubic segments including entire inner counter.",
           "relationship": "exact native cubic fragments",
-          "evidence": "verified pinned source controls",
-          "construction_reference": "data/de-cyrillic-outlines.json#/variants/01/provenance"
+          "evidence": "independent source control-point comparison",
+          "construction_reference": "data/de-cursive-outlines.json"
         },
         {
-          "glyph": "n",
-          "role": "Variant 02 shoulder; native outer foot bracket in both variants.",
-          "relationship": "exact native cubic fragments",
-          "evidence": "verified pinned source controls",
-          "construction_reference": "data/de-cyrillic-outlines.json#/variants/02/provenance"
+          "glyph": "n/d/b",
+          "role": "Stem and ascender measurements only, no imported outline fragments.",
+          "relationship": "measurement context",
+          "evidence": "measured native Regular facts",
+          "construction_reference": "data/de-cursive-outlines.json#/variants/01/provenance/facts"
         }
       ],
       "design_status": {
-        "status": "new_unselected_cyrillic_candidates",
+        "status": "new_unselected_handwritten_candidates",
         "primary_variant": null,
         "technical_default_variant": "01",
-        "final_contour_acceptance": "pending user visual review",
+        "final_contour_acceptance": "pending user review",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "User rejected g-like silhouette; new pedestal forms proposed. No new primary is selected.",
+        "silhouette_selection": "Handwritten skeleton required; two upper-ascender one-counter forms proposed after rejecting two-storey g and printed pedestal.",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
         {
           "id": "01",
-          "name": "Наклонная опора",
+          "name": "Сдержанный загиб",
           "selection_status": "unselected_proposal",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
-            "name": "Наклонная опора",
+            "name": "Сдержанный загиб",
             "unicode": "U+0434",
             "glyph": "uni0434",
-            "construction": "Asymmetrical stool: thin sloped left stroke, flat roof, upright 68-unit right stem, explicit platform and two short feet.",
-            "status": "unselected Cyrillic design study",
-            "advance": 470,
+            "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
+            "status": "unselected handwritten Cyrillic design study",
+            "advance": 408,
             "bbox_cubic": [
-              10,
-              -96,
-              459,
-              510
+              23,
+              -9,
+              383,
+              740
             ],
             "hmtx": [
-              470,
-              10
+              408,
+              23
             ],
-            "cubic_nodes": 71,
-            "ttf_points": 87,
+            "cubic_nodes": 49,
+            "ttf_points": 68,
             "contours": 2,
             "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
             "design_provenance": {
-              "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
               "exact_native_fragments": [
-                "u outer right cap, translated +12 x and reversed: (377,510) C(386,510)(392,504)(392,495)",
-                "u inner right cap, translated +12 x and reversed: (324,449) C(324,473)(318,480)(299,482)",
-                "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+                "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+                "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+                "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+                "o complete inner counter: four exact native cubic segments, unchanged"
               ],
               "proposed_fragments": [
-                "new left cubic and its translated inner boundary (25,-6), without scaling",
-                "new roof-to-left-stroke transitions",
-                "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+                "outer upper-right o quarter replaced by continuous upper curl",
+                "upper entry and descending spine drawn anew without foreign outline transfer",
+                "narrow open neck from inner upper stroke into native o crown"
               ],
-              "measured_donor_context": {
-                "right_stem": 68,
-                "x_height": 510,
-                "native_n_serif_rounding_height": [
-                  11,
-                  12
+              "reference_skeleton_only": [
+                "Lora Italic U+0434",
+                "Literata Italic U+0434",
+                "Alegreya Italic U+0434",
+                "EB Garamond Italic U+0434",
+                "Playfair Display Italic U+0434"
+              ],
+              "facts": {
+                "native_o_advance": 408,
+                "native_o_bbox": [
+                  23,
+                  -9,
+                  383,
+                  516
                 ],
-                "bracketleft_lower_bound": -98,
-                "bracketleft_shelf_thickness": 24
+                "native_o_counter_bbox": [
+                  99,
+                  16,
+                  307,
+                  491
+                ],
+                "native_o_side_thickness": 76,
+                "native_o_crown_thickness": 25,
+                "native_n_d_stem": 68,
+                "native_b_d_ascender": 740
+              },
+              "proposals": {
+                "upper_limit": 740,
+                "new_stem_at_y510": 68,
+                "upper_crown_vertical_thickness": 25,
+                "upper_terminal_profile": "rounded compact stroke cap; no ball"
               }
             },
             "checks": {
@@ -1134,63 +1157,79 @@
               "all_exports_reopened": true
             }
           },
-          "file": "studies/regular/de-cyrillic/de-01.ttf"
+          "file": "studies/regular/de-cursive/de-01.ttf"
         },
         {
           "id": "02",
-          "name": "Дуговое плечо",
+          "name": "Открытая дуга",
           "selection_status": "unselected_proposal",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
-            "name": "Дуговое плечо",
+            "name": "Открытая дуга",
             "unicode": "U+0434",
             "glyph": "uni0434",
-            "construction": "Asymmetrical tapered arch: visibly sloped thin left stroke, original n right shoulder and 68-unit upright right stem, explicit platform and two short feet.",
-            "status": "unselected Cyrillic design study",
-            "advance": 470,
+            "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
+            "status": "unselected handwritten Cyrillic design study",
+            "advance": 408,
             "bbox_cubic": [
-              10,
-              -96,
-              459,
-              516
+              23,
+              -9,
+              383,
+              740
             ],
             "hmtx": [
-              470,
-              10
+              408,
+              23
             ],
-            "cubic_nodes": 64,
-            "ttf_points": 82,
+            "cubic_nodes": 49,
+            "ttf_points": 69,
             "contours": 2,
             "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
             "design_provenance": {
-              "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
               "exact_native_fragments": [
-                "n outer shoulder: (158,450) C(211,501)(248,516)(293,516) C(353,516)(392,473)(392,392)",
-                "n inner right shoulder reversed: (324,381) C(324,446)(299,470)(255,470)",
-                "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+                "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+                "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+                "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+                "o complete inner counter: four exact native cubic segments, unchanged"
               ],
               "proposed_fragments": [
-                "new thin sloped left stroke and lower bracket",
-                "new left shoulder matched to native crown tangents",
-                "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+                "outer upper-right o quarter replaced by continuous upper curl",
+                "upper entry and descending spine drawn anew without foreign outline transfer",
+                "narrow open neck from inner upper stroke into native o crown"
               ],
-              "measured_donor_context": {
-                "right_stem": 68,
-                "x_height": 510,
-                "round_overshoot": 516,
-                "native_n_crown_peaks": [
-                  [
-                    293,
-                    516
-                  ],
-                  [
-                    255,
-                    470
-                  ]
+              "reference_skeleton_only": [
+                "Lora Italic U+0434",
+                "Literata Italic U+0434",
+                "Alegreya Italic U+0434",
+                "EB Garamond Italic U+0434",
+                "Playfair Display Italic U+0434"
+              ],
+              "facts": {
+                "native_o_advance": 408,
+                "native_o_bbox": [
+                  23,
+                  -9,
+                  383,
+                  516
                 ],
-                "bracketleft_lower_bound": -98,
-                "bracketleft_shelf_thickness": 24
+                "native_o_counter_bbox": [
+                  99,
+                  16,
+                  307,
+                  491
+                ],
+                "native_o_side_thickness": 76,
+                "native_o_crown_thickness": 25,
+                "native_n_d_stem": 68,
+                "native_b_d_ascender": 740
+              },
+              "proposals": {
+                "upper_limit": 740,
+                "new_stem_at_y510": 68,
+                "upper_crown_vertical_thickness": 25,
+                "upper_terminal_profile": "rounded compact stroke cap; no ball"
               }
             },
             "checks": {
@@ -1201,13 +1240,13 @@
               "all_exports_reopened": true
             }
           },
-          "file": "studies/regular/de-cyrillic/de-02.ttf"
+          "file": "studies/regular/de-cursive/de-02.ttf"
         }
       ],
       "metrics": {
         "units": "font units",
-        "source": "studies/regular/de-cyrillic/metrics.json",
-        "proposal_dimensions": "Advance 470, platform 25 and feet -96 are design proposals; native stem 68 and height zones are donor facts."
+        "source": "studies/regular/de-cursive/metrics.json",
+        "note": "advance408 matches nativeo; bounds23,-9,383,740. New upper stroke design remains a proposal."
       },
       "features": [
         {
@@ -1218,12 +1257,13 @@
         }
       ],
       "checks": {
-        "this_pass": "Eight font combinations built and reopened; all-other-glyph and layout preservation, sampled topology, duplicate checks, independent export inspection and semantic rebuild comparison passed.",
-        "report": "studies/regular/de-cyrillic/export-audit.json",
+        "this_pass": "Eight combinations built and independently inspected; semantic rebuild verification recorded separately.",
+        "report": "studies/regular/de-cursive/export-audit.json",
+        "visual_acceptance": "pending",
+        "kerning": "no donor pairs assigned; final spacing pending",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "visual_acceptance": "pending",
-        "kerning": "new de has no assigned donor pairs; final spacing pending"
+        "ttf_curve_limit": "Source G1 exact; TTF integer rounding gives sampled deviation <=0.56u and a local 12.68-degree small-terminal tangent change in01."
       },
       "confidence": {
         "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
@@ -1231,11 +1271,10 @@
         "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
       },
       "paths": {
-        "study_directory": "studies/regular/de-cyrillic",
-        "readme": "studies/regular/de-cyrillic/README.md",
-        "design_notes": "data/de-cyrillic-outlines.json",
-        "rejected_exploration": "studies/regular/de-native",
-        "previous_loop_study": "studies/regular/de-loop"
+        "study_directory": "studies/regular/de-cursive",
+        "readme": "studies/regular/de-cursive/README.md",
+        "design_notes": "data/de-cursive-outlines.json",
+        "reference_research": "studies/reference-analysis/cursive-de"
       },
       "instruction_deviations": [
         {
@@ -1248,16 +1287,12 @@
       "construction_choices": {
         "evidence": "unselected current design proposal",
         "values": {
-          "advance": 470,
-          "platform": 25,
-          "feet_depth": -96
+          "advance": 408,
+          "upper_limit": 740,
+          "new_stem_at_y510": 68,
+          "upper_crown_thickness": 25
         },
-        "native_donor_facts": {
-          "right_stem": 68,
-          "flat_height": 510,
-          "round_height": 516
-        },
-        "reference": "data/de-cyrillic-outlines.json"
+        "reference": "data/de-cursive-outlines.json"
       },
       "history": [
         {
@@ -1838,6 +1873,189 @@
             "new_exploration": "studies/regular/de-native",
             "current_exploration": "studies/regular/de-cyrillic"
           }
+        },
+        {
+          "status": "rejected_printed_pedestal_studies",
+          "scope": "de-cyrillic historical records, rejected by explicit user feedback",
+          "donors": [
+            {
+              "glyph": "u",
+              "role": "Variant 01 outer and inner right cap, reversed and translated +12 x without scaling.",
+              "relationship": "exact native cubic fragments",
+              "evidence": "verified pinned source controls",
+              "construction_reference": "data/de-cyrillic-outlines.json#/variants/01/provenance"
+            },
+            {
+              "glyph": "n",
+              "role": "Variant 02 shoulder; native outer foot bracket in both variants.",
+              "relationship": "exact native cubic fragments",
+              "evidence": "verified pinned source controls",
+              "construction_reference": "data/de-cyrillic-outlines.json#/variants/02/provenance"
+            }
+          ],
+          "variants": [
+            {
+              "id": "01",
+              "name": "Наклонная опора",
+              "selection_status": "rejected_by_user_printed_skeleton",
+              "glyph": "uni0434",
+              "feature": null,
+              "measured_current_build": {
+                "name": "Наклонная опора",
+                "unicode": "U+0434",
+                "glyph": "uni0434",
+                "construction": "Asymmetrical stool: thin sloped left stroke, flat roof, upright 68-unit right stem, explicit platform and two short feet.",
+                "status": "unselected Cyrillic design study",
+                "advance": 470,
+                "bbox_cubic": [
+                  10,
+                  -96,
+                  459,
+                  510
+                ],
+                "hmtx": [
+                  470,
+                  10
+                ],
+                "cubic_nodes": 71,
+                "ttf_points": 87,
+                "contours": 2,
+                "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+                "design_provenance": {
+                  "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+                  "exact_native_fragments": [
+                    "u outer right cap, translated +12 x and reversed: (377,510) C(386,510)(392,504)(392,495)",
+                    "u inner right cap, translated +12 x and reversed: (324,449) C(324,473)(318,480)(299,482)",
+                    "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+                  ],
+                  "proposed_fragments": [
+                    "new left cubic and its translated inner boundary (25,-6), without scaling",
+                    "new roof-to-left-stroke transitions",
+                    "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+                  ],
+                  "measured_donor_context": {
+                    "right_stem": 68,
+                    "x_height": 510,
+                    "native_n_serif_rounding_height": [
+                      11,
+                      12
+                    ],
+                    "bracketleft_lower_bound": -98,
+                    "bracketleft_shelf_thickness": 24
+                  }
+                },
+                "checks": {
+                  "sampled_topology_valid": true,
+                  "adjacent_cubic_duplicates": 0,
+                  "all_other_glyphs_and_hmtx_unchanged": true,
+                  "gsub_unchanged_ss06_legacy_preserved": true,
+                  "all_exports_reopened": true
+                }
+              },
+              "file": "studies/regular/de-cyrillic/de-01.ttf"
+            },
+            {
+              "id": "02",
+              "name": "Дуговое плечо",
+              "selection_status": "rejected_by_user_printed_skeleton",
+              "glyph": "uni0434",
+              "feature": null,
+              "measured_current_build": {
+                "name": "Дуговое плечо",
+                "unicode": "U+0434",
+                "glyph": "uni0434",
+                "construction": "Asymmetrical tapered arch: visibly sloped thin left stroke, original n right shoulder and 68-unit upright right stem, explicit platform and two short feet.",
+                "status": "unselected Cyrillic design study",
+                "advance": 470,
+                "bbox_cubic": [
+                  10,
+                  -96,
+                  459,
+                  516
+                ],
+                "hmtx": [
+                  470,
+                  10
+                ],
+                "cubic_nodes": 64,
+                "ttf_points": 82,
+                "contours": 2,
+                "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+                "design_provenance": {
+                  "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+                  "exact_native_fragments": [
+                    "n outer shoulder: (158,450) C(211,501)(248,516)(293,516) C(353,516)(392,473)(392,392)",
+                    "n inner right shoulder reversed: (324,381) C(324,446)(299,470)(255,470)",
+                    "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+                  ],
+                  "proposed_fragments": [
+                    "new thin sloped left stroke and lower bracket",
+                    "new left shoulder matched to native crown tangents",
+                    "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+                  ],
+                  "measured_donor_context": {
+                    "right_stem": 68,
+                    "x_height": 510,
+                    "round_overshoot": 516,
+                    "native_n_crown_peaks": [
+                      [
+                        293,
+                        516
+                      ],
+                      [
+                        255,
+                        470
+                      ]
+                    ],
+                    "bracketleft_lower_bound": -98,
+                    "bracketleft_shelf_thickness": 24
+                  }
+                },
+                "checks": {
+                  "sampled_topology_valid": true,
+                  "adjacent_cubic_duplicates": 0,
+                  "all_other_glyphs_and_hmtx_unchanged": true,
+                  "gsub_unchanged_ss06_legacy_preserved": true,
+                  "all_exports_reopened": true
+                }
+              },
+              "file": "studies/regular/de-cyrillic/de-02.ttf"
+            }
+          ],
+          "metrics": {
+            "units": "font units",
+            "source": "studies/regular/de-cyrillic/metrics.json",
+            "proposal_dimensions": "Advance 470, platform 25 and feet -96 are design proposals; native stem 68 and height zones are donor facts."
+          },
+          "checks": {
+            "this_pass": "Eight font combinations built and reopened; all-other-glyph and layout preservation, sampled topology, duplicate checks, independent export inspection and semantic rebuild comparison passed.",
+            "report": "studies/regular/de-cyrillic/export-audit.json",
+            "fontbakery": "not run",
+            "hyperglot": "not run",
+            "visual_acceptance": "pending",
+            "kerning": "new de has no assigned donor pairs; final spacing pending"
+          },
+          "construction_choices": {
+            "evidence": "unselected current design proposal",
+            "values": {
+              "advance": 470,
+              "platform": 25,
+              "feet_depth": -96
+            },
+            "native_donor_facts": {
+              "right_stem": 68,
+              "flat_height": 510,
+              "round_height": 516
+            },
+            "reference": "data/de-cyrillic-outlines.json"
+          },
+          "paths": {
+            "study_directory": "studies/regular/de-cyrillic",
+            "readme": "studies/regular/de-cyrillic/README.md",
+            "design_notes": "data/de-cyrillic-outlines.json",
+            "rejected_exploration": "studies/regular/de-native",
+            "previous_loop_study": "studies/regular/de-loop"
+          }
         }
       ],
       "explorations": {
@@ -1861,7 +2079,7 @@
             "Наклонная опора",
             "Дуговое плечо"
           ],
-          "status": "unselected proposals",
+          "status": "both rejected by user: violates agreed cursive lowercase approach; retained history",
           "dimensions_proposed": {
             "advance": 470,
             "feet_depth": -96,
@@ -1873,9 +2091,20 @@
             "round_top": 516
           },
           "source_provenance": "data/de-cyrillic-outlines.json#/variants"
+        },
+        "cursive_reference_research": {
+          "path": "studies/reference-analysis/cursive-de",
+          "status": "actual Cyrillic font outlines and OpenType variants under study",
+          "primary_variant": null
+        },
+        "handwritten_upper_ascender": {
+          "path": "studies/regular/de-cursive",
+          "design_data": "data/de-cursive-outlines.json",
+          "status": "two unselected proposals",
+          "primary_variant": null
         }
       },
-      "variants_scope": "Current de-cyrillic proposals in separate fonts; historical de-loop variants are in history."
+      "variants_scope": "Current de-cursive proposals in separate fonts; earlier designs retained in history/explorations."
     },
     {
       "glyph": "uni0436",
@@ -3868,5 +4097,12 @@
     "project_rules": "CLAUDE.md",
     "instruction": "docs/instruction.md",
     "latin_parameters": "data/params.json"
+  },
+  "lowercase_skeleton_policy": {
+    "source": "explicit user reiteration 2026-10-15",
+    "skeleton": "Cyrillic handwritten/cursive",
+    "contours": "Instrument Serif Regular vertical stress, contrast, native details and curve character",
+    "separate_italic_style": "still postponed",
+    "third_party_fonts": "research actual Cyrillic constructions and shaping variants; do not transplant outlines"
   }
 }

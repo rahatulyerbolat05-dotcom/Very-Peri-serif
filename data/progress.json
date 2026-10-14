@@ -49,21 +49,25 @@
       "Мягкая"
     ],
     "д": {
-      "status": "new_cyrillic_skeleton_proposals",
+      "status": "new_unselected_handwritten_upper_ascender_proposals",
       "primary": null,
       "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
       "previous_variants": [
         "Овальная петля",
         "Асимметричная петля"
       ],
-      "new_study": "studies/regular/de-cyrillic",
+      "new_study": "studies/regular/de-cursive",
       "new_candidates": [
-        "01 Наклонная опора",
-        "02 Дуговое плечо"
+        "01 Сдержанный загиб",
+        "02 Открытая дуга"
       ],
-      "approval": "none; require recognizable Cyrillic silhouette",
+      "approval": "none; pending user review of handwritten forms",
       "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
-      "rejected_study": "studies/regular/de-native"
+      "pedestal_study_status": "both rejected by user: printed skeleton violates agreed lowercase approach",
+      "rejected_studies": [
+        "studies/regular/de-native",
+        "studies/regular/de-cyrillic"
+      ]
     },
     "й": {
       "variants": [
@@ -85,13 +89,13 @@
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/de-cyrillic",
+  "latest_artifact": "studies/regular/de-cursive",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
   ],
   "rejected_zhe_series": "studies/archive/zhe-rejected",
-  "style_priority": "Measured Instrument Serif Regular geometry; no generic smoothing or no-horizontal rule",
+  "style_priority": "Explicit user selections and handwritten/cursive lowercase skeletons; measured Instrument Serif Regular geometry. No global smoothing or no-horizontal rule.",
   "incoming_claude_work": {
     "status": "analyzed locally; raw archives and full uploaded font collection not included",
     "general_priority": "existing user-approved forms retained",
@@ -154,12 +158,91 @@
         "01 Овальная петля",
         "02 Асимметричная петля"
       ],
-      "subsequent_feedback": "Native g-like proposals rejected as reading like Latin g; explicit Cyrillic pedestal candidates now under review, no primary chosen."
+      "subsequent_feedback": "Native two-storey g probes rejected as Latin g; printed pedestal probes also rejected. Handwritten Cyrillic skeleton required; new primary open."
     },
     "meaning": "Preserve selected u-shaped и; for д this record is historical, drawings remain retained but redesign and primary selection are open."
   },
   "latest_ka_artifact": "studies/regular/ka",
   "latest_de_combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-01.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-02.woff2"
+    }
+  ],
+  "de_legibility_requirement": {
+    "source": "explicit user feedback 2026-10-15",
+    "text": "g-подобный символ воспринимается как джи, а не д; искать другой силуэт",
+    "status": "native-g study rejected, retained as evidence"
+  },
+  "lowercase_skeleton_policy": {
+    "source": "explicit user reiteration 2026-10-15",
+    "skeleton": "Cyrillic handwritten/cursive",
+    "contours": "Instrument Serif Regular vertical stress, contrast, native details and curve character",
+    "separate_italic_style": "still postponed",
+    "third_party_fonts": "research actual Cyrillic constructions and shaping variants; do not transplant outlines"
+  },
+  "cursive_reference_research": "studies/reference-analysis/cursive-de",
+  "last_rejected_de_combinations": [
     {
       "de_variant": "01",
       "ka_variant": "01",
@@ -224,10 +307,5 @@
       "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.glyphs",
       "woff2": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.woff2"
     }
-  ],
-  "de_legibility_requirement": {
-    "source": "explicit user feedback 2026-10-15",
-    "text": "g-подобный символ воспринимается как джи, а не д; искать другой силуэт",
-    "status": "native-g study rejected, retained as evidence"
-  }
+  ]
 }

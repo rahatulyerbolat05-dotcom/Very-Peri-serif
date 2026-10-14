@@ -1,0 +1,513 @@
+{
+  "sources_manifest_sha256": "854e60975ace176def05da31b8c6146bde366db44b0d968f9ee54cdcadb967c6",
+  "harfbuzz_version": "0.56.3",
+  "verified_font_and_license_files": [
+    {
+      "family": "alegreya",
+      "font_sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+      "ofl_sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "family": "cormorantinfant",
+      "font_sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+      "ofl_sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "family": "ebgaramond",
+      "font_sha256": "bba2c4499c93c9612b90b9825d32b07da52fce2fe57562a1eb6b833553f93c4e",
+      "ofl_sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
+    },
+    {
+      "family": "literata",
+      "font_sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+      "ofl_sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e"
+    },
+    {
+      "family": "lora",
+      "font_sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+      "ofl_sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716"
+    },
+    {
+      "family": "playfairdisplay",
+      "font_sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "ofl_sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e"
+    }
+  ],
+  "native_proof_rows": [
+    {
+      "family_key": "cormorantinfant",
+      "label": "Cormorant Infant Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            398,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            465,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "cormorantinfant",
+      "label": "Cormorant Infant Italic / ss10",
+      "language": "ru",
+      "features": {
+        "ss10": true
+      },
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            398,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            465,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "lora",
+      "label": "Lora Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            521,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "lora",
+      "label": "Lora Italic / locl BGR (same de drawing as SRB)",
+      "language": "bg",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            521,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "literata",
+      "label": "Literata Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "opsz": 12,
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            520,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            551,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            520,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            539,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            505,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "alegreya",
+      "label": "Alegreya Italic / locl SRB",
+      "language": "sr",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            444,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            498,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "ebgaramond",
+      "label": "EB Garamond Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            415,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            380,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            509,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "playfairdisplay",
+      "label": "Playfair Display Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            449,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            488,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            567,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

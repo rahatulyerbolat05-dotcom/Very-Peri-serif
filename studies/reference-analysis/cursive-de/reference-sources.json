@@ -1,0 +1,1213 @@
+{
+  "purpose": "Read-only morphological references; no outlines copied into Very Peri Serif glyphs. Proofs use native 1000 UPM outlines, no artificial slant or separate glyph scaling. Full reference font binaries remain in scratch and are not project deliverables.",
+  "sources": [
+    {
+      "family": "lora",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/METADATA.pb",
+      "source_repository": "https://github.com/cyrealtype/Lora-Cyrillic",
+      "upstream_source_commit": "403b1a66ca2e79f81d749c5299559e168591a4df",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/OFL.txt",
+      "license_sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+      "font_files": [
+        {
+          "file": "Lora-Italic[wght].ttf",
+          "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+          "bytes": 221232,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/Lora-Italic%5Bwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "lora/Lora-Italic[wght].ttf",
+        "family": "Lora",
+        "subfamily": "Italic",
+        "version": "Version 3.008",
+        "designer": "Olga Karpushina, Alexei Vanyashin (Cyrillic)",
+        "upm": 1000,
+        "italic_angle": -3.0,
+        "axes": {
+          "wght": 400
+        },
+        "cmap_0434": "uni0434",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              37.95744680851064,
+              -11,
+              451.2857142857143,
+              758
+            ],
+            "advance": 495
+          },
+          {
+            "glyph": "uni0434.loclBGR",
+            "bounds": [
+              14,
+              -271,
+              457,
+              511
+            ],
+            "advance": 518
+          },
+          {
+            "glyph": "uni0434.loclSRB",
+            "bounds": [
+              14,
+              -271,
+              457,
+              511
+            ],
+            "advance": 518
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {
+          "BGR ": [
+            [
+              "locl",
+              "uni0434",
+              "uni0434.loclBGR"
+            ]
+          ],
+          "SRB ": [
+            [
+              "locl",
+              "uni0434",
+              "uni0434.loclSRB"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "family": "literata",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/METADATA.pb",
+      "source_repository": "https://github.com/googlefonts/literata",
+      "upstream_source_commit": "0c2761b727a1b3a7cffd313c37f0f5163dfc7a63",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/OFL.txt",
+      "license_sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+      "font_files": [
+        {
+          "file": "Literata-Italic[opsz,wght].ttf",
+          "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+          "bytes": 902728,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/Literata-Italic%5Bopsz%2Cwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "literata/Literata-Italic[opsz,wght].ttf",
+        "family": "Literata",
+        "subfamily": "Italic",
+        "version": "Version 3.103;gftools[0.9.29]",
+        "designer": "Latin by Veronika Burian and Jose Scaglione. Greek by Irene Vlachou. Cyrillic by Vera Evstafieva",
+        "upm": 1000,
+        "italic_angle": -2.0,
+        "axes": {
+          "opsz": 12,
+          "wght": 400
+        },
+        "cmap_0434": "uni0434",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              48,
+              -14,
+              467,
+              769
+            ],
+            "advance": 520
+          },
+          {
+            "glyph": "uni0434.sc",
+            "bounds": [
+              33,
+              -126,
+              599,
+              553
+            ],
+            "advance": 613
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {
+          "dflt": [
+            [
+              "aalt",
+              "uni0434",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434",
+              "uni0434.sc"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "family": "cormorantinfant",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/METADATA.pb",
+      "source_repository": "https://github.com/CatharsisFonts/Cormorant",
+      "upstream_source_commit": "6d210fd3550b7358ca62d6ba3e354ec1ec940813",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/OFL.txt",
+      "license_sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "font_files": [
+        {
+          "file": "CormorantInfant-Italic[wght].ttf",
+          "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+          "bytes": 717948,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "cormorantinfant/CormorantInfant-Italic[wght].ttf",
+        "family": "Cormorant Infant Light",
+        "subfamily": "Italic",
+        "version": "Version 4.001",
+        "designer": "Christian Thalmann (Catharsis Fonts)",
+        "upm": 1000,
+        "italic_angle": -10.0,
+        "axes": {
+          "wght": 400
+        },
+        "cmap_0434": "uni0434.1",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              32.249929428076335,
+              -14,
+              391.83459318289357,
+              729
+            ],
+            "advance": 412
+          },
+          {
+            "glyph": "uni0434.Ge",
+            "bounds": [
+              -39.350229263329915,
+              -14,
+              320.2344344914873,
+              729
+            ],
+            "advance": 340
+          },
+          {
+            "glyph": "uni0434.loclBGR.ss02",
+            "bounds": [
+              -18.23329469567426,
+              -281,
+              385.75418795072113,
+              409.1428509147981
+            ],
+            "advance": 409
+          },
+          {
+            "glyph": "uni0434.loclSRB",
+            "bounds": [
+              -18.23329469567426,
+              -281,
+              385.75418795072113,
+              409.1428509147981
+            ],
+            "advance": 409
+          },
+          {
+            "glyph": "uni0434.ss09",
+            "bounds": [
+              -18.23329469567426,
+              -281,
+              385.75418795072113,
+              409.1428509147981
+            ],
+            "advance": 409
+          },
+          {
+            "glyph": "uni0434.1",
+            "bounds": [
+              -18.23329469567426,
+              -281,
+              385.75418795072113,
+              409.1428509147981
+            ],
+            "advance": 409
+          },
+          {
+            "glyph": "uni0434.loclBGR",
+            "bounds": [
+              -18.23329469567426,
+              -281,
+              385.75418795072113,
+              409.1428509147981
+            ],
+            "advance": 409
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {
+          "BGR ": [
+            [
+              "locl",
+              "uni0434.1",
+              "uni0434.loclBGR"
+            ],
+            [
+              "ss09",
+              "uni0434.1",
+              "uni0434.ss09"
+            ],
+            [
+              "ss10",
+              "uni0434.1",
+              "uni0434"
+            ]
+          ],
+          "MKD ": [
+            [
+              "ss09",
+              "uni0434.1",
+              "uni0434.ss09"
+            ],
+            [
+              "ss10",
+              "uni0434.1",
+              "uni0434"
+            ]
+          ],
+          "SRB ": [
+            [
+              "locl",
+              "uni0434.1",
+              "uni0434.loclSRB"
+            ],
+            [
+              "ss09",
+              "uni0434.1",
+              "uni0434.ss09"
+            ],
+            [
+              "ss10",
+              "uni0434.1",
+              "uni0434"
+            ]
+          ],
+          "dflt": [
+            [
+              "ss09",
+              "uni0434.1",
+              "uni0434.ss09"
+            ],
+            [
+              "ss10",
+              "uni0434.1",
+              "uni0434"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "family": "cormorantupright",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/METADATA.pb",
+      "source_repository": "https://github.com/CatharsisFonts/Cormorant",
+      "upstream_source_commit": "b1a0a7781e3a59d3c2a96f953650463469a2e841",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/OFL.txt",
+      "license_sha256": "9134ca6996bd33ea2022e109f13f20e29dee1dcd8b2e8878aad576d2ca334e9f",
+      "font_files": [
+        {
+          "file": "CormorantUpright-Regular.ttf",
+          "sha256": "69d6fea133a07cfdeae0e928141822317dc5a4521e568af32dc4edc7456bc1d5",
+          "bytes": 222732,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/CormorantUpright-Regular.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "cormorantupright/CormorantUpright-Regular.ttf",
+        "family": "Cormorant Upright",
+        "subfamily": "Regular",
+        "version": "Version 3.302",
+        "designer": "Christian Thalmann (Catharsis Fonts)",
+        "upm": 1000,
+        "italic_angle": 0.0,
+        "axes": {},
+        "cmap_0434": null,
+        "glyphs": [],
+        "g_name": "g",
+        "cyrl_features_for_de": {}
+      }
+    },
+    {
+      "family": "alegreya",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/METADATA.pb",
+      "source_repository": "https://github.com/huertatipografica/Alegreya",
+      "upstream_source_commit": "1dd6b28b57c50e3168db1cbbb8086e7978abcfbf",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/OFL.txt",
+      "license_sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "font_files": [
+        {
+          "file": "Alegreya-Italic[wght].ttf",
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+          "bytes": 425852,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/Alegreya-Italic%5Bwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "alegreya/Alegreya-Italic[wght].ttf",
+        "family": "Alegreya",
+        "subfamily": "Italic",
+        "version": "Version 2.009",
+        "designer": "Juan Pablo del Peral",
+        "upm": 1000,
+        "italic_angle": -7.0,
+        "axes": {
+          "wght": 400
+        },
+        "cmap_0434": "uni0434",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              30,
+              -12,
+              378,
+              734.4306569343066
+            ],
+            "advance": 402
+          },
+          {
+            "glyph": "uni0434.loclSRB",
+            "bounds": [
+              -80.16,
+              -241,
+              434,
+              470
+            ],
+            "advance": 444
+          },
+          {
+            "glyph": "uni0434.sc",
+            "bounds": [
+              -47,
+              -122,
+              496,
+              502
+            ],
+            "advance": 512
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {
+          "MKD ": [
+            [
+              "aalt",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ]
+          ],
+          "SRB ": [
+            [
+              "aalt",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ],
+            [
+              "locl",
+              "uni0434",
+              "uni0434.loclSRB"
+            ],
+            [
+              "smcp",
+              "uni0434",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ]
+          ],
+          "dflt": [
+            [
+              "aalt",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434",
+              "uni0434.sc"
+            ],
+            [
+              "smcp",
+              "uni0434.loclSRB",
+              "uni0434.sc"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "family": "ebgaramond",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/METADATA.pb",
+      "source_repository": "https://github.com/octaviopardo/EBGaramond12",
+      "upstream_source_commit": "106a4a6d377987459ae5e68673a4570f13b957fb",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/OFL.txt",
+      "license_sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+      "font_files": [
+        {
+          "file": "EBGaramond-Italic[wght].ttf",
+          "sha256": "bba2c4499c93c9612b90b9825d32b07da52fce2fe57562a1eb6b833553f93c4e",
+          "bytes": 754468,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/EBGaramond-Italic%5Bwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "ebgaramond/EBGaramond-Italic[wght].ttf",
+        "family": "EB Garamond",
+        "subfamily": "Italic",
+        "version": "Version 1.003",
+        "designer": "Georg Duffner and Octavio Pardo",
+        "upm": 1000,
+        "italic_angle": -17.199996948242188,
+        "axes": {
+          "wght": 400
+        },
+        "cmap_0434": "uni0434",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              22,
+              -14,
+              395,
+              696
+            ],
+            "advance": 400
+          },
+          {
+            "glyph": "uni0434.SRB",
+            "bounds": [
+              -111.0,
+              -291,
+              458.8,
+              428
+            ],
+            "advance": 442
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {}
+      }
+    },
+    {
+      "family": "playfairdisplay",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/METADATA.pb",
+      "source_repository": "https://github.com/clauseggers/Playfair",
+      "upstream_source_commit": "80a334101928546b04fa9e709ad4b2f11f8a9e10",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "license": "SIL Open Font License 1.1",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/OFL.txt",
+      "license_sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+      "font_files": [
+        {
+          "file": "PlayfairDisplay-Italic[wght].ttf",
+          "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+          "bytes": 278688,
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf"
+        }
+      ],
+      "analysis": {
+        "file": "playfairdisplay/PlayfairDisplay-Italic[wght].ttf",
+        "family": "Playfair Display",
+        "subfamily": "Italic",
+        "version": "Version 1.203",
+        "designer": "Claus Eggers Sørensen",
+        "upm": 1000,
+        "italic_angle": -14.0,
+        "axes": {
+          "wght": 400
+        },
+        "cmap_0434": "uni0434",
+        "glyphs": [
+          {
+            "glyph": "uni0434",
+            "bounds": [
+              21,
+              -14,
+              447,
+              782
+            ],
+            "advance": 487
+          },
+          {
+            "glyph": "uni0434.smcp",
+            "bounds": [
+              -130,
+              -190,
+              667,
+              608
+            ],
+            "advance": 636
+          }
+        ],
+        "g_name": "g",
+        "cyrl_features_for_de": {}
+      }
+    }
+  ],
+  "proof_rows": [
+    {
+      "family_key": "cormorantinfant",
+      "label": "Cormorant Infant Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            398,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.1",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            465,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "cormorantinfant",
+      "label": "Cormorant Infant Italic / ss10",
+      "language": "ru",
+      "features": {
+        "ss10": true
+      },
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            409,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            398,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            412,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            465,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "lora",
+      "label": "Lora Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            521,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            495,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "lora",
+      "label": "Lora Italic / locl BGR (same de drawing as SRB)",
+      "language": "bg",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            518,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            521,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.loclBGR",
+            518,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "literata",
+      "label": "Literata Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "opsz": 12,
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            520,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            551,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            520,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            539,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            505,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            593,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "alegreya",
+      "label": "Alegreya Italic / locl SRB",
+      "language": "sr",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            444,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            409,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434.loclSRB",
+            444,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            498,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "ebgaramond",
+      "label": "EB Garamond Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            415,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            380,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            400,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            509,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "family_key": "playfairdisplay",
+      "label": "Playfair Display Italic / default",
+      "language": "ru",
+      "features": {},
+      "axes": {
+        "wght": 400
+      },
+      "shaped": {
+        "д": [
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ]
+        ],
+        "g": [
+          [
+            "g",
+            449,
+            0,
+            0,
+            0
+          ]
+        ],
+        "доди": [
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni043E",
+            488,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0434",
+            487,
+            0,
+            0,
+            0
+          ],
+          [
+            "uni0438",
+            567,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    }
+  ],
+  "harfbuzz_version": "0.56.3",
+  "google_fonts_snapshot_verification": {
+    "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "pin_source": "git ls-remote https://github.com/google/fonts.git HEAD; all retained font, metadata and OFL bytes re-fetched at this exact commit and compared",
+    "files": [
+      {
+        "cache_path": "lora/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/METADATA.pb",
+        "sha256": "6d9e38cc8926e903359a1c4c358fd2e71864f422aae9550d0d9a2ae0c62ddb8d",
+        "bytes": 1349,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "lora/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/OFL.txt",
+        "sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716",
+        "bytes": 4423,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "lora/Lora-Italic[wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+        "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+        "bytes": 221232,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "literata/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/METADATA.pb",
+        "sha256": "8dbc5c48f254be32c879f006391cb5f6781941beb1a643c13acf66fa989b6a83",
+        "bytes": 1408,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "literata/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/OFL.txt",
+        "sha256": "8742963604cd89dc81437811a850018fc03b2bfad686d7422c8235967c87614e",
+        "bytes": 4389,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "literata/Literata-Italic[opsz,wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/literata/Literata-Italic%5Bopsz%2Cwght%5D.ttf",
+        "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+        "bytes": 902728,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantinfant/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/METADATA.pb",
+        "sha256": "d95cafec323397a710f10bd6696534d326d8cdef06cd3fef856d006b608571ce",
+        "bytes": 1398,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantinfant/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/OFL.txt",
+        "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+        "bytes": 4387,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantinfant/CormorantInfant-Italic[wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf",
+        "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+        "bytes": 717948,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantupright/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/METADATA.pb",
+        "sha256": "961462967c166413b75b3909392e02c9761b0d471302c158bee2f9ce16907259",
+        "bytes": 2529,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantupright/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/OFL.txt",
+        "sha256": "9134ca6996bd33ea2022e109f13f20e29dee1dcd8b2e8878aad576d2ca334e9f",
+        "bytes": 4413,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "cormorantupright/CormorantUpright-Regular.ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/CormorantUpright-Regular.ttf",
+        "sha256": "69d6fea133a07cfdeae0e928141822317dc5a4521e568af32dc4edc7456bc1d5",
+        "bytes": 222732,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "alegreya/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/METADATA.pb",
+        "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+        "bytes": 1375,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "alegreya/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/OFL.txt",
+        "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+        "bytes": 4395,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "alegreya/Alegreya-Italic[wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alegreya/Alegreya-Italic%5Bwght%5D.ttf",
+        "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+        "bytes": 425852,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "ebgaramond/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/METADATA.pb",
+        "sha256": "be94098be975a66281842ed599baefa14959eff9da14c87250678e905f6043f2",
+        "bytes": 1457,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "ebgaramond/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/OFL.txt",
+        "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+        "bytes": 4398,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "ebgaramond/EBGaramond-Italic[wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ebgaramond/EBGaramond-Italic%5Bwght%5D.ttf",
+        "sha256": "bba2c4499c93c9612b90b9825d32b07da52fce2fe57562a1eb6b833553f93c4e",
+        "bytes": 754468,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "playfairdisplay/METADATA.pb",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/METADATA.pb",
+        "sha256": "c9e6a996754f710fb7ff2ba36f8dd807244318d561d63d247a22199ea1a5e94a",
+        "bytes": 1202,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "playfairdisplay/OFL.txt",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/OFL.txt",
+        "sha256": "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e",
+        "bytes": 4449,
+        "local_equals_snapshot": true
+      },
+      {
+        "cache_path": "playfairdisplay/PlayfairDisplay-Italic[wght].ttf",
+        "immutable_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf",
+        "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+        "bytes": 278688,
+        "local_equals_snapshot": true
+      }
+    ]
+  }
+}

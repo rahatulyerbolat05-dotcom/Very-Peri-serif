@@ -1,0 +1,418 @@
+{
+  "status": "passed",
+  "method": "independent read-only export comparison and dense curve sampling",
+  "ttf_woff2_glyphs_combinations_checked": 8,
+  "other_glyph_outlines_metrics_gsub_gdef_and_pair_positions_unchanged": true,
+  "new_de_anchor_classes": [
+    [
+      203,
+      740
+    ],
+    null,
+    [
+      203,
+      -9
+    ],
+    null
+  ],
+  "exact_native_cubic_segments_per_variant": 7,
+  "native_o_inner_counter_unchanged": true,
+  "svg_viewbox": [
+    0,
+    0,
+    540,
+    880
+  ],
+  "svg_screen_bounds": [
+    53,
+    60,
+    413,
+    809
+  ],
+  "exports": [
+    {
+      "file": "de-01.ttf",
+      "points": 68,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -169530.78514606404,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "de-02.ttf",
+      "points": 69,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -171949.7018622695,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka01-shorti02/de-01.ttf",
+      "points": 68,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -169530.78514606404,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka01-shorti02/de-02.ttf",
+      "points": 69,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -171949.7018622695,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka02-shorti01/de-01.ttf",
+      "points": 68,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -169530.78514606404,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka02-shorti01/de-02.ttf",
+      "points": 69,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -171949.7018622695,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka02-shorti02/de-01.ttf",
+      "points": 68,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -169530.78514606404,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "file": "with-ka02-shorti02/de-02.ttf",
+      "points": 69,
+      "contours": 2,
+      "min_raw_chord": 4.47213595499958,
+      "cubic_save_maxerr": 0,
+      "bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "anchors": [
+        [
+          203,
+          740
+        ],
+        [
+          203,
+          -9
+        ]
+      ],
+      "curves": [
+        16,
+        16
+      ],
+      "signed_sampled_areas": [
+        -171949.7018622695,
+        82485.72712916671
+      ],
+      "identity_and_layout": "passed"
+    },
+    {
+      "svg": "01",
+      "screen_bounds": [
+        53,
+        60,
+        413,
+        809
+      ],
+      "data_cubic_exact": true
+    },
+    {
+      "svg": "02",
+      "screen_bounds": [
+        53,
+        60,
+        413,
+        809
+      ],
+      "data_cubic_exact": true
+    }
+  ],
+  "geometry": {
+    "01": {
+      "exact_native_segments": 7,
+      "entire_native_counter_exact": true,
+      "cubic_nodes": 49,
+      "adjacent_cubic_duplicates": 0,
+      "source_G1_max_degrees": 0.0,
+      "ttf_tangent_max_degrees": 12.680383491819796,
+      "largest_ttf_junctions": [
+        {
+          "point": [
+            145,
+            684
+          ],
+          "angle": 12.680383491819796
+        },
+        {
+          "point": [
+            57.5,
+            409.5
+          ],
+          "angle": 1.2074182697257333e-06
+        },
+        {
+          "point": [
+            268.5,
+            673.5
+          ],
+          "angle": 1.2074182697257333e-06
+        },
+        {
+          "point": [
+            154.5,
+            679.5
+          ],
+          "angle": 1.2074182697257333e-06
+        },
+        {
+          "point": [
+            234.0,
+            510.5
+          ],
+          "angle": 8.537736462515939e-07
+        }
+      ],
+      "sampled_source_to_ttf_hausdorff_units": [
+        0.5582042906491589,
+        0.36796527746398433
+      ],
+      "ttf_points": 68
+    },
+    "02": {
+      "exact_native_segments": 7,
+      "entire_native_counter_exact": true,
+      "cubic_nodes": 49,
+      "adjacent_cubic_duplicates": 0,
+      "source_G1_max_degrees": 0.0,
+      "ttf_tangent_max_degrees": 1.8476102659947131,
+      "largest_ttf_junctions": [
+        {
+          "point": [
+            90,
+            662
+          ],
+          "angle": 1.8476102659947131
+        },
+        {
+          "point": [
+            108,
+            644
+          ],
+          "angle": 1.4688007143859483
+        },
+        {
+          "point": [
+            57.5,
+            409.5
+          ],
+          "angle": 1.2074182697257333e-06
+        },
+        {
+          "point": [
+            234.0,
+            510.5
+          ],
+          "angle": 8.537736462515939e-07
+        },
+        {
+          "point": [
+            273.0,
+            494.0
+          ],
+          "angle": 8.537736462515939e-07
+        }
+      ],
+      "sampled_source_to_ttf_hausdorff_units": [
+        0.4055558306036696,
+        0.36796527746398433
+      ],
+      "ttf_points": 69
+    }
+  },
+  "limits": [
+    "Topology uses dense sampling, not an analytic proof.",
+    "Exact G1 applies to cubic source, not rounded TTF curves.",
+    "TTF maximum sampled deviation is about 0.56 font units; variant01 small terminal has a 12.68-degree quantized tangent change.",
+    "Kerning, hinting, visual acceptance, FontBakery and Hyperglot are not completed."
+  ]
+}

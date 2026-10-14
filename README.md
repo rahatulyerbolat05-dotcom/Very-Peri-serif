@@ -3,7 +3,7 @@
 Рабочее кириллическое расширение **Instrument Serif Regular**.
 Здесь сохранены исходники, SVG-презентации, пробные TTF/WOFF2 и проверки
 совместной разработки. Полный алфавит и окончательный кернинг ещё не готовы.
-Курсив пока отложен.
+Отдельный Italic пока отложен; строчные Regular используют письменные скелеты.
 
 Порядок работы: [CLAUDE.md](CLAUDE.md), актуальные
 [решения пользователя](docs/decisions.md), [инструкция](docs/instruction.md).
@@ -22,7 +22,8 @@
 | [й](studies/regular/shorti/), [к](studies/regular/ka/) | Два рисунка каждой буквы, выбор основного открыт |
 | [прежние д](studies/regular/de-loop/) | Сохранены; пользователь запросил переработку |
 | [g-подобные д](studies/regular/de-native/) | Отклонены пользователем: читаются как g; сохранены для истории |
-| [новое исследование д](studies/regular/de-cyrillic/) | Две печатные конструкции с площадкой и короткими ножками; выбор открыт |
+| [печатные д](studies/regular/de-cyrillic/) | Оба рисунка отклонены: не соответствуют письменному принципу строчных |
+| [письменные д](studies/regular/de-cursive/) | Две верхневыносные одночашевые формы; обе пока предложения |
 
 Сборки содержат **абвгдежзийкорсухё**, включая унаследованные а/е/о/р/с/у/х.
 Некоторые формы и промежуточные метрики в ранних папках относятся к той
@@ -31,7 +32,16 @@
 
 ![Два рисунка к и исходные латинские соседи](studies/regular/ka/comparison.svg)
 
-![Две кириллические д и исходные латинские соседи](studies/regular/de-cyrillic/comparison.svg)
+Актуальное направление строчных: письменные/курсивные скелеты с вертикальной
+осью, контрастом и деталями Instrument Serif Regular. Отдельное начертание
+Italic остаётся отложенным. Прежние запреты арок из исторической инструкции
+исправлены; уже выбранные глифы сохраняются.
+
+![Две письменные д с выбранной б и оригинальными o/d/g](studies/regular/de-cursive/comparison.svg)
+
+[Исследование реальных кириллических конструкций д](studies/reference-analysis/cursive-de/)
+сравнивает восемь форм/настроек из шести шрифтов с настоящими U+0434,
+локализациями и ss10. Источники закреплены по коммиту и SHA-256.
 
 Пробные шрифты можно скачать непосредственно из папок исследований.
 Для к есть четыре сочетания двух головок и двух краток й. Новое исследование д
@@ -51,6 +61,8 @@ python3 -m venv .venv
 .venv/bin/python tools/build_ka.py --base-dir build/regular/shorti
 .venv/bin/python tools/build_de_native.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_cyrillic.py --base-dir build/regular/ka
+.venv/bin/python tools/build_de_cursive.py --base-dir build/regular/ka
+.venv/bin/python tools/research_cursive_de.py
 .venv/bin/python tools/verify_studies.py
 .venv/bin/python tools/verify_studies.py --rebuilt-dir build/regular
 ```
