@@ -17,7 +17,9 @@ UHEAD = lambda dx: shift(AND(U, rect(-50, 400, 150, 700)), dx)               # �
 I_LOW = lambda dx: shift(AND(I, rect(-50, -50, 400, 400)), dx)               # низ ı с опорными засечками
 
 def bowl_b():            # ь от b: стойка 62–130 срезана на 510, чаша до x=402
-    return SUB(B, rect(0, 512, 150, 800)), 62, 402
+    # стойку b выше 400 убираем целиком (до x=128, чашу и её верхний стык правее не трогаем): верх стойки берётся у ı или u,
+    # иначе плоский срез b перекрывает пик флажка и ь читается как «D»
+    return SUB(B, rect(0, 400, 128, 800)), 62, 402
 def bowl_p():            # ь от p: стойка 73–141, спуск срезан, чаша до x=414, головка своя
     # спуск p с опорной засечкой (до x=223) режем целиком ниже -12; ствол -12…0 срезаем, дно чаши (до -9) не трогаем
     return SUB(SUB(P, rect(-50, -300, 800, -12)), rect(0, -12, 150, 0)), 73, 414
@@ -26,7 +28,11 @@ def build(kind, heads, gap):
     body, stem_x, bowl_r = bowl_b() if kind == "b" else bowl_p()
     right_x = bowl_r + gap
     if kind == "b":
-        left = OR(body, FLAG(stem_x - 79) if heads == "flag" else UHEAD(stem_x - 70))
+        head = FLAG(stem_x - 79) if heads == "flag" else UHEAD(stem_x - 70)
+        left = OR(body, head)
+        # остаток выносного b (2 единицы стойки) срезаем ровно по верху головки: без «зазубрины»;
+        # верх чаши (516) начинается правее x=196, срез до x=170 его не задевает
+        left = SUB(left, rect(-50, head.bounds[3], 170, 900))
     else:
         left = OR(body, FOOT_L(stem_x)) if heads == "flag" else OR(SUB(body, rect(0, 440, 150, 800)), UHEAD(stem_x - 70), FOOT_L(stem_x))
     if heads == "flag": right = shift(I, right_x - 79)
