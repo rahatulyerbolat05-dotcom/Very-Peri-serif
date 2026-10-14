@@ -1,0 +1,82 @@
+{
+  "01": {
+    "bounds": [
+      10,
+      -96,
+      459,
+      510
+    ],
+    "area": 66431.0578577127,
+    "contours": 2,
+    "counters": 1,
+    "minimum_segment_chord": 14.142135623730951,
+    "maximum_tangent_error_degrees": 8.5e-07,
+    "left_stroke_samples": [
+      {
+        "y": 120,
+        "outer_x": 103.3042,
+        "nearest_counter_distance": 25.6382
+      },
+      {
+        "y": 180,
+        "outer_x": 120.0497,
+        "nearest_counter_distance": 25.709
+      },
+      {
+        "y": 240,
+        "outer_x": 133.8971,
+        "nearest_counter_distance": 25.7033
+      },
+      {
+        "y": 300,
+        "outer_x": 146.3298,
+        "nearest_counter_distance": 25.6915
+      },
+      {
+        "y": 360,
+        "outer_x": 158.1758,
+        "nearest_counter_distance": 25.6877
+      }
+    ]
+  },
+  "02": {
+    "bounds": [
+      10,
+      -96,
+      459,
+      516
+    ],
+    "area": 68903.0542549278,
+    "contours": 2,
+    "counters": 1,
+    "minimum_segment_chord": 14.142135623730951,
+    "maximum_tangent_error_degrees": 8.5e-07,
+    "left_stroke_samples": [
+      {
+        "y": 120,
+        "outer_x": 97.2667,
+        "nearest_counter_distance": 26.5172
+      },
+      {
+        "y": 180,
+        "outer_x": 112.5154,
+        "nearest_counter_distance": 24.8519
+      },
+      {
+        "y": 240,
+        "outer_x": 124.8368,
+        "nearest_counter_distance": 24.6423
+      },
+      {
+        "y": 300,
+        "outer_x": 130.6173,
+        "nearest_counter_distance": 30.2441
+      },
+      {
+        "y": 360,
+        "outer_x": 133.8417,
+        "nearest_counter_distance": 38.4984
+      }
+    ]
+  }
+}

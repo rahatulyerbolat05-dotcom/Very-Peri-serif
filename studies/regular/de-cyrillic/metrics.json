@@ -1,0 +1,165 @@
+{
+  "variants": {
+    "01": {
+      "name": "Наклонная опора",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Asymmetrical stool: thin sloped left stroke, flat roof, upright 68-unit right stem, explicit platform and two short feet.",
+      "status": "unselected Cyrillic design study",
+      "advance": 470,
+      "bbox_cubic": [
+        10,
+        -96,
+        459,
+        510
+      ],
+      "hmtx": [
+        470,
+        10
+      ],
+      "cubic_nodes": 71,
+      "ttf_points": 87,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "exact_native_fragments": [
+          "u outer right cap, translated +12 x and reversed: (377,510) C(386,510)(392,504)(392,495)",
+          "u inner right cap, translated +12 x and reversed: (324,449) C(324,473)(318,480)(299,482)",
+          "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+        ],
+        "proposed_fragments": [
+          "new left cubic and its translated inner boundary (25,-6), without scaling",
+          "new roof-to-left-stroke transitions",
+          "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+        ],
+        "measured_donor_context": {
+          "right_stem": 68,
+          "x_height": 510,
+          "native_n_serif_rounding_height": [
+            11,
+            12
+          ],
+          "bracketleft_lower_bound": -98,
+          "bracketleft_shelf_thickness": 24
+        }
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    },
+    "02": {
+      "name": "Дуговое плечо",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Asymmetrical tapered arch: visibly sloped thin left stroke, original n right shoulder and 68-unit upright right stem, explicit platform and two short feet.",
+      "status": "unselected Cyrillic design study",
+      "advance": 470,
+      "bbox_cubic": [
+        10,
+        -96,
+        459,
+        516
+      ],
+      "hmtx": [
+        470,
+        10
+      ],
+      "cubic_nodes": 64,
+      "ttf_points": 82,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "exact_native_fragments": [
+          "n outer shoulder: (158,450) C(211,501)(248,516)(293,516) C(353,516)(392,473)(392,392)",
+          "n inner right shoulder reversed: (324,381) C(324,446)(299,470)(255,470)",
+          "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+        ],
+        "proposed_fragments": [
+          "new thin sloped left stroke and lower bracket",
+          "new left shoulder matched to native crown tangents",
+          "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+        ],
+        "measured_donor_context": {
+          "right_stem": 68,
+          "x_height": 510,
+          "round_overshoot": 516,
+          "native_n_crown_peaks": [
+            [
+              293,
+              516
+            ],
+            [
+              255,
+              470
+            ]
+          ],
+          "bracketleft_lower_bound": -98,
+          "bracketleft_shelf_thickness": 24
+        }
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    }
+  },
+  "combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-02.ttf"
+    }
+  ]
+}

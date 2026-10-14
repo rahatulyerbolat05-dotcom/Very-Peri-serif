@@ -49,19 +49,21 @@
       "Мягкая"
     ],
     "д": {
-      "status": "redesign_requested",
+      "status": "new_cyrillic_skeleton_proposals",
       "primary": null,
       "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
       "previous_variants": [
         "Овальная петля",
         "Асимметричная петля"
       ],
-      "new_study": "studies/regular/de-native",
+      "new_study": "studies/regular/de-cyrillic",
       "new_candidates": [
-        "Короткое ухо (native g.ss01)",
-        "Каплевидное ухо (native g)"
+        "01 Наклонная опора",
+        "02 Дуговое плечо"
       ],
-      "approval": "none; user asked to redesign current de"
+      "approval": "none; require recognizable Cyrillic silhouette",
+      "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
+      "rejected_study": "studies/regular/de-native"
     },
     "й": {
       "variants": [
@@ -83,7 +85,7 @@
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/de-native",
+  "latest_artifact": "studies/regular/de-cyrillic",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -98,7 +100,7 @@
   },
   "reserve_zhe": "studies/archive/zhe-refined",
   "schema_version": 1,
-  "snapshot_date": "2026-10-14",
+  "snapshot_date": "2026-10-15",
   "latest_combinations": [
     {
       "ka_variant": "01",
@@ -151,9 +153,10 @@
       "variants": [
         "01 Овальная петля",
         "02 Асимметричная петля"
-      ]
+      ],
+      "subsequent_feedback": "Native g-like proposals rejected as reading like Latin g; explicit Cyrillic pedestal candidates now under review, no primary chosen."
     },
-    "meaning": "Preserve selected construction families; do not infer a primary variant for д."
+    "meaning": "Preserve selected u-shaped и; for д this record is historical, drawings remain retained but redesign and primary selection are open."
   },
   "latest_ka_artifact": "studies/regular/ka",
   "latest_de_combinations": [
@@ -161,65 +164,70 @@
       "de_variant": "01",
       "ka_variant": "01",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-native/de-01.ttf",
-      "glyphs": "studies/regular/de-native/de-01.glyphs",
-      "woff2": "studies/regular/de-native/de-01.woff2"
+      "ttf": "studies/regular/de-cyrillic/de-01.ttf",
+      "glyphs": "studies/regular/de-cyrillic/de-01.glyphs",
+      "woff2": "studies/regular/de-cyrillic/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "01",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-native/with-ka01-shorti02/de-01.ttf",
-      "glyphs": "studies/regular/de-native/with-ka01-shorti02/de-01.glyphs",
-      "woff2": "studies/regular/de-native/with-ka01-shorti02/de-01.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka01-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka01-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka01-shorti02/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "02",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-native/with-ka02-shorti01/de-01.ttf",
-      "glyphs": "studies/regular/de-native/with-ka02-shorti01/de-01.glyphs",
-      "woff2": "studies/regular/de-native/with-ka02-shorti01/de-01.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka02-shorti01/de-01.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti01/de-01.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka02-shorti01/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "02",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-native/with-ka02-shorti02/de-01.ttf",
-      "glyphs": "studies/regular/de-native/with-ka02-shorti02/de-01.glyphs",
-      "woff2": "studies/regular/de-native/with-ka02-shorti02/de-01.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka02-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka02-shorti02/de-01.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "01",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-native/de-02.ttf",
-      "glyphs": "studies/regular/de-native/de-02.glyphs",
-      "woff2": "studies/regular/de-native/de-02.woff2"
+      "ttf": "studies/regular/de-cyrillic/de-02.ttf",
+      "glyphs": "studies/regular/de-cyrillic/de-02.glyphs",
+      "woff2": "studies/regular/de-cyrillic/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "01",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-native/with-ka01-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-native/with-ka01-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-native/with-ka01-shorti02/de-02.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka01-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka01-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka01-shorti02/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "02",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-native/with-ka02-shorti01/de-02.ttf",
-      "glyphs": "studies/regular/de-native/with-ka02-shorti01/de-02.glyphs",
-      "woff2": "studies/regular/de-native/with-ka02-shorti01/de-02.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka02-shorti01/de-02.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti01/de-02.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka02-shorti01/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "02",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-native/with-ka02-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-native/with-ka02-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-native/with-ka02-shorti02/de-02.woff2"
+      "ttf": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.woff2"
     }
-  ]
+  ],
+  "de_legibility_requirement": {
+    "source": "explicit user feedback 2026-10-15",
+    "text": "g-подобный символ воспринимается как джи, а не д; искать другой силуэт",
+    "status": "native-g study rejected, retained as evidence"
+  }
 }

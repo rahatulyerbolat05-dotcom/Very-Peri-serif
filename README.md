@@ -21,7 +21,8 @@
 | [и](studies/regular/i-selected/) | Основная чашеобразная; диагональная — ss07 |
 | [й](studies/regular/shorti/), [к](studies/regular/ka/) | Два рисунка каждой буквы, выбор основного открыт |
 | [прежние д](studies/regular/de-loop/) | Сохранены; пользователь запросил переработку |
-| [новое исследование д](studies/regular/de-native/) | Две пробы родной g-подобной конструкции, не утверждены |
+| [g-подобные д](studies/regular/de-native/) | Отклонены пользователем: читаются как g; сохранены для истории |
+| [новое исследование д](studies/regular/de-cyrillic/) | Две печатные конструкции с площадкой и короткими ножками; выбор открыт |
 
 Сборки содержат **абвгдежзийкорсухё**, включая унаследованные а/е/о/р/с/у/х.
 Некоторые формы и промежуточные метрики в ранних папках относятся к той
@@ -30,7 +31,7 @@
 
 ![Два рисунка к и исходные латинские соседи](studies/regular/ka/comparison.svg)
 
-![Новые пробы д, исходные соседи и предыдущая д](studies/regular/de-native/comparison.svg)
+![Две кириллические д и исходные латинские соседи](studies/regular/de-cyrillic/comparison.svg)
 
 Пробные шрифты можно скачать непосредственно из папок исследований.
 Для к есть четыре сочетания двух головок и двух краток й. Новое исследование д
@@ -49,6 +50,7 @@ python3 -m venv .venv
 .venv/bin/python tools/build_shorti.py
 .venv/bin/python tools/build_ka.py --base-dir build/regular/shorti
 .venv/bin/python tools/build_de_native.py --base-dir build/regular/ka
+.venv/bin/python tools/build_de_cyrillic.py --base-dir build/regular/ka
 .venv/bin/python tools/verify_studies.py
 .venv/bin/python tools/verify_studies.py --rebuilt-dir build/regular
 ```

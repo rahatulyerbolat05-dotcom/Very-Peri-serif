@@ -1,0 +1,1642 @@
+{
+  "variants": {
+    "01": {
+      "name": "Наклонная опора",
+      "advance": 470,
+      "construction": "Asymmetrical stool: thin sloped left stroke, flat roof, upright 68-unit right stem, explicit platform and two short feet.",
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              43,
+              26
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              57,
+              28
+            ],
+            [
+              64.5,
+              36.25
+            ],
+            [
+              76,
+              55
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              122,
+              130
+            ],
+            [
+              153,
+              352
+            ],
+            [
+              182,
+              474
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              184.37704918032787,
+              484
+            ],
+            [
+              179,
+              486
+            ],
+            [
+              166,
+              488
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              159,
+              489.0769230769231
+            ],
+            [
+              154,
+              493
+            ],
+            [
+              154,
+              499
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              154,
+              506
+            ],
+            [
+              159,
+              510
+            ],
+            [
+              169,
+              510
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              377,
+              510
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              386,
+              510
+            ],
+            [
+              392,
+              504
+            ],
+            [
+              392,
+              495
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              392,
+              67
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              392,
+              39
+            ],
+            [
+              398,
+              30
+            ],
+            [
+              426,
+              26
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              440,
+              24
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              447,
+              23
+            ],
+            [
+              459,
+              15
+            ],
+            [
+              459,
+              4
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              459,
+              -84
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              459,
+              -92
+            ],
+            [
+              455,
+              -96
+            ],
+            [
+              447,
+              -96
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              439,
+              -96
+            ],
+            [
+              435,
+              -92
+            ],
+            [
+              435,
+              -84
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              435,
+              -43
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              435,
+              -15
+            ],
+            [
+              429,
+              0
+            ],
+            [
+              401,
+              0
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              68,
+              0
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              40,
+              0
+            ],
+            [
+              34,
+              -15
+            ],
+            [
+              34,
+              -43
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              34,
+              -84
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              34,
+              -92
+            ],
+            [
+              30,
+              -96
+            ],
+            [
+              22,
+              -96
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              14,
+              -96
+            ],
+            [
+              10,
+              -92
+            ],
+            [
+              10,
+              -84
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              10,
+              4
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              10,
+              15
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              29,
+              24
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ],
+        [
+          "moveTo",
+          [
+            [
+              134,
+              25
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              290,
+              25
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              318,
+              25
+            ],
+            [
+              324,
+              39
+            ],
+            [
+              324,
+              67
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              324,
+              449
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              324,
+              473
+            ],
+            [
+              318,
+              480
+            ],
+            [
+              299,
+              482
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              254,
+              486.7368421052632
+            ],
+            [
+              212,
+              489.0344827586207
+            ],
+            [
+              207,
+              468
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              178,
+              346
+            ],
+            [
+              147,
+              124
+            ],
+            [
+              101,
+              49
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              95.02,
+              39.25
+            ],
+            [
+              111,
+              25
+            ],
+            [
+              134,
+              25
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "provenance": {
+        "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "exact_native_fragments": [
+          "u outer right cap, translated +12 x and reversed: (377,510) C(386,510)(392,504)(392,495)",
+          "u inner right cap, translated +12 x and reversed: (324,449) C(324,473)(318,480)(299,482)",
+          "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+        ],
+        "proposed_fragments": [
+          "new left cubic and its translated inner boundary (25,-6), without scaling",
+          "new roof-to-left-stroke transitions",
+          "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+        ],
+        "measured_donor_context": {
+          "right_stem": 68,
+          "x_height": 510,
+          "native_n_serif_rounding_height": [
+            11,
+            12
+          ],
+          "bracketleft_lower_bound": -98,
+          "bracketleft_shelf_thickness": 24
+        }
+      },
+      "measured_bounds": [
+        10,
+        -96,
+        459,
+        510
+      ],
+      "loop_count": 2,
+      "counter_count": 1,
+      "anchors": {
+        "top": [
+          235,
+          510
+        ],
+        "bottom": [
+          235,
+          -96
+        ]
+      },
+      "checks": {
+        "sampled_polygon_valid": true,
+        "sampled_rings_simple": true,
+        "no_duplicate_adjacent_points": true,
+        "minimum_explicit_segment_chord": 14.142135623730951,
+        "tangent_new_joins": [
+          {
+            "contour": 0,
+            "point": [
+              76.0,
+              55.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              182.0,
+              474.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              166.0,
+              488.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              154.0,
+              499.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              169.0,
+              510.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              377.0,
+              510.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              392.0,
+              495.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              392.0,
+              67.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              426.0,
+              26.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              440.0,
+              24.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              459.0,
+              4.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              459.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              447.0,
+              -96.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              435.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              435.0,
+              -43.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              401.0,
+              0.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              68.0,
+              0.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              34.0,
+              -43.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              34.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              22.0,
+              -96.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              10.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              10.0,
+              4.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              29.0,
+              24.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "curveTo",
+            "outgoing": "closingLine"
+          },
+          {
+            "contour": 0,
+            "point": [
+              43.0,
+              26.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "closingLine",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              290.0,
+              25.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              324.0,
+              67.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              324.0,
+              449.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              299.0,
+              482.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              207.0,
+              468.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              101.0,
+              49.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              134.0,
+              25.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          }
+        ],
+        "left_stroke_samples": [
+          {
+            "y": 120,
+            "outer_x": 103.3042,
+            "nearest_counter_distance": 25.6382
+          },
+          {
+            "y": 180,
+            "outer_x": 120.0497,
+            "nearest_counter_distance": 25.709
+          },
+          {
+            "y": 240,
+            "outer_x": 133.8971,
+            "nearest_counter_distance": 25.7033
+          },
+          {
+            "y": 300,
+            "outer_x": 146.3298,
+            "nearest_counter_distance": 25.6915
+          },
+          {
+            "y": 360,
+            "outer_x": 158.1758,
+            "nearest_counter_distance": 25.6877
+          }
+        ],
+        "right_stem_thickness": 68,
+        "central_platform_thickness": 25,
+        "feet_depth_proposal": -96
+      }
+    },
+    "02": {
+      "name": "Дуговое плечо",
+      "advance": 470,
+      "construction": "Asymmetrical tapered arch: visibly sloped thin left stroke, original n right shoulder and 68-unit upright right stem, explicit platform and two short feet.",
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              43,
+              26
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              78,
+              31
+            ],
+            [
+              92,
+              98
+            ],
+            [
+              116,
+              194
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              143,
+              302
+            ],
+            [
+              120.9,
+              414.3
+            ],
+            [
+              158,
+              450
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              211,
+              501
+            ],
+            [
+              248,
+              516
+            ],
+            [
+              293,
+              516
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              353,
+              516
+            ],
+            [
+              392,
+              473
+            ],
+            [
+              392,
+              392
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              392,
+              67
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              392,
+              39
+            ],
+            [
+              398,
+              30
+            ],
+            [
+              426,
+              26
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              440,
+              24
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              447,
+              23
+            ],
+            [
+              459,
+              15
+            ],
+            [
+              459,
+              4
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              459,
+              -84
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              459,
+              -92
+            ],
+            [
+              455,
+              -96
+            ],
+            [
+              447,
+              -96
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              439,
+              -96
+            ],
+            [
+              435,
+              -92
+            ],
+            [
+              435,
+              -84
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              435,
+              -43
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              435,
+              -15
+            ],
+            [
+              429,
+              0
+            ],
+            [
+              401,
+              0
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              68,
+              0
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              40,
+              0
+            ],
+            [
+              34,
+              -15
+            ],
+            [
+              34,
+              -43
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              34,
+              -84
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              34,
+              -92
+            ],
+            [
+              30,
+              -96
+            ],
+            [
+              22,
+              -96
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              14,
+              -96
+            ],
+            [
+              10,
+              -92
+            ],
+            [
+              10,
+              -84
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              10,
+              4
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              10,
+              15
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              29,
+              24
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ],
+        [
+          "moveTo",
+          [
+            [
+              128,
+              25
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              290,
+              25
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              318,
+              25
+            ],
+            [
+              324,
+              39
+            ],
+            [
+              324,
+              67
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              324,
+              381
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              324,
+              446
+            ],
+            [
+              299,
+              470
+            ],
+            [
+              255,
+              470
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              218,
+              470
+            ],
+            [
+              191,
+              440
+            ],
+            [
+              180,
+              392
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              164.875,
+              326
+            ],
+            [
+              147,
+              214
+            ],
+            [
+              125,
+              122
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              110.65217391304348,
+              62
+            ],
+            [
+              103,
+              25
+            ],
+            [
+              128,
+              25
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "provenance": {
+        "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "exact_native_fragments": [
+          "n outer shoulder: (158,450) C(211,501)(248,516)(293,516) C(353,516)(392,473)(392,392)",
+          "n inner right shoulder reversed: (324,381) C(324,446)(299,470)(255,470)",
+          "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
+        ],
+        "proposed_fragments": [
+          "new thin sloped left stroke and lower bracket",
+          "new left shoulder matched to native crown tangents",
+          "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
+        ],
+        "measured_donor_context": {
+          "right_stem": 68,
+          "x_height": 510,
+          "round_overshoot": 516,
+          "native_n_crown_peaks": [
+            [
+              293,
+              516
+            ],
+            [
+              255,
+              470
+            ]
+          ],
+          "bracketleft_lower_bound": -98,
+          "bracketleft_shelf_thickness": 24
+        }
+      },
+      "measured_bounds": [
+        10,
+        -96,
+        459,
+        516
+      ],
+      "loop_count": 2,
+      "counter_count": 1,
+      "anchors": {
+        "top": [
+          235,
+          510
+        ],
+        "bottom": [
+          235,
+          -96
+        ]
+      },
+      "checks": {
+        "sampled_polygon_valid": true,
+        "sampled_rings_simple": true,
+        "no_duplicate_adjacent_points": true,
+        "minimum_explicit_segment_chord": 14.142135623730951,
+        "tangent_new_joins": [
+          {
+            "contour": 0,
+            "point": [
+              116.0,
+              194.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              158.0,
+              450.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              293.0,
+              516.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              392.0,
+              392.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              392.0,
+              67.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              426.0,
+              26.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              440.0,
+              24.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              459.0,
+              4.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              459.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              447.0,
+              -96.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              435.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              435.0,
+              -43.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              401.0,
+              0.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              68.0,
+              0.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              34.0,
+              -43.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              34.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              22.0,
+              -96.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              10.0,
+              -84.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              10.0,
+              4.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              29.0,
+              24.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "curveTo",
+            "outgoing": "closingLine"
+          },
+          {
+            "contour": 0,
+            "point": [
+              43.0,
+              26.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "closingLine",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              290.0,
+              25.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              324.0,
+              67.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              324.0,
+              381.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              255.0,
+              470.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              180.0,
+              392.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              125.0,
+              122.0
+            ],
+            "angle_degrees": 8.5e-07,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              128.0,
+              25.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          }
+        ],
+        "left_stroke_samples": [
+          {
+            "y": 120,
+            "outer_x": 97.2667,
+            "nearest_counter_distance": 26.5172
+          },
+          {
+            "y": 180,
+            "outer_x": 112.5154,
+            "nearest_counter_distance": 24.8519
+          },
+          {
+            "y": 240,
+            "outer_x": 124.8368,
+            "nearest_counter_distance": 24.6423
+          },
+          {
+            "y": 300,
+            "outer_x": 130.6173,
+            "nearest_counter_distance": 30.2441
+          },
+          {
+            "y": 360,
+            "outer_x": 133.8417,
+            "nearest_counter_distance": 38.4984
+          }
+        ],
+        "right_stem_thickness": 68,
+        "central_platform_thickness": 25,
+        "feet_depth_proposal": -96
+      }
+    }
+  }
+}

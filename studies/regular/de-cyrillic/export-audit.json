@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "method": "independent read-only inspection of builder outputs against matching ka/shorti parents",
+  "ttf_checked": 8,
+  "woff2_checked": 8,
+  "glyphs_checked": 8,
+  "individual_svg_checked": 2,
+  "other_glyph_outlines_and_hmtx_unchanged": true,
+  "other_glyphs_source_serialization_unchanged": true,
+  "gsub_and_gdef_unchanged": true,
+  "pair_positioning_unchanged": true,
+  "gpos_difference": "only uni0434 base anchors: class 0 (235,510), class 2 (235,-96)",
+  "source_kerning_unchanged_and_de_groups_unassigned": true,
+  "adjacent_ttf_point_duplicates": 0,
+  "ttf_points": {"01": 87, "02": 82},
+  "contours_per_variant": 2,
+  "sampled_ttf_fill_valid": true,
+  "source_cubic_operations_preserved_as_quadratic_curves": {"01": 20, "02": 18},
+  "minimum_ttf_adjacent_control_point_chord": 3,
+  "maximum_saved_glyphs_coordinate_rounding": 0.00000392,
+  "svg_viewbox": [0, 0, 520, 700],
+  "svg_screen_bounds": {"01": [30, 55, 479, 661], "02": [30, 49, 479, 661]},
+  "limits": [
+    "Sampled topology does not prove every possible intersection absent.",
+    "Source G1 checks do not imply exact tangent continuity after TTF quantization.",
+    "Legibility and stylistic acceptance remain open for user review.",
+    "Final Cyrillic kerning and new-glyph hinting are not completed."
+  ]
+}

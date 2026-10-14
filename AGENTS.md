@@ -6,7 +6,8 @@ Keep Instrument Serif Regular geometry and the approved glyph hashes intact.
 
 The primary и is the native u-shaped Regular form; ss07 is its diagonal
 alternative. The user requested redesign of д; old versions and the new
-native-g studies remain retained, with no new primary approved. Both к and
+native-g studies remain retained, but the user rejected them as reading like
+Latin g. New д must have a recognizable Cyrillic silhouette; no primary is approved. Both к and
 й variants remain unselected. Do not infer approval from a technical default.
 
 Use the portable tools and requirements-fonts.txt described in README.md.

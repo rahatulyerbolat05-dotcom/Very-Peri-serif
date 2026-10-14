@@ -85,7 +85,7 @@
     "з": "01 only; 02 deleted and not retained",
     "и": "02 exact native u primary; 01 diagonal alternate ss07",
     "в": "01/02 unresolved; 01 technical default in cumulative trials",
-    "д": "Redesign requested; old forms retained, new native-g exploration not selected",
+    "д": "Native-g studies rejected; two unselected explicit Cyrillic pedestal proposals, previous versions retained.",
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved"
   },
@@ -1025,16 +1025,16 @@
       "character": "д",
       "name": "de",
       "silhouette": {
-        "evidence": "source_reported_observation",
-        "description": "Петлевая экспериментальная конструкция: верхняя чаша и нижняя петля. 01 овальная, 02 с асимметричной a-подобной верхней чашей.",
-        "source": "studies/regular/de-loop/design-notes.md"
+        "evidence": "new design proposal after explicit user rejection of g-like silhouettes",
+        "description": "Thin sloping/curving left stroke, 68-unit upright right stem, platform and two short descending feet. Flat cap or native n-derived arched shoulder.",
+        "source": "studies/regular/de-cyrillic/README.md"
       },
-      "type": "experimental_two_counter_loop",
+      "type": "cyrillic_pedestal_proposals_with_one_counter",
       "ductus": {
         "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
         "reference": "docs/instruction.md §7 (revised)",
         "strokes": [
-          "For retained loop studies: upper bowl, right support and lower return; design interpretation, not documented original-author ductus. Current native-g exploration inherits the two-storey bowl/loop/neck geometry without changing curves."
+          "Design interpretation: left stroke rises into cap/shoulder; right stem descends; platform connects the body and two short feet. Not a documented historical author stroke sequence."
         ],
         "entry": null,
         "exit": null,
@@ -1042,8 +1042,8 @@
       },
       "upright": {
         "style": "Regular",
-        "status": "retained study",
-        "construction_evidence": "studies/regular/de-loop/design-notes.md"
+        "status": "new Cyrillic candidates under review",
+        "construction_evidence": "studies/regular/de-cyrillic/README.md"
       },
       "italic": {
         "status": "not designed in these artifacts",
@@ -1052,252 +1052,178 @@
       "components": [],
       "donors": [
         {
-          "glyph": "o",
-          "role": "Модель овальной верхней чаши, переорганизованной по высоте.",
-          "relationship": "motif",
-          "evidence": "source_reported_construction",
-          "measured_latin_spacing": {
-            "evidence": "measured_donor_fact",
-            "reference": "data/params.json#/spacing_regular/o",
-            "values": {
-              "adv": 408,
-              "lsb": 23,
-              "rsb": 25,
-              "ymin": -9,
-              "ymax": 516,
-              "kern_left_group": "o",
-              "kern_right_group": "o"
-            }
-          },
-          "construction_reference": "studies/regular/de-loop/design-notes.md"
+          "glyph": "u",
+          "role": "Variant 01 outer and inner right cap, reversed and translated +12 x without scaling.",
+          "relationship": "exact native cubic fragments",
+          "evidence": "verified pinned source controls",
+          "construction_reference": "data/de-cyrillic-outlines.json#/variants/01/provenance"
         },
         {
-          "glyph": "a",
-          "role": "Мотив асимметричной верхней чаши 02.",
-          "relationship": "motif",
-          "evidence": "source_reported_construction",
-          "measured_latin_spacing": {
-            "evidence": "measured_donor_fact",
-            "reference": "data/params.json#/spacing_regular/a",
-            "values": {
-              "adv": 399,
-              "lsb": 24,
-              "rsb": 5,
-              "ymin": -9,
-              "ymax": 516,
-              "kern_left_group": "a",
-              "kern_right_group": "a"
-            }
-          },
-          "construction_reference": "studies/regular/de-loop/design-notes.md"
-        },
-        {
-          "glyph": "g",
-          "role": "Модель нижней петли и измеренная нижняя граница.",
-          "relationship": "motif",
-          "evidence": "source_reported_construction",
-          "measured_latin_spacing": {
-            "evidence": "measured_donor_fact",
-            "reference": "data/params.json#/spacing_regular/g",
-            "values": {
-              "adv": 402,
-              "lsb": 14,
-              "rsb": 8,
-              "ymin": -215,
-              "ymax": 598,
-              "kern_left_group": "g",
-              "kern_right_group": "g"
-            }
-          },
-          "construction_reference": "studies/regular/de-loop/design-notes.md"
-        },
-        {
-          "glyph": "p",
-          "role": "Сравнительный донор выноса, не доказанный фрагмент контура.",
-          "relationship": "comparison only",
-          "evidence": "source_reported_construction",
-          "measured_latin_spacing": {
-            "evidence": "measured_donor_fact",
-            "reference": "data/params.json#/spacing_regular/p",
-            "values": {
-              "adv": 444,
-              "lsb": 12,
-              "rsb": 30,
-              "ymin": -205,
-              "ymax": 516,
-              "kern_left_group": "n",
-              "kern_right_group": "o"
-            }
-          },
-          "construction_reference": "studies/regular/de-loop/design-notes.md"
+          "glyph": "n",
+          "role": "Variant 02 shoulder; native outer foot bracket in both variants.",
+          "relationship": "exact native cubic fragments",
+          "evidence": "verified pinned source controls",
+          "construction_reference": "data/de-cyrillic-outlines.json#/variants/02/provenance"
         }
       ],
       "design_status": {
-        "status": "redesign_requested",
+        "status": "new_unselected_cyrillic_candidates",
         "primary_variant": null,
         "technical_default_variant": "01",
-        "final_contour_acceptance": "pending new exploration",
+        "final_contour_acceptance": "pending user visual review",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "Loop constructions are allowed in Regular; user subsequently requested redesign because current drawings feel stylistically inconsistent. Previous versions remain retained.",
+        "silhouette_selection": "User rejected g-like silhouette; new pedestal forms proposed. No new primary is selected.",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
         {
           "id": "01",
-          "name": "Овальная петля",
-          "selection_status": "unresolved_candidate",
+          "name": "Наклонная опора",
+          "selection_status": "unselected_proposal",
           "glyph": "uni0434",
-          "combined_glyph": "uni0434",
           "feature": null,
-          "source_reported_metrics": {
-            "evidence": "source_reported_study",
-            "file": "studies/regular/de-loop/metrics.json",
-            "record": {
-              "name": "Овальная петля",
-              "advance": 410,
-              "bounds": [
-                18.0,
-                -215.0,
-                383.0,
-                516.0
+          "measured_current_build": {
+            "name": "Наклонная опора",
+            "unicode": "U+0434",
+            "glyph": "uni0434",
+            "construction": "Asymmetrical stool: thin sloped left stroke, flat roof, upright 68-unit right stem, explicit platform and two short feet.",
+            "status": "unselected Cyrillic design study",
+            "advance": 470,
+            "bbox_cubic": [
+              10,
+              -96,
+              459,
+              510
+            ],
+            "hmtx": [
+              470,
+              10
+            ],
+            "cubic_nodes": 71,
+            "ttf_points": 87,
+            "contours": 2,
+            "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+            "design_provenance": {
+              "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "exact_native_fragments": [
+                "u outer right cap, translated +12 x and reversed: (377,510) C(386,510)(392,504)(392,495)",
+                "u inner right cap, translated +12 x and reversed: (324,449) C(324,473)(318,480)(299,482)",
+                "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
               ],
-              "unicode": "U+0434",
-              "new_kerning": "pending"
-            }
-          },
-          "measured_export": {
-            "evidence": "measured_export_this_pass",
-            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
-            "file": "studies/regular/de-loop/de-01.ttf",
-            "ttf": {
-              "glyph": "uni0434",
-              "hmtx_advance": 410,
-              "hmtx_lsb": 18,
-              "stored_glyf_bounds": [
-                18,
-                -215,
-                383,
-                516
+              "proposed_fragments": [
+                "new left cubic and its translated inner boundary (25,-6), without scaling",
+                "new roof-to-left-stroke transitions",
+                "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
               ],
-              "curve_extrema_bounds": [
-                18,
-                -215,
-                383,
-                516
-              ],
-              "geometric_left_extent": 18,
-              "geometric_right_sidebearing": 27,
-              "contours_decomposed": 3,
-              "ttf_points_decomposed": 64,
-              "composite": false,
-              "glyf_sha256": "897c46159a44893068db7cae7b7096c268fc657b0911ca729c18f52ce9ae6ba8"
+              "measured_donor_context": {
+                "right_stem": 68,
+                "x_height": 510,
+                "native_n_serif_rounding_height": [
+                  11,
+                  12
+                ],
+                "bracketleft_lower_bound": -98,
+                "bracketleft_shelf_thickness": 24
+              }
             },
             "checks": {
-              "ttf_target_glyph_read": true,
-              "woff2_target_glyph_read": true,
-              "ttf_woff2_target_geometry_and_metrics_equal": true
+              "sampled_topology_valid": true,
+              "adjacent_cubic_duplicates": 0,
+              "all_other_glyphs_and_hmtx_unchanged": true,
+              "gsub_unchanged_ss06_legacy_preserved": true,
+              "all_exports_reopened": true
             }
           },
-          "exportformats": [
-            "ttf",
-            "woff2",
-            "glyphs",
-            "svg"
-          ],
-          "paths": {
-            "ttf": "studies/regular/de-loop/de-01.ttf",
-            "woff2": "studies/regular/de-loop/de-01.woff2",
-            "glyphs": "studies/regular/de-loop/de-01.glyphs",
-            "svg": "studies/regular/de-loop/de-01.svg"
-          }
+          "file": "studies/regular/de-cyrillic/de-01.ttf"
         },
         {
           "id": "02",
-          "name": "Асимметричная петля",
-          "selection_status": "unresolved_candidate",
+          "name": "Дуговое плечо",
+          "selection_status": "unselected_proposal",
           "glyph": "uni0434",
-          "combined_glyph": "de.altAsymmetric",
-          "feature": "ss06",
-          "source_reported_metrics": {
-            "evidence": "source_reported_study",
-            "file": "studies/regular/de-loop/metrics.json",
-            "record": {
-              "name": "Асимметричная петля",
-              "advance": 410,
-              "bounds": [
-                18.0,
-                -215.0,
-                379.0,
-                516.0
+          "feature": null,
+          "measured_current_build": {
+            "name": "Дуговое плечо",
+            "unicode": "U+0434",
+            "glyph": "uni0434",
+            "construction": "Asymmetrical tapered arch: visibly sloped thin left stroke, original n right shoulder and 68-unit upright right stem, explicit platform and two short feet.",
+            "status": "unselected Cyrillic design study",
+            "advance": 470,
+            "bbox_cubic": [
+              10,
+              -96,
+              459,
+              516
+            ],
+            "hmtx": [
+              470,
+              10
+            ],
+            "cubic_nodes": 64,
+            "ttf_points": 82,
+            "contours": 2,
+            "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+            "design_provenance": {
+              "source": "Instrument_Serif.glyphs Regular m01; Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "exact_native_fragments": [
+                "n outer shoulder: (158,450) C(211,501)(248,516)(293,516) C(353,516)(392,473)(392,392)",
+                "n inner right shoulder reversed: (324,381) C(324,446)(299,470)(255,470)",
+                "n outer foot bracket: (392,67) C(392,39)(398,30)(426,26)"
               ],
-              "unicode": "U+0434",
-              "new_kerning": "pending"
-            }
-          },
-          "measured_export": {
-            "evidence": "measured_export_this_pass",
-            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
-            "file": "studies/regular/de-loop/de-02.ttf",
-            "ttf": {
-              "glyph": "uni0434",
-              "hmtx_advance": 410,
-              "hmtx_lsb": 18,
-              "stored_glyf_bounds": [
-                18,
-                -215,
-                379,
-                516
+              "proposed_fragments": [
+                "new thin sloped left stroke and lower bracket",
+                "new left shoulder matched to native crown tangents",
+                "new pedestal: nominal central platform 25; two feet -96; foot shafts 24; 12-unit rounded lower terminals"
               ],
-              "curve_extrema_bounds": [
-                18,
-                -215,
-                379,
-                516
-              ],
-              "geometric_left_extent": 18,
-              "geometric_right_sidebearing": 31,
-              "contours_decomposed": 3,
-              "ttf_points_decomposed": 76,
-              "composite": false,
-              "glyf_sha256": "8d3ea66597e0a7f8c98a06717f2f6c2be6e19f5a67c679173ef4900d1715aac2"
+              "measured_donor_context": {
+                "right_stem": 68,
+                "x_height": 510,
+                "round_overshoot": 516,
+                "native_n_crown_peaks": [
+                  [
+                    293,
+                    516
+                  ],
+                  [
+                    255,
+                    470
+                  ]
+                ],
+                "bracketleft_lower_bound": -98,
+                "bracketleft_shelf_thickness": 24
+              }
             },
             "checks": {
-              "ttf_target_glyph_read": true,
-              "woff2_target_glyph_read": true,
-              "ttf_woff2_target_geometry_and_metrics_equal": true
+              "sampled_topology_valid": true,
+              "adjacent_cubic_duplicates": 0,
+              "all_other_glyphs_and_hmtx_unchanged": true,
+              "gsub_unchanged_ss06_legacy_preserved": true,
+              "all_exports_reopened": true
             }
           },
-          "exportformats": [
-            "ttf",
-            "woff2",
-            "glyphs",
-            "svg"
-          ],
-          "paths": {
-            "ttf": "studies/regular/de-loop/de-02.ttf",
-            "woff2": "studies/regular/de-loop/de-02.woff2",
-            "glyphs": "studies/regular/de-loop/de-02.glyphs",
-            "svg": "studies/regular/de-loop/de-02.svg"
-          }
+          "file": "studies/regular/de-cyrillic/de-02.ttf"
         }
       ],
       "metrics": {
         "units": "font units",
-        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+        "source": "studies/regular/de-cyrillic/metrics.json",
+        "proposal_dimensions": "Advance 470, platform 25 and feet -96 are design proposals; native stem 68 and height zones are donor facts."
       },
       "features": [
         {
           "tag": "ss06",
           "effect": "uni0434 → de.altAsymmetric",
-          "variant": "02",
-          "note": "Техническая овальная 01 не означает пользовательского утверждения основной д."
+          "variant": "historical de-loop 02",
+          "note": "Historical de-loop variant 02 only. New de-cyrillic 02 is a separate font and is not assigned to ss06."
         }
       ],
       "checks": {
-        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
-        "fontbakery": "not run in this pass; no production-validation claim",
-        "hyperglot": "not run in this pass",
-        "visual_acceptance": "pending"
+        "this_pass": "Eight font combinations built and reopened; all-other-glyph and layout preservation, sampled topology, duplicate checks, independent export inspection and semantic rebuild comparison passed.",
+        "report": "studies/regular/de-cyrillic/export-audit.json",
+        "fontbakery": "not run",
+        "hyperglot": "not run",
+        "visual_acceptance": "pending",
+        "kerning": "new de has no assigned donor pairs; final spacing pending"
       },
       "confidence": {
         "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
@@ -1305,40 +1231,33 @@
         "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
       },
       "paths": {
-        "study_directory": "studies/regular/de-loop",
-        "readme": "studies/regular/de-loop/README.md",
-        "user_sketches": [
-          "studies/regular/de-loop/references/Vector.svg",
-          "studies/regular/de-loop/references/Vector-1.svg"
-        ],
-        "design_notes": "studies/regular/de-loop/design-notes.md",
-        "new_exploration": "studies/regular/de-native"
+        "study_directory": "studies/regular/de-cyrillic",
+        "readme": "studies/regular/de-cyrillic/README.md",
+        "design_notes": "data/de-cyrillic-outlines.json",
+        "rejected_exploration": "studies/regular/de-native",
+        "previous_loop_study": "studies/regular/de-loop"
       },
       "instruction_deviations": [
         {
           "evidence": "existing_user_requested_study",
           "reference": "docs/instruction.md §§3,7",
           "description": "Петлевая д в прямом Regular отличается от канонического силуэта инструкции. Существующая работа по пользовательским эскизам сохранена; точный основной вариант не выбран.",
-          "current_authorization": "User explicitly reconfirmed preserving these selected silhouettes during repository handoff."
+          "current_authorization": "Historical looped drawings remain retained; user subsequently requested redesign and rejected g-like studies. No current de primary is approved."
         }
       ],
       "construction_choices": {
-        "evidence": "existing_study_design_decision",
+        "evidence": "unselected current design proposal",
         "values": {
-          "advance": 410,
-          "upper_bowl_y": [
-            96,
-            516
-          ],
-          "descender": -215,
-          "upper_round_thickness": 25,
-          "side_sections": 76,
-          "right_stroke_width_01": 76,
-          "right_stroke_width_02": 68,
-          "lower_thin_stroke_approx": 22
+          "advance": 470,
+          "platform": 25,
+          "feet_depth": -96
         },
-        "note": "Распределение высоты двух чаш и нижний тонкий ход — решения этих концептов; −215 соотнесено с measured g descender. Эскизы не скопированы как готовые контуры.",
-        "reference": "studies/regular/de-loop/design-notes.md"
+        "native_donor_facts": {
+          "right_stem": 68,
+          "flat_height": 510,
+          "round_height": 516
+        },
+        "reference": "data/de-cyrillic-outlines.json"
       },
       "history": [
         {
@@ -1654,6 +1573,271 @@
             "note": "−96 — проектная глубина старых концептов, не измеренный вынос оригинала.",
             "reference": "studies/archive/de-curved/design-notes.md"
           }
+        },
+        {
+          "status": "retained_de_loop_before_current_redesign",
+          "scope": "Historical measurements and construction records; not the current proposals.",
+          "donors": [
+            {
+              "glyph": "o",
+              "role": "Модель овальной верхней чаши, переорганизованной по высоте.",
+              "relationship": "motif",
+              "evidence": "source_reported_construction",
+              "measured_latin_spacing": {
+                "evidence": "measured_donor_fact",
+                "reference": "data/params.json#/spacing_regular/o",
+                "values": {
+                  "adv": 408,
+                  "lsb": 23,
+                  "rsb": 25,
+                  "ymin": -9,
+                  "ymax": 516,
+                  "kern_left_group": "o",
+                  "kern_right_group": "o"
+                }
+              },
+              "construction_reference": "studies/regular/de-loop/design-notes.md"
+            },
+            {
+              "glyph": "a",
+              "role": "Мотив асимметричной верхней чаши 02.",
+              "relationship": "motif",
+              "evidence": "source_reported_construction",
+              "measured_latin_spacing": {
+                "evidence": "measured_donor_fact",
+                "reference": "data/params.json#/spacing_regular/a",
+                "values": {
+                  "adv": 399,
+                  "lsb": 24,
+                  "rsb": 5,
+                  "ymin": -9,
+                  "ymax": 516,
+                  "kern_left_group": "a",
+                  "kern_right_group": "a"
+                }
+              },
+              "construction_reference": "studies/regular/de-loop/design-notes.md"
+            },
+            {
+              "glyph": "g",
+              "role": "Модель нижней петли и измеренная нижняя граница.",
+              "relationship": "motif",
+              "evidence": "source_reported_construction",
+              "measured_latin_spacing": {
+                "evidence": "measured_donor_fact",
+                "reference": "data/params.json#/spacing_regular/g",
+                "values": {
+                  "adv": 402,
+                  "lsb": 14,
+                  "rsb": 8,
+                  "ymin": -215,
+                  "ymax": 598,
+                  "kern_left_group": "g",
+                  "kern_right_group": "g"
+                }
+              },
+              "construction_reference": "studies/regular/de-loop/design-notes.md"
+            },
+            {
+              "glyph": "p",
+              "role": "Сравнительный донор выноса, не доказанный фрагмент контура.",
+              "relationship": "comparison only",
+              "evidence": "source_reported_construction",
+              "measured_latin_spacing": {
+                "evidence": "measured_donor_fact",
+                "reference": "data/params.json#/spacing_regular/p",
+                "values": {
+                  "adv": 444,
+                  "lsb": 12,
+                  "rsb": 30,
+                  "ymin": -205,
+                  "ymax": 516,
+                  "kern_left_group": "n",
+                  "kern_right_group": "o"
+                }
+              },
+              "construction_reference": "studies/regular/de-loop/design-notes.md"
+            }
+          ],
+          "variants": [
+            {
+              "id": "01",
+              "name": "Овальная петля",
+              "selection_status": "unresolved_candidate",
+              "glyph": "uni0434",
+              "combined_glyph": "uni0434",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/regular/de-loop/metrics.json",
+                "record": {
+                  "name": "Овальная петля",
+                  "advance": 410,
+                  "bounds": [
+                    18.0,
+                    -215.0,
+                    383.0,
+                    516.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/regular/de-loop/de-01.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 410,
+                  "hmtx_lsb": 18,
+                  "stored_glyf_bounds": [
+                    18,
+                    -215,
+                    383,
+                    516
+                  ],
+                  "curve_extrema_bounds": [
+                    18,
+                    -215,
+                    383,
+                    516
+                  ],
+                  "geometric_left_extent": 18,
+                  "geometric_right_sidebearing": 27,
+                  "contours_decomposed": 3,
+                  "ttf_points_decomposed": 64,
+                  "composite": false,
+                  "glyf_sha256": "897c46159a44893068db7cae7b7096c268fc657b0911ca729c18f52ce9ae6ba8"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/regular/de-loop/de-01.ttf",
+                "woff2": "studies/regular/de-loop/de-01.woff2",
+                "glyphs": "studies/regular/de-loop/de-01.glyphs",
+                "svg": "studies/regular/de-loop/de-01.svg"
+              }
+            },
+            {
+              "id": "02",
+              "name": "Асимметричная петля",
+              "selection_status": "unresolved_candidate",
+              "glyph": "uni0434",
+              "combined_glyph": "de.altAsymmetric",
+              "feature": "ss06",
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/regular/de-loop/metrics.json",
+                "record": {
+                  "name": "Асимметричная петля",
+                  "advance": 410,
+                  "bounds": [
+                    18.0,
+                    -215.0,
+                    379.0,
+                    516.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/regular/de-loop/de-02.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 410,
+                  "hmtx_lsb": 18,
+                  "stored_glyf_bounds": [
+                    18,
+                    -215,
+                    379,
+                    516
+                  ],
+                  "curve_extrema_bounds": [
+                    18,
+                    -215,
+                    379,
+                    516
+                  ],
+                  "geometric_left_extent": 18,
+                  "geometric_right_sidebearing": 31,
+                  "contours_decomposed": 3,
+                  "ttf_points_decomposed": 76,
+                  "composite": false,
+                  "glyf_sha256": "8d3ea66597e0a7f8c98a06717f2f6c2be6e19f5a67c679173ef4900d1715aac2"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/regular/de-loop/de-02.ttf",
+                "woff2": "studies/regular/de-loop/de-02.woff2",
+                "glyphs": "studies/regular/de-loop/de-02.glyphs",
+                "svg": "studies/regular/de-loop/de-02.svg"
+              }
+            }
+          ],
+          "metrics": {
+            "units": "font units",
+            "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+          },
+          "checks": {
+            "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+            "fontbakery": "not run in this pass; no production-validation claim",
+            "hyperglot": "not run in this pass",
+            "visual_acceptance": "pending"
+          },
+          "construction_choices": {
+            "evidence": "existing_study_design_decision",
+            "values": {
+              "advance": 410,
+              "upper_bowl_y": [
+                96,
+                516
+              ],
+              "descender": -215,
+              "upper_round_thickness": 25,
+              "side_sections": 76,
+              "right_stroke_width_01": 76,
+              "right_stroke_width_02": 68,
+              "lower_thin_stroke_approx": 22
+            },
+            "note": "Распределение высоты двух чаш и нижний тонкий ход — решения этих концептов; −215 соотнесено с measured g descender. Эскизы не скопированы как готовые контуры.",
+            "reference": "studies/regular/de-loop/design-notes.md"
+          },
+          "paths": {
+            "study_directory": "studies/regular/de-loop",
+            "readme": "studies/regular/de-loop/README.md",
+            "user_sketches": [
+              "studies/regular/de-loop/references/Vector.svg",
+              "studies/regular/de-loop/references/Vector-1.svg"
+            ],
+            "design_notes": "studies/regular/de-loop/design-notes.md",
+            "new_exploration": "studies/regular/de-native",
+            "current_exploration": "studies/regular/de-cyrillic"
+          }
         }
       ],
       "explorations": {
@@ -1661,14 +1845,37 @@
           "path": "studies/regular/de-native",
           "metrics": "studies/regular/de-native/metrics.json",
           "primary_variant": null,
-          "status": "new unselected comparison studies",
+          "status": "rejected by user: reads like Latin g; retained",
           "variant_donors": {
             "01": "g.ss01",
             "02": "g"
           },
           "old_ss06": "de.altAsymmetric remains historical; not a newly accepted shape"
+        },
+        "cyrillic_pedestal": {
+          "path": "studies/regular/de-cyrillic",
+          "design_data": "data/de-cyrillic-outlines.json",
+          "metrics": "studies/regular/de-cyrillic/metrics.json",
+          "primary_variant": null,
+          "variants": [
+            "Наклонная опора",
+            "Дуговое плечо"
+          ],
+          "status": "unselected proposals",
+          "dimensions_proposed": {
+            "advance": 470,
+            "feet_depth": -96,
+            "platform": 25
+          },
+          "dimensions_native_donor": {
+            "right_stem": 68,
+            "flat_x_height": 510,
+            "round_top": 516
+          },
+          "source_provenance": "data/de-cyrillic-outlines.json#/variants"
         }
-      }
+      },
+      "variants_scope": "Current de-cyrillic proposals in separate fonts; historical de-loop variants are in history."
     },
     {
       "glyph": "uni0436",
@@ -2477,7 +2684,7 @@
         "technical_default_variant": null,
         "final_contour_acceptance": "pending",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "Explicit user instruction reconfirms preserving the u-shaped и and loop-shaped д family; exact loop д variant remains unresolved.",
+        "silhouette_selection": "User reconfirmed preserving the selected u-shaped и. Subsequent redesign feedback about д does not alter this selection.",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
