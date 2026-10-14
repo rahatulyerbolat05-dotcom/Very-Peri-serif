@@ -1,24 +1,24 @@
 {
  "Y1": {
-  "adv": 487,
+  "adv": 537,
   "xmin": -2,
-  "xmax": 472,
+  "xmax": 522,
   "ymin": -9,
   "ymax": 513,
   "label": "Y1  ь с флажком, стойка как у u",
   "heads": "flag",
   "bowl_right": 351,
-  "contours": 2
+  "contours": 3
  },
  "Y2": {
-  "adv": 487,
+  "adv": 537,
   "xmin": -2,
-  "xmax": 472,
+  "xmax": 522,
   "ymin": -9,
   "ymax": 510,
   "label": "Y2  обе головки как у u",
   "heads": "u",
   "bowl_right": 351,
-  "contours": 2
+  "contours": 3
  }
 }

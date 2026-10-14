@@ -25,6 +25,10 @@ class Ref:
 
 def rect(x0, y0, x1, y1):
     p = Path(); q = p.getPen(); q.moveTo((x0, y0)); q.lineTo((x1, y0)); q.lineTo((x1, y1)); q.lineTo((x0, y1)); q.closePath(); return p
+def poly(*pts):
+    p = Path(); q = p.getPen(); q.moveTo(pts[0])
+    for pt in pts[1:]: q.lineTo(pt)
+    q.closePath(); return p
 def AND(a, b): return pathops.op(a, b, PathOp.INTERSECTION)
 def SUB(a, b): return pathops.op(a, b, PathOp.DIFFERENCE)
 def OR(*ps):
