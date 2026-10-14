@@ -1,0 +1,46 @@
+{
+ "Y1": {
+  "adv": 728,
+  "xmin": 3,
+  "xmax": 717,
+  "ymin": -9,
+  "ymax": 516,
+  "label": "Y1   флажки, зазор 182",
+  "kind": "b",
+  "heads": "flag",
+  "gap": 182
+ },
+ "Y2": {
+  "adv": 665,
+  "xmin": 3,
+  "xmax": 654,
+  "ymin": -9,
+  "ymax": 516,
+  "label": "Y2   флажки, зазор 119",
+  "kind": "b",
+  "heads": "flag",
+  "gap": 119
+ },
+ "Y3": {
+  "adv": 665,
+  "xmin": 3,
+  "xmax": 654,
+  "ymin": -9,
+  "ymax": 516,
+  "label": "Y3   головки u, зазор 119",
+  "kind": "b",
+  "heads": "u",
+  "gap": 119
+ },
+ "Y4": {
+  "adv": 677,
+  "xmin": 9,
+  "xmax": 666,
+  "ymin": -9,
+  "ymax": 516,
+  "label": "Y4   чаша от p, зазор 119",
+  "kind": "p",
+  "heads": "flag",
+  "gap": 119
+ }
+}
