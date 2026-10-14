@@ -1,3 +1,5 @@
 reference/
+build/
 *.png
+!docs/img/*.png
 __pycache__/

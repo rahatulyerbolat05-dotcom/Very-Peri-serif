@@ -123,7 +123,8 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`.
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`.
+- `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
 
@@ -161,6 +162,8 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D12 | Имя производной версии |
 | D13 | Форма курсивной м |
 | D14 | Состав символов первого выпуска |
+| D15 | Выбор ш: R1 или R2; правка раздела 3 инструкции под круглый низ |
+| D16 | Дно арок ш −6 против зоны −9 |
 
 ## 11. Запреты
 
@@ -173,3 +176,9 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 - Не убирать фирменные детали ради упрощения: хвосты (F3), шпоры (F4), каплевидные завершения (F5) ставятся по реестру.
 - Не ставить круглые формы на плоские линии 510 и 720.
 - Не коммитить эталонные бинарники и сгенерированные PNG.
+
+## 12. Буквы в работе
+
+| Буква | Статус | Карточка |
+|---|---|---|
+| ш | две кандидатуры сохранены, выбор D15: R1 (головки как у u) и R2 (флажки), обе из перевёрнутой m | `docs/glyphs/sha.md` |
