@@ -1,22 +1,24 @@
 {
  "Y1": {
-  "adv": 677,
+  "adv": 487,
   "xmin": -2,
-  "xmax": 666,
+  "xmax": 472,
   "ymin": -9,
   "ymax": 513,
-  "label": "Y1  зазор 182 (как у n)",
-  "gap": 182,
-  "bowl_right": 351
+  "label": "Y1  ь с флажком, стойка как у u",
+  "heads": "flag",
+  "bowl_right": 351,
+  "contours": 2
  },
  "Y2": {
-  "adv": 604,
+  "adv": 487,
   "xmin": -2,
-  "xmax": 593,
+  "xmax": 472,
   "ymin": -9,
-  "ymax": 513,
-  "label": "Y2  зазор 109 (естественный)",
-  "gap": 109,
-  "bowl_right": 351
+  "ymax": 510,
+  "label": "Y2  обе головки как у u",
+  "heads": "u",
+  "bowl_right": 351,
+  "contours": 2
  }
 }
