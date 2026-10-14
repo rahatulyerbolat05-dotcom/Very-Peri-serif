@@ -1,0 +1,1557 @@
+{
+ "meta": {
+  "reference_repo": "https://github.com/Instrument/instrument-serif",
+  "reference_commit": "65c0ef2",
+  "license": "SIL OFL 1.1; Reserved Font Name не объявлен (OFL.txt содержит только строку копирайта)",
+  "copyright_line": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
+  "note": "Измерено по готовому TTF (ttfautohint), контуры квадратичные. Исходники .glyphs использованы для зон, групп, якорей. Растр 2000 px/em."
+ },
+ "source_master": {
+  "upm": 1000,
+  "ascender": 740,
+  "capHeight": 720,
+  "xHeight": 510,
+  "descender": -205,
+  "alignment_zones": [
+   {
+    "position": 740,
+    "size": 15
+   },
+   {
+    "position": 720,
+    "size": 15
+   },
+   {
+    "position": 510,
+    "size": 15
+   },
+   {
+    "position": 0,
+    "size": -15
+   },
+   {
+    "position": -205,
+    "size": -15
+   }
+  ],
+  "guides": [
+   {
+    "name": "Caps",
+    "y": 720,
+    "x": 1323
+   },
+   {
+    "name": "x",
+    "y": 516,
+    "x": 1323
+   },
+   {
+    "name": "desce",
+    "y": -205,
+    "x": 589
+   },
+   {
+    "name": "",
+    "y": -9,
+    "x": 217
+   },
+   {
+    "name": "",
+    "y": 579,
+    "x": 246
+   }
+  ],
+  "custom_parameters": {
+   "typoAscender": 990,
+   "typoDescender": -310,
+   "typoLineGap": 0,
+   "winAscent": 990,
+   "winDescent": 310,
+   "hheaAscender": 990,
+   "hheaDescender": -310,
+   "strikeoutPosition": 301,
+   "strikeoutSize": 38,
+   "underlinePosition": -180,
+   "underlineThickness": 38,
+   "hheaLineGap": 0
+  },
+  "feature_tags": [
+   "aalt",
+   "ccmp",
+   "locl",
+   "ordn",
+   "case",
+   "dlig",
+   "liga",
+   "ss01"
+  ]
+ },
+ "regular": {
+  "style": "Regular",
+  "glyphs": 377,
+  "codepoints": 333,
+  "italic_angle": 0.0,
+  "gsub_features": [
+   "aalt",
+   "case",
+   "ccmp",
+   "dlig",
+   "liga",
+   "locl",
+   "ordn",
+   "ss01"
+  ],
+  "gpos_features": [
+   "kern",
+   "mark",
+   "mkmk"
+  ],
+  "vertical": {
+   "flat_x": 510,
+   "flat_cap": 720,
+   "round_x_top": 516,
+   "round_x_bottom": -9,
+   "round_cap_top": 730,
+   "round_cap_bottom": -9,
+   "ascender_d": 740,
+   "ascender_b": 740,
+   "ascender_f": 748,
+   "descender_p": -205,
+   "descender_q": -205,
+   "descender_g": -215,
+   "descender_j": -215,
+   "T_top": 735,
+   "Z_top": 740,
+   "V_bottom": -10,
+   "A_top": 730
+  },
+  "stress_axis": {
+   "o": {
+    "thin_angle_deg": 90,
+    "thin": 25,
+    "thick": 77,
+    "contrast": 3.08,
+    "thickness_by_angle": {
+     "0": 76,
+     "15": 77,
+     "30": 76,
+     "45": 72,
+     "60": 58,
+     "75": 34,
+     "90": 25,
+     "105": 34,
+     "120": 58,
+     "135": 72,
+     "150": 76,
+     "165": 77,
+     "180": 76,
+     "195": 77,
+     "210": 76,
+     "225": 72,
+     "240": 59,
+     "255": 35,
+     "270": 25,
+     "285": 35,
+     "300": 59,
+     "315": 73,
+     "330": 76,
+     "345": 77
+    }
+   },
+   "O": {
+    "thin_angle_deg": 90,
+    "thin": 27,
+    "thick": 80,
+    "contrast": 2.96,
+    "thickness_by_angle": {
+     "0": 79,
+     "15": 79,
+     "30": 80,
+     "45": 76,
+     "60": 62,
+     "75": 38,
+     "90": 27,
+     "105": 38,
+     "120": 62,
+     "135": 78,
+     "150": 80,
+     "165": 79,
+     "180": 79,
+     "195": 79,
+     "210": 80,
+     "225": 78,
+     "240": 63,
+     "255": 38,
+     "270": 27,
+     "285": 36,
+     "300": 62,
+     "315": 76,
+     "330": 80,
+     "345": 79
+    }
+   },
+   "note": "thin_angle_deg: 90 = вертикальная ось нажима; смещение от 90 = наклон оси"
+  },
+  "stems_hairlines": {
+   "H_stem": 71,
+   "n_stem": 68,
+   "p_stem": 68,
+   "d_stem": 68,
+   "o_side": 76,
+   "H_crossbar": 30,
+   "e_crossbar": 25,
+   "H_crossbar_center": 373
+  },
+  "serifs": {
+   "foot_thickness_tip_x20": 22,
+   "foot_thickness_x50": 26,
+   "n_foot_thickness_tip": 24,
+   "n_foot_thickness_near_stem": 32,
+   "i_head_thickness_tip": 20,
+   "i_head_thickness_near_stem": 32,
+   "H_serif_span_left": 213,
+   "n_foot_runs_y5": [
+    [
+     17,
+     212
+    ],
+    [
+     266,
+     458
+    ]
+   ]
+  },
+  "diagonals": {
+   "N": [
+    {
+     "angle": 90,
+     "thickness": 31
+    },
+    {
+     "angle": 115,
+     "thickness": 76
+    },
+    {
+     "angle": 90,
+     "thickness": 31
+    }
+   ],
+   "V": [
+    {
+     "angle": 104,
+     "thickness": 69
+    },
+    {
+     "angle": 76,
+     "thickness": 31
+    }
+   ],
+   "A": [
+    {
+     "angle": 76,
+     "thickness": 30
+    },
+    {
+     "angle": 104,
+     "thickness": 69
+    }
+   ],
+   "M": [
+    {
+     "angle": 88,
+     "thickness": 31
+    },
+    {
+     "angle": 104,
+     "thickness": 68
+    },
+    {
+     "angle": 76,
+     "thickness": 30
+    },
+    {
+     "angle": 92,
+     "thickness": 70
+    }
+   ],
+   "v": [
+    {
+     "angle": 106,
+     "thickness": 67
+    },
+    {
+     "angle": 73,
+     "thickness": 30
+    }
+   ],
+   "y": [
+    {
+     "angle": 107,
+     "thickness": 66
+    },
+    {
+     "angle": 73,
+     "thickness": 29
+    }
+   ],
+   "w": [
+    {
+     "angle": 106,
+     "thickness": 65
+    },
+    {
+     "angle": 75,
+     "thickness": 28
+    },
+    {
+     "angle": 103,
+     "thickness": 64
+    },
+    {
+     "angle": 74,
+     "thickness": 28
+    }
+   ],
+   "k_arm": [
+    {
+     "angle": 90,
+     "thickness": 68
+    },
+    {
+     "angle": 47,
+     "thickness": 30
+    }
+   ],
+   "k_leg": [
+    {
+     "angle": 90,
+     "thickness": 68
+    },
+    {
+     "angle": 117,
+     "thickness": 67
+    }
+   ],
+   "K_arm": [
+    {
+     "angle": 90,
+     "thickness": 71
+    },
+    {
+     "angle": 57,
+     "thickness": 30
+    }
+   ],
+   "K_leg": [
+    {
+     "angle": 90,
+     "thickness": 71
+    },
+    {
+     "angle": 118,
+     "thickness": 70
+    }
+   ],
+   "x_lower": [
+    {
+     "angle": 62,
+     "thickness": 24
+    },
+    {
+     "angle": 117,
+     "thickness": 64
+    }
+   ],
+   "X_lower": [
+    {
+     "angle": 67,
+     "thickness": 31
+    },
+    {
+     "angle": 114,
+     "thickness": 66
+    }
+   ],
+   "Y_arms": [
+    {
+     "angle": 115,
+     "thickness": 68
+    },
+    {
+     "angle": 64,
+     "thickness": 30
+    }
+   ],
+   "z": [
+    {
+     "angle": 62,
+     "thickness": 66
+    }
+   ],
+   "Z": [
+    {
+     "angle": 66,
+     "thickness": 70
+    }
+   ]
+  },
+  "M_vertex_bottom": 37
+ },
+ "italic": {
+  "style": "Italic",
+  "glyphs": 377,
+  "codepoints": 333,
+  "italic_angle": -13.0,
+  "gsub_features": [
+   "aalt",
+   "case",
+   "ccmp",
+   "dlig",
+   "liga",
+   "locl",
+   "ordn",
+   "ss01"
+  ],
+  "gpos_features": [
+   "kern",
+   "mark",
+   "mkmk"
+  ],
+  "vertical": {
+   "flat_x": 516,
+   "flat_cap": 720,
+   "round_x_top": 516,
+   "round_x_bottom": -9,
+   "round_cap_top": 730,
+   "round_cap_bottom": -9,
+   "ascender_d": 743,
+   "ascender_b": 743,
+   "ascender_f": 748,
+   "descender_p": -205,
+   "descender_q": -205,
+   "descender_g": -216,
+   "descender_j": -215,
+   "T_top": 735,
+   "Z_top": 740,
+   "V_bottom": -10,
+   "A_top": 730
+  },
+  "stress_axis": {
+   "o": {
+    "thin_angle_deg": 75,
+    "thin": 24,
+    "thick": 79,
+    "contrast": 3.22,
+    "thickness_by_angle": {
+     "0": 74,
+     "15": 76,
+     "30": 79,
+     "45": 74,
+     "60": 48,
+     "75": 24,
+     "90": 36,
+     "105": 54,
+     "120": 64,
+     "135": 67,
+     "150": 68,
+     "165": 71,
+     "180": 74,
+     "195": 76,
+     "210": 79,
+     "225": 74,
+     "240": 49,
+     "255": 24,
+     "270": 37,
+     "285": 57,
+     "300": 65,
+     "315": 68,
+     "330": 69,
+     "345": 71
+    }
+   },
+   "O": {
+    "thin_angle_deg": 75,
+    "thin": 26,
+    "thick": 84,
+    "contrast": 3.15,
+    "thickness_by_angle": {
+     "0": 76,
+     "15": 80,
+     "30": 82,
+     "45": 80,
+     "60": 48,
+     "75": 26,
+     "90": 41,
+     "105": 64,
+     "120": 72,
+     "135": 72,
+     "150": 73,
+     "165": 74,
+     "180": 76,
+     "195": 80,
+     "210": 82,
+     "225": 79,
+     "240": 49,
+     "255": 26,
+     "270": 41,
+     "285": 63,
+     "300": 72,
+     "315": 73,
+     "330": 73,
+     "345": 74
+    }
+   },
+   "note": "thin_angle_deg: 90 = вертикальная ось нажима; смещение от 90 = наклон оси"
+  },
+  "stems_hairlines": {
+   "H_stem": 68,
+   "n_stem": null,
+   "p_stem": 66,
+   "d_stem": null,
+   "o_side": 74,
+   "H_crossbar": 30,
+   "e_crossbar": null,
+   "H_crossbar_center": 373
+  }
+ },
+ "spacing_regular": {
+  "A": {
+   "adv": 457,
+   "lsb": -18,
+   "rsb": -18,
+   "ymin": 0,
+   "ymax": 730,
+   "kern_left_group": "A",
+   "kern_right_group": "A"
+  },
+  "B": {
+   "adv": 478,
+   "lsb": 19,
+   "rsb": 28,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": null
+  },
+  "C": {
+   "adv": 480,
+   "lsb": 40,
+   "rsb": 40,
+   "ymin": -9,
+   "ymax": 730,
+   "kern_left_group": "O",
+   "kern_right_group": "C"
+  },
+  "D": {
+   "adv": 530,
+   "lsb": 19,
+   "rsb": 40,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "O"
+  },
+  "E": {
+   "adv": 453,
+   "lsb": 19,
+   "rsb": 33,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "E"
+  },
+  "F": {
+   "adv": 408,
+   "lsb": 19,
+   "rsb": 19,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": null
+  },
+  "G": {
+   "adv": 521,
+   "lsb": 40,
+   "rsb": 20,
+   "ymin": -9,
+   "ymax": 730,
+   "kern_left_group": "O",
+   "kern_right_group": "G"
+  },
+  "H": {
+   "adv": 546,
+   "lsb": 19,
+   "rsb": 19,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "H"
+  },
+  "I": {
+   "adv": 249,
+   "lsb": 19,
+   "rsb": 19,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "H"
+  },
+  "J": {
+   "adv": 249,
+   "lsb": -56,
+   "rsb": 19,
+   "ymin": -215,
+   "ymax": 720,
+   "kern_left_group": null,
+   "kern_right_group": "J"
+  },
+  "K": {
+   "adv": 496,
+   "lsb": 19,
+   "rsb": -20,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "K"
+  },
+  "L": {
+   "adv": 413,
+   "lsb": 19,
+   "rsb": 19,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "L"
+  },
+  "M": {
+   "adv": 665,
+   "lsb": 14,
+   "rsb": 14,
+   "ymin": 0,
+   "ymax": 720
+  },
+  "N": {
+   "adv": 540,
+   "lsb": 16,
+   "rsb": 16,
+   "ymin": -9,
+   "ymax": 720,
+   "kern_left_group": "N",
+   "kern_right_group": "N"
+  },
+  "O": {
+   "adv": 540,
+   "lsb": 40,
+   "rsb": 40,
+   "ymin": -9,
+   "ymax": 730,
+   "kern_left_group": "O",
+   "kern_right_group": "O"
+  },
+  "P": {
+   "adv": 466,
+   "lsb": 19,
+   "rsb": 24,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": null
+  },
+  "Q": {
+   "adv": 540,
+   "lsb": 40,
+   "rsb": 0,
+   "ymin": -215,
+   "ymax": 730,
+   "kern_left_group": "O",
+   "kern_right_group": "O"
+  },
+  "R": {
+   "adv": 513,
+   "lsb": 19,
+   "rsb": -10,
+   "ymin": -9,
+   "ymax": 720,
+   "kern_left_group": "H",
+   "kern_right_group": "R"
+  },
+  "S": {
+   "adv": 407,
+   "lsb": 41,
+   "rsb": 30,
+   "ymin": -9,
+   "ymax": 730,
+   "kern_left_group": "S",
+   "kern_right_group": "S"
+  },
+  "T": {
+   "adv": 461,
+   "lsb": 12,
+   "rsb": 12,
+   "ymin": 0,
+   "ymax": 735,
+   "kern_left_group": "T",
+   "kern_right_group": "T"
+  },
+  "U": {
+   "adv": 536,
+   "lsb": 22,
+   "rsb": 12,
+   "ymin": -9,
+   "ymax": 720,
+   "kern_left_group": "U",
+   "kern_right_group": "U"
+  },
+  "V": {
+   "adv": 457,
+   "lsb": -18,
+   "rsb": -18,
+   "ymin": -10,
+   "ymax": 720
+  },
+  "W": {
+   "adv": 651,
+   "lsb": -18,
+   "rsb": -18,
+   "ymin": -10,
+   "ymax": 720,
+   "kern_left_group": "W",
+   "kern_right_group": "W"
+  },
+  "X": {
+   "adv": 546,
+   "lsb": 20,
+   "rsb": 19,
+   "ymin": 0,
+   "ymax": 720
+  },
+  "Y": {
+   "adv": 477,
+   "lsb": -18,
+   "rsb": -18,
+   "ymin": 0,
+   "ymax": 720,
+   "kern_left_group": "Y",
+   "kern_right_group": "Y"
+  },
+  "Z": {
+   "adv": 427,
+   "lsb": 18,
+   "rsb": 26,
+   "ymin": 0,
+   "ymax": 740,
+   "kern_left_group": "Z",
+   "kern_right_group": "Z"
+  },
+  "a": {
+   "adv": 399,
+   "lsb": 24,
+   "rsb": 5,
+   "ymin": -9,
+   "ymax": 516,
+   "kern_left_group": "a",
+   "kern_right_group": "a"
+  },
+  "b": {
+   "adv": 443,
+   "lsb": 5,
+   "rsb": 40,
+   "ymin": -9,
+   "ymax": 740,
+   "kern_left_group": null,
+   "kern_right_group": "o"
+  },
+  "c": {
+   "adv": 339,
+   "lsb": 23,
+   "rsb": 22,
+   "ymin": -9,
+   "ymax": 516,
+   "kern_left_group": "o",
+   "kern_right_group": "c"
+  },
+  "d": {
+   "adv": 457,
+   "lsb": 30,
+   "rsb": 5,
+   "ymin": -9,
+   "ymax": 740,
+   "kern_left_group": "o",
+   "kern_right_group": "d"
+  },
+  "e": {
+   "adv": 355,
+   "lsb": 23,
+   "rsb": 25,
+   "ymin": -9,
+   "ymax": 516,
+   "kern_left_group": "o",
+   "kern_right_group": "e"
+  },
+  "f": {
+   "adv": 288,
+   "lsb": 13,
+   "rsb": -24,
+   "ymin": 0,
+   "ymax": 748,
+   "kern_left_group": "f",
+   "kern_right_group": null
+  },
+  "g": {
+   "adv": 402,
+   "lsb": 14,
+   "rsb": 8,
+   "ymin": -215,
+   "ymax": 598,
+   "kern_left_group": "g",
+   "kern_right_group": "g"
+  },
+  "h": {
+   "adv": 470,
+   "lsb": 15,
+   "rsb": 11,
+   "ymin": 0,
+   "ymax": 740,
+   "kern_left_group": "h",
+   "kern_right_group": "n"
+  },
+  "i": {
+   "adv": 223,
+   "lsb": 15,
+   "rsb": 11,
+   "ymin": 0,
+   "ymax": 710,
+   "kern_left_group": "i",
+   "kern_right_group": "i"
+  },
+  "j": {
+   "adv": 215,
+   "lsb": -63,
+   "rsb": 52,
+   "ymin": -215,
+   "ymax": 710,
+   "kern_left_group": "j",
+   "kern_right_group": "j"
+  },
+  "k": {
+   "adv": 451,
+   "lsb": 15,
+   "rsb": 0,
+   "ymin": 0,
+   "ymax": 740,
+   "kern_left_group": "h",
+   "kern_right_group": "k"
+  },
+  "l": {
+   "adv": 220,
+   "lsb": 8,
+   "rsb": 10,
+   "ymin": 0,
+   "ymax": 740,
+   "kern_left_group": "h",
+   "kern_right_group": "l"
+  },
+  "m": {
+   "adv": 704,
+   "lsb": 15,
+   "rsb": 11,
+   "ymin": 0,
+   "ymax": 516,
+   "kern_left_group": "n",
+   "kern_right_group": "n"
+  },
+  "n": {
+   "adv": 470,
+   "lsb": 15,
+   "rsb": 11,
+   "ymin": 0,
+   "ymax": 516,
+   "kern_left_group": "n",
+   "kern_right_group": "n"
+  },
+  "o": {
+   "adv": 408,
+   "lsb": 23,
+   "rsb": 25,
+   "ymin": -9,
+   "ymax": 516,
+   "kern_left_group": "o",
+   "kern_right_group": "o"
+  },
+  "p": {
+   "adv": 444,
+   "lsb": 12,
+   "rsb": 30,
+   "ymin": -205,
+   "ymax": 516,
+   "kern_left_group": "n",
+   "kern_right_group": "o"
+  },
+  "q": {
+   "adv": 442,
+   "lsb": 30,
+   "rsb": 10,
+   "ymin": -205,
+   "ymax": 516,
+   "kern_left_group": "o",
+   "kern_right_group": null
+  },
+  "r": {
+   "adv": 318,
+   "lsb": 15,
+   "rsb": 0,
+   "ymin": 0,
+   "ymax": 516,
+   "kern_left_group": "n",
+   "kern_right_group": "r"
+  },
+  "s": {
+   "adv": 308,
+   "lsb": 28,
+   "rsb": 28,
+   "ymin": -9,
+   "ymax": 516,
+   "kern_left_group": "s",
+   "kern_right_group": "s"
+  },
+  "t": {
+   "adv": 259,
+   "lsb": 10,
+   "rsb": 14,
+   "ymin": -9,
+   "ymax": 651,
+   "kern_left_group": "t",
+   "kern_right_group": "t"
+  },
+  "u": {
+   "adv": 454,
+   "lsb": 11,
+   "rsb": 15,
+   "ymin": -9,
+   "ymax": 510,
+   "kern_left_group": "u",
+   "kern_right_group": "u"
+  },
+  "v": {
+   "adv": 393,
+   "lsb": -14,
+   "rsb": -8,
+   "ymin": -9,
+   "ymax": 510
+  },
+  "w": {
+   "adv": 597,
+   "lsb": -14,
+   "rsb": -8,
+   "ymin": -9,
+   "ymax": 510,
+   "kern_left_group": "w",
+   "kern_right_group": "w"
+  },
+  "x": {
+   "adv": 385,
+   "lsb": -8,
+   "rsb": -4,
+   "ymin": 0,
+   "ymax": 510
+  },
+  "y": {
+   "adv": 401,
+   "lsb": -14,
+   "rsb": -8,
+   "ymin": -205,
+   "ymax": 510,
+   "kern_left_group": "y",
+   "kern_right_group": "y"
+  },
+  "z": {
+   "adv": 353,
+   "lsb": 15,
+   "rsb": 14,
+   "ymin": 0,
+   "ymax": 534,
+   "kern_left_group": "z",
+   "kern_right_group": "z"
+  },
+  "0": {
+   "adv": 460,
+   "lsb": 36,
+   "rsb": 36,
+   "ymin": -9,
+   "ymax": 730
+  },
+  "1": {
+   "adv": 249,
+   "lsb": 5,
+   "rsb": 10,
+   "ymin": 0,
+   "ymax": 735
+  },
+  "2": {
+   "adv": 404,
+   "lsb": 20,
+   "rsb": 26,
+   "ymin": 0,
+   "ymax": 730
+  },
+  "3": {
+   "adv": 371,
+   "lsb": 20,
+   "rsb": 30,
+   "ymin": -9,
+   "ymax": 730
+  },
+  "4": {
+   "adv": 393,
+   "lsb": 10,
+   "rsb": 14,
+   "ymin": 0,
+   "ymax": 720
+  },
+  "5": {
+   "adv": 382,
+   "lsb": 10,
+   "rsb": 30,
+   "ymin": -9,
+   "ymax": 745
+  },
+  "6": {
+   "adv": 404,
+   "lsb": 36,
+   "rsb": 28,
+   "ymin": -9,
+   "ymax": 730
+  },
+  "7": {
+   "adv": 364,
+   "lsb": 18,
+   "rsb": 4,
+   "ymin": 0,
+   "ymax": 720
+  },
+  "8": {
+   "adv": 433,
+   "lsb": 28,
+   "rsb": 28,
+   "ymin": -9,
+   "ymax": 730
+  },
+  "9": {
+   "adv": 402,
+   "lsb": 26,
+   "rsb": 36,
+   "ymin": -9,
+   "ymax": 730
+  }
+ },
+ "spacing_italic_sample": {
+  "H": {
+   "adv": 545,
+   "lsb": -36,
+   "rsb": -85
+  },
+  "O": {
+   "adv": 540,
+   "lsb": 54,
+   "rsb": 5
+  },
+  "n": {
+   "adv": 521,
+   "lsb": 19,
+   "rsb": 22
+  },
+  "o": {
+   "adv": 414,
+   "lsb": 20,
+   "rsb": 21
+  }
+ },
+ "accents": {
+  "acutecomb": {
+   "ymin": 583,
+   "ymax": 740,
+   "adv": 0
+  },
+  "gravecomb": {
+   "ymin": 583,
+   "ymax": 740,
+   "adv": 0
+  },
+  "uni0308": {
+   "ymin": 605,
+   "ymax": 706,
+   "adv": 0
+  },
+  "uni0306": {
+   "ymin": 579,
+   "ymax": 730,
+   "adv": 0
+  },
+  "Edieresis": {
+   "components": [
+    [
+     "E",
+     0,
+     0
+    ],
+    [
+     "uni0308",
+     22,
+     210
+    ]
+   ],
+   "ymax": 916
+  },
+  "edieresis": {
+   "components": [
+    [
+     "e",
+     0,
+     0
+    ],
+    [
+     "uni0308",
+     -12,
+     0
+    ]
+   ],
+   "ymax": 706
+  },
+  "Abreve": {
+   "components": [
+    [
+     "A",
+     0,
+     0
+    ],
+    [
+     "uni0306",
+     25,
+     210
+    ]
+   ],
+   "ymax": 940
+  },
+  "abreve": {
+   "components": [
+    [
+     "a",
+     0,
+     0
+    ],
+    [
+     "uni0306",
+     -4,
+     0
+    ]
+   ],
+   "ymax": 730
+  },
+  "Eacute": {
+   "components": [
+    [
+     "E",
+     0,
+     0
+    ],
+    [
+     "acutecomb",
+     50,
+     210
+    ]
+   ],
+   "ymax": 950
+  },
+  "extremes": {
+   "top": [
+    "Aring",
+    986
+   ],
+   "bottom": [
+    "uni0122",
+    -305
+   ]
+  },
+  "rule_capital_accent_raise": {
+   "value": 210,
+   "note": "capHeight − xHeight; применяется как y-смещение знака в композитах Ё, Й и т. п."
+  },
+  "anchors_source": {
+   "E": {
+    "bottom": [
+     227,
+     0
+    ],
+    "ogonek": [
+     385,
+     0
+    ],
+    "top": [
+     227,
+     720
+    ],
+    "topleft": [
+     20,
+     720
+    ]
+   },
+   "e": {
+    "bottom": [
+     178,
+     0
+    ],
+    "ogonek": [
+     239,
+     0
+    ],
+    "top": [
+     193,
+     510
+    ]
+   },
+   "acutecomb": {
+    "_top": [
+     177,
+     510
+    ],
+    "top": [
+     177,
+     740
+    ]
+   },
+   "brevecomb": {
+    "_top": [
+     204,
+     510
+    ],
+    "top": [
+     204,
+     730
+    ]
+   },
+   "dieresiscomb": {
+    "_top": [
+     205,
+     510
+    ],
+    "top": [
+     205,
+     706
+    ]
+   }
+  }
+ },
+ "ss01_deltas_vs_base": {
+  "a.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "aacute.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "abreve.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "uni01CE.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "acircumflex.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "adieresis.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "agrave.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "amacron.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "aogonek.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "aring.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -21,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "atilde.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -4,
+   "d_ymax": 0,
+   "adv_base": 399,
+   "adv_alt": 389
+  },
+  "c.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 339,
+   "adv_alt": 339
+  },
+  "cacute.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 339,
+   "adv_alt": 339
+  },
+  "ccaron.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 339,
+   "adv_alt": 339
+  },
+  "ccedilla.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 339,
+   "adv_alt": 339
+  },
+  "cdotaccent.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 339,
+   "adv_alt": 339
+  },
+  "d.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -16,
+   "d_ymax": 0,
+   "adv_base": 457,
+   "adv_alt": 446
+  },
+  "dcaron.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 516,
+   "adv_alt": 446
+  },
+  "dcroat.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -15,
+   "d_ymax": 0,
+   "adv_base": 457,
+   "adv_alt": 457
+  },
+  "e.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "eacute.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "ecaron.ss01": {
+   "d_xmin": -2,
+   "d_ymin": 0,
+   "d_xmax": -15,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "ecircumflex.ss01": {
+   "d_xmin": -2,
+   "d_ymin": 0,
+   "d_xmax": -15,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "edieresis.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -7,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "edotaccent.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "egrave.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "emacron.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": -8,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "eogonek.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 10,
+   "d_xmax": 0,
+   "d_ymax": 0,
+   "adv_base": 355,
+   "adv_alt": 355
+  },
+  "g.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 3,
+   "d_ymax": -82,
+   "adv_base": 402,
+   "adv_alt": 395
+  },
+  "gbreve.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 3,
+   "d_ymax": 0,
+   "adv_base": 402,
+   "adv_alt": 395
+  },
+  "uni0123.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 3,
+   "d_ymax": 0,
+   "adv_base": 402,
+   "adv_alt": 395
+  },
+  "gdotaccent.ss01": {
+   "d_xmin": 0,
+   "d_ymin": 0,
+   "d_xmax": 3,
+   "d_ymax": 0,
+   "adv_base": 402,
+   "adv_alt": 395
+  }
+ },
+ "coverage": {
+  "cyrillic_codepoints_U0400_052F": 0,
+  "absent_must_draw_or_decide": [
+   "U+02BC modifier apostrophe",
+   "U+2116 numero",
+   "U+20B8 tenge",
+   "U+20BD ruble",
+   "U+20B4 hryvnia",
+   "U+25CC dotted circle",
+   "U+2009 thin space",
+   "U+202F narrow nbsp",
+   "U+2010 hyphen",
+   "U+2011 nb hyphen",
+   "U+2012 figure dash",
+   "U+2015 horizontal bar",
+   "U+2032 prime",
+   "U+2033 double prime",
+   "U+2007 figure space",
+   "U+200A hair space",
+   "U+2002 en space",
+   "U+2003 em space",
+   "U+200B zero width space",
+   "U+259 schwa",
+   "U+18F Schwa",
+   "U+2020 dagger",
+   "U+FFFD replacement",
+   "U+2248 approx"
+  ],
+  "present_reusable": [
+   "U+00A0 nbsp",
+   "U+00AB guillemotleft",
+   "U+00BB guillemotright",
+   "U+201E quotedblbase",
+   "U+201C quotedblleft",
+   "U+2014 emdash",
+   "U+2013 endash",
+   "U+2212 minus",
+   "U+00A7 section",
+   "U+00B0 degree",
+   "U+2030 permille",
+   "U+2026 ellipsis",
+   "U+0301 acutecomb",
+   "U+0300 gravecomb",
+   "U+0308 dieresiscomb",
+   "U+0306 brevecomb",
+   "U+0131 dotlessi"
+  ],
+  "latin_homoglyph_donors_present": true
+ },
+ "kerning": {
+  "pairs_in_source": 841,
+  "first_level_keys": 70,
+  "groups": 48,
+  "gpos_pairpos_fmt1_pairsets": 296
+ }
+}
