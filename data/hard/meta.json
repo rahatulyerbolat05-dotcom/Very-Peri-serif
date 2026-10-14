@@ -1,0 +1,35 @@
+{
+ "K1": {
+  "adv": 427,
+  "xmin": 3,
+  "xmax": 397,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "K1  без засечки",
+  "serif_depth": 0,
+  "bowl_right": 397,
+  "contours": 2
+ },
+ "K2": {
+  "adv": 427,
+  "xmin": 3,
+  "xmax": 397,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "K2  засечка 70",
+  "serif_depth": 70,
+  "bowl_right": 397,
+  "contours": 2
+ },
+ "K3": {
+  "adv": 427,
+  "xmin": 3,
+  "xmax": 397,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "K3  засечка 120",
+  "serif_depth": 120,
+  "bowl_right": 397,
+  "contours": 2
+ }
+}
