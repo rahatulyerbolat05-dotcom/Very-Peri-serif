@@ -1,0 +1,26 @@
+{
+  "source_file": "uploaded-archive/Instrument Serif Cyr 11/InstrumentSerifCyr11-Regular.ttf",
+  "source_sha256": "c126845bc4559992beb42a23b4b3a4ca3d5ab007f0865e39e2781207417b7fd9",
+  "source_glyph": "uni0436",
+  "destination_glyph": "uni0436",
+  "advance": 552,
+  "lsb": -3,
+  "raw_source_points": 144,
+  "outline_import": "byte-identical native TrueType glyph",
+  "source_for_editing": "quadratics converted to cubic with max_err .001; native TTF retained exactly",
+  "checks": {
+    "other_contours_and_hmtx_unchanged": true,
+    "source_glyph_byte_identical": true,
+    "source_hmtx_identical": true,
+    "alternates_preserved": true,
+    "cyrl_shaping_no_fallback": true,
+    "GDEF_base_class": 1,
+    "ttf_woff2_glyphs_reopened": true
+  },
+  "limitations": [
+    "Dedicated new ж kerning not imported or finalized",
+    "Archive contour has local tangent deviations; imported without global smoothing"
+  ],
+  "source_file_in_repository": false,
+  "checks_scope": "historical import verification; not rerun solely by repository import"
+}

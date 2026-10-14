@@ -1,0 +1,75 @@
+{
+  "variants": {
+    "01": {
+      "name": "Капля",
+      "unicode": "U+0431",
+      "advance": 408,
+      "bounds": [
+        23.0,
+        -9.0,
+        383.0,
+        740.4938099422484
+      ],
+      "LSB": 23.0,
+      "RSB": 25.0,
+      "contours": 2,
+      "nodes": 45,
+      "kerning_status": "base spacing only for new be; no dedicated be pairs"
+    },
+    "02": {
+      "name": "Флаг",
+      "unicode": "U+0431",
+      "advance": 416,
+      "bounds": [
+        23.0,
+        -9.0,
+        394.7803887661782,
+        739.984928272493
+      ],
+      "LSB": 23.0,
+      "RSB": 21.21961123382181,
+      "contours": 2,
+      "nodes": 54,
+      "kerning_status": "base spacing only for new be; no dedicated be pairs"
+    },
+    "03": {
+      "name": "Волна",
+      "unicode": "U+0431",
+      "advance": 438,
+      "bounds": [
+        23.0,
+        -9.0,
+        427.0,
+        748.0
+      ],
+      "LSB": 23.0,
+      "RSB": 11.0,
+      "contours": 2,
+      "nodes": 51,
+      "kerning_status": "base spacing only for new be; no dedicated be pairs"
+    }
+  },
+  "checks": {
+    "01": {
+      "cmap": true,
+      "proof_no_missing_glyphs": true,
+      "two_contours": true,
+      "upstream_outlines_unchanged": true,
+      "ttf_reopened": true
+    },
+    "02": {
+      "cmap": true,
+      "proof_no_missing_glyphs": true,
+      "two_contours": true,
+      "upstream_outlines_unchanged": true,
+      "ttf_reopened": true
+    },
+    "03": {
+      "cmap": true,
+      "proof_no_missing_glyphs": true,
+      "two_contours": true,
+      "upstream_outlines_unchanged": true,
+      "ttf_reopened": true
+    }
+  }
+}

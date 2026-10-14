@@ -1,0 +1,18 @@
+{
+  "01": {
+    "name": "Открытый терминал",
+    "advance": 349,
+    "bounds": [
+      24.0,
+      -9.0,
+      325.739990234375,
+      516.0
+    ],
+    "contours": 1,
+    "glyphs_nodes": 62,
+    "adjacent_duplicates": 0,
+    "sampled_polygon_valid": true,
+    "grafting": "none",
+    "new_kerning": "pending"
+  }
+}

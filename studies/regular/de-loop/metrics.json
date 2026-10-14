@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "01": {
+      "name": "Овальная петля",
+      "advance": 410,
+      "bounds": [
+        18.0,
+        -215.0,
+        383.0,
+        516.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    },
+    "02": {
+      "name": "Асимметричная петля",
+      "advance": 410,
+      "bounds": [
+        18.0,
+        -215.0,
+        379.0,
+        516.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    }
+  }
+}

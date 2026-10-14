@@ -1,0 +1,136 @@
+{
+  "01": {
+    "name": "Головка u",
+    "character": "к",
+    "unicode": "U+043A",
+    "glyph_name": "uni043A",
+    "advance": 451,
+    "bbox_cubic": [
+      15,
+      0,
+      451,
+      510
+    ],
+    "bbox_ttf": [
+      15,
+      0,
+      451,
+      510
+    ],
+    "lsb": 15,
+    "rsb": 0,
+    "stem": 68,
+    "cubic_nodes": 97,
+    "ttf_points": 80,
+    "contours": 1,
+    "head_donor": "u nodes48…62 translated(+4,0)",
+    "ttf_head_donor": "u points5…16 translated(+4,0)",
+    "new_join_tangent_jump_deg": 0,
+    "diagonal_angles_native": [
+      62.8189,
+      62.4958,
+      47.1211
+    ],
+    "anchors": {
+      "top": [
+        226,
+        510
+      ],
+      "bottom": [
+        226,
+        0
+      ]
+    },
+    "kerning": "native k classes/pairs as provisional starting values; Cyrillic optical review pending",
+    "checks": {
+      "native_branches_and_feet_exact_in_cubic_and_ttf": true,
+      "sampled_cubic_and_ttf_contour_valid": true,
+      "no_adjacent_cubic_duplicates": true,
+      "previous_glyf_hmtx_and_gsub_unchanged": true,
+      "previous_alternates_preserved": true,
+      "all_exports_reopened": true,
+      "both_unselected_shorti_bases_preserved": true
+    },
+    "independent_audit": {
+      "new_cubic_join_tangent_jump_max_deg": 0,
+      "adjacent_cubic_or_ttf_duplicates": 0,
+      "micro_segments_under_1": 0,
+      "minimum_segment_chord": 9.055,
+      "minimum_cubic_handle": 6,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true,
+      "native_cubic_and_ttf_donor_splices_exact": true,
+      "previous_glyphs_hmtx_and_gsub_identical": true,
+      "old_gpos_records_identical": true,
+      "woff2_gsub_gpos_and_geometry_match": true,
+      "anchors_match_gpos": true
+    }
+  },
+  "02": {
+    "name": "Наклонная головка k",
+    "character": "к",
+    "unicode": "U+043A",
+    "glyph_name": "uni043A",
+    "advance": 451,
+    "bbox_cubic": [
+      15,
+      0,
+      451,
+      510
+    ],
+    "bbox_ttf": [
+      15,
+      0,
+      451,
+      510
+    ],
+    "lsb": 15,
+    "rsb": 0,
+    "stem": 68,
+    "cubic_nodes": 102,
+    "ttf_points": 84,
+    "contours": 1,
+    "head_donor": "k nodes71…90 translated(0,−230)",
+    "ttf_head_donor": "k points9…24 translated(0,−230)",
+    "new_join_tangent_jump_deg": 0,
+    "diagonal_angles_native": [
+      62.8189,
+      62.4958,
+      47.1211
+    ],
+    "anchors": {
+      "top": [
+        226,
+        510
+      ],
+      "bottom": [
+        226,
+        0
+      ]
+    },
+    "kerning": "native k classes/pairs as provisional starting values; Cyrillic optical review pending",
+    "checks": {
+      "native_branches_and_feet_exact_in_cubic_and_ttf": true,
+      "sampled_cubic_and_ttf_contour_valid": true,
+      "no_adjacent_cubic_duplicates": true,
+      "previous_glyf_hmtx_and_gsub_unchanged": true,
+      "previous_alternates_preserved": true,
+      "all_exports_reopened": true,
+      "both_unselected_shorti_bases_preserved": true
+    },
+    "independent_audit": {
+      "new_cubic_join_tangent_jump_max_deg": 0,
+      "adjacent_cubic_or_ttf_duplicates": 0,
+      "micro_segments_under_1": 0,
+      "minimum_segment_chord": 9.055,
+      "minimum_cubic_handle": 6,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true,
+      "native_cubic_and_ttf_donor_splices_exact": true,
+      "previous_glyphs_hmtx_and_gsub_identical": true,
+      "old_gpos_records_identical": true,
+      "woff2_gsub_gpos_and_geometry_match": true,
+      "anchors_match_gpos": true
+    }
+  }
+}

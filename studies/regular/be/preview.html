@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Instrument Serif — три варианта б</title>
+<style>
+@font-face{font-family:Be1;src:url('be-01.woff2')}@font-face{font-family:Be2;src:url('be-02.woff2')}@font-face{font-family:Be3;src:url('be-03.woff2')}
+*{box-sizing:border-box}body{margin:0;background:#f5f1e9;color:#282334;font:16px system-ui,sans-serif}main{max-width:1400px;margin:auto;padding:48px 32px}h1{font-size:32px;font-weight:500;margin:0 0 12px}.intro{color:#70695f;max-width:800px;line-height:1.6}label{display:flex;gap:16px;align-items:center;margin:30px 0}input{accent-color:#7866a5}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.card{border-top:1px solid #c7beb0;padding-top:20px;min-width:0}h2{font-size:18px;font-weight:500}.glyph{font-size:clamp(160px,27vw,380px);line-height:1.25;text-align:center}.sample{font-size:var(--size,64px);line-height:1.6;overflow-wrap:anywhere;font-kerning:normal}.v1{font-family:Be1}.v2{font-family:Be2}.v3{font-family:Be3}.desc{line-height:1.6;color:#70695f}.notice{margin-top:40px;font-size:14px;line-height:1.7;color:#70695f}textarea{width:100%;min-height:90px;padding:16px;border:1px solid #c7beb0;background:transparent;border-radius:5px;font:20px system-ui}#missing{color:#96522e;min-height:24px;font-size:14px}@media(max-width:760px){.grid{grid-template-columns:1fr}.glyph{font-size:280px}main{padding:24px}}
+</style>
+<main><h1>Instrument Serif / строчная б</h1>
+<p class="intro">Три векторных направления Regular. Чаша наследует исходную o; верхний вынос построен отдельно. Здесь можно сравнить формы в наборе.</p>
+<textarea id="text" aria-label="Текст для сравнения">обо боб
+боба собор</textarea><div id="missing"></div>
+<label>Размер набора <input id="size" type="range" min="24" max="120" value="64"><span id="value">64 px</span></label>
+<div class="grid">
+<section class="card"><h2>01 / Капля</h2><div class="glyph v1">б</div><p class="desc">Мягкий округлый терминал, родственный f и a оригинала. Наиболее спокойный кандидат для основного набора.</p><div class="sample v1"></div></section>
+<section class="card"><h2>02 / Флаг</h2><div class="glyph v2">б</div><p class="desc">Удлинённый верхний ход с лёгким подъёмом окончания. Более строгий характер.</p><div class="sample v2"></div></section>
+<section class="card"><h2>03 / Волна</h2><div class="glyph v3">б</div><p class="desc">Пластичный вынос с заметным поворотом и приподнятым концом. Более выразительный вариант.</p><div class="sample v3"></div></section>
+</div><p class="notice">Это пробные сборки, не завершённое кириллическое семейство. Поддержаны б и донорские а е о р с у х, а также исходная латиница. Для новой б настроены базовые поля; специальные пары кернинга ещё не доведены. Исходник Instrument Serif: Rodrigo Fuenzalida и команда Instrument, SIL OFL 1.1.</p></main>
+<script>
+const text=document.querySelector('#text'),size=document.querySelector('#size');
+function update(){document.querySelectorAll('.sample').forEach(e=>{e.textContent=text.value;e.style.whiteSpace='pre-wrap'});const missing=[...new Set([...text.value].filter(c=>/[\u0400-\u052f]/.test(c)&&!'баеорсух'.includes(c)))];document.querySelector('#missing').textContent=missing.length?'Эти буквы ещё не добавлены и будут показаны другим шрифтом: '+missing.join(' '):'';document.documentElement.style.setProperty('--size',size.value+'px');document.querySelector('#value').textContent=size.value+' px'}
+text.addEventListener('input',update);size.addEventListener('input',update);update();
+</script></html>

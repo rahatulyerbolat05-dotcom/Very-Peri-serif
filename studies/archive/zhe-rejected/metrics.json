@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "01": {
+      "name": "Чёткая",
+      "advance": 699,
+      "bounds": [
+        44.0,
+        0.0,
+        675.0,
+        510.0
+      ],
+      "unicode": "U+0436",
+      "new_kerning": "pending"
+    },
+    "02": {
+      "name": "Пластичная",
+      "advance": 719,
+      "bounds": [
+        34.0,
+        0.0,
+        685.0,
+        510.0
+      ],
+      "unicode": "U+0436",
+      "new_kerning": "pending"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "previous_outlines_unchanged": true,
+      "alternates_verified": true,
+      "woff2_glyphs_reopened": true,
+      "yo_uses_original_edieresis": true,
+      "contours": 1
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "previous_outlines_unchanged": true,
+      "alternates_verified": true,
+      "woff2_glyphs_reopened": true,
+      "yo_uses_original_edieresis": true,
+      "contours": 1
+    }
+  }
+}

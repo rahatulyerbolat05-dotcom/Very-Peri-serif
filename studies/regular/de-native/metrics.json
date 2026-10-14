@@ -1,0 +1,118 @@
+{
+  "variants": {
+    "01": {
+      "name": "Короткое ухо",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "donor": "g.ss01",
+      "construction": "unmodified native two-storey g proposed as Cyrillic de",
+      "status": "unselected design exploration",
+      "advance": 395,
+      "bbox_cubic": [
+        14,
+        -215,
+        397,
+        516
+      ],
+      "hmtx": [
+        395,
+        14
+      ],
+      "cubic_nodes": 83,
+      "ttf_points": 85,
+      "contours": 3,
+      "kerning": "exact native donor inherited; Cyrillic contextual review pending",
+      "checks": {
+        "native_ttf_glyph_and_metrics_byte_identical": true,
+        "native_cubic_paths_unchanged": true,
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    },
+    "02": {
+      "name": "Каплевидное ухо",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "donor": "g",
+      "construction": "unmodified native two-storey g proposed as Cyrillic de",
+      "status": "unselected design exploration",
+      "advance": 402,
+      "bbox_cubic": [
+        14,
+        -215,
+        394,
+        598
+      ],
+      "hmtx": [
+        402,
+        14
+      ],
+      "cubic_nodes": 94,
+      "ttf_points": 96,
+      "contours": 3,
+      "kerning": "exact native donor inherited; Cyrillic contextual review pending",
+      "checks": {
+        "native_ttf_glyph_and_metrics_byte_identical": true,
+        "native_cubic_paths_unchanged": true,
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    }
+  },
+  "combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-02.ttf"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+[
+  {
+    "character": "А",
+    "unicode": "U+0410",
+    "unicode_name": "CYRILLIC CAPITAL LETTER A",
+    "production_name": "uni0410",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Б",
+    "unicode": "U+0411",
+    "unicode_name": "CYRILLIC CAPITAL LETTER BE",
+    "production_name": "uni0411",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "В",
+    "unicode": "U+0412",
+    "unicode_name": "CYRILLIC CAPITAL LETTER VE",
+    "production_name": "uni0412",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Г",
+    "unicode": "U+0413",
+    "unicode_name": "CYRILLIC CAPITAL LETTER GHE",
+    "production_name": "uni0413",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Д",
+    "unicode": "U+0414",
+    "unicode_name": "CYRILLIC CAPITAL LETTER DE",
+    "production_name": "uni0414",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Е",
+    "unicode": "U+0415",
+    "unicode_name": "CYRILLIC CAPITAL LETTER IE",
+    "production_name": "uni0415",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ё",
+    "unicode": "U+0401",
+    "unicode_name": "CYRILLIC CAPITAL LETTER IO",
+    "production_name": "uni0401",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ж",
+    "unicode": "U+0416",
+    "unicode_name": "CYRILLIC CAPITAL LETTER ZHE",
+    "production_name": "uni0416",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "З",
+    "unicode": "U+0417",
+    "unicode_name": "CYRILLIC CAPITAL LETTER ZE",
+    "production_name": "uni0417",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "И",
+    "unicode": "U+0418",
+    "unicode_name": "CYRILLIC CAPITAL LETTER I",
+    "production_name": "uni0418",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Й",
+    "unicode": "U+0419",
+    "unicode_name": "CYRILLIC CAPITAL LETTER SHORT I",
+    "production_name": "uni0419",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "К",
+    "unicode": "U+041A",
+    "unicode_name": "CYRILLIC CAPITAL LETTER KA",
+    "production_name": "uni041A",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Л",
+    "unicode": "U+041B",
+    "unicode_name": "CYRILLIC CAPITAL LETTER EL",
+    "production_name": "uni041B",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "М",
+    "unicode": "U+041C",
+    "unicode_name": "CYRILLIC CAPITAL LETTER EM",
+    "production_name": "uni041C",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Н",
+    "unicode": "U+041D",
+    "unicode_name": "CYRILLIC CAPITAL LETTER EN",
+    "production_name": "uni041D",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "О",
+    "unicode": "U+041E",
+    "unicode_name": "CYRILLIC CAPITAL LETTER O",
+    "production_name": "uni041E",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "П",
+    "unicode": "U+041F",
+    "unicode_name": "CYRILLIC CAPITAL LETTER PE",
+    "production_name": "uni041F",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Р",
+    "unicode": "U+0420",
+    "unicode_name": "CYRILLIC CAPITAL LETTER ER",
+    "production_name": "uni0420",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "С",
+    "unicode": "U+0421",
+    "unicode_name": "CYRILLIC CAPITAL LETTER ES",
+    "production_name": "uni0421",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Т",
+    "unicode": "U+0422",
+    "unicode_name": "CYRILLIC CAPITAL LETTER TE",
+    "production_name": "uni0422",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "У",
+    "unicode": "U+0423",
+    "unicode_name": "CYRILLIC CAPITAL LETTER U",
+    "production_name": "uni0423",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ф",
+    "unicode": "U+0424",
+    "unicode_name": "CYRILLIC CAPITAL LETTER EF",
+    "production_name": "uni0424",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Х",
+    "unicode": "U+0425",
+    "unicode_name": "CYRILLIC CAPITAL LETTER HA",
+    "production_name": "uni0425",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ц",
+    "unicode": "U+0426",
+    "unicode_name": "CYRILLIC CAPITAL LETTER TSE",
+    "production_name": "uni0426",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ч",
+    "unicode": "U+0427",
+    "unicode_name": "CYRILLIC CAPITAL LETTER CHE",
+    "production_name": "uni0427",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ш",
+    "unicode": "U+0428",
+    "unicode_name": "CYRILLIC CAPITAL LETTER SHA",
+    "production_name": "uni0428",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Щ",
+    "unicode": "U+0429",
+    "unicode_name": "CYRILLIC CAPITAL LETTER SHCHA",
+    "production_name": "uni0429",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ъ",
+    "unicode": "U+042A",
+    "unicode_name": "CYRILLIC CAPITAL LETTER HARD SIGN",
+    "production_name": "uni042A",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ы",
+    "unicode": "U+042B",
+    "unicode_name": "CYRILLIC CAPITAL LETTER YERU",
+    "production_name": "uni042B",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ь",
+    "unicode": "U+042C",
+    "unicode_name": "CYRILLIC CAPITAL LETTER SOFT SIGN",
+    "production_name": "uni042C",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Э",
+    "unicode": "U+042D",
+    "unicode_name": "CYRILLIC CAPITAL LETTER E",
+    "production_name": "uni042D",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Ю",
+    "unicode": "U+042E",
+    "unicode_name": "CYRILLIC CAPITAL LETTER YU",
+    "production_name": "uni042E",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "Я",
+    "unicode": "U+042F",
+    "unicode_name": "CYRILLIC CAPITAL LETTER YA",
+    "production_name": "uni042F",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "а",
+    "unicode": "U+0430",
+    "unicode_name": "CYRILLIC SMALL LETTER A",
+    "production_name": "uni0430",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "б",
+    "unicode": "U+0431",
+    "unicode_name": "CYRILLIC SMALL LETTER BE",
+    "production_name": "uni0431",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "в",
+    "unicode": "U+0432",
+    "unicode_name": "CYRILLIC SMALL LETTER VE",
+    "production_name": "uni0432",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "г",
+    "unicode": "U+0433",
+    "unicode_name": "CYRILLIC SMALL LETTER GHE",
+    "production_name": "uni0433",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "д",
+    "unicode": "U+0434",
+    "unicode_name": "CYRILLIC SMALL LETTER DE",
+    "production_name": "uni0434",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "е",
+    "unicode": "U+0435",
+    "unicode_name": "CYRILLIC SMALL LETTER IE",
+    "production_name": "uni0435",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ё",
+    "unicode": "U+0451",
+    "unicode_name": "CYRILLIC SMALL LETTER IO",
+    "production_name": "uni0451",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ж",
+    "unicode": "U+0436",
+    "unicode_name": "CYRILLIC SMALL LETTER ZHE",
+    "production_name": "uni0436",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "з",
+    "unicode": "U+0437",
+    "unicode_name": "CYRILLIC SMALL LETTER ZE",
+    "production_name": "uni0437",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "и",
+    "unicode": "U+0438",
+    "unicode_name": "CYRILLIC SMALL LETTER I",
+    "production_name": "uni0438",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "й",
+    "unicode": "U+0439",
+    "unicode_name": "CYRILLIC SMALL LETTER SHORT I",
+    "production_name": "uni0439",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "к",
+    "unicode": "U+043A",
+    "unicode_name": "CYRILLIC SMALL LETTER KA",
+    "production_name": "uni043A",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "л",
+    "unicode": "U+043B",
+    "unicode_name": "CYRILLIC SMALL LETTER EL",
+    "production_name": "uni043B",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "м",
+    "unicode": "U+043C",
+    "unicode_name": "CYRILLIC SMALL LETTER EM",
+    "production_name": "uni043C",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "н",
+    "unicode": "U+043D",
+    "unicode_name": "CYRILLIC SMALL LETTER EN",
+    "production_name": "uni043D",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "о",
+    "unicode": "U+043E",
+    "unicode_name": "CYRILLIC SMALL LETTER O",
+    "production_name": "uni043E",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "п",
+    "unicode": "U+043F",
+    "unicode_name": "CYRILLIC SMALL LETTER PE",
+    "production_name": "uni043F",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "р",
+    "unicode": "U+0440",
+    "unicode_name": "CYRILLIC SMALL LETTER ER",
+    "production_name": "uni0440",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "с",
+    "unicode": "U+0441",
+    "unicode_name": "CYRILLIC SMALL LETTER ES",
+    "production_name": "uni0441",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "т",
+    "unicode": "U+0442",
+    "unicode_name": "CYRILLIC SMALL LETTER TE",
+    "production_name": "uni0442",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "у",
+    "unicode": "U+0443",
+    "unicode_name": "CYRILLIC SMALL LETTER U",
+    "production_name": "uni0443",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ф",
+    "unicode": "U+0444",
+    "unicode_name": "CYRILLIC SMALL LETTER EF",
+    "production_name": "uni0444",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "х",
+    "unicode": "U+0445",
+    "unicode_name": "CYRILLIC SMALL LETTER HA",
+    "production_name": "uni0445",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ц",
+    "unicode": "U+0446",
+    "unicode_name": "CYRILLIC SMALL LETTER TSE",
+    "production_name": "uni0446",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ч",
+    "unicode": "U+0447",
+    "unicode_name": "CYRILLIC SMALL LETTER CHE",
+    "production_name": "uni0447",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ш",
+    "unicode": "U+0448",
+    "unicode_name": "CYRILLIC SMALL LETTER SHA",
+    "production_name": "uni0448",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "щ",
+    "unicode": "U+0449",
+    "unicode_name": "CYRILLIC SMALL LETTER SHCHA",
+    "production_name": "uni0449",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ъ",
+    "unicode": "U+044A",
+    "unicode_name": "CYRILLIC SMALL LETTER HARD SIGN",
+    "production_name": "uni044A",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ы",
+    "unicode": "U+044B",
+    "unicode_name": "CYRILLIC SMALL LETTER YERU",
+    "production_name": "uni044B",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ь",
+    "unicode": "U+044C",
+    "unicode_name": "CYRILLIC SMALL LETTER SOFT SIGN",
+    "production_name": "uni044C",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "э",
+    "unicode": "U+044D",
+    "unicode_name": "CYRILLIC SMALL LETTER E",
+    "production_name": "uni044D",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "ю",
+    "unicode": "U+044E",
+    "unicode_name": "CYRILLIC SMALL LETTER YU",
+    "production_name": "uni044E",
+    "style": "Regular",
+    "status": "not drawn"
+  },
+  {
+    "character": "я",
+    "unicode": "U+044F",
+    "unicode_name": "CYRILLIC SMALL LETTER YA",
+    "production_name": "uni044F",
+    "style": "Regular",
+    "status": "not drawn"
+  }
+]

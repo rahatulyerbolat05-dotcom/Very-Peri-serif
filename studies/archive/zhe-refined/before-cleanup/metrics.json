@@ -1,0 +1,23 @@
+{
+  "character": "ж",
+  "source": "user sketch",
+  "upm": 1000,
+  "height": 510,
+  "center_stem": 68,
+  "advance": 576,
+  "bounds": [
+    -0.14296210633980966,
+    0.0,
+    553.5002746623928,
+    510.0
+  ],
+  "straightened_upper_shafts": true,
+  "lower_inner_edges_shift": 7,
+  "new_kerning": "pending",
+  "checks": {
+    "no_fallback": true,
+    "previous_outlines_unchanged": true,
+    "alternates_verified": true,
+    "ttf_woff2_glyphs_reopened": true
+  }
+}

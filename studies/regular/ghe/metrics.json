@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "01": {
+      "name": "Клюв",
+      "unicode": "U+0433",
+      "advance": 339,
+      "bounds": [
+        15.0,
+        0.0,
+        320.109038524102,
+        510.0
+      ],
+      "new_kerning": "not finalized"
+    },
+    "02": {
+      "name": "Капля",
+      "unicode": "U+0433",
+      "advance": 335,
+      "bounds": [
+        15.0,
+        0.0,
+        316.0,
+        516.0
+      ],
+      "new_kerning": "not finalized"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "alternate_features_verified": true,
+      "woff2_and_glyphs_reopened": true
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "alternate_features_verified": true,
+      "woff2_and_glyphs_reopened": true
+    }
+  }
+}

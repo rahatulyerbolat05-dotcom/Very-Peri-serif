@@ -1,0 +1,55 @@
+{
+  "01": {
+    "name": "Прямая диагональ",
+    "advance": 470,
+    "bounds": [
+      15.0,
+      0.0,
+      459.0,
+      510.0
+    ],
+    "contours": 1,
+    "glyphs_nodes": 90,
+    "adjacent_duplicates": 0,
+    "sampled_polygon_valid": true,
+    "construction": "n feet + u heads + straight hairline",
+    "localized_join_rounds": 4,
+    "new_kerning": "pending",
+    "ttf_points": 89,
+    "ttf_adjacent_duplicates": 0,
+    "independent_audit": {
+      "new_join_tangent_jump_max_deg": 0.00037,
+      "micro_segments_under_1": 0,
+      "ttf_adjacent_duplicates": 0,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true
+    }
+  },
+  "02": {
+    "name": "Чашеобразная",
+    "advance": 454,
+    "bounds": [
+      11.0,
+      -9.0,
+      439.0,
+      510.0
+    ],
+    "contours": 1,
+    "glyphs_nodes": 67,
+    "adjacent_duplicates": 0,
+    "sampled_polygon_valid": true,
+    "construction": "exact native u",
+    "localized_join_rounds": 0,
+    "new_kerning": "pending",
+    "ttf_points": 59,
+    "ttf_adjacent_duplicates": 0,
+    "native_u_byte_identical": true,
+    "independent_audit": {
+      "micro_segments_under_1": 0,
+      "ttf_adjacent_duplicates": 0,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true,
+      "native_u_byte_identical": true
+    }
+  }
+}

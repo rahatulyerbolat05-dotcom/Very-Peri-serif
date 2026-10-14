@@ -1,0 +1,91 @@
+{
+  "01": {
+    "name": "Родная кратка",
+    "unicode": "U+0439",
+    "advance": 454,
+    "body": "byte-identical approved u-shaped и",
+    "bounds_ttf": [
+      11,
+      -9,
+      439,
+      730
+    ],
+    "contours_decomposed": 2,
+    "mark_center": 216,
+    "mark_scale": 1,
+    "mark_cubic_nodes": 24,
+    "mark_y_cubic": [
+      579,
+      730
+    ],
+    "gap_above_body": 69,
+    "mark_bottom_thickness_cubic": 57,
+    "new_cyrillic_kerning": "pending; exact native u/ubreve positioning inherited",
+    "checks": {
+      "sampled_contours_valid": true,
+      "contours_disjoint": true,
+      "previous_outlines_and_hmtx_unchanged": true,
+      "precomposed_decomposed_match": true,
+      "ss07_i_and_shorti_verified": true,
+      "ttf_woff2_glyphs_reopened": true,
+      "first_matches_native_ubreve_coordinates": true
+    },
+    "independent_audit": {
+      "duplicates": 0,
+      "micro_segments_under_1": 0,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true,
+      "native_kerning_nonzero_positions_verified": 124,
+      "old_native_pairs_unchanged": true,
+      "glyphs_ufo_component_offsets_and_widths_preserved": true,
+      "nfc_nfd_and_ss07_with_acute_match": true,
+      "ttf_woff2_contours_metrics_match": true,
+      "glyphs_anchors_match_gpos": true
+    }
+  },
+  "02": {
+    "name": "Компактная кратка",
+    "unicode": "U+0439",
+    "advance": 454,
+    "body": "byte-identical approved u-shaped и",
+    "bounds_ttf": [
+      11,
+      -9,
+      439,
+      665
+    ],
+    "contours_decomposed": 2,
+    "mark_center": 216,
+    "mark_scale": 0.7,
+    "mark_cubic_nodes": 24,
+    "mark_y_cubic": [
+      559,
+      664.7
+    ],
+    "gap_above_body": 49,
+    "mark_bottom_thickness_cubic": 39.9,
+    "new_cyrillic_kerning": "pending; exact native u/ubreve positioning inherited",
+    "checks": {
+      "sampled_contours_valid": true,
+      "contours_disjoint": true,
+      "previous_outlines_and_hmtx_unchanged": true,
+      "precomposed_decomposed_match": true,
+      "ss07_i_and_shorti_verified": true,
+      "ttf_woff2_glyphs_reopened": true,
+      "first_matches_native_ubreve_coordinates": false
+    },
+    "independent_audit": {
+      "duplicates": 0,
+      "micro_segments_under_1": 0,
+      "sampled_self_intersections": 0,
+      "svg_not_clipped": true,
+      "native_kerning_nonzero_positions_verified": 124,
+      "old_native_pairs_unchanged": true,
+      "glyphs_ufo_component_offsets_and_widths_preserved": true,
+      "nfc_nfd_and_ss07_with_acute_match": true,
+      "ttf_woff2_contours_metrics_match": true,
+      "glyphs_anchors_match_gpos": true,
+      "compact_mark_ttf_center": 216
+    }
+  }
+}

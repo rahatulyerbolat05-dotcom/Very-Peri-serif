@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "01": {
+      "name": "Прямая опора",
+      "advance": 464,
+      "bounds": [
+        10.847937481903726,
+        -96.0,
+        444.1520625180963,
+        510.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    },
+    "02": {
+      "name": "Треугольная",
+      "advance": 506,
+      "bounds": [
+        10.847937481903726,
+        -96.0,
+        482.1520625180963,
+        516.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    }
+  }
+}

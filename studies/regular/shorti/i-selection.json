@@ -1,0 +1,16 @@
+{
+  "character": "и",
+  "unicode": "U+0438",
+  "primary": {
+    "variant": "02",
+    "name": "Чашеобразная",
+    "glyph": "uni0438"
+  },
+  "alternate": {
+    "variant": "01",
+    "name": "Прямая диагональ",
+    "glyph": "i.altDiagonal",
+    "feature": "ss07"
+  },
+  "status": "explicit user selection"
+}

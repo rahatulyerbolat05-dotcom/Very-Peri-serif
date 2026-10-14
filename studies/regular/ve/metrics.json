@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "01": {
+      "name": "Структурная",
+      "advance": 421,
+      "bbox": [
+        15.0,
+        0.0,
+        395.0,
+        516.0
+      ],
+      "contours": 3,
+      "kerning": "base spacing; new pairs pending"
+    },
+    "02": {
+      "name": "Мягкая",
+      "advance": 425,
+      "bbox": [
+        13.0,
+        0.0,
+        399.0,
+        516.0
+      ],
+      "contours": 3,
+      "kerning": "base spacing; new pairs pending"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "be_default_and_ss02_ss03": true,
+      "existing_outlines_unchanged": true,
+      "three_contours": true,
+      "woff2_reopened": true
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "be_default_and_ss02_ss03": true,
+      "existing_outlines_unchanged": true,
+      "three_contours": true,
+      "woff2_reopened": true
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "01": {
+      "name": "Плавное плечо",
+      "advance": 444,
+      "bounds": [
+        24.56846756230185,
+        -96.0,
+        415.97435844752465,
+        516.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    },
+    "02": {
+      "name": "Овальная",
+      "advance": 467,
+      "bounds": [
+        20.13535182438634,
+        -96.0,
+        439.97435844752465,
+        516.0
+      ],
+      "unicode": "U+0434",
+      "new_kerning": "pending"
+    }
+  },
+  "checks": {
+    "01": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    },
+    "02": {
+      "proof_no_fallback": true,
+      "existing_outlines_unchanged": true,
+      "ghe_selection_and_alternates_verified": true,
+      "woff2_glyphs_reopened": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Preserve byte-identical upstream licences and generated SVG path formatting.
+OFL.txt whitespace=-trailing-space
+AUTHORS.txt whitespace=-blank-at-eof
+studies/**/OFL.txt whitespace=-trailing-space
+studies/**/*.svg whitespace=-trailing-space linguist-generated=true
+studies/**/*.glyphs linguist-generated=true
+studies/**/*.ttf binary
+studies/**/*.woff2 binary

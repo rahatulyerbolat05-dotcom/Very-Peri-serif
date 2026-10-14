@@ -1,0 +1,93 @@
+{
+  "character": "ж",
+  "source": "user sketch",
+  "upm": 1000,
+  "height": 510,
+  "center_stem": 68,
+  "advance": 576,
+  "bounds": [
+    -0.2474722488466874,
+    0.0,
+    553.5877521272523,
+    510.0
+  ],
+  "straightened_upper_shafts": true,
+  "lower_inner_edges_shift": 7,
+  "new_kerning": "pending",
+  "checks": {
+    "no_fallback": true,
+    "previous_outlines_unchanged": true,
+    "alternates_verified": true,
+    "ttf_woff2_glyphs_reopened": true
+  },
+  "vector_audit": {
+    "segments_before": 102,
+    "segments_after": 68,
+    "cubic_nodes_after": 168,
+    "collinear_nodes_removed": [
+      {
+        "node": [
+          493,
+          67
+        ],
+        "deviation": 0.25028263417223084
+      },
+      {
+        "node": [
+          61,
+          67
+        ],
+        "deviation": 0.28380648592111196
+      }
+    ],
+    "stem_merge_deviation": 0.26939276140841334,
+    "cubic_pairs_merged": 31,
+    "max_merge_deviation": 0.23773957681136187,
+    "largest_control_adjustment": 2.5613129286274816,
+    "max_unprotected_tangent_jump": 0.010976619916679716,
+    "preserved_constructive_corners": [
+      {
+        "node": [
+          334.0,
+          270.0
+        ],
+        "angle": 31.958302306898116
+      },
+      {
+        "node": [
+          317.0,
+          292.0
+        ],
+        "angle": 57.522883870537214
+      },
+      {
+        "node": [
+          236.0,
+          292.0
+        ],
+        "angle": 60.24013849229113
+      },
+      {
+        "node": [
+          220.0,
+          270.0
+        ],
+        "angle": 30.956597714503644
+      }
+    ],
+    "self_intersection_check": "valid sampled polygon at 160 samples per segment",
+    "total_outline_deviation": 1.0635627350216994,
+    "quadratic_segments_after": 0,
+    "independent_saved_file_check": {
+      "nodes": 168,
+      "cubics": 50,
+      "lines": 18,
+      "adjacent_duplicates": 0,
+      "degenerate_tangents": 0,
+      "max_unintended_tangent_jump_degrees": 0.1,
+      "former_430_60_tangent_jump_degrees": 7.4e-05,
+      "sampled_points": 5019,
+      "sampled_polygon_simple": true
+    }
+  }
+}

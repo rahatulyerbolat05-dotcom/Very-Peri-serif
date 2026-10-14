@@ -1,0 +1,3665 @@
+{
+  "schema_version": 1,
+  "purpose": "Factual passports of retained lowercase Cyrillic Regular studies, with selected and unresolved states preserved.",
+  "scope": {
+    "letters_studied": [
+      "б",
+      "в",
+      "г",
+      "д",
+      "ж",
+      "з",
+      "и",
+      "й",
+      "к"
+    ],
+    "inherited_glyphs": [
+      "е",
+      "ё"
+    ],
+    "full_font": false,
+    "production_release": false,
+    "italic_studies": false,
+    "final_kerning": false,
+    "fontbakery_validated": false
+  },
+  "reference": {
+    "repository": "https://github.com/Instrument/instrument-serif",
+    "commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+    "parameter_source": "data/params.json",
+    "source_note": "Измерено по готовому TTF (ttfautohint), контуры квадратичные. Исходники .glyphs использованы для зон, групп, якорей. Растр 2000 px/em.",
+    "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
+    "license": "SIL OFL 1.1"
+  },
+  "evidence_conventions": {
+    "measured_donor_fact": "Latin-reference facts from data/params.json only; no original Cyrillic exists in that reference.",
+    "source_reported_study": "Existing metrics and preserved design-notes.md statements are previous study evidence; source-reported checks were not rerun by this passport task. Current README files carry present selection status and navigation.",
+    "measured_export_this_pass": "Read-only inspection of existing TTF and WOFF2 using installed fontTools. Stored glyf bounding boxes, true curve extrema and hmtx LSB are different quantities and remain distinct.",
+    "existing_study_design_decision": "Numbers chosen/transformed for a new study, even when they agree with a measured donor; not asserted as native source measurements.",
+    "instruction_prescription": "Ductus from docs/instruction.md, not retrospective proof that an existing study was generated after recording those strokes.",
+    "selection": "Explicit current task state and retained selection/progress records govern approval. Technical defaults do not resolve open choices.",
+    "path_base": "All retained-artifact paths are repository-relative. Trial TTF/WOFF2/Glyphs are cumulative studies, not separate standalone production glyph/font releases."
+  },
+  "verification": {
+    "mode": "read-only document and export inspection; no uploaded/build scripts executed",
+    "representative_trial": "studies/regular/ka/ka-01.ttf",
+    "gsub_scripts_measured": [
+      "DFLT",
+      "cyrl",
+      "latn"
+    ],
+    "gsub_substitutions_measured": {
+      "ss01": {
+        "e": "e.ss01",
+        "edieresis": "edieresis.ss01"
+      },
+      "ss02": {
+        "uni0431": "be.altFlag"
+      },
+      "ss03": {
+        "uni0431": "be.altWave"
+      },
+      "ss04": {
+        "uni0432": "ve.altSoft"
+      },
+      "ss05": {
+        "uni0433": "ghe.altBeak"
+      },
+      "ss06": {
+        "uni0434": "de.altAsymmetric"
+      },
+      "ss07": {
+        "uni0438": "i.altDiagonal",
+        "uni0439": "shorti.altDiagonal"
+      }
+    },
+    "fontbakery": "not run; no validation claim",
+    "hyperglot": "not run; no language-coverage claim",
+    "complete_geometric_proof": "not performed; source sampling reports are not analytic proofs",
+    "kerning": "inherited positioning is provisional; dedicated new Cyrillic/mixed pairs remain open"
+  },
+  "selection_summary": {
+    "б": "01 Капля; 02/03 retained as ss02/ss03",
+    "г": "02 Капля; 01 retained as ss05",
+    "ж": "exact Claude Cyr11 uni0436 imported; local polish pending",
+    "з": "01 only; 02 deleted and not retained",
+    "и": "02 exact native u primary; 01 diagonal alternate ss07",
+    "в": "01/02 unresolved; 01 technical default in cumulative trials",
+    "д": "Redesign requested; old forms retained, new native-g exploration not selected",
+    "й": "01/02 unresolved; both survive in trial combinations",
+    "к": "01/02 liked; primary unresolved"
+  },
+  "letters": [
+    {
+      "glyph": "uni0431",
+      "unicode": "U+0431",
+      "character": "б",
+      "name": "be",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Нижняя округлая чаша и верхний вынос с каплей; альтернативы имеют флаг или волну.",
+        "source": "studies/regular/be/design-notes.md"
+      },
+      "type": "bowl_and_ascender",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: стойка от верха вниз; чаша вправо и обратно; верхний ход вверх-вправо."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/be/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "o",
+          "role": "Точная исходная геометрия чаши и просвета; наружный контур изменён у соединения выноса.",
+          "relationship": "native bowl with locally changed exterior",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/o",
+            "values": {
+              "adv": 408,
+              "lsb": 23,
+              "rsb": 25,
+              "ymin": -9,
+              "ymax": 516,
+              "kern_left_group": "o",
+              "kern_right_group": "o"
+            }
+          },
+          "construction_reference": "studies/regular/be/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "user_selected_primary_with_retained_alternates",
+        "primary_variant": "01",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized",
+        "selection_evidence": "studies/regular/be/selection.json"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Капля",
+          "selection_status": "selected_primary",
+          "glyph": "uni0431",
+          "combined_glyph": "uni0431",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/be/metrics.json",
+            "record": {
+              "name": "Капля",
+              "unicode": "U+0431",
+              "advance": 408,
+              "bounds": [
+                23.0,
+                -9.0,
+                383.0,
+                740.4938099422484
+              ],
+              "LSB": 23.0,
+              "RSB": 25.0,
+              "contours": 2,
+              "nodes": 45,
+              "kerning_status": "base spacing only for new be; no dedicated be pairs"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/be/be-01.ttf",
+            "ttf": {
+              "glyph": "uni0431",
+              "hmtx_advance": 408,
+              "hmtx_lsb": 23,
+              "stored_glyf_bounds": [
+                23,
+                -9,
+                383,
+                742
+              ],
+              "curve_extrema_bounds": [
+                23,
+                -9,
+                383,
+                740.4705882352941
+              ],
+              "geometric_left_extent": 23,
+              "geometric_right_sidebearing": 25,
+              "contours_decomposed": 2,
+              "ttf_points_decomposed": 62,
+              "composite": false,
+              "glyf_sha256": "ec5a99d33e46b3194f1cdf1cd052ee2d97ba4a0182201585d712c5e7b9a19651"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/be/be-01.ttf",
+            "woff2": "studies/regular/be/be-01.woff2",
+            "glyphs": "studies/regular/be/be-01.glyphs",
+            "svg": "studies/regular/be/be-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Флаг",
+          "selection_status": "retained_alternate",
+          "glyph": "uni0431",
+          "combined_glyph": "be.altFlag",
+          "feature": "ss02",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/be/metrics.json",
+            "record": {
+              "name": "Флаг",
+              "unicode": "U+0431",
+              "advance": 416,
+              "bounds": [
+                23.0,
+                -9.0,
+                394.7803887661782,
+                739.984928272493
+              ],
+              "LSB": 23.0,
+              "RSB": 21.21961123382181,
+              "contours": 2,
+              "nodes": 54,
+              "kerning_status": "base spacing only for new be; no dedicated be pairs"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/be/be-02.ttf",
+            "ttf": {
+              "glyph": "uni0431",
+              "hmtx_advance": 416,
+              "hmtx_lsb": 23,
+              "stored_glyf_bounds": [
+                23,
+                -9,
+                396,
+                741
+              ],
+              "curve_extrema_bounds": [
+                23,
+                -9,
+                394.72727272727275,
+                739.8888888888889
+              ],
+              "geometric_left_extent": 23,
+              "geometric_right_sidebearing": 21.272727272727252,
+              "contours_decomposed": 2,
+              "ttf_points_decomposed": 66,
+              "composite": false,
+              "glyf_sha256": "77f091694158cbe4b5e4790b4d6970c4b59864989166ff6355dc28a591c08a75"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/be/be-02.ttf",
+            "woff2": "studies/regular/be/be-02.woff2",
+            "glyphs": "studies/regular/be/be-02.glyphs",
+            "svg": "studies/regular/be/be-02.svg"
+          }
+        },
+        {
+          "id": "03",
+          "name": "Волна",
+          "selection_status": "retained_alternate",
+          "glyph": "uni0431",
+          "combined_glyph": "be.altWave",
+          "feature": "ss03",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/be/metrics.json",
+            "record": {
+              "name": "Волна",
+              "unicode": "U+0431",
+              "advance": 438,
+              "bounds": [
+                23.0,
+                -9.0,
+                427.0,
+                748.0
+              ],
+              "LSB": 23.0,
+              "RSB": 11.0,
+              "contours": 2,
+              "nodes": 51,
+              "kerning_status": "base spacing only for new be; no dedicated be pairs"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/be/be-03.ttf",
+            "ttf": {
+              "glyph": "uni0431",
+              "hmtx_advance": 438,
+              "hmtx_lsb": 23,
+              "stored_glyf_bounds": [
+                23,
+                -9,
+                427,
+                748
+              ],
+              "curve_extrema_bounds": [
+                23,
+                -9,
+                427,
+                748
+              ],
+              "geometric_left_extent": 23,
+              "geometric_right_sidebearing": 11,
+              "contours_decomposed": 2,
+              "ttf_points_decomposed": 68,
+              "composite": false,
+              "glyf_sha256": "558e0fad2f821d6f424c326c9e0dad206da5005b479570e98d08d24738114788"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/be/be-03.ttf",
+            "woff2": "studies/regular/be/be-03.woff2",
+            "glyphs": "studies/regular/be/be-03.glyphs",
+            "svg": "studies/regular/be/be-03.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ss02",
+          "effect": "uni0431 → be.altFlag",
+          "variant": "02"
+        },
+        {
+          "tag": "ss03",
+          "effect": "uni0431 → be.altWave",
+          "variant": "03"
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/be",
+        "readme": "studies/regular/be/README.md",
+        "design_notes": "studies/regular/be/design-notes.md"
+      },
+      "brand_details": [
+        {
+          "id": "F5",
+          "evidence": "source_reported_observation",
+          "application": "Каплевидный верхний терминал основной 01; новая деталь, не заявляется точной копией латинского терминала."
+        }
+      ],
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "note": "Новые верхние выносы и advance альтернатив относятся к этим концептам; не объявляются измеренными параметрами оригинала.",
+        "reference": "studies/regular/be/design-notes.md"
+      }
+    },
+    {
+      "glyph": "uni0432",
+      "unicode": "U+0432",
+      "character": "в",
+      "name": "ve",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Стойка и две чаши, верхняя меньше нижней. 01 имеет входную засечку, 02 — мягкое округлое плечо.",
+        "source": "studies/regular/ve/design-notes.md"
+      },
+      "type": "stem_and_two_bowls",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: от верха стойки вправо в верхнюю чашу, возврат к стойке, затем нижняя чаша."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/ve/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "n",
+          "role": "Родственный мотив входной засечки 01 и измеренная толщина стойки.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/n",
+            "values": {
+              "adv": 470,
+              "lsb": 15,
+              "rsb": 11,
+              "ymin": 0,
+              "ymax": 516,
+              "kern_left_group": "n",
+              "kern_right_group": "n"
+            }
+          },
+          "construction_reference": "studies/regular/ve/design-notes.md"
+        },
+        {
+          "glyph": "h",
+          "role": "Родственный мотив входной засечки 01.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/h",
+            "values": {
+              "adv": 470,
+              "lsb": 15,
+              "rsb": 11,
+              "ymin": 0,
+              "ymax": 740,
+              "kern_left_group": "h",
+              "kern_right_group": "n"
+            }
+          },
+          "construction_reference": "studies/regular/ve/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "variant_choice_unresolved",
+        "primary_variant": null,
+        "technical_default_variant": "01",
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Структурная",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0432",
+          "combined_glyph": "uni0432",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ve/metrics.json",
+            "record": {
+              "name": "Структурная",
+              "advance": 421,
+              "bbox": [
+                15.0,
+                0.0,
+                395.0,
+                516.0
+              ],
+              "contours": 3,
+              "kerning": "base spacing; new pairs pending"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ve/ve-01.ttf",
+            "ttf": {
+              "glyph": "uni0432",
+              "hmtx_advance": 421,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                395,
+                516
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                395,
+                516
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 26,
+              "contours_decomposed": 3,
+              "ttf_points_decomposed": 82,
+              "composite": false,
+              "glyf_sha256": "7dff94fb1d2c806d8a5ab2b13c628ead306a85cf758af2657ee8e8da767ec1e9"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ve/ve-01.ttf",
+            "woff2": "studies/regular/ve/ve-01.woff2",
+            "glyphs": "studies/regular/ve/ve-01.glyphs",
+            "svg": "studies/regular/ve/ve-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Мягкая",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0432",
+          "combined_glyph": "ve.altSoft",
+          "feature": "ss04",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ve/metrics.json",
+            "record": {
+              "name": "Мягкая",
+              "advance": 425,
+              "bbox": [
+                13.0,
+                0.0,
+                399.0,
+                516.0
+              ],
+              "contours": 3,
+              "kerning": "base spacing; new pairs pending"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ve/ve-02.ttf",
+            "ttf": {
+              "glyph": "uni0432",
+              "hmtx_advance": 425,
+              "hmtx_lsb": 13,
+              "stored_glyf_bounds": [
+                13,
+                0,
+                399,
+                516
+              ],
+              "curve_extrema_bounds": [
+                13,
+                0,
+                399,
+                516
+              ],
+              "geometric_left_extent": 13,
+              "geometric_right_sidebearing": 26,
+              "contours_decomposed": 3,
+              "ttf_points_decomposed": 67,
+              "composite": false,
+              "glyf_sha256": "27386e01de58d3607027cd52f3a202d2aa22711d8bb07d916cd093e06e73f9de"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ve/ve-02.ttf",
+            "woff2": "studies/regular/ve/ve-02.woff2",
+            "glyphs": "studies/regular/ve/ve-02.glyphs",
+            "svg": "studies/regular/ve/ve-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ss04",
+          "effect": "uni0432 → ve.altSoft",
+          "variant": "02",
+          "note": "Present in later cumulative trial fonts; a technical default does not establish user selection."
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/ve",
+        "readme": "studies/regular/ve/README.md",
+        "design_notes": "studies/regular/ve/design-notes.md"
+      },
+      "brand_details": [
+        {
+          "id": "F1",
+          "evidence": "source_reported_observation",
+          "application": "Родственный n/h входной мотив только структурной 01."
+        },
+        {
+          "id": "F2",
+          "evidence": "source_reported_observation",
+          "application": "Нижний опорный профиль стоит на базовой линии."
+        }
+      ],
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "values": {
+          "stem": 68,
+          "advance_01": 421,
+          "advance_02": 425
+        },
+        "note": "Новые чаши нарисованы на строчную высоту; это не уменьшенная B. Толщина 68 согласуется с measured n_stem в params.json.",
+        "reference": "studies/regular/ve/design-notes.md"
+      }
+    },
+    {
+      "glyph": "uni0433",
+      "unicode": "U+0433",
+      "character": "г",
+      "name": "ghe",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Стойка и верхний тонкий ход; выбранная 02 заканчивается каплей, 01 — нисходящим клювом.",
+        "source": "studies/regular/ghe/design-notes.md"
+      },
+      "type": "stem_and_top_arm",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: верхний ход слева направо, терминал вниз; стойка отдельным ходом."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/ghe/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "r",
+          "role": "Пластика капли 02 и мотив нижнего окончания.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/r",
+            "values": {
+              "adv": 318,
+              "lsb": 15,
+              "rsb": 0,
+              "ymin": 0,
+              "ymax": 516,
+              "kern_left_group": "n",
+              "kern_right_group": "r"
+            }
+          },
+          "construction_reference": "studies/regular/ghe/design-notes.md"
+        },
+        {
+          "glyph": "f",
+          "role": "Пластика округлого терминала 02.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/f",
+            "values": {
+              "adv": 288,
+              "lsb": 13,
+              "rsb": -24,
+              "ymin": 0,
+              "ymax": 748,
+              "kern_left_group": "f",
+              "kern_right_group": null
+            }
+          },
+          "construction_reference": "studies/regular/ghe/design-notes.md"
+        },
+        {
+          "glyph": "n",
+          "role": "Мотив базовых засечек и измеренная толщина стойки.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/n",
+            "values": {
+              "adv": 470,
+              "lsb": 15,
+              "rsb": 11,
+              "ymin": 0,
+              "ymax": 516,
+              "kern_left_group": "n",
+              "kern_right_group": "n"
+            }
+          },
+          "construction_reference": "studies/regular/ghe/design-notes.md"
+        },
+        {
+          "glyph": "z",
+          "role": "Пластика клюва 01.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/z",
+            "values": {
+              "adv": 353,
+              "lsb": 15,
+              "rsb": 14,
+              "ymin": 0,
+              "ymax": 534,
+              "kern_left_group": "z",
+              "kern_right_group": "z"
+            }
+          },
+          "construction_reference": "studies/regular/ghe/design-notes.md"
+        },
+        {
+          "glyph": "E",
+          "role": "Пластика клюва 01.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/E",
+            "values": {
+              "adv": 453,
+              "lsb": 19,
+              "rsb": 33,
+              "ymin": 0,
+              "ymax": 720,
+              "kern_left_group": "H",
+              "kern_right_group": "E"
+            }
+          },
+          "construction_reference": "studies/regular/ghe/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "user_selected_primary_with_retained_alternate",
+        "primary_variant": "02",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized",
+        "selection_evidence": "studies/regular/ghe/selection.json"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Клюв",
+          "selection_status": "retained_alternate",
+          "glyph": "uni0433",
+          "combined_glyph": "ghe.altBeak",
+          "feature": "ss05",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ghe/metrics.json",
+            "record": {
+              "name": "Клюв",
+              "unicode": "U+0433",
+              "advance": 339,
+              "bounds": [
+                15.0,
+                0.0,
+                320.109038524102,
+                510.0
+              ],
+              "new_kerning": "not finalized"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ghe/ghe-01.ttf",
+            "ttf": {
+              "glyph": "uni0433",
+              "hmtx_advance": 339,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                321,
+                510
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                320.2,
+                510
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 18.80000000000001,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 46,
+              "composite": false,
+              "glyf_sha256": "6204d70e7423650fa46a2e9cd70875310a3111f40e5705c09aea24b0b01c580c"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ghe/ghe-01.ttf",
+            "woff2": "studies/regular/ghe/ghe-01.woff2",
+            "glyphs": "studies/regular/ghe/ghe-01.glyphs",
+            "svg": "studies/regular/ghe/ghe-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Капля",
+          "selection_status": "selected_primary",
+          "glyph": "uni0433",
+          "combined_glyph": "uni0433",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ghe/metrics.json",
+            "record": {
+              "name": "Капля",
+              "unicode": "U+0433",
+              "advance": 335,
+              "bounds": [
+                15.0,
+                0.0,
+                316.0,
+                516.0
+              ],
+              "new_kerning": "not finalized"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ghe/ghe-02.ttf",
+            "ttf": {
+              "glyph": "uni0433",
+              "hmtx_advance": 335,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                316,
+                516
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                316,
+                516
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 19,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 49,
+              "composite": false,
+              "glyf_sha256": "cb08e533e65895be59927df4f9a742f275d6552570a6e9c07548675071b01cae"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ghe/ghe-02.ttf",
+            "woff2": "studies/regular/ghe/ghe-02.woff2",
+            "glyphs": "studies/regular/ghe/ghe-02.glyphs",
+            "svg": "studies/regular/ghe/ghe-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ss05",
+          "effect": "uni0433 → ghe.altBeak",
+          "variant": "01"
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/ghe",
+        "readme": "studies/regular/ghe/README.md",
+        "design_notes": "studies/regular/ghe/design-notes.md"
+      },
+      "brand_details": [
+        {
+          "id": "F2",
+          "evidence": "source_reported_observation",
+          "application": "Нижняя опорная засечка по мотиву n/r."
+        },
+        {
+          "id": "F5",
+          "evidence": "source_reported_observation",
+          "application": "Верхняя капля выбранной 02, по пластике r/f."
+        }
+      ],
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "values": {
+          "stem": 68,
+          "advance_01": 339,
+          "advance_02": 335
+        },
+        "note": "Новые контуры; пластика доноров не означает совпадения каждой координаты. Толщина 68 согласуется с measured n_stem.",
+        "reference": "studies/regular/ghe/design-notes.md"
+      }
+    },
+    {
+      "glyph": "uni0434",
+      "unicode": "U+0434",
+      "character": "д",
+      "name": "de",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Петлевая экспериментальная конструкция: верхняя чаша и нижняя петля. 01 овальная, 02 с асимметричной a-подобной верхней чашей.",
+        "source": "studies/regular/de-loop/design-notes.md"
+      },
+      "type": "experimental_two_counter_loop",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7 (revised)",
+        "strokes": [
+          "For retained loop studies: upper bowl, right support and lower return; design interpretation, not documented original-author ductus. Current native-g exploration inherits the two-storey bowl/loop/neck geometry without changing curves."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/de-loop/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "o",
+          "role": "Модель овальной верхней чаши, переорганизованной по высоте.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/o",
+            "values": {
+              "adv": 408,
+              "lsb": 23,
+              "rsb": 25,
+              "ymin": -9,
+              "ymax": 516,
+              "kern_left_group": "o",
+              "kern_right_group": "o"
+            }
+          },
+          "construction_reference": "studies/regular/de-loop/design-notes.md"
+        },
+        {
+          "glyph": "a",
+          "role": "Мотив асимметричной верхней чаши 02.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/a",
+            "values": {
+              "adv": 399,
+              "lsb": 24,
+              "rsb": 5,
+              "ymin": -9,
+              "ymax": 516,
+              "kern_left_group": "a",
+              "kern_right_group": "a"
+            }
+          },
+          "construction_reference": "studies/regular/de-loop/design-notes.md"
+        },
+        {
+          "glyph": "g",
+          "role": "Модель нижней петли и измеренная нижняя граница.",
+          "relationship": "motif",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/g",
+            "values": {
+              "adv": 402,
+              "lsb": 14,
+              "rsb": 8,
+              "ymin": -215,
+              "ymax": 598,
+              "kern_left_group": "g",
+              "kern_right_group": "g"
+            }
+          },
+          "construction_reference": "studies/regular/de-loop/design-notes.md"
+        },
+        {
+          "glyph": "p",
+          "role": "Сравнительный донор выноса, не доказанный фрагмент контура.",
+          "relationship": "comparison only",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/p",
+            "values": {
+              "adv": 444,
+              "lsb": 12,
+              "rsb": 30,
+              "ymin": -205,
+              "ymax": 516,
+              "kern_left_group": "n",
+              "kern_right_group": "o"
+            }
+          },
+          "construction_reference": "studies/regular/de-loop/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "redesign_requested",
+        "primary_variant": null,
+        "technical_default_variant": "01",
+        "final_contour_acceptance": "pending new exploration",
+        "kerning": "Cyrillic and mixed pairs not finalized",
+        "silhouette_selection": "Loop constructions are allowed in Regular; user subsequently requested redesign because current drawings feel stylistically inconsistent. Previous versions remain retained.",
+        "selection_evidence": "data/progress.json"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Овальная петля",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0434",
+          "combined_glyph": "uni0434",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/de-loop/metrics.json",
+            "record": {
+              "name": "Овальная петля",
+              "advance": 410,
+              "bounds": [
+                18.0,
+                -215.0,
+                383.0,
+                516.0
+              ],
+              "unicode": "U+0434",
+              "new_kerning": "pending"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/de-loop/de-01.ttf",
+            "ttf": {
+              "glyph": "uni0434",
+              "hmtx_advance": 410,
+              "hmtx_lsb": 18,
+              "stored_glyf_bounds": [
+                18,
+                -215,
+                383,
+                516
+              ],
+              "curve_extrema_bounds": [
+                18,
+                -215,
+                383,
+                516
+              ],
+              "geometric_left_extent": 18,
+              "geometric_right_sidebearing": 27,
+              "contours_decomposed": 3,
+              "ttf_points_decomposed": 64,
+              "composite": false,
+              "glyf_sha256": "897c46159a44893068db7cae7b7096c268fc657b0911ca729c18f52ce9ae6ba8"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/de-loop/de-01.ttf",
+            "woff2": "studies/regular/de-loop/de-01.woff2",
+            "glyphs": "studies/regular/de-loop/de-01.glyphs",
+            "svg": "studies/regular/de-loop/de-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Асимметричная петля",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0434",
+          "combined_glyph": "de.altAsymmetric",
+          "feature": "ss06",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/de-loop/metrics.json",
+            "record": {
+              "name": "Асимметричная петля",
+              "advance": 410,
+              "bounds": [
+                18.0,
+                -215.0,
+                379.0,
+                516.0
+              ],
+              "unicode": "U+0434",
+              "new_kerning": "pending"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/de-loop/de-02.ttf",
+            "ttf": {
+              "glyph": "uni0434",
+              "hmtx_advance": 410,
+              "hmtx_lsb": 18,
+              "stored_glyf_bounds": [
+                18,
+                -215,
+                379,
+                516
+              ],
+              "curve_extrema_bounds": [
+                18,
+                -215,
+                379,
+                516
+              ],
+              "geometric_left_extent": 18,
+              "geometric_right_sidebearing": 31,
+              "contours_decomposed": 3,
+              "ttf_points_decomposed": 76,
+              "composite": false,
+              "glyf_sha256": "8d3ea66597e0a7f8c98a06717f2f6c2be6e19f5a67c679173ef4900d1715aac2"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/de-loop/de-02.ttf",
+            "woff2": "studies/regular/de-loop/de-02.woff2",
+            "glyphs": "studies/regular/de-loop/de-02.glyphs",
+            "svg": "studies/regular/de-loop/de-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ss06",
+          "effect": "uni0434 → de.altAsymmetric",
+          "variant": "02",
+          "note": "Техническая овальная 01 не означает пользовательского утверждения основной д."
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/de-loop",
+        "readme": "studies/regular/de-loop/README.md",
+        "user_sketches": [
+          "studies/regular/de-loop/references/Vector.svg",
+          "studies/regular/de-loop/references/Vector-1.svg"
+        ],
+        "design_notes": "studies/regular/de-loop/design-notes.md",
+        "new_exploration": "studies/regular/de-native"
+      },
+      "instruction_deviations": [
+        {
+          "evidence": "existing_user_requested_study",
+          "reference": "docs/instruction.md §§3,7",
+          "description": "Петлевая д в прямом Regular отличается от канонического силуэта инструкции. Существующая работа по пользовательским эскизам сохранена; точный основной вариант не выбран.",
+          "current_authorization": "User explicitly reconfirmed preserving these selected silhouettes during repository handoff."
+        }
+      ],
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "values": {
+          "advance": 410,
+          "upper_bowl_y": [
+            96,
+            516
+          ],
+          "descender": -215,
+          "upper_round_thickness": 25,
+          "side_sections": 76,
+          "right_stroke_width_01": 76,
+          "right_stroke_width_02": 68,
+          "lower_thin_stroke_approx": 22
+        },
+        "note": "Распределение высоты двух чаш и нижний тонкий ход — решения этих концептов; −215 соотнесено с measured g descender. Эскизы не скопированы как готовые контуры.",
+        "reference": "studies/regular/de-loop/design-notes.md"
+      },
+      "history": [
+        {
+          "status": "older_retained_concepts",
+          "paths": {
+            "directory": "studies/archive/de-conventional",
+            "readme": "studies/archive/de-conventional/README.md",
+            "metrics": "studies/archive/de-conventional/metrics.json",
+            "design_notes": "studies/archive/de-conventional/design-notes.md"
+          },
+          "variants": [
+            {
+              "id": "01",
+              "name": "Прямая опора",
+              "selection_status": "historical_not_current",
+              "glyph": "uni0434",
+              "combined_glyph": "uni0434",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/de-conventional/metrics.json",
+                "record": {
+                  "name": "Прямая опора",
+                  "advance": 464,
+                  "bounds": [
+                    10.847937481903726,
+                    -96.0,
+                    444.1520625180963,
+                    510.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/de-conventional/de-01.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 464,
+                  "hmtx_lsb": 11,
+                  "stored_glyf_bounds": [
+                    10,
+                    -96,
+                    445,
+                    510
+                  ],
+                  "curve_extrema_bounds": [
+                    11.75,
+                    -96,
+                    445.25,
+                    510
+                  ],
+                  "geometric_left_extent": 11.75,
+                  "geometric_right_sidebearing": 18.75,
+                  "contours_decomposed": 2,
+                  "ttf_points_decomposed": 74,
+                  "composite": false,
+                  "glyf_sha256": "65fd1f097d1634804d04bb359ad41f5683df253146d2404417bff6287c0bd9e1"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/de-conventional/de-01.ttf",
+                "woff2": "studies/archive/de-conventional/de-01.woff2",
+                "glyphs": "studies/archive/de-conventional/de-01.glyphs",
+                "svg": "studies/archive/de-conventional/de-01.svg"
+              }
+            },
+            {
+              "id": "02",
+              "name": "Треугольная",
+              "selection_status": "historical_not_current",
+              "glyph": "uni0434",
+              "combined_glyph": "uni0434",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/de-conventional/metrics.json",
+                "record": {
+                  "name": "Треугольная",
+                  "advance": 506,
+                  "bounds": [
+                    10.847937481903726,
+                    -96.0,
+                    482.1520625180963,
+                    516.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/de-conventional/de-02.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 506,
+                  "hmtx_lsb": 11,
+                  "stored_glyf_bounds": [
+                    10,
+                    -96,
+                    483,
+                    516
+                  ],
+                  "curve_extrema_bounds": [
+                    11.75,
+                    -96,
+                    483.25,
+                    516
+                  ],
+                  "geometric_left_extent": 11.75,
+                  "geometric_right_sidebearing": 22.75,
+                  "contours_decomposed": 2,
+                  "ttf_points_decomposed": 54,
+                  "composite": false,
+                  "glyf_sha256": "d87838af2071ad80dbee80f2f64680d89fda66de2570948a7da5374181de00e5"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/de-conventional/de-02.ttf",
+                "woff2": "studies/archive/de-conventional/de-02.woff2",
+                "glyphs": "studies/archive/de-conventional/de-02.glyphs",
+                "svg": "studies/archive/de-conventional/de-02.svg"
+              }
+            }
+          ],
+          "construction_choices": {
+            "evidence": "existing_study_design_decision",
+            "values": {
+              "short_descender": -96
+            },
+            "note": "−96 — проектная глубина старых концептов, не измеренный вынос оригинала.",
+            "reference": "studies/archive/de-conventional/design-notes.md"
+          }
+        },
+        {
+          "status": "cancelled_retained_history",
+          "paths": {
+            "directory": "studies/archive/de-curved",
+            "readme": "studies/archive/de-curved/README.md",
+            "metrics": "studies/archive/de-curved/metrics.json",
+            "design_notes": "studies/archive/de-curved/design-notes.md"
+          },
+          "variants": [
+            {
+              "id": "01",
+              "name": "Плавное плечо",
+              "selection_status": "historical_not_current",
+              "glyph": "uni0434",
+              "combined_glyph": "uni0434",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/de-curved/metrics.json",
+                "record": {
+                  "name": "Плавное плечо",
+                  "advance": 444,
+                  "bounds": [
+                    24.56846756230185,
+                    -96.0,
+                    415.97435844752465,
+                    516.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/de-curved/de-01.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 444,
+                  "hmtx_lsb": 25,
+                  "stored_glyf_bounds": [
+                    24,
+                    -96,
+                    420,
+                    516
+                  ],
+                  "curve_extrema_bounds": [
+                    25.77777777777778,
+                    -96,
+                    417.1904761904762,
+                    516
+                  ],
+                  "geometric_left_extent": 25.77777777777778,
+                  "geometric_right_sidebearing": 26.809523809523796,
+                  "contours_decomposed": 2,
+                  "ttf_points_decomposed": 69,
+                  "composite": false,
+                  "glyf_sha256": "77a96bb53644783ba2fafb1f176e70e25fbb2364264c289a5ae3d5c17b5a1446"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/de-curved/de-01.ttf",
+                "woff2": "studies/archive/de-curved/de-01.woff2",
+                "glyphs": "studies/archive/de-curved/de-01.glyphs",
+                "svg": "studies/archive/de-curved/de-01.svg"
+              }
+            },
+            {
+              "id": "02",
+              "name": "Овальная",
+              "selection_status": "historical_not_current",
+              "glyph": "uni0434",
+              "combined_glyph": "uni0434",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/de-curved/metrics.json",
+                "record": {
+                  "name": "Овальная",
+                  "advance": 467,
+                  "bounds": [
+                    20.13535182438634,
+                    -96.0,
+                    439.97435844752465,
+                    516.0
+                  ],
+                  "unicode": "U+0434",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/de-curved/de-02.ttf",
+                "ttf": {
+                  "glyph": "uni0434",
+                  "hmtx_advance": 467,
+                  "hmtx_lsb": 20,
+                  "stored_glyf_bounds": [
+                    19,
+                    -96,
+                    444,
+                    516
+                  ],
+                  "curve_extrema_bounds": [
+                    21.272727272727273,
+                    -96,
+                    441.1904761904762,
+                    516
+                  ],
+                  "geometric_left_extent": 21.272727272727273,
+                  "geometric_right_sidebearing": 25.809523809523796,
+                  "contours_decomposed": 2,
+                  "ttf_points_decomposed": 65,
+                  "composite": false,
+                  "glyf_sha256": "7d0d52be399c9d79f0f7186753172465bc01d777f0461716480025b5e62e4f87"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/de-curved/de-02.ttf",
+                "woff2": "studies/archive/de-curved/de-02.woff2",
+                "glyphs": "studies/archive/de-curved/de-02.glyphs",
+                "svg": "studies/archive/de-curved/de-02.svg"
+              }
+            }
+          ],
+          "construction_choices": {
+            "evidence": "existing_study_design_decision",
+            "values": {
+              "short_descender": -96
+            },
+            "note": "−96 — проектная глубина старых концептов, не измеренный вынос оригинала.",
+            "reference": "studies/archive/de-curved/design-notes.md"
+          }
+        }
+      ],
+      "explorations": {
+        "native_g": {
+          "path": "studies/regular/de-native",
+          "metrics": "studies/regular/de-native/metrics.json",
+          "primary_variant": null,
+          "status": "new unselected comparison studies",
+          "variant_donors": {
+            "01": "g.ss01",
+            "02": "g"
+          },
+          "old_ss06": "de.altAsymmetric remains historical; not a newly accepted shape"
+        }
+      }
+    },
+    {
+      "glyph": "uni0436",
+      "unicode": "U+0436",
+      "character": "ж",
+      "name": "zhe",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Центральная стойка и зеркальные пары тонких верхних и тяжёлых нижних ветвей; выбран точный готовый контур Cyr11.",
+        "source": "studies/regular/zhe-selected/design-notes.md"
+      },
+      "type": "central_stem_and_four_branches",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: четыре диагональных движения сходятся на центральной стойке; порядок и нажим конкретного импортированного контура не задокументированы."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/zhe-selected/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "uni0436",
+          "role": "Непосредственный геометрический источник выбранной формы",
+          "relationship": "exact native quadratic glyph imported from uploaded Instrument Serif Cyr11 Regular",
+          "evidence": "source_reported_import_and_read_only_identity",
+          "reference": "studies/regular/zhe-selected/import-report.json",
+          "source_font_sha256": "c126845bc4559992beb42a23b4b3a4ca3d5ab007f0865e39e2781207417b7fd9"
+        },
+        {
+          "glyph": "k",
+          "role": "Историческая родословная ветвей, переработанных до выпуска Cyr11; не заявляется побайтной копией k.",
+          "relationship": "historical recipe lineage",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/k",
+            "values": {
+              "adv": 451,
+              "lsb": 15,
+              "rsb": 0,
+              "ymin": 0,
+              "ymax": 740,
+              "kern_left_group": "h",
+              "kern_right_group": "k"
+            }
+          },
+          "reference": "studies/regular/zhe-selected/audit/README.md",
+          "construction_reference": "studies/regular/zhe-selected/design-notes.md"
+        },
+        {
+          "glyph": "l",
+          "role": "Историческая родословная центра, переработанного до выпуска Cyr11.",
+          "relationship": "historical recipe lineage",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/l",
+            "values": {
+              "adv": 220,
+              "lsb": 8,
+              "rsb": 10,
+              "ymin": 0,
+              "ymax": 740,
+              "kern_left_group": "h",
+              "kern_right_group": "l"
+            }
+          },
+          "reference": "studies/regular/zhe-selected/audit/README.md",
+          "construction_reference": "studies/regular/zhe-selected/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "user_selected_exact_import",
+        "primary_variant": "claude-cyr11",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized"
+      },
+      "variants": [
+        {
+          "id": "claude-cyr11",
+          "name": "Instrument Serif Cyr11 uni0436",
+          "selection_status": "selected_primary",
+          "glyph": "uni0436",
+          "combined_glyph": "uni0436",
+          "feature": null,
+          "source_reported_import": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/zhe-selected/import-report.json",
+            "advance": 552,
+            "lsb": -3,
+            "raw_source_points": 144,
+            "outline_import": "byte-identical native TrueType glyph",
+            "source_for_editing": "quadratics converted to cubic with max_err .001; native TTF retained exactly",
+            "checks": {
+              "other_contours_and_hmtx_unchanged": true,
+              "source_glyph_byte_identical": true,
+              "source_hmtx_identical": true,
+              "alternates_preserved": true,
+              "cyrl_shaping_no_fallback": true,
+              "GDEF_base_class": 1,
+              "ttf_woff2_glyphs_reopened": true
+            },
+            "limitations": [
+              "Dedicated new ж kerning not imported or finalized",
+              "Archive contour has local tangent deviations; imported without global smoothing"
+            ]
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/zhe-selected/VeryPeri-ClaudeZhe-Regular.ttf",
+            "ttf": {
+              "glyph": "uni0436",
+              "hmtx_advance": 552,
+              "hmtx_lsb": -3,
+              "stored_glyf_bounds": [
+                -3,
+                0,
+                553,
+                510
+              ],
+              "curve_extrema_bounds": [
+                -2.142857142857143,
+                0,
+                551.8,
+                510
+              ],
+              "geometric_left_extent": -2.142857142857143,
+              "geometric_right_sidebearing": 0.20000000000004547,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 144,
+              "composite": false,
+              "glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/zhe-selected/VeryPeri-ClaudeZhe-Regular.ttf",
+            "woff2": "studies/regular/zhe-selected/VeryPeri-ClaudeZhe-Regular.woff2",
+            "glyphs": "studies/regular/zhe-selected/VeryPeri-ClaudeZhe-Regular.glyphs",
+            "svg": "studies/regular/zhe-selected/zhe-from-claude11.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending",
+        "local_geometry_caveat": "Source audit reports short-terminal tangent deviations; retained without global smoothing. Sampled self-intersection checks are not an analytic proof.",
+        "this_pass_import_identity": {
+          "native_cyr11_glyf_byte_identical": true,
+          "native_cyr11_hmtx_identical": true,
+          "native_cyr11_source_sha256_matches_import_report": true
+        }
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/zhe-selected",
+        "readme": "studies/regular/zhe-selected/README.md",
+        "integration_notes": "studies/regular/zhe-selected/integration-notes.md",
+        "approved_baseline": "studies/regular/zhe-selected/approved-baseline.json",
+        "audit_readme": "studies/regular/zhe-selected/audit/README.md",
+        "section_measurements": "studies/regular/zhe-selected/audit/section-measurements.json",
+        "version_audit": "studies/regular/zhe-selected/audit/version-audit.json",
+        "design_notes": "studies/regular/zhe-selected/design-notes.md"
+      },
+      "source_reported_geometry": {
+        "evidence": "source_reported_import",
+        "reference": "studies/regular/zhe-selected/integration-notes.md",
+        "values": {
+          "height": 510,
+          "central_stem": 68,
+          "contours": 1,
+          "ttf_points": 144,
+          "quadratic_to_cubic_editing_max_error": 0.001
+        },
+        "note": "Оригинальный квадратичный TTF и SVG сохранены точно. Glyphs использует кубическую аппроксимацию; утверждение побайтной идентичности относится к TTF glyf, не к кубическому исходнику."
+      },
+      "history": [
+        {
+          "status": "rejected_retained_history",
+          "paths": {
+            "directory": "studies/archive/zhe-rejected",
+            "readme": "studies/archive/zhe-rejected/README.md",
+            "metrics": "studies/archive/zhe-rejected/metrics.json",
+            "design_notes": "studies/archive/zhe-rejected/design-notes.md"
+          },
+          "variants": [
+            {
+              "id": "01",
+              "name": "Чёткая",
+              "selection_status": "rejected_historical",
+              "glyph": "uni0436",
+              "combined_glyph": "uni0436",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/zhe-rejected/metrics.json",
+                "record": {
+                  "name": "Чёткая",
+                  "advance": 699,
+                  "bounds": [
+                    44.0,
+                    0.0,
+                    675.0,
+                    510.0
+                  ],
+                  "unicode": "U+0436",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/zhe-rejected/zhe-01.ttf",
+                "ttf": {
+                  "glyph": "uni0436",
+                  "hmtx_advance": 699,
+                  "hmtx_lsb": 44,
+                  "stored_glyf_bounds": [
+                    44,
+                    0,
+                    675,
+                    510
+                  ],
+                  "curve_extrema_bounds": [
+                    44,
+                    0,
+                    675,
+                    510
+                  ],
+                  "geometric_left_extent": 44,
+                  "geometric_right_sidebearing": 24,
+                  "contours_decomposed": 1,
+                  "ttf_points_decomposed": 132,
+                  "composite": false,
+                  "glyf_sha256": "6efff2f909596084b6ee4f4807f0005fc7d3687aa272dbe2b579aef6a7eba8d7"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/zhe-rejected/zhe-01.ttf",
+                "woff2": "studies/archive/zhe-rejected/zhe-01.woff2",
+                "glyphs": "studies/archive/zhe-rejected/zhe-01.glyphs",
+                "svg": "studies/archive/zhe-rejected/zhe-01.svg"
+              }
+            },
+            {
+              "id": "02",
+              "name": "Пластичная",
+              "selection_status": "rejected_historical",
+              "glyph": "uni0436",
+              "combined_glyph": "uni0436",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/zhe-rejected/metrics.json",
+                "record": {
+                  "name": "Пластичная",
+                  "advance": 719,
+                  "bounds": [
+                    34.0,
+                    0.0,
+                    685.0,
+                    510.0
+                  ],
+                  "unicode": "U+0436",
+                  "new_kerning": "pending"
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/zhe-rejected/zhe-02.ttf",
+                "ttf": {
+                  "glyph": "uni0436",
+                  "hmtx_advance": 719,
+                  "hmtx_lsb": 34,
+                  "stored_glyf_bounds": [
+                    34,
+                    0,
+                    685,
+                    510
+                  ],
+                  "curve_extrema_bounds": [
+                    34,
+                    0,
+                    685,
+                    510
+                  ],
+                  "geometric_left_extent": 34,
+                  "geometric_right_sidebearing": 34,
+                  "contours_decomposed": 1,
+                  "ttf_points_decomposed": 143,
+                  "composite": false,
+                  "glyf_sha256": "8742e13a1a1711565540d1e5f0ae16f6b3dba9b34b743d59a4ec1dcb5015d10c"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/zhe-rejected/zhe-02.ttf",
+                "woff2": "studies/archive/zhe-rejected/zhe-02.woff2",
+                "glyphs": "studies/archive/zhe-rejected/zhe-02.glyphs",
+                "svg": "studies/archive/zhe-rejected/zhe-02.svg"
+              }
+            }
+          ]
+        },
+        {
+          "status": "reserve_not_selected",
+          "paths": {
+            "directory": "studies/archive/zhe-refined",
+            "readme": "studies/archive/zhe-refined/README.md",
+            "metrics": "studies/archive/zhe-refined/metrics.json",
+            "user_sketch": "studies/archive/zhe-refined/references/ж.svg",
+            "before_cleanup_directory": "studies/archive/zhe-refined/before-cleanup",
+            "design_notes": "studies/archive/zhe-refined/design-notes.md"
+          },
+          "variants": [
+            {
+              "id": "refined",
+              "name": "Перестроенная по пользовательскому эскизу",
+              "selection_status": "reserve_not_selected",
+              "glyph": "uni0436",
+              "combined_glyph": "uni0436",
+              "feature": null,
+              "source_reported_metrics": {
+                "evidence": "source_reported_study",
+                "file": "studies/archive/zhe-refined/metrics.json",
+                "record": {
+                  "character": "ж",
+                  "source": "user sketch",
+                  "upm": 1000,
+                  "height": 510,
+                  "center_stem": 68,
+                  "advance": 576,
+                  "bounds": [
+                    -0.2474722488466874,
+                    0.0,
+                    553.5877521272523,
+                    510.0
+                  ],
+                  "straightened_upper_shafts": true,
+                  "lower_inner_edges_shift": 7,
+                  "new_kerning": "pending",
+                  "checks": {
+                    "no_fallback": true,
+                    "previous_outlines_unchanged": true,
+                    "alternates_verified": true,
+                    "ttf_woff2_glyphs_reopened": true
+                  },
+                  "vector_audit": {
+                    "segments_before": 102,
+                    "segments_after": 68,
+                    "cubic_nodes_after": 168,
+                    "collinear_nodes_removed": [
+                      {
+                        "node": [
+                          493,
+                          67
+                        ],
+                        "deviation": 0.25028263417223084
+                      },
+                      {
+                        "node": [
+                          61,
+                          67
+                        ],
+                        "deviation": 0.28380648592111196
+                      }
+                    ],
+                    "stem_merge_deviation": 0.26939276140841334,
+                    "cubic_pairs_merged": 31,
+                    "max_merge_deviation": 0.23773957681136187,
+                    "largest_control_adjustment": 2.5613129286274816,
+                    "max_unprotected_tangent_jump": 0.010976619916679716,
+                    "preserved_constructive_corners": [
+                      {
+                        "node": [
+                          334.0,
+                          270.0
+                        ],
+                        "angle": 31.958302306898116
+                      },
+                      {
+                        "node": [
+                          317.0,
+                          292.0
+                        ],
+                        "angle": 57.522883870537214
+                      },
+                      {
+                        "node": [
+                          236.0,
+                          292.0
+                        ],
+                        "angle": 60.24013849229113
+                      },
+                      {
+                        "node": [
+                          220.0,
+                          270.0
+                        ],
+                        "angle": 30.956597714503644
+                      }
+                    ],
+                    "self_intersection_check": "valid sampled polygon at 160 samples per segment",
+                    "total_outline_deviation": 1.0635627350216994,
+                    "quadratic_segments_after": 0,
+                    "independent_saved_file_check": {
+                      "nodes": 168,
+                      "cubics": 50,
+                      "lines": 18,
+                      "adjacent_duplicates": 0,
+                      "degenerate_tangents": 0,
+                      "max_unintended_tangent_jump_degrees": 0.1,
+                      "former_430_60_tangent_jump_degrees": 7.4e-05,
+                      "sampled_points": 5019,
+                      "sampled_polygon_simple": true
+                    }
+                  }
+                }
+              },
+              "measured_export": {
+                "evidence": "measured_export_this_pass",
+                "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+                "file": "studies/archive/zhe-refined/zhe-refined.ttf",
+                "ttf": {
+                  "glyph": "uni0436",
+                  "hmtx_advance": 576,
+                  "hmtx_lsb": 0,
+                  "stored_glyf_bounds": [
+                    -1,
+                    0,
+                    554,
+                    510
+                  ],
+                  "curve_extrema_bounds": [
+                    0.7142857142857142,
+                    0,
+                    554.2857142857143,
+                    510
+                  ],
+                  "geometric_left_extent": 0.7142857142857142,
+                  "geometric_right_sidebearing": 21.714285714285666,
+                  "contours_decomposed": 1,
+                  "ttf_points_decomposed": 188,
+                  "composite": false,
+                  "glyf_sha256": "98f7348d4eb2655fa3afd1a06623aa83516842595115028de63503eb6afbbb25"
+                },
+                "checks": {
+                  "ttf_target_glyph_read": true,
+                  "woff2_target_glyph_read": true,
+                  "ttf_woff2_target_geometry_and_metrics_equal": true
+                }
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/archive/zhe-refined/zhe-refined.ttf",
+                "woff2": "studies/archive/zhe-refined/zhe-refined.woff2",
+                "glyphs": "studies/archive/zhe-refined/zhe-refined.glyphs",
+                "svg": "studies/archive/zhe-refined/zhe-refined.svg"
+              }
+            }
+          ],
+          "note": "Более ранняя геометрия до очистки сохранена отдельно как история; она не является выбранной ж."
+        }
+      ],
+      "historical_recipe_choices": {
+        "evidence": "source_reported_historical_recipe",
+        "reference": "studies/regular/zhe-selected/audit/README.md",
+        "values": {
+          "initial_branch_x_scale": 0.86,
+          "subsequent_narrowing_scale": 0.915
+        },
+        "note": "Эти преобразования предшествовали выбранному Cyr11; его готовый контур принят точно. Не являются измеренными толщинами или универсальным правилом новых букв."
+      }
+    },
+    {
+      "glyph": "uni0437",
+      "unicode": "U+0437",
+      "character": "з",
+      "name": "ze",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Две открытые дуги без нижнего выноса; нижний открытый терминал и характерный средний диагональный вход.",
+        "source": "studies/regular/ze/design-notes.md"
+      },
+      "type": "two_open_arcs",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: вход сверху справа, верхняя дуга с возвратом к центру, нижняя дуга вправо-вниз к левому открытому терминалу."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/ze/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "three",
+          "role": "Трансформированный исходный контур three, затем локальная правка нижней внутренней дуги.",
+          "relationship": "scaled donor plus localized contour edit",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/3",
+            "values": {
+              "adv": 371,
+              "lsb": 20,
+              "rsb": 30,
+              "ymin": -9,
+              "ymax": 730
+            }
+          },
+          "construction_reference": "studies/regular/ze/design-notes.md",
+          "character": "3",
+          "parameter_key": "3"
+        }
+      ],
+      "design_status": {
+        "status": "user_selected_single_retained_variant",
+        "primary_variant": "01",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Открытый терминал",
+          "selection_status": "selected_primary",
+          "glyph": "uni0437",
+          "combined_glyph": "uni0437",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ze/metrics.json",
+            "record": {
+              "name": "Открытый терминал",
+              "advance": 349,
+              "bounds": [
+                24.0,
+                -9.0,
+                325.739990234375,
+                516.0
+              ],
+              "contours": 1,
+              "glyphs_nodes": 62,
+              "adjacent_duplicates": 0,
+              "sampled_polygon_valid": true,
+              "grafting": "none",
+              "new_kerning": "pending"
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ze/ze-01.ttf",
+            "ttf": {
+              "glyph": "uni0437",
+              "hmtx_advance": 349,
+              "hmtx_lsb": 24,
+              "stored_glyf_bounds": [
+                24,
+                -9,
+                326,
+                516
+              ],
+              "curve_extrema_bounds": [
+                24,
+                -9,
+                326,
+                516
+              ],
+              "geometric_left_extent": 24,
+              "geometric_right_sidebearing": 23,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 75,
+              "composite": false,
+              "glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ze/ze-01.ttf",
+            "woff2": "studies/regular/ze/ze-01.woff2",
+            "glyphs": "studies/regular/ze/ze-01.glyphs",
+            "svg": "studies/regular/ze/ze-01.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/ze",
+        "readme": "studies/regular/ze/README.md",
+        "design_notes": "studies/regular/ze/design-notes.md"
+      },
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "reference": "studies/regular/ze/design-notes.md",
+        "values": {
+          "sx": 0.94,
+          "sy_expression": "525/739",
+          "dy_expression": "−9 + 9 × sy",
+          "advance": 349,
+          "lower_inner_extremum_y": 16,
+          "lower_arc_thickness": 25
+        },
+        "note": "Преобразование и перенос экстремума относятся к принятому исследованию з; они не являются измерениями оригинальной строчной з, которой нет."
+      },
+      "instruction_deviations": [
+        {
+          "evidence": "existing_selected_study",
+          "reference": "CLAUDE.md §11; docs/instruction.md §§7,14",
+          "description": "Сохранённая выбранная форма исторически получена преобразованием three и локальной правкой; это отклонение от общего запрета получать кириллицу масштабированием латинских контуров."
+        }
+      ],
+      "excluded_history": [
+        {
+          "id": "02",
+          "name": "Капля сверху",
+          "status": "deleted_by_user",
+          "retained": false,
+          "note": "Не является сохранённой альтернативой; путей и артефактов варианта в этом реестре нет."
+        }
+      ],
+      "brand_details": [
+        {
+          "evidence": "source_reported_observation",
+          "application": "Открытый нижний терминал и средняя диагональ; верхняя капля отсутствует в единственной сохранённой версии."
+        }
+      ]
+    },
+    {
+      "glyph": "uni0438",
+      "unicode": "U+0438",
+      "character": "и",
+      "name": "ii",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Основная 02 — точная u-образная чаша с двумя стойками и нижним соединением. Альтернатива 01 — две стойки с прямой тонкой диагональю.",
+        "source": "studies/regular/i-selected/design-notes.md"
+      },
+      "type": "selected_u_bowl_with_diagonal_alternate",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Инструкция предписывает стойки и диагональ. Для выбранной пользователем u-образной формы отдельное описание движения, входа и выхода ещё не записано."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/i-selected/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "u",
+          "role": "Полный неизменённый контур и hmtx основной 02; головки прямой альтернативы.",
+          "relationship": "exact native primary and native alternate heads",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/u",
+            "values": {
+              "adv": 454,
+              "lsb": 11,
+              "rsb": 15,
+              "ymin": -9,
+              "ymax": 510,
+              "kern_left_group": "u",
+              "kern_right_group": "u"
+            }
+          },
+          "construction_reference": "studies/regular/i/design-notes.md"
+        },
+        {
+          "glyph": "n",
+          "role": "Нижние окончания прямой альтернативы и её якоря.",
+          "relationship": "native feet and anchors",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/n",
+            "values": {
+              "adv": 470,
+              "lsb": 15,
+              "rsb": 11,
+              "ymin": 0,
+              "ymax": 516,
+              "kern_left_group": "n",
+              "kern_right_group": "n"
+            }
+          },
+          "construction_reference": "studies/regular/i/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "user_selected_primary_with_retained_alternate",
+        "primary_variant": "02",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized",
+        "silhouette_selection": "Explicit user instruction reconfirms preserving the u-shaped и and loop-shaped д family; exact loop д variant remains unresolved.",
+        "selection_evidence": "data/progress.json"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Прямая диагональ",
+          "selection_status": "retained_alternate",
+          "glyph": "uni0438",
+          "combined_glyph": "i.altDiagonal",
+          "feature": "ss07",
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/i/metrics.json",
+            "record": {
+              "name": "Прямая диагональ",
+              "advance": 470,
+              "bounds": [
+                15.0,
+                0.0,
+                459.0,
+                510.0
+              ],
+              "contours": 1,
+              "glyphs_nodes": 90,
+              "adjacent_duplicates": 0,
+              "sampled_polygon_valid": true,
+              "construction": "n feet + u heads + straight hairline",
+              "localized_join_rounds": 4,
+              "new_kerning": "pending",
+              "ttf_points": 89,
+              "ttf_adjacent_duplicates": 0,
+              "independent_audit": {
+                "new_join_tangent_jump_max_deg": 0.00037,
+                "micro_segments_under_1": 0,
+                "ttf_adjacent_duplicates": 0,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/i/i-01.ttf",
+            "ttf": {
+              "glyph": "uni0438",
+              "hmtx_advance": 470,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                459,
+                510
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                459,
+                510
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 11,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 89,
+              "composite": false,
+              "glyf_sha256": "49fd2f0c849964809605c6e9c6e9939df398f574bffb497b7dc5c3ca51442688"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/i/i-01.ttf",
+            "woff2": "studies/regular/i/i-01.woff2",
+            "glyphs": "studies/regular/i/i-01.glyphs",
+            "svg": "studies/regular/i/i-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Чашеобразная",
+          "selection_status": "selected_primary",
+          "glyph": "uni0438",
+          "combined_glyph": "uni0438",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/i/metrics.json",
+            "record": {
+              "name": "Чашеобразная",
+              "advance": 454,
+              "bounds": [
+                11.0,
+                -9.0,
+                439.0,
+                510.0
+              ],
+              "contours": 1,
+              "glyphs_nodes": 67,
+              "adjacent_duplicates": 0,
+              "sampled_polygon_valid": true,
+              "construction": "exact native u",
+              "localized_join_rounds": 0,
+              "new_kerning": "pending",
+              "ttf_points": 59,
+              "ttf_adjacent_duplicates": 0,
+              "native_u_byte_identical": true,
+              "independent_audit": {
+                "micro_segments_under_1": 0,
+                "ttf_adjacent_duplicates": 0,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true,
+                "native_u_byte_identical": true
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/i/i-02.ttf",
+            "ttf": {
+              "glyph": "uni0438",
+              "hmtx_advance": 454,
+              "hmtx_lsb": 11,
+              "stored_glyf_bounds": [
+                11,
+                -9,
+                439,
+                510
+              ],
+              "curve_extrema_bounds": [
+                11,
+                -9,
+                439,
+                510
+              ],
+              "geometric_left_extent": 11,
+              "geometric_right_sidebearing": 15,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 59,
+              "composite": false,
+              "glyf_sha256": "b2291c418e92333b5a9f8066d3898467b9cb39e8ac1656d36cedd1a6970932c8"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/i/i-02.ttf",
+            "woff2": "studies/regular/i/i-02.woff2",
+            "glyphs": "studies/regular/i/i-02.glyphs",
+            "svg": "studies/regular/i/i-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ss07",
+          "effect": "uni0438 → i.altDiagonal",
+          "variant": "01",
+          "note": "В последующих пробных сборках также переключает й → shorti.altDiagonal."
+        },
+        {
+          "tag": "kern",
+          "effect": "Native u GPOS pairs/classes are inherited as initial positioning for primary и; dedicated Cyrillic pairs remain unfinished."
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/i-selected",
+        "readme": "studies/regular/i-selected/README.md",
+        "selected_exports": {
+          "ttf": "studies/regular/i-selected/VeryPeri-I-selected.ttf",
+          "woff2": "studies/regular/i-selected/VeryPeri-I-selected.woff2",
+          "glyphs": "studies/regular/i-selected/VeryPeri-I-selected.glyphs"
+        },
+        "selection": "studies/regular/i-selected/selection.json",
+        "approved_baseline": "studies/regular/i-selected/approved-baseline.json",
+        "design_notes": "studies/regular/i-selected/design-notes.md"
+      },
+      "selected_export_measurement": {
+        "evidence": "measured_export_this_pass",
+        "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+        "file": "studies/regular/i-selected/VeryPeri-I-selected.ttf",
+        "ttf": {
+          "glyph": "uni0438",
+          "hmtx_advance": 454,
+          "hmtx_lsb": 11,
+          "stored_glyf_bounds": [
+            11,
+            -9,
+            439,
+            510
+          ],
+          "curve_extrema_bounds": [
+            11,
+            -9,
+            439,
+            510
+          ],
+          "geometric_left_extent": 11,
+          "geometric_right_sidebearing": 15,
+          "contours_decomposed": 1,
+          "ttf_points_decomposed": 59,
+          "composite": false,
+          "glyf_sha256": "b2291c418e92333b5a9f8066d3898467b9cb39e8ac1656d36cedd1a6970932c8"
+        },
+        "checks": {
+          "ttf_target_glyph_read": true,
+          "woff2_target_glyph_read": true,
+          "ttf_woff2_target_geometry_and_metrics_equal": true
+        }
+      },
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "values": {
+          "alternate_stem": 68,
+          "alternate_diagonal_normal_thickness": 24,
+          "alternate_diagonal_angle_approx_deg": 59.53,
+          "alternate_advance": 470
+        },
+        "note": "Основная 02 получает measured native u advance 454 и hmtx LSB 11 без изменения. Прямая тонкая диагональ и четыре новых сопряжения относятся к авторской альтернативе.",
+        "reference": "studies/regular/i/design-notes.md"
+      },
+      "instruction_deviations": [
+        {
+          "evidence": "explicit_user_selection",
+          "reference": "docs/instruction.md §§3,7",
+          "description": "Пользователь выбрал u-образную и в Regular вопреки каноническому силуэту документа. Выбор сохраняется. Прямая 01 имеет толстые стойки и тонкую диагональ, что также отличается от предлагаемого распределения ролей N.",
+          "current_authorization": "User explicitly reconfirmed preserving these selected silhouettes during repository handoff."
+        }
+      ],
+      "brand_details": [
+        {
+          "id": "F3",
+          "evidence": "exact_native_donor",
+          "application": "Выходное окончание native u в основной 02 сохранено."
+        },
+        {
+          "id": "F2",
+          "evidence": "source_reported_native_donor",
+          "application": "Нижние окончания n прямой альтернативы сохранены."
+        }
+      ]
+    },
+    {
+      "glyph": "uni0439",
+      "unicode": "U+0439",
+      "character": "й",
+      "name": "iishort",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Выбранное u-образное тело и плюс кратка; 01 с полной родной краткой, 02 с компактной. ss07 выбирает диагональное тело.",
+        "source": "studies/regular/shorti/design-notes.md"
+      },
+      "type": "selected_i_body_with_breve_component",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Инструкция предписывает и плюс компонент бреве. Тело следует пользовательскому выбору и; отдельная последовательность движения ещё не записана."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/shorti/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [
+        {
+          "base": "uni0438",
+          "body_status": "unchanged approved u-shaped и",
+          "mark": "native breve for 01; compact transformed breve for 02",
+          "source": "studies/regular/shorti/design-notes.md"
+        }
+      ],
+      "donors": [
+        {
+          "glyph": "u",
+          "role": "Точное утверждённое тело и и его якоря.",
+          "relationship": "exact native body",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/u",
+            "values": {
+              "adv": 454,
+              "lsb": 11,
+              "rsb": 15,
+              "ymin": -9,
+              "ymax": 510,
+              "kern_left_group": "u",
+              "kern_right_group": "u"
+            }
+          },
+          "construction_reference": "studies/regular/shorti/design-notes.md"
+        },
+        {
+          "glyph": "ubreve",
+          "role": "Точная разложенная композиция 01 и начальное позиционирование GPOS",
+          "relationship": "native composite",
+          "evidence": "source_reported_geometry_identity"
+        },
+        {
+          "glyph": "brevecomb",
+          "role": "Родная кратка 01; равномерно уменьшенный кубический донор 02",
+          "relationship": "native mark or explicitly scaled design variant",
+          "evidence": "measured_donor_fact",
+          "reference": "data/params.json#/accents/uni0306",
+          "measured_values": {
+            "ymin": 579,
+            "ymax": 730,
+            "adv": 0
+          },
+          "ttf_glyph": "uni0306"
+        }
+      ],
+      "design_status": {
+        "status": "variant_choice_unresolved",
+        "primary_variant": null,
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Родная кратка",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0439",
+          "combined_glyph": "uni0439",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/shorti/metrics.json",
+            "record": {
+              "name": "Родная кратка",
+              "unicode": "U+0439",
+              "advance": 454,
+              "body": "byte-identical approved u-shaped и",
+              "bounds_ttf": [
+                11,
+                -9,
+                439,
+                730
+              ],
+              "contours_decomposed": 2,
+              "mark_center": 216,
+              "mark_scale": 1,
+              "mark_cubic_nodes": 24,
+              "mark_y_cubic": [
+                579,
+                730
+              ],
+              "gap_above_body": 69,
+              "mark_bottom_thickness_cubic": 57,
+              "new_cyrillic_kerning": "pending; exact native u/ubreve positioning inherited",
+              "checks": {
+                "sampled_contours_valid": true,
+                "contours_disjoint": true,
+                "previous_outlines_and_hmtx_unchanged": true,
+                "precomposed_decomposed_match": true,
+                "ss07_i_and_shorti_verified": true,
+                "ttf_woff2_glyphs_reopened": true,
+                "first_matches_native_ubreve_coordinates": true
+              },
+              "independent_audit": {
+                "duplicates": 0,
+                "micro_segments_under_1": 0,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true,
+                "native_kerning_nonzero_positions_verified": 124,
+                "old_native_pairs_unchanged": true,
+                "glyphs_ufo_component_offsets_and_widths_preserved": true,
+                "nfc_nfd_and_ss07_with_acute_match": true,
+                "ttf_woff2_contours_metrics_match": true,
+                "glyphs_anchors_match_gpos": true
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/shorti/shorti-01.ttf",
+            "ttf": {
+              "glyph": "uni0439",
+              "hmtx_advance": 454,
+              "hmtx_lsb": 11,
+              "stored_glyf_bounds": [
+                11,
+                -9,
+                439,
+                730
+              ],
+              "curve_extrema_bounds": [
+                11,
+                -9,
+                439,
+                730
+              ],
+              "geometric_left_extent": 11,
+              "geometric_right_sidebearing": 15,
+              "contours_decomposed": 2,
+              "ttf_points_decomposed": 79,
+              "composite": true,
+              "glyf_sha256": "6cec2fb210fb2a290beb25ab6af9ee18666c5009b925fa84df387dd775314c0f"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/shorti/shorti-01.ttf",
+            "woff2": "studies/regular/shorti/shorti-01.woff2",
+            "glyphs": "studies/regular/shorti/shorti-01.glyphs",
+            "svg": "studies/regular/shorti/shorti-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Компактная кратка",
+          "selection_status": "unresolved_candidate",
+          "glyph": "uni0439",
+          "combined_glyph": "uni0439",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/shorti/metrics.json",
+            "record": {
+              "name": "Компактная кратка",
+              "unicode": "U+0439",
+              "advance": 454,
+              "body": "byte-identical approved u-shaped и",
+              "bounds_ttf": [
+                11,
+                -9,
+                439,
+                665
+              ],
+              "contours_decomposed": 2,
+              "mark_center": 216,
+              "mark_scale": 0.7,
+              "mark_cubic_nodes": 24,
+              "mark_y_cubic": [
+                559,
+                664.7
+              ],
+              "gap_above_body": 49,
+              "mark_bottom_thickness_cubic": 39.9,
+              "new_cyrillic_kerning": "pending; exact native u/ubreve positioning inherited",
+              "checks": {
+                "sampled_contours_valid": true,
+                "contours_disjoint": true,
+                "previous_outlines_and_hmtx_unchanged": true,
+                "precomposed_decomposed_match": true,
+                "ss07_i_and_shorti_verified": true,
+                "ttf_woff2_glyphs_reopened": true,
+                "first_matches_native_ubreve_coordinates": false
+              },
+              "independent_audit": {
+                "duplicates": 0,
+                "micro_segments_under_1": 0,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true,
+                "native_kerning_nonzero_positions_verified": 124,
+                "old_native_pairs_unchanged": true,
+                "glyphs_ufo_component_offsets_and_widths_preserved": true,
+                "nfc_nfd_and_ss07_with_acute_match": true,
+                "ttf_woff2_contours_metrics_match": true,
+                "glyphs_anchors_match_gpos": true,
+                "compact_mark_ttf_center": 216
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/shorti/shorti-02.ttf",
+            "ttf": {
+              "glyph": "uni0439",
+              "hmtx_advance": 454,
+              "hmtx_lsb": 11,
+              "stored_glyf_bounds": [
+                11,
+                -9,
+                439,
+                665
+              ],
+              "curve_extrema_bounds": [
+                11,
+                -9,
+                439,
+                665
+              ],
+              "geometric_left_extent": 11,
+              "geometric_right_sidebearing": 15,
+              "contours_decomposed": 2,
+              "ttf_points_decomposed": 87,
+              "composite": true,
+              "glyf_sha256": "b3b88d7ca38c760e9b638a02b0b8b7288e5ead474e43c018245d49a457457731"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/shorti/shorti-02.ttf",
+            "woff2": "studies/regular/shorti/shorti-02.woff2",
+            "glyphs": "studies/regular/shorti/shorti-02.glyphs",
+            "svg": "studies/regular/shorti/shorti-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "ccmp",
+          "effect": "и + U+0306 composes to й; source reports precomposed and decomposed shaping equality."
+        },
+        {
+          "tag": "ss07",
+          "effect": "uni0438 → i.altDiagonal; uni0439 → shorti.altDiagonal",
+          "note": "ss07 does not select native versus compact breve."
+        },
+        {
+          "tag": "mark",
+          "effect": "Inherited mark-to-base anchors; source reports retained native u/ubreve positioning."
+        },
+        {
+          "tag": "kern",
+          "effect": "Native u/ubreve pairs/classes inherited; new Cyrillic and diagonal-alternate pairs pending."
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/shorti",
+        "readme": "studies/regular/shorti/README.md",
+        "design_notes": "studies/regular/shorti/design-notes.md"
+      },
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "reference": "studies/regular/shorti/design-notes.md",
+        "native_01": {
+          "evidence": "source_reported_native_composition",
+          "breve_translation": [
+            12,
+            0
+          ],
+          "base_top_anchor": [
+            216,
+            510
+          ],
+          "mark_y": [
+            579,
+            730
+          ],
+          "mark_scale": 1,
+          "gap": 69,
+          "mark_bottom_thickness": 57
+        },
+        "compact_02": {
+          "evidence": "explicit_design_variant_not_native_donor_measurement",
+          "scale": 0.7,
+          "transform_x": "216 + 0.70 × (x − 204)",
+          "transform_y": "559 + 0.70 × (y − 579)",
+          "mark_y_cubic": [
+            559,
+            664.7
+          ],
+          "mark_y_ttf_max": 665,
+          "gap": 49,
+          "mark_bottom_thickness": 39.9,
+          "anchors": {
+            "_top": [
+              216,
+              510
+            ],
+            "top": [
+              216,
+              665
+            ]
+          }
+        }
+      },
+      "instruction_deviations": [
+        {
+          "evidence": "existing_user_selected_base",
+          "reference": "docs/instruction.md §§3,7",
+          "description": "Оба й сохраняют выбранное u-образное тело и. Выбор кратки остаётся открытым; уменьшенная кратка 02 — новый дизайнерский вариант, не неизменённый измеренный знак исходника."
+        }
+      ]
+    },
+    {
+      "glyph": "uni043A",
+      "unicode": "U+043A",
+      "character": "к",
+      "name": "ka",
+      "silhouette": {
+        "evidence": "source_reported_observation",
+        "description": "Стойка и две ветви без верхнего выноса. Сохранены центральный узел, диагонали, правые окончания и нижняя левая засечка native k; различается только головка.",
+        "source": "studies/regular/ka/design-notes.md"
+      },
+      "type": "native_k_branches_with_lowercase_head",
+      "ductus": {
+        "evidence": "instruction_prescription; not established as the documented stroke history of these existing studies",
+        "reference": "docs/instruction.md §7",
+        "strokes": [
+          "Предписание инструкции: стойка вниз, верхняя ветвь из узла вверх-вправо, нижняя ветвь вниз-вправо."
+        ],
+        "entry": null,
+        "exit": null,
+        "status": "Complete study-specific entry, exit and pressure sequence has not been recorded; these fields remain open."
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "retained study",
+        "construction_evidence": "studies/regular/ka/design-notes.md"
+      },
+      "italic": {
+        "status": "not designed in these artifacts",
+        "paths": []
+      },
+      "components": [],
+      "donors": [
+        {
+          "glyph": "k",
+          "role": "Центральный узел, ветви, окончания, нижняя левая засечка и метрики; для 02 также опущенная исходная головка.",
+          "relationship": "exact native fragments and hmtx",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/k",
+            "values": {
+              "adv": 451,
+              "lsb": 15,
+              "rsb": 0,
+              "ymin": 0,
+              "ymax": 740,
+              "kern_left_group": "h",
+              "kern_right_group": "k"
+            }
+          },
+          "construction_reference": "studies/regular/ka/design-notes.md"
+        },
+        {
+          "glyph": "u",
+          "role": "Точная верхняя головка 01, перенесённая на стойку k.",
+          "relationship": "exact translated head fragment",
+          "evidence": "source_reported_construction",
+          "measured_latin_spacing": {
+            "evidence": "measured_donor_fact",
+            "reference": "data/params.json#/spacing_regular/u",
+            "values": {
+              "adv": 454,
+              "lsb": 11,
+              "rsb": 15,
+              "ymin": -9,
+              "ymax": 510,
+              "kern_left_group": "u",
+              "kern_right_group": "u"
+            }
+          },
+          "construction_reference": "studies/regular/ka/design-notes.md"
+        }
+      ],
+      "design_status": {
+        "status": "both_variants_liked_primary_unresolved",
+        "primary_variant": null,
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Головка u",
+          "selection_status": "liked_unresolved_candidate",
+          "glyph": "uni043A",
+          "combined_glyph": "uni043A",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ka/metrics.json",
+            "record": {
+              "name": "Головка u",
+              "character": "к",
+              "unicode": "U+043A",
+              "glyph_name": "uni043A",
+              "advance": 451,
+              "bbox_cubic": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "bbox_ttf": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "lsb": 15,
+              "rsb": 0,
+              "stem": 68,
+              "cubic_nodes": 97,
+              "ttf_points": 80,
+              "contours": 1,
+              "head_donor": "u nodes48…62 translated(+4,0)",
+              "ttf_head_donor": "u points5…16 translated(+4,0)",
+              "new_join_tangent_jump_deg": 0,
+              "diagonal_angles_native": [
+                62.8189,
+                62.4958,
+                47.1211
+              ],
+              "anchors": {
+                "top": [
+                  226,
+                  510
+                ],
+                "bottom": [
+                  226,
+                  0
+                ]
+              },
+              "kerning": "native k classes/pairs as provisional starting values; Cyrillic optical review pending",
+              "checks": {
+                "native_branches_and_feet_exact_in_cubic_and_ttf": true,
+                "sampled_cubic_and_ttf_contour_valid": true,
+                "no_adjacent_cubic_duplicates": true,
+                "previous_glyf_hmtx_and_gsub_unchanged": true,
+                "previous_alternates_preserved": true,
+                "all_exports_reopened": true,
+                "both_unselected_shorti_bases_preserved": true
+              },
+              "independent_audit": {
+                "new_cubic_join_tangent_jump_max_deg": 0,
+                "adjacent_cubic_or_ttf_duplicates": 0,
+                "micro_segments_under_1": 0,
+                "minimum_segment_chord": 9.055,
+                "minimum_cubic_handle": 6,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true,
+                "native_cubic_and_ttf_donor_splices_exact": true,
+                "previous_glyphs_hmtx_and_gsub_identical": true,
+                "old_gpos_records_identical": true,
+                "woff2_gsub_gpos_and_geometry_match": true,
+                "anchors_match_gpos": true
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ka/ka-01.ttf",
+            "ttf": {
+              "glyph": "uni043A",
+              "hmtx_advance": 451,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 0,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 80,
+              "composite": false,
+              "glyf_sha256": "e6917a59b3c423469d1fe8ffa19fabc13f3605af25660521285868184418ca15"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ka/ka-01.ttf",
+            "woff2": "studies/regular/ka/ka-01.woff2",
+            "glyphs": "studies/regular/ka/ka-01.glyphs",
+            "svg": "studies/regular/ka/ka-01.svg"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Наклонная головка k",
+          "selection_status": "liked_unresolved_candidate",
+          "glyph": "uni043A",
+          "combined_glyph": "uni043A",
+          "feature": null,
+          "source_reported_metrics": {
+            "evidence": "source_reported_study",
+            "file": "studies/regular/ka/metrics.json",
+            "record": {
+              "name": "Наклонная головка k",
+              "character": "к",
+              "unicode": "U+043A",
+              "glyph_name": "uni043A",
+              "advance": 451,
+              "bbox_cubic": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "bbox_ttf": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "lsb": 15,
+              "rsb": 0,
+              "stem": 68,
+              "cubic_nodes": 102,
+              "ttf_points": 84,
+              "contours": 1,
+              "head_donor": "k nodes71…90 translated(0,−230)",
+              "ttf_head_donor": "k points9…24 translated(0,−230)",
+              "new_join_tangent_jump_deg": 0,
+              "diagonal_angles_native": [
+                62.8189,
+                62.4958,
+                47.1211
+              ],
+              "anchors": {
+                "top": [
+                  226,
+                  510
+                ],
+                "bottom": [
+                  226,
+                  0
+                ]
+              },
+              "kerning": "native k classes/pairs as provisional starting values; Cyrillic optical review pending",
+              "checks": {
+                "native_branches_and_feet_exact_in_cubic_and_ttf": true,
+                "sampled_cubic_and_ttf_contour_valid": true,
+                "no_adjacent_cubic_duplicates": true,
+                "previous_glyf_hmtx_and_gsub_unchanged": true,
+                "previous_alternates_preserved": true,
+                "all_exports_reopened": true,
+                "both_unselected_shorti_bases_preserved": true
+              },
+              "independent_audit": {
+                "new_cubic_join_tangent_jump_max_deg": 0,
+                "adjacent_cubic_or_ttf_duplicates": 0,
+                "micro_segments_under_1": 0,
+                "minimum_segment_chord": 9.055,
+                "minimum_cubic_handle": 6,
+                "sampled_self_intersections": 0,
+                "svg_not_clipped": true,
+                "native_cubic_and_ttf_donor_splices_exact": true,
+                "previous_glyphs_hmtx_and_gsub_identical": true,
+                "old_gpos_records_identical": true,
+                "woff2_gsub_gpos_and_geometry_match": true,
+                "anchors_match_gpos": true
+              }
+            }
+          },
+          "measured_export": {
+            "evidence": "measured_export_this_pass",
+            "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+            "file": "studies/regular/ka/ka-02.ttf",
+            "ttf": {
+              "glyph": "uni043A",
+              "hmtx_advance": 451,
+              "hmtx_lsb": 15,
+              "stored_glyf_bounds": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "curve_extrema_bounds": [
+                15,
+                0,
+                451,
+                510
+              ],
+              "geometric_left_extent": 15,
+              "geometric_right_sidebearing": 0,
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 84,
+              "composite": false,
+              "glyf_sha256": "225943a0bbe1e3ac3da15916ddeaf155c93d24cb779f082971ba60d2a96ab862"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true
+            }
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ka/ka-02.ttf",
+            "woff2": "studies/regular/ka/ka-02.woff2",
+            "glyphs": "studies/regular/ka/ka-02.glyphs",
+            "svg": "studies/regular/ka/ka-02.svg"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "Per-variant source-reported metrics and independent export reads are separate. Latin donor values remain in data/params.json."
+      },
+      "features": [
+        {
+          "tag": "kern",
+          "effect": "Native k GPOS classes/pairs carried forward provisionally; changed upper profile needs Cyrillic and mixed-pair optical review."
+        },
+        {
+          "tag": "ss07",
+          "effect": "Previous и/й diagonal alternatives remain available; does not switch к variants."
+        }
+      ],
+      "checks": {
+        "this_pass": "Only read-only export identity/metrics and existing-document evidence were inspected. No build or uploaded script was run.",
+        "fontbakery": "not run in this pass; no production-validation claim",
+        "hyperglot": "not run in this pass",
+        "visual_acceptance": "pending"
+      },
+      "confidence": {
+        "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
+        "derived": "Existing study-construction descriptions and retained selection records",
+        "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
+      },
+      "paths": {
+        "study_directory": "studies/regular/ka",
+        "readme": "studies/regular/ka/README.md",
+        "with_compact_shorti": {
+          "01": {
+            "ttf": "studies/regular/ka/with-compact-shorti/ka-01.ttf",
+            "woff2": "studies/regular/ka/with-compact-shorti/ka-01.woff2",
+            "glyphs": "studies/regular/ka/with-compact-shorti/ka-01.glyphs"
+          },
+          "02": {
+            "ttf": "studies/regular/ka/with-compact-shorti/ka-02.ttf",
+            "woff2": "studies/regular/ka/with-compact-shorti/ka-02.woff2",
+            "glyphs": "studies/regular/ka/with-compact-shorti/ka-02.glyphs"
+          }
+        },
+        "approved_baseline": "studies/regular/ka/approved-baseline.json",
+        "design_notes": "studies/regular/ka/design-notes.md"
+      },
+      "construction_choices": {
+        "evidence": "existing_study_design_decision",
+        "variant_01": {
+          "cubic_head_source": "u nodes 48…62 (zero-based)",
+          "ttf_head_source": "u points 5…16 (zero-based)",
+          "translation": [
+            4,
+            0
+          ]
+        },
+        "variant_02": {
+          "cubic_head_source": "k nodes 71…90 (zero-based)",
+          "ttf_head_source": "k points 9…24 (zero-based)",
+          "translation": [
+            0,
+            -230
+          ]
+        },
+        "note": "Фрагменты в кубическом и квадратичном экспортах редактировались отдельно без повторной конверсии всей буквы и без масштабирования; advance 451 и LSB 15 inherited from native k.",
+        "reference": "studies/regular/ka/design-notes.md"
+      },
+      "brand_details": [
+        {
+          "id": "F1",
+          "evidence": "source_reported_exact_native_fragment",
+          "application": "Наклонная головная засечка k опущена в 02; 01 вместо неё имеет плоское окончание u."
+        },
+        {
+          "id": "F2",
+          "evidence": "source_reported_exact_native_fragment",
+          "application": "Нижняя левая засечка k сохранена в обоих вариантах."
+        }
+      ]
+    }
+  ],
+  "inherited_glyphs": [
+    {
+      "character": "е",
+      "unicode": "U+0435",
+      "glyph": "e",
+      "glyphs_source_name": "uni0435",
+      "name": "ie",
+      "design_status": "inherited native Latin donor geometry; not a newly drawn study",
+      "donor": "e",
+      "silhouette": "Точная исходная e",
+      "measured_export": {
+        "evidence": "measured_export_this_pass",
+        "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+        "file": "studies/regular/ka/ka-01.ttf",
+        "ttf": {
+          "glyph": "e",
+          "hmtx_advance": 355,
+          "hmtx_lsb": 23,
+          "stored_glyf_bounds": [
+            23,
+            -9,
+            331,
+            516
+          ],
+          "curve_extrema_bounds": [
+            23,
+            -9,
+            330,
+            516
+          ],
+          "geometric_left_extent": 23,
+          "geometric_right_sidebearing": 25,
+          "contours_decomposed": 2,
+          "ttf_points_decomposed": 40,
+          "composite": false,
+          "glyf_sha256": "c019cf88300263c026a6b039d87b4fe8a8daae1a37d8189040fbff78e2f0190d"
+        },
+        "checks": {
+          "ttf_target_glyph_read": true,
+          "woff2_target_glyph_read": true,
+          "ttf_woff2_target_geometry_and_metrics_equal": true
+        }
+      },
+      "paths": {
+        "representative_trial_ttf": "studies/regular/ka/ka-01.ttf",
+        "representative_trial_glyphs": "studies/regular/ka/ka-01.glyphs"
+      },
+      "features": [
+        {
+          "tag": "ss01",
+          "effect": "e → e.ss01",
+          "evidence": "measured GSUB mapping in retained ka-01.ttf"
+        }
+      ],
+      "note": "TTF cmap aliases the existing native Latin glyph; Glyphs carries a separate Cyrillic Unicode glyph. No separate production UFO/export is claimed."
+    },
+    {
+      "character": "ё",
+      "unicode": "U+0451",
+      "glyph": "edieresis",
+      "glyphs_source_name": "uni0451",
+      "name": "io",
+      "design_status": "inherited native Latin donor geometry; not a newly drawn study",
+      "donor": "edieresis",
+      "silhouette": "Точная исходная edieresis: e плюс родной диерезис",
+      "measured_export": {
+        "evidence": "measured_export_this_pass",
+        "method": "Read-only fontTools TTFont, hmtx, glyf and BoundsPen; exported-font facts, not measurements of the Latin source master.",
+        "file": "studies/regular/ka/ka-01.ttf",
+        "ttf": {
+          "glyph": "edieresis",
+          "hmtx_advance": 355,
+          "hmtx_lsb": 23,
+          "stored_glyf_bounds": [
+            23,
+            -9,
+            337,
+            706
+          ],
+          "curve_extrema_bounds": [
+            23,
+            -9,
+            337,
+            706
+          ],
+          "geometric_left_extent": 23,
+          "geometric_right_sidebearing": 18,
+          "contours_decomposed": 4,
+          "ttf_points_decomposed": 64,
+          "composite": true,
+          "glyf_sha256": "0dbf8430ffd3936860c8757ef8de3cb8b2d6f9db8a71e88cf2d06f3f1916e7dd"
+        },
+        "checks": {
+          "ttf_target_glyph_read": true,
+          "woff2_target_glyph_read": true,
+          "ttf_woff2_target_geometry_and_metrics_equal": true
+        }
+      },
+      "paths": {
+        "representative_trial_ttf": "studies/regular/ka/ka-01.ttf",
+        "representative_trial_glyphs": "studies/regular/ka/ka-01.glyphs"
+      },
+      "features": [
+        {
+          "tag": "ss01",
+          "effect": "edieresis → edieresis.ss01",
+          "evidence": "measured GSUB mapping in retained ka-01.ttf"
+        }
+      ],
+      "note": "TTF cmap aliases the existing native Latin glyph; Glyphs carries a separate Cyrillic Unicode glyph. No separate production UFO/export is claimed."
+    }
+  ],
+  "paths": {
+    "current_progress": "data/progress.json",
+    "project_rules": "CLAUDE.md",
+    "instruction": "docs/instruction.md",
+    "latin_parameters": "data/params.json"
+  }
+}
