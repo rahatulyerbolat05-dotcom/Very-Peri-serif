@@ -118,3 +118,48 @@ def el_sign(ref, beta_deg=14.0, alpha_deg=None, gap_target=226.0, a=130.0, b=170
     info = {"beta_deg": beta_deg, "alpha_deg": round(math.degrees(alpha), 2), "gap_at_baseline": round(X["iR"] - X["iL"], 1),
             "a_in": round(ain, 1), "delta": round(dl, 1), "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1)}
     return path, info
+
+
+def em_sign(ref, apex=26.0, lean_deg=2.0, gamma_deg=16.0, t_l=30.0, t_r=68.0, t_d1=67.0, t_d2=29.0, head_l="u", join=18.0, flat=8.0):
+    """Строчная м (карточка docs/glyphs/em.md): две стойки и V между ними, роли штрихов от латинской M:
+    левая стойка тонкая, правая толстая, «\\» толстая, «/» тонкая. Стойки наклонены внутрь на lean_deg (у M 88° и 92°),
+    диагонали на gamma_deg от вертикали (строчные v, y, w: 16–17°; у заглавных A, V, M 14°). Вершина V на высоте apex (у M 37 из 720, то есть 26 из 510).
+    Верх стоек: засечка-головка слева, как у u и v (head_l="u") или косой флажок ı у левой стойки (head_l="flag");
+    низ: половины опорной засечки ı. Диагонали входят в стойки сверху на join (без этого контакт в точке).
+    Возвращает (контур, словарь параметров)."""
+    I, U = ref.glyph("dotlessi"), ref.glyph("u")
+    X = 510.0; tl_ = math.tan(math.radians(lean_deg)); tg = math.tan(math.radians(gamma_deg))
+    run = (X - apex) * tg
+    h1, h2 = t_d1 / math.cos(math.radians(gamma_deg)), t_d2 / math.cos(math.radians(gamma_deg))   # горизонтальные ширины диагоналей
+    L0 = 0.0                                                             # левый край левой стойки у основания
+    # верхние внутренние края: слева L0 + t_l + X*tl_, справа R_i0 − X*tl_; диагонали входят в стойки на join
+    sLi = L0 + t_l + X * tl_ - join
+    xv = sLi + run + flat / 2                                            # середина вершины
+    sRi = xv + flat / 2 + run - join * 0 + 0                              # край "/" у верха; правая стойка начинается в sRi − (t_d2 доли)
+    R_i0 = (xv + flat / 2 + run) - 0 + X * tl_ - join                    # внутренний край правой стойки у основания (так, чтобы "/" входила на join)
+    R_o0 = R_i0 + t_r
+    stemL = poly((L0, 0), (L0 + t_l, 0), (L0 + t_l + X * tl_, X), (L0 + X * tl_, X))
+    stemR = poly((R_i0, 0), (R_o0, 0), (R_o0 - X * tl_, X), (R_i0 - X * tl_, X))
+    xl = lambda y: xv - flat / 2 - (y - apex) * tg                        # левый край "\"
+    xr = lambda y: xv + flat / 2 + (y - apex) * tg                        # правый край "/"
+    y0, y1 = apex - 30, X + 10
+    d1 = poly((xl(y0), y0), (xl(y1), y1), (xl(y1) + h1, y1), (xl(y0) + h1, y0))
+    d2 = poly((xr(y0) - h2, y0), (xr(y1) - h2, y1), (xr(y1), y1), (xr(y0), y0))
+    wedge = poly((xv - flat / 2, apex), (xv + flat / 2, apex), (xr(X + 10), X + 10), (xl(X + 10), X + 10))
+    diag = AND(AND(OR(d1, d2), wedge), rect(-500, -60, 3000, X))
+    # головки: слева от стойки на высоте верха (стойка наклонена, смещение по x у верха)
+    xtopL, xtopR = L0 + X * tl_, R_i0 - X * tl_
+    if head_l == "flag":
+        hl = shift(AND(I, rect(-50, 440, 79, 700)), xtopL - 79)
+    else:
+        hl = shift(AND(U, rect(-50, 400, 70, 700)), xtopL - 70)
+    hr = shift(AND(U, rect(-50, 400, 70, 700)), xtopR - 70)
+    # низ: половины опорной засечки ı у основания обеих стоек
+    fL, fR = AND(I, rect(-50, -50, 79 + 6, 60)), AND(I, rect(147 - 6, -50, 300, 60))     # заходят на 6 внутрь стойки: без швов
+    feet = [shift(fL, L0 - 79), shift(fR, L0 + t_l - 147), shift(fL, R_i0 - 79), shift(fR, R_o0 - 147)]
+    path = OR(stemL, stemR, diag, hl, hr, *feet)
+    path = AND(path, rect(-100, -60, 2000, 516))
+    dx = 15 - path.bounds[0]; path = shift(path, dx)
+    info = {"apex": apex, "head_l": head_l, "lean_deg": lean_deg, "gamma_deg": gamma_deg, "weights": [t_l, t_r, t_d1, t_d2],
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info

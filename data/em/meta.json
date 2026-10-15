@@ -1,0 +1,59 @@
+{
+ "m1": {
+  "adv": 542.2,
+  "xmin": 15.0,
+  "xmax": 527.2,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "m1  вершина 26, головка u",
+  "contours": 1,
+  "apex": 26.0,
+  "head_l": "u",
+  "lean_deg": 2.0,
+  "gamma_deg": 16.0,
+  "weights": [
+   30.0,
+   68.0,
+   67.0,
+   29.0
+  ]
+ },
+ "m2": {
+  "adv": 557.1,
+  "xmin": 15.0,
+  "xmax": 542.1,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "m2  вершина 0, головка u",
+  "contours": 1,
+  "apex": 0.0,
+  "head_l": "u",
+  "lean_deg": 2.0,
+  "gamma_deg": 16.0,
+  "weights": [
+   30.0,
+   68.0,
+   67.0,
+   29.0
+  ]
+ },
+ "m3": {
+  "adv": 542.2,
+  "xmin": 15.0,
+  "xmax": 527.2,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "m3  вершина 26, головка flag",
+  "contours": 1,
+  "apex": 26.0,
+  "head_l": "flag",
+  "lean_deg": 2.0,
+  "gamma_deg": 16.0,
+  "weights": [
+   30.0,
+   68.0,
+   67.0,
+   29.0
+  ]
+ }
+}
