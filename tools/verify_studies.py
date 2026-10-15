@@ -52,8 +52,10 @@ latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])
 retained_rejected=progress.get('retained_rejected_de_combinations',[])
 retained_alternatives=progress.get('retained_te_alternative_combinations',[])
 retained_ereversed=progress.get('retained_initial_ereversed_combinations',[])
+retained_ereversed_alternatives=progress.get('retained_ereversed_alternative_combinations',[])
 selected_de=json.loads((ROOT/'data/selected-de.json').read_text())
 selected_te=json.loads((ROOT/'data/selected-te.json').read_text())
+selected_ereversed=json.loads((ROOT/'data/selected-ereversed.json').read_text())
 latin_tests=['AV','To','Ta','Yo','Wa','LT','Fo','Pa','oo','r.','fo','C)','C?','A/']
 de_quadratic_checked=0
 selected_de_checked=0
@@ -61,7 +63,9 @@ te_checked=0
 selected_te_checked=0
 alternative_te_checked=0
 ereversed_checked=0
-for combo in latest+retained_rejected+retained_alternatives+retained_ereversed:
+selected_ereversed_checked=0
+alternative_ereversed_checked=0
+for combo in latest+retained_rejected+retained_alternatives+retained_ereversed+retained_ereversed_alternatives:
     path=ROOT/combo['ttf'];f=TTFont(path)
     is_ereversed=any(path.is_relative_to(ROOT/'studies/regular'/stage) for stage in ['ereversed','ereversed-refined'])
     if is_ereversed or path.is_relative_to(ROOT/'studies/regular/te') or (path.is_relative_to(ROOT/'studies/regular/de-reimagined') and combo['de_variant']=='01'):
@@ -90,6 +94,16 @@ for combo in latest+retained_rejected+retained_alternatives+retained_ereversed:
                 assert [p[1:] for p in hb_shape(path,cy)]==[p[1:] for p in hb_shape(reference/'fonts/ttf/InstrumentSerif-Regular.ttf',latin)],path
     if is_ereversed:
         ereversed_checked+=1
+        if path.is_relative_to(ROOT/'studies/regular/ereversed-refined'):
+            record=selected_ereversed if combo['ereversed_variant']=='02' else selected_ereversed['retained_alternative']
+            assert list(f['hmtx']['uni044D'])==record['hmtx'],path
+            assert hashlib.sha256(f['glyf']['uni044D'].compile(f['glyf'])).hexdigest()==record['glyf_sha256'],path
+            layer=fs.glyphs['uni044D'].layers[0]
+            outline=[[(tuple(n.position),n.type) for n in p.nodes] for p in layer.paths]
+            assert layer.width==record['hmtx'][0],path
+            assert hashlib.sha256(json.dumps(outline,separators=(',',':')).encode()).hexdigest()==record['glyphs_outline_sha256'],path
+            if combo['ereversed_variant']=='02':selected_ereversed_checked+=1
+            else:alternative_ereversed_checked+=1
         assert f.getBestCmap()[0x44D]=='uni044D',path
         for text in ['это эра','эге эго','дуэт эхо','э\u0301','эо оэ']:
             hb_shape(path,text)
@@ -141,6 +155,6 @@ if args.rebuilt_dir:
             for tag in ['GSUB','GPOS','GDEF']:
                 assert a[tag].compile(a)==b[tag].compile(b),(candidate,tag)
             rebuilt_count+=1
-report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'retained_te_alternative_combinations_checked':len(retained_alternatives),'retained_initial_ereversed_combinations_checked':len(retained_ereversed),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'ereversed_combinations_and_integer_g1_checked':ereversed_checked,'selected_te_primary_checked':selected_te_checked,'selected_te_alternative_checked':alternative_te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
+report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'retained_te_alternative_combinations_checked':len(retained_alternatives),'retained_initial_ereversed_combinations_checked':len(retained_ereversed),'retained_ereversed_alternative_combinations_checked':len(retained_ereversed_alternatives),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'ereversed_combinations_and_integer_g1_checked':ereversed_checked,'selected_te_primary_checked':selected_te_checked,'selected_te_alternative_checked':alternative_te_checked,'selected_ereversed_primary_checked':selected_ereversed_checked,'selected_ereversed_alternative_checked':alternative_ereversed_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
 args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

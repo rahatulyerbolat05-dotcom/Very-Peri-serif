@@ -1,0 +1,917 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-15",
+  "purpose": "Current joint alphabet-map inventory; retained outlines and candidates, not a production font merge or approval count.",
+  "source_pins": {
+    "codex": {
+      "branch": "codex/cyrillic-studies",
+      "native_artifact_commit": "a12a9a486a06b0dd63a0e984acc5fb0a41ad611d",
+      "latest_selection_record": "data/selected-ereversed.json",
+      "selected_ereversed": "02",
+      "note": "Outline files pinned to this commit; current local records additionally fix explicit user selection э02 without changing its geometry."
+    },
+    "claude": {
+      "branch": "claude/upbeat-faraday-mzabid",
+      "base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+      "alphabet_path": "data/alphabet.json",
+      "note": "Claude bases pinned to this commit; shared chart adds Codex candidates in the working tree without replacing these bases.",
+      "previous_base_commit": "b13c026b24f2376436e0e0ef8b7cfa6dd5531ae9"
+    },
+    "upstream_instrument_serif_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81"
+  },
+  "shared_chart": {
+    "branch": "claude/upbeat-faraday-mzabid",
+    "path": "docs/img/alphabet_status.png",
+    "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/claude/upbeat-faraday-mzabid/docs/img/alphabet_status.png",
+    "conflicts_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/claude/upbeat-faraday-mzabid/docs/img/alphabet_conflicts.png",
+    "colors": {
+      "codex": "blue outlines",
+      "claude": "green outlines"
+    },
+    "status": "prepared shared review map; publication tracked by the parent task",
+    "count_meaning": "Available drawings/candidates; unresolved selections and unfinished polishing count as available, not approved or production-ready."
+  },
+  "counts": {
+    "codex_compiled_lowercase": 19,
+    "codex_native_latin_aliases": 8,
+    "source_only_additional_lowercase": 9,
+    "combined_lowercase": 28,
+    "individually_studied_lowercase": 20,
+    "individually_studied_definition": "28 available lowercase minus 8 native aliases in the historical Codex counting scheme; includes explicit donor-mapping studies such as и and п.",
+    "russian": {
+      "available": 46,
+      "total": 66,
+      "uppercase_available": 18,
+      "uppercase_total": 33,
+      "lowercase_available": 28,
+      "lowercase_total": 33,
+      "remaining": 20
+    },
+    "kazakh_additional": {
+      "available": 8,
+      "total": 18,
+      "uppercase_available": 4,
+      "uppercase_total": 9,
+      "lowercase_available": 4,
+      "lowercase_total": 9,
+      "remaining": 10
+    }
+  },
+  "codex_compiled_letters": [
+    "а",
+    "б",
+    "в",
+    "г",
+    "д",
+    "е",
+    "ё",
+    "ж",
+    "з",
+    "и",
+    "й",
+    "к",
+    "о",
+    "р",
+    "с",
+    "т",
+    "у",
+    "х",
+    "э"
+  ],
+  "codex_native_aliases": {
+    "а": "a",
+    "е": "e",
+    "ё": "edieresis",
+    "о": "o",
+    "р": "p",
+    "с": "c",
+    "у": "y",
+    "х": "x"
+  },
+  "claude_source_only_additional_lowercase": [
+    "л",
+    "м",
+    "н",
+    "п",
+    "ш",
+    "ъ",
+    "ы",
+    "ь",
+    "ю"
+  ],
+  "codex_additions_to_claude_chart": [
+    "б",
+    "в",
+    "г",
+    "д",
+    "ж",
+    "з",
+    "э"
+  ],
+  "available": {
+    "russian_uppercase": [
+      "А",
+      "В",
+      "Г",
+      "Е",
+      "Ё",
+      "Ж",
+      "К",
+      "Л",
+      "М",
+      "Н",
+      "О",
+      "П",
+      "Р",
+      "С",
+      "Т",
+      "Х",
+      "Ш",
+      "Ю"
+    ],
+    "russian_lowercase": [
+      "а",
+      "б",
+      "в",
+      "г",
+      "д",
+      "е",
+      "ё",
+      "ж",
+      "з",
+      "и",
+      "й",
+      "к",
+      "л",
+      "м",
+      "н",
+      "о",
+      "п",
+      "р",
+      "с",
+      "т",
+      "у",
+      "х",
+      "ш",
+      "ъ",
+      "ы",
+      "ь",
+      "э",
+      "ю"
+    ],
+    "kazakh_uppercase": [
+      "Ғ",
+      "Ө",
+      "Ү",
+      "І"
+    ],
+    "kazakh_lowercase": [
+      "ө",
+      "ү",
+      "һ",
+      "і"
+    ]
+  },
+  "missing_from_integrated_bases": {
+    "russian_uppercase": [
+      "Б",
+      "Д",
+      "З",
+      "И",
+      "Й",
+      "У",
+      "Ф",
+      "Ц",
+      "Ч",
+      "Щ",
+      "Ъ",
+      "Ы",
+      "Ь",
+      "Э",
+      "Я"
+    ],
+    "russian_lowercase": [
+      "ф",
+      "ц",
+      "ч",
+      "щ",
+      "я"
+    ],
+    "kazakh_uppercase": [
+      "Ә",
+      "Қ",
+      "Ң",
+      "Ұ",
+      "Һ"
+    ],
+    "kazakh_lowercase": [
+      "ә",
+      "ғ",
+      "қ",
+      "ң",
+      "ұ"
+    ]
+  },
+  "conflicts": {
+    "т": {
+      "status": "cross_branch_choice_pending",
+      "codex": {
+        "primary": "02 Письменный выход",
+        "skeleton": "m-shaped upright handwritten",
+        "advance": 718,
+        "source": "studies/regular/te/te-02.ttf",
+        "retained_alternative": "01 Родные арки, separate study font"
+      },
+      "claude": {
+        "primary": "t1",
+        "skeleton": "T-shaped lowercase",
+        "advance": 358,
+        "source": "data/te/t1.glif"
+      },
+      "rule": "Codex т02 remains explicitly selected here; show both drawings for the shared-map decision, do not replace it silently."
+    },
+    "к": {
+      "status": "cross_branch_and_codex_primary_choice_pending",
+      "codex": {
+        "primary": null,
+        "variants": [
+          {
+            "id": "01",
+            "name": "Головка u",
+            "advance": 451,
+            "source": "studies/regular/ka/ka-01.ttf"
+          },
+          {
+            "id": "02",
+            "name": "Наклонная головка k",
+            "advance": 451,
+            "source": "studies/regular/ka/ka-02.ttf"
+          }
+        ],
+        "preference": "Both liked; primary not selected."
+      },
+      "claude": {
+        "primary": "ka",
+        "head": "native dotless-i flag",
+        "advance": 462,
+        "source": "data/ka/ka.glif",
+        "contextual_alternative": "data/ka/ka_short.glif",
+        "calt_imported_into_codex": false
+      },
+      "rule": "Show Claude ka and both Codex candidates; no selection inferred from file order."
+    }
+  },
+  "identical_shared_drawings": {
+    "native_aliases": {
+      "characters": [
+        "а",
+        "е",
+        "ё",
+        "о",
+        "р",
+        "с",
+        "у",
+        "х"
+      ],
+      "exact_quadratic_segments_and_advance": true
+    },
+    "и": {
+      "codex": "02 Чашеобразная",
+      "claude": "data/ii/ii.glif",
+      "donor": "u",
+      "advance": 454,
+      "exact_quadratic_segments_and_advance": true
+    },
+    "й01": {
+      "character": "й",
+      "codex": "01 Родная кратка",
+      "claude": "data/homoglyph/ishort-cy.glif",
+      "donor": "ubreve",
+      "advance": 454,
+      "exact_quadratic_segments_and_advance": true,
+      "codex_primary_selection": "open;02 compact breve retained as a distinct candidate"
+    },
+    "comparison_method": "Read-only fontTools decomposition to individual quadratic segments; compare contours after cyclic-start and direction normalization, plus advance width."
+  },
+  "open_codex_choices": [
+    "в",
+    "й",
+    "к"
+  ],
+  "case_and_mapping_notes": {
+    "ж_vs_Ж": "Codex ж U+0436 is exact selected Cyr11 import; Claude Ж U+0416 is a separate capital. No duplicate-letter conflict.",
+    "м_vs_т": "Claude lowercase м primary is V-shaped m1, Latin m is only its retained alternate; Codex uses native m as the skeleton of lowercase т, not м. Do not merge these code points by Latin recipe name.",
+    "source_only_statuses": [
+      {
+        "character": "л",
+        "unicode": "U+043B",
+        "primary": "l1",
+        "alternates": [
+          "l2",
+          "l3"
+        ],
+        "status": "project_proposed_primary_confirmation_open",
+        "selection_note": "Основа л1 назначена по правилам; подтверждение пользователя остаётся открытым.",
+        "included_in_codex_fonts": false,
+        "source_branch": "claude/upbeat-faraday-mzabid",
+        "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+        "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/docs/glyphs/el_lower.md",
+        "source_files": [
+          {
+            "path": "data/el_lower/l1.glif",
+            "sha256": "01708d16479c5686821d36c75c81684bfa3d86ec750ab54370ffe64b53d67997",
+            "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/data/el_lower/l1.glif"
+          }
+        ]
+      },
+      {
+        "character": "м",
+        "unicode": "U+043C",
+        "primary": "m1",
+        "alternates": [
+          "m2",
+          "m3",
+          "ms1",
+          "ms2",
+          "ms3",
+          "m_latin"
+        ],
+        "status": "project_proposed_primary_confirmation_open",
+        "selection_note": "Основная V-образная m1; Latin m возвращена в альтернативы после пользовательского отката. Подтверждение m1 отмечено открытым.",
+        "included_in_codex_fonts": false,
+        "source_branch": "claude/upbeat-faraday-mzabid",
+        "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+        "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/docs/glyphs/em.md",
+        "source_files": [
+          {
+            "path": "data/em/m1.glif",
+            "sha256": "235b413d99768c6148bee67528e9fd4d1256229ea885de79911243b861913051",
+            "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/data/em/m1.glif"
+          }
+        ]
+      },
+      {
+        "character": "н",
+        "unicode": "U+043D",
+        "primary": "n4",
+        "alternates": [
+          "n1",
+          "n2",
+          "n3"
+        ],
+        "status": "user_selected_primary",
+        "selection_note": "Основа n4 (mix) выбрана пользователем.",
+        "included_in_codex_fonts": false,
+        "source_branch": "claude/upbeat-faraday-mzabid",
+        "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+        "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/docs/glyphs/en.md",
+        "source_files": [
+          {
+            "path": "data/en/n4.glif",
+            "sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633",
+            "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/data/en/n4.glif"
+          }
+        ]
+      },
+      {
+        "character": "ю",
+        "unicode": "U+044E",
+        "primary": "yu1",
+        "alternates": [
+          "yu2",
+          "yu3"
+        ],
+        "status": "user_selected_primary",
+        "selection_note": "Основа yu1, связь 55, выбрана пользователем.",
+        "included_in_codex_fonts": false,
+        "source_branch": "claude/upbeat-faraday-mzabid",
+        "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+        "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/docs/glyphs/yu.md",
+        "source_files": [
+          {
+            "path": "data/yu/yu1.glif",
+            "sha256": "9ff8f6516d55bdf71b1c8dfdd65fdd846a196125d8761df7100c5ab94049324f",
+            "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/data/yu/yu1.glif"
+          }
+        ]
+      },
+      {
+        "character": "п",
+        "unicode": "U+043F",
+        "primary": "pe",
+        "alternates": [
+          "pe_flag"
+        ],
+        "status": "user_selected_native_n_with_contextual_candidate",
+        "selection_note": "Основная п — точная native n по выбору пользователя; контекстная pe.flag хранится в Claude, в Codex не переносилась.",
+        "included_in_codex_fonts": false,
+        "source_branch": "claude/upbeat-faraday-mzabid",
+        "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+        "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/docs/glyphs/pe.md",
+        "source_files": [
+          {
+            "path": "data/pe/pe.glif",
+            "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535",
+            "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/d2cd2ee856a85d99aa4880b8f44b126ee49a1eca/data/pe/pe.glif"
+          }
+        ]
+      }
+    ]
+  },
+  "not_integrated_author_work": {
+    "ф": {
+      "unicode": "U+0444",
+      "path": "docs/img/author_ef_vector.svg",
+      "source_branch": "claude/upbeat-faraday-mzabid",
+      "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+      "sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
+      "decision_path": "docs/glyphs/ef.md",
+      "status": "Author SVG exists; previous Claude contour removed by explicit user request, not in alphabet.done or Codex exports."
+    }
+  },
+  "exact_outline_sources": {
+    "claude_bases": {
+      "ш": {
+        "path": "data/sha/R1.glif",
+        "label": "R1",
+        "sha256": "85b6e6ede6bee3c309a3c47b6838b31fa1bc3d0233d4fbaec942db805ba1e9d7"
+      },
+      "ь": {
+        "path": "data/soft/S3.glif",
+        "label": "S3",
+        "sha256": "ce0f318a6a69a729087b48f39b6718dc8f6d54e792a4681c78c50565cb59f245"
+      },
+      "ъ": {
+        "path": "data/hard/K2.glif",
+        "label": "K2",
+        "sha256": "6ce7d8388b31a3f576c7fef42c86432542e51620c9c6aaed5a033b7f0ec7f861"
+      },
+      "ы": {
+        "path": "data/yery/Y1.glif",
+        "label": "Y1",
+        "sha256": "8f074b7fdab9787fc861ac5a6a91c9caaba9a6be64ab9c9eedeaee306b80d718"
+      },
+      "л": {
+        "path": "data/el_lower/l1.glif",
+        "label": "л1",
+        "sha256": "01708d16479c5686821d36c75c81684bfa3d86ec750ab54370ffe64b53d67997"
+      },
+      "м": {
+        "path": "data/em/m1.glif",
+        "label": "m1 (V-образная)",
+        "sha256": "235b413d99768c6148bee67528e9fd4d1256229ea885de79911243b861913051"
+      },
+      "т": {
+        "path": "data/te/t1.glif",
+        "label": "t1",
+        "sha256": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b"
+      },
+      "н": {
+        "path": "data/en/n4.glif",
+        "label": "n4",
+        "sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633"
+      },
+      "ю": {
+        "path": "data/yu/yu1.glif",
+        "label": "yu1",
+        "sha256": "9ff8f6516d55bdf71b1c8dfdd65fdd846a196125d8761df7100c5ab94049324f"
+      },
+      "п": {
+        "path": "data/pe/pe.glif",
+        "label": "латинская n",
+        "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535"
+      },
+      "Л": {
+        "path": "data/el_std/St2.glif",
+        "label": "St2",
+        "sha256": "f14b7f254da4b109a62a06f67d1b9e87b2562e06247478374936af343275b544"
+      },
+      "и": {
+        "path": "data/ii/ii.glif",
+        "label": "латинская u",
+        "sha256": "0db0b2f68639aaf81db4e122ffc45f83c37d8918c02cc24bd55871918b0b7bc4"
+      },
+      "А": {
+        "path": "data/A/A.glif",
+        "label": "латинская A",
+        "sha256": "a59819fabfc543edde320188faf7408d683bcf370ebb8682315d6811a1dfce58"
+      },
+      "Ж": {
+        "path": "data/zhe/zhe.glif",
+        "label": "Ж",
+        "sha256": "7417ee9172992572cbaefeb1eae4d7d0e5ef17df373fbfa548ae07fffdbed63b"
+      },
+      "В": {
+        "path": "data/homoglyph/Ve-cy.glif",
+        "label": "латинская B",
+        "sha256": "a745ef34f6d4c1e85efe7fd68db5d3424d9a6f909df705aa42811c1027d52034"
+      },
+      "Е": {
+        "path": "data/homoglyph/Ie-cy.glif",
+        "label": "латинская E",
+        "sha256": "140169edbbdb2cb22b065d8817b34ae04826d5224b54842a6c729f0b92c1e243"
+      },
+      "К": {
+        "path": "data/homoglyph/Ka-cy.glif",
+        "label": "латинская K",
+        "sha256": "8baa34a106d121f3afe2f0e3fe70bc4e69ae49186b9f52571b4173fa07aab851"
+      },
+      "М": {
+        "path": "data/homoglyph/Em-cy.glif",
+        "label": "латинская M",
+        "sha256": "258c7bfb151bc99cde84b7c389367d63b7178ad63aae6bced8d1405ceebf50ed"
+      },
+      "Н": {
+        "path": "data/homoglyph/En-cy.glif",
+        "label": "латинская H",
+        "sha256": "3c8694a5fb19bf3ca9fefeb44066d6a48a2a51262b8653222137f62e602f7899"
+      },
+      "О": {
+        "path": "data/homoglyph/O-cy.glif",
+        "label": "латинская O",
+        "sha256": "f479d8c264e9d940b84fbc2f4e1ed56307f50765c901b4e6e2fd9909c001c63f"
+      },
+      "Р": {
+        "path": "data/homoglyph/Er-cy.glif",
+        "label": "латинская P",
+        "sha256": "c3176a5fc2945c299bb7931a5031227411e40c5282fb40a49d11b96aed6d4334"
+      },
+      "С": {
+        "path": "data/homoglyph/Es-cy.glif",
+        "label": "латинская C",
+        "sha256": "fc193b43ddc875913513df6f4e402885c19992b78b682cd3072fc5f8852859cb"
+      },
+      "Т": {
+        "path": "data/homoglyph/Te-cy.glif",
+        "label": "латинская T",
+        "sha256": "ce342139b8d36a86140d0c0665a09fa631775f1361ac14ce6fbf0e650483cb26"
+      },
+      "Х": {
+        "path": "data/homoglyph/Ha-cy.glif",
+        "label": "латинская X",
+        "sha256": "ee8992cfeb526ca4cf8b4b125336a18d586d28b878234c4ced3ca9e83665ff3a"
+      },
+      "а": {
+        "path": "data/homoglyph/a-cy.glif",
+        "label": "латинская a",
+        "sha256": "cb91ecbfcddccba7d8329d5ffbfa454c659deee78d219ffd2dddd26c874640f8"
+      },
+      "е": {
+        "path": "data/homoglyph/ie-cy.glif",
+        "label": "латинская e",
+        "sha256": "3a38cdccc2af860c1f7281fa5bd6f7c3ba609be14f41bd78a80fd474d542fd2e"
+      },
+      "о": {
+        "path": "data/homoglyph/o-cy.glif",
+        "label": "латинская o",
+        "sha256": "d2b9d41fb835b3878a9e693047ce8d6351abff24f3d7d01f474cbfef0f76d6cf"
+      },
+      "р": {
+        "path": "data/homoglyph/er-cy.glif",
+        "label": "латинская p",
+        "sha256": "570c355e567d3135849d5c51b9528a38041a78694f009535962554eaf5792367"
+      },
+      "с": {
+        "path": "data/homoglyph/es-cy.glif",
+        "label": "латинская c",
+        "sha256": "bd2aa41697267274d994a6c59d5e25e5d49ae2f6706ac05c64381a113cb7fbff"
+      },
+      "у": {
+        "path": "data/homoglyph/u-cy.glif",
+        "label": "латинская y",
+        "sha256": "167d17b2830d1554c919a0db1b9451d95250046c86b73700f29ad6ce6c1c9eda"
+      },
+      "х": {
+        "path": "data/homoglyph/ha-cy.glif",
+        "label": "латинская x",
+        "sha256": "0b230150ebe6e2009df184991dc15aa7165cd7533c44275f69bbdd7e1d913e84"
+      },
+      "к": {
+        "path": "data/ka/ka.glif",
+        "label": "к",
+        "sha256": "e4eddd8452e99ca0541555db8b6eec759877333f783bd3f8446a09cc600fe2b0"
+      },
+      "П": {
+        "path": "data/pe_cap/P1.glif",
+        "label": "P1",
+        "sha256": "a2279e5af493918a8e4211798ff19f0fa0879e707039bed5deffa0cf1ca25842"
+      },
+      "Ш": {
+        "path": "data/sha_cap/Sh1.glif",
+        "label": "Sh1",
+        "sha256": "ed5fb3bc168a4213809ae5f90697474fc325ec0beda04be8b8ca6e9e74d64ea1"
+      },
+      "Ю": {
+        "path": "data/yu_cap/Yu1.glif",
+        "label": "Yu1",
+        "sha256": "0c0bf04a66a95224c36b3826315b4c753fb3a77955c3ce846d3a737c233a2b52"
+      },
+      "Г": {
+        "path": "data/ge_cap/G1.glif",
+        "label": "G1",
+        "sha256": "7c4ed5360dc2144b389ac707ef50eb5ea8695b81c23f53feed428e2047f8a256"
+      },
+      "Ё": {
+        "path": "data/homoglyph/Io-cy.glif",
+        "label": "латинская Ë",
+        "sha256": "185e08006fb450cc10b01e8395c25fae4da34002d29e7fca0d08d6e727870264"
+      },
+      "ё": {
+        "path": "data/homoglyph/io-cy.glif",
+        "label": "латинская ë",
+        "sha256": "8aa10a2ef24043535be59b538e34341b754d2d6691dba3349f0a527df1723710"
+      },
+      "І": {
+        "path": "data/homoglyph/I-cy.glif",
+        "label": "латинская I",
+        "sha256": "4943f927ba01d4950c2167962c74bfc23dcd3fe8f2f9fdb59e221eb88cfbfb12"
+      },
+      "і": {
+        "path": "data/homoglyph/i-cy.glif",
+        "label": "латинская i",
+        "sha256": "021faaa7fda1872f09e77a31109f71900297b1803ad5abcfce0b82fe286dc46e"
+      },
+      "һ": {
+        "path": "data/homoglyph/shha-cy.glif",
+        "label": "латинская h",
+        "sha256": "398b328ebb835944941397a27cf591b2406779409afbb89b15e3e37301fa12e5"
+      },
+      "й": {
+        "path": "data/homoglyph/ishort-cy.glif",
+        "label": "латинская ŭ",
+        "sha256": "680fa4f59070af2e40de78ccb9e7576ad8c0e5b117fbf1a9c4829ae281baa3fb"
+      },
+      "Ү": {
+        "path": "data/homoglyph/Ustraight-cy.glif",
+        "label": "латинская Y",
+        "sha256": "a17252ec539354b69121202da2101ff430c4e75afeaadcdd09f24fe8569d9d9e"
+      },
+      "ү": {
+        "path": "data/homoglyph/ustraight-cy.glif",
+        "label": "латинская y",
+        "sha256": "409a10a1e7bed9afd5be0c58cf5014a21957be4a3ca523f9c48997308062caa8"
+      },
+      "Ө": {
+        "path": "data/kz2/O1.glif",
+        "label": "O1 (черта 27)",
+        "sha256": "acd247a1ec808b2f3cffd90c2f49bca265e22d54607d065eb5bd53400cff3464"
+      },
+      "ө": {
+        "path": "data/kz2/o1.glif",
+        "label": "o1 (черта 25)",
+        "sha256": "fb96daae3c2d2ef5b9ec4c8820b177ddd74e82711c2e7776b3d35e35ff11fdb3"
+      },
+      "Ғ": {
+        "path": "data/kz2/Gh2.glif",
+        "label": "Gh2 (±90)",
+        "sha256": "a5253daf4dd3c8a7d385b0ac49b2c7ca697e26b5d72eb5728f81cac23a64eaf9"
+      }
+    },
+    "codex_chart_candidates": {
+      "б": {
+        "selected": "01",
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Капля",
+            "status": "selected",
+            "advance": 408,
+            "path": "data/codex/uni0431-01.glif",
+            "glif_sha256": "761a6e30d070d4ce9f2902d036619fcf71c6a29ed7c3dd32181195eab919d645",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0431",
+            "source_glyf_sha256": "ec5a99d33e46b3194f1cdf1cd052ee2d97ba4a0182201585d712c5e7b9a19651",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "в": {
+        "selected": null,
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Структурная",
+            "status": "unselected",
+            "advance": 421,
+            "path": "data/codex/uni0432-01.glif",
+            "glif_sha256": "97b405ec9f22077342a6e32b927b6378da490e9163417ac9fd9b21bf1cae0909",
+            "source_file": "studies/regular/ve/ve-01.ttf",
+            "source_glyph": "uni0432",
+            "source_glyf_sha256": "7dff94fb1d2c806d8a5ab2b13c628ead306a85cf758af2657ee8e8da767ec1e9",
+            "source_file_sha256": "633f56d70e8a2c60e6f0546732b27c054fbabd16c382df10e79013fcf0af8206"
+          },
+          {
+            "variant": "02",
+            "label": "Мягкая",
+            "status": "unselected",
+            "advance": 425,
+            "path": "data/codex/uni0432-02.glif",
+            "glif_sha256": "7abb794f65ed92807c6bab477c73f743a785ca41daced6a2eb99d95d95c06740",
+            "source_file": "studies/regular/ve/ve-02.ttf",
+            "source_glyph": "uni0432",
+            "source_glyf_sha256": "27386e01de58d3607027cd52f3a202d2aa22711d8bb07d916cd093e06e73f9de",
+            "source_file_sha256": "3923b8cf76f1edd0d65463ee6c00934b7048adf105fb5acb087f03f31a2316b3"
+          }
+        ]
+      },
+      "г": {
+        "selected": "02",
+        "variants": [
+          {
+            "variant": "02",
+            "label": "Капля",
+            "status": "selected",
+            "advance": 335,
+            "path": "data/codex/uni0433-02.glif",
+            "glif_sha256": "7629770f246cf7abc966956ddbc5abf555dace1e925094cd94b51c786369c6d6",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0433",
+            "source_glyf_sha256": "cb08e533e65895be59927df4f9a742f275d6552570a6e9c07548675071b01cae",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "д": {
+        "selected": "01",
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Острый свод",
+            "status": "selected",
+            "advance": 416,
+            "path": "data/codex/uni0434-01.glif",
+            "glif_sha256": "9868fedcfd8689628c53eb676d60a111f47454cfd876bd400c4366021e6d8840",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0434",
+            "source_glyf_sha256": "7b42c3651455bd27efb05bbbafdc7fe24504990a4362811ce436c034a588e73e",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "ж": {
+        "selected": "cyr11",
+        "variants": [
+          {
+            "variant": "cyr11",
+            "label": "Cyr11 / импорт",
+            "status": "selected",
+            "advance": 552,
+            "path": "data/codex/uni0436-cyr11.glif",
+            "glif_sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0436",
+            "source_glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "з": {
+        "selected": "01",
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Открытый терминал",
+            "status": "selected",
+            "advance": 349,
+            "path": "data/codex/uni0437-01.glif",
+            "glif_sha256": "98c61272897a5dce16166ec6e02a661f8d9ae62bd609ebb8b63313a148dbbe81",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0437",
+            "source_glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "и": {
+        "selected": "02",
+        "variants": [
+          {
+            "variant": "02",
+            "label": "Родная u",
+            "status": "selected",
+            "advance": 454,
+            "path": "data/codex/uni0438-02.glif",
+            "glif_sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0438",
+            "source_glyf_sha256": "b2291c418e92333b5a9f8066d3898467b9cb39e8ac1656d36cedd1a6970932c8",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "й": {
+        "selected": null,
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Родная кратка",
+            "status": "unselected",
+            "advance": 454,
+            "path": "data/codex/uni0439-01.glif",
+            "glif_sha256": "45fd9e4030194c14a38ff02a0b9b6402be52c4174bcbab3f52f9b160891a7373",
+            "source_file": "studies/regular/shorti/shorti-01.ttf",
+            "source_glyph": "uni0439",
+            "source_glyf_sha256": "6cec2fb210fb2a290beb25ab6af9ee18666c5009b925fa84df387dd775314c0f",
+            "source_file_sha256": "7bafae9ae62a761912d176e534a6b4736cbb79bd60416ae8e844017feb95f5ea"
+          },
+          {
+            "variant": "02",
+            "label": "Компактная",
+            "status": "unselected",
+            "advance": 454,
+            "path": "data/codex/uni0439-02.glif",
+            "glif_sha256": "03006d7cd8f3deac813f2d51298080d96c2f58af0f3639c5db8a5ce1dd71120d",
+            "source_file": "studies/regular/shorti/shorti-02.ttf",
+            "source_glyph": "uni0439",
+            "source_glyf_sha256": "b3b88d7ca38c760e9b638a02b0b8b7288e5ead474e43c018245d49a457457731",
+            "source_file_sha256": "1432bc65b4da63516358d91175ed1d2790c5902f1c8a05ba3c5749ed02f40a17"
+          }
+        ]
+      },
+      "к": {
+        "selected": null,
+        "variants": [
+          {
+            "variant": "01",
+            "label": "Головка u",
+            "status": "unselected",
+            "advance": 451,
+            "path": "data/codex/uni043A-01.glif",
+            "glif_sha256": "a0e8c6e84d89ffeae925775aaa995fe62862badd59ac8c194ce8028d4a9a0422",
+            "source_file": "studies/regular/ka/ka-01.ttf",
+            "source_glyph": "uni043A",
+            "source_glyf_sha256": "e6917a59b3c423469d1fe8ffa19fabc13f3605af25660521285868184418ca15",
+            "source_file_sha256": "e0c2b9b3e1a96e10de594983c4c902c393270fd72ca8d9d081db2d3f09fde3d0"
+          },
+          {
+            "variant": "02",
+            "label": "Головка k",
+            "status": "unselected",
+            "advance": 451,
+            "path": "data/codex/uni043A-02.glif",
+            "glif_sha256": "85d3706448db20423efab188f1de363cff31ff2db1b084df874c38ab4ad506b3",
+            "source_file": "studies/regular/ka/ka-02.ttf",
+            "source_glyph": "uni043A",
+            "source_glyf_sha256": "225943a0bbe1e3ac3da15916ddeaf155c93d24cb779f082971ba60d2a96ab862",
+            "source_file_sha256": "f33f431eb7d5402abbd9562bcfad413a57e8530dea8eb3dd3421d2d18cec3d3a"
+          }
+        ]
+      },
+      "т": {
+        "selected": "02",
+        "variants": [
+          {
+            "variant": "02",
+            "label": "Письменный выход",
+            "status": "selected",
+            "advance": 718,
+            "path": "data/codex/uni0442-02.glif",
+            "glif_sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0442",
+            "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      },
+      "э": {
+        "selected": "02",
+        "variants": [
+          {
+            "variant": "02",
+            "label": "Капля a — ниже",
+            "status": "selected",
+            "advance": 368,
+            "path": "data/codex/uni044D-02.glif",
+            "glif_sha256": "3e3f33d26eac98aa6ca9d521e20e58730cdb756ce17820969f38c3ac435a6f75",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni044D",
+            "source_glyf_sha256": "82b9421439280681507ab1374d53af3a3b1b3c14e4d3f0f660188b5765ae3c55",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ]
+      }
+    }
+  },
+  "historical_inventory": "data/cross-branch-inventory.json",
+  "limits": [
+    "This is an accounting and visual-review merge only; no production font or contextual features merged.",
+    "Existing Codex contours, advances, selected baselines and trial cmap coverage remain unchanged.",
+    "Some Claude defaults are project proposals awaiting user confirmation; all require finishing and Cyrillic/mixed spacing review.",
+    "Original four source_only_selected_studies and the old cross-branch inventory remain historical records."
+  ],
+  "latest_claude_additions": {
+    "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+    "characters": [
+      "Ғ",
+      "Ө",
+      "ө"
+    ],
+    "paths": {
+      "Ғ": "data/kz2/Gh2.glif",
+      "Ө": "data/kz2/O1.glif",
+      "ө": "data/kz2/o1.glif"
+    },
+    "note": "New Kazakh drawings from the latest Claude commit; Russian coverage and Codex font cmap are unchanged."
+  }
+}

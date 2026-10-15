@@ -22,9 +22,10 @@ but rejected. The user selected т02 «Письменный выход» as prim
 data/selected-te.json. Both к and й variants remain unselected.
 The primary г «Капля» is explicitly reaffirmed; «Клюв» remains ss05.
 The first э drawings (ereversed) were rejected for uneven upper curves and
-an insufficiently clear drop. Current candidates are ereversed-refined01/02:
-exact left-facing native a drop fragments with a newly drawn crown, higher
-and lower entries. Neither is selected. Preserve the native right o bowl;
+an insufficiently clear drop. The user selected ereversed-refined02
+«Капля a — ниже» as the main э;01 «Капля a — выше» remains a separate
+alternative. Pin both through data/selected-ereversed.json. These use exact
+left-facing native a drop fragments with a newly drawn crown. Preserve the native right o bowl;
 do not mirror all of c or impose a global smoothing/G2 rule.
 Do not infer approval from a technical default. Technical G1 checks do not
 establish stylistic success. Present actual drawings with native neighbours.
@@ -40,3 +41,5 @@ FontBakery/Hyperglot checks and unfinished Cyrillic kerning honestly.
 Never remove earlier studies merely because a new candidate is produced.
 Do not commit original reference binaries, PNG, uploaded archives or Python
 dependency caches. SVG proofs and derivative study fonts are tracked.
+The user explicitly authorized updating the shared PNG alphabet map in the
+Claude branch; that requested map is an exception to the PNG rule.

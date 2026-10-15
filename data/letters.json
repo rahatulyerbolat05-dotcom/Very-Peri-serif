@@ -91,7 +91,7 @@
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved",
     "т": "02 Письменный выход selected as primary;01 Родные арки selected as alternative style, retained in separate font.",
-    "э": "Revised01 Капля a — выше /02 Капля a — ниже unresolved; previous Каплевидный вход/Перьевой вход pair rejected and retained in history."
+    "э": "Refined02 Капля a — ниже selected as primary; refined01 Капля a — выше retained separately as alternative. Previous pair rejected and retained in history. Exact accepted contour pinned."
   },
   "letters": [
     {
@@ -4443,7 +4443,7 @@
       "name": "ereversed",
       "type": "open_bowl_with_independent_middle_arm",
       "silhouette": {
-        "evidence": "revised unselected proposals after explicit rejection of previous upper curves and terminal",
+        "evidence": "refined02 selected by user after redesign of upper curves and drop; refined01 retained as alternative",
         "description": "Открытая влево чаша с непрерывным правым спуском и самостоятельной тонкой перекладиной. Талии з нет; это не зеркало c целиком.",
         "source": "data/ereversed-refined-outlines.json"
       },
@@ -4465,7 +4465,7 @@
       },
       "upright": {
         "style": "Regular",
-        "status": "two revised unselected proposals after user rejection of previous pair",
+        "status": "refined02 selected as primary; refined01 retained as separate alternative",
         "construction_evidence": "data/ereversed-refined-outlines.json"
       },
       "italic": {
@@ -4497,19 +4497,19 @@
         }
       ],
       "design_status": {
-        "status": "two_revised_unselected_proposals",
-        "primary_variant": null,
-        "technical_default_variant": null,
-        "final_contour_acceptance": "pending user selection of the revised pair; previous pair rejected",
+        "status": "selected_primary_refined_02",
+        "primary_variant": "02",
+        "technical_default_variant": "02",
+        "final_contour_acceptance": "refined02 accepted by user; refined01 retained as alternative; first pair rejected",
         "kerning": "Current source inherits the prior spacing approach; outgoing native o pairs intended, incoming open edge unassigned; final Cyrillic and mixed spacing pending.",
-        "selection_evidence": "No user selection has been made for either revised э proposal.",
+        "selection_evidence": "data/selected-ereversed.json",
         "revision_trigger": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету"
       },
       "variants": [
         {
           "id": "01",
           "name": "Капля a — выше",
-          "selection_status": "unselected_proposal",
+          "selection_status": "retained_separate_alternative",
           "glyph": "uni044D",
           "feature": null,
           "file": "studies/regular/ereversed-refined/ereversed-01.ttf",
@@ -4702,7 +4702,7 @@
         {
           "id": "02",
           "name": "Капля a — ниже",
-          "selection_status": "unselected_proposal",
+          "selection_status": "primary_selected_by_user",
           "glyph": "uni044D",
           "feature": null,
           "file": "studies/regular/ereversed-refined/ereversed-02.ttf",
@@ -4912,7 +4912,7 @@
       "features": [],
       "checks": {
         "report": "studies/regular/ereversed-refined/outline-audit.json",
-        "current_source_review": "Independent visual inspection of final comparison.png and evolution.png; no primary selection inferred.",
+        "current_source_review": "Independent visual inspection of final comparison.png and evolution.png; subsequent user selection of refined02 recorded separately in data/selected-ereversed.json.",
         "current_export_audit": {
           "status": "passed",
           "reference": "studies/regular/ereversed-refined/outline-audit.json",
@@ -4935,8 +4935,9 @@
         "selected_de_and_te": "Build audit confirms exact preservation; source and exported selected outlines were not redrawn.",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "visual_acceptance": "pending user selection of revised proposals; previous pair rejected",
-        "kerning": "preliminary; incoming open-edge pairs and Cyrillic/mixed pair review pending"
+        "visual_acceptance": "refined02 selected as primary by user; refined01 retained as alternative",
+        "kerning": "preliminary; incoming open-edge pairs and Cyrillic/mixed pair review pending",
+        "selected_ereversed": "Exact refined02 and retained refined01 contours and metrics pinned in data/selected-ereversed.json."
       },
       "paths": {
         "study_directory": "studies/regular/ereversed-refined",
@@ -4946,7 +4947,8 @@
         "sizes": "studies/regular/ereversed-refined/sizes.svg",
         "outline_audit": "studies/regular/ereversed-refined/outline-audit.json",
         "previous_study": "studies/regular/ereversed",
-        "evolution": "studies/regular/ereversed-refined/evolution.svg"
+        "evolution": "studies/regular/ereversed-refined/evolution.svg",
+        "selected_baseline": "data/selected-ereversed.json"
       },
       "brand_details": [
         {
@@ -4961,7 +4963,7 @@
         }
       ],
       "construction_choices": {
-        "evidence": "two revised unselected design proposals",
+        "evidence": "user-selected refined02 primary and retained refined01 alternative; original construction values preserved",
         "values": {
           "advance": 368,
           "native_o_translation": [
@@ -5004,7 +5006,7 @@
       "confidence": {
         "measured": "Pinned native fragment translations, source cubic extrema and53 closed-path Glyphs nodes; independent current TTF/WOFF2 target geometry/metrics inspection and build outline audit.",
         "derived": "New crown connections and direct native a drop-body reuse; upright open handwritten skeleton.",
-        "hypothesis": "User visual acceptance, primary selection, final intervals and Cyrillic/mixed kerning."
+        "hypothesis": "Final intervals, Cyrillic/mixed kerning and production validation remain open."
       },
       "history": [
         {
@@ -5291,6 +5293,14 @@
           },
           "history_status": "rejected_upper_curves_and_insufficient_drop",
           "feedback": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету"
+        },
+        {
+          "date": "2026-10-15",
+          "status": "user_selection",
+          "quote": "оставь 02",
+          "primary_variant": "02",
+          "retained_alternative_variant": "01",
+          "unchanged_contour_pin": "data/selected-ereversed.json"
         }
       ]
     }

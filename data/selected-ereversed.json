@@ -1,0 +1,31 @@
+{
+  "character": "э",
+  "glyph": "uni044D",
+  "date": "2026-10-15",
+  "decision": "оставь 02",
+  "variant": "02",
+  "name": "Капля a — ниже",
+  "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+  "source_glyphs": "studies/regular/ereversed-refined/ereversed-02.glyphs",
+  "hmtx": [
+    368,
+    23
+  ],
+  "glyf_sha256": "82b9421439280681507ab1374d53af3a3b1b3c14e4d3f0f660188b5765ae3c55",
+  "glyphs_outline_sha256": "8856b6aff1841e7e61ad7e557322113934955391d0c0a2be5ccbd40c32ab921d",
+  "retained_alternative": {
+    "variant": "01",
+    "name": "Капля a — выше",
+    "source_file": "studies/regular/ereversed-refined/ereversed-01.ttf",
+    "source_glyphs": "studies/regular/ereversed-refined/ereversed-01.glyphs",
+    "hmtx": [
+      368,
+      23
+    ],
+    "glyf_sha256": "3963c6676f9f88d703d6eb4efc4d14925b9eaebb106cc0a54ee24ea0c61d1204",
+    "glyphs_outline_sha256": "a5a7f8c746c1cf364d44a45169d46196c60382772ebf847bd1ff09df100ffedf",
+    "feature": null,
+    "availability": "separate retained study font; no new OpenType feature assigned"
+  },
+  "scope": "Primary02 selected by user;01 retained separately as an alternative. Exact existing outlines and metrics preserved."
+}
