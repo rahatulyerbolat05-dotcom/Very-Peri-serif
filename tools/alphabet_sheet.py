@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Сводная страница «азбука»: все 66 букв русского ядра в алфавитном порядке (прописные и строчные), готовые из data/alphabet.json рисуются
+"""Сводная страница «азбука»: все 66 букв русского ядра в алфавитном порядке (прописные и строчные) и 18 казахских (уровень 2), готовые из data/alphabet.json рисуются
 основами из репозитория (GLIF), остальные серым пунктиром. Видно, что сделано и что осталось.
 Запуск: python3 -I tools/alphabet_sheet.py [выход.png] (после tools/fetch_reference.sh)"""
 import json, os, re, sys
@@ -14,6 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 OUT = sys.argv[1] if len(sys.argv) > 1 else "docs/img/alphabet_status.png"
 CFG = json.load(open("data/alphabet.json", encoding="utf-8"))
 UP = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"; LOW = UP.lower()
+KZ_UP = "ӘҒҚҢӨҰҮҺІ"; KZ_LOW = KZ_UP.lower()                  # казахские (CLAUDE.md, раздел 5.1, уровень 2)
 DONE = CFG["done"]; LAT = set(CFG["latin_donor"])
 SERIF = "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"
 
@@ -31,16 +32,18 @@ S = 150                                          # размер глифа, px �
 k = S / 1000
 CW, CH = 190, 215                                # ячейка
 COLS = 11; PAD = 40; HEAD = 190
-rows_blocks = [("ПРОПИСНЫЕ", UP), ("строчные", LOW)]
+rows_blocks = [("ПРОПИСНЫЕ", UP), ("строчные", LOW), ("КАЗАХСКИЕ ПРОПИСНЫЕ (уровень 2)", KZ_UP), ("казахские строчные", KZ_LOW)]
+nrows = lambda letters: -(-len(letters) // COLS)
 W = PAD * 2 + COLS * CW
-H = HEAD + sum(60 + 3 * CH for _ in rows_blocks) + 70
+H = HEAD + 30 + sum(60 + nrows(l) * CH for _, l in rows_blocks) + 70
 im = Image.new("RGB", (W, H), "#f6f6f6"); d = ImageDraw.Draw(im)
 f_title = ImageFont.truetype(LABEL_BOLD, 40); f_sub = ImageFont.truetype(LABEL, 24); f_small = ImageFont.truetype(LABEL, 18)
 f_block = ImageFont.truetype(LABEL_BOLD, 26); f_mine = ImageFont.truetype(font_path, S); f_ph = ImageFont.truetype(SERIF, int(S * 0.78))
 done_up = sum(1 for c in UP if c in DONE); done_low = sum(1 for c in LOW if c in DONE); total = len(UP) + len(LOW)
 nd = done_up + done_low
-d.text((PAD, 30), "Very Peri Serif: русское ядро (66 букв)", font=f_title, fill="black")
-d.text((PAD, 86), f"сделано {nd} из {total}, осталось {total - nd}: прописных {done_up}/33, строчных {done_low}/33", font=f_sub, fill="#333")
+kz_done = sum(1 for c in KZ_UP + KZ_LOW if c in DONE); kz_total = len(KZ_UP + KZ_LOW)
+d.text((PAD, 30), "Very Peri Serif: русское ядро (66 букв) и казахский (18)", font=f_title, fill="black")
+d.text((PAD, 86), f"русское ядро: сделано {nd} из {total}, осталось {total - nd} (прописных {done_up}/33, строчных {done_low}/33). Казахские: сделано {kz_done} из {kz_total}", font=f_sub, fill="#333")
 bar_x, bar_y, bar_w = PAD, 128, W - 2 * PAD
 d.rectangle([bar_x, bar_y, bar_x + bar_w, bar_y + 14], outline="#999", fill="white"); d.rectangle([bar_x, bar_y, bar_x + int(bar_w * nd / total), bar_y + 14], fill="#2a7")
 d.rectangle([PAD, 156, PAD + 22, 178], fill="#fff", outline="#2a7", width=3); d.text((PAD + 32, 156), "сделана (основа из репозитория)", font=f_small, fill="#333")
@@ -62,6 +65,6 @@ for title, letters in rows_blocks:
         else:
             d.text((x0 + CW // 2, base), ch, font=f_ph, fill="#c8c8c8", anchor="ms")
             if ch in LAT: d.text((x0 + CW // 2, y0 + CH - 30), "лат.", font=f_small, fill="#aaa", anchor="ms")
-    y += 3 * CH
+    y += nrows(letters) * CH
 d.text((PAD, H - 50), "Источник: data/alphabet.json (основы), контуры data/*/*.glif; тонкие линии: базовая 0 и x-height 510. Серые буквы нарисованы запасным шрифтом, не наши.", font=f_small, fill="#888")
 im.save(OUT); print(OUT, im.size, f"{nd}/{total}")
