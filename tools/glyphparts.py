@@ -460,3 +460,39 @@ def ge_cap_sign(ref, shorten=0.0, rsb=19.0):
     info = {"shorten": shorten, "rsb": rsb, "adv": adv, "contours": len(list(path.contours)),
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def el_std_sign(ref, apex="both", beta_deg=16.0, t_l=30.0, stem=71.0, top=720.0, soft_r=6.0):
+    """Заглавная Л стандартной формы (карточка docs/glyphs/el.md, раздел «Стандартная форма»): плоская вершина вместо купола.
+    Правая стойка вертикальная, 71 (H), левая нога тонкая диагональ t_l=30 под углом beta от вертикали (A, V: 14°), правый край ноги встаёт на левый край стойки на высоте 700.
+    Верх на плоской линии 720 (круглых форм на 720 нет). Низ: вертикальные пеньки до y=60 и половины опорной засечки H (как в el_sign).
+    apex: "both" головная засечка H с обеих сторон стойки, "left" только левый выступ (правая сторона стойки плоская), "none" без засечек (вершина: срез на 720).
+    Внутренний угол между ногой и стойкой скругляется радиусом soft_r в зоне вершины контрформы (shapely, зона отдельной вставкой)."""
+    H = ref.glyph("H"); ATT = 60.0
+    tb, cb = math.tan(math.radians(beta_deg)), math.cos(math.radians(beta_deg)); wL = t_l / cb
+    xr0 = 400.0; yj = 700.0
+    xR = lambda y: xr0 - (yj - y) * tb
+    xL = lambda y: xR(y) - wL
+    leg = poly((xL(ATT), 0), (xL(ATT), ATT), (xL(top), top), (xR(top), top), (xR(ATT), ATT), (xR(ATT), 0))
+    body = rect(xr0, 0, xr0 + stem, top)
+    pieceL = AND(H, rect(-50, -50, 89, ATT)); pieceR = AND(H, rect(160, -50, 300, ATT))
+    feet = [shift(pieceL, xL(ATT) - 89), shift(pieceR, xR(ATT) - 160), shift(pieceL, xr0 - 89), shift(pieceR, xr0 + stem - 160)]
+    parts = [leg, body, *feet]
+    dx = xr0 - 386.0                                                       # правая стойка H: 386–457, головные засечки 317–386 слева и 457–523 справа
+    if apex in ("both", "left"): parts.append(shift(AND(H, rect(273, 640, 386, 740)), dx))
+    if apex == "both": parts.append(shift(AND(H, rect(457, 640, 700, 740)), dx))
+    path = OR(*parts); path.simplify()
+    if soft_r:
+        zone = rect(xr0 - 40.0, yj - 160.0, xr0 + 8.0, yj + 8.0)           # вершина контрформы между ногой и стойкой
+        path = OR(SUB(path, zone), AND(soften(path, 0, soft_r), zone)); path.simplify()
+    if apex == "none":                                                     # без засечек: острые верхние углы (ноги и стойки) скругляются радиусом 6, как кончики засечек
+        for zx0, zx1 in ((xL(top) - 14.0, xL(top) + 40.0), (xr0 + stem - 40.0, xr0 + stem + 10.0)):
+            zone = rect(zx0, top - 45.0, zx1, top + 8.0)
+            path = OR(SUB(path, zone), AND(soften(path, 6.0, 0), zone))
+        path.simplify()
+    path = shift(path, 19.0 - path.bounds[0])                               # левое поле 19, как у H
+    gap = (xr0 - 89 + 89) - (xR(ATT) + (229 - 160))                         # просвет между засечкой ноги и засечкой стойки у основания: левый край засечки стойки xr0 - 67
+    gap = round((xr0 - (89 - 22)) - (xR(ATT) + (229 - 160)), 1)
+    info = {"apex": apex, "beta_deg": beta_deg, "leg_width": round(wL, 1), "feet_gap": gap, "adv": round(path.bounds[2] + 19.0),
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info

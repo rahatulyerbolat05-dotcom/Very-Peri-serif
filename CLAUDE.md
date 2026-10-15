@@ -125,7 +125,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `sketch_ge_cap.py`, `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `sketch_ge_cap.py`, `sketch_el_std.py`, `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -168,7 +168,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D15 | Закрыто: ш основа R1 (головки как у u), альтернатива R2 (флажки), круглый низ принят; раздел 3 инструкции правится (отмечено в docs/instruction.md) |
 | D16 | Дно арок ш −6 против зоны −9 |
 | D17 | Закрыто: в ы чаша ь и правая стойка от u раздельны, зазор 44 (рисунок автора проекта); основной Y1 |
-| D20 | Заглавная Л: основа L1 (14°/3°, вес W1 30/71/27) по правилам; запасные L2, L3 и веса W2, W3; ширина против H; ждёт подтверждения |
+| D20 | Заглавная Л: основа St1 (стандартная форма, плоская вершина, нога 16°, решение по просьбе автора проекта 15.10.2026); запасные St2, St3, прежний купол L1–L3 (L1: 14°/3°, вес W1 30/71/27) и веса W2, W3; ширина против H; ждёт подтверждения |
 | D21 | Строчная л: основа л1 (14°/3°, 28/68/25) по правилам; запасные л2, л3; полуоси арки 100/92 это решение, не измерение; ждёт подтверждения |
 | D22 | Строчная м: основа m1 (вершина V 26, головки u), запасные m2 (вершина 0), m3 (флажок ı); ждёт подтверждения; форма курсива D13 |
 | D23 | Мягкая м: автор проекта принял ms1–ms3 (скриншот 15.10.2026, «вот эти»), все три остаются вариантами, основа ms2; распространять ли смягчение на остальные буквы: не решено (ОТКРЫТО) |
@@ -203,7 +203,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | ь | выбрана S3 (флажок), чаша от нижней чаши a отражённая, без крючков; S4 запасная | `docs/glyphs/soft.md` |
 | ъ | выбран K2 (перекладина влево с засечкой вниз 70; чаша и низ как у ь, головка от u); K1, K3 запасные | `docs/glyphs/hard.md` |
 | ы | по рисунку автора проекта: ь (S3) + правая стойка от u (головка, ножка, хвост-выход), зазор 44; Y1 основной, Y2 с головками u на обеих стойках сохранён | `docs/glyphs/yery.md` |
-| Л | основа L1 (14°/3°, вес по шрифту), L2, L3 и веса W2, W3 запасные (D20) | `docs/glyphs/el.md` |
+| Л | основа St1 (стандартная форма: плоская вершина, стойка H, нога 16°), St2, St3 запасные; прежняя форма с куполом L1–L3 и веса W2, W3 запасные (D20); ждёт подтверждения | `docs/glyphs/el.md` |
 | л | основа л1 (по шрифту), л2, л3 запасные (D21) | `docs/glyphs/el_lower.md` |
 | т | основа t1 (вылет 125) выбрана автором проекта, t1b (ушки-капли), t1c (ушки по наброску автора), tn125/tn140/tn175 (без ушек, по наброску), t2, t3 запасные (D25 закрыто) | `docs/glyphs/te.md` |
 | н | основа n4 (mix) выбрана автором проекта, n1, n2, n3 запасные (D27 закрыто) | `docs/glyphs/en.md` |
