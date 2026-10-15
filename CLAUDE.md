@@ -124,7 +124,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `check_context_classes.py`, `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `check_context_classes.py`, `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -142,7 +142,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 - Контрольный набор: **Н О П Р Е и о н п р д г т**. Он задаёт ширину, контраст и характер засечек для остальных букв.
 - Работа по трём уровням буквы (силуэт, письмо, контур) в этом порядке; контур без описания письма недействителен.
 - Чек-лист перед коммитом: стебли и волосные в допуске; овершуты по таблице; положенные F-пункты на месте; поля и группы от донора; тест на реальных текстах (русский: «Съешь же ещё этих мягких французских булок, да выпей чаю») плюс строка на каждый заявленный язык; fontbakery и Hyperglot (результаты вносить в журнал); отрисовка в 12, 24, 100 pt на светлом и тёмном.
-- Для сборки обязательно проверить контекстное правило п → `pe-cy.flag` (раздел 7): сначала `python3 -I tools/check_context_classes.py` (класс по геометрии против списка), потом `features.fea`; п перед буквой с засечкой слева внизу даёт флажок, перед о, с, е, а, пробелом и в конце слова остаётся обычной. При каждой новой букве добавлять её основу в `built_bases`.
+- Для сборки обязательно проверить контекстное правило п → `pe-cy.flag` (раздел 7): сначала `python3 -I tools/check_context_classes.py` (класс по геометрии против списка), потом `features.fea`; п перед буквой с засечкой слева внизу даёт флажок, перед о, с, е, а, пробелом и в конце слова остаётся обычной. При каждой новой букве добавлять её основу в `built_bases` и в `data/alphabet.json`, затем пересобирать `docs/img/alphabet_status.png` (`python3 -I tools/alphabet_sheet.py`).
 - Коммиты короткие, по группе глифов; в сообщении: что добавлено и какие F-пункты применены.
 
 ## 10. Открытые решения

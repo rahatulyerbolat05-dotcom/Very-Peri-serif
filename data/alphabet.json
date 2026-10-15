@@ -1,0 +1,17 @@
+{
+  "note": "Основы готовых букв для сводной страницы tools/alphabet_sheet.py. Ключ: буква, значение: путь к GLIF основы и подпись варианта. Добавлять при каждой новой букве (и в data/context/serif_bl.json, built_bases).",
+  "done": {
+    "ш": ["data/sha/R1.glif", "R1"],
+    "ь": ["data/soft/S3.glif", "S3"],
+    "ъ": ["data/hard/K2.glif", "K2"],
+    "ы": ["data/yery/Y1.glif", "Y1"],
+    "л": ["data/el_lower/l1.glif", "л1"],
+    "м": ["data/em/m_latin.glif", "латинская m"],
+    "т": ["data/te/t1.glif", "t1"],
+    "н": ["data/en/n4.glif", "n4"],
+    "ю": ["data/yu/yu1.glif", "yu1"],
+    "п": ["data/pe/pe.glif", "латинская n"],
+    "Л": ["data/el/L1.glif", "L1"]
+  },
+  "latin_donor": ["А", "В", "Е", "К", "М", "Н", "О", "Р", "С", "Т", "Х", "а", "е", "о", "р", "с", "х", "у"]
+}
