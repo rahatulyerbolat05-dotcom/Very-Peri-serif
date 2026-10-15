@@ -40,7 +40,7 @@
 
 `data/em/m1..m3.glif`, `.svg`, `meta.json`; код: `tools/sketch_em.py`, `tools/glyphparts.py`.
 
-## Мягкая м (запрос автора проекта 15.10.2026)
+## Мягкая м (запрос автора проекта 15.10.2026; ms1–ms3 приняты автором проекта: «вот эти»)
 
 ![ms1–ms3](../img/em_soft_ms1-ms3.png)
 
