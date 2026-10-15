@@ -1,0 +1,142 @@
+{
+  "variants": {
+    "01": {
+      "name": "Острый свод",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Upright handwritten de with a thin rising left diagonal, a heavy right descent and an open return below the baseline. An asymmetric pointed counter replaces the oval; no printed platform or feet.",
+      "status": "new construction awaiting user selection",
+      "advance": 416,
+      "bbox_cubic": [
+        33,
+        -215,
+        391,
+        516
+      ],
+      "hmtx": [
+        416,
+        33
+      ],
+      "cubic_nodes": 62,
+      "ttf_points": 86,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "geometry": "New authored cubic contours; no foreign outline transfer or automatic donor transform.",
+        "native_reference": "Instrument Serif Regular m01; 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "native_detail_roles": [
+          "v/y: thin rising and heavy descending diagonals",
+          "d: asymmetric counter and joined downstroke",
+          "j/y: taper and supported terminal in an open descender"
+        ],
+        "ductus_interpretation": "A thin left ascent rises to the compact apex, turns into the heavy right descending stroke, and continues into an open leftward return with an inward terminal. The curved bowl base belongs to the writing movement; it is not a platform.",
+        "winding": "CCW outer / CW counter in cubic source; reversed for TrueType export"
+      },
+      "quadratic_export": {
+        "max_err": 0.2,
+        "manual_corrections": false
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    },
+    "02": {
+      "name": "Перьевой поворот",
+      "unicode": "U+0434",
+      "glyph": "uni0434",
+      "construction": "Upright handwritten de formed by a folded directional upper entry, a diagonal right descent and an asymmetric bowl. No upright o-plus-hook assembly and no printed platform or feet.",
+      "status": "new construction awaiting user selection",
+      "advance": 416,
+      "bbox_cubic": [
+        23,
+        -9,
+        391,
+        740
+      ],
+      "hmtx": [
+        416,
+        23
+      ],
+      "cubic_nodes": 57,
+      "ttf_points": 83,
+      "contours": 2,
+      "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+      "design_provenance": {
+        "geometry": "New authored cubic contours; no foreign outline transfer or automatic donor transform.",
+        "native_reference": "Instrument Serif Regular m01; 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+        "native_detail_roles": [
+          "f/r: supported terminal and inflected approach",
+          "o: contrast and overshoots",
+          "d/b: counter adapts to the joining stroke"
+        ],
+        "ductus_interpretation": "A short directional entry turns down from the left, gains weight along the right descending diagonal and resolves into the bowl. The counter and shoulder are redrawn together for this movement.",
+        "winding": "CCW outer / CW counter in cubic source; reversed for TrueType export"
+      },
+      "quadratic_export": {
+        "max_err": 0.2,
+        "manual_corrections": false
+      },
+      "checks": {
+        "sampled_topology_valid": true,
+        "adjacent_cubic_duplicates": 0,
+        "all_other_glyphs_and_hmtx_unchanged": true,
+        "gsub_unchanged_ss06_legacy_preserved": true,
+        "all_exports_reopened": true
+      }
+    }
+  },
+  "combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-01.ttf"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-01.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/de-02.ttf"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/de-02.ttf"
+    }
+  ]
+}

@@ -28,6 +28,7 @@
 | [g-подобные д](studies/regular/de-native/) | Отклонены пользователем: читаются как g; сохранены для истории |
 | [печатные д](studies/regular/de-cyrillic/) | Оба рисунка отклонены: не соответствуют письменному принципу строчных |
 | [письменные д](studies/regular/de-cursive/) | Обе реализации отклонены: кривые и окончания не попали в стиль |
+| [новые конструкции д](studies/regular/de-reimagined/) | «Острый свод» / «Перьевой поворот»; два новых письменных скелета, выбор открыт |
 | [ш, ь, ы, ъ в ветке Клода](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/tree/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs) | Выбраны R1 / S3 / Y1 / K2; пока отдельные эскизы, в наши шрифты не включены |
 
 Сборки содержат **абвгдежзийкорсухё**, включая унаследованные а/е/о/р/с/у/х.
@@ -35,19 +36,21 @@
 стадии разработки; последующие выбранные контуры находятся в поздних сборках.
 История и резервные версии сохранены в [studies/archive](studies/archive/).
 
-![Два рисунка к и исходные латинские соседи](studies/regular/ka/comparison.svg)
+![Новые д и родные буквы для сравнения](studies/regular/de-reimagined/comparison.svg)
 
 Актуальное направление строчных: письменные/курсивные скелеты с вертикальной
 осью, контрастом и деталями Instrument Serif Regular. Отдельное начертание
 Italic остаётся отложенным. Прежние запреты арок из исторической инструкции
 исправлены; уже выбранные глифы сохраняются.
 
-Текущая работа над д — [разбор кривых и окончаний](studies/reference-analysis/de-curves-deep/).
-Проверены родные детали Instrument Serif и 40 внешних семейств, из которых
-37 содержат д. Выводы отделяют измеренную геометрию от гипотез о стиле;
-новая буква этим исследованием не утверждается.
+Текущая работа над д — [два новых конструкционных направления](studies/regular/de-reimagined/):
+01 «Острый свод» с открытым нижним возвратом и 02 «Перьевой поворот»
+с верхним разворотом и диагональным спуском. Оба рисунка — предложения.
 
-![Диагностика кривых отвергнутых д](studies/reference-analysis/de-curves-deep/critique/curves-terminals-forensic.svg)
+[Отдельная SVG-презентация новых д](studies/regular/de-reimagined/comparison.svg).
+
+Предшествующий [разбор кривых и окончаний](studies/reference-analysis/de-curves-deep/)
+сохраняет измерения родных деталей и сравнение 40 внешних семейств.
 
 [Исследование реальных кириллических конструкций д](studies/reference-analysis/cursive-de/)
 сравнивает восемь форм/настроек из шести шрифтов с настоящими U+0434,
@@ -72,6 +75,8 @@ python3 -m venv .venv
 .venv/bin/python tools/build_de_native.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_cyrillic.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_cursive.py --base-dir build/regular/ka
+.venv/bin/python tools/build_de_reimagined.py --base-dir build/regular/ka
+.venv/bin/python tools/audit_de_reimagined.py
 .venv/bin/python tools/research_cursive_de.py
 .venv/bin/python tools/verify_studies.py
 .venv/bin/python tools/verify_studies.py --rebuilt-dir build/regular

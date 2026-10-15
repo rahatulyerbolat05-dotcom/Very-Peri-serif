@@ -26,6 +26,11 @@ as a blanket rejection or approval of the upper-ascender skeleton. Technical
 G1 checks do not establish stylistic success. Research native curve and
 terminal anatomy before generating another pair.
 
+The user then explicitly requested a new construction, not another analysis
+of old work. Current proposals are de-reimagined: pointed arch/open lower
+return and folded upper entry/diagonal descent. Both are unselected.
+Present actual new drawings with native neighbours when asked to redesign.
+
 Use the portable tools and requirements-fonts.txt described in README.md.
 Build outputs belong in ignored build/; do not run archived/uploaded scripts.
 Do not introduce global smoothing, contour compression or accidental metric

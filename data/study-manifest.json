@@ -4,14 +4,14 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/reference-analysis/de-curves-deep",
+  "latest_artifact": "studies/regular/de-reimagined",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
     {
       "path": "studies/README.md",
-      "sha256": "69bb280098c2b24bd779c5114983f28d1a442d2eea68ab61d43bdf9a82281e35",
-      "bytes": 2723
+      "sha256": "6bc1fb41236736d0ab863d46dc361152c9fcdab6889b6f97203c77d902bd4460",
+      "bytes": 2316
     },
     {
       "path": "studies/archive/de-conventional/OFL.txt",
@@ -1434,6 +1434,166 @@
       "bytes": 29056
     },
     {
+      "path": "studies/regular/de-reimagined/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/de-reimagined/README.md",
+      "sha256": "d23fb2a0132e5183994c50a5833ac8ddd40c4aa7c815c1d8ceabf4057c768746",
+      "bytes": 4431
+    },
+    {
+      "path": "studies/regular/de-reimagined/approved-baseline.json",
+      "sha256": "201797435563be22a516d6d3e14e001425d1eeab2feefb4d0ee97ecd251391f1",
+      "bytes": 1684
+    },
+    {
+      "path": "studies/regular/de-reimagined/comparison.svg",
+      "sha256": "23b2d3b9dc9f5ede3c219a933b9f36a8427dd9ad142d01998058e0824f7569c0",
+      "bytes": 211842
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-01.glyphs",
+      "sha256": "4df837d40c255e81ae83df95484a62d747109a78df7a7d229b61c46f40975967",
+      "bytes": 328315
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-01.svg",
+      "sha256": "399862d3396d51f0373b24f2944e10fa60cc66277d4885eb724abe58e5938e0a",
+      "bytes": 776
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-01.ttf",
+      "sha256": "9efe149fba5ff2e19994208f2f9e310253001d8df084caed0470c15f50d29ceb",
+      "bytes": 73756
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-01.woff2",
+      "sha256": "04661dc660a774809b4fcaafc6d0c9ef0160dc497e159bc82c707b452a9794d1",
+      "bytes": 29224
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-02.glyphs",
+      "sha256": "c226f64a854b066c45965197f16cb8170456ea8a2f171a1317db93c700194590",
+      "bytes": 328185
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-02.svg",
+      "sha256": "8264fec074f55f5f046b74f508274049b6ad232805250f5f0cdbfe47f44070b8",
+      "bytes": 715
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-02.ttf",
+      "sha256": "798f180f9ee5020ec5fee9ee1a64474319467c1d40920c97bc46a9f81a1dd306",
+      "bytes": 73740
+    },
+    {
+      "path": "studies/regular/de-reimagined/de-02.woff2",
+      "sha256": "30ed1fb051860370fd9f892966d65c28c7c7b5a7fd993e179657980c03e973a6",
+      "bytes": 29244
+    },
+    {
+      "path": "studies/regular/de-reimagined/metrics.json",
+      "sha256": "fb78212293b3604af382451b402a9b204a8c93b6671e3906b1a5d42e5714ada0",
+      "bytes": 4843
+    },
+    {
+      "path": "studies/regular/de-reimagined/outline-audit.json",
+      "sha256": "f97b6b85b37f3b1390d4a5b6105600d3d6840c10d25e8a1f701e1456d7022e2c",
+      "bytes": 2566
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.glyphs",
+      "sha256": "86bc57da84a26faac120a8d8ebe3020557b5ccd80b2cb7e516a96559051039b2",
+      "bytes": 328927
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.ttf",
+      "sha256": "adc63261237fcb5631801e90276352e43f9fd328bbd047a303da239f8ea04191",
+      "bytes": 73900
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.woff2",
+      "sha256": "70441d3c89486ecc48906211822b9be6d532455d395103988e3489cb8c95c50e",
+      "bytes": 29340
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.glyphs",
+      "sha256": "2bbe8e50cbbd1acdc36592c94bc21f3bdd25e8021a801116ed0b8b597931d63c",
+      "bytes": 328797
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.ttf",
+      "sha256": "a7bb488d9fefc9f7094719d54d72c8bad098201bef7585eeb40046e4b07e630f",
+      "bytes": 73888
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.woff2",
+      "sha256": "2ad998ec4cc9709814d63af1723f8a65154c6f73ad663245b758095bb10c47c1",
+      "bytes": 29280
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.glyphs",
+      "sha256": "c8faa75e1ca6a315bad636e2ee136db9d1ae6ccc186841d45f5b21aaa0eecb2a",
+      "bytes": 328379
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.ttf",
+      "sha256": "bd10dadc3e75e37e1287353939cd0a1b9a15ad2c071bbd98148d693c57dd524b",
+      "bytes": 73768
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.woff2",
+      "sha256": "92a33fb503092d355b899b1ca332acb5eb03d6eb42ccc8ffca2d70e1226625df",
+      "bytes": 29188
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.glyphs",
+      "sha256": "c2aa12f0447f025771decd40bc5e744eb0e6cc3795562c1961bb37472dbd3658",
+      "bytes": 328249
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.ttf",
+      "sha256": "fe313cf8891904ca5d11a4de4cf8b1dd617619549b219559efacc350adc5a0f6",
+      "bytes": 73756
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.woff2",
+      "sha256": "1704fe73ce77fbfbfebfbe12d5ac0042dc869bbd71cde263febc5672eda8946e",
+      "bytes": 29244
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.glyphs",
+      "sha256": "67a367f126322a5c420147692484133e11298f9101e6e873ce4dd76026e3c47d",
+      "bytes": 328991
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.ttf",
+      "sha256": "ca30afc4d1f29db285465d23a99bfc944998251d5393f3fbddb6480e9fe02cb9",
+      "bytes": 73916
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.woff2",
+      "sha256": "c5d88e7caed6f7a8f5e6e1710f6a58b0bc5e3876bb86c07624763cc5668daa4e",
+      "bytes": 29156
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.glyphs",
+      "sha256": "a09fc19b521ed634b0883d0906b945d9163a3257a4aa8b8aff0acf91edcd1c0f",
+      "bytes": 328861
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.ttf",
+      "sha256": "408b9a3323965f421ef4377d5fef6fff03c4d9fc518f5b7ac8518e14054a6630",
+      "bytes": 73900
+    },
+    {
+      "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.woff2",
+      "sha256": "45c9644edb6893f83d72a80db0c7de18895c63442b5a1be3a7b9a3810f3bd8c5",
+      "bytes": 29304
+    },
+    {
       "path": "studies/regular/ghe/OFL.txt",
       "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
       "bytes": 4405
@@ -1504,6 +1664,46 @@
       "bytes": 110
     },
     {
+      "path": "studies/regular/i-selected/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/i-selected/README.md",
+      "sha256": "63b8933860223f730aedee058733265f47fa73e52b098369baf4c22e649fd2ac",
+      "bytes": 1701
+    },
+    {
+      "path": "studies/regular/i-selected/VeryPeri-I-selected.glyphs",
+      "sha256": "0f6ff9fe1a48edebd157b6ffc310f285816e878614aac1d38b1fb230a5d1b8a0",
+      "bytes": 325607
+    },
+    {
+      "path": "studies/regular/i-selected/VeryPeri-I-selected.ttf",
+      "sha256": "a8f485763a0720f07a15da2e84d78d6303426daa64035f746509930caa552c9d",
+      "bytes": 73044
+    },
+    {
+      "path": "studies/regular/i-selected/VeryPeri-I-selected.woff2",
+      "sha256": "534c457b9a229d03e84c62e2a8e175442391cc50a86972ec80c6bfe78c01ad47",
+      "bytes": 29004
+    },
+    {
+      "path": "studies/regular/i-selected/approved-baseline.json",
+      "sha256": "b1b2423541b8bea890107a6dfbd58b5be008359abe277750862f77591b9ae85c",
+      "bytes": 1630
+    },
+    {
+      "path": "studies/regular/i-selected/design-notes.md",
+      "sha256": "87d67b38eb74b77edb427c4b7a6f03c59282c28fd02d65f2d3effa110bfeca3a",
+      "bytes": 1990
+    },
+    {
+      "path": "studies/regular/i-selected/selection.json",
+      "sha256": "2f257f2bd3e266e5adf79800fae7305ef15eefdbcbc706f05733bffa84f0e82a",
+      "bytes": 332
+    },
+    {
       "path": "studies/regular/i/OFL.txt",
       "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
       "bytes": 4405
@@ -1572,46 +1772,6 @@
       "path": "studies/regular/i/metrics.json",
       "sha256": "57313e8225b9074bce0abd2662ddd79f33557cd34dcc1b51344d80b393bdeb8f",
       "bytes": 1323
-    },
-    {
-      "path": "studies/regular/i-selected/OFL.txt",
-      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
-      "bytes": 4405
-    },
-    {
-      "path": "studies/regular/i-selected/README.md",
-      "sha256": "63b8933860223f730aedee058733265f47fa73e52b098369baf4c22e649fd2ac",
-      "bytes": 1701
-    },
-    {
-      "path": "studies/regular/i-selected/VeryPeri-I-selected.glyphs",
-      "sha256": "0f6ff9fe1a48edebd157b6ffc310f285816e878614aac1d38b1fb230a5d1b8a0",
-      "bytes": 325607
-    },
-    {
-      "path": "studies/regular/i-selected/VeryPeri-I-selected.ttf",
-      "sha256": "a8f485763a0720f07a15da2e84d78d6303426daa64035f746509930caa552c9d",
-      "bytes": 73044
-    },
-    {
-      "path": "studies/regular/i-selected/VeryPeri-I-selected.woff2",
-      "sha256": "534c457b9a229d03e84c62e2a8e175442391cc50a86972ec80c6bfe78c01ad47",
-      "bytes": 29004
-    },
-    {
-      "path": "studies/regular/i-selected/approved-baseline.json",
-      "sha256": "b1b2423541b8bea890107a6dfbd58b5be008359abe277750862f77591b9ae85c",
-      "bytes": 1630
-    },
-    {
-      "path": "studies/regular/i-selected/design-notes.md",
-      "sha256": "87d67b38eb74b77edb427c4b7a6f03c59282c28fd02d65f2d3effa110bfeca3a",
-      "bytes": 1990
-    },
-    {
-      "path": "studies/regular/i-selected/selection.json",
-      "sha256": "2f257f2bd3e266e5adf79800fae7305ef15eefdbcbc706f05733bffa84f0e82a",
-      "bytes": 332
     },
     {
       "path": "studies/regular/ka/OFL.txt",

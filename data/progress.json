@@ -49,15 +49,15 @@
       "Мягкая"
     ],
     "д": {
-      "status": "latest_drawings_rejected_curve_terminal_research",
+      "status": "new_constructive_directions_awaiting_visual_review",
       "primary": null,
       "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
       "previous_variants": [
         "Овальная петля",
         "Асимметричная петля"
       ],
-      "new_study": "studies/reference-analysis/de-curves-deep",
-      "approval": "Both de-cursive drawings rejected; user identified curves and terminals as principal problem. Upper-ascender skeleton is not approved or categorically rejected.",
+      "new_study": "studies/regular/de-reimagined",
+      "approval": "Neither new construction is selected; user asked to redesign the essence of de.",
       "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
       "pedestal_study_status": "both rejected by user: printed skeleton violates agreed lowercase approach",
       "rejected_studies": [
@@ -65,18 +65,27 @@
         "studies/regular/de-cyrillic",
         "studies/regular/de-cursive"
       ],
-      "export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes",
-      "latest_feedback": {
+      "rejected_current_candidates": [
+        "01 Сдержанный загиб",
+        "02 Открытая дуга"
+      ],
+      "new_candidates": [
+        "01 Острый свод",
+        "02 Перьевой поворот"
+      ],
+      "previous_feedback": {
         "date": "2026-10-15",
         "verdict": "в этот раз у тебя не получилось",
         "clarification": "Кривые и окончания",
         "scope": "execution of current01/02, not a blanket ban on upper-ascender skeletons"
       },
-      "rejected_current_candidates": [
-        "01 Сдержанный загиб",
-        "02 Открытая дуга"
-      ],
-      "new_candidates": []
+      "latest_feedback": {
+        "date": "2026-10-15",
+        "verdict": "я не просил анализировать сделанное, а придумать новый подход",
+        "clarification": "переделывай суть буквы д",
+        "scope": "Draw new constructions; analysis of old work is not the requested result."
+      },
+      "retained_export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes"
     },
     "й": {
       "variants": [
@@ -98,7 +107,7 @@
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/reference-analysis/de-curves-deep",
+  "latest_artifact": "studies/regular/de-reimagined",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -177,65 +186,65 @@
       "de_variant": "01",
       "ka_variant": "01",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-cursive/de-01.ttf",
-      "glyphs": "studies/regular/de-cursive/de-01.glyphs",
-      "woff2": "studies/regular/de-cursive/de-01.woff2"
+      "ttf": "studies/regular/de-reimagined/de-01.ttf",
+      "glyphs": "studies/regular/de-reimagined/de-01.glyphs",
+      "woff2": "studies/regular/de-reimagined/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "01",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-01.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-01.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-01.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka01-shorti02/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "02",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-01.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-01.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-01.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti01/de-01.woff2"
     },
     {
       "de_variant": "01",
       "ka_variant": "02",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-01.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-01.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-01.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "01",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-cursive/de-02.ttf",
-      "glyphs": "studies/regular/de-cursive/de-02.glyphs",
-      "woff2": "studies/regular/de-cursive/de-02.woff2"
+      "ttf": "studies/regular/de-reimagined/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "01",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-02.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "02",
       "shorti_variant": "01",
-      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-02.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-02.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-02.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.woff2"
     },
     {
       "de_variant": "02",
       "ka_variant": "02",
       "shorti_variant": "02",
-      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-02.woff2"
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.woff2"
     }
   ],
   "de_legibility_requirement": {
@@ -472,16 +481,82 @@
     }
   ],
   "coverage_totals": {
-    "ttf_checked": 52,
-    "woff2_checked": 52,
-    "glyphs_checked": 52,
-    "svg_in_codex_branch": 55,
+    "ttf_checked": 60,
+    "woff2_checked": 60,
+    "glyphs_checked": 60,
+    "svg_in_codex_branch": 70,
     "cyrillic_codepoints_in_fonts": 17,
     "source_only_additional_letters": 4,
     "combined_lowercase_letters": 21,
     "individually_studied_letters": 13,
     "native_latin_aliases": 8
   },
-  "latest_de_export_status": "Retained de-cursive exports are technically checked but visually rejected; not an approved de.",
-  "de_curve_research": "studies/reference-analysis/de-curves-deep"
+  "latest_de_export_status": "Two new de-reimagined constructions, unselected; previous rejected drawings retained.",
+  "de_curve_research": "studies/reference-analysis/de-curves-deep",
+  "retained_rejected_de_combinations": [
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-01.woff2"
+    },
+    {
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-01.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-01.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-01.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka01-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka01-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka01-shorti02/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti01/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti01/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti01/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-cursive/with-ka02-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-02.woff2"
+    }
+  ]
 }

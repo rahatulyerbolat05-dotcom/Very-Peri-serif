@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "sample_points_per_bezier": 600,
+  "limits": "Sampled topology and outline distances; visual acceptance remains open.",
+  "variants": {
+    "01": {
+      "name": "Острый свод",
+      "adjacent_cubic_duplicates": 0,
+      "sampled_self_intersections": 0,
+      "contours": 2,
+      "counters": 1,
+      "intentional_corners": [
+        [
+          299,
+          110
+        ]
+      ],
+      "max_other_source_tangent_mismatch_degrees": 9.228406788750406e-12,
+      "source_signed_ring_areas": [
+        131640.58917372164,
+        -52339.26434351384
+      ],
+      "exports": [
+        {
+          "ttf": "de-01.ttf",
+          "sampled_hausdorff_units": 0.4408554160450108,
+          "relative_area_difference": 0.0015984097992197545
+        },
+        {
+          "ttf": "with-ka01-shorti02/de-01.ttf",
+          "sampled_hausdorff_units": 0.4408554160450108,
+          "relative_area_difference": 0.0015984097992197545
+        },
+        {
+          "ttf": "with-ka02-shorti01/de-01.ttf",
+          "sampled_hausdorff_units": 0.4408554160450108,
+          "relative_area_difference": 0.0015984097992197545
+        },
+        {
+          "ttf": "with-ka02-shorti02/de-01.ttf",
+          "sampled_hausdorff_units": 0.4408554160450108,
+          "relative_area_difference": 0.0015984097992197545
+        }
+      ]
+    },
+    "02": {
+      "name": "Перьевой поворот",
+      "adjacent_cubic_duplicates": 0,
+      "sampled_self_intersections": 0,
+      "contours": 2,
+      "counters": 1,
+      "intentional_corners": [
+        [
+          330,
+          740
+        ]
+      ],
+      "max_other_source_tangent_mismatch_degrees": 7.015795103965487e-14,
+      "source_signed_ring_areas": [
+        179906.75593437045,
+        -83578.0217875077
+      ],
+      "exports": [
+        {
+          "ttf": "de-02.ttf",
+          "sampled_hausdorff_units": 0.6334024333356738,
+          "relative_area_difference": 0.0010642262594070136
+        },
+        {
+          "ttf": "with-ka01-shorti02/de-02.ttf",
+          "sampled_hausdorff_units": 0.6334024333356738,
+          "relative_area_difference": 0.0010642262594070136
+        },
+        {
+          "ttf": "with-ka02-shorti01/de-02.ttf",
+          "sampled_hausdorff_units": 0.6334024333356738,
+          "relative_area_difference": 0.0010642262594070136
+        },
+        {
+          "ttf": "with-ka02-shorti02/de-02.ttf",
+          "sampled_hausdorff_units": 0.6334024333356738,
+          "relative_area_difference": 0.0010642262594070136
+        }
+      ]
+    }
+  }
+}

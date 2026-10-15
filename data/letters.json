@@ -85,7 +85,7 @@
     "з": "01 only; 02 deleted and not retained",
     "и": "02 exact native u primary; 01 diagonal alternate ss07",
     "в": "01/02 unresolved; 01 technical default in cumulative trials",
-    "д": "No approved de. Native-g, printed pedestal and current upper-ascender drawings are rejected; investigate curves/terminals while keeping upper-ascender skeleton open.",
+    "д": "Two new constructions:01 Острый свод and02 Перьевой поворот. Neither selected; all prior studies retained.",
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved"
   },
@@ -1025,25 +1025,24 @@
       "character": "д",
       "name": "de",
       "silhouette": {
-        "evidence": "latest user clarification and source research",
-        "description": "Upper-ascender handwritten skeleton remains open, not approved. Current exact-o execution is rejected for curves/terminals; preserving a complete o counter is not a mandatory design rule.",
-        "source": "studies/reference-analysis/de-curves-deep/README.md"
+        "evidence": "new authored proposals responding to explicit user redesign request",
+        "description": "01 pointed counter with open lower return; 02 folded upper entry and diagonal descent into asymmetric bowl. Both unselected.",
+        "source": "studies/regular/de-reimagined/README.md"
       },
-      "type": "handwritten_upper_ascender_single_counter",
+      "type": "two_distinct_handwritten_construction_proposals",
       "ductus": {
-        "evidence": "designer interpretation; not documented original-author ductus",
-        "reference": "studies/regular/de-cursive/README.md",
-        "strokes": [
-          "Thin upper-left entry, return arch to the right, descending thick right stroke, lower bowl turn left, thin rising bowl return."
-        ],
-        "entry": "upper left",
-        "exit": "bowl return",
-        "pressure": "native Regular vertical stress"
+        "evidence": "designer interpretation, not documented original-author ductus",
+        "reference": "data/de-reimagined-outlines.json",
+        "variants": {
+          "01": "A thin left ascent rises to the compact apex, turns into the heavy right descending stroke, and continues into an open leftward return with an inward terminal. The curved bowl base belongs to the writing movement; it is not a platform.",
+          "02": "A short directional entry turns down from the left, gains weight along the right descending diagonal and resolves into the bowl. The counter and shoulder are redrawn together for this movement."
+        },
+        "pressure": "Native Regular contrast roles; no global inclination."
       },
       "upright": {
         "style": "Regular",
-        "status": "two unselected handwritten upper-ascender proposals",
-        "construction_evidence": "studies/regular/de-cursive/README.md"
+        "status": "two new unselected construction proposals",
+        "construction_evidence": "studies/regular/de-reimagined/README.md"
       },
       "italic": {
         "status": "not designed in these artifacts",
@@ -1052,132 +1051,64 @@
       "components": [],
       "donors": [
         {
-          "glyph": "o",
-          "role": "Seven exact native cubic segments including entire inner counter.",
-          "relationship": "exact native cubic fragments",
-          "evidence": "independent source control-point comparison",
-          "construction_reference": "data/de-cursive-outlines.json"
-        },
-        {
-          "glyph": "n/d/b",
-          "role": "Stem and ascender measurements only, no imported outline fragments.",
-          "relationship": "measurement context",
-          "evidence": "measured native Regular facts",
-          "construction_reference": "data/de-cursive-outlines.json#/variants/01/provenance/facts"
+          "glyph": "o/d/f/r/v/y/j",
+          "role": "Contrast, overshoots and stroke-role references only; new curves authored together for each construction.",
+          "relationship": "native measurement and visual reference; no complete donor transformed",
+          "evidence": "pinned cubic Regular master and retained proof neighbours",
+          "construction_reference": "data/de-reimagined-outlines.json"
         }
       ],
       "design_status": {
-        "status": "current_execution_rejected_pending_curve_terminal_research",
+        "status": "new_constructive_directions_awaiting_visual_review",
         "primary_variant": null,
-        "technical_default_variant": "01",
-        "final_contour_acceptance": "rejected by user: curves and terminals",
+        "technical_default_variant": null,
+        "final_contour_acceptance": "pending user visual review",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "Upper-ascender skeleton remains a research direction, not user-approved; failure identified as curve and terminal execution.",
+        "silhouette_selection": "Both new constructions are proposals; no main de selected.",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
         {
           "id": "01",
-          "name": "Сдержанный загиб",
-          "selection_status": "rejected_curve_and_terminal_execution",
+          "name": "Острый свод",
+          "selection_status": "unselected_new_construction",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
-            "name": "Сдержанный загиб",
+            "name": "Острый свод",
             "unicode": "U+0434",
             "glyph": "uni0434",
-            "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
-            "status": "polished handwritten candidate awaiting user selection",
-            "advance": 408,
+            "construction": "Upright handwritten de with a thin rising left diagonal, a heavy right descent and an open return below the baseline. An asymmetric pointed counter replaces the oval; no printed platform or feet.",
+            "status": "new construction awaiting user selection",
+            "advance": 416,
             "bbox_cubic": [
-              23,
-              -9,
-              383,
-              740
+              33,
+              -215,
+              391,
+              516
             ],
             "hmtx": [
-              408,
-              23
+              416,
+              33
             ],
-            "cubic_nodes": 49,
-            "ttf_points": 68,
+            "cubic_nodes": 62,
+            "ttf_points": 86,
             "contours": 2,
             "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
             "design_provenance": {
-              "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
-              "exact_native_fragments": [
-                "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
-                "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
-                "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
-                "o complete inner counter: four exact native cubic segments, unchanged"
+              "geometry": "New authored cubic contours; no foreign outline transfer or automatic donor transform.",
+              "native_reference": "Instrument Serif Regular m01; 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "native_detail_roles": [
+                "v/y: thin rising and heavy descending diagonals",
+                "d: asymmetric counter and joined downstroke",
+                "j/y: taper and supported terminal in an open descender"
               ],
-              "proposed_fragments": [
-                "outer upper-right o quarter replaced by continuous upper curl",
-                "upper entry and descending spine drawn anew without foreign outline transfer",
-                "narrow open neck from inner upper stroke into native o crown"
-              ],
-              "reference_skeleton_only": [
-                "Lora Italic U+0434",
-                "Literata Italic U+0434",
-                "Alegreya Italic U+0434",
-                "EB Garamond Italic U+0434",
-                "Playfair Display Italic U+0434"
-              ],
-              "facts": {
-                "native_o_advance": 408,
-                "native_o_bbox": [
-                  23,
-                  -9,
-                  383,
-                  516
-                ],
-                "native_o_counter_bbox": [
-                  99,
-                  16,
-                  307,
-                  491
-                ],
-                "native_o_side_thickness": 76,
-                "native_o_crown_thickness": 25,
-                "native_n_d_stem": 68,
-                "native_b_d_ascender": 740
-              },
-              "proposals": {
-                "upper_limit": 740,
-                "new_stem_at_y510": 68,
-                "upper_crown_vertical_thickness": 25,
-                "upper_terminal_profile": "rounded compact stroke cap; no ball"
-              }
+              "ductus_interpretation": "A thin left ascent rises to the compact apex, turns into the heavy right descending stroke, and continues into an open leftward return with an inward terminal. The curved bowl base belongs to the writing movement; it is not a platform.",
+              "winding": "CCW outer / CW counter in cubic source; reversed for TrueType export"
             },
             "quadratic_export": {
-              "off_curve_adjustments": [
-                {
-                  "index": 32,
-                  "from": [
-                    150,
-                    680
-                  ],
-                  "to": [
-                    150,
-                    679
-                  ]
-                },
-                {
-                  "index": 34,
-                  "from": [
-                    141,
-                    689
-                  ],
-                  "to": [
-                    141,
-                    688
-                  ]
-                }
-              ],
-              "points": 68,
-              "expected_explicit_join_tangent_error_degrees": 0,
-              "sampled_full_glyph_symmetric_hausdorff": 0.422654,
-              "previous_maximum_tangent_error_degrees": 12.6804
+              "max_err": 0.2,
+              "manual_corrections": false
             },
             "checks": {
               "sampled_topology_valid": true,
@@ -1187,110 +1118,49 @@
               "all_exports_reopened": true
             }
           },
-          "file": "studies/regular/de-cursive/de-01.ttf"
+          "file": "studies/regular/de-reimagined/de-01.ttf"
         },
         {
           "id": "02",
-          "name": "Открытая дуга",
-          "selection_status": "rejected_curve_and_terminal_execution",
+          "name": "Перьевой поворот",
+          "selection_status": "unselected_new_construction",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
-            "name": "Открытая дуга",
+            "name": "Перьевой поворот",
             "unicode": "U+0434",
             "glyph": "uni0434",
-            "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
-            "status": "polished handwritten candidate awaiting user selection",
-            "advance": 408,
+            "construction": "Upright handwritten de formed by a folded directional upper entry, a diagonal right descent and an asymmetric bowl. No upright o-plus-hook assembly and no printed platform or feet.",
+            "status": "new construction awaiting user selection",
+            "advance": 416,
             "bbox_cubic": [
               23,
               -9,
-              383,
+              391,
               740
             ],
             "hmtx": [
-              408,
+              416,
               23
             ],
-            "cubic_nodes": 49,
-            "ttf_points": 69,
+            "cubic_nodes": 57,
+            "ttf_points": 83,
             "contours": 2,
             "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
             "design_provenance": {
-              "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
-              "exact_native_fragments": [
-                "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
-                "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
-                "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
-                "o complete inner counter: four exact native cubic segments, unchanged"
+              "geometry": "New authored cubic contours; no foreign outline transfer or automatic donor transform.",
+              "native_reference": "Instrument Serif Regular m01; 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+              "native_detail_roles": [
+                "f/r: supported terminal and inflected approach",
+                "o: contrast and overshoots",
+                "d/b: counter adapts to the joining stroke"
               ],
-              "proposed_fragments": [
-                "outer upper-right o quarter replaced by continuous upper curl",
-                "upper entry and descending spine drawn anew without foreign outline transfer",
-                "narrow open neck from inner upper stroke into native o crown"
-              ],
-              "reference_skeleton_only": [
-                "Lora Italic U+0434",
-                "Literata Italic U+0434",
-                "Alegreya Italic U+0434",
-                "EB Garamond Italic U+0434",
-                "Playfair Display Italic U+0434"
-              ],
-              "facts": {
-                "native_o_advance": 408,
-                "native_o_bbox": [
-                  23,
-                  -9,
-                  383,
-                  516
-                ],
-                "native_o_counter_bbox": [
-                  99,
-                  16,
-                  307,
-                  491
-                ],
-                "native_o_side_thickness": 76,
-                "native_o_crown_thickness": 25,
-                "native_n_d_stem": 68,
-                "native_b_d_ascender": 740
-              },
-              "proposals": {
-                "upper_limit": 740,
-                "new_stem_at_y510": 68,
-                "upper_crown_vertical_thickness": 25,
-                "upper_terminal_profile": "rounded compact stroke cap; no ball"
-              }
+              "ductus_interpretation": "A short directional entry turns down from the left, gains weight along the right descending diagonal and resolves into the bowl. The counter and shoulder are redrawn together for this movement.",
+              "winding": "CCW outer / CW counter in cubic source; reversed for TrueType export"
             },
             "quadratic_export": {
-              "off_curve_adjustments": [
-                {
-                  "index": 30,
-                  "from": [
-                    127,
-                    664
-                  ],
-                  "to": [
-                    128,
-                    664
-                  ]
-                },
-                {
-                  "index": 36,
-                  "from": [
-                    105,
-                    678
-                  ],
-                  "to": [
-                    106,
-                    678
-                  ]
-                }
-              ],
-              "points": 69,
-              "expected_explicit_join_tangent_error_degrees": 0,
-              "sampled_full_glyph_symmetric_hausdorff": 0.513781,
-              "previous_maximum_tangent_error_degrees": 1.8476
+              "max_err": 0.2,
+              "manual_corrections": false
             },
             "checks": {
               "sampled_topology_valid": true,
@@ -1300,30 +1170,30 @@
               "all_exports_reopened": true
             }
           },
-          "file": "studies/regular/de-cursive/de-02.ttf"
+          "file": "studies/regular/de-reimagined/de-02.ttf"
         }
       ],
       "metrics": {
         "units": "font units",
-        "source": "studies/regular/de-cursive/metrics.json",
-        "note": "advance408 matches nativeo; bounds23,-9,383,740. New upper stroke design remains a proposal."
+        "source": "studies/regular/de-reimagined/metrics.json",
+        "note": "Both advance416;01 lower return-215,02 upper fold740. Dimensions are proposals, not universal native rules."
       },
       "features": [
         {
           "tag": "ss06",
           "effect": "uni0434 → de.altAsymmetric",
           "variant": "historical de-loop 02",
-          "note": "Historical de-loop variant 02 only. New de-cyrillic 02 is a separate font and is not assigned to ss06."
+          "note": "Historical de-loop variant02 only. New de-reimagined02 is supplied in a separate font, not ss06."
         }
       ],
       "checks": {
-        "this_pass": "Eight combinations rebuilt with local upper-terminal rounding refinement; saved integer-grid joins checked independently.",
-        "report": "studies/regular/de-cursive/export-audit.json",
-        "visual_acceptance": "rejected: curves and terminals",
-        "kerning": "no donor pairs assigned; final spacing pending",
+        "this_pass": "Eight font combinations built and reopened; all-other-glyph and hmtx preservation, unchanged GSUB, sampled topology, source tangency and export distance checked.",
+        "report": "studies/regular/de-reimagined/outline-audit.json",
+        "visual_acceptance": "pending",
+        "kerning": "Cyrillic and mixed pairs not finalized",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "ttf_curve_limit": "All explicit quadratic joins are G1 on integer grid after local control refinement; dense sampled symmetric source/export distance about0.423/0.514u. G2 and analytic error bounds not claimed."
+        "ttf_curve_limit": "Cu2Qu max_err0.20 before integer rounding; sampled exported outline distance recorded separately."
       },
       "confidence": {
         "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
@@ -1331,12 +1201,11 @@
         "hypothesis": "Unrecorded study-specific ductus, final optical acceptance and unfinished kerning"
       },
       "paths": {
-        "study_directory": "studies/regular/de-cursive",
-        "readme": "studies/regular/de-cursive/README.md",
-        "design_notes": "data/de-cursive-outlines.json",
-        "reference_research": "studies/reference-analysis/cursive-de",
-        "quadratic_export_policy": "data/de-cursive-export.json",
-        "current_research": "studies/reference-analysis/de-curves-deep"
+        "study_directory": "studies/regular/de-reimagined",
+        "readme": "studies/regular/de-reimagined/README.md",
+        "design_notes": "data/de-reimagined-outlines.json",
+        "current_research": "studies/reference-analysis/de-curves-deep",
+        "prior_upper_ascender": "studies/regular/de-cursive"
       },
       "instruction_deviations": [
         {
@@ -1347,15 +1216,21 @@
         }
       ],
       "construction_choices": {
-        "evidence": "unselected current design proposal",
+        "evidence": "two unselected new design proposals",
         "values": {
-          "advance": 408,
-          "upper_limit": 740,
-          "new_stem_at_y510": 68,
-          "upper_crown_thickness": 25
+          "01": {
+            "name": "Острый свод",
+            "advance": 416,
+            "construction": "Upright handwritten de with a thin rising left diagonal, a heavy right descent and an open return below the baseline. An asymmetric pointed counter replaces the oval; no printed platform or feet."
+          },
+          "02": {
+            "name": "Перьевой поворот",
+            "advance": 416,
+            "construction": "Upright handwritten de formed by a folded directional upper entry, a diagonal right descent and an asymmetric bowl. No upright o-plus-hook assembly and no printed platform or feet."
+          }
         },
-        "reference": "data/de-cursive-outlines.json",
-        "scope": "Last rejected de-cursive drawing, not mandatory constraints for the next design."
+        "reference": "data/de-reimagined-outlines.json",
+        "scope": "Current proposals only; previous recipes remain historical."
       },
       "history": [
         {
@@ -2119,6 +1994,308 @@
             "rejected_exploration": "studies/regular/de-native",
             "previous_loop_study": "studies/regular/de-loop"
           }
+        },
+        {
+          "status": "rejected_upper_ascender_execution",
+          "scope": "Historical de-cursive drawings; retained after explicit request for new construction",
+          "silhouette": {
+            "evidence": "latest user clarification and source research",
+            "description": "Upper-ascender handwritten skeleton remains open, not approved. Current exact-o execution is rejected for curves/terminals; preserving a complete o counter is not a mandatory design rule.",
+            "source": "studies/reference-analysis/de-curves-deep/README.md"
+          },
+          "type": "handwritten_upper_ascender_single_counter",
+          "ductus": {
+            "evidence": "designer interpretation; not documented original-author ductus",
+            "reference": "studies/regular/de-cursive/README.md",
+            "strokes": [
+              "Thin upper-left entry, return arch to the right, descending thick right stroke, lower bowl turn left, thin rising bowl return."
+            ],
+            "entry": "upper left",
+            "exit": "bowl return",
+            "pressure": "native Regular vertical stress"
+          },
+          "upright": {
+            "style": "Regular",
+            "status": "two unselected handwritten upper-ascender proposals",
+            "construction_evidence": "studies/regular/de-cursive/README.md"
+          },
+          "donors": [
+            {
+              "glyph": "o",
+              "role": "Seven exact native cubic segments including entire inner counter.",
+              "relationship": "exact native cubic fragments",
+              "evidence": "independent source control-point comparison",
+              "construction_reference": "data/de-cursive-outlines.json"
+            },
+            {
+              "glyph": "n/d/b",
+              "role": "Stem and ascender measurements only, no imported outline fragments.",
+              "relationship": "measurement context",
+              "evidence": "measured native Regular facts",
+              "construction_reference": "data/de-cursive-outlines.json#/variants/01/provenance/facts"
+            }
+          ],
+          "variants": [
+            {
+              "id": "01",
+              "name": "Сдержанный загиб",
+              "selection_status": "rejected_curve_and_terminal_execution",
+              "glyph": "uni0434",
+              "feature": null,
+              "measured_current_build": {
+                "name": "Сдержанный загиб",
+                "unicode": "U+0434",
+                "glyph": "uni0434",
+                "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
+                "status": "polished handwritten candidate awaiting user selection",
+                "advance": 408,
+                "bbox_cubic": [
+                  23,
+                  -9,
+                  383,
+                  740
+                ],
+                "hmtx": [
+                  408,
+                  23
+                ],
+                "cubic_nodes": 49,
+                "ttf_points": 68,
+                "contours": 2,
+                "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+                "design_provenance": {
+                  "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+                  "exact_native_fragments": [
+                    "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+                    "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+                    "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+                    "o complete inner counter: four exact native cubic segments, unchanged"
+                  ],
+                  "proposed_fragments": [
+                    "outer upper-right o quarter replaced by continuous upper curl",
+                    "upper entry and descending spine drawn anew without foreign outline transfer",
+                    "narrow open neck from inner upper stroke into native o crown"
+                  ],
+                  "reference_skeleton_only": [
+                    "Lora Italic U+0434",
+                    "Literata Italic U+0434",
+                    "Alegreya Italic U+0434",
+                    "EB Garamond Italic U+0434",
+                    "Playfair Display Italic U+0434"
+                  ],
+                  "facts": {
+                    "native_o_advance": 408,
+                    "native_o_bbox": [
+                      23,
+                      -9,
+                      383,
+                      516
+                    ],
+                    "native_o_counter_bbox": [
+                      99,
+                      16,
+                      307,
+                      491
+                    ],
+                    "native_o_side_thickness": 76,
+                    "native_o_crown_thickness": 25,
+                    "native_n_d_stem": 68,
+                    "native_b_d_ascender": 740
+                  },
+                  "proposals": {
+                    "upper_limit": 740,
+                    "new_stem_at_y510": 68,
+                    "upper_crown_vertical_thickness": 25,
+                    "upper_terminal_profile": "rounded compact stroke cap; no ball"
+                  }
+                },
+                "quadratic_export": {
+                  "off_curve_adjustments": [
+                    {
+                      "index": 32,
+                      "from": [
+                        150,
+                        680
+                      ],
+                      "to": [
+                        150,
+                        679
+                      ]
+                    },
+                    {
+                      "index": 34,
+                      "from": [
+                        141,
+                        689
+                      ],
+                      "to": [
+                        141,
+                        688
+                      ]
+                    }
+                  ],
+                  "points": 68,
+                  "expected_explicit_join_tangent_error_degrees": 0,
+                  "sampled_full_glyph_symmetric_hausdorff": 0.422654,
+                  "previous_maximum_tangent_error_degrees": 12.6804
+                },
+                "checks": {
+                  "sampled_topology_valid": true,
+                  "adjacent_cubic_duplicates": 0,
+                  "all_other_glyphs_and_hmtx_unchanged": true,
+                  "gsub_unchanged_ss06_legacy_preserved": true,
+                  "all_exports_reopened": true
+                }
+              },
+              "file": "studies/regular/de-cursive/de-01.ttf"
+            },
+            {
+              "id": "02",
+              "name": "Открытая дуга",
+              "selection_status": "rejected_curve_and_terminal_execution",
+              "glyph": "uni0434",
+              "feature": null,
+              "measured_current_build": {
+                "name": "Открытая дуга",
+                "unicode": "U+0434",
+                "glyph": "uni0434",
+                "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
+                "status": "polished handwritten candidate awaiting user selection",
+                "advance": 408,
+                "bbox_cubic": [
+                  23,
+                  -9,
+                  383,
+                  740
+                ],
+                "hmtx": [
+                  408,
+                  23
+                ],
+                "cubic_nodes": 49,
+                "ttf_points": 69,
+                "contours": 2,
+                "kerning": "new outline has no assigned donor kerning; Cyrillic contextual review pending",
+                "design_provenance": {
+                  "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+                  "exact_native_fragments": [
+                    "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+                    "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+                    "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+                    "o complete inner counter: four exact native cubic segments, unchanged"
+                  ],
+                  "proposed_fragments": [
+                    "outer upper-right o quarter replaced by continuous upper curl",
+                    "upper entry and descending spine drawn anew without foreign outline transfer",
+                    "narrow open neck from inner upper stroke into native o crown"
+                  ],
+                  "reference_skeleton_only": [
+                    "Lora Italic U+0434",
+                    "Literata Italic U+0434",
+                    "Alegreya Italic U+0434",
+                    "EB Garamond Italic U+0434",
+                    "Playfair Display Italic U+0434"
+                  ],
+                  "facts": {
+                    "native_o_advance": 408,
+                    "native_o_bbox": [
+                      23,
+                      -9,
+                      383,
+                      516
+                    ],
+                    "native_o_counter_bbox": [
+                      99,
+                      16,
+                      307,
+                      491
+                    ],
+                    "native_o_side_thickness": 76,
+                    "native_o_crown_thickness": 25,
+                    "native_n_d_stem": 68,
+                    "native_b_d_ascender": 740
+                  },
+                  "proposals": {
+                    "upper_limit": 740,
+                    "new_stem_at_y510": 68,
+                    "upper_crown_vertical_thickness": 25,
+                    "upper_terminal_profile": "rounded compact stroke cap; no ball"
+                  }
+                },
+                "quadratic_export": {
+                  "off_curve_adjustments": [
+                    {
+                      "index": 30,
+                      "from": [
+                        127,
+                        664
+                      ],
+                      "to": [
+                        128,
+                        664
+                      ]
+                    },
+                    {
+                      "index": 36,
+                      "from": [
+                        105,
+                        678
+                      ],
+                      "to": [
+                        106,
+                        678
+                      ]
+                    }
+                  ],
+                  "points": 69,
+                  "expected_explicit_join_tangent_error_degrees": 0,
+                  "sampled_full_glyph_symmetric_hausdorff": 0.513781,
+                  "previous_maximum_tangent_error_degrees": 1.8476
+                },
+                "checks": {
+                  "sampled_topology_valid": true,
+                  "adjacent_cubic_duplicates": 0,
+                  "all_other_glyphs_and_hmtx_unchanged": true,
+                  "gsub_unchanged_ss06_legacy_preserved": true,
+                  "all_exports_reopened": true
+                }
+              },
+              "file": "studies/regular/de-cursive/de-02.ttf"
+            }
+          ],
+          "metrics": {
+            "units": "font units",
+            "source": "studies/regular/de-cursive/metrics.json",
+            "note": "advance408 matches nativeo; bounds23,-9,383,740. New upper stroke design remains a proposal."
+          },
+          "checks": {
+            "this_pass": "Eight combinations rebuilt with local upper-terminal rounding refinement; saved integer-grid joins checked independently.",
+            "report": "studies/regular/de-cursive/export-audit.json",
+            "visual_acceptance": "rejected: curves and terminals",
+            "kerning": "no donor pairs assigned; final spacing pending",
+            "fontbakery": "not run",
+            "hyperglot": "not run",
+            "ttf_curve_limit": "All explicit quadratic joins are G1 on integer grid after local control refinement; dense sampled symmetric source/export distance about0.423/0.514u. G2 and analytic error bounds not claimed."
+          },
+          "construction_choices": {
+            "evidence": "unselected current design proposal",
+            "values": {
+              "advance": 408,
+              "upper_limit": 740,
+              "new_stem_at_y510": 68,
+              "upper_crown_thickness": 25
+            },
+            "reference": "data/de-cursive-outlines.json",
+            "scope": "Last rejected de-cursive drawing, not mandatory constraints for the next design."
+          },
+          "paths": {
+            "study_directory": "studies/regular/de-cursive",
+            "readme": "studies/regular/de-cursive/README.md",
+            "design_notes": "data/de-cursive-outlines.json",
+            "reference_research": "studies/reference-analysis/cursive-de",
+            "quadratic_export_policy": "data/de-cursive-export.json",
+            "current_research": "studies/reference-analysis/de-curves-deep"
+          }
         }
       ],
       "explorations": {
@@ -2165,9 +2342,15 @@
           "design_data": "data/de-cursive-outlines.json",
           "status": "both current drawings visually rejected by user; skeleton not categorically rejected",
           "primary_variant": null
+        },
+        "reimagined": {
+          "path": "studies/regular/de-reimagined",
+          "design_data": "data/de-reimagined-outlines.json",
+          "status": "two new constructed proposals awaiting user review",
+          "primary_variant": null
         }
       },
-      "variants_scope": "Current de-cursive proposals in separate fonts; earlier designs retained in history/explorations."
+      "variants_scope": "Current de-reimagined proposals in separate fonts; every prior family retained."
     },
     {
       "glyph": "uni0436",
