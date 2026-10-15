@@ -123,7 +123,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -136,7 +136,7 @@ python3 -I tools/extract_params.py
 python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf "nauryg" out.png
 ```
 
-Зависимости скриптов: fonttools, pillow, glyphsLib.
+Зависимости скриптов: fonttools, pillow, glyphsLib, skia-pathops; shapely только для `soften` (мягкая м).
 
 - Контрольный набор: **Н О П Р Е и о н п р д г т**. Он задаёт ширину, контраст и характер засечек для остальных букв.
 - Работа по трём уровням буквы (силуэт, письмо, контур) в этом порядке; контур без описания письма недействителен.
@@ -168,6 +168,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D20 | Заглавная Л: основа L1 (14°/3°, вес W1 30/71/27) по правилам; запасные L2, L3 и веса W2, W3; ширина против H; ждёт подтверждения |
 | D21 | Строчная л: основа л1 (14°/3°, 28/68/25) по правилам; запасные л2, л3; полуоси арки 100/92 это решение, не измерение; ждёт подтверждения |
 | D22 | Строчная м: основа m1 (вершина V 26, головки u), запасные m2 (вершина 0), m3 (флажок ı); ждёт подтверждения; форма курсива D13 |
+| D23 | Мягкие углы: на мягкой м (ms2, радиусы 5 и 12) автор проекта; распространять ли смягчение на весь шрифт |
 | D19 | Закрыто: ъ = K2 (засечка вниз 70), выбрана автором проекта 14.10.2026; длина перекладины около 105 это догадка (ОТКРЫТО) |
 | D18 | Закрыто: ь = S3 (флажок), выбрана автором проекта 14.10.2026; согласовать с ш (D15: R2 с флажками подходит) |
 
@@ -193,4 +194,4 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | ы | по рисунку автора проекта: ь (S3) + правая стойка от u (головка, ножка, хвост-выход), зазор 44; Y1 основной, Y2 с головками u на обеих стойках сохранён | `docs/glyphs/yery.md` |
 | Л | основа L1 (14°/3°, вес по шрифту), L2, L3 и веса W2, W3 запасные (D20) | `docs/glyphs/el.md` |
 | л | основа л1 (по шрифту), л2, л3 запасные (D21) | `docs/glyphs/el_lower.md` |
-| м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22) | `docs/glyphs/em.md` |
+| м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22); мягкая м: ms2 основа, ms1 и ms3 запасные (D23) | `docs/glyphs/em.md` |

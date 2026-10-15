@@ -35,6 +35,45 @@ def OR(*ps):
     r = ps[0]
     for p in ps[1:]: r = pathops.op(r, p, PathOp.UNION)
     return r
+def soften(path, r_convex, r_concave, res=24):
+    """Смягчение контура (shapely): внутренние углы скругляются радиусом r_concave (закрытие), внешние r_convex (раскрытие).
+    Детали уже r_convex*2 пропадают, поэтому r_convex держать меньше половины самой тонкой детали (кончики засечек 20+).
+    Контур становится ломаной (шаг мелкий): для эскиза и сравнения, не для финала."""
+    from fontTools.pens.basePen import BasePen
+    from shapely.geometry import Polygon
+    from shapely.geometry.polygon import orient
+    from shapely.ops import unary_union
+    class Flat(BasePen):
+        def __init__(self): super().__init__(None); self.rings, self.cur = [], []
+        def _moveTo(self, pt): self.cur = [pt]
+        def _lineTo(self, pt): self.cur.append(pt)
+        def _curveToOne(self, a, b, c):
+            x0, y0 = self._getCurrentPoint()
+            for i in range(1, 13):
+                t = i / 12; u = 1 - t
+                self.cur.append((u**3*x0 + 3*u*u*t*a[0] + 3*u*t*t*b[0] + t**3*c[0], u**3*y0 + 3*u*u*t*a[1] + 3*u*t*t*b[1] + t**3*c[1]))
+        def _qCurveToOne(self, a, b):
+            x0, y0 = self._getCurrentPoint()
+            for i in range(1, 13):
+                t = i / 12; u = 1 - t
+                self.cur.append((u*u*x0 + 2*u*t*a[0] + t*t*b[0], u*u*y0 + 2*u*t*a[1] + t*t*b[1]))
+        def _closePath(self): self.rings.append(self.cur); self.cur = []
+        _endPath = _closePath
+    fp = Flat(); path.draw(fp)
+    polys = [Polygon(r).buffer(0) for r in fp.rings if len(r) > 2]
+    geom = unary_union(polys)
+    if r_concave: geom = geom.buffer(r_concave, res).buffer(-r_concave, res)
+    if r_convex: geom = geom.buffer(-r_convex, res).buffer(r_convex, res)
+    geom = geom.simplify(0.15)
+    out = Path(); pen = out.getPen()
+    for g in (geom.geoms if hasattr(geom, "geoms") else [geom]):
+        g = orient(g, sign=-1.0)
+        for ring in [g.exterior, *g.interiors]:
+            pts = list(ring.coords)[:-1]; pen.moveTo(pts[0])
+            for q in pts[1:]: pen.lineTo(q)
+            pen.closePath()
+    return out
+
 def tf(p, m):
     q = Path(); p.draw(TransformPen(q.getPen(), m)); return q
 def shift(p, dx, dy=0): return tf(p, (1, 0, 0, 1, dx, dy))

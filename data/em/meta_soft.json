@@ -1,0 +1,38 @@
+{
+ "ms1": {
+  "adv": 542.2,
+  "xmin": 15,
+  "xmax": 527,
+  "ymin": 0,
+  "ymax": 510,
+  "label": "ms1  скругление 4 / 8",
+  "contours": 1,
+  "r_convex": 4.0,
+  "r_concave": 8.0,
+  "flat": 8.0
+ },
+ "ms2": {
+  "adv": 542.2,
+  "xmin": 15,
+  "xmax": 527,
+  "ymin": 0,
+  "ymax": 510,
+  "label": "ms2  скругление 5 / 12",
+  "contours": 1,
+  "r_convex": 5.0,
+  "r_concave": 12.0,
+  "flat": 8.0
+ },
+ "ms3": {
+  "adv": 546.2,
+  "xmin": 15,
+  "xmax": 531,
+  "ymin": 0,
+  "ymax": 510,
+  "label": "ms3  скругление 8 / 16",
+  "contours": 1,
+  "r_convex": 8.0,
+  "r_concave": 16.0,
+  "flat": 12.0
+ }
+}
