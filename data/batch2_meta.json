@@ -1,0 +1,56 @@
+{
+ "ii": {
+  "adv": 454,
+  "xmin": 11,
+  "xmax": 439,
+  "ymin": -9,
+  "ymax": 510,
+  "label": "и = латинская u",
+  "contours": 1
+ },
+ "ka": {
+  "adv": 462,
+  "xmin": 10,
+  "xmax": 451,
+  "ymin": 0,
+  "ymax": 520,
+  "label": "к",
+  "contours": 1
+ },
+ "ka_short": {
+  "adv": 462,
+  "xmin": 10,
+  "xmax": 451,
+  "ymin": 0,
+  "ymax": 520,
+  "label": "к.short",
+  "contours": 1
+ },
+ "ef": {
+  "adv": 406,
+  "xmin": 23,
+  "xmax": 383,
+  "ymin": -205,
+  "ymax": 740,
+  "label": "ф",
+  "contours": 3
+ },
+ "A": {
+  "adv": 457,
+  "xmin": -18,
+  "xmax": 475,
+  "ymin": 0,
+  "ymax": 730,
+  "label": "А = латинская A",
+  "contours": 2
+ },
+ "zhe": {
+  "adv": 821,
+  "xmin": 19,
+  "xmax": 802,
+  "ymin": 0,
+  "ymax": 720,
+  "label": "Ж",
+  "contours": 1
+ }
+}

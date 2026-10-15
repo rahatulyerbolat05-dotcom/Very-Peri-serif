@@ -33,6 +33,28 @@ def test(p):
     c = bool(list(cs.contours))
     return (a and b and c), f"A x={xa:.0f} (<=60: {a}), B x150-xA={(x150 - xa) if x150 is not None else None:.0f} (>=35: {b}), C {c}" if x150 is not None else f"A x={xa:.0f}"
 
+def runs_at(p, y):
+    from fontTools.pens.recordingPen import RecordingPen
+    sl = AND(p, rect(-1000, y, 3000, y + 1))
+    if not list(sl.contours): return []
+    rp = RecordingPen(); sl.draw(rp)
+    xs = sorted(pt[0] for op, a in rp.value for pt in a)
+    groups = []
+    for x in xs:
+        if groups and x - groups[-1][-1] <= 1.5: groups[-1].append(x)
+        else: groups.append([x])
+    cent = [sum(g) / len(g) for g in groups]
+    return [(cent[i], cent[i + 1]) for i in range(0, len(cent) - 1, 2)]
+
+def test_top(p):
+    rs = runs_at(p, 380)
+    if not rs: return False, "нет контура на y=380"
+    x0, x1 = rs[0]; w = x1 - x0
+    c1 = 55 <= w <= 90
+    xa = leftmost(p, 470, 512)
+    c2 = xa is not None and xa <= x0 + 10
+    return (c1 and c2), f"C1 первая стойка на y=380: x {x0:.0f}..{x1:.0f}, ширина {w:.0f} (55..90: {c1}); C2 верх у левого края: x_top={xa if xa is None else round(xa)} (<= {x0 + 10:.0f}: {c2})"
+
 bad = 0
 for ch, path in CFG["built_bases"].items():
     ok, why = test(load(path))
@@ -44,3 +66,18 @@ missing = [ch for ch in sorted(declared) if ch not in CFG["built_bases"]]
 print("нет контура (не проверены):", " ".join(missing))
 if bad: print(f"\nРАСХОЖДЕНИЙ: {bad}. Пересмотреть класс @serif_bl и правило calt."); sys.exit(1)
 print("\nвсе готовые основы согласованы с declared_class")
+
+
+# второе правило: ka-cy -> ka-cy.short перед буквой с засечкой слева вверху на x-height
+KA = CFG["ka_short"]; kdec = set(KA["declared_class"]["lower"]) | set(KA["declared_class"]["upper"])
+print("\nправило ka-cy.short (верхний левый угол следующей буквы):")
+bad2 = 0
+for ch, path in CFG["built_bases"].items():
+    if ch.isupper(): continue
+    ok, why = test_top(load(path)); want = ch in kdec
+    st = "ok" if ok == want else "РАСХОЖДЕНИЕ"
+    if ok != want: bad2 += 1
+    print(f"{ch}  по геометрии: {ok!s:5}  в declared_class: {want!s:5}  {st}  [{why}]")
+print("нет контура (не проверены):", " ".join(sorted(ch for ch in kdec if ch not in CFG["built_bases"])))
+if bad2: print(f"\nРАСХОЖДЕНИЙ в правиле ka-cy.short: {bad2}"); sys.exit(1)
+print("правило ka-cy.short: все готовые основы согласованы")

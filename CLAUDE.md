@@ -119,12 +119,13 @@
 - Болгарские формы через locl BGR; сербские через SRB; MKD по необходимости.
 - Подробности: инструкция, 16.5 и 17.6.
 - **Обязательные контекстные формы (решение автора проекта 15.10.2026):** п = латинская n, и перед буквой, у которой в нижнем левом углу опорная засечка (F2), п автоматически заменяется на `pe-cy.flag` (нижний правый угол флажком, хвост-выход от u) для органичности: `feature calt { script cyrl; sub pe-cy' @serif_bl by pe-cy.flag; } calt;`. Класс `@serif_bl` определяется геометрией (нижний левый угол с засечкой у левого края глифа), а не списком: перед сборкой обязательно `python3 -I tools/check_context_classes.py` (критерий и данные: `data/context/serif_bl.json`, логика: `docs/glyphs/pe.md`); при расхождении класс пересматривается, список в `features.fea` по памяти не переписывается. Без этого правила и проверки сборка шрифта не принимается.
+- **Вторая контекстная форма (решение автора проекта 15.10.2026):** к перед буквой со стойкой у левого края на x-height (головка, флажок) автоматически заменяется на `ka-cy.short` (правая верхняя часть засечки ветви укорочена): `feature calt { script cyrl; sub ka-cy' @head_tl by ka-cy.short; } calt;`. Класс `@head_tl` тоже по геометрии (критерий и проверка в `data/context/serif_bl.json`, раздел `ka_short`, и `tools/check_context_classes.py`); логика и открытая трактовка: `docs/glyphs/ka.md`. Обязателен при сборке, как и правило п.
 
 ## 8. Структура репозитория
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -142,7 +143,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 - Контрольный набор: **Н О П Р Е и о н п р д г т**. Он задаёт ширину, контраст и характер засечек для остальных букв.
 - Работа по трём уровням буквы (силуэт, письмо, контур) в этом порядке; контур без описания письма недействителен.
 - Чек-лист перед коммитом: стебли и волосные в допуске; овершуты по таблице; положенные F-пункты на месте; поля и группы от донора; тест на реальных текстах (русский: «Съешь же ещё этих мягких французских булок, да выпей чаю») плюс строка на каждый заявленный язык; fontbakery и Hyperglot (результаты вносить в журнал); отрисовка в 12, 24, 100 pt на светлом и тёмном.
-- Для сборки обязательно проверить контекстное правило п → `pe-cy.flag` (раздел 7): сначала `python3 -I tools/check_context_classes.py` (класс по геометрии против списка), потом `features.fea`; п перед буквой с засечкой слева внизу даёт флажок, перед о, с, е, а, пробелом и в конце слова остаётся обычной. При каждой новой букве добавлять её основу в `built_bases` и в `data/alphabet.json`, затем пересобирать `docs/img/alphabet_status.png` (`python3 -I tools/alphabet_sheet.py`).
+- Для сборки обязательно проверить контекстные правила п → `pe-cy.flag` и к → `ka-cy.short` (раздел 7), обе части вывода скрипта: сначала `python3 -I tools/check_context_classes.py` (класс по геометрии против списка), потом `features.fea`; п перед буквой с засечкой слева внизу даёт флажок, перед о, с, е, а, пробелом и в конце слова остаётся обычной. При каждой новой букве добавлять её основу в `built_bases` и в `data/alphabet.json`, затем пересобирать `docs/img/alphabet_status.png` (`python3 -I tools/alphabet_sheet.py`).
 - Коммиты короткие, по группе глифов; в сообщении: что добавлено и какие F-пункты применены.
 
 ## 10. Открытые решения
@@ -177,6 +178,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D27 | Закрыто: н = n4 (mix: слева ı с флажком, справа стойка как у латинской u с головкой и хвостом-выходом), выбрана автором проекта 15.10.2026; n1, n2, n3 запасные |
 | D28 | Закрыто: ю = yu1 (связь 55, овал о без масштаба), выбрана автором проекта 15.10.2026; yu2 (80), yu3 (105) запасные |
 | D29 | Закрыто: п = латинская n без изменений и контекстная форма `pe-cy.flag` (флажок справа внизу перед буквой с засечкой слева внизу), решение автора проекта 15.10.2026; класс `@serif_bl` определяется критерием и проверяется скриптом (сейчас без ш, щ); ОТКРЫТО: распространять ли на латинскую n и курсив |
+| D30 | Закрыто: и = латинская u без изменений, А = латинская A, ф и к (и ka-cy.short) и Ж нарисованы по просьбе автора проекта 15.10.2026 (идеи из старой разработки, контуры новые); ОТКРЫТО: трактовка соседа для ka.short (справа или слева), хвост и, ширина Ж |
 | D19 | Закрыто: ъ = K2 (засечка вниз 70), выбрана автором проекта 14.10.2026; длина перекладины около 105 это догадка (ОТКРЫТО) |
 | D18 | Закрыто: ь = S3 (флажок), выбрана автором проекта 14.10.2026; согласовать с ш (D15: R2 с флажками подходит) |
 
@@ -206,5 +208,10 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | н | основа n4 (mix) выбрана автором проекта, n1, n2, n3 запасные (D27 закрыто) | `docs/glyphs/en.md` |
 | ю | основа yu1 (связь 55) выбрана автором проекта, yu2 и yu3 запасные (D28 закрыто) | `docs/glyphs/yu.md` |
 | п | = латинская n (решение автора проекта) + обязательная контекстная форма pe-cy.flag (D29 закрыто) | `docs/glyphs/pe.md` |
+| и | = латинская u (D30) | `docs/glyphs/ii.md` |
+| к | ı + ветви k; обязательная контекстная форма ka-cy.short (D30) | `docs/glyphs/ka.md` |
+| ф | овал о + сквозная стойка (l сверху, p снизу) (D30) | `docs/glyphs/ef.md` |
+| А | = латинская A (D30) | `docs/glyphs/A.md` |
+| Ж | правая половина K и зеркало (D30) | `docs/glyphs/zhe.md` |
 | лл | отклонена автором проекта (D24 закрыто); эскизы d1–d3 только для истории | `docs/glyphs/el_double.md` |
 | м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22); мягкая м: ms2 основа, ms1 и ms3 запасные (D23); латинская m остаётся пока, выбор отложен (D26) | `docs/glyphs/em.md` |
