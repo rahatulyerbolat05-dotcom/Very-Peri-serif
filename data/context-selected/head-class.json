@@ -1,0 +1,41 @@
+{
+  "source_commit": "8d7b32d9f265945c14b8d2a624e0ace662eb8289",
+  "verified_characters": [
+    "н",
+    "п",
+    "г",
+    "т",
+    "в",
+    "ь",
+    "ъ",
+    "ы",
+    "м",
+    "ш",
+    "к",
+    "р",
+    "б",
+    "ю",
+    "ж",
+    "х",
+    "у",
+    "и",
+    "і",
+    "һ",
+    "й",
+    "ү",
+    "з"
+  ],
+  "unverified_characters": [
+    "ц",
+    "ч",
+    "щ"
+  ],
+  "verified_alternate_glyphs": [
+    "be.altFlag",
+    "be.altWave",
+    "ve.altSoft",
+    "ghe.altBeak",
+    "i.altDiagonal",
+    "shorti.altDiagonal"
+  ]
+}

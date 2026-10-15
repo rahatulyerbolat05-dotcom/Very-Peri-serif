@@ -76,7 +76,11 @@
           "file": "studies/regular/te/te-01.ttf",
           "feature": null
         }
-      ]
+      ],
+      "claude_alternative": {
+        "source": "data/context-selected/te-claude.glif",
+        "feature": "ss08"
+      }
     },
     "э": {
       "primary": "Капля a — ниже",
@@ -93,26 +97,23 @@
           "feature": null
         }
       ]
+    },
+    "в": {
+      "primary": "Структурная",
+      "variant": "01"
+    },
+    "к": {
+      "primary": "Головка u",
+      "variant": "01",
+      "contextual_alternate": "Claude ka_short; calt before following top-left head serif"
     }
   },
   "undecided_variants": {
-    "в": [
-      "Структурная",
-      "Мягкая"
-    ],
     "й": {
       "variants": [
         "01 Родная кратка",
         "02 Компактная кратка"
       ],
-      "primary": null
-    },
-    "к": {
-      "variants": [
-        "01 Головка u",
-        "02 Наклонная головка k"
-      ],
-      "preference": "both liked by user",
       "primary": null
     }
   },
@@ -1026,5 +1027,6 @@
         }
       ]
     }
-  ]
+  ],
+  "latest_context_build": "studies/regular/context-selected"
 }

@@ -1,0 +1,5 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+@HEAD_TL = [p uni0431 uni0432 uni0433 uni0436 uni0437 uni0438 uni0439 uni043A uni043A.short uni0442 uni0442.claude x y be.altFlag be.altWave ve.altSoft ghe.altBeak i.altDiagonal shorti.altDiagonal];
+feature calt { lookupflag IgnoreMarks; sub uni043A' @HEAD_TL by uni043A.short; } calt;
+feature ss08 { sub uni0442 by uni0442.claude; } ss08;

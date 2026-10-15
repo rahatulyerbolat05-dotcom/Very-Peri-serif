@@ -145,3 +145,5 @@ FontBakery, Hyperglot и приёмка полного набора не зая�
 Наши материалы являются рабочим расширением и не выдаются за официальный
 кириллический релиз Instrument. Эталонные бинарники, сгенерированные PNG,
 пользовательские архивы и библиотеки Python в Git не добавляются.
+
+Текущий выбор: **в C01, к Codex01, т Codex02**. Короткая к Claude — `calt` перед верхней левой головной засечкой следующего глифа; т Claude — `ss08`. Расхождения к/т разрешены. [Пробные шрифты и проверки](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/tree/codex/cyrillic-studies/studies/regular/context-selected).

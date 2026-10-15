@@ -4,7 +4,7 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/ereversed-refined",
+  "latest_artifact": "studies/regular/context-selected",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
@@ -2642,6 +2642,51 @@
       "path": "studies/regular/zhe-selected/zhe-from-claude11.svg",
       "sha256": "eb94809c520ca496e18c230add511792dddb36a833572b7f8726f0c7971de6c7",
       "bytes": 1753
+    },
+    {
+      "path": "studies/regular/context-selected/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/context-selected/README.md",
+      "sha256": "24a07ed1e7c717aa832020c2a3a8a4a8d64333118efc3a8f637eea277a5789d0",
+      "bytes": 2127
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti01.fea",
+      "sha256": "9589b254bb63e606aa955e020db535f7b921fdfaefd18546d9e31454560b6317",
+      "bytes": 392
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti01.ttf",
+      "sha256": "f1c2d274a231b9a16e28a3422c333f14db1a075a4990cfcbadc9963e90ee4009",
+      "bytes": 75220
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti01.woff2",
+      "sha256": "2db1cc7293ba67a52c347deb91fb7a538d6b82c0d59c128436816983548e4f7c",
+      "bytes": 29720
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti02.fea",
+      "sha256": "9589b254bb63e606aa955e020db535f7b921fdfaefd18546d9e31454560b6317",
+      "bytes": 392
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti02.ttf",
+      "sha256": "42c3bb70c31ca3ed419ea5922e5aebd35b4de41cf765da70eff254d9a85dde97",
+      "bytes": 75368
+    },
+    {
+      "path": "studies/regular/context-selected/selected-shorti02.woff2",
+      "sha256": "b3c04b66473997e9d4f4c14a46b511ce754f8987734d777ba8259b391b5d7550",
+      "bytes": 29740
+    },
+    {
+      "path": "studies/regular/context-selected/verification.json",
+      "sha256": "96deeb9b59bf7af33e497abdcdbc710820c6ef9eed4bbdc0626eccbfc29505de",
+      "bytes": 1851
     }
   ],
   "total_files": 241,

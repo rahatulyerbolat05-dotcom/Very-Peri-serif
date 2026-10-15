@@ -212,55 +212,6 @@
       "ұ"
     ]
   },
-  "conflicts": {
-    "т": {
-      "status": "cross_branch_choice_pending",
-      "codex": {
-        "primary": "02 Письменный выход",
-        "skeleton": "m-shaped upright handwritten",
-        "advance": 718,
-        "source": "studies/regular/te/te-02.ttf",
-        "retained_alternative": "01 Родные арки, separate study font"
-      },
-      "claude": {
-        "primary": "t1",
-        "skeleton": "T-shaped lowercase",
-        "advance": 358,
-        "source": "data/te/t1.glif"
-      },
-      "rule": "Codex т02 remains explicitly selected here; show both drawings for the shared-map decision, do not replace it silently."
-    },
-    "к": {
-      "status": "cross_branch_and_codex_primary_choice_pending",
-      "codex": {
-        "primary": null,
-        "variants": [
-          {
-            "id": "01",
-            "name": "Головка u",
-            "advance": 451,
-            "source": "studies/regular/ka/ka-01.ttf"
-          },
-          {
-            "id": "02",
-            "name": "Наклонная головка k",
-            "advance": 451,
-            "source": "studies/regular/ka/ka-02.ttf"
-          }
-        ],
-        "preference": "Both liked; primary not selected."
-      },
-      "claude": {
-        "primary": "ka",
-        "head": "native dotless-i flag",
-        "advance": 462,
-        "source": "data/ka/ka.glif",
-        "contextual_alternative": "data/ka/ka_short.glif",
-        "calt_imported_into_codex": false
-      },
-      "rule": "Show Claude ka and both Codex candidates; no selection inferred from file order."
-    }
-  },
   "identical_shared_drawings": {
     "native_aliases": {
       "characters": [
@@ -294,9 +245,7 @@
     "comparison_method": "Read-only fontTools decomposition to individual quadratic segments; compare contours after cyclic-start and direction normalization, plus advance width."
   },
   "open_codex_choices": [
-    "в",
-    "й",
-    "к"
+    "й"
   ],
   "case_and_mapping_notes": {
     "ж_vs_Ж": "Codex ж U+0436 is exact selected Cyr11 import; Claude Ж U+0416 is a separate capital. No duplicate-letter conflict.",
@@ -913,5 +862,75 @@
       "ө": "data/kz2/o1.glif"
     },
     "note": "New Kazakh drawings from the latest Claude commit; Russian coverage and Codex font cmap are unchanged."
+  },
+  "resolved_conflicts": {
+    "т": {
+      "status": "cross_branch_choice_pending",
+      "codex": {
+        "primary": "02 Письменный выход",
+        "skeleton": "m-shaped upright handwritten",
+        "advance": 718,
+        "source": "studies/regular/te/te-02.ttf",
+        "retained_alternative": "01 Родные арки, separate study font"
+      },
+      "claude": {
+        "primary": "t1",
+        "skeleton": "T-shaped lowercase",
+        "advance": 358,
+        "source": "data/te/t1.glif"
+      },
+      "rule": "Codex т02 remains explicitly selected here; show both drawings for the shared-map decision, do not replace it silently."
+    },
+    "к": {
+      "status": "cross_branch_and_codex_primary_choice_pending",
+      "codex": {
+        "primary": null,
+        "variants": [
+          {
+            "id": "01",
+            "name": "Головка u",
+            "advance": 451,
+            "source": "studies/regular/ka/ka-01.ttf"
+          },
+          {
+            "id": "02",
+            "name": "Наклонная головка k",
+            "advance": 451,
+            "source": "studies/regular/ka/ka-02.ttf"
+          }
+        ],
+        "preference": "Both liked; primary not selected."
+      },
+      "claude": {
+        "primary": "ka",
+        "head": "native dotless-i flag",
+        "advance": 462,
+        "source": "data/ka/ka.glif",
+        "contextual_alternative": "data/ka/ka_short.glif",
+        "calt_imported_into_codex": false
+      },
+      "rule": "Show Claude ka and both Codex candidates; no selection inferred from file order."
+    }
+  },
+  "conflicts": {},
+  "current_selection": {
+    "в": "Codex01",
+    "к": "Codex01",
+    "т": "Codex02",
+    "ka_short": {
+      "source": "Claude",
+      "feature": "calt",
+      "direction": "к precedes a following top-left head serif at x-height"
+    },
+    "te_alternate": {
+      "source": "Claude t1",
+      "feature": "ss08"
+    },
+    "retained": "All previous alternatives retained; й unresolved.",
+    "source_hashes": {
+      "ka-short.glif": "3406ee569fb5e5860ddf97e52e08b6dd4b3f48af23aaa3f9249c55cc1f561c8a",
+      "te-claude.glif": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b"
+    },
+    "claude_source_commit": "8d7b32d9f265945c14b8d2a624e0ace662eb8289"
   }
 }

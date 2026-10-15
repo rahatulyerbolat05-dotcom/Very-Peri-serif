@@ -1,0 +1,20 @@
+{
+  "в": "Codex01",
+  "к": "Codex01",
+  "т": "Codex02",
+  "ka_short": {
+    "source": "Claude",
+    "feature": "calt",
+    "direction": "к precedes a following top-left head serif at x-height"
+  },
+  "te_alternate": {
+    "source": "Claude t1",
+    "feature": "ss08"
+  },
+  "retained": "All previous alternatives retained; й unresolved.",
+  "source_hashes": {
+    "ka-short.glif": "3406ee569fb5e5860ddf97e52e08b6dd4b3f48af23aaa3f9249c55cc1f561c8a",
+    "te-claude.glif": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b"
+  },
+  "claude_source_commit": "8d7b32d9f265945c14b8d2a624e0ace662eb8289"
+}
