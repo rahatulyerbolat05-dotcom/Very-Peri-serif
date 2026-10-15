@@ -16,8 +16,10 @@
       <point x="142.0" y="67.0" type="qcurve" smooth="yes"/>
       <point x="142.0" y="250.5" type="line"/>
       <point x="324.0" y="250.5" type="line"/>
-      <point x="324.0" y="150.0" type="line"/>
-      <point x="329.0" y="62.0" type="line"/>
+      <point x="324.0" y="170.0" type="line" smooth="yes"/>
+      <point x="324.0" y="120.0"/>
+      <point x="329.0" y="95.0"/>
+      <point x="329.0" y="62.0" type="qcurve" smooth="yes"/>
       <point x="329.0" y="7.0" type="line" smooth="yes"/>
       <point x="329.0" y="-5.0"/>
       <point x="338.0" y="-5.0" type="qcurve" smooth="yes"/>
