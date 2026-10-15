@@ -152,6 +152,30 @@
     "ё": [
       "data/homoglyph/io-cy.glif",
       "латинская ë"
+    ],
+    "І": [
+      "data/homoglyph/I-cy.glif",
+      "латинская I"
+    ],
+    "і": [
+      "data/homoglyph/i-cy.glif",
+      "латинская i"
+    ],
+    "һ": [
+      "data/homoglyph/shha-cy.glif",
+      "латинская h"
+    ],
+    "й": [
+      "data/homoglyph/ishort-cy.glif",
+      "латинская ŭ"
+    ],
+    "Ү": [
+      "data/homoglyph/Ustraight-cy.glif",
+      "латинская Y"
+    ],
+    "ү": [
+      "data/homoglyph/ustraight-cy.glif",
+      "латинская y"
     ]
   },
   "latin_donor": [
@@ -177,6 +201,9 @@
     "ё",
     "І",
     "і",
-    "һ"
+    "һ",
+    "й",
+    "Ү",
+    "ү"
   ]
 }

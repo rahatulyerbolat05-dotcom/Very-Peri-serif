@@ -227,6 +227,78 @@
    510
   ]
  },
+ "І": {
+  "latin": "I",
+  "glyph": "I-cy",
+  "unicode": "U+0406",
+  "adv": 249,
+  "bounds": [
+   19,
+   0,
+   230,
+   720
+  ]
+ },
+ "і": {
+  "latin": "i",
+  "glyph": "i-cy",
+  "unicode": "U+0456",
+  "adv": 223,
+  "bounds": [
+   15,
+   0,
+   212,
+   710
+  ]
+ },
+ "һ": {
+  "latin": "h",
+  "glyph": "shha-cy",
+  "unicode": "U+04BB",
+  "adv": 470,
+  "bounds": [
+   15,
+   0,
+   459,
+   740
+  ]
+ },
+ "й": {
+  "latin": "ubreve",
+  "glyph": "ishort-cy",
+  "unicode": "U+0439",
+  "adv": 454,
+  "bounds": [
+   11,
+   -9,
+   439,
+   730
+  ]
+ },
+ "Ү": {
+  "latin": "Y",
+  "glyph": "Ustraight-cy",
+  "unicode": "U+04AE",
+  "adv": 477,
+  "bounds": [
+   -18,
+   0,
+   495,
+   720
+  ]
+ },
+ "ү": {
+  "latin": "y",
+  "glyph": "ustraight-cy",
+  "unicode": "U+04AF",
+  "adv": 401,
+  "bounds": [
+   -14,
+   -205,
+   409,
+   510
+  ]
+ },
  "a-cy.ss01": {
   "latin": "a.ss01",
   "glyph": "a-cy.ss01",

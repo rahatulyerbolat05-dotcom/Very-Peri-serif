@@ -11,7 +11,10 @@ ref = Ref(); os.makedirs("data/homoglyph", exist_ok=True)
 PAIRS = [("В", "B", "Ve-cy", 0x412), ("Е", "E", "Ie-cy", 0x415), ("Ё", "Edieresis", "Io-cy", 0x401), ("К", "K", "Ka-cy", 0x41A), ("М", "M", "Em-cy", 0x41C), ("Н", "H", "En-cy", 0x41D),
          ("О", "O", "O-cy", 0x41E), ("Р", "P", "Er-cy", 0x420), ("С", "C", "Es-cy", 0x421), ("Т", "T", "Te-cy", 0x422), ("Х", "X", "Ha-cy", 0x425),
          ("а", "a", "a-cy", 0x430), ("е", "e", "ie-cy", 0x435), ("ё", "edieresis", "io-cy", 0x451), ("о", "o", "o-cy", 0x43E), ("р", "p", "er-cy", 0x440), ("с", "c", "es-cy", 0x441),
-         ("у", "y", "u-cy", 0x443), ("х", "x", "ha-cy", 0x445)]
+         ("у", "y", "u-cy", 0x443), ("х", "x", "ha-cy", 0x445),
+         # казахские и й: двойники в оригинале (CLAUDE.md, раздел 5.1: уровень 2); и = латинская u, поэтому й = ŭ
+         ("І", "I", "I-cy", 0x406), ("і", "i", "i-cy", 0x456), ("һ", "h", "shha-cy", 0x4BB), ("й", "ubreve", "ishort-cy", 0x439),
+         ("Ү", "Y", "Ustraight-cy", 0x4AE), ("ү", "y", "ustraight-cy", 0x4AF)]
 # синхронные ss01-формы (D10): у латиницы a, c, e есть .ss01
 SS01 = [("а", "a.ss01", "a-cy.ss01", 0xE010), ("с", "c.ss01", "es-cy.ss01", 0xE011), ("е", "e.ss01", "ie-cy.ss01", 0xE012), ("ё", "edieresis.ss01", "io-cy.ss01", 0xE013)]
 meta = {}
