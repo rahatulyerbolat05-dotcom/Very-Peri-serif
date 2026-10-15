@@ -288,7 +288,7 @@
       "advance": 613,
       "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
       "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup",
-      "mapping_status": "tentative U+0426 from filename; И-shaped diagonal body, awaiting user clarification; not in alphabet map"
+      "mapping_status": "confirmed by user: intentional capital Ц with diagonal И-like body and tail"
     }
   ]
 }

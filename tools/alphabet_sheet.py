@@ -194,7 +194,8 @@ def source_items(ch, cfg):
     """Return the drawings to show, omitting genuinely shared duplicates."""
     if ch in cfg.get("user", {}):
         item = next(v for v in cfg["user"][ch]["variants"] if v["role"] == "primary")
-        return [{"path": item["path"], "short": "Автор", "color": PURPLE}]
+        archive = cfg["user"][ch].get("origin") == "Claude"
+        return [{"path": item["path"], "short": "Claude · архив" if archive else "Автор", "color": GREEN if archive else PURPLE}]
     done = cfg["done"]
     entry = cfg.get("codex", {}).get(ch)
     result = []
@@ -222,6 +223,8 @@ def trim(label, limit=24):
 
 def cell_caption(ch, cfg):
     if ch in cfg.get("user", {}):
+        if cfg["user"][ch].get("origin") == "Claude":
+            return "Claude · на рассмотрении", GREEN
         return "Автор · SVG / исходник", PURPLE
     entry = cfg.get("codex", {}).get(ch)
     if entry:
@@ -250,7 +253,7 @@ def draw_cell(ax, ch, cfg, x, y, width=188, height=252):
     entry = cfg.get("codex", {}).get(ch)
     items = source_items(ch, cfg)
     has_claude = ch in cfg["done"]
-    border = PURPLE if ch in cfg.get("user", {}) else BLUE if entry else GREEN if has_claude else FAINT
+    border = (GREEN if cfg["user"][ch].get("origin") == "Claude" else PURPLE) if ch in cfg.get("user", {}) else BLUE if entry else GREEN if has_claude else FAINT
     rectangle(ax, x + 4, y + 4, width - 8, height - 8, border, 2 if items else 1, not items)
     if entry and has_claude:
         rectangle(ax, x + 9, y + 9, width - 18, height - 18, GREEN, 1, fill="none")
@@ -348,7 +351,7 @@ def inventory(cfg, filename):
     missing_upper = " ".join(ch for ch in UP if ch not in present) or "—"
     text(ax, pad, y + 76, f"Строчные: {missing_lower}", 23)
     text(ax, pad, y + 116, f"Прописные: {missing_upper}", 23)
-    text(ax, pad, y + 165, "Авторские Щ, ц, щ, ф, ң, қ добавлены как исходники. Метрики предварительные; в шрифт ещё не собраны.", 17, MUTED)
+    text(ax, pad, y + 165, "Авторские SVG и У/Ұ/Ң из архива добавлены как исходники. Архивные формы ещё на рассмотрении.", 17, MUTED)
     text(ax, pad, y + 201, "Источник: data/alphabet.json и указанные GLIF. Основы и альтернативы к/т вынесены на отдельный лист.", 16, MUTED)
     save(fig, filename)
     return {"russian": total, "russian_upper": ru_upper, "russian_lower": ru_lower, "kazakh": kz,

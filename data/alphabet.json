@@ -957,10 +957,8 @@
       ],
       "provenance": "авторский SVG пользователя",
       "status": "source only; metrics provisional"
-    }
-  },
-  "pending_user_uploads": {
-    "ц заглавная.svg": {
+    },
+    "Ц": {
       "selected": "primary",
       "variants": [
         {
@@ -995,7 +993,120 @@
         }
       ],
       "provenance": "авторский SVG пользователя",
-      "status": "mapping pending: source is И-shaped with tail; user clarification requested"
+      "status": "user confirmed mapping as Ц; source-only, metrics provisional"
+    },
+    "Қ": {
+      "selected": "primary",
+      "variants": [
+        {
+          "character": "Қ",
+          "role": "primary",
+          "source_name": "қ заглав.svg",
+          "origin": "user",
+          "path": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+          "transform": [
+            1.0084033613445378,
+            0,
+            0,
+            -1.0084033613445378,
+            19,
+            720
+          ],
+          "metrics_status": "provisional; body714 uniformly restored to720, side margins19",
+          "glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
+          "source_sha256": "09ead442e185382e9232ef9a31ce3ff5a5acd50cb952c6a51ceee6df706ca2e8",
+          "advance": 577,
+          "bounds": [
+            19.0,
+            -201.40737301361082,
+            558.1963025210083,
+            720.0
+          ]
+        }
+      ],
+      "origin": "user",
+      "provenance": "user",
+      "status": "source-only; not compiled"
+    },
+    "У": {
+      "selected": null,
+      "variants": [
+        {
+          "character": "У",
+          "role": "primary",
+          "source_name": "U-cy.glif",
+          "origin": "Claude archive, user supplied",
+          "path": "data/incoming-caps-2026-10-16/U-cy.glif",
+          "status": "proposal awaiting approval",
+          "metrics_status": "original GLIF metrics retained",
+          "glif_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
+          "source_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
+          "advance": 477,
+          "bounds": [
+            -18.0,
+            0.0,
+            495.0,
+            720.0
+          ]
+        }
+      ],
+      "origin": "Claude",
+      "provenance": "Claude archive, user supplied",
+      "status": "archive proposal; awaiting approval"
+    },
+    "Ұ": {
+      "selected": null,
+      "variants": [
+        {
+          "character": "Ұ",
+          "role": "primary",
+          "source_name": "Ustraightstroke-cy.glif",
+          "origin": "Claude archive, user supplied",
+          "path": "data/incoming-caps-2026-10-16/Ustraightstroke-cy.glif",
+          "status": "proposal awaiting approval",
+          "metrics_status": "original GLIF metrics retained",
+          "glif_sha256": "085e787d860e4ac2d25e16319a921ea6ac8e440b9c689413b9479c4963708e1f",
+          "source_sha256": "085e787d860e4ac2d25e16319a921ea6ac8e440b9c689413b9479c4963708e1f",
+          "advance": 477,
+          "bounds": [
+            -18.0,
+            0.0,
+            495.0,
+            720.0
+          ]
+        }
+      ],
+      "origin": "Claude",
+      "provenance": "Claude archive, user supplied",
+      "status": "archive proposal; awaiting approval"
+    },
+    "Ң": {
+      "selected": null,
+      "variants": [
+        {
+          "character": "Ң",
+          "role": "primary",
+          "source_name": "missing_caps.svg",
+          "origin": "Claude archive, user supplied",
+          "path": "data/incoming-caps-2026-10-16/uni04A2-proof.glif",
+          "status": "proposal extracted from third glyph group; awaiting approval",
+          "metrics_status": "SVG provides no advance; provisional right margin19",
+          "source_group_transform_ignored": "translate(791.5 546.4) scale(0.620 -0.620)",
+          "glif_sha256": "ed1101641f2e8ea158c026d4bb8af435de3c49c6f921cd465b2c6acc545cd095",
+          "source_sha256": "a856d0aeffad25f6bbd8a574b7e47521ae5ebaebf73552cb1e444a1fc0e06e4d",
+          "advance": 621,
+          "bounds": [
+            19.0,
+            -215.0,
+            602.0,
+            720.0
+          ]
+        }
+      ],
+      "origin": "Claude",
+      "provenance": "Claude archive, user supplied",
+      "status": "archive proposal; awaiting approval"
     }
-  }
+  },
+  "pending_user_uploads": {}
 }
