@@ -361,3 +361,15 @@ def ef3_sign(ref, a_o=170.0, a_i=100.0, n_o=2.2, n_i=2.2, hair=25.0, stem=68.0, 
     st = rect(axis - stem / 2, -150.0, axis + stem / 2, 600.0)
     path = OR(ringL, ringR, top, bot, st)
     return shift(path, 23.0 - path.bounds[0])
+
+
+def pe_cap_sign(ref, bar_t=30.0, top=720.0):
+    """Заглавная П (карточка docs/glyphs/pe_cap.md): H оригинала без перекладины, вместо неё верхняя горизонталь (инструкция, раздел 7: П-образная, углы с засечками).
+    Стойки, опорные и головные засечки H остаются как есть (F2 внизу, головные засечки на обеих стойках), верхняя горизонталь толщиной bar_t лежит на плоской линии 720 заподлицо с засечками
+    и входит в обе стойки. Ширина и поля H (546, 19/19)."""
+    H = ref.glyph("H")
+    stems = SUB(H, rect(160, 330, 386, 410))                              # убрать перекладину H (358–388)
+    bar = rect(150.0, top - bar_t, 396.0, top)
+    path = OR(stems, bar); path.simplify()
+    info = {"bar_t": bar_t, "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
