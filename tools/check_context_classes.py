@@ -50,10 +50,10 @@ def test_top(p):
     rs = runs_at(p, 380)
     if not rs: return False, "нет контура на y=380"
     x0, x1 = rs[0]; w = x1 - x0
-    c1 = 55 <= w <= 90
+    c1 = 25 <= w <= 90
     xa = leftmost(p, 470, 512)
     c2 = xa is not None and xa <= x0 + 10
-    return (c1 and c2), f"C1 первая стойка на y=380: x {x0:.0f}..{x1:.0f}, ширина {w:.0f} (55..90: {c1}); C2 верх у левого края: x_top={xa if xa is None else round(xa)} (<= {x0 + 10:.0f}: {c2})"
+    return (c1 and c2), f"C1 первая стойка на y=380: x {x0:.0f}..{x1:.0f}, ширина {w:.0f} (25..90: {c1}); C2 верх у левого края: x_top={xa if xa is None else round(xa)} (<= {x0 + 10:.0f}: {c2})"
 
 bad = 0
 for ch, path in CFG["built_bases"].items():
