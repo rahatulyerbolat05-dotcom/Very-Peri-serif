@@ -505,8 +505,8 @@
     },
     {
       "path": "studies/regular/de-cursive/README.md",
-      "sha256": "7f5bdac83899ddeb57a48db42997da8d663c79578488faf1db0e22f9d71d6b8f",
-      "bytes": 5225
+      "sha256": "58ad08640552f779801f6348d41725c089c08cbf762e4cd875f51b85aca04d4f",
+      "bytes": 5911
     },
     {
       "path": "studies/regular/de-cursive/approved-baseline.json",
@@ -515,8 +515,8 @@
     },
     {
       "path": "studies/regular/de-cursive/comparison.svg",
-      "sha256": "e0004a7a7ff359f29087f05c69ab3cc33251d00721f796cfb034d35af957e644",
-      "bytes": 202485
+      "sha256": "a8ff9252e2933fe6b7105444622c24073267ba32ca630a4b94ca832e30d38d2a",
+      "bytes": 202508
     },
     {
       "path": "studies/regular/de-cursive/cubic-audit.json",
@@ -535,13 +535,13 @@
     },
     {
       "path": "studies/regular/de-cursive/de-01.ttf",
-      "sha256": "da7e55bcce8c4fcdcecdff2bbb67725affb21088bf825975d8b6f4d82c9c7281",
+      "sha256": "3d645be1a4421e6beb921422ae2e7979b485a2d4d3619abbb594af37acf3ed16",
       "bytes": 73668
     },
     {
       "path": "studies/regular/de-cursive/de-01.woff2",
-      "sha256": "b6d960692ada4a2bdfac587c5fdaaaee4cca94e6deecd4ed87dd75f8e26ed235",
-      "bytes": 29192
+      "sha256": "610c71d002a9e51f020089e7340040f0b532ba738272b069fc0f6963c0e8b0a8",
+      "bytes": 29068
     },
     {
       "path": "studies/regular/de-cursive/de-02.glyphs",
@@ -555,23 +555,23 @@
     },
     {
       "path": "studies/regular/de-cursive/de-02.ttf",
-      "sha256": "17b1abf8308926951a7a2d32792d3c4dd84911224553feffc7708b455852e654",
+      "sha256": "f3cb419d82cce532a444cd3dd8567b2f45e5a4877c4760235b537852102586b9",
       "bytes": 73668
     },
     {
       "path": "studies/regular/de-cursive/de-02.woff2",
-      "sha256": "e22dca880c872b7e7a61e43748359e901103b3d682aaccf99dc13c3832b8257d",
-      "bytes": 29188
+      "sha256": "ccb659cc3c533bb5f6276c1d8dcd0b33c3afa665cbf8d2b43666836672c1327e",
+      "bytes": 29220
     },
     {
       "path": "studies/regular/de-cursive/export-audit.json",
-      "sha256": "9d7f60620a821803a093c1dfa54c403cc68e94844d79ce3c02937015f5daef8c",
-      "bytes": 7831
+      "sha256": "d1dafcae4e511396e2e296aa76f01a95b50e20404784e121f6812542dcb0572e",
+      "bytes": 11838
     },
     {
       "path": "studies/regular/de-cursive/metrics.json",
-      "sha256": "0be320bb7e8bc0dc6c4e9e6656aea9d12e44285a0e75ba1034440aadaae306d9",
-      "bytes": 6369
+      "sha256": "e1ac0bf9904c090345f3cc6022c3964f0eacdeccf77284f927ac0bf7a1fee298",
+      "bytes": 7730
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-01.glyphs",
@@ -580,13 +580,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-01.ttf",
-      "sha256": "238167cabb6160b71c9b2cb188e64bc853534f0ef4ba42417902ff493f207b65",
+      "sha256": "70bac625957ee6c32d6241f4b50a02f995e5a20f55895c93fc2f90d008e1d35d",
       "bytes": 73812
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-01.woff2",
-      "sha256": "4b77e31a7c84bad345f4c3077a98d6451a21b5dd2825800d3f632a9e368d5f4d",
-      "bytes": 29140
+      "sha256": "ce8920d3674d3c4f134b44dfe8beeb7616d88f6f6671aaf3e5c7f3fe1cf6f845",
+      "bytes": 29152
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-02.glyphs",
@@ -595,13 +595,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-02.ttf",
-      "sha256": "bdd73f0984c9e189f87485b3cf3ae1ca0c56aae5a24c8c37e5c0ed3db70cab7e",
+      "sha256": "d8f416c664360d5a2fc68ba27211187b6d2835ebb0fbc2feb569997b1d830cd3",
       "bytes": 73816
     },
     {
       "path": "studies/regular/de-cursive/with-ka01-shorti02/de-02.woff2",
-      "sha256": "27dd4d67939ab1251fa88cd3dda286d0a6345e8d67d29a331daf3c92c3b55854",
-      "bytes": 29172
+      "sha256": "4fbe0aba4e0341394d988ed9b16458d24378c8859e9bbb5e25388e1d148f756d",
+      "bytes": 29180
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-01.glyphs",
@@ -610,13 +610,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-01.ttf",
-      "sha256": "bbca8497b9c7a8646b5d2463e8302c352d094275b11473f2d5230bf09c32bc46",
+      "sha256": "4aa5d2d851f2ce6b89b73aacfa3b093706c131802507f7f6d6aa93031bd96f97",
       "bytes": 73680
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-01.woff2",
-      "sha256": "9d0c03c6e5febfcd91b9946ae0c542f689e9bcf363fc6a26c4d624476c41f4ff",
-      "bytes": 29216
+      "sha256": "9234e6ddaed60bb50b99c730edea7121aa680bd44ebc4c1455dc16df88c73d4a",
+      "bytes": 29212
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-02.glyphs",
@@ -625,13 +625,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-02.ttf",
-      "sha256": "743f19a978ada31d68a49b636244bcc745806fd9020ff10ce01f663a7aee39b4",
+      "sha256": "38a8cf94c953a6d4425507231e3cec0cbcf0469171705740e1eb63a0315723a5",
       "bytes": 73684
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti01/de-02.woff2",
-      "sha256": "c8694bfa0a77b5392cd679a7a4eb3d090e4dee23daa3b47c90a6566fcb16ea93",
-      "bytes": 29184
+      "sha256": "519281897c0d4690f1352521f02cf7793931e0868b525b110690c424233defc6",
+      "bytes": 29256
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-01.glyphs",
@@ -640,13 +640,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-01.ttf",
-      "sha256": "1715985dcd0362acbfcfab2a546c6c31e9323caaa975d688dc0293a372bda236",
+      "sha256": "e3e812428f85dcf5fb74dac65a286f91774585dc3d00475acfd00f70cec0069f",
       "bytes": 73828
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-01.woff2",
-      "sha256": "d057b80c7f43cd86de7bfb10c6fb61533f7cc3d5f0756ff6ec274bf7213961fb",
-      "bytes": 29196
+      "sha256": "d77d6cca54bd9565f9affe8aefd8e164aa5f6db29f4e692b331bc746f558a584",
+      "bytes": 29168
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-02.glyphs",
@@ -655,13 +655,13 @@
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-02.ttf",
-      "sha256": "48449fa241147291fd93d580f85ee7df816e98d6014e23525f7a24c4f7d2001f",
+      "sha256": "82625e77fe467a88911d9f8aa0b57a2f710f3b0a17753445a417421f38cf8be4",
       "bytes": 73828
     },
     {
       "path": "studies/regular/de-cursive/with-ka02-shorti02/de-02.woff2",
-      "sha256": "b9c1f1c156df05457632c29da6bb28327edc2f86ae8bdc1914998fe241f900cd",
-      "bytes": 29132
+      "sha256": "191d203ac0119421bad3ecaed95ba024154b2a78f2f6b9ef496a3e2ac1f75ecb",
+      "bytes": 29148
     },
     {
       "path": "studies/regular/de-cyrillic/OFL.txt",

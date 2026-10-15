@@ -50,8 +50,23 @@ native=TTFont(reference/'fonts/ttf/InstrumentSerif-Regular.ttf')
 baseline=json.loads((ROOT/'studies/regular/ka/approved-baseline.json').read_text())['fixed_glyphs']
 latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])
 latin_tests=['AV','To','Ta','Yo','Wa','LT','Fo','Pa','oo','r.','fo','C)','C?','A/']
+de_quadratic_checked=0
 for combo in latest:
     path=ROOT/combo['ttf'];f=TTFont(path)
+    if path.is_relative_to(ROOT/'studies/regular/de-cursive'):
+        de_quadratic_checked+=1
+        # Check the saved integer-grid curves, independently of the build recipe.
+        de=f['glyf']['uni0434'];start=0
+        for end in de.endPtsOfContours:
+            ring=list(de.coordinates[start:end+1]);flags=list(de.flags[start:end+1])
+            for i,point in enumerate(ring):
+                if not flags[i]&1:continue
+                previous=ring[i-1];following=ring[(i+1)%len(ring)]
+                incoming=(point[0]-previous[0],point[1]-previous[1])
+                outgoing=(following[0]-point[0],following[1]-point[1])
+                assert incoming[0]*outgoing[1]-incoming[1]*outgoing[0]==0,(path,i)
+                assert incoming[0]*outgoing[0]+incoming[1]*outgoing[1]>0,(path,i)
+            start=end+1
     for n in native.getGlyphOrder():
         assert native['glyf'][n].compile(native['glyf'])==f['glyf'][n].compile(f['glyf']),(path,n)
         assert native['hmtx'][n]==f['hmtx'][n],(path,n)
@@ -85,6 +100,6 @@ if args.rebuilt_dir:
             for tag in ['GSUB','GPOS','GDEF']:
                 assert a[tag].compile(a)==b[tag].compile(b),(candidate,tag)
             rebuilt_count+=1
-report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
+report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
 args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -49,7 +49,7 @@
       "Мягкая"
     ],
     "д": {
-      "status": "new_unselected_handwritten_upper_ascender_proposals",
+      "status": "polished_handwritten_candidates_awaiting_user_selection",
       "primary": null,
       "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
       "previous_variants": [
@@ -67,7 +67,8 @@
       "rejected_studies": [
         "studies/regular/de-native",
         "studies/regular/de-cyrillic"
-      ]
+      ],
+      "export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes"
     },
     "й": {
       "variants": [

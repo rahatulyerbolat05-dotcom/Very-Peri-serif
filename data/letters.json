@@ -1067,7 +1067,7 @@
         }
       ],
       "design_status": {
-        "status": "new_unselected_handwritten_candidates",
+        "status": "polished_handwritten_candidates_awaiting_user_selection",
         "primary_variant": null,
         "technical_default_variant": "01",
         "final_contour_acceptance": "pending user review",
@@ -1087,7 +1087,7 @@
             "unicode": "U+0434",
             "glyph": "uni0434",
             "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
-            "status": "unselected handwritten Cyrillic design study",
+            "status": "polished handwritten candidate awaiting user selection",
             "advance": 408,
             "bbox_cubic": [
               23,
@@ -1149,6 +1149,36 @@
                 "upper_terminal_profile": "rounded compact stroke cap; no ball"
               }
             },
+            "quadratic_export": {
+              "off_curve_adjustments": [
+                {
+                  "index": 32,
+                  "from": [
+                    150,
+                    680
+                  ],
+                  "to": [
+                    150,
+                    679
+                  ]
+                },
+                {
+                  "index": 34,
+                  "from": [
+                    141,
+                    689
+                  ],
+                  "to": [
+                    141,
+                    688
+                  ]
+                }
+              ],
+              "points": 68,
+              "expected_explicit_join_tangent_error_degrees": 0,
+              "sampled_full_glyph_symmetric_hausdorff": 0.422654,
+              "previous_maximum_tangent_error_degrees": 12.6804
+            },
             "checks": {
               "sampled_topology_valid": true,
               "adjacent_cubic_duplicates": 0,
@@ -1170,7 +1200,7 @@
             "unicode": "U+0434",
             "glyph": "uni0434",
             "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
-            "status": "unselected handwritten Cyrillic design study",
+            "status": "polished handwritten candidate awaiting user selection",
             "advance": 408,
             "bbox_cubic": [
               23,
@@ -1232,6 +1262,36 @@
                 "upper_terminal_profile": "rounded compact stroke cap; no ball"
               }
             },
+            "quadratic_export": {
+              "off_curve_adjustments": [
+                {
+                  "index": 30,
+                  "from": [
+                    127,
+                    664
+                  ],
+                  "to": [
+                    128,
+                    664
+                  ]
+                },
+                {
+                  "index": 36,
+                  "from": [
+                    105,
+                    678
+                  ],
+                  "to": [
+                    106,
+                    678
+                  ]
+                }
+              ],
+              "points": 69,
+              "expected_explicit_join_tangent_error_degrees": 0,
+              "sampled_full_glyph_symmetric_hausdorff": 0.513781,
+              "previous_maximum_tangent_error_degrees": 1.8476
+            },
             "checks": {
               "sampled_topology_valid": true,
               "adjacent_cubic_duplicates": 0,
@@ -1257,13 +1317,13 @@
         }
       ],
       "checks": {
-        "this_pass": "Eight combinations built and independently inspected; semantic rebuild verification recorded separately.",
+        "this_pass": "Eight combinations rebuilt with local upper-terminal rounding refinement; saved integer-grid joins checked independently.",
         "report": "studies/regular/de-cursive/export-audit.json",
         "visual_acceptance": "pending",
         "kerning": "no donor pairs assigned; final spacing pending",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "ttf_curve_limit": "Source G1 exact; TTF integer rounding gives sampled deviation <=0.56u and a local 12.68-degree small-terminal tangent change in01."
+        "ttf_curve_limit": "All explicit quadratic joins are G1 on integer grid after local control refinement; dense sampled symmetric source/export distance about0.423/0.514u. G2 and analytic error bounds not claimed."
       },
       "confidence": {
         "measured": "Explicitly labeled Latin parameter facts and read-only export observations only",
@@ -1274,7 +1334,8 @@
         "study_directory": "studies/regular/de-cursive",
         "readme": "studies/regular/de-cursive/README.md",
         "design_notes": "data/de-cursive-outlines.json",
-        "reference_research": "studies/reference-analysis/cursive-de"
+        "reference_research": "studies/reference-analysis/cursive-de",
+        "quadratic_export_policy": "data/de-cursive-export.json"
       },
       "instruction_deviations": [
         {
@@ -2100,7 +2161,7 @@
         "handwritten_upper_ascender": {
           "path": "studies/regular/de-cursive",
           "design_data": "data/de-cursive-outlines.json",
-          "status": "two unselected proposals",
+          "status": "polished candidates awaiting user selection; no primary assigned",
           "primary_variant": null
         }
       },

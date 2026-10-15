@@ -31,6 +31,7 @@ NATIVE=TTFont(REFERENCE/'fonts/ttf/InstrumentSerif-Regular.ttf')
 BASE=args.base_dir.resolve()
 GLYPH='uni0434'
 DESIGN=json.loads((ROOT/'data/de-cursive-outlines.json').read_text())
+EXPORT=json.loads((ROOT/'data/de-cursive-export.json').read_text())
 DONORS={v:'o' for v in DESIGN['variants']}
 LABELS={v:d['name'] for v,d in DESIGN['variants'].items()}
 
@@ -49,6 +50,19 @@ def topology(obj,gs=None):
     assert len(pen.rings)==2
     assert Polygon(pen.rings[0],pen.rings[1:]).is_valid
     return True
+
+def refine_quadratic(glyph,variant):
+    """Resolve terminal rounding locally; never touch source/native contours."""
+    glyph.coordinates.toInt()
+    policy=EXPORT['variants'][variant]
+    assert len(glyph.coordinates)==policy['points']
+    for correction in policy['off_curve_adjustments']:
+        i=correction['index']
+        assert not glyph.flags[i]&1,('expected off-curve',variant,i)
+        assert list(glyph.coordinates[i])==correction['from'],('conversion drift',variant,i)
+        assert sum(abs(a-b) for a,b in zip(correction['from'],correction['to']))==1
+        glyph.coordinates[i]=tuple(correction['to'])
+    return glyph
 
 fonts={};metrics={};combinations=[]
 for v,donor in DONORS.items():
@@ -72,7 +86,7 @@ for v,donor in DONORS.items():
             parent=TTFont(input_dir/f'ka-{ka}.ttf')
             tt=TTFont(input_dir/f'ka-{ka}.ttf');_=tt['GSUB'].table;_=tt['GPOS'].table
             pen=TTGlyphPen(None);layer.draw(Cu2QuPen(pen,max_err=.20,reverse_direction=True))
-            tt['glyf'][GLYPH]=pen.glyph();tt['glyf'][GLYPH].recalcBounds(tt['glyf'])
+            tt['glyf'][GLYPH]=refine_quadratic(pen.glyph(),v);tt['glyf'][GLYPH].recalcBounds(tt['glyf'])
             tt['hmtx'][GLYPH]=(design['advance'],tt['glyf'][GLYPH].xMin)
             tt['GDEF'].table.GlyphClassDef.classDefs[GLYPH]=1
             mark_base(tt,GLYPH,donor,top=top_anchor,bottom=bottom_anchor,active_classes={0,2})
@@ -104,7 +118,7 @@ for v,donor in DONORS.items():
             assert hb_shape(directory/f'de-{v}.ttf','д',{'ss06':True})[0][0]=='de.altAsymmetric'
             if (ka,shorti)==('01','01'):fonts[v]=tt
             combinations.append({'de_variant':v,'ka_variant':ka,'shorti_variant':shorti,'ttf':str((directory/f'de-{v}.ttf').relative_to(OUT))})
-    metrics[v]={'name':LABELS[v],'unicode':'U+0434','glyph':GLYPH,'construction':design['construction'],'status':'unselected handwritten Cyrillic design study','advance':layer.width,'bbox_cubic':bp.bounds,'hmtx':list(fonts[v]['hmtx'][GLYPH]),'cubic_nodes':sum(len(p.nodes) for p in layer.paths),'ttf_points':len(fonts[v]['glyf'][GLYPH].coordinates),'contours':2,'kerning':'new outline has no assigned donor kerning; Cyrillic contextual review pending','design_provenance':design.get('provenance',{}),'checks':{'sampled_topology_valid':True,'adjacent_cubic_duplicates':0,'all_other_glyphs_and_hmtx_unchanged':True,'gsub_unchanged_ss06_legacy_preserved':True,'all_exports_reopened':True}}
+    metrics[v]={'name':LABELS[v],'unicode':'U+0434','glyph':GLYPH,'construction':design['construction'],'status':'polished handwritten candidate awaiting user selection','advance':layer.width,'bbox_cubic':bp.bounds,'hmtx':list(fonts[v]['hmtx'][GLYPH]),'cubic_nodes':sum(len(p.nodes) for p in layer.paths),'ttf_points':len(fonts[v]['glyf'][GLYPH].coordinates),'contours':2,'kerning':'new outline has no assigned donor kerning; Cyrillic contextual review pending','design_provenance':design.get('provenance',{}),'quadratic_export':EXPORT['variants'][v],'checks':{'sampled_topology_valid':True,'adjacent_cubic_duplicates':0,'all_other_glyphs_and_hmtx_unchanged':True,'gsub_unchanged_ss06_legacy_preserved':True,'all_exports_reopened':True}}
 
 class PlotPen(BasePen):
     def __init__(self,gs):super().__init__(gs);self.v=[];self.c=[]

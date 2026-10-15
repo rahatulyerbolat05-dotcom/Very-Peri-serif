@@ -10,6 +10,7 @@
     "json": 42
   },
   "latest_combinations_checked": 12,
+  "handwritten_de_integer_grid_g1_checked": 8,
   "baseline_glyphs_checked": 9,
   "original_glyphs_preserved": 377,
   "latin_pair_samples_preserved": 14,

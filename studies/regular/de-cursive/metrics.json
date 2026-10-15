@@ -5,7 +5,7 @@
       "unicode": "U+0434",
       "glyph": "uni0434",
       "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
-      "status": "unselected handwritten Cyrillic design study",
+      "status": "polished handwritten candidate awaiting user selection",
       "advance": 408,
       "bbox_cubic": [
         23,
@@ -67,6 +67,36 @@
           "upper_terminal_profile": "rounded compact stroke cap; no ball"
         }
       },
+      "quadratic_export": {
+        "off_curve_adjustments": [
+          {
+            "index": 32,
+            "from": [
+              150,
+              680
+            ],
+            "to": [
+              150,
+              679
+            ]
+          },
+          {
+            "index": 34,
+            "from": [
+              141,
+              689
+            ],
+            "to": [
+              141,
+              688
+            ]
+          }
+        ],
+        "points": 68,
+        "expected_explicit_join_tangent_error_degrees": 0,
+        "sampled_full_glyph_symmetric_hausdorff": 0.422654,
+        "previous_maximum_tangent_error_degrees": 12.6804
+      },
       "checks": {
         "sampled_topology_valid": true,
         "adjacent_cubic_duplicates": 0,
@@ -80,7 +110,7 @@
       "unicode": "U+0434",
       "glyph": "uni0434",
       "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
-      "status": "unselected handwritten Cyrillic design study",
+      "status": "polished handwritten candidate awaiting user selection",
       "advance": 408,
       "bbox_cubic": [
         23,
@@ -141,6 +171,36 @@
           "upper_crown_vertical_thickness": 25,
           "upper_terminal_profile": "rounded compact stroke cap; no ball"
         }
+      },
+      "quadratic_export": {
+        "off_curve_adjustments": [
+          {
+            "index": 30,
+            "from": [
+              127,
+              664
+            ],
+            "to": [
+              128,
+              664
+            ]
+          },
+          {
+            "index": 36,
+            "from": [
+              105,
+              678
+            ],
+            "to": [
+              106,
+              678
+            ]
+          }
+        ],
+        "points": 69,
+        "expected_explicit_join_tangent_error_degrees": 0,
+        "sampled_full_glyph_symmetric_hausdorff": 0.513781,
+        "previous_maximum_tangent_error_degrees": 1.8476
       },
       "checks": {
         "sampled_topology_valid": true,

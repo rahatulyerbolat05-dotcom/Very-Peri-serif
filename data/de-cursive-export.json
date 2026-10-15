@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "purpose": "Local integer-grid refinement of the new upper-stroke controls after cubic-to-quadratic conversion. Cubic source and native o fragments remain unchanged.",
+  "conversion": {"fonttools": "4.67.0", "cu2qu_max_err": 0.2, "rounding": "fontTools otRound"},
+  "variants": {
+    "01": {
+      "off_curve_adjustments": [
+        {"index": 32, "from": [150, 680], "to": [150, 679]},
+        {"index": 34, "from": [141, 689], "to": [141, 688]}
+      ],
+      "points": 68,
+      "expected_explicit_join_tangent_error_degrees": 0,
+      "sampled_full_glyph_symmetric_hausdorff": 0.422654,
+      "previous_maximum_tangent_error_degrees": 12.6804
+    },
+    "02": {
+      "off_curve_adjustments": [
+        {"index": 30, "from": [127, 664], "to": [128, 664]},
+        {"index": 36, "from": [105, 678], "to": [106, 678]}
+      ],
+      "points": 69,
+      "expected_explicit_join_tangent_error_degrees": 0,
+      "sampled_full_glyph_symmetric_hausdorff": 0.513781,
+      "previous_maximum_tangent_error_degrees": 1.8476
+    }
+  },
+  "limits": [
+    "Control indices and expected rounded coordinates intentionally fail on incompatible conversion changes.",
+    "G1 applies to explicit joins; it does not claim global G2 curvature continuity.",
+    "Sampled Hausdorff measurements are numerical observations, not analytic error bounds."
+  ]
+}
