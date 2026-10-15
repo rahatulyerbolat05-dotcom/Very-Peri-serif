@@ -31,7 +31,7 @@
 | [письменные д](studies/regular/de-cursive/) | Обе реализации отклонены: кривые и окончания не попали в стиль |
 | [д](studies/regular/de-reimagined/) | Основная01 «Острый свод»;02 «Перьевой поворот» сохранён отдельно альтернативой |
 | [т](studies/regular/te/) | Основная02 «Письменный выход»;01 «Родные арки» — альтернативный стиль |
-| [э](studies/regular/ereversed/) | 01 «Каплевидный вход» /02 «Перьевой вход»; основная не выбрана |
+| [э](studies/regular/ereversed-refined/) | 01 «Капля a — выше» /02 «Капля a — ниже»; новые невыбранные пробы |
 | [ш, ь, ы, ъ в ветке Клода](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/tree/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs) | Выбраны R1 / S3 / Y1 / K2; пока отдельные эскизы, в наши шрифты не включены |
 
 Сборки содержат **абвгдежзийкорстухэё**, включая унаследованные а/е/о/р/с/у/х.
@@ -39,16 +39,17 @@
 стадии разработки; последующие выбранные контуры находятся в поздних сборках.
 История и резервные версии сохранены в [studies/archive](studies/archive/).
 
-![Два варианта э рядом с исходными буквами](studies/regular/ereversed/comparison.svg)
+![Два варианта э рядом с исходными буквами](studies/regular/ereversed-refined/comparison.svg)
 
 Актуальное направление строчных: письменные/курсивные скелеты с вертикальной
 осью, контрастом и деталями Instrument Serif Regular. Отдельное начертание
 Italic остаётся отложенным. Прежние запреты арок из исторической инструкции
 исправлены; уже выбранные глифы сохраняются.
 
-Текущая работа — [строчная э](studies/regular/ereversed/): открытая чаша
-на основе правой дуги o, два разных верхних окончания и перекладина25.
-Оба варианта к выбору. [Размерные пробы э](studies/regular/ereversed/sizes.svg).
+Текущая работа — [строчная э](studies/regular/ereversed-refined/): выраженная
+капля из родной a и заново выстроенный свод. У01 вход выше, у02 ниже.
+Оба варианта к выбору. [Сравнение с прежними](studies/regular/ereversed-refined/evolution.svg)
+и [размерные пробы э](studies/regular/ereversed-refined/sizes.svg).
 
 У [строчной т](studies/regular/te/): две верхние арки
 на основе native m;01 сохраняет исходные окончания,02 использует правый
@@ -89,6 +90,7 @@ python3 -m venv .venv
 .venv/bin/python tools/build_de_reimagined.py --base-dir build/regular/ka
 .venv/bin/python tools/build_te.py --base-dir build/regular/de-reimagined
 .venv/bin/python tools/build_ereversed.py --base-dir build/regular/te
+.venv/bin/python tools/build_ereversed.py --revision refined --base-dir build/regular/te
 .venv/bin/python tools/audit_de_reimagined.py
 .venv/bin/python tools/research_cursive_de.py
 .venv/bin/python tools/verify_studies.py

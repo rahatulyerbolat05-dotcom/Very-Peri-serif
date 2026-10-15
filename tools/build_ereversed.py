@@ -7,6 +7,7 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.basePen import BasePen
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.pens.svgPathPen import SVGPathPen
+from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.cu2quPen import Cu2QuPen
 from shapely.geometry import Polygon,LinearRing
@@ -23,11 +24,13 @@ parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--output-dir',type=Path,default=ROOT/'build/regular')
 parser.add_argument('--base-dir',type=Path,default=ROOT/'studies/regular/te')
 parser.add_argument('--reference-dir',type=Path,default=ROOT/'reference/instrument-serif')
+parser.add_argument('--revision',choices=['original','refined'],default='original')
 args=parser.parse_args();ref=verify_reference(args.reference_dir)
-base=args.base_dir.resolve();out=args.output_dir.resolve()/'ereversed';out.mkdir(parents=True,exist_ok=True)
+refined=args.revision=='refined';stage='ereversed-refined' if refined else 'ereversed'
+base=args.base_dir.resolve();out=args.output_dir.resolve()/stage;out.mkdir(parents=True,exist_ok=True)
 source=GSFont(str(ref/'sources/Instrument_Serif.glyphs'))
-design=json.loads((ROOT/'data/ereversed-outlines.json').read_text())
-export_recipe=json.loads((ROOT/'data/ereversed-export.json').read_text())
+design=json.loads((ROOT/f'data/{stage}-outlines.json').read_text())
+export_recipe=json.loads((ROOT/f'data/{stage}-export.json').read_text())
 pins=[json.loads((ROOT/f'data/selected-{name}.json').read_text()) for name in ['de','te']]
 target='uni044D'
 
@@ -108,6 +111,12 @@ def polish_integer_export(tt,variant):
 
 fonts={};metrics={};checks={};combinations=[]
 for variant,spec in design['variants'].items():
+    if refined:
+        donor=RecordingPen();source.glyphs['a'].layers[0].draw(donor)
+        dx,dy=spec['drop_donor']['translation']
+        for target_index,source_index in zip([4,5],spec['drop_donor']['exact_source_commands']):
+            op,points=donor.value[source_index]
+            assert spec['commands'][target_index]==[op,[[x+dx,y+dy] for x,y in points]]
     layer=GSLayer();layer.width=spec['advance'];pen=layer.getPen()
     for op,pts in spec['commands']:getattr(pen,op)(*[tuple(p) for p in pts])
     layer.anchors=[GSAnchor(k,tuple(v)) for k,v in spec['anchors'].items()]
@@ -136,7 +145,7 @@ for variant,spec in design['variants'].items():
             tt['GDEF'].table.GlyphClassDef.classDefs[target]=1
             mark_base(tt,target,'o',top=tuple(spec['anchors']['top']),bottom=tuple(spec['anchors']['bottom']),active_classes={0,2})
             inherit_right_edge(tt)
-            suffix=f'Ereversed{variant}Te02De01Ka{ka}ShortI{shorti}';names(tt,suffix)
+            suffix=f'Ereversed{"Refined" if refined else ""}{variant}Te02De01Ka{ka}ShortI{shorti}';names(tt,suffix)
             dest=out if (ka,shorti)==('01','01') else out/f'with-ka{ka}-shorti{shorti}';dest.mkdir(exist_ok=True)
             tt=save_font(tt,dest/f'ereversed-{variant}')
             fs=GSFont(str(input_dir/'te-02.glyphs'));fs.familyName='Very Peri Regular Study '+suffix
@@ -166,10 +175,13 @@ for variant,spec in design['variants'].items():
         'cubic_nodes':sum(len(p.nodes) for p in layer.paths),'ttf_points':len(fonts[variant]['glyf'][target].coordinates),'contours':1,
         'crossbar_y':[277,302],'crossbar_thickness':25,'crossbar_free_x':spec['crossbar_free_x'],'crossbar_straight_start_x':spec['crossbar_straight_start_x'],'native_relationship':spec['native_relationship'],
         'anchors':spec['anchors'],'kerning':'Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.'}
+    if refined:
+        metrics[variant]['drop_donor']=spec['drop_donor']
+        metrics[variant]['crown_curvature_radii']=spec['crown_curvature_radii']
     checks[variant]={'sampled_source_and_ttf_topology_valid':True,'adjacent_source_duplicates':0,'source_smooth_join_max_error_degrees':tangent_error,
         'sampled_source_export_hausdorff_units':distance,'relative_area_difference':abs(tt_poly.area-poly.area)/poly.area,
         'integer_export_exact_g1_joins':len(integer_join_indices),'integer_export_max_join_angle_degrees':0.0,
-        'integer_export_recipe':'data/ereversed-export.json','integer_export_max_coordinate_adjustment_units':1,
+        'integer_export_recipe':f'data/{stage}-export.json','integer_export_max_coordinate_adjustment_units':1,
         'all_other_glyf_hmtx_and_gsub_preserved':True,'selected_de_and_te_preserved':True,'whole_glyph_mirror_used':False}
 
 class PlotPen(BasePen):
@@ -185,19 +197,19 @@ def word(ax,text,v,x,y,scale,color='#282334'):
     for n,adv,_,dx,dy in hb_shape(out/f'ereversed-{v}.ttf',text,{'liga':False}):
         draw(ax,fonts[v],n,x+dx*scale,y+dy*scale,scale,color);x+=adv*scale
 fig=plt.figure(figsize=(16,14),facecolor='#f5f1e9')
-fig.text(.055,.958,'э / открытая чаша и тонкая перекладина',fontsize=25,color='#282334')
-fig.text(.055,.921,'Very Peri Serif · новые окончания на основе родной пластики',fontsize=12,color='#827b73')
+fig.text(.055,.958,'э / капля и ритм верхней дуги' if refined else 'э / открытая чаша и тонкая перекладина',fontsize=25,color='#282334')
+fig.text(.055,.921,'Капля родной a · заново выстроенный свод' if refined else 'Very Peri Serif · новые окончания на основе родной пластики',fontsize=12,color='#827b73')
 for i,(v,spec) in enumerate(design['variants'].items()):
     x=.055+i*.49;fig.text(x,.86,f'{v} / {spec["name"]}',fontsize=19,color='#282334')
     ax=fig.add_axes([x+.035,.59,.355,.235]);ax.axis('off');ax.set_aspect('equal');ax.set_xlim(0,390);ax.set_ylim(-30,555);draw(ax,fonts[v],target)
-    ax=fig.add_axes([x,.395,.425,.17]);ax.axis('off');ax.set_aspect('equal');ax.set_xlim(0,3400);ax.set_ylim(-260,900)
+    ax=fig.add_axes([x,.395,.425,.17]);ax.axis('off');ax.set_aspect('equal');ax.set_xlim(0,3400 if not refined else 3900);ax.set_ylim(-260,900)
     pos=0
-    for ch in ['э','o','c','e','г','т']:
-        n=fonts[v].getBestCmap()[ord(ch)];draw(ax,fonts[v],n,pos,color='#8d8479' if ch in ['o','c','e'] else '#282334')
+    for ch in (['э','a','o','c','e','г','т'] if refined else ['э','o','c','e','г','т']):
+        n=fonts[v].getBestCmap()[ord(ch)];draw(ax,fonts[v],n,pos,color='#8d8479' if ch in ['a','o','c','e'] else '#282334')
         ax.text(pos+fonts[v]['hmtx'][n][0]/2,840,ch,ha='center',fontsize=10,color='#827b73');pos+=fonts[v]['hmtx'][n][0]+85
     ax=fig.add_axes([x,.10,.425,.265]);ax.axis('off');ax.set_aspect('equal');ax.set_xlim(0,3650);ax.set_ylim(-220,2650)
     for text,y in [('это эра',1900),('эге эго',950),('дуэт эхо',0)]:word(ax,text,v,0,y,.74)
-fig.text(.055,.05,'Серые o/c/e — исходник. Г с каплей, т02 и д01 сохранены. Все строки — настоящие глифы.',fontsize=10,color='#827b73')
+fig.text(.055,.05,'Серые a/o/c/e — исходник. Все строки набраны настоящими глифами.' if refined else 'Серые o/c/e — исходник. Г с каплей, т02 и д01 сохранены. Все строки — настоящие глифы.',fontsize=10,color='#827b73')
 fig.text(.055,.027,'Обе э — предложения к выбору. Наклон Italic не применяется; кернинг предварительный.',fontsize=10,color='#827b73')
 fig.savefig(out/'comparison.png',dpi=160,facecolor=fig.get_facecolor());fig.savefig(out/'comparison.svg',facecolor=fig.get_facecolor());plt.close(fig)
 fig=plt.figure(figsize=(9,7),facecolor='#f5f1e9');ax=fig.add_axes([0,0,1,1]);ax.set_xlim(0,648);ax.set_ylim(0,504);ax.axis('off');ax.add_patch(Rectangle((324,0),324,504,facecolor='#282334',lw=0))
@@ -208,8 +220,16 @@ for i,(v,spec) in enumerate(design['variants'].items()):
         for size,dy in [(12,38),(24,87),(100,195)]:
             ax.text(x,top-dy+4,str(size)+' pt',fontsize=8,color=color);word(ax,'это',v,x+55,top-dy,size/1000,color)
 fig.savefig(out/'sizes.png',dpi=180,facecolor=fig.get_facecolor());fig.savefig(out/'sizes.svg',facecolor=fig.get_facecolor());plt.close(fig)
+if refined:
+    fig,axes=plt.subplots(2,4,figsize=(14,12),facecolor='#f5f1e9')
+    oldfonts={v:TTFont(ROOT/f'studies/regular/ereversed/ereversed-{v}.ttf') for v in ['01','02']}
+    specimens=[('Прежняя 01',oldfonts['01'],target),('Новая 01',fonts['01'],target),('Новая 02',fonts['02'],target),('Родная a',fonts['01'],'a'),('Прежняя 02',oldfonts['02'],target),('Родная o',fonts['01'],'o'),('Родная c',fonts['01'],'c'),('Родная e',fonts['01'],'e')]
+    for ax,(label,tt,n) in zip(axes.flat,specimens):
+        draw(ax,tt,n,color='#8d8479' if label.startswith('Прежняя') else '#282334')
+        ax.set_aspect('equal');ax.set_xlim(-15,420);ax.set_ylim(-30,555);ax.axis('off');ax.set_title(label,fontsize=15,color='#282334')
+    fig.savefig(out/'evolution.png',dpi=160,facecolor=fig.get_facecolor());fig.savefig(out/'evolution.svg',facecolor=fig.get_facecolor());plt.close(fig)
 (out/'metrics.json').write_text(json.dumps({'variants':metrics,'combinations':combinations},ensure_ascii=False,indent=2)+'\n')
 (out/'outline-audit.json').write_text(json.dumps({'status':'passed','sample_points_per_cubic':600,'variants':checks,'limits':'Sampled topology/distance; optical acceptance remains open.','fontbakery':'not run','hyperglot':'not run'},ensure_ascii=False,indent=2)+'\n')
-baseline=json.loads((base/'approved-baseline.json').read_text());baseline['fixed_glyphs'][pins[1]['glyph']]={'hmtx':pins[1]['hmtx'],'glyf_sha256':pins[1]['glyf_sha256']};baseline['source_file']='ereversed01/02: both unselected; te02/de01 selected'
+baseline=json.loads((base/'approved-baseline.json').read_text());baseline['fixed_glyphs'][pins[1]['glyph']]={'hmtx':pins[1]['hmtx'],'glyf_sha256':pins[1]['glyf_sha256']};baseline['source_file']=stage+'01/02: both unselected; te02/de01 selected'
 (out/'approved-baseline.json').write_text(json.dumps(baseline,ensure_ascii=False,indent=2)+'\n');(out/'OFL.txt').write_bytes((base/'OFL.txt').read_bytes())
 print(json.dumps({'variants':metrics,'checks':checks,'combinations':len(combinations)},ensure_ascii=False,indent=2))

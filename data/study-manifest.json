@@ -4,14 +4,14 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/ereversed",
+  "latest_artifact": "studies/regular/ereversed-refined",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
     {
       "path": "studies/README.md",
-      "sha256": "f73baff62ce9b7d157f2a55624bbda957e53e413f391ca8cf05c58db1d9f5824",
-      "bytes": 2690
+      "sha256": "4aa4af50bcd523d5850a169e82453bc3f33601afa52a06b3b8ab3ca4d8c24c03",
+      "bytes": 2880
     },
     {
       "path": "studies/archive/de-conventional/OFL.txt",
@@ -1594,14 +1594,184 @@
       "bytes": 29304
     },
     {
+      "path": "studies/regular/ereversed-refined/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/ereversed-refined/README.md",
+      "sha256": "7119486cb205373a5305cecc3aec368a31ed07feb9ee65eb8114cd9a40460126",
+      "bytes": 4677
+    },
+    {
+      "path": "studies/regular/ereversed-refined/approved-baseline.json",
+      "sha256": "84302a00eefd62336203d84ea0082c37af91d35368b72027a1c5dca78a01a12a",
+      "bytes": 1988
+    },
+    {
+      "path": "studies/regular/ereversed-refined/comparison.svg",
+      "sha256": "8cdc03c747a75ce81e5c1db59ff3d9e29e01a8d9bc36a5a312a0176f0256932e",
+      "bytes": 193210
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-01.glyphs",
+      "sha256": "1c9278c9e3c51791c1a812860c37907865a43dc24ed70cdf1f068f98a80e7d1f",
+      "bytes": 331626
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-01.svg",
+      "sha256": "81e14ac939024ba57a7311eb5cbe6b062f1fb2af3c2019f243a142c04da04e4c",
+      "bytes": 720
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-01.ttf",
+      "sha256": "41b77cfec0e23d3080174d7aef4743aee64fcac36e2db638d04c6f5cb18875ac",
+      "bytes": 74412
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-01.woff2",
+      "sha256": "c5bc53bb701d41dd65ebae3b49c186ed2db9d8b355886b3e2d1e8a45404f2817",
+      "bytes": 29288
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-02.glyphs",
+      "sha256": "fb2c8af422dbe4a0ff6a4949022524e822a628c46b51d2a4acf7356adece7856",
+      "bytes": 331626
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-02.svg",
+      "sha256": "f8d9d6f42ba273f3119ae804d1bbc042774b1c12a63d58b8a11a70f907a3bb8b",
+      "bytes": 720
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-02.ttf",
+      "sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd",
+      "bytes": 74412
+    },
+    {
+      "path": "studies/regular/ereversed-refined/ereversed-02.woff2",
+      "sha256": "1742ab086b4ce157ac088280d5b39ba3aaacce67756a3ab7c200cd96f1cf8dc8",
+      "bytes": 29332
+    },
+    {
+      "path": "studies/regular/ereversed-refined/evolution.svg",
+      "sha256": "da6a58bcdddeaca94dd7597d4b70be416870ee40e7afd9a9a9ffb06b312c54e1",
+      "bytes": 37959
+    },
+    {
+      "path": "studies/regular/ereversed-refined/metrics.json",
+      "sha256": "1925661f8d6eea866e9291949e752eece336ab5333100a8b88e7056edfd048d1",
+      "bytes": 4997
+    },
+    {
+      "path": "studies/regular/ereversed-refined/outline-audit.json",
+      "sha256": "cfedbaaf89269ebdae779cc73f2b2da713d71d4602d7ea3971c9cc11028beab9",
+      "bytes": 1534
+    },
+    {
+      "path": "studies/regular/ereversed-refined/sizes.svg",
+      "sha256": "6293f4350663db41042fca2e948349fc139a71d40e614890c18575dea89dbc49",
+      "bytes": 97021
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.glyphs",
+      "sha256": "d28c1ebb325d65ed15c829747d105a6cc634c7f69285ebc03cbecab028723e68",
+      "bytes": 332238
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.ttf",
+      "sha256": "6774140ef2862031ea62340b17ff3a1b509a4ba16d59443b7216d943f1f0c6b3",
+      "bytes": 74556
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.woff2",
+      "sha256": "eefae91c0b30ea502a94c1392ef0c8485525166a302d2545e31ca0b55e4c5797",
+      "bytes": 29500
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.glyphs",
+      "sha256": "ae6a423188a49a7f90359d05635f938062ed2498c02b3d6a6f6e741fe2468b07",
+      "bytes": 332238
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.ttf",
+      "sha256": "afc644fbd3cb23b399fa258737a298813109a1b52c83552ce905a4ce5486779b",
+      "bytes": 74560
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.woff2",
+      "sha256": "0ce7b753be052260f55f3e97b766ced603a7364d31e69c69f971be37d11d31c5",
+      "bytes": 29428
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.glyphs",
+      "sha256": "f5b5cb4b17a7431e6d1a51d70af2a1173c4dd2e2dcf35e23a178a3a0e8566f6c",
+      "bytes": 331690
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.ttf",
+      "sha256": "21083b4103f753b3df69b8c80dc13966b1f09095ce8f4bc19bcf80019f1f4971",
+      "bytes": 74424
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.woff2",
+      "sha256": "ad7acf65f97e6b9919bd95dc181c4da810fded16d135333ee977cb869692159e",
+      "bytes": 29392
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.glyphs",
+      "sha256": "22d2a8851d1d16b2efa41879ff56f4f658ccdf79166735726823ff65b8b5b408",
+      "bytes": 331690
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.ttf",
+      "sha256": "794a229ba9851f2a9e0ba779d7c1cc6625c39451fd85420b7c3a7e57d6ae777f",
+      "bytes": 74428
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.woff2",
+      "sha256": "0be40fbe22b6e6ebc4aa6bf31fc10afbed3a3085d5e27fad2ebf90cdeea8f939",
+      "bytes": 29412
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.glyphs",
+      "sha256": "61ca46370dd1d96f34c7c2a5fb02e22b947e2c4e24b315f809988f1b62c9bd5d",
+      "bytes": 332302
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.ttf",
+      "sha256": "bf97e16c50447c3deaecf3f7b673b7a886dee046f9619ef81297c058d70831de",
+      "bytes": 74572
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.woff2",
+      "sha256": "2252be9906bc1d9876c4f9c92e19111cb1f8260b5ccfbbf315d88bd32741d9f5",
+      "bytes": 29416
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.glyphs",
+      "sha256": "7792e3f1e8593374985077676e49b8f75c48c07f64de34980c8d9a4ccda742fa",
+      "bytes": 332302
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.ttf",
+      "sha256": "5af1e1ba2b53d7b96cc86d3488ac803b04a9596565476805dda967904dc9220e",
+      "bytes": 74572
+    },
+    {
+      "path": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.woff2",
+      "sha256": "52f247e176572a3c1d38b3d2453d8ae40d1f136faec060468cdc4eae7f5e9d98",
+      "bytes": 29440
+    },
+    {
       "path": "studies/regular/ereversed/OFL.txt",
       "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
       "bytes": 4405
     },
     {
       "path": "studies/regular/ereversed/README.md",
-      "sha256": "2d6ae6a56f3cc548f08c050e35ebaeee02a44f4d4cb8a103add5e57628e74994",
-      "bytes": 5499
+      "sha256": "2e4b6d98b5149aea3bafe00b9ea96c543a788d71e0593afe28b9004bf2d7f05c",
+      "bytes": 5685
     },
     {
       "path": "studies/regular/ereversed/approved-baseline.json",

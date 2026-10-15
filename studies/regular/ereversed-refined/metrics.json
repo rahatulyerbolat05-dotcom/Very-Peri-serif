@@ -1,0 +1,198 @@
+{
+  "variants": {
+    "01": {
+      "name": "Капля a — выше",
+      "character": "э",
+      "unicode": "U+044D",
+      "glyph": "uni044D",
+      "status": "unselected proposal",
+      "advance": 368,
+      "bbox_cubic": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "bbox_ttf": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "cubic_nodes": 53,
+      "ttf_points": 66,
+      "contours": 1,
+      "crossbar_y": [
+        277,
+        302
+      ],
+      "crossbar_thickness": 25,
+      "crossbar_free_x": 42,
+      "crossbar_straight_start_x": 57,
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,55). The two crown connections are newly drawn; no whole-glyph reflection.",
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+      "drop_donor": {
+        "glyph": "a",
+        "translation": [
+          -8,
+          55
+        ],
+        "exact_source_commands": [
+          12,
+          13
+        ],
+        "body_span_x": 83,
+        "body_span_y": 61,
+        "bottom": 382,
+        "vertical_aperture_to_bar": 80
+      },
+      "crown_curvature_radii": {
+        "outer_left": 133.8846153846154,
+        "outer_native_right": 133.05652173913043,
+        "inner_left": 91.875,
+        "inner_native_right": 91.875,
+        "scope": "Local crown comparison, not a global G2 requirement."
+      }
+    },
+    "02": {
+      "name": "Капля a — ниже",
+      "character": "э",
+      "unicode": "U+044D",
+      "glyph": "uni044D",
+      "status": "unselected proposal",
+      "advance": 368,
+      "bbox_cubic": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "bbox_ttf": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "cubic_nodes": 53,
+      "ttf_points": 67,
+      "contours": 1,
+      "crossbar_y": [
+        277,
+        302
+      ],
+      "crossbar_thickness": 25,
+      "crossbar_free_x": 65,
+      "crossbar_straight_start_x": 80,
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,35). The two crown connections are newly drawn; no whole-glyph reflection.",
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+      "drop_donor": {
+        "glyph": "a",
+        "translation": [
+          -8,
+          35
+        ],
+        "exact_source_commands": [
+          12,
+          13
+        ],
+        "body_span_x": 83,
+        "body_span_y": 61,
+        "bottom": 362,
+        "vertical_aperture_to_bar": 60
+      },
+      "crown_curvature_radii": {
+        "outer_left": 133.8846153846154,
+        "outer_native_right": 133.05652173913043,
+        "inner_left": 91.875,
+        "inner_native_right": 91.875,
+        "scope": "Local crown comparison, not a global G2 requirement."
+      }
+    }
+  },
+  "combinations": [
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/ereversed-02.ttf"
+    }
+  ]
+}

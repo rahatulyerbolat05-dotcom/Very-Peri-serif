@@ -21,9 +21,11 @@ but rejected. The user selected т02 «Письменный выход» as prim
 т01 «Родные арки» as the alternative style. Pin both through
 data/selected-te.json. Both к and й variants remain unselected.
 The primary г «Капля» is explicitly reaffirmed; «Клюв» remains ss05.
-Current э candidates are ereversed01 (drop entry) and02 (short spur entry).
-Neither is selected. Preserve the native right o bowl; do not infer that
-mirroring all of c is allowed. Left endings follow the new ductus.
+The first э drawings (ereversed) were rejected for uneven upper curves and
+an insufficiently clear drop. Current candidates are ereversed-refined01/02:
+exact left-facing native a drop fragments with a newly drawn crown, higher
+and lower entries. Neither is selected. Preserve the native right o bowl;
+do not mirror all of c or impose a global smoothing/G2 rule.
 Do not infer approval from a technical default. Technical G1 checks do not
 establish stylistic success. Present actual drawings with native neighbours.
 

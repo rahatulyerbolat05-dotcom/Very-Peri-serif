@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "sample_points_per_cubic": 600,
+  "variants": {
+    "01": {
+      "sampled_source_and_ttf_topology_valid": true,
+      "adjacent_source_duplicates": 0,
+      "source_smooth_join_max_error_degrees": 7.71049367233012e-14,
+      "sampled_source_export_hausdorff_units": 1.0809516845698743,
+      "relative_area_difference": 0.0010332274095920708,
+      "integer_export_exact_g1_joins": 19,
+      "integer_export_max_join_angle_degrees": 0.0,
+      "integer_export_recipe": "data/ereversed-refined-export.json",
+      "integer_export_max_coordinate_adjustment_units": 1,
+      "all_other_glyf_hmtx_and_gsub_preserved": true,
+      "selected_de_and_te_preserved": true,
+      "whole_glyph_mirror_used": false
+    },
+    "02": {
+      "sampled_source_and_ttf_topology_valid": true,
+      "adjacent_source_duplicates": 0,
+      "source_smooth_join_max_error_degrees": 7.71049367233012e-14,
+      "sampled_source_export_hausdorff_units": 1.0809516845698743,
+      "relative_area_difference": 0.00044568243223586476,
+      "integer_export_exact_g1_joins": 19,
+      "integer_export_max_join_angle_degrees": 0.0,
+      "integer_export_recipe": "data/ereversed-refined-export.json",
+      "integer_export_max_coordinate_adjustment_units": 1,
+      "all_other_glyf_hmtx_and_gsub_preserved": true,
+      "selected_de_and_te_preserved": true,
+      "whole_glyph_mirror_used": false
+    }
+  },
+  "limits": "Sampled topology/distance; optical acceptance remains open.",
+  "fontbakery": "not run",
+  "hyperglot": "not run"
+}

@@ -1,0 +1,214 @@
+{
+  "glyph": "uni044D",
+  "source_design": "data/ereversed-refined-outlines.json",
+  "scope": "Only newly generated revised e-reversed TTF points. Cubic source, native a/o reference glyphs, all preexisting glyphs, selected glyphs and metrics remain unchanged.",
+  "method": "After Cu2QuPen(max_err=0.20, reverse_direction=True) and integer serialization, assert the expected original point count/coordinates/flags, apply listed integer corrections, recalcBounds, and assert all explicit on-curve joins are exactly G1 (integer cross product zero, positive dot product). Each coordinate correction is at most 1 unit. No nodes added or removed.",
+  "local_compromise": "As in the prior export, the lower terminal-to-bowl on-curve approximation moves (62,145) to (62,144), preserving neighbouring horizontal cap tangent with all coordinate corrections <=1 unit. At the new lower a-drop join in variant02 only one off-curve y coordinate changes by +1. No reference or source contour changes; all extrema and crossbar vertices remain fixed.",
+  "sampled_comparison": "600 samples per cubic, including quadratic segments converted by BasePen; symmetric polygonal Hausdorff to exact cubic source; tolerance <1.25 font units. This numeric fitting does not establish optical approval.",
+  "variants": {
+    "01": {
+      "raw_glyf_sha256": "8b27c09cab42a9b2b0aa5903455f8c6478cd93f850469e00309188230c5a5169",
+      "point_count": 66,
+      "contours": 1,
+      "bbox": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "adjustments": [
+        {
+          "point_index": 2,
+          "before": [
+            67,
+            50
+          ],
+          "after": [
+            66,
+            49
+          ],
+          "on_curve": false
+        },
+        {
+          "point_index": 11,
+          "before": [
+            62,
+            145
+          ],
+          "after": [
+            62,
+            144
+          ],
+          "on_curve": true
+        },
+        {
+          "point_index": 12,
+          "before": [
+            71,
+            105
+          ],
+          "after": [
+            70,
+            104
+          ],
+          "on_curve": false
+        },
+        {
+          "point_index": 33,
+          "before": [
+            257,
+            408
+          ],
+          "after": [
+            257,
+            409
+          ],
+          "on_curve": false
+        }
+      ],
+      "exact_integer_g1_oncurve_indices": [
+        0,
+        3,
+        6,
+        9,
+        11,
+        15,
+        18,
+        21,
+        22,
+        25,
+        28,
+        29,
+        32,
+        35,
+        40,
+        44,
+        47,
+        54,
+        60
+      ],
+      "validation": {
+        "maximum_adjustment_per_coordinate_units": 1,
+        "oncurve_points_moved": 1,
+        "nodes_added_or_removed": 0,
+        "source_export_sampled_hausdorff_units": 1.0809516845698743,
+        "relative_area_difference": 0.0010332274095920708,
+        "integer_g1_max_angle_degrees": 0.0,
+        "sampled_export_ring_simple": true,
+        "bbox_preserved": true,
+        "crossbar_y_preserved": [
+          277,
+          302
+        ]
+      }
+    },
+    "02": {
+      "raw_glyf_sha256": "1cc4c32add5aac4c42094440e6ad6492c88ebf0b6548e46b2e0bd97d1c726300",
+      "point_count": 67,
+      "contours": 1,
+      "bbox": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "adjustments": [
+        {
+          "point_index": 2,
+          "before": [
+            67,
+            50
+          ],
+          "after": [
+            66,
+            49
+          ],
+          "on_curve": false
+        },
+        {
+          "point_index": 11,
+          "before": [
+            62,
+            145
+          ],
+          "after": [
+            62,
+            144
+          ],
+          "on_curve": true
+        },
+        {
+          "point_index": 12,
+          "before": [
+            71,
+            105
+          ],
+          "after": [
+            70,
+            104
+          ],
+          "on_curve": false
+        },
+        {
+          "point_index": 33,
+          "before": [
+            257,
+            408
+          ],
+          "after": [
+            257,
+            409
+          ],
+          "on_curve": false
+        },
+        {
+          "point_index": 40,
+          "before": [
+            107,
+            429
+          ],
+          "after": [
+            107,
+            430
+          ],
+          "on_curve": false
+        }
+      ],
+      "exact_integer_g1_oncurve_indices": [
+        0,
+        3,
+        6,
+        9,
+        11,
+        15,
+        18,
+        21,
+        22,
+        25,
+        28,
+        29,
+        32,
+        35,
+        41,
+        45,
+        48,
+        55,
+        61
+      ],
+      "validation": {
+        "maximum_adjustment_per_coordinate_units": 1,
+        "oncurve_points_moved": 1,
+        "nodes_added_or_removed": 0,
+        "source_export_sampled_hausdorff_units": 1.0809516845698743,
+        "relative_area_difference": 0.00044568243223586476,
+        "integer_g1_max_angle_degrees": 0.0,
+        "sampled_export_ring_simple": true,
+        "bbox_preserved": true,
+        "crossbar_y_preserved": [
+          277,
+          302
+        ]
+      }
+    }
+  }
+}

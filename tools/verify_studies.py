@@ -51,6 +51,7 @@ baseline=json.loads((ROOT/'studies/regular/ka/approved-baseline.json').read_text
 latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])+progress.get('latest_te_combinations',[])+progress.get('latest_ereversed_combinations',[])
 retained_rejected=progress.get('retained_rejected_de_combinations',[])
 retained_alternatives=progress.get('retained_te_alternative_combinations',[])
+retained_ereversed=progress.get('retained_initial_ereversed_combinations',[])
 selected_de=json.loads((ROOT/'data/selected-de.json').read_text())
 selected_te=json.loads((ROOT/'data/selected-te.json').read_text())
 latin_tests=['AV','To','Ta','Yo','Wa','LT','Fo','Pa','oo','r.','fo','C)','C?','A/']
@@ -60,9 +61,9 @@ te_checked=0
 selected_te_checked=0
 alternative_te_checked=0
 ereversed_checked=0
-for combo in latest+retained_rejected+retained_alternatives:
+for combo in latest+retained_rejected+retained_alternatives+retained_ereversed:
     path=ROOT/combo['ttf'];f=TTFont(path)
-    is_ereversed=path.is_relative_to(ROOT/'studies/regular/ereversed')
+    is_ereversed=any(path.is_relative_to(ROOT/'studies/regular'/stage) for stage in ['ereversed','ereversed-refined'])
     if is_ereversed or path.is_relative_to(ROOT/'studies/regular/te') or (path.is_relative_to(ROOT/'studies/regular/de-reimagined') and combo['de_variant']=='01'):
         assert list(f['hmtx']['uni0434'])==selected_de['hmtx'],path
         assert hashlib.sha256(f['glyf']['uni0434'].compile(f['glyf'])).hexdigest()==selected_de['glyf_sha256'],path
@@ -127,7 +128,7 @@ for combo in latest+retained_rejected+retained_alternatives:
 
 rebuilt_count=0
 if args.rebuilt_dir:
-    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic','de-cursive','de-reimagined','te','ereversed']:
+    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic','de-cursive','de-reimagined','te','ereversed','ereversed-refined']:
         saved=ROOT/'studies/regular'/stage
         rebuilt=args.rebuilt_dir.resolve()/stage
         for expected in saved.rglob('*.ttf'):
@@ -140,6 +141,6 @@ if args.rebuilt_dir:
             for tag in ['GSUB','GPOS','GDEF']:
                 assert a[tag].compile(a)==b[tag].compile(b),(candidate,tag)
             rebuilt_count+=1
-report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'retained_te_alternative_combinations_checked':len(retained_alternatives),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'ereversed_combinations_and_integer_g1_checked':ereversed_checked,'selected_te_primary_checked':selected_te_checked,'selected_te_alternative_checked':alternative_te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
+report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'retained_te_alternative_combinations_checked':len(retained_alternatives),'retained_initial_ereversed_combinations_checked':len(retained_ereversed),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'ereversed_combinations_and_integer_g1_checked':ereversed_checked,'selected_te_primary_checked':selected_te_checked,'selected_te_alternative_checked':alternative_te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
 args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

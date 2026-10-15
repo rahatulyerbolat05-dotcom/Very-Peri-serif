@@ -1,0 +1,798 @@
+{
+  "character": "э",
+  "unicode": "U+044D",
+  "glyph": "uni044D",
+  "status": "Revised proposals after upper curves and insufficient drop were rejected; neither selected.",
+  "source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+  "skeleton": "Single open bowl, continuous right side and a separate middle arm extending left. No waist like з; no whole-glyph mirror of c.",
+  "native_reference": {
+    "o_advance": 408,
+    "o_side_weight": 76,
+    "o_crown_weight": 25,
+    "e_crossbar_y": [
+      277,
+      302
+    ],
+    "e_crossbar_weight": 25
+  },
+  "source_subdivision": {
+    "original_cubic_translated": [
+      [
+        163,
+        491
+      ],
+      [
+        233,
+        491
+      ],
+      [
+        267,
+        411
+      ],
+      [
+        267,
+        254
+      ]
+    ],
+    "split_t": 0.8360450408852456,
+    "retained_upper_cubic": [
+      [
+        163.0,
+        491.0
+      ],
+      [
+        221.5231528619672,
+        491.0
+      ],
+      [
+        254.88333854993715,
+        435.08229516889503
+      ],
+      [
+        264.24930005945316,
+        325.00000000000006
+      ]
+    ]
+  },
+  "variants": {
+    "01": {
+      "name": "Капля a — выше",
+      "advance": 368,
+      "construction": "Open left-facing handwritten bowl with continuous right descent, independent left entry/exit and a fine middle arm.",
+      "ductus": "Upper-left entry has the exact native a drop body; a continuous inner return rises to the crown, then the native right o stroke descends to the lower-left exit. The thin middle arm returns left from the right side.",
+      "entry_type": "Exact native a terminal translated(-8,55), with newly fitted crown connections",
+      "feature_roles": [
+        "F5 exact left-facing native a drop body, with purpose-built crown connections",
+        "F7 native e crossbar level277..302 and thickness25"
+      ],
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,55). The two crown connections are newly drawn; no whole-glyph reflection.",
+      "crossbar_free_x": 42,
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              163,
+              -9
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              265,
+              -9
+            ],
+            [
+              343,
+              105
+            ],
+            [
+              343,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              343,
+              401
+            ],
+            [
+              264,
+              516
+            ],
+            [
+              163,
+              516
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              104,
+              516
+            ],
+            [
+              23,
+              477
+            ],
+            [
+              23,
+              410
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              23,
+              392
+            ],
+            [
+              34,
+              382
+            ],
+            [
+              51,
+              382
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              73,
+              382
+            ],
+            [
+              99,
+              400
+            ],
+            [
+              106,
+              443
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              109,
+              461.42857142857144
+            ],
+            [
+              120.44121712266669,
+              491
+            ],
+            [
+              163,
+              491
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              221.5231528619672,
+              491.0
+            ],
+            [
+              254.88333854993715,
+              435.08229516889503
+            ],
+            [
+              264.24930005945316,
+              325.00000000000006
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              265.610603291025,
+              309.00000000000006
+            ],
+            [
+              260,
+              302
+            ],
+            [
+              247,
+              302
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              57,
+              302
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              47,
+              302
+            ],
+            [
+              42,
+              297
+            ],
+            [
+              42,
+              290
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              42,
+              282
+            ],
+            [
+              47,
+              277
+            ],
+            [
+              57,
+              277
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              247,
+              277
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              260,
+              277
+            ],
+            [
+              267,
+              270
+            ],
+            [
+              267,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              267,
+              95
+            ],
+            [
+              234,
+              16
+            ],
+            [
+              163,
+              16
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              110,
+              16
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              62,
+              145
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              59.975,
+              154
+            ],
+            [
+              55,
+              159
+            ],
+            [
+              48,
+              159
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              40,
+              159
+            ],
+            [
+              35,
+              153
+            ],
+            [
+              35,
+              144
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              35,
+              134
+            ],
+            [
+              38,
+              123
+            ],
+            [
+              42,
+              113
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              75.6,
+              29
+            ],
+            [
+              115,
+              -9
+            ],
+            [
+              163,
+              -9
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "crossbar_straight_start_x": 57,
+      "drop_donor": {
+        "glyph": "a",
+        "translation": [
+          -8,
+          55
+        ],
+        "exact_source_commands": [
+          12,
+          13
+        ],
+        "body_span_x": 83,
+        "body_span_y": 61,
+        "bottom": 382,
+        "vertical_aperture_to_bar": 80
+      },
+      "crown_curvature_radii": {
+        "outer_left": 133.8846153846154,
+        "outer_native_right": 133.05652173913043,
+        "inner_left": 91.875,
+        "inner_native_right": 91.875,
+        "scope": "Local crown comparison, not a global G2 requirement."
+      }
+    },
+    "02": {
+      "name": "Капля a — ниже",
+      "advance": 368,
+      "construction": "Open left-facing handwritten bowl with continuous right descent, independent left entry/exit and a fine middle arm.",
+      "ductus": "Upper-left entry has the exact native a drop body; a continuous inner return rises to the crown, then the native right o stroke descends to the lower-left exit. The thin middle arm returns left from the right side.",
+      "entry_type": "Exact native a terminal translated(-8,35), with newly fitted crown connections",
+      "feature_roles": [
+        "F5 exact left-facing native a drop body, with purpose-built crown connections",
+        "F7 native e crossbar level277..302 and thickness25"
+      ],
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,35). The two crown connections are newly drawn; no whole-glyph reflection.",
+      "crossbar_free_x": 65,
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              163,
+              -9
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              265,
+              -9
+            ],
+            [
+              343,
+              105
+            ],
+            [
+              343,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              343,
+              401
+            ],
+            [
+              264,
+              516
+            ],
+            [
+              163,
+              516
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              104,
+              516
+            ],
+            [
+              23,
+              477
+            ],
+            [
+              23,
+              390
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              23,
+              372
+            ],
+            [
+              34,
+              362
+            ],
+            [
+              51,
+              362
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              73,
+              362
+            ],
+            [
+              99,
+              380
+            ],
+            [
+              106,
+              423
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              109,
+              441.42857142857144
+            ],
+            [
+              107.89782218459965,
+              491
+            ],
+            [
+              163,
+              491
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              221.5231528619672,
+              491.0
+            ],
+            [
+              254.88333854993715,
+              435.08229516889503
+            ],
+            [
+              264.24930005945316,
+              325.00000000000006
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              265.610603291025,
+              309.00000000000006
+            ],
+            [
+              260,
+              302
+            ],
+            [
+              247,
+              302
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              80,
+              302
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              70,
+              302
+            ],
+            [
+              65,
+              297
+            ],
+            [
+              65,
+              290
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              65,
+              282
+            ],
+            [
+              70,
+              277
+            ],
+            [
+              80,
+              277
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              247,
+              277
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              260,
+              277
+            ],
+            [
+              267,
+              270
+            ],
+            [
+              267,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              267,
+              95
+            ],
+            [
+              234,
+              16
+            ],
+            [
+              163,
+              16
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              110,
+              16
+            ],
+            [
+              80,
+              65
+            ],
+            [
+              62,
+              145
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              59.975,
+              154
+            ],
+            [
+              55,
+              159
+            ],
+            [
+              48,
+              159
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              40,
+              159
+            ],
+            [
+              35,
+              153
+            ],
+            [
+              35,
+              144
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              35,
+              134
+            ],
+            [
+              38,
+              123
+            ],
+            [
+              42,
+              113
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              75.6,
+              29
+            ],
+            [
+              115,
+              -9
+            ],
+            [
+              163,
+              -9
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "crossbar_straight_start_x": 80,
+      "drop_donor": {
+        "glyph": "a",
+        "translation": [
+          -8,
+          35
+        ],
+        "exact_source_commands": [
+          12,
+          13
+        ],
+        "body_span_x": 83,
+        "body_span_y": 61,
+        "bottom": 362,
+        "vertical_aperture_to_bar": 60
+      },
+      "crown_curvature_radii": {
+        "outer_left": 133.8846153846154,
+        "outer_native_right": 133.05652173913043,
+        "inner_left": 91.875,
+        "inner_native_right": 91.875,
+        "scope": "Local crown comparison, not a global G2 requirement."
+      }
+    }
+  },
+  "previous_study": "studies/regular/ereversed",
+  "feedback": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету",
+  "revision": "refined"
+}

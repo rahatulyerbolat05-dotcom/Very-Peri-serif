@@ -91,7 +91,7 @@
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved",
     "т": "02 Письменный выход selected as primary;01 Родные арки selected as alternative style, retained in separate font.",
-    "э": "01 Каплевидный вход /02 Перьевой вход unresolved; two separate upright Regular proposals, neither selected."
+    "э": "Revised01 Капля a — выше /02 Капля a — ниже unresolved; previous Каплевидный вход/Перьевой вход pair rejected and retained in history."
   },
   "letters": [
     {
@@ -4443,30 +4443,30 @@
       "name": "ereversed",
       "type": "open_bowl_with_independent_middle_arm",
       "silhouette": {
-        "evidence": "new design proposals under user review",
+        "evidence": "revised unselected proposals after explicit rejection of previous upper curves and terminal",
         "description": "Открытая влево чаша с непрерывным правым спуском и самостоятельной тонкой перекладиной. Талии з нет; это не зеркало c целиком.",
-        "source": "data/ereversed-outlines.json"
+        "source": "data/ereversed-refined-outlines.json"
       },
       "ductus": {
         "evidence": "designer interpretation, not documented original-author ductus",
-        "reference": "data/ereversed-outlines.json",
+        "reference": "data/ereversed-refined-outlines.json",
         "strokes": [
           "Вход слева вверху поднимается в тонкую корону; правый спуск набирает толщину и продолжается в нижнюю чашу.",
           "Нижний ход утончается и поднимается в короткий открытый выход слева.",
           "Отдельная тонкая перекладина возвращается от правого бока влево и заканчивается свободно."
         ],
         "variants": {
-          "01": "Upper-left entry rises into the crown, the right stroke descends to the bowl base and thins into the lower-left exit; the middle arm returns left from the right side.",
-          "02": "Upper-left entry rises into the crown, the right stroke descends to the bowl base and thins into the lower-left exit; the middle arm returns left from the right side."
+          "01": "Upper-left entry has the exact native a drop body; a continuous inner return rises to the crown, then the native right o stroke descends to the lower-left exit. The thin middle arm returns left from the right side.",
+          "02": "Upper-left entry has the exact native a drop body; a continuous inner return rises to the crown, then the native right o stroke descends to the lower-left exit. The thin middle arm returns left from the right side."
         },
-        "entry": "upper left; supported drop in01, short directional spur in02",
+        "entry": "upper left: exact native a drop body, placed20 units higher in01 than02, joined by two newly drawn crown connections",
         "exit": "lower left, light rounded stroke cap",
         "pressure": "Native Regular vertical stress; no global inclination."
       },
       "upright": {
         "style": "Regular",
-        "status": "two unselected proposals",
-        "construction_evidence": "data/ereversed-outlines.json"
+        "status": "two revised unselected proposals after user rejection of previous pair",
+        "construction_evidence": "data/ereversed-refined-outlines.json"
       },
       "italic": {
         "status": "not designed",
@@ -4479,45 +4479,45 @@
           "role": "Outer right half and inner lower-right quarter translated(-40,0); upper inner quarter retained after exact subdivision at y325.",
           "relationship": "exact native cubic fragments and exact cubic subdivision",
           "evidence": "pinned Regular m01 cubic master; source subdivision recorded in outline data",
-          "construction_reference": "data/ereversed-outlines.json#/source_subdivision"
+          "construction_reference": "data/ereversed-refined-outlines.json#/source_subdivision"
+        },
+        {
+          "glyph": "a",
+          "role": "Two complete native drop-body cubics, source RecordingPen commands12/13, translated(-8,+55) in01 and(-8,+35) in02; outer crown and inner return connections newly fitted.",
+          "relationship": "exact translated native terminal-body fragment, without mirroring or scaling",
+          "evidence": "source outline commands and translations recorded in current outline data",
+          "construction_reference": "data/ereversed-refined-outlines.json#/variants"
         },
         {
           "glyph": "e",
-          "role": "Native crossbar levels277..302 and thickness25; new free end and bowl junctions authored for э.",
+          "role": "Native crossbar levels277..302 and thickness25; free end and bowl junctions were authored for э and retained from the earlier pair.",
           "relationship": "measured level and thickness reference; no whole-glyph reflection",
           "evidence": "pinned Regular m01 cubic master",
-          "construction_reference": "data/ereversed-outlines.json#/native_reference"
-        },
-        {
-          "glyph": "r/f/c/e",
-          "role": "Native entry and exit terminal families inform the newly drawn left terminals; no unchanged terminal contour is claimed.",
-          "relationship": "visual and stroke-role reference",
-          "evidence": "designer interpretation checked beside native neighbours",
-          "construction_reference": "data/ereversed-outlines.json#/variants"
+          "construction_reference": "data/ereversed-refined-outlines.json#/native_reference"
         }
       ],
       "design_status": {
-        "status": "two_unselected_proposals",
+        "status": "two_revised_unselected_proposals",
         "primary_variant": null,
         "technical_default_variant": null,
-        "final_contour_acceptance": "pending user selection",
-        "kerning": "Outgoing native o pairs inherited; incoming open edge unassigned; final Cyrillic and mixed spacing pending.",
-        "selection_evidence": "No user selection has been made for either э proposal."
+        "final_contour_acceptance": "pending user selection of the revised pair; previous pair rejected",
+        "kerning": "Current source inherits the prior spacing approach; outgoing native o pairs intended, incoming open edge unassigned; final Cyrillic and mixed spacing pending.",
+        "selection_evidence": "No user selection has been made for either revised э proposal.",
+        "revision_trigger": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету"
       },
       "variants": [
         {
           "id": "01",
-          "name": "Каплевидный вход",
+          "name": "Капля a — выше",
           "selection_status": "unselected_proposal",
           "glyph": "uni044D",
           "feature": null,
-          "file": "studies/regular/ereversed/ereversed-01.ttf",
-          "measured_current_build": {
-            "name": "Каплевидный вход",
-            "character": "э",
-            "unicode": "U+044D",
-            "glyph": "uni044D",
-            "status": "unselected proposal",
+          "file": "studies/regular/ereversed-refined/ereversed-01.ttf",
+          "measured_current_source": {
+            "evidence": "read-only source-command inspection; not an exported-font measurement",
+            "source": "data/ereversed-refined-outlines.json",
+            "method": "fontTools BoundsPen evaluates exact cubic extrema from the recorded commands. Closed Glyphs path nodes count the coincident starting/closing point once; independently confirmed by53 nodes in the exported Glyphs layer.",
+            "name": "Капля a — выше",
             "advance": 368,
             "bbox_cubic": [
               23,
@@ -4525,14 +4525,9 @@
               343,
               516
             ],
-            "bbox_ttf": [
-              23,
-              -9,
-              343,
-              516
-            ],
-            "cubic_nodes": 59,
-            "ttf_points": 73,
+            "cubic_segments": 17,
+            "line_segments": 2,
+            "source_nodes": 53,
             "contours": 1,
             "crossbar_y": [
               277,
@@ -4540,7 +4535,103 @@
             ],
             "crossbar_thickness": 25,
             "crossbar_free_x": 42,
-            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+            "crossbar_straight_start_x": 57,
+            "anchors_proposed": {
+              "top": [
+                164,
+                510
+              ],
+              "bottom": [
+                164,
+                0
+              ]
+            },
+            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,55). The two crown connections are newly drawn; no whole-glyph reflection.",
+            "drop_donor": {
+              "glyph": "a",
+              "translation": [
+                -8,
+                55
+              ],
+              "exact_source_commands": [
+                12,
+                13
+              ],
+              "body_span_x": 83,
+              "body_span_y": 61,
+              "bottom": 382,
+              "vertical_aperture_to_bar": 80
+            },
+            "crown_curvature_radii": {
+              "outer_left": 133.8846153846154,
+              "outer_native_right": 133.05652173913043,
+              "inner_left": 91.875,
+              "inner_native_right": 91.875,
+              "scope": "Local crown comparison, not a global G2 requirement."
+            }
+          },
+          "export_verification": {
+            "status": "passed",
+            "independent_read": "TTF/WOFF2 target coordinates, endpoints, flags and hmtx match;53 source nodes confirmed in Glyphs.",
+            "audit_reference": "studies/regular/ereversed-refined/outline-audit.json#/variants/01",
+            "audit": {
+              "sampled_source_and_ttf_topology_valid": true,
+              "adjacent_source_duplicates": 0,
+              "source_smooth_join_max_error_degrees": 7.71049367233012e-14,
+              "sampled_source_export_hausdorff_units": 1.0809516845698743,
+              "relative_area_difference": 0.0010332274095920708,
+              "integer_export_exact_g1_joins": 19,
+              "integer_export_max_join_angle_degrees": 0.0,
+              "integer_export_recipe": "data/ereversed-refined-export.json",
+              "integer_export_max_coordinate_adjustment_units": 1,
+              "all_other_glyf_hmtx_and_gsub_preserved": true,
+              "selected_de_and_te_preserved": true,
+              "whole_glyph_mirror_used": false
+            },
+            "limits": "Sampled topology/distance; optical acceptance remains open."
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ereversed-refined/ereversed-01.ttf",
+            "woff2": "studies/regular/ereversed-refined/ereversed-01.woff2",
+            "glyphs": "studies/regular/ereversed-refined/ereversed-01.glyphs",
+            "svg": "studies/regular/ereversed-refined/ereversed-01.svg"
+          },
+          "measured_current_build": {
+            "name": "Капля a — выше",
+            "character": "э",
+            "unicode": "U+044D",
+            "glyph": "uni044D",
+            "status": "unselected proposal",
+            "advance": 368,
+            "bbox_cubic": [
+              23,
+              -9,
+              343,
+              516
+            ],
+            "bbox_ttf": [
+              23,
+              -9,
+              343,
+              516
+            ],
+            "cubic_nodes": 53,
+            "ttf_points": 66,
+            "contours": 1,
+            "crossbar_y": [
+              277,
+              302
+            ],
+            "crossbar_thickness": 25,
+            "crossbar_free_x": 42,
+            "crossbar_straight_start_x": 57,
+            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,55). The two crown connections are newly drawn; no whole-glyph reflection.",
             "anchors": {
               "top": [
                 164,
@@ -4552,49 +4643,84 @@
               ]
             },
             "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
-            "crossbar_straight_start_x": 57
+            "drop_donor": {
+              "glyph": "a",
+              "translation": [
+                -8,
+                55
+              ],
+              "exact_source_commands": [
+                12,
+                13
+              ],
+              "body_span_x": 83,
+              "body_span_y": 61,
+              "bottom": 382,
+              "vertical_aperture_to_bar": 80
+            },
+            "crown_curvature_radii": {
+              "outer_left": 133.8846153846154,
+              "outer_native_right": 133.05652173913043,
+              "inner_left": 91.875,
+              "inner_native_right": 91.875,
+              "scope": "Local crown comparison, not a global G2 requirement."
+            }
           },
-          "exportformats": [
-            "ttf",
-            "woff2",
-            "glyphs",
-            "svg"
-          ],
-          "paths": {
-            "ttf": "studies/regular/ereversed/ereversed-01.ttf",
-            "woff2": "studies/regular/ereversed/ereversed-01.woff2",
-            "glyphs": "studies/regular/ereversed/ereversed-01.glyphs",
-            "svg": "studies/regular/ereversed/ereversed-01.svg"
+          "measured_export": {
+            "evidence": "read-only fontTools and glyphsLib inspection of current TTF/WOFF2/Glyphs exports",
+            "method": "TTFont hmtx/glyf and BoundsPen; decomposed coordinates/endpoints/flags and hmtx compared with WOFF2; Glyphs source path nodes counted independently.",
+            "file": "studies/regular/ereversed-refined/ereversed-01.ttf",
+            "ttf": {
+              "glyph": "uni044D",
+              "hmtx_advance": 368,
+              "hmtx_lsb": 23,
+              "stored_glyf_bounds": [
+                23,
+                -9,
+                343,
+                516
+              ],
+              "curve_extrema_bounds": [
+                23,
+                -9,
+                343,
+                516
+              ],
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 66,
+              "composite": false,
+              "glyf_sha256": "3963c6676f9f88d703d6eb4efc4d14925b9eaebb106cc0a54ee24ea0c61d1204"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true,
+              "glyphs_path_nodes_match_build_metrics": true
+            }
           }
         },
         {
           "id": "02",
-          "name": "Перьевой вход",
+          "name": "Капля a — ниже",
           "selection_status": "unselected_proposal",
           "glyph": "uni044D",
           "feature": null,
-          "file": "studies/regular/ereversed/ereversed-02.ttf",
-          "measured_current_build": {
-            "name": "Перьевой вход",
-            "character": "э",
-            "unicode": "U+044D",
-            "glyph": "uni044D",
-            "status": "unselected proposal",
+          "file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "measured_current_source": {
+            "evidence": "read-only source-command inspection; not an exported-font measurement",
+            "source": "data/ereversed-refined-outlines.json",
+            "method": "fontTools BoundsPen evaluates exact cubic extrema from the recorded commands. Closed Glyphs path nodes count the coincident starting/closing point once; independently confirmed by53 nodes in the exported Glyphs layer.",
+            "name": "Капля a — ниже",
             "advance": 368,
             "bbox_cubic": [
-              26,
+              23,
               -9,
               343,
               516
             ],
-            "bbox_ttf": [
-              26,
-              -9,
-              343,
-              516
-            ],
-            "cubic_nodes": 57,
-            "ttf_points": 64,
+            "cubic_segments": 17,
+            "line_segments": 2,
+            "source_nodes": 53,
             "contours": 1,
             "crossbar_y": [
               277,
@@ -4602,7 +4728,103 @@
             ],
             "crossbar_thickness": 25,
             "crossbar_free_x": 65,
-            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+            "crossbar_straight_start_x": 80,
+            "anchors_proposed": {
+              "top": [
+                164,
+                510
+              ],
+              "bottom": [
+                164,
+                0
+              ]
+            },
+            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,35). The two crown connections are newly drawn; no whole-glyph reflection.",
+            "drop_donor": {
+              "glyph": "a",
+              "translation": [
+                -8,
+                35
+              ],
+              "exact_source_commands": [
+                12,
+                13
+              ],
+              "body_span_x": 83,
+              "body_span_y": 61,
+              "bottom": 362,
+              "vertical_aperture_to_bar": 60
+            },
+            "crown_curvature_radii": {
+              "outer_left": 133.8846153846154,
+              "outer_native_right": 133.05652173913043,
+              "inner_left": 91.875,
+              "inner_native_right": 91.875,
+              "scope": "Local crown comparison, not a global G2 requirement."
+            }
+          },
+          "export_verification": {
+            "status": "passed",
+            "independent_read": "TTF/WOFF2 target coordinates, endpoints, flags and hmtx match;53 source nodes confirmed in Glyphs.",
+            "audit_reference": "studies/regular/ereversed-refined/outline-audit.json#/variants/02",
+            "audit": {
+              "sampled_source_and_ttf_topology_valid": true,
+              "adjacent_source_duplicates": 0,
+              "source_smooth_join_max_error_degrees": 7.71049367233012e-14,
+              "sampled_source_export_hausdorff_units": 1.0809516845698743,
+              "relative_area_difference": 0.00044568243223586476,
+              "integer_export_exact_g1_joins": 19,
+              "integer_export_max_join_angle_degrees": 0.0,
+              "integer_export_recipe": "data/ereversed-refined-export.json",
+              "integer_export_max_coordinate_adjustment_units": 1,
+              "all_other_glyf_hmtx_and_gsub_preserved": true,
+              "selected_de_and_te_preserved": true,
+              "whole_glyph_mirror_used": false
+            },
+            "limits": "Sampled topology/distance; optical acceptance remains open."
+          },
+          "exportformats": [
+            "ttf",
+            "woff2",
+            "glyphs",
+            "svg"
+          ],
+          "paths": {
+            "ttf": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "woff2": "studies/regular/ereversed-refined/ereversed-02.woff2",
+            "glyphs": "studies/regular/ereversed-refined/ereversed-02.glyphs",
+            "svg": "studies/regular/ereversed-refined/ereversed-02.svg"
+          },
+          "measured_current_build": {
+            "name": "Капля a — ниже",
+            "character": "э",
+            "unicode": "U+044D",
+            "glyph": "uni044D",
+            "status": "unselected proposal",
+            "advance": 368,
+            "bbox_cubic": [
+              23,
+              -9,
+              343,
+              516
+            ],
+            "bbox_ttf": [
+              23,
+              -9,
+              343,
+              516
+            ],
+            "cubic_nodes": 53,
+            "ttf_points": 67,
+            "contours": 1,
+            "crossbar_y": [
+              277,
+              302
+            ],
+            "crossbar_thickness": 25,
+            "crossbar_free_x": 65,
+            "crossbar_straight_start_x": 80,
+            "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325. Two native a drop cubics translated(-8,35). The two crown connections are newly drawn; no whole-glyph reflection.",
             "anchors": {
               "top": [
                 164,
@@ -4614,27 +4836,68 @@
               ]
             },
             "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
-            "crossbar_straight_start_x": 80
+            "drop_donor": {
+              "glyph": "a",
+              "translation": [
+                -8,
+                35
+              ],
+              "exact_source_commands": [
+                12,
+                13
+              ],
+              "body_span_x": 83,
+              "body_span_y": 61,
+              "bottom": 362,
+              "vertical_aperture_to_bar": 60
+            },
+            "crown_curvature_radii": {
+              "outer_left": 133.8846153846154,
+              "outer_native_right": 133.05652173913043,
+              "inner_left": 91.875,
+              "inner_native_right": 91.875,
+              "scope": "Local crown comparison, not a global G2 requirement."
+            }
           },
-          "exportformats": [
-            "ttf",
-            "woff2",
-            "glyphs",
-            "svg"
-          ],
-          "paths": {
-            "ttf": "studies/regular/ereversed/ereversed-02.ttf",
-            "woff2": "studies/regular/ereversed/ereversed-02.woff2",
-            "glyphs": "studies/regular/ereversed/ereversed-02.glyphs",
-            "svg": "studies/regular/ereversed/ereversed-02.svg"
+          "measured_export": {
+            "evidence": "read-only fontTools and glyphsLib inspection of current TTF/WOFF2/Glyphs exports",
+            "method": "TTFont hmtx/glyf and BoundsPen; decomposed coordinates/endpoints/flags and hmtx compared with WOFF2; Glyphs source path nodes counted independently.",
+            "file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "ttf": {
+              "glyph": "uni044D",
+              "hmtx_advance": 368,
+              "hmtx_lsb": 23,
+              "stored_glyf_bounds": [
+                23,
+                -9,
+                343,
+                516
+              ],
+              "curve_extrema_bounds": [
+                23,
+                -9,
+                343,
+                516
+              ],
+              "contours_decomposed": 1,
+              "ttf_points_decomposed": 67,
+              "composite": false,
+              "glyf_sha256": "82b9421439280681507ab1374d53af3a3b1b3c14e4d3f0f660188b5765ae3c55"
+            },
+            "checks": {
+              "ttf_target_glyph_read": true,
+              "woff2_target_glyph_read": true,
+              "ttf_woff2_target_geometry_and_metrics_equal": true,
+              "glyphs_path_nodes_match_build_metrics": true
+            }
           }
         }
       ],
       "metrics": {
         "units": "font units",
-        "source": "studies/regular/ereversed/metrics.json",
+        "source": "studies/regular/ereversed-refined/metrics.json",
         "native_facts": {
-          "reference": "data/ereversed-outlines.json#/native_reference",
+          "reference": "data/ereversed-refined-outlines.json#/native_reference",
           "o_advance": 408,
           "o_side_weight": 76,
           "o_crown_weight": 25,
@@ -4644,42 +4907,61 @@
           ],
           "e_crossbar_weight": 25
         },
-        "note": "advance368, authored left terminals, free arm lengths and mark anchors are study design choices. Export and source bounds are recorded separately."
+        "note": "Source cubic facts and actual export measurements are separated. Both closed Glyphs paths have53 nodes; TTF exports have66/67 points. advance368, native a translations, new crown connections, free-arm lengths and mark anchors are study design choices."
       },
       "features": [],
       "checks": {
-        "report": "studies/regular/ereversed/outline-audit.json",
-        "sampled_source_and_export_topology": "passed for both variants; dense sampling is not an analytic proof",
-        "all_existing_glyphs_and_metrics": "preserved in all eight combinations",
-        "selected_de_and_te": "exactly preserved; source and exported outlines are not redrawn",
+        "report": "studies/regular/ereversed-refined/outline-audit.json",
+        "current_source_review": "Independent visual inspection of final comparison.png and evolution.png; no primary selection inferred.",
+        "current_export_audit": {
+          "status": "passed",
+          "reference": "studies/regular/ereversed-refined/outline-audit.json",
+          "sample_points_per_cubic": 600,
+          "sampled_source_and_ttf_topology_valid": true,
+          "adjacent_source_duplicates": 0,
+          "all_other_glyf_hmtx_and_gsub_preserved": true,
+          "selected_de_and_te_preserved": true,
+          "integer_export_exact_g1_joins_per_variant": 19,
+          "integer_export_max_join_angle_degrees": 0.0,
+          "integer_export_recipe": "data/ereversed-refined-export.json",
+          "integer_export_max_coordinate_adjustment_units": 1,
+          "sampled_source_export_hausdorff_units": {
+            "01": 1.0809516845698743,
+            "02": 1.0809516845698743
+          },
+          "limits": "Sampled topology/distance; optical acceptance remains open."
+        },
         "whole_glyph_mirror_used": false,
+        "selected_de_and_te": "Build audit confirms exact preservation; source and exported selected outlines were not redrawn.",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "visual_acceptance": "pending user selection",
+        "visual_acceptance": "pending user selection of revised proposals; previous pair rejected",
         "kerning": "preliminary; incoming open-edge pairs and Cyrillic/mixed pair review pending"
       },
       "paths": {
-        "study_directory": "studies/regular/ereversed",
-        "readme": "studies/regular/ereversed/README.md",
-        "design_notes": "data/ereversed-outlines.json",
-        "comparison": "studies/regular/ereversed/comparison.svg",
-        "sizes": "studies/regular/ereversed/sizes.svg",
-        "outline_audit": "studies/regular/ereversed/outline-audit.json"
+        "study_directory": "studies/regular/ereversed-refined",
+        "readme": "studies/regular/ereversed-refined/README.md",
+        "design_notes": "data/ereversed-refined-outlines.json",
+        "comparison": "studies/regular/ereversed-refined/comparison.svg",
+        "sizes": "studies/regular/ereversed-refined/sizes.svg",
+        "outline_audit": "studies/regular/ereversed-refined/outline-audit.json",
+        "previous_study": "studies/regular/ereversed",
+        "evolution": "studies/regular/ereversed-refined/evolution.svg"
       },
       "brand_details": [
         {
           "id": "F5",
-          "evidence": "new design interpretation of native terminal families",
-          "application": "01 has a supported small upper-left drop;02 a short directional upper entry. A ball is not imposed as a universal font rule."
+          "evidence": "exact translated native a terminal-body fragment; two new crown connections",
+          "application": "Both revised proposals use the same native a drop body at different heights; it is not a replacement circle and is not mirrored."
         },
         {
           "id": "F7",
           "evidence": "measured native e crossbar levels and thickness",
-          "application": "Fine crossbar at277..302; the left free end and right bowl junction are authored for э."
+          "application": "Fine crossbar at277..302; the left free end and right bowl junction remain authored study geometry."
         }
       ],
       "construction_choices": {
-        "evidence": "two unselected current design proposals",
+        "evidence": "two revised unselected design proposals",
         "values": {
           "advance": 368,
           "native_o_translation": [
@@ -4695,9 +4977,15 @@
             "01": 42,
             "02": 65
           },
-          "crossbar_straight_start_x": {
-            "01": 57,
-            "02": 80
+          "native_a_drop_translation": {
+            "01": [
+              -8,
+              55
+            ],
+            "02": [
+              -8,
+              35
+            ]
           }
         },
         "proposed_mark_anchors": {
@@ -4710,14 +4998,301 @@
             0
           ]
         },
-        "reference": "data/ereversed-outlines.json",
-        "scope": "New left entry, lower exit and bar junctions; native o right-side fragments remain exact. These choices do not establish universal rules for later letters."
+        "reference": "data/ereversed-refined-outlines.json",
+        "scope": "Native a drop-body fragments retained exactly; left crown and inner return connections redrawn to agree with native o crown curvature locally. This local comparison is not a global G2 requirement."
       },
       "confidence": {
-        "measured": "Pinned native cubic references and current source/export measurements in the study metrics and outline audit.",
-        "derived": "Open handwritten skeleton and native terminal-family adaptation.",
+        "measured": "Pinned native fragment translations, source cubic extrema and53 closed-path Glyphs nodes; independent current TTF/WOFF2 target geometry/metrics inspection and build outline audit.",
+        "derived": "New crown connections and direct native a drop-body reuse; upright open handwritten skeleton.",
         "hypothesis": "User visual acceptance, primary selection, final intervals and Cyrillic/mixed kerning."
-      }
+      },
+      "history": [
+        {
+          "glyph": "uni044D",
+          "unicode": "U+044D",
+          "character": "э",
+          "name": "ereversed",
+          "type": "open_bowl_with_independent_middle_arm",
+          "silhouette": {
+            "evidence": "new design proposals under user review",
+            "description": "Открытая влево чаша с непрерывным правым спуском и самостоятельной тонкой перекладиной. Талии з нет; это не зеркало c целиком.",
+            "source": "data/ereversed-outlines.json"
+          },
+          "ductus": {
+            "evidence": "designer interpretation, not documented original-author ductus",
+            "reference": "data/ereversed-outlines.json",
+            "strokes": [
+              "Вход слева вверху поднимается в тонкую корону; правый спуск набирает толщину и продолжается в нижнюю чашу.",
+              "Нижний ход утончается и поднимается в короткий открытый выход слева.",
+              "Отдельная тонкая перекладина возвращается от правого бока влево и заканчивается свободно."
+            ],
+            "variants": {
+              "01": "Upper-left entry rises into the crown, the right stroke descends to the bowl base and thins into the lower-left exit; the middle arm returns left from the right side.",
+              "02": "Upper-left entry rises into the crown, the right stroke descends to the bowl base and thins into the lower-left exit; the middle arm returns left from the right side."
+            },
+            "entry": "upper left; supported drop in01, short directional spur in02",
+            "exit": "lower left, light rounded stroke cap",
+            "pressure": "Native Regular vertical stress; no global inclination."
+          },
+          "upright": {
+            "style": "Regular",
+            "status": "two unselected proposals",
+            "construction_evidence": "data/ereversed-outlines.json"
+          },
+          "italic": {
+            "status": "not designed",
+            "paths": []
+          },
+          "components": [],
+          "donors": [
+            {
+              "glyph": "o",
+              "role": "Outer right half and inner lower-right quarter translated(-40,0); upper inner quarter retained after exact subdivision at y325.",
+              "relationship": "exact native cubic fragments and exact cubic subdivision",
+              "evidence": "pinned Regular m01 cubic master; source subdivision recorded in outline data",
+              "construction_reference": "data/ereversed-outlines.json#/source_subdivision"
+            },
+            {
+              "glyph": "e",
+              "role": "Native crossbar levels277..302 and thickness25; new free end and bowl junctions authored for э.",
+              "relationship": "measured level and thickness reference; no whole-glyph reflection",
+              "evidence": "pinned Regular m01 cubic master",
+              "construction_reference": "data/ereversed-outlines.json#/native_reference"
+            },
+            {
+              "glyph": "r/f/c/e",
+              "role": "Native entry and exit terminal families inform the newly drawn left terminals; no unchanged terminal contour is claimed.",
+              "relationship": "visual and stroke-role reference",
+              "evidence": "designer interpretation checked beside native neighbours",
+              "construction_reference": "data/ereversed-outlines.json#/variants"
+            }
+          ],
+          "design_status": {
+            "status": "rejected_upper_curves_and_insufficient_drop",
+            "primary_variant": null,
+            "technical_default_variant": null,
+            "final_contour_acceptance": "rejected by user: upper curves lack harmony and the drop is insufficient",
+            "kerning": "Outgoing native o pairs inherited; incoming open edge unassigned; final Cyrillic and mixed spacing pending.",
+            "selection_evidence": "No user selection has been made for either э proposal."
+          },
+          "variants": [
+            {
+              "id": "01",
+              "name": "Каплевидный вход",
+              "selection_status": "rejected_upper_curves_and_insufficient_drop",
+              "glyph": "uni044D",
+              "feature": null,
+              "file": "studies/regular/ereversed/ereversed-01.ttf",
+              "measured_current_build": {
+                "name": "Каплевидный вход",
+                "character": "э",
+                "unicode": "U+044D",
+                "glyph": "uni044D",
+                "status": "unselected proposal",
+                "advance": 368,
+                "bbox_cubic": [
+                  23,
+                  -9,
+                  343,
+                  516
+                ],
+                "bbox_ttf": [
+                  23,
+                  -9,
+                  343,
+                  516
+                ],
+                "cubic_nodes": 59,
+                "ttf_points": 73,
+                "contours": 1,
+                "crossbar_y": [
+                  277,
+                  302
+                ],
+                "crossbar_thickness": 25,
+                "crossbar_free_x": 42,
+                "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+                "anchors": {
+                  "top": [
+                    164,
+                    510
+                  ],
+                  "bottom": [
+                    164,
+                    0
+                  ]
+                },
+                "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+                "crossbar_straight_start_x": 57
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/regular/ereversed/ereversed-01.ttf",
+                "woff2": "studies/regular/ereversed/ereversed-01.woff2",
+                "glyphs": "studies/regular/ereversed/ereversed-01.glyphs",
+                "svg": "studies/regular/ereversed/ereversed-01.svg"
+              }
+            },
+            {
+              "id": "02",
+              "name": "Перьевой вход",
+              "selection_status": "rejected_upper_curves_and_insufficient_drop",
+              "glyph": "uni044D",
+              "feature": null,
+              "file": "studies/regular/ereversed/ereversed-02.ttf",
+              "measured_current_build": {
+                "name": "Перьевой вход",
+                "character": "э",
+                "unicode": "U+044D",
+                "glyph": "uni044D",
+                "status": "unselected proposal",
+                "advance": 368,
+                "bbox_cubic": [
+                  26,
+                  -9,
+                  343,
+                  516
+                ],
+                "bbox_ttf": [
+                  26,
+                  -9,
+                  343,
+                  516
+                ],
+                "cubic_nodes": 57,
+                "ttf_points": 64,
+                "contours": 1,
+                "crossbar_y": [
+                  277,
+                  302
+                ],
+                "crossbar_thickness": 25,
+                "crossbar_free_x": 65,
+                "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+                "anchors": {
+                  "top": [
+                    164,
+                    510
+                  ],
+                  "bottom": [
+                    164,
+                    0
+                  ]
+                },
+                "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+                "crossbar_straight_start_x": 80
+              },
+              "exportformats": [
+                "ttf",
+                "woff2",
+                "glyphs",
+                "svg"
+              ],
+              "paths": {
+                "ttf": "studies/regular/ereversed/ereversed-02.ttf",
+                "woff2": "studies/regular/ereversed/ereversed-02.woff2",
+                "glyphs": "studies/regular/ereversed/ereversed-02.glyphs",
+                "svg": "studies/regular/ereversed/ereversed-02.svg"
+              }
+            }
+          ],
+          "metrics": {
+            "units": "font units",
+            "source": "studies/regular/ereversed/metrics.json",
+            "native_facts": {
+              "reference": "data/ereversed-outlines.json#/native_reference",
+              "o_advance": 408,
+              "o_side_weight": 76,
+              "o_crown_weight": 25,
+              "e_crossbar_y": [
+                277,
+                302
+              ],
+              "e_crossbar_weight": 25
+            },
+            "note": "advance368, authored left terminals, free arm lengths and mark anchors are study design choices. Export and source bounds are recorded separately."
+          },
+          "features": [],
+          "checks": {
+            "report": "studies/regular/ereversed/outline-audit.json",
+            "sampled_source_and_export_topology": "passed for both variants; dense sampling is not an analytic proof",
+            "all_existing_glyphs_and_metrics": "preserved in all eight combinations",
+            "selected_de_and_te": "exactly preserved; source and exported outlines are not redrawn",
+            "whole_glyph_mirror_used": false,
+            "fontbakery": "not run",
+            "hyperglot": "not run",
+            "visual_acceptance": "rejected by user: upper curves and insufficient drop",
+            "kerning": "preliminary; incoming open-edge pairs and Cyrillic/mixed pair review pending"
+          },
+          "paths": {
+            "study_directory": "studies/regular/ereversed",
+            "readme": "studies/regular/ereversed/README.md",
+            "design_notes": "data/ereversed-outlines.json",
+            "comparison": "studies/regular/ereversed/comparison.svg",
+            "sizes": "studies/regular/ereversed/sizes.svg",
+            "outline_audit": "studies/regular/ereversed/outline-audit.json"
+          },
+          "brand_details": [
+            {
+              "id": "F5",
+              "evidence": "new design interpretation of native terminal families",
+              "application": "01 has a supported small upper-left drop;02 a short directional upper entry. A ball is not imposed as a universal font rule."
+            },
+            {
+              "id": "F7",
+              "evidence": "measured native e crossbar levels and thickness",
+              "application": "Fine crossbar at277..302; the left free end and right bowl junction are authored for э."
+            }
+          ],
+          "construction_choices": {
+            "evidence": "two unselected current design proposals",
+            "values": {
+              "advance": 368,
+              "native_o_translation": [
+                -40,
+                0
+              ],
+              "crossbar_y": [
+                277,
+                302
+              ],
+              "crossbar_thickness": 25,
+              "crossbar_free_x": {
+                "01": 42,
+                "02": 65
+              },
+              "crossbar_straight_start_x": {
+                "01": 57,
+                "02": 80
+              }
+            },
+            "proposed_mark_anchors": {
+              "top": [
+                164,
+                510
+              ],
+              "bottom": [
+                164,
+                0
+              ]
+            },
+            "reference": "data/ereversed-outlines.json",
+            "scope": "New left entry, lower exit and bar junctions; native o right-side fragments remain exact. These choices do not establish universal rules for later letters."
+          },
+          "confidence": {
+            "measured": "Pinned native cubic references and current source/export measurements in the study metrics and outline audit.",
+            "derived": "Open handwritten skeleton and native terminal-family adaptation.",
+            "hypothesis": "User visual acceptance, primary selection, final intervals and Cyrillic/mixed kerning."
+          },
+          "history_status": "rejected_upper_curves_and_insufficient_drop",
+          "feedback": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету"
+        }
+      ]
     }
   ],
   "inherited_glyphs": [

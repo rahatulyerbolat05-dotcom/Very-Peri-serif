@@ -101,18 +101,18 @@
     },
     "э": {
       "variants": [
-        "01 Каплевидный вход",
-        "02 Перьевой вход"
+        "01 Капля a — выше",
+        "02 Капля a — ниже"
       ],
       "primary": null,
-      "study_directory": "studies/regular/ereversed"
+      "study_directory": "studies/regular/ereversed-refined"
     }
   },
   "inherited": {
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/ereversed",
+  "latest_artifact": "studies/regular/ereversed-refined",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -462,10 +462,10 @@
     }
   ],
   "coverage_totals": {
-    "ttf_checked": 76,
-    "woff2_checked": 76,
-    "glyphs_checked": 76,
-    "svg_in_codex_branch": 79,
+    "ttf_checked": 84,
+    "woff2_checked": 84,
+    "glyphs_checked": 84,
+    "svg_in_codex_branch": 84,
     "cyrillic_codepoints_in_fonts": 19,
     "source_only_additional_letters": 4,
     "combined_lowercase_letters": 23,
@@ -701,8 +701,91 @@
     }
   ],
   "ghe_context_proof": "studies/regular/ghe/context-with-te",
-  "latest_ereversed_artifact": "studies/regular/ereversed",
+  "latest_ereversed_artifact": "studies/regular/ereversed-refined",
   "latest_ereversed_combinations": [
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed-refined/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed-refined/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed-refined/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed-refined/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed-refined/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed-refined/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka01-shorti02/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka02-shorti01/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed-refined/with-ka02-shorti02/ereversed-02.woff2"
+    }
+  ],
+  "latest_ereversed_export_status": "Revised a-drop01/02 proposals, unselected; first ereversed upper curves rejected and retained.",
+  "retained_initial_ereversed_combinations": [
     {
       "ereversed_variant": "01",
       "te_variant": "02",
@@ -784,5 +867,10 @@
       "woff2": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.woff2"
     }
   ],
-  "latest_ereversed_export_status": "01 and02 unselected proposals; selected ghe02/de01/te02 and all existing glyphs preserved."
+  "ereversed_design_history": {
+    "previous_study": "studies/regular/ereversed",
+    "feedback": "подумай еще, тут верхние линии кривые и не гармоничные, а капли почти нету",
+    "current_study": "studies/regular/ereversed-refined",
+    "primary": null
+  }
 }
