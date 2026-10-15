@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/Instrument/instrument-serif/65c0ef225f386a3c7e87570a4aa9cc0262c2fd81/README.md",
+    "sha256": "d05be3c3cce3d42a31da07c2f1a332467b36dab8e9c91a76d8892a0448e34529",
+    "bytes": 1729,
+    "status": "fetched",
+    "download_cache_filename": "instrument-readme.md"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/instrumentserif/DESCRIPTION.en_us.html",
+    "sha256": "0ff61cf264f1244c514beca3ae69cac4eaaf4e1092f65755d25ee1a08fc9c3a5",
+    "bytes": 402,
+    "status": "fetched",
+    "download_cache_filename": "instrument-description.html"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/instrumentserif/METADATA.pb",
+    "sha256": "9a650bee57af3478f9294c8765292dcea36322082b987b857e29a2ea64861f6a",
+    "bytes": 1287,
+    "status": "fetched",
+    "download_cache_filename": "instrument-metadata.pb"
+  }
+]

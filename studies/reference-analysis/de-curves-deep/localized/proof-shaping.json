@@ -1,0 +1,3248 @@
+[
+  {
+    "family": "yesevaone",
+    "file": "YesevaOne-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 0,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 224,
+          "cluster": 0,
+          "advance": 605,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 435,
+          "cluster": 0,
+          "advance": 600,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 0,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 454,
+          "cluster": 1,
+          "advance": 580,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 2,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 446,
+          "cluster": 3,
+          "advance": 680,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "kurale",
+    "file": "Kurale-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 164,
+          "cluster": 0,
+          "advance": 545,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 364,
+          "cluster": 0,
+          "advance": 527,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 383,
+          "cluster": 1,
+          "advance": 523,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 2,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 375,
+          "cluster": 3,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "philosopher",
+    "file": "Philosopher-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 327,
+          "cluster": 0,
+          "advance": 570,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 156,
+          "cluster": 0,
+          "advance": 492,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 322,
+          "cluster": 0,
+          "advance": 528,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 327,
+          "cluster": 0,
+          "advance": 564,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 341,
+          "cluster": 1,
+          "advance": 510,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 327,
+          "cluster": 2,
+          "advance": 570,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 333,
+          "cluster": 3,
+          "advance": 548,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantgaramond",
+    "file": "CormorantGaramond[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434.1",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.1",
+          "gid": 2360,
+          "cluster": 0,
+          "advance": 473,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1094,
+          "cluster": 0,
+          "advance": 445,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2359,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.1",
+          "gid": 2360,
+          "cluster": 0,
+          "advance": 454,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2233,
+          "cluster": 1,
+          "advance": 461,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.1",
+          "gid": 2360,
+          "cluster": 2,
+          "advance": 452,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.1",
+          "gid": 2364,
+          "cluster": 3,
+          "advance": 511,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantgaramond",
+    "file": "CormorantGaramond[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss10": true
+    },
+    "target_glyph": "uni0434.ss10",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2389,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1094,
+          "cluster": 0,
+          "advance": 445,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2359,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2389,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2233,
+          "cluster": 1,
+          "advance": 479,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2389,
+          "cluster": 2,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss10",
+          "gid": 2392,
+          "cluster": 3,
+          "advance": 493,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantgaramond",
+    "file": "CormorantGaramond[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss14": true
+    },
+    "target_glyph": "uni0434.ss14",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2415,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1094,
+          "cluster": 0,
+          "advance": 445,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2359,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2415,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2233,
+          "cluster": 1,
+          "advance": 467,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2415,
+          "cluster": 2,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.1",
+          "gid": 2364,
+          "cluster": 3,
+          "advance": 511,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantinfant",
+    "file": "CormorantInfant[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434.1",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.1",
+          "gid": 2358,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1134,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2328,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.1",
+          "gid": 2358,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2226,
+          "cluster": 1,
+          "advance": 479,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.1",
+          "gid": 2358,
+          "cluster": 2,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.1",
+          "gid": 2361,
+          "cluster": 3,
+          "advance": 493,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantinfant",
+    "file": "CormorantInfant[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss10": true
+    },
+    "target_glyph": "uni0434.ss10",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2329,
+          "cluster": 0,
+          "advance": 473,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1134,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2328,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2329,
+          "cluster": 0,
+          "advance": 454,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2226,
+          "cluster": 1,
+          "advance": 461,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss10",
+          "gid": 2329,
+          "cluster": 2,
+          "advance": 452,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss10",
+          "gid": 2333,
+          "cluster": 3,
+          "advance": 511,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantinfant",
+    "file": "CormorantInfant[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss14": true
+    },
+    "target_glyph": "uni0434.ss14",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2384,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1134,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2328,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2384,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2226,
+          "cluster": 1,
+          "advance": 467,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss14",
+          "gid": 2384,
+          "cluster": 2,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.1",
+          "gid": 2361,
+          "cluster": 3,
+          "advance": 493,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "alice",
+    "file": "Alice-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 218,
+          "cluster": 0,
+          "advance": 557,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 78,
+          "cluster": 0,
+          "advance": 523,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 213,
+          "cluster": 0,
+          "advance": 560,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 218,
+          "cluster": 0,
+          "advance": 527,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 232,
+          "cluster": 1,
+          "advance": 518,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 218,
+          "cluster": 2,
+          "advance": 557,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 224,
+          "cluster": 3,
+          "advance": 607,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "marckscript",
+    "file": "MarckScript-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 0,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 76,
+          "cluster": 0,
+          "advance": 449,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 371,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 0,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 382,
+          "cluster": 1,
+          "advance": 351,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 2,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 376,
+          "cluster": 3,
+          "advance": 500,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "badscript",
+    "file": "BadScript-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 0,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 271,
+          "cluster": 0,
+          "advance": 380,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 519,
+          "cluster": 0,
+          "advance": 432,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 0,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 541,
+          "cluster": 1,
+          "advance": 381,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 2,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 533,
+          "cluster": 3,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "caveat",
+    "file": "Caveat[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 638,
+          "cluster": 0,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 262,
+          "cluster": 0,
+          "advance": 355,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 633,
+          "cluster": 0,
+          "advance": 308,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 638,
+          "cluster": 0,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 653,
+          "cluster": 1,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 2,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss01",
+          "gid": 758,
+          "cluster": 3,
+          "advance": 444,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "caveat",
+    "file": "Caveat[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss01": true
+    },
+    "target_glyph": "uni0434.ss01",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 0,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g.ss01",
+          "gid": 394,
+          "cluster": 0,
+          "advance": 355,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.ss01",
+          "gid": 751,
+          "cluster": 0,
+          "advance": 270,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 0,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E.ss01",
+          "gid": 763,
+          "cluster": 1,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 2,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss01",
+          "gid": 758,
+          "cluster": 3,
+          "advance": 444,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "caveat",
+    "file": "Caveat[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss02": true
+    },
+    "target_glyph": "uni0434.ss02",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss02",
+          "gid": 786,
+          "cluster": 0,
+          "advance": 327,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g.ss02",
+          "gid": 420,
+          "cluster": 0,
+          "advance": 355,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.ss02",
+          "gid": 783,
+          "cluster": 0,
+          "advance": 291,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss02",
+          "gid": 786,
+          "cluster": 0,
+          "advance": 327,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E.ss02",
+          "gid": 795,
+          "cluster": 1,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 2,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss01",
+          "gid": 758,
+          "cluster": 3,
+          "advance": 444,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "neucha",
+    "file": "Neucha.ttf",
+    "upm": 1024,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "afii10069",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "afii10069",
+          "gid": 221,
+          "cluster": 0,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 74,
+          "cluster": 0,
+          "advance": 441,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "afii10066",
+          "gid": 218,
+          "cluster": 0,
+          "advance": 470,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "afii10069",
+          "gid": 221,
+          "cluster": 0,
+          "advance": 496,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10080",
+          "gid": 231,
+          "cluster": 1,
+          "advance": 457,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10069",
+          "gid": 221,
+          "cluster": 2,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10074",
+          "gid": 225,
+          "cluster": 3,
+          "advance": 477,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "firasans",
+    "file": "FiraSans-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 1242,
+          "cluster": 0,
+          "advance": 558,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 460,
+          "cluster": 0,
+          "advance": 520,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 1237,
+          "cluster": 0,
+          "advance": 579,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 1242,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 1257,
+          "cluster": 1,
+          "advance": 574,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 1242,
+          "cluster": 2,
+          "advance": 558,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 1248,
+          "cluster": 3,
+          "advance": 600,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "commissioner",
+    "file": "Commissioner[FLAR,VOLM,slnt,wght].ttf",
+    "upm": 2000,
+    "axes": {
+      "wght": 400,
+      "slnt": 0,
+      "FLAR": 0.0,
+      "VOLM": 0.0
+    },
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 610,
+          "cluster": 0,
+          "advance": 1171,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 301,
+          "cluster": 0,
+          "advance": 1084,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 605,
+          "cluster": 0,
+          "advance": 1213,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 610,
+          "cluster": 0,
+          "advance": 1171,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 625,
+          "cluster": 1,
+          "advance": 1180,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 610,
+          "cluster": 2,
+          "advance": 1171,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 616,
+          "cluster": 3,
+          "advance": 1147,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "commissioner",
+    "file": "Commissioner[FLAR,VOLM,slnt,wght].ttf",
+    "upm": 2000,
+    "axes": {
+      "wght": 400,
+      "slnt": 0,
+      "FLAR": 0.0,
+      "VOLM": 0.0
+    },
+    "language": "bg",
+    "features": {},
+    "target_glyph": "uni0434.loclBGR",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 0,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 301,
+          "cluster": 0,
+          "advance": 1084,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 605,
+          "cluster": 0,
+          "advance": 1213,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 0,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 625,
+          "cluster": 1,
+          "advance": 1195,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 2,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 730,
+          "cluster": 3,
+          "advance": 1122,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "ptserifcaption",
+    "file": "PT_Serif-Caption-Web-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "afii10069",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "afii10069",
+          "gid": 365,
+          "cluster": 0,
+          "advance": 645,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 74,
+          "cluster": 0,
+          "advance": 592,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "afii10066",
+          "gid": 362,
+          "cluster": 0,
+          "advance": 608,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "afii10069",
+          "gid": 365,
+          "cluster": 0,
+          "advance": 645,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10080",
+          "gid": 375,
+          "cluster": 1,
+          "advance": 595,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10069",
+          "gid": 365,
+          "cluster": 2,
+          "advance": 645,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10074",
+          "gid": 369,
+          "cluster": 3,
+          "advance": 691,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "elmessiri",
+    "file": "ElMessiri[wght].ttf",
+    "upm": 1000,
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 183,
+          "cluster": 0,
+          "advance": 570,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 83,
+          "cluster": 0,
+          "advance": 492,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 178,
+          "cluster": 0,
+          "advance": 528,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 183,
+          "cluster": 0,
+          "advance": 564,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 195,
+          "cluster": 1,
+          "advance": 510,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 183,
+          "cluster": 2,
+          "advance": 570,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 188,
+          "cluster": 3,
+          "advance": 548,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "viaodalibre",
+    "file": "ViaodaLibre-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 509,
+          "cluster": 0,
+          "advance": 505,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 256,
+          "cluster": 0,
+          "advance": 457,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 504,
+          "cluster": 0,
+          "advance": 482,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 509,
+          "cluster": 0,
+          "advance": 505,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 523,
+          "cluster": 1,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 509,
+          "cluster": 2,
+          "advance": 505,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 515,
+          "cluster": 3,
+          "advance": 524,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "viaodalibre",
+    "file": "ViaodaLibre-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "bg",
+    "features": {},
+    "target_glyph": "uni0434.loclBGR",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 256,
+          "cluster": 0,
+          "advance": 457,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 504,
+          "cluster": 0,
+          "advance": 482,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 523,
+          "cluster": 1,
+          "advance": 489,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 2,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 592,
+          "cluster": 3,
+          "advance": 482,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "prata",
+    "file": "Prata-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 324,
+          "cluster": 0,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 153,
+          "cluster": 0,
+          "advance": 535,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 319,
+          "cluster": 0,
+          "advance": 610,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 324,
+          "cluster": 0,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 338,
+          "cluster": 1,
+          "advance": 574,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 324,
+          "cluster": 2,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 330,
+          "cluster": 3,
+          "advance": 647,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "forum",
+    "file": "Forum-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 414,
+          "cluster": 0,
+          "advance": 504,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 121,
+          "cluster": 0,
+          "advance": 495,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 411,
+          "cluster": 0,
+          "advance": 523,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 414,
+          "cluster": 0,
+          "advance": 504,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 426,
+          "cluster": 1,
+          "advance": 523,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 414,
+          "cluster": 2,
+          "advance": 504,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 419,
+          "cluster": 3,
+          "advance": 529,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "oranienbaum",
+    "file": "Oranienbaum-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "afii10069",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "afii10069",
+          "gid": 38,
+          "cluster": 0,
+          "advance": 485,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 101,
+          "cluster": 0,
+          "advance": 485,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "afii10066",
+          "gid": 35,
+          "cluster": 0,
+          "advance": 460,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "afii10069",
+          "gid": 38,
+          "cluster": 0,
+          "advance": 485,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10080",
+          "gid": 49,
+          "cluster": 1,
+          "advance": 450,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10069",
+          "gid": 38,
+          "cluster": 2,
+          "advance": 485,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10074",
+          "gid": 43,
+          "cluster": 3,
+          "advance": 525,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "lobster",
+    "file": "Lobster-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434.end",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.end",
+          "gid": 738,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g.end",
+          "gid": 457,
+          "cluster": 0,
+          "advance": 480,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 646,
+          "cluster": 0,
+          "advance": 430,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 651,
+          "cluster": 0,
+          "advance": 507,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 665,
+          "cluster": 1,
+          "advance": 439,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 651,
+          "cluster": 2,
+          "advance": 507,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.end",
+          "gid": 743,
+          "cluster": 3,
+          "advance": 459,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "gabriela",
+    "file": "Gabriela-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 0,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 144,
+          "cluster": 0,
+          "advance": 602,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 329,
+          "cluster": 0,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 0,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 351,
+          "cluster": 1,
+          "advance": 578,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 2,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 343,
+          "cluster": 3,
+          "advance": 672,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "poiretone",
+    "file": "PoiretOne-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 0,
+          "advance": 536,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 265,
+          "cluster": 0,
+          "advance": 575,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 522,
+          "cluster": 0,
+          "advance": 571,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 0,
+          "advance": 516,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 541,
+          "cluster": 1,
+          "advance": 530,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 527,
+          "cluster": 2,
+          "advance": 516,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 533,
+          "cluster": 3,
+          "advance": 533,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "poiretone",
+    "file": "PoiretOne-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "bg",
+    "features": {},
+    "target_glyph": "uni0434.loclBGR",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 575,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 265,
+          "cluster": 0,
+          "advance": 575,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 522,
+          "cluster": 0,
+          "advance": 571,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 575,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 541,
+          "cluster": 1,
+          "advance": 550,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 623,
+          "cluster": 2,
+          "advance": 575,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 626,
+          "cluster": 3,
+          "advance": 530,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "bellota",
+    "file": "Bellota-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 544,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 991,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 1015,
+          "cluster": 1,
+          "advance": 581,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 2,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 1004,
+          "cluster": 3,
+          "advance": 621,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "bellotatext",
+    "file": "BellotaText-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 568,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 991,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 1015,
+          "cluster": 1,
+          "advance": 581,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 2,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 1004,
+          "cluster": 3,
+          "advance": 587,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "pacifico",
+    "file": "Pacifico-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 1078,
+          "cluster": 0,
+          "advance": 479,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g.fina",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 449,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 1073,
+          "cluster": 0,
+          "advance": 473,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 1078,
+          "cluster": 0,
+          "advance": 479,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 1093,
+          "cluster": 1,
+          "advance": 451,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 1078,
+          "cluster": 2,
+          "advance": 468,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 1084,
+          "cluster": 3,
+          "advance": 462,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "underdog",
+    "file": "Underdog-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "afii10069",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "afii10069",
+          "gid": 19,
+          "cluster": 0,
+          "advance": 610,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 23,
+          "cluster": 0,
+          "advance": 509,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "afii10066",
+          "gid": 13,
+          "cluster": 0,
+          "advance": 501,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "afii10069",
+          "gid": 19,
+          "cluster": 0,
+          "advance": 610,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10080",
+          "gid": 183,
+          "cluster": 1,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10069",
+          "gid": 19,
+          "cluster": 2,
+          "advance": 610,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "afii10074",
+          "gid": 39,
+          "cluster": 3,
+          "advance": 582,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "balsamiqsans",
+    "file": "BalsamiqSans-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 644,
+          "cluster": 0,
+          "advance": 608,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 35,
+          "cluster": 0,
+          "advance": 577,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 617,
+          "cluster": 0,
+          "advance": 548,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 644,
+          "cluster": 0,
+          "advance": 608,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 822,
+          "cluster": 1,
+          "advance": 494,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 644,
+          "cluster": 2,
+          "advance": 608,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 756,
+          "cluster": 3,
+          "advance": 558,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "comforter",
+    "file": "Comforter-Regular.ttf",
+    "upm": 1000,
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "target_glyph": "uni0434",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 699,
+          "cluster": 0,
+          "advance": 346,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 37,
+          "cluster": 0,
+          "advance": 346,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 694,
+          "cluster": 0,
+          "advance": 377,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 699,
+          "cluster": 0,
+          "advance": 346,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 711,
+          "cluster": 1,
+          "advance": 360,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 699,
+          "cluster": 2,
+          "advance": 346,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 704,
+          "cluster": 3,
+          "advance": 295,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+]

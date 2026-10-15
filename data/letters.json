@@ -85,7 +85,7 @@
     "з": "01 only; 02 deleted and not retained",
     "и": "02 exact native u primary; 01 diagonal alternate ss07",
     "в": "01/02 unresolved; 01 technical default in cumulative trials",
-    "д": "Native two-storey g and printed pedestal rejected; new handwritten upper-ascender proposals01/02 unselected; all old versions retained.",
+    "д": "No approved de. Native-g, printed pedestal and current upper-ascender drawings are rejected; investigate curves/terminals while keeping upper-ascender skeleton open.",
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved"
   },
@@ -1025,9 +1025,9 @@
       "character": "д",
       "name": "de",
       "silhouette": {
-        "evidence": "unselected new design based on actual Cyrillic reference skeletons",
-        "description": "One full x-height bowl with upper-left entry and a continuous right descending stroke; upright Regular stress and native o counter.",
-        "source": "studies/regular/de-cursive/README.md"
+        "evidence": "latest user clarification and source research",
+        "description": "Upper-ascender handwritten skeleton remains open, not approved. Current exact-o execution is rejected for curves/terminals; preserving a complete o counter is not a mandatory design rule.",
+        "source": "studies/reference-analysis/de-curves-deep/README.md"
       },
       "type": "handwritten_upper_ascender_single_counter",
       "ductus": {
@@ -1067,19 +1067,19 @@
         }
       ],
       "design_status": {
-        "status": "polished_handwritten_candidates_awaiting_user_selection",
+        "status": "current_execution_rejected_pending_curve_terminal_research",
         "primary_variant": null,
         "technical_default_variant": "01",
-        "final_contour_acceptance": "pending user review",
+        "final_contour_acceptance": "rejected by user: curves and terminals",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "Handwritten skeleton required; two upper-ascender one-counter forms proposed after rejecting two-storey g and printed pedestal.",
+        "silhouette_selection": "Upper-ascender skeleton remains a research direction, not user-approved; failure identified as curve and terminal execution.",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
         {
           "id": "01",
           "name": "Сдержанный загиб",
-          "selection_status": "unselected_proposal",
+          "selection_status": "rejected_curve_and_terminal_execution",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
@@ -1192,7 +1192,7 @@
         {
           "id": "02",
           "name": "Открытая дуга",
-          "selection_status": "unselected_proposal",
+          "selection_status": "rejected_curve_and_terminal_execution",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
@@ -1319,7 +1319,7 @@
       "checks": {
         "this_pass": "Eight combinations rebuilt with local upper-terminal rounding refinement; saved integer-grid joins checked independently.",
         "report": "studies/regular/de-cursive/export-audit.json",
-        "visual_acceptance": "pending",
+        "visual_acceptance": "rejected: curves and terminals",
         "kerning": "no donor pairs assigned; final spacing pending",
         "fontbakery": "not run",
         "hyperglot": "not run",
@@ -1335,7 +1335,8 @@
         "readme": "studies/regular/de-cursive/README.md",
         "design_notes": "data/de-cursive-outlines.json",
         "reference_research": "studies/reference-analysis/cursive-de",
-        "quadratic_export_policy": "data/de-cursive-export.json"
+        "quadratic_export_policy": "data/de-cursive-export.json",
+        "current_research": "studies/reference-analysis/de-curves-deep"
       },
       "instruction_deviations": [
         {
@@ -1353,7 +1354,8 @@
           "new_stem_at_y510": 68,
           "upper_crown_thickness": 25
         },
-        "reference": "data/de-cursive-outlines.json"
+        "reference": "data/de-cursive-outlines.json",
+        "scope": "Last rejected de-cursive drawing, not mandatory constraints for the next design."
       },
       "history": [
         {
@@ -2161,7 +2163,7 @@
         "handwritten_upper_ascender": {
           "path": "studies/regular/de-cursive",
           "design_data": "data/de-cursive-outlines.json",
-          "status": "polished candidates awaiting user selection; no primary assigned",
+          "status": "both current drawings visually rejected by user; skeleton not categorically rejected",
           "primary_variant": null
         }
       },

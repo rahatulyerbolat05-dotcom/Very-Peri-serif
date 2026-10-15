@@ -1,0 +1,413 @@
+[
+  {
+    "key": "prata",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/METADATA.pb",
+    "metadata_sha256": "b6803b1f2c7e83ea3aa192bc3fa9102ebd1d011e07b60216327aa34e434b891f",
+    "fonts": [
+      {
+        "file": "Prata-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/Prata-Regular.ttf",
+        "sha256": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+        "bytes": 101284,
+        "metadata_style": "normal"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/OFL.txt",
+      "sha256": "1e055d25bde41906cc2e1a08bc156e7776d5084e1640d75dbd0065a937b488e3",
+      "bytes": 4476
+    }
+  },
+  {
+    "key": "oranienbaum",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/METADATA.pb",
+    "metadata_sha256": "04344beed4451777543fc2952fe7255ac0a5e138f3b92691a28a19f3666b3b00",
+    "fonts": [
+      {
+        "file": "Oranienbaum-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/Oranienbaum-Regular.ttf",
+        "sha256": "d0c2527f106ddaf53bebce08e903b585d1fd1d830eddd23ed723c313b4fe2c6c",
+        "bytes": 141220,
+        "metadata_style": "normal"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/OFL.txt",
+      "sha256": "d941c5b788d47aa469ee54e30f4c12d6a43c45a295f10c568bdf9772f2893b7b",
+      "bytes": 4434
+    }
+  },
+  {
+    "key": "brygada1918",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/brygada1918/METADATA.pb",
+    "metadata_sha256": "7dbd872f0a44bba117edb9b6f3165fc9fcf0232bf98391aaf6b477e2d0cdd714",
+    "fonts": [
+      {
+        "file": "Brygada1918[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/brygada1918/Brygada1918%5Bwght%5D.ttf",
+        "sha256": "93a23e7c6de5e2c54410116abceed294a05b71aa03af52fbaa92c2cc79003d4d",
+        "bytes": 242256,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "Brygada1918-Italic[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/brygada1918/Brygada1918-Italic%5Bwght%5D.ttf",
+        "sha256": "c694f075a9240c47c72a2298acf9c14f79abdf7bae824eca96b78099dbed93c5",
+        "bytes": 243716,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/brygada1918/OFL.txt",
+      "sha256": "733ac89b598ee093fe094927a8e66a988423a61b745c62233a2b0d6e2a159e58",
+      "bytes": 4396
+    }
+  },
+  {
+    "key": "vollkorn",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/vollkorn/METADATA.pb",
+    "metadata_sha256": "294801991089df499d7b9a35db0d899c5777a04531cb87c0ac507694fe56ca02",
+    "fonts": [
+      {
+        "file": "Vollkorn[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/vollkorn/Vollkorn%5Bwght%5D.ttf",
+        "sha256": "4ebef434f76f80286204840354a84db79a0dc3c87deeeb791e015b70b2ade49d",
+        "bytes": 577864,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "Vollkorn-Italic[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/vollkorn/Vollkorn-Italic%5Bwght%5D.ttf",
+        "sha256": "cd947ae49b5d46e812d8d09434fbe8ec452286cd5557ef6a762a3562e2c8d300",
+        "bytes": 441264,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/vollkorn/OFL.txt",
+      "sha256": "53f9c99fa3d47f7d632a42ee7bab4a834a60a744f6026d676c3a223cef2b2ef3",
+      "bytes": 4489
+    }
+  },
+  {
+    "key": "oldstandardtt",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/METADATA.pb",
+    "metadata_sha256": "c2893bc801b26ce6017f8983b8c5c7fb3198d0b6b4f2bde2c185201921eba91d",
+    "fonts": [
+      {
+        "file": "OldStandard-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/OldStandard-Regular.ttf",
+        "sha256": "42717a1280b523a506ca2b0285cca380e77fe214b1f6e3d75a8b925005f19eac",
+        "bytes": 249668,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "OldStandard-Italic.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/OldStandard-Italic.ttf",
+        "sha256": "4b9522f4711317fc06e2413a58b4662c249cb707df193d682b9d640e365ef564",
+        "bytes": 272692,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/OFL.txt",
+      "sha256": "4faa2d9e2ce0a4b5b37e62ee6fafe474a539b31578f7214ed97cc3503aeb8ebd",
+      "bytes": 4373
+    }
+  },
+  {
+    "key": "ptserif",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/METADATA.pb",
+    "metadata_sha256": "a943b85eed1c2d368aaaa3e3999fbe8b15365153aa62889f76271bc10d1094ca",
+    "fonts": [
+      {
+        "file": "PT_Serif-Web-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/PT_Serif-Web-Regular.ttf",
+        "sha256": "a4951fade06ff8f09b7673aa81ffb65a8cd409e24d3289a6dc670bc4dda2557a",
+        "bytes": 359048,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "PT_Serif-Web-Italic.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/PT_Serif-Web-Italic.ttf",
+        "sha256": "f57e95ff9dc85691a3b2e193f2028db36f6663939a46c0fc4f286d618b80b7ce",
+        "bytes": 375356,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/OFL.txt",
+      "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+      "bytes": 4434
+    }
+  },
+  {
+    "key": "libertinusserif",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/METADATA.pb",
+    "metadata_sha256": "8950fdc33471a5bb622ff1ee0787d22f05d779865a19eb1e6a5b54a81be405c7",
+    "fonts": [
+      {
+        "file": "LibertinusSerif-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/LibertinusSerif-Regular.ttf",
+        "sha256": "81ea17858245163742c9f5ddf19e9c54667ee5e026708556fb1bf5dce7f92fae",
+        "bytes": 603444,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "LibertinusSerif-Italic.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
+        "sha256": "c8d62202ff921968c491bbbd05f9794213e98e1317c8cbf5edc1d8043f4a21d6",
+        "bytes": 605956,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/OFL.txt",
+      "sha256": "543bbe3d066d7ee6b062b6911220355c72720dc16003e5086885d6f543a6f376",
+      "bytes": 4993
+    }
+  },
+  {
+    "key": "stixtwotext",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/stixtwotext/METADATA.pb",
+    "metadata_sha256": "016d54115a48569414380f270c534ece0b53d64d945c666407c67a5cc09d4ae1",
+    "fonts": [
+      {
+        "file": "STIXTwoText[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/stixtwotext/STIXTwoText%5Bwght%5D.ttf",
+        "sha256": "7962b8b7811e6a896c9a91a0bccbb5241047770eb24d4997c5cb5fe21d5c0df2",
+        "bytes": 418956,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "STIXTwoText-Italic[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/stixtwotext/STIXTwoText-Italic%5Bwght%5D.ttf",
+        "sha256": "88c0e2e316eaff56eddc9e51e4850317e2a1e490bbf758b2dec4793aedba9c74",
+        "bytes": 454368,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/stixtwotext/OFL.txt",
+      "sha256": "62c0967a997b9691326d35b1f90baf085a557327b711618bc4161325ce1bb1b2",
+      "bytes": 4520
+    }
+  },
+  {
+    "key": "sourceserif4",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/sourceserif4/METADATA.pb",
+    "metadata_sha256": "f7b88902c1d2f41839a3f7bf6723d1e64044c7c183b82871ce770a95f24b84e3",
+    "fonts": [
+      {
+        "file": "SourceSerif4[opsz,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
+        "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "bytes": 1209508,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "SourceSerif4-Italic[opsz,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz%2Cwght%5D.ttf",
+        "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42",
+        "bytes": 855432,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/sourceserif4/OFL.txt",
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "bytes": 4400
+    }
+  },
+  {
+    "key": "notoserifdisplay",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/notoserifdisplay/METADATA.pb",
+    "metadata_sha256": "ed72f12e28f8777fa21f3ab54db2860d01f267c79fadcb5734d6b5690b604e01",
+    "fonts": [
+      {
+        "file": "NotoSerifDisplay[wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/notoserifdisplay/NotoSerifDisplay%5Bwdth%2Cwght%5D.ttf",
+        "sha256": "4b661adcf6a5d38bf5befdc4d976e8a7238a4aeb57e62c1c1a67775380a09df9",
+        "bytes": 1835176,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "NotoSerifDisplay-Italic[wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/notoserifdisplay/NotoSerifDisplay-Italic%5Bwdth%2Cwght%5D.ttf",
+        "sha256": "daad4d314708839a5c343f26e75467edf6c05a3a726502c98974dd3e240e6516",
+        "bytes": 2000744,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/notoserifdisplay/OFL.txt",
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "bytes": 4350
+    }
+  },
+  {
+    "key": "neuton",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neuton/METADATA.pb",
+    "metadata_sha256": "4e75ea85e70170d347c0c1584d584f56dfbb898f1b85465483ec9a59d78c3e39",
+    "fonts": [
+      {
+        "file": "Neuton-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neuton/Neuton-Regular.ttf",
+        "sha256": "28ae41fd0ff18925c1a829358b7bd334e27994da23d6abdd72eaff646cacadb6",
+        "bytes": 64628,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "Neuton-Italic.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neuton/Neuton-Italic.ttf",
+        "sha256": "b5c66a502ed69b489300887b7019923e79925f90f1bed92cebbc398ec54b5199",
+        "bytes": 63292,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neuton/OFL.txt",
+      "sha256": "636d62f04d7bda9fcf9354f258f6244e7e18288cae036b95122e204f1acbec80",
+      "bytes": 4405
+    }
+  },
+  {
+    "key": "kurale",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/METADATA.pb",
+    "metadata_sha256": "cd5342390d4f513b5d332d94b3faa04425a1ce970d21929e178649aa0d454fdc",
+    "fonts": [
+      {
+        "file": "Kurale-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/Kurale-Regular.ttf",
+        "sha256": "6055aaca6870ca64210dd81fa47f8bb71595a9c8fbe570351ed45a15f1a0820d",
+        "bytes": 265304,
+        "metadata_style": "normal"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/OFL.txt",
+      "sha256": "b712dacdda5da76c0213f8478886f893b855665c1153ae438bc3e55a7dc525ef",
+      "bytes": 4363
+    }
+  },
+  {
+    "key": "merriweather",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/merriweather/METADATA.pb",
+    "metadata_sha256": "50aa12ab94b75275eb90b6353dd3f9b187c101ce0a89071f5456c052490a4345",
+    "fonts": [
+      {
+        "file": "Merriweather[opsz,wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/merriweather/Merriweather%5Bopsz%2Cwdth%2Cwght%5D.ttf",
+        "sha256": "d0ed0e359e396af7ad05e73dffd11a3a4c326ea0d0283c56bd9361cb2cc86a96",
+        "bytes": 4628080,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "Merriweather-Italic[opsz,wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/merriweather/Merriweather-Italic%5Bopsz%2Cwdth%2Cwght%5D.ttf",
+        "sha256": "f68a8f4989258679e4fbaf50aa42400132b5373c2d9d2514ba82ef6e85947a0b",
+        "bytes": 4591168,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/merriweather/OFL.txt",
+      "sha256": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+      "bytes": 4438
+    }
+  },
+  {
+    "key": "robotoserif",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/robotoserif/METADATA.pb",
+    "metadata_sha256": "5f5893410acc682cefc0eef3c6be921fde33c6e78a052fc763ca949ddb102eee",
+    "fonts": [
+      {
+        "file": "RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/robotoserif/RobotoSerif%5BGRAD%2Copsz%2Cwdth%2Cwght%5D.ttf",
+        "sha256": "351ced75f3851806aa6d846b669361521eb1925cfc530396df9c1a1b77061ddb",
+        "bytes": 3944924,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/robotoserif/RobotoSerif-Italic%5BGRAD%2Copsz%2Cwdth%2Cwght%5D.ttf",
+        "sha256": "695ffbe6bfd0893a8de90b1ea13632e7e838bc7427b818584e1daf82b36b99de",
+        "bytes": 4680368,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/robotoserif/OFL.txt",
+      "sha256": "34dbfbb43e0b4fdeef445d77b9ac0b988e5ad7a9bbf16808c97b66c66d51f553",
+      "bytes": 4489
+    }
+  },
+  {
+    "key": "gelasio",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gelasio/METADATA.pb",
+    "metadata_sha256": "03e0786b11a780cca302f7d43265567331ccf262f79ec85b992af70d30675acf",
+    "fonts": [
+      {
+        "file": "Gelasio[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gelasio/Gelasio%5Bwght%5D.ttf",
+        "sha256": "4daecea457258c9ebeb8bc99ed3fd24353618bfad3ea4b93fa0b5d0468fc04e4",
+        "bytes": 168556,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "Gelasio-Italic[wght].ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gelasio/Gelasio-Italic%5Bwght%5D.ttf",
+        "sha256": "52559e845a4d33514e5f93bb9ae7dbeae1894a53f2c565a15f18af40cd337c09",
+        "bytes": 174212,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gelasio/OFL.txt",
+      "sha256": "b393cb01867c919b44381512120dc3e4c954c7b47e2035c405f3a324799a4d29",
+      "bytes": 4387
+    }
+  },
+  {
+    "key": "ptserifcaption",
+    "pin": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/METADATA.pb",
+    "metadata_sha256": "7a0356f6d32ae267b9896a2fd5c29bb01d2f82499fcbc0a45806444c057d8922",
+    "fonts": [
+      {
+        "file": "PT_Serif-Caption-Web-Regular.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/PT_Serif-Caption-Web-Regular.ttf",
+        "sha256": "d17d47f44e840eee017f839b27dff3c94c7afe7743eff308d4bd11f7018b69af",
+        "bytes": 399840,
+        "metadata_style": "normal"
+      },
+      {
+        "file": "PT_Serif-Caption-Web-Italic.ttf",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/PT_Serif-Caption-Web-Italic.ttf",
+        "sha256": "afe69233498676c418383b9defda8aace407eca0e86f4499d9ba4e9f494f9da5",
+        "bytes": 406612,
+        "metadata_style": "italic"
+      }
+    ],
+    "license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/OFL.txt",
+      "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+      "bytes": 4434
+    }
+  }
+]

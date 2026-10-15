@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "method": "Independent analytic derivatives computed from Glyphs/RecordingPen; corpus cmap counts independently checked against downloaded fonts.",
+  "source_sha256": "e7dd989a8d17b7cdc13130b79597d44bdd4b9dd043c801639468ef38d58a706f",
+  "formula": "kappa=det(Bprime,Bdoubleprime)/norm(Bprime)^3;R=1/abs(kappa)",
+  "joins": [
+    {
+      "glyph": "rejected de02",
+      "point": [
+        245,
+        715
+      ],
+      "radius_before": 135.482315,
+      "radius_after": 12.398438,
+      "tangent_mismatch_degrees": 0
+    },
+    {
+      "glyph": "rejected de01",
+      "point": [
+        266,
+        495
+      ],
+      "radius_before": 22.36068,
+      "radius_after": 611.285083,
+      "tangent_mismatch_degrees": 0
+    },
+    {
+      "glyph": "native f",
+      "point": [
+        196,
+        717
+      ],
+      "radius_before": 43.74,
+      "radius_after": 44.117647,
+      "tangent_mismatch_degrees": 0
+    }
+  ],
+  "exact_native_reuse": {
+    "a_commands": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "d_commands": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "translation_a_to_d": [
+      58,
+      0
+    ]
+  },
+  "corpus": {
+    "unique_loaded_families": 40,
+    "families_with_de": 37,
+    "core_serif_configurations": 1060,
+    "full_serif_configurations": 1174
+  },
+  "limits": [
+    "These are local geometric diagnostics, not a universal G2 rule or proof of aesthetic quality.",
+    "The upper-ascender skeleton is neither approved nor categorically rejected."
+  ]
+}

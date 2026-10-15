@@ -4,14 +4,14 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/de-cursive",
+  "latest_artifact": "studies/reference-analysis/de-curves-deep",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
     {
       "path": "studies/README.md",
-      "sha256": "6e9efe366c0200f858d2a9c47c4592da95edf906590ac7c2b0c45df8fc934602",
-      "bytes": 2681
+      "sha256": "69bb280098c2b24bd779c5114983f28d1a442d2eea68ab61d43bdf9a82281e35",
+      "bytes": 2723
     },
     {
       "path": "studies/archive/de-conventional/OFL.txt",
@@ -374,6 +374,376 @@
       "bytes": 363465
     },
     {
+      "path": "studies/reference-analysis/de-curves-deep/README.md",
+      "sha256": "95ef6fce0b500a5284908c0a10d9aeb91abe49b6b5baa086f6a5dc96697cd658",
+      "bytes": 17555
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/README.md",
+      "sha256": "543b0dc0cff8972c0af456ebbaf45d7040daf9d12c9fbc2bd0fd03e2a5ac2d71",
+      "bytes": 4524
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/approved-and-native-context.svg",
+      "sha256": "99e3849a7768bc9efae8362079e4888133c90be290b9f6a9921380f0065b3055",
+      "bytes": 118183
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/critique.md",
+      "sha256": "06ffc88c49fef89014764193a4f4e3ffd113afaa7e850b83664a3424f7bfaf8a",
+      "bytes": 14484
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/curves-terminals-forensic.svg",
+      "sha256": "a662b3565255598d7d29b5c75906ddc903a05a3790630db42df78698d41a4178",
+      "bytes": 193865
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/metrics.json",
+      "sha256": "b0d43eec81169dc5b8b9904f8acb12eb990f0090887d7458f07dda684b3c3f8c",
+      "bytes": 109630
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/critique/rejected-outlines.json",
+      "sha256": "46f5bf5473ed906565e798f889b03fe23a40a0adccd1ca23fb990c13226b0df7",
+      "bytes": 22935
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/independent-factcheck.json",
+      "sha256": "442a6807b21341c2bc6df3c59baf36ca5cdf0848693f8ed42beb36a8199a7c55",
+      "bytes": 1512
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/alice/OFL.txt",
+      "sha256": "ef643b6b82fb5c2ce056e27b6bf6908433a785bbb6ee6dc23c4739743f063e54",
+      "bytes": 4477
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/badscript/OFL.txt",
+      "sha256": "0b742ad45c246502b6d56c62146011e37098978b8feb5970d7da313553dedd91",
+      "bytes": 4390
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/balsamiqsans/OFL.txt",
+      "sha256": "0e82859672e549fd39554e2bfa97b5511e81f4f89394f2e696666d36b5d52144",
+      "bytes": 4395
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/bellota/OFL.txt",
+      "sha256": "92938e2734b9280a9d4428c0fe4421b3e501641f78dafc7438fc19c0fc625c07",
+      "bytes": 4386
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/bellotatext/OFL.txt",
+      "sha256": "92938e2734b9280a9d4428c0fe4421b3e501641f78dafc7438fc19c0fc625c07",
+      "bytes": 4386
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/brygada1918/OFL.txt",
+      "sha256": "733ac89b598ee093fe094927a8e66a988423a61b745c62233a2b0d6e2a159e58",
+      "bytes": 4396
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/caveat/OFL.txt",
+      "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+      "bytes": 4385
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/comforter/OFL.txt",
+      "sha256": "abc9cc1c5d7dc6005ebffb703055380ad7b39a159f690e16233d80f78262f82b",
+      "bytes": 4484
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/commissioner/OFL.txt",
+      "sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
+      "bytes": 4395
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/cormorantgaramond/OFL.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "bytes": 4387
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/cormorantinfant/OFL.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+      "bytes": 4387
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/cormorantupright/OFL.txt",
+      "sha256": "9134ca6996bd33ea2022e109f13f20e29dee1dcd8b2e8878aad576d2ca334e9f",
+      "bytes": 4413
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/elmessiri/OFL.txt",
+      "sha256": "b69113722df50071b68ea377ad261919f08fd0dd6672f68b8868445586a30770",
+      "bytes": 4390
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/firasans/OFL.txt",
+      "sha256": "8f24842e9174beda18a556c2ae7d54f5dc444340c19a3a9ef77e23bca366adbd",
+      "bytes": 4370
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/forum/OFL.txt",
+      "sha256": "1bfe7d2aca99042eabf37079152fef8abdda2c36dad454ae89b858a3cb1078c5",
+      "bytes": 4399
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/gabriela/OFL.txt",
+      "sha256": "c5478a76bd760eed7b741678b71d9dfe1062e7399739a3b6da8ebe00d19715d1",
+      "bytes": 4515
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/gelasio/OFL.txt",
+      "sha256": "b393cb01867c919b44381512120dc3e4c954c7b47e2035c405f3a324799a4d29",
+      "bytes": 4387
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/kurale/OFL.txt",
+      "sha256": "b712dacdda5da76c0213f8478886f893b855665c1153ae438bc3e55a7dc525ef",
+      "bytes": 4363
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/libertinusserif/OFL.txt",
+      "sha256": "543bbe3d066d7ee6b062b6911220355c72720dc16003e5086885d6f543a6f376",
+      "bytes": 4993
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/lobster/OFL.txt",
+      "sha256": "88aece7d90f2bb7049719f11619a560af22af3451af141f12aa4f46bb157a99b",
+      "bytes": 4430
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/marckscript/OFL.txt",
+      "sha256": "f22a2beea88d631a620b15683fd03e79f13ad3297ad97fa5e42283c0b1a3a038",
+      "bytes": 4420
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/merriweather/OFL.txt",
+      "sha256": "715bd349bfa6116f99e351e1548321dcfa25b91df65502d22ca8d624557697d2",
+      "bytes": 4438
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/neucha/OFL.txt",
+      "sha256": "656a20870fbcb8f559f1c6308c1df90ac93d7cd0279aab49b43a43b5e58534e6",
+      "bytes": 4370
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/neuton/OFL.txt",
+      "sha256": "636d62f04d7bda9fcf9354f258f6244e7e18288cae036b95122e204f1acbec80",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/notoserifdisplay/OFL.txt",
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "bytes": 4350
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/oldstandardtt/OFL.txt",
+      "sha256": "4faa2d9e2ce0a4b5b37e62ee6fafe474a539b31578f7214ed97cc3503aeb8ebd",
+      "bytes": 4373
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/oranienbaum/OFL.txt",
+      "sha256": "d941c5b788d47aa469ee54e30f4c12d6a43c45a295f10c568bdf9772f2893b7b",
+      "bytes": 4434
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/pacifico/OFL.txt",
+      "sha256": "a47e5daeda73568969395c656823102678f2eefb0d7d7ecb47aac4cc17e42204",
+      "bytes": 4389
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/philosopher/OFL.txt",
+      "sha256": "f1e511c19c29907ff2e7a3a575e7fa4cbbf5cedf551a0044db74cf4dc52fde89",
+      "bytes": 4393
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/poiretone/OFL.txt",
+      "sha256": "708e33bed791c40638926a7577bcef8ff8748f84045f3825277540cbb8d483ba",
+      "bytes": 4389
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/prata/OFL.txt",
+      "sha256": "1e055d25bde41906cc2e1a08bc156e7776d5084e1640d75dbd0065a937b488e3",
+      "bytes": 4476
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/ptserif/OFL.txt",
+      "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+      "bytes": 4434
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/ptserifcaption/OFL.txt",
+      "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+      "bytes": 4434
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/robotoserif/OFL.txt",
+      "sha256": "34dbfbb43e0b4fdeef445d77b9ac0b988e5ad7a9bbf16808c97b66c66d51f553",
+      "bytes": 4489
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/sourceserif4/OFL.txt",
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "bytes": 4400
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/stixtwotext/OFL.txt",
+      "sha256": "62c0967a997b9691326d35b1f90baf085a557327b711618bc4161325ce1bb1b2",
+      "bytes": 4520
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/underdog/OFL.txt",
+      "sha256": "b0316f404a7b291e40921c605160181065791a5010a2d2d5691fc7e28cdbdff2",
+      "bytes": 4435
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/viaodalibre/OFL.txt",
+      "sha256": "1cd4dc67e3c5a349d0121e0d91837cec083559fb94ebf70a8a31601a787f42e3",
+      "bytes": 4392
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/vollkorn/OFL.txt",
+      "sha256": "53f9c99fa3d47f7d632a42ee7bab4a834a60a744f6026d676c3a223cef2b2ef3",
+      "bytes": 4489
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/licenses/yesevaone/OFL.txt",
+      "sha256": "ab592d1abca19428b89d851706fa7815ec25139c6affb45d366577ca63fb91b7",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/README.md",
+      "sha256": "2c1b63989cc13bf631bbb267a109c030a4ed621d9528a823d0ff526af8c0f2f6",
+      "bytes": 6329
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/analysis.json",
+      "sha256": "4a0570ece48dc210166cc79b27af7d6374c050bbf1c060aac1744dbd25defb61",
+      "bytes": 104639
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/full-survey-1.svg",
+      "sha256": "2bb6cd57e80a2c8420aec1e4c1609805cc9a4776a1940ff4ca5e337f0a54e1d1",
+      "bytes": 232225
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/full-survey-2.svg",
+      "sha256": "f0cc90db4e85212bef9dee737bbaa1fc5846620cc1cce1c0c880b940b56cbaa1",
+      "bytes": 250835
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/full-survey-3.svg",
+      "sha256": "34617e0fb49f2865738344929b10d0b6079e4d81935f31f05f36ac25a48374c0",
+      "bytes": 215038
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/full-survey-4.svg",
+      "sha256": "f4026dc292b9a5308d48c44f5fbc7b05edcee80ac216a4c9f226467add4fe043",
+      "bytes": 216188
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/proof-shaping.json",
+      "sha256": "1964d1252ba1acfdb3604a712ff6ca8d52f4be16c8535caedeb78a784a675dd6",
+      "bytes": 58272
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/reference-sources.json",
+      "sha256": "635c2ab1e2a7384445d99c28e4bea564d8338ede9a095941c224a3a1be90dfe0",
+      "bytes": 164582
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/terminal-controls-shaping.json",
+      "sha256": "e66e54d55c0709a2332e27c907042128c1761753302a9735df5529eeddf6793a",
+      "bytes": 16525
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/terminal-controls.svg",
+      "sha256": "ee9c41cde65e289bc3d87b2bbaee79773d7e7b6d8fba4028276128437215c5ad",
+      "bytes": 314743
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/localized/validation.json",
+      "sha256": "e897877a6f9414ff8df3d7624b684d40537db2c908874f24dc2990c25d1f68f7",
+      "bytes": 113
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/native/REPORT.md",
+      "sha256": "13afb60a953ec5bd9d8c94239313c1b0f8b0f3ac3ea505237f06d6ccb5ba18c2",
+      "bytes": 11221
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/native/all-master-cap-candidates.json",
+      "sha256": "e979918007722a4697edb9bc3a4cee7ecddc0331b0de86ad7de3e5f8c019feae",
+      "bytes": 263222
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/native/native-curve-facts.json",
+      "sha256": "a9f13d58050e5bff5a1edfe65b94e4f0a28798c8e7b7210870a215025edefdd1",
+      "bytes": 862848
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/native/native-detail-magnifications.svg",
+      "sha256": "4bd2494f7e887e55aeee3b085c2691c2f5e59e26640f9e0d85797d7aa9499888",
+      "bytes": 145391
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/native/native-terminal-atlas.svg",
+      "sha256": "b0683dbe9ec80b98905c792683ac12a17d09d161cc122d91904db90282d008f2",
+      "bytes": 203528
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/primary/sources.json",
+      "sha256": "28d4a77004aa69a5c9f4262f5e74e81b9bcb43e2a6266c6e0e04659379abe81d",
+      "bytes": 984
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/research-summary.json",
+      "sha256": "c855239f580787cdba74ea8a599bf78b956da8f4f33ed2d0549b6cd81bc87cd4",
+      "bytes": 1647
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/FINDINGS.md",
+      "sha256": "1f95e4f496a7ed18e1f8a105edc15dc2c844e0272749ebb47c1bb7d9c2beaa97",
+      "bytes": 5317
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/audit.json",
+      "sha256": "067c6600b72c73124ed3433c1c7efe565d778f93934d0700657b6fe1fed0a58c",
+      "bytes": 1086144
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/native-cursive-terminal-relations.svg",
+      "sha256": "1c8bc021d859c841d52468ff994767d0cc763c772f8895d78308d0dc28d15cfe",
+      "bytes": 254710
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/native-serif-corpus.svg",
+      "sha256": "aec3caa27e6463603f4af2df164a3b5a69c82e2843709288546898e2f4013ac9",
+      "bytes": 687758
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/proof-shaping.json",
+      "sha256": "35bb64190373927857c75c7db677a4a9694ce0360c04f01267420b66f863af64",
+      "bytes": 344381
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/sources.json",
+      "sha256": "21d3593aa3afb8a8d9064de429666fdd6954f9269ba352562f87f2502b8ab985",
+      "bytes": 19992
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/terminal-case-studies.json",
+      "sha256": "ce148eb5a9b9d482528e26fc7fa2dd8528707348d40e20f61f3b8f8d42cfa450",
+      "bytes": 11886
+    },
+    {
+      "path": "studies/reference-analysis/de-curves-deep/serif/terminal-case-studies.svg",
+      "sha256": "cc10beccaf25b8402c21f64a89ec0c6ac752b9961b119732a22e5db670061378",
+      "bytes": 102742
+    },
+    {
       "path": "studies/reference-analysis/italic-anatomy.svg",
       "sha256": "ae8903b367067973463decf21467deffd359185c7065afffa24c9cfd2f757068",
       "bytes": 68065
@@ -505,8 +875,8 @@
     },
     {
       "path": "studies/regular/de-cursive/README.md",
-      "sha256": "58ad08640552f779801f6348d41725c089c08cbf762e4cd875f51b85aca04d4f",
-      "bytes": 5911
+      "sha256": "a0477917551438c86592931bec5b61bee9510535ecb3c7ab839c9f11c2ff805a",
+      "bytes": 6660
     },
     {
       "path": "studies/regular/de-cursive/approved-baseline.json",

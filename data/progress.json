@@ -49,26 +49,34 @@
       "Мягкая"
     ],
     "д": {
-      "status": "polished_handwritten_candidates_awaiting_user_selection",
+      "status": "latest_drawings_rejected_curve_terminal_research",
       "primary": null,
       "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
       "previous_variants": [
         "Овальная петля",
         "Асимметричная петля"
       ],
-      "new_study": "studies/regular/de-cursive",
-      "new_candidates": [
-        "01 Сдержанный загиб",
-        "02 Открытая дуга"
-      ],
-      "approval": "none; pending user review of handwritten forms",
+      "new_study": "studies/reference-analysis/de-curves-deep",
+      "approval": "Both de-cursive drawings rejected; user identified curves and terminals as principal problem. Upper-ascender skeleton is not approved or categorically rejected.",
       "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
       "pedestal_study_status": "both rejected by user: printed skeleton violates agreed lowercase approach",
       "rejected_studies": [
         "studies/regular/de-native",
-        "studies/regular/de-cyrillic"
+        "studies/regular/de-cyrillic",
+        "studies/regular/de-cursive"
       ],
-      "export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes"
+      "export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes",
+      "latest_feedback": {
+        "date": "2026-10-15",
+        "verdict": "в этот раз у тебя не получилось",
+        "clarification": "Кривые и окончания",
+        "scope": "execution of current01/02, not a blanket ban on upper-ascender skeletons"
+      },
+      "rejected_current_candidates": [
+        "01 Сдержанный загиб",
+        "02 Открытая дуга"
+      ],
+      "new_candidates": []
     },
     "й": {
       "variants": [
@@ -90,7 +98,7 @@
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/de-cursive",
+  "latest_artifact": "studies/reference-analysis/de-curves-deep",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -473,5 +481,7 @@
     "combined_lowercase_letters": 21,
     "individually_studied_letters": 13,
     "native_latin_aliases": 8
-  }
+  },
+  "latest_de_export_status": "Retained de-cursive exports are technically checked but visually rejected; not an approved de.",
+  "de_curve_research": "studies/reference-analysis/de-curves-deep"
 }

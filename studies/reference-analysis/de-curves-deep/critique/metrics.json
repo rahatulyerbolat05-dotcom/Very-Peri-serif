@@ -1,0 +1,3993 @@
+{
+  "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81 Regular cubic master; current retained de-cursive source.",
+  "method": "Cubic derivatives analytic at joins; filled area / comparison uses 600 chords per cubic, approximation. Curvature is kappa=(xprime*ysecond-yprime*xsecond)/speed^3. R=1/abs(kappa). G2 is diagnostic, not imposed rule.",
+  "current": {
+    "01": {
+      "area_sampled": 86911.84290420898,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            383.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0023422368361785506,
+          "signed_curvature_out": 0.002287357448616149,
+          "radius_in": 426.9423076923077,
+          "radius_out": 437.18571428571425,
+          "ratio_abs": 1.023992484251031
+        },
+        {
+          "contour": 0,
+          "point": [
+            348.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0036458333333333334,
+          "signed_curvature_out": 0.0013317479191438763,
+          "radius_in": 274.2857142857143,
+          "radius_out": 750.8928571428571,
+          "ratio_abs": 2.7376302083333335
+        },
+        {
+          "contour": 0,
+          "point": [
+            231.0,
+            740.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.010074074074074074,
+          "signed_curvature_out": 0.009794918885827977,
+          "radius_in": 99.26470588235294,
+          "radius_out": 102.09375,
+          "ratio_abs": 1.0285
+        },
+        {
+          "contour": 0,
+          "point": [
+            147.0,
+            702.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.00633084583706964,
+          "signed_curvature_out": 0.01924100084861354,
+          "radius_in": 157.95677635121032,
+          "radius_out": 51.972348417211236,
+          "ratio_abs": 3.039246467817897
+        },
+        {
+          "contour": 0,
+          "point": [
+            145.0,
+            684.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.03928371006591931,
+          "signed_curvature_out": 0.03273642505493276,
+          "radius_in": 25.455844122715707,
+          "radius_out": 30.54701294725885,
+          "ratio_abs": 1.2
+        },
+        {
+          "contour": 0,
+          "point": [
+            164.0,
+            684.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.033671751485073696,
+          "signed_curvature_out": -0.006948139195332668,
+          "radius_in": 29.69848480983499,
+          "radius_out": 143.9234263861234,
+          "ratio_abs": 4.846153846153846
+        },
+        {
+          "contour": 0,
+          "point": [
+            231.0,
+            715.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.01260239445494644,
+          "signed_curvature_out": -0.034829931972789115,
+          "radius_in": 79.35000000000001,
+          "radius_out": 28.7109375,
+          "ratio_abs": 2.7637551020408164
+        },
+        {
+          "contour": 0,
+          "point": [
+            280.0,
+            574.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0015741833923652105,
+          "signed_curvature_out": 0.0,
+          "radius_in": 635.25,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            280.0,
+            520.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005917159763313609,
+          "radius_in": null,
+          "radius_out": 169.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            266.0,
+            495.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.04472135954999579,
+          "signed_curvature_out": -0.0016358979259257723,
+          "radius_in": 22.3606797749979,
+          "radius_out": 611.2850833490049,
+          "ratio_abs": 27.33749999999999
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0073964497041420114,
+          "signed_curvature_out": 0.00751560304545306,
+          "radius_in": 135.20000000000002,
+          "radius_out": 133.05652173913043,
+          "ratio_abs": 1.0161095317452538
+        },
+        {
+          "contour": 0,
+          "point": [
+            23.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0024372560815709506,
+          "signed_curvature_out": 0.0023422368361785506,
+          "radius_in": 410.29746835443035,
+          "radius_out": 426.9423076923077,
+          "ratio_abs": 1.040567735903013
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.007304882737408689,
+          "signed_curvature_out": 0.007304882737408689,
+          "radius_in": 136.89473684210526,
+          "radius_out": 136.89473684210526,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            99.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0008702187413472569,
+          "signed_curvature_out": -0.0009195775352617415,
+          "radius_in": 1149.1363636363635,
+          "radius_out": 1087.4558823529412,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            491.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010884353741496598,
+          "signed_curvature_out": -0.010884353741496598,
+          "radius_in": 91.875,
+          "radius_out": 91.875,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            307.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0009195775352617415,
+          "signed_curvature_out": -0.0008702187413472569,
+          "radius_in": 1087.4558823529412,
+          "radius_out": 1149.1363636363635,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            16.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010447662500826555,
+          "signed_curvature_out": -0.010447662500826555,
+          "radius_in": 95.71518987341773,
+          "radius_out": 95.71518987341773,
+          "ratio_abs": 1.0
+        }
+      ]
+    },
+    "02": {
+      "area_sampled": 89373.41788788719,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            383.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0023422368361785506,
+          "signed_curvature_out": 0.002287357448616149,
+          "radius_in": 426.9423076923077,
+          "radius_out": 437.18571428571425,
+          "ratio_abs": 1.023992484251031
+        },
+        {
+          "contour": 0,
+          "point": [
+            348.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.003935458480913027,
+          "signed_curvature_out": 0.0008503401360544217,
+          "radius_in": 254.1,
+          "radius_out": 1176.0,
+          "ratio_abs": 4.62809917355372
+        },
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            740.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.009861932938856016,
+          "signed_curvature_out": 0.00823045267489712,
+          "radius_in": 101.4,
+          "radius_out": 121.49999999999999,
+          "ratio_abs": 1.198224852071006
+        },
+        {
+          "contour": 0,
+          "point": [
+            90.0,
+            662.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0038336955184714422,
+          "signed_curvature_out": 0.024991750769765213,
+          "radius_in": 260.8449197860962,
+          "radius_out": 40.01320312500037,
+          "ratio_abs": 6.518971224853516
+        },
+        {
+          "contour": 0,
+          "point": [
+            88.0,
+            642.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.050086730334046974,
+          "signed_curvature_out": 0.050086730334046974,
+          "radius_in": 19.96536793938493,
+          "radius_out": 19.96536793938493,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            108.0,
+            644.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.029900844670969436,
+          "signed_curvature_out": -0.0026047496474028344,
+          "radius_in": 33.44387126865665,
+          "radius_out": 383.91405523255884,
+          "ratio_abs": 11.479354532510722
+        },
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            715.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.007381037142518102,
+          "signed_curvature_out": -0.08065532451165722,
+          "radius_in": 135.48231511254008,
+          "radius_out": 12.3984375,
+          "ratio_abs": 10.927370090992522
+        },
+        {
+          "contour": 0,
+          "point": [
+            280.0,
+            574.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0013493000505987519,
+          "signed_curvature_out": 0.0,
+          "radius_in": 741.125,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            280.0,
+            520.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005917159763313609,
+          "radius_in": null,
+          "radius_out": 169.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            266.0,
+            495.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.04472135954999579,
+          "signed_curvature_out": -0.0016358979259257723,
+          "radius_in": 22.3606797749979,
+          "radius_out": 611.2850833490049,
+          "ratio_abs": 27.33749999999999
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0073964497041420114,
+          "signed_curvature_out": 0.00751560304545306,
+          "radius_in": 135.20000000000002,
+          "radius_out": 133.05652173913043,
+          "ratio_abs": 1.0161095317452538
+        },
+        {
+          "contour": 0,
+          "point": [
+            23.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0024372560815709506,
+          "signed_curvature_out": 0.0023422368361785506,
+          "radius_in": 410.29746835443035,
+          "radius_out": 426.9423076923077,
+          "ratio_abs": 1.040567735903013
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.007304882737408689,
+          "signed_curvature_out": 0.007304882737408689,
+          "radius_in": 136.89473684210526,
+          "radius_out": 136.89473684210526,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            99.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0008702187413472569,
+          "signed_curvature_out": -0.0009195775352617415,
+          "radius_in": 1149.1363636363635,
+          "radius_out": 1087.4558823529412,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            491.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010884353741496598,
+          "signed_curvature_out": -0.010884353741496598,
+          "radius_in": 91.875,
+          "radius_out": 91.875,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            307.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0009195775352617415,
+          "signed_curvature_out": -0.0008702187413472569,
+          "radius_in": 1087.4558823529412,
+          "radius_out": 1149.1363636363635,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            16.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010447662500826555,
+          "signed_curvature_out": -0.010447662500826555,
+          "radius_in": 95.71518987341773,
+          "radius_out": 95.71518987341773,
+          "ratio_abs": 1.0
+        }
+      ]
+    }
+  },
+  "native": {
+    "o": {
+      "area_sampled": 66899.72064727463,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            383.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0023422368361785506,
+          "signed_curvature_out": 0.0024372560815709506,
+          "radius_in": 426.9423076923077,
+          "radius_out": 410.29746835443035,
+          "ratio_abs": 1.040567735903013
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.00751560304545306,
+          "signed_curvature_out": 0.00751560304545306,
+          "radius_in": 133.05652173913043,
+          "radius_out": 133.05652173913043,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            23.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0024372560815709506,
+          "signed_curvature_out": 0.0023422368361785506,
+          "radius_in": 410.29746835443035,
+          "radius_out": 426.9423076923077,
+          "ratio_abs": 1.040567735903013
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.007304882737408689,
+          "signed_curvature_out": 0.007304882737408689,
+          "radius_in": 136.89473684210526,
+          "radius_out": 136.89473684210526,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            99.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0008702187413472569,
+          "signed_curvature_out": -0.0009195775352617415,
+          "radius_in": 1149.1363636363635,
+          "radius_out": 1087.4558823529412,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            491.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010884353741496598,
+          "signed_curvature_out": -0.010884353741496598,
+          "radius_in": 91.875,
+          "radius_out": 91.875,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 1,
+          "point": [
+            307.0,
+            254.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0009195775352617415,
+          "signed_curvature_out": -0.0008702187413472569,
+          "radius_in": 1087.4558823529412,
+          "radius_out": 1149.1363636363635,
+          "ratio_abs": 1.0567199849523674
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            16.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010447662500826555,
+          "signed_curvature_out": -0.010447662500826555,
+          "radius_in": 95.71518987341773,
+          "radius_out": 95.71518987341773,
+          "ratio_abs": 1.0
+        }
+      ]
+    },
+    "d": {
+      "area_sampled": 101337.91668125681,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            288.0,
+            58.0
+          ],
+          "angle_deg": 0.4412938117271415,
+          "signed_curvature_in": 0.002044068507545665,
+          "signed_curvature_out": -0.035555031897246944,
+          "radius_in": 489.2203936944906,
+          "radius_out": 28.125414228004978,
+          "ratio_abs": 17.39424670259132
+        },
+        {
+          "contour": 0,
+          "point": [
+            306.0,
+            57.0
+          ],
+          "angle_deg": 1.8476102659947131,
+          "signed_curvature_in": -0.055314807346667286,
+          "signed_curvature_out": 0.006911669135960966,
+          "radius_in": 18.078341911828968,
+          "radius_out": 144.68285161352196,
+          "ratio_abs": 8.003104063368417
+        },
+        {
+          "contour": 0,
+          "point": [
+            370.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.013149243918474688,
+          "signed_curvature_out": 0.015495086923658353,
+          "radius_in": 76.05,
+          "radius_out": 64.53658536585365,
+          "ratio_abs": 1.1784013605442176
+        },
+        {
+          "contour": 0,
+          "point": [
+            452.0,
+            129.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.002834165869557516,
+          "signed_curvature_out": 0.023148148148148147,
+          "radius_in": 352.8375,
+          "radius_out": 43.2,
+          "ratio_abs": 8.167534722222221
+        },
+        {
+          "contour": 0,
+          "point": [
+            440.0,
+            146.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 14.7,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            427.0,
+            130.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.03305785123966942,
+          "signed_curvature_out": -0.003826530612244898,
+          "radius_in": 30.25,
+          "radius_out": 261.3333333333333,
+          "ratio_abs": 8.639118457300276
+        },
+        {
+          "contour": 0,
+          "point": [
+            392.0,
+            53.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.04844290657439446,
+          "signed_curvature_out": -0.05128205128205128,
+          "radius_in": 20.642857142857142,
+          "radius_out": 19.5,
+          "ratio_abs": 1.0586080586080586
+        },
+        {
+          "contour": 0,
+          "point": [
+            371.0,
+            95.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006341656757827983,
+          "signed_curvature_out": 0.0,
+          "radius_in": 157.6875,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            371.0,
+            724.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.02203856749311295,
+          "radius_in": null,
+          "radius_out": 45.375,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            360.0,
+            740.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.05555555555555555,
+          "radius_in": 14.7,
+          "radius_out": 18.0,
+          "ratio_abs": 1.2244897959183676
+        },
+        {
+          "contour": 0,
+          "point": [
+            336.0,
+            730.0
+          ],
+          "angle_deg": 0.43405063213914996,
+          "signed_curvature_in": 0.004812329341787424,
+          "signed_curvature_out": -0.0070666832931027546,
+          "radius_in": 207.79957666583437,
+          "radius_out": 141.50910101999662,
+          "ratio_abs": 1.4684537967382767
+        },
+        {
+          "contour": 0,
+          "point": [
+            252.0,
+            700.0
+          ],
+          "angle_deg": 2.6541955134067194,
+          "signed_curvature_in": -0.0022348364454403136,
+          "signed_curvature_out": 0.05845416057808793,
+          "radius_in": 447.46003764180483,
+          "radius_out": 17.107422125480987,
+          "ratio_abs": 26.15590089259133
+        },
+        {
+          "contour": 0,
+          "point": [
+            241.0,
+            688.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.07407407407407407,
+          "radius_in": 13.5,
+          "radius_out": 13.5,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            252.0,
+            676.0
+          ],
+          "angle_deg": 1.548157698977982,
+          "signed_curvature_in": 0.05845416057808793,
+          "signed_curvature_out": 0.0,
+          "radius_in": 17.107422125480987,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            278.0,
+            673.0
+          ],
+          "angle_deg": 0.5729386976826285,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.011567907695601072,
+          "radius_in": null,
+          "radius_out": 86.44605630629901,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            303.0,
+            640.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            303.0,
+            512.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.04,
+          "radius_in": null,
+          "radius_out": 25.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            287.0,
+            505.0
+          ],
+          "angle_deg": 2.6025622024998034,
+          "signed_curvature_in": -0.02385139175999776,
+          "signed_curvature_out": 0.007850614678868188,
+          "radius_in": 41.92627457812105,
+          "radius_out": 127.37856090322963,
+          "ratio_abs": 3.038155957927664
+        },
+        {
+          "contour": 0,
+          "point": [
+            232.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.00554016620498615,
+          "signed_curvature_out": 0.00564930479460394,
+          "radius_in": 180.5,
+          "radius_out": 177.01293103448276,
+          "ratio_abs": 1.0196995154260111
+        },
+        {
+          "contour": 0,
+          "point": [
+            30.0,
+            233.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.002031864414882809,
+          "signed_curvature_out": 0.0019659135949266745,
+          "radius_in": 492.1588235294118,
+          "radius_out": 508.6693548387097,
+          "ratio_abs": 1.0335471610381708
+        },
+        {
+          "contour": 0,
+          "point": [
+            181.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.00816395236291714,
+          "signed_curvature_out": 0.005165289256198347,
+          "radius_in": 122.4896907216495,
+          "radius_out": 193.6,
+          "ratio_abs": 1.580541177460758
+        },
+        {
+          "contour": 1,
+          "point": [
+            104.0,
+            247.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.001314223808762676,
+          "signed_curvature_out": -0.0014814814814814814,
+          "radius_in": 760.9054054054054,
+          "radius_out": 675.0,
+          "ratio_abs": 1.1272672672672672
+        },
+        {
+          "contour": 1,
+          "point": [
+            229.0,
+            491.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.011140740740740741,
+          "signed_curvature_out": -0.012741046831955923,
+          "radius_in": 89.76063829787233,
+          "radius_out": 78.48648648648648,
+          "ratio_abs": 1.1436444962194479
+        },
+        {
+          "contour": 1,
+          "point": [
+            303.0,
+            394.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.005555555555555556,
+          "signed_curvature_out": 0.0,
+          "radius_in": 180.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            303.0,
+            169.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.0059654248843438035,
+          "radius_in": null,
+          "radius_out": 167.6326530612245,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            203.0,
+            37.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.014866077149814173,
+          "signed_curvature_out": -0.012660423170308707,
+          "radius_in": 67.26724137931035,
+          "radius_out": 78.98630136986301,
+          "ratio_abs": 1.1742164499428565
+        }
+      ]
+    },
+    "a": {
+      "area_sampled": 76283.20143404278,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            231.0,
+            58.0
+          ],
+          "angle_deg": 1.3322198538696923,
+          "signed_curvature_in": 0.002417597631209368,
+          "signed_curvature_out": -0.027828043409481744,
+          "radius_in": 413.6337606766121,
+          "radius_out": 35.9349734110043,
+          "ratio_abs": 11.510618247735945
+        },
+        {
+          "contour": 0,
+          "point": [
+            254.0,
+            57.0
+          ],
+          "angle_deg": 0.7161599454711681,
+          "signed_curvature_in": -0.04511908742795168,
+          "signed_curvature_out": 0.006911669135960966,
+          "radius_in": 22.163568835403595,
+          "radius_out": 144.68285161352196,
+          "ratio_abs": 6.527958231275858
+        },
+        {
+          "contour": 0,
+          "point": [
+            311.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.01953125,
+          "signed_curvature_out": 0.014782765458806562,
+          "radius_in": 51.2,
+          "radius_out": 67.64634146341463,
+          "ratio_abs": 1.3212176067073171
+        },
+        {
+          "contour": 0,
+          "point": [
+            394.0,
+            129.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.002834165869557516,
+          "signed_curvature_out": 0.023148148148148147,
+          "radius_in": 352.8375,
+          "radius_out": 43.2,
+          "ratio_abs": 8.167534722222221
+        },
+        {
+          "contour": 0,
+          "point": [
+            382.0,
+            146.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 14.7,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            369.0,
+            130.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.03305785123966942,
+          "signed_curvature_out": -0.003826530612244898,
+          "radius_in": 30.25,
+          "radius_out": 261.3333333333333,
+          "ratio_abs": 8.639118457300276
+        },
+        {
+          "contour": 0,
+          "point": [
+            334.0,
+            53.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.04844290657439446,
+          "signed_curvature_out": -0.05128205128205128,
+          "radius_in": 20.642857142857142,
+          "radius_out": 19.5,
+          "ratio_abs": 1.0586080586080586
+        },
+        {
+          "contour": 0,
+          "point": [
+            313.0,
+            95.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006341656757827983,
+          "signed_curvature_out": 0.0,
+          "radius_in": 157.6875,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            313.0,
+            401.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.0038351961428884506,
+          "radius_in": null,
+          "radius_out": 260.74285714285713,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            214.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.006022135416666667,
+          "signed_curvature_out": 0.007658592848904268,
+          "radius_in": 166.05405405405403,
+          "radius_out": 130.5722891566265,
+          "ratio_abs": 1.271740390909941
+        },
+        {
+          "contour": 0,
+          "point": [
+            31.0,
+            355.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.010738549200087662,
+          "signed_curvature_out": 0.02263374485596708,
+          "radius_in": 93.12244897959184,
+          "radius_out": 44.18181818181818,
+          "ratio_abs": 2.1077097505668934
+        },
+        {
+          "contour": 0,
+          "point": [
+            59.0,
+            327.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.02306805074971165,
+          "signed_curvature_out": 0.024793388429752067,
+          "radius_in": 43.35,
+          "radius_out": 40.333333333333336,
+          "ratio_abs": 1.074793388429752
+        },
+        {
+          "contour": 0,
+          "point": [
+            114.0,
+            388.0
+          ],
+          "angle_deg": 0.4814658058390773,
+          "signed_curvature_in": 0.00799790241683262,
+          "signed_curvature_out": -0.0031525321922391022,
+          "radius_in": 125.03278333271118,
+          "radius_out": 317.205325440228,
+          "ratio_abs": 2.536977238970578
+        },
+        {
+          "contour": 0,
+          "point": [
+            189.0,
+            486.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.016147635524798153,
+          "signed_curvature_out": -0.01441753171856978,
+          "radius_in": 61.92857142857143,
+          "radius_out": 69.36,
+          "ratio_abs": 1.1199999999999999
+        },
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            397.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0035807291666666665,
+          "signed_curvature_out": 0.0,
+          "radius_in": 279.2727272727273,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            306.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.041666666666666664,
+          "radius_in": null,
+          "radius_out": 24.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            232.0,
+            289.0
+          ],
+          "angle_deg": 0.5700884449984961,
+          "signed_curvature_in": -0.0327939905498943,
+          "signed_curvature_out": 0.00192212283034084,
+          "radius_in": 30.493391723052234,
+          "radius_out": 520.258114733841,
+          "ratio_abs": 17.06133969808741
+        },
+        {
+          "contour": 0,
+          "point": [
+            24.0,
+            88.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.008027681660899655,
+          "signed_curvature_out": 0.00766063391745667,
+          "radius_in": 124.56896551724137,
+          "radius_out": 130.5375,
+          "ratio_abs": 1.0479134948096887
+        },
+        {
+          "contour": 0,
+          "point": [
+            120.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.008078231292517007,
+          "signed_curvature_out": 0.0063862279605719835,
+          "radius_in": 123.78947368421052,
+          "radius_out": 156.58695652173915,
+          "ratio_abs": 1.264945652173913
+        },
+        {
+          "contour": 1,
+          "point": [
+            96.0,
+            106.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.005925925925925926,
+          "signed_curvature_out": -0.006044238683127572,
+          "radius_in": 168.75,
+          "radius_out": 165.44680851063828,
+          "ratio_abs": 1.019965277777778
+        },
+        {
+          "contour": 1,
+          "point": [
+            224.0,
+            259.0
+          ],
+          "angle_deg": 0.7143741957596382,
+          "signed_curvature_in": -0.0028147622814814776,
+          "signed_curvature_out": -0.025905706754248282,
+          "radius_in": 355.26978835089255,
+          "radius_out": 38.60153322533885,
+          "ratio_abs": 9.203514955662074
+        },
+        {
+          "contour": 1,
+          "point": [
+            245.0,
+            248.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0440771349862259,
+          "signed_curvature_out": 0.0,
+          "radius_in": 22.6875,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            245.0,
+            175.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005150120534735919,
+          "radius_in": null,
+          "radius_out": 194.17021276595747,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            147.0,
+            37.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.015378700499807767,
+          "signed_curvature_out": -0.014692378328741965,
+          "radius_in": 65.02499999999999,
+          "radius_out": 68.0625,
+          "ratio_abs": 1.046712802768166
+        }
+      ]
+    },
+    "b": {
+      "area_sampled": 95322.42892848399,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            403.0,
+            274.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.002031864414882809,
+          "signed_curvature_out": 0.0020927467300832342,
+          "radius_in": 492.1588235294118,
+          "radius_out": 477.84090909090907,
+          "ratio_abs": 1.029963768622788
+        },
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.007640201638311279,
+          "signed_curvature_out": 0.00720164609053498,
+          "radius_in": 130.88659793814432,
+          "radius_out": 138.85714285714286,
+          "ratio_abs": 1.0608965703483662
+        },
+        {
+          "contour": 0,
+          "point": [
+            151.0,
+            472.0
+          ],
+          "angle_deg": 0.9710219310795725,
+          "signed_curvature_in": 0.004258224602550104,
+          "signed_curvature_out": -0.029219288478782957,
+          "radius_in": 234.8396558042369,
+          "radius_out": 34.2239682094289,
+          "ratio_abs": 6.861847649202095
+        },
+        {
+          "contour": 0,
+          "point": [
+            130.0,
+            477.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.05509641873278237,
+          "signed_curvature_out": 0.0,
+          "radius_in": 18.15,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            130.0,
+            724.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.02203856749311295,
+          "radius_in": null,
+          "radius_out": 45.375,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            119.0,
+            740.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.05555555555555555,
+          "radius_in": 14.7,
+          "radius_out": 18.0,
+          "ratio_abs": 1.2244897959183676
+        },
+        {
+          "contour": 0,
+          "point": [
+            95.0,
+            730.0
+          ],
+          "angle_deg": 0.43405063213914996,
+          "signed_curvature_in": 0.004812329341787424,
+          "signed_curvature_out": -0.0070666832931027546,
+          "radius_in": 207.79957666583437,
+          "radius_out": 141.50910101999662,
+          "ratio_abs": 1.4684537967382767
+        },
+        {
+          "contour": 0,
+          "point": [
+            16.0,
+            700.0
+          ],
+          "angle_deg": 4.070366373224802,
+          "signed_curvature_in": -0.00254395720244246,
+          "signed_curvature_out": 0.05845416057808793,
+          "radius_in": 393.08837390813704,
+          "radius_out": 17.107422125480987,
+          "ratio_abs": 22.977650929805712
+        },
+        {
+          "contour": 0,
+          "point": [
+            5.0,
+            688.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.07407407407407407,
+          "radius_in": 13.5,
+          "radius_out": 13.5,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            16.0,
+            676.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05845416057808793,
+          "signed_curvature_out": 0.0,
+          "radius_in": 17.107422125480987,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            37.0,
+            673.0
+          ],
+          "angle_deg": 0.8425242607405454,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.008992436668714143,
+          "radius_in": null,
+          "radius_out": 111.20456410653746,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            62.0,
+            640.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            62.0,
+            160.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.0003125,
+          "radius_in": null,
+          "radius_out": 3200.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            54.0,
+            5.0
+          ],
+          "angle_deg": 3.0664855011258196,
+          "signed_curvature_in": -0.00319911542864479,
+          "signed_curvature_out": 0.03147618407564815,
+          "radius_in": 312.5864078069919,
+          "radius_out": 31.77005184607684,
+          "ratio_abs": 9.839027311678498
+        },
+        {
+          "contour": 0,
+          "point": [
+            62.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.05555555555555555,
+          "radius_in": 14.7,
+          "radius_out": 18.0,
+          "ratio_abs": 1.2244897959183676
+        },
+        {
+          "contour": 0,
+          "point": [
+            87.0,
+            9.0
+          ],
+          "angle_deg": 4.044485574181106,
+          "signed_curvature_in": 0.004347449884070017,
+          "signed_curvature_out": -0.013,
+          "radius_in": 230.01990285482375,
+          "radius_out": 76.92307692307692,
+          "ratio_abs": 2.9902587371127085
+        },
+        {
+          "contour": 0,
+          "point": [
+            127.0,
+            17.0
+          ],
+          "angle_deg": 0.18663054356455197,
+          "signed_curvature_in": -0.01639340698009352,
+          "signed_curvature_out": 0.005101807958404986,
+          "radius_in": 61.00013262736037,
+          "radius_out": 196.00894587820528,
+          "ratio_abs": 3.2132544215205434
+        },
+        {
+          "contour": 0,
+          "point": [
+            206.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.006802721088435374,
+          "signed_curvature_out": 0.006164965986394558,
+          "radius_in": 147.0,
+          "radius_out": 162.20689655172413,
+          "ratio_abs": 1.103448275862069
+        },
+        {
+          "contour": 1,
+          "point": [
+            130.0,
+            113.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.005555555555555556,
+          "signed_curvature_out": 0.0,
+          "radius_in": 180.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            130.0,
+            365.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005643424667706245,
+          "radius_in": null,
+          "radius_out": 177.19736842105263,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            214.0,
+            471.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.012287334593572778,
+          "signed_curvature_out": -0.009257521736410835,
+          "radius_in": 81.38461538461539,
+          "radius_out": 108.02027027027026,
+          "ratio_abs": 1.327281203698973
+        },
+        {
+          "contour": 1,
+          "point": [
+            329.0,
+            260.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0014918216207576323,
+          "signed_curvature_out": -0.0014814814814814814,
+          "radius_in": 670.3214285714286,
+          "radius_out": 675.0,
+          "ratio_abs": 1.006979594011402
+        },
+        {
+          "contour": 1,
+          "point": [
+            204.0,
+            16.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.011140740740740741,
+          "signed_curvature_out": -0.012741046831955923,
+          "radius_in": 89.76063829787233,
+          "radius_out": 78.48648648648648,
+          "ratio_abs": 1.1436444962194479
+        }
+      ]
+    },
+    "p": {
+      "area_sampled": 97409.62988958928,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            208.0,
+            -205.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.02666666666666667,
+          "radius_in": null,
+          "radius_out": 37.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            223.0,
+            -193.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.052083333333333336,
+          "signed_curvature_out": 0.07407407407407407,
+          "radius_in": 19.2,
+          "radius_out": 13.5,
+          "ratio_abs": 1.422222222222222
+        },
+        {
+          "contour": 0,
+          "point": [
+            212.0,
+            -182.0
+          ],
+          "angle_deg": 0.43405063214082934,
+          "signed_curvature_in": 0.04525483399593904,
+          "signed_curvature_out": 0.0,
+          "radius_in": 22.09708691207961,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            175.0,
+            -177.0
+          ],
+          "angle_deg": 0.4340506321399897,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005067598598503591,
+          "radius_in": null,
+          "radius_out": 197.33212498229233,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            141.0,
+            -138.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.00510204081632653,
+          "signed_curvature_out": 0.0,
+          "radius_in": 196.00000000000003,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            141.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.03856749311294766,
+          "radius_in": null,
+          "radius_out": 25.928571428571427,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            159.0,
+            2.0
+          ],
+          "angle_deg": 0.7571688650588368,
+          "signed_curvature_in": -0.03401120090146718,
+          "signed_curvature_out": 0.008544085950906458,
+          "radius_in": 29.402078535746792,
+          "radius_out": 117.0400211030073,
+          "ratio_abs": 3.9806716712463395
+        },
+        {
+          "contour": 0,
+          "point": [
+            212.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.00554016620498615,
+          "signed_curvature_out": 0.00564930479460394,
+          "radius_in": 180.5,
+          "radius_out": 177.01293103448276,
+          "ratio_abs": 1.0196995154260111
+        },
+        {
+          "contour": 0,
+          "point": [
+            414.0,
+            274.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.002031864414882809,
+          "signed_curvature_out": 0.0020927467300832342,
+          "radius_in": 492.1588235294118,
+          "radius_out": 477.84090909090907,
+          "ratio_abs": 1.029963768622788
+        },
+        {
+          "contour": 0,
+          "point": [
+            256.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.007640201638311279,
+          "signed_curvature_out": 0.006687242798353909,
+          "radius_in": 130.88659793814432,
+          "radius_out": 149.53846153846155,
+          "ratio_abs": 1.142503998836702
+        },
+        {
+          "contour": 0,
+          "point": [
+            167.0,
+            477.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.004881407759670446,
+          "signed_curvature_out": 0.0,
+          "radius_in": 204.85893603518835,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            156.0,
+            466.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.02727133591353076,
+          "radius_in": null,
+          "radius_out": 36.66853736724525,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            136.0,
+            470.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06,
+          "signed_curvature_out": 0.0,
+          "radius_in": 16.666666666666668,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            136.0,
+            501.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.03125,
+          "radius_in": null,
+          "radius_out": 32.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            127.0,
+            513.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.08,
+          "radius_in": 13.5,
+          "radius_out": 12.5,
+          "ratio_abs": 1.08
+        },
+        {
+          "contour": 0,
+          "point": [
+            112.0,
+            504.0
+          ],
+          "angle_deg": 2.489552921998982,
+          "signed_curvature_in": 0.006547285010986552,
+          "signed_curvature_out": -0.00027044439105897226,
+          "radius_in": 152.73506473629425,
+          "radius_out": 3697.6178211140755,
+          "ratio_abs": 24.20935773653694
+        },
+        {
+          "contour": 0,
+          "point": [
+            30.0,
+            461.0
+          ],
+          "angle_deg": 1.9791961383390095,
+          "signed_curvature_in": -0.004806961716179143,
+          "signed_curvature_out": 0.01097164020959897,
+          "radius_in": 208.03161311525048,
+          "radius_out": 91.14407516982837,
+          "ratio_abs": 2.2824480113230186
+        },
+        {
+          "contour": 0,
+          "point": [
+            14.0,
+            450.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.09259259259259259,
+          "signed_curvature_out": 0.05555555555555555,
+          "radius_in": 10.8,
+          "radius_out": 18.0,
+          "ratio_abs": 1.6666666666666667
+        },
+        {
+          "contour": 0,
+          "point": [
+            27.0,
+            439.0
+          ],
+          "angle_deg": 2.4195092166562997,
+          "signed_curvature_in": 0.024301238308758813,
+          "signed_curvature_out": 0.0,
+          "radius_in": 41.15016639458959,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            48.0,
+            436.0
+          ],
+          "angle_deg": 0.8425242607405454,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.008992436668714143,
+          "radius_in": null,
+          "radius_out": 111.20456410653746,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            73.0,
+            403.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            73.0,
+            -138.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.00510204081632653,
+          "radius_in": null,
+          "radius_out": 196.00000000000003,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            39.0,
+            -180.0
+          ],
+          "angle_deg": 8.537736462515939e-07,
+          "signed_curvature_in": -0.007542472332656507,
+          "signed_curvature_out": 0.0,
+          "radius_in": 132.58252147247765,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            25.0,
+            -182.0
+          ],
+          "angle_deg": 1.789910608246076,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.03681050869161552,
+          "radius_in": null,
+          "radius_out": 27.166155414412245,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            12.0,
+            -194.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 13.5,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0888888888888888
+        },
+        {
+          "contour": 0,
+          "point": [
+            27.0,
+            -205.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.02666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 37.5,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            141.0,
+            113.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.005555555555555556,
+          "signed_curvature_out": 0.0,
+          "radius_in": 180.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            141.0,
+            365.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005643424667706245,
+          "radius_in": null,
+          "radius_out": 177.19736842105263,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            225.0,
+            471.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.012287334593572778,
+          "signed_curvature_out": -0.009257521736410835,
+          "radius_in": 81.38461538461539,
+          "radius_out": 108.02027027027026,
+          "ratio_abs": 1.327281203698973
+        },
+        {
+          "contour": 1,
+          "point": [
+            340.0,
+            260.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0014918216207576323,
+          "signed_curvature_out": -0.0014814814814814814,
+          "radius_in": 670.3214285714286,
+          "radius_out": 675.0,
+          "ratio_abs": 1.006979594011402
+        },
+        {
+          "contour": 1,
+          "point": [
+            215.0,
+            16.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.011140740740740741,
+          "signed_curvature_out": -0.012741046831955923,
+          "radius_in": 89.76063829787233,
+          "radius_out": 78.48648648648648,
+          "ratio_abs": 1.1436444962194479
+        }
+      ]
+    },
+    "g": {
+      "area_sampled": 101208.1931687693,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            385.0,
+            -46.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0063862279605719835,
+          "signed_curvature_out": 0.00594883997620464,
+          "radius_in": 156.58695652173915,
+          "radius_out": 168.10000000000002,
+          "ratio_abs": 1.0735249201721504
+        },
+        {
+          "contour": 0,
+          "point": [
+            229.0,
+            87.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.003689236111111111,
+          "signed_curvature_out": 0.0,
+          "radius_in": 271.05882352941177,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            143.0,
+            87.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.019024970273483946,
+          "radius_in": null,
+          "radius_out": 52.56250000000001,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            123.0,
+            132.0
+          ],
+          "angle_deg": 1.2188752351310335,
+          "signed_curvature_in": -0.01956627658756507,
+          "signed_curvature_out": 0.0,
+          "radius_in": 51.1083442741236,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            140.0,
+            151.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005390679406875212,
+          "radius_in": null,
+          "radius_out": 185.5053740952599,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            197.0,
+            180.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.011574074074074073,
+          "signed_curvature_out": 0.006802721088435374,
+          "radius_in": 86.4,
+          "radius_out": 147.0,
+          "ratio_abs": 1.7013888888888888
+        },
+        {
+          "contour": 0,
+          "point": [
+            345.0,
+            348.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.004629629629629629,
+          "signed_curvature_out": 0.004509315296072149,
+          "radius_in": 216.0,
+          "radius_out": 221.76315789473682,
+          "ratio_abs": 1.0266812865497075
+        },
+        {
+          "contour": 0,
+          "point": [
+            294.0,
+            477.0
+          ],
+          "angle_deg": 0.9093804491993703,
+          "signed_curvature_in": 0.006415012905054437,
+          "signed_curvature_out": -0.008729713347982065,
+          "radius_in": 155.8843317699474,
+          "radius_out": 114.55129855222074,
+          "ratio_abs": 1.3608255317933746
+        },
+        {
+          "contour": 0,
+          "point": [
+            283.0,
+            508.0
+          ],
+          "angle_deg": 3.862209053865187,
+          "signed_curvature_in": -0.0302034115022321,
+          "signed_curvature_out": -0.018898873985004172,
+          "radius_in": 33.10884268573759,
+          "radius_out": 52.91320534723271,
+          "ratio_abs": 1.5981593150045776
+        },
+        {
+          "contour": 0,
+          "point": [
+            313.0,
+            534.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.02666666666666667,
+          "signed_curvature_out": -0.027548209366391185,
+          "radius_in": 37.5,
+          "radius_out": 36.3,
+          "ratio_abs": 1.0330578512396693
+        },
+        {
+          "contour": 0,
+          "point": [
+            359.0,
+            514.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.01972386587771203,
+          "signed_curvature_out": 0.023333333333333334,
+          "radius_in": 50.7,
+          "radius_out": 42.857142857142854,
+          "ratio_abs": 1.183
+        },
+        {
+          "contour": 0,
+          "point": [
+            394.0,
+            551.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.01890359168241966,
+          "signed_curvature_out": 0.020118884316415182,
+          "radius_in": 52.9,
+          "radius_out": 49.70454545454545,
+          "ratio_abs": 1.064288980338363
+        },
+        {
+          "contour": 0,
+          "point": [
+            342.0,
+            598.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.014814814814814815,
+          "signed_curvature_out": 0.020182291666666668,
+          "radius_in": 67.5,
+          "radius_out": 49.54838709677419,
+          "ratio_abs": 1.3623046875
+        },
+        {
+          "contour": 0,
+          "point": [
+            260.0,
+            517.0
+          ],
+          "angle_deg": 0.9669255716442647,
+          "signed_curvature_in": 0.00749272716805966,
+          "signed_curvature_out": -0.04083396853057057,
+          "radius_in": 133.4627536236533,
+          "radius_out": 24.489414964684233,
+          "ratio_abs": 5.449813881471552
+        },
+        {
+          "contour": 0,
+          "point": [
+            243.0,
+            508.0
+          ],
+          "angle_deg": 1.2188752351313326,
+          "signed_curvature_in": -0.03513641844631532,
+          "signed_curvature_out": 0.007710879689852149,
+          "radius_in": 28.460498941515418,
+          "radius_out": 129.6868892035812,
+          "ratio_abs": 4.556732806057961
+        },
+        {
+          "contour": 0,
+          "point": [
+            197.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0078125,
+          "signed_curvature_out": 0.006802721088435374,
+          "radius_in": 128.0,
+          "radius_out": 147.0,
+          "ratio_abs": 1.1484375
+        },
+        {
+          "contour": 0,
+          "point": [
+            47.0,
+            352.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.005198487712665407,
+          "signed_curvature_out": 0.005533854166666667,
+          "radius_in": 192.36363636363635,
+          "radius_out": 180.70588235294116,
+          "ratio_abs": 1.0645123106060606
+        },
+        {
+          "contour": 0,
+          "point": [
+            136.0,
+            200.0
+          ],
+          "angle_deg": 1.2636725516583032,
+          "signed_curvature_in": 0.007479343159317783,
+          "signed_curvature_out": -0.052174919474995085,
+          "radius_in": 133.7015802990932,
+          "radius_out": 19.166296949998202,
+          "ratio_abs": 6.975869185784777
+        },
+        {
+          "contour": 0,
+          "point": [
+            137.0,
+            183.0
+          ],
+          "angle_deg": 0.13081205470609802,
+          "signed_curvature_in": -0.04168467620829079,
+          "signed_curvature_out": 0.0,
+          "radius_in": 23.989630985813125,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            65.0,
+            121.0
+          ],
+          "angle_deg": 0.5761070747901337,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.012625560492441151,
+          "radius_in": null,
+          "radius_out": 79.20440447762253,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            91.0,
+            39.0
+          ],
+          "angle_deg": 1.0095127826165409,
+          "signed_curvature_in": 0.007017144591109088,
+          "signed_curvature_out": -0.02803541571285387,
+          "radius_in": 142.5081081081081,
+          "radius_out": 35.66916967603634,
+          "ratio_abs": 3.995274053263132
+        },
+        {
+          "contour": 0,
+          "point": [
+            91.0,
+            4.0
+          ],
+          "angle_deg": 0.23774045929451135,
+          "signed_curvature_in": -0.01553993174910957,
+          "signed_curvature_out": 0.0007329898162710952,
+          "radius_in": 64.3503469735187,
+          "radius_out": 1364.2754343945094,
+          "ratio_abs": 21.200747137477485
+        },
+        {
+          "contour": 0,
+          "point": [
+            14.0,
+            -111.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.004897959183673469,
+          "signed_curvature_out": 0.012927054478301015,
+          "radius_in": 204.16666666666669,
+          "radius_out": 77.35714285714286,
+          "ratio_abs": 2.639273622653124
+        },
+        {
+          "contour": 0,
+          "point": [
+            178.0,
+            -215.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0030715942881416854,
+          "signed_curvature_out": 0.003579080025204789,
+          "radius_in": 325.56382978723406,
+          "radius_out": 279.40140845070425,
+          "ratio_abs": 1.1652190001206613
+        },
+        {
+          "contour": 1,
+          "point": [
+            74.0,
+            -95.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.008043665613329504,
+          "signed_curvature_out": -0.00510204081632653,
+          "radius_in": 124.32142857142856,
+          "radius_out": 196.00000000000003,
+          "ratio_abs": 1.5765584602125828
+        },
+        {
+          "contour": 1,
+          "point": [
+            121.0,
+            -1.0
+          ],
+          "angle_deg": 0.5525642259700941,
+          "signed_curvature_in": -0.0019552696382210363,
+          "signed_curvature_out": -0.00593845352966077,
+          "radius_in": 511.4384126118945,
+          "radius_out": 168.39400948501222,
+          "ratio_abs": 3.037153246579206
+        },
+        {
+          "contour": 1,
+          "point": [
+            197.0,
+            26.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.002776125322228832,
+          "signed_curvature_out": 0.0,
+          "radius_in": 360.2142857142857,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            220.0,
+            26.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.005533854166666667,
+          "radius_in": null,
+          "radius_out": 180.70588235294116,
+          "ratio_abs": null
+        },
+        {
+          "contour": 1,
+          "point": [
+            321.0,
+            -68.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006851851851851852,
+          "signed_curvature_out": -0.007380997060111341,
+          "radius_in": 145.94594594594594,
+          "radius_out": 135.48305084745763,
+          "ratio_abs": 1.0772265979621956
+        },
+        {
+          "contour": 1,
+          "point": [
+            190.0,
+            -193.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006687242798353909,
+          "signed_curvature_out": -0.004747991234477721,
+          "radius_in": 149.53846153846155,
+          "radius_out": 210.6153846153846,
+          "ratio_abs": 1.4084362139917694
+        },
+        {
+          "contour": 2,
+          "point": [
+            118.0,
+            350.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.002524933720489837,
+          "signed_curvature_out": -0.0027304355485092704,
+          "radius_in": 396.05,
+          "radius_out": 366.241935483871,
+          "ratio_abs": 1.0813889989870966
+        },
+        {
+          "contour": 2,
+          "point": [
+            196.0,
+            494.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.017202354006337708,
+          "signed_curvature_out": -0.017202354006337708,
+          "radius_in": 58.131578947368425,
+          "radius_out": 58.131578947368425,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 2,
+          "point": [
+            274.0,
+            350.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0027304355485092704,
+          "signed_curvature_out": -0.002524933720489837,
+          "radius_in": 366.241935483871,
+          "radius_out": 396.05,
+          "ratio_abs": 1.0813889989870966
+        },
+        {
+          "contour": 2,
+          "point": [
+            196.0,
+            205.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.016203703703703703,
+          "signed_curvature_out": -0.016203703703703703,
+          "radius_in": 61.714285714285715,
+          "radius_out": 61.714285714285715,
+          "ratio_abs": 1.0
+        }
+      ]
+    },
+    "u": {
+      "area_sampled": 79880.60569305505,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            300.0,
+            58.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0014725255751489952,
+          "signed_curvature_out": -0.04419417382415923,
+          "radius_in": 679.1053526515602,
+          "radius_out": 22.627416997969515,
+          "ratio_abs": 30.01250000000001
+        },
+        {
+          "contour": 0,
+          "point": [
+            317.0,
+            53.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06,
+          "signed_curvature_out": 0.0,
+          "radius_in": 16.666666666666668,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            317.0,
+            7.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.03125,
+          "radius_in": null,
+          "radius_out": 32.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            326.0,
+            -5.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.08,
+          "radius_in": 13.5,
+          "radius_out": 12.5,
+          "ratio_abs": 1.08
+        },
+        {
+          "contour": 0,
+          "point": [
+            341.0,
+            4.0
+          ],
+          "angle_deg": 4.184916125118319,
+          "signed_curvature_in": 0.006547285010986552,
+          "signed_curvature_out": -0.004369679191351433,
+          "radius_in": 152.73506473629425,
+          "radius_out": 228.8497521692719,
+          "ratio_abs": 1.4983445521458612
+        },
+        {
+          "contour": 0,
+          "point": [
+            423.0,
+            49.0
+          ],
+          "angle_deg": 1.9791961383390095,
+          "signed_curvature_in": -0.005294217094817185,
+          "signed_curvature_out": 0.01097164020959897,
+          "radius_in": 188.8853407577407,
+          "radius_out": 91.14407516982837,
+          "ratio_abs": 2.072381999661431
+        },
+        {
+          "contour": 0,
+          "point": [
+            439.0,
+            61.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.08,
+          "radius_in": 14.7,
+          "radius_out": 12.5,
+          "ratio_abs": 1.176
+        },
+        {
+          "contour": 0,
+          "point": [
+            426.0,
+            71.0
+          ],
+          "angle_deg": 2.4195092166562997,
+          "signed_curvature_in": 0.024301238308758813,
+          "signed_curvature_out": 0.0,
+          "radius_in": 41.15016639458959,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            405.0,
+            74.0
+          ],
+          "angle_deg": 0.8425242607405454,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.008992436668714143,
+          "radius_in": null,
+          "radius_out": 111.20456410653746,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            380.0,
+            107.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            380.0,
+            495.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.04938271604938271,
+          "radius_in": null,
+          "radius_out": 20.25,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            365.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.04938271604938271,
+          "signed_curvature_out": 0.0,
+          "radius_in": 20.25,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            272.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.023668639053254437,
+          "radius_in": null,
+          "radius_out": 42.25,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            253.0,
+            497.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.08163265306122448,
+          "signed_curvature_out": 0.08163265306122448,
+          "radius_in": 12.250000000000002,
+          "radius_out": 12.250000000000002,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            270.0,
+            484.0
+          ],
+          "angle_deg": 1.5154079000222909,
+          "signed_curvature_in": 0.024241811781876545,
+          "signed_curvature_out": 0.0,
+          "radius_in": 41.25104216622998,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            287.0,
+            482.0
+          ],
+          "angle_deg": 0.700830850262114,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.011567907695601072,
+          "radius_in": null,
+          "radius_out": 86.44605630629901,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            312.0,
+            449.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            312.0,
+            166.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.006394557823129252,
+          "radius_in": null,
+          "radius_out": 156.38297872340425,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            204.0,
+            37.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.010570635133924573,
+          "signed_curvature_out": -0.008692365835222978,
+          "radius_in": 94.60169491525423,
+          "radius_out": 115.04347826086956,
+          "ratio_abs": 1.2160826332332357
+        },
+        {
+          "contour": 0,
+          "point": [
+            138.0,
+            122.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.004162330905306972,
+          "signed_curvature_out": 0.0,
+          "radius_in": 240.24999999999997,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            138.0,
+            495.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.04938271604938271,
+          "radius_in": null,
+          "radius_out": 20.25,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            123.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.04938271604938271,
+          "signed_curvature_out": 0.0,
+          "radius_in": 20.25,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            30.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.023668639053254437,
+          "radius_in": null,
+          "radius_out": 42.25,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            11.0,
+            497.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.08163265306122448,
+          "signed_curvature_out": 0.08163265306122448,
+          "radius_in": 12.250000000000002,
+          "radius_out": 12.250000000000002,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            28.0,
+            484.0
+          ],
+          "angle_deg": 1.5154079000222909,
+          "signed_curvature_in": 0.024241811781876545,
+          "signed_curvature_out": 0.0,
+          "radius_in": 41.25104216622998,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            45.0,
+            482.0
+          ],
+          "angle_deg": 0.700830850262114,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.011567907695601072,
+          "radius_in": null,
+          "radius_out": 86.44605630629901,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            70.0,
+            449.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            70.0,
+            101.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.0053125,
+          "radius_in": null,
+          "radius_out": 188.23529411764704,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            171.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.008,
+          "signed_curvature_out": 0.005432322317790856,
+          "radius_in": 125.0,
+          "radius_out": 184.08333333333331,
+          "ratio_abs": 1.4726666666666666
+        }
+      ]
+    },
+    "t": {
+      "area_sampled": 52800.18744167053,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            245.0,
+            136.0
+          ],
+          "angle_deg": 2.2239612403854863,
+          "signed_curvature_in": 0.0026564403894175554,
+          "signed_curvature_out": 0.03333333333333333,
+          "radius_in": 376.44360625734106,
+          "radius_out": 30.0,
+          "ratio_abs": 12.548120208578036
+        },
+        {
+          "contour": 0,
+          "point": [
+            233.0,
+            151.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.06802721088435375,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 14.7,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            220.0,
+            137.0
+          ],
+          "angle_deg": 1.8024192380033301,
+          "signed_curvature_in": 0.035912691406454166,
+          "signed_curvature_out": -0.002818130300951299,
+          "radius_in": 27.845309299772552,
+          "radius_out": 354.8451963567604,
+          "ratio_abs": 12.743446033822972
+        },
+        {
+          "contour": 0,
+          "point": [
+            168.0,
+            48.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.022108843537414966,
+          "signed_curvature_out": -0.0192,
+          "radius_in": 45.23076923076923,
+          "radius_out": 52.083333333333336,
+          "ratio_abs": 1.1515022675736963
+        },
+        {
+          "contour": 0,
+          "point": [
+            135.0,
+            95.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006341656757827983,
+          "signed_curvature_out": 0.0,
+          "radius_in": 157.6875,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            135.0,
+            468.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.0411522633744856,
+          "radius_in": null,
+          "radius_out": 24.3,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            149.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0411522633744856,
+          "signed_curvature_out": 0.0,
+          "radius_in": 24.3,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            214.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.0411522633744856,
+          "radius_in": null,
+          "radius_out": 24.3,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            230.0,
+            496.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05761316872427984,
+          "signed_curvature_out": 0.05761316872427984,
+          "radius_in": 17.357142857142858,
+          "radius_out": 17.357142857142858,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            214.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0411522633744856,
+          "signed_curvature_out": 0.0,
+          "radius_in": 24.3,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            149.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.0411522633744856,
+          "radius_in": null,
+          "radius_out": 24.3,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            135.0,
+            524.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0411522633744856,
+          "signed_curvature_out": 0.0,
+          "radius_in": 24.3,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            135.0,
+            635.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.01652892561983471,
+          "radius_in": null,
+          "radius_out": 60.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            124.0,
+            651.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.052083333333333336,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 19.2,
+          "radius_out": 14.7,
+          "ratio_abs": 1.306122448979592
+        },
+        {
+          "contour": 0,
+          "point": [
+            107.0,
+            630.0
+          ],
+          "angle_deg": 0.798681250390545,
+          "signed_curvature_in": 0.007784163521934554,
+          "signed_curvature_out": -0.002126900952688368,
+          "radius_in": 128.46595490731363,
+          "radius_out": 470.16763932331514,
+          "ratio_abs": 3.659861787214632
+        },
+        {
+          "contour": 0,
+          "point": [
+            19.0,
+            508.0
+          ],
+          "angle_deg": 0.5968094512297843,
+          "signed_curvature_in": -0.0028427277469764323,
+          "signed_curvature_out": 0.021334622931739575,
+          "radius_in": 351.7748054007687,
+          "radius_out": 46.87216658103188,
+          "ratio_abs": 7.504982830111466
+        },
+        {
+          "contour": 0,
+          "point": [
+            10.0,
+            494.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05555555555555555,
+          "signed_curvature_out": 0.0625,
+          "radius_in": 18.0,
+          "radius_out": 16.0,
+          "ratio_abs": 1.125
+        },
+        {
+          "contour": 0,
+          "point": [
+            26.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.02666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 37.5,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            55.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.06802721088435375,
+          "radius_in": null,
+          "radius_out": 14.7,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            67.0,
+            470.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06802721088435375,
+          "signed_curvature_out": 0.0,
+          "radius_in": 14.7,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            67.0,
+            96.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.003911111111111111,
+          "radius_in": null,
+          "radius_out": 255.6818181818182,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            147.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.009053870529651425,
+          "signed_curvature_out": 0.0112,
+          "radius_in": 110.45,
+          "radius_out": 89.28571428571429,
+          "ratio_abs": 1.2370400000000001
+        }
+      ]
+    },
+    "f": {
+      "area_sampled": 65408.17528611972,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            51.0,
+            25.0
+          ],
+          "angle_deg": 0.48830447992698867,
+          "signed_curvature_in": -0.009764824110018075,
+          "signed_curvature_out": 0.0,
+          "radius_in": 102.40839862891795,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            26.0,
+            23.0
+          ],
+          "angle_deg": 1.7662704860090614,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.03681050869161552,
+          "radius_in": null,
+          "radius_out": 27.166155414412245,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            13.0,
+            11.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 13.5,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0888888888888888
+        },
+        {
+          "contour": 0,
+          "point": [
+            28.0,
+            0.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.02666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 37.5,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            236.0,
+            0.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.02666666666666667,
+          "radius_in": null,
+          "radius_out": 37.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            251.0,
+            12.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.052083333333333336,
+          "signed_curvature_out": 0.07407407407407407,
+          "radius_in": 19.2,
+          "radius_out": 13.5,
+          "ratio_abs": 1.422222222222222
+        },
+        {
+          "contour": 0,
+          "point": [
+            240.0,
+            23.0
+          ],
+          "angle_deg": 2.740790594182651,
+          "signed_curvature_in": 0.04525483399593904,
+          "signed_curvature_out": 0.0,
+          "radius_in": 22.09708691207961,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            187.0,
+            28.0
+          ],
+          "angle_deg": 0.7261918063123836,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.006149873467467743,
+          "radius_in": null,
+          "radius_out": 162.6049715152526,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            153.0,
+            67.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.00510204081632653,
+          "signed_curvature_out": 0.0,
+          "radius_in": 196.00000000000003,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            153.0,
+            470.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.06802721088435375,
+          "radius_in": null,
+          "radius_out": 14.7,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            165.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06802721088435375,
+          "signed_curvature_out": 0.0,
+          "radius_in": 14.7,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            251.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.052083333333333336,
+          "radius_in": null,
+          "radius_out": 19.2,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            266.0,
+            496.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05761316872427984,
+          "signed_curvature_out": 0.05761316872427984,
+          "radius_in": 17.357142857142858,
+          "radius_out": 17.357142857142858,
+          "ratio_abs": 1.0
+        },
+        {
+          "contour": 0,
+          "point": [
+            251.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.052083333333333336,
+          "signed_curvature_out": 0.0,
+          "radius_in": 19.2,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            165.0,
+            510.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.06802721088435375,
+          "radius_in": null,
+          "radius_out": 14.7,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            153.0,
+            522.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06802721088435375,
+          "signed_curvature_out": 0.0,
+          "radius_in": 14.7,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            153.0,
+            610.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.001586357326987904,
+          "radius_in": null,
+          "radius_out": 630.375,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            196.0,
+            717.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.022862368541380886,
+          "signed_curvature_out": -0.02266666666666667,
+          "radius_in": 43.74,
+          "radius_out": 44.11764705882353,
+          "ratio_abs": 1.008633906237392
+        },
+        {
+          "contour": 0,
+          "point": [
+            277.0,
+            632.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.019433013260173753,
+          "signed_curvature_out": 0.019652305366591082,
+          "radius_in": 51.45882352941177,
+          "radius_out": 50.88461538461538,
+          "ratio_abs": 1.0112845138055224
+        },
+        {
+          "contour": 0,
+          "point": [
+            312.0,
+            670.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.014933333333333333,
+          "signed_curvature_out": 0.014782765458806562,
+          "radius_in": 66.96428571428571,
+          "radius_out": 67.64634146341463,
+          "ratio_abs": 1.0101853658536586
+        },
+        {
+          "contour": 0,
+          "point": [
+            218.0,
+            748.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.008306633440132907,
+          "signed_curvature_out": 0.00847304849468181,
+          "radius_in": 120.38571428571429,
+          "radius_out": 118.02127659574468,
+          "ratio_abs": 1.020033995209766
+        },
+        {
+          "contour": 0,
+          "point": [
+            85.0,
+            550.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0028969428007889547,
+          "signed_curvature_out": 0.0,
+          "radius_in": 345.1914893617021,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            85.0,
+            544.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.020163831127914304,
+          "radius_in": null,
+          "radius_out": 49.59375,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            38.0,
+            503.0
+          ],
+          "angle_deg": 1.597476197245469,
+          "signed_curvature_in": -0.009202105213447737,
+          "signed_curvature_out": 0.03562023147177269,
+          "radius_in": 108.67078530450009,
+          "radius_out": 28.073933230682442,
+          "ratio_abs": 3.8708785267656074
+        },
+        {
+          "contour": 0,
+          "point": [
+            26.0,
+            492.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.09259259259259259,
+          "radius_in": 13.5,
+          "radius_out": 10.8,
+          "ratio_abs": 1.25
+        },
+        {
+          "contour": 0,
+          "point": [
+            38.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05442176870748299,
+          "signed_curvature_out": 0.0,
+          "radius_in": 18.375,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            61.0,
+            482.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.02666666666666667,
+          "radius_in": null,
+          "radius_out": 37.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            85.0,
+            458.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.02666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 37.5,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            85.0,
+            67.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.00510204081632653,
+          "radius_in": null,
+          "radius_out": 196.00000000000003,
+          "ratio_abs": null
+        }
+      ]
+    },
+    "r": {
+      "area_sampled": 50673.004276386804,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            137.0,
+            447.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.06666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 15.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            137.0,
+            501.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.03125,
+          "radius_in": null,
+          "radius_out": 32.0,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            128.0,
+            513.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.08,
+          "radius_in": 13.5,
+          "radius_out": 12.5,
+          "ratio_abs": 1.08
+        },
+        {
+          "contour": 0,
+          "point": [
+            113.0,
+            504.0
+          ],
+          "angle_deg": 2.489552921998982,
+          "signed_curvature_in": 0.006547285010986552,
+          "signed_curvature_out": -0.00027044439105897226,
+          "radius_in": 152.73506473629425,
+          "radius_out": 3697.6178211140755,
+          "ratio_abs": 24.20935773653694
+        },
+        {
+          "contour": 0,
+          "point": [
+            31.0,
+            461.0
+          ],
+          "angle_deg": 1.9791961383390095,
+          "signed_curvature_in": -0.004806961716179143,
+          "signed_curvature_out": 0.01097164020959897,
+          "radius_in": 208.03161311525048,
+          "radius_out": 91.14407516982837,
+          "ratio_abs": 2.2824480113230186
+        },
+        {
+          "contour": 0,
+          "point": [
+            15.0,
+            450.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.09259259259259259,
+          "signed_curvature_out": 0.05555555555555555,
+          "radius_in": 10.8,
+          "radius_out": 18.0,
+          "ratio_abs": 1.6666666666666667
+        },
+        {
+          "contour": 0,
+          "point": [
+            28.0,
+            439.0
+          ],
+          "angle_deg": 2.4195092166562997,
+          "signed_curvature_in": 0.024301238308758813,
+          "signed_curvature_out": 0.0,
+          "radius_in": 41.15016639458959,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            49.0,
+            436.0
+          ],
+          "angle_deg": 0.8425242607405454,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.008992436668714143,
+          "radius_in": null,
+          "radius_out": 111.20456410653746,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            74.0,
+            403.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.006944444444444444,
+          "signed_curvature_out": 0.0,
+          "radius_in": 144.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            74.0,
+            67.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.00510204081632653,
+          "radius_in": null,
+          "radius_out": 196.00000000000003,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            40.0,
+            25.0
+          ],
+          "angle_deg": 0.6623494473724039,
+          "signed_curvature_in": -0.0064318948073130554,
+          "signed_curvature_out": 0.0,
+          "radius_in": 155.47517954786844,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            28.0,
+            23.0
+          ],
+          "angle_deg": 3.0664855011258196,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.023819814976166167,
+          "radius_in": null,
+          "radius_out": 41.981854225172974,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            15.0,
+            11.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.07407407407407407,
+          "signed_curvature_out": 0.06802721088435375,
+          "radius_in": 13.5,
+          "radius_out": 14.7,
+          "ratio_abs": 1.0888888888888888
+        },
+        {
+          "contour": 0,
+          "point": [
+            30.0,
+            0.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.02666666666666667,
+          "signed_curvature_out": 0.0,
+          "radius_in": 37.5,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            199.0,
+            0.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.02666666666666667,
+          "radius_in": null,
+          "radius_out": 37.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            214.0,
+            12.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.052083333333333336,
+          "signed_curvature_out": 0.07407407407407407,
+          "radius_in": 19.2,
+          "radius_out": 13.5,
+          "ratio_abs": 1.422222222222222
+        },
+        {
+          "contour": 0,
+          "point": [
+            203.0,
+            23.0
+          ],
+          "angle_deg": 1.789910608246076,
+          "signed_curvature_in": 0.04525483399593904,
+          "signed_curvature_out": 0.0,
+          "radius_in": 22.09708691207961,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            176.0,
+            26.0
+          ],
+          "angle_deg": 0.22468817962341509,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.007821683730468683,
+          "radius_in": null,
+          "radius_out": 127.84971042802302,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            142.0,
+            67.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.00510204081632653,
+          "signed_curvature_out": 0.0,
+          "radius_in": 196.00000000000003,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            142.0,
+            299.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": -0.002817695125387433,
+          "radius_in": null,
+          "radius_out": 354.90000000000003,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            213.0,
+            460.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0360082304526749,
+          "signed_curvature_out": -0.024348672997321647,
+          "radius_in": 27.77142857142857,
+          "radius_out": 41.07,
+          "ratio_abs": 1.478858024691358
+        },
+        {
+          "contour": 0,
+          "point": [
+            279.0,
+            410.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.01802776275464215,
+          "signed_curvature_out": 0.01775147928994083,
+          "radius_in": 55.47,
+          "radius_out": 56.33333333333333,
+          "ratio_abs": 1.0155639685115077
+        },
+        {
+          "contour": 0,
+          "point": [
+            318.0,
+            453.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.013866666666666666,
+          "signed_curvature_out": 0.013671875,
+          "radius_in": 72.11538461538461,
+          "radius_out": 73.14285714285714,
+          "ratio_abs": 1.014247619047619
+        },
+        {
+          "contour": 0,
+          "point": [
+            253.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.010674931129476584,
+          "signed_curvature_out": 0.01051939513477975,
+          "radius_in": 93.6774193548387,
+          "radius_out": 95.0625,
+          "ratio_abs": 1.0147856404958677
+        },
+        {
+          "contour": 0,
+          "point": [
+            154.0,
+            446.0
+          ],
+          "angle_deg": 0.15464410359645633,
+          "signed_curvature_in": 0.0038221223704126726,
+          "signed_curvature_out": -0.035058383715221395,
+          "radius_in": 261.6347419279594,
+          "radius_out": 28.52384776557247,
+          "ratio_abs": 9.172491175743323
+        }
+      ]
+    },
+    "c": {
+      "area_sampled": 52472.65111528964,
+      "joins": [
+        {
+          "contour": 0,
+          "point": [
+            316.0,
+            167.0
+          ],
+          "angle_deg": 0.19779822289193577,
+          "signed_curvature_in": 0.001331117628410289,
+          "signed_curvature_out": 0.01925393545017698,
+          "radius_in": 751.2484085980199,
+          "radius_out": 51.93743391254634,
+          "ratio_abs": 14.464488366194455
+        },
+        {
+          "contour": 0,
+          "point": [
+            307.0,
+            187.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.08333333333333333,
+          "signed_curvature_out": 0.05442176870748299,
+          "radius_in": 12.0,
+          "radius_out": 18.375,
+          "ratio_abs": 1.53125
+        },
+        {
+          "contour": 0,
+          "point": [
+            295.0,
+            176.0
+          ],
+          "angle_deg": 3.2382823996062067,
+          "signed_curvature_in": 0.022461475865823363,
+          "signed_curvature_out": -0.0012958172989004705,
+          "radius_in": 44.520672015215474,
+          "radius_out": 771.713729125643,
+          "ratio_abs": 17.33382930208018
+        },
+        {
+          "contour": 0,
+          "point": [
+            196.0,
+            42.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.009657461898294854,
+          "signed_curvature_out": -0.013789141051422005,
+          "radius_in": 103.546875,
+          "radius_out": 72.52083333333333,
+          "ratio_abs": 1.427822464808963
+        },
+        {
+          "contour": 0,
+          "point": [
+            97.0,
+            257.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.0013040572481131923,
+          "signed_curvature_out": -0.0012282690854119426,
+          "radius_in": 766.8375,
+          "radius_out": 814.1538461538461,
+          "ratio_abs": 1.061703224156156
+        },
+        {
+          "contour": 0,
+          "point": [
+            189.0,
+            490.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": -0.027083333333333334,
+          "signed_curvature_out": -0.016147635524798153,
+          "radius_in": 36.92307692307692,
+          "radius_out": 61.92857142857143,
+          "ratio_abs": 1.677232142857143
+        },
+        {
+          "contour": 0,
+          "point": [
+            274.0,
+            352.0
+          ],
+          "angle_deg": 1.7522880268191452,
+          "signed_curvature_in": -0.0007959337236080726,
+          "signed_curvature_out": 0.03147618407564815,
+          "radius_in": 1256.3860159949852,
+          "radius_out": 31.77005184607684,
+          "ratio_abs": 39.546237509528375
+        },
+        {
+          "contour": 0,
+          "point": [
+            288.0,
+            339.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.05442176870748299,
+          "signed_curvature_out": 0.09259259259259259,
+          "radius_in": 18.375,
+          "radius_out": 10.8,
+          "ratio_abs": 1.7013888888888888
+        },
+        {
+          "contour": 0,
+          "point": [
+            300.0,
+            354.0
+          ],
+          "angle_deg": 0.9391909457354006,
+          "signed_curvature_in": 0.04,
+          "signed_curvature_out": 0.0,
+          "radius_in": 25.0,
+          "radius_out": null,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            298.0,
+            476.0
+          ],
+          "angle_deg": 0.9391909457354006,
+          "signed_curvature_in": 0.0,
+          "signed_curvature_out": 0.01652892561983471,
+          "radius_in": null,
+          "radius_out": 60.5,
+          "ratio_abs": null
+        },
+        {
+          "contour": 0,
+          "point": [
+            288.0,
+            498.0
+          ],
+          "angle_deg": 1.1573330681294884,
+          "signed_curvature_in": 0.0282764526674155,
+          "signed_curvature_out": 0.009725567196456144,
+          "radius_in": 35.3651149867308,
+          "radius_out": 102.82176656641533,
+          "ratio_abs": 2.9074348154952885
+        },
+        {
+          "contour": 0,
+          "point": [
+            216.0,
+            516.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0032552083333333335,
+          "signed_curvature_out": 0.00617231995062144,
+          "radius_in": 307.2,
+          "radius_out": 162.01363636363638,
+          "ratio_abs": 1.8961366888309064
+        },
+        {
+          "contour": 0,
+          "point": [
+            23.0,
+            236.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.0019377162629757784,
+          "signed_curvature_out": 0.0019909972299168976,
+          "radius_in": 516.0714285714286,
+          "radius_out": 502.2608695652174,
+          "ratio_abs": 1.0274967847249705
+        },
+        {
+          "contour": 0,
+          "point": [
+            180.0,
+            -9.0
+          ],
+          "angle_deg": 0.0,
+          "signed_curvature_in": 0.008006198347107437,
+          "signed_curvature_out": 0.0053565962656871744,
+          "radius_in": 124.90322580645163,
+          "radius_out": 186.68571428571428,
+          "ratio_abs": 1.4946428571428572
+        }
+      ]
+    }
+  },
+  "two_variant_similarity": {
+    "area_union": 89929.21005045078,
+    "area_intersection": 86356.0507416442,
+    "intersection_over_union": 0.9602669776949889,
+    "symmetric_difference_area": 3573.1593088071104,
+    "same_counter": true
+  },
+  "terminal_comparison": {
+    "native_d_cap_endpoints": [
+      [
+        452.0,
+        129.0
+      ],
+      [
+        427.0,
+        130.0
+      ]
+    ],
+    "current_01_cap_endpoints": [
+      [
+        147.0,
+        702.0
+      ],
+      [
+        164.0,
+        684.0
+      ]
+    ],
+    "scale_for_endpoint_match": 0.989562138946848,
+    "rotation_degrees": 135.65403300102182,
+    "hausdorff_after_similarity_alignment_sampled": 2.5546772597002523,
+    "interpretation": "The rounded thin cap is already present in native d/a/t/c. Rejecting every rounded cap as foreign is unsupported. Full lead-in curvature and taper must be assessed separately."
+  }
+}

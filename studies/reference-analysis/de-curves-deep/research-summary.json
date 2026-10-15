@@ -1,0 +1,72 @@
+{
+  "research_date": "2026-10-15",
+  "user_feedback": {
+    "rejected_drawings": "de-cursive01/02",
+    "primary_problem": "Кривые и окончания",
+    "upper_ascender_skeleton": "not approved and not categorically rejected"
+  },
+  "native_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
+  "google_fonts_snapshot": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+  "downloaded_unique_families": 40,
+  "families_with_de": 37,
+  "no_de_in_checked_files": [
+    "neuton",
+    "gelasio",
+    "cormorantupright"
+  ],
+  "families": [
+    "alice",
+    "badscript",
+    "balsamiqsans",
+    "bellota",
+    "bellotatext",
+    "brygada1918",
+    "caveat",
+    "comforter",
+    "commissioner",
+    "cormorantgaramond",
+    "cormorantinfant",
+    "cormorantupright",
+    "elmessiri",
+    "firasans",
+    "forum",
+    "gabriela",
+    "gelasio",
+    "kurale",
+    "libertinusserif",
+    "lobster",
+    "marckscript",
+    "merriweather",
+    "neucha",
+    "neuton",
+    "notoserifdisplay",
+    "oldstandardtt",
+    "oranienbaum",
+    "pacifico",
+    "philosopher",
+    "poiretone",
+    "prata",
+    "ptserif",
+    "ptserifcaption",
+    "robotoserif",
+    "sourceserif4",
+    "stixtwotext",
+    "underdog",
+    "viaodalibre",
+    "vollkorn",
+    "yesevaone"
+  ],
+  "serif_core": {
+    "families": 12,
+    "styles": 22,
+    "harfbuzz_configurations": 1060
+  },
+  "serif_full_audit": {
+    "families_with_de": 14,
+    "styles_with_de": 25,
+    "harfbuzz_configurations": 1174
+  },
+  "source_outline_sha256": "46f5bf5473ed906565e798f889b03fe23a40a0adccd1ca23fb990c13226b0df7",
+  "no_new_font_generated": true,
+  "all_previous_drawings_retained": true
+}

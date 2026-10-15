@@ -1,0 +1,895 @@
+[
+  {
+    "family": "caveat",
+    "file": "Caveat[wght].ttf",
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {},
+    "purpose": "Upper-return motion only; script style is incompatible.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 638,
+          "cluster": 0,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 262,
+          "cluster": 0,
+          "advance": 355,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 633,
+          "cluster": 0,
+          "advance": 308,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 638,
+          "cluster": 0,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 653,
+          "cluster": 1,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 2,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss01",
+          "gid": 758,
+          "cluster": 3,
+          "advance": 444,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "caveat",
+    "file": "Caveat[wght].ttf",
+    "axes": {
+      "wght": 400
+    },
+    "language": "ru",
+    "features": {
+      "ss01": true
+    },
+    "purpose": "Alternative upper return from the SAME upright source.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 0,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g.ss01",
+          "gid": 394,
+          "cluster": 0,
+          "advance": 355,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.ss01",
+          "gid": 751,
+          "cluster": 0,
+          "advance": 270,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 0,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E.ss01",
+          "gid": 763,
+          "cluster": 1,
+          "advance": 353,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.ss01",
+          "gid": 754,
+          "cluster": 2,
+          "advance": 318,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.ss01",
+          "gid": 758,
+          "cluster": 3,
+          "advance": 444,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "viaodalibre",
+    "file": "ViaodaLibre-Regular.ttf",
+    "axes": {},
+    "language": "bg",
+    "features": {},
+    "purpose": "High contrast: lower open return; NOT our intended d skeleton.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 256,
+          "cluster": 0,
+          "advance": 457,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 504,
+          "cluster": 0,
+          "advance": 482,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 523,
+          "cluster": 1,
+          "advance": 489,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 589,
+          "cluster": 2,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 592,
+          "cluster": 3,
+          "advance": 482,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "cormorantgaramond",
+    "file": "CormorantGaramond[wght].ttf",
+    "axes": {
+      "wght": 400
+    },
+    "language": "bg",
+    "features": {},
+    "purpose": "Hairline to small terminal swelling; NOT an upper-stem d.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 2329,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 1094,
+          "cluster": 0,
+          "advance": 445,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431.1",
+          "gid": 2359,
+          "cluster": 0,
+          "advance": 474,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 2329,
+          "cluster": 0,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 2233,
+          "cluster": 1,
+          "advance": 479,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 2329,
+          "cluster": 2,
+          "advance": 466,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 2332,
+          "cluster": 3,
+          "advance": 493,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "commissioner",
+    "file": "Commissioner[FLAR,VOLM,slnt,wght].ttf",
+    "axes": {
+      "wght": 400,
+      "slnt": 0,
+      "FLAR": 0.0,
+      "VOLM": 0.0
+    },
+    "language": "bg",
+    "features": {},
+    "purpose": "Structural negative control: flat cut, low contrast.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 0,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 301,
+          "cluster": 0,
+          "advance": 1084,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 605,
+          "cluster": 0,
+          "advance": 1213,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 0,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 625,
+          "cluster": 1,
+          "advance": 1195,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434.loclBGR",
+          "gid": 727,
+          "cluster": 2,
+          "advance": 1169,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438.loclBGR",
+          "gid": 730,
+          "cluster": 3,
+          "advance": 1122,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "marckscript",
+    "file": "MarckScript-Regular.ttf",
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "purpose": "Loop/taper ductus only; script style is incompatible.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 0,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 76,
+          "cluster": 0,
+          "advance": 449,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 371,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 0,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 382,
+          "cluster": 1,
+          "advance": 351,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 372,
+          "cluster": 2,
+          "advance": 469,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 376,
+          "cluster": 3,
+          "advance": 500,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "kurale",
+    "file": "Kurale-Regular.ttf",
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "purpose": "Printed d is rejected; compare family terminal/curve grammar.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 164,
+          "cluster": 0,
+          "advance": 545,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 364,
+          "cluster": 0,
+          "advance": 527,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 383,
+          "cluster": 1,
+          "advance": 523,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 369,
+          "cluster": 2,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 375,
+          "cluster": 3,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "yesevaone",
+    "file": "YesevaOne-Regular.ttf",
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "purpose": "Printed d is rejected; compare family terminal/curve grammar.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 0,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 224,
+          "cluster": 0,
+          "advance": 605,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 435,
+          "cluster": 0,
+          "advance": 600,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 0,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 454,
+          "cluster": 1,
+          "advance": 580,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 440,
+          "cluster": 2,
+          "advance": 615,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 446,
+          "cluster": 3,
+          "advance": 680,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "gabriela",
+    "file": "Gabriela-Regular.ttf",
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "purpose": "Printed d is rejected; compare family terminal/curve grammar.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 0,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 144,
+          "cluster": 0,
+          "advance": 602,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 329,
+          "cluster": 0,
+          "advance": 540,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 0,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 351,
+          "cluster": 1,
+          "advance": 578,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 337,
+          "cluster": 2,
+          "advance": 611,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 343,
+          "cluster": 3,
+          "advance": 672,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "family": "bellotatext",
+    "file": "BellotaText-Regular.ttf",
+    "axes": {},
+    "language": "ru",
+    "features": {},
+    "purpose": "Negative terminal control: strokes/terminals too uniform.",
+    "shaped": {
+      "д": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "g": [
+        {
+          "glyph": "g",
+          "gid": 623,
+          "cluster": 0,
+          "advance": 568,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "б": [
+        {
+          "glyph": "uni0431",
+          "gid": 991,
+          "cluster": 0,
+          "advance": 543,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ],
+      "доди": [
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 0,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni043E",
+          "gid": 1015,
+          "cluster": 1,
+          "advance": 581,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0434",
+          "gid": 995,
+          "cluster": 2,
+          "advance": 556,
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "glyph": "uni0438",
+          "gid": 1004,
+          "cluster": 3,
+          "advance": 587,
+          "offset": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+]

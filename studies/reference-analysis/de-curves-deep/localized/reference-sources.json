@@ -1,0 +1,6347 @@
+{
+  "scope": "Read-only native Cyrillic curve/terminal references. All fonts remain in scratch, no source outlines transplanted to project. Native outlines, no artificial slant or per-glyph resizing. UPM normalization only in sheets. User clarified the rejected quality is curves and endings, not intrinsically the ascender/partial-differential skeleton.",
+  "snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+  "attempted_families": 29,
+  "loaded_families": 28,
+  "cyrillic_supported_families": 27,
+  "sources": [
+    {
+      "family": "yesevaone",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/yesevaone/METADATA.pb",
+        "sha256": "405967b7e007d961366e28ebaaa29c5bb8e26ab5af6dd447dbb292c45c44aab9",
+        "bytes": 684
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/yesevaone/OFL.txt",
+        "sha256": "ab592d1abca19428b89d851706fa7815ec25139c6affb45d366577ca63fb91b7",
+        "bytes": 4405
+      },
+      "fonts": [
+        {
+          "file": "YesevaOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/yesevaone/YesevaOne-Regular.ttf",
+          "sha256": "88362b33820f0011e163e67b1d570fecd442aa8c05eaac89d5162f9c40d9dac3",
+          "bytes": 108016
+        }
+      ],
+      "upstream_repository": "https://github.com/alexeiva/yesevaone",
+      "upstream_commit": "0d609f6155ed0fe1d822696135ffbd04b88fd017",
+      "analysis": {
+        "family": "yesevaone",
+        "file": "YesevaOne-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "88362b33820f0011e163e67b1d570fecd442aa8c05eaac89d5162f9c40d9dac3",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "63ef613f2652d07b32929264135b28f4173d3f5efb0d05da865c3e054c23cb75",
+            "bounds": [
+              -10,
+              -165,
+              600,
+              500
+            ],
+            "hmtx": [
+              615,
+              -10
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "yesevaone/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 440,
+              "cluster": 0,
+              "advance": 615,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 440,
+              "cluster": 0,
+              "advance": 615,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 440,
+              "cluster": 0,
+              "advance": 615,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 440,
+              "cluster": 0,
+              "advance": 615,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "kurale",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/METADATA.pb",
+        "sha256": "cd5342390d4f513b5d332d94b3faa04425a1ce970d21929e178649aa0d454fdc",
+        "bytes": 772
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/OFL.txt",
+        "sha256": "b712dacdda5da76c0213f8478886f893b855665c1153ae438bc3e55a7dc525ef",
+        "bytes": 4363
+      },
+      "fonts": [
+        {
+          "file": "Kurale-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/kurale/Kurale-Regular.ttf",
+          "sha256": "6055aaca6870ca64210dd81fa47f8bb71595a9c8fbe570351ed45a15f1a0820d",
+          "bytes": 265304
+        }
+      ],
+      "upstream_repository": "https://github.com/etunni/kurale",
+      "upstream_commit": "08bf7684d57c6faacff84e6c5ab31df6b7beae18",
+      "analysis": {
+        "family": "kurale",
+        "file": "Kurale-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "6055aaca6870ca64210dd81fa47f8bb71595a9c8fbe570351ed45a15f1a0820d",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "f62e51a5c38db2f536beced354ad8d1d4d6278b7509d43c2b5603c8f9bbf97c5",
+            "bounds": [
+              0,
+              -163,
+              518,
+              450
+            ],
+            "hmtx": [
+              543,
+              0
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "kurale/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 369,
+              "cluster": 0,
+              "advance": 543,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 369,
+              "cluster": 0,
+              "advance": 543,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 369,
+              "cluster": 0,
+              "advance": 543,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 369,
+              "cluster": 0,
+              "advance": 543,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "philosopher",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/philosopher/METADATA.pb",
+        "sha256": "03f4b716973d4214f3c737afb9e1eef0b187dab34ff30e1ffff1027c2a8ede62",
+        "bytes": 2133
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/philosopher/OFL.txt",
+        "sha256": "f1e511c19c29907ff2e7a3a575e7fa4cbbf5cedf551a0044db74cf4dc52fde89",
+        "bytes": 4393
+      },
+      "fonts": [
+        {
+          "file": "Philosopher-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/philosopher/Philosopher-Regular.ttf",
+          "sha256": "e1cba0b5003b5694f1d6cc0fbe629f78362ad38a9ffd4d0cb7abfd9698a575ed",
+          "bytes": 111676
+        }
+      ],
+      "upstream_repository": "https://github.com/alexeiva/philosopher",
+      "upstream_commit": "9983715d443b6be727d886cd16bce241cf9ad0b7",
+      "analysis": {
+        "family": "philosopher",
+        "file": "Philosopher-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "e1cba0b5003b5694f1d6cc0fbe629f78362ad38a9ffd4d0cb7abfd9698a575ed",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "104f8d1ba0c129855660a90025a8fe1d3c405ae1eeff12d76b7a82022e434850",
+            "bounds": [
+              16,
+              -155,
+              546,
+              470
+            ],
+            "hmtx": [
+              570,
+              16
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "philosopher/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 327,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 327,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 327,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 327,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "cormorantgaramond",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantgaramond/METADATA.pb",
+        "sha256": "faa16a5e79613ca7cadd599ada1f4cf6891f3cb6731631fbed2a0b18a342e556",
+        "bytes": 1426
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantgaramond/OFL.txt",
+        "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+        "bytes": 4387
+      },
+      "fonts": [
+        {
+          "file": "CormorantGaramond[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+          "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+          "bytes": 1195560
+        }
+      ],
+      "upstream_repository": "https://github.com/CatharsisFonts/Cormorant",
+      "upstream_commit": "6d210fd3550b7358ca62d6ba3e354ec1ec940813",
+      "analysis": {
+        "family": "cormorantgaramond",
+        "file": "CormorantGaramond[wght].ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {
+          "wght": 400
+        },
+        "native_italic_angle": 0.0,
+        "font_sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+        "available_ss_cv": [
+          "cv01",
+          "cv02",
+          "cv05",
+          "cv06",
+          "cv07",
+          "ss01",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss09",
+          "ss10",
+          "ss12",
+          "ss13",
+          "ss14",
+          "ss15"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434.1",
+            "hash": "01e951cce4c3ba325e0a78ffa3f3b28e16a0257e2cbd33df58721e89458c0f00",
+            "bounds": [
+              8.199951171875,
+              -134.2000732421875,
+              464.00006103515625,
+              405.0
+            ],
+            "hmtx": [
+              473,
+              8
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/cv01",
+              "ru/cv02",
+              "ru/cv05",
+              "ru/cv06",
+              "ru/cv07",
+              "ru/ss01",
+              "ru/ss03",
+              "ru/ss04",
+              "ru/ss05",
+              "ru/ss06",
+              "ru/ss09",
+              "ru/ss12",
+              "ru/ss13",
+              "ru/ss15",
+              "sr",
+              "sr/cv01",
+              "sr/cv02",
+              "sr/cv05",
+              "sr/cv06",
+              "sr/cv07",
+              "sr/ss01",
+              "sr/ss03",
+              "sr/ss04",
+              "sr/ss05",
+              "sr/ss06",
+              "sr/ss09",
+              "sr/ss12",
+              "sr/ss13",
+              "sr/ss15",
+              "mk",
+              "mk/cv01",
+              "mk/cv02",
+              "mk/cv05",
+              "mk/cv06",
+              "mk/cv07",
+              "mk/ss01",
+              "mk/ss03",
+              "mk/ss04",
+              "mk/ss05",
+              "mk/ss06",
+              "mk/ss09",
+              "mk/ss12",
+              "mk/ss13",
+              "mk/ss15"
+            ],
+            "svg": "cormorantgaramond/uni0434.1.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.ss10",
+            "hash": "6b3e4511249d9f69522bb743202ec79b8ff39a2c3df9deef0e60a41781408786",
+            "bounds": [
+              35.99993896484375,
+              -281,
+              393.2003173828125,
+              398.79998779296875
+            ],
+            "hmtx": [
+              466,
+              36
+            ],
+            "exposed_by": [
+              "ru/ss10",
+              "bg",
+              "bg/cv01",
+              "bg/cv02",
+              "bg/cv05",
+              "bg/cv06",
+              "bg/cv07",
+              "bg/ss01",
+              "bg/ss03",
+              "bg/ss04",
+              "bg/ss05",
+              "bg/ss06",
+              "bg/ss09",
+              "bg/ss10",
+              "bg/ss12",
+              "bg/ss13",
+              "bg/ss14",
+              "bg/ss15",
+              "sr/ss10",
+              "mk/ss10"
+            ],
+            "svg": "cormorantgaramond/uni0434.ss10.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.ss14",
+            "hash": "c8421714c6fee0f8bd7a9af205cac995457965c2974ad97ef9534450254d471a",
+            "bounds": [
+              8.199951171875,
+              -156.0,
+              452.00006103515625,
+              388
+            ],
+            "hmtx": [
+              480,
+              8
+            ],
+            "exposed_by": [
+              "ru/ss14",
+              "sr/ss14",
+              "mk/ss14"
+            ],
+            "svg": "cormorantgaramond/uni0434.ss14.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss03": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2389,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2415,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv01": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv02": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv05": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv06": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv07": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss03": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss04": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss05": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss06": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss09": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss10": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss12": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss13": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss14": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss15": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss03": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2389,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2415,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss03": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2389,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2415,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2360,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "cormorantinfant",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/METADATA.pb",
+        "sha256": "d95cafec323397a710f10bd6696534d326d8cdef06cd3fef856d006b608571ce",
+        "bytes": 1398
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/OFL.txt",
+        "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956",
+        "bytes": 4387
+      },
+      "fonts": [
+        {
+          "file": "CormorantInfant[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantinfant/CormorantInfant%5Bwght%5D.ttf",
+          "sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+          "bytes": 1174156
+        }
+      ],
+      "upstream_repository": "https://github.com/CatharsisFonts/Cormorant",
+      "upstream_commit": "6d210fd3550b7358ca62d6ba3e354ec1ec940813",
+      "analysis": {
+        "family": "cormorantinfant",
+        "file": "CormorantInfant[wght].ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {
+          "wght": 400
+        },
+        "native_italic_angle": 0.0,
+        "font_sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+        "available_ss_cv": [
+          "cv01",
+          "cv02",
+          "cv05",
+          "cv06",
+          "cv07",
+          "ss01",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss09",
+          "ss10",
+          "ss12",
+          "ss13",
+          "ss14",
+          "ss15"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434.1",
+            "hash": "6b3e4511249d9f69522bb743202ec79b8ff39a2c3df9deef0e60a41781408786",
+            "bounds": [
+              35.99993896484375,
+              -281,
+              393.2003173828125,
+              398.79998779296875
+            ],
+            "hmtx": [
+              466,
+              36
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/cv01",
+              "ru/cv02",
+              "ru/cv05",
+              "ru/cv06",
+              "ru/cv07",
+              "ru/ss01",
+              "ru/ss04",
+              "ru/ss05",
+              "ru/ss06",
+              "ru/ss09",
+              "ru/ss12",
+              "ru/ss13",
+              "ru/ss15",
+              "bg",
+              "bg/cv01",
+              "bg/cv02",
+              "bg/cv05",
+              "bg/cv06",
+              "bg/cv07",
+              "bg/ss01",
+              "bg/ss04",
+              "bg/ss05",
+              "bg/ss06",
+              "bg/ss09",
+              "bg/ss12",
+              "bg/ss13",
+              "bg/ss15",
+              "sr",
+              "sr/cv01",
+              "sr/cv02",
+              "sr/cv05",
+              "sr/cv06",
+              "sr/cv07",
+              "sr/ss01",
+              "sr/ss04",
+              "sr/ss05",
+              "sr/ss06",
+              "sr/ss09",
+              "sr/ss12",
+              "sr/ss13",
+              "sr/ss15",
+              "mk",
+              "mk/cv01",
+              "mk/cv02",
+              "mk/cv05",
+              "mk/cv06",
+              "mk/cv07",
+              "mk/ss01",
+              "mk/ss04",
+              "mk/ss05",
+              "mk/ss06",
+              "mk/ss09",
+              "mk/ss12",
+              "mk/ss13",
+              "mk/ss15"
+            ],
+            "svg": "cormorantinfant/uni0434.1.svg",
+            "identical_to_native_latin_g": true
+          },
+          {
+            "glyph": "uni0434.ss10",
+            "hash": "01e951cce4c3ba325e0a78ffa3f3b28e16a0257e2cbd33df58721e89458c0f00",
+            "bounds": [
+              8.199951171875,
+              -134.2000732421875,
+              464.00006103515625,
+              405.0
+            ],
+            "hmtx": [
+              473,
+              8
+            ],
+            "exposed_by": [
+              "ru/ss10",
+              "bg/ss10",
+              "sr/ss10",
+              "mk/ss10"
+            ],
+            "svg": "cormorantinfant/uni0434.ss10.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.ss14",
+            "hash": "c8421714c6fee0f8bd7a9af205cac995457965c2974ad97ef9534450254d471a",
+            "bounds": [
+              8.199951171875,
+              -156.0,
+              452.00006103515625,
+              388
+            ],
+            "hmtx": [
+              480,
+              8
+            ],
+            "exposed_by": [
+              "ru/ss14",
+              "bg/ss14",
+              "sr/ss14",
+              "mk/ss14"
+            ],
+            "svg": "cormorantinfant/uni0434.ss14.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2384,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2384,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2384,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv02": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/cv07": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss04": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss05": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss06": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss09": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss10": [
+            {
+              "glyph": "uni0434.ss10",
+              "gid": 2329,
+              "cluster": 0,
+              "advance": 473,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss12": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss13": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss14": [
+            {
+              "glyph": "uni0434.ss14",
+              "gid": 2384,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss15": [
+            {
+              "glyph": "uni0434.1",
+              "gid": 2358,
+              "cluster": 0,
+              "advance": 466,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "alice",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alice/METADATA.pb",
+        "sha256": "8142487e1e3470b2e08b2560097a4a19266f7a3983e01b6d53e4c2a313e512a1",
+        "bytes": 794
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alice/OFL.txt",
+        "sha256": "ef643b6b82fb5c2ce056e27b6bf6908433a785bbb6ee6dc23c4739743f063e54",
+        "bytes": 4477
+      },
+      "fonts": [
+        {
+          "file": "Alice-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/alice/Alice-Regular.ttf",
+          "sha256": "8212c40f10b306af9b82272ae68314de6964522b6dabf6abdaff647e74ac8b58",
+          "bytes": 129200
+        }
+      ],
+      "upstream_repository": "https://github.com/cyrealtype/Alice",
+      "upstream_commit": "13be04734d33464e627bd201d35aa9697feed289",
+      "analysis": {
+        "family": "alice",
+        "file": "Alice-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "8212c40f10b306af9b82272ae68314de6964522b6dabf6abdaff647e74ac8b58",
+        "available_ss_cv": [
+          "ss01"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "8a8510c3e7e263a9414673815a5d022da8204004f943c22e69931d76ad0fd9d5",
+            "bounds": [
+              6,
+              -129,
+              522,
+              456
+            ],
+            "hmtx": [
+              557,
+              6
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "bg",
+              "bg/ss01",
+              "sr",
+              "sr/ss01",
+              "mk",
+              "mk/ss01"
+            ],
+            "svg": "alice/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 218,
+              "cluster": 0,
+              "advance": 557,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "marckscript",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/marckscript/METADATA.pb",
+        "sha256": "1f91cca3d297bfa9376b7b0c6ab820edd78e3f9929969af35924a238727a6065",
+        "bytes": 908
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/marckscript/OFL.txt",
+        "sha256": "f22a2beea88d631a620b15683fd03e79f13ad3297ad97fa5e42283c0b1a3a038",
+        "bytes": 4420
+      },
+      "fonts": [
+        {
+          "file": "MarckScript-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/marckscript/MarckScript-Regular.ttf",
+          "sha256": "504de8cc6f919163bc9afb67b9bc208d258230c5e8d00cb82ec52474f9fafc3b",
+          "bytes": 83664
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/marckscript",
+      "upstream_commit": "f4e66d73d1cc7190be547d491b99a0979c60fb10",
+      "analysis": {
+        "family": "marckscript",
+        "file": "MarckScript-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "504de8cc6f919163bc9afb67b9bc208d258230c5e8d00cb82ec52474f9fafc3b",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "3d2964b6dd36123fee8e152ac86935df7ddbd38756527f3c1fa0fe052bececf2",
+            "bounds": [
+              23,
+              -385,
+              452,
+              383
+            ],
+            "hmtx": [
+              469,
+              23
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "marckscript/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 469,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 469,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 469,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 469,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "badscript",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/badscript/METADATA.pb",
+        "sha256": "2f73735cca7eceb523e10bcb97e30dad3feba39317634fcfb6ef30e6782a6f24",
+        "bytes": 869
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/badscript/OFL.txt",
+        "sha256": "0b742ad45c246502b6d56c62146011e37098978b8feb5970d7da313553dedd91",
+        "bytes": 4390
+      },
+      "fonts": [
+        {
+          "file": "BadScript-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/badscript/BadScript-Regular.ttf",
+          "sha256": "40ec737eee65ec4efbc24ae636fa31d7d84d1ccca83ab54cd555edb72cb3eaf0",
+          "bytes": 184216
+        }
+      ],
+      "upstream_repository": "https://github.com/alexeiva/badscript",
+      "upstream_commit": "dca2962433a2b5817f1e716d6731a743440fbd79",
+      "analysis": {
+        "family": "badscript",
+        "file": "BadScript-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "40ec737eee65ec4efbc24ae636fa31d7d84d1ccca83ab54cd555edb72cb3eaf0",
+        "available_ss_cv": [
+          "ss01",
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "72c0f7125ee859923202bb0dbb50f28c49a322b754b202899bef3e069b8d6493",
+            "bounds": [
+              -20,
+              -410,
+              399,
+              509
+            ],
+            "hmtx": [
+              459,
+              -20
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "mk",
+              "mk/ss01",
+              "mk/ss02"
+            ],
+            "svg": "badscript/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 459,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "caveat",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/caveat/METADATA.pb",
+        "sha256": "038342ea08d3f09e11b7f08cfd1e1d556b4f56a48269b0909395aa6fecd4c4f7",
+        "bytes": 1029
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/caveat/OFL.txt",
+        "sha256": "1f9d81d094273d82f3898a1ee8b598a717d050ecbf5ff7bede105b704880157b",
+        "bytes": 4385
+      },
+      "fonts": [
+        {
+          "file": "Caveat[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/caveat/Caveat%5Bwght%5D.ttf",
+          "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+          "bytes": 403648
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/caveat",
+      "upstream_commit": "59745e818ef7973e11e70cb1358d0e902b56c5fc",
+      "analysis": {
+        "family": "caveat",
+        "file": "Caveat[wght].ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {
+          "wght": 400
+        },
+        "native_italic_angle": 0.0,
+        "font_sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+        "available_ss_cv": [
+          "ss01",
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "039f0b0989f63f7150c4f33426534dd1f092958e94b3fba895d7db950bf36dd9",
+            "bounds": [
+              109.92307692307692,
+              5.818181818181818,
+              430.6,
+              643.1
+            ],
+            "hmtx": [
+              353,
+              109
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "caveat/uni0434.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.ss01",
+            "hash": "fa3b82793ecf4e71e81d2f81104ed7d3c93bd53d781997a0c793db70a1ae45a3",
+            "bounds": [
+              94,
+              8,
+              398.0,
+              621.5714285714286
+            ],
+            "hmtx": [
+              318,
+              94
+            ],
+            "exposed_by": [
+              "ru/ss01",
+              "bg/ss01",
+              "sr/ss01",
+              "mk/ss01"
+            ],
+            "svg": "caveat/uni0434.ss01.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.ss02",
+            "hash": "7982be01f979614a08876c0ee1e95fbe1a7695252560299c4f16c901c28f4bd2",
+            "bounds": [
+              95.94285714285715,
+              5.052631578947368,
+              417.0416666666667,
+              628
+            ],
+            "hmtx": [
+              327,
+              92
+            ],
+            "exposed_by": [
+              "ru/ss02",
+              "bg/ss02",
+              "sr/ss02",
+              "mk/ss02"
+            ],
+            "svg": "caveat/uni0434.ss02.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 638,
+              "cluster": 0,
+              "advance": 353,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434.ss01",
+              "gid": 754,
+              "cluster": 0,
+              "advance": 318,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434.ss02",
+              "gid": 786,
+              "cluster": 0,
+              "advance": 327,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 638,
+              "cluster": 0,
+              "advance": 353,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434.ss01",
+              "gid": 754,
+              "cluster": 0,
+              "advance": 318,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434.ss02",
+              "gid": 786,
+              "cluster": 0,
+              "advance": 327,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 638,
+              "cluster": 0,
+              "advance": 353,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434.ss01",
+              "gid": 754,
+              "cluster": 0,
+              "advance": 318,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434.ss02",
+              "gid": 786,
+              "cluster": 0,
+              "advance": 327,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 638,
+              "cluster": 0,
+              "advance": 353,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434.ss01",
+              "gid": 754,
+              "cluster": 0,
+              "advance": 318,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434.ss02",
+              "gid": 786,
+              "cluster": 0,
+              "advance": 327,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "neucha",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neucha/METADATA.pb",
+        "sha256": "5041c9e321922328581df4b12c5b8e7e6f2cc75dd772f76e706731a9f14b8573",
+        "bytes": 534
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neucha/OFL.txt",
+        "sha256": "656a20870fbcb8f559f1c6308c1df90ac93d7cd0279aab49b43a43b5e58534e6",
+        "bytes": 4370
+      },
+      "fonts": [
+        {
+          "file": "Neucha.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/neucha/Neucha.ttf",
+          "sha256": "7927bd6ce090fa032857dcbc3ad0e8b765c462d0a72a8779068132496b4e087d",
+          "bytes": 141432
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/googlefontdirectory-hg",
+      "upstream_commit": "52f780bc9d197280a9f430574e179a5f233c56b6",
+      "analysis": {
+        "family": "neucha",
+        "file": "Neucha.ttf",
+        "supported": true,
+        "upm": 1024,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "7927bd6ce090fa032857dcbc3ad0e8b765c462d0a72a8779068132496b4e087d",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "afii10069",
+            "hash": "c0ab886b5408759e829470193975979961d53382a97f20d0a685ef84e27eee40",
+            "bounds": [
+              0,
+              -146,
+              520,
+              531
+            ],
+            "hmtx": [
+              540,
+              0
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "neucha/afii10069.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "afii10069",
+              "gid": 221,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "afii10069",
+              "gid": 221,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "afii10069",
+              "gid": 221,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "afii10069",
+              "gid": 221,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "firasans",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/firasans/METADATA.pb",
+        "sha256": "ae2cacb4937d28984ebeca17016571133a3a03bc5acfa3cf83599fb03f2bb511",
+        "bytes": 5252
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/firasans/OFL.txt",
+        "sha256": "8f24842e9174beda18a556c2ae7d54f5dc444340c19a3a9ef77e23bca366adbd",
+        "bytes": 4370
+      },
+      "fonts": [
+        {
+          "file": "FiraSans-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/firasans/FiraSans-Regular.ttf",
+          "sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+          "bytes": 456996
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/FiraGFVersion",
+      "upstream_commit": "a7d6892325d5b7382e426bea13bd3ef2c32bd53e",
+      "analysis": {
+        "family": "firasans",
+        "file": "FiraSans-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "c29556a2719bf613ef3d5e070e40d903a8965d9c081beca1375dc1e6e0f93c23",
+        "available_ss_cv": [
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "8f39932e27602cb8c0a36d53b8d0b1cbb007c26d9df36eedad080e84b030cb86",
+            "bounds": [
+              0,
+              -150,
+              518,
+              527
+            ],
+            "hmtx": [
+              558,
+              0
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "ru/ss03",
+              "ru/ss04",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "bg/ss03",
+              "bg/ss04",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "sr/ss03",
+              "sr/ss04",
+              "mk",
+              "mk/ss01",
+              "mk/ss02",
+              "mk/ss03",
+              "mk/ss04"
+            ],
+            "svg": "firasans/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 1242,
+              "cluster": 0,
+              "advance": 558,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "commissioner",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/commissioner/METADATA.pb",
+        "sha256": "a165710f26679e7811b9a80ce85015ec1716ed80d6ff996f0336790e0d4ab58a",
+        "bytes": 1167
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/commissioner/OFL.txt",
+        "sha256": "4a7d88c77b4bc39ff84f2e058ba8f015636c50ce33588a86d9da97defe519933",
+        "bytes": 4395
+      },
+      "fonts": [
+        {
+          "file": "Commissioner[FLAR,VOLM,slnt,wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/commissioner/Commissioner%5BFLAR%2CVOLM%2Cslnt%2Cwght%5D.ttf",
+          "sha256": "db01279a6eb8676ee62675a4d7e5edbfe5f08fbc109358e2f49760b70c0447d3",
+          "bytes": 742232
+        }
+      ],
+      "upstream_repository": "https://github.com/m4rc1e/Commissioner",
+      "upstream_commit": "7f7dc8e9ed7ffeb3f7a91261f2b9549436ab3d02",
+      "analysis": {
+        "family": "commissioner",
+        "file": "Commissioner[FLAR,VOLM,slnt,wght].ttf",
+        "supported": true,
+        "upm": 2000,
+        "axes": {
+          "wght": 400,
+          "slnt": 0,
+          "FLAR": 0.0,
+          "VOLM": 0.0
+        },
+        "native_italic_angle": 0.0,
+        "font_sha256": "db01279a6eb8676ee62675a4d7e5edbfe5f08fbc109358e2f49760b70c0447d3",
+        "available_ss_cv": [
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "10f3a2bc09a2b81d8be6dbc9c0cf01f3a615be37743b42295722fd9bfe45ea46",
+            "bounds": [
+              18.80458544388163,
+              -276.02292721940813,
+              1132.989069581445,
+              992.1839509464143
+            ],
+            "hmtx": [
+              1171,
+              19
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss02",
+              "sr",
+              "sr/ss02",
+              "mk",
+              "mk/ss02"
+            ],
+            "svg": "commissioner/uni0434.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.loclBGR",
+            "hash": "f3e352e20c760fb36ba2a9f9a85ffb94861691b1b53987b878ab950e78ca9fc1",
+            "bounds": [
+              101.28712343375099,
+              -406.39082911223676,
+              1011.4486803519062,
+              1015.7701946147694
+            ],
+            "hmtx": [
+              1169,
+              101
+            ],
+            "exposed_by": [
+              "bg",
+              "bg/ss02"
+            ],
+            "svg": "commissioner/uni0434.loclBGR.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 727,
+              "cluster": 0,
+              "advance": 1169,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 727,
+              "cluster": 0,
+              "advance": 1169,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 1171,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "ptserifcaption",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/METADATA.pb",
+        "sha256": "7a0356f6d32ae267b9896a2fd5c29bb01d2f82499fcbc0a45806444c057d8922",
+        "bytes": 768
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/OFL.txt",
+        "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+        "bytes": 4434
+      },
+      "fonts": [
+        {
+          "file": "PT_Serif-Caption-Web-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserifcaption/PT_Serif-Caption-Web-Regular.ttf",
+          "sha256": "d17d47f44e840eee017f839b27dff3c94c7afe7743eff308d4bd11f7018b69af",
+          "bytes": 399840
+        }
+      ],
+      "upstream_repository": null,
+      "upstream_commit": null,
+      "analysis": {
+        "family": "ptserifcaption",
+        "file": "PT_Serif-Caption-Web-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "d17d47f44e840eee017f839b27dff3c94c7afe7743eff308d4bd11f7018b69af",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "afii10069",
+            "hash": "79ccadb0035f31ef26f96e8ae71a8bd229a97d6339781fcf2a00f34bdcfa2309",
+            "bounds": [
+              19,
+              -150,
+              603,
+              525
+            ],
+            "hmtx": [
+              645,
+              19
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "ptserifcaption/afii10069.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "afii10069",
+              "gid": 365,
+              "cluster": 0,
+              "advance": 645,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "afii10069",
+              "gid": 365,
+              "cluster": 0,
+              "advance": 645,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "afii10069",
+              "gid": 365,
+              "cluster": 0,
+              "advance": 645,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "afii10069",
+              "gid": 365,
+              "cluster": 0,
+              "advance": 645,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "elmessiri",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/elmessiri/METADATA.pb",
+        "sha256": "430e97504d06d65c01dc3637ea59aa822d9ca7c24f2cce0c8516c790cf64f5a9",
+        "bytes": 924
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/elmessiri/OFL.txt",
+        "sha256": "b69113722df50071b68ea377ad261919f08fd0dd6672f68b8868445586a30770",
+        "bytes": 4390
+      },
+      "fonts": [
+        {
+          "file": "ElMessiri[wght].ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/elmessiri/ElMessiri%5Bwght%5D.ttf",
+          "sha256": "5d58d5259d2accccba39cffe12e1226e88b6afc5150e3605eb2a9c2fe06ccab0",
+          "bytes": 138664
+        }
+      ],
+      "upstream_repository": "https://github.com/Gue3bara/El-Messiri",
+      "upstream_commit": "553b98d8e374318694b50862849af666268fd278",
+      "analysis": {
+        "family": "elmessiri",
+        "file": "ElMessiri[wght].ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {
+          "wght": 400
+        },
+        "native_italic_angle": 0.0,
+        "font_sha256": "5d58d5259d2accccba39cffe12e1226e88b6afc5150e3605eb2a9c2fe06ccab0",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "fd725e9e420169abd3fc3c05d24d983716277509db7882c4401f41c84beea356",
+            "bounds": [
+              16,
+              -155,
+              546,
+              470
+            ],
+            "hmtx": [
+              570,
+              16
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "elmessiri/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 183,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 183,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 183,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 183,
+              "cluster": 0,
+              "advance": 570,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "viaodalibre",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/viaodalibre/METADATA.pb",
+        "sha256": "75332f53b9e52b178564543f2a306e12b77805e67c39073e43e6a2e29cffe4d1",
+        "bytes": 695
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/viaodalibre/OFL.txt",
+        "sha256": "1cd4dc67e3c5a349d0121e0d91837cec083559fb94ebf70a8a31601a787f42e3",
+        "bytes": 4392
+      },
+      "fonts": [
+        {
+          "file": "ViaodaLibre-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/viaodalibre/ViaodaLibre-Regular.ttf",
+          "sha256": "adb53ede25107c5ed4c45f993fd014a21ef82ac82b2327a564fe8e994e228942",
+          "bytes": 196944
+        }
+      ],
+      "upstream_repository": "https://github.com/bettergui/ViaodaLibre",
+      "upstream_commit": "a0d8da9d47c56c3ee53f9ca954b025734975a657",
+      "analysis": {
+        "family": "viaodalibre",
+        "file": "ViaodaLibre-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "adb53ede25107c5ed4c45f993fd014a21ef82ac82b2327a564fe8e994e228942",
+        "available_ss_cv": [
+          "ss01",
+          "ss02",
+          "ss03"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "cd50abec3bc4f693cf424d02475bc4cfbb3e3c9a5272f5942f20f69adb35b2ca",
+            "bounds": [
+              -30,
+              -129,
+              475,
+              467
+            ],
+            "hmtx": [
+              505,
+              -30
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "ru/ss03",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "sr/ss03",
+              "mk",
+              "mk/ss01",
+              "mk/ss02",
+              "mk/ss03"
+            ],
+            "svg": "viaodalibre/uni0434.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.loclBGR",
+            "hash": "1685ae78cd3de132aded7f160a610b3926bf4796d521bab71c354a0ac66ba1e4",
+            "bounds": [
+              48,
+              -265,
+              435,
+              487
+            ],
+            "hmtx": [
+              474,
+              48
+            ],
+            "exposed_by": [
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "bg/ss03"
+            ],
+            "svg": "viaodalibre/uni0434.loclBGR.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 589,
+              "cluster": 0,
+              "advance": 474,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 589,
+              "cluster": 0,
+              "advance": 474,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 589,
+              "cluster": 0,
+              "advance": 474,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss03": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 589,
+              "cluster": 0,
+              "advance": 474,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434.loclSRB",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434.loclSRB",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434.loclSRB",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss03": [
+            {
+              "glyph": "uni0434.loclSRB",
+              "gid": 610,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 509,
+              "cluster": 0,
+              "advance": 505,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "prata",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/METADATA.pb",
+        "sha256": "b6803b1f2c7e83ea3aa192bc3fa9102ebd1d011e07b60216327aa34e434b891f",
+        "bytes": 585
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/OFL.txt",
+        "sha256": "1e055d25bde41906cc2e1a08bc156e7776d5084e1640d75dbd0065a937b488e3",
+        "bytes": 4476
+      },
+      "fonts": [
+        {
+          "file": "Prata-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/prata/Prata-Regular.ttf",
+          "sha256": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+          "bytes": 101284
+        }
+      ],
+      "upstream_repository": "https://github.com/cyrealtype/Prata",
+      "upstream_commit": "db5f3799a47eb51bbfe0cb572986d26b37f8ec9e",
+      "analysis": {
+        "family": "prata",
+        "file": "Prata-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "6b6ca0be73f9c569fe4579758b3444d0247abfe32104dea4f20bb0ec2795ccad",
+            "bounds": [
+              -20,
+              -165,
+              533,
+              518
+            ],
+            "hmtx": [
+              540,
+              -20
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "prata/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 324,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 324,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 324,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 324,
+              "cluster": 0,
+              "advance": 540,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "forum",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/forum/METADATA.pb",
+        "sha256": "2c7c2615aafda9e6d8acc763bf3c89c7ede5c28e3aa115486b5d492076357ca2",
+        "bytes": 724
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/forum/OFL.txt",
+        "sha256": "1bfe7d2aca99042eabf37079152fef8abdda2c36dad454ae89b858a3cb1078c5",
+        "bytes": 4399
+      },
+      "fonts": [
+        {
+          "file": "Forum-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/forum/Forum-Regular.ttf",
+          "sha256": "5c9fbe9c4ce76d0269f5088d921d57e58082fd9c28433eacb6de95baf938adf8",
+          "bytes": 303316
+        }
+      ],
+      "upstream_repository": "https://github.com/librefonts/forum",
+      "upstream_commit": "e8efc0bceef3b98cf32f722bf637f3c110f68a37",
+      "analysis": {
+        "family": "forum",
+        "file": "Forum-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "5c9fbe9c4ce76d0269f5088d921d57e58082fd9c28433eacb6de95baf938adf8",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "982adf95d21b6fcdac236a586f16f28e9f440ef58f841bbfc3ee0e2871beaff1",
+            "bounds": [
+              8,
+              -90,
+              490,
+              438
+            ],
+            "hmtx": [
+              504,
+              8
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "forum/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 414,
+              "cluster": 0,
+              "advance": 504,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 414,
+              "cluster": 0,
+              "advance": 504,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 414,
+              "cluster": 0,
+              "advance": 504,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 414,
+              "cluster": 0,
+              "advance": 504,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "oranienbaum",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/METADATA.pb",
+        "sha256": "04344beed4451777543fc2952fe7255ac0a5e138f3b92691a28a19f3666b3b00",
+        "bytes": 676
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/OFL.txt",
+        "sha256": "d941c5b788d47aa469ee54e30f4c12d6a43c45a295f10c568bdf9772f2893b7b",
+        "bytes": 4434
+      },
+      "fonts": [
+        {
+          "file": "Oranienbaum-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oranienbaum/Oranienbaum-Regular.ttf",
+          "sha256": "d0c2527f106ddaf53bebce08e903b585d1fd1d830eddd23ed723c313b4fe2c6c",
+          "bytes": 141220
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/googlefontdirectory-hg",
+      "upstream_commit": "52f780bc9d197280a9f430574e179a5f233c56b6",
+      "analysis": {
+        "family": "oranienbaum",
+        "file": "Oranienbaum-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "d0c2527f106ddaf53bebce08e903b585d1fd1d830eddd23ed723c313b4fe2c6c",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "afii10069",
+            "hash": "218adf1007313a8f506ba06f7b106822a1176e860f8dc601d85a5548e11e8d5c",
+            "bounds": [
+              0,
+              -145,
+              455,
+              460
+            ],
+            "hmtx": [
+              485,
+              0
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "oranienbaum/afii10069.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "afii10069",
+              "gid": 38,
+              "cluster": 0,
+              "advance": 485,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "afii10069",
+              "gid": 38,
+              "cluster": 0,
+              "advance": 485,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "afii10069",
+              "gid": 38,
+              "cluster": 0,
+              "advance": 485,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "afii10069",
+              "gid": 38,
+              "cluster": 0,
+              "advance": 485,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "lobster",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lobster/METADATA.pb",
+        "sha256": "f4ec557428a890a5256da9da2aa484a18ac861b36096f09be123eaf6cf0af99e",
+        "bytes": 708
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lobster/OFL.txt",
+        "sha256": "88aece7d90f2bb7049719f11619a560af22af3451af141f12aa4f46bb157a99b",
+        "bytes": 4430
+      },
+      "fonts": [
+        {
+          "file": "Lobster-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/lobster/Lobster-Regular.ttf",
+          "sha256": "d6568e697fd50cedc0be04d8aae4127fe95add607e7bff954ca88604be80c205",
+          "bytes": 406076
+        }
+      ],
+      "upstream_repository": "https://github.com/impallari/The-Lobster-Font",
+      "upstream_commit": "0796aa8aa42f6cbc89fa61be4a2a12fdcd2b8998",
+      "analysis": {
+        "family": "lobster",
+        "file": "Lobster-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "d6568e697fd50cedc0be04d8aae4127fe95add607e7bff954ca88604be80c205",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434.end",
+            "hash": "1ce19b2933ce879a6130e71d592d4eae2adade2c61221dfbeafa0774da67afae",
+            "bounds": [
+              -13,
+              -250,
+              480,
+              505
+            ],
+            "hmtx": [
+              480,
+              -13
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "lobster/uni0434.end.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434.end",
+              "gid": 738,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.end",
+              "gid": 738,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434.end",
+              "gid": 738,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434.end",
+              "gid": 738,
+              "cluster": 0,
+              "advance": 480,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "gabriela",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gabriela/METADATA.pb",
+        "sha256": "d88e169c24614d313bef07cea5f62a82d83fedcbca58221dc99367985d8f80c1",
+        "bytes": 887
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gabriela/OFL.txt",
+        "sha256": "c5478a76bd760eed7b741678b71d9dfe1062e7399739a3b6da8ebe00d19715d1",
+        "bytes": 4515
+      },
+      "fonts": [
+        {
+          "file": "Gabriela-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/gabriela/Gabriela-Regular.ttf",
+          "sha256": "c38334bfff10cc97fa6e5c5ddf1f12dd54428bb218d7a423fb3c07bf8180bfd8",
+          "bytes": 70984
+        }
+      ],
+      "upstream_repository": "https://github.com/etunni/Gabriela",
+      "upstream_commit": "961e4fb89c38cbe8ddcc3c9268c42d94c834d5da",
+      "analysis": {
+        "family": "gabriela",
+        "file": "Gabriela-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "c38334bfff10cc97fa6e5c5ddf1f12dd54428bb218d7a423fb3c07bf8180bfd8",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "d836aa5d82c0ae85d7bd4361e591b1a910dd9c3179ea9030fd02df4bbc068d09",
+            "bounds": [
+              15,
+              -180,
+              586,
+              497
+            ],
+            "hmtx": [
+              611,
+              15
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "gabriela/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 337,
+              "cluster": 0,
+              "advance": 611,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 337,
+              "cluster": 0,
+              "advance": 611,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 337,
+              "cluster": 0,
+              "advance": 611,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 337,
+              "cluster": 0,
+              "advance": 611,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "poiretone",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/poiretone/METADATA.pb",
+        "sha256": "a919c0fc6226a8120bbf9668024d469a6835e8d0c06fa918a5875acc016de6a6",
+        "bytes": 670
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/poiretone/OFL.txt",
+        "sha256": "708e33bed791c40638926a7577bcef8ff8748f84045f3825277540cbb8d483ba",
+        "bytes": 4389
+      },
+      "fonts": [
+        {
+          "file": "PoiretOne-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/poiretone/PoiretOne-Regular.ttf",
+          "sha256": "457f2d03263f58e5a6dbcc1b607b10dff6581e7cf9c4ebdf330ec3e6772a3558",
+          "bytes": 130176
+        }
+      ],
+      "upstream_repository": "https://github.com/alexeiva/poiretone",
+      "upstream_commit": "74eec8d29c9b5179cbd63b1c3d152233aa537123",
+      "analysis": {
+        "family": "poiretone",
+        "file": "PoiretOne-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "457f2d03263f58e5a6dbcc1b607b10dff6581e7cf9c4ebdf330ec3e6772a3558",
+        "available_ss_cv": [
+          "ss01"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "97322418afdd863a36e15a0f8535af44e7f100968c33e261755755b5d6dfcba8",
+            "bounds": [
+              23,
+              -97,
+              511,
+              463
+            ],
+            "hmtx": [
+              536,
+              23
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "sr",
+              "sr/ss01",
+              "mk",
+              "mk/ss01"
+            ],
+            "svg": "poiretone/uni0434.svg",
+            "identical_to_native_latin_g": false
+          },
+          {
+            "glyph": "uni0434.loclBGR",
+            "hash": "b532a418a7dbb371828992d1b30e145b22a82680a21b3a40291c921cee3a0d21",
+            "bounds": [
+              37,
+              -208,
+              512,
+              460
+            ],
+            "hmtx": [
+              575,
+              37
+            ],
+            "exposed_by": [
+              "bg",
+              "bg/ss01"
+            ],
+            "svg": "poiretone/uni0434.loclBGR.svg",
+            "identical_to_native_latin_g": true
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 623,
+              "cluster": 0,
+              "advance": 575,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434.loclBGR",
+              "gid": 623,
+              "cluster": 0,
+              "advance": 575,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 527,
+              "cluster": 0,
+              "advance": 536,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "bellota",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellota/METADATA.pb",
+        "sha256": "8f3200d87941047d8868701893d17f37973a804ec5a497aa765d51ddfc387bc7",
+        "bytes": 1890
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellota/OFL.txt",
+        "sha256": "92938e2734b9280a9d4428c0fe4421b3e501641f78dafc7438fc19c0fc625c07",
+        "bytes": 4386
+      },
+      "fonts": [
+        {
+          "file": "Bellota-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellota/Bellota-Regular.ttf",
+          "sha256": "d46806f9c5fd46cd6bf1c261bfa46b2d22503130d585451dc7863d8ce80524fc",
+          "bytes": 194464
+        }
+      ],
+      "upstream_repository": "https://github.com/kemie/Bellota-Font",
+      "upstream_commit": "db900d27103a2e9b37b76ef32386fbf9691ecac6",
+      "analysis": {
+        "family": "bellota",
+        "file": "Bellota-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "d46806f9c5fd46cd6bf1c261bfa46b2d22503130d585451dc7863d8ce80524fc",
+        "available_ss_cv": [
+          "ss01",
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "a2e8f673a0e4804450ba12ac4af149dfe39abac646a450c94b5c7aeae94fce2a",
+            "bounds": [
+              18,
+              -134,
+              530,
+              500
+            ],
+            "hmtx": [
+              556,
+              18
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "mk",
+              "mk/ss01",
+              "mk/ss02"
+            ],
+            "svg": "bellota/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "bellotatext",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellotatext/METADATA.pb",
+        "sha256": "186eab8ce6f7da4fcc48e3d309b78356ad1adb1ac117e3a865a450c989e7c0bf",
+        "bytes": 2051
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellotatext/OFL.txt",
+        "sha256": "92938e2734b9280a9d4428c0fe4421b3e501641f78dafc7438fc19c0fc625c07",
+        "bytes": 4386
+      },
+      "fonts": [
+        {
+          "file": "BellotaText-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/bellotatext/BellotaText-Regular.ttf",
+          "sha256": "b10a58605747b85f738e3bbf9a5571101ecff0a398ef6620df9e9b4ee1f33f83",
+          "bytes": 191092
+        }
+      ],
+      "upstream_repository": "https://github.com/kemie/Bellota-Font",
+      "upstream_commit": "db900d27103a2e9b37b76ef32386fbf9691ecac6",
+      "analysis": {
+        "family": "bellotatext",
+        "file": "BellotaText-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "b10a58605747b85f738e3bbf9a5571101ecff0a398ef6620df9e9b4ee1f33f83",
+        "available_ss_cv": [
+          "ss01",
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "a2e8f673a0e4804450ba12ac4af149dfe39abac646a450c94b5c7aeae94fce2a",
+            "bounds": [
+              18,
+              -134,
+              530,
+              500
+            ],
+            "hmtx": [
+              556,
+              18
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "mk",
+              "mk/ss01",
+              "mk/ss02"
+            ],
+            "svg": "bellotatext/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 995,
+              "cluster": 0,
+              "advance": 556,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "pacifico",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/pacifico/METADATA.pb",
+        "sha256": "397f1aaefe8d0e372e23f4959a95498373a7b03b1e373f0799b2896499286ae5",
+        "bytes": 705
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/pacifico/OFL.txt",
+        "sha256": "a47e5daeda73568969395c656823102678f2eefb0d7d7ecb47aac4cc17e42204",
+        "bytes": 4389
+      },
+      "fonts": [
+        {
+          "file": "Pacifico-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/pacifico/Pacifico-Regular.ttf",
+          "sha256": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701",
+          "bytes": 329380
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/Pacifico",
+      "upstream_commit": "423e7cb2b036ead2624c05197e17a83ddf5c6068",
+      "analysis": {
+        "family": "pacifico",
+        "file": "Pacifico-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701",
+        "available_ss_cv": [
+          "ss01",
+          "ss02"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "64cd474ee0c2246f8ed201c9e48e728c3a729a76d6131aa8a7c39aa8f929adb0",
+            "bounds": [
+              -2,
+              -455,
+              588,
+              468
+            ],
+            "hmtx": [
+              479,
+              -2
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "mk",
+              "mk/ss01",
+              "mk/ss02"
+            ],
+            "svg": "pacifico/uni0434.svg",
+            "identical_to_native_latin_g": true
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 1078,
+              "cluster": 0,
+              "advance": 479,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "underdog",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/underdog/METADATA.pb",
+        "sha256": "77c5ce41bfb7d78259b0e19b512fdbe61d7453c62dc971c662f6ad76ed2adb7a",
+        "bytes": 642
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/underdog/OFL.txt",
+        "sha256": "b0316f404a7b291e40921c605160181065791a5010a2d2d5691fc7e28cdbdff2",
+        "bytes": 4435
+      },
+      "fonts": [
+        {
+          "file": "Underdog-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/underdog/Underdog-Regular.ttf",
+          "sha256": "33f9aee5b2aaeb85e1f433fb21916d0c6dbae74e23b94d978b8131bdbddc40c6",
+          "bytes": 101480
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/googlefontdirectory-hg",
+      "upstream_commit": "52f780bc9d197280a9f430574e179a5f233c56b6",
+      "analysis": {
+        "family": "underdog",
+        "file": "Underdog-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "33f9aee5b2aaeb85e1f433fb21916d0c6dbae74e23b94d978b8131bdbddc40c6",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "afii10069",
+            "hash": "80c9e3e302d96678aded98927a4c1ab60881dab552bf6413c03e9cdedfdbfa68",
+            "bounds": [
+              0,
+              -135,
+              560,
+              506
+            ],
+            "hmtx": [
+              610,
+              0
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "underdog/afii10069.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "afii10069",
+              "gid": 19,
+              "cluster": 0,
+              "advance": 610,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "afii10069",
+              "gid": 19,
+              "cluster": 0,
+              "advance": 610,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "afii10069",
+              "gid": 19,
+              "cluster": 0,
+              "advance": 610,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "afii10069",
+              "gid": 19,
+              "cluster": 0,
+              "advance": 610,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "balsamiqsans",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/balsamiqsans/METADATA.pb",
+        "sha256": "1dfa7cdb8b196abdde81d4cd400769e24926cce52cecb41c0298564b23f62680",
+        "bytes": 2222
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/balsamiqsans/OFL.txt",
+        "sha256": "0e82859672e549fd39554e2bfa97b5511e81f4f89394f2e696666d36b5d52144",
+        "bytes": 4395
+      },
+      "fonts": [
+        {
+          "file": "BalsamiqSans-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/balsamiqsans/BalsamiqSans-Regular.ttf",
+          "sha256": "fcc9c00a9ad6e78673fa84653745569097241d99b5d1387a23f395858ed46b7e",
+          "bytes": 407528
+        }
+      ],
+      "upstream_repository": "https://github.com/balsamiq/balsamiqsans",
+      "upstream_commit": "b1dca64c3ceeaa3c274f69fae5a6f508b9a4dcc4",
+      "analysis": {
+        "family": "balsamiqsans",
+        "file": "BalsamiqSans-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "fcc9c00a9ad6e78673fa84653745569097241d99b5d1387a23f395858ed46b7e",
+        "available_ss_cv": [],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "456b17488bf9f1f07a9455879a13834c8d43908d88c290bcf030c2c91c0d1d32",
+            "bounds": [
+              22,
+              -168.0,
+              587,
+              533
+            ],
+            "hmtx": [
+              608,
+              22
+            ],
+            "exposed_by": [
+              "ru",
+              "bg",
+              "sr",
+              "mk"
+            ],
+            "svg": "balsamiqsans/uni0434.svg",
+            "identical_to_native_latin_g": false
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 644,
+              "cluster": 0,
+              "advance": 608,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 644,
+              "cluster": 0,
+              "advance": 608,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 644,
+              "cluster": 0,
+              "advance": 608,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 644,
+              "cluster": 0,
+              "advance": 608,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "comforter",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/comforter/METADATA.pb",
+        "sha256": "f959efd20d17043087c9d69e6310926493a97be1c1f5bc8d5fa882d9f1cbb584",
+        "bytes": 984
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/comforter/OFL.txt",
+        "sha256": "abc9cc1c5d7dc6005ebffb703055380ad7b39a159f690e16233d80f78262f82b",
+        "bytes": 4484
+      },
+      "fonts": [
+        {
+          "file": "Comforter-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/comforter/Comforter-Regular.ttf",
+          "sha256": "2852da85b2fbfd37ccd87387f3578a251cb9a8814fbab22c4487f792936a2267",
+          "bytes": 279684
+        }
+      ],
+      "upstream_repository": "https://github.com/googlefonts/comforter",
+      "upstream_commit": "3112f6b6990f10c7a101e5577b8267988989cff7",
+      "analysis": {
+        "family": "comforter",
+        "file": "Comforter-Regular.ttf",
+        "supported": true,
+        "upm": 1000,
+        "axes": {},
+        "native_italic_angle": 0.0,
+        "font_sha256": "2852da85b2fbfd37ccd87387f3578a251cb9a8814fbab22c4487f792936a2267",
+        "available_ss_cv": [
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06"
+        ],
+        "unique_exposed_de": [
+          {
+            "glyph": "uni0434",
+            "hash": "5ef7f9d783716d20ec1812855a6ad003dee5463be3e8855a2b9c51db9d34f382",
+            "bounds": [
+              23,
+              -417,
+              404,
+              381
+            ],
+            "hmtx": [
+              346,
+              23
+            ],
+            "exposed_by": [
+              "ru",
+              "ru/ss01",
+              "ru/ss02",
+              "ru/ss03",
+              "ru/ss04",
+              "ru/ss05",
+              "ru/ss06",
+              "bg",
+              "bg/ss01",
+              "bg/ss02",
+              "bg/ss03",
+              "bg/ss04",
+              "bg/ss05",
+              "bg/ss06",
+              "sr",
+              "sr/ss01",
+              "sr/ss02",
+              "sr/ss03",
+              "sr/ss04",
+              "sr/ss05",
+              "sr/ss06",
+              "mk",
+              "mk/ss01",
+              "mk/ss02",
+              "mk/ss03",
+              "mk/ss04",
+              "mk/ss05",
+              "mk/ss06"
+            ],
+            "svg": "comforter/uni0434.svg",
+            "identical_to_native_latin_g": true
+          }
+        ],
+        "tested_shapes": {
+          "ru": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss05": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "ru/ss06": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss05": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "bg/ss06": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss05": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sr/ss06": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss01": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss02": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss03": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss04": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss05": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "mk/ss06": [
+            {
+              "glyph": "uni0434",
+              "gid": 699,
+              "cluster": 0,
+              "advance": 346,
+              "offset": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        "latin_g": "g",
+        "hb_version": "0.56.3"
+      }
+    },
+    {
+      "family": "cormorantupright",
+      "google_fonts_snapshot_commit": "67bc647ce1910e92f461bcc82aae30f21d21a9cc",
+      "metadata": {
+        "file": "METADATA.pb",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/METADATA.pb",
+        "sha256": "961462967c166413b75b3909392e02c9761b0d471302c158bee2f9ce16907259",
+        "bytes": 2529
+      },
+      "license": "SIL Open Font License 1.1",
+      "license_record": {
+        "file": "OFL.txt",
+        "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/OFL.txt",
+        "sha256": "9134ca6996bd33ea2022e109f13f20e29dee1dcd8b2e8878aad576d2ca334e9f",
+        "bytes": 4413
+      },
+      "fonts": [
+        {
+          "file": "CormorantUpright-Regular.ttf",
+          "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/cormorantupright/CormorantUpright-Regular.ttf",
+          "sha256": "69d6fea133a07cfdeae0e928141822317dc5a4521e568af32dc4edc7456bc1d5",
+          "bytes": 222732
+        }
+      ],
+      "upstream_repository": "https://github.com/CatharsisFonts/Cormorant",
+      "upstream_commit": "b1a0a7781e3a59d3c2a96f953650463469a2e841",
+      "analysis": {
+        "family": "cormorantupright",
+        "file": "CormorantUpright-Regular.ttf",
+        "supported": false
+      }
+    }
+  ],
+  "negative_findings": [
+    {
+      "family": "cormorantupright",
+      "result": "No Unicode U+0434 in regular font; not a Cyrillic reference."
+    },
+    {
+      "family": "playwriteru",
+      "result": "No metadata at exact pinned Google Fonts path; excluded, not assumed existent."
+    },
+    {
+      "family": "firasans",
+      "result": "Tested RU/BG/SR/MK and every available ss/cv feature; this exact font gives no alternative д."
+    },
+    {
+      "families": [
+        "elmessiri",
+        "philosopher"
+      ],
+      "result": "Near-identical skeleton, metrics and bounds, but not identical outlines: El Messiri refines both inner foot curves with additional quadratic segments. Not independent morphology; instructive curve-detail comparison."
+    },
+    {
+      "families": [
+        "bellota",
+        "bellotatext"
+      ],
+      "result": "Exact identical default д outline; not two independent design precedents."
+    },
+    {
+      "families": [
+        "cormorantinfant",
+        "poiretone loclBGR",
+        "pacifico",
+        "comforter"
+      ],
+      "result": "Actually exposed Cyrillic д uses exact same contour as native Latin g; useful negative controls for our rejected g transfer."
+    }
+  ],
+  "proofs": {
+    "all": "full-survey-{1,2,3,4}.svg",
+    "all_shaping": "proof-shaping.json",
+    "selected": "terminal-controls.svg",
+    "selected_shaping": "terminal-controls-shaping.json"
+  },
+  "family_local_exposed_outline_records": 36,
+  "globally_distinct_recording_hashes": 32,
+  "counting_note": "Counts are unique drawn outlines per family and HB-exposure route, not claims of that many distinct Cyrillic skeletons. Cross-family near-duplicates and g-identical forms are documented negative controls."
+}

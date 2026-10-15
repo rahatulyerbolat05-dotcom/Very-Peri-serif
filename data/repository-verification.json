@@ -2,12 +2,12 @@
   "status": "passed",
   "source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "retained": {
-    "artifacts": 318,
+    "artifacts": 392,
     "ttf": 52,
     "woff2_pairs": 52,
     "glyphs": 52,
-    "svg": 55,
-    "json": 42
+    "svg": 67,
+    "json": 58
   },
   "latest_combinations_checked": 12,
   "handwritten_de_integer_grid_g1_checked": 8,

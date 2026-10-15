@@ -1,0 +1,474 @@
+[
+  {
+    "family_key": "oldstandardtt",
+    "file": "OldStandard-Italic.ttf",
+    "glyph": "uni0434",
+    "upm": 1000,
+    "style": "native Italic",
+    "terminal_boundary": [
+      [
+        217,
+        608
+      ],
+      [
+        191,
+        618
+      ]
+    ],
+    "length": 27.85677655436824,
+    "angle_degrees_from_positive_x": 158.96248897457818,
+    "observed_terminal_principle": "Directional flat cut; thin crown, rising weight on right",
+    "native_curve_commands_around_terminal": [
+      [
+        "qCurveTo",
+        [
+          [
+            424,
+            604
+          ],
+          [
+            392,
+            696
+          ],
+          [
+            342,
+            696
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            306,
+            696
+          ],
+          [
+            238,
+            654
+          ],
+          [
+            217,
+            608
+          ]
+        ]
+      ],
+      [
+        "lineTo",
+        [
+          [
+            191,
+            618
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            211,
+            659
+          ],
+          [
+            290,
+            720
+          ],
+          [
+            346,
+            720
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            424,
+            720
+          ],
+          [
+            488,
+            599
+          ],
+          [
+            488,
+            530
+          ]
+        ]
+      ]
+    ],
+    "limitation": "These native italic measurements describe references, not prescribed values for upright Instrument Serif.",
+    "source_file": {
+      "file": "OldStandard-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/OldStandard-Italic.ttf",
+      "sha256": "4b9522f4711317fc06e2413a58b4662c249cb707df193d682b9d640e365ef564",
+      "bytes": 272692,
+      "metadata_style": "italic"
+    },
+    "source_license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/oldstandardtt/OFL.txt",
+      "sha256": "4faa2d9e2ce0a4b5b37e62ee6fafe474a539b31578f7214ed97cc3503aeb8ebd",
+      "bytes": 4373
+    },
+    "cut_length_em": 0.02785677655436824,
+    "cut_method": "Euclidean distance and atan2(end.y-start.y,end.x-start.x) of the actual straight contour segment, oriented in source contour order.",
+    "crown_vertical_gap": {
+      "outer_top_point": [
+        346,
+        720
+      ],
+      "inner_top_point": [
+        342,
+        696
+      ],
+      "vertical_extremum_gap": 24,
+      "method": "difference of outer and inner upper-return extrema y coordinates; extrema have different x positions",
+      "limitation": "This is NOT normal stroke thickness and is NOT a universal optical norm."
+    },
+    "endpoint_geometry": {
+      "previous_quadratic_control": [
+        238,
+        654
+      ],
+      "next_quadratic_control": [
+        211,
+        659
+      ],
+      "incoming_tangent_direction": [
+        -21,
+        -46
+      ],
+      "outgoing_tangent_direction": [
+        20,
+        41
+      ],
+      "incoming_tangent_angle_deg": -114.5377284765778,
+      "cut_tangent_angle_deg": 158.96248897457818,
+      "outgoing_tangent_angle_deg": 63.99665415548856,
+      "signed_turn_into_cut_deg": -86.499782548844,
+      "signed_turn_out_of_cut_deg": -94.96583481908962,
+      "method": "Quadratic endpoint tangent direction is endpoint minus nearest control at the incoming side and nearest control minus endpoint at the outgoing side. The common derivative scale 2 cancels in angle calculation. These are intentional contour turns around a cut or point, not nominal smooth joins.",
+      "limitation": "Angles are native italic-outline facts; they are not target angles for Instrument Serif upright."
+    }
+  },
+  {
+    "family_key": "ptserif",
+    "file": "PT_Serif-Web-Italic.ttf",
+    "glyph": "afii10069",
+    "upm": 1000,
+    "style": "native Italic",
+    "terminal_boundary": [
+      [
+        160,
+        676
+      ],
+      [
+        147,
+        695
+      ]
+    ],
+    "length": 23.021728866442675,
+    "angle_degrees_from_positive_x": 124.38034472384487,
+    "observed_terminal_principle": "Directional cut; wedge-shaped return widens toward crown",
+    "native_curve_commands_around_terminal": [
+      [
+        "qCurveTo",
+        [
+          [
+            389,
+            521
+          ],
+          [
+            378,
+            595
+          ],
+          [
+            351,
+            659
+          ],
+          [
+            303,
+            702
+          ],
+          [
+            267,
+            702
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            230,
+            702
+          ],
+          [
+            183,
+            688
+          ],
+          [
+            160,
+            676
+          ]
+        ]
+      ],
+      [
+        "lineTo",
+        [
+          [
+            147,
+            695
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            158,
+            707
+          ],
+          [
+            194,
+            728
+          ],
+          [
+            237,
+            745
+          ],
+          [
+            284,
+            754
+          ],
+          [
+            307,
+            754
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            346,
+            754
+          ],
+          [
+            409,
+            720
+          ],
+          [
+            454,
+            650
+          ],
+          [
+            479,
+            542
+          ],
+          [
+            479,
+            467
+          ]
+        ]
+      ]
+    ],
+    "limitation": "These native italic measurements describe references, not prescribed values for upright Instrument Serif.",
+    "source_file": {
+      "file": "PT_Serif-Web-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/PT_Serif-Web-Italic.ttf",
+      "sha256": "f57e95ff9dc85691a3b2e193f2028db36f6663939a46c0fc4f286d618b80b7ce",
+      "bytes": 375356,
+      "metadata_style": "italic"
+    },
+    "source_license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/ptserif/OFL.txt",
+      "sha256": "ddf311c28ddf5a5ad9747649837346b67bed9d356789c3072bb27dbce49e514d",
+      "bytes": 4434
+    },
+    "cut_length_em": 0.023021728866442676,
+    "cut_method": "Euclidean distance and atan2(end.y-start.y,end.x-start.x) of the actual straight contour segment, oriented in source contour order.",
+    "crown_vertical_gap": {
+      "outer_top_point": [
+        307,
+        754
+      ],
+      "inner_top_point": [
+        267,
+        702
+      ],
+      "vertical_extremum_gap": 52,
+      "method": "difference of outer and inner upper-return extrema y coordinates; extrema have different x positions",
+      "limitation": "This is NOT normal stroke thickness and is NOT a universal optical norm."
+    },
+    "endpoint_geometry": {
+      "previous_quadratic_control": [
+        183,
+        688
+      ],
+      "next_quadratic_control": [
+        158,
+        707
+      ],
+      "incoming_tangent_direction": [
+        -23,
+        -12
+      ],
+      "outgoing_tangent_direction": [
+        11,
+        12
+      ],
+      "incoming_tangent_angle_deg": -152.4471884232822,
+      "cut_tangent_angle_deg": 124.38034472384487,
+      "outgoing_tangent_angle_deg": 47.48955292199916,
+      "signed_turn_into_cut_deg": -83.17246685287296,
+      "signed_turn_out_of_cut_deg": -76.89079180184571,
+      "method": "Quadratic endpoint tangent direction is endpoint minus nearest control at the incoming side and nearest control minus endpoint at the outgoing side. The common derivative scale 2 cancels in angle calculation. These are intentional contour turns around a cut or point, not nominal smooth joins.",
+      "limitation": "Angles are native italic-outline facts; they are not target angles for Instrument Serif upright."
+    }
+  },
+  {
+    "family_key": "libertinusserif",
+    "file": "LibertinusSerif-Italic.ttf",
+    "glyph": "uni0434",
+    "upm": 1000,
+    "style": "native Italic",
+    "terminal_boundary": [
+      [
+        195,
+        703
+      ],
+      [
+        196,
+        703
+      ]
+    ],
+    "length": 1.0,
+    "angle_degrees_from_positive_x": 0.0,
+    "observed_terminal_principle": "Pointed pen-like terminal; broadening is part of the contour",
+    "native_curve_commands_around_terminal": [
+      [
+        "qCurveTo",
+        [
+          [
+            216,
+            616
+          ],
+          [
+            191,
+            664
+          ],
+          [
+            191,
+            688
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            191,
+            703
+          ],
+          [
+            195,
+            703
+          ]
+        ]
+      ],
+      [
+        "lineTo",
+        [
+          [
+            196,
+            703
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            220,
+            689
+          ],
+          [
+            272,
+            673
+          ],
+          [
+            327,
+            649
+          ],
+          [
+            382,
+            603
+          ],
+          [
+            410,
+            559
+          ]
+        ]
+      ],
+      [
+        "qCurveTo",
+        [
+          [
+            441,
+            513
+          ],
+          [
+            469,
+            407
+          ],
+          [
+            470,
+            351
+          ]
+        ]
+      ]
+    ],
+    "limitation": "These native italic measurements describe references, not prescribed values for upright Instrument Serif.",
+    "source_file": {
+      "file": "LibertinusSerif-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/LibertinusSerif-Italic.ttf",
+      "sha256": "c8d62202ff921968c491bbbd05f9794213e98e1317c8cbf5edc1d8043f4a21d6",
+      "bytes": 605956,
+      "metadata_style": "italic"
+    },
+    "source_license": {
+      "url": "https://raw.githubusercontent.com/google/fonts/67bc647ce1910e92f461bcc82aae30f21d21a9cc/ofl/libertinusserif/OFL.txt",
+      "sha256": "543bbe3d066d7ee6b062b6911220355c72720dc16003e5086885d6f543a6f376",
+      "bytes": 4993
+    },
+    "cut_length_em": 0.001,
+    "cut_method": "Euclidean distance and atan2(end.y-start.y,end.x-start.x) of the actual straight contour segment, oriented in source contour order.",
+    "short_segment_interpretation": "The actual source contains this 1-unit segment on a pointed terminal. Small length alone does not prove an artifact and does not authorize deleting the segment. Inspect the adjoining curve and design role.",
+    "endpoint_geometry": {
+      "previous_quadratic_control": [
+        191,
+        703
+      ],
+      "next_quadratic_control": [
+        220,
+        689
+      ],
+      "incoming_tangent_direction": [
+        4,
+        0
+      ],
+      "outgoing_tangent_direction": [
+        24,
+        -14
+      ],
+      "incoming_tangent_angle_deg": 0.0,
+      "cut_tangent_angle_deg": 0.0,
+      "outgoing_tangent_angle_deg": -30.256437163529263,
+      "signed_turn_into_cut_deg": 0.0,
+      "signed_turn_out_of_cut_deg": -30.256437163529256,
+      "method": "Quadratic endpoint tangent direction is endpoint minus nearest control at the incoming side and nearest control minus endpoint at the outgoing side. The common derivative scale 2 cancels in angle calculation. These are intentional contour turns around a cut or point, not nominal smooth joins.",
+      "limitation": "Angles are native italic-outline facts; they are not target angles for Instrument Serif upright."
+    }
+  }
+]

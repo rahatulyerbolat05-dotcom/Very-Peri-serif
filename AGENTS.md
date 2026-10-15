@@ -20,6 +20,11 @@ they abandon the agreed cursive construction. Research real Cyrillic д forms
 in other fonts for skeletons and ductus, then draw with Instrument details;
 do not transplant their outlines. New д has no approved primary. Both к and
 й variants remain unselected. Do not infer approval from a technical default.
+The two de-cursive upper-ascender drawings are now visually rejected too.
+The user clarified the problem as curves and terminals; do not interpret this
+as a blanket rejection or approval of the upper-ascender skeleton. Technical
+G1 checks do not establish stylistic success. Research native curve and
+terminal anatomy before generating another pair.
 
 Use the portable tools and requirements-fonts.txt described in README.md.
 Build outputs belong in ignored build/; do not run archived/uploaded scripts.

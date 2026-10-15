@@ -1,0 +1,1140 @@
+{
+  "variants": {
+    "01": {
+      "name": "Сдержанный загиб",
+      "advance": 408,
+      "construction": "Upright handwritten Cyrillic de, one full native o counter; continuous right descending stroke with compact upper-left entry, no descender and no lower Latin d tail.",
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              203,
+              -9
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              305,
+              -9
+            ],
+            [
+              383,
+              105
+            ],
+            [
+              383,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              383,
+              355
+            ],
+            [
+              348,
+              430
+            ],
+            [
+              348,
+              510
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              348,
+              655
+            ],
+            [
+              306,
+              740
+            ],
+            [
+              231,
+              740
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              198,
+              740
+            ],
+            [
+              169,
+              724
+            ],
+            [
+              147,
+              702
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              140,
+              695
+            ],
+            [
+              139,
+              690
+            ],
+            [
+              145,
+              684
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              151,
+              678
+            ],
+            [
+              157,
+              677
+            ],
+            [
+              164,
+              684
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              185,
+              705
+            ],
+            [
+              208,
+              715
+            ],
+            [
+              231,
+              715
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              266,
+              715
+            ],
+            [
+              280,
+              651
+            ],
+            [
+              280,
+              574
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              280,
+              520
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              280,
+              494
+            ],
+            [
+              274,
+              491
+            ],
+            [
+              266,
+              495
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              239,
+              508.5
+            ],
+            [
+              229,
+              516
+            ],
+            [
+              203,
+              516
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              102,
+              516
+            ],
+            [
+              23,
+              401
+            ],
+            [
+              23,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              23,
+              105
+            ],
+            [
+              101,
+              -9
+            ],
+            [
+              203,
+              -9
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ],
+        [
+          "moveTo",
+          [
+            [
+              203,
+              16
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              132,
+              16
+            ],
+            [
+              99,
+              95
+            ],
+            [
+              99,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              99,
+              411
+            ],
+            [
+              133,
+              491
+            ],
+            [
+              203,
+              491
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              273,
+              491
+            ],
+            [
+              307,
+              411
+            ],
+            [
+              307,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              307,
+              95
+            ],
+            [
+              274,
+              16
+            ],
+            [
+              203,
+              16
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "provenance": {
+        "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+        "exact_native_fragments": [
+          "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+          "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+          "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+          "o complete inner counter: four exact native cubic segments, unchanged"
+        ],
+        "proposed_fragments": [
+          "outer upper-right o quarter replaced by continuous upper curl",
+          "upper entry and descending spine drawn anew without foreign outline transfer",
+          "narrow open neck from inner upper stroke into native o crown"
+        ],
+        "reference_skeleton_only": [
+          "Lora Italic U+0434",
+          "Literata Italic U+0434",
+          "Alegreya Italic U+0434",
+          "EB Garamond Italic U+0434",
+          "Playfair Display Italic U+0434"
+        ],
+        "facts": {
+          "native_o_advance": 408,
+          "native_o_bbox": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "native_o_counter_bbox": [
+            99,
+            16,
+            307,
+            491
+          ],
+          "native_o_side_thickness": 76,
+          "native_o_crown_thickness": 25,
+          "native_n_d_stem": 68,
+          "native_b_d_ascender": 740
+        },
+        "proposals": {
+          "upper_limit": 740,
+          "new_stem_at_y510": 68,
+          "upper_crown_vertical_thickness": 25,
+          "upper_terminal_profile": "rounded compact stroke cap; no ball"
+        }
+      },
+      "measured_bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "counter_count": 1,
+      "anchors": {
+        "top": [
+          203,
+          740
+        ],
+        "bottom": [
+          203,
+          -9
+        ]
+      },
+      "checks": {
+        "bounds": [
+          23,
+          -9,
+          383,
+          740
+        ],
+        "contours": 2,
+        "counter_count": 1,
+        "sampled_polygon_valid": true,
+        "sampled_rings_simple": true,
+        "adjacent_sampled_duplicates": [],
+        "min_explicit_chord": 18.110770276274835,
+        "max_G1_angle_degrees": 0.0,
+        "tangents": [
+          {
+            "contour": 0,
+            "point": [
+              383.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              348.0,
+              510.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              231.0,
+              740.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              147.0,
+              702.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              145.0,
+              684.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              164.0,
+              684.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              231.0,
+              715.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              280.0,
+              574.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              280.0,
+              520.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              266.0,
+              495.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              203.0,
+              516.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              23.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              203.0,
+              -9.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              99.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              203.0,
+              491.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              307.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              203.0,
+              16.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          }
+        ],
+        "cubic_sampling_per_segment": 1600,
+        "area": 86911.89197089891,
+        "exact_native_cubic_segments": 7,
+        "native_inner_counter_exact": true
+      }
+    },
+    "02": {
+      "name": "Открытая дуга",
+      "advance": 408,
+      "construction": "Upright handwritten Cyrillic de, one full native o counter; long open left upper entry into curved right descending stroke, no descender and no Latin d tail.",
+      "commands": [
+        [
+          "moveTo",
+          [
+            [
+              203,
+              -9
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              305,
+              -9
+            ],
+            [
+              383,
+              105
+            ],
+            [
+              383,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              383,
+              355
+            ],
+            [
+              348,
+              433
+            ],
+            [
+              348,
+              510
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              348,
+              650
+            ],
+            [
+              323,
+              740
+            ],
+            [
+              245,
+              740
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              191,
+              740
+            ],
+            [
+              130,
+              704
+            ],
+            [
+              90,
+              662
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              83,
+              654.65
+            ],
+            [
+              82,
+              648
+            ],
+            [
+              88,
+              642
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              94,
+              636
+            ],
+            [
+              101,
+              636.65
+            ],
+            [
+              108,
+              644
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              146,
+              683.9
+            ],
+            [
+              192,
+              715
+            ],
+            [
+              245,
+              715
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              268,
+              715
+            ],
+            [
+              280,
+              651
+            ],
+            [
+              280,
+              574
+            ]
+          ]
+        ],
+        [
+          "lineTo",
+          [
+            [
+              280,
+              520
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              280,
+              494
+            ],
+            [
+              274,
+              491
+            ],
+            [
+              266,
+              495
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              239,
+              508.5
+            ],
+            [
+              229,
+              516
+            ],
+            [
+              203,
+              516
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              102,
+              516
+            ],
+            [
+              23,
+              401
+            ],
+            [
+              23,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              23,
+              105
+            ],
+            [
+              101,
+              -9
+            ],
+            [
+              203,
+              -9
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ],
+        [
+          "moveTo",
+          [
+            [
+              203,
+              16
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              132,
+              16
+            ],
+            [
+              99,
+              95
+            ],
+            [
+              99,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              99,
+              411
+            ],
+            [
+              133,
+              491
+            ],
+            [
+              203,
+              491
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              273,
+              491
+            ],
+            [
+              307,
+              411
+            ],
+            [
+              307,
+              254
+            ]
+          ]
+        ],
+        [
+          "curveTo",
+          [
+            [
+              307,
+              95
+            ],
+            [
+              274,
+              16
+            ],
+            [
+              203,
+              16
+            ]
+          ]
+        ],
+        [
+          "closePath",
+          []
+        ]
+      ],
+      "provenance": {
+        "source": "Instrument/instrument-serif 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81; sources/Instrument_Serif.glyphs, Regular m01",
+        "exact_native_fragments": [
+          "o outer lower right: (203,-9) C(305,-9)(383,105)(383,254)",
+          "o outer upper left: (203,516) C(102,516)(23,401)(23,254)",
+          "o outer lower left: (23,254) C(23,105)(101,-9)(203,-9)",
+          "o complete inner counter: four exact native cubic segments, unchanged"
+        ],
+        "proposed_fragments": [
+          "outer upper-right o quarter replaced by continuous upper curl",
+          "upper entry and descending spine drawn anew without foreign outline transfer",
+          "narrow open neck from inner upper stroke into native o crown"
+        ],
+        "reference_skeleton_only": [
+          "Lora Italic U+0434",
+          "Literata Italic U+0434",
+          "Alegreya Italic U+0434",
+          "EB Garamond Italic U+0434",
+          "Playfair Display Italic U+0434"
+        ],
+        "facts": {
+          "native_o_advance": 408,
+          "native_o_bbox": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "native_o_counter_bbox": [
+            99,
+            16,
+            307,
+            491
+          ],
+          "native_o_side_thickness": 76,
+          "native_o_crown_thickness": 25,
+          "native_n_d_stem": 68,
+          "native_b_d_ascender": 740
+        },
+        "proposals": {
+          "upper_limit": 740,
+          "new_stem_at_y510": 68,
+          "upper_crown_vertical_thickness": 25,
+          "upper_terminal_profile": "rounded compact stroke cap; no ball"
+        }
+      },
+      "measured_bounds": [
+        23,
+        -9,
+        383,
+        740
+      ],
+      "counter_count": 1,
+      "anchors": {
+        "top": [
+          203,
+          740
+        ],
+        "bottom": [
+          203,
+          -9
+        ]
+      },
+      "checks": {
+        "bounds": [
+          23,
+          -9,
+          383,
+          740
+        ],
+        "contours": 2,
+        "counter_count": 1,
+        "sampled_polygon_valid": true,
+        "sampled_rings_simple": true,
+        "adjacent_sampled_duplicates": [],
+        "min_explicit_chord": 20.09975124224178,
+        "max_G1_angle_degrees": 0.0,
+        "tangents": [
+          {
+            "contour": 0,
+            "point": [
+              383.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              348.0,
+              510.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              245.0,
+              740.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              90.0,
+              662.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              88.0,
+              642.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              108.0,
+              644.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              245.0,
+              715.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              280.0,
+              574.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "lineTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              280.0,
+              520.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "lineTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              266.0,
+              495.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              203.0,
+              516.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              23.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 0,
+            "point": [
+              203.0,
+              -9.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              99.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              203.0,
+              491.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              307.0,
+              254.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          },
+          {
+            "contour": 1,
+            "point": [
+              203.0,
+              16.0
+            ],
+            "angle_degrees": 0.0,
+            "incoming": "curveTo",
+            "outgoing": "curveTo"
+          }
+        ],
+        "cubic_sampling_per_segment": 1600,
+        "area": 89373.46696860423,
+        "exact_native_cubic_segments": 7,
+        "native_inner_counter_exact": true
+      }
+    }
+  }
+}
