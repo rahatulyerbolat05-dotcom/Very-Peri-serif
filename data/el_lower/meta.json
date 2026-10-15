@@ -1,0 +1,44 @@
+{
+ "l1": {
+  "adv": 475.5,
+  "xmin": 19.0,
+  "xmax": 460.5,
+  "ymin": 0,
+  "ymax": 518,
+  "label": "l1  14°/3°  28/68/25",
+  "contours": 1,
+  "beta_deg": 14.0,
+  "alpha_deg": 3.0,
+  "gap_at_baseline": 215.6,
+  "a_in": 51.5,
+  "delta": -19.6
+ },
+ "l2": {
+  "adv": 467.9,
+  "xmin": 19.0,
+  "xmax": 452.9,
+  "ymin": 0,
+  "ymax": 517,
+  "label": "l2  12°/4°  34/72/29",
+  "contours": 1,
+  "beta_deg": 12.0,
+  "alpha_deg": 4.0,
+  "gap_at_baseline": 198.0,
+  "a_in": 46.5,
+  "delta": -18.7
+ },
+ "l3": {
+  "adv": 460.7,
+  "xmin": 19.0,
+  "xmax": 445.7,
+  "ymin": 0,
+  "ymax": 517,
+  "label": "l3  10°/5°  40/76/33",
+  "contours": 1,
+  "beta_deg": 10.0,
+  "alpha_deg": 5.0,
+  "gap_at_baseline": 180.8,
+  "a_in": 41.6,
+  "delta": -17.8
+ }
+}
