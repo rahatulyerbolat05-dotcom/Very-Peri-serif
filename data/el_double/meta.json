@@ -1,0 +1,29 @@
+{
+ "d1": {
+  "adv": 911,
+  "xmin": 15,
+  "xmax": 896,
+  "ymin": 0,
+  "ymax": 518,
+  "label": "d1  встык",
+  "contours": 1
+ },
+ "d2": {
+  "adv": 660,
+  "xmin": 15,
+  "xmax": 645,
+  "ymin": 0,
+  "ymax": 518,
+  "label": "d2  общая ножка",
+  "contours": 1
+ },
+ "d3": {
+  "adv": 873,
+  "xmin": 15,
+  "xmax": 858,
+  "ymin": 0,
+  "ymax": 518,
+  "label": "d3  засечки слиты",
+  "contours": 1
+ }
+}
