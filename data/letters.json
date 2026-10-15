@@ -4104,5 +4104,7 @@
     "contours": "Instrument Serif Regular vertical stress, contrast, native details and curve character",
     "separate_italic_style": "still postponed",
     "third_party_fonts": "research actual Cyrillic constructions and shaping variants; do not transplant outlines"
-  }
+  },
+  "scope_note": "The nine detailed passports describe retained Codex font studies, not all work across branches. Four further selected source-only letters ш/ь/ы/ъ are recorded in data/cross-branch-inventory.json.",
+  "cross_branch_inventory": "data/cross-branch-inventory.json"
 }

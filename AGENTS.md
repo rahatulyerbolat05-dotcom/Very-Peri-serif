@@ -3,6 +3,9 @@
 Read CLAUDE.md, docs/decisions.md and data/progress.json before drawing.
 Explicit user decisions take priority over historical construction recipes.
 Keep Instrument Serif Regular geometry and the approved glyph hashes intact.
+Project inventory includes both branches. Consult data/cross-branch-inventory.json:
+Claude's selected ш/ь/ы/ъ sketches are not yet in the Codex font exports.
+Do not equate current font cmap coverage with all completed source studies.
 
 Lowercase designs use Cyrillic handwritten/cursive skeletons in upright
 Regular. Preserve Instrument Serif Regular stress, contrast, terminals and

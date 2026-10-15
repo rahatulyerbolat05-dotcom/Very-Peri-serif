@@ -307,5 +307,170 @@
       "glyphs": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.glyphs",
       "woff2": "studies/regular/de-cyrillic/with-ka02-shorti02/de-02.woff2"
     }
-  ]
+  ],
+  "cross_branch_inventory": "data/cross-branch-inventory.json",
+  "source_only_selected_studies": [
+    {
+      "character": "ш",
+      "unicode": "U+0448",
+      "primary": "R1",
+      "alternates": [
+        "R2"
+      ],
+      "status": "selected study skeleton; sketches require finishing",
+      "included_in_codex_fonts": false,
+      "source_branch": "claude/upbeat-faraday-mzabid",
+      "source_commit": "f8e2fb3cac2d33146871f2095aac52a343a5f2ef",
+      "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs/sha.md",
+      "source_files": [
+        {
+          "path": "data/sha/R1.glif",
+          "sha256": "85b6e6ede6bee3c309a3c47b6838b31fa1bc3d0233d4fbaec942db805ba1e9d7",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/sha/R1.glif"
+        },
+        {
+          "path": "data/sha/R1.svg",
+          "sha256": "4b8023ddb8f9ad1e63e7b085c1f7fbb3857f5fad3de3f30a9d50f4a2226d3a56",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/sha/R1.svg"
+        },
+        {
+          "path": "data/sha/R2.glif",
+          "sha256": "6a3f00f46a16f9878d856670801f76b28fa38a0a9192e51f0170927de869a2d9",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/sha/R2.glif"
+        },
+        {
+          "path": "data/sha/R2.svg",
+          "sha256": "05dd65abc9ae3542bb3561c72c4ff0c76a4bd9252097e7e09c8353a39849fc84",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/sha/R2.svg"
+        }
+      ]
+    },
+    {
+      "character": "ь",
+      "unicode": "U+044C",
+      "primary": "S3",
+      "alternates": [
+        "S4"
+      ],
+      "status": "selected study skeleton; sketches require finishing",
+      "included_in_codex_fonts": false,
+      "source_branch": "claude/upbeat-faraday-mzabid",
+      "source_commit": "f8e2fb3cac2d33146871f2095aac52a343a5f2ef",
+      "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs/soft.md",
+      "source_files": [
+        {
+          "path": "data/soft/S3.glif",
+          "sha256": "ce0f318a6a69a729087b48f39b6718dc8f6d54e792a4681c78c50565cb59f245",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/soft/S3.glif"
+        },
+        {
+          "path": "data/soft/S3.svg",
+          "sha256": "1b0f965a329ce917abe2963b599d117d1e8ed73ee20065f7a821e43fd0aa3e74",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/soft/S3.svg"
+        },
+        {
+          "path": "data/soft/S4.glif",
+          "sha256": "f26df63aeea55670562cfc558d08209152cbc3809ad804f13f2e11de9135b732",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/soft/S4.glif"
+        },
+        {
+          "path": "data/soft/S4.svg",
+          "sha256": "8bd64e7c1ccce4c6e427bfdca982844bb2cede7e4559741184b301d4d4d4fdef",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/soft/S4.svg"
+        }
+      ]
+    },
+    {
+      "character": "ы",
+      "unicode": "U+044B",
+      "primary": "Y1",
+      "alternates": [
+        "Y2"
+      ],
+      "status": "selected study skeleton; sketches require finishing",
+      "included_in_codex_fonts": false,
+      "source_branch": "claude/upbeat-faraday-mzabid",
+      "source_commit": "f8e2fb3cac2d33146871f2095aac52a343a5f2ef",
+      "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs/yery.md",
+      "source_files": [
+        {
+          "path": "data/yery/Y1.glif",
+          "sha256": "792e99ec77042b56781a6bc13ab3a8cd2b008344d886081b5f1f4559e8020b4a",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/yery/Y1.glif"
+        },
+        {
+          "path": "data/yery/Y1.svg",
+          "sha256": "f3c7fec20017bee9133bccf24e15f77faeb14f6e60dc65e13a9b2bdd1c82b1d0",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/yery/Y1.svg"
+        },
+        {
+          "path": "data/yery/Y2.glif",
+          "sha256": "6a69f17b9809a86fa53ccbeaa96aa2312808f85b241dc5bb489510bef43d1247",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/yery/Y2.glif"
+        },
+        {
+          "path": "data/yery/Y2.svg",
+          "sha256": "62e2acf3ecdf920c9a5a2d582353e3a358b99e6de944dec203371b30032247ae",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/yery/Y2.svg"
+        }
+      ]
+    },
+    {
+      "character": "ъ",
+      "unicode": "U+044A",
+      "primary": "K2",
+      "alternates": [
+        "K1",
+        "K3"
+      ],
+      "status": "selected study skeleton; sketches require finishing",
+      "included_in_codex_fonts": false,
+      "source_branch": "claude/upbeat-faraday-mzabid",
+      "source_commit": "f8e2fb3cac2d33146871f2095aac52a343a5f2ef",
+      "decision_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs/hard.md",
+      "source_files": [
+        {
+          "path": "data/hard/K2.glif",
+          "sha256": "6ce7d8388b31a3f576c7fef42c86432542e51620c9c6aaed5a033b7f0ec7f861",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K2.glif"
+        },
+        {
+          "path": "data/hard/K2.svg",
+          "sha256": "760d40557c355662d701914fb716d0122ee5a5fb64f0db1886aa03ea37c24a80",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K2.svg"
+        },
+        {
+          "path": "data/hard/K1.glif",
+          "sha256": "f809a068598597c6b297792763f6f0434aaa6c3ae991f1bb0b93f74d4223e186",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K1.glif"
+        },
+        {
+          "path": "data/hard/K1.svg",
+          "sha256": "a247a0d1a3bee000719f8917d29c94880a01d530373a497a966bc2ed97f1b67d",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K1.svg"
+        },
+        {
+          "path": "data/hard/K3.glif",
+          "sha256": "b9af5a4fb13fe224dfc33b92c68f5f67faba33ba6dc4d92e3d2430ceeffa8a11",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K3.glif"
+        },
+        {
+          "path": "data/hard/K3.svg",
+          "sha256": "dce9fe1dc5e238ac83dd76164b49bb20683da12dea4a2d34f9c26a9a6f42f47d",
+          "url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/data/hard/K3.svg"
+        }
+      ]
+    }
+  ],
+  "coverage_totals": {
+    "ttf_checked": 52,
+    "woff2_checked": 52,
+    "glyphs_checked": 52,
+    "svg_in_codex_branch": 55,
+    "cyrillic_codepoints_in_fonts": 17,
+    "source_only_additional_letters": 4,
+    "combined_lowercase_letters": 21,
+    "individually_studied_letters": 13,
+    "native_latin_aliases": 8
+  }
 }
