@@ -9,7 +9,8 @@
     "ф scale inferred from native 0.287 export scale, mapping ascender to740 and descender near-205.",
     "щ contains a small red path; retained in source and monochrome GLIF, not silently deleted.",
     "Only byte-identical repeated path data omitted from GLIF; all original SVG files preserved byte-for-byte.",
-    "No production outline cleanup or final kerning claimed."
+    "No production outline cleanup or final kerning claimed.",
+    "User capitals Щ/Ц added: uniform 720/714 restoration of SVG body height; original SVG unchanged. Font metrics provisional."
   ],
   "files": [
     {
@@ -227,6 +228,67 @@
       "advance": 508,
       "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
       "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "Щ",
+      "role": "primary",
+      "source_name": "щ заглавная.svg",
+      "path": "data/user-2026-10-16/uni0429-primary.glif",
+      "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
+      "glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+      "svg_path_count": 1,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333"
+      ],
+      "transform": [
+        1.0084033613445378,
+        0,
+        0,
+        -1.0084033613445378,
+        19,
+        720
+      ],
+      "bounds": [
+        19.0,
+        -200.6234307892601,
+        798.8900840336133,
+        720.0
+      ],
+      "advance": 818,
+      "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+      "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup"
+    },
+    {
+      "character": "Ц",
+      "role": "primary",
+      "source_name": "ц заглавная.svg",
+      "path": "data/user-2026-10-16/uni0426-primary.glif",
+      "source_sha256": "4fb5e2f517e6cd21d6033fd2c57af28b877b7e78c941735da010c61d5fc75fbf",
+      "glif_sha256": "7c38b353fe2247c98ae5a47d597329ae41a8246440608f80925509623f01c289",
+      "svg_path_count": 1,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333"
+      ],
+      "transform": [
+        1.0084033613445378,
+        0,
+        0,
+        -1.0084033613445378,
+        19,
+        720
+      ],
+      "bounds": [
+        19.0,
+        -200.57392819420988,
+        594.3173109243697,
+        720.0
+      ],
+      "advance": 613,
+      "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+      "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup",
+      "mapping_status": "tentative U+0426 from filename; И-shaped diagonal body, awaiting user clarification; not in alphabet map"
     }
   ]
 }

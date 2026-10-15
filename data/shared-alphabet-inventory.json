@@ -39,13 +39,13 @@
     "individually_studied_lowercase": 25,
     "individually_studied_definition": "33 available source lowercase minus 8 native aliases; includes unapproved ч/я and uncompiled user SVGs.",
     "russian": {
-      "available": 52,
+      "available": 53,
       "total": 66,
-      "uppercase_available": 19,
+      "uppercase_available": 20,
       "uppercase_total": 33,
       "lowercase_available": 33,
       "lowercase_total": 33,
-      "remaining": 14
+      "remaining": 13
     },
     "kazakh_additional": {
       "available": 10,
@@ -130,6 +130,7 @@
       "Т",
       "Х",
       "Ш",
+      "Щ",
       "Ю"
     ],
     "russian_lowercase": [
@@ -192,7 +193,6 @@
       "Ф",
       "Ц",
       "Ч",
-      "Щ",
       "Ъ",
       "Ы",
       "Ь",
@@ -943,13 +943,17 @@
       "щ",
       "ф",
       "ң",
-      "қ"
+      "қ",
+      "Щ"
     ],
     "manifest": "data/user-2026-10-16/manifest.json",
-    "source_only": true
+    "source_only": true,
+    "pending_mapping": [
+      "ц заглавная.svg"
+    ]
   },
   "latest_source_counts": {
-    "russian": 52,
+    "russian": 53,
     "russian_lowercase": 33,
     "kazakh": 10,
     "remaining_russian_lowercase": [],

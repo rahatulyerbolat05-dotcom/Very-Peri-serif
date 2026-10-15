@@ -1054,13 +1054,17 @@
       "щ",
       "ф",
       "ң",
-      "қ"
+      "қ",
+      "Щ"
     ],
     "status": "source drawings only; not compiled",
     "contextual_ka_descender": "same calt condition as к, confirmed by user",
     "remaining_russian_lowercase_sources": [
       "ч",
       "я"
+    ],
+    "pending_mapping": [
+      "ц заглавная.svg"
     ]
   },
   "latest_che_ya_artifact": "studies/regular/che-ya",
