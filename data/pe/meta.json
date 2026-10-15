@@ -1,0 +1,20 @@
+{
+ "pe": {
+  "adv": 470,
+  "xmin": 15,
+  "xmax": 459,
+  "ymin": 0,
+  "ymax": 516,
+  "label": "pe  латинская n",
+  "contours": 1
+ },
+ "pe_flag": {
+  "adv": 470,
+  "xmin": 15,
+  "xmax": 451,
+  "ymin": -5,
+  "ymax": 516,
+  "label": "pe.flag  хвост-флажок",
+  "contours": 1
+ }
+}

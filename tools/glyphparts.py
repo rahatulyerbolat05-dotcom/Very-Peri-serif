@@ -254,3 +254,14 @@ def yu_sign(ref, link=60.0, bar_t=25.0, center=254.0):
     info = {"link": link, "bar_t": bar_t, "center": center, "stem_touches_oval": touch,
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def pe_flag(ref):
+    """п.flag (карточка docs/glyphs/pe.md): латинская n оригинала, у которой нижний правый угол правой стойки заменён хвостом-выходом (флажком) от u.
+    Нужна в позиции перед буквой, у которой в нижнем левом углу опорная засечка: хвост уходит вправо к ней и не сталкивается с её засечкой так, как плоская засечка n.
+    Ниже y=150 стойка n (324–392) заменяется стойкой u (312–380, сдвиг +12) с ножкой и хвостом; выше без изменений."""
+    N, U = ref.glyph("n"), ref.glyph("u")
+    taper = poly((312, 400), (312, 150), (317, 62), (317, -50), (500, -50), (500, 400))
+    tail = shift(AND(AND(U, taper), rect(0, -50, 700, 150)), 12.0)
+    top = SUB(N, rect(240, -50, 700, 150))
+    return OR(top, tail)
