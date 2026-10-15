@@ -246,7 +246,7 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "в": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
@@ -254,7 +254,7 @@
           "path": "data/codex/uni0432-01.glif",
           "label": "Структурная",
           "variant": "01",
-          "status": "unselected",
+          "status": "selected",
           "advance": 421,
           "bounds": [
             15,
@@ -272,7 +272,7 @@
           "path": "data/codex/uni0432-02.glif",
           "label": "Мягкая",
           "variant": "02",
-          "status": "unselected",
+          "status": "retained alternative",
           "advance": 425,
           "bounds": [
             13,
@@ -464,15 +464,15 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "к": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
-      "conflict": true,
+      "conflict": false,
       "variants": [
         {
           "path": "data/codex/uni043A-01.glif",
           "label": "Головка u",
           "variant": "01",
-          "status": "unselected",
+          "status": "selected",
           "advance": 451,
           "bounds": [
             15,
@@ -490,7 +490,7 @@
           "path": "data/codex/uni043A-02.glif",
           "label": "Головка k",
           "variant": "02",
-          "status": "unselected",
+          "status": "retained alternative",
           "advance": 451,
           "bounds": [
             15,
@@ -510,7 +510,7 @@
     "т": {
       "selected": "02",
       "shared_with_claude": false,
-      "conflict": true,
+      "conflict": false,
       "variants": [
         {
           "path": "data/codex/uni0442-02.glif",
@@ -564,19 +564,30 @@
     "codex_branch": "codex/cyrillic-studies",
     "codex_source_commit": "a12a9a486a06b0dd63a0e984acc5fb0a41ad611d",
     "claude_base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
-    "conflicts": [
-      "т",
-      "к"
-    ],
+    "conflicts": [],
     "open_codex_choices": [
-      "в",
-      "й",
-      "к"
+      "й"
     ],
     "selected_ereversed": "02; direct user choice: оставь 02",
     "count_meaning": "Available drawings, including undecided alternatives; not production-ready or approved coverage.",
     "missing_notes": {
       "ф": "Авторский SVG есть; пока не интегрирован"
     }
+  },
+  "contextual_alternates": {
+    "к": {
+      "path": "data/ka/ka_short.glif",
+      "feature": "calt",
+      "condition": "следующий справа глиф имеет верхнюю левую головную засечку на x-height"
+    }
+  },
+  "stylistic_alternates": {
+    "т": [
+      {
+        "path": "data/te/t1.glif",
+        "feature": "ss08",
+        "source": "Claude"
+      }
+    ]
   }
 }

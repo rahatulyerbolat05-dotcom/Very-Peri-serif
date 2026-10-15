@@ -19,15 +19,15 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE='studies/regular/ereversed-refined/ereversed-02.ttf'
 SPECS={
  'б':('01',False,False,[('01','Капля',BASE)]),
- 'в':(None,False,False,[('01','Структурная','studies/regular/ve/ve-01.ttf'),('02','Мягкая','studies/regular/ve/ve-02.ttf')]),
+ 'в':('01',False,False,[('01','Структурная','studies/regular/ve/ve-01.ttf'),('02','Мягкая','studies/regular/ve/ve-02.ttf')]),
  'г':('02',False,False,[('02','Капля',BASE)]),
  'д':('01',False,False,[('01','Острый свод',BASE)]),
  'ж':('cyr11',False,False,[('cyr11','Cyr11 / импорт',BASE)]),
  'з':('01',False,False,[('01','Открытый терминал',BASE)]),
  'и':('02',True,False,[('02','Родная u',BASE)]),
  'й':(None,True,False,[('01','Родная кратка','studies/regular/shorti/shorti-01.ttf'),('02','Компактная','studies/regular/shorti/shorti-02.ttf')]),
- 'к':(None,False,True,[('01','Головка u','studies/regular/ka/ka-01.ttf'),('02','Головка k','studies/regular/ka/ka-02.ttf')]),
- 'т':('02',False,True,[('02','Письменный выход',BASE)]),
+ 'к':('01',False,False,[('01','Головка u','studies/regular/ka/ka-01.ttf'),('02','Головка k','studies/regular/ka/ka-02.ttf')]),
+ 'т':('02',False,False,[('02','Письменный выход',BASE)]),
  'э':('02',False,False,[('02','Капля a — ниже',BASE)])}
 
 class CurvePen(BasePen):
@@ -65,7 +65,7 @@ def main():
         cfg['codex'][ch]=entry
     assert json.dumps(cfg['done'],ensure_ascii=False,sort_keys=True)==before_done
     cfg['shared_review']={'codex_branch':'codex/cyrillic-studies','codex_source_commit':commit,'claude_base_commit':'d2cd2ee856a85d99aa4880b8f44b126ee49a1eca',
-                         'conflicts':['т','к'],'open_codex_choices':['в','й','к'],'selected_ereversed':'02; direct user choice: оставь 02',
+                         'conflicts':[],'open_codex_choices':['й'],'selected_ereversed':'02; direct user choice: оставь 02',
                          'count_meaning':'Available drawings, including undecided alternatives; not production-ready or approved coverage.',
                          'missing_notes':{'ф':'Авторский SVG есть; пока не интегрирован'}}
     config_path.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n')

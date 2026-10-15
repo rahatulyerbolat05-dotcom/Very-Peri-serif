@@ -55,29 +55,33 @@ def test_top(p):
     c2 = xa is not None and xa <= x0 + 10
     return (c1 and c2), f"C1 первая стойка на y=380: x {x0:.0f}..{x1:.0f}, ширина {w:.0f} (25..90: {c1}); C2 верх у левого края: x_top={xa if xa is None else round(xa)} (<= {x0 + 10:.0f}: {c2})"
 
-bad = 0
-for ch, path in CFG["built_bases"].items():
-    ok, why = test(load(path))
-    want = ch in declared
-    status = "ok" if ok == want else "РАСХОЖДЕНИЕ"
-    if ok != want: bad += 1
-    print(f"{ch}  в классе по геометрии: {ok!s:5}  в declared_class: {want!s:5}  {status}  [{why}]")
-missing = [ch for ch in sorted(declared) if ch not in CFG["built_bases"]]
-print("нет контура (не проверены):", " ".join(missing))
-if bad: print(f"\nРАСХОЖДЕНИЙ: {bad}. Пересмотреть класс @serif_bl и правило calt."); sys.exit(1)
-print("\nвсе готовые основы согласованы с declared_class")
+def main():
+    bad = 0
+    for ch, path in CFG["built_bases"].items():
+        ok, why = test(load(path))
+        want = ch in declared
+        status = "ok" if ok == want else "РАСХОЖДЕНИЕ"
+        if ok != want: bad += 1
+        print(f"{ch}  в классе по геометрии: {ok!s:5}  в declared_class: {want!s:5}  {status}  [{why}]")
+    missing = [ch for ch in sorted(declared) if ch not in CFG["built_bases"]]
+    print("нет контура (не проверены):", " ".join(missing))
+    if bad: print(f"\nРАСХОЖДЕНИЙ: {bad}. Пересмотреть класс @serif_bl и правило calt."); sys.exit(1)
+    print("\nвсе готовые основы согласованы с declared_class")
 
 
-# второе правило: ka-cy -> ka-cy.short перед буквой с засечкой слева вверху на x-height
-KA = CFG["ka_short"]; kdec = set(KA["declared_class"]["lower"]) | set(KA["declared_class"]["upper"])
-print("\nправило ka-cy.short (верхний левый угол следующей буквы):")
-bad2 = 0
-for ch, path in CFG["built_bases"].items():
-    if ch.isupper(): continue
-    ok, why = test_top(load(path)); want = ch in kdec
-    st = "ok" if ok == want else "РАСХОЖДЕНИЕ"
-    if ok != want: bad2 += 1
-    print(f"{ch}  по геометрии: {ok!s:5}  в declared_class: {want!s:5}  {st}  [{why}]")
-print("нет контура (не проверены):", " ".join(sorted(ch for ch in kdec if ch not in CFG["built_bases"])))
-if bad2: print(f"\nРАСХОЖДЕНИЙ в правиле ka-cy.short: {bad2}"); sys.exit(1)
-print("правило ka-cy.short: все готовые основы согласованы")
+    # второе правило: ka-cy -> ka-cy.short перед буквой с засечкой слева вверху на x-height
+    KA = CFG["ka_short"]; kdec = set(KA["declared_class"]["lower"]) | set(KA["declared_class"]["upper"])
+    print("\nправило ka-cy.short (верхний левый угол следующей буквы):")
+    bad2 = 0
+    for ch, path in CFG["built_bases"].items():
+        if ch.isupper(): continue
+        ok, why = test_top(load(path)); want = ch in kdec
+        st = "ok" if ok == want else "РАСХОЖДЕНИЕ"
+        if ok != want: bad2 += 1
+        print(f"{ch}  по геометрии: {ok!s:5}  в declared_class: {want!s:5}  {st}  [{why}]")
+    print("нет контура (не проверены):", " ".join(sorted(ch for ch in kdec if ch not in CFG["built_bases"])))
+    if bad2: print(f"\nРАСХОЖДЕНИЙ в правиле ka-cy.short: {bad2}"); sys.exit(1)
+    print("правило ka-cy.short: все готовые основы согласованы")
+
+if __name__ == '__main__':
+    main()
