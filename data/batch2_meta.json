@@ -8,24 +8,6 @@
   "label": "и = латинская u",
   "contours": 1
  },
- "ka": {
-  "adv": 462,
-  "xmin": 10,
-  "xmax": 451,
-  "ymin": 0,
-  "ymax": 520,
-  "label": "к",
-  "contours": 1
- },
- "ka_short": {
-  "adv": 462,
-  "xmin": 10,
-  "xmax": 451,
-  "ymin": 0,
-  "ymax": 520,
-  "label": "к.short",
-  "contours": 1
- },
  "A": {
   "adv": 457,
   "xmin": -18,
