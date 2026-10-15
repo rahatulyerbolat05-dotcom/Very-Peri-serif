@@ -26,15 +26,6 @@
   "label": "к.short",
   "contours": 1
  },
- "ef": {
-  "adv": 560,
-  "xmin": 23,
-  "xmax": 537,
-  "ymin": -205,
-  "ymax": 740,
-  "label": "ф по образцу автора",
-  "contours": 3
- },
  "A": {
   "adv": 457,
   "xmin": -18,
