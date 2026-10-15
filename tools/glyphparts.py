@@ -165,17 +165,23 @@ def em_sign(ref, apex=26.0, lean_deg=2.0, gamma_deg=16.0, t_l=30.0, t_r=68.0, t_
     return path, info
 
 
-def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="serif", ear_w=35.0, fillet=28.0):
+def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="serif", ear_w=35.0, fillet=28.0, tip_t=22.0, root_t=32.0):
     """Строчная т (карточка docs/glyphs/te.md): горизонталь с засечками вниз на обоих концах и центральная стойка с опорной засечкой.
     Конец горизонтали тот же, что у ъ (K2, hard_sign): одним контуром, верхний угол закруглён, скобка засечки по замеру T
     (ширина 70 на глубине 40, 54 на 100, 37 на 140). Ножка: нижняя часть ı (опорная засечка F2), стойка ı 79–147 (68).
     overhang: вылет горизонтали от края стойки до кончика; каждый конец одинаковый (зеркало относительно оси стойки).
-    ear: "serif" (засечка вниз, как у ъ K2), "user" (ушко по наброску автора проекта: вертикальный внешний край, круглый низ шириной ear_w, большое сопряжение fillet с низом горизонтали, глубина serif_depth) или "drop" (каплевидное ушко F5: на конце горизонтали капля радиуса 30, свисающая на 40 ниже, сопряжение скруглено)."""
+    ear: "none" (без ушек, по наброску автора проекта: прямая горизонталь с плоскими концами, толщина сужается от root_t у стойки до tip_t на кончике, как у головной засечки: 32 → 20–23), "serif" (засечка вниз, как у ъ K2), "user" (ушко по наброску автора проекта: вертикальный внешний край, круглый низ шириной ear_w, большое сопряжение fillet с низом горизонтали, глубина serif_depth) или "drop" (каплевидное ушко F5: на конце горизонтали капля радиуса 30, свисающая на 40 ниже, сопряжение скруглено)."""
     I = ref.glyph("dotlessi")
     top, bot = 510.0, 510.0 - bar_t
     cx = overhang + stem / 2; tx = 0.0
     p = Path(); q = p.getPen(); yb = bot - serif_depth
-    if ear == "user":
+    if ear == "none":
+        L = cx - tx                                                             # от кончика до оси стойки
+        bar = poly((tx, top), (cx, top), (cx, top - root_t), (tx, top - tip_t))
+        top_stem = rect(cx - stem / 2, 400, cx + stem / 2, top)
+        p = soften(OR(bar, top_stem), 5, 16)
+        p = AND(p, rect(-100, -100, cx, 600))                                   # левая половина, правая будет зеркалом
+    elif ear == "user":
         rr = ear_w / 2
         cap = Path(); cq = cap.getPen()
         cq.moveTo((tx, top - 13)); cq.qCurveTo((tx, top), (tx + 13, top)); cq.lineTo((cx, top)); cq.lineTo((cx, bot)); cq.lineTo((tx + ear_w, bot))
@@ -193,8 +199,9 @@ def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="s
         q.qCurveTo((tx + 36, yb), (tx + 18, yb)); q.qCurveTo((tx, yb), (tx, yb + 14))
         q.closePath()
     right = tf(p, (-1, 0, 0, 1, 2 * cx, 0))
+    if ear == "none": stem_top = rect(cx - stem / 2, 200, cx + stem / 2, top - 1)       # стойка до горизонтали (сопряжение уже в p)
     lower = shift(AND(I, rect(-50, -50, 400, 300)), cx - 113.0)                    # ножка ı: стойка 79–147 → вокруг оси cx
-    stem_r = rect(cx - stem / 2, 200, cx + stem / 2, bot + 1)
+    stem_r = rect(cx - stem / 2, 200, cx + stem / 2, bot + 1) if ear != "none" else stem_top
     path = OR(p, right, lower, stem_r)
     dx = 20 - path.bounds[0]; path = shift(path, dx)
     info = {"overhang": overhang, "serif_depth": serif_depth, "bar_t": bar_t, "stem": stem, "ear": ear,
