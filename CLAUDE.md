@@ -123,7 +123,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -170,7 +170,8 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D22 | Строчная м: основа m1 (вершина V 26, головки u), запасные m2 (вершина 0), m3 (флажок ı); ждёт подтверждения; форма курсива D13 |
 | D23 | Мягкая м: автор проекта принял ms1–ms3 (скриншот 15.10.2026, «вот эти»), все три остаются вариантами, основа ms2; распространять ли смягчение на остальные буквы: не решено (ОТКРЫТО) |
 | D24 | Закрыто: лигатура лл отклонена автором проекта 15.10.2026; вместо неё обычные л и кернинг пары лл (предложение Claude, автор проекта: «твой вариант лучше»); эскизы d1–d3 только для истории |
-| D25 | Строчная т: основа t3 (вылет 175 как у T, горизонталь 27, засечка вниз 70 как у ъ), запасные t1 (125), t2 (150); ждёт подтверждения |
+| D25 | Закрыто: т = t1 (вылет 125, засечка вниз 70), выбрана автором проекта 15.10.2026; t1b (ушки-капли), t2, t3 запасные; согласовать ушки т и ъ, если t1b |
+| D26 | Строчная м в форме латинской m (арочная): вариант по просьбе автора проекта, исключение из D1; основа остаётся m1; форма курсива D13 |
 | D19 | Закрыто: ъ = K2 (засечка вниз 70), выбрана автором проекта 14.10.2026; длина перекладины около 105 это догадка (ОТКРЫТО) |
 | D18 | Закрыто: ь = S3 (флажок), выбрана автором проекта 14.10.2026; согласовать с ш (D15: R2 с флажками подходит) |
 
@@ -196,6 +197,6 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | ы | по рисунку автора проекта: ь (S3) + правая стойка от u (головка, ножка, хвост-выход), зазор 44; Y1 основной, Y2 с головками u на обеих стойках сохранён | `docs/glyphs/yery.md` |
 | Л | основа L1 (14°/3°, вес по шрифту), L2, L3 и веса W2, W3 запасные (D20) | `docs/glyphs/el.md` |
 | л | основа л1 (по шрифту), л2, л3 запасные (D21) | `docs/glyphs/el_lower.md` |
-| т | основа t3 (Т-образная, вылет 175), t1 и t2 запасные (D25) | `docs/glyphs/te.md` |
+| т | основа t1 (вылет 125) выбрана автором проекта, t1b (ушки-капли), t2, t3 запасные (D25 закрыто) | `docs/glyphs/te.md` |
 | лл | отклонена автором проекта (D24 закрыто); эскизы d1–d3 только для истории | `docs/glyphs/el_double.md` |
-| м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22); мягкая м: ms2 основа, ms1 и ms3 запасные (D23) | `docs/glyphs/em.md` |
+| м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22); мягкая м: ms2 основа, ms1 и ms3 запасные (D23); арочный вариант как латинская m (D26) | `docs/glyphs/em.md` |

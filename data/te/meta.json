@@ -5,12 +5,27 @@
   "xmax": 338.0,
   "ymin": 0.0,
   "ymax": 510.0,
-  "label": "t1  вылет 125",
+  "label": "t1  125  засечка",
   "contours": 1,
   "overhang": 125.0,
   "serif_depth": 70.0,
   "bar_t": 27.0,
-  "stem": 68.0
+  "stem": 68.0,
+  "ear": "serif"
+ },
+ "t1b": {
+  "adv": 358,
+  "xmin": 20.0,
+  "xmax": 338.0,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "t1b  125  капля",
+  "contours": 1,
+  "overhang": 125.0,
+  "serif_depth": 70.0,
+  "bar_t": 27.0,
+  "stem": 68.0,
+  "ear": "drop"
  },
  "t2": {
   "adv": 408,
@@ -18,12 +33,13 @@
   "xmax": 388.0,
   "ymin": 0.0,
   "ymax": 510.0,
-  "label": "t2  вылет 150",
+  "label": "t2  150  засечка",
   "contours": 1,
   "overhang": 150.0,
   "serif_depth": 70.0,
   "bar_t": 27.0,
-  "stem": 68.0
+  "stem": 68.0,
+  "ear": "serif"
  },
  "t3": {
   "adv": 458,
@@ -31,11 +47,12 @@
   "xmax": 438.0,
   "ymin": 0.0,
   "ymax": 510.0,
-  "label": "t3  вылет 175",
+  "label": "t3  175  засечка",
   "contours": 1,
   "overhang": 175.0,
   "serif_depth": 70.0,
   "bar_t": 27.0,
-  "stem": 68.0
+  "stem": 68.0,
+  "ear": "serif"
  }
 }
