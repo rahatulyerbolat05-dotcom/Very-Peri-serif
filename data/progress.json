@@ -1055,7 +1055,9 @@
       "ф",
       "ң",
       "қ",
-      "Щ"
+      "Щ",
+      "Ц",
+      "Қ"
     ],
     "status": "source drawings only; not compiled",
     "contextual_ka_descender": "same calt condition as к, confirmed by user",
@@ -1063,10 +1065,20 @@
       "ч",
       "я"
     ],
-    "pending_mapping": [
-      "ц заглавная.svg"
-    ]
+    "pending_mapping": []
   },
   "latest_che_ya_artifact": "studies/regular/che-ya",
-  "latest_capital_i_artifact": "studies/regular/capital-i"
+  "latest_capital_i_artifact": "studies/regular/capital-i",
+  "incoming_capitals": {
+    "manifest": "data/incoming-caps-2026-10-16/manifest.json",
+    "archive_proposals": [
+      "У",
+      "Ұ",
+      "Ң"
+    ],
+    "user_form": [
+      "Қ"
+    ],
+    "status": "source only"
+  }
 }

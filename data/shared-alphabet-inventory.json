@@ -39,22 +39,22 @@
     "individually_studied_lowercase": 25,
     "individually_studied_definition": "33 available source lowercase minus 8 native aliases; includes unapproved ч/я and uncompiled user SVGs.",
     "russian": {
-      "available": 53,
+      "available": 55,
       "total": 66,
-      "uppercase_available": 20,
+      "uppercase_available": 22,
       "uppercase_total": 33,
       "lowercase_available": 33,
       "lowercase_total": 33,
-      "remaining": 13
+      "remaining": 11
     },
     "kazakh_additional": {
-      "available": 10,
+      "available": 13,
       "total": 18,
-      "uppercase_available": 4,
+      "uppercase_available": 7,
       "uppercase_total": 9,
       "lowercase_available": 6,
       "lowercase_total": 9,
-      "remaining": 8
+      "remaining": 5
     }
   },
   "codex_compiled_letters": [
@@ -128,7 +128,9 @@
       "Р",
       "С",
       "Т",
+      "У",
       "Х",
+      "Ц",
       "Ш",
       "Щ",
       "Ю"
@@ -169,10 +171,13 @@
       "ё"
     ],
     "kazakh_uppercase": [
+      "І",
       "Ғ",
-      "Ө",
+      "Қ",
+      "Ң",
       "Ү",
-      "І"
+      "Ұ",
+      "Ө"
     ],
     "kazakh_lowercase": [
       "і",
@@ -189,9 +194,7 @@
       "Д",
       "З",
       "Й",
-      "У",
       "Ф",
-      "Ц",
       "Ч",
       "Ъ",
       "Ы",
@@ -202,9 +205,6 @@
     "russian_lowercase": [],
     "kazakh_uppercase": [
       "Ә",
-      "Қ",
-      "Ң",
-      "Ұ",
       "Һ"
     ],
     "kazakh_lowercase": [
@@ -944,20 +944,28 @@
       "ф",
       "ң",
       "қ",
-      "Щ"
+      "Щ",
+      "Ц",
+      "Қ"
     ],
     "manifest": "data/user-2026-10-16/manifest.json",
     "source_only": true,
-    "pending_mapping": [
-      "ц заглавная.svg"
-    ]
+    "pending_mapping": []
   },
   "latest_source_counts": {
-    "russian": 53,
+    "russian": 55,
     "russian_lowercase": 33,
-    "kazakh": 10,
+    "kazakh": 13,
     "remaining_russian_lowercase": [],
     "note": "ч/я are new unapproved proposals; 21 Cyrillic codepoints compiled in che-ya trials, user SVGs source-only."
   },
-  "capital_i_proposal": "studies/regular/capital-i; not approved; compiled as U+0418"
+  "capital_i_proposal": "studies/regular/capital-i; not approved; compiled as U+0418",
+  "incoming_capitals": {
+    "manifest": "data/incoming-caps-2026-10-16/manifest.json",
+    "unapproved": [
+      "У",
+      "Ұ",
+      "Ң"
+    ]
+  }
 }
