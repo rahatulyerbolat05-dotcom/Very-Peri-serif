@@ -1,0 +1,46 @@
+{
+  "glyphs": [
+    {
+      "character": "ч",
+      "glyph": "uni0447",
+      "advance": 454,
+      "bounds": [
+        11,
+        -5,
+        439,
+        510
+      ],
+      "contours": 1,
+      "status": "single proposal, awaiting user selection",
+      "sampled_topology_valid": true
+    },
+    {
+      "character": "я",
+      "glyph": "uni044F",
+      "advance": 444,
+      "bounds": [
+        24,
+        -9,
+        429,
+        516
+      ],
+      "contours": 2,
+      "status": "single proposal, awaiting user selection",
+      "sampled_topology_valid": true
+    }
+  ],
+  "builds": [
+    {
+      "file": "che-ya-shorti01.ttf",
+      "sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2",
+      "existing_glyphs_preserved": 397,
+      "shape_and_context_checks": "passed"
+    },
+    {
+      "file": "che-ya-shorti02.ttf",
+      "sha256": "27333ad03140ff747b430d0347605b5d53b8691170624d35187f5446f64bd2a5",
+      "existing_glyphs_preserved": 398,
+      "shape_and_context_checks": "passed"
+    }
+  ]
+}

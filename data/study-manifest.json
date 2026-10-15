@@ -4,7 +4,7 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/context-selected",
+  "latest_artifact": "studies/regular/che-ya",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
@@ -2687,6 +2687,61 @@
       "path": "studies/regular/context-selected/verification.json",
       "sha256": "540c5effc5a0992af5b2e9e77d6b585b0dbc6690512144b60a13c7cb3641f181",
       "bytes": 1851
+    },
+    {
+      "path": "studies/regular/che-ya/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/che-ya/README.md",
+      "sha256": "45d5e49668ff2133f463c92389af615908d62e46fe574ec01f4874473ccabaa9",
+      "bytes": 2683
+    },
+    {
+      "path": "studies/regular/che-ya/che-ya-shorti01.ttf",
+      "sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2",
+      "bytes": 75684
+    },
+    {
+      "path": "studies/regular/che-ya/che-ya-shorti01.woff2",
+      "sha256": "e7f99c35092439a5042bcc76a23350e49c767e32d5dc05a3f9fd64f9bf89a2bd",
+      "bytes": 29960
+    },
+    {
+      "path": "studies/regular/che-ya/che-ya-shorti02.ttf",
+      "sha256": "27333ad03140ff747b430d0347605b5d53b8691170624d35187f5446f64bd2a5",
+      "bytes": 75836
+    },
+    {
+      "path": "studies/regular/che-ya/che-ya-shorti02.woff2",
+      "sha256": "f343d188431a542325f219b8c1ff8673b5a0fd095b8fba42305c49aea6bd5612",
+      "bytes": 30036
+    },
+    {
+      "path": "studies/regular/che-ya/comparison.svg",
+      "sha256": "890d601e5c75734bb6d3d7ca4af227a9b5b9768d6e316e03a1c4878f31bfad47",
+      "bytes": 91858
+    },
+    {
+      "path": "studies/regular/che-ya/design.json",
+      "sha256": "6ae6d77cc45fdb494a2c2aa88fd3eb52dedacf7e120c820da51a0bfb9ee03714",
+      "bytes": 9476
+    },
+    {
+      "path": "studies/regular/che-ya/metrics.json",
+      "sha256": "89e8b1bbab6b6ad7cf1feee8d7dac1c66c624007786dc9cfa0695c8e5b9068d9",
+      "bytes": 1033
+    },
+    {
+      "path": "studies/regular/che-ya/uni0447.glif",
+      "sha256": "0c7f1ae754879560d73eb4899e64d631e191cdbdd7606bb577f002c75758ddf5",
+      "bytes": 2959
+    },
+    {
+      "path": "studies/regular/che-ya/uni044F.glif",
+      "sha256": "1ffa956a9c642adee3d8d174a7bfb2317af8ca375debf785ba96911ec1cb2372",
+      "bytes": 2857
     }
   ],
   "total_files": 241,

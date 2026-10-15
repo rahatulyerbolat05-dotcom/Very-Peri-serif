@@ -115,6 +115,18 @@
         "02 Компактная кратка"
       ],
       "primary": null
+    },
+    "ч": {
+      "variants": [
+        "01 Поднятая чаша u"
+      ],
+      "primary": null
+    },
+    "я": {
+      "variants": [
+        "01 Петля и капля y"
+      ],
+      "primary": null
     }
   },
   "inherited": {
@@ -1044,5 +1056,6 @@
       "ч",
       "я"
     ]
-  }
+  },
+  "latest_che_ya_artifact": "studies/regular/che-ya"
 }
