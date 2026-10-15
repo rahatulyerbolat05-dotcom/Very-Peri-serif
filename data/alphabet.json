@@ -124,6 +124,10 @@
     "х": [
       "data/homoglyph/ha-cy.glif",
       "латинская x"
+    ],
+    "к": [
+      "data/ka/ka.glif",
+      "к"
     ]
   },
   "latin_donor": [
