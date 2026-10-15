@@ -348,7 +348,7 @@ def inventory(cfg, filename):
     missing_upper = " ".join(ch for ch in UP if ch not in present) or "—"
     text(ax, pad, y + 76, f"Строчные: {missing_lower}", 23)
     text(ax, pad, y + 116, f"Прописные: {missing_upper}", 23)
-    text(ax, pad, y + 165, "Авторские ц, щ, ф, ң, қ добавлены как исходники. Метрики предварительные; в шрифт ещё не собраны.", 17, MUTED)
+    text(ax, pad, y + 165, "Авторские Щ, ц, щ, ф, ң, қ добавлены как исходники. Метрики предварительные; в шрифт ещё не собраны.", 17, MUTED)
     text(ax, pad, y + 201, "Источник: data/alphabet.json и указанные GLIF. Основы и альтернативы к/т вынесены на отдельный лист.", 16, MUTED)
     save(fig, filename)
     return {"russian": total, "russian_upper": ru_upper, "russian_lower": ru_lower, "kazakh": kz,
