@@ -272,7 +272,7 @@
           "path": "data/codex/uni0432-02.glif",
           "label": "Мягкая",
           "variant": "02",
-          "status": "retained alternative",
+          "status": "unselected",
           "advance": 425,
           "bounds": [
             13,
@@ -472,7 +472,7 @@
           "path": "data/codex/uni043A-01.glif",
           "label": "Головка u",
           "variant": "01",
-          "status": "retained alternative",
+          "status": "unselected",
           "advance": 451,
           "bounds": [
             15,
@@ -533,6 +533,58 @@
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
+    "ч": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0447-01.glif",
+          "label": "Поднятая чаша u",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 454,
+          "bounds": [
+            11,
+            -5,
+            439,
+            510
+          ],
+          "glif_sha256": "b0154f8402601aa7e0982622f09cd81e3f7b77a4b35cf27a80491776708fa746",
+          "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
+          "source_glyph": "uni0447",
+          "source_glyf_sha256": "a8acc9d35192ff0e98ba183f7e76142cb84d9d709af32dfb02754b4bbc48a50f",
+          "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "я": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni044F-01.glif",
+          "label": "Петля и капля y",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 444,
+          "bounds": [
+            24,
+            -9,
+            429,
+            516
+          ],
+          "glif_sha256": "f2f1f43d2a91aca24c272e9d0846a7a4d0d45ef37a89025c6b3c557d95b46846",
+          "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
+          "source_glyph": "uni044F",
+          "source_glyf_sha256": "9668b3c6299d469e321095af75e0b614e5af3c772ab9a45afefd9b0cb83fee30",
+          "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
     "э": {
       "selected": "02",
       "shared_with_claude": false,
@@ -562,11 +614,13 @@
   },
   "shared_review": {
     "codex_branch": "codex/cyrillic-studies",
-    "codex_source_commit": "a12a9a486a06b0dd63a0e984acc5fb0a41ad611d",
+    "codex_source_commit": "a6f05d283411a3c56be5905fc8fc1cddc90dbc2f",
     "claude_base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
     "conflicts": [],
     "open_codex_choices": [
-      "й"
+      "й",
+      "ч",
+      "я"
     ],
     "selected_ereversed": "02; direct user choice: оставь 02",
     "count_meaning": "Available drawings, including undecided alternatives; not production-ready or approved coverage.",
