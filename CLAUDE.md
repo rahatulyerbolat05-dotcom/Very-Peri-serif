@@ -211,7 +211,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | п | = латинская n (решение автора проекта) + обязательная контекстная форма pe-cy.flag (D29 закрыто) | `docs/glyphs/pe.md` |
 | и | = латинская u (D30) | `docs/glyphs/ii.md` |
 | к | ı + ветви k; обязательная контекстная форма ka-cy.short (D30) | `docs/glyphs/ka.md` |
-| ф | убрана по просьбе автора проекта: версию запушит GPT; мои эскизы и вставка вектора откачены (D30) | `docs/glyphs/ef.md` |
+| ф | убрана из репозитория 15.10.2026 по просьбе автора проекта (в сессии контур искажался); автор проекта вставит свой вектор сам (через GPT); образцы: `docs/img/author_ef_reference.svg`, `docs/img/author_ef_vector.svg` (D30) | `docs/glyphs/ef.md` |
 | А | = латинская A (D30) | `docs/glyphs/A.md` |
 | Ж | правая половина K и зеркало (D30) | `docs/glyphs/zhe.md` |
 | В Е К М Н О Р С Т Х а е о р с у х | омоглифы из латиницы оригинала без редактирования, в UFO компонентами (D31) | `docs/glyphs/homoglyphs.md` |
