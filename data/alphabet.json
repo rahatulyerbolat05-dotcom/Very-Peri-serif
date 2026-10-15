@@ -217,5 +217,366 @@
     "й",
     "Ү",
     "ү"
-  ]
+  ],
+  "codex": {
+    "б": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0431-01.glif",
+          "label": "Капля",
+          "variant": "01",
+          "status": "selected",
+          "advance": 408,
+          "bounds": [
+            23,
+            -9,
+            383,
+            740.4705882352941
+          ],
+          "glif_sha256": "761a6e30d070d4ce9f2902d036619fcf71c6a29ed7c3dd32181195eab919d645",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0431",
+          "source_glyf_sha256": "ec5a99d33e46b3194f1cdf1cd052ee2d97ba4a0182201585d712c5e7b9a19651",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "в": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0432-01.glif",
+          "label": "Структурная",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 421,
+          "bounds": [
+            15,
+            0,
+            395,
+            516
+          ],
+          "glif_sha256": "97b405ec9f22077342a6e32b927b6378da490e9163417ac9fd9b21bf1cae0909",
+          "source_file": "studies/regular/ve/ve-01.ttf",
+          "source_glyph": "uni0432",
+          "source_glyf_sha256": "7dff94fb1d2c806d8a5ab2b13c628ead306a85cf758af2657ee8e8da767ec1e9",
+          "source_file_sha256": "633f56d70e8a2c60e6f0546732b27c054fbabd16c382df10e79013fcf0af8206"
+        },
+        {
+          "path": "data/codex/uni0432-02.glif",
+          "label": "Мягкая",
+          "variant": "02",
+          "status": "unselected",
+          "advance": 425,
+          "bounds": [
+            13,
+            0,
+            399,
+            516
+          ],
+          "glif_sha256": "7abb794f65ed92807c6bab477c73f743a785ca41daced6a2eb99d95d95c06740",
+          "source_file": "studies/regular/ve/ve-02.ttf",
+          "source_glyph": "uni0432",
+          "source_glyf_sha256": "27386e01de58d3607027cd52f3a202d2aa22711d8bb07d916cd093e06e73f9de",
+          "source_file_sha256": "3923b8cf76f1edd0d65463ee6c00934b7048adf105fb5acb087f03f31a2316b3"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "г": {
+      "selected": "02",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0433-02.glif",
+          "label": "Капля",
+          "variant": "02",
+          "status": "selected",
+          "advance": 335,
+          "bounds": [
+            15,
+            0,
+            316,
+            516
+          ],
+          "glif_sha256": "7629770f246cf7abc966956ddbc5abf555dace1e925094cd94b51c786369c6d6",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0433",
+          "source_glyf_sha256": "cb08e533e65895be59927df4f9a742f275d6552570a6e9c07548675071b01cae",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "д": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0434-01.glif",
+          "label": "Острый свод",
+          "variant": "01",
+          "status": "selected",
+          "advance": 416,
+          "bounds": [
+            33,
+            -215,
+            391,
+            516
+          ],
+          "glif_sha256": "9868fedcfd8689628c53eb676d60a111f47454cfd876bd400c4366021e6d8840",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0434",
+          "source_glyf_sha256": "7b42c3651455bd27efb05bbbafdc7fe24504990a4362811ce436c034a588e73e",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "ж": {
+      "selected": "cyr11",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0436-cyr11.glif",
+          "label": "Cyr11 / импорт",
+          "variant": "cyr11",
+          "status": "selected",
+          "advance": 552,
+          "bounds": [
+            -2.142857142857143,
+            0,
+            551.8,
+            510
+          ],
+          "glif_sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0436",
+          "source_glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "user/Claude Cyr11; integrated and retained by Codex"
+    },
+    "з": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0437-01.glif",
+          "label": "Открытый терминал",
+          "variant": "01",
+          "status": "selected",
+          "advance": 349,
+          "bounds": [
+            24,
+            -9,
+            326,
+            516
+          ],
+          "glif_sha256": "98c61272897a5dce16166ec6e02a661f8d9ae62bd609ebb8b63313a148dbbe81",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0437",
+          "source_glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "и": {
+      "selected": "02",
+      "shared_with_claude": true,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0438-02.glif",
+          "label": "Родная u",
+          "variant": "02",
+          "status": "selected",
+          "advance": 454,
+          "bounds": [
+            11,
+            -9,
+            439,
+            510
+          ],
+          "glif_sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0438",
+          "source_glyf_sha256": "b2291c418e92333b5a9f8066d3898467b9cb39e8ac1656d36cedd1a6970932c8",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "й": {
+      "selected": null,
+      "shared_with_claude": true,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0439-01.glif",
+          "label": "Родная кратка",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 454,
+          "bounds": [
+            11,
+            -9,
+            439,
+            730
+          ],
+          "glif_sha256": "45fd9e4030194c14a38ff02a0b9b6402be52c4174bcbab3f52f9b160891a7373",
+          "source_file": "studies/regular/shorti/shorti-01.ttf",
+          "source_glyph": "uni0439",
+          "source_glyf_sha256": "6cec2fb210fb2a290beb25ab6af9ee18666c5009b925fa84df387dd775314c0f",
+          "source_file_sha256": "7bafae9ae62a761912d176e534a6b4736cbb79bd60416ae8e844017feb95f5ea"
+        },
+        {
+          "path": "data/codex/uni0439-02.glif",
+          "label": "Компактная",
+          "variant": "02",
+          "status": "unselected",
+          "advance": 454,
+          "bounds": [
+            11,
+            -9,
+            439,
+            665
+          ],
+          "glif_sha256": "03006d7cd8f3deac813f2d51298080d96c2f58af0f3639c5db8a5ce1dd71120d",
+          "source_file": "studies/regular/shorti/shorti-02.ttf",
+          "source_glyph": "uni0439",
+          "source_glyf_sha256": "b3b88d7ca38c760e9b638a02b0b8b7288e5ead474e43c018245d49a457457731",
+          "source_file_sha256": "1432bc65b4da63516358d91175ed1d2790c5902f1c8a05ba3c5749ed02f40a17"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "к": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": true,
+      "variants": [
+        {
+          "path": "data/codex/uni043A-01.glif",
+          "label": "Головка u",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 451,
+          "bounds": [
+            15,
+            0,
+            451,
+            510
+          ],
+          "glif_sha256": "a0e8c6e84d89ffeae925775aaa995fe62862badd59ac8c194ce8028d4a9a0422",
+          "source_file": "studies/regular/ka/ka-01.ttf",
+          "source_glyph": "uni043A",
+          "source_glyf_sha256": "e6917a59b3c423469d1fe8ffa19fabc13f3605af25660521285868184418ca15",
+          "source_file_sha256": "e0c2b9b3e1a96e10de594983c4c902c393270fd72ca8d9d081db2d3f09fde3d0"
+        },
+        {
+          "path": "data/codex/uni043A-02.glif",
+          "label": "Головка k",
+          "variant": "02",
+          "status": "unselected",
+          "advance": 451,
+          "bounds": [
+            15,
+            0,
+            451,
+            510
+          ],
+          "glif_sha256": "85d3706448db20423efab188f1de363cff31ff2db1b084df874c38ab4ad506b3",
+          "source_file": "studies/regular/ka/ka-02.ttf",
+          "source_glyph": "uni043A",
+          "source_glyf_sha256": "225943a0bbe1e3ac3da15916ddeaf155c93d24cb779f082971ba60d2a96ab862",
+          "source_file_sha256": "f33f431eb7d5402abbd9562bcfad413a57e8530dea8eb3dd3421d2d18cec3d3a"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "т": {
+      "selected": "02",
+      "shared_with_claude": false,
+      "conflict": true,
+      "variants": [
+        {
+          "path": "data/codex/uni0442-02.glif",
+          "label": "Письменный выход",
+          "variant": "02",
+          "status": "selected",
+          "advance": 718,
+          "bounds": [
+            15,
+            -9,
+            707,
+            516
+          ],
+          "glif_sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0442",
+          "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "э": {
+      "selected": "02",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni044D-02.glif",
+          "label": "Капля a — ниже",
+          "variant": "02",
+          "status": "selected",
+          "advance": 368,
+          "bounds": [
+            23,
+            -9,
+            343,
+            516
+          ],
+          "glif_sha256": "3e3f33d26eac98aa6ca9d521e20e58730cdb756ce17820969f38c3ac435a6f75",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni044D",
+          "source_glyf_sha256": "82b9421439280681507ab1374d53af3a3b1b3c14e4d3f0f660188b5765ae3c55",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    }
+  },
+  "shared_review": {
+    "codex_branch": "codex/cyrillic-studies",
+    "codex_source_commit": "a12a9a486a06b0dd63a0e984acc5fb0a41ad611d",
+    "claude_base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
+    "conflicts": [
+      "т",
+      "к"
+    ],
+    "open_codex_choices": [
+      "в",
+      "й",
+      "к"
+    ],
+    "selected_ereversed": "02; direct user choice: оставь 02",
+    "count_meaning": "Available drawings, including undecided alternatives; not production-ready or approved coverage.",
+    "missing_notes": {
+      "ф": "Авторский SVG есть; пока не интегрирован"
+    }
+  }
 }

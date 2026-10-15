@@ -1,0 +1,4 @@
+
+# Preserve generated SVG formatting and upstream license text.
+docs/img/*.svg -whitespace
+data/codex/OFL.txt -whitespace
