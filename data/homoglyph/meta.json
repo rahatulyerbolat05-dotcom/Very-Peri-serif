@@ -155,6 +155,18 @@
    516
   ]
  },
+ "ё": {
+  "latin": "edieresis",
+  "glyph": "io-cy",
+  "unicode": "U+0451",
+  "adv": 355,
+  "bounds": [
+   23,
+   -9,
+   337,
+   706
+  ]
+ },
  "о": {
   "latin": "o",
   "glyph": "o-cy",
@@ -246,6 +258,17 @@
    -9,
    330,
    516
+  ]
+ },
+ "io-cy.ss01": {
+  "latin": "edieresis.ss01",
+  "glyph": "io-cy.ss01",
+  "adv": 355,
+  "bounds": [
+   23,
+   -9,
+   330,
+   706
   ]
  }
 }
