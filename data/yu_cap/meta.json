@@ -1,0 +1,41 @@
+{
+ "Yu1": {
+  "adv": 715,
+  "xmin": 19.0,
+  "xmax": 675.0,
+  "ymin": -9.0,
+  "ymax": 730.0,
+  "label": "Yu1  связь 55",
+  "contours": 2,
+  "link": 55.0,
+  "bar_t": 30.0,
+  "center": 361.0,
+  "min_gap_serif_oval": 55.0
+ },
+ "Yu2": {
+  "adv": 740,
+  "xmin": 19.0,
+  "xmax": 700.0,
+  "ymin": -9.0,
+  "ymax": 730.0,
+  "label": "Yu2  связь 80",
+  "contours": 2,
+  "link": 80.0,
+  "bar_t": 30.0,
+  "center": 361.0,
+  "min_gap_serif_oval": 80.0
+ },
+ "Yu3": {
+  "adv": 765,
+  "xmin": 19.0,
+  "xmax": 725.0,
+  "ymin": -9.0,
+  "ymax": 730.0,
+  "label": "Yu3  связь 105",
+  "contours": 2,
+  "link": 105.0,
+  "bar_t": 30.0,
+  "center": 361.0,
+  "min_gap_serif_oval": 105.0
+ }
+}

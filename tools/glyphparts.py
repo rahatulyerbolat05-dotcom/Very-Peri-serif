@@ -411,3 +411,30 @@ def sha_cap_sign(ref, pitch=250.0, bar_t=30.0):
     info = {"pitch": pitch, "bar_t": bar_t, "adv": adv, "top_pieces": [(round(a), round(b)) for a, b in xs],
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def yu_cap_sign(ref, link=55.0, bar_t=30.0, center=361.0):
+    """Заглавная Ю (карточка docs/glyphs/yu_cap.md): стойка слева (левая половина H без перекладины, головные и опорные засечки H), тонкая горизонталь и овал справа (О оригинала без масштаба).
+    Овал не касается стойки: расстояние от правого края стойки (160) до левого края овала (у О 40) равно link; горизонталь входит в овал на 8.
+    Центр горизонтали по центру овала (как у строчной ю): (730 + (−9)) / 2 = 360,5. Поля: 19 слева (как у H), 40 справа (как у О)."""
+    H, O = ref.glyph("H"), ref.glyph("O")
+    stem = SUB(AND(H, rect(-100, -50, 273, 800)), rect(160, 330, 300, 410))
+    ox = 160.0 + link - 40.0
+    oval = shift(O, ox)
+    bar = rect(160.0 - 4.0, center - bar_t / 2, ox + 40.0 + 8.0, center + bar_t / 2)
+    path = OR(stem, bar, oval); path.simplify()
+    # наименьший просвет между стойкой (с засечками) и овалом по горизонтальным срезам (шаг 5)
+    def span(p, y):
+        s = AND(p, rect(-100, y - 0.5, 2000, y + 0.5)); r = []
+        for c in s.contours:
+            xs = [pt[0] for sg in c.segments for pt in sg[1]]; r.append((min(xs), max(xs)))
+        return sorted(r)
+    gap = 1e9
+    for y in range(0, 721, 5):
+        a, b = span(stem, y), span(oval, y)
+        if a and b: gap = min(gap, b[0][0] - a[-1][1])
+    gap = round(gap, 1)
+    adv = round(path.bounds[2] + 40.0)
+    info = {"link": link, "bar_t": bar_t, "center": center, "min_gap_serif_oval": gap, "adv": adv,
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info

@@ -136,6 +136,10 @@
     "Ш": [
       "data/sha_cap/Sh1.glif",
       "Sh1"
+    ],
+    "Ю": [
+      "data/yu_cap/Yu1.glif",
+      "Yu1"
     ]
   },
   "latin_donor": [
