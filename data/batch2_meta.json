@@ -27,21 +27,12 @@
   "contours": 1
  },
  "ef": {
-  "adv": 406,
+  "adv": 560,
   "xmin": 23,
-  "xmax": 383,
+  "xmax": 537,
   "ymin": -205,
   "ymax": 740,
-  "label": "ф",
-  "contours": 3
- },
- "ef2": {
-  "adv": 518,
-  "xmin": 23,
-  "xmax": 495,
-  "ymin": -205,
-  "ymax": 740,
-  "label": "ф из двух эллипсов",
+  "label": "ф по образцу автора",
   "contours": 3
  },
  "A": {

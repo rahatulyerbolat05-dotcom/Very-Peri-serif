@@ -326,3 +326,34 @@ def ef2_sign(ref, a_e=135.0, wall=72.0, hair=25.0, stem=68.0):
     path = OR(ring(cL), ring(cR), top, bot, st)
     dx = 23.0 - path.bounds[0]
     return shift(path, dx)
+
+
+def _superellipse(cx, cy, a, b, n, steps=240):
+    """Суперэллипс |x/a|^n + |y/b|^n = 1 (n=2 эллипс, больше 2 квадратнее) ломаной."""
+    p = Path(); q = p.getPen()
+    for i in range(steps):
+        t = 2 * math.pi * i / steps
+        c, s = math.cos(t), math.sin(t)
+        x = cx + a * math.copysign(abs(c) ** (2 / n), c); y = cy + b * math.copysign(abs(s) ** (2 / n), s)
+        (q.moveTo if i == 0 else q.lineTo)((x, y))
+    q.closePath(); return p
+
+def ef3_sign(ref, a_o=170.0, a_i=100.0, n_o=2.2, n_i=2.2, hair=25.0, stem=68.0, axis=257.0):
+    """Строчная ф по образцу автора проекта (docs/img/author_ef_reference.svg, 15.10.2026), нарисована заново из параметров, не обводкой.
+    По замерам образца: стойка 68 (x 223–291, ось 257), боковая стенка овалов 61, верх и низ колец 25, высота 516 / −9, ширина 514;
+    овалы это не эллипсы, а квадратнее: верх плоский доходит до стойки, контрформа «D» прижата прямым краем к стойке.
+    Построение: левый овал = левая половина большого суперэллипса (центр a_o, левый край 0), срезанная осью стойки; контрформа так же (левый край 61);
+    правый овал зеркало левого. Параметры подобраны сеткой по минимуму площади расхождения овалов с образцом.
+    Сверху стойка от l (740, флажок), снизу от p (−205, опорная засечка)."""
+    L, P = ref.glyph("l"), ref.glyph("p")
+    cy = (516.0 - 9.0) / 2; b = (516.0 + 9.0) / 2
+    half = rect(-100, -100, axis, 700)
+    outer = AND(_superellipse(a_o, cy, a_o, b, n_o), half)
+    inner = AND(_superellipse(61.0 + a_i, cy, a_i, b - hair, n_i), half)
+    ringL = SUB(outer, inner)
+    ringR = tf(ringL, (-1, 0, 0, 1, 2 * axis, 0))
+    top = shift(AND(L, rect(-50, 380, 400, 800)), axis - 108.0)
+    bot = shift(AND(P, rect(-50, -300, 400, -20)), axis - 107.0)
+    st = rect(axis - stem / 2, -150.0, axis + stem / 2, 600.0)
+    path = OR(ringL, ringR, top, bot, st)
+    return shift(path, 23.0 - path.bounds[0])

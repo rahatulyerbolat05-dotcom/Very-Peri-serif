@@ -60,6 +60,10 @@
     "Ж": [
       "data/zhe/zhe.glif",
       "Ж"
+    ],
+    "ф": [
+      "data/ef/ef.glif",
+      "по образцу автора"
     ]
   },
   "latin_donor": [
