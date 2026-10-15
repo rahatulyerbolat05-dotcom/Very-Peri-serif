@@ -89,12 +89,12 @@
     "в": "01 selected by user; 02 retained as alternative",
     "д": "01 Острый свод selected;02 Перьевой поворот retained as separate alternative. Exact accepted contour pinned.",
     "й": "01/02 unresolved; both survive in trial combinations",
-    "к": "01 selected by user; 02 retained as alternative",
+    "к": "02 inclined k head selected by user image; 01 retained as alternative",
     "т": "02 Письменный выход selected as primary;01 Родные арки selected as alternative style, retained in separate font. Claude t1 added as ss08.",
     "э": "Refined02 Капля a — ниже selected as primary; refined01 Капля a — выше retained separately as alternative. Previous pair rejected and retained in history. Exact accepted contour pinned.",
     "current_user_choices": {
       "в": "Codex01",
-      "к": "Codex01",
+      "к": "Codex02",
       "т": "Codex02",
       "ka_short": {
         "source": "Claude",
@@ -3933,9 +3933,9 @@
         }
       ],
       "design_status": {
-        "status": "selected_primary_01",
-        "primary_variant": "01",
-        "technical_default_variant": null,
+        "status": "selected_primary_02",
+        "primary_variant": "02",
+        "technical_default_variant": "02",
         "final_contour_acceptance": "selected by user",
         "kerning": "Cyrillic and mixed pairs not finalized"
       },
@@ -3943,7 +3943,7 @@
         {
           "id": "01",
           "name": "Головка u",
-          "selection_status": "primary_selected_by_user",
+          "selection_status": "retained_alternative",
           "glyph": "uni043A",
           "combined_glyph": "uni043A",
           "feature": null,
@@ -4067,7 +4067,7 @@
         {
           "id": "02",
           "name": "Наклонная головка k",
-          "selection_status": "retained_alternative",
+          "selection_status": "primary_selected_by_user",
           "glyph": "uni043A",
           "combined_glyph": "uni043A",
           "feature": null,
@@ -4265,7 +4265,7 @@
           "application": "Нижняя левая засечка k сохранена в обоих вариантах."
         }
       ],
-      "current_user_choice": "Codex01"
+      "current_user_choice": "Codex02"
     },
     {
       "glyph": "uni0442",

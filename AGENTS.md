@@ -19,7 +19,7 @@ while adding letters. De-reimagined02 is retained separately as an alternative.
 Historical native-g, printed pedestal and de-cursive drawings remain retained
 but rejected. The user selected т02 «Письменный выход» as primary and
 т01 «Родные арки» as the alternative style. Pin both through
-data/selected-te.json. Primary в is Codex01; primary к is Codex01. Claude ka_short is a calt alternate before a following top-left head serif; Claude t1 is ss08. Only й remains unselected.
+data/selected-te.json. Primary в is Codex01; primary к is Codex02. Claude ka_short is a calt alternate before a following top-left head serif; Claude t1 is ss08. Only й remains unselected.
 The primary г «Капля» is explicitly reaffirmed; «Клюв» remains ss05.
 The first э drawings (ereversed) were rejected for uneven upper curves and
 an insufficiently clear drop. The user selected ereversed-refined02

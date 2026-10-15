@@ -103,8 +103,8 @@
       "variant": "01"
     },
     "к": {
-      "primary": "Головка u",
-      "variant": "01",
+      "primary": "Наклонная головка k",
+      "variant": "02",
       "contextual_alternate": "Claude ka_short; calt before following top-left head serif"
     }
   },

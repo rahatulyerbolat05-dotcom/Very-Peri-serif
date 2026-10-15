@@ -83,5 +83,5 @@ def build(base,label):
 
 if __name__=='__main__':
     OUT.mkdir(parents=True,exist_ok=True)
-    reports=[build(ROOT/'studies/regular/ereversed-refined'/sub/'ereversed-02.ttf',label) for sub,label in [('', 'shorti01'),('with-ka01-shorti02','shorti02')]]
+    reports=[build(ROOT/'studies/regular/ereversed-refined'/sub/'ereversed-02.ttf',label) for sub,label in [('with-ka02-shorti01', 'shorti01'),('with-ka02-shorti02','shorti02')]]
     (OUT/'verification.json').write_text(json.dumps(reports,ensure_ascii=False,indent=2)+'\n');print(json.dumps(reports,ensure_ascii=False))
