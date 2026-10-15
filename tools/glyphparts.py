@@ -232,6 +232,11 @@ def en_sign(ref, head="flag", bar_t=27.0, center=264.0, spacing=250.0):
         # к y=62 (как в ы, tools/sketch_yery.py): без наплыва там, где в стойку u вливается её чаша
         taper = _u_taper(U_STEM_LEFT)
         part = OR(AND(U, rect(250, 400, 500, 700)), AND(U, taper))
+        # левый край стойки прямой вертикалью по всей длине (сужение 312 -> 317 убрано): добавка от y=175 вниз до y=7, затем кривая в точку (326, -5), в которой
+        # родная нижняя кривая ножки u (управляющая (317, -5), конец (326, -5)) продолжается дальше; край и кривая идут как у оригинала, без ломаных
+        fix = Path(); q = fix.getPen()
+        q.moveTo((U_STEM_LEFT, 175)); q.lineTo((U_STEM_LEFT, 7)); q.qCurveTo((U_STEM_LEFT, -5), (326, -5)); q.lineTo((326, 175)); q.closePath()
+        part = OR(part, fix); part.simplify()
         return shift(part, sx - U_STEM_LEFT)
     if head == "mix":
         stem = None
