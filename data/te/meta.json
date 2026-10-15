@@ -1,0 +1,41 @@
+{
+ "t1": {
+  "adv": 358,
+  "xmin": 20.0,
+  "xmax": 338.0,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "t1  вылет 125",
+  "contours": 1,
+  "overhang": 125.0,
+  "serif_depth": 70.0,
+  "bar_t": 27.0,
+  "stem": 68.0
+ },
+ "t2": {
+  "adv": 408,
+  "xmin": 20.0,
+  "xmax": 388.0,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "t2  вылет 150",
+  "contours": 1,
+  "overhang": 150.0,
+  "serif_depth": 70.0,
+  "bar_t": 27.0,
+  "stem": 68.0
+ },
+ "t3": {
+  "adv": 458,
+  "xmin": 20.0,
+  "xmax": 438.0,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "t3  вылет 175",
+  "contours": 1,
+  "overhang": 175.0,
+  "serif_depth": 70.0,
+  "bar_t": 27.0,
+  "stem": 68.0
+ }
+}

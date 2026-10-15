@@ -163,3 +163,26 @@ def em_sign(ref, apex=26.0, lean_deg=2.0, gamma_deg=16.0, t_l=30.0, t_r=68.0, t_
     info = {"apex": apex, "head_l": head_l, "lean_deg": lean_deg, "gamma_deg": gamma_deg, "weights": [t_l, t_r, t_d1, t_d2],
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0):
+    """Строчная т (карточка docs/glyphs/te.md): горизонталь с засечками вниз на обоих концах и центральная стойка с опорной засечкой.
+    Конец горизонтали тот же, что у ъ (K2, hard_sign): одним контуром, верхний угол закруглён, скобка засечки по замеру T
+    (ширина 70 на глубине 40, 54 на 100, 37 на 140). Ножка: нижняя часть ı (опорная засечка F2), стойка ı 79–147 (68).
+    overhang: вылет горизонтали от края стойки до кончика; каждый конец одинаковый (зеркало относительно оси стойки)."""
+    I = ref.glyph("dotlessi")
+    top, bot = 510.0, 510.0 - bar_t
+    cx = overhang + stem / 2; tx = 0.0
+    p = Path(); q = p.getPen(); yb = bot - serif_depth
+    q.moveTo((tx, top - 10)); q.qCurveTo((tx, top), (tx + 10, top)); q.lineTo((cx, top)); q.lineTo((cx, bot))
+    q.lineTo((tx + 110, bot)); q.qCurveTo((tx + 42, bot), (tx + 36, yb + 14))
+    q.qCurveTo((tx + 36, yb), (tx + 18, yb)); q.qCurveTo((tx, yb), (tx, yb + 14))
+    q.closePath()
+    right = tf(p, (-1, 0, 0, 1, 2 * cx, 0))
+    lower = shift(AND(I, rect(-50, -50, 400, 300)), cx - 113.0)                    # ножка ı: стойка 79–147 → вокруг оси cx
+    stem_r = rect(cx - stem / 2, 200, cx + stem / 2, bot + 1)
+    path = OR(p, right, lower, stem_r)
+    dx = 20 - path.bounds[0]; path = shift(path, dx)
+    info = {"overhang": overhang, "serif_depth": serif_depth, "bar_t": bar_t, "stem": stem,
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
