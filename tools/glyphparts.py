@@ -212,11 +212,20 @@ def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="s
 def en_sign(ref, head="flag", bar_t=27.0, center=264.0, spacing=250.0):
     """Строчная н (карточка docs/glyphs/en.md): две стойки и перекладина по середине высоты x, H-образная (инструкция, раздел 7).
     Стойки это ı оригинала (головной флажок F1 и опорная засечка F2 уже в нём), без масштаба, на расстоянии spacing между левыми краями
-    (у n: 74 и 324, spacing 250). head: "flag" (флажок ı на обеих стойках) или "u" (плоская головка u слева от стойки).
+    (у n: 74 и 324, spacing 250). head: "flag" (флажок ı на обеих стойках), "u" (плоская головка u слева от стойки) или "mix" (по просьбе автора проекта: слева ı с флажком и ножкой, справа стойка u с головкой и хвостом-выходом, как у латинской u).
     Перекладина: толщина bar_t (H: 30, e: 25), центр center = 51,8% высоты x (H: центр перекладины 373 при высоте 720, то есть выше середины)."""
     I, U = ref.glyph("dotlessi"), ref.glyph("u")
+    U_STEM_LEFT = 312.0                                                 # левый край правой стойки u
     sx0, sx1 = 79.0 - 5.0, 79.0 - 5.0 + spacing                         # левые края стоек (ı: стойка 79–147, сдвиг −5: левая 74, как у n)
-    if head == "flag":
+    def u_right(sx):
+        # правая стойка u: головка слева от стойки, ножка с хвостом-выходом вправо (F3); ниже y=400 левый край прямой от 312 с плавным сужением до 317
+        # к y=62 (как в ы, tools/sketch_yery.py): без наплыва там, где в стойку u вливается её чаша
+        taper = poly((U_STEM_LEFT, 400), (U_STEM_LEFT, 150), (317, 62), (317, -50), (500, -50), (500, 400))
+        part = OR(AND(U, rect(250, 400, 500, 700)), AND(U, taper))
+        return shift(part, sx - U_STEM_LEFT)
+    if head == "mix":
+        stem = None
+    elif head == "flag":
         stem = lambda sx: shift(I, sx - 79.0)
     else:
         def stem(sx):
@@ -224,7 +233,7 @@ def en_sign(ref, head="flag", bar_t=27.0, center=264.0, spacing=250.0):
             top = shift(AND(U, rect(-50, 400, 70, 700)), sx - 70.0)
             return OR(low, top, rect(sx, 395, sx + 68, 510))
     bar = rect(sx0 + 64.0, center - bar_t / 2, sx1 + 4.0, center + bar_t / 2)
-    path = OR(stem(sx0), stem(sx1), bar)
+    path = OR(shift(I, sx0 - 79.0), u_right(sx1), bar) if head == "mix" else OR(stem(sx0), stem(sx1), bar)
     info = {"head": head, "bar_t": bar_t, "center": center, "spacing": spacing,
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
