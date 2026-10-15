@@ -35,7 +35,7 @@ def OR(*ps):
     r = ps[0]
     for p in ps[1:]: r = pathops.op(r, p, PathOp.UNION)
     return r
-def soften(path, r_convex, r_concave, res=24):
+def soften(path, r_convex, r_concave, res=64):
     """Смягчение контура (shapely): внутренние углы скругляются радиусом r_concave (закрытие), внешние r_convex (раскрытие).
     Детали уже r_convex*2 пропадают, поэтому r_convex держать меньше половины самой тонкой детали (кончики засечек 20+).
     Контур становится ломаной (шаг мелкий): для эскиза и сравнения, не для финала."""
@@ -64,7 +64,7 @@ def soften(path, r_convex, r_concave, res=24):
     geom = unary_union(polys)
     if r_concave: geom = geom.buffer(r_concave, res).buffer(-r_concave, res)
     if r_convex: geom = geom.buffer(-r_convex, res).buffer(r_convex, res)
-    geom = geom.simplify(0.15)
+    geom = geom.simplify(0.03)
     out = Path(); pen = out.getPen()
     for g in (geom.geoms if hasattr(geom, "geoms") else [geom]):
         g = orient(g, sign=-1.0)

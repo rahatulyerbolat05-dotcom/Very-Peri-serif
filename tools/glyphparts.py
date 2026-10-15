@@ -165,17 +165,23 @@ def em_sign(ref, apex=26.0, lean_deg=2.0, gamma_deg=16.0, t_l=30.0, t_r=68.0, t_
     return path, info
 
 
-def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="serif"):
+def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="serif", ear_w=35.0, fillet=28.0):
     """Строчная т (карточка docs/glyphs/te.md): горизонталь с засечками вниз на обоих концах и центральная стойка с опорной засечкой.
     Конец горизонтали тот же, что у ъ (K2, hard_sign): одним контуром, верхний угол закруглён, скобка засечки по замеру T
     (ширина 70 на глубине 40, 54 на 100, 37 на 140). Ножка: нижняя часть ı (опорная засечка F2), стойка ı 79–147 (68).
     overhang: вылет горизонтали от края стойки до кончика; каждый конец одинаковый (зеркало относительно оси стойки).
-    ear: "serif" (засечка вниз, как у ъ K2) или "drop" (каплевидное ушко F5: на конце горизонтали капля радиуса 30, свисающая на 40 ниже, сопряжение скруглено)."""
+    ear: "serif" (засечка вниз, как у ъ K2), "user" (ушко по наброску автора проекта: вертикальный внешний край, круглый низ шириной ear_w, большое сопряжение fillet с низом горизонтали, глубина serif_depth) или "drop" (каплевидное ушко F5: на конце горизонтали капля радиуса 30, свисающая на 40 ниже, сопряжение скруглено)."""
     I = ref.glyph("dotlessi")
     top, bot = 510.0, 510.0 - bar_t
     cx = overhang + stem / 2; tx = 0.0
     p = Path(); q = p.getPen(); yb = bot - serif_depth
-    if ear == "drop":
+    if ear == "user":
+        rr = ear_w / 2
+        cap = Path(); cq = cap.getPen()
+        cq.moveTo((tx, top - 13)); cq.qCurveTo((tx, top), (tx + 13, top)); cq.lineTo((cx, top)); cq.lineTo((cx, bot)); cq.lineTo((tx + ear_w, bot))
+        cq.lineTo((tx + ear_w, yb + rr)); _arc(cq, tx + rr, yb + rr, rr, rr, 0.0, -math.pi, n=6); cq.lineTo((tx, yb + rr)); cq.closePath()
+        p = soften(cap, 0, fillet)
+    elif ear == "drop":
         rd = 30.0; ccx, ccy = tx + rd, bot - 10.0
         q.moveTo((tx, top - 10)); q.qCurveTo((tx, top), (tx + 10, top)); q.lineTo((cx, top)); q.lineTo((cx, bot)); q.lineTo((tx + rd, bot)); q.lineTo((tx, bot)); q.closePath()
         ball = Path(); bq = ball.getPen(); _ep = ccx, ccy
