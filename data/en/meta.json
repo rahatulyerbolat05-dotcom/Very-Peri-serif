@@ -1,0 +1,41 @@
+{
+ "n1": {
+  "adv": 468,
+  "xmin": 10.0,
+  "xmax": 457.0,
+  "ymin": 0.0,
+  "ymax": 513.0,
+  "label": "n1  flag, перекладина 27",
+  "contours": 1,
+  "head": "flag",
+  "bar_t": 27.0,
+  "center": 264.0,
+  "spacing": 250.0
+ },
+ "n2": {
+  "adv": 468,
+  "xmin": 10.0,
+  "xmax": 457.0,
+  "ymin": 0.0,
+  "ymax": 510.0,
+  "label": "n2  u, перекладина 27",
+  "contours": 1,
+  "head": "u",
+  "bar_t": 27.0,
+  "center": 264.0,
+  "spacing": 250.0
+ },
+ "n3": {
+  "adv": 468,
+  "xmin": 10.0,
+  "xmax": 457.0,
+  "ymin": 0.0,
+  "ymax": 513.0,
+  "label": "n3  flag, перекладина 30",
+  "contours": 1,
+  "head": "flag",
+  "bar_t": 30.0,
+  "center": 264.0,
+  "spacing": 250.0
+ }
+}

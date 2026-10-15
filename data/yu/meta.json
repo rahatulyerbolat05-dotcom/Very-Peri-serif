@@ -1,0 +1,41 @@
+{
+ "yu1": {
+  "adv": 587,
+  "xmin": 15.0,
+  "xmax": 562.0,
+  "ymin": -9.0,
+  "ymax": 516.0,
+  "label": "yu1  связь 55",
+  "contours": 2,
+  "link": 55.0,
+  "bar_t": 25.0,
+  "center": 254.0,
+  "stem_touches_oval": false
+ },
+ "yu2": {
+  "adv": 612,
+  "xmin": 15.0,
+  "xmax": 587.0,
+  "ymin": -9.0,
+  "ymax": 516.0,
+  "label": "yu2  связь 80",
+  "contours": 2,
+  "link": 80.0,
+  "bar_t": 25.0,
+  "center": 254.0,
+  "stem_touches_oval": false
+ },
+ "yu3": {
+  "adv": 637,
+  "xmin": 15.0,
+  "xmax": 612.0,
+  "ymin": -9.0,
+  "ymax": 516.0,
+  "label": "yu3  связь 105",
+  "contours": 2,
+  "link": 105.0,
+  "bar_t": 25.0,
+  "center": 254.0,
+  "stem_touches_oval": false
+ }
+}

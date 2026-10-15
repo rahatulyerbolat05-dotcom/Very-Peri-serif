@@ -207,3 +207,41 @@ def te_sign(ref, overhang=150.0, serif_depth=70.0, bar_t=27.0, stem=68.0, ear="s
     info = {"overhang": overhang, "serif_depth": serif_depth, "bar_t": bar_t, "stem": stem, "ear": ear,
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def en_sign(ref, head="flag", bar_t=27.0, center=264.0, spacing=250.0):
+    """Строчная н (карточка docs/glyphs/en.md): две стойки и перекладина по середине высоты x, H-образная (инструкция, раздел 7).
+    Стойки это ı оригинала (головной флажок F1 и опорная засечка F2 уже в нём), без масштаба, на расстоянии spacing между левыми краями
+    (у n: 74 и 324, spacing 250). head: "flag" (флажок ı на обеих стойках) или "u" (плоская головка u слева от стойки).
+    Перекладина: толщина bar_t (H: 30, e: 25), центр center = 51,8% высоты x (H: центр перекладины 373 при высоте 720, то есть выше середины)."""
+    I, U = ref.glyph("dotlessi"), ref.glyph("u")
+    sx0, sx1 = 79.0 - 5.0, 79.0 - 5.0 + spacing                         # левые края стоек (ı: стойка 79–147, сдвиг −5: левая 74, как у n)
+    if head == "flag":
+        stem = lambda sx: shift(I, sx - 79.0)
+    else:
+        def stem(sx):
+            low = shift(AND(I, rect(-50, -50, 400, 400)), sx - 79.0)
+            top = shift(AND(U, rect(-50, 400, 70, 700)), sx - 70.0)
+            return OR(low, top, rect(sx, 395, sx + 68, 510))
+    bar = rect(sx0 + 64.0, center - bar_t / 2, sx1 + 4.0, center + bar_t / 2)
+    path = OR(stem(sx0), stem(sx1), bar)
+    info = {"head": head, "bar_t": bar_t, "center": center, "spacing": spacing,
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
+
+
+def yu_sign(ref, link=60.0, bar_t=25.0, center=254.0):
+    """Строчная ю (карточка docs/glyphs/yu.md): стойка слева (ı), тонкая соединительная горизонталь и овал справа (о оригинала без масштаба).
+    Овал равен о по высоте и овершуту (инструкция: ю); овал не касается стойки: между правым краем стойки и левым краем овала 'link',
+    горизонталь входит в овал на 8, засечка ı до овала не доходит (проверяется)."""
+    I, O = ref.glyph("dotlessi"), ref.glyph("o")
+    stem_r = 147.0
+    ox = stem_r + link - 23.0                                           # у о левый край 23
+    oval = shift(O, ox)
+    bar = rect(stem_r - 4, center - bar_t / 2, ox + 23.0 + 8.0, center + bar_t / 2)
+    path = OR(I, bar, oval)
+    foot_gap = AND(shift(I, 0), oval)                                    # проверка: стойка и овал не пересекаются
+    touch = bool(list(foot_gap.contours))
+    info = {"link": link, "bar_t": bar_t, "center": center, "stem_touches_oval": touch,
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
