@@ -9,7 +9,7 @@
 import json, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from sketchlib import *
-from glyphparts import soft_sign
+from glyphparts import soft_sign, _u_edge_fix
 
 ref = Ref(); os.makedirs("build/yery", exist_ok=True); os.makedirs("data/yery", exist_ok=True)
 U = ref.glyph("u")
@@ -21,7 +21,8 @@ def right_stem(bowl_r):
     # левый край ниже: 312 до y=150, затем плавное сужение до 317 к y=62 (там у u начинается прямой край ножки x=317, измерено);
     # прямой срез по 312 давал ступеньку в 5 единиц на стыке
     taper = poly((U_STEM_LEFT, 400), (U_STEM_LEFT, 150), (317, 62), (317, -50), (500, -50), (500, 400))
-    part = OR(AND(U, rect(250, 400, 500, 700)), AND(U, taper))
+    part = OR(AND(U, rect(250, 400, 500, 700)), AND(U, taper), _u_edge_fix())   # левый край прямой вертикалью по всей длине (без сужения 312 -> 317)
+    part.simplify()
     return shift(part, bowl_r + GAP - U_STEM_LEFT)
 
 VAR = {"Y1": ("flag", "Y1  ь с флажком, стойка как у u"), "Y2": ("u", "Y2  обе головки как у u")}

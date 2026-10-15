@@ -60,3 +60,7 @@ feature calt {
 ## Файлы
 
 `data/context/serif_bl.json` (правило, критерий, класс, готовые основы), `tools/check_context_classes.py` (проверка), `data/pe/pe.glif`, `pe_flag.glif` (в эскизе кодовая точка PUA U+E002), `.svg`, `meta.json`; код: `tools/sketch_pe.py`, `tools/glyphparts.py`.
+
+## Правка 15.10.2026
+
+Левый край правой стойки `pe-cy.flag` теперь прямая вертикаль x=324 от головки до ножки (раньше сужалась на 5 единиц). Правило автора проекта, общая функция `_u_edge_fix` (`tools/glyphparts.py`); п.flag 67 узлов.
