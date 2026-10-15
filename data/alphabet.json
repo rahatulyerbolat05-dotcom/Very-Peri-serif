@@ -140,6 +140,18 @@
     "Ю": [
       "data/yu_cap/Yu1.glif",
       "Yu1"
+    ],
+    "Г": [
+      "data/ge_cap/G1.glif",
+      "G1"
+    ],
+    "Ц": [
+      "data/tse_cap/T2.glif",
+      "T2"
+    ],
+    "Ё": [
+      "data/homoglyph/Io-cy.glif",
+      "латинская Ë"
     ]
   },
   "latin_donor": [
@@ -160,6 +172,7 @@
     "р",
     "с",
     "х",
-    "у"
+    "у",
+    "Ё"
   ]
 }

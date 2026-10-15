@@ -23,6 +23,18 @@
    720
   ]
  },
+ "Ё": {
+  "latin": "Edieresis",
+  "glyph": "Io-cy",
+  "unicode": "U+0401",
+  "adv": 453,
+  "bounds": [
+   19,
+   0,
+   420,
+   916
+  ]
+ },
  "К": {
   "latin": "K",
   "glyph": "Ka-cy",

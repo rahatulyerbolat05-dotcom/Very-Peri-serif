@@ -125,7 +125,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `sketch_ge_tse_cap.py`, `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -212,11 +212,13 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | П | основа P1 (H без перекладины, верхняя горизонталь 30), P2 (27), P3 (34) запасные; ждёт подтверждения | `docs/glyphs/pe_cap.md` |
 | Ш | основа Sh1 (три стойки H, нижняя горизонталь 30, шаг 250), Sh2 (270), Sh3 (290) запасные; прямой низ, в отличие от строчной ш; ждёт подтверждения | `docs/glyphs/sha_cap.md` |
 | Ю | основа Yu1 (стойка H, горизонталь 30, овал О, связь 55), Yu2 (80), Yu3 (105) запасные; ждёт подтверждения | `docs/glyphs/yu_cap.md` |
+| Г | один вариант G1 (стойка H, верх и горизонталь с носиком от E без изменений); ждёт подтверждения | `docs/glyphs/ge_cap.md` |
+| Ц | основа T2 (хвост 140, D5 не измерен), T1 (100), T3 (205) запасные; ждёт подтверждения | `docs/glyphs/tse_cap.md` |
 | и | = латинская u (D30) | `docs/glyphs/ii.md` |
 | к | латинская k с заменённым выносным элементом (головка ı), изгибы оригинала сохранены; обязательная контекстная форма ka-cy.short (кончик верхней ветви срезан и скруглён); ждёт подтверждения автора проекта (D30) | `docs/glyphs/ka.md` |
 | ф | убрана из репозитория 15.10.2026 по просьбе автора проекта (в сессии контур искажался); автор проекта вставит свой вектор сам (через GPT); образцы: `docs/img/author_ef_reference.svg`, `docs/img/author_ef_vector.svg` (D30) | `docs/glyphs/ef.md` |
 | А | = латинская A (D30) | `docs/glyphs/A.md` |
 | Ж | правая половина K и зеркало (D30) | `docs/glyphs/zhe.md` |
-| В Е К М Н О Р С Т Х а е о р с у х | омоглифы из латиницы оригинала без редактирования, в UFO компонентами (D31) | `docs/glyphs/homoglyphs.md` |
+| В Е Ё К М Н О Р С Т Х а е о р с у х | омоглифы из латиницы оригинала без редактирования, в UFO компонентами (D31) | `docs/glyphs/homoglyphs.md` |
 | лл | отклонена автором проекта (D24 закрыто); эскизы d1–d3 только для истории | `docs/glyphs/el_double.md` |
 | м | основа m1 (вершина V 26, головки u), m2 и m3 запасные (D22); мягкая м: ms2 основа, ms1 и ms3 запасные (D23); латинская m откатена (D26) | `docs/glyphs/em.md` |

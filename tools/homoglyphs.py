@@ -8,7 +8,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from sketchlib import *
 ref = Ref(); os.makedirs("data/homoglyph", exist_ok=True)
 # (кириллица, латинский глиф, имя Glyphs, кодовая точка)
-PAIRS = [("В", "B", "Ve-cy", 0x412), ("Е", "E", "Ie-cy", 0x415), ("К", "K", "Ka-cy", 0x41A), ("М", "M", "Em-cy", 0x41C), ("Н", "H", "En-cy", 0x41D),
+PAIRS = [("В", "B", "Ve-cy", 0x412), ("Е", "E", "Ie-cy", 0x415), ("Ё", "Edieresis", "Io-cy", 0x401), ("К", "K", "Ka-cy", 0x41A), ("М", "M", "Em-cy", 0x41C), ("Н", "H", "En-cy", 0x41D),
          ("О", "O", "O-cy", 0x41E), ("Р", "P", "Er-cy", 0x420), ("С", "C", "Es-cy", 0x421), ("Т", "T", "Te-cy", 0x422), ("Х", "X", "Ha-cy", 0x425),
          ("а", "a", "a-cy", 0x430), ("е", "e", "ie-cy", 0x435), ("о", "o", "o-cy", 0x43E), ("р", "p", "er-cy", 0x440), ("с", "c", "es-cy", 0x441),
          ("у", "y", "u-cy", 0x443), ("х", "x", "ha-cy", 0x445)]
