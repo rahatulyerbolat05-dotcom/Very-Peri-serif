@@ -4,14 +4,14 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/ghe/context-with-te",
+  "latest_artifact": "studies/regular/ereversed",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
     {
       "path": "studies/README.md",
-      "sha256": "cf8f8f5afe040e9df094b6bd1067864aa8ecb4753f6767d75b3427ce68c40ab6",
-      "bytes": 2513
+      "sha256": "f73baff62ce9b7d157f2a55624bbda957e53e413f391ca8cf05c58db1d9f5824",
+      "bytes": 2690
     },
     {
       "path": "studies/archive/de-conventional/OFL.txt",
@@ -1592,6 +1592,171 @@
       "path": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.woff2",
       "sha256": "45c9644edb6893f83d72a80db0c7de18895c63442b5a1be3a7b9a3810f3bd8c5",
       "bytes": 29304
+    },
+    {
+      "path": "studies/regular/ereversed/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/ereversed/README.md",
+      "sha256": "2d6ae6a56f3cc548f08c050e35ebaeee02a44f4d4cb8a103add5e57628e74994",
+      "bytes": 5499
+    },
+    {
+      "path": "studies/regular/ereversed/approved-baseline.json",
+      "sha256": "ce59aca4571705cb43406a693d4537d06505b679ac02fa020eb767148ea32815",
+      "bytes": 1980
+    },
+    {
+      "path": "studies/regular/ereversed/comparison.svg",
+      "sha256": "b62c39bbe72d14e62b3558f8d5417b0402dd301ddacca1e44b2d08289181154d",
+      "bytes": 185959
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-01.glyphs",
+      "sha256": "52f9ab2486aeb7427faac5aa1b20bcd40a1798d89c6c2354c7aeebc43ac5fedd",
+      "bytes": 331623
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-01.svg",
+      "sha256": "e65547aebd27d337f8fa4b9234cba6336dff56951621e7f3590d988b956afbcd",
+      "bytes": 736
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-01.ttf",
+      "sha256": "145771de250162033af62c20e05821a43033ab6dbfa05dbf4c348c0f24ba936c",
+      "bytes": 74372
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-01.woff2",
+      "sha256": "876e980588b4d0d72b01e4717b9d9347d7417655af5d540515079ffb14f10dc6",
+      "bytes": 29432
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-02.glyphs",
+      "sha256": "db8b7bb824085f5ff1a466e9226912f3a7e6c7f9aa53cde2bca6e263fd79cfa7",
+      "bytes": 331595
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-02.svg",
+      "sha256": "3314a9f2c2682414aa58d1bc2c75c9d9304b80cbcd06f95023c97048d2362fc3",
+      "bytes": 715
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-02.ttf",
+      "sha256": "5ec94dc1c7c4c41c6b23ce19c19ff7bcf7cd93f0980eedda371e06ae118af3e8",
+      "bytes": 74352
+    },
+    {
+      "path": "studies/regular/ereversed/ereversed-02.woff2",
+      "sha256": "51c25a9b42677b46e3c1bc0aeba3e011c04e92b0c747e1fb03bec476a252d8e9",
+      "bytes": 29380
+    },
+    {
+      "path": "studies/regular/ereversed/metrics.json",
+      "sha256": "a3b66202db6fc36001875d64a21c0bbef0c22349670eccedb49ba83de119a304",
+      "bytes": 3747
+    },
+    {
+      "path": "studies/regular/ereversed/outline-audit.json",
+      "sha256": "988e888cf16daf12d46fb6cc5ad65044d643f7219163aabb9d9e635418122ebc",
+      "bytes": 1519
+    },
+    {
+      "path": "studies/regular/ereversed/sizes.svg",
+      "sha256": "a7b9cda53aa976439c1a2704d6f34d00a4c5c8b644dd4b2a356d2bdd274f7854",
+      "bytes": 98094
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.glyphs",
+      "sha256": "844fcb487653c00d118eca18ec9e2430f13f6fe4b25805b1a0edd519b7cc2cbf",
+      "bytes": 332235
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.ttf",
+      "sha256": "2162780a73f9ed60d320bfca362592b315a06e7feeca0c2874fb11c6cca1f12e",
+      "bytes": 74520
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.woff2",
+      "sha256": "13de995c6622416f26209fdcb76fcc6906ca7b4aa4a9dd17453d5f111c3533ec",
+      "bytes": 29468
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.glyphs",
+      "sha256": "3c0241ff49e9fc174e2fa4cb998adc8b6f1e3fe6ac583f76f4066a05a2c927fc",
+      "bytes": 332207
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.ttf",
+      "sha256": "4e5b21da300693a5a9038148d2c7774aac3b888862ee85108886a3401f90e6e1",
+      "bytes": 74496
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.woff2",
+      "sha256": "825173cc77732c0620adb8bac70c9b89c143d74b5eb421f43a947409ccfb2168",
+      "bytes": 29448
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.glyphs",
+      "sha256": "51d0faa1556221ac2704a76a01cce5a84423d1334ae852574b827889b92f4f1f",
+      "bytes": 331687
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.ttf",
+      "sha256": "a1a7a8e3a34e4e410bfc1db646f658c447480ddc9a2ab28e63e57837351b0191",
+      "bytes": 74388
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.woff2",
+      "sha256": "ce8d4c508f4b5f1b20e6bcb35e5a0e5772d23d02793ddbf66e36eeb70e1c1598",
+      "bytes": 29440
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.glyphs",
+      "sha256": "b364638b2dbc231f4d70e5e9c8acc11974241eac5dd72a80e60a56209bb0d6d2",
+      "bytes": 331659
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.ttf",
+      "sha256": "622dcbc06f63aef33f6b07957446e73b990a62ee548f04ef7360e57d37c55c27",
+      "bytes": 74364
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.woff2",
+      "sha256": "3907ad445547802f4975017a8c6ba5e3d20129fba3db03f483a354d28591f3a1",
+      "bytes": 29312
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.glyphs",
+      "sha256": "1a3226155e32686b849046c53ed6af8b6bb9feb0162170d358cab59e82538f35",
+      "bytes": 332299
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.ttf",
+      "sha256": "6d8cab747c002e6f2d74986a86f957e8c09b6d520bbc1659a9dbd60a310195db",
+      "bytes": 74532
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.woff2",
+      "sha256": "e8d74b73806fbbbfe93115c9bd1309183e8eaae421afd97f1bdc09e999032021",
+      "bytes": 29352
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.glyphs",
+      "sha256": "b52e9f633c66e689f8ce21971657e67dd26c31daa69b9bc2175af5097edb2e77",
+      "bytes": 332271
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.ttf",
+      "sha256": "6c5b297243cfc4c6138fc6d8d0ae89771d40e35e358fb4e52c2de2ef9f04ac33",
+      "bytes": 74512
+    },
+    {
+      "path": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.woff2",
+      "sha256": "9f931da986f473b4c906bc60b020e658e0af6ffa78bfc35032ebc669de0cb636",
+      "bytes": 29444
     },
     {
       "path": "studies/regular/ghe/OFL.txt",

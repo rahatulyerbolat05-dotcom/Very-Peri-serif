@@ -1,0 +1,154 @@
+{
+  "variants": {
+    "01": {
+      "name": "Каплевидный вход",
+      "character": "э",
+      "unicode": "U+044D",
+      "glyph": "uni044D",
+      "status": "unselected proposal",
+      "advance": 368,
+      "bbox_cubic": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "bbox_ttf": [
+        23,
+        -9,
+        343,
+        516
+      ],
+      "cubic_nodes": 59,
+      "ttf_points": 73,
+      "contours": 1,
+      "crossbar_y": [
+        277,
+        302
+      ],
+      "crossbar_thickness": 25,
+      "crossbar_free_x": 42,
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+      "crossbar_straight_start_x": 57
+    },
+    "02": {
+      "name": "Перьевой вход",
+      "character": "э",
+      "unicode": "U+044D",
+      "glyph": "uni044D",
+      "status": "unselected proposal",
+      "advance": 368,
+      "bbox_cubic": [
+        26,
+        -9,
+        343,
+        516
+      ],
+      "bbox_ttf": [
+        26,
+        -9,
+        343,
+        516
+      ],
+      "cubic_nodes": 57,
+      "ttf_points": 64,
+      "contours": 1,
+      "crossbar_y": [
+        277,
+        302
+      ],
+      "crossbar_thickness": 25,
+      "crossbar_free_x": 65,
+      "native_relationship": "o outer right half and inner lower-right quarter translated(-40,0); upper inner quarter exactly subdivided at y325; left terminals and crossbar joins authored anew. No mirrored c.",
+      "anchors": {
+        "top": [
+          164,
+          510
+        ],
+        "bottom": [
+          164,
+          0
+        ]
+      },
+      "kerning": "Outgoing native o pairs; incoming open edge unassigned, final Cyrillic spacing pending.",
+      "crossbar_straight_start_x": 80
+    }
+  },
+  "combinations": [
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/ereversed-01.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/ereversed-02.ttf"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/ereversed-02.ttf"
+    }
+  ]
+}

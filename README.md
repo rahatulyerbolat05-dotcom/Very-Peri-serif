@@ -11,8 +11,8 @@
 Статусы букв: [progress.json](data/progress.json), паспорта: [letters.json](data/letters.json).
 Снимок сверки двух веток: [cross-branch-inventory.json](data/cross-branch-inventory.json).
 Текущие добавления и выборы отражены в progress.json.
-Есть материалы для **22 строчных**: 18 в наших пробных шрифтах и ещё
-ш/ь/ы/ъ отдельными GLIF/SVG в ветке Клода. Из них 14 букв получили
+Есть материалы для **23 строчных**: 19 в наших пробных шрифтах и ещё
+ш/ь/ы/ъ отдельными GLIF/SVG в ветке Клода. Из них 15 букв получили
 отдельные исследования, 8 используют исходные латинские омоглифы.
 
 ## Текущие пробы
@@ -31,21 +31,26 @@
 | [письменные д](studies/regular/de-cursive/) | Обе реализации отклонены: кривые и окончания не попали в стиль |
 | [д](studies/regular/de-reimagined/) | Основная01 «Острый свод»;02 «Перьевой поворот» сохранён отдельно альтернативой |
 | [т](studies/regular/te/) | Основная02 «Письменный выход»;01 «Родные арки» — альтернативный стиль |
+| [э](studies/regular/ereversed/) | 01 «Каплевидный вход» /02 «Перьевой вход»; основная не выбрана |
 | [ш, ь, ы, ъ в ветке Клода](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/tree/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs) | Выбраны R1 / S3 / Y1 / K2; пока отдельные эскизы, в наши шрифты не включены |
 
-Сборки содержат **абвгдежзийкорстухё**, включая унаследованные а/е/о/р/с/у/х.
+Сборки содержат **абвгдежзийкорстухэё**, включая унаследованные а/е/о/р/с/у/х.
 Некоторые формы и промежуточные метрики в ранних папках относятся к той
 стадии разработки; последующие выбранные контуры находятся в поздних сборках.
 История и резервные версии сохранены в [studies/archive](studies/archive/).
 
-![Г рядом с выбранными т02 и д01](studies/regular/ghe/context-with-te/comparison.svg)
+![Два варианта э рядом с исходными буквами](studies/regular/ereversed/comparison.svg)
 
 Актуальное направление строчных: письменные/курсивные скелеты с вертикальной
 осью, контрастом и деталями Instrument Serif Regular. Отдельное начертание
 Italic остаётся отложенным. Прежние запреты арок из исторической инструкции
 исправлены; уже выбранные глифы сохраняются.
 
-Текущая работа — [строчная т](studies/regular/te/): две верхние арки
+Текущая работа — [строчная э](studies/regular/ereversed/): открытая чаша
+на основе правой дуги o, два разных верхних окончания и перекладина25.
+Оба варианта к выбору. [Размерные пробы э](studies/regular/ereversed/sizes.svg).
+
+У [строчной т](studies/regular/te/): две верхние арки
 на основе native m;01 сохраняет исходные окончания,02 использует правый
 выход a/d. Пользователь выбрал02 основной,01 альтернативным стилем.
 Д01 «Острый свод» выбрана пользователем;
@@ -83,6 +88,7 @@ python3 -m venv .venv
 .venv/bin/python tools/build_de_cursive.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_reimagined.py --base-dir build/regular/ka
 .venv/bin/python tools/build_te.py --base-dir build/regular/de-reimagined
+.venv/bin/python tools/build_ereversed.py --base-dir build/regular/te
 .venv/bin/python tools/audit_de_reimagined.py
 .venv/bin/python tools/research_cursive_de.py
 .venv/bin/python tools/verify_studies.py

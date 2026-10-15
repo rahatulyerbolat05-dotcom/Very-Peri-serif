@@ -14,7 +14,11 @@
       "alternates": [
         "Клюв"
       ],
-      "variant": "02"
+      "variant": "02",
+      "latest_confirmation": {
+        "date": "2026-10-15",
+        "quote": "оставь каплю за основу"
+      }
     },
     "ж": {
       "primary": "Instrument Serif Cyr11 uni0436",
@@ -94,13 +98,21 @@
       ],
       "preference": "both liked by user",
       "primary": null
+    },
+    "э": {
+      "variants": [
+        "01 Каплевидный вход",
+        "02 Перьевой вход"
+      ],
+      "primary": null,
+      "study_directory": "studies/regular/ereversed"
     }
   },
   "inherited": {
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/ghe/context-with-te",
+  "latest_artifact": "studies/regular/ereversed",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -450,14 +462,14 @@
     }
   ],
   "coverage_totals": {
-    "ttf_checked": 68,
-    "woff2_checked": 68,
-    "glyphs_checked": 68,
-    "svg_in_codex_branch": 75,
-    "cyrillic_codepoints_in_fonts": 18,
+    "ttf_checked": 76,
+    "woff2_checked": 76,
+    "glyphs_checked": 76,
+    "svg_in_codex_branch": 79,
+    "cyrillic_codepoints_in_fonts": 19,
     "source_only_additional_letters": 4,
-    "combined_lowercase_letters": 22,
-    "individually_studied_letters": 14,
+    "combined_lowercase_letters": 23,
+    "individually_studied_letters": 15,
     "native_latin_aliases": 8
   },
   "latest_de_export_status": "de-reimagined01 Острый свод selected;02 retained separately. Both unchanged.",
@@ -688,5 +700,89 @@
       "woff2": "studies/regular/te/with-ka02-shorti02/te-01.woff2"
     }
   ],
-  "ghe_context_proof": "studies/regular/ghe/context-with-te"
+  "ghe_context_proof": "studies/regular/ghe/context-with-te",
+  "latest_ereversed_artifact": "studies/regular/ereversed",
+  "latest_ereversed_combinations": [
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka01-shorti02/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka02-shorti01/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "01",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka02-shorti02/ereversed-01.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka01-shorti02/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka02-shorti01/ereversed-02.woff2"
+    },
+    {
+      "ereversed_variant": "02",
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.ttf",
+      "glyphs": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.glyphs",
+      "woff2": "studies/regular/ereversed/with-ka02-shorti02/ereversed-02.woff2"
+    }
+  ],
+  "latest_ereversed_export_status": "01 and02 unselected proposals; selected ghe02/de01/te02 and all existing glyphs preserved."
 }

@@ -20,6 +20,10 @@ Historical native-g, printed pedestal and de-cursive drawings remain retained
 but rejected. The user selected т02 «Письменный выход» as primary and
 т01 «Родные арки» as the alternative style. Pin both through
 data/selected-te.json. Both к and й variants remain unselected.
+The primary г «Капля» is explicitly reaffirmed; «Клюв» remains ss05.
+Current э candidates are ereversed01 (drop entry) and02 (short spur entry).
+Neither is selected. Preserve the native right o bowl; do not infer that
+mirroring all of c is allowed. Left endings follow the new ductus.
 Do not infer approval from a technical default. Technical G1 checks do not
 establish stylistic success. Present actual drawings with native neighbours.
 
