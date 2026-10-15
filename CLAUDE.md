@@ -125,7 +125,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука» с готовыми и оставшимися буквами по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -178,7 +178,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D27 | Закрыто: н = n4 (mix: слева ı с флажком, справа стойка как у латинской u с головкой и хвостом-выходом), выбрана автором проекта 15.10.2026; n1, n2, n3 запасные |
 | D28 | Закрыто: ю = yu1 (связь 55, овал о без масштаба), выбрана автором проекта 15.10.2026; yu2 (80), yu3 (105) запасные |
 | D29 | Закрыто: п = латинская n без изменений и контекстная форма `pe-cy.flag` (флажок справа внизу перед буквой с засечкой слева внизу), решение автора проекта 15.10.2026; класс `@serif_bl` определяется критерием и проверяется скриптом (сейчас без ш, щ); ОТКРЫТО: распространять ли на латинскую n и курсив |
-| D30 | Закрыто: и = латинская u без изменений, А = латинская A, к (и ka-cy.short) и Ж нарисованы, ф: два первых эскиза отклонены автором проекта («эту парашу не бери», «потерялись изгибы первоисточника»), принят образец автора (`docs/img/author_ef_reference.svg`), ф нарисована заново по его замерам, по просьбе автора проекта 15.10.2026 (идеи из старой разработки, контуры новые); ОТКРЫТО: трактовка соседа для ka.short (справа или слева), хвост и, ширина Ж |
+| D30 | Закрыто: и = латинская u без изменений, А = латинская A, к (и ka-cy.short) и Ж нарисованы, ф: два первых эскиза отклонены автором проекта («эту парашу не бери», «потерялись изгибы первоисточника»), в итоге вставлен вектор автора проекта без изменений (`docs/img/author_ef_vector.svg`, `tools/embed_author_svg.py`), по просьбе автора проекта 15.10.2026 (идеи из старой разработки, контуры новые); ОТКРЫТО: трактовка соседа для ka.short (справа или слева), хвост и, ширина Ж |
 | D19 | Закрыто: ъ = K2 (засечка вниз 70), выбрана автором проекта 14.10.2026; длина перекладины около 105 это догадка (ОТКРЫТО) |
 | D18 | Закрыто: ь = S3 (флажок), выбрана автором проекта 14.10.2026; согласовать с ш (D15: R2 с флажками подходит) |
 
@@ -189,7 +189,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 - Не утолщать штрихи «для надёжности»; шрифт дисплейный.
 - Не использовать курсивные силуэты в прямом начертании.
 - Не менять эталонную латиницу без записи в журнале решений.
-- Не копировать глифы из других шрифтов.
+- Не копировать глифы из других шрифтов. Исключение: собственные чертежи (SVG) автора проекта вставляются по его просьбе без изменений формы (`tools/embed_author_svg.py`).
 - Не убирать фирменные детали ради упрощения: хвосты (F3), шпоры (F4), каплевидные завершения (F5) ставятся по реестру.
 - Не ставить круглые формы на плоские линии 510 и 720.
 - Не коммитить эталонные бинарники и сгенерированные PNG.
@@ -210,7 +210,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | п | = латинская n (решение автора проекта) + обязательная контекстная форма pe-cy.flag (D29 закрыто) | `docs/glyphs/pe.md` |
 | и | = латинская u (D30) | `docs/glyphs/ii.md` |
 | к | ı + ветви k; обязательная контекстная форма ka-cy.short (D30) | `docs/glyphs/ka.md` |
-| ф | по образцу автора проекта: два овала (стенка 61, суперэллипсы) по обе стороны сквозной стойки 68, сверху от l, снизу от p; остаток расхождения с образцом ~9% (D30) | `docs/glyphs/ef.md` |
+| ф | вектор автора проекта вставлен без изменений формы (два овала, стойка 68), мои эскизы отклонены (D30) | `docs/glyphs/ef.md` |
 | А | = латинская A (D30) | `docs/glyphs/A.md` |
 | Ж | правая половина K и зеркало (D30) | `docs/glyphs/zhe.md` |
 | лл | отклонена автором проекта (D24 закрыто); эскизы d1–d3 только для истории | `docs/glyphs/el_double.md` |
