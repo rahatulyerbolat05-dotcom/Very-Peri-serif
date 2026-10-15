@@ -34,27 +34,27 @@
   "counts": {
     "codex_compiled_lowercase": 19,
     "codex_native_latin_aliases": 8,
-    "source_only_additional_lowercase": 9,
-    "combined_lowercase": 28,
-    "individually_studied_lowercase": 20,
-    "individually_studied_definition": "28 available lowercase minus 8 native aliases in the historical Codex counting scheme; includes explicit donor-mapping studies such as и and п.",
+    "source_only_additional_lowercase": 12,
+    "combined_lowercase": 31,
+    "individually_studied_lowercase": 23,
+    "individually_studied_definition": "31 available source lowercase minus 8 native aliases; includes 3 newly imported user SVG drawings, not compiled coverage.",
     "russian": {
-      "available": 46,
+      "available": 49,
       "total": 66,
       "uppercase_available": 18,
       "uppercase_total": 33,
-      "lowercase_available": 28,
+      "lowercase_available": 31,
       "lowercase_total": 33,
-      "remaining": 20
+      "remaining": 17
     },
     "kazakh_additional": {
-      "available": 8,
+      "available": 10,
       "total": 18,
       "uppercase_available": 4,
       "uppercase_total": 9,
-      "lowercase_available": 4,
+      "lowercase_available": 6,
       "lowercase_total": 9,
-      "remaining": 10
+      "remaining": 8
     }
   },
   "codex_compiled_letters": [
@@ -136,7 +136,6 @@
       "г",
       "д",
       "е",
-      "ё",
       "ж",
       "з",
       "и",
@@ -151,13 +150,17 @@
       "с",
       "т",
       "у",
+      "ф",
       "х",
+      "ц",
       "ш",
+      "щ",
       "ъ",
       "ы",
       "ь",
       "э",
-      "ю"
+      "ю",
+      "ё"
     ],
     "kazakh_uppercase": [
       "Ғ",
@@ -166,10 +169,12 @@
       "І"
     ],
     "kazakh_lowercase": [
-      "ө",
+      "і",
+      "қ",
+      "ң",
       "ү",
       "һ",
-      "і"
+      "ө"
     ]
   },
   "missing_from_integrated_bases": {
@@ -191,10 +196,7 @@
       "Я"
     ],
     "russian_lowercase": [
-      "ф",
-      "ц",
       "ч",
-      "щ",
       "я"
     ],
     "kazakh_uppercase": [
@@ -207,8 +209,6 @@
     "kazakh_lowercase": [
       "ә",
       "ғ",
-      "қ",
-      "ң",
       "ұ"
     ]
   },
@@ -375,7 +375,7 @@
       "source_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
       "sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
       "decision_path": "docs/glyphs/ef.md",
-      "status": "Author SVG exists; previous Claude contour removed by explicit user request, not in alphabet.done or Codex exports."
+      "status": "Imported into source map from reuploaded identical SVG on 2026-10-16; not yet in compiled fonts."
     }
   },
   "exact_outline_sources": {
@@ -932,5 +932,26 @@
       "te-claude.glif": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b"
     },
     "claude_source_commit": "8d7b32d9f265945c14b8d2a624e0ace662eb8289"
+  },
+  "user_svg_import": {
+    "characters": [
+      "ц",
+      "щ",
+      "ф",
+      "ң",
+      "қ"
+    ],
+    "manifest": "data/user-2026-10-16/manifest.json",
+    "source_only": true
+  },
+  "latest_source_counts": {
+    "russian": 49,
+    "russian_lowercase": 31,
+    "kazakh": 10,
+    "remaining_russian_lowercase": [
+      "ч",
+      "я"
+    ],
+    "note": "includes user source SVG; compiled coverage unchanged"
   }
 }

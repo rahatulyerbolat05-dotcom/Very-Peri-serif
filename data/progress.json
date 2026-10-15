@@ -1028,5 +1028,21 @@
       ]
     }
   ],
-  "latest_context_build": "studies/regular/context-selected"
+  "latest_context_build": "studies/regular/context-selected",
+  "user_svg_import": {
+    "manifest": "data/user-2026-10-16/manifest.json",
+    "characters": [
+      "ц",
+      "щ",
+      "ф",
+      "ң",
+      "қ"
+    ],
+    "status": "source drawings only; not compiled",
+    "contextual_ka_descender": "same calt condition as к, confirmed by user",
+    "remaining_russian_lowercase_sources": [
+      "ч",
+      "я"
+    ]
+  }
 }
