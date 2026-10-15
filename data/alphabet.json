@@ -64,6 +64,74 @@
     "ф": [
       "data/ef/ef.glif",
       "вектор автора"
+    ],
+    "В": [
+      "data/homoglyph/Ve-cy.glif",
+      "латинская B"
+    ],
+    "Е": [
+      "data/homoglyph/Ie-cy.glif",
+      "латинская E"
+    ],
+    "К": [
+      "data/homoglyph/Ka-cy.glif",
+      "латинская K"
+    ],
+    "М": [
+      "data/homoglyph/Em-cy.glif",
+      "латинская M"
+    ],
+    "Н": [
+      "data/homoglyph/En-cy.glif",
+      "латинская H"
+    ],
+    "О": [
+      "data/homoglyph/O-cy.glif",
+      "латинская O"
+    ],
+    "Р": [
+      "data/homoglyph/Er-cy.glif",
+      "латинская P"
+    ],
+    "С": [
+      "data/homoglyph/Es-cy.glif",
+      "латинская C"
+    ],
+    "Т": [
+      "data/homoglyph/Te-cy.glif",
+      "латинская T"
+    ],
+    "Х": [
+      "data/homoglyph/Ha-cy.glif",
+      "латинская X"
+    ],
+    "а": [
+      "data/homoglyph/a-cy.glif",
+      "латинская a"
+    ],
+    "е": [
+      "data/homoglyph/ie-cy.glif",
+      "латинская e"
+    ],
+    "о": [
+      "data/homoglyph/o-cy.glif",
+      "латинская o"
+    ],
+    "р": [
+      "data/homoglyph/er-cy.glif",
+      "латинская p"
+    ],
+    "с": [
+      "data/homoglyph/es-cy.glif",
+      "латинская c"
+    ],
+    "у": [
+      "data/homoglyph/u-cy.glif",
+      "латинская y"
+    ],
+    "х": [
+      "data/homoglyph/ha-cy.glif",
+      "латинская x"
     ]
   },
   "latin_donor": [

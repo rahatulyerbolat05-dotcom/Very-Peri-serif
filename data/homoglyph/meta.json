@@ -1,0 +1,239 @@
+{
+ "В": {
+  "latin": "B",
+  "glyph": "Ve-cy",
+  "unicode": "U+0412",
+  "adv": 478,
+  "bounds": [
+   19,
+   0,
+   450,
+   720
+  ]
+ },
+ "Е": {
+  "latin": "E",
+  "glyph": "Ie-cy",
+  "unicode": "U+0415",
+  "adv": 453,
+  "bounds": [
+   19,
+   0,
+   420,
+   720
+  ]
+ },
+ "К": {
+  "latin": "K",
+  "glyph": "Ka-cy",
+  "unicode": "U+041A",
+  "adv": 496,
+  "bounds": [
+   19,
+   0,
+   516,
+   720
+  ]
+ },
+ "М": {
+  "latin": "M",
+  "glyph": "Em-cy",
+  "unicode": "U+041C",
+  "adv": 665,
+  "bounds": [
+   14,
+   0,
+   651,
+   720
+  ]
+ },
+ "Н": {
+  "latin": "H",
+  "glyph": "En-cy",
+  "unicode": "U+041D",
+  "adv": 546,
+  "bounds": [
+   19,
+   0,
+   527,
+   720
+  ]
+ },
+ "О": {
+  "latin": "O",
+  "glyph": "O-cy",
+  "unicode": "U+041E",
+  "adv": 540,
+  "bounds": [
+   40,
+   -9,
+   500,
+   730
+  ]
+ },
+ "Р": {
+  "latin": "P",
+  "glyph": "Er-cy",
+  "unicode": "U+0420",
+  "adv": 466,
+  "bounds": [
+   19,
+   0,
+   442,
+   720
+  ]
+ },
+ "С": {
+  "latin": "C",
+  "glyph": "Es-cy",
+  "unicode": "U+0421",
+  "adv": 480,
+  "bounds": [
+   40,
+   -9,
+   440,
+   730
+  ]
+ },
+ "Т": {
+  "latin": "T",
+  "glyph": "Te-cy",
+  "unicode": "U+0422",
+  "adv": 461,
+  "bounds": [
+   12,
+   0,
+   449,
+   735
+  ]
+ },
+ "Х": {
+  "latin": "X",
+  "glyph": "Ha-cy",
+  "unicode": "U+0425",
+  "adv": 546,
+  "bounds": [
+   20,
+   0,
+   527,
+   720
+  ]
+ },
+ "а": {
+  "latin": "a",
+  "glyph": "a-cy",
+  "unicode": "U+0430",
+  "adv": 399,
+  "bounds": [
+   24,
+   -9,
+   394,
+   516
+  ]
+ },
+ "е": {
+  "latin": "e",
+  "glyph": "ie-cy",
+  "unicode": "U+0435",
+  "adv": 355,
+  "bounds": [
+   23,
+   -9,
+   330,
+   516
+  ]
+ },
+ "о": {
+  "latin": "o",
+  "glyph": "o-cy",
+  "unicode": "U+043E",
+  "adv": 408,
+  "bounds": [
+   23,
+   -9,
+   383,
+   516
+  ]
+ },
+ "р": {
+  "latin": "p",
+  "glyph": "er-cy",
+  "unicode": "U+0440",
+  "adv": 444,
+  "bounds": [
+   12,
+   -205,
+   414,
+   516
+  ]
+ },
+ "с": {
+  "latin": "c",
+  "glyph": "es-cy",
+  "unicode": "U+0441",
+  "adv": 339,
+  "bounds": [
+   23,
+   -9,
+   317,
+   516
+  ]
+ },
+ "у": {
+  "latin": "y",
+  "glyph": "u-cy",
+  "unicode": "U+0443",
+  "adv": 401,
+  "bounds": [
+   -14,
+   -205,
+   409,
+   510
+  ]
+ },
+ "х": {
+  "latin": "x",
+  "glyph": "ha-cy",
+  "unicode": "U+0445",
+  "adv": 385,
+  "bounds": [
+   -8,
+   0,
+   389,
+   510
+  ]
+ },
+ "a-cy.ss01": {
+  "latin": "a.ss01",
+  "glyph": "a-cy.ss01",
+  "adv": 389,
+  "bounds": [
+   24,
+   -9,
+   373,
+   516
+  ]
+ },
+ "es-cy.ss01": {
+  "latin": "c.ss01",
+  "glyph": "es-cy.ss01",
+  "adv": 339,
+  "bounds": [
+   23,
+   -9,
+   317,
+   516
+  ]
+ },
+ "ie-cy.ss01": {
+  "latin": "e.ss01",
+  "glyph": "ie-cy.ss01",
+  "adv": 355,
+  "bounds": [
+   23,
+   -9,
+   330,
+   516
+  ]
+ }
+}
