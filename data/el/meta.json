@@ -1,0 +1,44 @@
+{
+ "L1": {
+  "adv": 608.0,
+  "xmin": 19.0,
+  "xmax": 589.0,
+  "ymin": 0,
+  "ymax": 732,
+  "label": "L1  нога 14°, стойка 3°",
+  "contours": 1,
+  "beta_deg": 14.0,
+  "alpha_deg": 3.0,
+  "gap_at_baseline": 326.0,
+  "a_in": 77.1,
+  "delta": -20.2
+ },
+ "L2": {
+  "adv": 585.6,
+  "xmin": 19.0,
+  "xmax": 566.6,
+  "ymin": 0,
+  "ymax": 731,
+  "label": "L2  нога 10°, стойка 5°",
+  "contours": 1,
+  "beta_deg": 10.0,
+  "alpha_deg": 5.0,
+  "gap_at_baseline": 303.8,
+  "a_in": 77.2,
+  "delta": -20.4
+ },
+ "L3": {
+  "adv": 596.5,
+  "xmin": 19.0,
+  "xmax": 577.5,
+  "ymin": 0,
+  "ymax": 731,
+  "label": "L3  нога 12°, стойка 4°",
+  "contours": 1,
+  "beta_deg": 12.0,
+  "alpha_deg": 4.0,
+  "gap_at_baseline": 314.7,
+  "a_in": 77.1,
+  "delta": -20.3
+ }
+}

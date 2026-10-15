@@ -64,7 +64,7 @@ def write_glif(path, glyph_name, adv, codepoint, out):
     xml = writeGlyphToString(glyph_name, g, lambda pp: path.draw(SegmentToPointPen(pp)), formatVersion=2)
     open(out, "w", encoding="utf-8").write(xml)
 
-def render(items, char, samples, out_png, col_w=760, size=900, base=640):
+def render(items, char, samples, out_png, col_w=760, size=900, base=640, guides=(0, 510)):
     """items: [(подпись, ttf, ширина)]. Крупный глиф с направляющими и строки-образцы."""
     lab = ImageFont.truetype(LABEL_BOLD, 38); sub = ImageFont.truetype(LABEL, 26)
     H = base + 90 + len(samples) * 170 + 60; k = size / 1000
@@ -73,7 +73,7 @@ def render(items, char, samples, out_png, col_w=760, size=900, base=640):
         ox = i * col_w
         if i: d.line([(ox, 40), (ox, H - 40)], fill="#ddd", width=2)
         f = ImageFont.truetype(ttf, size)
-        for val, col in [(0, "#e55"), (510, "#59f")]:
+        for val, col in [(guides[0], "#e55"), (guides[1], "#59f")]:
             y = base - val * k; d.line([(ox + 20, y), (ox + col_w - 20, y)], fill=col, width=2)
         d.text((ox + 40, base), char, font=f, fill="black", anchor="ls")
         d.text((ox + 30, 40), label, font=lab, fill="black"); d.text((ox + 30, 92), f"ширина {adv}", font=sub, fill="#777")
