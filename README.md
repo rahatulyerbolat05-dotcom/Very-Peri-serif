@@ -9,9 +9,10 @@
 [решения пользователя](docs/decisions.md), [инструкция](docs/instruction.md).
 Сверка полезных правил и расхождений: [instruction-review.md](docs/instruction-review.md).
 Статусы букв: [progress.json](data/progress.json), паспорта: [letters.json](data/letters.json).
-Общий охват двух веток: [cross-branch-inventory.json](data/cross-branch-inventory.json).
-Есть материалы для **21 строчной**: 17 в наших пробных шрифтах и ещё
-ш/ь/ы/ъ отдельными GLIF/SVG в ветке Клода. Из них 13 букв получили
+Снимок сверки двух веток: [cross-branch-inventory.json](data/cross-branch-inventory.json).
+Текущие добавления и выборы отражены в progress.json.
+Есть материалы для **22 строчных**: 18 в наших пробных шрифтах и ещё
+ш/ь/ы/ъ отдельными GLIF/SVG в ветке Клода. Из них 14 букв получили
 отдельные исследования, 8 используют исходные латинские омоглифы.
 
 ## Текущие пробы
@@ -28,26 +29,28 @@
 | [g-подобные д](studies/regular/de-native/) | Отклонены пользователем: читаются как g; сохранены для истории |
 | [печатные д](studies/regular/de-cyrillic/) | Оба рисунка отклонены: не соответствуют письменному принципу строчных |
 | [письменные д](studies/regular/de-cursive/) | Обе реализации отклонены: кривые и окончания не попали в стиль |
-| [новые конструкции д](studies/regular/de-reimagined/) | «Острый свод» / «Перьевой поворот»; два новых письменных скелета, выбор открыт |
+| [д](studies/regular/de-reimagined/) | Основная01 «Острый свод»;02 «Перьевой поворот» сохранён отдельно альтернативой |
+| [т](studies/regular/te/) | 01 «Родные арки» /02 «Письменный выход»; выбор основного открыт |
 | [ш, ь, ы, ъ в ветке Клода](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/tree/f8e2fb3cac2d33146871f2095aac52a343a5f2ef/docs/glyphs) | Выбраны R1 / S3 / Y1 / K2; пока отдельные эскизы, в наши шрифты не включены |
 
-Сборки содержат **абвгдежзийкорсухё**, включая унаследованные а/е/о/р/с/у/х.
+Сборки содержат **абвгдежзийкорстухё**, включая унаследованные а/е/о/р/с/у/х.
 Некоторые формы и промежуточные метрики в ранних папках относятся к той
 стадии разработки; последующие выбранные контуры находятся в поздних сборках.
 История и резервные версии сохранены в [studies/archive](studies/archive/).
 
-![Новые д и родные буквы для сравнения](studies/regular/de-reimagined/comparison.svg)
+![Строчная т и родные буквы для сравнения](studies/regular/te/comparison.svg)
 
 Актуальное направление строчных: письменные/курсивные скелеты с вертикальной
 осью, контрастом и деталями Instrument Serif Regular. Отдельное начертание
 Italic остаётся отложенным. Прежние запреты арок из исторической инструкции
 исправлены; уже выбранные глифы сохраняются.
 
-Текущая работа над д — [два новых конструкционных направления](studies/regular/de-reimagined/):
-01 «Острый свод» с открытым нижним возвратом и 02 «Перьевой поворот»
-с верхним разворотом и диагональным спуском. Оба рисунка — предложения.
+Текущая работа — [строчная т](studies/regular/te/): две верхние арки
+на основе native m;01 сохраняет исходные окончания,02 использует правый
+выход a/d. Основная т не выбрана. Д01 «Острый свод» выбрана пользователем;
+её контур и метрики сохранены точно в обеих пробах т.
 
-[Отдельная SVG-презентация новых д](studies/regular/de-reimagined/comparison.svg).
+[Презентация т](studies/regular/te/comparison.svg) и [размерные пробы](studies/regular/te/sizes.svg).
 
 Предшествующий [разбор кривых и окончаний](studies/reference-analysis/de-curves-deep/)
 сохраняет измерения родных деталей и сравнение 40 внешних семейств.
@@ -76,6 +79,7 @@ python3 -m venv .venv
 .venv/bin/python tools/build_de_cyrillic.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_cursive.py --base-dir build/regular/ka
 .venv/bin/python tools/build_de_reimagined.py --base-dir build/regular/ka
+.venv/bin/python tools/build_te.py --base-dir build/regular/de-reimagined
 .venv/bin/python tools/audit_de_reimagined.py
 .venv/bin/python tools/research_cursive_de.py
 .venv/bin/python tools/verify_studies.py

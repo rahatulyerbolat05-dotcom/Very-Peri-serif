@@ -48,12 +48,31 @@ progress=json.loads((ROOT/'data/progress.json').read_text())
 reference=verify_reference(ROOT/'reference/instrument-serif')
 native=TTFont(reference/'fonts/ttf/InstrumentSerif-Regular.ttf')
 baseline=json.loads((ROOT/'studies/regular/ka/approved-baseline.json').read_text())['fixed_glyphs']
-latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])
+latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])+progress.get('latest_te_combinations',[])
 retained_rejected=progress.get('retained_rejected_de_combinations',[])
+selected_de=json.loads((ROOT/'data/selected-de.json').read_text())
 latin_tests=['AV','To','Ta','Yo','Wa','LT','Fo','Pa','oo','r.','fo','C)','C?','A/']
 de_quadratic_checked=0
+selected_de_checked=0
+te_checked=0
 for combo in latest+retained_rejected:
     path=ROOT/combo['ttf'];f=TTFont(path)
+    if path.is_relative_to(ROOT/'studies/regular/te') or (path.is_relative_to(ROOT/'studies/regular/de-reimagined') and combo['de_variant']=='01'):
+        assert list(f['hmtx']['uni0434'])==selected_de['hmtx'],path
+        assert hashlib.sha256(f['glyf']['uni0434'].compile(f['glyf'])).hexdigest()==selected_de['glyf_sha256'],path
+        fs=GSFont(str(ROOT/combo['glyphs']));layer=fs.glyphs['uni0434'].layers[0]
+        outline=[[(tuple(n.position),n.type) for n in p.nodes] for p in layer.paths]
+        assert hashlib.sha256(json.dumps(outline,separators=(',',':')).encode()).hexdigest()==selected_de['glyphs_outline_sha256'],path
+        selected_de_checked+=1
+    if path.is_relative_to(ROOT/'studies/regular/te'):
+        te_checked+=1
+        assert f.getBestCmap()[0x442]=='uni0442',path
+        for text in ['тигр тогда','будто три','дитё тити','т\u0301']:
+            hb_shape(path,text)
+        if combo['te_variant']=='01':
+            assert f['glyf']['uni0442'].compile(f['glyf'])==native['glyf']['m'].compile(native['glyf']),path
+            for cy,latin in [('та','ma'),('то','mo'),('ти','mu')]:
+                assert [p[1:] for p in hb_shape(path,cy)]==[p[1:] for p in hb_shape(reference/'fonts/ttf/InstrumentSerif-Regular.ttf',latin)],path
     if path.is_relative_to(ROOT/'studies/regular/de-cursive'):
         de_quadratic_checked+=1
         # Check the saved integer-grid curves, independently of the build recipe.
@@ -88,7 +107,7 @@ for combo in latest+retained_rejected:
 
 rebuilt_count=0
 if args.rebuilt_dir:
-    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic','de-cursive','de-reimagined']:
+    for stage in ['i-selected','shorti','ka','de-native','de-cyrillic','de-cursive','de-reimagined','te']:
         saved=ROOT/'studies/regular'/stage
         rebuilt=args.rebuilt_dir.resolve()/stage
         for expected in saved.rglob('*.ttf'):
@@ -101,6 +120,6 @@ if args.rebuilt_dir:
             for tag in ['GSUB','GPOS','GDEF']:
                 assert a[tag].compile(a)==b[tag].compile(b),(candidate,tag)
             rebuilt_count+=1
-report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
+report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
 args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "variants": {
+    "01": {
+      "sampled_topology_valid": true,
+      "contours": 1,
+      "closed_counters": 0,
+      "sample_points_per_cubic": 600,
+      "sampled_source_export_hausdorff_units": 0.697763974100846,
+      "relative_area_difference": 0.0006000750670667709,
+      "all_existing_glyf_hmtx_and_gsub_preserved": true,
+      "selected_de_hash_preserved": true,
+      "original_m_preserved": true,
+      "native_m_copy_exact": true,
+      "native_m_body_and_d_tail_points_exact": false
+    },
+    "02": {
+      "sampled_topology_valid": true,
+      "contours": 1,
+      "closed_counters": 0,
+      "sample_points_per_cubic": 600,
+      "sampled_source_export_hausdorff_units": 0.9255271925929347,
+      "relative_area_difference": 0.0007111144876542599,
+      "all_existing_glyf_hmtx_and_gsub_preserved": true,
+      "selected_de_hash_preserved": true,
+      "original_m_preserved": true,
+      "native_m_copy_exact": false,
+      "native_m_body_and_d_tail_points_exact": true
+    }
+  },
+  "limits": "Sampled topology and distance are not analytic proofs of all curve properties.",
+  "fontbakery": "not run",
+  "hyperglot": "not run"
+}

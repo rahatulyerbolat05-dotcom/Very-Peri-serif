@@ -11,7 +11,8 @@
       "з",
       "и",
       "й",
-      "к"
+      "к",
+      "т"
     ],
     "inherited_glyphs": [
       "е",
@@ -85,9 +86,10 @@
     "з": "01 only; 02 deleted and not retained",
     "и": "02 exact native u primary; 01 diagonal alternate ss07",
     "в": "01/02 unresolved; 01 technical default in cumulative trials",
-    "д": "Two new constructions:01 Острый свод and02 Перьевой поворот. Neither selected; all prior studies retained.",
+    "д": "01 Острый свод selected;02 Перьевой поворот retained as separate alternative. Exact accepted contour pinned.",
     "й": "01/02 unresolved; both survive in trial combinations",
-    "к": "01/02 liked; primary unresolved"
+    "к": "01/02 liked; primary unresolved",
+    "т": "Two m-like handwritten Regular proposals:01 exact native m;02 native m with a/d exit. Neither selected."
   },
   "letters": [
     {
@@ -1025,8 +1027,8 @@
       "character": "д",
       "name": "de",
       "silhouette": {
-        "evidence": "new authored proposals responding to explicit user redesign request",
-        "description": "01 pointed counter with open lower return; 02 folded upper entry and diagonal descent into asymmetric bowl. Both unselected.",
+        "evidence": "explicit user selection",
+        "description": "Selected pointed handwritten bowl and open lower return, de-reimagined01. Folded upper-entry02 retained as an alternative.",
         "source": "studies/regular/de-reimagined/README.md"
       },
       "type": "two_distinct_handwritten_construction_proposals",
@@ -1041,7 +1043,7 @@
       },
       "upright": {
         "style": "Regular",
-        "status": "two new unselected construction proposals",
+        "status": "primary01 selected;02 retained separately",
         "construction_evidence": "studies/regular/de-reimagined/README.md"
       },
       "italic": {
@@ -1059,19 +1061,19 @@
         }
       ],
       "design_status": {
-        "status": "new_constructive_directions_awaiting_visual_review",
-        "primary_variant": null,
-        "technical_default_variant": null,
-        "final_contour_acceptance": "pending user visual review",
+        "status": "selected_primary_01",
+        "primary_variant": "01",
+        "technical_default_variant": "01",
+        "final_contour_acceptance": "selected by user: оставляем первый вариант",
         "kerning": "Cyrillic and mixed pairs not finalized",
-        "silhouette_selection": "Both new constructions are proposals; no main de selected.",
+        "silhouette_selection": "de-reimagined01 Острый свод selected;02 retained as separate alternative",
         "selection_evidence": "data/progress.json"
       },
       "variants": [
         {
           "id": "01",
           "name": "Острый свод",
-          "selection_status": "unselected_new_construction",
+          "selection_status": "primary_selected_by_user",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
@@ -1123,7 +1125,7 @@
         {
           "id": "02",
           "name": "Перьевой поворот",
-          "selection_status": "unselected_new_construction",
+          "selection_status": "retained_alternative",
           "glyph": "uni0434",
           "feature": null,
           "measured_current_build": {
@@ -1189,7 +1191,7 @@
       "checks": {
         "this_pass": "Eight font combinations built and reopened; all-other-glyph and hmtx preservation, unchanged GSUB, sampled topology, source tangency and export distance checked.",
         "report": "studies/regular/de-reimagined/outline-audit.json",
-        "visual_acceptance": "pending",
+        "visual_acceptance": "01 selected by user;02 retained separately",
         "kerning": "Cyrillic and mixed pairs not finalized",
         "fontbakery": "not run",
         "hyperglot": "not run",
@@ -1205,7 +1207,8 @@
         "readme": "studies/regular/de-reimagined/README.md",
         "design_notes": "data/de-reimagined-outlines.json",
         "current_research": "studies/reference-analysis/de-curves-deep",
-        "prior_upper_ascender": "studies/regular/de-cursive"
+        "prior_upper_ascender": "studies/regular/de-cursive",
+        "selected_baseline": "data/selected-de.json"
       },
       "instruction_deviations": [
         {
@@ -2296,6 +2299,14 @@
             "quadratic_export_policy": "data/de-cursive-export.json",
             "current_research": "studies/reference-analysis/de-curves-deep"
           }
+        },
+        {
+          "status": "user_selection",
+          "date": "2026-10-15",
+          "quote": "оставляем первый вариант",
+          "selected_family": "de-reimagined",
+          "primary_variant": "01",
+          "unchanged_contour_pin": "data/selected-de.json"
         }
       ],
       "explorations": {
@@ -2350,7 +2361,7 @@
           "primary_variant": null
         }
       },
-      "variants_scope": "Current de-reimagined proposals in separate fonts; every prior family retained."
+      "variants_scope": "de-reimagined01 selected by user;02 retained separately; all previous families remain history."
     },
     {
       "glyph": "uni0436",
@@ -4224,6 +4235,185 @@
           "application": "Нижняя левая засечка k сохранена в обоих вариантах."
         }
       ]
+    },
+    {
+      "glyph": "uni0442",
+      "unicode": "U+0442",
+      "character": "т",
+      "name": "te",
+      "type": "handwritten_two_upper_arches",
+      "silhouette": {
+        "evidence": "project choice under visual review",
+        "description": "Three upright downstrokes joined by two upper arches; no ascender or crossbar. Cursive Cyrillic skeleton in Regular, distinct from the lower returns of selected и and ш.",
+        "source": "data/te-outlines.json"
+      },
+      "ductus": {
+        "evidence": "designer interpretation, not documented original-author ductus",
+        "reference": "data/te-outlines.json",
+        "variants": {
+          "01": "A flagged left entry leads into two rising upper arches and three downstrokes. All three feet end with native bracketed serifs.",
+          "02": "The two arches keep the same movement as01; the last descending stroke rounds below baseline and rises into a light open exit."
+        }
+      },
+      "upright": {
+        "style": "Regular",
+        "status": "two unselected proposals"
+      },
+      "italic": {
+        "status": "not designed",
+        "paths": []
+      },
+      "donors": [
+        {
+          "glyph": "m",
+          "role": "Exact whole native contour in01; native arches, head and first two feet retained in02.",
+          "relationship": "exact native geometry",
+          "construction_reference": "data/te-outlines.json"
+        },
+        {
+          "glyph": "d",
+          "role": "Five native cubic segments and original TT tail points translated +255x in02; one new cubic connects to the right m stem.",
+          "relationship": "exact native fragment plus new connector",
+          "construction_reference": "data/te-outlines.json#/variants/02"
+        }
+      ],
+      "design_status": {
+        "status": "awaiting_user_selection",
+        "primary_variant": null,
+        "technical_default_variant": null,
+        "kerning": "native edge roles inherited as initial values; final Cyrillic review pending"
+      },
+      "variants": [
+        {
+          "id": "01",
+          "name": "Родные арки",
+          "selection_status": "unselected",
+          "glyph": "uni0442",
+          "feature": null,
+          "file": "studies/regular/te/te-01.ttf",
+          "measured_current_build": {
+            "name": "Родные арки",
+            "character": "т",
+            "unicode": "U+0442",
+            "glyph": "uni0442",
+            "status": "unselected proposal",
+            "advance": 704,
+            "bbox_cubic": [
+              15,
+              0,
+              693,
+              516
+            ],
+            "bbox_ttf": [
+              15,
+              0,
+              693,
+              516
+            ],
+            "cubic_nodes": 119,
+            "ttf_points": 105,
+            "native_stem_width": 68,
+            "anchors_proposed": {
+              "top": [
+                352,
+                510
+              ],
+              "bottom": [
+                352,
+                0
+              ]
+            },
+            "construction": "Exact native Regular m, after checking the handwritten Cyrillic te skeleton, width and relation to и/ш.",
+            "native_relationship": "Exact m contours, metrics and TrueType instructions; separate Cyrillic glyph and proposed mark anchors.",
+            "kerning": "native m left edge / m right edge as initial values; Cyrillic pair review pending"
+          }
+        },
+        {
+          "id": "02",
+          "name": "Письменный выход",
+          "selection_status": "unselected",
+          "glyph": "uni0442",
+          "feature": null,
+          "file": "studies/regular/te/te-02.ttf",
+          "measured_current_build": {
+            "name": "Письменный выход",
+            "character": "т",
+            "unicode": "U+0442",
+            "glyph": "uni0442",
+            "status": "unselected proposal",
+            "advance": 718,
+            "bbox_cubic": [
+              15,
+              -9,
+              707,
+              516
+            ],
+            "bbox_ttf": [
+              15,
+              -9,
+              707,
+              516
+            ],
+            "cubic_nodes": 116,
+            "ttf_points": 104,
+            "native_stem_width": 68,
+            "anchors_proposed": {
+              "top": [
+                352,
+                510
+              ],
+              "bottom": [
+                352,
+                0
+              ]
+            },
+            "construction": "Native m arches and first two feet; final right foot replaced by an a/d-type continuous curved exit.",
+            "native_relationship": "Native m body retained; native d tail translated(+255,0), with one new connecting cubic. No scaling or italic contours.",
+            "kerning": "native m left edge / d right edge as initial values; Cyrillic pair review pending"
+          }
+        }
+      ],
+      "metrics": {
+        "units": "font units",
+        "source": "studies/regular/te/metrics.json",
+        "native_facts": "m advance704, stems68, outer arch516, inner arch470;02 exit width is a new proposal."
+      },
+      "features": [],
+      "checks": {
+        "report": "studies/regular/te/outline-audit.json",
+        "all_existing_glyphs_and_metrics": "preserved",
+        "selected_de": "exactly preserved and hash-pinned",
+        "fontbakery": "not run",
+        "hyperglot": "not run",
+        "visual_acceptance": "pending"
+      },
+      "paths": {
+        "study_directory": "studies/regular/te",
+        "readme": "studies/regular/te/README.md",
+        "design_notes": "data/te-outlines.json",
+        "sizes": "studies/regular/te/sizes.svg"
+      },
+      "construction_choices": {
+        "evidence": "unselected proposals",
+        "native_width01": 704,
+        "proposed_width02": 718,
+        "proposed_mark_anchors": {
+          "top": [
+            352,
+            510
+          ],
+          "bottom": [
+            352,
+            0
+          ]
+        },
+        "reference": "data/te-outlines.json"
+      },
+      "confidence": {
+        "measured": "native geometry and actual exports",
+        "hypothesis": "visual fit, final intervals and Cyrillic kerning"
+      },
+      "future_dependencies": "Cyrillic м must be distinguishable from this т; its design is not selected by these proposals."
     }
   ],
   "inherited_glyphs": [

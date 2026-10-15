@@ -41,6 +41,22 @@
           "advance": 470
         }
       ]
+    },
+    "д": {
+      "primary": "Острый свод",
+      "variant": "01",
+      "advance": 416,
+      "source": "studies/regular/de-reimagined/de-01.ttf",
+      "selection": "оставляем первый вариант",
+      "baseline": "data/selected-de.json",
+      "alternates": [
+        {
+          "name": "Перьевой поворот",
+          "variant": "02",
+          "file": "studies/regular/de-reimagined/de-02.ttf",
+          "feature": null
+        }
+      ]
     }
   },
   "undecided_variants": {
@@ -48,45 +64,6 @@
       "Структурная",
       "Мягкая"
     ],
-    "д": {
-      "status": "new_constructive_directions_awaiting_visual_review",
-      "primary": null,
-      "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
-      "previous_variants": [
-        "Овальная петля",
-        "Асимметричная петля"
-      ],
-      "new_study": "studies/regular/de-reimagined",
-      "approval": "Neither new construction is selected; user asked to redesign the essence of de.",
-      "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
-      "pedestal_study_status": "both rejected by user: printed skeleton violates agreed lowercase approach",
-      "rejected_studies": [
-        "studies/regular/de-native",
-        "studies/regular/de-cyrillic",
-        "studies/regular/de-cursive"
-      ],
-      "rejected_current_candidates": [
-        "01 Сдержанный загиб",
-        "02 Открытая дуга"
-      ],
-      "new_candidates": [
-        "01 Острый свод",
-        "02 Перьевой поворот"
-      ],
-      "previous_feedback": {
-        "date": "2026-10-15",
-        "verdict": "в этот раз у тебя не получилось",
-        "clarification": "Кривые и окончания",
-        "scope": "execution of current01/02, not a blanket ban on upper-ascender skeletons"
-      },
-      "latest_feedback": {
-        "date": "2026-10-15",
-        "verdict": "я не просил анализировать сделанное, а придумать новый подход",
-        "clarification": "переделывай суть буквы д",
-        "scope": "Draw new constructions; analysis of old work is not the requested result."
-      },
-      "retained_export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes"
-    },
     "й": {
       "variants": [
         "01 Родная кратка",
@@ -101,13 +78,21 @@
       ],
       "preference": "both liked by user",
       "primary": null
+    },
+    "т": {
+      "variants": [
+        "01 Родные арки",
+        "02 Письменный выход"
+      ],
+      "primary": null,
+      "study_directory": "studies/regular/te"
     }
   },
   "inherited": {
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/de-reimagined",
+  "latest_artifact": "studies/regular/te",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -156,8 +141,8 @@
   "completion": {
     "full_cyrillic_font": false,
     "final_cyrillic_kerning": false,
-    "fontbakery_acceptance": "not run for this artifact import",
-    "hyperglot_acceptance": "not run for this artifact import",
+    "fontbakery_acceptance": "not run for current te trials",
+    "hyperglot_acceptance": "not run for current te trials",
     "italic_design": "not developed in retained glyph studies"
   },
   "confirmed_silhouette_preferences": {
@@ -170,15 +155,23 @@
       "alternate_feature": "ss07"
     },
     "д": {
-      "silhouette": "loop-shaped",
-      "primary_variant": null,
-      "variants": [
-        "01 Овальная петля",
-        "02 Асимметричная петля"
-      ],
-      "subsequent_feedback": "Native two-storey g probes rejected as Latin g; printed pedestal probes also rejected. Handwritten Cyrillic skeleton required; new primary open."
+      "silhouette": "pointed handwritten bowl with open lower return",
+      "primary_variant": "01",
+      "family": "de-reimagined",
+      "source": "оставляем первый вариант",
+      "date": "2026-10-15",
+      "retained_alternative_variant": "02",
+      "historical_preference": {
+        "silhouette": "loop-shaped",
+        "primary_variant": null,
+        "variants": [
+          "01 Овальная петля",
+          "02 Асимметричная петля"
+        ],
+        "subsequent_feedback": "Native two-storey g probes rejected as Latin g; printed pedestal probes also rejected. Handwritten Cyrillic skeleton required; new primary open."
+      }
     },
-    "meaning": "Preserve selected u-shaped и; for д this record is historical, drawings remain retained but redesign and primary selection are open."
+    "meaning": "Selected и remains native u; selected д is de-reimagined01. Historical records remain evidence, not current defaults."
   },
   "latest_ka_artifact": "studies/regular/ka",
   "latest_de_combinations": [
@@ -213,38 +206,6 @@
       "ttf": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.ttf",
       "glyphs": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.glyphs",
       "woff2": "studies/regular/de-reimagined/with-ka02-shorti02/de-01.woff2"
-    },
-    {
-      "de_variant": "02",
-      "ka_variant": "01",
-      "shorti_variant": "01",
-      "ttf": "studies/regular/de-reimagined/de-02.ttf",
-      "glyphs": "studies/regular/de-reimagined/de-02.glyphs",
-      "woff2": "studies/regular/de-reimagined/de-02.woff2"
-    },
-    {
-      "de_variant": "02",
-      "ka_variant": "01",
-      "shorti_variant": "02",
-      "ttf": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.woff2"
-    },
-    {
-      "de_variant": "02",
-      "ka_variant": "02",
-      "shorti_variant": "01",
-      "ttf": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.ttf",
-      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.glyphs",
-      "woff2": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.woff2"
-    },
-    {
-      "de_variant": "02",
-      "ka_variant": "02",
-      "shorti_variant": "02",
-      "ttf": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.ttf",
-      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.glyphs",
-      "woff2": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.woff2"
     }
   ],
   "de_legibility_requirement": {
@@ -481,17 +442,17 @@
     }
   ],
   "coverage_totals": {
-    "ttf_checked": 60,
-    "woff2_checked": 60,
-    "glyphs_checked": 60,
-    "svg_in_codex_branch": 70,
-    "cyrillic_codepoints_in_fonts": 17,
+    "ttf_checked": 68,
+    "woff2_checked": 68,
+    "glyphs_checked": 68,
+    "svg_in_codex_branch": 74,
+    "cyrillic_codepoints_in_fonts": 18,
     "source_only_additional_letters": 4,
-    "combined_lowercase_letters": 21,
-    "individually_studied_letters": 13,
+    "combined_lowercase_letters": 22,
+    "individually_studied_letters": 14,
     "native_latin_aliases": 8
   },
-  "latest_de_export_status": "Two new de-reimagined constructions, unselected; previous rejected drawings retained.",
+  "latest_de_export_status": "de-reimagined01 Острый свод selected;02 retained separately. Both unchanged.",
   "de_curve_research": "studies/reference-analysis/de-curves-deep",
   "retained_rejected_de_combinations": [
     {
@@ -558,5 +519,154 @@
       "glyphs": "studies/regular/de-cursive/with-ka02-shorti02/de-02.glyphs",
       "woff2": "studies/regular/de-cursive/with-ka02-shorti02/de-02.woff2"
     }
-  ]
+  ],
+  "de_design_history": {
+    "status": "new_constructive_directions_awaiting_visual_review",
+    "primary": null,
+    "previous_family": "looped forms allowed in Regular, previous drawings retained for comparison",
+    "previous_variants": [
+      "Овальная петля",
+      "Асимметричная петля"
+    ],
+    "new_study": "studies/regular/de-reimagined",
+    "approval": "Neither new construction is selected; user asked to redesign the essence of de.",
+    "g_based_study_status": "rejected by user: reads as Latin g more than Cyrillic д",
+    "pedestal_study_status": "both rejected by user: printed skeleton violates agreed lowercase approach",
+    "rejected_studies": [
+      "studies/regular/de-native",
+      "studies/regular/de-cyrillic",
+      "studies/regular/de-cursive"
+    ],
+    "rejected_current_candidates": [
+      "01 Сдержанный загиб",
+      "02 Открытая дуга"
+    ],
+    "new_candidates": [
+      "01 Острый свод",
+      "02 Перьевой поворот"
+    ],
+    "previous_feedback": {
+      "date": "2026-10-15",
+      "verdict": "в этот раз у тебя не получилось",
+      "clarification": "Кривые и окончания",
+      "scope": "execution of current01/02, not a blanket ban on upper-ascender skeletons"
+    },
+    "latest_feedback": {
+      "date": "2026-10-15",
+      "verdict": "я не просил анализировать сделанное, а придумать новый подход",
+      "clarification": "переделывай суть буквы д",
+      "scope": "Draw new constructions; analysis of old work is not the requested result."
+    },
+    "retained_export_polish": "data/de-cursive-export.json: local integer-grid G1 correction; no source or native-contour changes",
+    "current_resolution": "01 selected by user;02 retained separately as alternative."
+  },
+  "retained_de_alternative_combinations": [
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-reimagined/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka01-shorti02/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti01/de-02.woff2"
+    },
+    {
+      "de_variant": "02",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.ttf",
+      "glyphs": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.glyphs",
+      "woff2": "studies/regular/de-reimagined/with-ka02-shorti02/de-02.woff2"
+    }
+  ],
+  "latest_te_combinations": [
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/te-01.ttf",
+      "glyphs": "studies/regular/te/te-01.glyphs",
+      "woff2": "studies/regular/te/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka01-shorti02/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka01-shorti02/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka01-shorti02/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/with-ka02-shorti01/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti01/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti01/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka02-shorti02/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti02/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti02/te-01.woff2"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/te-02.ttf",
+      "glyphs": "studies/regular/te/te-02.glyphs",
+      "woff2": "studies/regular/te/te-02.woff2"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka01-shorti02/te-02.ttf",
+      "glyphs": "studies/regular/te/with-ka01-shorti02/te-02.glyphs",
+      "woff2": "studies/regular/te/with-ka01-shorti02/te-02.woff2"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/with-ka02-shorti01/te-02.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti01/te-02.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti01/te-02.woff2"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka02-shorti02/te-02.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti02/te-02.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti02/te-02.woff2"
+    }
+  ],
+  "latest_te_artifact": "studies/regular/te"
 }

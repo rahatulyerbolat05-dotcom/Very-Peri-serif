@@ -1,0 +1,23 @@
+{
+  "character": "д",
+  "glyph": "uni0434",
+  "variant": "01",
+  "name": "Острый свод",
+  "decision": "оставляем первый вариант",
+  "date": "2026-10-15",
+  "source_file": "studies/regular/de-reimagined/de-01.ttf",
+  "source_glyphs": "studies/regular/de-reimagined/de-01.glyphs",
+  "hmtx": [
+    416,
+    33
+  ],
+  "glyf_sha256": "7b42c3651455bd27efb05bbbafdc7fe24504990a4362811ce436c034a588e73e",
+  "glyphs_outline_sha256": "9e4ed7e3bb47817a7e95cee8745097a123c71b1b721d2cf7fdedee6684d6c83a",
+  "retained_alternative": {
+    "variant": "02",
+    "name": "Перьевой поворот",
+    "file": "studies/regular/de-reimagined/de-02.ttf",
+    "feature": null
+  },
+  "scope": "Pin exact accepted glyph; preserves all previous studies and the separate alternative."
+}

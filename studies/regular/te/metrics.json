@@ -1,0 +1,134 @@
+{
+  "variants": {
+    "01": {
+      "name": "Родные арки",
+      "character": "т",
+      "unicode": "U+0442",
+      "glyph": "uni0442",
+      "status": "unselected proposal",
+      "advance": 704,
+      "bbox_cubic": [
+        15,
+        0,
+        693,
+        516
+      ],
+      "bbox_ttf": [
+        15,
+        0,
+        693,
+        516
+      ],
+      "cubic_nodes": 119,
+      "ttf_points": 105,
+      "native_stem_width": 68,
+      "anchors_proposed": {
+        "top": [
+          352,
+          510
+        ],
+        "bottom": [
+          352,
+          0
+        ]
+      },
+      "construction": "Exact native Regular m, after checking the handwritten Cyrillic te skeleton, width and relation to и/ш.",
+      "native_relationship": "Exact m contours, metrics and TrueType instructions; separate Cyrillic glyph and proposed mark anchors.",
+      "kerning": "native m left edge / m right edge as initial values; Cyrillic pair review pending"
+    },
+    "02": {
+      "name": "Письменный выход",
+      "character": "т",
+      "unicode": "U+0442",
+      "glyph": "uni0442",
+      "status": "unselected proposal",
+      "advance": 718,
+      "bbox_cubic": [
+        15,
+        -9,
+        707,
+        516
+      ],
+      "bbox_ttf": [
+        15,
+        -9,
+        707,
+        516
+      ],
+      "cubic_nodes": 116,
+      "ttf_points": 104,
+      "native_stem_width": 68,
+      "anchors_proposed": {
+        "top": [
+          352,
+          510
+        ],
+        "bottom": [
+          352,
+          0
+        ]
+      },
+      "construction": "Native m arches and first two feet; final right foot replaced by an a/d-type continuous curved exit.",
+      "native_relationship": "Native m body retained; native d tail translated(+255,0), with one new connecting cubic. No scaling or italic contours.",
+      "kerning": "native m left edge / d right edge as initial values; Cyrillic pair review pending"
+    }
+  },
+  "combinations": [
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "te-01.ttf"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/te-01.ttf"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/te-01.ttf"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/te-01.ttf"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "te-02.ttf"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "with-ka01-shorti02/te-02.ttf"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "with-ka02-shorti01/te-02.ttf"
+    },
+    {
+      "te_variant": "02",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "with-ka02-shorti02/te-02.ttf"
+    }
+  ]
+}

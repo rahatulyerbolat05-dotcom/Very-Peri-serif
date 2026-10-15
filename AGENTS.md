@@ -12,24 +12,15 @@ Regular. Preserve Instrument Serif Regular stress, contrast, terminals and
 curve character; the separate Italic style is still postponed. Do not enforce
 historical bans on cursive skeletons or assume all curves must be smooth.
 
-The primary и is the native u-shaped Regular form; ss07 is its diagonal
-alternative. The user requested redesign of д; old versions and the new
-native-g studies remain retained, but the user rejected them as reading like
-Latin g. The printed platform-and-feet de-cyrillic studies are also rejected:
-they abandon the agreed cursive construction. Research real Cyrillic д forms
-in other fonts for skeletons and ductus, then draw with Instrument details;
-do not transplant their outlines. New д has no approved primary. Both к and
-й variants remain unselected. Do not infer approval from a technical default.
-The two de-cursive upper-ascender drawings are now visually rejected too.
-The user clarified the problem as curves and terminals; do not interpret this
-as a blanket rejection or approval of the upper-ascender skeleton. Technical
-G1 checks do not establish stylistic success. Research native curve and
-terminal anatomy before generating another pair.
-
-The user then explicitly requested a new construction, not another analysis
-of old work. Current proposals are de-reimagined: pointed arch/open lower
-return and folded upper entry/diagonal descent. Both are unselected.
-Present actual new drawings with native neighbours when asked to redesign.
+The primary и is exact native u; ss07 retains its diagonal alternative.
+The user selected de-reimagined01 «Острый свод» as the main д. Pin its
+accepted contour and metrics through data/selected-de.json. Do not redraw it
+while adding letters. De-reimagined02 is retained separately as an alternative.
+Historical native-g, printed pedestal and de-cursive drawings remain retained
+but rejected. Current т proposals are native m and m with an a/d-type exit;
+neither is selected. Both к and й variants also remain unselected.
+Do not infer approval from a technical default. Technical G1 checks do not
+establish stylistic success. Present actual drawings with native neighbours.
 
 Use the portable tools and requirements-fonts.txt described in README.md.
 Build outputs belong in ignored build/; do not run archived/uploaded scripts.
