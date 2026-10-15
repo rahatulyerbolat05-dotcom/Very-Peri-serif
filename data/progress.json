@@ -127,6 +127,12 @@
         "01 Петля и капля y"
       ],
       "primary": null
+    },
+    "И": {
+      "variants": [
+        "01 Стойки H, тонкая восходящая диагональ"
+      ],
+      "primary": null
     }
   },
   "inherited": {
@@ -1057,5 +1063,6 @@
       "я"
     ]
   },
-  "latest_che_ya_artifact": "studies/regular/che-ya"
+  "latest_che_ya_artifact": "studies/regular/che-ya",
+  "latest_capital_i_artifact": "studies/regular/capital-i"
 }

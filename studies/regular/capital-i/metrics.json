@@ -1,0 +1,33 @@
+{
+  "character": "И",
+  "status": "single proposal, not user-approved",
+  "advance": 546,
+  "bounds": [
+    19,
+    0,
+    527,
+    720
+  ],
+  "stems": 71,
+  "diagonal_normal_thickness": 30.426711387583644,
+  "diagonal_angle_degrees": 63.834414916604715,
+  "donors": "native H stems and all four serifs exactly retained in cubic source; new ascending hairline and four local joins",
+  "native_N": "comparison only; no reflected N or assumption that historical D8 was approved",
+  "kerning": "H edge classes inherited as starting values, Cyrillic pairs not final",
+  "builds": [
+    {
+      "file": "capital-i-shorti01.ttf",
+      "sha256": "d65e008cfe9acb0884deadc4903b3a520cd8d73b6a05b1052855d96504b50eeb",
+      "existing_glyphs_preserved": 399,
+      "GSUB_preserved": true,
+      "topology_and_shaping": "passed"
+    },
+    {
+      "file": "capital-i-shorti02.ttf",
+      "sha256": "875088cf1378acd9aedd98e0cda16e8f2984828807c6b55d8524c072716c69b2",
+      "existing_glyphs_preserved": 400,
+      "GSUB_preserved": true,
+      "topology_and_shaping": "passed"
+    }
+  ]
+}

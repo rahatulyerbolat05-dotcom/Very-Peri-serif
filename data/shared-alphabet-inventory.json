@@ -39,13 +39,13 @@
     "individually_studied_lowercase": 25,
     "individually_studied_definition": "33 available source lowercase minus 8 native aliases; includes unapproved ч/я and uncompiled user SVGs.",
     "russian": {
-      "available": 51,
+      "available": 52,
       "total": 66,
-      "uppercase_available": 18,
+      "uppercase_available": 19,
       "uppercase_total": 33,
       "lowercase_available": 33,
       "lowercase_total": 33,
-      "remaining": 15
+      "remaining": 14
     },
     "kazakh_additional": {
       "available": 10,
@@ -112,12 +112,13 @@
   ],
   "available": {
     "russian_uppercase": [
+      "Ё",
       "А",
       "В",
       "Г",
       "Е",
-      "Ё",
       "Ж",
+      "И",
       "К",
       "Л",
       "М",
@@ -186,7 +187,6 @@
       "Б",
       "Д",
       "З",
-      "И",
       "Й",
       "У",
       "Ф",
@@ -248,7 +248,8 @@
   "open_codex_choices": [
     "й",
     "ч",
-    "я"
+    "я",
+    "И"
   ],
   "case_and_mapping_notes": {
     "ж_vs_Ж": "Codex ж U+0436 is exact selected Cyr11 import; Claude Ж U+0416 is a separate capital. No duplicate-letter conflict.",
@@ -948,10 +949,11 @@
     "source_only": true
   },
   "latest_source_counts": {
-    "russian": 51,
+    "russian": 52,
     "russian_lowercase": 33,
     "kazakh": 10,
     "remaining_russian_lowercase": [],
     "note": "ч/я are new unapproved proposals; 21 Cyrillic codepoints compiled in che-ya trials, user SVGs source-only."
-  }
+  },
+  "capital_i_proposal": "studies/regular/capital-i; not approved; compiled as U+0418"
 }

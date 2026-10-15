@@ -4,7 +4,7 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/che-ya",
+  "latest_artifact": "studies/regular/capital-i",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
@@ -2742,6 +2742,56 @@
       "path": "studies/regular/che-ya/uni044F.glif",
       "sha256": "1ffa956a9c642adee3d8d174a7bfb2317af8ca375debf785ba96911ec1cb2372",
       "bytes": 2857
+    },
+    {
+      "path": "studies/regular/capital-i/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/capital-i/README.md",
+      "sha256": "29f14f8242911ced2213903ad1a41feaa5aa7f0001303ed1f33e90f4389592cc",
+      "bytes": 2096
+    },
+    {
+      "path": "studies/regular/capital-i/capital-i-shorti01.ttf",
+      "sha256": "d65e008cfe9acb0884deadc4903b3a520cd8d73b6a05b1052855d96504b50eeb",
+      "bytes": 76020
+    },
+    {
+      "path": "studies/regular/capital-i/capital-i-shorti01.woff2",
+      "sha256": "236196ed7dfcb50a3cfb849427945b0713d47d0ff84b20e8bde25b2e25e9b61f",
+      "bytes": 30036
+    },
+    {
+      "path": "studies/regular/capital-i/capital-i-shorti02.ttf",
+      "sha256": "875088cf1378acd9aedd98e0cda16e8f2984828807c6b55d8524c072716c69b2",
+      "bytes": 76164
+    },
+    {
+      "path": "studies/regular/capital-i/capital-i-shorti02.woff2",
+      "sha256": "9c61f3defd1864502be66923077e3eb73806914a37bd70313ec64766baeed9ae",
+      "bytes": 30032
+    },
+    {
+      "path": "studies/regular/capital-i/comparison.svg",
+      "sha256": "34e6c2211a4cfe1e63dcd7b8165a35638167c0187724659545e8c780a6c9068b",
+      "bytes": 71267
+    },
+    {
+      "path": "studies/regular/capital-i/design.json",
+      "sha256": "be0aa55aee0591f073224ab67c413aedad075674a246d0e2a0240eacdb0b7a52",
+      "bytes": 6057
+    },
+    {
+      "path": "studies/regular/capital-i/metrics.json",
+      "sha256": "4972f63972e552182b4592d320454077c4d649c18dbad72df4ceba534dcc90a8",
+      "bytes": 1076
+    },
+    {
+      "path": "studies/regular/capital-i/uni0418.glif",
+      "sha256": "5d62b2774d29433faf4ae0ba22cbf2420bf1e852aa236ccac31115b5686239f3",
+      "bytes": 4557
     }
   ],
   "total_files": 241,
