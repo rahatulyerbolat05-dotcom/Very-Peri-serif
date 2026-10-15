@@ -125,7 +125,7 @@
 
 - `CLAUDE.md`, `docs/instruction.md`, `docs/instruction.original.md`.
 - `data/params.json`: числа; генерируется `tools/extract_params.py`.
-- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `sketch_ge_cap.py`, `sketch_el_std.py`, `sketch_kz2.py`, `node_view.py` (просмотр опорных точек глифа), `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука»: русское ядро и казахские буквы, готовые и оставшиеся, по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
+- `tools/`: `fetch_reference.sh`, `extract_params.py`, `ref_overview.py`, `ref_spacing.py`, `ref_vertical.py`, `ref_stems.py`, `ref_sheet.py`, `sketchlib.py` (сборка эскизов из деталей оригинала), `sketch_sha.py`, `sketch_yery.py`, `sketch_soft.py`, `sketch_hard.py`, `sketch_el.py`, `sketch_el_weight.py`, `sketch_el_lower.py`, `sketch_em.py`, `sketch_em_soft.py`, `sketch_el_double.py`, `sketch_te.py`, `sketch_em_latin.py`, `sketch_en.py`, `sketch_yu.py`, `sketch_pe.py`, `sketch_batch2.py`, `sketch_ka.py`, `sketch_pe_cap.py`, `sketch_sha_cap.py`, `sketch_yu_cap.py`, `sketch_ge_cap.py`, `sketch_el_std.py`, `sketch_kz2.py`, `tails.py` (модули хвостов, `docs/tails.md`), `sketch_tails.py`, `node_view.py` (просмотр опорных точек глифа), `homoglyphs.py` (омоглифы из латиницы оригинала, `docs/glyphs/homoglyphs.md`), `embed_author_svg.py` (вставка чертежа автора проекта без изменений), `check_context_classes.py`, `compare_old.py`, `old_best.py` (сравнение со старой разработкой, `docs/old_comparison.md`), `alphabet_sheet.py` (сводная страница «азбука»: русское ядро и казахские буквы, готовые и оставшиеся, по `data/alphabet.json`), `glyphparts.py` (общие детали: ь для ь и ы, ъ, арка Л и л, м).
 - `docs/glyphs/`: карточки букв в работе. `docs/img/`: картинки к ним. `data/sha/`, `data/yery/`, `data/soft/`, `data/hard/`: контуры эскизов (GLIF, SVG).
 - Планируется: `src/Very-Peri-serif-Regular.ufo`, `src/Very-Peri-serif-Italic.ufo`, `letters.json`, `features.fea`, `decisions.md` (форматы по разделу 12 инструкции).
 - Имена глифов: номенклатура Glyphs (a-cy, be-cy, ve-cy и так далее); для редких букв брать из GlyphData, не придумывать.
@@ -156,7 +156,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | D2 | Чем Italic отличается от прямого при общем ductus |
 | D3 | Сербский и македонский в первый выпуск |
 | D4 | Малые капители для кириллицы |
-| D5 | Длина хвостов заглавных Ц, Щ, Д (стартовая догадка −140, не измерена) |
+| D5 | Длина хвостов (Ц, Щ, Д, Қ, Ң и строчные): в исходнике только −205 (прямой вынос с засечкой) и −215 (крюк, огонек), коротких хвостов нет [ИЗМЕРЕНО]; принцип хвостов `docs/tails.md` (модуль j/J или p/H, якорь `tail`, крюк наружу), ждёт решения автора проекта |
 | D6 | Закрыто: Reserved Font Name не объявлен |
 | D8 | Приоритет правил для И, Й, Я, Ж (16.2) |
 | D9 | Ударение над Ё и Й |
@@ -214,6 +214,7 @@ python3 -I tools/ref_sheet.py reference/instrument-serif/fonts/ttf/InstrumentSer
 | Ю | основа Yu1 (стойка H, горизонталь 30, овал О, связь 55), Yu2 (80), Yu3 (105) запасные; ждёт подтверждения | `docs/glyphs/yu_cap.md` |
 | Г | один вариант G1 (стойка H, верх и горизонталь с носиком от E без изменений); ждёт подтверждения | `docs/glyphs/ge_cap.md` |
 | Ө ө Ғ | Ө: О + черта 27 (O1), ө: о + черта 25 (o1), Ғ: Г (G1) + черта 30 (Gh2, ±90); запасные O2, o2, Gh1, Gh3; ждёт подтверждения | `docs/glyphs/kz_obar_ghe.md` |
+| хвосты | принцип `docs/tails.md`: модуль из оригинала (K1 прямой p/H −205, K2 крюк наружу j/J −215, K3 огонек), пробы на Ң, ң, щ; основы не зарегистрированы | `docs/tails.md` |
 | и | = латинская u (D30) | `docs/glyphs/ii.md` |
 | к | латинская k с заменённым выносным элементом (головка ı), изгибы оригинала сохранены; обязательная контекстная форма ka-cy.short (кончик верхней ветви срезан и скруглён); ждёт подтверждения автора проекта (D30) | `docs/glyphs/ka.md` |
 | ф | убрана из репозитория 15.10.2026 по просьбе автора проекта (в сессии контур искажался); автор проекта вставит свой вектор сам (через GPT); образцы: `docs/img/author_ef_reference.svg`, `docs/img/author_ef_vector.svg` (D30) | `docs/glyphs/ef.md` |

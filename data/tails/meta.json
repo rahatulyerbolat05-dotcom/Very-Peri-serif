@@ -1,0 +1,83 @@
+{
+ "Endesc_K1": {
+  "adv": 546,
+  "xmin": 19,
+  "xmax": 529,
+  "ymin": -205,
+  "ymax": 720,
+  "contours": 1,
+  "points": 56
+ },
+ "Endesc_K2": {
+  "adv": 546,
+  "xmin": 19,
+  "xmax": 602,
+  "ymin": -215,
+  "ymax": 720,
+  "contours": 1,
+  "points": 52
+ },
+ "Endesc_K3": {
+  "adv": 546,
+  "xmin": 19,
+  "xmax": 527,
+  "ymin": -216,
+  "ymax": 720,
+  "contours": 1,
+  "points": 61
+ },
+ "endesc_K1": {
+  "adv": 466,
+  "xmin": 10,
+  "xmax": 474,
+  "ymin": -205,
+  "ymax": 513,
+  "contours": 1,
+  "points": 40
+ },
+ "endesc_K2": {
+  "adv": 466,
+  "xmin": 10,
+  "xmax": 534,
+  "ymin": -215,
+  "ymax": 513,
+  "contours": 1,
+  "points": 37
+ },
+ "endesc_K3": {
+  "adv": 466,
+  "xmin": 10,
+  "xmax": 451,
+  "ymin": -216,
+  "ymax": 513,
+  "contours": 1,
+  "points": 49
+ },
+ "shcha_K1": {
+  "adv": 704,
+  "xmin": 19,
+  "xmax": 712,
+  "ymin": -205,
+  "ymax": 510,
+  "contours": 1,
+  "points": 44
+ },
+ "shcha_K2": {
+  "adv": 704,
+  "xmin": 19,
+  "xmax": 772,
+  "ymin": -215,
+  "ymax": 510,
+  "contours": 1,
+  "points": 41
+ },
+ "shcha_K3": {
+  "adv": 704,
+  "xmin": 19,
+  "xmax": 689,
+  "ymin": -216,
+  "ymax": 510,
+  "contours": 1,
+  "points": 55
+ }
+}
