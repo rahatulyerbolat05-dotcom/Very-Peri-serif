@@ -132,6 +132,10 @@
     "П": [
       "data/pe_cap/P1.glif",
       "P1"
+    ],
+    "Ш": [
+      "data/sha_cap/Sh1.glif",
+      "Sh1"
     ]
   },
   "latin_donor": [

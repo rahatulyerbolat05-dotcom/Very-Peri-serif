@@ -373,3 +373,41 @@ def pe_cap_sign(ref, bar_t=30.0, top=720.0):
     path = OR(stems, bar); path.simplify()
     info = {"bar_t": bar_t, "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def ii_cap_sign(ref, foot=False):
+    """Заглавная И (карточка docs/glyphs/ii_cap.md): зеркало N оригинала относительно оси ширины (правило 16.2: роли штрихов от N, стойки тонкие 31, диагональ «/» толстая 76).
+    foot=False: чистое зеркало (И1). foot=True (И2): остриё внизу слева срезано по базовой линии и под левую стойку поставлена опорная засечка F2, копия правой
+    (инструкция: ножки на обеих стойках); у N на этом месте остриё ниже линии (−9)."""
+    N = ref.glyph("N"); adv = ref.adv("N")
+    M = tf(N, (-1, 0, 0, 1, adv, 0))
+    if not foot:
+        return M
+    SL, SR = 103.5, 436.5                                              # оси левой (88–119) и правой (421–452) стоек
+    serif = shift(AND(M, rect(330, -20, 540, 100)), SL - SR)           # опорная засечка правой стойки с подкосом, на левую стойку
+    low = SUB(M, rect(0, -50, 300, 0))
+    path = OR(low, serif); path.simplify()
+    zone = rect(100, -5, 215, 70)                                       # шов диагонали с засечкой: вогнутый угол скруглён, остальной контур не тронут
+    smooth = soften(path, 0, 10.0)
+    out = OR(SUB(path, zone), AND(smooth, zone)); out.simplify()
+    return out
+
+
+def sha_cap_sign(ref, pitch=250.0, bar_t=30.0):
+    """Заглавная Ш (карточка docs/glyphs/sha_cap.md): три стойки H оригинала (без перекладины, с головными и опорными засечками) и общая нижняя горизонталь bar_t заподлицо с опорными засечками (y 0).
+    Левая и средняя стойки от левой половины H, правая от правой (засечки H 66/69 слева/справа). pitch это расстояние между левыми краями соседних стоек (у H между стойками 297).
+    Просвет контрформ равный по построению; ширина = 527 + сдвиг правой стойки + поле 19."""
+    H = ref.glyph("H")
+    cut = rect(160, 330, 386, 410)
+    Lh = SUB(AND(H, rect(-100, -50, 273, 800)), cut)                     # левая стойка H (89–160) с засечками
+    Rh = SUB(AND(H, rect(273, -50, 700, 800)), cut)                      # правая стойка H (386–457) с засечками
+    s2 = pitch; s3 = 2 * pitch - 297.0                                    # сдвиги: средняя на pitch, правая так, чтобы левый край стойки был на 89 + 2*pitch
+    parts = [Lh, shift(Lh, s2), shift(Rh, s3)]
+    bar = rect(89.0 + 30.0, 0.0, 386.0 + s3 + 41.0, bar_t)
+    path = OR(*parts, bar); path.simplify()
+    adv = 527.0 + s3 + 19.0
+    # просвет между головными засечками соседних стоек (y 700): ближайшее расстояние между краями засечек
+    top = AND(path, rect(-100, 700, 2000, 722)); xs = sorted((min(pt[0] for sg in c.segments for pt in sg[1]), max(pt[0] for sg in c.segments for pt in sg[1])) for c in top.contours)
+    info = {"pitch": pitch, "bar_t": bar_t, "adv": adv, "top_pieces": [(round(a), round(b)) for a, b in xs],
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
