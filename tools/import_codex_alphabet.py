@@ -28,6 +28,7 @@ SPECS={
  'й':(None,True,False,[('01','Родная кратка','studies/regular/shorti/shorti-01.ttf'),('02','Компактная','studies/regular/shorti/shorti-02.ttf')]),
  'к':('02',False,False,[('01','Головка u','studies/regular/ka/ka-01.ttf'),('02','Головка k','studies/regular/ka/ka-02.ttf')]),
  'т':('02',False,False,[('02','Письменный выход',BASE)]),
+ 'И':(None,False,False,[('01','Стойки H, диагональ','studies/regular/capital-i/capital-i-shorti01.ttf')]),
  'ч':(None,False,False,[('01','Поднятая чаша u','studies/regular/che-ya/che-ya-shorti01.ttf')]),
  'я':(None,False,False,[('01','Петля и капля y','studies/regular/che-ya/che-ya-shorti01.ttf')]),
  'э':('02',False,False,[('02','Капля a — ниже',BASE)])}
@@ -67,7 +68,7 @@ def main():
         cfg['codex'][ch]=entry
     assert json.dumps(cfg['done'],ensure_ascii=False,sort_keys=True)==before_done
     cfg['shared_review']={'codex_branch':'codex/cyrillic-studies','codex_source_commit':commit,'claude_base_commit':'d2cd2ee856a85d99aa4880b8f44b126ee49a1eca',
-                         'conflicts':[],'open_codex_choices':['й','ч','я'],'selected_ereversed':'02; direct user choice: оставь 02',
+                         'conflicts':[],'open_codex_choices':['й','ч','я','И'],'selected_ereversed':'02; direct user choice: оставь 02',
                          'count_meaning':'Available drawings, including undecided alternatives; not production-ready or approved coverage.',
                          'missing_notes':{}}
     config_path.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n')

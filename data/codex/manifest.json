@@ -1,7 +1,7 @@
 {
   "source_repository": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "source_branch": "codex/cyrillic-studies",
-  "source_commit": "a6f05d283411a3c56be5905fc8fc1cddc90dbc2f",
+  "source_commit": "7f3d6f89987cbecd9f18aff85155dc4c1cc08d97",
   "native_source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "license": "SIL OFL1.1; see OFL.txt",
   "geometry": "Exact decomposed quadratic contours from retained study TTFs; canonical cubic segment equality and advance checked after GLIF roundtrip.",
@@ -253,6 +253,25 @@
       "source_glyph": "uni0442",
       "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
       "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+    },
+    {
+      "character": "И",
+      "path": "data/codex/uni0418-01.glif",
+      "label": "Стойки H, диагональ",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 546,
+      "bounds": [
+        19,
+        0,
+        527,
+        720
+      ],
+      "glif_sha256": "9b9f770152f08bfb8b43631a656c17d8e9ae4ca2be6ec42ebf6d0cf5227bcf67",
+      "source_file": "studies/regular/capital-i/capital-i-shorti01.ttf",
+      "source_glyph": "uni0418",
+      "source_glyf_sha256": "a8e215bcfd931db699e6f41f1fccdf12ff9f8747f2e44a61f6dced784b548e06",
+      "source_file_sha256": "d65e008cfe9acb0884deadc4903b3a520cd8d73b6a05b1052855d96504b50eeb"
     },
     {
       "character": "ч",

@@ -85,3 +85,7 @@ python3 tools/alphabet_sheet.py
 ## 16 октября 2026: ч / я на рассмотрение
 
 Добавлены по одному новому варианту Codex: ч «Поднятая чаша u», я «Петля и капля y». Обе пока не утверждены. Теперь исходные рисунки есть для 33/33 русских строчных, это не означает готовность полного шрифта. [Сравнение с выбранными буквами и родной латиницей](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/che-ya/comparison.svg).
+
+## 16 октября 2026: заглавная И на рассмотрение
+
+Добавлен один вариант И Codex: родные стойки и засечки H, новая тонкая восходящая диагональ. Не утверждён. [Крупно и в наборе](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/capital-i/comparison.svg).

@@ -533,6 +533,32 @@
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
+    "И": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0418-01.glif",
+          "label": "Стойки H, диагональ",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 546,
+          "bounds": [
+            19,
+            0,
+            527,
+            720
+          ],
+          "glif_sha256": "9b9f770152f08bfb8b43631a656c17d8e9ae4ca2be6ec42ebf6d0cf5227bcf67",
+          "source_file": "studies/regular/capital-i/capital-i-shorti01.ttf",
+          "source_glyph": "uni0418",
+          "source_glyf_sha256": "a8e215bcfd931db699e6f41f1fccdf12ff9f8747f2e44a61f6dced784b548e06",
+          "source_file_sha256": "d65e008cfe9acb0884deadc4903b3a520cd8d73b6a05b1052855d96504b50eeb"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
     "ч": {
       "selected": null,
       "shared_with_claude": false,
@@ -614,13 +640,14 @@
   },
   "shared_review": {
     "codex_branch": "codex/cyrillic-studies",
-    "codex_source_commit": "a6f05d283411a3c56be5905fc8fc1cddc90dbc2f",
+    "codex_source_commit": "7f3d6f89987cbecd9f18aff85155dc4c1cc08d97",
     "claude_base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
     "conflicts": [],
     "open_codex_choices": [
       "й",
       "ч",
-      "я"
+      "я",
+      "И"
     ],
     "selected_ereversed": "02; direct user choice: оставь 02",
     "count_meaning": "Available drawings, including undecided alternatives; not production-ready or approved coverage.",
