@@ -1,0 +1,31 @@
+{
+  "character": "т",
+  "glyph": "uni0442",
+  "date": "2026-10-15",
+  "decision": "второй оставляем за основу первый как альтернативный стиль",
+  "variant": "02",
+  "name": "Письменный выход",
+  "source_file": "studies/regular/te/te-02.ttf",
+  "source_glyphs": "studies/regular/te/te-02.glyphs",
+  "hmtx": [
+    718,
+    15
+  ],
+  "glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
+  "glyphs_outline_sha256": "f18f108cf82149fa4a87e3e01d5aac9a00136d6737cd6e1d6a621e708056cffd",
+  "retained_alternative": {
+    "variant": "01",
+    "name": "Родные арки",
+    "source_file": "studies/regular/te/te-01.ttf",
+    "source_glyphs": "studies/regular/te/te-01.glyphs",
+    "hmtx": [
+      704,
+      15
+    ],
+    "glyf_sha256": "fbb6f263ecaba5e23ff45ab027bae222efa57fe4355b602dc67929e02599a6f5",
+    "glyphs_outline_sha256": "4dd0d64eb98f5840c81e5c7d4f2cf9eac4bae8dac50adada2adaf761a351638a",
+    "feature": null,
+    "availability": "separate retained study font; no new OpenType feature assigned"
+  },
+  "scope": "Primary02 and alternative01 chosen by user; exact existing outlines and metrics preserved."
+}

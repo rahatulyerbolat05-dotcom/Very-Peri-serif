@@ -50,12 +50,16 @@ native=TTFont(reference/'fonts/ttf/InstrumentSerif-Regular.ttf')
 baseline=json.loads((ROOT/'studies/regular/ka/approved-baseline.json').read_text())['fixed_glyphs']
 latest=progress['latest_combinations']+progress.get('latest_de_combinations',[])+progress.get('latest_te_combinations',[])
 retained_rejected=progress.get('retained_rejected_de_combinations',[])
+retained_alternatives=progress.get('retained_te_alternative_combinations',[])
 selected_de=json.loads((ROOT/'data/selected-de.json').read_text())
+selected_te=json.loads((ROOT/'data/selected-te.json').read_text())
 latin_tests=['AV','To','Ta','Yo','Wa','LT','Fo','Pa','oo','r.','fo','C)','C?','A/']
 de_quadratic_checked=0
 selected_de_checked=0
 te_checked=0
-for combo in latest+retained_rejected:
+selected_te_checked=0
+alternative_te_checked=0
+for combo in latest+retained_rejected+retained_alternatives:
     path=ROOT/combo['ttf'];f=TTFont(path)
     if path.is_relative_to(ROOT/'studies/regular/te') or (path.is_relative_to(ROOT/'studies/regular/de-reimagined') and combo['de_variant']=='01'):
         assert list(f['hmtx']['uni0434'])==selected_de['hmtx'],path
@@ -66,6 +70,14 @@ for combo in latest+retained_rejected:
         selected_de_checked+=1
     if path.is_relative_to(ROOT/'studies/regular/te'):
         te_checked+=1
+        record=selected_te if combo['te_variant']=='02' else selected_te['retained_alternative']
+        assert list(f['hmtx']['uni0442'])==record['hmtx'],path
+        assert hashlib.sha256(f['glyf']['uni0442'].compile(f['glyf'])).hexdigest()==record['glyf_sha256'],path
+        layer=fs.glyphs['uni0442'].layers[0]
+        outline=[[(tuple(n.position),n.type) for n in p.nodes] for p in layer.paths]
+        assert hashlib.sha256(json.dumps(outline,separators=(',',':')).encode()).hexdigest()==record['glyphs_outline_sha256'],path
+        if combo['te_variant']=='02':selected_te_checked+=1
+        else:alternative_te_checked+=1
         assert f.getBestCmap()[0x442]=='uni0442',path
         for text in ['тигр тогда','будто три','дитё тити','т\u0301']:
             hb_shape(path,text)
@@ -120,6 +132,6 @@ if args.rebuilt_dir:
             for tag in ['GSUB','GPOS','GDEF']:
                 assert a[tag].compile(a)==b[tag].compile(b),(candidate,tag)
             rebuilt_count+=1
-report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
+report={'status':'passed','source_commit':COMMIT,'retained':counts,'latest_combinations_checked':len(latest),'retained_rejected_combinations_checked':len(retained_rejected),'retained_te_alternative_combinations_checked':len(retained_alternatives),'handwritten_de_integer_grid_g1_checked':de_quadratic_checked,'selected_de_exact_in_current_builds':selected_de_checked,'te_combinations_checked':te_checked,'selected_te_primary_checked':selected_te_checked,'selected_te_alternative_checked':alternative_te_checked,'baseline_glyphs_checked':len(baseline),'original_glyphs_preserved':len(native.getGlyphOrder()),'latin_pair_samples_preserved':len(latin_tests),'precomposed_decomposed_shorti_and_features_checked':True,'portable_rebuilt_fonts_semantically_identical':rebuilt_count,'fontbakery':'not run','hyperglot':'not run','final_cyrillic_kerning':'not completed','fresh_dependency_install':'not repeated; current pinned environment used'}
 args.report.parent.mkdir(parents=True,exist_ok=True);args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

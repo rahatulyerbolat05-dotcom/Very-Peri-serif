@@ -175,7 +175,7 @@ for variant,spec in design['variants'].items():
         'sampled_source_export_hausdorff_units':distance,'relative_area_difference':abs(tt_poly.area-source_poly.area)/source_poly.area,
         'all_existing_glyf_hmtx_and_gsub_preserved':True,'selected_de_hash_preserved':True,'original_m_preserved':True,
         'native_m_copy_exact':variant=='01','native_m_body_and_d_tail_points_exact':variant=='02'}
-    metrics[variant]={'name':spec['name'],'character':'т','unicode':'U+0442','glyph':target,'status':'unselected proposal',
+    metrics[variant]={'name':spec['name'],'character':'т','unicode':'U+0442','glyph':target,'status':spec.get('selection_status','unselected proposal'),
         'advance':layer.width,'bbox_cubic':bp.bounds,'bbox_ttf':[tt['glyf'][target].xMin,tt['glyf'][target].yMin,tt['glyf'][target].xMax,tt['glyf'][target].yMax],
         'cubic_nodes':sum(len(p.nodes) for p in layer.paths),'ttf_points':len(tt['glyf'][target].coordinates),
         'native_stem_width':68,'anchors_proposed':spec['anchors'],'construction':spec['construction'],'native_relationship':spec['native_relationship'],
@@ -230,7 +230,7 @@ fig.savefig(out/'sizes.png',dpi=180,facecolor=fig.get_facecolor());fig.savefig(o
 (out/'metrics.json').write_text(json.dumps({'variants':metrics,'combinations':combinations},ensure_ascii=False,indent=2)+'\n')
 (out/'outline-audit.json').write_text(json.dumps({'status':'passed','variants':audit,'limits':'Sampled topology and distance are not analytic proofs of all curve properties.','fontbakery':'not run','hyperglot':'not run'},ensure_ascii=False,indent=2)+'\n')
 baseline=json.loads((base/'approved-baseline.json').read_text());baseline['fixed_glyphs']['uni0434']={'hmtx':selected['hmtx'],'glyf_sha256':selected['glyf_sha256']}
-baseline['source_file']='te-01.ttf / te-02.ttf; de01 selected, te unresolved'
+baseline['source_file']='te-02.ttf primary / te-01.ttf alternative; de01 selected'
 (out/'approved-baseline.json').write_text(json.dumps(baseline,ensure_ascii=False,indent=2)+'\n')
 (out/'OFL.txt').write_bytes((base/'OFL.txt').read_bytes())
 print(json.dumps({'variants':metrics,'audit':audit,'combinations':len(combinations)},ensure_ascii=False,indent=2))

@@ -17,8 +17,9 @@ The user selected de-reimagined01 «Острый свод» as the main д. Pin 
 accepted contour and metrics through data/selected-de.json. Do not redraw it
 while adding letters. De-reimagined02 is retained separately as an alternative.
 Historical native-g, printed pedestal and de-cursive drawings remain retained
-but rejected. Current т proposals are native m and m with an a/d-type exit;
-neither is selected. Both к and й variants also remain unselected.
+but rejected. The user selected т02 «Письменный выход» as primary and
+т01 «Родные арки» as the alternative style. Pin both through
+data/selected-te.json. Both к and й variants remain unselected.
 Do not infer approval from a technical default. Technical G1 checks do not
 establish stylistic success. Present actual drawings with native neighbours.
 

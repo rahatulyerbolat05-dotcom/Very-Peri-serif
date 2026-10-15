@@ -4,14 +4,14 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/te",
+  "latest_artifact": "studies/regular/ghe/context-with-te",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
     {
       "path": "studies/README.md",
-      "sha256": "748d5e6acbce2cd938cb8e5a09d038baef682078641fbacc5d5ef3a27f78417e",
-      "bytes": 2305
+      "sha256": "cf8f8f5afe040e9df094b6bd1067864aa8ecb4753f6767d75b3427ce68c40ab6",
+      "bytes": 2513
     },
     {
       "path": "studies/archive/de-conventional/OFL.txt",
@@ -1609,6 +1609,21 @@
       "bytes": 167662
     },
     {
+      "path": "studies/regular/ghe/context-with-te/README.md",
+      "sha256": "dc68febca8fe45efd0a783d9b74b8530ecc964a72d462d72382530c32d64364d",
+      "bytes": 1642
+    },
+    {
+      "path": "studies/regular/ghe/context-with-te/comparison.svg",
+      "sha256": "9a5eb7f015c166d2002e153be6c0b0db130ae64592f962125a5a08e5095362f2",
+      "bytes": 212435
+    },
+    {
+      "path": "studies/regular/ghe/context-with-te/shaping.json",
+      "sha256": "e8b26c1784e537e69d2af0250df092565fc0b4023e88605fe3cab1a00696d07b",
+      "bytes": 6132
+    },
+    {
       "path": "studies/regular/ghe/design-notes.md",
       "sha256": "4338f3b5dbf0e0c391abe89de6ac9e2c21d570a017177caa1e4fd0dd10105940",
       "bytes": 2915
@@ -1955,8 +1970,8 @@
     },
     {
       "path": "studies/regular/te/README.md",
-      "sha256": "f8a4b85b147a4012d80e719a03afd0b1cd1cece9001e2b9857ac71beef2d61a7",
-      "bytes": 4625
+      "sha256": "70874a11e15425efb2792d8c492d45de0cff0459bd7d9507b54cdc447d51b690",
+      "bytes": 5035
     },
     {
       "path": "studies/regular/te/approved-baseline.json",

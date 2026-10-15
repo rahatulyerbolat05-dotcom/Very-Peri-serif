@@ -2,7 +2,7 @@
   "character": "т",
   "unicode": "U+0442",
   "glyph": "uni0442",
-  "status": "two unselected handwritten Regular proposals",
+  "status": "02 selected as primary;01 selected as alternative style",
   "source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "skeleton": "Three upright downstrokes joined by two upper arches; no ascender or crossbar. Cursive Cyrillic skeleton in Regular, distinct from the lower returns of selected и and ш.",
   "variants": {
@@ -771,7 +771,8 @@
           "closePath",
           []
         ]
-      ]
+      ],
+      "selection_status": "alternative_style_selected_by_user"
     },
     "02": {
       "name": "Письменный выход",
@@ -1546,7 +1547,8 @@
           "closePath",
           []
         ]
-      ]
+      ],
+      "selection_status": "primary_selected_by_user"
     }
   }
 }

@@ -57,6 +57,22 @@
           "feature": null
         }
       ]
+    },
+    "т": {
+      "primary": "Письменный выход",
+      "variant": "02",
+      "advance": 718,
+      "source": "studies/regular/te/te-02.ttf",
+      "baseline": "data/selected-te.json",
+      "selection": "второй оставляем за основу первый как альтернативный стиль",
+      "alternates": [
+        {
+          "name": "Родные арки",
+          "variant": "01",
+          "file": "studies/regular/te/te-01.ttf",
+          "feature": null
+        }
+      ]
     }
   },
   "undecided_variants": {
@@ -78,21 +94,13 @@
       ],
       "preference": "both liked by user",
       "primary": null
-    },
-    "т": {
-      "variants": [
-        "01 Родные арки",
-        "02 Письменный выход"
-      ],
-      "primary": null,
-      "study_directory": "studies/regular/te"
     }
   },
   "inherited": {
     "е": "e",
     "ё": "edieresis"
   },
-  "latest_artifact": "studies/regular/te",
+  "latest_artifact": "studies/regular/ghe/context-with-te",
   "previous_de_versions": [
     "studies/archive/de-conventional",
     "studies/archive/de-curved"
@@ -445,7 +453,7 @@
     "ttf_checked": 68,
     "woff2_checked": 68,
     "glyphs_checked": 68,
-    "svg_in_codex_branch": 74,
+    "svg_in_codex_branch": 75,
     "cyrillic_codepoints_in_fonts": 18,
     "source_only_additional_letters": 4,
     "combined_lowercase_letters": 22,
@@ -596,42 +604,6 @@
   ],
   "latest_te_combinations": [
     {
-      "te_variant": "01",
-      "de_variant": "01",
-      "ka_variant": "01",
-      "shorti_variant": "01",
-      "ttf": "studies/regular/te/te-01.ttf",
-      "glyphs": "studies/regular/te/te-01.glyphs",
-      "woff2": "studies/regular/te/te-01.woff2"
-    },
-    {
-      "te_variant": "01",
-      "de_variant": "01",
-      "ka_variant": "01",
-      "shorti_variant": "02",
-      "ttf": "studies/regular/te/with-ka01-shorti02/te-01.ttf",
-      "glyphs": "studies/regular/te/with-ka01-shorti02/te-01.glyphs",
-      "woff2": "studies/regular/te/with-ka01-shorti02/te-01.woff2"
-    },
-    {
-      "te_variant": "01",
-      "de_variant": "01",
-      "ka_variant": "02",
-      "shorti_variant": "01",
-      "ttf": "studies/regular/te/with-ka02-shorti01/te-01.ttf",
-      "glyphs": "studies/regular/te/with-ka02-shorti01/te-01.glyphs",
-      "woff2": "studies/regular/te/with-ka02-shorti01/te-01.woff2"
-    },
-    {
-      "te_variant": "01",
-      "de_variant": "01",
-      "ka_variant": "02",
-      "shorti_variant": "02",
-      "ttf": "studies/regular/te/with-ka02-shorti02/te-01.ttf",
-      "glyphs": "studies/regular/te/with-ka02-shorti02/te-01.glyphs",
-      "woff2": "studies/regular/te/with-ka02-shorti02/te-01.woff2"
-    },
-    {
       "te_variant": "02",
       "de_variant": "01",
       "ka_variant": "01",
@@ -668,5 +640,53 @@
       "woff2": "studies/regular/te/with-ka02-shorti02/te-02.woff2"
     }
   ],
-  "latest_te_artifact": "studies/regular/te"
+  "latest_te_artifact": "studies/regular/te",
+  "te_design_history": {
+    "variants": [
+      "01 Родные арки",
+      "02 Письменный выход"
+    ],
+    "primary": null,
+    "study_directory": "studies/regular/te",
+    "current_resolution": "02 selected as primary;01 selected as alternative style."
+  },
+  "retained_te_alternative_combinations": [
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/te-01.ttf",
+      "glyphs": "studies/regular/te/te-01.glyphs",
+      "woff2": "studies/regular/te/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "01",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka01-shorti02/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka01-shorti02/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka01-shorti02/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "01",
+      "ttf": "studies/regular/te/with-ka02-shorti01/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti01/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti01/te-01.woff2"
+    },
+    {
+      "te_variant": "01",
+      "de_variant": "01",
+      "ka_variant": "02",
+      "shorti_variant": "02",
+      "ttf": "studies/regular/te/with-ka02-shorti02/te-01.ttf",
+      "glyphs": "studies/regular/te/with-ka02-shorti02/te-01.glyphs",
+      "woff2": "studies/regular/te/with-ka02-shorti02/te-01.woff2"
+    }
+  ],
+  "ghe_context_proof": "studies/regular/ghe/context-with-te"
 }

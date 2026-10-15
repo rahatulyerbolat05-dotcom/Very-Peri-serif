@@ -89,7 +89,7 @@
     "д": "01 Острый свод selected;02 Перьевой поворот retained as separate alternative. Exact accepted contour pinned.",
     "й": "01/02 unresolved; both survive in trial combinations",
     "к": "01/02 liked; primary unresolved",
-    "т": "Two m-like handwritten Regular proposals:01 exact native m;02 native m with a/d exit. Neither selected."
+    "т": "02 Письменный выход selected as primary;01 Родные арки selected as alternative style, retained in separate font."
   },
   "letters": [
     {
@@ -4257,7 +4257,7 @@
       },
       "upright": {
         "style": "Regular",
-        "status": "two unselected proposals"
+        "status": "02 selected as primary;01 retained as alternative style"
       },
       "italic": {
         "status": "not designed",
@@ -4278,16 +4278,17 @@
         }
       ],
       "design_status": {
-        "status": "awaiting_user_selection",
-        "primary_variant": null,
-        "technical_default_variant": null,
-        "kerning": "native edge roles inherited as initial values; final Cyrillic review pending"
+        "status": "selected_primary_02",
+        "primary_variant": "02",
+        "technical_default_variant": "02",
+        "kerning": "native edge roles inherited as initial values; final Cyrillic review pending",
+        "selection_evidence": "data/selected-te.json"
       },
       "variants": [
         {
           "id": "01",
           "name": "Родные арки",
-          "selection_status": "unselected",
+          "selection_status": "alternative_style_selected_by_user",
           "glyph": "uni0442",
           "feature": null,
           "file": "studies/regular/te/te-01.ttf",
@@ -4331,7 +4332,7 @@
         {
           "id": "02",
           "name": "Письменный выход",
-          "selection_status": "unselected",
+          "selection_status": "primary_selected_by_user",
           "glyph": "uni0442",
           "feature": null,
           "file": "studies/regular/te/te-02.ttf",
@@ -4385,16 +4386,17 @@
         "selected_de": "exactly preserved and hash-pinned",
         "fontbakery": "not run",
         "hyperglot": "not run",
-        "visual_acceptance": "pending"
+        "visual_acceptance": "02 primary and01 alternative selected by user"
       },
       "paths": {
         "study_directory": "studies/regular/te",
         "readme": "studies/regular/te/README.md",
         "design_notes": "data/te-outlines.json",
-        "sizes": "studies/regular/te/sizes.svg"
+        "sizes": "studies/regular/te/sizes.svg",
+        "selected_baseline": "data/selected-te.json"
       },
       "construction_choices": {
-        "evidence": "unselected proposals",
+        "evidence": "user-selected02 primary and01 alternative style; original geometry unchanged",
         "native_width01": 704,
         "proposed_width02": 718,
         "proposed_mark_anchors": {
@@ -4413,7 +4415,17 @@
         "measured": "native geometry and actual exports",
         "hypothesis": "visual fit, final intervals and Cyrillic kerning"
       },
-      "future_dependencies": "Cyrillic м must be distinguishable from this т; its design is not selected by these proposals."
+      "future_dependencies": "Cyrillic м must be distinguishable from this т; its design is not selected by these proposals.",
+      "history": [
+        {
+          "date": "2026-10-15",
+          "status": "user_selection",
+          "quote": "второй оставляем за основу первый как альтернативный стиль",
+          "primary_variant": "02",
+          "alternative_variant": "01",
+          "unchanged_contour_pin": "data/selected-te.json"
+        }
+      ]
     }
   ],
   "inherited_glyphs": [
