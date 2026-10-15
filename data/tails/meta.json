@@ -79,5 +79,59 @@
   "ymax": 510,
   "contours": 1,
   "points": 55
+ },
+ "Endesc_K4a": {
+  "adv": 546,
+  "xmin": 19,
+  "xmax": 527,
+  "ymin": -216,
+  "ymax": 720,
+  "contours": 1,
+  "points": 54
+ },
+ "Endesc_K4b": {
+  "adv": 546,
+  "xmin": 19,
+  "xmax": 527,
+  "ymin": -216,
+  "ymax": 720,
+  "contours": 1,
+  "points": 54
+ },
+ "endesc_K4a": {
+  "adv": 466,
+  "xmin": 10,
+  "xmax": 451,
+  "ymin": -216,
+  "ymax": 513,
+  "contours": 1,
+  "points": 45
+ },
+ "endesc_K4b": {
+  "adv": 466,
+  "xmin": 10,
+  "xmax": 451,
+  "ymin": -216,
+  "ymax": 513,
+  "contours": 1,
+  "points": 45
+ },
+ "shcha_K4a": {
+  "adv": 704,
+  "xmin": 19,
+  "xmax": 689,
+  "ymin": -216,
+  "ymax": 510,
+  "contours": 1,
+  "points": 46
+ },
+ "shcha_K4b": {
+  "adv": 704,
+  "xmin": 19,
+  "xmax": 689,
+  "ymin": -216,
+  "ymax": 510,
+  "contours": 1,
+  "points": 46
  }
 }
