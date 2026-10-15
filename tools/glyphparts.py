@@ -460,23 +460,3 @@ def ge_cap_sign(ref, shorten=0.0, rsb=19.0):
     info = {"shorten": shorten, "rsb": rsb, "adv": adv, "contours": len(list(path.contours)),
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
-
-
-def tse_cap_sign(ref, tail=140.0, bar_t=30.0):
-    """Заглавная Ц (карточка docs/glyphs/tse_cap.md): две стойки H (головные засечки, левая с опорными засечками внизу), общая нижняя горизонталь bar_t на базовой линии
-    (как у Ш) и правая стойка, продолженная ниже базовой линии на tail с опорной засечкой H на конце (хвост, F8). На базовой линии справа засечки нет.
-    Длина хвоста tail [ОТКРЫТО, D5]: старт 140 (не измерено), для сравнения 100 и 205 (зона нижних выносных p q −205)."""
-    H = ref.glyph("H")
-    cut = rect(160, 330, 386, 410)
-    Lh = SUB(AND(H, rect(-100, -50, 273, 800)), cut)                       # левая стойка 89–160 с засечками
-    Rh = SUB(AND(H, rect(273, -50, 700, 800)), cut)                        # правая стойка 386–457 с засечками
-    upper = SUB(Rh, rect(457, -60, 700, 62))                               # правая стойка: справа внизу засечка срезана, подкосная часть слева (как у левой стойки) остаётся
-    bar = rect(160.0 - 4.0, 0.0, 457.0, bar_t)
-    stem_down = rect(386.0, -tail + 40.0, 457.0, 70.0)                     # стойка вниз до хвоста
-    foot = shift(AND(Rh, rect(273, -50, 700, 70)), 0.0, -tail)             # опорная засечка H на конце хвоста
-    path = OR(Lh, upper, bar, stem_down, foot); path.simplify()
-    zone = rect(366, -30, 410, 8)                                          # внутренний угол: низ горизонтали и левый край хвоста
-    path = OR(SUB(path, zone), AND(soften(path, 0, 10.0), zone)); path.simplify()
-    info = {"tail": tail, "bar_t": bar_t, "adv": 546.0, "contours": len(list(path.contours)),
-            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
-    return path, info

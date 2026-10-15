@@ -28,4 +28,4 @@
 
 - `[ОТКРЫТО]` Длина горизонтали (перерисовка), правое поле, кернинг пар Г с о, а, е, у и точкой (инструкция: Г–о как L–o).
 
-Файлы: `data/ge_cap/G1.glif`, `G1.svg`, `meta.json`; код: `tools/sketch_ge_tse_cap.py`.
+Файлы: `data/ge_cap/G1.glif`, `G1.svg`, `meta.json`; код: `tools/sketch_ge_cap.py`.
