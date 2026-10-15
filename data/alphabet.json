@@ -176,6 +176,18 @@
     "ү": [
       "data/homoglyph/ustraight-cy.glif",
       "латинская y"
+    ],
+    "Ө": [
+      "data/kz2/O1.glif",
+      "O1 (черта 27)"
+    ],
+    "ө": [
+      "data/kz2/o1.glif",
+      "o1 (черта 25)"
+    ],
+    "Ғ": [
+      "data/kz2/Gh2.glif",
+      "Gh2 (±90)"
     ]
   },
   "latin_donor": [

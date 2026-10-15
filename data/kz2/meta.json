@@ -1,0 +1,88 @@
+{
+ "O1": {
+  "adv": 540,
+  "xmin": 40.0,
+  "xmax": 500.0,
+  "ymin": -9.0,
+  "ymax": 730.0,
+  "label": "Ө  черта 27",
+  "bar_t": 27.0,
+  "center": 360.5,
+  "contours": 3
+ },
+ "O2": {
+  "adv": 540,
+  "xmin": 40.0,
+  "xmax": 500.0,
+  "ymin": -9.0,
+  "ymax": 730.0,
+  "label": "Ө  черта 30",
+  "bar_t": 30.0,
+  "center": 360.5,
+  "contours": 3
+ },
+ "o1": {
+  "adv": 408,
+  "xmin": 23.0,
+  "xmax": 383.0,
+  "ymin": -9.0,
+  "ymax": 516.0,
+  "label": "ө  черта 25",
+  "bar_t": 25.0,
+  "center": 253.5,
+  "contours": 3
+ },
+ "o2": {
+  "adv": 408,
+  "xmin": 23.0,
+  "xmax": 383.0,
+  "ymin": -9.0,
+  "ymax": 516.0,
+  "label": "ө  черта 30",
+  "bar_t": 30.0,
+  "center": 253.5,
+  "contours": 3
+ },
+ "Gh1": {
+  "adv": 422,
+  "xmin": 19.0,
+  "xmax": 403.2,
+  "ymin": 0.0,
+  "ymax": 720.0,
+  "label": "Ғ  черта ±75.0",
+  "shorten": 0.0,
+  "rsb": 19.0,
+  "contours": 1,
+  "half": 75.0,
+  "bar_t": 30.0,
+  "center": 373.0
+ },
+ "Gh2": {
+  "adv": 422,
+  "xmin": 19.0,
+  "xmax": 403.2,
+  "ymin": 0.0,
+  "ymax": 720.0,
+  "label": "Ғ  черта ±90.0",
+  "shorten": 0.0,
+  "rsb": 19.0,
+  "contours": 1,
+  "half": 90.0,
+  "bar_t": 30.0,
+  "center": 373.0
+ },
+ "Gh3": {
+  "adv": 422,
+  "xmin": 19.0,
+  "xmax": 403.2,
+  "ymin": 0.0,
+  "ymax": 720.0,
+  "label": "Ғ  черта ±105.0",
+  "shorten": 0.0,
+  "rsb": 19.0,
+  "contours": 1,
+  "half": 105.0,
+  "bar_t": 30.0,
+  "center": 373.0
+ }
+}

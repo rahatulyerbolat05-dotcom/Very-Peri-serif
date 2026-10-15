@@ -515,3 +515,38 @@ def el_std_sign(ref, apex="both", beta_deg=16.0, t_l=30.0, stem=71.0, top=720.0,
     info = {"apex": apex, "beta_deg": beta_deg, "leg_width": round(wL, 1), "feet_gap": gap, "adv": round(path.bounds[2] + 19.0),
             "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
     return path, info
+
+
+def _rrect(x0, y0, x1, y1, r):
+    """Прямоугольник со скруглёнными углами радиуса r (квадратичные кривые, без ломаных)."""
+    p = Path(); q = p.getPen()
+    q.moveTo((x0 + r, y0)); q.lineTo((x1 - r, y0)); q.qCurveTo((x1, y0), (x1, y0 + r)); q.lineTo((x1, y1 - r)); q.qCurveTo((x1, y1), (x1 - r, y1))
+    q.lineTo((x0 + r, y1)); q.qCurveTo((x0, y1), (x0, y1 - r)); q.lineTo((x0, y0 + r)); q.qCurveTo((x0, y0), (x0 + r, y0)); q.closePath()
+    return p
+
+
+def obar_sign(ref, cap=True, bar_t=None):
+    """Ө (cap=True) и ө (cap=False): О и о оригинала без масштаба и горизонтальная черта через овал (казахский, инструкция раздел 7: «О с горизонтальной чертой через овал»).
+    Черта лежит по центру овала по высоте ((730 − 9)/2 = 360,5 у О; (516 − 9)/2 = 253,5 у о) и входит в обе стенки на 15, наружу не выходит.
+    Толщина по умолчанию: волосная овала, 27 у О и 25 у о (`[ИЗМЕРЕНО]`: О 80 к 27, о 77 к 25; F7: перекладина e 25)."""
+    O = ref.glyph("O" if cap else "o")
+    t = bar_t if bar_t else (27.0 if cap else 25.0)
+    c = 360.5 if cap else 253.5
+    x0, x1 = (40 + 79 - 15, 500 - 79 + 15) if cap else (23 + 76 - 15, 383 - 76 + 15)         # внутренние края стенок ± 15
+    path = OR(O, rect(x0, c - t / 2, x1, c + t / 2)); path.simplify()
+    info = {"bar_t": t, "center": c, "adv": ref.adv("O" if cap else "o"), "contours": len(list(path.contours)),
+            "xmin": round(path.bounds[0], 1), "xmax": round(path.bounds[2], 1), "ymin": round(path.bounds[1], 1), "ymax": round(path.bounds[3], 1)}
+    return path, info
+
+
+def ghe_stroke_sign(ref, half=90.0, bar_t=30.0, center=373.0):
+    """Ғ: наша Г (G1, `ge_cap_sign`) и горизонтальная черта через стойку (казахский, инструкция раздел 7: «Г с поперечной чертой на стойке»).
+    Центр стойки 124,5 (89–160); черта симметрична, половина длины half, концы скруглены (радиус 4, кривые). Высота центра 373, как у перекладины H (358–388, `[ИЗМЕРЕНО]`),
+    толщина 30 (перекладина H). Левый конец не заходит левее левого поля Г (19)."""
+    G, info = ge_cap_sign(ref)
+    stem_c = 124.5
+    bar = _rrect(stem_c - half, center - bar_t / 2, stem_c + half, center + bar_t / 2, 4.0)
+    path = OR(G, bar); path.simplify()
+    info = dict(info, half=half, bar_t=bar_t, center=center, contours=len(list(path.contours)),
+                xmin=round(path.bounds[0], 1), xmax=round(path.bounds[2], 1), ymin=round(path.bounds[1], 1), ymax=round(path.bounds[3], 1))
+    return path, info

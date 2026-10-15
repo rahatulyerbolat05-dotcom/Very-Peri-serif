@@ -44,7 +44,8 @@
       "Ш",
       "Ю",
       "Ё",
-      "І"
+      "І",
+      "Ғ"
     ]
   },
   "expected_not_in_class": [
@@ -114,7 +115,10 @@
     "һ": "data/homoglyph/shha-cy.glif",
     "й": "data/homoglyph/ishort-cy.glif",
     "Ү": "data/homoglyph/Ustraight-cy.glif",
-    "ү": "data/homoglyph/ustraight-cy.glif"
+    "ү": "data/homoglyph/ustraight-cy.glif",
+    "Ө": "data/kz2/O1.glif",
+    "ө": "data/kz2/o1.glif",
+    "Ғ": "data/kz2/Gh2.glif"
   },
   "note": "built_bases обновляется при каждой новой букве: путь к основе. Буквы declared_class без контура пока не проверяются (check_context_classes.py пишет «нет контура»).",
   "history": [
