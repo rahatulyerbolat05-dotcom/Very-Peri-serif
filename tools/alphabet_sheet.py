@@ -40,6 +40,7 @@ KZ_UP = "ӘҒҚҢӨҰҮҺІ"
 KZ_LOW = KZ_UP.lower()
 BLUE = "#2563EB"
 GREEN = "#22AA77"
+PURPLE = "#9333EA"
 AMBER = "#D99316"
 INK = "#272333"
 MUTED = "#7D7C83"
@@ -191,6 +192,9 @@ def codex_variant_name(item):
 
 def source_items(ch, cfg):
     """Return the drawings to show, omitting genuinely shared duplicates."""
+    if ch in cfg.get("user", {}):
+        item = next(v for v in cfg["user"][ch]["variants"] if v["role"] == "primary")
+        return [{"path": item["path"], "short": "Автор", "color": PURPLE}]
     done = cfg["done"]
     entry = cfg.get("codex", {}).get(ch)
     result = []
@@ -217,6 +221,8 @@ def trim(label, limit=24):
 
 
 def cell_caption(ch, cfg):
+    if ch in cfg.get("user", {}):
+        return "Автор · SVG / исходник", PURPLE
     entry = cfg.get("codex", {}).get(ch)
     if entry:
         if entry.get("conflict"):
@@ -244,7 +250,7 @@ def draw_cell(ax, ch, cfg, x, y, width=188, height=252):
     entry = cfg.get("codex", {}).get(ch)
     items = source_items(ch, cfg)
     has_claude = ch in cfg["done"]
-    border = BLUE if entry else GREEN if has_claude else FAINT
+    border = PURPLE if ch in cfg.get("user", {}) else BLUE if entry else GREEN if has_claude else FAINT
     rectangle(ax, x + 4, y + 4, width - 8, height - 8, border, 2 if items else 1, not items)
     if entry and has_claude:
         rectangle(ax, x + 9, y + 9, width - 18, height - 18, GREEN, 1, fill="none")
@@ -291,7 +297,7 @@ def validate(cfg):
     for ch in cfg["done"]:
         for item in source_items(ch, cfg):
             load_glif(item["path"])
-    for ch in cfg.get("codex", {}):
+    for ch in set(cfg.get("codex", {})) | set(cfg.get("user", {})):
         for item in source_items(ch, cfg):
             load_glif(item["path"])
 
@@ -304,7 +310,7 @@ def save(fig, filename):
 
 
 def inventory(cfg, filename):
-    present = set(cfg["done"]) | set(cfg.get("codex", {}))
+    present = set(cfg["done"]) | set(cfg.get("codex", {})) | set(cfg.get("user", {}))
     ru_upper = sum(ch in present for ch in UP)
     ru_lower = sum(ch in present for ch in LOW)
     kz = sum(ch in present for ch in KZ_UP + KZ_LOW)
@@ -325,7 +331,7 @@ def inventory(cfg, filename):
     legend(ax, pad + 360, 217, BLUE, "Codex · наши материалы")
     legend(ax, pad + 780, 217, BLUE, "общая основа", double=True)
     legend(ax, pad + 1110, 217, FAINT, "нет интегрированной основы", dashed=True)
-    text(ax, pad + 1680, 219, "!  расхождение версий", 17, AMBER)
+    legend(ax, pad + 1680, 217, PURPLE, "Автор · его SVG")
     text(ax, pad, 267, "Цвет — источник. Наличие рисунка не означает утверждение. Открытые варианты показаны рядом.", 19, MUTED)
     text(ax, pad, 297, "Латинские доноры сохранены в зелёном слое; ж — импорт из архива пользователя / Claude Cyr11.", 16, MUTED)
     y = header
@@ -342,7 +348,7 @@ def inventory(cfg, filename):
     missing_upper = " ".join(ch for ch in UP if ch not in present) or "—"
     text(ax, pad, y + 76, f"Строчные: {missing_lower}", 23)
     text(ax, pad, y + 116, f"Прописные: {missing_upper}", 23)
-    text(ax, pad, y + 165, "Для ф есть авторский эскиз; в набор основ он ещё не интегрирован. Серые буквы — только указатели.", 17, MUTED)
+    text(ax, pad, y + 165, "Авторские ц, щ, ф, ң, қ добавлены как исходники. Метрики предварительные; в шрифт ещё не собраны.", 17, MUTED)
     text(ax, pad, y + 201, "Источник: data/alphabet.json и указанные GLIF. Основы и альтернативы к/т вынесены на отдельный лист.", 16, MUTED)
     save(fig, filename)
     return {"russian": total, "russian_upper": ru_upper, "russian_lower": ru_lower, "kazakh": kz,

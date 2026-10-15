@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-16",
+  "author": "user",
+  "status": "source drawings imported; not yet compiled into font",
+  "mapping_note": "a строчная.svg is Cyrillic ф per user clarification; Latin a and Cyrillic а unchanged",
+  "context_rule": "қ context uses calt before next glyph with upper-left head serif at x-height, as к",
+  "notes": [
+    "SVG viewboxes do not encode font metrics; transforms and spacing are provisional.",
+    "ф scale inferred from native 0.287 export scale, mapping ascender to740 and descender near-205.",
+    "щ contains a small red path; retained in source and monochrome GLIF, not silently deleted.",
+    "Only byte-identical repeated path data omitted from GLIF; all original SVG files preserved byte-for-byte.",
+    "No production outline cleanup or final kerning claimed."
+  ],
+  "files": [
+    {
+      "character": "ц",
+      "role": "primary",
+      "source_name": "ц.svg",
+      "path": "data/user-2026-10-16/uni0446-primary.glif",
+      "source_sha256": "78dfbc9496ea682115cefa3e69040ac3c5c1e14b7b0c8bec8141cd0e518e041d",
+      "glif_sha256": "f596e321c2dbab54a36d3a13e8f99b4c2c182f0c19d3424765dbb1b482989240",
+      "svg_path_count": 1,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        510
+      ],
+      "bounds": [
+        15.0,
+        -200.38547879259153,
+        521.039,
+        510.0
+      ],
+      "advance": 536,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "ң",
+      "role": "primary",
+      "source_name": "ң.svg",
+      "path": "data/user-2026-10-16/uni04A3-primary.glif",
+      "source_sha256": "4d8bcbcd90567ad804ec63ba557f070fecd0ba276d7f401b235345ed3463c69e",
+      "glif_sha256": "d102d3df82d66df90123c9f1d64beb934a679a063050b15acec513fa8128c6a4",
+      "svg_path_count": 1,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        513
+      ],
+      "bounds": [
+        15.0,
+        -199.3849782384974,
+        535.477,
+        513.0
+      ],
+      "advance": 550,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "щ",
+      "role": "primary",
+      "source_name": "щ.svg",
+      "path": "data/user-2026-10-16/uni0449-primary.glif",
+      "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
+      "glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+      "svg_path_count": 2,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#FF0040",
+        "black"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        510
+      ],
+      "bounds": [
+        15.0,
+        -199.38397823849743,
+        762.475,
+        510.0
+      ],
+      "advance": 777,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "ф",
+      "role": "primary",
+      "source_name": "a строчная.svg",
+      "path": "data/user-2026-10-16/uni0444-primary.glif",
+      "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
+      "glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
+      "svg_path_count": 1,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "black"
+      ],
+      "transform": [
+        3.4843205574912894,
+        0,
+        0,
+        -3.4843205574912894,
+        15,
+        740
+      ],
+      "bounds": [
+        15.0,
+        -205.0,
+        531.0000000000001,
+        740.0
+      ],
+      "advance": 546,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "қ",
+      "role": "primary",
+      "source_name": "қ - основа.svg",
+      "path": "data/user-2026-10-16/uni049B-primary.glif",
+      "source_sha256": "f10285c1474e00db2792c3b177aabe1d5cc7855934c900edcd2e944efb12477f",
+      "glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
+      "svg_path_count": 2,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333",
+        "#272333"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        513
+      ],
+      "bounds": [
+        15.0,
+        -199.30956886601635,
+        494.475,
+        513.0
+      ],
+      "advance": 509,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "қ",
+      "role": "alternate",
+      "source_name": "қ - альтернатива.svg",
+      "path": "data/user-2026-10-16/uni049B-alternate.glif",
+      "source_sha256": "a214558c5e2717ecb43abce7bdb4018b9abeecf767d9d35e2f8a6d37cb11267b",
+      "glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
+      "svg_path_count": 3,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333",
+        "#272333",
+        "#272333"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        510
+      ],
+      "bounds": [
+        15.0,
+        -199.30847879259153,
+        494.704,
+        510.0
+      ],
+      "advance": 510,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    },
+    {
+      "character": "қ",
+      "role": "context",
+      "source_name": "қ лигатура.svg",
+      "path": "data/user-2026-10-16/uni049B-context.glif",
+      "source_sha256": "489ad2bff9442d77b8c8c0b308f377192f2aa1e5b183bc8b312d568f5e882719",
+      "glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
+      "svg_path_count": 3,
+      "exact_duplicate_paths_omitted_in_derivative": 0,
+      "fills": [
+        "#272333",
+        "#272333",
+        "#272333"
+      ],
+      "transform": [
+        1,
+        0,
+        0,
+        -1,
+        15,
+        510
+      ],
+      "bounds": [
+        15.0,
+        -199.13256886601633,
+        492.704,
+        510.0
+      ],
+      "advance": 508,
+      "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+      "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+    }
+  ]
+}
