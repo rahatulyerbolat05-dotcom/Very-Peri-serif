@@ -353,7 +353,7 @@ def conflict_panel(cfg, filename):
     width, height, pad = 1800, 1730, 70
     fig, ax = canvas(width, height)
     text(ax, pad, 35, "к / т · основы и альтернативы", 40, bold=True)
-    text(ax, pad, 101, "Выбор пользователя: к Codex01, т Codex02. Остальные контуры сохранены.", 22, MUTED)
+    text(ax, pad, 101, "Выбор пользователя: к Codex02, т Codex02. Остальные контуры сохранены.", 22, MUTED)
     legend(ax, pad, 158, GREEN, "Claude")
     legend(ax, pad + 250, 158, BLUE, "Codex")
     text(ax, pad, 225, "т · две разные конструкции", 28, bold=True)
@@ -375,7 +375,7 @@ def conflict_panel(cfg, filename):
     if "к" in cfg["done"]:
         k_items.append((cfg["done"]["к"][0], "Claude · к", GREEN, "сохранённая прежняя основа"))
     for item in codex_items(cfg.get("codex", {}).get("к", {})):
-        k_items.append((item["path"], f"Codex · {codex_variant_name(item)}", BLUE, ('основа' if item['variant'] == '01' else 'сохранённая альтернатива')))
+        k_items.append((item["path"], f"Codex · {codex_variant_name(item)}", BLUE, ('основа' if item['variant'] == '02' else 'сохранённая альтернатива')))
     short_path = "data/ka/ka_short.glif"
     if (ROOT / short_path).exists():
         k_items.append((short_path, "Claude · к short", GREEN, "контекстная форма"))
@@ -390,7 +390,7 @@ def conflict_panel(cfg, filename):
         text(ax, cx, 1268, subtitle, 17, MUTED, ha="center")
     text(ax, pad, 1370, "Что различается", 25, bold=True)
     text(ax, pad, 1420, "т: конструкция Claude имеет верхнюю перекладину; выбранная в Codex — две арки и письменный выход.", 20)
-    text(ax, pad, 1462, "к: Codex01 — основа; короткая Claude включается перед верхней левой засечкой следующей буквы.", 20)
+    text(ax, pad, 1462, "к: Codex02 — основа; короткая Claude включается перед верхней левой засечкой следующей буквы.", 20)
     text(ax, pad, 1504, "к short включается контекстом; она не считается четвёртой самостоятельной буквой или новым выбором.", 20)
     text(ax, pad, 1572, "Общий масштаб внутри каждой строки. Цвет рамки показывает источник; контуры GLIF не изменены.", 18, MUTED)
     text(ax, pad, 1615, "Выборы к/т согласованы пользователем. Й остаётся открытым выбором.", 18, MUTED)

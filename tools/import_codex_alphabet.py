@@ -26,7 +26,7 @@ SPECS={
  'з':('01',False,False,[('01','Открытый терминал',BASE)]),
  'и':('02',True,False,[('02','Родная u',BASE)]),
  'й':(None,True,False,[('01','Родная кратка','studies/regular/shorti/shorti-01.ttf'),('02','Компактная','studies/regular/shorti/shorti-02.ttf')]),
- 'к':('01',False,False,[('01','Головка u','studies/regular/ka/ka-01.ttf'),('02','Головка k','studies/regular/ka/ka-02.ttf')]),
+ 'к':('02',False,False,[('01','Головка u','studies/regular/ka/ka-01.ttf'),('02','Головка k','studies/regular/ka/ka-02.ttf')]),
  'т':('02',False,False,[('02','Письменный выход',BASE)]),
  'э':('02',False,False,[('02','Капля a — ниже',BASE)])}
 

@@ -464,7 +464,7 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "к": {
-      "selected": "01",
+      "selected": "02",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
@@ -472,7 +472,7 @@
           "path": "data/codex/uni043A-01.glif",
           "label": "Головка u",
           "variant": "01",
-          "status": "selected",
+          "status": "retained alternative",
           "advance": 451,
           "bounds": [
             15,
@@ -490,7 +490,7 @@
           "path": "data/codex/uni043A-02.glif",
           "label": "Головка k",
           "variant": "02",
-          "status": "retained alternative",
+          "status": "selected",
           "advance": 451,
           "bounds": [
             15,
