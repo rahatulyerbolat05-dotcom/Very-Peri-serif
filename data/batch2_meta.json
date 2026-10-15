@@ -35,6 +35,15 @@
   "label": "ф",
   "contours": 3
  },
+ "ef2": {
+  "adv": 518,
+  "xmin": 23,
+  "xmax": 495,
+  "ymin": -205,
+  "ymax": 740,
+  "label": "ф из двух эллипсов",
+  "contours": 3
+ },
  "A": {
   "adv": 457,
   "xmin": -18,

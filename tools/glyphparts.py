@@ -300,3 +300,29 @@ def zhe_sign(ref):
     mirror = tf(half, (-1, 0, 0, 1, 2 * ax, 0))
     full = OR(half, mirror)
     return shift(full, 19.0 - full.bounds[0])                           # левое поле 19, как у K и H
+
+
+def _ellipse(cx, cy, a, b, n=8):
+    p = Path(); q = p.getPen()
+    q.moveTo((cx + a, cy)); _arc(q, cx, cy, a, b, 0.0, 2 * math.pi, n=n); q.closePath()
+    return p
+
+def ef2_sign(ref, a_e=135.0, wall=72.0, hair=25.0, stem=68.0):
+    """Строчная ф из двух эллипсов (карточка docs/glyphs/ef.md, правка автора проекта 15.10.2026: «должна состоять из двух эллипсов, а не из одного»):
+    левый и правый овал-кольцо по обе стороны сквозной стойки, их внутренние боковые стенки скрыты в стойке, виден по глазу слева и справа.
+    Овал: высота 516 / −9 (круглые строчные), боковая стенка wall (у о 76), верх и низ hair (волосная 25 у вершины о).
+    Стойка: сверху от l (740, флажок F1), снизу от p (−205, опорная засечка F2); ширина stem = 68.
+    a_e: внешняя полуось каждого эллипса; ширина буквы 2·(2·a_e) − stem."""
+    L, P = ref.glyph("l"), ref.glyph("p")
+    cy = (516.0 - 9.0) / 2; b = (516.0 + 9.0) / 2
+    cx = 2 * a_e - stem / 2                                              # ось стойки: левый эллипс от x=0 до x=2a_e (край внутри стойки)
+    cL, cR = a_e, 2 * a_e - stem + a_e
+    def ring(c):
+        return SUB(_ellipse(c, cy, a_e, b), _ellipse(c, cy, a_e - wall, b - hair))
+    axis = (cL + cR) / 2
+    top = shift(AND(L, rect(-50, 380, 400, 800)), axis - 108.0)
+    bot = shift(AND(P, rect(-50, -300, 400, -20)), axis - 107.0)
+    st = rect(axis - stem / 2, -150.0, axis + stem / 2, 600.0)
+    path = OR(ring(cL), ring(cR), top, bot, st)
+    dx = 23.0 - path.bounds[0]
+    return shift(path, dx)
