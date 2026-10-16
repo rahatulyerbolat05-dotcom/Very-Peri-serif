@@ -1,8 +1,10 @@
 {
-  "ttf_sha256": "42b61a647f44131abaed38f1e560ec6becbeef97411e4f366e9f82c8ab8489aa",
+  "ttf_sha256": "35189f29ce18fce0d7a85bc50ebdd32822c8034edcc4d0c31feedc59999a9794",
   "opentype_sanitizer": "PASS",
-  "harfbuzz_checks_passed": 908,
+  "harfbuzz_checks_passed": 811,
   "fontbakery_network_checks": "SKIPPED",
+  "kerning_harfbuzz_pairs_checked": 195729,
+  "kerning_geometric_pairs_checked": 91080,
   "fontbakery_native": {
     "(not finished)": 0,
     "INFO": 6,

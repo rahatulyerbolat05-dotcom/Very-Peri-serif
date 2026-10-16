@@ -1,3 +1,11 @@
+`[РЕШЕНИЕ · 16.10.2026]` В1.004 кернинг переработан попарно по реальным
+краям всех текущих форм: `tools/optical_kerning.py`, `font/kerning-review.json`.
+91 080 геометрических пар; все84×84 буквы и альтернативы проверяются
+в HarfBuzz (`tools/check_kerning.py`). Родная Latin/Latin не изменена.
+Сборка без `--keep-kerning` применяет новый проход; прежнее решение
+отложить кернинг относится только к1.003. Контуры и ширины1.003 сохранены.
+Полный PDF/HTML: `tools/kerning_proof.py`; метод: `docs/kerning-review.md`.
+
 `[РЕШЕНИЕ · 16.10.2026]` По PDF пользователя проверены84 буквы и20
 устанавливаемых альтернатив. Сужены развилки ү/ұ; локально усилены
 З/з/ч. Активные производные: `data/regular-refinement/`, генератор
@@ -8,7 +16,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.003, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.004, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.

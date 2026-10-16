@@ -265,6 +265,9 @@ def main():
             if safe!=value:clamped.append({'left':a,'right':b,'requested':value,'actual':safe})
             if safe:pairs[a,b]=safe
             else:pairs.pop((a,b),None)
+    if not keep_kerning:
+        from optical_kerning import refine
+        pairs,clamped=refine(font,native,records,native_kern,overrides)
     if keep_kerning:
         assert kept_pairs and all(a in order and b in order for a,b in kept_pairs)
         pairs=kept_pairs;clamped=[]
@@ -303,17 +306,17 @@ def main():
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors.',
-            1:'Very Peri Serif Draft',2:'Regular',3:'1.003;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
-            4:'Very Peri Serif Draft Regular',5:'Version 1.003',6:'VeryPeriSerifDraft-Regular'}
+            1:'Very Peri Serif Draft',2:'Regular',3:'1.004;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
+            4:'Very Peri Serif Draft Regular',5:'Version 1.004',6:'VeryPeriSerifDraft-Regular'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
-    font['head'].fontRevision=1.003;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
+    font['head'].fontRevision=1.004;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
     font.save(TTF)
     web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
-    manifest={'family':'Very Peri Serif Draft','version':'1.003','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
+    manifest={'family':'Very Peri Serif Draft','version':'1.004','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
               'tail_feature':'ss09','te_feature':'ss08','default_context':'calt',

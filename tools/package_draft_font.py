@@ -22,6 +22,16 @@ def main():
     assert sanitized.returncode==0,sanitized.stderr
     quality={'ttf_sha256':digest,'opentype_sanitizer':'PASS',
              'harfbuzz_checks_passed':validation['passed'],'fontbakery_network_checks':'SKIPPED'}
+    if 'kerning_checks' in validation:
+        kc=validation['kerning_checks'];assert kc['ttf_sha256']==digest and kc['failed']==0
+        quality['kerning_harfbuzz_pairs_checked']=kc['harfbuzz_pairs_checked']
+        quality['kerning_geometric_pairs_checked']=kc['geometric_pairs_checked']
+        proof=json.loads((OUT/'kerning-proof-info.json').read_text())
+        assert proof['ttf_sha256']==digest,'Re-run kerning_proof.py'
+        for kind,name in [('pdf','kerning-all-pairs.pdf'),('html','kerning-proof.html')]:
+            assert proof[kind+'_sha256']==hashlib.sha256((OUT/name).read_bytes()).hexdigest()
+        geometry=json.loads(Path('font/kerning-review.json').read_text());geometry['ttf_sha256']=digest
+        (OUT/'kerning-review.json').write_text(json.dumps(geometry,ensure_ascii=False,indent=2)+'\n')
     warning_ids={}
     for kind in ('native','draft'):
         filename=build/f'fontbakery-{kind}.json'

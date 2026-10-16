@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.003',36)
+    label(55,55,'Very Peri Serif Draft · Regular · 1.004',36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -139,8 +139,15 @@ def main():
     expect(set(CHARS).issubset(chr(c) for c in font.getBestCmap()),'complete Russian Kazakh coverage')
     web=TTFont(OUT/'VeryPeriSerifDraft-Regular.woff2');web.ensureDecompiled()
     expect(web.getBestCmap()==font.getBestCmap(),'WOFF2 cmap roundtrip')
+    for tag in ('GSUB','GPOS','GDEF'):
+        expect(web[tag].compile(web)==font[tag].compile(font),'WOFF2 layout roundtrip '+tag)
+    from check_kerning import check as check_all_pairs
+    from build_draft_font import native_kern
+    kerning_checks=check_all_pairs(data,font,native,CHARS,native_kern)
+    expect(kerning_checks['failed']==0,'exhaustive kerning and unchanged outlines')
     proof(data,font)
     summary={'passed':len(checks),'failed':0,'checks':checks,'ttf_sha256':hashlib.sha256(data).hexdigest(),
+             'kerning_checks':kerning_checks,
              'scope':'Real HarfBuzz shaping, substitutions, kerning toggles, marks, original Latin regressions and WOFF2 decoding.'}
     (OUT/'validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'passed':len(checks),'failed':0},ensure_ascii=False))
