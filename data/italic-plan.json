@@ -1,0 +1,235 @@
+{
+  "status": "research and construction proposals, not an approved Italic alphabet",
+  "regular_reference": "1.005",
+  "parameter_source": "data/params.json -> italic.research",
+  "references": [
+    {
+      "reference_type": "handwriting",
+      "family": "Bad Script",
+      "font_path": "build/italic-research/badscript/BadScript-Regular.ttf",
+      "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/badscript/BadScript-Regular.ttf",
+      "sha256": "40ec737eee65ec4efbc24ae636fa31d7d84d1ccca83ab54cd555edb72cb3eaf0",
+      "upstream_repository": "https://github.com/alexeiva/badscript",
+      "upstream_commit_declared_by_metadata": "dca2962433a2b5817f1e716d6731a743440fbd79",
+      "license": "SIL OFL1.1; binary retained only in ignored study cache",
+      "purpose": "Handwriting structure comparison; not an outline donor"
+    },
+    {
+      "reference_type": "handwriting",
+      "family": "Marck Script",
+      "font_path": "build/italic-research/marckscript/MarckScript-Regular.ttf",
+      "download_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/marckscript/MarckScript-Regular.ttf",
+      "sha256": "504de8cc6f919163bc9afb67b9bc208d258230c5e8d00cb82ec52474f9fafc3b",
+      "upstream_repository": "https://github.com/googlefonts/marckscript",
+      "upstream_commit_declared_by_metadata": "f4e66d73d1cc7190be547d491b99a0979c60fb10",
+      "license": "SIL OFL1.1; binary retained only in ignored study cache",
+      "purpose": "Handwriting structure comparison; not an outline donor"
+    },
+    {
+      "reference_type": "printed italic",
+      "family": "Noto Serif Italic",
+      "font_path": "/usr/share/fonts/truetype/noto/NotoSerif-Italic.ttf",
+      "sha256": "bc25600aa27cd409e1e5b3d86340df3a329bb860fcfbe57a03a95070b229e1b0",
+      "purpose": "Installed printed-cursive comparison, not an outline donor"
+    }
+  ],
+  "direct_donor_candidates": {
+    "А": "A",
+    "В": "B",
+    "Е": "E",
+    "Ё": "Edieresis",
+    "К": "K",
+    "М": "M",
+    "Н": "H",
+    "О": "O",
+    "Р": "P",
+    "С": "C",
+    "Т": "T",
+    "Х": "X",
+    "І": "I",
+    "а": "a",
+    "е": "e",
+    "ё": "edieresis",
+    "и": "u",
+    "о": "o",
+    "п": "n",
+    "р": "p",
+    "с": "c",
+    "т": "m",
+    "у": "y",
+    "х": "x",
+    "і": "i",
+    "һ": "h"
+  },
+  "component_candidates": {
+    "Й": [
+      "И",
+      "breve"
+    ],
+    "й": [
+      "и",
+      "breve"
+    ],
+    "Ц": [
+      "П",
+      "tail"
+    ],
+    "ц": [
+      "и",
+      "tail"
+    ],
+    "Щ": [
+      "Ш",
+      "tail"
+    ],
+    "щ": [
+      "ш",
+      "tail"
+    ],
+    "Ғ": [
+      "Г",
+      "bar"
+    ],
+    "ғ": [
+      "г",
+      "bar"
+    ],
+    "Қ": [
+      "К",
+      "tail"
+    ],
+    "қ": [
+      "к",
+      "tail"
+    ],
+    "Ң": [
+      "Н",
+      "tail"
+    ],
+    "ң": [
+      "н",
+      "tail"
+    ],
+    "Ө": [
+      "О",
+      "bar"
+    ],
+    "ө": [
+      "о",
+      "bar"
+    ],
+    "Ұ": [
+      "Ү",
+      "bar"
+    ],
+    "ұ": [
+      "ү",
+      "bar"
+    ],
+    "Ы": [
+      "Ь",
+      "I-module"
+    ],
+    "ы": [
+      "ь",
+      "i-module"
+    ],
+    "Ъ": [
+      "Ь",
+      "head"
+    ],
+    "ъ": [
+      "ь",
+      "head"
+    ],
+    "Ю": [
+      "I-module",
+      "О",
+      "bridge"
+    ],
+    "ю": [
+      "i-module",
+      "о",
+      "bridge"
+    ],
+    "Ф": [
+      "oval-module",
+      "through-stem"
+    ],
+    "ф": [
+      "oval-module",
+      "through-stem"
+    ]
+  },
+  "custom_construction": [
+    "Б",
+    "Г",
+    "Д",
+    "Ж",
+    "З",
+    "И",
+    "Л",
+    "П",
+    "У",
+    "Ч",
+    "Ш",
+    "Ь",
+    "Э",
+    "Я",
+    "б",
+    "в",
+    "г",
+    "д",
+    "ж",
+    "з",
+    "к",
+    "л",
+    "м",
+    "н",
+    "ч",
+    "ш",
+    "ь",
+    "э",
+    "я",
+    "Ә",
+    "Ү",
+    "Һ",
+    "ә",
+    "ү"
+  ],
+  "counts": {
+    "total": 84,
+    "direct_candidates": 26,
+    "component_candidates": 24,
+    "custom_construction": 34
+  },
+  "pilot_letters": [
+    "г",
+    "д",
+    "и",
+    "т",
+    "м",
+    "п",
+    "л",
+    "н",
+    "ш",
+    "ц",
+    "щ"
+  ],
+  "default_russian_rules": {
+    "п": "n-like",
+    "т": "m-like",
+    "и": "u-like",
+    "н": "transverse connection retained; never n",
+    "м": "distinct central dip; never Latin m",
+    "д": "propose one-bowl handwritten g-like model; native two-story g is not a direct donor",
+    "г": "flowing opposing turns; no mandatory upright Г silhouette"
+  },
+  "open_design_choices": [
+    "final д loop",
+    "л hook and м junction",
+    "з descender variant",
+    "italic drop-tail contour",
+    "context feature need after word tests"
+  ]
+}

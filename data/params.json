@@ -4,7 +4,10 @@
   "reference_commit": "65c0ef2",
   "license": "SIL OFL 1.1; Reserved Font Name не объявлен (OFL.txt содержит только строку копирайта)",
   "copyright_line": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)",
-  "note": "Измерено по готовому TTF (ttfautohint), контуры квадратичные. Исходники .glyphs использованы для зон, групп, якорей. Растр 2000 px/em."
+  "note": "Измерено по готовому TTF (ttfautohint), контуры квадратичные. Исходники .glyphs использованы для зон, групп, якорей. Растр 2000 px/em.",
+  "revisions": [
+   "16.10.2026: Italic flat_x corrected to source master xHeight510; previous516 was n outline top, now n_outline_top. Added source master, donor bounds/advances/anchors and slant measurements; no outline changes."
+  ]
  },
  "source_master": {
   "upm": 1000,
@@ -418,7 +421,7 @@
    "mkmk"
   ],
   "vertical": {
-   "flat_x": 516,
+   "flat_x": 510,
    "flat_cap": 720,
    "round_x_top": 516,
    "round_x_bottom": -9,
@@ -434,7 +437,8 @@
    "T_top": 735,
    "Z_top": 740,
    "V_bottom": -10,
-   "A_top": 730
+   "A_top": 730,
+   "n_outline_top": 516
   },
   "stress_axis": {
    "o": {
@@ -512,6 +516,1222 @@
    "H_crossbar": 30,
    "e_crossbar": null,
    "H_crossbar_center": 373
+  },
+  "research": {
+   "source_sha256": "85852e3a1341c54e31765380eaac0a586e04a196261a327f8be70dc484b43033",
+   "master": {
+    "x_height": 510,
+    "cap_height": 720,
+    "ascender": 740,
+    "descender": -205,
+    "italic_angle_right": 13
+   },
+   "post_angle": -13.0,
+   "caret_rise": 1000,
+   "caret_run": 231,
+   "slant_dx_per_dy": 0.23086819112556312,
+   "donors": {
+    "A": {
+     "source_advance": 457,
+     "ttf_advance": 457,
+     "ttf_bounds": [
+      -74,
+      0,
+      418,
+      730
+     ],
+     "ttf_lsb": -74,
+     "ttf_rsb": 39,
+     "source_anchors": {
+      "bottom": [
+       170,
+       0
+      ],
+      "ogonek": [
+       354,
+       0
+      ],
+      "top": [
+       336,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       336,
+       720
+      ],
+      null,
+      [
+       170,
+       0
+      ],
+      [
+       354,
+       0
+      ]
+     ],
+     "regular_advance": 457,
+     "regular_bounds": [
+      -18,
+      0,
+      475,
+      730
+     ]
+    },
+    "B": {
+     "source_advance": 479,
+     "ttf_advance": 479,
+     "ttf_bounds": [
+      -36,
+      0,
+      485,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -6,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 478,
+     "regular_bounds": [
+      19,
+      0,
+      450,
+      720
+     ]
+    },
+    "C": {
+     "source_advance": 475,
+     "ttf_advance": 475,
+     "ttf_bounds": [
+      55,
+      -9,
+      516.6923076923077,
+      730
+     ],
+     "ttf_lsb": 55,
+     "ttf_rsb": -41.692307692307736,
+     "source_anchors": {
+      "bottom": [
+       229,
+       0
+      ],
+      "top": [
+       375,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       375,
+       720
+      ],
+      null,
+      [
+       229,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 480,
+     "regular_bounds": [
+      40,
+      -9,
+      440,
+      730
+     ]
+    },
+    "E": {
+     "source_advance": 454,
+     "ttf_advance": 454,
+     "ttf_bounds": [
+      -36,
+      0,
+      498.80645161290323,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -44.80645161290323,
+     "source_anchors": {
+      "bottom": [
+       168,
+       0
+      ],
+      "ogonek": [
+       326,
+       0
+      ],
+      "top": [
+       334,
+       720
+      ],
+      "topleft": [
+       127,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       334,
+       720
+      ],
+      null,
+      [
+       168,
+       0
+      ],
+      [
+       326,
+       0
+      ]
+     ],
+     "regular_advance": 453,
+     "regular_bounds": [
+      19,
+      0,
+      420.25,
+      720
+     ]
+    },
+    "Edieresis": {
+     "source_advance": 454,
+     "ttf_advance": 454,
+     "ttf_bounds": [
+      -36,
+      0,
+      512,
+      916
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -58,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": [
+      [
+       380,
+       916
+      ],
+      null,
+      [
+       168,
+       0
+      ],
+      [
+       326,
+       0
+      ]
+     ],
+     "regular_advance": 453,
+     "regular_bounds": [
+      19,
+      0,
+      420.25,
+      916
+     ]
+    },
+    "H": {
+     "source_advance": 545,
+     "ttf_advance": 545,
+     "ttf_bounds": [
+      -36,
+      0,
+      630,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -85,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 546,
+     "regular_bounds": [
+      19,
+      0,
+      527,
+      720
+     ]
+    },
+    "I": {
+     "source_advance": 250,
+     "ttf_advance": 250,
+     "ttf_bounds": [
+      -36,
+      0,
+      335,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -85,
+     "source_anchors": {
+      "bottom": [
+       66,
+       0
+      ],
+      "ogonek": [
+       100,
+       0
+      ],
+      "top": [
+       232,
+       720
+      ],
+      "topleft": [
+       127,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       232,
+       720
+      ],
+      null,
+      [
+       66,
+       0
+      ],
+      [
+       100,
+       0
+      ]
+     ],
+     "regular_advance": 249,
+     "regular_bounds": [
+      19,
+      0,
+      230,
+      720
+     ]
+    },
+    "K": {
+     "source_advance": 499,
+     "ttf_advance": 499,
+     "ttf_bounds": [
+      -36,
+      0,
+      604,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -105,
+     "source_anchors": {
+      "bottom": [
+       221,
+       0
+      ],
+      "top": [
+       357,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       357,
+       720
+      ],
+      null,
+      [
+       221,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 496,
+     "regular_bounds": [
+      19,
+      0,
+      516,
+      720
+     ]
+    },
+    "M": {
+     "source_advance": 665,
+     "ttf_advance": 665,
+     "ttf_bounds": [
+      -43,
+      0,
+      736,
+      720
+     ],
+     "ttf_lsb": -43,
+     "ttf_rsb": -71,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 665,
+     "regular_bounds": [
+      14,
+      0,
+      651,
+      720
+     ]
+    },
+    "O": {
+     "source_advance": 540,
+     "ttf_advance": 540,
+     "ttf_bounds": [
+      54,
+      -9,
+      535,
+      730
+     ],
+     "ttf_lsb": 54,
+     "ttf_rsb": 5,
+     "source_anchors": {
+      "bottom": [
+       211,
+       0
+      ],
+      "center": [
+       294,
+       360
+      ],
+      "ogonek": [
+       429,
+       10
+      ],
+      "top": [
+       377,
+       720
+      ],
+      "topleft": [
+       127,
+       720
+      ],
+      "topright": [
+       627,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       377,
+       720
+      ],
+      [
+       627,
+       720
+      ],
+      [
+       211,
+       0
+      ],
+      [
+       429,
+       10
+      ]
+     ],
+     "regular_advance": 540,
+     "regular_bounds": [
+      40,
+      -9,
+      500,
+      730
+     ]
+    },
+    "P": {
+     "source_advance": 469,
+     "ttf_advance": 469,
+     "ttf_bounds": [
+      -36,
+      0,
+      509,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -40,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 466,
+     "regular_bounds": [
+      19,
+      0,
+      442,
+      720
+     ]
+    },
+    "T": {
+     "source_advance": 461,
+     "ttf_advance": 461,
+     "ttf_bounds": [
+      51,
+      0,
+      546.1363636363636,
+      735
+     ],
+     "ttf_lsb": 51,
+     "ttf_rsb": -85.13636363636363,
+     "source_anchors": {
+      "bottom": [
+       172,
+       0
+      ],
+      "center": [
+       255,
+       360
+      ],
+      "top": [
+       338,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       338,
+       720
+      ],
+      null,
+      [
+       172,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 461,
+     "regular_bounds": [
+      11.764705882352942,
+      0,
+      449.2352941176471,
+      735
+     ]
+    },
+    "X": {
+     "source_advance": 545,
+     "ttf_advance": 545,
+     "ttf_bounds": [
+      -36,
+      0,
+      618.695652173913,
+      720
+     ],
+     "ttf_lsb": -36,
+     "ttf_rsb": -73.695652173913,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 546,
+     "regular_bounds": [
+      20,
+      0,
+      527,
+      720
+     ]
+    },
+    "Y": {
+     "source_advance": 478,
+     "ttf_advance": 478,
+     "ttf_bounds": [
+      57,
+      0,
+      601,
+      720
+     ],
+     "ttf_lsb": 57,
+     "ttf_rsb": -123,
+     "source_anchors": {
+      "bottom": [
+       180,
+       0
+      ],
+      "top": [
+       356,
+       720
+      ],
+      "topleft": [
+       127,
+       720
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       356,
+       720
+      ],
+      null,
+      [
+       180,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 477,
+     "regular_bounds": [
+      -18,
+      0,
+      495,
+      720
+     ]
+    },
+    "a": {
+     "source_advance": 474,
+     "ttf_advance": 474,
+     "ttf_bounds": [
+      13,
+      -9,
+      452.0,
+      516
+     ],
+     "ttf_lsb": 13,
+     "ttf_rsb": 22.0,
+     "source_anchors": {
+      "bottom": [
+       178,
+       0
+      ],
+      "ogonek": [
+       363,
+       0
+      ],
+      "top": [
+       296,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       296,
+       510
+      ],
+      null,
+      [
+       178,
+       0
+      ],
+      [
+       363,
+       0
+      ]
+     ],
+     "regular_advance": 399,
+     "regular_bounds": [
+      24,
+      -9,
+      394,
+      516
+     ]
+    },
+    "c": {
+     "source_advance": 351,
+     "ttf_advance": 351,
+     "ttf_bounds": [
+      15,
+      -9,
+      352.3333333333333,
+      516
+     ],
+     "ttf_lsb": 15,
+     "ttf_rsb": -1.3333333333333144,
+     "source_anchors": {
+      "bottom": [
+       131,
+       0
+      ],
+      "top": [
+       265,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       265,
+       510
+      ],
+      null,
+      [
+       131,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 339,
+     "regular_bounds": [
+      23,
+      -9,
+      316.6,
+      516
+     ]
+    },
+    "d": {
+     "source_advance": 474,
+     "ttf_advance": 474,
+     "ttf_bounds": [
+      13,
+      -9,
+      472.6,
+      743
+     ],
+     "ttf_lsb": 13,
+     "ttf_rsb": 1.3999999999999773,
+     "source_anchors": {
+      "bottom": [
+       178,
+       0
+      ],
+      "center": [
+       237,
+       255
+      ],
+      "top": [
+       349,
+       740
+      ],
+      "topright": [
+       501,
+       740
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       349,
+       740
+      ],
+      [
+       501,
+       740
+      ],
+      [
+       178,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 457,
+     "regular_bounds": [
+      30,
+      -9,
+      452,
+      740
+     ]
+    },
+    "e": {
+     "source_advance": 348,
+     "ttf_advance": 348,
+     "ttf_bounds": [
+      12,
+      -9,
+      357,
+      516
+     ],
+     "ttf_lsb": 12,
+     "ttf_rsb": -9,
+     "source_anchors": {
+      "bottom": [
+       115,
+       0
+      ],
+      "ogonek": [
+       175,
+       0
+      ],
+      "top": [
+       273,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       273,
+       510
+      ],
+      null,
+      [
+       115,
+       0
+      ],
+      [
+       175,
+       0
+      ]
+     ],
+     "regular_advance": 355,
+     "regular_bounds": [
+      23,
+      -9,
+      330,
+      516
+     ]
+    },
+    "edieresis": {
+     "source_advance": 348,
+     "ttf_advance": 348,
+     "ttf_bounds": [
+      12,
+      -9,
+      451,
+      706
+     ],
+     "ttf_lsb": 12,
+     "ttf_rsb": -103,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": [
+      [
+       319,
+       706
+      ],
+      null,
+      [
+       115,
+       0
+      ],
+      [
+       175,
+       0
+      ]
+     ],
+     "regular_advance": 355,
+     "regular_bounds": [
+      23,
+      -9,
+      337,
+      706
+     ]
+    },
+    "f": {
+     "source_advance": 273,
+     "ttf_advance": 273,
+     "ttf_bounds": [
+      21.4375,
+      0,
+      404,
+      748
+     ],
+     "ttf_lsb": 21.4375,
+     "ttf_rsb": -131,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 288,
+     "regular_bounds": [
+      13,
+      0,
+      312,
+      748
+     ]
+    },
+    "g": {
+     "source_advance": 401,
+     "ttf_advance": 401,
+     "ttf_bounds": [
+      -68,
+      -216,
+      462,
+      598
+     ],
+     "ttf_lsb": -68,
+     "ttf_rsb": -61,
+     "source_anchors": {
+      "bottom": [
+       95,
+       -205
+      ],
+      "top": [
+       260,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       260,
+       510
+      ],
+      null,
+      [
+       95,
+       -205
+      ],
+      null
+     ],
+     "regular_advance": 402,
+     "regular_bounds": [
+      14,
+      -215,
+      394,
+      598
+     ]
+    },
+    "h": {
+     "source_advance": 476,
+     "ttf_advance": 476,
+     "ttf_bounds": [
+      6.470588235294118,
+      -9,
+      454.14285714285717,
+      743
+     ],
+     "ttf_lsb": 6.470588235294118,
+     "ttf_rsb": 21.857142857142833,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 470,
+     "regular_bounds": [
+      15,
+      0,
+      459,
+      740
+     ]
+    },
+    "i": {
+     "source_advance": 288,
+     "ttf_advance": 288,
+     "ttf_bounds": [
+      18.772727272727273,
+      -10,
+      268.22727272727275,
+      710
+     ],
+     "ttf_lsb": 18.772727272727273,
+     "ttf_rsb": 19.772727272727252,
+     "source_anchors": {
+      "bottom": [
+       85,
+       0
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      null,
+      null,
+      [
+       85,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 223,
+     "regular_bounds": [
+      15,
+      0,
+      212,
+      710
+     ]
+    },
+    "j": {
+     "source_advance": 266,
+     "ttf_advance": 266,
+     "ttf_bounds": [
+      -107,
+      -215,
+      261,
+      710
+     ],
+     "ttf_lsb": -107,
+     "ttf_rsb": 5,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 215,
+     "regular_bounds": [
+      -63,
+      -215,
+      163,
+      710
+     ]
+    },
+    "l": {
+     "source_advance": 240,
+     "ttf_advance": 240,
+     "ttf_bounds": [
+      19.74074074074074,
+      -10,
+      239.6,
+      743
+     ],
+     "ttf_lsb": 19.74074074074074,
+     "ttf_rsb": 0.4000000000000057,
+     "source_anchors": {
+      "bottom": [
+       61,
+       0
+      ],
+      "center": [
+       147,
+       370
+      ],
+      "top": [
+       169,
+       710
+      ],
+      "topright": [
+       267,
+       740
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       169,
+       710
+      ],
+      [
+       267,
+       740
+      ],
+      [
+       61,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 220,
+     "regular_bounds": [
+      8,
+      0,
+      210,
+      740
+     ]
+    },
+    "m": {
+     "source_advance": 745,
+     "ttf_advance": 745,
+     "ttf_bounds": [
+      18.772727272727273,
+      -9,
+      723.1428571428571,
+      516
+     ],
+     "ttf_lsb": 18.772727272727273,
+     "ttf_rsb": 21.85714285714289,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 704,
+     "regular_bounds": [
+      15,
+      0,
+      693,
+      516
+     ]
+    },
+    "n": {
+     "source_advance": 521,
+     "ttf_advance": 521,
+     "ttf_bounds": [
+      18.772727272727273,
+      -9,
+      499.14285714285717,
+      516
+     ],
+     "ttf_lsb": 18.772727272727273,
+     "ttf_rsb": 21.857142857142833,
+     "source_anchors": {
+      "bottom": [
+       202,
+       0
+      ],
+      "top": [
+       320,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       320,
+       510
+      ],
+      null,
+      [
+       202,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 470,
+     "regular_bounds": [
+      15,
+      0,
+      459,
+      516
+     ]
+    },
+    "o": {
+     "source_advance": 414,
+     "ttf_advance": 414,
+     "ttf_bounds": [
+      20,
+      -9,
+      393,
+      516
+     ],
+     "ttf_lsb": 20,
+     "ttf_rsb": 21,
+     "source_anchors": {
+      "bottom": [
+       148,
+       0
+      ],
+      "center": [
+       207,
+       255
+      ],
+      "ogonek": [
+       316,
+       10
+      ],
+      "top": [
+       266,
+       510
+      ],
+      "topright": [
+       453,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       266,
+       510
+      ],
+      [
+       453,
+       510
+      ],
+      [
+       148,
+       0
+      ],
+      [
+       316,
+       10
+      ]
+     ],
+     "regular_advance": 408,
+     "regular_bounds": [
+      23,
+      -9,
+      383,
+      516
+     ]
+    },
+    "p": {
+     "source_advance": 450,
+     "ttf_advance": 450,
+     "ttf_bounds": [
+      -89,
+      -205,
+      430,
+      583
+     ],
+     "ttf_lsb": -89,
+     "ttf_rsb": 20,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 444,
+     "regular_bounds": [
+      12,
+      -205,
+      414,
+      516
+     ]
+    },
+    "u": {
+     "source_advance": 508,
+     "ttf_advance": 508,
+     "ttf_bounds": [
+      20.684210526315788,
+      -9,
+      487.6363636363636,
+      516
+     ],
+     "ttf_lsb": 20.684210526315788,
+     "ttf_rsb": 20.363636363636374,
+     "source_anchors": {
+      "bottom": [
+       195,
+       0
+      ],
+      "ogonek": [
+       378,
+       0
+      ],
+      "top": [
+       293,
+       510
+      ],
+      "topright": [
+       547,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       293,
+       510
+      ],
+      [
+       547,
+       510
+      ],
+      [
+       195,
+       0
+      ],
+      [
+       378,
+       0
+      ]
+     ],
+     "regular_advance": 454,
+     "regular_bounds": [
+      11,
+      -9,
+      439,
+      510
+     ]
+    },
+    "x": {
+     "source_advance": 450,
+     "ttf_advance": 450,
+     "ttf_bounds": [
+      -24,
+      -10,
+      463,
+      516
+     ],
+     "ttf_lsb": -24,
+     "ttf_rsb": -13,
+     "source_anchors": {},
+     "exported_gpos_anchor_classes": null,
+     "regular_advance": 385,
+     "regular_bounds": [
+      -8,
+      0,
+      389,
+      510
+     ]
+    },
+    "y": {
+     "source_advance": 418,
+     "ttf_advance": 418,
+     "ttf_bounds": [
+      -107,
+      -215,
+      408,
+      516
+     ],
+     "ttf_lsb": -107,
+     "ttf_rsb": 10,
+     "source_anchors": {
+      "bottom": [
+       149,
+       0
+      ],
+      "top": [
+       267,
+       510
+      ]
+     },
+     "exported_gpos_anchor_classes": [
+      [
+       267,
+       510
+      ],
+      null,
+      [
+       149,
+       0
+      ],
+      null
+     ],
+     "regular_advance": 401,
+     "regular_bounds": [
+      -14,
+      -205,
+      409,
+      510
+     ]
+    }
+   }
   }
  },
  "spacing_regular": {
