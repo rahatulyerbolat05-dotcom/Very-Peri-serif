@@ -1516,6 +1516,39 @@
       ],
       "provenance": "авторский SVG пользователя",
       "status": "user confirmed mapping; source only; not production font"
+    },
+    "Ц": {
+      "selected": "primary",
+      "origin": "user",
+      "variants": [
+        {
+          "character": "Ц",
+          "role": "primary",
+          "path": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
+          "source_name": "ц заглавная.svg",
+          "source_sha256": "a946a49541a39502e24620aa49613240ae8702704a21ae6ed9efcbd627310892",
+          "glif_sha256": "a166553347bc25ea57efb8eb0bea16d4fccc9ff9f4e41d202cf674a2916af7c1",
+          "transform": [
+            1.0084033613445378,
+            0,
+            0,
+            -1.0084033613445378,
+            19,
+            720
+          ],
+          "advance": 616,
+          "bounds": [
+            19.0,
+            -201.57637196573074,
+            596.8151260504202,
+            720.0
+          ],
+          "status": "author corrected construction and tail; metrics provisional",
+          "note": "[РЕШЕНИЕ] Новая авторская Ц: вертикальные стойки, нижняя связь и собственный хвост пользователя. Исходные кривые сохранены; равномерное преобразование корпуса714→720, поле19. Без очистки и перерисовки. Интервалы предварительные."
+        }
+      ],
+      "provenance": "авторский SVG пользователя",
+      "status": "author corrected Ц with own tail; source only"
     }
   },
   "pending_user_uploads": {},

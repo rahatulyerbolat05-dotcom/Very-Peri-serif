@@ -72,7 +72,8 @@ def main():
     context=json.loads(FilePath('data/context/serif_bl.json').read_text())
     params=json.loads(FilePath('data/params.json').read_text());ref=Ref()
     archive=cfg.setdefault('rejected_drawings',{})
-    if 'Ц' in cfg.get('user',{}):
+    preserve_author_tse = cfg.get('user',{}).get('Ц',{}).get('variants',[{}])[0].get('path','').startswith('data/author-tse-tail-2026-10-16/')
+    if 'Ц' in cfg.get('user',{}) and not preserve_author_tse:
         old=cfg['user'].pop('Ц');old['selected']=None
         old['status']='superseded: user rejected diagonal construction; preserve original'
         archive['Ц-diagonal-author']=old
@@ -83,6 +84,10 @@ def main():
     if 'ұ' in cfg['codex'] and cfg['codex']['ұ']['variants'][0]['path'].startswith('data/kz-completion/'):
         archive['ұ-latin-y-base']=cfg['codex']['ұ']
     result=drawings(ref,params);manifest={}
+    if preserve_author_tse:
+        result.pop('Ц')
+        if (DATA/'manifest.json').exists():
+            manifest=json.loads((DATA/'manifest.json').read_text())
     from check_context_classes import test,test_top
     for ch,(p,advance) in result.items():
         p.simplify();filename=DATA/f'uni{ord(ch):04X}-01.glif'
@@ -121,7 +126,7 @@ def render(cfg):
     from alphabet_sheet import canvas,text,glyph,load_glif,source_items
     import matplotlib.pyplot as plt
     fig,ax=canvas(1700,1400);text(ax,50,30,'Ц ү ұ · исправленная конструкция',32)
-    for x,ch in zip((290,850,1370),NAMES):glyph(ax,cfg['codex'][ch]['variants'][0]['path'],x,560,.55)
+    for x,ch in zip((290,850,1370),NAMES):glyph(ax,source_items(ch,cfg)[0]['path'],x,560,.55)
     for j,line in enumerate(('ЦЕНА  ЦВЕТ  ЦЕЛЬ','күн  гүл  үміт','ұлт  ұлы  құс')):
         x,baseline,scale=60,820+j*190,.16
         for ch in line:
