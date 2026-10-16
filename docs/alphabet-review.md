@@ -107,3 +107,7 @@ python3 tools/alphabet_sheet.py
 ## Й Ф Я · предложения заглавных
 
 По одному новому варианту Codex, не утверждены. Строчные й/ф/я не менялись. [Общий лист](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/capitals-jfya/comparison.svg).
+
+## Заглавный Ь · на рассмотрение
+
+Добавлен один вариант Codex: чаша B и головка I. Строчный ь сохранён. [Крупно и в словах](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/capital-soft-sign/comparison.svg).

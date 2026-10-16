@@ -1,7 +1,7 @@
 {
   "source_repository": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "source_branch": "codex/cyrillic-studies",
-  "source_commit": "e039e04e632dbe99bc69eaf6e3ce004a3a1425a8",
+  "source_commit": "22abc21730b2fffad536dd1e8e1a993e580f746d",
   "native_source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "license": "SIL OFL1.1; see OFL.txt",
   "geometry": "Exact decomposed quadratic contours from retained study TTFs; canonical cubic segment equality and advance checked after GLIF roundtrip.",
@@ -367,6 +367,25 @@
       "source_glyph": "uni042F",
       "source_glyf_sha256": "374d73733feed4731ff557f150b6c599a7ccfd6f3ba8277adf336e46fbc547ac",
       "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
+    },
+    {
+      "character": "Ь",
+      "path": "data/codex/uni042C-01.glif",
+      "label": "Чаша B, головка I",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 478,
+      "bounds": [
+        19,
+        0,
+        450,
+        720
+      ],
+      "glif_sha256": "93431445124b98a7d2487e8b79098e3ca65e39e31803babc2b46ea68da16b662",
+      "source_file": "studies/regular/capital-soft-sign/capitals-shorti01.ttf",
+      "source_glyph": "uni042C",
+      "source_glyf_sha256": "af3b93e30f507db5fe52f91980b623c9972aa4aa481fdb17be8a63d33a3d4181",
+      "source_file_sha256": "e71df502318e1ed5511c06c101f64ab2b53ed1b03097879e25fff0528380aa79"
     },
     {
       "character": "И",
