@@ -154,6 +154,27 @@
       ],
       "primary": null,
       "source": "studies/regular/capitals-bdzei"
+    },
+    "Й": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-jfya"
+    },
+    "Ф": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-jfya"
+    },
+    "Я": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-jfya"
     }
   },
   "inherited": {
@@ -1104,5 +1125,5 @@
       "Ң: archive K2 tail"
     ]
   },
-  "latest_capitals_artifact": "studies/regular/capitals-bdzei"
+  "latest_capitals_artifact": "studies/regular/capitals-jfya"
 }

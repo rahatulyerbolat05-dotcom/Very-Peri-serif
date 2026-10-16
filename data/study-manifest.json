@@ -4,7 +4,7 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/capitals-bdzei",
+  "latest_artifact": "studies/regular/capitals-jfya",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
@@ -2857,6 +2857,66 @@
       "path": "studies/regular/capitals-bdzei/uni0418.glif",
       "sha256": "5d62b2774d29433faf4ae0ba22cbf2420bf1e852aa236ccac31115b5686239f3",
       "bytes": 4557
+    },
+    {
+      "path": "studies/regular/capitals-jfya/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/capitals-jfya/README.md",
+      "sha256": "781ee7afdad1fdaaec6585ae6baa547a170f8b0cfde0a2f6124d99447ffc1343",
+      "bytes": 2683
+    },
+    {
+      "path": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
+      "sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee",
+      "bytes": 77248
+    },
+    {
+      "path": "studies/regular/capitals-jfya/capitals-shorti01.woff2",
+      "sha256": "dbe381a00a5e903197fdb326c45c82a020da5c4c8135fabe54e06028c1676c66",
+      "bytes": 30584
+    },
+    {
+      "path": "studies/regular/capitals-jfya/capitals-shorti02.ttf",
+      "sha256": "22108cc7882ad08ca7f155a614bdce8ca6ad384dc06471dce1e4302752ff3389",
+      "bytes": 77396
+    },
+    {
+      "path": "studies/regular/capitals-jfya/capitals-shorti02.woff2",
+      "sha256": "3b00e730e765580d7022b0496647d912c870fec7e9c4feab0f2145d7695e72ae",
+      "bytes": 30604
+    },
+    {
+      "path": "studies/regular/capitals-jfya/comparison.svg",
+      "sha256": "59a045c1507a71c7f88b74214adb166db874ecccd28a73af7d6f1cbd2d1b54ad",
+      "bytes": 64649
+    },
+    {
+      "path": "studies/regular/capitals-jfya/design.json",
+      "sha256": "4387366696d06d5120186cffdf91957bca1883bda3c020c80ae59ac943465e79",
+      "bytes": 21464
+    },
+    {
+      "path": "studies/regular/capitals-jfya/metrics.json",
+      "sha256": "dd4bffdbcb47cff8453afacc70bcf7eabf401d22aa150bb55a4426dfe516fdd5",
+      "bytes": 1281
+    },
+    {
+      "path": "studies/regular/capitals-jfya/uni0419.glif",
+      "sha256": "45401e10adf09b17f3d9e1f3823d2e910c5f2be27e9ccc3f6aec750540ae64d5",
+      "bytes": 5538
+    },
+    {
+      "path": "studies/regular/capitals-jfya/uni0424.glif",
+      "sha256": "9b047a1ecf8fe0cf5a72f7ba28224795ced5a294f0237bd4b4f1a6b931629412",
+      "bytes": 3816
+    },
+    {
+      "path": "studies/regular/capitals-jfya/uni042F.glif",
+      "sha256": "b69ada80a032b0c7d6c94d484bcbc96153429ade40dc235fba500faf707784be",
+      "bytes": 4084
     }
   ],
   "total_files": 241,
