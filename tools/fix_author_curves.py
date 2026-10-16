@@ -190,6 +190,8 @@ def render(records):
 def main():
     DATA.mkdir(parents=True,exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());manifest=[]
+    if cfg.get('tail_styles',{}).get('active')=='drop':
+        raise SystemExit('Current tails are drop variants. Base repairs are already retained in tail_alternatives; use tools/drop_tail_variants.py to refresh without reverting tail choice.')
     for ch in TARGETS:
         for i,item in enumerate(cfg['user'][ch]['variants']):
             updated,record=fix(ch,item);cfg['user'][ch]['variants'][i]=updated;manifest.append(record)

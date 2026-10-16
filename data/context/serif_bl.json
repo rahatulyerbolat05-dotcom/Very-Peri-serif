@@ -26,9 +26,9 @@
       "т",
       "ж",
       "з",
-      "ң",
+      "ғ",
       "қ",
-      "ғ"
+      "ң"
     ],
     "upper": [
       "Н",
@@ -51,10 +51,10 @@
       "Ғ",
       "Ы",
       "Һ",
+      "Ц",
       "Щ",
       "Қ",
-      "Ң",
-      "Ц"
+      "Ң"
     ]
   },
   "expected_not_in_class": [
@@ -89,9 +89,9 @@
     "ү",
     "ұ",
     "ф",
+    "ф",
     "ц",
-    "щ",
-    "ф"
+    "щ"
   ],
   "built_bases": {
     "н": "data/en/n4.glif",
@@ -153,19 +153,19 @@
     "Ы": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
     "Э": "data/capitals-che-hard-yeru-e/uni042D-01.glif",
     "ғ": "data/user-2026-10-16-push/uni0493-primary.glif",
-    "Ң": "data/user-2026-10-16-push/uni04A2-primary.glif",
+    "Ң": "data/drop-tail-variants/uni04A2-primary.glif",
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "ә": "data/kz-completion/uni04D9-01.glif",
     "Һ": "data/kz-completion/uni04BA-01.glif",
     "ұ": "data/ustraight-refinement/uni04B1-01.glif",
-    "Ц": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
-    "ц": "data/user-2026-10-16/uni0446-primary.glif",
-    "ң": "data/user-2026-10-16/uni04A3-primary.glif",
-    "щ": "data/author-curve-fixes/uni0449-primary.glif",
+    "Ц": "data/drop-tail-variants/uni0426-primary.glif",
+    "ц": "data/drop-tail-variants/uni0446-primary.glif",
+    "ң": "data/drop-tail-variants/uni04A3-primary.glif",
+    "щ": "data/drop-tail-variants/uni0449-primary.glif",
     "ф": "data/author-curve-fixes/uni0444-primary.glif",
-    "қ": "data/author-curve-fixes/uni049B-primary.glif",
-    "Щ": "data/author-curve-fixes/uni0429-primary.glif",
-    "Қ": "data/author-curve-fixes/uni049A-primary.glif"
+    "қ": "data/drop-tail-variants/uni049B-primary.glif",
+    "Щ": "data/drop-tail-variants/uni0429-primary.glif",
+    "Қ": "data/drop-tail-variants/uni049A-primary.glif"
   },
   "note": "built_bases обновляется при каждой новой букве: путь к основе. Буквы declared_class без контура пока не проверяются (check_context_classes.py пишет «нет контура»).",
   "history": [
@@ -197,7 +197,8 @@
     "16.10.2026: пользователь отклонил диагональную Ц и ү=y; новые Ц с нижней связью, ү с прямым выносом, зависимая ұ исправлена; старые формы в архиве.",
     "16.10.2026: пользователь прислал исправленную вертикальную Ц со своим хвостом; активная основа заменена точным импортом SVG, классы перепроверены.",
     "16.10.2026: по замечанию пользователя заменены развилка и переход строчных ү/ұ на родное сочленение Y без масштаба; формы остаются предложениями.",
-    "16.10.2026: по запросу пользователя исправлены микроконтуры щ/қ, стыки щ/қ/Щ/Қ и вес чаш/острый стык ф; все активные авторские основы включены в геометрическую проверку calt."
+    "16.10.2026: по запросу пользователя исправлены микроконтуры щ/қ, стыки щ/қ/Щ/Қ и вес чаш/острый стык ф; все активные авторские основы включены в геометрическую проверку calt.",
+    "16.10.2026: по изображению пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives."
   ],
   "ka_short": {
     "rule": "ka-cy -> ka-cy.short перед буквой, у которой на x-height верх стойки у левого края глифа (головка, флажок, горизонталь)",
@@ -236,11 +237,11 @@
         "ә",
         "ү",
         "ұ",
+        "ғ",
         "ц",
-        "ң",
         "щ",
         "қ",
-        "ғ"
+        "ң"
       ],
       "upper": []
     },

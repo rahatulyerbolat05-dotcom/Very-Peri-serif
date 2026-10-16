@@ -1,0 +1,282 @@
+[
+  {
+    "character": "ц",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni0446-primary.glif",
+    "path": "data/drop-tail-variants/uni0446-primary.glif",
+    "bounds_before": [
+      15.0,
+      -200.38548278808594,
+      521.0390014648438,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -129.57603454589844,
+      441.3403015136719,
+      510.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 536.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          406.445,
+          48.266999999999996
+        ],
+        "angle": 5.29,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "щ",
+    "role": "primary",
+    "source": "data/author-curve-fixes/uni0449-primary.glif",
+    "path": "data/drop-tail-variants/uni0449-primary.glif",
+    "bounds_before": [
+      15.0,
+      -199.38397216796875,
+      762.4749755859375,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -129.57615661621094,
+      682.7764282226562,
+      510.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 777.0,
+    "tangent_candidates": []
+  },
+  {
+    "character": "қ",
+    "role": "primary",
+    "source": "data/author-curve-fixes/uni049B-primary.glif",
+    "path": "data/drop-tail-variants/uni049B-primary.glif",
+    "bounds_before": [
+      15.0,
+      -199.3095703125,
+      494.4750061035156,
+      513.0
+    ],
+    "bounds_after": [
+      15.0,
+      -125.90594482421875,
+      441.02099609375,
+      513.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 509.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          22.48657989501953,
+          440.0
+        ],
+        "angle": 17.79,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "қ",
+    "role": "alternate",
+    "source": "data/author-curve-fixes/uni049B-alternate.glif",
+    "path": "data/drop-tail-variants/uni049B-alternate.glif",
+    "bounds_before": [
+      15.0,
+      -199.3084716796875,
+      494.7040100097656,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -125.90594482421875,
+      442.0,
+      510.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 510.0,
+    "tangent_candidates": []
+  },
+  {
+    "character": "қ",
+    "role": "context",
+    "source": "data/author-curve-fixes/uni049B-context.glif",
+    "path": "data/drop-tail-variants/uni049B-context.glif",
+    "bounds_before": [
+      15.0,
+      -199.132568359375,
+      492.7040100097656,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -125.90594482421875,
+      412.6650085449219,
+      510.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 508.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          22.45216941833496,
+          437.4269104003906
+        ],
+        "angle": 17.77,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "ң",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni04A3-primary.glif",
+    "path": "data/drop-tail-variants/uni04A3-primary.glif",
+    "bounds_before": [
+      15.0,
+      -199.38497924804688,
+      535.4769897460938,
+      513.0
+    ],
+    "bounds_after": [
+      15.0,
+      -128.9156494140625,
+      455.43798828125,
+      513.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 550.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          420.883,
+          49.266999999999996
+        ],
+        "angle": 5.29,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "Ц",
+    "role": "primary",
+    "source": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
+    "path": "data/drop-tail-variants/uni0426-primary.glif",
+    "bounds_before": [
+      19.0,
+      -201.5763702392578,
+      596.8151245117188,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -130.63656616210938,
+      527.2352905273438,
+      720.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 616.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          481.2581512605042,
+          49.16571428571433
+        ],
+        "angle": 5.29,
+        "contour": 1
+      },
+      {
+        "xy": [
+          366.0208403361345,
+          30.0
+        ],
+        "angle": 17.54,
+        "contour": 1
+      },
+      {
+        "xy": [
+          180.21445378151262,
+          30.0
+        ],
+        "angle": 17.54,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "Щ",
+    "role": "primary",
+    "source": "data/author-curve-fixes/uni0429-primary.glif",
+    "path": "data/drop-tail-variants/uni0429-primary.glif",
+    "bounds_before": [
+      19.0,
+      -200.62342834472656,
+      798.8900756835938,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -129.43788146972656,
+      728.9159545898438,
+      720.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 818.0,
+    "tangent_candidates": []
+  },
+  {
+    "character": "Қ",
+    "role": "primary",
+    "source": "data/author-curve-fixes/uni049A-primary.glif",
+    "path": "data/drop-tail-variants/uni049A-primary.glif",
+    "bounds_before": [
+      19.0,
+      -201.40737915039062,
+      558.1962890625,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -126.9640121459961,
+      497.1374816894531,
+      720.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 577.0,
+    "tangent_candidates": []
+  },
+  {
+    "character": "Ң",
+    "role": "primary",
+    "source": "data/user-2026-10-16-push/uni04A2-primary.glif",
+    "path": "data/drop-tail-variants/uni04A2-primary.glif",
+    "bounds_before": [
+      19.0,
+      -201.17494201660156,
+      594.7196655273438,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -132.83273315429688,
+      527.2352905273438,
+      720.0
+    ],
+    "body_difference_area_above_baseline": 0.0,
+    "width_preserved": 614.0,
+    "tangent_candidates": [
+      {
+        "xy": [
+          479.1626890756302,
+          49.567058823529464
+        ],
+        "angle": 5.29,
+        "contour": 1
+      }
+    ]
+  }
+]
