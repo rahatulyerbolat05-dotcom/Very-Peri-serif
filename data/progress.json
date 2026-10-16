@@ -175,6 +175,13 @@
       ],
       "primary": null,
       "source": "studies/regular/capitals-jfya"
+    },
+    "Ь": {
+      "variants": [
+        "01 Чаша B, головка I"
+      ],
+      "primary": null,
+      "source": "studies/regular/capital-soft-sign"
     }
   },
   "inherited": {
@@ -1125,5 +1132,5 @@
       "Ң: archive K2 tail"
     ]
   },
-  "latest_capitals_artifact": "studies/regular/capitals-jfya"
+  "latest_capitals_artifact": "studies/regular/capital-soft-sign"
 }

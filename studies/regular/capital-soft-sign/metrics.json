@@ -1,0 +1,33 @@
+{
+  "glyphs": [
+    {
+      "character": "Ь",
+      "advance": 478,
+      "bounds": [
+        19,
+        0,
+        450,
+        720
+      ],
+      "contours": 2,
+      "status": "single unapproved proposal",
+      "sampled_topology": "passed"
+    }
+  ],
+  "builds": [
+    {
+      "file": "capitals-shorti01.ttf",
+      "sha256": "e71df502318e1ed5511c06c101f64ab2b53ed1b03097879e25fff0528380aa79",
+      "existing_glyphs_preserved": 406,
+      "capital_I_preserved": true,
+      "shaping": "passed"
+    },
+    {
+      "file": "capitals-shorti02.ttf",
+      "sha256": "3942b083b08fb62131c9e553eab80354a99ca88c4f1a71d5216a4cad9b0d9bc6",
+      "existing_glyphs_preserved": 407,
+      "capital_I_preserved": true,
+      "shaping": "passed"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "source_repository": "https://github.com/Instrument/instrument-serif",
   "project_base_commit": "20b3a98786b798c4ec46a7d572a34a6a94880121",
   "snapshot_date": "2026-10-15",
-  "latest_artifact": "studies/regular/capitals-jfya",
+  "latest_artifact": "studies/regular/capital-soft-sign",
   "hash_algorithm": "sha256",
   "scope": "retained study exports, vector proofs, licenses, historical notes and metrics",
   "files": [
@@ -2917,6 +2917,56 @@
       "path": "studies/regular/capitals-jfya/uni042F.glif",
       "sha256": "b69ada80a032b0c7d6c94d484bcbc96153429ade40dc235fba500faf707784be",
       "bytes": 4084
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/OFL.txt",
+      "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "bytes": 4405
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/README.md",
+      "sha256": "b4214acc2bbb8aa5df5d3cbd7bd8dce3efba571df493e8b5954a93f1374714b8",
+      "bytes": 1574
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/capitals-shorti01.ttf",
+      "sha256": "e71df502318e1ed5511c06c101f64ab2b53ed1b03097879e25fff0528380aa79",
+      "bytes": 77488
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/capitals-shorti01.woff2",
+      "sha256": "9b69d81a7b9e6af2f092231b1fc272d8e003326c89dce6c1d6ef33213b877177",
+      "bytes": 30584
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/capitals-shorti02.ttf",
+      "sha256": "3942b083b08fb62131c9e553eab80354a99ca88c4f1a71d5216a4cad9b0d9bc6",
+      "bytes": 77636
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/capitals-shorti02.woff2",
+      "sha256": "00b6e0b447e2558dc2f4eaf8a96d7fdf77d053aa4ed24e0c6a313f6a075a6b1d",
+      "bytes": 30744
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/comparison.svg",
+      "sha256": "f8c583a49227d2000e547c8146c7f0aa0159b2a39a7a81a2a31fbb304074c6d3",
+      "bytes": 56345
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/design.json",
+      "sha256": "2d4f830ae0e2545d68933a96d8159a555ec1b961a3798143dc107b06f1288a94",
+      "bytes": 4303
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/metrics.json",
+      "sha256": "30b1c7a8faa94d2fec41c824e83af091da42d2a579e10461cf8cdd864cb8b1e7",
+      "bytes": 750
+    },
+    {
+      "path": "studies/regular/capital-soft-sign/uni042C.glif",
+      "sha256": "36d318b7466bc30add67f327c86c66543586bbbc34b7049396ff33c20c1b2351",
+      "bytes": 2638
     }
   ],
   "total_files": 241,

@@ -39,13 +39,13 @@
     "individually_studied_lowercase": 25,
     "individually_studied_definition": "33 available source lowercase minus 8 native aliases; includes unapproved ч/я and uncompiled user SVGs.",
     "russian": {
-      "available": 61,
+      "available": 62,
       "total": 66,
-      "uppercase_available": 28,
+      "uppercase_available": 29,
       "uppercase_total": 33,
       "lowercase_available": 33,
       "lowercase_total": 33,
-      "remaining": 5
+      "remaining": 4
     },
     "kazakh_additional": {
       "available": 12,
@@ -138,6 +138,7 @@
       "Ц",
       "Ш",
       "Щ",
+      "Ь",
       "Ю",
       "Я"
     ],
@@ -198,7 +199,6 @@
       "Ч",
       "Ъ",
       "Ы",
-      "Ь",
       "Э"
     ],
     "russian_lowercase": [],
@@ -255,7 +255,8 @@
     "З",
     "Й",
     "Ф",
-    "Я"
+    "Я",
+    "Ь"
   ],
   "case_and_mapping_notes": {
     "ж_vs_Ж": "Codex ж U+0436 is exact selected Cyr11 import; Claude Ж U+0416 is a separate capital. No duplicate-letter conflict.",
@@ -959,7 +960,7 @@
     "pending_mapping": []
   },
   "latest_source_counts": {
-    "russian": 61,
+    "russian": 62,
     "russian_lowercase": 33,
     "kazakh": 12,
     "remaining_russian_lowercase": [],
