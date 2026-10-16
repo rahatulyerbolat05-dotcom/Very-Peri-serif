@@ -133,6 +133,27 @@
         "01 Стойки H, тонкая восходящая диагональ"
       ],
       "primary": null
+    },
+    "Б": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-bdzei"
+    },
+    "Д": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-bdzei"
+    },
+    "З": {
+      "variants": [
+        "01"
+      ],
+      "primary": null,
+      "source": "studies/regular/capitals-bdzei"
     }
   },
   "inherited": {
@@ -1082,5 +1103,6 @@
     "rejected": [
       "Ң: archive K2 tail"
     ]
-  }
+  },
+  "latest_capitals_artifact": "studies/regular/capitals-bdzei"
 }
