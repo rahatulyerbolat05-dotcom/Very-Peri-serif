@@ -1155,9 +1155,9 @@
           "character": "щ",
           "role": "primary",
           "source_name": "щ.svg",
-          "path": "data/user-2026-10-16/uni0449-primary.glif",
+          "path": "data/author-curve-fixes/uni0449-primary.glif",
           "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
-          "glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+          "glif_sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1174,17 +1174,21 @@
           ],
           "bounds": [
             15.0,
-            -199.38397823849743,
-            762.475,
+            -199.38397216796875,
+            762.4749755859375,
             510.0
           ],
           "advance": 777,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
-          "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          "contours": 1,
+          "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
+          "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0449-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         }
       ],
       "provenance": "авторский SVG пользователя",
-      "status": "source only; metrics provisional"
+      "status": "author geometry locally repaired at user request; metrics provisional"
     },
     "ф": {
       "selected": "primary",
@@ -1193,9 +1197,9 @@
           "character": "ф",
           "role": "primary",
           "source_name": "a строчная.svg",
-          "path": "data/user-2026-10-16/uni0444-primary.glif",
+          "path": "data/author-curve-fixes/uni0444-primary.glif",
           "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
-          "glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
+          "glif_sha256": "2d3f82723108255acc0573d9b5d910332ce4701a37d259adbd424272336f24ef",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1212,16 +1216,20 @@
           "bounds": [
             15.0,
             -205.0,
-            531.0000000000001,
+            531.0,
             740.0
           ],
           "advance": 546,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
-          "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          "contours": 3,
+          "original_glif": "data/user-2026-10-16/uni0444-primary.glif",
+          "original_glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         }
       ],
       "provenance": "авторский SVG пользователя",
-      "status": "source only; metrics provisional"
+      "status": "author geometry locally repaired at user request; metrics provisional"
     },
     "қ": {
       "selected": "primary",
@@ -1230,9 +1238,9 @@
           "character": "қ",
           "role": "primary",
           "source_name": "қ - основа.svg",
-          "path": "data/user-2026-10-16/uni049B-primary.glif",
+          "path": "data/author-curve-fixes/uni049B-primary.glif",
           "source_sha256": "f10285c1474e00db2792c3b177aabe1d5cc7855934c900edcd2e944efb12477f",
-          "glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
+          "glif_sha256": "54803bcc5b1c615564dc8e39c63962da82275d4caacfc6121b7678d0847f3704",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1249,21 +1257,25 @@
           ],
           "bounds": [
             15.0,
-            -199.30956886601635,
-            494.475,
+            -199.3095703125,
+            494.4750061035156,
             513.0
           ],
           "advance": 509,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
-          "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          "contours": 1,
+          "original_glif": "data/user-2026-10-16/uni049B-primary.glif",
+          "original_glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         },
         {
           "character": "қ",
           "role": "alternate",
           "source_name": "қ - альтернатива.svg",
-          "path": "data/user-2026-10-16/uni049B-alternate.glif",
+          "path": "data/author-curve-fixes/uni049B-alternate.glif",
           "source_sha256": "a214558c5e2717ecb43abce7bdb4018b9abeecf767d9d35e2f8a6d37cb11267b",
-          "glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
+          "glif_sha256": "b93b4b99fb1057b458f8be4232987726c39045b2a95d65a7fc0426fb4dab8eb8",
           "svg_path_count": 3,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1281,21 +1293,25 @@
           ],
           "bounds": [
             15.0,
-            -199.30847879259153,
-            494.704,
+            -199.3084716796875,
+            494.7040100097656,
             510.0
           ],
           "advance": 510,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
-          "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          "contours": 1,
+          "original_glif": "data/user-2026-10-16/uni049B-alternate.glif",
+          "original_glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-alternate.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         },
         {
           "character": "қ",
           "role": "context",
           "source_name": "қ лигатура.svg",
-          "path": "data/user-2026-10-16/uni049B-context.glif",
+          "path": "data/author-curve-fixes/uni049B-context.glif",
           "source_sha256": "489ad2bff9442d77b8c8c0b308f377192f2aa1e5b183bc8b312d568f5e882719",
-          "glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
+          "glif_sha256": "0f83ef080fb2ee1f5b0b59789714fa6d1648125bc76b5e81178373e7fc182474",
           "svg_path_count": 3,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1313,17 +1329,21 @@
           ],
           "bounds": [
             15.0,
-            -199.13256886601633,
-            492.704,
+            -199.132568359375,
+            492.7040100097656,
             510.0
           ],
           "advance": 508,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
-          "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          "contours": 1,
+          "original_glif": "data/user-2026-10-16/uni049B-context.glif",
+          "original_glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-context.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         }
       ],
       "provenance": "авторский SVG пользователя",
-      "status": "source only; metrics provisional"
+      "status": "author geometry locally repaired at user request; metrics provisional"
     },
     "Щ": {
       "selected": "primary",
@@ -1332,9 +1352,9 @@
           "character": "Щ",
           "role": "primary",
           "source_name": "щ заглавная.svg",
-          "path": "data/user-2026-10-16/uni0429-primary.glif",
+          "path": "data/author-curve-fixes/uni0429-primary.glif",
           "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
-          "glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+          "glif_sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1350,17 +1370,21 @@
           ],
           "bounds": [
             19.0,
-            -200.6234307892601,
-            798.8900840336133,
+            -200.62342834472656,
+            798.8900756835938,
             720.0
           ],
           "advance": 818,
           "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
-          "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup"
+          "contours": 1,
+          "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
+          "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0429-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         }
       ],
       "provenance": "авторский SVG пользователя",
-      "status": "source only; metrics provisional"
+      "status": "author geometry locally repaired at user request; metrics provisional"
     },
     "Қ": {
       "selected": "primary",
@@ -1370,7 +1394,7 @@
           "role": "primary",
           "source_name": "қ заглав.svg",
           "origin": "user",
-          "path": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+          "path": "data/author-curve-fixes/uni049A-primary.glif",
           "transform": [
             1.0084033613445378,
             0,
@@ -1380,20 +1404,25 @@
             720
           ],
           "metrics_status": "provisional; body714 uniformly restored to720, side margins19",
-          "glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
+          "glif_sha256": "3bf5ecb5d8cc1ccf40b1d2906903a838b77ab69b470966abdb490680ac6d83df",
           "source_sha256": "09ead442e185382e9232ef9a31ce3ff5a5acd50cb952c6a51ceee6df706ca2e8",
           "advance": 577,
           "bounds": [
             19.0,
-            -201.40737301361082,
-            558.1963025210083,
+            -201.40737915039062,
+            558.1962890625,
             720.0
-          ]
+          ],
+          "original_glif": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+          "original_glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
+          "contours": 1,
+          "status": "author drawing with local curve repairs requested by user",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/incoming-caps-2026-10-16/uni049A-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
         }
       ],
       "origin": "user",
       "provenance": "user",
-      "status": "source-only; not compiled"
+      "status": "author geometry locally repaired at user request; metrics provisional"
     },
     "У": {
       "selected": null,

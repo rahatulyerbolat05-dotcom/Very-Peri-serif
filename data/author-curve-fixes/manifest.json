@@ -1,0 +1,393 @@
+[
+  {
+    "character": "щ",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni0449-primary.glif",
+    "path": "data/author-curve-fixes/uni0449-primary.glif",
+    "operations": [
+      {
+        "remove_microcontour_area": 0.06250891707604467
+      },
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          629.4860229492188,
+          85.62799835205078
+        ],
+        "old_angle": 15.62
+      },
+      {
+        "align_tangents_at": [
+          647.8809814453125,
+          49.26900100708008
+        ],
+        "old_angle": 5.27
+      }
+    ],
+    "area_before": 140317.2380439531,
+    "area_after": 140315.25854181094,
+    "bounds_before": [
+      15.0,
+      -199.38397216796875,
+      762.4749755859375,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -199.38397216796875,
+      762.4749755859375,
+      510.0
+    ],
+    "remaining_tangent_candidates": []
+  },
+  {
+    "character": "қ",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni049B-primary.glif",
+    "path": "data/author-curve-fixes/uni049B-primary.glif",
+    "operations": [
+      {
+        "remove_microcontour_area": 0.8342372315004241
+      },
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          289.781005859375,
+          -5.2210001945495605
+        ],
+        "old_angle": 5.33
+      },
+      {
+        "align_tangents_at": [
+          379.8810119628906,
+          49.34299850463867
+        ],
+        "old_angle": 5.27
+      }
+    ],
+    "area_before": 94192.4842077588,
+    "area_after": 94201.93083410348,
+    "bounds_before": [
+      15.0,
+      -199.3095703125,
+      494.4750061035156,
+      513.0
+    ],
+    "bounds_after": [
+      15.0,
+      -199.3095703125,
+      494.4750061035156,
+      513.0
+    ],
+    "remaining_tangent_candidates": [
+      {
+        "xy": [
+          22.48657989501953,
+          440.0
+        ],
+        "angle": 17.79,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "қ",
+    "role": "alternate",
+    "source": "data/user-2026-10-16/uni049B-alternate.glif",
+    "path": "data/author-curve-fixes/uni049B-alternate.glif",
+    "operations": [
+      {
+        "remove_microcontour_area": 0.8187293394468611
+      },
+      {
+        "remove_microcontour_area": 0.8677023707190301
+      },
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          290.010009765625,
+          -5.21999979019165
+        ],
+        "old_angle": 5.33
+      },
+      {
+        "align_tangents_at": [
+          380.1099853515625,
+          49.34400177001953
+        ],
+        "old_angle": 5.28
+      },
+      {
+        "align_tangents_at": [
+          358.0159912109375,
+          94.70800018310547
+        ],
+        "old_angle": 5.39
+      }
+    ],
+    "area_before": 95550.946111651,
+    "area_after": 95560.00604005017,
+    "bounds_before": [
+      15.0,
+      -199.3084716796875,
+      494.7040100097656,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -199.3084716796875,
+      494.7040100097656,
+      510.0
+    ],
+    "remaining_tangent_candidates": []
+  },
+  {
+    "character": "қ",
+    "role": "context",
+    "source": "data/user-2026-10-16/uni049B-context.glif",
+    "path": "data/author-curve-fixes/uni049B-context.glif",
+    "operations": [
+      {
+        "remove_microcontour_area": 0.7641468503977649
+      },
+      {
+        "remove_microcontour_area": 0.8664901780779246
+      },
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          288.010009765625,
+          -5.044000148773193
+        ],
+        "old_angle": 5.33
+      },
+      {
+        "align_tangents_at": [
+          378.1099853515625,
+          49.52000045776367
+        ],
+        "old_angle": 5.27
+      },
+      {
+        "align_tangents_at": [
+          356.0159912109375,
+          94.88300323486328
+        ],
+        "old_angle": 5.68
+      }
+    ],
+    "area_before": 92211.48882733655,
+    "area_after": 92223.84702015805,
+    "bounds_before": [
+      15.0,
+      -199.132568359375,
+      492.7040100097656,
+      510.0
+    ],
+    "bounds_after": [
+      15.0,
+      -199.132568359375,
+      492.7040100097656,
+      510.0
+    ],
+    "remaining_tangent_candidates": [
+      {
+        "xy": [
+          22.45216941833496,
+          437.4269104003906
+        ],
+        "angle": 17.77,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "ф",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni0444-primary.glif",
+    "path": "data/author-curve-fixes/uni0444-primary.glif",
+    "operations": [
+      {
+        "bowl_wall_at_y250": 76,
+        "counter_x_factors": {
+          "1": [
+            0.9053779542539415,
+            307
+          ],
+          "2": [
+            0.9066474431731034,
+            239
+          ]
+        }
+      },
+      {
+        "fillet_at": [
+          307,
+          15
+        ],
+        "trim_distance": 8
+      },
+      {
+        "align_tangents_at": [
+          312.00000000000006,
+          465.99999999999994
+        ],
+        "old_angle": 12.53
+      }
+    ],
+    "area_before": 142318.95848272613,
+    "area_after": 154185.5904552392,
+    "bounds_before": [
+      15.0,
+      -205.0,
+      531.0,
+      740.0
+    ],
+    "bounds_after": [
+      15.0,
+      -205.0,
+      531.0,
+      740.0
+    ],
+    "remaining_tangent_candidates": [
+      {
+        "xy": [
+          203.00034843205577,
+          513.0
+        ],
+        "angle": 5.79,
+        "contour": 1
+      },
+      {
+        "xy": [
+          232.99965156794426,
+          665.0
+        ],
+        "angle": 5.06,
+        "contour": 1
+      }
+    ]
+  },
+  {
+    "character": "Щ",
+    "role": "primary",
+    "source": "data/user-2026-10-16/uni0429-primary.glif",
+    "path": "data/author-curve-fixes/uni0429-primary.glif",
+    "operations": [
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          683.3331092436974,
+          50.11865546218496
+        ],
+        "old_angle": 5.27
+      },
+      {
+        "align_tangents_at": [
+          568.0211764705882,
+          30.0
+        ],
+        "old_angle": 17.57
+      },
+      {
+        "align_tangents_at": [
+          429.5129411764706,
+          30.0
+        ],
+        "old_angle": 17.57
+      },
+      {
+        "align_tangents_at": [
+          316.93378151260504,
+          30.0
+        ],
+        "old_angle": 17.21
+      },
+      {
+        "align_tangents_at": [
+          179.89478991596638,
+          30.0
+        ],
+        "old_angle": 17.57
+      }
+    ],
+    "area_before": 197491.84101956195,
+    "area_after": 197460.7736043615,
+    "bounds_before": [
+      19.0,
+      -200.62342834472656,
+      798.8900756835938,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -200.62342834472656,
+      798.8900756835938,
+      720.0
+    ],
+    "remaining_tangent_candidates": []
+  },
+  {
+    "character": "Қ",
+    "role": "primary",
+    "source": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+    "path": "data/author-curve-fixes/uni049A-primary.glif",
+    "operations": [
+      {
+        "remove_exporter_tail_backtrack": 1,
+        "height_under": 0.1
+      },
+      {
+        "align_tangents_at": [
+          351.7821848739496,
+          -5.6873949579832015
+        ],
+        "old_angle": 5.33
+      },
+      {
+        "align_tangents_at": [
+          442.6393277310924,
+          49.33512605042017
+        ],
+        "old_angle": 5.27
+      },
+      {
+        "align_tangents_at": [
+          464.4359663865546,
+          74.81747899159666
+        ],
+        "old_angle": 5.07
+      }
+    ],
+    "area_before": 126683.27663860764,
+    "area_after": 126690.57683586146,
+    "bounds_before": [
+      19.0,
+      -201.40737915039062,
+      558.1962890625,
+      720.0
+    ],
+    "bounds_after": [
+      19.0,
+      -201.40737915039062,
+      558.1962890625,
+      720.0
+    ],
+    "remaining_tangent_candidates": []
+  }
+]
