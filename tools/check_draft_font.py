@@ -10,7 +10,7 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0,str(Path(__file__).resolve().parent))
-from build_draft_font import REF,OUT,TTF,CHARS,name_for
+from build_draft_font import REF,OUT,TTF,CHARS,SYMBOLS,name_for
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.boundsPen import BoundsPen
@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.002',36)
+    label(55,55,'Very Peri Serif Draft · Regular · 1.003',36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -79,6 +79,27 @@ def main():
         expect(any(r[0]=='uni20B8' for r in result),'tenge Unicode mapping '+text)
     g=font['glyf']['uni20B8']
     expect(g.numberOfContours==2 and (g.yMin,g.yMax)==(0,720),'tenge height and two contours')
+    for ch in SYMBOLS:
+        expect(shape(data,font,ch)[0][0]==name_for(ch),'symbol Unicode '+hex(ord(ch)))
+    for ch in '\u2009\u202f':
+        name=name_for(ch)
+        expect(font['glyf'][name].numberOfContours==0 and font['hmtx'][name][0]==200,'space empty and width '+hex(ord(ch)))
+    for text in ['№ 12','500 ₽','500 ₴','lʼart','по‑русски','1\u2009000\u202f₸','◌\u0301']:
+        expect(all(r[0]!='.notdef' for r in shape(data,font,text)),'text symbols covered '+text)
+    circle=shape(data,font,'◌\u0301')
+    expect(circle[-1][1]==0 and circle[-1][3]!=0,'dotted circle mark positioned')
+    expect(font['glyf']['uni25CC'].numberOfContours==12,'dotted circle has twelve dots')
+    import re,subprocess
+    manifest=json.loads((OUT/'build-manifest.json').read_text())
+    if manifest.get('kerning_preserved'):
+        oldfea=subprocess.check_output(['git','show','66f1909:font/draft-features.fea']).decode()
+        pattern=r'^pos \S+ \S+ -?\d+;$'
+        expect(re.findall(pattern,oldfea,re.M)==re.findall(pattern,Path('font/draft-features.fea').read_text(),re.M),'all kerning pairs preserved from 1.002')
+        oldfont=TTFont(io.BytesIO(subprocess.check_output(['git','show','66f1909:'+str(TTF)])))
+        changed=set('үұЗзч')
+        for name,r in manifest['glyph_records'].items():
+            if name in oldfont.getGlyphOrder() and r['character'] not in changed:
+                expect(font['glyf'][name].compile(font['glyf'])==oldfont['glyf'][name].compile(oldfont['glyf']),'unmodified installed outline '+name)
     for left,alternate,members in [
         ('п','uni043F.flag',context['declared_class']['lower']+context['declared_class']['upper']),
         ('к','uni043A.short',context['ka_short']['declared_class']['lower']),

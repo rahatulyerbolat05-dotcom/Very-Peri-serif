@@ -1,0 +1,58 @@
+{
+  "₽": {
+    "path": "data/text-symbols/uni20BD.glif",
+    "advance": 466,
+    "unicode": "U+20BD",
+    "glif_sha256": "c332afd6c539f9c72914ccc7bb896e25fb85ea27a545231d7b6bacd7f290fe6e",
+    "status": "required text symbol; draft design"
+  },
+  "₴": {
+    "path": "data/text-symbols/uni20B4.glif",
+    "advance": 407,
+    "unicode": "U+20B4",
+    "glif_sha256": "c5b82e4acd389ddde6298a5eb6c374fab873fbb2e920939be431384bf7b322f5",
+    "status": "required text symbol; draft design"
+  },
+  "№": {
+    "path": "data/text-symbols/uni2116.glif",
+    "advance": 730,
+    "unicode": "U+2116",
+    "glif_sha256": "806435f62585dd81eac79611c8d3946824ccdb97ab2e5af09645ea87e3e0227f",
+    "status": "required text symbol; draft design"
+  },
+  "ʼ": {
+    "path": "data/text-symbols/uni02BC.glif",
+    "advance": 166,
+    "unicode": "U+02BC",
+    "glif_sha256": "a15c99cb6d4eebd9ba202492bdb9485133a512cbd21b6be8cb782e4b304826a1",
+    "status": "required text symbol; draft design"
+  },
+  "‑": {
+    "path": "data/text-symbols/uni2011.glif",
+    "advance": 430,
+    "unicode": "U+2011",
+    "glif_sha256": "d2776b5f99ca5a76572398cc438fdeab1c06b3ec30ee7e6dc1b84f707137c032",
+    "status": "required text symbol; draft design"
+  },
+  " ": {
+    "path": "data/text-symbols/uni2009.glif",
+    "advance": 200,
+    "unicode": "U+2009",
+    "glif_sha256": "dd6b9ad98997e9dbab296a02f03bde35145911cab5d1f8b1020031a55e7d4ed3",
+    "status": "required text symbol; draft design"
+  },
+  " ": {
+    "path": "data/text-symbols/uni202F.glif",
+    "advance": 200,
+    "unicode": "U+202F",
+    "glif_sha256": "13fb02f5c4b9d84d338db504028d2e6fcefc98c930896a04a6126b59d82095d8",
+    "status": "required text symbol; draft design"
+  },
+  "◌": {
+    "path": "data/text-symbols/uni25CC.glif",
+    "advance": 570,
+    "unicode": "U+25CC",
+    "glif_sha256": "17b0bc2799894dbb0204e8797ac01f850d1270332a3bf71b089cddc4f43d235b",
+    "status": "required text symbol; draft design"
+  }
+}

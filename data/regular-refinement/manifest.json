@@ -1,0 +1,72 @@
+{
+  "ү": {
+    "path": "data/regular-refinement/uni04AF.glif",
+    "variant": "01",
+    "label": "Уточнённая развилка",
+    "advance": 477,
+    "bounds": [
+      27.0,
+      -205.0,
+      450.0,
+      510.0
+    ],
+    "glif_sha256": "a8d049dbb77063a4cfb71cdca562639c32fcccacd7dda25f0dfc40f66888b268",
+    "status": "revised at user request; optical review proposal"
+  },
+  "ұ": {
+    "path": "data/regular-refinement/uni04B1.glif",
+    "variant": "01",
+    "label": "Уточнённая развилка",
+    "advance": 477,
+    "bounds": [
+      27.0,
+      -205.0,
+      450.0,
+      510.0
+    ],
+    "glif_sha256": "36813736985c1b7fa8918c181280541285dbf278c10cea2aba33b86e498a3074",
+    "status": "revised at user request; optical review proposal"
+  },
+  "З": {
+    "path": "data/regular-refinement/uni0417.glif",
+    "variant": "01",
+    "label": "Оптическая правка веса",
+    "advance": 371,
+    "bounds": [
+      20.0,
+      -9.0,
+      341.0,
+      730.0
+    ],
+    "glif_sha256": "5e0fd93f65203e62603e4dc90ab1c50c60d76bc9a0e9a9db73812049dd7913cc",
+    "status": "revised at user request; optical review proposal"
+  },
+  "з": {
+    "path": "data/regular-refinement/uni0437.glif",
+    "variant": "01",
+    "label": "Оптическая правка веса",
+    "advance": 349,
+    "bounds": [
+      24.0,
+      -9.0,
+      326.0,
+      516.0
+    ],
+    "glif_sha256": "c4f08045c2cb6e9eac56ed3523b1198d9acc765a8113ff3bbfcd3a6c767ac0dc",
+    "status": "revised at user request; optical review proposal"
+  },
+  "ч": {
+    "path": "data/regular-refinement/uni0447.glif",
+    "variant": "01",
+    "label": "Оптическая правка веса",
+    "advance": 454,
+    "bounds": [
+      11.0,
+      -5.0,
+      439.0,
+      510.0
+    ],
+    "glif_sha256": "b529a11eb4d6744d49a5c8284f68c158e749d17025f093ffae044e5e77b2253c",
+    "status": "revised at user request; optical review proposal"
+  }
+}

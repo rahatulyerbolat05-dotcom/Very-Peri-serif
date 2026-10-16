@@ -25,10 +25,10 @@
       "һ",
       "т",
       "ж",
-      "з",
       "ғ",
       "қ",
-      "ң"
+      "ң",
+      "з"
     ],
     "upper": [
       "Н",
@@ -54,7 +54,8 @@
       "Ц",
       "Щ",
       "Қ",
-      "Ң"
+      "Ң",
+      "З"
     ]
   },
   "expected_not_in_class": [
@@ -64,7 +65,6 @@
     "э",
     "у",
     "д",
-    "ч",
     "я",
     "ш",
     "и",
@@ -86,12 +86,13 @@
     "Э",
     "Ә",
     "ә",
-    "ү",
-    "ұ",
     "ф",
     "ф",
     "ц",
-    "щ"
+    "щ",
+    "ү",
+    "ұ",
+    "ч"
   ],
   "built_bases": {
     "н": "data/en/n4.glif",
@@ -137,7 +138,7 @@
     "һ": "data/homoglyph/shha-cy.glif",
     "й": "data/homoglyph/ishort-cy.glif",
     "Ү": "data/homoglyph/Ustraight-cy.glif",
-    "ү": "data/ustraight-refinement/uni04AF-01.glif",
+    "ү": "data/regular-refinement/uni04AF.glif",
     "Ө": "data/kz2/O1.glif",
     "ө": "data/kz2/o1.glif",
     "Ғ": "data/kz2/Gh2.glif",
@@ -146,7 +147,7 @@
     "г": "data/codex/uni0433-02.glif",
     "д": "data/codex/uni0434-01.glif",
     "ж": "data/codex/uni0436-cyr11.glif",
-    "з": "data/codex/uni0437-01.glif",
+    "з": "data/regular-refinement/uni0437.glif",
     "э": "data/codex/uni044D-02.glif",
     "Ч": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
     "Ъ": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
@@ -157,7 +158,7 @@
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "ә": "data/kz-completion/uni04D9-01.glif",
     "Һ": "data/kz-completion/uni04BA-01.glif",
-    "ұ": "data/ustraight-refinement/uni04B1-01.glif",
+    "ұ": "data/regular-refinement/uni04B1.glif",
     "Ц": "data/drop-tail-variants/uni0426-primary.glif",
     "ц": "data/drop-tail-variants/uni0446-primary.glif",
     "ң": "data/drop-tail-variants/uni04A3-primary.glif",
@@ -165,7 +166,9 @@
     "ф": "data/author-curve-fixes/uni0444-primary.glif",
     "қ": "data/drop-tail-variants/uni049B-primary.glif",
     "Щ": "data/drop-tail-variants/uni0429-primary.glif",
-    "Қ": "data/drop-tail-variants/uni049A-primary.glif"
+    "Қ": "data/drop-tail-variants/uni049A-primary.glif",
+    "З": "data/regular-refinement/uni0417.glif",
+    "ч": "data/regular-refinement/uni0447.glif"
   },
   "note": "built_bases обновляется при каждой новой букве: путь к основе. Буквы declared_class без контура пока не проверяются (check_context_classes.py пишет «нет контура»).",
   "history": [
@@ -199,7 +202,8 @@
     "16.10.2026: по замечанию пользователя заменены развилка и переход строчных ү/ұ на родное сочленение Y без масштаба; формы остаются предложениями.",
     "16.10.2026: по запросу пользователя исправлены микроконтуры щ/қ, стыки щ/қ/Щ/Қ и вес чаш/острый стык ф; все активные авторские основы включены в геометрическую проверку calt.",
     "16.10.2026: по изображению пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives.",
-    "16.10.2026: по точному SVG пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives."
+    "16.10.2026: по точному SVG пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives.",
+    "16.10.2026: сужены развилки ү/ұ; локально уточнён вес З/з/ч по оптической проверке и PDF пользователя; кернинг отложен."
   ],
   "ka_short": {
     "rule": "ka-cy -> ka-cy.short перед буквой, у которой на x-height верх стойки у левого края глифа (головка, флажок, горизонталь)",
@@ -221,7 +225,6 @@
         "ъ",
         "ы",
         "м",
-        "ч",
         "ш",
         "к",
         "р",
@@ -234,15 +237,16 @@
         "і",
         "һ",
         "й",
-        "з",
         "ә",
-        "ү",
-        "ұ",
         "ғ",
         "ц",
         "щ",
         "қ",
-        "ң"
+        "ң",
+        "ү",
+        "ұ",
+        "з",
+        "ч"
       ],
       "upper": []
     },

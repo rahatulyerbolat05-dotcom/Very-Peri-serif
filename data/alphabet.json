@@ -363,30 +363,26 @@
       "provenance": "user/Claude Cyr11; integrated and retained by Codex"
     },
     "з": {
-      "selected": "01",
+      "selected": null,
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0437-01.glif",
-          "label": "Открытый терминал",
+          "path": "data/regular-refinement/uni0437.glif",
           "variant": "01",
-          "status": "selected",
+          "label": "Оптическая правка веса",
           "advance": 349,
           "bounds": [
-            24,
-            -9,
-            326,
-            516
+            24.0,
+            -9.0,
+            326.0,
+            516.0
           ],
-          "glif_sha256": "98c61272897a5dce16166ec6e02a661f8d9ae62bd609ebb8b63313a148dbbe81",
-          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
-          "source_glyph": "uni0437",
-          "source_glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb",
-          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          "glif_sha256": "c4f08045c2cb6e9eac56ed3523b1198d9acc765a8113ff3bbfcd3a6c767ac0dc",
+          "status": "revised at user request; optical review proposal"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Codex; optical correction requested by user"
     },
     "и": {
       "selected": "02",
@@ -586,25 +582,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0417-01.glif",
-          "label": "Две чаши и капли",
+          "path": "data/regular-refinement/uni0417.glif",
           "variant": "01",
-          "status": "unselected",
+          "label": "Оптическая правка веса",
           "advance": 371,
           "bounds": [
-            20,
-            -9,
-            341,
-            730
+            20.0,
+            -9.0,
+            341.0,
+            730.0
           ],
-          "glif_sha256": "b01b89516878cb9dffa7084d5d7003cda2b17bdaa641bdaa6009e094d0952e23",
-          "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
-          "source_glyph": "uni0417",
-          "source_glyf_sha256": "929c34cdcfdda77be993334966417baf3cf9f3281e5968aaa30979359e8a82bf",
-          "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+          "glif_sha256": "5e0fd93f65203e62603e4dc90ab1c50c60d76bc9a0e9a9db73812049dd7913cc",
+          "status": "revised at user request; optical review proposal"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Codex; optical correction requested by user"
     },
     "Й": {
       "selected": null,
@@ -742,25 +734,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0447-01.glif",
-          "label": "Поднятая чаша u",
+          "path": "data/regular-refinement/uni0447.glif",
           "variant": "01",
-          "status": "unselected",
+          "label": "Оптическая правка веса",
           "advance": 454,
           "bounds": [
-            11,
-            -5,
-            439,
-            510
+            11.0,
+            -5.0,
+            439.0,
+            510.0
           ],
-          "glif_sha256": "b0154f8402601aa7e0982622f09cd81e3f7b77a4b35cf27a80491776708fa746",
-          "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
-          "source_glyph": "uni0447",
-          "source_glyf_sha256": "a8acc9d35192ff0e98ba183f7e76142cb84d9d709af32dfb02754b4bbc48a50f",
-          "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
+          "glif_sha256": "b529a11eb4d6744d49a5c8284f68c158e749d17025f093ffae044e5e77b2253c",
+          "status": "revised at user request; optical review proposal"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Codex; optical correction requested by user"
     },
     "я": {
       "selected": null,
@@ -974,21 +962,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/ustraight-refinement/uni04B1-01.glif",
-          "label": "Родная развилка Y, черта",
+          "path": "data/regular-refinement/uni04B1.glif",
           "variant": "01",
-          "status": "corrected proposal",
+          "label": "Уточнённая развилка",
           "advance": 477,
           "bounds": [
-            -18.0,
+            27.0,
             -205.0,
-            495.0,
+            450.0,
             510.0
           ],
-          "glif_sha256": "da3769499f84cde3a08544d1e8512600cbcb359c6511d6d88e6cd86431b8d1b3"
+          "glif_sha256": "36813736985c1b7fa8918c181280541285dbf278c10cea2aba33b86e498a3074",
+          "status": "revised at user request; optical review proposal"
         }
       ],
-      "provenance": "Codex; construction corrected at user request"
+      "provenance": "Codex; optical correction requested by user"
     },
     "Ц": {
       "selected": null,
@@ -1018,21 +1006,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/ustraight-refinement/uni04AF-01.glif",
-          "label": "Родная развилка Y, прямой вынос",
+          "path": "data/regular-refinement/uni04AF.glif",
           "variant": "01",
-          "status": "corrected proposal",
+          "label": "Уточнённая развилка",
           "advance": 477,
           "bounds": [
-            -18.0,
+            27.0,
             -205.0,
-            495.0,
+            450.0,
             510.0
           ],
-          "glif_sha256": "fb1e89a02a7db9fbdcde1b3c58750933118aef5714b675289ff28fdf99f58faf"
+          "glif_sha256": "a8d049dbb77063a4cfb71cdca562639c32fcccacd7dda25f0dfc40f66888b268",
+          "status": "revised at user request; optical review proposal"
         }
       ],
-      "provenance": "Codex; construction corrected at user request"
+      "provenance": "Codex; optical correction requested by user"
     }
   },
   "shared_review": {
@@ -2082,6 +2070,128 @@
         }
       ],
       "provenance": "Codex; construction corrected at user request"
+    },
+    "ү-before-optical-review": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/ustraight-refinement/uni04AF-01.glif",
+          "label": "Родная развилка Y, прямой вынос",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 477,
+          "bounds": [
+            -18.0,
+            -205.0,
+            495.0,
+            510.0
+          ],
+          "glif_sha256": "fb1e89a02a7db9fbdcde1b3c58750933118aef5714b675289ff28fdf99f58faf"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
+    },
+    "ұ-before-optical-review": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/ustraight-refinement/uni04B1-01.glif",
+          "label": "Родная развилка Y, черта",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 477,
+          "bounds": [
+            -18.0,
+            -205.0,
+            495.0,
+            510.0
+          ],
+          "glif_sha256": "da3769499f84cde3a08544d1e8512600cbcb359c6511d6d88e6cd86431b8d1b3"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
+    },
+    "З-before-optical-review": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0417-01.glif",
+          "label": "Две чаши и капли",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 371,
+          "bounds": [
+            20,
+            -9,
+            341,
+            730
+          ],
+          "glif_sha256": "b01b89516878cb9dffa7084d5d7003cda2b17bdaa641bdaa6009e094d0952e23",
+          "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+          "source_glyph": "uni0417",
+          "source_glyf_sha256": "929c34cdcfdda77be993334966417baf3cf9f3281e5968aaa30979359e8a82bf",
+          "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "з-before-optical-review": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0437-01.glif",
+          "label": "Открытый терминал",
+          "variant": "01",
+          "status": "selected",
+          "advance": 349,
+          "bounds": [
+            24,
+            -9,
+            326,
+            516
+          ],
+          "glif_sha256": "98c61272897a5dce16166ec6e02a661f8d9ae62bd609ebb8b63313a148dbbe81",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0437",
+          "source_glyf_sha256": "ab5e9cfb71e53e56e39f063e462066b622e4a2bc7e88f731582a9fe37f6e31fb",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "ч-before-optical-review": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0447-01.glif",
+          "label": "Поднятая чаша u",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 454,
+          "bounds": [
+            11,
+            -5,
+            439,
+            510
+          ],
+          "glif_sha256": "b0154f8402601aa7e0982622f09cd81e3f7b77a4b35cf27a80491776708fa746",
+          "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
+          "source_glyph": "uni0447",
+          "source_glyf_sha256": "a8acc9d35192ff0e98ba183f7e76142cb84d9d709af32dfb02754b4bbc48a50f",
+          "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
     }
   },
   "tail_styles": {

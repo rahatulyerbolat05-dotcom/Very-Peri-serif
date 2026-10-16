@@ -1,0 +1,9 @@
+{
+  "reference_pdf": "Frame 279.pdf",
+  "pdf_sha256": "86c4ace0e7451f5c6dad170a52bc097e7dbd874abf3aad09fcc5c3c6b15ccb4f",
+  "pdf_pages": 1,
+  "pdf_font": "FigmaGlyphs Type3; export does not identify the installed font version",
+  "outer_branch_opening_before_degrees": 51.99171348396157,
+  "outer_branch_opening_after_degrees": 37.4159222325935,
+  "kerning_policy": "preserve all pair values from draft1.002; defer kerning tuning"
+}

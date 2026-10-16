@@ -66,6 +66,8 @@ def refined_drawings(ref,params):
 
 def main():
     cfg=json.loads(Path('data/alphabet.json').read_text())
+    if cfg.get('codex',{}).get('ү',{}).get('variants',[{}])[0].get('path','').startswith('data/regular-refinement/'):
+        raise SystemExit('Current ү/ұ use tools/finish_regular.py; refusing to restore wider junctions.')
     for ch in 'үұ':
         entry=cfg['codex'][ch]
         if entry['variants'][0]['path'].startswith('data/corrections-tse-ustraight/'):

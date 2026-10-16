@@ -1,0 +1,1215 @@
+{
+  "baseline_commit": "66f1909",
+  "current_ttf_sha256": "42b61a647f44131abaed38f1e560ec6becbeef97411e4f366e9f82c8ab8489aa",
+  "primary_forms_reviewed": 84,
+  "installed_alternatives_reviewed": 20,
+  "source_checks": [
+    {
+      "name": "uni0410",
+      "path": "data/A/A.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0411",
+      "path": "data/codex/uni0411-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0412",
+      "path": "data/homoglyph/Ve-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni0413",
+      "path": "data/ge_cap/G1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0414",
+      "path": "data/codex/uni0414-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0415",
+      "path": "data/homoglyph/Ie-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0401",
+      "path": "data/homoglyph/Io-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni0416",
+      "path": "data/zhe/zhe.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0417",
+      "path": "data/regular-refinement/uni0417.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0418",
+      "path": "data/codex/uni0418-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0419",
+      "path": "data/codex/uni0419-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni041A",
+      "path": "data/homoglyph/Ka-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni041B",
+      "path": "data/el_std/St2.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni041C",
+      "path": "data/homoglyph/Em-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni041D",
+      "path": "data/homoglyph/En-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni041E",
+      "path": "data/homoglyph/O-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni041F",
+      "path": "data/pe_cap/P1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0420",
+      "path": "data/homoglyph/Er-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0421",
+      "path": "data/homoglyph/Es-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0422",
+      "path": "data/homoglyph/Te-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0423",
+      "path": "data/incoming-caps-2026-10-16/U-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0424",
+      "path": "data/codex/uni0424-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni0425",
+      "path": "data/homoglyph/Ha-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0426",
+      "path": "data/drop-tail-variants/uni0426-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0427",
+      "path": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0428",
+      "path": "data/sha_cap/Sh1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0429",
+      "path": "data/drop-tail-variants/uni0429-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni042A",
+      "path": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni042B",
+      "path": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni042C",
+      "path": "data/codex/uni042C-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni042D",
+      "path": "data/capitals-che-hard-yeru-e/uni042D-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni042E",
+      "path": "data/yu_cap/Yu1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni042F",
+      "path": "data/codex/uni042F-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0430",
+      "path": "data/homoglyph/a-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0431",
+      "path": "data/codex/uni0431-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0432",
+      "path": "data/codex/uni0432-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni0433",
+      "path": "data/codex/uni0433-02.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0434",
+      "path": "data/codex/uni0434-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0435",
+      "path": "data/homoglyph/ie-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0451",
+      "path": "data/homoglyph/io-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 4
+    },
+    {
+      "name": "uni0436",
+      "path": "data/codex/uni0436-cyr11.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0437",
+      "path": "data/regular-refinement/uni0437.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0438",
+      "path": "data/codex/uni0438-02.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0439",
+      "path": "data/codex/uni0439-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni043A",
+      "path": "data/codex/uni043A-02.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni043B",
+      "path": "data/el_lower/l1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni043C",
+      "path": "data/em/m1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni043D",
+      "path": "data/en/n4.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni043E",
+      "path": "data/homoglyph/o-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni043F",
+      "path": "data/pe/pe.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0440",
+      "path": "data/homoglyph/er-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0441",
+      "path": "data/homoglyph/es-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0442",
+      "path": "data/codex/uni0442-02.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0443",
+      "path": "data/homoglyph/u-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0444",
+      "path": "data/author-curve-fixes/uni0444-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni0445",
+      "path": "data/homoglyph/ha-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0446",
+      "path": "data/drop-tail-variants/uni0446-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0447",
+      "path": "data/regular-refinement/uni0447.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0448",
+      "path": "data/sha/R1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0449",
+      "path": "data/drop-tail-variants/uni0449-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni044A",
+      "path": "data/hard/K2.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni044B",
+      "path": "data/yery/Y1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni044C",
+      "path": "data/soft/S3.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni044D",
+      "path": "data/codex/uni044D-02.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni044E",
+      "path": "data/yu/yu1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni044F",
+      "path": "data/codex/uni044F-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni04D8",
+      "path": "data/kz-completion/uni04D8-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0492",
+      "path": "data/kz2/Gh2.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049A",
+      "path": "data/drop-tail-variants/uni049A-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04A2",
+      "path": "data/drop-tail-variants/uni04A2-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04E8",
+      "path": "data/kz2/O1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni04B0",
+      "path": "data/incoming-caps-2026-10-16/Ustraightstroke-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04AE",
+      "path": "data/homoglyph/Ustraight-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04BA",
+      "path": "data/kz-completion/uni04BA-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0406",
+      "path": "data/homoglyph/I-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04D9",
+      "path": "data/kz-completion/uni04D9-01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0493",
+      "path": "data/user-2026-10-16-push/uni0493-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B",
+      "path": "data/drop-tail-variants/uni049B-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04A3",
+      "path": "data/drop-tail-variants/uni04A3-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04E9",
+      "path": "data/kz2/o1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 3
+    },
+    {
+      "name": "uni04B1",
+      "path": "data/regular-refinement/uni04B1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04AF",
+      "path": "data/regular-refinement/uni04AF.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04BB",
+      "path": "data/homoglyph/shha-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0456",
+      "path": "data/homoglyph/i-cy.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni20B8",
+      "path": "data/currency/uni20B8.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni20BD",
+      "path": "data/text-symbols/uni20BD.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni20B4",
+      "path": "data/text-symbols/uni20B4.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni2116",
+      "path": "data/text-symbols/uni2116.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 4
+    },
+    {
+      "name": "uni02BC",
+      "path": "data/text-symbols/uni02BC.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni2011",
+      "path": "data/text-symbols/uni2011.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni2009",
+      "path": "data/text-symbols/uni2009.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 0
+    },
+    {
+      "name": "uni202F",
+      "path": "data/text-symbols/uni202F.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 0
+    },
+    {
+      "name": "uni25CC",
+      "path": "data/text-symbols/uni25CC.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 12
+    },
+    {
+      "name": "uni043F.flag",
+      "path": "data/pe/pe_flag.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni043A.short",
+      "path": "data/ka/ka_short.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0442.ss08",
+      "path": "data/te/t1.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0430.ss01",
+      "path": "data/homoglyph/a-cy.ss01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0441.ss01",
+      "path": "data/homoglyph/es-cy.ss01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0435.ss01",
+      "path": "data/homoglyph/ie-cy.ss01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 2
+    },
+    {
+      "name": "uni0451.ss01",
+      "path": "data/homoglyph/io-cy.ss01.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 4
+    },
+    {
+      "name": "uni0446.tail_old",
+      "path": "data/user-2026-10-16/uni0446-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04A3.tail_old",
+      "path": "data/user-2026-10-16/uni04A3-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0449.tail_old",
+      "path": "data/author-curve-fixes/uni0449-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B.alternate",
+      "path": "data/drop-tail-variants/uni049B-alternate.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B.context",
+      "path": "data/drop-tail-variants/uni049B-context.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B.tail_old",
+      "path": "data/author-curve-fixes/uni049B-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B.alternate.tail_old",
+      "path": "data/author-curve-fixes/uni049B-alternate.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049B.context.tail_old",
+      "path": "data/author-curve-fixes/uni049B-context.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0429.tail_old",
+      "path": "data/author-curve-fixes/uni0429-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni049A.tail_old",
+      "path": "data/author-curve-fixes/uni049A-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni04A2.tail_old",
+      "path": "data/user-2026-10-16-push/uni04A2-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    },
+    {
+      "name": "uni0426.tail_old",
+      "path": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
+      "open_contours": 0,
+      "non_simple_sampled_rings": [],
+      "contours": 1
+    }
+  ],
+  "weight_statistic": "Median of largest 10..130-unit horizontal ink runs at 51 body heights (25..75%); diagnostic only, not normal stroke thickness.",
+  "primary_weight_scan": [
+    {
+      "character": "А",
+      "scanline_main_run_before": 72.0,
+      "scanline_main_run_after": 72.0
+    },
+    {
+      "character": "Б",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "В",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "Г",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Д",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Е",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ё",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ж",
+      "scanline_main_run_before": 78.0,
+      "scanline_main_run_after": 78.0
+    },
+    {
+      "character": "З",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "И",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Й",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "К",
+      "scanline_main_run_before": 78.0,
+      "scanline_main_run_after": 78.0
+    },
+    {
+      "character": "Л",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "М",
+      "scanline_main_run_before": 70.0,
+      "scanline_main_run_after": 70.0
+    },
+    {
+      "character": "Н",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "О",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "П",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Р",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "С",
+      "scanline_main_run_before": 77.0,
+      "scanline_main_run_after": 77.0
+    },
+    {
+      "character": "Т",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "У",
+      "scanline_main_run_before": 75.0,
+      "scanline_main_run_after": 75.0
+    },
+    {
+      "character": "Ф",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Х",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "Ц",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ч",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ш",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Щ",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ъ",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ы",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ь",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Э",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "Ю",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "Я",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "а",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "б",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "в",
+      "scanline_main_run_before": 72.0,
+      "scanline_main_run_after": 72.0
+    },
+    {
+      "character": "г",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "д",
+      "scanline_main_run_before": 66.0,
+      "scanline_main_run_after": 66.0
+    },
+    {
+      "character": "е",
+      "scanline_main_run_before": 72.0,
+      "scanline_main_run_after": 72.0
+    },
+    {
+      "character": "ё",
+      "scanline_main_run_before": 72.0,
+      "scanline_main_run_after": 72.0
+    },
+    {
+      "character": "ж",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "з",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "и",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "й",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "к",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "л",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "м",
+      "scanline_main_run_before": 69.0,
+      "scanline_main_run_after": 69.0
+    },
+    {
+      "character": "н",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "о",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "п",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "р",
+      "scanline_main_run_before": 74.0,
+      "scanline_main_run_after": 74.0
+    },
+    {
+      "character": "с",
+      "scanline_main_run_before": 74.0,
+      "scanline_main_run_after": 74.0
+    },
+    {
+      "character": "т",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "у",
+      "scanline_main_run_before": 70.0,
+      "scanline_main_run_after": 70.0
+    },
+    {
+      "character": "ф",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 76.0
+    },
+    {
+      "character": "х",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "ц",
+      "scanline_main_run_before": 67.0,
+      "scanline_main_run_after": 67.0
+    },
+    {
+      "character": "ч",
+      "scanline_main_run_before": 63.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "ш",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "щ",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "ъ",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "ы",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "ь",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "э",
+      "scanline_main_run_before": 72.5,
+      "scanline_main_run_after": 72.5
+    },
+    {
+      "character": "ю",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "я",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "Ә",
+      "scanline_main_run_before": 77.0,
+      "scanline_main_run_after": 77.0
+    },
+    {
+      "character": "Ғ",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Қ",
+      "scanline_main_run_before": 77.0,
+      "scanline_main_run_after": 77.0
+    },
+    {
+      "character": "Ң",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "Ө",
+      "scanline_main_run_before": 75.0,
+      "scanline_main_run_after": 75.0
+    },
+    {
+      "character": "Ұ",
+      "scanline_main_run_before": 75.0,
+      "scanline_main_run_after": 75.0
+    },
+    {
+      "character": "Ү",
+      "scanline_main_run_before": 75.0,
+      "scanline_main_run_after": 75.0
+    },
+    {
+      "character": "Һ",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "І",
+      "scanline_main_run_before": 71.0,
+      "scanline_main_run_after": 71.0
+    },
+    {
+      "character": "ә",
+      "scanline_main_run_before": 74.0,
+      "scanline_main_run_after": 74.0
+    },
+    {
+      "character": "ғ",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "қ",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "ң",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "ө",
+      "scanline_main_run_before": 73.0,
+      "scanline_main_run_after": 73.0
+    },
+    {
+      "character": "ұ",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 74.0
+    },
+    {
+      "character": "ү",
+      "scanline_main_run_before": 76.0,
+      "scanline_main_run_after": 74.0
+    },
+    {
+      "character": "һ",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    },
+    {
+      "character": "і",
+      "scanline_main_run_before": 68.0,
+      "scanline_main_run_after": 68.0
+    }
+  ]
+}

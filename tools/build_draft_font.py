@@ -40,6 +40,9 @@ KLOW=[('o','o'),('r','r'),('k','k'),('h','u'),('o','o'),('y','y'),('y','y'),('h'
 DONORS=dict(zip(CHARS,UP+LOW+KUP+KLOW))
 DONORS['₸']=('T','T')
 SYMBOLS={'₸':'data/currency/uni20B8.glif'}
+SYMBOL_DONORS={'₽':'P','₴':'S','№':'N','ʼ':'quoteright','‑':'hyphen','\u2009':'space','\u202f':'space','◌':'o'}
+for ch,donor in SYMBOL_DONORS.items():
+    SYMBOLS[ch]=f'data/text-symbols/uni{ord(ch):04X}.glif';DONORS[ch]=(donor,donor)
 
 
 def load(filename):
@@ -83,6 +86,7 @@ def extend_anchors(font,records):
     bases=dict(zip(table.BaseCoverage.glyphs,table.BaseArray.BaseRecord))
     original=dict(bases)
     for name,r in records.items():
+        if r['character'] in SYMBOLS and r['character']!='◌':continue
         donor=r['donors'][0]
         if r['character']=='і':donor='dotlessi'
         if donor not in original:donor='E' if r['character'].isupper() else 'e'
@@ -92,6 +96,11 @@ def extend_anchors(font,records):
             if anchor:anchor.XCoordinate=round(anchor.XCoordinate+dx)
         if r['character'] in 'ЙЁйё' and anchors.BaseAnchor[0]:
             anchors.BaseAnchor[0].YCoordinate=max(anchors.BaseAnchor[0].YCoordinate,font['glyf'][name].yMax)
+        if r['character']=='◌':
+            for i,anchor in enumerate(anchors.BaseAnchor):
+                if anchor:
+                    anchor.XCoordinate=285
+                    if i in (0,1):anchor.YCoordinate=510
         bases[name]=anchors
         font['GDEF'].table.GlyphClassDef.classDefs[name]=1
     order=font.getReverseGlyphMap();names=sorted(bases,key=order.get)
@@ -99,7 +108,7 @@ def extend_anchors(font,records):
     table.BaseArray.BaseCount=len(names)
     mark_top=max(font['glyf'][g].yMax-r.MarkAnchor.YCoordinate
                  for g,r in zip(table.MarkCoverage.glyphs,table.MarkArray.MarkRecord) if r.Class in (0,1))
-    max_anchor=max(bases[n].BaseAnchor[0].YCoordinate for n in records if bases[n].BaseAnchor[0])
+    max_anchor=max(bases[n].BaseAnchor[0].YCoordinate for n in records if n in bases and bases[n].BaseAnchor[0])
     # Keep hhea/typo line spacing; allow legacy Windows clipping bounds to cover
     # an acute above precomposed Ё/Й as well as the simple capital vowels.
     font['OS/2'].usWinAscent=max(font['OS/2'].usWinAscent,max_anchor+mark_top+2)
@@ -165,6 +174,9 @@ def merge_layout(font,extra,tag):
 
 def main():
     import subprocess
+    import re
+    keep_kerning='--keep-kerning' in sys.argv
+    kept_pairs={(a,b):int(v) for a,b,v in re.findall(r'^pos (\S+) (\S+) (-?\d+);$',Path('font/draft-features.fea').read_text(),re.M)} if keep_kerning else None
     subprocess.run([sys.executable,'-I','tools/check_context_classes.py'],check=True,stdout=subprocess.DEVNULL)
     OUT.mkdir(parents=True,exist_ok=True);Path('font').mkdir(exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());context=json.loads(Path('data/context/serif_bl.json').read_text())
@@ -185,7 +197,7 @@ def main():
         rounded=pathops.simplify(rounded,fix_winding=True,clockwise=True)
         pen=TTGlyphPen(None);rounded.draw(Cu2QuPen(pen,.1,reverse_direction=False));glyph=pen.glyph()
         font['glyf'][name]=glyph;order.append(name);glyph.recalcBounds(font['glyf'])
-        font['hmtx'][name]=(advance,glyph.xMin)
+        font['hmtx'][name]=(advance,getattr(glyph,'xMin',0))
         paths[name]=path;records[name]={'character':ch,'path':filename,'advance':advance,'donors':DONORS[ch],
             'sha256':checksum}
         if native_donor:records[name]['donors']=(native_donor,native_donor)
@@ -253,6 +265,9 @@ def main():
             if safe!=value:clamped.append({'left':a,'right':b,'requested':value,'actual':safe})
             if safe:pairs[a,b]=safe
             else:pairs.pop((a,b),None)
+    if keep_kerning:
+        assert kept_pairs and all(a in order and b in order for a,b in kept_pairs)
+        pairs=kept_pairs;clamped=[]
     serif=[name_for(ch) for ch in context['declared_class']['lower']+context['declared_class']['upper'] if ch in CHARS]
     head=[name_for(ch) for ch in context['ka_short']['declared_class']['lower'] if ch in CHARS]
     # Add all shape variants of members so feature ordering cannot disable context.
@@ -288,17 +303,17 @@ def main():
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors.',
-            1:'Very Peri Serif Draft',2:'Regular',3:'1.002;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
-            4:'Very Peri Serif Draft Regular',5:'Version 1.002',6:'VeryPeriSerifDraft-Regular'}
+            1:'Very Peri Serif Draft',2:'Regular',3:'1.003;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
+            4:'Very Peri Serif Draft Regular',5:'Version 1.003',6:'VeryPeriSerifDraft-Regular'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
-    font['head'].fontRevision=1.002;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
+    font['head'].fontRevision=1.003;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
     font.save(TTF)
     web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
-    manifest={'family':'Very Peri Serif Draft','version':'1.002','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),
+    manifest={'family':'Very Peri Serif Draft','version':'1.003','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
               'tail_feature':'ss09','te_feature':'ss08','default_context':'calt',
