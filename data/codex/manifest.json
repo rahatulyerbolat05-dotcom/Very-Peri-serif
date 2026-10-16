@@ -1,7 +1,7 @@
 {
   "source_repository": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "source_branch": "codex/cyrillic-studies",
-  "source_commit": "7f3d6f89987cbecd9f18aff85155dc4c1cc08d97",
+  "source_commit": "54e5dcf7f33b210bcb1356fba172a1678653540e",
   "native_source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "license": "SIL OFL1.1; see OFL.txt",
   "geometry": "Exact decomposed quadratic contours from retained study TTFs; canonical cubic segment equality and advance checked after GLIF roundtrip.",
@@ -253,6 +253,63 @@
       "source_glyph": "uni0442",
       "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
       "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+    },
+    {
+      "character": "Б",
+      "path": "data/codex/uni0411-01.glif",
+      "label": "Чаша B, плечо E",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 478,
+      "bounds": [
+        19,
+        0,
+        450,
+        720
+      ],
+      "glif_sha256": "23d8c6081b55fd512f9ace3eec9b168264ce9fe13716b27cc91fc91f702af3aa",
+      "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+      "source_glyph": "uni0411",
+      "source_glyf_sha256": "dc0a7707a0dd19fc44172491c322e2dfbd217ca0ffaef2a3f689dbfb0abadbdd",
+      "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+    },
+    {
+      "character": "Д",
+      "path": "data/codex/uni0414-01.glif",
+      "label": "Наклонная нога, короткие выступы",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 590,
+      "bounds": [
+        16.733333333333334,
+        -110,
+        568,
+        720
+      ],
+      "glif_sha256": "332e257bc37028423156df8985e19be4414297572e8217df852db18457afab8d",
+      "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+      "source_glyph": "uni0414",
+      "source_glyf_sha256": "cc5856cb3821cc10ba35335750880f7609be1db90e2872375f9c325431321cfd",
+      "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+    },
+    {
+      "character": "З",
+      "path": "data/codex/uni0417-01.glif",
+      "label": "Две чаши и капли",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 371,
+      "bounds": [
+        20,
+        -9,
+        341,
+        730
+      ],
+      "glif_sha256": "b01b89516878cb9dffa7084d5d7003cda2b17bdaa641bdaa6009e094d0952e23",
+      "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+      "source_glyph": "uni0417",
+      "source_glyf_sha256": "929c34cdcfdda77be993334966417baf3cf9f3281e5968aaa30979359e8a82bf",
+      "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
     },
     {
       "character": "И",

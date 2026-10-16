@@ -533,6 +533,84 @@
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
+    "Б": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0411-01.glif",
+          "label": "Чаша B, плечо E",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 478,
+          "bounds": [
+            19,
+            0,
+            450,
+            720
+          ],
+          "glif_sha256": "23d8c6081b55fd512f9ace3eec9b168264ce9fe13716b27cc91fc91f702af3aa",
+          "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+          "source_glyph": "uni0411",
+          "source_glyf_sha256": "dc0a7707a0dd19fc44172491c322e2dfbd217ca0ffaef2a3f689dbfb0abadbdd",
+          "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "Д": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0414-01.glif",
+          "label": "Наклонная нога, короткие выступы",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 590,
+          "bounds": [
+            16.733333333333334,
+            -110,
+            568,
+            720
+          ],
+          "glif_sha256": "332e257bc37028423156df8985e19be4414297572e8217df852db18457afab8d",
+          "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+          "source_glyph": "uni0414",
+          "source_glyf_sha256": "cc5856cb3821cc10ba35335750880f7609be1db90e2872375f9c325431321cfd",
+          "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "З": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0417-01.glif",
+          "label": "Две чаши и капли",
+          "variant": "01",
+          "status": "unselected",
+          "advance": 371,
+          "bounds": [
+            20,
+            -9,
+            341,
+            730
+          ],
+          "glif_sha256": "b01b89516878cb9dffa7084d5d7003cda2b17bdaa641bdaa6009e094d0952e23",
+          "source_file": "studies/regular/capitals-bdzei/capitals-shorti01.ttf",
+          "source_glyph": "uni0417",
+          "source_glyf_sha256": "929c34cdcfdda77be993334966417baf3cf9f3281e5968aaa30979359e8a82bf",
+          "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
     "И": {
       "selected": null,
       "shared_with_claude": false,
@@ -640,14 +718,17 @@
   },
   "shared_review": {
     "codex_branch": "codex/cyrillic-studies",
-    "codex_source_commit": "7f3d6f89987cbecd9f18aff85155dc4c1cc08d97",
+    "codex_source_commit": "54e5dcf7f33b210bcb1356fba172a1678653540e",
     "claude_base_commit": "d2cd2ee856a85d99aa4880b8f44b126ee49a1eca",
     "conflicts": [],
     "open_codex_choices": [
       "й",
       "ч",
       "я",
-      "И"
+      "И",
+      "Б",
+      "Д",
+      "З"
     ],
     "selected_ereversed": "02; direct user choice: оставь 02",
     "count_meaning": "Available drawings, including undecided alternatives; not production-ready or approved coverage.",
