@@ -13,7 +13,7 @@ from matplotlib.transforms import Affine2D
 from matplotlib.backends.backend_pdf import PdfPages
 import matplotlib.pyplot as plt
 
-BASE='6ccce10'
+BASE='68fc03e'
 
 def main():
     data=TTF.read_bytes();font=TTFont(TTF);gs=font.getGlyphSet();native=TTFont(REF)
@@ -51,7 +51,7 @@ def main():
         for label,items in [(ch,[(ch+r,shaped(ch+r)) for r in CHARS]) for ch in CHARS]+[
             (n+' / left',[(records[n]['character']+r,fixed(n,f'uni{ord(r):04X}')) for r in CHARS]) for n in alts]+[
             (n+' / right',[(r+records[n]['character'],fixed(f'uni{ord(r):04X}',n)) for r in CHARS]) for n in alts]:
-            fig,ax=canvas(1200,1400);text(ax,30,20,'Very Peri Serif Draft 1.004 · '+label,26)
+            fig,ax=canvas(1200,1400);text(ax,30,20,'Very Peri Serif Draft 1.005 · '+label,26)
             for i,(caption,pair) in enumerate(items):
                 x=30+(i%7)*165;y=155+(i//7)*100
                 draw(ax,pair,x,y,66);text(ax,x,y+18,caption,12,color='#8a8580')
@@ -63,10 +63,10 @@ def main():
                 for i,(_,pair) in enumerate(items):draw(ax,pair,30+(i%7)*165,155+(i//7)*100,66)
                 fig.savefig(f'build/kerning/page-{pages}.png',dpi=100);plt.close(fig)
     # Compact before/after proof, all paths shaped through HarfBuzz.
-    rows=['ТА ТО ГА ГО Га Го Те То','АЛЛА ЛАЛА ЛЛ лл АА АУ','ҚАЗАҚСТАН ҮЛГІ ӨМІР',
+    rows=['КУ УУ УХ ХУ · уу ух ху','АЛЛА ЛАЛА ЛЛ лл АА АУ','ҚАЗАҚСТАН ҮЛГІ ӨМІР',
           'күн гүл үміт ұлт ұлы құс','Съешь ещё мягких булок.','ЦЩҢҚ цщңқ ҢҢ ЦЦ',
           'КНИГА книга нн оо фф','1\u2009000\u202f₸ · № 12 · 500 ₽','ТАТАРСТАН ГАЛАКТИКА']
-    svg=['<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1550" viewBox="0 0 2200 1550">','<rect width="100%" height="100%" fill="#f5f2ec"/>','<text x="35" y="45" font-family="sans-serif" font-size="30">Кернинг: слева 1.003, справа 1.004</text>']
+    svg=['<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1550" viewBox="0 0 2200 1550">','<rect width="100%" height="100%" fill="#f5f2ec"/>','<text x="35" y="45" font-family="sans-serif" font-size="30">Кернинг: слева 1.004, справа 1.005</text>']
     for col in (0,1):
         for i,row in enumerate(rows):
             x=30+1100*col;y=175+150*i;scale=.095
@@ -78,7 +78,7 @@ def main():
     old=base64.b64encode(subprocess.check_output(['git','show',BASE+':dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.woff2'])).decode()
     html='''<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Very Peri Serif · кернинг</title>
 <style>@font-face{font-family:Now;src:url(data:font/woff2;base64,CURRENT)}@font-face{font-family:Before;src:url(data:font/woff2;base64,OLD)}*{box-sizing:border-box}body{margin:0;background:#f5f2ec;color:#272333;font:16px system-ui}header{padding:20px;position:sticky;top:0;background:#f5f2ec;border-bottom:1px solid #ccc;z-index:2}h1{font-size:24px;margin:0 0 12px}label{display:inline-block;margin:6px}select,input,button{font:inherit;padding:6px}main{padding:20px}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px}.cell{border:1px solid #d8d2cc;border-radius:8px;padding:14px;overflow:visible}.now{font-family:Now;font-size:66px;line-height:1.35}.before{font-family:Before;font-size:48px;color:#aaa19b;line-height:1.35}textarea{width:100%;min-height:90px;font:18px system-ui}.sample{font-size:44px;overflow-wrap:anywhere}small{color:#6e6561}section{margin-bottom:25px}</style>
-<header><h1>Кернинг · 1.004 / 1.003</h1><label>Буква <select id="left"></select></label><label>Своя <input id="custom" size="3" maxlength="2"></label><label><select id="direction"><option value="left">Слева</option><option value="right">Справа</option></select></label><label>Сочетания <select id="group"><option value="cyrl">Русские + казахские</option><option value="latin">Латиница</option><option value="digits">Цифры и знаки</option></select></label><label><input type="checkbox" id="kern" checked>kern</label><label><input type="checkbox" id="ss01">ss01</label><label><input type="checkbox" id="ss08">ss08</label><label><input type="checkbox" id="ss09">ss09</label><p><small>Чёрный — новая сборка, серый — предыдущая. calt включён. Оба шрифта встроены: файл работает без сети.</small></p></header>
+<header><h1>Кернинг · 1.005 / 1.004</h1><label>Буква <select id="left"></select></label><label>Своя <input id="custom" size="3" maxlength="2"></label><label><select id="direction"><option value="left">Слева</option><option value="right">Справа</option></select></label><label>Сочетания <select id="group"><option value="cyrl">Русские + казахские</option><option value="latin">Латиница</option><option value="digits">Цифры и знаки</option></select></label><label><input type="checkbox" id="kern" checked>kern</label><label><input type="checkbox" id="ss01">ss01</label><label><input type="checkbox" id="ss08">ss08</label><label><input type="checkbox" id="ss09">ss09</label><p><small>Чёрный — новая сборка, серый — предыдущая. calt включён. Оба шрифта встроены: файл работает без сети.</small></p></header>
 <main><section><textarea id="sample">Қазақ тілі — әдемі тіл. Күн, гүл, үміт; ұлт, ұлы, құс.\nСъешь ещё этих мягких французских булок. 1 000 ₸ · № 12 · 500 ₽</textarea><div class="sample before" id="sampleBefore"></div><div class="sample now" id="sampleNow"></div></section><div id="grid" class="grid"></div></main>
 <script>const alphabet=ALPHABET;const groups={cyrl:alphabet,latin:'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',digits:'0123456789.,:;!?«»“”()[]—–-ʼ‑₸₽₴№'};const el=id=>document.getElementById(id);for(const c of alphabet){const o=document.createElement('option');o.value=c;o.textContent=c;el('left').append(o)}function render(){const c=el('custom').value||el('left').value;const feat=['kern','ss01','ss08','ss09'].map(x=>"'"+x+"' "+(el(x).checked?1:0)).join(',');el('grid').replaceChildren();for(const r of groups[el('group').value]){const p=el('direction').value==='left'?c+r:r+c;const cell=document.createElement('div');cell.className='cell';for(const style of ['before','now']){const d=document.createElement('div');d.className=style;d.textContent=p;d.style.fontFeatureSettings=feat;cell.append(d)}el('grid').append(cell)}for(const id of ['sampleBefore','sampleNow']){el(id).textContent=el('sample').value;el(id).style.fontFeatureSettings=feat}}for(const n of document.querySelectorAll('select,input,textarea'))n.addEventListener('input',render);render();</script></html>'''
     html=html.replace('CURRENT',current).replace('OLD',old).replace('ALPHABET',json.dumps(CHARS,ensure_ascii=False))

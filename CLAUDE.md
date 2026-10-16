@@ -1,3 +1,10 @@
+`[РЕШЕНИЕ · 16.10.2026]` В1.005 усилена защита кернинга: вне зоны
+нижних ножек (y−25…55) требуется8 единиц просвета, даже если донор
+разрешал верхнее слипание. Независимый векторный аудит:
+`tools/contour_contacts.py`. Добавлены18 знаков/пробелов/контролов и
+Latin Ə/ə: `data/typographic-completion/`, `tools/complete_text_symbols.py`.
+Существующие формы и ширины сохранены. См. `docs/regular-polish.md`.
+
 `[РЕШЕНИЕ · 16.10.2026]` В1.004 кернинг переработан попарно по реальным
 краям всех текущих форм: `tools/optical_kerning.py`, `font/kerning-review.json`.
 91 080 геометрических пар; все84×84 буквы и альтернативы проверяются
@@ -16,7 +23,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.004, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.005, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.

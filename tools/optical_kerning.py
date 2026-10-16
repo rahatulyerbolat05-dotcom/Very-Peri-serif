@@ -92,21 +92,26 @@ def refine(font,native,records,native_kern,overrides):
             native_contact=abs(delta)<3 and abs(current_row-donor_row)<=12
             minimum=min(5.,donor_min+base) if native_contact else max(1.,min(5.,donor_min+base))
             final=max(requested,math.ceil(minimum-raw_min))
+            # Body, upper heads and descenders must not fuse, even if the native
+            # donor allowed a serif overlap. Baseline feet retain native contacts.
+            protected=valid&((Y>=55)|(Y<=-25))
+            protected_min=float(gap[protected].min()) if protected.any() else 1000.
+            final=max(final,math.ceil(8-protected_min))
             underlying=nk(a,b)
             additional=int(final-underlying)
-            if abs(additional)<=2 and raw_min+underlying>=minimum:
+            if abs(additional)<=2 and raw_min+underlying>=minimum and protected_min+underlying>=8:
                 additional=0;final=underlying
             if additional:pairs[a,b]=additional
             report.append({'left':a,'right':b,'donors':[da,db],
                 'optical_delta':round(delta,2),'requested':requested,'total':int(final),
                 'additional':additional,'raw_min_gap':raw_min,'minimum_allowed':minimum,
-                'final_min_gap':raw_min+final,'collision_limited':final!=requested})
+                'final_min_gap':raw_min+final,'protected_gap':protected_min+final,'collision_limited':final!=requested})
     summary={'method':'Native-calibrated soft-min edge spacing; 2-unit row profiles; 1000 px/em; native contacts retained only for close optical-gap estimates and matching contact height.',
         'pairs_evaluated':len(report),'nonzero_additional_pairs':len(pairs),
         'collision_limited_pairs':sum(r['collision_limited'] for r in report),
         'visible_glyphs':len(allnames),'added_glyphs_kerned':len(active),
         'native_native_pairs_changed':0,'temperature':55,'optical_delta_limit':90,
-        'minimum_final_gap':min(r['final_min_gap'] for r in report),
+        'minimum_final_gap':min(r['final_min_gap'] for r in report),'minimum_protected_gap':min(r['protected_gap'] for r in report),
         'note':'Geometric refinement plus proof review; not a claim that all pairs were individually hand-tuned.'}
     (BUILD/'pairs.json').write_text(json.dumps(report,ensure_ascii=False,separators=(',',':'))+'\n')
     Path('font/kerning-review.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')

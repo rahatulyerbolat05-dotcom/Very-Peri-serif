@@ -1,13 +1,14 @@
 {
   "method": "Native-calibrated soft-min edge spacing; 2-unit row profiles; 1000 px/em; native contacts retained only for close optical-gap estimates and matching contact height.",
-  "pairs_evaluated": 91080,
-  "nonzero_additional_pairs": 53648,
-  "collision_limited_pairs": 6632,
-  "visible_glyphs": 470,
-  "added_glyphs_kerned": 110,
+  "pairs_evaluated": 101519,
+  "nonzero_additional_pairs": 61555,
+  "collision_limited_pairs": 8972,
+  "visible_glyphs": 481,
+  "added_glyphs_kerned": 121,
   "native_native_pairs_changed": 0,
   "temperature": 55,
   "optical_delta_limit": 90,
-  "minimum_final_gap": -87.0,
+  "minimum_final_gap": -79.0,
+  "minimum_protected_gap": 8.0,
   "note": "Geometric refinement plus proof review; not a claim that all pairs were individually hand-tuned."
 }

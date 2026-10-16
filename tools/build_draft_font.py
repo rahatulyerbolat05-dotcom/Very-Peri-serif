@@ -44,11 +44,14 @@ SYMBOL_DONORS={'₽':'P','₴':'S','№':'N','ʼ':'quoteright','‑':'hyphen','\
 for ch,donor in SYMBOL_DONORS.items():
     SYMBOLS[ch]=f'data/text-symbols/uni{ord(ch):04X}.glif';DONORS[ch]=(donor,donor)
 
+for ch,item in json.loads(Path('data/typographic-completion/manifest.json').read_text()).items():
+    SYMBOLS[ch]=item['path'];DONORS[ch]=(item['donor'],item['donor'])
+
 
 def load(filename):
     meta=SimpleNamespace();p=pathops.Path()
     readGlyphFromString(Path(filename).read_text(),meta,PointToSegmentPen(p.getPen()))
-    return p,round(meta.width)
+    return p,round(getattr(meta,"width",0))
 
 
 def name_for(ch):return f'uni{ord(ch):04X}'
@@ -86,7 +89,7 @@ def extend_anchors(font,records):
     bases=dict(zip(table.BaseCoverage.glyphs,table.BaseArray.BaseRecord))
     original=dict(bases)
     for name,r in records.items():
-        if r['character'] in SYMBOLS and r['character']!='◌':continue
+        if r['character'] in SYMBOLS and r['character'] not in '◌Əə':continue
         donor=r['donors'][0]
         if r['character']=='і':donor='dotlessi'
         if donor not in original:donor='E' if r['character'].isupper() else 'e'
@@ -101,6 +104,8 @@ def extend_anchors(font,records):
                 if anchor:
                     anchor.XCoordinate=285
                     if i in (0,1):anchor.YCoordinate=510
+        if r['character'] in 'Əə':
+            anchors=copy.deepcopy(bases['uni04D8' if r['character']=='Ə' else 'uni04D9'])
         bases[name]=anchors
         font['GDEF'].table.GlyphClassDef.classDefs[name]=1
     order=font.getReverseGlyphMap();names=sorted(bases,key=order.get)
@@ -306,17 +311,17 @@ def main():
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors.',
-            1:'Very Peri Serif Draft',2:'Regular',3:'1.004;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
-            4:'Very Peri Serif Draft Regular',5:'Version 1.004',6:'VeryPeriSerifDraft-Regular'}
+            1:'Very Peri Serif Draft',2:'Regular',3:'1.005;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
+            4:'Very Peri Serif Draft Regular',5:'Version 1.005',6:'VeryPeriSerifDraft-Regular'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
-    font['head'].fontRevision=1.004;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
+    font['head'].fontRevision=1.005;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
     font.save(TTF)
     web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
-    manifest={'family':'Very Peri Serif Draft','version':'1.004','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
+    manifest={'family':'Very Peri Serif Draft','version':'1.005','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
               'tail_feature':'ss09','te_feature':'ss08','default_context':'calt',

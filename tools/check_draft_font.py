@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.004',36)
+    label(55,55,'Very Peri Serif Draft · Regular · 1.005',36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -80,7 +80,9 @@ def main():
     g=font['glyf']['uni20B8']
     expect(g.numberOfContours==2 and (g.yMin,g.yMax)==(0,720),'tenge height and two contours')
     for ch in SYMBOLS:
-        expect(shape(data,font,ch)[0][0]==name_for(ch),'symbol Unicode '+hex(ord(ch)))
+        if ch in '\u200b\u2060\ufeff':
+            expect(font.getBestCmap().get(ord(ch))==name_for(ch) and sum(x[1] for x in shape(data,font,ch))==0,'invisible control '+hex(ord(ch)))
+        else:expect(shape(data,font,ch)[0][0]==name_for(ch),'symbol Unicode '+hex(ord(ch)))
     for ch in '\u2009\u202f':
         name=name_for(ch)
         expect(font['glyf'][name].numberOfContours==0 and font['hmtx'][name][0]==200,'space empty and width '+hex(ord(ch)))
@@ -100,6 +102,17 @@ def main():
         for name,r in manifest['glyph_records'].items():
             if name in oldfont.getGlyphOrder() and r['character'] not in changed:
                 expect(font['glyf'][name].compile(font['glyf'])==oldfont['glyf'][name].compile(oldfont['glyf']),'unmodified installed outline '+name)
+    for text in ['12′ 30″','2020‒2026','10≈9','† ‡','Ə\u0301 ə\u0301','�']:
+        expect(all(r[0]!='.notdef' for r in shape(data,font,text)),'completed typography '+text)
+    completed=json.loads(Path('data/typographic-completion/manifest.json').read_text())
+    for ch,item in completed.items():
+        expect(font['hmtx'][name_for(ch)][0]==round(item['advance']),'completed advance '+hex(ord(ch)))
+        if ch.isspace() or item['advance']==0:
+            expect(font['glyf'][name_for(ch)].numberOfContours==0,'blank space/control '+hex(ord(ch)))
+    for ch,cy in [('Ə','Ә'),('ə','ә')]:
+        latin_mark=shape(data,font,ch+'\u0301')[-1]
+        cy_mark=shape(data,font,cy+'\u0301')[-1]
+        expect(latin_mark==cy_mark,'schwa anchor parity '+ch)
     for left,alternate,members in [
         ('п','uni043F.flag',context['declared_class']['lower']+context['declared_class']['upper']),
         ('к','uni043A.short',context['ka_short']['declared_class']['lower']),

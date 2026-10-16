@@ -1,0 +1,128 @@
+{
+  "‐": {
+    "path": "data/typographic-completion/uni2010.glif",
+    "advance": 430,
+    "donor": "hyphen",
+    "note": "Exact native outline and advance",
+    "sha256": "ec243c8048f1cfe365f1c28e784c8e5fb92589685bb3232cbd83b90ef6c38fa7"
+  },
+  "―": {
+    "path": "data/typographic-completion/uni2015.glif",
+    "advance": 720,
+    "donor": "emdash",
+    "note": "Exact native outline and advance",
+    "sha256": "635ccf8ae514d590e0a082b47b4bc30ac277bee9f174c0da6c5d1aacf7b3fecf"
+  },
+  "‒": {
+    "path": "data/typographic-completion/uni2012.glif",
+    "advance": 460,
+    "donor": "minus",
+    "note": "Centered native minus on the zero advance",
+    "sha256": "ac7ada59a2f41a97e60e76880739e0cf013db8bf1d4a77c7b51ae063964231ca"
+  },
+  " ": {
+    "path": "data/typographic-completion/uni2002.glif",
+    "advance": 500.0,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "7369803469ba4c69c9e4e96ccf21c57a91c14c8217b5ab9ac2b10c4e6ddf9bbc"
+  },
+  " ": {
+    "path": "data/typographic-completion/uni2003.glif",
+    "advance": 1000,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "47af490c4c60525666de5b97c80dabfc6d8b82b270cedfb765dc2a396a146ac0"
+  },
+  " ": {
+    "path": "data/typographic-completion/uni2007.glif",
+    "advance": 460,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "4c156b08ba392e6e3c6e103b8c036493611ef11604d5f1ee452eb3459759a9fc"
+  },
+  " ": {
+    "path": "data/typographic-completion/uni200A.glif",
+    "advance": 100.0,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "a48fb4aa2e46246921193a8b7d97001f8ee94195a1849c72dd87eabba4866f8e"
+  },
+  "​": {
+    "path": "data/typographic-completion/uni200B.glif",
+    "advance": 0,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "39f6e87680ca733c8904fd2482c80f12f0d52d323208a35b4ff5116c1185d59e"
+  },
+  "⁠": {
+    "path": "data/typographic-completion/uni2060.glif",
+    "advance": 0,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "d2fde9836acaa6f3ebccf5f78670ba9a258f7703b76223fa055584ddc166fb78"
+  },
+  "﻿": {
+    "path": "data/typographic-completion/uniFEFF.glif",
+    "advance": 0,
+    "donor": "space",
+    "note": "Unicode spacing control; no ink",
+    "sha256": "650a570459e0e6c0540dd2c6371d476d3dd2706c4a713df45be8e5cd43860e13"
+  },
+  "′": {
+    "path": "data/typographic-completion/uni2032.glif",
+    "advance": 145,
+    "donor": "quotesingle",
+    "note": "New tapered prime; height of superscript punctuation",
+    "sha256": "7edaf070f33704080b90bf4379e53086642998e814d7146939708929e61fe67c"
+  },
+  "″": {
+    "path": "data/typographic-completion/uni2033.glif",
+    "advance": 250,
+    "donor": "quotedbl",
+    "note": "Two native-style tapered prime strokes",
+    "sha256": "0d7168b7b09ab891ba247ab2371e375715f6c1ca0a15ef78d04c5245db3d92fa"
+  },
+  "†": {
+    "path": "data/typographic-completion/uni2020.glif",
+    "advance": 310,
+    "donor": "plus",
+    "note": "Hairline cross using H crossbar weight",
+    "sha256": "3abb35ad17dbec528b9883ea5a4df298a9d317023e457db0327f2b6aca0096da"
+  },
+  "‡": {
+    "path": "data/typographic-completion/uni2021.glif",
+    "advance": 310,
+    "donor": "plus",
+    "note": "Double dagger with matched crossbars",
+    "sha256": "a2469a0cfce7993c5ccd051766186545a97068f62eafd9d070c6def2166dd7a6"
+  },
+  "≈": {
+    "path": "data/typographic-completion/uni2248.glif",
+    "advance": 531,
+    "donor": "asciitilde",
+    "note": "Two original waves without scaling",
+    "sha256": "1740c23c619c8b1faf33645fc2c632b2fada03586edab5e3583eab750779b91b"
+  },
+  "�": {
+    "path": "data/typographic-completion/uniFFFD.glif",
+    "advance": 750,
+    "donor": "question",
+    "note": "Dedicated replacement diamond, not .notdef fallback",
+    "sha256": "e6c3f6cced7b3aab7f08df9ba318d9c3cf59534a0e89391d3f90d2604699d934"
+  },
+  "Ə": {
+    "path": "data/typographic-completion/uni018F.glif",
+    "advance": 540,
+    "donor": "O",
+    "note": "Reviewed Cyrillic schwa outline reused without transformation",
+    "sha256": "182c8004119d394c2c2d5ef435d99fbc4c98049994ade334392536694097c2c0"
+  },
+  "ə": {
+    "path": "data/typographic-completion/uni0259.glif",
+    "advance": 408,
+    "donor": "o",
+    "note": "Reviewed Cyrillic schwa outline reused without transformation",
+    "sha256": "c9b975ef258150791029315941f68707d9900c5d5feb2e81aa9f39f81aeded49"
+  }
+}
