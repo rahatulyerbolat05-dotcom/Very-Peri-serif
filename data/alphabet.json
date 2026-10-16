@@ -1079,8 +1079,11 @@
       "origin": "Claude",
       "provenance": "Claude archive, user supplied",
       "status": "archive proposal; awaiting approval"
-    },
-    "Ң": {
+    }
+  },
+  "pending_user_uploads": {},
+  "rejected_drawings": {
+    "Ң-archive-K2": {
       "selected": null,
       "variants": [
         {
@@ -1105,8 +1108,7 @@
       ],
       "origin": "Claude",
       "provenance": "Claude archive, user supplied",
-      "status": "archive proposal; awaiting approval"
+      "status": "rejected by user: crossed out in supplied image; retained as archive only"
     }
-  },
-  "pending_user_uploads": {}
+  }
 }
