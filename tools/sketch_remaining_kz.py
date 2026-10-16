@@ -152,7 +152,8 @@ def check_ttf(ref, drawings):
     im = Image.new('RGB', (1000, 500), 'white'); d = ImageDraw.Draw(im)
     for j, size in enumerate((100, 24, 12)):
         font = ImageFont.truetype(str(target), size)
-        d.text((30, 30 + j * 150), 'Әә Һ ұ Әә Һ ұ', font=font, fill='black')
+        sample = ' '.join(ch for ch in NAMES if ch in drawings)
+        d.text((30, 30 + j * 150), sample + '  ' + sample, font=font, fill='black')
     im.save(BUILD / 'raster-check.png')
 
 
@@ -162,6 +163,9 @@ def main():
     cfg = json.loads(FilePath('data/alphabet.json').read_text())
     context = json.loads(FilePath('data/context/serif_bl.json').read_text())
     drawings = outlines(ref, params); manifest = {}
+    # Do not reactivate the superseded y-based ұ after its correction.
+    if cfg.get('codex', {}).get('ұ', {}).get('variants', [{}])[0].get('path', '').startswith('data/corrections-tse-ustraight/'):
+        drawings.pop('ұ')
     from check_context_classes import test, test_top
     for ch, (p, advance) in drawings.items():
         p.simplify()

@@ -173,10 +173,6 @@
       "data/homoglyph/Ustraight-cy.glif",
       "латинская Y"
     ],
-    "ү": [
-      "data/homoglyph/ustraight-cy.glif",
-      "латинская y"
-    ],
     "Ө": [
       "data/kz2/O1.glif",
       "O1 (черта 27)"
@@ -215,8 +211,7 @@
     "і",
     "һ",
     "й",
-    "Ү",
-    "ү"
+    "Ү"
   ],
   "codex": {
     "б": {
@@ -979,10 +974,10 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/kz-completion/uni04B1-01.glif",
-          "label": "Основа ү, поперечная черта",
+          "path": "data/corrections-tse-ustraight/uni04B1-01.glif",
+          "label": "Прямой вынос с чертой",
           "variant": "01",
-          "status": "proposal",
+          "status": "corrected proposal",
           "advance": 401,
           "bounds": [
             -14.0,
@@ -990,10 +985,54 @@
             409.0,
             510.0
           ],
-          "glif_sha256": "77e8ab48d9f5e425a18f351c6d782cfc1028dc6bc70befe6152a82d4b69fe94c"
+          "glif_sha256": "e3d60420a13b4851f9ea6d40b783ffaf1c7cba97ca24ad694ed29f941c7327e7"
         }
       ],
-      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
+      "provenance": "Codex; construction corrected at user request"
+    },
+    "Ц": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/corrections-tse-ustraight/uni0426-01.glif",
+          "label": "Две стойки, нижняя связь",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 621,
+          "bounds": [
+            19.0,
+            -215.0,
+            602.0,
+            720.0
+          ],
+          "glif_sha256": "9a0d704bc7156ed3e406e6ad86b2a9cd250b795ec21a9945bf416da3b9e4fc20"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
+    },
+    "ү": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/corrections-tse-ustraight/uni04AF-01.glif",
+          "label": "Прямой нижний вынос",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -205.0,
+            409.0,
+            510.0
+          ],
+          "glif_sha256": "c6e09fbc1e0ab7fef47726fda030331a4aa3ca6c28525dcc3c0ca8fb22b40711"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
     }
   },
   "shared_review": {
@@ -1323,43 +1362,6 @@
       "provenance": "авторский SVG пользователя",
       "status": "source only; metrics provisional"
     },
-    "Ц": {
-      "selected": "primary",
-      "variants": [
-        {
-          "character": "Ц",
-          "role": "primary",
-          "source_name": "ц заглавная.svg",
-          "path": "data/user-2026-10-16/uni0426-primary.glif",
-          "source_sha256": "4fb5e2f517e6cd21d6033fd2c57af28b877b7e78c941735da010c61d5fc75fbf",
-          "glif_sha256": "7c38b353fe2247c98ae5a47d597329ae41a8246440608f80925509623f01c289",
-          "svg_path_count": 1,
-          "exact_duplicate_paths_omitted_in_derivative": 0,
-          "fills": [
-            "#272333"
-          ],
-          "transform": [
-            1.0084033613445378,
-            0,
-            0,
-            -1.0084033613445378,
-            19,
-            720
-          ],
-          "bounds": [
-            19.0,
-            -200.57392819420988,
-            594.3173109243697,
-            720.0
-          ],
-          "advance": 613,
-          "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
-          "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup"
-        }
-      ],
-      "provenance": "авторский SVG пользователя",
-      "status": "user confirmed mapping as Ц; source-only, metrics provisional"
-    },
     "Қ": {
       "selected": "primary",
       "variants": [
@@ -1544,6 +1546,69 @@
       "origin": "Claude",
       "provenance": "Claude archive, user supplied",
       "status": "rejected by user: crossed out in supplied image; retained as archive only"
+    },
+    "Ц-diagonal-author": {
+      "selected": null,
+      "variants": [
+        {
+          "character": "Ц",
+          "role": "primary",
+          "source_name": "ц заглавная.svg",
+          "path": "data/user-2026-10-16/uni0426-primary.glif",
+          "source_sha256": "4fb5e2f517e6cd21d6033fd2c57af28b877b7e78c941735da010c61d5fc75fbf",
+          "glif_sha256": "7c38b353fe2247c98ae5a47d597329ae41a8246440608f80925509623f01c289",
+          "svg_path_count": 1,
+          "exact_duplicate_paths_omitted_in_derivative": 0,
+          "fills": [
+            "#272333"
+          ],
+          "transform": [
+            1.0084033613445378,
+            0,
+            0,
+            -1.0084033613445378,
+            19,
+            720
+          ],
+          "bounds": [
+            19.0,
+            -200.57392819420988,
+            594.3173109243697,
+            720.0
+          ],
+          "advance": 613,
+          "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+          "contours": "original Bezier segments preserved; uniform scale only, no smoothing or outline cleanup"
+        }
+      ],
+      "provenance": "авторский SVG пользователя",
+      "status": "superseded: user rejected diagonal construction; preserve original"
+    },
+    "ү-latin-y": {
+      "path": "data/homoglyph/ustraight-cy.glif",
+      "status": "user rejected ordinary y as lowercase ү"
+    },
+    "ұ-latin-y-base": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/kz-completion/uni04B1-01.glif",
+          "label": "Основа ү, поперечная черта",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -205.0,
+            409.0,
+            510.0
+          ],
+          "glif_sha256": "77e8ab48d9f5e425a18f351c6d782cfc1028dc6bc70befe6152a82d4b69fe94c"
+        }
+      ],
+      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
     }
   }
 }
