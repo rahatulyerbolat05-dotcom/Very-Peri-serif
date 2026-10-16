@@ -164,7 +164,7 @@ def main():
     context = json.loads(FilePath('data/context/serif_bl.json').read_text())
     drawings = outlines(ref, params); manifest = {}
     # Do not reactivate the superseded y-based ұ after its correction.
-    if cfg.get('codex', {}).get('ұ', {}).get('variants', [{}])[0].get('path', '').startswith('data/corrections-tse-ustraight/'):
+    if cfg.get('codex', {}).get('ұ', {}).get('variants', [{}])[0].get('path', '').startswith(('data/corrections-tse-ustraight/', 'data/ustraight-refinement/')):
         drawings.pop('ұ')
     from check_context_classes import test, test_top
     for ch, (p, advance) in drawings.items():

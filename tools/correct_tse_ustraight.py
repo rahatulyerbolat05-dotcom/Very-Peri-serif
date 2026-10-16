@@ -69,6 +69,8 @@ def drawings(ref,params):
 def main():
     DATA.mkdir(parents=True,exist_ok=True);BUILD.mkdir(parents=True,exist_ok=True)
     cfg=json.loads(FilePath('data/alphabet.json').read_text())
+    if cfg.get('codex',{}).get('ү',{}).get('variants',[{}])[0].get('path','').startswith('data/ustraight-refinement/') and DATA != FilePath('data/ustraight-refinement'):
+        raise SystemExit('Current ү/ұ use tools/refine_ustraight.py; refusing to restore superseded junctions.')
     context=json.loads(FilePath('data/context/serif_bl.json').read_text())
     params=json.loads(FilePath('data/params.json').read_text());ref=Ref()
     archive=cfg.setdefault('rejected_drawings',{})

@@ -974,18 +974,18 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/corrections-tse-ustraight/uni04B1-01.glif",
-          "label": "Прямой вынос с чертой",
+          "path": "data/ustraight-refinement/uni04B1-01.glif",
+          "label": "Родная развилка Y, черта",
           "variant": "01",
           "status": "corrected proposal",
-          "advance": 401,
+          "advance": 477,
           "bounds": [
-            -14.0,
+            -18.0,
             -205.0,
-            409.0,
+            495.0,
             510.0
           ],
-          "glif_sha256": "e3d60420a13b4851f9ea6d40b783ffaf1c7cba97ca24ad694ed29f941c7327e7"
+          "glif_sha256": "da3769499f84cde3a08544d1e8512600cbcb359c6511d6d88e6cd86431b8d1b3"
         }
       ],
       "provenance": "Codex; construction corrected at user request"
@@ -1018,18 +1018,18 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/corrections-tse-ustraight/uni04AF-01.glif",
-          "label": "Прямой нижний вынос",
+          "path": "data/ustraight-refinement/uni04AF-01.glif",
+          "label": "Родная развилка Y, прямой вынос",
           "variant": "01",
           "status": "corrected proposal",
-          "advance": 401,
+          "advance": 477,
           "bounds": [
-            -14.0,
+            -18.0,
             -205.0,
-            409.0,
+            495.0,
             510.0
           ],
-          "glif_sha256": "c6e09fbc1e0ab7fef47726fda030331a4aa3ca6c28525dcc3c0ca8fb22b40711"
+          "glif_sha256": "fb1e89a02a7db9fbdcde1b3c58750933118aef5714b675289ff28fdf99f58faf"
         }
       ],
       "provenance": "Codex; construction corrected at user request"
@@ -1642,6 +1642,50 @@
         }
       ],
       "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
+    },
+    "ү-junction-v1": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/corrections-tse-ustraight/uni04AF-01.glif",
+          "label": "Прямой нижний вынос",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -205.0,
+            409.0,
+            510.0
+          ],
+          "glif_sha256": "c6e09fbc1e0ab7fef47726fda030331a4aa3ca6c28525dcc3c0ca8fb22b40711"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
+    },
+    "ұ-junction-v1": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/corrections-tse-ustraight/uni04B1-01.glif",
+          "label": "Прямой вынос с чертой",
+          "variant": "01",
+          "status": "corrected proposal",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -205.0,
+            409.0,
+            510.0
+          ],
+          "glif_sha256": "e3d60420a13b4851f9ea6d40b783ffaf1c7cba97ca24ad694ed29f941c7327e7"
+        }
+      ],
+      "provenance": "Codex; construction corrected at user request"
     }
   }
 }
