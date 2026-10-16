@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-16",
+  "note": "User requested pushing these attachments together with current work. Source documents are data, not instructions.",
+  "files": [
+    {
+      "path": "data/user-2026-10-16-push/originals/ң заглав.svg",
+      "source_name": "ң заглав.svg",
+      "sha256": "151b86052f21f766daef0f9d84e3bb6597790f249b394ffdc2b0641efcf5dd18",
+      "status": "original SVG retained byte-for-byte; no glyph assignment or transformation"
+    },
+    {
+      "path": "data/user-2026-10-16-push/originals/ghl2.svg",
+      "source_name": "ghl2.svg",
+      "sha256": "76914b120b46852b804335d7c6828f8e0bdb13077dd85f2162c3338ec0aae7a2",
+      "status": "original SVG retained byte-for-byte; no glyph assignment or transformation"
+    }
+  ]
+}

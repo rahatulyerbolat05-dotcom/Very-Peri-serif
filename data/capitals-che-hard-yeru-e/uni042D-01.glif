@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ereversed-cy" format="2">
+  <advance width="480"/>
+  <unicode hex="042D"/>
+  <note>
+[РЕШЕНИЕ] Силуэт: правая открытая дуга и средняя горизонталь. Ход: вход слева сверху, дуга вправо вниз, открытый нижний выход слева; горизонталь в чашу. Дуги C задают пропорции и вертикальную ось; оба окончания построены заново. F7: тонкая горизонталь по капительной H (не строчной e). Интервалы предварительные.
+</note>
+  <outline>
+    <contour>
+      <point x="194.0" y="-9.0" type="qcurve" smooth="yes"/>
+      <point x="268.0" y="-9.0"/>
+      <point x="379.0" y="83.0"/>
+      <point x="440.0" y="250.0"/>
+      <point x="440.0" y="364.0" type="qcurve" smooth="yes"/>
+      <point x="440.0" y="474.0"/>
+      <point x="373.0" y="639.0"/>
+      <point x="260.0" y="730.0"/>
+      <point x="191.0" y="730.0" type="qcurve" smooth="yes"/>
+      <point x="145.0" y="730.0"/>
+      <point x="80.0" y="713.0"/>
+      <point x="57.0" y="692.0" type="qcurve" smooth="yes"/>
+      <point x="49.0" y="685.0"/>
+      <point x="52.0" y="671.0" type="qcurve" smooth="yes"/>
+      <point x="65.0" y="606.0" type="line" smooth="yes"/>
+      <point x="66.80000305175781" y="597.0"/>
+      <point x="71.83999633789062" y="594.47998046875" type="qcurve" smooth="yes"/>
+      <point x="75.19999694824219" y="592.7999877929688"/>
+      <point x="80.0" y="594.0" type="qcurve" smooth="yes"/>
+      <point x="90.0" y="597.0"/>
+      <point x="86.0" y="611.0" type="qcurve"/>
+      <point x="81.0" y="636.0"/>
+      <point x="131.0" y="701.0"/>
+      <point x="199.0" y="701.0" type="qcurve" smooth="yes"/>
+      <point x="269.0" y="701.0"/>
+      <point x="315.5" y="614.5" type="qcurve" smooth="yes"/>
+      <point x="357.1742248535156" y="536.9769287109375"/>
+      <point x="361.4991760253906" y="397.20501708984375" type="qcurve"/>
+      <point x="359.3520812988281" y="388.0"/>
+      <point x="348.0" y="388.0" type="qcurve" smooth="yes"/>
+      <point x="115.0" y="388.0" type="line" smooth="yes"/>
+      <point x="100.0" y="388.0"/>
+      <point x="100.0" y="358.0"/>
+      <point x="115.0" y="358.0" type="qcurve" smooth="yes"/>
+      <point x="348.0" y="358.0" type="line" smooth="yes"/>
+      <point x="360.581298828125" y="358.0"/>
+      <point x="361.8562316894531" y="346.69366455078125" type="qcurve"/>
+      <point x="360.16192626953125" y="245.9773406982422"/>
+      <point x="338.5" y="175.0" type="qcurve" smooth="yes"/>
+      <point x="315.0" y="98.0"/>
+      <point x="240.0" y="20.0"/>
+      <point x="198.0" y="20.0" type="qcurve" smooth="yes"/>
+      <point x="145.0" y="20.0"/>
+      <point x="88.0" y="76.0"/>
+      <point x="76.0" y="143.0" type="qcurve" smooth="yes"/>
+      <point x="74.19999694824219" y="152.0"/>
+      <point x="69.16000366210938" y="154.52000427246094" type="qcurve" smooth="yes"/>
+      <point x="65.80000305175781" y="156.1999969482422"/>
+      <point x="61.0" y="155.0" type="qcurve" smooth="yes"/>
+      <point x="56.31999969482422" y="153.8300018310547"/>
+      <point x="54.07360076904297" y="150.8347930908203" type="qcurve" smooth="yes"/>
+      <point x="50.560001373291016" y="146.14999389648438"/>
+      <point x="53.0" y="137.0" type="qcurve"/>
+      <point x="68.0" y="51.0" type="line" smooth="yes"/>
+      <point x="70.0" y="36.0"/>
+      <point x="84.0" y="25.0" type="qcurve" smooth="yes"/>
+      <point x="129.0" y="-9.0"/>
+    </contour>
+  </outline>
+</glyph>

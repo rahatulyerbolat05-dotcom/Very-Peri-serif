@@ -818,6 +818,94 @@
         }
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "Ч": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+          "label": "Поднятая чаша U",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 582,
+          "bounds": [
+            22.0,
+            0.0,
+            563.0,
+            720.0
+          ],
+          "glif_sha256": "c95e01477e5a2b0764938424e715e986a808912b1c83746ec787f2827705d717"
+        }
+      ],
+      "provenance": "Codex; native Instrument Serif donors, no scaling"
+    },
+    "Ъ": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
+          "label": "Чаша Ь, плечо T",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 593,
+          "bounds": [
+            20.764705657958984,
+            0.0,
+            565.0,
+            735.0
+          ],
+          "glif_sha256": "b037ab26695f8c464f596a5e81c899d89f68e7b4b63e3f6128c8218450abdcba"
+        }
+      ],
+      "provenance": "Codex; native Instrument Serif donors, no scaling"
+    },
+    "Ы": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+          "label": "Чаша Ь, отдельная I",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 724,
+          "bounds": [
+            19.0,
+            0.0,
+            705.0,
+            720.0
+          ],
+          "glif_sha256": "2bf703062d1b2cc0b33a95813bd1e2bbf9a7d0e85c108d6a8077b0e94f5bed49"
+        }
+      ],
+      "provenance": "Codex; native Instrument Serif donors, no scaling"
+    },
+    "Э": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/capitals-che-hard-yeru-e/uni042D-01.glif",
+          "label": "Открытые окончания, перекладина H",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 480,
+          "bounds": [
+            51.18181610107422,
+            -9.0,
+            440.0,
+            730.0
+          ],
+          "glif_sha256": "460692d1593baa403516619dc24654fe5b0f6fa4e0750c968019662fc4d59aa0"
+        }
+      ],
+      "provenance": "Codex; native Instrument Serif donors, no scaling"
     }
   },
   "shared_review": {
