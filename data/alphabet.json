@@ -906,6 +906,94 @@
         }
       ],
       "provenance": "Codex; native Instrument Serif donors, no scaling"
+    },
+    "Ә": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/kz-completion/uni04D8-01.glif",
+          "label": "Открытая верхняя дуга",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 540,
+          "bounds": [
+            40.0,
+            -9.000848770141602,
+            500.00006103515625,
+            730.0004272460938
+          ],
+          "glif_sha256": "c76df56be170942768dcc71ea92ae4ef91927d0037c12e0b6e15dfabc3a6846f"
+        }
+      ],
+      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
+    },
+    "ә": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/kz-completion/uni04D9-01.glif",
+          "label": "Открытая верхняя дуга",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 408,
+          "bounds": [
+            23.0,
+            -9.000603675842285,
+            383.00006103515625,
+            516.0003051757812
+          ],
+          "glif_sha256": "503dc251943bf29759b14017256ee50e902953b97b87aeee34d6b08cc6635aa1"
+        }
+      ],
+      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
+    },
+    "Һ": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/kz-completion/uni04BA-01.glif",
+          "label": "Капительная стойка, плечо h",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 485,
+          "bounds": [
+            15.0,
+            0.0,
+            470.0,
+            720.0
+          ],
+          "glif_sha256": "6e0173ad0322a590252677ba891dc3b199be10cfe3cc04a12053785a7eb4c065"
+        }
+      ],
+      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
+    },
+    "ұ": {
+      "selected": null,
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/kz-completion/uni04B1-01.glif",
+          "label": "Основа ү, поперечная черта",
+          "variant": "01",
+          "status": "proposal",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -205.0,
+            409.0,
+            510.0
+          ],
+          "glif_sha256": "77e8ab48d9f5e425a18f351c6d782cfc1028dc6bc70befe6152a82d4b69fe94c"
+        }
+      ],
+      "provenance": "Codex; Instrument Serif metrics and unscaled native donors"
     }
   },
   "shared_review": {
