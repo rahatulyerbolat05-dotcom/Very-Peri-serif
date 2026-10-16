@@ -1356,6 +1356,76 @@
       "origin": "Claude",
       "provenance": "Claude archive, user supplied",
       "status": "archive proposal; awaiting approval"
+    },
+    "ғ": {
+      "selected": "primary",
+      "origin": "user",
+      "variants": [
+        {
+          "character": "ғ",
+          "role": "primary",
+          "path": "data/user-2026-10-16-push/uni0493-primary.glif",
+          "source_name": "ghl2.svg",
+          "transform": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "source_sha256": "76914b120b46852b804335d7c6828f8e0bdb13077dd85f2162c3338ec0aae7a2",
+          "glif_sha256": "a8311754ae2deeb4d4c7e31e6e9073d549bc6fdde467d263b3c7f466f89c8bcf",
+          "advance": 335,
+          "bounds": [
+            15.0,
+            0.0,
+            316.0,
+            516.0
+          ],
+          "status": "user confirmed mapping; metrics provisional",
+          "contours": 1,
+          "simplified_contours_for_diagnostic_only": 1,
+          "note": "[РЕШЕНИЕ] Авторский SVG; кривые сохранены без очистки. Координаты SVG уже в единицах шрифта; масштаб 1. Интервалы предварительные; назначение буквы подтверждено пользователем."
+        }
+      ],
+      "provenance": "авторский SVG пользователя",
+      "status": "user confirmed mapping; source only; not production font"
+    },
+    "Ң": {
+      "selected": "primary",
+      "origin": "user",
+      "variants": [
+        {
+          "character": "Ң",
+          "role": "primary",
+          "path": "data/user-2026-10-16-push/uni04A2-primary.glif",
+          "source_name": "ң заглав.svg",
+          "transform": [
+            1.0084033613445378,
+            0,
+            0,
+            -1.0084033613445378,
+            19,
+            720
+          ],
+          "source_sha256": "151b86052f21f766daef0f9d84e3bb6597790f249b394ffdc2b0641efcf5dd18",
+          "glif_sha256": "f8c153bbf27ebdecffe18ed4dca74fe103e3bb7790317ab42f1442b04e15c7fb",
+          "advance": 614,
+          "bounds": [
+            19.0,
+            -201.1749365975713,
+            594.7196638655462,
+            720.0
+          ],
+          "status": "user confirmed mapping; metrics provisional",
+          "contours": 1,
+          "simplified_contours_for_diagnostic_only": 1,
+          "note": "[РЕШЕНИЕ] Авторский SVG; кривые сохранены без очистки. Корпус SVG 714 равномерно приведён к высоте 720; поле слева 19. Интервалы предварительные; назначение буквы подтверждено пользователем."
+        }
+      ],
+      "provenance": "авторский SVG пользователя",
+      "status": "user confirmed mapping; source only; not production font"
     }
   },
   "pending_user_uploads": {},
