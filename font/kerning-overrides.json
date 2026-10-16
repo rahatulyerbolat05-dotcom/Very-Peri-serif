@@ -1,0 +1,13 @@
+{
+  "note": "Draft optical decisions, not measurements of a finished Cyrillic font. Values are absolute XAdvance adjustments in font units. The builder preserves native Latin kerning, inherits Cyrillic edge-donor pairs and limits collisions using actual outlines. Review after real-world use.",
+  "pairs": {
+    "ТО": -40, "ТА": -50, "ТУ": -25, "ТЛ": -25,
+    "ГА": -60, "ГО": -30, "Го": -55, "Га": -50,
+    "То": -50, "Та": -45, "Те": -40, "Ту": -30,
+    "УА": -60, "УО": -25, "Уа": -45, "Уо": -45,
+    "АУ": -40, "АТ": -40, "ЛТ": -20, "РА": -45,
+    "Ро": -15, "ФА": -15, "ОТ": -20,
+    "го": -12, "га": -12, "гу": -10, "то": -8,
+    "лл": -12, "ЛЛ": -10
+  }
+}

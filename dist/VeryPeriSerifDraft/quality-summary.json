@@ -1,0 +1,27 @@
+{
+  "ttf_sha256": "f066c9016115c00c63590af103d2e6e85c8141d614c9f2d6c44afadc441e2368",
+  "opentype_sanitizer": "PASS",
+  "harfbuzz_checks_passed": 778,
+  "fontbakery_network_checks": "SKIPPED",
+  "fontbakery_native": {
+    "(not finished)": 0,
+    "INFO": 6,
+    "PASS": 111,
+    "SKIP": 111,
+    "WARN": 8
+  },
+  "fontbakery_draft": {
+    "(not finished)": 0,
+    "INFO": 7,
+    "PASS": 109,
+    "SKIP": 111,
+    "WARN": 9
+  },
+  "additional_warning_checks": [
+    "<FontBakeryCheck:outline_colinear_vectors>"
+  ],
+  "hyperglot_base_primary": {
+    "Russian": true,
+    "Kazakh": true
+  }
+}

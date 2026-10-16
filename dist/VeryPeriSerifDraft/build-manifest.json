@@ -1,0 +1,2131 @@
+{
+  "family": "Very Peri Serif Draft",
+  "version": "1.000",
+  "unicode_letters": 84,
+  "glyphs_added": 104,
+  "kerning_pairs_added": 20773,
+  "collision_adjustments": [
+    {
+      "left": "uni0410",
+      "right": "uni0416",
+      "requested": -80,
+      "actual": -79
+    },
+    {
+      "left": "uni0410",
+      "right": "uni042F",
+      "requested": -10,
+      "actual": 17
+    },
+    {
+      "left": "uni0410",
+      "right": "uni043D",
+      "requested": 0,
+      "actual": 5
+    },
+    {
+      "left": "uni0410",
+      "right": "uni044B",
+      "requested": 0,
+      "actual": 17
+    },
+    {
+      "left": "uni0410",
+      "right": "uni044C",
+      "requested": 0,
+      "actual": 17
+    },
+    {
+      "left": "uni0410",
+      "right": "uni04BA",
+      "requested": -10,
+      "actual": -6
+    },
+    {
+      "left": "uni0414",
+      "right": "uni0422",
+      "requested": -42,
+      "actual": -36
+    },
+    {
+      "left": "uni0414",
+      "right": "uni0423",
+      "requested": -68,
+      "actual": 2
+    },
+    {
+      "left": "uni0414",
+      "right": "uni04B0",
+      "requested": -68,
+      "actual": 2
+    },
+    {
+      "left": "uni0414",
+      "right": "uni04AE",
+      "requested": -68,
+      "actual": 2
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0410",
+      "requested": -80,
+      "actual": -79
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0411",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0412",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0413",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0415",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0401",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0416",
+      "requested": -80,
+      "actual": -78
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0418",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0419",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni041A",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni041C",
+      "requested": -33,
+      "actual": -32
+    },
+    {
+      "left": "uni0416",
+      "right": "uni041D",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni041F",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0420",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0425",
+      "requested": -80,
+      "actual": -79
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0426",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0428",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0429",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni042B",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni042C",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni042E",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni042F",
+      "requested": -38,
+      "actual": -10
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0433",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni043C",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni043D",
+      "requested": -28,
+      "actual": -23
+    },
+    {
+      "left": "uni0416",
+      "right": "uni043F",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0442",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0445",
+      "requested": -54,
+      "actual": -53
+    },
+    {
+      "left": "uni0416",
+      "right": "uni044B",
+      "requested": -28,
+      "actual": -11
+    },
+    {
+      "left": "uni0416",
+      "right": "uni044C",
+      "requested": -28,
+      "actual": -11
+    },
+    {
+      "left": "uni0416",
+      "right": "uni044F",
+      "requested": -54,
+      "actual": -51
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0492",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni049A",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni04A2",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni04BA",
+      "requested": -38,
+      "actual": -33
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0406",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0493",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0456",
+      "requested": -52,
+      "actual": -51
+    },
+    {
+      "left": "uni0416",
+      "right": "uni043F.flag",
+      "requested": -36,
+      "actual": -35
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0456.dotless",
+      "requested": -52,
+      "actual": -51
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0429.tail_old",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni049A.tail_old",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni04A2.tail_old",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni0416",
+      "right": "uni0426.tail_old",
+      "requested": -38,
+      "actual": -37
+    },
+    {
+      "left": "uni041A",
+      "right": "uni0416",
+      "requested": -30,
+      "actual": -29
+    },
+    {
+      "left": "uni041A",
+      "right": "uni042F",
+      "requested": -12,
+      "actual": 15
+    },
+    {
+      "left": "uni041A",
+      "right": "uni0437",
+      "requested": -18,
+      "actual": -17
+    },
+    {
+      "left": "uni041A",
+      "right": "uni043D",
+      "requested": 0,
+      "actual": 5
+    },
+    {
+      "left": "uni041A",
+      "right": "uni044B",
+      "requested": 0,
+      "actual": 17
+    },
+    {
+      "left": "uni041A",
+      "right": "uni044C",
+      "requested": 0,
+      "actual": 17
+    },
+    {
+      "left": "uni041A",
+      "right": "uni044F",
+      "requested": -18,
+      "actual": -12
+    },
+    {
+      "left": "uni041A",
+      "right": "uni04BA",
+      "requested": -12,
+      "actual": -8
+    },
+    {
+      "left": "uni041C",
+      "right": "uni0416",
+      "requested": -33,
+      "actual": -32
+    },
+    {
+      "left": "uni041C",
+      "right": "uni042F",
+      "requested": -8,
+      "actual": 0
+    },
+    {
+      "left": "uni0422",
+      "right": "uni0423",
+      "requested": -25,
+      "actual": 0
+    },
+    {
+      "left": "uni0422",
+      "right": "uni0431",
+      "requested": -64,
+      "actual": -49
+    },
+    {
+      "left": "uni0422",
+      "right": "uni0451.ss01",
+      "requested": -64,
+      "actual": -49
+    },
+    {
+      "left": "uni0423",
+      "right": "uni04BA",
+      "requested": -34,
+      "actual": -30
+    },
+    {
+      "left": "uni0423",
+      "right": "uni0451.ss01",
+      "requested": -78,
+      "actual": -63
+    },
+    {
+      "left": "uni0425",
+      "right": "uni0416",
+      "requested": -80,
+      "actual": -79
+    },
+    {
+      "left": "uni0425",
+      "right": "uni042F",
+      "requested": -38,
+      "actual": -11
+    },
+    {
+      "left": "uni0425",
+      "right": "uni043D",
+      "requested": -28,
+      "actual": -23
+    },
+    {
+      "left": "uni0425",
+      "right": "uni044B",
+      "requested": -28,
+      "actual": -11
+    },
+    {
+      "left": "uni0425",
+      "right": "uni044C",
+      "requested": -28,
+      "actual": -11
+    },
+    {
+      "left": "uni0425",
+      "right": "uni044F",
+      "requested": -54,
+      "actual": -51
+    },
+    {
+      "left": "uni0425",
+      "right": "uni04BA",
+      "requested": -38,
+      "actual": -34
+    },
+    {
+      "left": "uni042F",
+      "right": "uni0423",
+      "requested": -28,
+      "actual": -14
+    },
+    {
+      "left": "uni042F",
+      "right": "uni04B0",
+      "requested": -28,
+      "actual": -14
+    },
+    {
+      "left": "uni042F",
+      "right": "uni04AE",
+      "requested": -28,
+      "actual": -14
+    },
+    {
+      "left": "uni0434",
+      "right": "uni0445",
+      "requested": -14,
+      "actual": -13
+    },
+    {
+      "left": "uni0436",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 14
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043D",
+      "requested": -8,
+      "actual": -7
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044B",
+      "requested": -8,
+      "actual": 5
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044C",
+      "requested": -8,
+      "actual": 5
+    },
+    {
+      "left": "uni043A",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 14
+    },
+    {
+      "left": "uni043A",
+      "right": "uni043D",
+      "requested": -12,
+      "actual": -7
+    },
+    {
+      "left": "uni043A",
+      "right": "uni044A",
+      "requested": -16,
+      "actual": -14
+    },
+    {
+      "left": "uni043A",
+      "right": "uni044B",
+      "requested": -12,
+      "actual": 5
+    },
+    {
+      "left": "uni043A",
+      "right": "uni044C",
+      "requested": -12,
+      "actual": 5
+    },
+    {
+      "left": "uni043A",
+      "right": "uni04B1",
+      "requested": -52,
+      "actual": -48
+    },
+    {
+      "left": "uni043A",
+      "right": "uni04AF",
+      "requested": -52,
+      "actual": -48
+    },
+    {
+      "left": "uni043F",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni043F",
+      "right": "uni044B",
+      "requested": -6,
+      "actual": -3
+    },
+    {
+      "left": "uni043F",
+      "right": "uni044C",
+      "requested": -6,
+      "actual": -3
+    },
+    {
+      "left": "uni0443",
+      "right": "uni0433",
+      "requested": -14,
+      "actual": -2
+    },
+    {
+      "left": "uni0443",
+      "right": "uni044A",
+      "requested": -14,
+      "actual": 10
+    },
+    {
+      "left": "uni0443",
+      "right": "uni0493",
+      "requested": -14,
+      "actual": -2
+    },
+    {
+      "left": "uni0443",
+      "right": "uni04B1",
+      "requested": -18,
+      "actual": -14
+    },
+    {
+      "left": "uni0443",
+      "right": "uni04AF",
+      "requested": -18,
+      "actual": -14
+    },
+    {
+      "left": "uni0443",
+      "right": "uni0442.ss08",
+      "requested": -14,
+      "actual": -7
+    },
+    {
+      "left": "uni0443",
+      "right": "uni049B.alternate",
+      "requested": -8,
+      "actual": -3
+    },
+    {
+      "left": "uni0443",
+      "right": "uni049B.alternate.tail_old",
+      "requested": -8,
+      "actual": -3
+    },
+    {
+      "left": "uni0445",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 18
+    },
+    {
+      "left": "uni0445",
+      "right": "uni043D",
+      "requested": -8,
+      "actual": -3
+    },
+    {
+      "left": "uni0445",
+      "right": "uni044A",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni0445",
+      "right": "uni044B",
+      "requested": -8,
+      "actual": 9
+    },
+    {
+      "left": "uni0445",
+      "right": "uni044C",
+      "requested": -8,
+      "actual": 9
+    },
+    {
+      "left": "uni0445",
+      "right": "uni04B1",
+      "requested": -18,
+      "actual": -14
+    },
+    {
+      "left": "uni0445",
+      "right": "uni04AF",
+      "requested": -18,
+      "actual": -14
+    },
+    {
+      "left": "uni04B0",
+      "right": "uni04BA",
+      "requested": -34,
+      "actual": -30
+    },
+    {
+      "left": "uni04B0",
+      "right": "uni0451.ss01",
+      "requested": -78,
+      "actual": -63
+    },
+    {
+      "left": "uni04AE",
+      "right": "uni04BA",
+      "requested": -34,
+      "actual": -30
+    },
+    {
+      "left": "uni04AE",
+      "right": "uni0451.ss01",
+      "requested": -78,
+      "actual": -63
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0431",
+      "requested": -16,
+      "actual": -15
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0433",
+      "requested": -14,
+      "actual": 8
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": -20
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 11
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0439",
+      "requested": 0,
+      "actual": 11
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0443",
+      "requested": -18,
+      "actual": -7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0445",
+      "requested": -24,
+      "actual": -13
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0446",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0447",
+      "requested": 0,
+      "actual": 10
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0448",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0449",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni044A",
+      "requested": -14,
+      "actual": 20
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0493",
+      "requested": -14,
+      "actual": 8
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni04B1",
+      "requested": -18,
+      "actual": -3
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni04AF",
+      "requested": -18,
+      "actual": -3
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0442.ss08",
+      "requested": -14,
+      "actual": 3
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0446.tail_old",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni0449.tail_old",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni049B.alternate",
+      "requested": -8,
+      "actual": 7
+    },
+    {
+      "left": "uni04B1",
+      "right": "uni049B.alternate.tail_old",
+      "requested": -8,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0431",
+      "requested": -16,
+      "actual": -15
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0433",
+      "requested": -14,
+      "actual": 8
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": -20
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 11
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0439",
+      "requested": 0,
+      "actual": 11
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0443",
+      "requested": -18,
+      "actual": -7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0445",
+      "requested": -24,
+      "actual": -13
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0446",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0447",
+      "requested": 0,
+      "actual": 10
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0448",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0449",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni044A",
+      "requested": -14,
+      "actual": 20
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0493",
+      "requested": -14,
+      "actual": 8
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni04B1",
+      "requested": -18,
+      "actual": -3
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni04AF",
+      "requested": -18,
+      "actual": -3
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0442.ss08",
+      "requested": -14,
+      "actual": 3
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0446.tail_old",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni0449.tail_old",
+      "requested": 0,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni049B.alternate",
+      "requested": -8,
+      "actual": 7
+    },
+    {
+      "left": "uni04AF",
+      "right": "uni049B.alternate.tail_old",
+      "requested": -8,
+      "actual": 7
+    },
+    {
+      "left": "uni04BB",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni04BB",
+      "right": "uni044B",
+      "requested": -6,
+      "actual": -3
+    },
+    {
+      "left": "uni04BB",
+      "right": "uni044C",
+      "requested": -6,
+      "actual": -3
+    },
+    {
+      "left": "uni0456",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni043A.short",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni043A.short",
+      "right": "uni044B",
+      "requested": -12,
+      "actual": -6
+    },
+    {
+      "left": "uni043A.short",
+      "right": "uni044C",
+      "requested": -12,
+      "actual": -6
+    },
+    {
+      "left": "uni0442.ss08",
+      "right": "uni0443",
+      "requested": -10,
+      "actual": -1
+    },
+    {
+      "left": "uni0442.ss08",
+      "right": "uni04B1",
+      "requested": -10,
+      "actual": 3
+    },
+    {
+      "left": "uni0442.ss08",
+      "right": "uni04AF",
+      "requested": -10,
+      "actual": 3
+    },
+    {
+      "left": "uni0456.dotless",
+      "right": "uni042F",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "uni049A.tail_old",
+      "right": "uni0443",
+      "requested": -48,
+      "actual": -36
+    }
+  ],
+  "chosen_sources": {
+    "А": "data/A/A.glif",
+    "Б": "data/codex/uni0411-01.glif",
+    "В": "data/homoglyph/Ve-cy.glif",
+    "Г": "data/ge_cap/G1.glif",
+    "Д": "data/codex/uni0414-01.glif",
+    "Е": "data/homoglyph/Ie-cy.glif",
+    "Ё": "data/homoglyph/Io-cy.glif",
+    "Ж": "data/zhe/zhe.glif",
+    "З": "data/codex/uni0417-01.glif",
+    "И": "data/codex/uni0418-01.glif",
+    "Й": "data/codex/uni0419-01.glif",
+    "К": "data/homoglyph/Ka-cy.glif",
+    "Л": "data/el_std/St2.glif",
+    "М": "data/homoglyph/Em-cy.glif",
+    "Н": "data/homoglyph/En-cy.glif",
+    "О": "data/homoglyph/O-cy.glif",
+    "П": "data/pe_cap/P1.glif",
+    "Р": "data/homoglyph/Er-cy.glif",
+    "С": "data/homoglyph/Es-cy.glif",
+    "Т": "data/homoglyph/Te-cy.glif",
+    "У": "data/incoming-caps-2026-10-16/U-cy.glif",
+    "Ф": "data/codex/uni0424-01.glif",
+    "Х": "data/homoglyph/Ha-cy.glif",
+    "Ц": "data/drop-tail-variants/uni0426-primary.glif",
+    "Ч": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+    "Ш": "data/sha_cap/Sh1.glif",
+    "Щ": "data/drop-tail-variants/uni0429-primary.glif",
+    "Ъ": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
+    "Ы": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+    "Ь": "data/codex/uni042C-01.glif",
+    "Э": "data/capitals-che-hard-yeru-e/uni042D-01.glif",
+    "Ю": "data/yu_cap/Yu1.glif",
+    "Я": "data/codex/uni042F-01.glif",
+    "а": "data/homoglyph/a-cy.glif",
+    "б": "data/codex/uni0431-01.glif",
+    "в": "data/codex/uni0432-01.glif",
+    "г": "data/codex/uni0433-02.glif",
+    "д": "data/codex/uni0434-01.glif",
+    "е": "data/homoglyph/ie-cy.glif",
+    "ё": "data/homoglyph/io-cy.glif",
+    "ж": "data/codex/uni0436-cyr11.glif",
+    "з": "data/codex/uni0437-01.glif",
+    "и": "data/codex/uni0438-02.glif",
+    "й": "data/codex/uni0439-01.glif",
+    "к": "data/codex/uni043A-02.glif",
+    "л": "data/el_lower/l1.glif",
+    "м": "data/em/m1.glif",
+    "н": "data/en/n4.glif",
+    "о": "data/homoglyph/o-cy.glif",
+    "п": "data/pe/pe.glif",
+    "р": "data/homoglyph/er-cy.glif",
+    "с": "data/homoglyph/es-cy.glif",
+    "т": "data/codex/uni0442-02.glif",
+    "у": "data/homoglyph/u-cy.glif",
+    "ф": "data/author-curve-fixes/uni0444-primary.glif",
+    "х": "data/homoglyph/ha-cy.glif",
+    "ц": "data/drop-tail-variants/uni0446-primary.glif",
+    "ч": "data/codex/uni0447-01.glif",
+    "ш": "data/sha/R1.glif",
+    "щ": "data/drop-tail-variants/uni0449-primary.glif",
+    "ъ": "data/hard/K2.glif",
+    "ы": "data/yery/Y1.glif",
+    "ь": "data/soft/S3.glif",
+    "э": "data/codex/uni044D-02.glif",
+    "ю": "data/yu/yu1.glif",
+    "я": "data/codex/uni044F-01.glif",
+    "Ә": "data/kz-completion/uni04D8-01.glif",
+    "Ғ": "data/kz2/Gh2.glif",
+    "Қ": "data/drop-tail-variants/uni049A-primary.glif",
+    "Ң": "data/drop-tail-variants/uni04A2-primary.glif",
+    "Ө": "data/kz2/O1.glif",
+    "Ұ": "data/incoming-caps-2026-10-16/Ustraightstroke-cy.glif",
+    "Ү": "data/homoglyph/Ustraight-cy.glif",
+    "Һ": "data/kz-completion/uni04BA-01.glif",
+    "І": "data/homoglyph/I-cy.glif",
+    "ә": "data/kz-completion/uni04D9-01.glif",
+    "ғ": "data/user-2026-10-16-push/uni0493-primary.glif",
+    "қ": "data/drop-tail-variants/uni049B-primary.glif",
+    "ң": "data/drop-tail-variants/uni04A3-primary.glif",
+    "ө": "data/kz2/o1.glif",
+    "ұ": "data/ustraight-refinement/uni04B1-01.glif",
+    "ү": "data/ustraight-refinement/uni04AF-01.glif",
+    "һ": "data/homoglyph/shha-cy.glif",
+    "і": "data/homoglyph/i-cy.glif"
+  },
+  "glyph_records": {
+    "uni0410": {
+      "character": "А",
+      "path": "data/A/A.glif",
+      "advance": 457,
+      "donors": [
+        "A",
+        "A"
+      ],
+      "sha256": "a59819fabfc543edde320188faf7408d683bcf370ebb8682315d6811a1dfce58"
+    },
+    "uni0411": {
+      "character": "Б",
+      "path": "data/codex/uni0411-01.glif",
+      "advance": 478,
+      "donors": [
+        "H",
+        "B"
+      ],
+      "sha256": "23d8c6081b55fd512f9ace3eec9b168264ce9fe13716b27cc91fc91f702af3aa"
+    },
+    "uni0412": {
+      "character": "В",
+      "path": "data/homoglyph/Ve-cy.glif",
+      "advance": 478,
+      "donors": [
+        "B",
+        "B"
+      ],
+      "sha256": "a745ef34f6d4c1e85efe7fd68db5d3424d9a6f909df705aa42811c1027d52034"
+    },
+    "uni0413": {
+      "character": "Г",
+      "path": "data/ge_cap/G1.glif",
+      "advance": 422,
+      "donors": [
+        "F",
+        "F"
+      ],
+      "sha256": "7c4ed5360dc2144b389ac707ef50eb5ea8695b81c23f53feed428e2047f8a256"
+    },
+    "uni0414": {
+      "character": "Д",
+      "path": "data/codex/uni0414-01.glif",
+      "advance": 590,
+      "donors": [
+        "A",
+        "A"
+      ],
+      "sha256": "332e257bc37028423156df8985e19be4414297572e8217df852db18457afab8d"
+    },
+    "uni0415": {
+      "character": "Е",
+      "path": "data/homoglyph/Ie-cy.glif",
+      "advance": 453,
+      "donors": [
+        "E",
+        "E"
+      ],
+      "sha256": "140169edbbdb2cb22b065d8817b34ae04826d5224b54842a6c729f0b92c1e243"
+    },
+    "uni0401": {
+      "character": "Ё",
+      "path": "data/homoglyph/Io-cy.glif",
+      "advance": 453,
+      "donors": [
+        "Edieresis",
+        "Edieresis"
+      ],
+      "sha256": "185e08006fb450cc10b01e8395c25fae4da34002d29e7fca0d08d6e727870264"
+    },
+    "uni0416": {
+      "character": "Ж",
+      "path": "data/zhe/zhe.glif",
+      "advance": 821,
+      "donors": [
+        "X",
+        "X"
+      ],
+      "sha256": "7417ee9172992572cbaefeb1eae4d7d0e5ef17df373fbfa548ae07fffdbed63b"
+    },
+    "uni0417": {
+      "character": "З",
+      "path": "data/codex/uni0417-01.glif",
+      "advance": 371,
+      "donors": [
+        "S",
+        "S"
+      ],
+      "sha256": "b01b89516878cb9dffa7084d5d7003cda2b17bdaa641bdaa6009e094d0952e23"
+    },
+    "uni0418": {
+      "character": "И",
+      "path": "data/codex/uni0418-01.glif",
+      "advance": 546,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "9b9f770152f08bfb8b43631a656c17d8e9ae4ca2be6ec42ebf6d0cf5227bcf67"
+    },
+    "uni0419": {
+      "character": "Й",
+      "path": "data/codex/uni0419-01.glif",
+      "advance": 546,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "716e6e04e5aa4a047f81e1eecc908b3b5b41c4cc55444805869c7dbe9730e985"
+    },
+    "uni041A": {
+      "character": "К",
+      "path": "data/homoglyph/Ka-cy.glif",
+      "advance": 496,
+      "donors": [
+        "K",
+        "K"
+      ],
+      "sha256": "8baa34a106d121f3afe2f0e3fe70bc4e69ae49186b9f52571b4173fa07aab851"
+    },
+    "uni041B": {
+      "character": "Л",
+      "path": "data/el_std/St2.glif",
+      "advance": 466,
+      "donors": [
+        "A",
+        "H"
+      ],
+      "sha256": "f14b7f254da4b109a62a06f67d1b9e87b2562e06247478374936af343275b544"
+    },
+    "uni041C": {
+      "character": "М",
+      "path": "data/homoglyph/Em-cy.glif",
+      "advance": 665,
+      "donors": [
+        "M",
+        "M"
+      ],
+      "sha256": "258c7bfb151bc99cde84b7c389367d63b7178ad63aae6bced8d1405ceebf50ed"
+    },
+    "uni041D": {
+      "character": "Н",
+      "path": "data/homoglyph/En-cy.glif",
+      "advance": 546,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "3c8694a5fb19bf3ca9fefeb44066d6a48a2a51262b8653222137f62e602f7899"
+    },
+    "uni041E": {
+      "character": "О",
+      "path": "data/homoglyph/O-cy.glif",
+      "advance": 540,
+      "donors": [
+        "O",
+        "O"
+      ],
+      "sha256": "f479d8c264e9d940b84fbc2f4e1ed56307f50765c901b4e6e2fd9909c001c63f"
+    },
+    "uni041F": {
+      "character": "П",
+      "path": "data/pe_cap/P1.glif",
+      "advance": 546,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "a2279e5af493918a8e4211798ff19f0fa0879e707039bed5deffa0cf1ca25842"
+    },
+    "uni0420": {
+      "character": "Р",
+      "path": "data/homoglyph/Er-cy.glif",
+      "advance": 466,
+      "donors": [
+        "P",
+        "P"
+      ],
+      "sha256": "c3176a5fc2945c299bb7931a5031227411e40c5282fb40a49d11b96aed6d4334"
+    },
+    "uni0421": {
+      "character": "С",
+      "path": "data/homoglyph/Es-cy.glif",
+      "advance": 480,
+      "donors": [
+        "C",
+        "C"
+      ],
+      "sha256": "fc193b43ddc875913513df6f4e402885c19992b78b682cd3072fc5f8852859cb"
+    },
+    "uni0422": {
+      "character": "Т",
+      "path": "data/homoglyph/Te-cy.glif",
+      "advance": 461,
+      "donors": [
+        "T",
+        "T"
+      ],
+      "sha256": "ce342139b8d36a86140d0c0665a09fa631775f1361ac14ce6fbf0e650483cb26"
+    },
+    "uni0423": {
+      "character": "У",
+      "path": "data/incoming-caps-2026-10-16/U-cy.glif",
+      "advance": 477,
+      "donors": [
+        "Y",
+        "Y"
+      ],
+      "sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1"
+    },
+    "uni0424": {
+      "character": "Ф",
+      "path": "data/codex/uni0424-01.glif",
+      "advance": 650,
+      "donors": [
+        "O",
+        "O"
+      ],
+      "sha256": "835003b4fdbc10a1d9a335b63bdcc60e32fa2a88050edf64e516ee61f8b63d73"
+    },
+    "uni0425": {
+      "character": "Х",
+      "path": "data/homoglyph/Ha-cy.glif",
+      "advance": 546,
+      "donors": [
+        "X",
+        "X"
+      ],
+      "sha256": "ee8992cfeb526ca4cf8b4b125336a18d586d28b878234c4ced3ca9e83665ff3a"
+    },
+    "uni0426": {
+      "character": "Ц",
+      "path": "data/drop-tail-variants/uni0426-primary.glif",
+      "advance": 616,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "8133f2ce797f3da4c0560c9718af10497189d72c7a15629fcaf6f964d86f0231"
+    },
+    "uni0427": {
+      "character": "Ч",
+      "path": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+      "advance": 582,
+      "donors": [
+        "U",
+        "H"
+      ],
+      "sha256": "c95e01477e5a2b0764938424e715e986a808912b1c83746ec787f2827705d717"
+    },
+    "uni0428": {
+      "character": "Ш",
+      "path": "data/sha_cap/Sh1.glif",
+      "advance": 749,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "ed5fb3bc168a4213809ae5f90697474fc325ec0beda04be8b8ca6e9e74d64ea1"
+    },
+    "uni0429": {
+      "character": "Щ",
+      "path": "data/drop-tail-variants/uni0429-primary.glif",
+      "advance": 818,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "00e6054bfac688c0aeabb42f74e66af1f447ab3fd1f7e02d9090df6d979e952c"
+    },
+    "uni042A": {
+      "character": "Ъ",
+      "path": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
+      "advance": 593,
+      "donors": [
+        "T",
+        "B"
+      ],
+      "sha256": "b037ab26695f8c464f596a5e81c899d89f68e7b4b63e3f6128c8218450abdcba"
+    },
+    "uni042B": {
+      "character": "Ы",
+      "path": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+      "advance": 724,
+      "donors": [
+        "B",
+        "I"
+      ],
+      "sha256": "2bf703062d1b2cc0b33a95813bd1e2bbf9a7d0e85c108d6a8077b0e94f5bed49"
+    },
+    "uni042C": {
+      "character": "Ь",
+      "path": "data/codex/uni042C-01.glif",
+      "advance": 478,
+      "donors": [
+        "B",
+        "B"
+      ],
+      "sha256": "93431445124b98a7d2487e8b79098e3ca65e39e31803babc2b46ea68da16b662"
+    },
+    "uni042D": {
+      "character": "Э",
+      "path": "data/capitals-che-hard-yeru-e/uni042D-01.glif",
+      "advance": 480,
+      "donors": [
+        "C",
+        "C"
+      ],
+      "sha256": "460692d1593baa403516619dc24654fe5b0f6fa4e0750c968019662fc4d59aa0"
+    },
+    "uni042E": {
+      "character": "Ю",
+      "path": "data/yu_cap/Yu1.glif",
+      "advance": 715,
+      "donors": [
+        "H",
+        "O"
+      ],
+      "sha256": "0c0bf04a66a95224c36b3826315b4c753fb3a77955c3ce846d3a737c233a2b52"
+    },
+    "uni042F": {
+      "character": "Я",
+      "path": "data/codex/uni042F-01.glif",
+      "advance": 519,
+      "donors": [
+        "R",
+        "R"
+      ],
+      "sha256": "21bd9cd383460b7b4ce15dedffef2bf43bfdc4df682054a745f8d2e68a04bfe1"
+    },
+    "uni0430": {
+      "character": "а",
+      "path": "data/homoglyph/a-cy.glif",
+      "advance": 399,
+      "donors": [
+        "a",
+        "a"
+      ],
+      "sha256": "cb91ecbfcddccba7d8329d5ffbfa454c659deee78d219ffd2dddd26c874640f8"
+    },
+    "uni0431": {
+      "character": "б",
+      "path": "data/codex/uni0431-01.glif",
+      "advance": 408,
+      "donors": [
+        "o",
+        "b"
+      ],
+      "sha256": "761a6e30d070d4ce9f2902d036619fcf71c6a29ed7c3dd32181195eab919d645"
+    },
+    "uni0432": {
+      "character": "в",
+      "path": "data/codex/uni0432-01.glif",
+      "advance": 421,
+      "donors": [
+        "h",
+        "b"
+      ],
+      "sha256": "97b405ec9f22077342a6e32b927b6378da490e9163417ac9fd9b21bf1cae0909"
+    },
+    "uni0433": {
+      "character": "г",
+      "path": "data/codex/uni0433-02.glif",
+      "advance": 335,
+      "donors": [
+        "r",
+        "r"
+      ],
+      "sha256": "7629770f246cf7abc966956ddbc5abf555dace1e925094cd94b51c786369c6d6"
+    },
+    "uni0434": {
+      "character": "д",
+      "path": "data/codex/uni0434-01.glif",
+      "advance": 416,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "9868fedcfd8689628c53eb676d60a111f47454cfd876bd400c4366021e6d8840"
+    },
+    "uni0435": {
+      "character": "е",
+      "path": "data/homoglyph/ie-cy.glif",
+      "advance": 355,
+      "donors": [
+        "e",
+        "e"
+      ],
+      "sha256": "3a38cdccc2af860c1f7281fa5bd6f7c3ba609be14f41bd78a80fd474d542fd2e"
+    },
+    "uni0451": {
+      "character": "ё",
+      "path": "data/homoglyph/io-cy.glif",
+      "advance": 355,
+      "donors": [
+        "edieresis",
+        "edieresis"
+      ],
+      "sha256": "8aa10a2ef24043535be59b538e34341b754d2d6691dba3349f0a527df1723710"
+    },
+    "uni0436": {
+      "character": "ж",
+      "path": "data/codex/uni0436-cyr11.glif",
+      "advance": 552,
+      "donors": [
+        "x",
+        "x"
+      ],
+      "sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6"
+    },
+    "uni0437": {
+      "character": "з",
+      "path": "data/codex/uni0437-01.glif",
+      "advance": 349,
+      "donors": [
+        "c",
+        "s"
+      ],
+      "sha256": "98c61272897a5dce16166ec6e02a661f8d9ae62bd609ebb8b63313a148dbbe81"
+    },
+    "uni0438": {
+      "character": "и",
+      "path": "data/codex/uni0438-02.glif",
+      "advance": 454,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203"
+    },
+    "uni0439": {
+      "character": "й",
+      "path": "data/codex/uni0439-01.glif",
+      "advance": 454,
+      "donors": [
+        "ubreve",
+        "ubreve"
+      ],
+      "sha256": "45fd9e4030194c14a38ff02a0b9b6402be52c4174bcbab3f52f9b160891a7373"
+    },
+    "uni043A": {
+      "character": "к",
+      "path": "data/codex/uni043A-02.glif",
+      "advance": 451,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "85d3706448db20423efab188f1de363cff31ff2db1b084df874c38ab4ad506b3"
+    },
+    "uni043B": {
+      "character": "л",
+      "path": "data/el_lower/l1.glif",
+      "advance": 476,
+      "donors": [
+        "n",
+        "n"
+      ],
+      "sha256": "01708d16479c5686821d36c75c81684bfa3d86ec750ab54370ffe64b53d67997"
+    },
+    "uni043C": {
+      "character": "м",
+      "path": "data/em/m1.glif",
+      "advance": 542,
+      "donors": [
+        "n",
+        "n"
+      ],
+      "sha256": "235b413d99768c6148bee67528e9fd4d1256229ea885de79911243b861913051"
+    },
+    "uni043D": {
+      "character": "н",
+      "path": "data/en/n4.glif",
+      "advance": 466,
+      "donors": [
+        "h",
+        "u"
+      ],
+      "sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633"
+    },
+    "uni043E": {
+      "character": "о",
+      "path": "data/homoglyph/o-cy.glif",
+      "advance": 408,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "d2b9d41fb835b3878a9e693047ce8d6351abff24f3d7d01f474cbfef0f76d6cf"
+    },
+    "uni043F": {
+      "character": "п",
+      "path": "data/pe/pe.glif",
+      "advance": 470,
+      "donors": [
+        "n",
+        "n"
+      ],
+      "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535"
+    },
+    "uni0440": {
+      "character": "р",
+      "path": "data/homoglyph/er-cy.glif",
+      "advance": 444,
+      "donors": [
+        "p",
+        "p"
+      ],
+      "sha256": "570c355e567d3135849d5c51b9528a38041a78694f009535962554eaf5792367"
+    },
+    "uni0441": {
+      "character": "с",
+      "path": "data/homoglyph/es-cy.glif",
+      "advance": 339,
+      "donors": [
+        "c",
+        "c"
+      ],
+      "sha256": "bd2aa41697267274d994a6c59d5e25e5d49ae2f6706ac05c64381a113cb7fbff"
+    },
+    "uni0442": {
+      "character": "т",
+      "path": "data/codex/uni0442-02.glif",
+      "advance": 718,
+      "donors": [
+        "m",
+        "m"
+      ],
+      "sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5"
+    },
+    "uni0443": {
+      "character": "у",
+      "path": "data/homoglyph/u-cy.glif",
+      "advance": 401,
+      "donors": [
+        "y",
+        "y"
+      ],
+      "sha256": "167d17b2830d1554c919a0db1b9451d95250046c86b73700f29ad6ce6c1c9eda"
+    },
+    "uni0444": {
+      "character": "ф",
+      "path": "data/author-curve-fixes/uni0444-primary.glif",
+      "advance": 546,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "2d3f82723108255acc0573d9b5d910332ce4701a37d259adbd424272336f24ef"
+    },
+    "uni0445": {
+      "character": "х",
+      "path": "data/homoglyph/ha-cy.glif",
+      "advance": 385,
+      "donors": [
+        "x",
+        "x"
+      ],
+      "sha256": "0b230150ebe6e2009df184991dc15aa7165cd7533c44275f69bbdd7e1d913e84"
+    },
+    "uni0446": {
+      "character": "ц",
+      "path": "data/drop-tail-variants/uni0446-primary.glif",
+      "advance": 536,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "3c462e96be0a5c09d1144461e63447af85d1126aabe04986fe4c74e69eb6badb"
+    },
+    "uni0447": {
+      "character": "ч",
+      "path": "data/codex/uni0447-01.glif",
+      "advance": 454,
+      "donors": [
+        "u",
+        "h"
+      ],
+      "sha256": "b0154f8402601aa7e0982622f09cd81e3f7b77a4b35cf27a80491776708fa746"
+    },
+    "uni0448": {
+      "character": "ш",
+      "path": "data/sha/R1.glif",
+      "advance": 704,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "85b6e6ede6bee3c309a3c47b6838b31fa1bc3d0233d4fbaec942db805ba1e9d7"
+    },
+    "uni0449": {
+      "character": "щ",
+      "path": "data/drop-tail-variants/uni0449-primary.glif",
+      "advance": 777,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "b71f4950d5e43908153d83b96bcb26ebb04df9f68ae32072c3ece58a96025c66"
+    },
+    "uni044A": {
+      "character": "ъ",
+      "path": "data/hard/K2.glif",
+      "advance": 427,
+      "donors": [
+        "r",
+        "b"
+      ],
+      "sha256": "6ce7d8388b31a3f576c7fef42c86432542e51620c9c6aaed5a033b7f0ec7f861"
+    },
+    "uni044B": {
+      "character": "ы",
+      "path": "data/yery/Y1.glif",
+      "advance": 537,
+      "donors": [
+        "h",
+        "n"
+      ],
+      "sha256": "8f074b7fdab9787fc861ac5a6a91c9caaba9a6be64ab9c9eedeaee306b80d718"
+    },
+    "uni044C": {
+      "character": "ь",
+      "path": "data/soft/S3.glif",
+      "advance": 381,
+      "donors": [
+        "h",
+        "b"
+      ],
+      "sha256": "ce0f318a6a69a729087b48f39b6718dc8f6d54e792a4681c78c50565cb59f245"
+    },
+    "uni044D": {
+      "character": "э",
+      "path": "data/codex/uni044D-02.glif",
+      "advance": 368,
+      "donors": [
+        "c",
+        "c"
+      ],
+      "sha256": "3e3f33d26eac98aa6ca9d521e20e58730cdb756ce17820969f38c3ac435a6f75"
+    },
+    "uni044E": {
+      "character": "ю",
+      "path": "data/yu/yu1.glif",
+      "advance": 587,
+      "donors": [
+        "h",
+        "o"
+      ],
+      "sha256": "9ff8f6516d55bdf71b1c8dfdd65fdd846a196125d8761df7100c5ab94049324f"
+    },
+    "uni044F": {
+      "character": "я",
+      "path": "data/codex/uni044F-01.glif",
+      "advance": 444,
+      "donors": [
+        "o",
+        "n"
+      ],
+      "sha256": "f2f1f43d2a91aca24c272e9d0846a7a4d0d45ef37a89025c6b3c557d95b46846"
+    },
+    "uni04D8": {
+      "character": "Ә",
+      "path": "data/kz-completion/uni04D8-01.glif",
+      "advance": 540,
+      "donors": [
+        "O",
+        "O"
+      ],
+      "sha256": "c76df56be170942768dcc71ea92ae4ef91927d0037c12e0b6e15dfabc3a6846f"
+    },
+    "uni0492": {
+      "character": "Ғ",
+      "path": "data/kz2/Gh2.glif",
+      "advance": 422,
+      "donors": [
+        "F",
+        "F"
+      ],
+      "sha256": "a5253daf4dd3c8a7d385b0ac49b2c7ca697e26b5d72eb5728f81cac23a64eaf9"
+    },
+    "uni049A": {
+      "character": "Қ",
+      "path": "data/drop-tail-variants/uni049A-primary.glif",
+      "advance": 577,
+      "donors": [
+        "K",
+        "K"
+      ],
+      "sha256": "aee8d89d910d194eb1046f80b9a2046fc58972eae214a665fa760369e4b83685"
+    },
+    "uni04A2": {
+      "character": "Ң",
+      "path": "data/drop-tail-variants/uni04A2-primary.glif",
+      "advance": 614,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "5f66b8b14e5024e8c34a6244b97cfb26df42389d58e906a15181b74d3fb998fe"
+    },
+    "uni04E8": {
+      "character": "Ө",
+      "path": "data/kz2/O1.glif",
+      "advance": 540,
+      "donors": [
+        "O",
+        "O"
+      ],
+      "sha256": "acd247a1ec808b2f3cffd90c2f49bca265e22d54607d065eb5bd53400cff3464"
+    },
+    "uni04B0": {
+      "character": "Ұ",
+      "path": "data/incoming-caps-2026-10-16/Ustraightstroke-cy.glif",
+      "advance": 477,
+      "donors": [
+        "Y",
+        "Y"
+      ],
+      "sha256": "085e787d860e4ac2d25e16319a921ea6ac8e440b9c689413b9479c4963708e1f"
+    },
+    "uni04AE": {
+      "character": "Ү",
+      "path": "data/homoglyph/Ustraight-cy.glif",
+      "advance": 477,
+      "donors": [
+        "Y",
+        "Y"
+      ],
+      "sha256": "a17252ec539354b69121202da2101ff430c4e75afeaadcdd09f24fe8569d9d9e"
+    },
+    "uni04BA": {
+      "character": "Һ",
+      "path": "data/kz-completion/uni04BA-01.glif",
+      "advance": 485,
+      "donors": [
+        "H",
+        "h"
+      ],
+      "sha256": "6e0173ad0322a590252677ba891dc3b199be10cfe3cc04a12053785a7eb4c065"
+    },
+    "uni0406": {
+      "character": "І",
+      "path": "data/homoglyph/I-cy.glif",
+      "advance": 249,
+      "donors": [
+        "I",
+        "I"
+      ],
+      "sha256": "4943f927ba01d4950c2167962c74bfc23dcd3fe8f2f9fdb59e221eb88cfbfb12"
+    },
+    "uni04D9": {
+      "character": "ә",
+      "path": "data/kz-completion/uni04D9-01.glif",
+      "advance": 408,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "503dc251943bf29759b14017256ee50e902953b97b87aeee34d6b08cc6635aa1"
+    },
+    "uni0493": {
+      "character": "ғ",
+      "path": "data/user-2026-10-16-push/uni0493-primary.glif",
+      "advance": 335,
+      "donors": [
+        "r",
+        "r"
+      ],
+      "sha256": "a8311754ae2deeb4d4c7e31e6e9073d549bc6fdde467d263b3c7f466f89c8bcf"
+    },
+    "uni049B": {
+      "character": "қ",
+      "path": "data/drop-tail-variants/uni049B-primary.glif",
+      "advance": 509,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "c429fa61d7f6f69e1103df0632a668b68cf7ca97c6e13ba8a0fee2005a9c9b96"
+    },
+    "uni04A3": {
+      "character": "ң",
+      "path": "data/drop-tail-variants/uni04A3-primary.glif",
+      "advance": 550,
+      "donors": [
+        "h",
+        "u"
+      ],
+      "sha256": "f8164b3ec4a0f168e61a456ce99a92221cedd0190b89fb407bc6f849ee30768d"
+    },
+    "uni04E9": {
+      "character": "ө",
+      "path": "data/kz2/o1.glif",
+      "advance": 408,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "fb96daae3c2d2ef5b9ec4c8820b177ddd74e82711c2e7776b3d35e35ff11fdb3"
+    },
+    "uni04B1": {
+      "character": "ұ",
+      "path": "data/ustraight-refinement/uni04B1-01.glif",
+      "advance": 477,
+      "donors": [
+        "y",
+        "y"
+      ],
+      "sha256": "da3769499f84cde3a08544d1e8512600cbcb359c6511d6d88e6cd86431b8d1b3"
+    },
+    "uni04AF": {
+      "character": "ү",
+      "path": "data/ustraight-refinement/uni04AF-01.glif",
+      "advance": 477,
+      "donors": [
+        "y",
+        "y"
+      ],
+      "sha256": "fb1e89a02a7db9fbdcde1b3c58750933118aef5714b675289ff28fdf99f58faf"
+    },
+    "uni04BB": {
+      "character": "һ",
+      "path": "data/homoglyph/shha-cy.glif",
+      "advance": 470,
+      "donors": [
+        "h",
+        "h"
+      ],
+      "sha256": "398b328ebb835944941397a27cf591b2406779409afbb89b15e3e37301fa12e5"
+    },
+    "uni0456": {
+      "character": "і",
+      "path": "data/homoglyph/i-cy.glif",
+      "advance": 223,
+      "donors": [
+        "i",
+        "i"
+      ],
+      "sha256": "021faaa7fda1872f09e77a31109f71900297b1803ad5abcfce0b82fe286dc46e"
+    },
+    "uni043F.flag": {
+      "character": "п",
+      "path": "data/pe/pe_flag.glif",
+      "advance": 470,
+      "donors": [
+        "n",
+        "n"
+      ],
+      "sha256": "a84e0a551404f1baec6e55a6af6a34010d66c1ab6ba1adb34b87d4b7f634cf60"
+    },
+    "uni043A.short": {
+      "character": "к",
+      "path": "data/ka/ka_short.glif",
+      "advance": 462,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "3406ee569fb5e5860ddf97e52e08b6dd4b3f48af23aaa3f9249c55cc1f561c8a"
+    },
+    "uni0442.ss08": {
+      "character": "т",
+      "path": "data/te/t1.glif",
+      "advance": 358,
+      "donors": [
+        "m",
+        "m"
+      ],
+      "sha256": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b"
+    },
+    "uni0430.ss01": {
+      "character": "а",
+      "path": "data/homoglyph/a-cy.ss01.glif",
+      "advance": 389,
+      "donors": [
+        "a",
+        "a"
+      ],
+      "sha256": "7be5e260e59c1d275a48a416fcab5a8f9535c9054bb173d74929bb98f5630465"
+    },
+    "uni0441.ss01": {
+      "character": "с",
+      "path": "data/homoglyph/es-cy.ss01.glif",
+      "advance": 339,
+      "donors": [
+        "c",
+        "c"
+      ],
+      "sha256": "214337d2a6203a9220b9d67b9c8a022658e170664d0cb163f6a4f5af1abbcfab"
+    },
+    "uni0435.ss01": {
+      "character": "е",
+      "path": "data/homoglyph/ie-cy.ss01.glif",
+      "advance": 355,
+      "donors": [
+        "e",
+        "e"
+      ],
+      "sha256": "87d5e57ca04393c3c2e75171690ad045417d85143af5f24953e4a16691f67c7c"
+    },
+    "uni0451.ss01": {
+      "character": "ё",
+      "path": "data/homoglyph/io-cy.ss01.glif",
+      "advance": 355,
+      "donors": [
+        "edieresis",
+        "edieresis"
+      ],
+      "sha256": "773be48b1128ea1b11804adf85d3f1d1e1999851d2987b7f8370c7ff51a2f979"
+    },
+    "uni0456.dotless": {
+      "character": "і",
+      "path": "reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf#dotlessi",
+      "advance": 223,
+      "donors": [
+        "dotlessi",
+        "dotlessi"
+      ],
+      "sha256": "a43eeb584176ab074a9e7b0c6b987934d97ec31b9dfd8273fac85e1650228b1f"
+    },
+    "uni0446.tail_old": {
+      "character": "ц",
+      "path": "data/user-2026-10-16/uni0446-primary.glif",
+      "advance": 536,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "f596e321c2dbab54a36d3a13e8f99b4c2c182f0c19d3424765dbb1b482989240"
+    },
+    "uni04A3.tail_old": {
+      "character": "ң",
+      "path": "data/user-2026-10-16/uni04A3-primary.glif",
+      "advance": 550,
+      "donors": [
+        "h",
+        "u"
+      ],
+      "sha256": "d102d3df82d66df90123c9f1d64beb934a679a063050b15acec513fa8128c6a4"
+    },
+    "uni0449.tail_old": {
+      "character": "щ",
+      "path": "data/author-curve-fixes/uni0449-primary.glif",
+      "advance": 777,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076"
+    },
+    "uni049B.alternate": {
+      "character": "қ",
+      "path": "data/drop-tail-variants/uni049B-alternate.glif",
+      "advance": 510,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "7d3f65f3a04e4bfdd2b60c49cf3aa27de670029a5034c280e65edee3f72c15a8"
+    },
+    "uni049B.context": {
+      "character": "қ",
+      "path": "data/drop-tail-variants/uni049B-context.glif",
+      "advance": 508,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "f7992d8d7244649cac04e8a7634f6825aeaaa275c71042fc473321f823cb7c37"
+    },
+    "uni049B.tail_old": {
+      "character": "қ",
+      "path": "data/author-curve-fixes/uni049B-primary.glif",
+      "advance": 509,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "54803bcc5b1c615564dc8e39c63962da82275d4caacfc6121b7678d0847f3704"
+    },
+    "uni049B.alternate.tail_old": {
+      "character": "қ",
+      "path": "data/author-curve-fixes/uni049B-alternate.glif",
+      "advance": 510,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "b93b4b99fb1057b458f8be4232987726c39045b2a95d65a7fc0426fb4dab8eb8"
+    },
+    "uni049B.context.tail_old": {
+      "character": "қ",
+      "path": "data/author-curve-fixes/uni049B-context.glif",
+      "advance": 508,
+      "donors": [
+        "k",
+        "k"
+      ],
+      "sha256": "0f83ef080fb2ee1f5b0b59789714fa6d1648125bc76b5e81178373e7fc182474"
+    },
+    "uni0429.tail_old": {
+      "character": "Щ",
+      "path": "data/author-curve-fixes/uni0429-primary.glif",
+      "advance": 818,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518"
+    },
+    "uni049A.tail_old": {
+      "character": "Қ",
+      "path": "data/author-curve-fixes/uni049A-primary.glif",
+      "advance": 577,
+      "donors": [
+        "K",
+        "K"
+      ],
+      "sha256": "3bf5ecb5d8cc1ccf40b1d2906903a838b77ab69b470966abdb490680ac6d83df"
+    },
+    "uni04A2.tail_old": {
+      "character": "Ң",
+      "path": "data/user-2026-10-16-push/uni04A2-primary.glif",
+      "advance": 614,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "f8c153bbf27ebdecffe18ed4dca74fe103e3bb7790317ab42f1442b04e15c7fb"
+    },
+    "uni0426.tail_old": {
+      "character": "Ц",
+      "path": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
+      "advance": 616,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "a166553347bc25ea57efb8eb0bea16d4fccc9ff9f4e41d202cf674a2916af7c1"
+    }
+  },
+  "tail_feature": "ss09",
+  "te_feature": "ss08",
+  "default_context": "calt",
+  "note": "Unapproved designs use first currently displayed proposal; draft spacing and kerning."
+}
