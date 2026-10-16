@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.001',36)
+    label(55,55,'Very Peri Serif Draft · Regular · 1.002',36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -52,7 +52,15 @@ def proof(data,font):
     label(1120,1500,'Альтернативная т · ss08');line('текст театр',1120,1620,115,{'ss08':True})
     label(55,1740,'Родные латинские лигатуры / акценты')
     line('office affine final · е́ ё́ Ә́ і́',55,1880,115)
-    label(55,2015,'Черновая сборка: интервалы и кернинг требуют проверки в реальном макете.',28)
+    line('1 000 ₸ · 25 000 ₸ · ₸100',55,1980,80)
+    label(55,2070,'Черновая сборка: интервалы и кернинг требуют проверки в реальном макете.',28)
+    # Standalone outline preview, rendered from the installed font via HarfBuzz.
+    saved=out;out=[saved[0].replace('height="2100"','height="650"').replace('2200 2100','2200 650'),saved[1]]
+    label(55,55,'Тенге · U+20B8 · Very Peri Serif Draft',36)
+    line('₸',110,530,550)
+    line('1 000 ₸',550,285,150)
+    line('25 000 ₸ · ₸100',550,470,130)
+    out.append('</svg>');Path('docs/img/tenge.svg').write_text('\n'.join(out));out=saved
     out.append('</svg>');svg='\n'.join(out)
     (OUT/'proof.svg').write_text(svg);Path('docs/img/draft_font_proof.svg').write_text(svg)
 
@@ -65,6 +73,12 @@ def main():
         assert condition,label;checks.append(label)
     for ch in CHARS:
         expect(shape(data,font,ch)[0][0]==name_for(ch),'Unicode '+ch)
+    for text in ['₸','1 000 ₸','₸100','25 000 ₸']:
+        result=shape(data,font,text)
+        expect(all(r[0]!='.notdef' for r in result),'tenge price coverage '+text)
+        expect(any(r[0]=='uni20B8' for r in result),'tenge Unicode mapping '+text)
+    g=font['glyf']['uni20B8']
+    expect(g.numberOfContours==2 and (g.yMin,g.yMax)==(0,720),'tenge height and two contours')
     for left,alternate,members in [
         ('п','uni043F.flag',context['declared_class']['lower']+context['declared_class']['upper']),
         ('к','uni043A.short',context['ka_short']['declared_class']['lower']),

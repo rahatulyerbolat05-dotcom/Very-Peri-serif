@@ -1,5 +1,5 @@
 {
-  "passed": 778,
+  "passed": 787,
   "failed": 0,
   "checks": [
     "Unicode А",
@@ -86,6 +86,15 @@
     "Unicode ү",
     "Unicode һ",
     "Unicode і",
+    "tenge price coverage ₸",
+    "tenge Unicode mapping ₸",
+    "tenge price coverage 1 000 ₸",
+    "tenge Unicode mapping 1 000 ₸",
+    "tenge price coverage ₸100",
+    "tenge Unicode mapping ₸100",
+    "tenge price coverage 25 000 ₸",
+    "tenge Unicode mapping 25 000 ₸",
+    "tenge height and two contours",
     "calt пА",
     "calt пБ",
     "calt пВ",
@@ -781,6 +790,6 @@
     "complete Russian Kazakh coverage",
     "WOFF2 cmap roundtrip"
   ],
-  "ttf_sha256": "8e4a625066b65bfda7ae8e99dcb9735ddebe5ed61d58988768dc68ea0649f50f",
+  "ttf_sha256": "bcc280d34e64464450e1adc4a41295ddfd5d77c181006f107437c022761f537e",
   "scope": "Real HarfBuzz shaping, substitutions, kerning toggles, marks, original Latin regressions and WOFF2 decoding."
 }

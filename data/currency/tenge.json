@@ -1,0 +1,21 @@
+{
+  "character": "₸",
+  "unicode": "U+20B8",
+  "path": "data/currency/uni20B8.glif",
+  "advance": 461,
+  "bounds": [
+    25.0,
+    0.0,
+    436.0,
+    720.0
+  ],
+  "stem_width": 71,
+  "bar_thickness": 30,
+  "bar_bottoms": [
+    600,
+    690
+  ],
+  "bar_gap": 60,
+  "source": "Instrument Serif Regular T foot; new horizontal bars",
+  "status": "draft design requested by user"
+}

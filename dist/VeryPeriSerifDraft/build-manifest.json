@@ -1,9 +1,12 @@
 {
   "family": "Very Peri Serif Draft",
-  "version": "1.001",
+  "version": "1.002",
   "unicode_letters": 84,
-  "glyphs_added": 104,
-  "kerning_pairs_added": 20773,
+  "unicode_symbols_added": [
+    "₸"
+  ],
+  "glyphs_added": 105,
+  "kerning_pairs_added": 21088,
   "collision_adjustments": [
     {
       "left": "uni0410",
@@ -64,6 +67,12 @@
       "right": "uni04AE",
       "requested": -68,
       "actual": 2
+    },
+    {
+      "left": "uni0414",
+      "right": "uni20B8",
+      "requested": -42,
+      "actual": -41
     },
     {
       "left": "uni0416",
@@ -1080,7 +1089,8 @@
     "ұ": "data/ustraight-refinement/uni04B1-01.glif",
     "ү": "data/ustraight-refinement/uni04AF-01.glif",
     "һ": "data/homoglyph/shha-cy.glif",
-    "і": "data/homoglyph/i-cy.glif"
+    "і": "data/homoglyph/i-cy.glif",
+    "₸": "data/currency/uni20B8.glif"
   },
   "glyph_records": {
     "uni0410": {
@@ -1922,6 +1932,16 @@
         "i"
       ],
       "sha256": "021faaa7fda1872f09e77a31109f71900297b1803ad5abcfce0b82fe286dc46e"
+    },
+    "uni20B8": {
+      "character": "₸",
+      "path": "data/currency/uni20B8.glif",
+      "advance": 461,
+      "donors": [
+        "T",
+        "T"
+      ],
+      "sha256": "094d9f263463294b2cc585fe36ae63155d62e38dd7fda101c5d1f24e699363d1"
     },
     "uni043F.flag": {
       "character": "п",
