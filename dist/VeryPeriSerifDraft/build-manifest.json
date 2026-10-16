@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif Draft",
-  "version": "1.000",
+  "version": "1.001",
   "unicode_letters": 84,
   "glyphs_added": 104,
   "kerning_pairs_added": 20773,
@@ -1321,7 +1321,7 @@
         "H",
         "H"
       ],
-      "sha256": "8133f2ce797f3da4c0560c9718af10497189d72c7a15629fcaf6f964d86f0231"
+      "sha256": "7e065ad937d160e2c1054dab99ba5c28ea9f660bbf96da8f58dcd57628e23bfa"
     },
     "uni0427": {
       "character": "Ч",
@@ -1351,7 +1351,7 @@
         "H",
         "H"
       ],
-      "sha256": "00e6054bfac688c0aeabb42f74e66af1f447ab3fd1f7e02d9090df6d979e952c"
+      "sha256": "58432be530cf509c18a60743f17ef06e85ec419bda2595ed7b85b5848a5ae575"
     },
     "uni042A": {
       "character": "Ъ",
@@ -1651,7 +1651,7 @@
         "u",
         "u"
       ],
-      "sha256": "3c462e96be0a5c09d1144461e63447af85d1126aabe04986fe4c74e69eb6badb"
+      "sha256": "2955c25c820838d79a6c05ad35524b5f59bb39ed9ea49c87799ed1150223fcf7"
     },
     "uni0447": {
       "character": "ч",
@@ -1681,7 +1681,7 @@
         "u",
         "u"
       ],
-      "sha256": "b71f4950d5e43908153d83b96bcb26ebb04df9f68ae32072c3ece58a96025c66"
+      "sha256": "7c5cbd43d93ea037ca8ec7018ef4e274db5a45fb6451eda6bc41bf10d25288ab"
     },
     "uni044A": {
       "character": "ъ",
@@ -1771,7 +1771,7 @@
         "K",
         "K"
       ],
-      "sha256": "aee8d89d910d194eb1046f80b9a2046fc58972eae214a665fa760369e4b83685"
+      "sha256": "3d1b36c5a5c8ba0301ad77fc1177d20fa108ab5ff259c3a185ebc18bc72de695"
     },
     "uni04A2": {
       "character": "Ң",
@@ -1781,7 +1781,7 @@
         "H",
         "H"
       ],
-      "sha256": "5f66b8b14e5024e8c34a6244b97cfb26df42389d58e906a15181b74d3fb998fe"
+      "sha256": "b0620ab49fddde815de7967ea7b9fbb2bb1ec4e2ed342819eec51ec9d7aed9b4"
     },
     "uni04E8": {
       "character": "Ө",
@@ -1861,7 +1861,7 @@
         "k",
         "k"
       ],
-      "sha256": "c429fa61d7f6f69e1103df0632a668b68cf7ca97c6e13ba8a0fee2005a9c9b96"
+      "sha256": "ef55d54789df773e068194b7419906d7ba531fc297bfa7e43ff0b3dbf6f3f619"
     },
     "uni04A3": {
       "character": "ң",
@@ -1871,7 +1871,7 @@
         "h",
         "u"
       ],
-      "sha256": "f8164b3ec4a0f168e61a456ce99a92221cedd0190b89fb407bc6f849ee30768d"
+      "sha256": "c972300149b701a9296ef72a3f22d64ef83a67c59a32d2b8594df35e19c81d17"
     },
     "uni04E9": {
       "character": "ө",
@@ -2041,7 +2041,7 @@
         "k",
         "k"
       ],
-      "sha256": "7d3f65f3a04e4bfdd2b60c49cf3aa27de670029a5034c280e65edee3f72c15a8"
+      "sha256": "d67669a219c0bb53cd715b35a48ad07dae6c80376d9f803f2cae43b4cdd46b7d"
     },
     "uni049B.context": {
       "character": "қ",
@@ -2051,7 +2051,7 @@
         "k",
         "k"
       ],
-      "sha256": "f7992d8d7244649cac04e8a7634f6825aeaaa275c71042fc473321f823cb7c37"
+      "sha256": "8af0f5cf99f4fb6539abce59fc14a5b600aeb5b65270b0f8bc5d929aac2de261"
     },
     "uni049B.tail_old": {
       "character": "қ",

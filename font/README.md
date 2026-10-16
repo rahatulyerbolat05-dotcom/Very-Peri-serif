@@ -1,6 +1,6 @@
 # Very Peri Serif Draft — рабочая черновая сборка
 
-Regular, версия1.000. Семейство в меню: **Very Peri Serif Draft**.
+Regular, версия1.001. Семейство в меню: **Very Peri Serif Draft**.
 Это отдельное имя, поэтому оно не заменяет установленный Instrument Serif.
 
 ## Установка

@@ -4,6 +4,21 @@
     "role": "primary",
     "source": "data/user-2026-10-16/uni0446-primary.glif",
     "path": "data/drop-tail-variants/uni0446-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 1.0,
+    "svg_transform": [
+      1.0,
+      0,
+      0,
+      -1.0,
+      -226.43600000000004,
+      508.999
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 1.1368683772161603e-13,
     "bounds_before": [
       15.0,
       -200.38548278808594,
@@ -12,13 +27,21 @@
     ],
     "bounds_after": [
       15.0,
-      -129.57603454589844,
-      441.3403015136719,
+      -130.00100708007812,
+      443.5639953613281,
       510.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 536.0,
     "tangent_candidates": [
+      {
+        "xy": [
+          413.332,
+          -57.537
+        ],
+        "angle": 5.63,
+        "contour": 1
+      },
       {
         "xy": [
           406.445,
@@ -34,6 +57,21 @@
     "role": "primary",
     "source": "data/author-curve-fixes/uni0449-primary.glif",
     "path": "data/drop-tail-variants/uni0449-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 1.0000010060012738,
+    "svg_transform": [
+      1.0000010060012738,
+      0,
+      0,
+      -1.0000010060012738,
+      14.999430861397741,
+      510.0005165898134
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.735265929857238e-10,
     "bounds_before": [
       15.0,
       -199.38397216796875,
@@ -42,19 +80,43 @@
     ],
     "bounds_after": [
       15.0,
-      -129.57615661621094,
-      682.7764282226562,
+      -129.0001220703125,
+      685.0001220703125,
       510.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 777.0,
-    "tangent_candidates": []
+    "tangent_candidates": [
+      {
+        "xy": [
+          654.768074469,
+          -56.5360533461
+        ],
+        "angle": 5.63,
+        "contour": 1
+      }
+    ]
   },
   {
     "character": "қ",
     "role": "primary",
     "source": "data/author-curve-fixes/uni049B-primary.glif",
     "path": "data/drop-tail-variants/uni049B-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9716761135481048,
+    "svg_transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -236.35731772408508,
+      495.5329784406649
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 6.254111190517971e-10,
     "bounds_before": [
       15.0,
       -199.3095703125,
@@ -63,7 +125,7 @@
     ],
     "bounds_after": [
       15.0,
-      -125.90594482421875,
+      -125.36805725097656,
       441.02099609375,
       513.0
     ],
@@ -77,6 +139,14 @@
         ],
         "angle": 17.79,
         "contour": 1
+      },
+      {
+        "xy": [
+          385.289966088,
+          -54.9565202244
+        ],
+        "angle": 5.63,
+        "contour": 1
       }
     ]
   },
@@ -85,6 +155,21 @@
     "role": "alternate",
     "source": "data/author-curve-fixes/uni049B-alternate.glif",
     "path": "data/drop-tail-variants/uni049B-alternate.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9716761135481048,
+    "svg_transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -236.12831381783508,
+      495.53397860660425
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.713031773143844e-10,
     "bounds_before": [
       15.0,
       -199.3084716796875,
@@ -93,19 +178,43 @@
     ],
     "bounds_after": [
       15.0,
-      -125.90594482421875,
+      -125.36705780029297,
       442.0,
       510.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 510.0,
-    "tangent_candidates": []
+    "tangent_candidates": [
+      {
+        "xy": [
+          385.518969995,
+          -54.9555200585
+        ],
+        "angle": 5.63,
+        "contour": 1
+      }
+    ]
   },
   {
     "character": "қ",
     "role": "context",
     "source": "data/author-curve-fixes/uni049B-context.glif",
     "path": "data/drop-tail-variants/uni049B-context.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9716761135481048,
+    "svg_transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -238.12831381783508,
+      495.70897855892053
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.693556652568976e-10,
     "bounds_before": [
       15.0,
       -199.132568359375,
@@ -114,8 +223,8 @@
     ],
     "bounds_after": [
       15.0,
-      -125.90594482421875,
-      412.6650085449219,
+      -125.19205474853516,
+      412.8946838378906,
       510.0
     ],
     "body_difference_area_above_baseline": 0.0,
@@ -128,6 +237,14 @@
         ],
         "angle": 17.77,
         "contour": 1
+      },
+      {
+        "xy": [
+          383.518969995,
+          -54.7805201062
+        ],
+        "angle": 5.63,
+        "contour": 1
       }
     ]
   },
@@ -136,6 +253,21 @@
     "role": "primary",
     "source": "data/user-2026-10-16/uni04A3-primary.glif",
     "path": "data/drop-tail-variants/uni04A3-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9949034916504009,
+    "svg_transform": [
+      0.9949034916504009,
+      0,
+      0,
+      -0.9949034916504009,
+      -209.00336814140087,
+      507.38235577965725
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 6.549674775750235e-10,
     "bounds_before": [
       15.0,
       -199.38497924804688,
@@ -144,13 +276,21 @@
     ],
     "bounds_after": [
       15.0,
-      -128.9156494140625,
-      455.43798828125,
+      -128.36097717285156,
+      457.58197021484375,
       513.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 550.0,
     "tangent_candidates": [
+      {
+        "xy": [
+          427.504048905,
+          -56.266288766
+        ],
+        "angle": 5.63,
+        "contour": 1
+      },
       {
         "xy": [
           420.883,
@@ -166,6 +306,21 @@
     "role": "primary",
     "source": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
     "path": "data/drop-tail-variants/uni0426-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 1.0081846661891825,
+    "svg_transform": [
+      1.0081846661891825,
+      0,
+      0,
+      -1.0081846661891825,
+      -156.81267447772882,
+      513.6571295167385
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.639617812348177e-10,
     "bounds_before": [
       19.0,
       -201.5763702392578,
@@ -174,13 +329,21 @@
     ],
     "bounds_after": [
       19.0,
-      -130.63656616210938,
+      -130.5728759765625,
       527.2352905273438,
       720.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 616.0,
     "tangent_candidates": [
+      {
+        "xy": [
+          488.191613041,
+          -57.5157785274
+        ],
+        "angle": 5.63,
+        "contour": 1
+      },
       {
         "xy": [
           481.2581512605042,
@@ -212,6 +375,21 @@
     "role": "primary",
     "source": "data/author-curve-fixes/uni0429-primary.glif",
     "path": "data/drop-tail-variants/uni0429-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9989338611176412,
+    "svg_transform": [
+      0.9989338611176412,
+      0,
+      0,
+      -0.9989338611176412,
+      50.697917803426094,
+      509.8595232008221
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.718593723934654e-10,
     "bounds_before": [
       19.0,
       -200.62342834472656,
@@ -220,19 +398,43 @@
     ],
     "bounds_after": [
       19.0,
-      -129.43788146972656,
+      -128.45921325683594,
       728.9159545898438,
       720.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 818.0,
-    "tangent_candidates": []
+    "tangent_candidates": [
+      {
+        "xy": [
+          689.783836263,
+          -56.0724707413
+        ],
+        "angle": 5.63,
+        "contour": 1
+      }
+    ]
   },
   {
     "character": "Қ",
     "role": "primary",
     "source": "data/author-curve-fixes/uni049A-primary.glif",
     "path": "data/drop-tail-variants/uni049A-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 0.9798417740550998,
+    "svg_transform": [
+      0.9798417740550998,
+      0,
+      0,
+      -0.9798417740550998,
+      -178.7776397325356,
+      499.2737535414944
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.312808352513794e-10,
     "bounds_before": [
       19.0,
       -201.40737915039062,
@@ -241,19 +443,43 @@
     ],
     "bounds_after": [
       19.0,
-      -126.9640121459961,
+      -126.84513854980469,
       497.1374816894531,
       720.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 577.0,
-    "tangent_candidates": []
+    "tangent_candidates": [
+      {
+        "xy": [
+          448.093772371,
+          -55.8418857646
+        ],
+        "angle": 5.63,
+        "contour": 1
+      }
+    ]
   },
   {
     "character": "Ң",
     "role": "primary",
     "source": "data/user-2026-10-16-push/uni04A2-primary.glif",
     "path": "data/drop-tail-variants/uni04A2-primary.glif",
+    "vector_source": "data/tail-vector-2026-10-16/author-example.svg",
+    "vector_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "svg_uniform_scale": 1.0251335407292386,
+    "svg_transform": [
+      1.0251335407292386,
+      0,
+      0,
+      -1.0251335407292386,
+      -168.8670411092216,
+      522.7603482720347
+    ],
+    "exact_cubic_segments": 7,
+    "entry_adapter_cubic_segments": 1,
+    "exact_coordinate_error_before_serialization": 0.0,
+    "coordinate_serialization_error": 5.464785361427223e-10,
     "bounds_before": [
       19.0,
       -201.17494201660156,
@@ -262,13 +488,21 @@
     ],
     "bounds_after": [
       19.0,
-      -132.83273315429688,
+      -132.29998779296875,
       527.2352905273438,
       720.0
     ],
     "body_difference_area_above_baseline": 0.0,
     "width_preserved": 614.0,
     "tangent_candidates": [
+      {
+        "xy": [
+          486.980593976,
+          -58.0147073585
+        ],
+        "angle": 5.63,
+        "contour": 1
+      },
       {
         "xy": [
           479.1626890756302,

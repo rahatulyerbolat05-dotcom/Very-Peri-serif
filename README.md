@@ -1,7 +1,7 @@
 # Very Peri Serif
 
 Кириллическое расширение Instrument Serif: русский и казахский,
-Regular. Текущая сборка — **Very Peri Serif Draft**, версия1.000.
+Regular. Текущая сборка — **Very Peri Serif Draft**, версия1.001.
 
 - [Устанавливаемый TTF](dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf)
 - [Архив TTF + WOFF2 + лицензия и примеры](dist/VeryPeriSerifDraft-Regular.zip)

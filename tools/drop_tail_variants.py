@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """[РЕШЕНИЕ] Teardrop tails from the user's reference; old tails retained.
 
-Run from repository root. Only the below-baseline tail interval is redrawn.
+Run from repository root. Exact SVG curves are retained; only the entry curve adapts to each body.
 The old primary/alternate/context GLIFs are referenced as tail alternatives.
 """
 import copy
@@ -22,6 +22,22 @@ from audit_author_glyphs import inspect,rectangle
 DATA=Path('data/drop-tail-variants')
 BUILD=Path('build/drop-tail-variants')
 CHARS='цщқңЦЩҚҢ'
+VECTOR=Path('data/tail-vector-2026-10-16/author-example.svg')
+
+def vector_tail():
+    from fontTools.svgLib.path import parse_path
+    from fontTools.pens.recordingPen import RecordingPen
+    root=ET.parse(VECTOR).getroot()
+    black=next(p for p in root if p.get('fill')=='black')
+    pen=RecordingPen();parse_path(black.get('d'),pen)
+    # Exact author endpoints delimit the lower tail, excluding the body.
+    a=(541.475,534.523);b=(587.585,513.419)
+    start=next(i for i,(_,pts) in enumerate(pen.value) if pts and pts[-1]==a)
+    end=next(i for i,(_,pts) in enumerate(pen.value) if pts and pts[-1]==b)
+    curves=pen.value[start+1:end+1]
+    assert len(curves)==8 and all(op=='curveTo' for op,_ in curves)
+    return a,b,[pts for _,pts in curves]
+
 
 
 def xy(p):return float(p.get('x')),float(p.get('y'))
@@ -47,14 +63,18 @@ def transform(ch,item):
         incoming=unit((ax-xy(pts[i-1])[0],ay-xy(pts[i-1])[1]))
         outgoing=unit((xy(pts[j+1])[0]-bx,xy(pts[j+1])[1]-by))
         assert incoming[1]<0 and outgoing[1]>0
-        # [РЕШЕНИЕ] Reference proportions: rounded terminal, about130 deep.
-        # Scale the module by the existing tail neck, not by the Latin body.
-        s=(bx-ax)/46
-        d=(ax+65*s,-126*s);e=(ax+126*s,-95*s);f=(ax+85*s,-52*s)
-        segments=[((ax+incoming[0]*35*s,ay+incoming[1]*35*s),(ax+30*s,-112*s),d),
-                  ((ax+89.5*s,-135.8*s),(ax+126*s,-123*s),e),
-                  ((ax+126*s,-70*s),(ax+110*s,-52*s),f),
-                  ((ax+58*s,-52*s),(bx-outgoing[0]*27*s,by-outgoing[1]*27*s),(bx,by))]
+        # [ИЗМЕРЕНО] Parse author cubic coordinates without tracing/fitting.
+        va,vb,curves=vector_tail()
+        s=(bx-ax)/(vb[0]-va[0])
+        def mapped(p):return bx+(p[0]-vb[0])*s,by-(p[1]-vb[1])*s
+        segments=[tuple(mapped(p) for p in curve) for curve in curves]
+        # All coordinates except the first entry control are exact translated,
+        # uniformly scaled SVG coordinates. Match the existing body tangent.
+        entry_length=math.dist(curves[0][0],va)*s
+        entry=(ax+incoming[0]*entry_length,ay+incoming[1]*entry_length)
+        segments[0]=(entry,segments[0][1],segments[0][2])
+        exact_error=max(math.dist(p,mapped(q)) for seg,src in zip(segments[1:],curves[1:]) for p,q in zip(seg,src))
+        assert exact_error==0
         for node in pts[i+1:j+1]:contour.remove(node)
         insertion=i+1
         for c1,c2,end in segments:
@@ -66,9 +86,14 @@ def transform(ch,item):
     assert changed,'No author tail interval found'
     note=root.find('note')
     if note is None:note=ET.SubElement(root,'note')
-    note.text='[РЕШЕНИЕ · 16.10.2026] Основной хвост заменён каплевидным по изображению пользователя. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: '+str(source)+'. Кривые окончания — новое предложение; финальные интервалы открыты.'
+    note.text='[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: '+str(source)+'. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.'
     filename=DATA/f'uni{ord(ch):04X}-{item["role"]}.glif'
     ET.indent(root,space='  ');ET.ElementTree(root).write(filename,encoding='utf-8',xml_declaration=True)
+    saved=ET.parse(filename).getroot().find('outline').findall('contour')[list(outline).index(contour)]
+    written=[xy(p) for p in list(saved)[i+1:i+1+3*len(segments)]]
+    expected=[p for segment in segments for p in segment]
+    serialization_error=max(math.dist(a,b) for a,b in zip(written,expected))
+    assert len(written)==len(expected) and serialization_error<1e-8
     current=path_from(root)
     # Exact geometric preservation above baseline; no debris or holes added.
     difference=pathops.op(original,current,pathops.PathOp.XOR)
@@ -84,6 +109,11 @@ def transform(ch,item):
     assert all(r['simple_approx'] for r in audit['ring_diagnostics'])
     assert audit['open_contours']==0 and audit['matches_registered_hash']
     return result,{'character':ch,'role':item['role'],'source':str(source),'path':str(filename),
+                   'vector_source':str(VECTOR),'vector_sha256':hashlib.sha256(VECTOR.read_bytes()).hexdigest(),
+                   'svg_uniform_scale':s,'svg_transform':[s,0,0,-s,bx-vb[0]*s,by+vb[1]*s],
+                   'exact_cubic_segments':len(curves)-1,'entry_adapter_cubic_segments':1,
+                   'exact_coordinate_error_before_serialization':exact_error,
+                   'coordinate_serialization_error':serialization_error,
                    'bounds_before':list(original.bounds),'bounds_after':list(current.bounds),
                    'body_difference_area_above_baseline':above.area,
                    'width_preserved':float(root.find('advance').get('width')),
@@ -118,7 +148,7 @@ def main():
             new,record=transform(ch,old);entry['variants'].append(new);manifest.append(record)
         entry['tail_style']='drop';entry['status']='author body; drop tail primary, previous tail alternative'
     cfg['tail_styles']={'active':'drop','alternative':'previous',
-        'characters':list(CHARS),'note':'Previous locally repaired tails retained per glyph in tail_alternatives; OpenType stylistic-set number not assigned.'}
+        'characters':list(CHARS),'note':'Exact author SVG drop tails; previous locally repaired tails retained in tail_alternatives and enabled with ss09.'}
     context=json.loads(Path('data/context/serif_bl.json').read_text())
     from check_context_classes import load,test,test_top
     for ch in CHARS:
@@ -129,7 +159,7 @@ def main():
             if ch in members:members.remove(ch)
             if ch in outside:outside.remove(ch)
             (members if inside else outside).append(ch)
-    event='16.10.2026: по изображению пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives.'
+    event='16.10.2026: по точному SVG пользователя каплевидные хвосты сделаны основными у ц щ қ ң Ц Щ Қ Ң; прежние исправленные хвосты сохранены в tail_alternatives.'
     if event not in context['history']:context['history'].append(event)
     for target,data in [(Path('data/alphabet.json'),cfg),(Path('data/context/serif_bl.json'),context),(DATA/'manifest.json',manifest)]:
         target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
