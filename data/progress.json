@@ -1073,12 +1073,14 @@
     "manifest": "data/incoming-caps-2026-10-16/manifest.json",
     "archive_proposals": [
       "У",
-      "Ұ",
-      "Ң"
+      "Ұ"
     ],
     "user_form": [
       "Қ"
     ],
-    "status": "source only"
+    "status": "source only",
+    "rejected": [
+      "Ң: archive K2 tail"
+    ]
   }
 }

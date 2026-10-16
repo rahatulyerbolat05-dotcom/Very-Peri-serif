@@ -48,13 +48,13 @@
       "remaining": 11
     },
     "kazakh_additional": {
-      "available": 13,
+      "available": 12,
       "total": 18,
-      "uppercase_available": 7,
+      "uppercase_available": 6,
       "uppercase_total": 9,
       "lowercase_available": 6,
       "lowercase_total": 9,
-      "remaining": 5
+      "remaining": 6
     }
   },
   "codex_compiled_letters": [
@@ -174,7 +174,6 @@
       "І",
       "Ғ",
       "Қ",
-      "Ң",
       "Ү",
       "Ұ",
       "Ө"
@@ -204,8 +203,9 @@
     ],
     "russian_lowercase": [],
     "kazakh_uppercase": [
-      "Ә",
-      "Һ"
+      "Ң",
+      "Һ",
+      "Ә"
     ],
     "kazakh_lowercase": [
       "ә",
@@ -955,7 +955,7 @@
   "latest_source_counts": {
     "russian": 55,
     "russian_lowercase": 33,
-    "kazakh": 13,
+    "kazakh": 12,
     "remaining_russian_lowercase": [],
     "note": "ч/я are new unapproved proposals; 21 Cyrillic codepoints compiled in che-ya trials, user SVGs source-only."
   },
@@ -964,8 +964,10 @@
     "manifest": "data/incoming-caps-2026-10-16/manifest.json",
     "unapproved": [
       "У",
-      "Ұ",
-      "Ң"
+      "Ұ"
+    ],
+    "rejected": [
+      "Ң: archive K2 tail"
     ]
   }
 }

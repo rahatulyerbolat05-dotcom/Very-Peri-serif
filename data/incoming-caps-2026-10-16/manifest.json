@@ -75,7 +75,7 @@
       "source_name": "missing_caps.svg",
       "origin": "Claude archive, user supplied",
       "path": "data/incoming-caps-2026-10-16/uni04A2-proof.glif",
-      "status": "proposal extracted from third glyph group; awaiting approval",
+      "status": "rejected by user on 2026-10-16 via crossed-out image; archive only, excluded from current alphabet",
       "metrics_status": "SVG provides no advance; provisional right margin19",
       "source_group_transform_ignored": "translate(791.5 546.4) scale(0.620 -0.620)",
       "glif_sha256": "ed1101641f2e8ea158c026d4bb8af435de3c49c6f921cd465b2c6acc545cd095",
