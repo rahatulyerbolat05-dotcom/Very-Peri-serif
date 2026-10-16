@@ -1,7 +1,7 @@
 {
   "source_repository": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "source_branch": "codex/cyrillic-studies",
-  "source_commit": "54e5dcf7f33b210bcb1356fba172a1678653540e",
+  "source_commit": "e039e04e632dbe99bc69eaf6e3ce004a3a1425a8",
   "native_source_commit": "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81",
   "license": "SIL OFL1.1; see OFL.txt",
   "geometry": "Exact decomposed quadratic contours from retained study TTFs; canonical cubic segment equality and advance checked after GLIF roundtrip.",
@@ -310,6 +310,63 @@
       "source_glyph": "uni0417",
       "source_glyf_sha256": "929c34cdcfdda77be993334966417baf3cf9f3281e5968aaa30979359e8a82bf",
       "source_file_sha256": "814498019a8ae28b0ee127bbc15a622ff1c3f94587e4e4203f13e3e128cd54bf"
+    },
+    {
+      "character": "Й",
+      "path": "data/codex/uni0419-01.glif",
+      "label": "И с родной краткой",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 546,
+      "bounds": [
+        19,
+        0,
+        527,
+        940
+      ],
+      "glif_sha256": "716e6e04e5aa4a047f81e1eecc908b3b5b41c4cc55444805869c7dbe9730e985",
+      "source_file": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
+      "source_glyph": "uni0419",
+      "source_glyf_sha256": "8878be0455e070d13d310bb5c2d95a13a9f43c4586b0642f3f502b910ce02157",
+      "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
+    },
+    {
+      "character": "Ф",
+      "path": "data/codex/uni0424-01.glif",
+      "label": "Центральная стойка I",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 650,
+      "bounds": [
+        35,
+        0,
+        615,
+        720
+      ],
+      "glif_sha256": "835003b4fdbc10a1d9a335b63bdcc60e32fa2a88050edf64e516ee61f8b63d73",
+      "source_file": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
+      "source_glyph": "uni0424",
+      "source_glyf_sha256": "ba016535a72bf4a7e7ddd5c6fe9fc32a0da75a94a401ad365a9e7964f899edb5",
+      "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
+    },
+    {
+      "character": "Я",
+      "path": "data/codex/uni042F-01.glif",
+      "label": "Чаша P, тонкая нога",
+      "variant": "01",
+      "status": "unselected",
+      "advance": 519,
+      "bounds": [
+        -8,
+        0,
+        481,
+        720
+      ],
+      "glif_sha256": "21bd9cd383460b7b4ce15dedffef2bf43bfdc4df682054a745f8d2e68a04bfe1",
+      "source_file": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
+      "source_glyph": "uni042F",
+      "source_glyf_sha256": "374d73733feed4731ff557f150b6c599a7ccfd6f3ba8277adf336e46fbc547ac",
+      "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
     },
     {
       "character": "И",

@@ -103,3 +103,7 @@ python3 tools/alphabet_sheet.py
 ## Б Д З И · новые предложения
 
 Добавлены по одному варианту Б/Д/З Codex; И сохранена прежней. Пока на рассмотрении. [Общий лист крупно и в словах](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/capitals-bdzei/comparison.svg).
+
+## Й Ф Я · предложения заглавных
+
+По одному новому варианту Codex, не утверждены. Строчные й/ф/я не менялись. [Общий лист](https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif/blob/codex/cyrillic-studies/studies/regular/capitals-jfya/comparison.svg).

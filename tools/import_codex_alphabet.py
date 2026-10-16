@@ -31,6 +31,9 @@ SPECS={
  'Б':(None,False,False,[('01','Чаша B, плечо E','studies/regular/capitals-bdzei/capitals-shorti01.ttf')]),
  'Д':(None,False,False,[('01','Наклонная нога, короткие выступы','studies/regular/capitals-bdzei/capitals-shorti01.ttf')]),
  'З':(None,False,False,[('01','Две чаши и капли','studies/regular/capitals-bdzei/capitals-shorti01.ttf')]),
+ 'Й':(None,False,False,[('01','И с родной краткой','studies/regular/capitals-jfya/capitals-shorti01.ttf')]),
+ 'Ф':(None,False,False,[('01','Центральная стойка I','studies/regular/capitals-jfya/capitals-shorti01.ttf')]),
+ 'Я':(None,False,False,[('01','Чаша P, тонкая нога','studies/regular/capitals-jfya/capitals-shorti01.ttf')]),
  'И':(None,False,False,[('01','Стойки H, диагональ','studies/regular/capital-i/capital-i-shorti01.ttf')]),
  'ч':(None,False,False,[('01','Поднятая чаша u','studies/regular/che-ya/che-ya-shorti01.ttf')]),
  'я':(None,False,False,[('01','Петля и капля y','studies/regular/che-ya/che-ya-shorti01.ttf')]),
@@ -71,7 +74,7 @@ def main():
         cfg['codex'][ch]=entry
     assert json.dumps(cfg['done'],ensure_ascii=False,sort_keys=True)==before_done
     cfg['shared_review']={'codex_branch':'codex/cyrillic-studies','codex_source_commit':commit,'claude_base_commit':'d2cd2ee856a85d99aa4880b8f44b126ee49a1eca',
-                         'conflicts':[],'open_codex_choices':['й','ч','я','И','Б','Д','З'],'selected_ereversed':'02; direct user choice: оставь 02',
+                         'conflicts':[],'open_codex_choices':['й','ч','я','И','Б','Д','З','Й','Ф','Я'],'selected_ereversed':'02; direct user choice: оставь 02',
                          'count_meaning':'Available drawings, including undecided alternatives; not production-ready or approved coverage.',
                          'missing_notes':{}}
     config_path.write_text(json.dumps(cfg,ensure_ascii=False,indent=2)+'\n')
