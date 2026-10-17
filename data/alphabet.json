@@ -1125,23 +1125,23 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/declump/uni044E-primary.glif",
+          "path": "data/blot-relief/uni044E-primary.glif",
           "advance": 557,
           "bounds": [
             16.511680603027344,
             -9.0,
-            531.8123168945312,
+            526.8095092773438,
             516.0
           ],
-          "glif_sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836",
+          "glif_sha256": "b3abc43994f9cbb1a21092575f2f04da71cd08cd3a3c4eb12e15db0e4fece278",
           "role": "primary",
           "variant": "01",
-          "label": "Разведённые слипшиеся места",
-          "status": "declumped to the Latin gaps, requested by author",
-          "declump_source_glif": "data/condense-bowls/uni044E-primary.glif"
+          "label": "Раскрытые пятна",
+          "status": "thickness relief requested by author",
+          "relief_source_glif": "data/declump/uni044E-primary.glif"
         }
       ],
-      "provenance": "Declump requested by author; previous sources archived"
+      "provenance": "Blot relief requested by author; previous sources archived"
     },
     "ш": {
       "selected": "01",
@@ -1173,7 +1173,7 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/width-refinement/uni044B-primary.glif",
+          "path": "data/blot-relief/uni044B-primary.glif",
           "advance": 511,
           "bounds": [
             -2.0,
@@ -1181,15 +1181,15 @@
             496.0,
             513.0
           ],
-          "glif_sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674",
+          "glif_sha256": "4af884720a20f0fced2cf35b4c3095a0af2a53f359f0649d35bc3c2c0d5d5318",
           "role": "primary",
           "variant": "01",
-          "label": "Согласованные пропорции",
-          "status": "width/weight refinement requested by author",
-          "width_source_glif": "data/yery/Y1.glif"
+          "label": "Раскрытые пятна",
+          "status": "thickness relief requested by author",
+          "relief_source_glif": "data/width-refinement/uni044B-primary.glif"
         }
       ],
-      "provenance": "Width/weight refinement requested by author; previous sources archived"
+      "provenance": "Blot relief requested by author; previous sources archived"
     }
   },
   "shared_review": {
@@ -4649,6 +4649,56 @@
           }
         ],
         "provenance": "Bowl condense requested by author; previous sources archived"
+      }
+    },
+    "before-blot-relief": {
+      "ы": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/width-refinement/uni044B-primary.glif",
+            "advance": 511,
+            "bounds": [
+              -2.0,
+              -9.0,
+              496.0,
+              513.0
+            ],
+            "glif_sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674",
+            "role": "primary",
+            "variant": "01",
+            "label": "Согласованные пропорции",
+            "status": "width/weight refinement requested by author",
+            "width_source_glif": "data/yery/Y1.glif"
+          }
+        ],
+        "provenance": "Width/weight refinement requested by author; previous sources archived"
+      },
+      "ю": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/declump/uni044E-primary.glif",
+            "advance": 557,
+            "bounds": [
+              16.511680603027344,
+              -9.0,
+              531.8123168945312,
+              516.0
+            ],
+            "glif_sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836",
+            "role": "primary",
+            "variant": "01",
+            "label": "Разведённые слипшиеся места",
+            "status": "declumped to the Latin gaps, requested by author",
+            "declump_source_glif": "data/condense-bowls/uni044E-primary.glif"
+          }
+        ],
+        "provenance": "Declump requested by author; previous sources archived"
       }
     }
   },

@@ -3767,7 +3767,7 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.012",
+  "version": "1.013",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
@@ -4103,6 +4103,111 @@
       516,
       532
      ]
+    ]
+   }
+  }
+ },
+ "blot_relief": {
+  "status": "17.10.2026: author asks to relieve the dark spots of ы and ю with thickness. Measured: ы bowl-to-stem gap 19, ю stem-to-oval 47-60 (Latin n/m counters 174).",
+  "letters": {
+   "ы": {
+    "method": "warp2d",
+    "probe_y": 150,
+    "bands": [
+     {
+      "name": "bowl",
+      "y0": -90,
+      "y1": 290,
+      "fade": 150,
+      "knots": [
+       [
+        295,
+        295
+       ],
+       [
+        350,
+        338
+       ],
+       [
+        366,
+        366
+       ]
+      ]
+     },
+     {
+      "name": "right_stem",
+      "y0": 40,
+      "y1": 440,
+      "fade": 120,
+      "knots": [
+       [
+        366,
+        366
+       ],
+       [
+        369,
+        377
+       ],
+       [
+        437,
+        437
+       ]
+      ]
+     }
+    ]
+   },
+   "ю": {
+    "method": "warp2d",
+    "probe_y": 150,
+    "bands": [
+     {
+      "name": "stem",
+      "y0": 45,
+      "y1": 440,
+      "fade": 120,
+      "knots": [
+       [
+        79,
+        79
+       ],
+       [
+        142,
+        136
+       ],
+       [
+        175,
+        175
+       ]
+      ]
+     },
+     {
+      "name": "oval",
+      "y0": 40,
+      "y1": 520,
+      "fade": 70,
+      "knots": [
+       [
+        175,
+        175
+       ],
+       [
+        189,
+        196
+       ],
+       [
+        256,
+        256
+       ],
+       [
+        465,
+        465
+       ],
+       [
+        532,
+        527
+       ]
+      ]
+     }
     ]
    }
   }

@@ -1,0 +1,14 @@
+[
+  {
+    "character": "ы",
+    "role": "primary",
+    "source": "data/width-refinement/uni044B-primary.glif",
+    "sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674"
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/declump/uni044E-primary.glif",
+    "sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.012",
+  "version": "1.013",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 136,
-  "kerning_pairs_added": 61155,
+  "kerning_pairs_added": 61162,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -74611,62 +74611,26 @@
     },
     {
       "left": "uni044E",
-      "right": "cedilla",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "ogonek",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
       "right": "uni043C",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni043F",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni044E",
       "right": "uni0442",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "uni044D",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "uni0493",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni04A3",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni043F.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni04A3.tail_old",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni049B.alternate",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "uni049B.alternate.tail_old",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -91999,12 +91963,6 @@
     },
     {
       "left": "uni0434.ss07",
-      "right": "uni044B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0434.ss07",
       "right": "uni044C",
       "requested": 2,
       "actual": 0
@@ -105572,10 +105530,10 @@
     "ш": "data/width-refinement/uni0448-primary.glif",
     "щ": "data/width-refinement/uni0449-primary.glif",
     "ъ": "data/hard/K2.glif",
-    "ы": "data/width-refinement/uni044B-primary.glif",
+    "ы": "data/blot-relief/uni044B-primary.glif",
     "ь": "data/soft/S3.glif",
     "э": "data/codex/uni044D-02.glif",
-    "ю": "data/declump/uni044E-primary.glif",
+    "ю": "data/blot-relief/uni044E-primary.glif",
     "я": "data/codex/uni044F-01.glif",
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "Ғ": "data/kz2/Gh2.glif",
@@ -106550,18 +106508,18 @@
     },
     "uni044B": {
       "character": "ы",
-      "path": "data/width-refinement/uni044B-primary.glif",
+      "path": "data/blot-relief/uni044B-primary.glif",
       "advance": 537,
       "donors": [
         "h",
         "n"
       ],
-      "sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674",
+      "sha256": "4af884720a20f0fced2cf35b4c3095a0af2a53f359f0649d35bc3c2c0d5d5318",
       "polish": {
         "micro": 0,
         "smooth": 2,
-        "align": 5,
-        "deviation": 0.89
+        "align": 3,
+        "deviation": 1.25
       },
       "spacing_dx": 16,
       "advance_unspaced": 511
@@ -106598,18 +106556,18 @@
     },
     "uni044E": {
       "character": "ю",
-      "path": "data/declump/uni044E-primary.glif",
+      "path": "data/blot-relief/uni044E-primary.glif",
       "advance": 569,
       "donors": [
         "h",
         "o"
       ],
-      "sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836",
+      "sha256": "b3abc43994f9cbb1a21092575f2f04da71cd08cd3a3c4eb12e15db0e4fece278",
       "polish": {
         "micro": 0,
-        "smooth": 4,
-        "align": 0,
-        "deviation": 0.74
+        "smooth": 3,
+        "align": 1,
+        "deviation": 0.76
       },
       "spacing_dx": -2,
       "advance_unspaced": 557
@@ -107624,5 +107582,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "8e2d68336e8502e9414b7d46f0480d31c88a360014147039dfa71eda8ac6b64e"
+  "source_stage_ttf_sha256": "8f9836185fc4923a487b17ceebaf19a8a038e4c8cbea629082120e7560849bc6"
 }

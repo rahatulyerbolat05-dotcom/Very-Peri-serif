@@ -1,6 +1,6 @@
 {
-  "ttf_sha256": "1c70d5e792959ef18e17871db5a72075b38733bfc3c8d0c12880cfa80b0efd87",
-  "woff2_sha256": "abf6230b106f5456b94af23b95feecfb7c3be2f9447ed5cb83efd783a00ae560",
+  "ttf_sha256": "235ec179a70ca1acdd090cc49062ebb8446b2fc8dcda0ea9707c6f021afe9503",
+  "woff2_sha256": "5ff1bd866692d834c10290e3682b99345c09d5fff41f55227f4e46d3eacd8be5",
   "opentype_sanitizer": {
     "ttf": "PASS",
     "woff2": "PASS"
