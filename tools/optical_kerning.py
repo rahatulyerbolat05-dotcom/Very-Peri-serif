@@ -9,6 +9,10 @@ import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 
 BUILD=Path('build/kerning')
+EQ_WEIGHT=0.6   # fraction of the distance to the Cyrillic median applied
+EQ_LIMIT=40.    # largest equalizing shift, font units
+EQ_OFFSET=-8.   # keeps the mean Cyrillic gap where the donor spacing had it
+FOOT_MIN=10.    # all Cyrillic/Cyrillic pairs: feet and serifs must not fuse, whatever the donor allowed
 Y=np.arange(-310,1001,2)
 
 
@@ -61,6 +65,19 @@ def refine(font,native,records,native_kern,overrides):
     def nk(a,b):
         if (a,b) not in nkcache:nkcache[a,b]=native_kern(native,a,b)
         return nkcache[a,b]
+    # Cyrillic lowercase pairs inherit spacing from different Latin donors, so
+    # their optical gaps scatter more than the native Latin ones. Pull each
+    # donor target part of the way to the script median (bounded, collision
+    # limits below still apply).
+    def pair_target(a,b):
+        da,db=donor(a,1),donor(b,0)
+        if da not in reference or db not in reference:return None
+        dg,dv=gap_profile(reference[da],reference[db]);return optical(dg,dv,510)
+    cyr_pairs=[(a,b) for a in active for b in active if lower[a] and lower[b]]
+    raw_targets={p:pair_target(*p) for p in cyr_pairs}
+    valid_targets=[t for t in raw_targets.values() if t is not None]
+    median_target=float(np.median(valid_targets)) if valid_targets else 0.
+    equalized=0
     for a in allnames:
         for b in allnames:
             if a not in active and b not in active:continue
@@ -76,6 +93,9 @@ def refine(font,native,records,native_kern,overrides):
                 donor_row=int(Y[np.flatnonzero(dv)[np.argmin(dg[dv])]]) if dv.any() else 0
                 cache[key]=(dm,donor_min,nk(da,db),donor_row)
             target,donor_min,base,donor_row=cache[key]
+            if target is not None and (a,b) in raw_targets:
+                shift=max(-EQ_LIMIT,min(EQ_LIMIT,EQ_WEIGHT*(median_target+EQ_OFFSET-target)))
+                target+=shift;equalized+=abs(shift)>=1
             gap,valid=gap_profile(actual[a],actual[b]);current=optical(gap,valid,high)
             delta=0 if target is None or current is None else target-current
             # Limit extrapolation for substantially different skeletons.
@@ -97,9 +117,10 @@ def refine(font,native,records,native_kern,overrides):
             protected=valid&((Y>=55)|(Y<=-25))
             protected_min=float(gap[protected].min()) if protected.any() else 1000.
             final=max(final,math.ceil(8-protected_min))
+            if a in active and b in active:final=max(final,math.ceil(FOOT_MIN-raw_min))
             underlying=nk(a,b)
             additional=int(final-underlying)
-            if abs(additional)<=2 and raw_min+underlying>=minimum and protected_min+underlying>=8:
+            if abs(additional)<=2 and raw_min+underlying>=minimum and protected_min+underlying>=8 and not(a in active and b in active and raw_min+underlying<FOOT_MIN):
                 additional=0;final=underlying
             if additional:pairs[a,b]=additional
             report.append({'left':a,'right':b,'donors':[da,db],
@@ -111,6 +132,7 @@ def refine(font,native,records,native_kern,overrides):
         'collision_limited_pairs':sum(r['collision_limited'] for r in report),
         'visible_glyphs':len(allnames),'added_glyphs_kerned':len(active),
         'native_native_pairs_changed':0,'temperature':55,'optical_delta_limit':90,
+        'cyrillic_equalization':{'weight':EQ_WEIGHT,'limit':EQ_LIMIT,'offset':EQ_OFFSET,'foot_min':FOOT_MIN,'median_target':round(median_target,2),'pairs_shifted':int(equalized)},
         'minimum_final_gap':min(r['final_min_gap'] for r in report),'minimum_protected_gap':min(r['protected_gap'] for r in report),
         'note':'Geometric refinement plus proof review; not a claim that all pairs were individually hand-tuned.'}
     (BUILD/'pairs.json').write_text(json.dumps(report,ensure_ascii=False,separators=(',',':'))+'\n')
