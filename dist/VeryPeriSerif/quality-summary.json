@@ -1,11 +1,11 @@
 {
-  "ttf_sha256": "6efa9060ea90006b1bcffe964274e944a9f0a9c7c5d96e282908efdbff2bb300",
-  "woff2_sha256": "104d4fbd90860b3717c1672a10fbb39a21d918080c7b149aa5687ace1ec0b6b4",
+  "ttf_sha256": "ed7c8a5c0a892aa4283a17352783a644516a5323be57484622c3624ddf33cbd2",
+  "woff2_sha256": "34b82937e0d482fc584a3521be0bfd92fc992d00a4feea2fe131103dd493cc94",
   "opentype_sanitizer": {
     "ttf": "PASS",
     "woff2": "PASS"
   },
-  "functional_checks": 868,
+  "functional_checks": 953,
   "harfbuzz_pairs_checked": 254025,
   "fontbakery": "NOT RUN",
   "hyperglot_base_primary": "NOT RUN",

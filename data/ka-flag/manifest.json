@@ -1,0 +1,41 @@
+{
+ "uni043A.flag": {
+  "character": "к",
+  "source": "data/codex/uni043A-02.glif",
+  "source_sha256": "85d3706448db20423efab188f1de363cff31ff2db1b084df874c38ab4ad506b3",
+  "glif_sha256": "2a1931ed6e2ced9de45975259972859e5e090d40a69eb746640a700b869d3ad4",
+  "cut_x": 231.5,
+  "leg_left": 256.0,
+  "leg_width": 73.8,
+  "slope": 0.514,
+  "advance": 451,
+  "xmax": 442.0,
+  "ymin": -5.0
+ },
+ "uni043A.short.flag": {
+  "character": "к",
+  "source": "data/ka/ka_short.glif",
+  "source_sha256": "3406ee569fb5e5860ddf97e52e08b6dd4b3f48af23aaa3f9249c55cc1f561c8a",
+  "glif_sha256": "ad4f54d4929c0fc350c4c0552724dbd390e9587b441a2852279f7eb166e7c449",
+  "cut_x": 231.5,
+  "leg_left": 256.0,
+  "leg_width": 73.8,
+  "slope": 0.514,
+  "advance": 462,
+  "xmax": 435.6,
+  "ymin": -5.0
+ },
+ "uni041A.flag": {
+  "character": "К",
+  "source": "data/homoglyph/Ka-cy.glif",
+  "source_sha256": "8baa34a106d121f3afe2f0e3fe70bc4e69ae49186b9f52571b4173fa07aab851",
+  "glif_sha256": "f3bf7a0fa09a85e8b26345f22cded11462250a9fff1e745a589a1294e8afb3fa",
+  "cut_x": 271.0,
+  "leg_left": 316.1,
+  "leg_width": 78.6,
+  "slope": 0.526,
+  "advance": 496,
+  "xmax": 501.6,
+  "ymin": -5.0
+ }
+}

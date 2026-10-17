@@ -223,7 +223,7 @@ def main(output_dir=OUT,ttf_path=TTF):
         chosen[ch]=filename;install(ch,filename,name_for(ch))
         for table in font['cmap'].tables:
             if table.isUnicode():table.cmap[ord(ch)]=name_for(ch)
-    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('т','data/te/t1.glif','ss08'),('д','data/regular-de-refinement/uni0434.glif','ss07')]:
+    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('к','data/ka-flag/uni043A.flag.glif','flag'),('к','data/ka-flag/uni043A.short.flag.glif','short.flag'),('К','data/ka-flag/uni041A.flag.glif','flag'),('т','data/te/t1.glif','ss08'),('д','data/regular-de-refinement/uni0434.glif','ss07')]:
         install(ch,filename,name_for(ch)+'.'+suffix)
     for ch,basename in [('а','a-cy'),('с','es-cy'),('е','ie-cy'),('ё','io-cy')]:
         install(ch,'data/homoglyph/'+basename+'.ss01.glif',name_for(ch)+'.ss01')
@@ -304,9 +304,15 @@ def main(output_dir=OUT,ttf_path=TTF):
          "feature ccmp { sub uni0456' @above_marks by uni0456.dotless; } ccmp;",
          'feature ss07 { featureNames { name "Printed Cyrillic de"; }; sub uni0434 by uni0434.ss07; } ss07;',
          'feature calt { script cyrl;',
+         'lookup calt_forms {',
          "sub uni043F' @serif_bl by uni043F.flag;",
          "sub uni043A' @head_tl by uni043A.short;",
-         "sub uni049B' @head_tl by uni049B.context;",'} calt;',
+         "sub uni049B' @head_tl by uni049B.context;",'} calt_forms;',
+         '# к, к.short and К get the exit foot of н (tools/ka_flag.py) before a letter with a lower-left serif; қ keeps its tail',
+         'lookup calt_feet {',
+         "sub uni043A.short' @serif_bl by uni043A.short.flag;",
+         "sub uni043A' @serif_bl by uni043A.flag;",
+         "sub uni041A' @serif_bl by uni041A.flag;",'} calt_feet;','} calt;',
          'feature ss01 {']
     fea += [f'sub {name_for(ch)} by {name_for(ch)}.ss01;' for ch in 'асеё']
     fea += ['} ss01;','feature ss08 { featureNames { name "Alternate Cyrillic te"; }; sub uni0442 by uni0442.ss08; } ss08;',

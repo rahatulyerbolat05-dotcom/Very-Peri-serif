@@ -119,15 +119,25 @@ def main(output_dir=OUT,ttf_path=TTF,doc_path=Path('docs/img/draft_font_proof.sv
         latin_mark=shape(data,font,ch+'\u0301')[-1]
         cy_mark=shape(data,font,cy+'\u0301')[-1]
         expect(latin_mark==cy_mark,'schwa anchor parity '+ch)
+    serif_members=context['declared_class']['lower']+context['declared_class']['upper']
+    head_members=context['ka_short']['declared_class']['lower']
     for left,alternate,members in [
-        ('п','uni043F.flag',context['declared_class']['lower']+context['declared_class']['upper']),
-        ('к','uni043A.short',context['ka_short']['declared_class']['lower']),
-        ('қ','uni049B.context',context['ka_short']['declared_class']['lower'])]:
+        ('п','uni043F.flag',serif_members),
+        ('қ','uni049B.context',head_members)]:
         for right in CHARS:
             expected=alternate if right in members else name_for(left)
             names=[x[0] for x in shape(data,font,left+right)]
             expect(names[0]==expected,f'calt {left+right}')
         expect(shape(data,font,left+'н',{'calt':False})[0][0]==name_for(left),'calt disabled '+left)
+    # к: short head first (lookup calt_forms), then the exit foot (calt_feet); К only the foot
+    for right in CHARS:
+        short=right in head_members;foot=right in serif_members
+        expected='uni043A'+('.short' if short else '')+('.flag' if foot else '')
+        expect([x[0] for x in shape(data,font,'к'+right)][0]==expected,f'calt к{right}')
+        expected_cap='uni041A.flag' if foot else 'uni041A'
+        expect([x[0] for x in shape(data,font,'К'+right)][0]==expected_cap,f'calt К{right}')
+    expect(shape(data,font,'кн',{'calt':False})[0][0]=='uni043A','calt disabled к')
+    expect(shape(data,font,'Кн',{'calt':False})[0][0]=='uni041A','calt disabled К')
     for ch in 'цщқңЦЩҚҢ':
         expect(shape(data,font,ch,{'ss09':True})[0][0]==name_for(ch)+'.tail_old','ss09 '+ch)
     expect(shape(data,font,'қн',{'ss09':True})[0][0]=='uni049B.context.tail_old','q context plus old tail')
