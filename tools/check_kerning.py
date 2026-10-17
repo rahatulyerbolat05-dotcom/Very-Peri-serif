@@ -55,8 +55,8 @@ def check(data,font,native,chars,native_kern):
         for b in native_chars:
             assert signature(hf,font,a+b)==signature(nhf,native,a+b),('native regression',repr(a+b))
             native_count+=1
-    # Only lowercase д may change from the preceding Regular 1.006 release.
-    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','5d86041:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
+    # Only lowercase д may change from the preceding Regular 1.007 release.
+    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','767ffe0:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
     changed={old.getBestCmap()[0x0434]}
     assert changed=={font.getBestCmap()[0x0434]}
@@ -64,8 +64,8 @@ def check(data,font,native,chars,native_kern):
         if name in changed:continue
         assert font['glyf'][name].compile(font['glyf'])==old['glyf'][name].compile(old['glyf']),name
         assert font['hmtx'][name]==old['hmtx'][name],name
-    # Printed alternate must preserve the complete former primary glyph.
-    alt='uni0434.ss07';primary=old.getBestCmap()[0x0434]
+    # Printed alternate stays identical to its existing 1.007 outline and metrics.
+    alt='uni0434.ss07';primary=alt
     assert font['glyf'][alt].compile(font['glyf'])==old['glyf'][primary].compile(old['glyf'])
     assert font['hmtx'][alt]==old['hmtx'][primary]
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())

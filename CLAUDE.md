@@ -1,3 +1,11 @@
+`[РЕШЕНИЕ · 17.10.2026]` Автор выбрал Cormorant Garamond ss10 / Infant:
+Regular1.008: новая широкая округлая д и хвост под буквой, в родных
+толщинах. Чаша и хвост нарисованы заново, верх q и капля j без масштаба.
+Источник `data/regular-de-cormorant/`, генератор `tools/refine_regular_de_cormorant.py`,
+параметры `regular_de_cormorant`; печатная ss07 сохранена. Это заменяет
+основную д1.007. Старые генераторы не должны откатывать выбор.
+Сравнение `docs/img/de_cormorant_style.svg`, решение `docs/de-cormorant-style.md`.
+
 `[РЕШЕНИЕ · 17.10.2026]` Аудит форм д: `docs/de-reference-audit.md`,
 12 Regular и реальные locl/ss-варианты, отдельно Italic; источники/SHA
 `data/de-reference-audit.json`, генератор `tools/audit_regular_de.py`.
@@ -53,7 +61,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.007, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.008, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.

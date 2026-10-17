@@ -26,6 +26,8 @@ def main():
     out=Path('data/regular-de-tail');out.mkdir(exist_ok=True);target=out/'uni0434.glif'
     write_glif(path,'uni0434',d['advance'],0x434,str(target))
     cfg=json.loads(Path('data/alphabet.json').read_text())
+    # Historical generator must not replace the author's later Cormorant choice.
+    if cfg['codex']['д']['variants'][0]['path']=='data/regular-de-cormorant/uni0434.glif':return
     cfg['stylistic_alternates']['д']=[{'path':'data/regular-de-refinement/uni0434.glif','feature':'ss07','source':'Codex','label':'Печатная д'}]
     item={'path':str(target),'variant':'01','label':'Округлая чаша, нижний крючок','advance':d['advance'],'bounds':list(path.bounds),'glif_sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'status':'selected'}
     cfg['codex']['д']=dict(selected='01',shared_with_claude=False,conflict=False,variants=[item],provenance='Codex; author requested a natural lower tail, 17.10.2026')

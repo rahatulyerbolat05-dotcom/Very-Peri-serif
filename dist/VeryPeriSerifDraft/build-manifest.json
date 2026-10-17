@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif Draft",
-  "version": "1.007",
+  "version": "1.008",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 132,
-  "kerning_pairs_added": 62421,
+  "kerning_pairs_added": 62477,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -1915,12 +1915,6 @@
     },
     {
       "left": "AE",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "AE",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2365,12 +2359,6 @@
     },
     {
       "left": "E",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "E",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2468,12 +2456,6 @@
     {
       "left": "Eacute",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Eacute",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -2581,12 +2563,6 @@
     },
     {
       "left": "Ecaron",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Ecaron",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2684,12 +2660,6 @@
     {
       "left": "Ecircumflex",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Ecircumflex",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -2792,12 +2762,6 @@
     {
       "left": "Edieresis",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Edieresis",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -2900,12 +2864,6 @@
     {
       "left": "Edotaccent",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Edotaccent",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -3008,12 +2966,6 @@
     {
       "left": "Egrave",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Egrave",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -3116,12 +3068,6 @@
     {
       "left": "Emacron",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Emacron",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -3224,12 +3170,6 @@
     {
       "left": "Eogonek",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Eogonek",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -5924,12 +5864,6 @@
     {
       "left": "OE",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "OE",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -10843,12 +10777,6 @@
     },
     {
       "left": "a",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "a",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -10924,12 +10852,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "aacute",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "aacute",
@@ -11017,12 +10939,6 @@
     },
     {
       "left": "abreve",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "abreve",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -11107,12 +11023,6 @@
     },
     {
       "left": "uni01CE",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni01CE",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -11188,12 +11098,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "acircumflex",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "acircumflex",
@@ -11275,12 +11179,6 @@
     },
     {
       "left": "adieresis",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "adieresis",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -11356,12 +11254,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "agrave",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "agrave",
@@ -11440,12 +11332,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "amacron",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "amacron",
@@ -11524,12 +11410,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "aogonek",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "aogonek",
@@ -11608,12 +11488,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "aring",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "aring",
@@ -11698,12 +11572,6 @@
       "right": "uni0427",
       "requested": -90,
       "actual": -50
-    },
-    {
-      "left": "atilde",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "atilde",
@@ -12067,12 +11935,6 @@
     },
     {
       "left": "d",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "d",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -12250,12 +12112,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "dcroat",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "dcroat",
@@ -16147,12 +16003,6 @@
     },
     {
       "left": "germandbls",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "germandbls",
       "right": "uni0437",
       "requested": -90,
       "actual": -51
@@ -18865,12 +18715,6 @@
     },
     {
       "left": "z",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "z",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -18910,12 +18754,6 @@
       "right": "uni0427",
       "requested": -90,
       "actual": -47
-    },
-    {
-      "left": "zacute",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "zacute",
@@ -18967,12 +18805,6 @@
     },
     {
       "left": "zcaron",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "zcaron",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -19018,12 +18850,6 @@
       "right": "uni04AF",
       "requested": -44,
       "actual": -35
-    },
-    {
-      "left": "zdotaccent",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "zdotaccent",
@@ -21295,12 +21121,6 @@
     },
     {
       "left": "two",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "two",
       "right": "uni0437",
       "requested": -76,
       "actual": -56
@@ -21812,12 +21632,6 @@
     {
       "left": "backslash",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "backslash",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -22802,8 +22616,8 @@
     {
       "left": "yen",
       "right": "uni0434",
-      "requested": -88,
-      "actual": -75
+      "requested": -86,
+      "actual": -74
     },
     {
       "left": "yen",
@@ -23257,21 +23071,9 @@
     },
     {
       "left": "percent",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "percent",
       "right": "uni0437",
       "requested": -90,
       "actual": -78
-    },
-    {
-      "left": "perthousand",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "perthousand",
@@ -24171,12 +23973,6 @@
       "left": "uni0411",
       "right": "uni0432",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0411",
-      "right": "uni0434",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -25573,12 +25369,6 @@
     },
     {
       "left": "uni0415",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0415",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -25676,12 +25466,6 @@
     {
       "left": "uni0401",
       "right": "uni0433",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0401",
-      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -27285,12 +27069,6 @@
       "left": "uni0417",
       "right": "uni0430",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0417",
-      "right": "uni0434",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -33091,12 +32869,6 @@
     },
     {
       "left": "uni042A",
-      "right": "uni0434",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni042A",
       "right": "uni0436",
       "requested": -2,
       "actual": 0
@@ -33663,12 +33435,6 @@
       "left": "uni042C",
       "right": "uni0432",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni042C",
-      "right": "uni0434",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -34264,12 +34030,6 @@
       "right": "uni0417",
       "requested": -26,
       "actual": -23
-    },
-    {
-      "left": "uni0430",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "uni0430",
@@ -34921,27 +34681,33 @@
     },
     {
       "left": "uni0434",
-      "right": "ordfeminine",
-      "requested": -2,
-      "actual": 0
+      "right": "uni0437",
+      "requested": -90,
+      "actual": -79
     },
     {
       "left": "uni0434",
-      "right": "three",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0434",
-      "right": "uni20B4",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0434",
-      "right": "uni2020",
+      "right": "uni044B",
       "requested": 2,
       "actual": 0
+    },
+    {
+      "left": "uni0434",
+      "right": "uni044C",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0434",
+      "right": "uniFFFD",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0434",
+      "right": "uni0434.ss07",
+      "requested": -84,
+      "actual": -78
     },
     {
       "left": "uni0451",
@@ -36559,12 +36325,6 @@
     },
     {
       "left": "uni0437",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0437",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -37915,6 +37675,12 @@
     },
     {
       "left": "uni0442",
+      "right": "uni0434",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0442",
       "right": "uni0437",
       "requested": -54,
       "actual": -42
@@ -38581,12 +38347,6 @@
     },
     {
       "left": "uni0447",
-      "right": "uni0434",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0447",
       "right": "uni0437",
       "requested": -50,
       "actual": -39
@@ -38762,12 +38522,6 @@
     {
       "left": "uni044B",
       "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044B",
-      "right": "uni0434",
       "requested": 2,
       "actual": 0
     },
@@ -39122,6 +38876,12 @@
     {
       "left": "uni044F",
       "right": "uni0421",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni044F",
+      "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
@@ -47745,7 +47505,7 @@
       "left": "uni2116",
       "right": "uni0434",
       "requested": -108,
-      "actual": -102
+      "actual": -100
     },
     {
       "left": "uni2116",
@@ -49909,12 +49669,6 @@
     },
     {
       "left": "uni043F.flag",
-      "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni043F.flag",
       "right": "uni0436",
       "requested": 2,
       "actual": 0
@@ -51595,6 +51349,12 @@
     },
     {
       "left": "uni0446.tail_old",
+      "right": "uni0434",
+      "requested": -88,
+      "actual": -82
+    },
+    {
+      "left": "uni0446.tail_old",
       "right": "uni0440",
       "requested": -80,
       "actual": -19
@@ -51823,6 +51583,12 @@
     },
     {
       "left": "uni04A3.tail_old",
+      "right": "uni0434",
+      "requested": -86,
+      "actual": -82
+    },
+    {
+      "left": "uni04A3.tail_old",
       "right": "uni0440",
       "requested": -78,
       "actual": -19
@@ -52048,6 +51814,12 @@
       "right": "uni0414",
       "requested": -90,
       "actual": -24
+    },
+    {
+      "left": "uni0449.tail_old",
+      "right": "uni0434",
+      "requested": -86,
+      "actual": -82
     },
     {
       "left": "uni0449.tail_old",
@@ -52777,6 +52549,12 @@
     },
     {
       "left": "uni049B.tail_old",
+      "right": "uni0434",
+      "requested": -96,
+      "actual": -82
+    },
+    {
+      "left": "uni049B.tail_old",
       "right": "uni0436",
       "requested": -112,
       "actual": -65
@@ -53191,6 +52969,12 @@
     },
     {
       "left": "uni049B.alternate.tail_old",
+      "right": "uni0434",
+      "requested": -96,
+      "actual": -82
+    },
+    {
+      "left": "uni049B.alternate.tail_old",
       "right": "uni0436",
       "requested": -112,
       "actual": -65
@@ -53530,6 +53314,12 @@
       "right": "uni0414",
       "requested": -90,
       "actual": -24
+    },
+    {
+      "left": "uni049B.context.tail_old",
+      "right": "uni0434",
+      "requested": -96,
+      "actual": -82
     },
     {
       "left": "uni049B.context.tail_old",
@@ -53818,6 +53608,12 @@
       "right": "uni0423",
       "requested": -100,
       "actual": -63
+    },
+    {
+      "left": "uni0429.tail_old",
+      "right": "uni0434",
+      "requested": -92,
+      "actual": -86
     },
     {
       "left": "uni0429.tail_old",
@@ -54331,6 +54127,12 @@
     },
     {
       "left": "uni049A.tail_old",
+      "right": "uni0434",
+      "requested": -104,
+      "actual": -85
+    },
+    {
+      "left": "uni049A.tail_old",
       "right": "uni0440",
       "requested": -100,
       "actual": -23
@@ -54619,6 +54421,12 @@
     },
     {
       "left": "uni04A2.tail_old",
+      "right": "uni0434",
+      "requested": -92,
+      "actual": -86
+    },
+    {
+      "left": "uni04A2.tail_old",
       "right": "uni0440",
       "requested": -64,
       "actual": -23
@@ -54895,6 +54703,12 @@
     },
     {
       "left": "uni0426.tail_old",
+      "right": "uni0434",
+      "requested": -92,
+      "actual": -85
+    },
+    {
+      "left": "uni0426.tail_old",
       "right": "uni0440",
       "requested": -64,
       "actual": -23
@@ -54962,7 +54776,7 @@
     "б": "data/codex/uni0431-01.glif",
     "в": "data/codex/uni0432-01.glif",
     "г": "data/codex/uni0433-02.glif",
-    "д": "data/regular-de-tail/uni0434.glif",
+    "д": "data/regular-de-cormorant/uni0434.glif",
     "е": "data/homoglyph/ie-cy.glif",
     "ё": "data/homoglyph/io-cy.glif",
     "ж": "data/codex/uni0436-cyr11.glif",
@@ -55410,13 +55224,13 @@
     },
     "uni0434": {
       "character": "д",
-      "path": "data/regular-de-tail/uni0434.glif",
-      "advance": 442,
+      "path": "data/regular-de-cormorant/uni0434.glif",
+      "advance": 488,
       "donors": [
         "o",
         "o"
       ],
-      "sha256": "78d9c0ece51e5d1688b3f6563239080fadad31dadd49dace26c6de0360967ff3"
+      "sha256": "12c05303671f2717d6ca5049d5333066aae3cd1567a64f9e2cb65acb3ef42394"
     },
     "uni0435": {
       "character": "е",

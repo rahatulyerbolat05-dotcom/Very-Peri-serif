@@ -22,7 +22,7 @@ def main():
     target=out/'uni0434.glif';write_glif(p,'uni0434',design['advance'],0x434,str(target))
     cfg=json.loads(Path('data/alphabet.json').read_text());old=cfg['codex']['д']
     # Once the author chooses the hook, regenerate only the printed source.
-    if old['variants'][0]['path']=='data/regular-de-tail/uni0434.glif':return
+    if old['variants'][0]['path'] in ('data/regular-de-tail/uni0434.glif','data/regular-de-cormorant/uni0434.glif'):return
     if old['variants'][0]['path']!=str(target):cfg['rejected_drawings']['д-before-printed-refinement']=copy.deepcopy(old)
     item=dict(path=str(target),variant='01',label='Печатная, короткие ножки',advance=design['advance'],bounds=list(p.bounds),glif_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),status='selected')
     cfg['codex']['д']=dict(selected='01',shared_with_claude=False,conflict=False,variants=[item],provenance='Codex; quieter printed form requested by author, 17.10.2026')

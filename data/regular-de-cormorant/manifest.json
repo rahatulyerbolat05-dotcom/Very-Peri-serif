@@ -1,0 +1,38 @@
+{
+  "path": "data/regular-de-cormorant/uni0434.glif",
+  "variant": "01",
+  "label": "Широкая округлая чаша, плавный нижний хвост",
+  "advance": 488,
+  "bounds": [
+    30.0,
+    -240.0,
+    436.6428527832031,
+    516.0
+  ],
+  "glif_sha256": "12c05303671f2717d6ca5049d5333066aae3cd1567a64f9e2cb65acb3ef42394",
+  "status": "selected",
+  "design_reference": "Cormorant Garamond Regular ss10 and Cormorant Infant Regular; construction only",
+  "native_modules": {
+    "crown": {
+      "glyph": "q",
+      "translation": [
+        57,
+        0
+      ]
+    },
+    "terminal": {
+      "glyph": "j",
+      "translation": [
+        137,
+        -40
+      ]
+    }
+  },
+  "bowl": "new cubic drawing; native stem/hairline model",
+  "printed_alternative": {
+    "path": "data/regular-de-refinement/uni0434.glif",
+    "feature": "ss07",
+    "source": "Codex",
+    "label": "Печатная д"
+  }
+}

@@ -316,21 +316,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/regular-de-tail/uni0434.glif",
+          "path": "data/regular-de-cormorant/uni0434.glif",
           "variant": "01",
-          "label": "Округлая чаша, нижний крючок",
-          "advance": 442,
+          "label": "Широкая округлая чаша, плавный нижний хвост",
+          "advance": 488,
           "bounds": [
             30.0,
-            -215.0,
-            379.6428527832031,
+            -240.0,
+            436.6428527832031,
             516.0
           ],
-          "glif_sha256": "78d9c0ece51e5d1688b3f6563239080fadad31dadd49dace26c6de0360967ff3",
+          "glif_sha256": "12c05303671f2717d6ca5049d5333066aae3cd1567a64f9e2cb65acb3ef42394",
           "status": "selected"
         }
       ],
-      "provenance": "Codex; author requested a natural lower tail, 17.10.2026"
+      "provenance": "Author selected Cormorant Garamond ss10 / Infant direction; Very Peri contours, 17.10.2026"
     },
     "ж": {
       "selected": "cyr11",
@@ -2222,6 +2222,28 @@
         }
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "д-before-cormorant-direction": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/regular-de-tail/uni0434.glif",
+          "variant": "01",
+          "label": "Округлая чаша, нижний крючок",
+          "advance": 442,
+          "bounds": [
+            30.0,
+            -215.0,
+            379.6428527832031,
+            516.0
+          ],
+          "glif_sha256": "78d9c0ece51e5d1688b3f6563239080fadad31dadd49dace26c6de0360967ff3",
+          "status": "selected"
+        }
+      ],
+      "provenance": "Codex; author requested a natural lower tail, 17.10.2026"
     }
   },
   "tail_styles": {
