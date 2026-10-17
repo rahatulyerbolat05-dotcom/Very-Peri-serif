@@ -25,7 +25,7 @@ def shape(data,font,text,features=None):
             for g,p in zip(buf.glyph_infos,buf.glyph_positions)]
 
 
-def proof(data,font):
+def proof(data,font,output_dir=OUT,doc_path=Path('docs/img/draft_font_proof.svg'),final=False):
     from html import escape
     gs=font.getGlyphSet();width,height=2200,2100
     out=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">',
@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.012',36)
+    label(55,55,font['name'].getDebugName(1)+' · Regular · '+format(font['head'].fontRevision,'.3f'),36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -53,20 +53,24 @@ def proof(data,font):
     label(55,1740,'Родные латинские лигатуры / акценты')
     line('office affine final · е́ ё́ Ә́ і́',55,1880,115)
     line('1 000 ₸ · 25 000 ₸ · ₸100',55,1980,80)
-    label(55,2070,'Черновая сборка: интервалы и кернинг требуют проверки в реальном макете.',28)
+    label(55,2070,'Very Peri Serif Regular · русский / қазақша / Latin' if final else 'Черновая сборка: интервалы и кернинг требуют проверки в реальном макете.',28)
     # Standalone outline preview, rendered from the installed font via HarfBuzz.
     saved=out;out=[saved[0].replace('height="2100"','height="650"').replace('2200 2100','2200 650'),saved[1]]
     label(55,55,'Тенге · U+20B8 · Very Peri Serif Draft',36)
     line('₸',110,530,550)
     line('1 000 ₸',550,285,150)
     line('25 000 ₸ · ₸100',550,470,130)
-    out.append('</svg>');Path('docs/img/tenge.svg').write_text('\n'.join(out));out=saved
+    out.append('</svg>')
+    if not final:Path('docs/img/tenge.svg').write_text('\n'.join(out))
+    out=saved
     out.append('</svg>');svg='\n'.join(out)
-    (OUT/'proof.svg').write_text(svg);Path('docs/img/draft_font_proof.svg').write_text(svg)
+    (Path(output_dir)/'proof.svg').write_text(svg)
+    if doc_path is not None:Path(doc_path).write_text(svg)
 
 
-def main():
-    data=TTF.read_bytes();font=TTFont(TTF,checkChecksums=2);font.ensureDecompiled()
+def main(output_dir=OUT,ttf_path=TTF,doc_path=Path('docs/img/draft_font_proof.svg'),final=False):
+    output_dir=Path(output_dir);ttf_path=Path(ttf_path)
+    data=ttf_path.read_bytes();font=TTFont(ttf_path,checkChecksums=2);font.ensureDecompiled()
     native=TTFont(REF);native_data=REF.read_bytes();context=json.loads(Path('data/context/serif_bl.json').read_text())
     checks=[]
     def expect(condition,label):
@@ -94,12 +98,12 @@ def main():
     expect(circle[-1][1]==0 and circle[-1][3]!=0,'dotted circle mark positioned')
     expect(font['glyf']['uni25CC'].numberOfContours==12,'dotted circle has twelve dots')
     import re,subprocess
-    manifest=json.loads((OUT/'build-manifest.json').read_text())
+    manifest=json.loads((output_dir/'build-manifest.json').read_text())
     if manifest.get('kerning_preserved'):
         oldfea=subprocess.check_output(['git','show','66f1909:font/draft-features.fea']).decode()
         pattern=r'^pos \S+ \S+ -?\d+;$'
         expect(re.findall(pattern,oldfea,re.M)==re.findall(pattern,Path('font/draft-features.fea').read_text(),re.M),'all kerning pairs preserved from 1.002')
-        oldfont=TTFont(io.BytesIO(subprocess.check_output(['git','show','66f1909:'+str(TTF)])))
+        oldfont=TTFont(io.BytesIO(subprocess.check_output(['git','show','66f1909:'+str(ttf_path)])))
         changed=set('үұЗзч')
         for name,r in manifest['glyph_records'].items():
             if name in oldfont.getGlyphOrder() and r['character'] not in changed:
@@ -156,19 +160,19 @@ def main():
     for n in native.getGlyphOrder():
         expect(font['glyf'][n].compile(font['glyf'])==native['glyf'][n].compile(native['glyf']),'native outline '+n)
     expect(set(CHARS).issubset(chr(c) for c in font.getBestCmap()),'complete Russian Kazakh coverage')
-    web=TTFont(OUT/'VeryPeriSerifDraft-Regular.woff2');web.ensureDecompiled()
+    web=TTFont(ttf_path.with_suffix('.woff2'));web.ensureDecompiled()
     expect(web.getBestCmap()==font.getBestCmap(),'WOFF2 cmap roundtrip')
     for tag in ('GSUB','GPOS','GDEF'):
         expect(web[tag].compile(web)==font[tag].compile(font),'WOFF2 layout roundtrip '+tag)
     from check_kerning import check as check_all_pairs
     from build_draft_font import native_kern
-    kerning_checks=check_all_pairs(data,font,native,CHARS,native_kern)
+    kerning_checks=check_all_pairs(data,font,native,CHARS,native_kern,report_path=output_dir/'kerning-validation.json')
     expect(kerning_checks['failed']==0,'exhaustive kerning and unchanged outlines')
-    proof(data,font)
+    proof(data,font,output_dir=output_dir,doc_path=doc_path,final=final)
     summary={'passed':len(checks),'failed':0,'checks':checks,'ttf_sha256':hashlib.sha256(data).hexdigest(),
              'kerning_checks':kerning_checks,
              'scope':'Real HarfBuzz shaping, substitutions, kerning toggles, marks, original Latin regressions and WOFF2 decoding.'}
-    (OUT/'validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
+    (output_dir/'validation.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'passed':len(checks),'failed':0},ensure_ascii=False))
 
 

@@ -6,7 +6,7 @@ import uharfbuzz as hb
 from fontTools.ttLib import TTFont
 
 
-def check(data,font,native,chars,native_kern):
+def check(data,font,native,chars,native_kern,report_path=None):
     rules={(a,b):int(v) for a,b,v in re.findall(r'^pos (\S+) (\S+) (-?\d+);$',Path('font/draft-features.fea').read_text(),re.M)}
     hf=hb.Font(hb.Face(data));hb.ot_font_set_funcs(hf);hf.scale=(1000,1000)
     def run(text,features):
@@ -80,5 +80,5 @@ def check(data,font,native,chars,native_kern):
         'geometric_pairs_checked':len(geometry),'unchanged_outlines_and_advances':len(old.getGlyphOrder())-len(changed),'intentional_outline_changes':sorted(changed),
         'native_native_pairs_changed':0,'vector_pairs_without_body_overlap':len(contour_audit.checked),
         'scope':'All 84×84 ordered pairs in all 16 stylistic-set combinations plus two alternate modes, mixed pairs in both directions, every geometric result and unchanged source shapes/metrics.'}
-    Path('dist/VeryPeriSerifDraft/kerning-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+    Path(report_path or 'dist/VeryPeriSerifDraft/kerning-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     return result

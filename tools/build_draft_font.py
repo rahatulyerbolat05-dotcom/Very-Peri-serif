@@ -178,13 +178,14 @@ def merge_layout(font,extra,tag):
     old.ScriptList.ScriptCount=len(scripts)
 
 
-def main():
+def main(output_dir=OUT,ttf_path=TTF):
+    output_dir=Path(output_dir);ttf_path=Path(ttf_path)
     import subprocess
     import re
     keep_kerning='--keep-kerning' in sys.argv
     kept_pairs={(a,b):int(v) for a,b,v in re.findall(r'^pos (\S+) (\S+) (-?\d+);$',Path('font/draft-features.fea').read_text(),re.M)} if keep_kerning else None
     subprocess.run([sys.executable,'-I','tools/check_context_classes.py'],check=True,stdout=subprocess.DEVNULL)
-    OUT.mkdir(parents=True,exist_ok=True);Path('font').mkdir(exist_ok=True)
+    output_dir.mkdir(parents=True,exist_ok=True);Path('font').mkdir(exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());context=json.loads(Path('data/context/serif_bl.json').read_text())
     font=TTFont(REF);native=TTFont(REF);order=list(font.getGlyphOrder());records={};paths={};chosen={};tail_pairs={}
     def install(ch,filename,name,native_donor=None):
@@ -326,19 +327,19 @@ def main():
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
     font['head'].fontRevision=1.012;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
-    font.save(TTF)
-    web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
+    font.save(ttf_path)
+    web=TTFont(ttf_path);web.recalcTimestamp=False;web.flavor='woff2';web.save(ttf_path.with_suffix('.woff2'))
     manifest={'family':'Very Peri Serif Draft','version':'1.012','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
               'tail_feature':'ss09','te_feature':'ss08','de_feature':'ss07','default_context':'calt',
               'note':'Unapproved designs use first currently displayed proposal; draft spacing and kerning.'}
-    (OUT/'build-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+    (output_dir/'build-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     for filename in ('OFL.txt','AUTHORS.txt'):
-        shutil.copyfile(Path('reference/instrument-serif')/filename,OUT/filename)
-    shutil.copyfile('data/cormorant-de/OFL.txt',OUT/'Cormorant-OFL.txt')
-    shutil.copyfile('data/cormorant-de/NOTICE.txt',OUT/'Cormorant-NOTICE.txt')
-    print(json.dumps({'ttf':str(TTF),'added_glyphs':len(records),'kerning_pairs':len(pairs),'clamped_pairs':len(clamped)},ensure_ascii=False))
+        shutil.copyfile(Path('reference/instrument-serif')/filename,output_dir/filename)
+    shutil.copyfile('data/cormorant-de/OFL.txt',output_dir/'Cormorant-OFL.txt')
+    shutil.copyfile('data/cormorant-de/NOTICE.txt',output_dir/'Cormorant-NOTICE.txt')
+    print(json.dumps({'ttf':str(ttf_path),'added_glyphs':len(records),'kerning_pairs':len(pairs),'clamped_pairs':len(clamped)},ensure_ascii=False))
 
 
 if __name__=='__main__':main()

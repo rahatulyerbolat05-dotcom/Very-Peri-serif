@@ -3762,5 +3762,17 @@
     "stem_probe_y": 148
    }
   }
+ },
+ "regular_release": {
+  "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
+  "family": "Very Peri Serif",
+  "style": "Regular",
+  "version": "1.000",
+  "postscript_name": "VeryPeriSerif-Regular",
+  "vendor_id": "VPER",
+  "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
+  "directory": "dist/VeryPeriSerif",
+  "archive": "dist/VeryPeriSerif-Regular.zip",
+  "date": "2026-10-17"
  }
 }

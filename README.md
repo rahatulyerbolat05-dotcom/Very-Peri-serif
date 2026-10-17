@@ -1,7 +1,10 @@
 # Very Peri Serif
 
 Кириллическое расширение Instrument Serif: русский и казахский, Regular.
-Текущая сборка — **Very Peri Serif Draft**, версия1.012.
+Финальный **Very Peri Serif Regular**, версия1.000.
+
+[Установка и возможности](font/README-regular.md) · [сборка из исходников](font/README.md).
+[Состав и проверка финального релиза](docs/regular-release.md).
 
 [Согласованы ширины, сужена д, усилена з](docs/width-review.md).
 [Сравнение форм](docs/img/width_refinement.svg) · [сравнение в словах](docs/img/width_text_comparison.svg).
@@ -10,19 +13,19 @@
 [Хвостики и различие прописных У/Ү](docs/revision-1.009.md).
 [Аудит 12 шрифтов и сравнение вариантов д](docs/de-reference-audit.md).
 
-- [Устанавливаемый TTF](dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf)
-- [Архив TTF + WOFF2 + лицензия и примеры](dist/VeryPeriSerifDraft-Regular.zip)
-- [Лист набора готовым шрифтом](docs/img/draft_font_proof.svg)
+- [Устанавливаемый TTF](dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf)
+- [Архив TTF + WOFF2 + лицензия и примеры](dist/VeryPeriSerif-Regular.zip)
+- [Лист набора готовым шрифтом](docs/img/regular_release_proof.svg)
 - [Установка, функции OpenType и повторная сборка](font/README.md)
 
 Работают кернинг, контекстные формы п/к/қ, родные латинские лигатуры,
 альтернативная т (`ss08`) и прежние хвостики (`ss09`). Основные хвосты —
-каплевидные. Кернинг и часть форм ещё требуют оптической доводки.
+каплевидные. Кернинг и контекстные формы проверены в готовых TTF/WOFF2.
 
 [Карта алфавита](docs/img/alphabet_status.svg) показывает происхождение
 и состояние рисунков. [Правила проекта](CLAUDE.md),
 [история решений](docs/alphabet-review.md),
-[отчёт проверки готовой сборки](dist/VeryPeriSerifDraft/quality-summary.json).
+[отчёт проверки готовой сборки](dist/VeryPeriSerif/quality-summary.json).
 
 Лицензия SIL OFL1.1; авторы исходного Instrument Serif — Rodrigo Fuenzalida
 и Jordan Egstad. Полный текст лицензии и авторство сохранены в архиве.
