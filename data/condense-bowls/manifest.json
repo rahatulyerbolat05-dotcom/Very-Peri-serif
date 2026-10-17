@@ -1,0 +1,68 @@
+[
+  {
+    "character": "д",
+    "role": "primary",
+    "source": "data/width-refinement/uni0434-primary.glif",
+    "sha256": "40ee82f1778bada62c8dca50da3b7ff090fe6756325e29359d4a1f6c0f094c0b",
+    "path": "data/condense-bowls/uni0434-primary.glif",
+    "advance_before": 428,
+    "advance_after": 418,
+    "before_stem_runs": [
+      [
+        32.541,
+        105.453
+      ],
+      [
+        329.406,
+        392.714
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        32.544,
+        105.509
+      ],
+      [
+        319.397,
+        382.714
+      ]
+    ]
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/weight-balance/uni044E-primary.glif",
+    "sha256": "5cd271afefea92386a3f1b610256c7bb31373aa5fb6826d1b0b7c374b651d5cd",
+    "path": "data/condense-bowls/uni044E-primary.glif",
+    "advance_before": 557,
+    "advance_after": 541,
+    "before_stem_runs": [
+      [
+        79.0,
+        142.0
+      ],
+      [
+        175.42,
+        240.51
+      ],
+      [
+        463.493,
+        528.628
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        79.0,
+        142.0
+      ],
+      [
+        175.424,
+        240.536
+      ],
+      [
+        447.541,
+        512.628
+      ]
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.005",
+  "version": "1.006",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 132,
-  "kerning_pairs_added": 61563,
+  "kerning_pairs_added": 61561,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -35781,13 +35781,13 @@
       "left": "uni0434",
       "right": "j",
       "requested": 12,
-      "actual": 23
+      "actual": 22
     },
     {
       "left": "uni0434",
       "right": "uni0237",
       "requested": 12,
-      "actual": 23
+      "actual": 22
     },
     {
       "left": "uni0434",
@@ -43231,6 +43231,12 @@
     },
     {
       "left": "uni044E",
+      "right": "two",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "six",
       "requested": 2,
       "actual": 0
@@ -43244,12 +43250,6 @@
     {
       "left": "uni044E",
       "right": "eight",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "nine",
       "requested": 2,
       "actual": 0
     },
@@ -43273,6 +43273,12 @@
     },
     {
       "left": "uni044E",
+      "right": "questiondown",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "periodcentered",
       "requested": 2,
       "actual": 0
@@ -43280,12 +43286,6 @@
     {
       "left": "uni044E",
       "right": "bullet",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "numbersign",
       "requested": 2,
       "actual": 0
     },
@@ -43400,6 +43400,12 @@
     {
       "left": "uni044E",
       "right": "Euro",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "sterling",
       "requested": 2,
       "actual": 0
     },
@@ -66572,7 +66578,7 @@
     {
       "left": "uni049B.alternate.tail_old",
       "right": "uni0434",
-      "requested": -118,
+      "requested": -120,
       "actual": -62
     },
     {
@@ -66950,7 +66956,7 @@
     {
       "left": "uni049B.context.tail_old",
       "right": "uni0434",
-      "requested": -118,
+      "requested": -120,
       "actual": -62
     },
     {
@@ -68108,7 +68114,7 @@
     {
       "left": "uni04A2.tail_old",
       "right": "uni0434",
-      "requested": -90,
+      "requested": -92,
       "actual": -66
     },
     {
@@ -68462,7 +68468,7 @@
     "б": "data/codex/uni0431-01.glif",
     "в": "data/codex/uni0432-01.glif",
     "г": "data/codex/uni0433-02.glif",
-    "д": "data/width-refinement/uni0434-primary.glif",
+    "д": "data/condense-bowls/uni0434-primary.glif",
     "е": "data/homoglyph/ie-cy.glif",
     "ё": "data/homoglyph/io-cy.glif",
     "ж": "data/weight-balance/uni0436-primary.glif",
@@ -68489,7 +68495,7 @@
     "ы": "data/width-refinement/uni044B-primary.glif",
     "ь": "data/soft/S3.glif",
     "э": "data/codex/uni044D-02.glif",
-    "ю": "data/weight-balance/uni044E-primary.glif",
+    "ю": "data/condense-bowls/uni044E-primary.glif",
     "я": "data/codex/uni044F-01.glif",
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "Ғ": "data/kz2/Gh2.glif",
@@ -68910,13 +68916,13 @@
     },
     "uni0434": {
       "character": "д",
-      "path": "data/width-refinement/uni0434-primary.glif",
-      "advance": 428,
+      "path": "data/condense-bowls/uni0434-primary.glif",
+      "advance": 418,
       "donors": [
         "o",
         "o"
       ],
-      "sha256": "40ee82f1778bada62c8dca50da3b7ff090fe6756325e29359d4a1f6c0f094c0b"
+      "sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3"
     },
     "uni0435": {
       "character": "е",
@@ -69180,13 +69186,13 @@
     },
     "uni044E": {
       "character": "ю",
-      "path": "data/weight-balance/uni044E-primary.glif",
-      "advance": 557,
+      "path": "data/condense-bowls/uni044E-primary.glif",
+      "advance": 541,
       "donors": [
         "h",
         "o"
       ],
-      "sha256": "5cd271afefea92386a3f1b610256c7bb31373aa5fb6826d1b0b7c374b651d5cd"
+      "sha256": "4eefadbc10db3d491c420a9a08cb0f052e40b2adb06b66cd3c8b198120218b51"
     },
     "uni044F": {
       "character": "я",
@@ -69866,5 +69872,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "8a1f41555cefccd02e78d8bbc3bc9bd7ef015ab33c51eb416cbdc8e3a67647b0"
+  "source_stage_ttf_sha256": "79b6e49e0c237c3dfe082556b2bb8c201eac9d92c41527c1afcbeeee4a1338a6"
 }

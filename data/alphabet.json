@@ -316,23 +316,23 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/width-refinement/uni0434-primary.glif",
-          "advance": 428,
+          "path": "data/condense-bowls/uni0434-primary.glif",
+          "advance": 418,
           "bounds": [
             30.0,
             -280.0,
-            392.7140197753906,
+            382.7139892578125,
             516.0
           ],
-          "glif_sha256": "40ee82f1778bada62c8dca50da3b7ff090fe6756325e29359d4a1f6c0f094c0b",
+          "glif_sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3",
           "role": "primary",
           "variant": "01",
-          "label": "Согласованные пропорции",
-          "status": "width/weight refinement requested by author",
-          "width_source_glif": "data/cormorant-de/uni0434-03.glif"
+          "label": "Ужатая чаша",
+          "status": "bowl condensed to the Latin counter, requested by author",
+          "condense_source_glif": "data/width-refinement/uni0434-primary.glif"
         }
       ],
-      "provenance": "Width/weight refinement requested by author; previous sources archived"
+      "provenance": "Bowl condense requested by author; previous sources archived"
     },
     "ж": {
       "selected": "01",
@@ -1125,23 +1125,23 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/weight-balance/uni044E-primary.glif",
-          "advance": 557,
+          "path": "data/condense-bowls/uni044E-primary.glif",
+          "advance": 541,
           "bounds": [
             16.511680603027344,
             -9.0,
-            531.8123168945312,
+            515.8123168945312,
             516.0
           ],
-          "glif_sha256": "5cd271afefea92386a3f1b610256c7bb31373aa5fb6826d1b0b7c374b651d5cd",
+          "glif_sha256": "4eefadbc10db3d491c420a9a08cb0f052e40b2adb06b66cd3c8b198120218b51",
           "role": "primary",
           "variant": "01",
-          "label": "Облегчённые штрихи",
-          "status": "weight balance requested by author",
-          "weight_source_glif": "data/width-refinement/uni044E-primary.glif"
+          "label": "Ужатая чаша",
+          "status": "bowl condensed to the Latin counter, requested by author",
+          "condense_source_glif": "data/weight-balance/uni044E-primary.glif"
         }
       ],
-      "provenance": "Weight balance requested by author; previous sources archived"
+      "provenance": "Bowl condense requested by author; previous sources archived"
     },
     "ш": {
       "selected": "01",
@@ -4475,6 +4475,56 @@
           }
         ],
         "provenance": "user/Claude Cyr11; integrated and retained by Codex"
+      }
+    },
+    "before-condense-bowls": {
+      "д": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/width-refinement/uni0434-primary.glif",
+            "advance": 428,
+            "bounds": [
+              30.0,
+              -280.0,
+              392.7140197753906,
+              516.0
+            ],
+            "glif_sha256": "40ee82f1778bada62c8dca50da3b7ff090fe6756325e29359d4a1f6c0f094c0b",
+            "role": "primary",
+            "variant": "01",
+            "label": "Согласованные пропорции",
+            "status": "width/weight refinement requested by author",
+            "width_source_glif": "data/cormorant-de/uni0434-03.glif"
+          }
+        ],
+        "provenance": "Width/weight refinement requested by author; previous sources archived"
+      },
+      "ю": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/weight-balance/uni044E-primary.glif",
+            "advance": 557,
+            "bounds": [
+              16.511680603027344,
+              -9.0,
+              531.8123168945312,
+              516.0
+            ],
+            "glif_sha256": "5cd271afefea92386a3f1b610256c7bb31373aa5fb6826d1b0b7c374b651d5cd",
+            "role": "primary",
+            "variant": "01",
+            "label": "Облегчённые штрихи",
+            "status": "weight balance requested by author",
+            "weight_source_glif": "data/width-refinement/uni044E-primary.glif"
+          }
+        ],
+        "provenance": "Weight balance requested by author; previous sources archived"
       }
     }
   },

@@ -3767,7 +3767,7 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.005",
+  "version": "1.006",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
@@ -3853,6 +3853,66 @@
      [
       309,
       305
+     ]
+    ]
+   }
+  }
+ },
+ "condense_bowls": {
+  "status": "17.10.2026: author asks to condense every glyph that can be condensed beautifully, as in the Latin; measured counters (mid x-height) of Cyrillic against native Latin show only д (224 vs o 208) and ю (224 vs o 208, opened by the 1.002 weight pass) wider than the Latin standard.",
+  "reference": "Latin o inner counter at y=255 is 208; n/u/h stem gap 174-182; Cyrillic ш/т stem gap 146 (already tighter than Latin), so they are not narrowed.",
+  "letters": {
+   "д": {
+    "method": "knots",
+    "reduction": 10,
+    "stem_probe_y": 255,
+    "knots": [
+     [
+      30,
+      30
+     ],
+     [
+      108,
+      108
+     ],
+     [
+      329,
+      319
+     ],
+     [
+      393,
+      383
+     ]
+    ]
+   },
+   "ю": {
+    "method": "knots",
+    "reduction": 16,
+    "stem_probe_y": 200,
+    "knots": [
+     [
+      79,
+      79
+     ],
+     [
+      142,
+      142
+     ],
+     [
+      175,
+      175
+     ],
+     [
+      241,
+      241
+     ],
+     [
+      465,
+      449
+     ],
+     [
+      529,
+      513
      ]
     ]
    }
