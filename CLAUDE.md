@@ -1,3 +1,8 @@
+`[РЕШЕНИЕ · 17.10.2026]` Автор утвердил самую узкую д: вариант03,
+88% ширины Cormorant, хвост−280, advance472. Это основной вариант
+Regular1.010; выбор02 в исторической записи ниже отменён. Печатная ss07
+сохранена. Параметр `cormorant_de_proportions.selected` =03.
+
 `[РЕШЕНИЕ · 17.10.2026]` Автор отклонил д1.008 и явно велел взять сам
 контур Cormorant. Это отменяет запрет импортировать Cormorant для д.
 Четыре пропорции в `data/cormorant-de/`, рабочая02 (94%, хвост−280),
@@ -70,7 +75,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.009, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.010, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.

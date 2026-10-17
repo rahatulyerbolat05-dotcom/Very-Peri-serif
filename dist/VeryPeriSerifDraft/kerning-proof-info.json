@@ -1,7 +1,7 @@
 {
-  "ttf_sha256": "25a423ddddfa2880dd81f9ff8d444e6acd519ecad4a3c4658de17681e8a03c75",
-  "pdf_sha256": "50df48755daf6a7087afecda5e079ed56fd8a9019dc03befb47914ecfae2eaf6",
-  "html_sha256": "7b786c41a19945ea906df96b18e36bb1c02cae6c58bba6157cbc43180bd61131",
+  "ttf_sha256": "331b230f06c1e433be2a1f592aae34080996413ae2c6d13734d13af8cf917e5e",
+  "pdf_sha256": "4f27999129e412bb6040929e2b25fcec9ba0a40ad095f3e9f29d033968712fee",
+  "html_sha256": "be118df5534319afe825d3338422206185732c65a9c1f473048903cff2c98270",
   "pdf_pages": 126,
   "primary_ordered_pairs": 7056,
   "alternative_forms": 21,

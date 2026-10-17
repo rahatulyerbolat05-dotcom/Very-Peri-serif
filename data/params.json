@@ -3461,12 +3461,12 @@
   "terminal_dy": -40
  },
  "cormorant_de_proportions": {
-  "status": "[РЕШЕНИЕ] 17.10.2026 explicit author request: take the actual Cormorant de outline and vary proportions",
+  "status": "[РЕШЕНИЕ] 17.10.2026: author approved narrowest variant03 (88% width, tail -280)",
   "body_top": 516,
   "tail_hinge": -12,
   "left_bearing": 30,
   "right_bearing": 35,
-  "selected": "02",
+  "selected": "03",
   "variants": [
    {
     "id": "01",

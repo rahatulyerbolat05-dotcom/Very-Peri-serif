@@ -91,9 +91,9 @@
     "ү",
     "ұ",
     "ч",
-    "д",
     "ц",
-    "щ"
+    "щ",
+    "д"
   ],
   "built_bases": {
     "н": "data/en/n4.glif",
@@ -146,7 +146,7 @@
     "б": "data/codex/uni0431-01.glif",
     "в": "data/codex/uni0432-01.glif",
     "г": "data/codex/uni0433-02.glif",
-    "д": "data/cormorant-de/uni0434-02.glif",
+    "д": "data/cormorant-de/uni0434-03.glif",
     "ж": "data/codex/uni0436-cyr11.glif",
     "з": "data/regular-refinement/uni0437.glif",
     "э": "data/codex/uni044D-02.glif",
