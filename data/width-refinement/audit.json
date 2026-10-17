@@ -1,0 +1,4249 @@
+{
+  "baseline_commit": "f3614aa",
+  "ttf_sha256": "241672132e11addc0bd13fe95d4669faa140dbed104b2082b77fc37bd67ea19a",
+  "primary_cyrillic_reviewed": 84,
+  "basic_latin_reviewed": 52,
+  "installed_alternates_reviewed": 21,
+  "measurements": [
+    {
+      "character": "А",
+      "name": "uni0410",
+      "role": "primary",
+      "before": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          0.0,
+          475.0,
+          730.0
+        ],
+        "median_body_span": 209.5,
+        "median_ink_per_row": 102.83
+      },
+      "after": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          0.0,
+          475.0,
+          730.0
+        ],
+        "median_body_span": 209.5,
+        "median_ink_per_row": 102.83
+      }
+    },
+    {
+      "character": "Б",
+      "name": "uni0411",
+      "role": "primary",
+      "before": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 312.84,
+        "median_ink_per_row": 141.68
+      },
+      "after": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 312.84,
+        "median_ink_per_row": 141.68
+      }
+    },
+    {
+      "character": "В",
+      "name": "uni0412",
+      "role": "primary",
+      "before": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 319.33,
+        "median_ink_per_row": 144.22
+      },
+      "after": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 319.33,
+        "median_ink_per_row": 144.22
+      }
+    },
+    {
+      "character": "Г",
+      "name": "uni0413",
+      "role": "primary",
+      "before": {
+        "advance": 422,
+        "bounds": [
+          19.0,
+          0.0,
+          403.20001220703125,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 422,
+        "bounds": [
+          19.0,
+          0.0,
+          403.20001220703125,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "Д",
+      "name": "uni0414",
+      "role": "primary",
+      "before": {
+        "advance": 590,
+        "bounds": [
+          16.799999237060547,
+          -110.0,
+          568.0,
+          720.0
+        ],
+        "median_body_span": 312.28,
+        "median_ink_per_row": 103.0
+      },
+      "after": {
+        "advance": 590,
+        "bounds": [
+          16.799999237060547,
+          -110.0,
+          568.0,
+          720.0
+        ],
+        "median_body_span": 312.28,
+        "median_ink_per_row": 103.0
+      }
+    },
+    {
+      "character": "Е",
+      "name": "uni0415",
+      "role": "primary",
+      "before": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.20001220703125,
+          720.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      },
+      "after": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.20001220703125,
+          720.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      }
+    },
+    {
+      "character": "Ё",
+      "name": "uni0401",
+      "role": "primary",
+      "before": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.20001220703125,
+          916.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      },
+      "after": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.20001220703125,
+          916.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      }
+    },
+    {
+      "character": "Ж",
+      "name": "uni0416",
+      "role": "primary",
+      "before": {
+        "advance": 821,
+        "bounds": [
+          19.0,
+          0.0,
+          802.0,
+          720.0
+        ],
+        "median_body_span": 417.11,
+        "median_ink_per_row": 227.19
+      },
+      "after": {
+        "advance": 757,
+        "bounds": [
+          18.0,
+          0.0,
+          739.0,
+          720.0
+        ],
+        "median_body_span": 389.89,
+        "median_ink_per_row": 227.24
+      }
+    },
+    {
+      "character": "З",
+      "name": "uni0417",
+      "role": "primary",
+      "before": {
+        "advance": 371,
+        "bounds": [
+          20.0,
+          -9.0,
+          341.0,
+          730.0
+        ],
+        "median_body_span": 77.24,
+        "median_ink_per_row": 77.24
+      },
+      "after": {
+        "advance": 371,
+        "bounds": [
+          20.0,
+          -9.0,
+          341.0,
+          730.0
+        ],
+        "median_body_span": 77.24,
+        "median_ink_per_row": 77.24
+      }
+    },
+    {
+      "character": "И",
+      "name": "uni0418",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 175.91
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 175.91
+      }
+    },
+    {
+      "character": "Й",
+      "name": "uni0419",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          940.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 175.91
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          940.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 175.91
+      }
+    },
+    {
+      "character": "К",
+      "name": "uni041A",
+      "role": "primary",
+      "before": {
+        "advance": 496,
+        "bounds": [
+          19.0,
+          0.0,
+          516.0,
+          720.0
+        ],
+        "median_body_span": 244.06,
+        "median_ink_per_row": 149.09
+      },
+      "after": {
+        "advance": 496,
+        "bounds": [
+          19.0,
+          0.0,
+          516.0,
+          720.0
+        ],
+        "median_body_span": 244.06,
+        "median_ink_per_row": 149.09
+      }
+    },
+    {
+      "character": "Л",
+      "name": "uni041B",
+      "role": "primary",
+      "before": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          447.0,
+          720.0
+        ],
+        "median_body_span": 201.23,
+        "median_ink_per_row": 102.02
+      },
+      "after": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          447.0,
+          720.0
+        ],
+        "median_body_span": 201.23,
+        "median_ink_per_row": 102.02
+      }
+    },
+    {
+      "character": "М",
+      "name": "uni041C",
+      "role": "primary",
+      "before": {
+        "advance": 665,
+        "bounds": [
+          14.0,
+          0.0,
+          651.0,
+          720.0
+        ],
+        "median_body_span": 475.7,
+        "median_ink_per_row": 201.57
+      },
+      "after": {
+        "advance": 665,
+        "bounds": [
+          14.0,
+          0.0,
+          651.0,
+          720.0
+        ],
+        "median_body_span": 475.7,
+        "median_ink_per_row": 201.57
+      }
+    },
+    {
+      "character": "Н",
+      "name": "uni041D",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "О",
+      "name": "uni041E",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.32
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.32
+      }
+    },
+    {
+      "character": "П",
+      "name": "uni041F",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "Р",
+      "name": "uni0420",
+      "role": "primary",
+      "before": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          442.0,
+          720.0
+        ],
+        "median_body_span": 266.21,
+        "median_ink_per_row": 141.77
+      },
+      "after": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          442.0,
+          720.0
+        ],
+        "median_body_span": 266.21,
+        "median_ink_per_row": 141.77
+      }
+    },
+    {
+      "character": "С",
+      "name": "uni0421",
+      "role": "primary",
+      "before": {
+        "advance": 480,
+        "bounds": [
+          40.0,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 189.14,
+        "median_ink_per_row": 85.73
+      },
+      "after": {
+        "advance": 480,
+        "bounds": [
+          40.0,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 189.14,
+        "median_ink_per_row": 85.73
+      }
+    },
+    {
+      "character": "Т",
+      "name": "uni0422",
+      "role": "primary",
+      "before": {
+        "advance": 461,
+        "bounds": [
+          11.800000190734863,
+          0.0,
+          449.20001220703125,
+          735.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 461,
+        "bounds": [
+          11.800000190734863,
+          0.0,
+          449.20001220703125,
+          735.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "У",
+      "name": "uni0423",
+      "role": "primary",
+      "before": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -9.0,
+          409.0,
+          720.0
+        ],
+        "median_body_span": 134.09,
+        "median_ink_per_row": 99.86
+      },
+      "after": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -9.0,
+          409.0,
+          720.0
+        ],
+        "median_body_span": 134.09,
+        "median_ink_per_row": 99.86
+      }
+    },
+    {
+      "character": "Ф",
+      "name": "uni0424",
+      "role": "primary",
+      "before": {
+        "advance": 650,
+        "bounds": [
+          35.0,
+          0.0,
+          615.0,
+          720.0
+        ],
+        "median_body_span": 482.84,
+        "median_ink_per_row": 205.85
+      },
+      "after": {
+        "advance": 610,
+        "bounds": [
+          35.0,
+          0.0,
+          575.0,
+          720.0
+        ],
+        "median_body_span": 442.84,
+        "median_ink_per_row": 201.84
+      }
+    },
+    {
+      "character": "Х",
+      "name": "uni0425",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          20.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 191.43,
+        "median_ink_per_row": 105.13
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          20.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 191.43,
+        "median_ink_per_row": 105.13
+      }
+    },
+    {
+      "character": "Ц",
+      "name": "uni0426",
+      "role": "primary",
+      "before": {
+        "advance": 616,
+        "bounds": [
+          19.0,
+          -131.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 616,
+        "bounds": [
+          19.0,
+          -131.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "Ч",
+      "name": "uni0427",
+      "role": "primary",
+      "before": {
+        "advance": 582,
+        "bounds": [
+          22.0,
+          0.0,
+          563.0,
+          720.0
+        ],
+        "median_body_span": 159.31,
+        "median_ink_per_row": 100.72
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          22.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 142.2,
+        "median_ink_per_row": 91.29
+      }
+    },
+    {
+      "character": "Ш",
+      "name": "uni0428",
+      "role": "primary",
+      "before": {
+        "advance": 749,
+        "bounds": [
+          19.0,
+          0.0,
+          730.0,
+          720.0
+        ],
+        "median_body_span": 571.0,
+        "median_ink_per_row": 213.0
+      },
+      "after": {
+        "advance": 705,
+        "bounds": [
+          19.0,
+          0.0,
+          686.0,
+          720.0
+        ],
+        "median_body_span": 527.0,
+        "median_ink_per_row": 213.0
+      }
+    },
+    {
+      "character": "Щ",
+      "name": "uni0429",
+      "role": "primary",
+      "before": {
+        "advance": 818,
+        "bounds": [
+          19.0,
+          -128.0,
+          729.0,
+          720.0
+        ],
+        "median_body_span": 570.0,
+        "median_ink_per_row": 212.0
+      },
+      "after": {
+        "advance": 774,
+        "bounds": [
+          19.0,
+          -128.0,
+          685.0,
+          720.0
+        ],
+        "median_body_span": 526.0,
+        "median_ink_per_row": 212.0
+      }
+    },
+    {
+      "character": "Ъ",
+      "name": "uni042A",
+      "role": "primary",
+      "before": {
+        "advance": 593,
+        "bounds": [
+          20.799999237060547,
+          0.0,
+          565.0,
+          735.0
+        ],
+        "median_body_span": 294.63,
+        "median_ink_per_row": 141.68
+      },
+      "after": {
+        "advance": 593,
+        "bounds": [
+          20.799999237060547,
+          0.0,
+          565.0,
+          735.0
+        ],
+        "median_body_span": 294.63,
+        "median_ink_per_row": 141.68
+      }
+    },
+    {
+      "character": "Ы",
+      "name": "uni042B",
+      "role": "primary",
+      "before": {
+        "advance": 724,
+        "bounds": [
+          19.0,
+          0.0,
+          705.0,
+          720.0
+        ],
+        "median_body_span": 546.0,
+        "median_ink_per_row": 212.68
+      },
+      "after": {
+        "advance": 674,
+        "bounds": [
+          19.0,
+          0.0,
+          655.0,
+          720.0
+        ],
+        "median_body_span": 496.0,
+        "median_ink_per_row": 212.68
+      }
+    },
+    {
+      "character": "Ь",
+      "name": "uni042C",
+      "role": "primary",
+      "before": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 294.63,
+        "median_ink_per_row": 141.68
+      },
+      "after": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 294.63,
+        "median_ink_per_row": 141.68
+      }
+    },
+    {
+      "character": "Э",
+      "name": "uni042D",
+      "role": "primary",
+      "before": {
+        "advance": 480,
+        "bounds": [
+          51.181819915771484,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 77.28,
+        "median_ink_per_row": 77.28
+      },
+      "after": {
+        "advance": 480,
+        "bounds": [
+          51.181819915771484,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 77.28,
+        "median_ink_per_row": 77.28
+      }
+    },
+    {
+      "character": "Ю",
+      "name": "uni042E",
+      "role": "primary",
+      "before": {
+        "advance": 715,
+        "bounds": [
+          19.0,
+          -9.0,
+          675.0,
+          730.0
+        ],
+        "median_body_span": 567.24,
+        "median_ink_per_row": 210.79
+      },
+      "after": {
+        "advance": 685,
+        "bounds": [
+          19.0,
+          -9.0,
+          645.0,
+          730.0
+        ],
+        "median_body_span": 537.24,
+        "median_ink_per_row": 210.79
+      }
+    },
+    {
+      "character": "Я",
+      "name": "uni042F",
+      "role": "primary",
+      "before": {
+        "advance": 519,
+        "bounds": [
+          -8.0,
+          0.0,
+          481.0,
+          720.0
+        ],
+        "median_body_span": 321.62,
+        "median_ink_per_row": 141.77
+      },
+      "after": {
+        "advance": 519,
+        "bounds": [
+          -8.0,
+          0.0,
+          481.0,
+          720.0
+        ],
+        "median_body_span": 321.62,
+        "median_ink_per_row": 141.77
+      }
+    },
+    {
+      "character": "а",
+      "name": "uni0430",
+      "role": "primary",
+      "before": {
+        "advance": 399,
+        "bounds": [
+          24.0,
+          -9.0,
+          394.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      },
+      "after": {
+        "advance": 399,
+        "bounds": [
+          24.0,
+          -9.0,
+          394.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      }
+    },
+    {
+      "character": "б",
+      "name": "uni0431",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          740.4705810546875
+        ],
+        "median_body_span": 342.23,
+        "median_ink_per_row": 148.33
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          740.4705810546875
+        ],
+        "median_body_span": 342.23,
+        "median_ink_per_row": 148.33
+      }
+    },
+    {
+      "character": "в",
+      "name": "uni0432",
+      "role": "primary",
+      "before": {
+        "advance": 421,
+        "bounds": [
+          15.0,
+          0.0,
+          395.0,
+          516.0
+        ],
+        "median_body_span": 299.37,
+        "median_ink_per_row": 140.22
+      },
+      "after": {
+        "advance": 421,
+        "bounds": [
+          15.0,
+          0.0,
+          395.0,
+          516.0
+        ],
+        "median_body_span": 299.37,
+        "median_ink_per_row": 140.22
+      }
+    },
+    {
+      "character": "г",
+      "name": "uni0433",
+      "role": "primary",
+      "before": {
+        "advance": 335,
+        "bounds": [
+          15.0,
+          0.0,
+          316.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 335,
+        "bounds": [
+          15.0,
+          0.0,
+          316.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "д",
+      "name": "uni0434",
+      "role": "primary",
+      "before": {
+        "advance": 472,
+        "bounds": [
+          30.0,
+          -280.0,
+          437.0,
+          516.0
+        ],
+        "median_body_span": 393.9,
+        "median_ink_per_row": 137.03
+      },
+      "after": {
+        "advance": 428,
+        "bounds": [
+          30.0,
+          -280.0,
+          393.0,
+          516.0
+        ],
+        "median_body_span": 350.02,
+        "median_ink_per_row": 137.03
+      }
+    },
+    {
+      "character": "е",
+      "name": "uni0435",
+      "role": "primary",
+      "before": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      },
+      "after": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      }
+    },
+    {
+      "character": "ё",
+      "name": "uni0451",
+      "role": "primary",
+      "before": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          337.0,
+          706.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      },
+      "after": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          337.0,
+          706.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      }
+    },
+    {
+      "character": "ж",
+      "name": "uni0436",
+      "role": "primary",
+      "before": {
+        "advance": 552,
+        "bounds": [
+          -2.142857074737549,
+          0.0,
+          551.7999877929688,
+          510.0
+        ],
+        "median_body_span": 314.41,
+        "median_ink_per_row": 195.74
+      },
+      "after": {
+        "advance": 552,
+        "bounds": [
+          -2.142857074737549,
+          0.0,
+          551.7999877929688,
+          510.0
+        ],
+        "median_body_span": 314.41,
+        "median_ink_per_row": 195.74
+      }
+    },
+    {
+      "character": "з",
+      "name": "uni0437",
+      "role": "primary",
+      "before": {
+        "advance": 349,
+        "bounds": [
+          24.0,
+          -9.0,
+          326.0,
+          516.0
+        ],
+        "median_body_span": 72.99,
+        "median_ink_per_row": 72.63
+      },
+      "after": {
+        "advance": 349,
+        "bounds": [
+          24.0,
+          -9.0,
+          326.0,
+          516.0
+        ],
+        "median_body_span": 77.82,
+        "median_ink_per_row": 77.53
+      }
+    },
+    {
+      "character": "и",
+      "name": "uni0438",
+      "role": "primary",
+      "before": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "й",
+      "name": "uni0439",
+      "role": "primary",
+      "before": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          730.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          730.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "к",
+      "name": "uni043A",
+      "role": "primary",
+      "before": {
+        "advance": 451,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.67
+      },
+      "after": {
+        "advance": 451,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.67
+      }
+    },
+    {
+      "character": "л",
+      "name": "uni043B",
+      "role": "primary",
+      "before": {
+        "advance": 476,
+        "bounds": [
+          19.0,
+          0.0,
+          461.0,
+          516.3809814453125
+        ],
+        "median_body_span": 255.3,
+        "median_ink_per_row": 97.46
+      },
+      "after": {
+        "advance": 476,
+        "bounds": [
+          19.0,
+          0.0,
+          461.0,
+          516.3809814453125
+        ],
+        "median_body_span": 255.3,
+        "median_ink_per_row": 97.46
+      }
+    },
+    {
+      "character": "м",
+      "name": "uni043C",
+      "role": "primary",
+      "before": {
+        "advance": 542,
+        "bounds": [
+          15.0,
+          0.0,
+          527.0,
+          510.0
+        ],
+        "median_body_span": 365.68,
+        "median_ink_per_row": 197.71
+      },
+      "after": {
+        "advance": 542,
+        "bounds": [
+          15.0,
+          0.0,
+          527.0,
+          510.0
+        ],
+        "median_body_span": 365.68,
+        "median_ink_per_row": 197.71
+      }
+    },
+    {
+      "character": "н",
+      "name": "uni043D",
+      "role": "primary",
+      "before": {
+        "advance": 466,
+        "bounds": [
+          10.0,
+          -5.0,
+          451.0,
+          513.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 466,
+        "bounds": [
+          10.0,
+          -5.0,
+          451.0,
+          513.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "о",
+      "name": "uni043E",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.49
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.49
+      }
+    },
+    {
+      "character": "п",
+      "name": "uni043F",
+      "role": "primary",
+      "before": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "р",
+      "name": "uni0440",
+      "role": "primary",
+      "before": {
+        "advance": 444,
+        "bounds": [
+          12.0,
+          -205.0,
+          414.0,
+          516.0
+        ],
+        "median_body_span": 331.37,
+        "median_ink_per_row": 141.51
+      },
+      "after": {
+        "advance": 444,
+        "bounds": [
+          12.0,
+          -205.0,
+          414.0,
+          516.0
+        ],
+        "median_body_span": 331.37,
+        "median_ink_per_row": 141.51
+      }
+    },
+    {
+      "character": "с",
+      "name": "uni0441",
+      "role": "primary",
+      "before": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          316.5714416503906,
+          516.0
+        ],
+        "median_body_span": 233.01,
+        "median_ink_per_row": 94.49
+      },
+      "after": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          316.5714416503906,
+          516.0
+        ],
+        "median_body_span": 233.01,
+        "median_ink_per_row": 94.49
+      }
+    },
+    {
+      "character": "т",
+      "name": "uni0442",
+      "role": "primary",
+      "before": {
+        "advance": 718,
+        "bounds": [
+          15.0,
+          -9.0,
+          707.0,
+          516.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.14
+      },
+      "after": {
+        "advance": 662,
+        "bounds": [
+          15.0,
+          -9.0,
+          651.0,
+          516.0
+        ],
+        "median_body_span": 496.0,
+        "median_ink_per_row": 204.14
+      }
+    },
+    {
+      "character": "у",
+      "name": "uni0443",
+      "role": "primary",
+      "before": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -205.0,
+          409.0,
+          510.0
+        ],
+        "median_body_span": 179.23,
+        "median_ink_per_row": 99.79
+      },
+      "after": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -205.0,
+          409.0,
+          510.0
+        ],
+        "median_body_span": 179.23,
+        "median_ink_per_row": 99.79
+      }
+    },
+    {
+      "character": "ф",
+      "name": "uni0444",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          15.0,
+          -205.0,
+          531.0,
+          740.0
+        ],
+        "median_body_span": 498.17,
+        "median_ink_per_row": 217.1
+      },
+      "after": {
+        "advance": 510,
+        "bounds": [
+          15.0,
+          -205.0,
+          495.0,
+          740.0
+        ],
+        "median_body_span": 462.16,
+        "median_ink_per_row": 217.43
+      }
+    },
+    {
+      "character": "х",
+      "name": "uni0445",
+      "role": "primary",
+      "before": {
+        "advance": 385,
+        "bounds": [
+          -8.0,
+          0.0,
+          389.0,
+          510.0
+        ],
+        "median_body_span": 159.23,
+        "median_ink_per_row": 100.17
+      },
+      "after": {
+        "advance": 385,
+        "bounds": [
+          -8.0,
+          0.0,
+          389.0,
+          510.0
+        ],
+        "median_body_span": 159.23,
+        "median_ink_per_row": 100.17
+      }
+    },
+    {
+      "character": "ц",
+      "name": "uni0446",
+      "role": "primary",
+      "before": {
+        "advance": 536,
+        "bounds": [
+          15.0,
+          -130.0,
+          444.0,
+          510.0
+        ],
+        "median_body_span": 308.0,
+        "median_ink_per_row": 134.0
+      },
+      "after": {
+        "advance": 536,
+        "bounds": [
+          15.0,
+          -130.0,
+          444.0,
+          510.0
+        ],
+        "median_body_span": 308.0,
+        "median_ink_per_row": 134.0
+      }
+    },
+    {
+      "character": "ч",
+      "name": "uni0447",
+      "role": "primary",
+      "before": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -5.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 281.85,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -5.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 281.85,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "ш",
+      "name": "uni0448",
+      "role": "primary",
+      "before": {
+        "advance": 704,
+        "bounds": [
+          19.0,
+          -6.0,
+          689.0,
+          510.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.0
+      },
+      "after": {
+        "advance": 648,
+        "bounds": [
+          19.0,
+          -6.0,
+          633.0,
+          510.0
+        ],
+        "median_body_span": 496.0,
+        "median_ink_per_row": 204.0
+      }
+    },
+    {
+      "character": "щ",
+      "name": "uni0449",
+      "role": "primary",
+      "before": {
+        "advance": 777,
+        "bounds": [
+          15.0,
+          -129.0,
+          685.0,
+          510.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.0
+      },
+      "after": {
+        "advance": 721,
+        "bounds": [
+          15.0,
+          -129.0,
+          629.0,
+          510.0
+        ],
+        "median_body_span": 496.0,
+        "median_ink_per_row": 204.0
+      }
+    },
+    {
+      "character": "ъ",
+      "name": "uni044A",
+      "role": "primary",
+      "before": {
+        "advance": 427,
+        "bounds": [
+          3.0,
+          -9.0,
+          397.0,
+          510.0
+        ],
+        "median_body_span": 173.0,
+        "median_ink_per_row": 121.52
+      },
+      "after": {
+        "advance": 427,
+        "bounds": [
+          3.0,
+          -9.0,
+          397.0,
+          510.0
+        ],
+        "median_body_span": 173.0,
+        "median_ink_per_row": 121.52
+      }
+    },
+    {
+      "character": "ы",
+      "name": "uni044B",
+      "role": "primary",
+      "before": {
+        "advance": 537,
+        "bounds": [
+          -2.0,
+          -9.0,
+          522.0,
+          513.0
+        ],
+        "median_body_span": 401.0,
+        "median_ink_per_row": 189.52
+      },
+      "after": {
+        "advance": 511,
+        "bounds": [
+          -2.0,
+          -9.0,
+          496.0,
+          513.0
+        ],
+        "median_body_span": 375.0,
+        "median_ink_per_row": 189.52
+      }
+    },
+    {
+      "character": "ь",
+      "name": "uni044C",
+      "role": "primary",
+      "before": {
+        "advance": 381,
+        "bounds": [
+          -2.0,
+          -9.0,
+          351.0,
+          513.0
+        ],
+        "median_body_span": 170.27,
+        "median_ink_per_row": 121.52
+      },
+      "after": {
+        "advance": 381,
+        "bounds": [
+          -2.0,
+          -9.0,
+          351.0,
+          513.0
+        ],
+        "median_body_span": 170.27,
+        "median_ink_per_row": 121.52
+      }
+    },
+    {
+      "character": "э",
+      "name": "uni044D",
+      "role": "primary",
+      "before": {
+        "advance": 368,
+        "bounds": [
+          23.0,
+          -9.0,
+          343.0,
+          516.0
+        ],
+        "median_body_span": 232.93,
+        "median_ink_per_row": 80.72
+      },
+      "after": {
+        "advance": 368,
+        "bounds": [
+          23.0,
+          -9.0,
+          343.0,
+          516.0
+        ],
+        "median_body_span": 232.93,
+        "median_ink_per_row": 80.72
+      }
+    },
+    {
+      "character": "ю",
+      "name": "uni044E",
+      "role": "primary",
+      "before": {
+        "advance": 587,
+        "bounds": [
+          15.0,
+          -9.0,
+          562.0,
+          516.0
+        ],
+        "median_body_span": 472.18,
+        "median_ink_per_row": 208.4
+      },
+      "after": {
+        "advance": 557,
+        "bounds": [
+          15.0,
+          -9.0,
+          532.0,
+          516.0
+        ],
+        "median_body_span": 442.18,
+        "median_ink_per_row": 208.4
+      }
+    },
+    {
+      "character": "я",
+      "name": "uni044F",
+      "role": "primary",
+      "before": {
+        "advance": 444,
+        "bounds": [
+          24.0,
+          -9.0,
+          429.0,
+          516.0
+        ],
+        "median_body_span": 274.45,
+        "median_ink_per_row": 143.69
+      },
+      "after": {
+        "advance": 444,
+        "bounds": [
+          24.0,
+          -9.0,
+          429.0,
+          516.0
+        ],
+        "median_body_span": 274.45,
+        "median_ink_per_row": 143.69
+      }
+    },
+    {
+      "character": "Ә",
+      "name": "uni04D8",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -8.789473533630371,
+          500.28570556640625,
+          730.0908813476562
+        ],
+        "median_body_span": 349.92,
+        "median_ink_per_row": 133.59
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -8.789473533630371,
+          500.28570556640625,
+          730.0908813476562
+        ],
+        "median_body_span": 349.92,
+        "median_ink_per_row": 133.59
+      }
+    },
+    {
+      "character": "Ғ",
+      "name": "uni0492",
+      "role": "primary",
+      "before": {
+        "advance": 422,
+        "bounds": [
+          19.0,
+          0.0,
+          403.20001220703125,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 422,
+        "bounds": [
+          19.0,
+          0.0,
+          403.20001220703125,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "Қ",
+      "name": "uni049A",
+      "role": "primary",
+      "before": {
+        "advance": 577,
+        "bounds": [
+          19.0,
+          -127.0,
+          497.0,
+          720.0
+        ],
+        "median_body_span": 243.82,
+        "median_ink_per_row": 147.65
+      },
+      "after": {
+        "advance": 577,
+        "bounds": [
+          19.0,
+          -127.0,
+          497.0,
+          720.0
+        ],
+        "median_body_span": 243.82,
+        "median_ink_per_row": 147.65
+      }
+    },
+    {
+      "character": "Ң",
+      "name": "uni04A2",
+      "role": "primary",
+      "before": {
+        "advance": 614,
+        "bounds": [
+          19.0,
+          -132.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 614,
+        "bounds": [
+          19.0,
+          -132.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "Ө",
+      "name": "uni04E8",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.85
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.85
+      }
+    },
+    {
+      "character": "Ұ",
+      "name": "uni04B0",
+      "role": "primary",
+      "before": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 120.14,
+        "median_ink_per_row": 106.18
+      },
+      "after": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 120.14,
+        "median_ink_per_row": 106.18
+      }
+    },
+    {
+      "character": "Ү",
+      "name": "uni04AE",
+      "role": "primary",
+      "before": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 91.71,
+        "median_ink_per_row": 91.71
+      },
+      "after": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 91.71,
+        "median_ink_per_row": 91.71
+      }
+    },
+    {
+      "character": "Һ",
+      "name": "uni04BA",
+      "role": "primary",
+      "before": {
+        "advance": 485,
+        "bounds": [
+          15.0,
+          0.0,
+          470.0,
+          720.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 139.0
+      },
+      "after": {
+        "advance": 485,
+        "bounds": [
+          15.0,
+          0.0,
+          470.0,
+          720.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 139.0
+      }
+    },
+    {
+      "character": "І",
+      "name": "uni0406",
+      "role": "primary",
+      "before": {
+        "advance": 249,
+        "bounds": [
+          19.0,
+          0.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 249,
+        "bounds": [
+          19.0,
+          0.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "ә",
+      "name": "uni04D9",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.125,
+          382.95001220703125,
+          516.0
+        ],
+        "median_body_span": 288.63,
+        "median_ink_per_row": 130.52
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.125,
+          382.95001220703125,
+          516.0
+        ],
+        "median_body_span": 288.63,
+        "median_ink_per_row": 130.52
+      }
+    },
+    {
+      "character": "ғ",
+      "name": "uni0493",
+      "role": "primary",
+      "before": {
+        "advance": 335,
+        "bounds": [
+          15.0,
+          0.0,
+          316.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 335,
+        "bounds": [
+          15.0,
+          0.0,
+          316.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B",
+      "role": "primary",
+      "before": {
+        "advance": 509,
+        "bounds": [
+          15.0,
+          -125.0,
+          441.0,
+          513.0
+        ],
+        "median_body_span": 225.22,
+        "median_ink_per_row": 140.83
+      },
+      "after": {
+        "advance": 509,
+        "bounds": [
+          15.0,
+          -125.0,
+          441.0,
+          513.0
+        ],
+        "median_body_span": 225.22,
+        "median_ink_per_row": 140.83
+      }
+    },
+    {
+      "character": "ң",
+      "name": "uni04A3",
+      "role": "primary",
+      "before": {
+        "advance": 550,
+        "bounds": [
+          15.0,
+          -128.0,
+          458.0,
+          513.0
+        ],
+        "median_body_span": 319.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 550,
+        "bounds": [
+          15.0,
+          -128.0,
+          458.0,
+          513.0
+        ],
+        "median_body_span": 319.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "ө",
+      "name": "uni04E9",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.63
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.63
+      }
+    },
+    {
+      "character": "ұ",
+      "name": "uni04B1",
+      "role": "primary",
+      "before": {
+        "advance": 477,
+        "bounds": [
+          27.0,
+          -205.0,
+          450.0,
+          510.0
+        ],
+        "median_body_span": 163.29,
+        "median_ink_per_row": 105.15
+      },
+      "after": {
+        "advance": 477,
+        "bounds": [
+          27.0,
+          -205.0,
+          450.0,
+          510.0
+        ],
+        "median_body_span": 163.29,
+        "median_ink_per_row": 105.15
+      }
+    },
+    {
+      "character": "ү",
+      "name": "uni04AF",
+      "role": "primary",
+      "before": {
+        "advance": 477,
+        "bounds": [
+          27.0,
+          -205.0,
+          450.0,
+          510.0
+        ],
+        "median_body_span": 163.29,
+        "median_ink_per_row": 105.15
+      },
+      "after": {
+        "advance": 477,
+        "bounds": [
+          27.0,
+          -205.0,
+          450.0,
+          510.0
+        ],
+        "median_body_span": 163.29,
+        "median_ink_per_row": 105.15
+      }
+    },
+    {
+      "character": "һ",
+      "name": "uni04BB",
+      "role": "primary",
+      "before": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          740.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          740.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "і",
+      "name": "uni0456",
+      "role": "primary",
+      "before": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "A",
+      "name": "A",
+      "role": "primary",
+      "before": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          0.0,
+          475.0,
+          730.0
+        ],
+        "median_body_span": 209.5,
+        "median_ink_per_row": 102.83
+      },
+      "after": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          0.0,
+          475.0,
+          730.0
+        ],
+        "median_body_span": 209.5,
+        "median_ink_per_row": 102.83
+      }
+    },
+    {
+      "character": "B",
+      "name": "B",
+      "role": "primary",
+      "before": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 319.33,
+        "median_ink_per_row": 144.22
+      },
+      "after": {
+        "advance": 478,
+        "bounds": [
+          19.0,
+          0.0,
+          450.0,
+          720.0
+        ],
+        "median_body_span": 319.33,
+        "median_ink_per_row": 144.22
+      }
+    },
+    {
+      "character": "C",
+      "name": "C",
+      "role": "primary",
+      "before": {
+        "advance": 480,
+        "bounds": [
+          40.0,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 189.14,
+        "median_ink_per_row": 85.73
+      },
+      "after": {
+        "advance": 480,
+        "bounds": [
+          40.0,
+          -9.0,
+          440.0,
+          730.0
+        ],
+        "median_body_span": 189.14,
+        "median_ink_per_row": 85.73
+      }
+    },
+    {
+      "character": "D",
+      "name": "D",
+      "role": "primary",
+      "before": {
+        "advance": 530,
+        "bounds": [
+          19.0,
+          0.0,
+          490.0,
+          720.0
+        ],
+        "median_body_span": 382.41,
+        "median_ink_per_row": 143.3
+      },
+      "after": {
+        "advance": 530,
+        "bounds": [
+          19.0,
+          0.0,
+          490.0,
+          720.0
+        ],
+        "median_body_span": 382.41,
+        "median_ink_per_row": 143.3
+      }
+    },
+    {
+      "character": "E",
+      "name": "E",
+      "role": "primary",
+      "before": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.25,
+          720.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      },
+      "after": {
+        "advance": 453,
+        "bounds": [
+          19.0,
+          0.0,
+          420.25,
+          720.0
+        ],
+        "median_body_span": 267.63,
+        "median_ink_per_row": 107.29
+      }
+    },
+    {
+      "character": "F",
+      "name": "F",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          19.0,
+          0.0,
+          389.23529052734375,
+          720.0
+        ],
+        "median_body_span": 212.0,
+        "median_ink_per_row": 101.45
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          19.0,
+          0.0,
+          389.23529052734375,
+          720.0
+        ],
+        "median_body_span": 212.0,
+        "median_ink_per_row": 101.45
+      }
+    },
+    {
+      "character": "G",
+      "name": "G",
+      "role": "primary",
+      "before": {
+        "advance": 521,
+        "bounds": [
+          40.0,
+          -9.0,
+          501.0,
+          730.0
+        ],
+        "median_body_span": 366.04,
+        "median_ink_per_row": 141.73
+      },
+      "after": {
+        "advance": 521,
+        "bounds": [
+          40.0,
+          -9.0,
+          501.0,
+          730.0
+        ],
+        "median_body_span": 366.04,
+        "median_ink_per_row": 141.73
+      }
+    },
+    {
+      "character": "H",
+      "name": "H",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          19.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "I",
+      "name": "I",
+      "role": "primary",
+      "before": {
+        "advance": 249,
+        "bounds": [
+          19.0,
+          0.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 249,
+        "bounds": [
+          19.0,
+          0.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "J",
+      "name": "J",
+      "role": "primary",
+      "before": {
+        "advance": 249,
+        "bounds": [
+          -56.0,
+          -215.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 249,
+        "bounds": [
+          -56.0,
+          -215.0,
+          230.0,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "K",
+      "name": "K",
+      "role": "primary",
+      "before": {
+        "advance": 496,
+        "bounds": [
+          19.0,
+          0.0,
+          516.0,
+          720.0
+        ],
+        "median_body_span": 244.06,
+        "median_ink_per_row": 149.09
+      },
+      "after": {
+        "advance": 496,
+        "bounds": [
+          19.0,
+          0.0,
+          516.0,
+          720.0
+        ],
+        "median_body_span": 244.06,
+        "median_ink_per_row": 149.09
+      }
+    },
+    {
+      "character": "L",
+      "name": "L",
+      "role": "primary",
+      "before": {
+        "advance": 413,
+        "bounds": [
+          19.0,
+          0.0,
+          394.25,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 413,
+        "bounds": [
+          19.0,
+          0.0,
+          394.25,
+          720.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "M",
+      "name": "M",
+      "role": "primary",
+      "before": {
+        "advance": 665,
+        "bounds": [
+          14.0,
+          0.0,
+          651.0,
+          720.0
+        ],
+        "median_body_span": 475.7,
+        "median_ink_per_row": 201.57
+      },
+      "after": {
+        "advance": 665,
+        "bounds": [
+          14.0,
+          0.0,
+          651.0,
+          720.0
+        ],
+        "median_body_span": 475.7,
+        "median_ink_per_row": 201.57
+      }
+    },
+    {
+      "character": "N",
+      "name": "N",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          16.0,
+          -9.0,
+          524.0,
+          720.0
+        ],
+        "median_body_span": 364.0,
+        "median_ink_per_row": 145.68
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          16.0,
+          -9.0,
+          524.0,
+          720.0
+        ],
+        "median_body_span": 364.0,
+        "median_ink_per_row": 145.68
+      }
+    },
+    {
+      "character": "O",
+      "name": "O",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.32
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -9.0,
+          500.0,
+          730.0
+        ],
+        "median_body_span": 422.48,
+        "median_ink_per_row": 140.32
+      }
+    },
+    {
+      "character": "P",
+      "name": "P",
+      "role": "primary",
+      "before": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          442.0,
+          720.0
+        ],
+        "median_body_span": 266.21,
+        "median_ink_per_row": 141.77
+      },
+      "after": {
+        "advance": 466,
+        "bounds": [
+          19.0,
+          0.0,
+          442.0,
+          720.0
+        ],
+        "median_body_span": 266.21,
+        "median_ink_per_row": 141.77
+      }
+    },
+    {
+      "character": "Q",
+      "name": "Q",
+      "role": "primary",
+      "before": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -215.0,
+          540.0,
+          730.0
+        ],
+        "median_body_span": 422.35,
+        "median_ink_per_row": 140.19
+      },
+      "after": {
+        "advance": 540,
+        "bounds": [
+          40.0,
+          -215.0,
+          540.0,
+          730.0
+        ],
+        "median_body_span": 422.35,
+        "median_ink_per_row": 140.19
+      }
+    },
+    {
+      "character": "R",
+      "name": "R",
+      "role": "primary",
+      "before": {
+        "advance": 513,
+        "bounds": [
+          19.0,
+          -9.0,
+          523.0,
+          720.0
+        ],
+        "median_body_span": 314.67,
+        "median_ink_per_row": 142.32
+      },
+      "after": {
+        "advance": 513,
+        "bounds": [
+          19.0,
+          -9.0,
+          523.0,
+          720.0
+        ],
+        "median_body_span": 314.67,
+        "median_ink_per_row": 142.32
+      }
+    },
+    {
+      "character": "S",
+      "name": "S",
+      "role": "primary",
+      "before": {
+        "advance": 407,
+        "bounds": [
+          41.0,
+          -9.0,
+          377.0,
+          730.0
+        ],
+        "median_body_span": 198.62,
+        "median_ink_per_row": 102.13
+      },
+      "after": {
+        "advance": 407,
+        "bounds": [
+          41.0,
+          -9.0,
+          377.0,
+          730.0
+        ],
+        "median_body_span": 198.62,
+        "median_ink_per_row": 102.13
+      }
+    },
+    {
+      "character": "T",
+      "name": "T",
+      "role": "primary",
+      "before": {
+        "advance": 461,
+        "bounds": [
+          11.764705657958984,
+          0.0,
+          449.23529052734375,
+          735.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      },
+      "after": {
+        "advance": 461,
+        "bounds": [
+          11.764705657958984,
+          0.0,
+          449.23529052734375,
+          735.0
+        ],
+        "median_body_span": 71.0,
+        "median_ink_per_row": 71.0
+      }
+    },
+    {
+      "character": "U",
+      "name": "U",
+      "role": "primary",
+      "before": {
+        "advance": 536,
+        "bounds": [
+          22.0,
+          -9.0,
+          524.0,
+          720.0
+        ],
+        "median_body_span": 362.0,
+        "median_ink_per_row": 103.0
+      },
+      "after": {
+        "advance": 536,
+        "bounds": [
+          22.0,
+          -9.0,
+          524.0,
+          720.0
+        ],
+        "median_body_span": 362.0,
+        "median_ink_per_row": 103.0
+      }
+    },
+    {
+      "character": "V",
+      "name": "V",
+      "role": "primary",
+      "before": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          -10.0,
+          475.0,
+          720.0
+        ],
+        "median_body_span": 204.53,
+        "median_ink_per_row": 102.71
+      },
+      "after": {
+        "advance": 457,
+        "bounds": [
+          -18.0,
+          -10.0,
+          475.0,
+          720.0
+        ],
+        "median_body_span": 204.53,
+        "median_ink_per_row": 102.71
+      }
+    },
+    {
+      "character": "W",
+      "name": "W",
+      "role": "primary",
+      "before": {
+        "advance": 651,
+        "bounds": [
+          -18.0,
+          -10.0,
+          669.0,
+          720.0
+        ],
+        "median_body_span": 406.53,
+        "median_ink_per_row": 198.91
+      },
+      "after": {
+        "advance": 651,
+        "bounds": [
+          -18.0,
+          -10.0,
+          669.0,
+          720.0
+        ],
+        "median_body_span": 406.53,
+        "median_ink_per_row": 198.91
+      }
+    },
+    {
+      "character": "X",
+      "name": "X",
+      "role": "primary",
+      "before": {
+        "advance": 546,
+        "bounds": [
+          20.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 191.43,
+        "median_ink_per_row": 105.13
+      },
+      "after": {
+        "advance": 546,
+        "bounds": [
+          20.0,
+          0.0,
+          527.0,
+          720.0
+        ],
+        "median_body_span": 191.43,
+        "median_ink_per_row": 105.13
+      }
+    },
+    {
+      "character": "Y",
+      "name": "Y",
+      "role": "primary",
+      "before": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 91.71,
+        "median_ink_per_row": 91.71
+      },
+      "after": {
+        "advance": 477,
+        "bounds": [
+          -18.0,
+          0.0,
+          495.0,
+          720.0
+        ],
+        "median_body_span": 91.71,
+        "median_ink_per_row": 91.71
+      }
+    },
+    {
+      "character": "Z",
+      "name": "Z",
+      "role": "primary",
+      "before": {
+        "advance": 427,
+        "bounds": [
+          17.869565963745117,
+          0.0,
+          401.25,
+          740.0
+        ],
+        "median_body_span": 280.09,
+        "median_ink_per_row": 100.41
+      },
+      "after": {
+        "advance": 427,
+        "bounds": [
+          17.869565963745117,
+          0.0,
+          401.25,
+          740.0
+        ],
+        "median_body_span": 280.09,
+        "median_ink_per_row": 100.41
+      }
+    },
+    {
+      "character": "a",
+      "name": "a",
+      "role": "primary",
+      "before": {
+        "advance": 399,
+        "bounds": [
+          24.0,
+          -9.0,
+          394.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      },
+      "after": {
+        "advance": 399,
+        "bounds": [
+          24.0,
+          -9.0,
+          394.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      }
+    },
+    {
+      "character": "b",
+      "name": "b",
+      "role": "primary",
+      "before": {
+        "advance": 443,
+        "bounds": [
+          5.0,
+          -9.0,
+          403.0,
+          740.0
+        ],
+        "median_body_span": 330.19,
+        "median_ink_per_row": 141.51
+      },
+      "after": {
+        "advance": 443,
+        "bounds": [
+          5.0,
+          -9.0,
+          403.0,
+          740.0
+        ],
+        "median_body_span": 330.19,
+        "median_ink_per_row": 141.51
+      }
+    },
+    {
+      "character": "c",
+      "name": "c",
+      "role": "primary",
+      "before": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          316.6000061035156,
+          516.0
+        ],
+        "median_body_span": 233.01,
+        "median_ink_per_row": 94.49
+      },
+      "after": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          316.6000061035156,
+          516.0
+        ],
+        "median_body_span": 233.01,
+        "median_ink_per_row": 94.49
+      }
+    },
+    {
+      "character": "d",
+      "name": "d",
+      "role": "primary",
+      "before": {
+        "advance": 457,
+        "bounds": [
+          30.0,
+          -9.0,
+          452.0,
+          740.0
+        ],
+        "median_body_span": 338.17,
+        "median_ink_per_row": 141.73
+      },
+      "after": {
+        "advance": 457,
+        "bounds": [
+          30.0,
+          -9.0,
+          452.0,
+          740.0
+        ],
+        "median_body_span": 338.17,
+        "median_ink_per_row": 141.73
+      }
+    },
+    {
+      "character": "e",
+      "name": "e",
+      "role": "primary",
+      "before": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      },
+      "after": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 270.86,
+        "median_ink_per_row": 108.78
+      }
+    },
+    {
+      "character": "f",
+      "name": "f",
+      "role": "primary",
+      "before": {
+        "advance": 288,
+        "bounds": [
+          13.0,
+          0.0,
+          312.0,
+          748.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 288,
+        "bounds": [
+          13.0,
+          0.0,
+          312.0,
+          748.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "g",
+      "name": "g",
+      "role": "primary",
+      "before": {
+        "advance": 402,
+        "bounds": [
+          14.0,
+          -215.0,
+          394.0,
+          598.0
+        ],
+        "median_body_span": 252.59,
+        "median_ink_per_row": 129.17
+      },
+      "after": {
+        "advance": 402,
+        "bounds": [
+          14.0,
+          -215.0,
+          394.0,
+          598.0
+        ],
+        "median_body_span": 252.59,
+        "median_ink_per_row": 129.17
+      }
+    },
+    {
+      "character": "h",
+      "name": "h",
+      "role": "primary",
+      "before": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          740.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          740.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "i",
+      "name": "i",
+      "role": "primary",
+      "before": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "j",
+      "name": "j",
+      "role": "primary",
+      "before": {
+        "advance": 215,
+        "bounds": [
+          -63.0,
+          -215.0,
+          163.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 215,
+        "bounds": [
+          -63.0,
+          -215.0,
+          163.0,
+          710.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "k",
+      "name": "k",
+      "role": "primary",
+      "before": {
+        "advance": 451,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          740.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.67
+      },
+      "after": {
+        "advance": 451,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          740.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.67
+      }
+    },
+    {
+      "character": "l",
+      "name": "l",
+      "role": "primary",
+      "before": {
+        "advance": 220,
+        "bounds": [
+          8.0,
+          0.0,
+          210.0,
+          740.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 220,
+        "bounds": [
+          8.0,
+          0.0,
+          210.0,
+          740.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "m",
+      "name": "m",
+      "role": "primary",
+      "before": {
+        "advance": 704,
+        "bounds": [
+          15.0,
+          0.0,
+          693.0,
+          516.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.0
+      },
+      "after": {
+        "advance": 704,
+        "bounds": [
+          15.0,
+          0.0,
+          693.0,
+          516.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.0
+      }
+    },
+    {
+      "character": "n",
+      "name": "n",
+      "role": "primary",
+      "before": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          0.0,
+          459.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "o",
+      "name": "o",
+      "role": "primary",
+      "before": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.49
+      },
+      "after": {
+        "advance": 408,
+        "bounds": [
+          23.0,
+          -9.0,
+          383.0,
+          516.0
+        ],
+        "median_body_span": 336.61,
+        "median_ink_per_row": 139.49
+      }
+    },
+    {
+      "character": "p",
+      "name": "p",
+      "role": "primary",
+      "before": {
+        "advance": 444,
+        "bounds": [
+          12.0,
+          -205.0,
+          414.0,
+          516.0
+        ],
+        "median_body_span": 331.37,
+        "median_ink_per_row": 141.51
+      },
+      "after": {
+        "advance": 444,
+        "bounds": [
+          12.0,
+          -205.0,
+          414.0,
+          516.0
+        ],
+        "median_body_span": 331.37,
+        "median_ink_per_row": 141.51
+      }
+    },
+    {
+      "character": "q",
+      "name": "q",
+      "role": "primary",
+      "before": {
+        "advance": 442,
+        "bounds": [
+          30.0,
+          -205.0,
+          432.0,
+          516.0
+        ],
+        "median_body_span": 330.84,
+        "median_ink_per_row": 141.73
+      },
+      "after": {
+        "advance": 442,
+        "bounds": [
+          30.0,
+          -205.0,
+          432.0,
+          516.0
+        ],
+        "median_body_span": 330.84,
+        "median_ink_per_row": 141.73
+      }
+    },
+    {
+      "character": "r",
+      "name": "r",
+      "role": "primary",
+      "before": {
+        "advance": 318,
+        "bounds": [
+          15.0,
+          0.0,
+          318.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 318,
+        "bounds": [
+          15.0,
+          0.0,
+          318.0,
+          516.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "s",
+      "name": "s",
+      "role": "primary",
+      "before": {
+        "advance": 308,
+        "bounds": [
+          28.0,
+          -9.0,
+          280.0,
+          516.0
+        ],
+        "median_body_span": 125.61,
+        "median_ink_per_row": 94.03
+      },
+      "after": {
+        "advance": 308,
+        "bounds": [
+          28.0,
+          -9.0,
+          280.0,
+          516.0
+        ],
+        "median_body_span": 125.61,
+        "median_ink_per_row": 94.03
+      }
+    },
+    {
+      "character": "t",
+      "name": "t",
+      "role": "primary",
+      "before": {
+        "advance": 259,
+        "bounds": [
+          10.0,
+          -9.0,
+          245.0,
+          651.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 259,
+        "bounds": [
+          10.0,
+          -9.0,
+          245.0,
+          651.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "u",
+      "name": "u",
+      "role": "primary",
+      "before": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 454,
+        "bounds": [
+          11.0,
+          -9.0,
+          439.0,
+          510.0
+        ],
+        "median_body_span": 310.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "v",
+      "name": "v",
+      "role": "primary",
+      "before": {
+        "advance": 393,
+        "bounds": [
+          -14.0,
+          -9.0,
+          401.0,
+          510.0
+        ],
+        "median_body_span": 176.33,
+        "median_ink_per_row": 100.47
+      },
+      "after": {
+        "advance": 393,
+        "bounds": [
+          -14.0,
+          -9.0,
+          401.0,
+          510.0
+        ],
+        "median_body_span": 176.33,
+        "median_ink_per_row": 100.47
+      }
+    },
+    {
+      "character": "w",
+      "name": "w",
+      "role": "primary",
+      "before": {
+        "advance": 597,
+        "bounds": [
+          -14.0,
+          -9.0,
+          605.0,
+          510.0
+        ],
+        "median_body_span": 388.73,
+        "median_ink_per_row": 189.26
+      },
+      "after": {
+        "advance": 597,
+        "bounds": [
+          -14.0,
+          -9.0,
+          605.0,
+          510.0
+        ],
+        "median_body_span": 388.73,
+        "median_ink_per_row": 189.26
+      }
+    },
+    {
+      "character": "x",
+      "name": "x",
+      "role": "primary",
+      "before": {
+        "advance": 385,
+        "bounds": [
+          -8.0,
+          0.0,
+          389.0,
+          510.0
+        ],
+        "median_body_span": 159.23,
+        "median_ink_per_row": 100.17
+      },
+      "after": {
+        "advance": 385,
+        "bounds": [
+          -8.0,
+          0.0,
+          389.0,
+          510.0
+        ],
+        "median_body_span": 159.23,
+        "median_ink_per_row": 100.17
+      }
+    },
+    {
+      "character": "y",
+      "name": "y",
+      "role": "primary",
+      "before": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -205.0,
+          409.0,
+          510.0
+        ],
+        "median_body_span": 179.23,
+        "median_ink_per_row": 99.79
+      },
+      "after": {
+        "advance": 401,
+        "bounds": [
+          -14.0,
+          -205.0,
+          409.0,
+          510.0
+        ],
+        "median_body_span": 179.23,
+        "median_ink_per_row": 99.79
+      }
+    },
+    {
+      "character": "z",
+      "name": "z",
+      "role": "primary",
+      "before": {
+        "advance": 353,
+        "bounds": [
+          15.0,
+          0.0,
+          338.5625,
+          534.0
+        ],
+        "median_body_span": 237.14,
+        "median_ink_per_row": 98.59
+      },
+      "after": {
+        "advance": 353,
+        "bounds": [
+          15.0,
+          0.0,
+          338.5625,
+          534.0
+        ],
+        "median_body_span": 237.14,
+        "median_ink_per_row": 98.59
+      }
+    },
+    {
+      "character": "п",
+      "name": "uni043F.flag",
+      "role": "alternate",
+      "before": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          -5.0,
+          451.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 470,
+        "bounds": [
+          15.0,
+          -5.0,
+          451.0,
+          516.0
+        ],
+        "median_body_span": 318.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "к",
+      "name": "uni043A.short",
+      "role": "alternate",
+      "before": {
+        "advance": 462,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          513.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.75
+      },
+      "after": {
+        "advance": 462,
+        "bounds": [
+          15.0,
+          0.0,
+          451.0,
+          513.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.75
+      }
+    },
+    {
+      "character": "т",
+      "name": "uni0442.ss08",
+      "role": "alternate",
+      "before": {
+        "advance": 358,
+        "bounds": [
+          20.0,
+          0.0,
+          338.0,
+          510.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 358,
+        "bounds": [
+          20.0,
+          0.0,
+          338.0,
+          510.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "д",
+      "name": "uni0434.ss07",
+      "role": "alternate",
+      "before": {
+        "advance": 424,
+        "bounds": [
+          26.0,
+          -90.0,
+          394.0,
+          510.0
+        ],
+        "median_body_span": 238.98,
+        "median_ink_per_row": 99.52
+      },
+      "after": {
+        "advance": 424,
+        "bounds": [
+          26.0,
+          -90.0,
+          394.0,
+          510.0
+        ],
+        "median_body_span": 238.98,
+        "median_ink_per_row": 99.52
+      }
+    },
+    {
+      "character": "а",
+      "name": "uni0430.ss01",
+      "role": "alternate",
+      "before": {
+        "advance": 389,
+        "bounds": [
+          24.0,
+          -9.0,
+          373.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      },
+      "after": {
+        "advance": 389,
+        "bounds": [
+          24.0,
+          -9.0,
+          373.0,
+          516.0
+        ],
+        "median_body_span": 266.76,
+        "median_ink_per_row": 132.67
+      }
+    },
+    {
+      "character": "с",
+      "name": "uni0441.ss01",
+      "role": "alternate",
+      "before": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          317.0,
+          516.0
+        ],
+        "median_body_span": 75.59,
+        "median_ink_per_row": 75.59
+      },
+      "after": {
+        "advance": 339,
+        "bounds": [
+          23.0,
+          -9.0,
+          317.0,
+          516.0
+        ],
+        "median_body_span": 75.59,
+        "median_ink_per_row": 75.59
+      }
+    },
+    {
+      "character": "е",
+      "name": "uni0435.ss01",
+      "role": "alternate",
+      "before": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 248.11,
+        "median_ink_per_row": 100.55
+      },
+      "after": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          516.0
+        ],
+        "median_body_span": 248.11,
+        "median_ink_per_row": 100.55
+      }
+    },
+    {
+      "character": "ё",
+      "name": "uni0451.ss01",
+      "role": "alternate",
+      "before": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          706.0
+        ],
+        "median_body_span": 248.11,
+        "median_ink_per_row": 100.55
+      },
+      "after": {
+        "advance": 355,
+        "bounds": [
+          23.0,
+          -9.0,
+          330.0,
+          706.0
+        ],
+        "median_body_span": 248.11,
+        "median_ink_per_row": 100.55
+      }
+    },
+    {
+      "character": "і",
+      "name": "uni0456.dotless",
+      "role": "alternate",
+      "before": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          513.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      },
+      "after": {
+        "advance": 223,
+        "bounds": [
+          15.0,
+          0.0,
+          212.0,
+          513.0
+        ],
+        "median_body_span": 68.0,
+        "median_ink_per_row": 68.0
+      }
+    },
+    {
+      "character": "ц",
+      "name": "uni0446.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 536,
+        "bounds": [
+          15.0,
+          -200.6666717529297,
+          521.0,
+          510.0
+        ],
+        "median_body_span": 308.0,
+        "median_ink_per_row": 134.0
+      },
+      "after": {
+        "advance": 536,
+        "bounds": [
+          15.0,
+          -200.6666717529297,
+          521.0,
+          510.0
+        ],
+        "median_body_span": 308.0,
+        "median_ink_per_row": 134.0
+      }
+    },
+    {
+      "character": "ң",
+      "name": "uni04A3.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 550,
+        "bounds": [
+          15.0,
+          -199.6666717529297,
+          535.0,
+          513.0
+        ],
+        "median_body_span": 319.0,
+        "median_ink_per_row": 136.0
+      },
+      "after": {
+        "advance": 550,
+        "bounds": [
+          15.0,
+          -199.6666717529297,
+          535.0,
+          513.0
+        ],
+        "median_body_span": 319.0,
+        "median_ink_per_row": 136.0
+      }
+    },
+    {
+      "character": "щ",
+      "name": "uni0449.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 777,
+        "bounds": [
+          15.0,
+          -199.6666717529297,
+          762.0,
+          510.0
+        ],
+        "median_body_span": 552.0,
+        "median_ink_per_row": 204.0
+      },
+      "after": {
+        "advance": 721,
+        "bounds": [
+          15.0,
+          -199.6666717529297,
+          706.0,
+          510.0
+        ],
+        "median_body_span": 496.0,
+        "median_ink_per_row": 204.0
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B.alternate",
+      "role": "alternate",
+      "before": {
+        "advance": 510,
+        "bounds": [
+          15.0,
+          -125.0,
+          442.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.25
+      },
+      "after": {
+        "advance": 510,
+        "bounds": [
+          15.0,
+          -125.0,
+          442.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.25
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B.context",
+      "role": "alternate",
+      "before": {
+        "advance": 508,
+        "bounds": [
+          15.0,
+          -125.0,
+          413.0,
+          510.0
+        ],
+        "median_body_span": 226.1,
+        "median_ink_per_row": 140.31
+      },
+      "after": {
+        "advance": 508,
+        "bounds": [
+          15.0,
+          -125.0,
+          413.0,
+          510.0
+        ],
+        "median_body_span": 226.1,
+        "median_ink_per_row": 140.31
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 509,
+        "bounds": [
+          15.0,
+          -199.625,
+          494.0,
+          513.0
+        ],
+        "median_body_span": 225.22,
+        "median_ink_per_row": 141.17
+      },
+      "after": {
+        "advance": 509,
+        "bounds": [
+          15.0,
+          -199.625,
+          494.0,
+          513.0
+        ],
+        "median_body_span": 225.22,
+        "median_ink_per_row": 141.17
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B.alternate.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 510,
+        "bounds": [
+          15.0,
+          -199.625,
+          495.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.42
+      },
+      "after": {
+        "advance": 510,
+        "bounds": [
+          15.0,
+          -199.625,
+          495.0,
+          510.0
+        ],
+        "median_body_span": 226.22,
+        "median_ink_per_row": 141.42
+      }
+    },
+    {
+      "character": "қ",
+      "name": "uni049B.context.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 508,
+        "bounds": [
+          15.0,
+          -199.0,
+          493.0,
+          510.0
+        ],
+        "median_body_span": 226.1,
+        "median_ink_per_row": 140.62
+      },
+      "after": {
+        "advance": 508,
+        "bounds": [
+          15.0,
+          -199.0,
+          493.0,
+          510.0
+        ],
+        "median_body_span": 226.1,
+        "median_ink_per_row": 140.62
+      }
+    },
+    {
+      "character": "Щ",
+      "name": "uni0429.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 818,
+        "bounds": [
+          19.0,
+          -200.6666717529297,
+          799.0,
+          720.0
+        ],
+        "median_body_span": 570.0,
+        "median_ink_per_row": 212.0
+      },
+      "after": {
+        "advance": 774,
+        "bounds": [
+          19.0,
+          -200.6666717529297,
+          755.0,
+          720.0
+        ],
+        "median_body_span": 526.0,
+        "median_ink_per_row": 212.0
+      }
+    },
+    {
+      "character": "Қ",
+      "name": "uni049A.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 577,
+        "bounds": [
+          19.0,
+          -201.6666717529297,
+          558.0,
+          720.0
+        ],
+        "median_body_span": 243.8,
+        "median_ink_per_row": 147.94
+      },
+      "after": {
+        "advance": 577,
+        "bounds": [
+          19.0,
+          -201.6666717529297,
+          558.0,
+          720.0
+        ],
+        "median_body_span": 243.8,
+        "median_ink_per_row": 147.94
+      }
+    },
+    {
+      "character": "Ң",
+      "name": "uni04A2.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 614,
+        "bounds": [
+          19.0,
+          -201.0,
+          595.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 614,
+        "bounds": [
+          19.0,
+          -201.0,
+          595.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    },
+    {
+      "character": "Ц",
+      "name": "uni0426.tail_old",
+      "role": "alternate",
+      "before": {
+        "advance": 616,
+        "bounds": [
+          19.0,
+          -201.6666717529297,
+          597.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      },
+      "after": {
+        "advance": 616,
+        "bounds": [
+          19.0,
+          -201.6666717529297,
+          597.0,
+          720.0
+        ],
+        "median_body_span": 368.0,
+        "median_ink_per_row": 142.0
+      }
+    }
+  ],
+  "note": "Spans and row ink are diagnostics, not universal width/weight targets; structural groups and shaped text determine optical decisions."
+}

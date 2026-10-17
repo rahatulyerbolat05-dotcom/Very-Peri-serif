@@ -311,96 +311,28 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "д": {
-      "selected": "03",
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/cormorant-de/uni0434-01.glif",
+          "path": "data/width-refinement/uni0434-primary.glif",
+          "advance": 428,
+          "bounds": [
+            30.0,
+            -280.0,
+            392.7140197753906,
+            516.0
+          ],
+          "glif_sha256": "40ee82f1778bada62c8dca50da3b7ff090fe6756325e29359d4a1f6c0f094c0b",
+          "role": "primary",
           "variant": "01",
-          "label": "Исходные пропорции",
-          "advance": 527,
-          "bounds": [
-            30.0,
-            -363.58074951171875,
-            492.1750183105469,
-            516.0
-          ],
-          "glif_sha256": "98df16ccdfbc56516d0f60a48b2a1ae04c5bdb47a61309a9dea57c359aca5930",
-          "transform": {
-            "x_scale": 1.2938816845397547,
-            "body_y_scale": 1.2938816845397547,
-            "tail_y_scale": 1.2938816845397547,
-            "hinge": -12,
-            "x_offset": -16.579661671160387
-          },
-          "status": "proportion study; actual Cormorant outline"
-        },
-        {
-          "path": "data/cormorant-de/uni0434-02.glif",
-          "variant": "02",
-          "label": "Уже на 6%, хвост −280",
-          "advance": 499,
-          "bounds": [
-            30.0,
-            -280.0,
-            464.44451904296875,
-            516.0
-          ],
-          "glif_sha256": "ef8d59a6a3bd1c2686d853311f58e44a3d2748341e59c50c7ed38cb7f1da1e47",
-          "transform": {
-            "x_scale": 1.2162487834673694,
-            "body_y_scale": 1.2938816845397547,
-            "tail_y_scale": 0.9831725642584496,
-            "hinge": -12,
-            "x_offset": -13.784881970890758
-          },
-          "status": "proportion study; actual Cormorant outline"
-        },
-        {
-          "path": "data/cormorant-de/uni0434-03.glif",
-          "variant": "03",
-          "label": "Уже на 12%, хвост −280",
-          "advance": 472,
-          "bounds": [
-            30.0,
-            -280.0,
-            436.7140197753906,
-            516.0
-          ],
-          "glif_sha256": "fb2e948463601dff2144a8c3c8b716427eae5038709647a3552eaeed90e796a1",
-          "transform": {
-            "x_scale": 1.1386158823949841,
-            "body_y_scale": 1.2938816845397547,
-            "tail_y_scale": 0.9831725642584496,
-            "hinge": -12,
-            "x_offset": -10.990102270621136
-          },
-          "status": "proportion study; actual Cormorant outline"
-        },
-        {
-          "path": "data/cormorant-de/uni0434-04.glif",
-          "variant": "04",
-          "label": "Уже на 6%, хвост −240",
-          "advance": 499,
-          "bounds": [
-            30.0,
-            -240.0,
-            464.44451904296875,
-            516.0
-          ],
-          "glif_sha256": "cc53af2f6274ce40729495505f002a36a9da48f2079a9cf3c656edb628000d44",
-          "transform": {
-            "x_scale": 1.2162487834673694,
-            "body_y_scale": 1.2938816845397547,
-            "tail_y_scale": 0.8344736795000852,
-            "hinge": -12,
-            "x_offset": -13.784881970890758
-          },
-          "status": "proportion study; actual Cormorant outline"
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/cormorant-de/uni0434-03.glif"
         }
       ],
-      "provenance": "Actual Cormorant de imported at explicit user request; proportion studies, OFL1.1"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "ж": {
       "selected": "cyr11",
@@ -429,14 +361,12 @@
       "provenance": "user/Claude Cyr11; integrated and retained by Codex"
     },
     "з": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/regular-refinement/uni0437.glif",
-          "variant": "01",
-          "label": "Оптическая правка веса",
+          "path": "data/width-refinement/uni0437-primary.glif",
           "advance": 349,
           "bounds": [
             24.0,
@@ -444,11 +374,15 @@
             326.0,
             516.0
           ],
-          "glif_sha256": "c4f08045c2cb6e9eac56ed3523b1198d9acc765a8113ff3bbfcd3a6c767ac0dc",
-          "status": "revised at user request; optical review proposal"
+          "glif_sha256": "d10960b109112b38556380699b6bf0d4eb8e28166f23bea30532546b53658953",
+          "role": "primary",
+          "variant": "01",
+          "label": "Усиленные чаши",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/regular-refinement/uni0437.glif"
         }
       ],
-      "provenance": "Codex; optical correction requested by user"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "и": {
       "selected": "02",
@@ -565,30 +499,28 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "т": {
-      "selected": "02",
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0442-02.glif",
-          "label": "Письменный выход",
-          "variant": "02",
-          "status": "selected",
-          "advance": 718,
+          "path": "data/width-refinement/uni0442-primary.glif",
+          "advance": 662,
           "bounds": [
-            15,
-            -9,
-            707,
-            516
+            15.0,
+            -9.0,
+            651.0,
+            516.0
           ],
-          "glif_sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5",
-          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
-          "source_glyph": "uni0442",
-          "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
-          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          "glif_sha256": "a10d69c05e823083b23b15db9aea657bc3428c331bd6af01cace383e2ef66432",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/codex/uni0442-02.glif"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "Б": {
       "selected": null,
@@ -691,30 +623,28 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "Ф": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0424-01.glif",
-          "label": "Центральная стойка I",
-          "variant": "01",
-          "status": "unselected",
-          "advance": 650,
+          "path": "data/width-refinement/uni0424-primary.glif",
+          "advance": 610,
           "bounds": [
-            35,
-            0,
-            615,
-            720
+            35.0,
+            0.0,
+            575.0,
+            720.0
           ],
-          "glif_sha256": "835003b4fdbc10a1d9a335b63bdcc60e32fa2a88050edf64e516ee61f8b63d73",
-          "source_file": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
-          "source_glyph": "uni0424",
-          "source_glyf_sha256": "ba016535a72bf4a7e7ddd5c6fe9fc32a0da75a94a401ad365a9e7964f899edb5",
-          "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
+          "glif_sha256": "80cb5f100ec26ce8f1f29ad3c90ad34bfb1e06616da03dd87f67df07cb28e5ac",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/codex/uni0424-01.glif"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "Я": {
       "selected": null,
@@ -869,26 +799,28 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "Ч": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
-          "label": "Поднятая чаша U",
-          "variant": "01",
-          "status": "proposal",
-          "advance": 582,
+          "path": "data/width-refinement/uni0427-primary.glif",
+          "advance": 546,
           "bounds": [
             22.0,
             0.0,
-            563.0,
+            527.0,
             720.0
           ],
-          "glif_sha256": "c95e01477e5a2b0764938424e715e986a808912b1c83746ec787f2827705d717"
+          "glif_sha256": "cf7eb15c32c9c0cce4b69034ae04af042fd12937e25adbab6a5d9cb89272335d",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/capitals-che-hard-yeru-e/uni0427-01.glif"
         }
       ],
-      "provenance": "Codex; native Instrument Serif donors, no scaling"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "Ъ": {
       "selected": null,
@@ -913,26 +845,28 @@
       "provenance": "Codex; native Instrument Serif donors, no scaling"
     },
     "Ы": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
-          "label": "Чаша Ь, отдельная I",
-          "variant": "01",
-          "status": "proposal",
-          "advance": 724,
+          "path": "data/width-refinement/uni042B-primary.glif",
+          "advance": 674,
           "bounds": [
             19.0,
             0.0,
-            705.0,
+            655.0,
             720.0
           ],
-          "glif_sha256": "2bf703062d1b2cc0b33a95813bd1e2bbf9a7d0e85c108d6a8077b0e94f5bed49"
+          "glif_sha256": "214828a86f59fdefc9bde37c500595a0924ea0e87a1ae2137fab387756d074ef",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/capitals-che-hard-yeru-e/uni042B-01.glif"
         }
       ],
-      "provenance": "Codex; native Instrument Serif donors, no scaling"
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "Э": {
       "selected": null,
@@ -1114,6 +1048,150 @@
       "origin": "Codex",
       "provenance": "Native y branches and hook moved to cap zones; original Ү remains native Y",
       "status": "revised at author request"
+    },
+    "Ж": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni0416-primary.glif",
+          "advance": 757,
+          "bounds": [
+            18.090835571289062,
+            0.0,
+            738.9091796875,
+            720.0
+          ],
+          "glif_sha256": "473da29551a221164f3078398d2daab47b4019486b8d35a93996d82739ab93cc",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/zhe/zhe.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
+    },
+    "Ш": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni0428-primary.glif",
+          "advance": 705.0,
+          "bounds": [
+            19.0,
+            0.0,
+            686.0,
+            720.0
+          ],
+          "glif_sha256": "272096a26c0704eceb8258279ff67507797f1f9ba45a01f7eecba81fcea47221",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/sha_cap/Sh1.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
+    },
+    "Ю": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni042E-primary.glif",
+          "advance": 685,
+          "bounds": [
+            19.0,
+            -9.0,
+            645.0,
+            730.0
+          ],
+          "glif_sha256": "91d6326ee4d78610bc547a81b8892e0d5ac0088a693c66d78d420f6385f821e3",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/yu_cap/Yu1.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
+    },
+    "ю": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni044E-primary.glif",
+          "advance": 557,
+          "bounds": [
+            15.0,
+            -9.0,
+            532.0,
+            516.0
+          ],
+          "glif_sha256": "979a406f2b3600b01c86b90157143211f8884701a1042697cee3593977988545",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/yu/yu1.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
+    },
+    "ш": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni0448-primary.glif",
+          "advance": 648,
+          "bounds": [
+            19.0,
+            -6.0,
+            633.0,
+            510.0
+          ],
+          "glif_sha256": "517b155f1f02a82d6f19f4721ca54e2305fd6d8902a77146d5a95dce7523ef40",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/sha/R1.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
+    },
+    "ы": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/width-refinement/uni044B-primary.glif",
+          "advance": 511,
+          "bounds": [
+            -2.0,
+            -9.0,
+            496.0,
+            513.0
+          ],
+          "glif_sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674",
+          "role": "primary",
+          "variant": "01",
+          "label": "Согласованные пропорции",
+          "status": "width/weight refinement requested by author",
+          "width_source_glif": "data/yery/Y1.glif"
+        }
+      ],
+      "provenance": "Width/weight refinement requested by author; previous sources archived"
     }
   },
   "shared_review": {
@@ -1318,9 +1396,9 @@
           "character": "щ",
           "role": "primary",
           "source_name": "щ.svg",
-          "path": "data/smooth-tail-joins/uni0449-primary.glif",
+          "path": "data/width-refinement/uni0449-primary.glif",
           "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
-          "glif_sha256": "b02504f9b3274decec615fbd50e27708836d2a32b80e48b224622d82bbcbffa3",
+          "glif_sha256": "9ce4b2da5dda8509f6f36a626373eaa037c7ba0c6bfeeade61de66cc9168cab7",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1338,18 +1416,20 @@
           "bounds": [
             15.0,
             -129.0001220703125,
-            685.0001220703125,
+            629.0001220703125,
             510.0
           ],
-          "advance": 777,
+          "advance": 721,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
           "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
-          "status": "approved drop retained; attachment smoothed",
+          "status": "width/weight refinement requested by author",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0449-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
           "tail_style": "full-author-svg",
-          "tail_source_glif": "data/exact-author-tails/uni0449-primary.glif"
+          "tail_source_glif": "data/exact-author-tails/uni0449-primary.glif",
+          "label": "Согласованные пропорции",
+          "width_source_glif": "data/smooth-tail-joins/uni0449-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1359,9 +1439,9 @@
           "character": "щ",
           "role": "primary",
           "source_name": "щ.svg",
-          "path": "data/author-curve-fixes/uni0449-primary.glif",
+          "path": "data/width-refinement/uni0449-tail_old.glif",
           "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
-          "glif_sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076",
+          "glif_sha256": "69b3eaffbdea8ba8618d3e638e217994ea03cefd932714021bc835a86b9a5751",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1379,16 +1459,18 @@
           "bounds": [
             15.0,
             -199.38397216796875,
-            762.4749755859375,
+            706.4749755859375,
             510.0
           ],
-          "advance": 777,
+          "advance": 721,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
           "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
-          "status": "author drawing with local curve repairs requested by user",
-          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0449-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          "status": "width/weight refinement requested by author",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0449-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные.",
+          "label": "Согласованные пропорции",
+          "width_source_glif": "data/author-curve-fixes/uni0449-primary.glif"
         }
       ],
       "tail_style": "drop"
@@ -1400,9 +1482,9 @@
           "character": "ф",
           "role": "primary",
           "source_name": "a строчная.svg",
-          "path": "data/author-curve-fixes/uni0444-primary.glif",
+          "path": "data/width-refinement/uni0444-primary.glif",
           "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
-          "glif_sha256": "2d3f82723108255acc0573d9b5d910332ce4701a37d259adbd424272336f24ef",
+          "glif_sha256": "18697cf01be8c704d66e54eac4cd33ffbd7c396af11bb013f97225d8308bc4ca",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1419,16 +1501,18 @@
           "bounds": [
             15.0,
             -205.0,
-            531.0,
+            495.0,
             740.0
           ],
-          "advance": 546,
+          "advance": 510,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
           "contours": 3,
           "original_glif": "data/user-2026-10-16/uni0444-primary.glif",
           "original_glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
-          "status": "author drawing with local curve repairs requested by user",
-          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          "status": "width/weight refinement requested by author",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные.",
+          "label": "Согласованные пропорции",
+          "width_source_glif": "data/author-curve-fixes/uni0444-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1671,9 +1755,9 @@
           "character": "Щ",
           "role": "primary",
           "source_name": "щ заглавная.svg",
-          "path": "data/smooth-tail-joins/uni0429-primary.glif",
+          "path": "data/width-refinement/uni0429-primary.glif",
           "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
-          "glif_sha256": "28b16602c02d0b731eff675b37f8f6056060a375ca8b815bf2f0f997be18fc01",
+          "glif_sha256": "abc95ecc077ef7260ff09333fe18acdee6eacddff4e1de098eeeb5c96d79b386",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1690,18 +1774,20 @@
           "bounds": [
             19.0,
             -128.45921325683594,
-            728.9159545898438,
+            684.9159545898438,
             720.0
           ],
-          "advance": 818,
+          "advance": 774,
           "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
           "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
-          "status": "approved drop retained; attachment smoothed",
+          "status": "width/weight refinement requested by author",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0429-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
           "tail_style": "full-author-svg",
-          "tail_source_glif": "data/exact-author-tails/uni0429-primary.glif"
+          "tail_source_glif": "data/exact-author-tails/uni0429-primary.glif",
+          "label": "Согласованные пропорции",
+          "width_source_glif": "data/smooth-tail-joins/uni0429-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1711,9 +1797,9 @@
           "character": "Щ",
           "role": "primary",
           "source_name": "щ заглавная.svg",
-          "path": "data/author-curve-fixes/uni0429-primary.glif",
+          "path": "data/width-refinement/uni0429-tail_old.glif",
           "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
-          "glif_sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518",
+          "glif_sha256": "a1f2975c304d2d7be53e913e164d86107c1afd26653f77081c9c48ec13ac38ca",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1730,16 +1816,18 @@
           "bounds": [
             19.0,
             -200.62342834472656,
-            798.8900756835938,
+            754.8900756835938,
             720.0
           ],
-          "advance": 818,
+          "advance": 774,
           "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
           "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
-          "status": "author drawing with local curve repairs requested by user",
-          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0429-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          "status": "width/weight refinement requested by author",
+          "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0429-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные.",
+          "label": "Согласованные пропорции",
+          "width_source_glif": "data/author-curve-fixes/uni0429-primary.glif"
         }
       ],
       "tail_style": "drop"
@@ -3854,6 +3942,445 @@
           }
         ],
         "tail_style": "drop"
+      }
+    },
+    "before-width-refinement": {
+      "Ж": [
+        "data/zhe/zhe.glif",
+        "Ж"
+      ],
+      "Ш": [
+        "data/sha_cap/Sh1.glif",
+        "Sh1"
+      ],
+      "Щ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "Щ",
+            "role": "primary",
+            "source_name": "щ заглавная.svg",
+            "path": "data/smooth-tail-joins/uni0429-primary.glif",
+            "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
+            "glif_sha256": "28b16602c02d0b731eff675b37f8f6056060a375ca8b815bf2f0f997be18fc01",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "bounds": [
+              19.0,
+              -128.45921325683594,
+              728.9159545898438,
+              720.0
+            ],
+            "advance": 818,
+            "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
+            "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+            "status": "approved drop retained; attachment smoothed",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0429-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "full-author-svg",
+            "tail_source_glif": "data/exact-author-tails/uni0429-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "Щ",
+            "role": "primary",
+            "source_name": "щ заглавная.svg",
+            "path": "data/author-curve-fixes/uni0429-primary.glif",
+            "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
+            "glif_sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "bounds": [
+              19.0,
+              -200.62342834472656,
+              798.8900756835938,
+              720.0
+            ],
+            "advance": 818,
+            "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
+            "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0429-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "Ы": {
+        "selected": null,
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+            "label": "Чаша Ь, отдельная I",
+            "variant": "01",
+            "status": "proposal",
+            "advance": 724,
+            "bounds": [
+              19.0,
+              0.0,
+              705.0,
+              720.0
+            ],
+            "glif_sha256": "2bf703062d1b2cc0b33a95813bd1e2bbf9a7d0e85c108d6a8077b0e94f5bed49"
+          }
+        ],
+        "provenance": "Codex; native Instrument Serif donors, no scaling"
+      },
+      "Ю": [
+        "data/yu_cap/Yu1.glif",
+        "Yu1"
+      ],
+      "ю": [
+        "data/yu/yu1.glif",
+        "yu1"
+      ],
+      "Ф": {
+        "selected": null,
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/codex/uni0424-01.glif",
+            "label": "Центральная стойка I",
+            "variant": "01",
+            "status": "unselected",
+            "advance": 650,
+            "bounds": [
+              35,
+              0,
+              615,
+              720
+            ],
+            "glif_sha256": "835003b4fdbc10a1d9a335b63bdcc60e32fa2a88050edf64e516ee61f8b63d73",
+            "source_file": "studies/regular/capitals-jfya/capitals-shorti01.ttf",
+            "source_glyph": "uni0424",
+            "source_glyf_sha256": "ba016535a72bf4a7e7ddd5c6fe9fc32a0da75a94a401ad365a9e7964f899edb5",
+            "source_file_sha256": "ab3d14e77e441ed333cecdc43c5f7ffddc6f53f57eb9b7a7510af5594290e3ee"
+          }
+        ],
+        "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      },
+      "Ч": {
+        "selected": null,
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+            "label": "Поднятая чаша U",
+            "variant": "01",
+            "status": "proposal",
+            "advance": 582,
+            "bounds": [
+              22.0,
+              0.0,
+              563.0,
+              720.0
+            ],
+            "glif_sha256": "c95e01477e5a2b0764938424e715e986a808912b1c83746ec787f2827705d717"
+          }
+        ],
+        "provenance": "Codex; native Instrument Serif donors, no scaling"
+      },
+      "т": {
+        "selected": "02",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/codex/uni0442-02.glif",
+            "label": "Письменный выход",
+            "variant": "02",
+            "status": "selected",
+            "advance": 718,
+            "bounds": [
+              15,
+              -9,
+              707,
+              516
+            ],
+            "glif_sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0442",
+            "source_glyf_sha256": "f2308a41289f01f36441217e77bca204175abc54a73e54255dc14a6a3d4fc8c0",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ],
+        "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      },
+      "ш": [
+        "data/sha/R1.glif",
+        "R1"
+      ],
+      "щ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "щ",
+            "role": "primary",
+            "source_name": "щ.svg",
+            "path": "data/smooth-tail-joins/uni0449-primary.glif",
+            "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
+            "glif_sha256": "b02504f9b3274decec615fbd50e27708836d2a32b80e48b224622d82bbcbffa3",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#FF0040",
+              "black"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -129.0001220703125,
+              685.0001220703125,
+              510.0
+            ],
+            "advance": 777,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
+            "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+            "status": "approved drop retained; attachment smoothed",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0449-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "full-author-svg",
+            "tail_source_glif": "data/exact-author-tails/uni0449-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "щ",
+            "role": "primary",
+            "source_name": "щ.svg",
+            "path": "data/author-curve-fixes/uni0449-primary.glif",
+            "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
+            "glif_sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#FF0040",
+              "black"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -199.38397216796875,
+              762.4749755859375,
+              510.0
+            ],
+            "advance": 777,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
+            "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0449-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "ы": [
+        "data/yery/Y1.glif",
+        "Y1"
+      ],
+      "ф": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "ф",
+            "role": "primary",
+            "source_name": "a строчная.svg",
+            "path": "data/author-curve-fixes/uni0444-primary.glif",
+            "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
+            "glif_sha256": "2d3f82723108255acc0573d9b5d910332ce4701a37d259adbd424272336f24ef",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "black"
+            ],
+            "transform": [
+              3.4843205574912894,
+              0,
+              0,
+              -3.4843205574912894,
+              15,
+              740
+            ],
+            "bounds": [
+              15.0,
+              -205.0,
+              531.0,
+              740.0
+            ],
+            "advance": 546,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 3,
+            "original_glif": "data/user-2026-10-16/uni0444-primary.glif",
+            "original_glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author geometry locally repaired at user request; metrics provisional"
+      },
+      "д": {
+        "selected": "03",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/cormorant-de/uni0434-01.glif",
+            "variant": "01",
+            "label": "Исходные пропорции",
+            "advance": 527,
+            "bounds": [
+              30.0,
+              -363.58074951171875,
+              492.1750183105469,
+              516.0
+            ],
+            "glif_sha256": "98df16ccdfbc56516d0f60a48b2a1ae04c5bdb47a61309a9dea57c359aca5930",
+            "transform": {
+              "x_scale": 1.2938816845397547,
+              "body_y_scale": 1.2938816845397547,
+              "tail_y_scale": 1.2938816845397547,
+              "hinge": -12,
+              "x_offset": -16.579661671160387
+            },
+            "status": "proportion study; actual Cormorant outline"
+          },
+          {
+            "path": "data/cormorant-de/uni0434-02.glif",
+            "variant": "02",
+            "label": "Уже на 6%, хвост −280",
+            "advance": 499,
+            "bounds": [
+              30.0,
+              -280.0,
+              464.44451904296875,
+              516.0
+            ],
+            "glif_sha256": "ef8d59a6a3bd1c2686d853311f58e44a3d2748341e59c50c7ed38cb7f1da1e47",
+            "transform": {
+              "x_scale": 1.2162487834673694,
+              "body_y_scale": 1.2938816845397547,
+              "tail_y_scale": 0.9831725642584496,
+              "hinge": -12,
+              "x_offset": -13.784881970890758
+            },
+            "status": "proportion study; actual Cormorant outline"
+          },
+          {
+            "path": "data/cormorant-de/uni0434-03.glif",
+            "variant": "03",
+            "label": "Уже на 12%, хвост −280",
+            "advance": 472,
+            "bounds": [
+              30.0,
+              -280.0,
+              436.7140197753906,
+              516.0
+            ],
+            "glif_sha256": "fb2e948463601dff2144a8c3c8b716427eae5038709647a3552eaeed90e796a1",
+            "transform": {
+              "x_scale": 1.1386158823949841,
+              "body_y_scale": 1.2938816845397547,
+              "tail_y_scale": 0.9831725642584496,
+              "hinge": -12,
+              "x_offset": -10.990102270621136
+            },
+            "status": "proportion study; actual Cormorant outline"
+          },
+          {
+            "path": "data/cormorant-de/uni0434-04.glif",
+            "variant": "04",
+            "label": "Уже на 6%, хвост −240",
+            "advance": 499,
+            "bounds": [
+              30.0,
+              -240.0,
+              464.44451904296875,
+              516.0
+            ],
+            "glif_sha256": "cc53af2f6274ce40729495505f002a36a9da48f2079a9cf3c656edb628000d44",
+            "transform": {
+              "x_scale": 1.2162487834673694,
+              "body_y_scale": 1.2938816845397547,
+              "tail_y_scale": 0.8344736795000852,
+              "hinge": -12,
+              "x_offset": -13.784881970890758
+            },
+            "status": "proportion study; actual Cormorant outline"
+          }
+        ],
+        "provenance": "Actual Cormorant de imported at explicit user request; proportion studies, OFL1.1"
+      },
+      "з": {
+        "selected": null,
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/regular-refinement/uni0437.glif",
+            "variant": "01",
+            "label": "Оптическая правка веса",
+            "advance": 349,
+            "bounds": [
+              24.0,
+              -9.0,
+              326.0,
+              516.0
+            ],
+            "glif_sha256": "c4f08045c2cb6e9eac56ed3523b1198d9acc765a8113ff3bbfcd3a6c767ac0dc",
+            "status": "revised at user request; optical review proposal"
+          }
+        ],
+        "provenance": "Codex; optical correction requested by user"
       }
     }
   },

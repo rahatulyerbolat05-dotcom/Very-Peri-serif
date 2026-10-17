@@ -95,6 +95,9 @@ def symbols(ref):
 
 
 def main():
+    current=json.loads(Path('data/alphabet.json').read_text())
+    if any(v['path'].startswith('data/width-refinement/') for section in ('user','codex') for e in current.get(section,{}).values() for v in e['variants']):
+        print('Keeping width refinements; run tools/refine_widths.py to regenerate the active shapes.');return
     DATA.mkdir(exist_ok=True);SYMBOLS.mkdir(exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());ctx=json.loads(Path('data/context/serif_bl.json').read_text());ref=Ref();manifest={}
     shapes={};u,advance=narrow_u(ref);shapes['ү']=(u,advance)

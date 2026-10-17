@@ -13,6 +13,9 @@ from check_context_classes import test,test_top
 
 
 def main():
+    current=json.loads(Path('data/alphabet.json').read_text())
+    if any(v['path'].startswith('data/width-refinement/') for section in ('user','codex') for e in current.get(section,{}).values() for v in e['variants']):
+        print('Keeping width refinements; run tools/refine_widths.py to regenerate the active shapes.');return
     params=json.loads(Path('data/params.json').read_text());design=params['cormorant_de_proportions']
     r=next(r for r in json.loads(Path('data/de-reference-audit.json').read_text())['references'] if r['family_id']=='cormorantgaramond' and r['style']=='normal' and r['features']=={'ss10':1})
     source=Path('build/de-audit/cormorantgaramond')/r['filename']

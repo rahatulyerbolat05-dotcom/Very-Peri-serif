@@ -119,6 +119,9 @@ def build(ch,source,record):
     return p,advance,dict(approved_drop_xor_area=below,upper_body_xor_area=above,removed_join_holes=len(removed))
 
 def main():
+    current=json.loads(Path('data/alphabet.json').read_text())
+    if any(v['path'].startswith('data/width-refinement/') for section in ('user','codex') for e in current.get(section,{}).values() for v in e['variants']):
+        print('Keeping width refinements; run tools/refine_widths.py to regenerate the active shapes.');return
     cfg=json.loads(Path('data/alphabet.json').read_text());ctx=json.loads(Path('data/context/serif_bl.json').read_text());out=Path('data/smooth-tail-joins');out.mkdir(exist_ok=True);manifest=[]
     for r in json.loads(Path('data/exact-author-tails/manifest.json').read_text()):
         ch,role=r['character'],r['role'];entry=cfg['user'][ch];source=r['path'];p,advance,audit=build(ch,source,r)

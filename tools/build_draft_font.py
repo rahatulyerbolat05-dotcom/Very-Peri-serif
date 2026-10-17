@@ -318,17 +318,17 @@ def main():
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors; Modified de Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant).',
-            1:'Very Peri Serif Draft',2:'Regular',3:'1.011;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
-            4:'Very Peri Serif Draft Regular',5:'Version 1.011',6:'VeryPeriSerifDraft-Regular'}
+            1:'Very Peri Serif Draft',2:'Regular',3:'1.012;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
+            4:'Very Peri Serif Draft Regular',5:'Version 1.012',6:'VeryPeriSerifDraft-Regular'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
-    font['head'].fontRevision=1.011;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
+    font['head'].fontRevision=1.012;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
     font.save(TTF)
     web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
-    manifest={'family':'Very Peri Serif Draft','version':'1.011','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
+    manifest={'family':'Very Peri Serif Draft','version':'1.012','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
               'tail_feature':'ss09','te_feature':'ss08','de_feature':'ss07','default_context':'calt',

@@ -55,10 +55,10 @@ def check(data,font,native,chars,native_kern):
         for b in native_chars:
             assert signature(hf,font,a+b)==signature(nhf,native,a+b),('native regression',repr(a+b))
             native_count+=1
-    # Only the ten tail attachments may change from the preceding Regular 1.010 release.
-    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','ee0d6b2:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
+    # Only the recorded width/weight refinements may change from Regular 1.011.
+    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','f3614aa:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
-    changed={f'uni{ord(ch):04X}' for ch in 'цщқңЦЩҚҢ'}|{'uni049B.alternate','uni049B.context'}
+    changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдз'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
     for name in old.getGlyphOrder():
         if name in changed:continue

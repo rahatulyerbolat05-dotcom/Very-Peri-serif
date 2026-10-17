@@ -3512,5 +3512,255 @@
   "tiny_connector_max": 0.5,
   "backtrack_max": 30,
   "joint_tangent_tolerance_degrees": 0.05
+ },
+ "width_refinement": {
+  "status": "17.10.2026: author requests narrower excessive widths, especially lowercase de, and stronger lowercase ze",
+  "baseline_commit": "f3614aa",
+  "letters": {
+   "Ж": {
+    "method": "branch_shear",
+    "reduction": 64,
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     1
+    ]
+   },
+   "Ш": {
+    "method": "gaps",
+    "reduction": 44,
+    "intervals": [
+     [
+      185,
+      314,
+      22
+     ],
+     [
+      435,
+      564,
+      22
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "Щ": {
+    "method": "gaps",
+    "reduction": 44,
+    "intervals": [
+     [
+      185,
+      313,
+      22
+     ],
+     [
+      435,
+      563,
+      22
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "Ы": {
+    "method": "separate_stem",
+    "reduction": 50,
+    "separate_stem_min_x": 480,
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "Ю": {
+    "method": "shorter_link",
+    "reduction": 30,
+    "link": 25,
+    "stem_probe_y": 200,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "ю": {
+    "method": "shorter_link",
+    "reduction": 30,
+    "link": 25,
+    "stem_probe_y": 200,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "Ф": {
+    "method": "gaps",
+    "reduction": 40,
+    "intervals": [
+     [
+      134,
+      270,
+      20
+     ],
+     [
+      381,
+      516,
+      20
+     ]
+    ],
+    "stem_probe_y": 360,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "Ч": {
+    "method": "gaps",
+    "reduction": 36,
+    "intervals": [
+     [
+      210,
+      385,
+      36
+     ]
+    ],
+    "stem_probe_y": 600,
+    "protected_stem_indices": [
+     0,
+     1
+    ]
+   },
+   "т": {
+    "method": "gaps",
+    "reduction": 56,
+    "intervals": [
+     [
+      166,
+      286,
+      28
+     ],
+     [
+      408,
+      528,
+      28
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "ш": {
+    "method": "gaps",
+    "reduction": 56,
+    "intervals": [
+     [
+      170,
+      290,
+      28
+     ],
+     [
+      412,
+      532,
+      28
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "щ": {
+    "method": "gaps",
+    "reduction": 56,
+    "intervals": [
+     [
+      166,
+      286,
+      28
+     ],
+     [
+      408,
+      528,
+      28
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "ы": {
+    "method": "separate_stem",
+    "reduction": 26,
+    "separate_stem_min_x": 330,
+    "stem_probe_y": 200,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "ф": {
+    "method": "gaps",
+    "reduction": 36,
+    "intervals": [
+     [
+      111,
+      219,
+      18
+     ],
+     [
+      327,
+      434,
+      18
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1,
+     2
+    ]
+   },
+   "д": {
+    "method": "gaps",
+    "reduction": 44,
+    "intervals": [
+     [
+      145,
+      345,
+      44
+     ]
+    ],
+    "stem_probe_y": 250,
+    "protected_stem_indices": [
+     0,
+     1
+    ]
+   },
+   "з": {
+    "method": "inner_weight",
+    "reduction": 0,
+    "weight_addition": 6,
+    "stem_probe_y": 148
+   }
+  }
  }
 }

@@ -1,0 +1,104 @@
+[
+  {
+    "character": "Ж",
+    "role": "primary",
+    "source": "data/zhe/zhe.glif",
+    "sha256": "7417ee9172992572cbaefeb1eae4d7d0e5ef17df373fbfa548ae07fffdbed63b"
+  },
+  {
+    "character": "Ш",
+    "role": "primary",
+    "source": "data/sha_cap/Sh1.glif",
+    "sha256": "ed5fb3bc168a4213809ae5f90697474fc325ec0beda04be8b8ca6e9e74d64ea1"
+  },
+  {
+    "character": "Щ",
+    "role": "primary",
+    "source": "data/smooth-tail-joins/uni0429-primary.glif",
+    "sha256": "28b16602c02d0b731eff675b37f8f6056060a375ca8b815bf2f0f997be18fc01"
+  },
+  {
+    "character": "Щ",
+    "role": "tail_old",
+    "source": "data/author-curve-fixes/uni0429-primary.glif",
+    "sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518"
+  },
+  {
+    "character": "Ы",
+    "role": "primary",
+    "source": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
+    "sha256": "2bf703062d1b2cc0b33a95813bd1e2bbf9a7d0e85c108d6a8077b0e94f5bed49"
+  },
+  {
+    "character": "Ю",
+    "role": "primary",
+    "source": "data/yu_cap/Yu1.glif",
+    "sha256": "0c0bf04a66a95224c36b3826315b4c753fb3a77955c3ce846d3a737c233a2b52"
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/yu/yu1.glif",
+    "sha256": "9ff8f6516d55bdf71b1c8dfdd65fdd846a196125d8761df7100c5ab94049324f"
+  },
+  {
+    "character": "Ф",
+    "role": "primary",
+    "source": "data/codex/uni0424-01.glif",
+    "sha256": "835003b4fdbc10a1d9a335b63bdcc60e32fa2a88050edf64e516ee61f8b63d73"
+  },
+  {
+    "character": "Ч",
+    "role": "primary",
+    "source": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
+    "sha256": "c95e01477e5a2b0764938424e715e986a808912b1c83746ec787f2827705d717"
+  },
+  {
+    "character": "т",
+    "role": "primary",
+    "source": "data/codex/uni0442-02.glif",
+    "sha256": "8116f911aa6a27d7fd21cca502b43beaec83077e8bdc0ca820eaf22038e2e8f5"
+  },
+  {
+    "character": "ш",
+    "role": "primary",
+    "source": "data/sha/R1.glif",
+    "sha256": "85b6e6ede6bee3c309a3c47b6838b31fa1bc3d0233d4fbaec942db805ba1e9d7"
+  },
+  {
+    "character": "щ",
+    "role": "primary",
+    "source": "data/smooth-tail-joins/uni0449-primary.glif",
+    "sha256": "b02504f9b3274decec615fbd50e27708836d2a32b80e48b224622d82bbcbffa3"
+  },
+  {
+    "character": "щ",
+    "role": "tail_old",
+    "source": "data/author-curve-fixes/uni0449-primary.glif",
+    "sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076"
+  },
+  {
+    "character": "ы",
+    "role": "primary",
+    "source": "data/yery/Y1.glif",
+    "sha256": "8f074b7fdab9787fc861ac5a6a91c9caaba9a6be64ab9c9eedeaee306b80d718"
+  },
+  {
+    "character": "ф",
+    "role": "primary",
+    "source": "data/author-curve-fixes/uni0444-primary.glif",
+    "sha256": "2d3f82723108255acc0573d9b5d910332ce4701a37d259adbd424272336f24ef"
+  },
+  {
+    "character": "д",
+    "role": "primary",
+    "source": "data/cormorant-de/uni0434-03.glif",
+    "sha256": "fb2e948463601dff2144a8c3c8b716427eae5038709647a3552eaeed90e796a1"
+  },
+  {
+    "character": "з",
+    "role": "primary",
+    "source": "data/regular-refinement/uni0437.glif",
+    "sha256": "c4f08045c2cb6e9eac56ed3523b1198d9acc765a8113ff3bbfcd3a6c767ac0dc"
+  }
+]
