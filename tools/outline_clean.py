@@ -341,7 +341,11 @@ def max_deviation(a,b,step=1.0):
 
 class GlyphShape:
     """Adapter: a (decomposed) glyph from a glyph set as an object with .draw(pen)."""
-    def __init__(self,glyphset,name):
+    def __init__(self,glyphset,name,dx=0):
         from fontTools.pens.recordingPen import DecomposingRecordingPen
-        self.rec=DecomposingRecordingPen(glyphset);glyphset[name].draw(self.rec)
-    def draw(self,pen):self.rec.replay(pen)
+        self.rec=DecomposingRecordingPen(glyphset);glyphset[name].draw(self.rec);self.dx=dx
+    def draw(self,pen):
+        if self.dx:
+            from fontTools.pens.transformPen import TransformPen
+            self.rec.replay(TransformPen(pen,(1,0,0,1,self.dx,0)))
+        else:self.rec.replay(pen)

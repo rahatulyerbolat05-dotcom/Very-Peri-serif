@@ -20,6 +20,7 @@ from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables import otTables
 from fontTools.pens.pointPen import PointToSegmentPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.pens.transformPen import TransformPen
 from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.ufoLib.glifLib import readGlyphFromString
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
@@ -49,6 +50,10 @@ for ch,donor in SYMBOL_DONORS.items():
 
 for ch,item in json.loads(Path('data/typographic-completion/manifest.json').read_text()).items():
     SYMBOLS[ch]=item['path'];DONORS[ch]=(item['donor'],item['donor'])
+
+
+SPACING_FILE=Path('data/spacing.json')
+SPACING=json.loads(SPACING_FILE.read_text())['glyphs'] if SPACING_FILE.exists() else {}
 
 
 def load(filename):
@@ -97,7 +102,7 @@ def extend_anchors(font,records):
         if r['character']=='і':donor='dotlessi'
         if donor not in original:donor='E' if r['character'].isupper() else 'e'
         anchors=copy.deepcopy(original[donor])
-        dx=(r['advance']-font['hmtx'][donor][0])/2
+        dx=(r.get('advance_unspaced',r['advance'])-font['hmtx'][donor][0])/2+r.get('spacing_dx',0)
         for anchor in anchors.BaseAnchor:
             if anchor:anchor.XCoordinate=round(anchor.XCoordinate+dx)
         if r['character'] in 'ЙЁйё' and anchors.BaseAnchor[0]:
@@ -197,6 +202,10 @@ def main(output_dir=OUT,ttf_path=TTF):
             checksum=hashlib.sha256(native['glyf'][native_donor].compile(native['glyf'])).hexdigest()
         else:
             path,advance=load(filename);checksum=hashlib.sha256(Path(filename).read_bytes()).hexdigest()
+        spaced=SPACING.get(name) if not native_donor else None
+        advance_unspaced=advance
+        if spaced:
+            moved=pathops.Path();path.draw(TransformPen(moved.getPen(),(1,0,0,1,spaced['dx'],0)));path=moved;advance=advance+spaced['dadv']
         path=pathops.simplify(path,fix_winding=True,clockwise=True)
         # Added glyphs only: merge redundant nodes, exact extrema/smooth joins. Verbatim
         # Instrument homoglyphs keep their native structure.
@@ -213,6 +222,7 @@ def main(output_dir=OUT,ttf_path=TTF):
         font['hmtx'][name]=(advance,getattr(glyph,'xMin',0))
         paths[name]=path;records[name]={'character':ch,'path':filename,'advance':advance,'donors':DONORS[ch],
             'sha256':checksum}
+        if spaced:records[name].update(spacing_dx=spaced['dx'],advance_unspaced=advance_unspaced)
         if native_donor:records[name]['donors']=(native_donor,native_donor)
     for ch in CHARS:
         items=source_items(ch,cfg);assert items,ch

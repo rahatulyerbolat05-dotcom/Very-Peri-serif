@@ -13,7 +13,7 @@ EQ_WEIGHT=0.6   # fraction of the distance to the Cyrillic median applied
 EQ_LIMIT=40.    # largest equalizing shift, font units
 EQ_OFFSET=-8.   # keeps the mean Cyrillic gap where the donor spacing had it
 FOOT_MIN=10.    # all Cyrillic/Cyrillic pairs: feet and serifs must not fuse, whatever the donor allowed
-Y=np.arange(-310,1001,2)
+Y=np.arange(-310,1001)   # every pixel row: serif tips meeting round tops differ by several units between neighbouring rows
 
 
 def profiles(font):
@@ -42,8 +42,8 @@ def gap_profile(a,b):
 
 def optical(gap,valid,high):
     mask=valid&(Y>=40)&(Y<=high-35)
-    if mask.sum()<12:mask=valid&(Y>=-20)&(Y<=900)
-    if mask.sum()<5:return None
+    if mask.sum()<24:mask=valid&(Y>=-20)&(Y<=900)
+    if mask.sum()<10:return None
     g=gap[mask];small=float(g.min());temperature=55.
     # Soft minimum: near approaches dominate, while the full facing edge counts.
     return small-temperature*math.log(float(np.exp(-(g-small)/temperature).mean()))

@@ -60,19 +60,26 @@ def check(data,font,native,chars,native_kern,report_path=None):
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
     changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзж'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
+    spacing=json.loads(Path('data/spacing.json').read_text())['glyphs'] if Path('data/spacing.json').exists() else {}
     def same_shape(name_new,name_old):
         # Outline hygiene (1.003) changes node structure, never the shape: two-sided deviation under 2.0 units.
+        # Re-spacing (1.010) only translates a glyph by its recorded dx.
         from outline_clean import GlyphShape,max_deviation
-        if font['glyf'][name_new].compile(font['glyf'])==old['glyf'][name_old].compile(old['glyf']):return True
-        return max_deviation(GlyphShape(font.getGlyphSet(),name_new),GlyphShape(old.getGlyphSet(),name_old))<=2.0
+        dx=spacing.get(name_new,{}).get('dx',0)
+        if not dx and font['glyf'][name_new].compile(font['glyf'])==old['glyf'][name_old].compile(old['glyf']):return True
+        return max_deviation(GlyphShape(font.getGlyphSet(),name_new,-dx),GlyphShape(old.getGlyphSet(),name_old))<=2.0
+    def same_metrics(name_new,name_old):
+        sp=spacing.get(name_new)
+        if sp:return font['hmtx'][name_new][0]==old['hmtx'][name_old][0]+sp['dadv']
+        return font['hmtx'][name_new][0]==old['hmtx'][name_old][0] and abs(font['hmtx'][name_new][1]-old['hmtx'][name_old][1])<=2
     for name in old.getGlyphOrder():
         if name in changed:continue
         assert same_shape(name,name),name
-        assert font['hmtx'][name][0]==old['hmtx'][name][0] and abs(font['hmtx'][name][1]-old['hmtx'][name][1])<=2,name
+        assert same_metrics(name,name),name
     # Printed alternate stays identical to its existing 1.007 outline and metrics.
     alt='uni0434.ss07';primary=alt
     assert same_shape(alt,primary)
-    assert font['hmtx'][alt]==old['hmtx'][primary]
+    assert same_metrics(alt,primary)
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())
     for r in geometry:
         if not r.get('identical_to_native'):   # identical homoglyph pairs equal the native Latin pair by rule
