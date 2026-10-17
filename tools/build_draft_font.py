@@ -27,6 +27,7 @@ from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 import pathops
 from audit_author_glyphs import rectangle
 from outline_clean import clean_path
+from polish_outlines import polish
 CLEAN_QUAD_TOLERANCE=.9   # cubic->quadratic error for cleaned outlines, font units
 
 REF=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf')
@@ -218,10 +219,14 @@ def main(output_dir=OUT,ttf_path=TTF):
         rounded=pathops.Path();glyph.draw(rounded.getPen(),font['glyf'])
         rounded=pathops.simplify(rounded,fix_winding=True,clockwise=True)
         pen=TTGlyphPen(None);rounded.draw(Cu2QuPen(pen,.1,reverse_direction=False));glyph=pen.glyph()
+        polish_stats={}
+        if not native_donor and 'data/homoglyph/' not in str(filename):
+            font['glyf'][name]=glyph;glyph,polish_stats=polish(glyph,font['glyf'],name)
         font['glyf'][name]=glyph;order.append(name);glyph.recalcBounds(font['glyf'])
         font['hmtx'][name]=(advance,getattr(glyph,'xMin',0))
         paths[name]=path;records[name]={'character':ch,'path':filename,'advance':advance,'donors':DONORS[ch],
             'sha256':checksum}
+        if polish_stats:records[name]['polish']=polish_stats
         if spaced:records[name].update(spacing_dx=spaced['dx'],advance_unspaced=advance_unspaced)
         if native_donor:records[name]['donors']=(native_donor,native_donor)
     for ch in CHARS:

@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.011",
+  "version": "1.012",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 136,
-  "kerning_pairs_added": 61176,
+  "kerning_pairs_added": 61155,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -44,12 +44,6 @@
     {
       "left": ".notdef",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": ".notdef",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -104,6 +98,12 @@
     {
       "left": ".notdef",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": ".notdef",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -5227,12 +5227,6 @@
     },
     {
       "left": "F",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "F",
       "right": "uni0492",
       "requested": -2,
       "actual": 0
@@ -5606,7 +5600,7 @@
     {
       "left": "H",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -5990,7 +5984,7 @@
     {
       "left": "I",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -6109,12 +6103,6 @@
     },
     {
       "left": "IJ",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "IJ",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -6152,7 +6140,7 @@
     {
       "left": "IJ",
       "right": "uni04B0",
-      "requested": -38,
+      "requested": -36,
       "actual": 7
     },
     {
@@ -6344,7 +6332,7 @@
     {
       "left": "Iacute",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -6542,7 +6530,7 @@
     {
       "left": "Icircumflex",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -6740,7 +6728,7 @@
     {
       "left": "Idieresis",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -6938,7 +6926,7 @@
     {
       "left": "Idotaccent",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -7136,7 +7124,7 @@
     {
       "left": "Igrave",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -7334,7 +7322,7 @@
     {
       "left": "Imacron",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -7532,7 +7520,7 @@
     {
       "left": "Iogonek",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 7
     },
     {
@@ -7651,12 +7639,6 @@
     },
     {
       "left": "J",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "J",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -7694,7 +7676,7 @@
     {
       "left": "J",
       "right": "uni04B0",
-      "requested": -38,
+      "requested": -36,
       "actual": 7
     },
     {
@@ -8060,7 +8042,7 @@
     {
       "left": "K",
       "right": "uni04B0",
-      "requested": -40,
+      "requested": -38,
       "actual": 27
     },
     {
@@ -8474,7 +8456,7 @@
     {
       "left": "uni0136",
       "right": "uni04B0",
-      "requested": -40,
+      "requested": -38,
       "actual": 27
     },
     {
@@ -8787,7 +8769,7 @@
       "left": "Lcaron",
       "right": "uni0427",
       "requested": -24,
-      "actual": -19
+      "actual": -18
     },
     {
       "left": "Lcaron",
@@ -9271,12 +9253,6 @@
     },
     {
       "left": "N",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "N",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -9314,7 +9290,7 @@
     {
       "left": "N",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -9433,12 +9409,6 @@
     },
     {
       "left": "Nacute",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Nacute",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -9476,7 +9446,7 @@
     {
       "left": "Nacute",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -9595,12 +9565,6 @@
     },
     {
       "left": "Ncaron",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ncaron",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -9638,7 +9602,7 @@
     {
       "left": "Ncaron",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -9757,12 +9721,6 @@
     },
     {
       "left": "uni0145",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0145",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -9800,7 +9758,7 @@
     {
       "left": "uni0145",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -9919,12 +9877,6 @@
     },
     {
       "left": "Ntilde",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ntilde",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -9962,7 +9914,7 @@
     {
       "left": "Ntilde",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -10081,12 +10033,6 @@
     },
     {
       "left": "Eng",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Eng",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -10124,7 +10070,7 @@
     {
       "left": "Eng",
       "right": "uni04B0",
-      "requested": -22,
+      "requested": -20,
       "actual": 10
     },
     {
@@ -11371,12 +11317,6 @@
     },
     {
       "left": "Thorn",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Thorn",
       "right": "uni042D",
       "requested": -90,
       "actual": -66
@@ -11571,7 +11511,7 @@
       "left": "R",
       "right": "uni042D",
       "requested": -14,
-      "actual": -8
+      "actual": -9
     },
     {
       "left": "R",
@@ -11661,7 +11601,7 @@
       "left": "Racute",
       "right": "uni042D",
       "requested": -14,
-      "actual": -8
+      "actual": -9
     },
     {
       "left": "Racute",
@@ -11751,7 +11691,7 @@
       "left": "Rcaron",
       "right": "uni042D",
       "requested": -14,
-      "actual": -8
+      "actual": -9
     },
     {
       "left": "Rcaron",
@@ -11841,7 +11781,7 @@
       "left": "uni0156",
       "right": "uni042D",
       "requested": -14,
-      "actual": -8
+      "actual": -9
     },
     {
       "left": "uni0156",
@@ -12541,12 +12481,6 @@
     },
     {
       "left": "T",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "T",
       "right": "uni0431",
       "requested": -64,
       "actual": -55
@@ -12692,12 +12626,6 @@
     {
       "left": "Tcaron",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Tcaron",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -12853,12 +12781,6 @@
     },
     {
       "left": "uni021A",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni021A",
       "right": "uni0431",
       "requested": -64,
       "actual": -55
@@ -13015,12 +12937,6 @@
     },
     {
       "left": "U",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "U",
       "right": "uni0432",
       "requested": 2,
       "actual": 0
@@ -13144,12 +13060,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Uacute",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Uacute",
@@ -13279,12 +13189,6 @@
     },
     {
       "left": "Ubreve",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ubreve",
       "right": "uni0432",
       "requested": 2,
       "actual": 0
@@ -13411,12 +13315,6 @@
     },
     {
       "left": "Ucircumflex",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ucircumflex",
       "right": "uni0432",
       "requested": 2,
       "actual": 0
@@ -13540,12 +13438,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Udieresis",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Udieresis",
@@ -13672,12 +13564,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Ugrave",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Ugrave",
@@ -13804,12 +13690,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Uhungarumlaut",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Uhungarumlaut",
@@ -13936,12 +13816,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Umacron",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Umacron",
@@ -14068,12 +13942,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Uogonek",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Uogonek",
@@ -14200,12 +14068,6 @@
       "right": "uni0427",
       "requested": -4,
       "actual": 16
-    },
-    {
-      "left": "Uring",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "Uring",
@@ -14438,7 +14300,7 @@
     {
       "left": "V",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -14714,7 +14576,7 @@
     {
       "left": "W",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -14990,7 +14852,7 @@
     {
       "left": "Wacute",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -15266,7 +15128,7 @@
     {
       "left": "Wcircumflex",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -15542,7 +15404,7 @@
     {
       "left": "Wdieresis",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -15818,7 +15680,7 @@
     {
       "left": "Wgrave",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -16244,7 +16106,7 @@
     {
       "left": "Y",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -16520,7 +16382,7 @@
     {
       "left": "Yacute",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -16796,7 +16658,7 @@
     {
       "left": "Ycircumflex",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -17072,7 +16934,7 @@
     {
       "left": "Ydieresis",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -17348,7 +17210,7 @@
     {
       "left": "Ygrave",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 6
     },
     {
@@ -18753,7 +18615,7 @@
       "left": "adieresis",
       "right": "uni0427",
       "requested": -90,
-      "actual": -57
+      "actual": -56
     },
     {
       "left": "adieresis",
@@ -19767,7 +19629,7 @@
       "left": "ccaron",
       "right": "uni042A",
       "requested": 0,
-      "actual": 10
+      "actual": 9
     },
     {
       "left": "ccaron",
@@ -19995,7 +19857,7 @@
       "left": "d",
       "right": "uni0414",
       "requested": -18,
-      "actual": -15
+      "actual": -14
     },
     {
       "left": "d",
@@ -20259,7 +20121,7 @@
       "left": "dcroat",
       "right": "uni0414",
       "requested": -18,
-      "actual": -15
+      "actual": -14
     },
     {
       "left": "dcroat",
@@ -20985,7 +20847,7 @@
       "left": "edieresis",
       "right": "uni0427",
       "requested": -66,
-      "actual": -20
+      "actual": -19
     },
     {
       "left": "edieresis",
@@ -21739,7 +21601,19 @@
     },
     {
       "left": "f",
+      "right": "uni0418",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "f",
       "right": "uni0419",
+      "requested": 0,
+      "actual": 3
+    },
+    {
+      "left": "f",
+      "right": "uni041F",
       "requested": 0,
       "actual": 3
     },
@@ -22995,7 +22869,7 @@
       "left": "i",
       "right": "uni0427",
       "requested": -72,
-      "actual": -56
+      "actual": -55
     },
     {
       "left": "i",
@@ -23823,7 +23697,7 @@
       "left": "idieresis",
       "right": "uni0427",
       "requested": -72,
-      "actual": 31
+      "actual": 32
     },
     {
       "left": "idieresis",
@@ -24831,7 +24705,7 @@
       "left": "iogonek",
       "right": "uni0427",
       "requested": -72,
-      "actual": -58
+      "actual": -57
     },
     {
       "left": "iogonek",
@@ -27543,7 +27417,7 @@
       "left": "odieresis",
       "right": "uni0427",
       "requested": -90,
-      "actual": -62
+      "actual": -61
     },
     {
       "left": "odieresis",
@@ -33283,6 +33157,12 @@
     },
     {
       "left": "y",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 5
+    },
+    {
+      "left": "y",
       "right": "uni0439",
       "requested": 0,
       "actual": 5
@@ -33457,6 +33337,12 @@
     },
     {
       "left": "yacute",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 5
+    },
+    {
+      "left": "yacute",
       "right": "uni0439",
       "requested": 0,
       "actual": 5
@@ -33628,6 +33514,12 @@
       "right": "uni0436",
       "requested": -28,
       "actual": 22
+    },
+    {
+      "left": "ycircumflex",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 5
     },
     {
       "left": "ycircumflex",
@@ -33811,6 +33703,12 @@
     },
     {
       "left": "ydieresis",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 5
+    },
+    {
+      "left": "ydieresis",
       "right": "uni0439",
       "requested": 0,
       "actual": 5
@@ -33976,6 +33874,12 @@
       "right": "uni0436",
       "requested": -28,
       "actual": 22
+    },
+    {
+      "left": "ygrave",
+      "right": "uni0438",
+      "requested": 0,
+      "actual": 5
     },
     {
       "left": "ygrave",
@@ -34916,7 +34820,7 @@
     {
       "left": "uni01CE.ss01",
       "right": "uni0427",
-      "requested": -26,
+      "requested": -28,
       "actual": 4
     },
     {
@@ -35306,6 +35210,12 @@
     {
       "left": "adieresis.ss01",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "adieresis.ss01",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -36483,7 +36393,7 @@
       "left": "ccaron.ss01",
       "right": "uni042A",
       "requested": 0,
-      "actual": 10
+      "actual": 9
     },
     {
       "left": "ccaron.ss01",
@@ -36895,6 +36805,12 @@
     },
     {
       "left": "d.ss01",
+      "right": "uni04B0",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "d.ss01",
       "right": "uni0493",
       "requested": 2,
       "actual": 0
@@ -37082,7 +36998,7 @@
     {
       "left": "dcaron.ss01",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 41
     },
     {
@@ -37347,7 +37263,7 @@
       "left": "dcroat.ss01",
       "right": "uni0414",
       "requested": -18,
-      "actual": -13
+      "actual": -12
     },
     {
       "left": "dcroat.ss01",
@@ -38733,7 +38649,7 @@
       "left": "g.ss01",
       "right": "uni042D",
       "requested": -56,
-      "actual": -43
+      "actual": -44
     },
     {
       "left": "g.ss01",
@@ -39193,12 +39109,6 @@
     },
     {
       "left": "uni0123.ss01",
-      "right": "uni042D",
-      "requested": -44,
-      "actual": -43
-    },
-    {
-      "left": "uni0123.ss01",
       "right": "uni042F",
       "requested": 0,
       "actual": 7
@@ -39418,12 +39328,6 @@
       "right": "uni0423",
       "requested": -50,
       "actual": -39
-    },
-    {
-      "left": "gdotaccent.ss01",
-      "right": "uni042D",
-      "requested": -44,
-      "actual": -43
     },
     {
       "left": "gdotaccent.ss01",
@@ -39944,6 +39848,12 @@
     {
       "left": "f_f_l",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "f_f_l",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -40423,6 +40333,12 @@
     },
     {
       "left": "f_l",
+      "right": "uni04B0",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "f_l",
       "right": "uni0493",
       "requested": 2,
       "actual": 0
@@ -40735,12 +40651,6 @@
     },
     {
       "left": "zero",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "zero",
       "right": "uni0431",
       "requested": 2,
       "actual": 0
@@ -40850,7 +40760,7 @@
     {
       "left": "one",
       "right": "uni0414",
-      "requested": -20,
+      "requested": -22,
       "actual": 2
     },
     {
@@ -40934,6 +40844,12 @@
     {
       "left": "one",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "one",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -41509,12 +41425,6 @@
     },
     {
       "left": "seven",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "seven",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -41588,12 +41498,6 @@
     {
       "left": "eight",
       "right": "uni0423",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "eight",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -41708,12 +41612,6 @@
     {
       "left": "nine",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "nine",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -42259,12 +42157,6 @@
     },
     {
       "left": "question",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "question",
       "right": "uni0434",
       "requested": -2,
       "actual": 0
@@ -42314,12 +42206,6 @@
     {
       "left": "questiondown",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "questiondown",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -42404,7 +42290,7 @@
     {
       "left": "periodcentered",
       "right": "uni0437",
-      "requested": -48,
+      "requested": -50,
       "actual": -18
     },
     {
@@ -42595,12 +42481,6 @@
     },
     {
       "left": "asterisk",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "asterisk",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -42620,12 +42500,6 @@
     {
       "left": "numbersign",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "numbersign",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -42908,7 +42782,7 @@
     {
       "left": "periodcentered.loclCAT",
       "right": "uni0437",
-      "requested": -48,
+      "requested": -50,
       "actual": -18
     },
     {
@@ -43010,7 +42884,7 @@
     {
       "left": "periodcentered.loclCAT.case",
       "right": "uni0437",
-      "requested": -48,
+      "requested": -50,
       "actual": -18
     },
     {
@@ -43237,12 +43111,6 @@
     },
     {
       "left": "parenright",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "parenright",
       "right": "uni0431",
       "requested": 2,
       "actual": 0
@@ -43315,6 +43183,12 @@
     },
     {
       "left": "parenright",
+      "right": "uni04A3",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "parenright",
       "right": "uni04B1",
       "requested": 2,
       "actual": 0
@@ -43346,6 +43220,12 @@
     {
       "left": "parenright",
       "right": "uni043A.short.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "parenright",
+      "right": "uni04A3.tail_old",
       "requested": 2,
       "actual": 0
     },
@@ -43537,12 +43417,6 @@
     },
     {
       "left": "braceright",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "braceright",
       "right": "uni0434",
       "requested": 2,
       "actual": 0
@@ -43562,6 +43436,12 @@
     {
       "left": "braceright",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "braceright",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -43777,12 +43657,6 @@
     },
     {
       "left": "bracketright",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "bracketright",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -43832,6 +43706,12 @@
     {
       "left": "bracketright",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "bracketright",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -44341,12 +44221,6 @@
     },
     {
       "left": "at",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "at",
       "right": "uni0431",
       "requested": 2,
       "actual": 0
@@ -44641,12 +44515,6 @@
     },
     {
       "left": "paragraph",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "paragraph",
       "right": "uni042D",
       "requested": -2,
       "actual": 0
@@ -44708,7 +44576,7 @@
     {
       "left": "paragraph",
       "right": "uni04B0",
-      "requested": 0,
+      "requested": 2,
       "actual": 7
     },
     {
@@ -44971,12 +44839,6 @@
     },
     {
       "left": "copyright",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "copyright",
       "right": "uni0434",
       "requested": -2,
       "actual": 0
@@ -45086,12 +44948,6 @@
     {
       "left": "registered",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "registered",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -45217,12 +45073,6 @@
     },
     {
       "left": "trademark",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "trademark",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -45265,12 +45115,6 @@
     },
     {
       "left": "degree",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "degree",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -45290,12 +45134,6 @@
     {
       "left": "bar",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "bar",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -45350,6 +45188,12 @@
     {
       "left": "bar",
       "right": "uni044E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "bar",
+      "right": "uni04B0",
       "requested": 2,
       "actual": 0
     },
@@ -45889,12 +45733,6 @@
     },
     {
       "left": "yen",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "yen",
       "right": "uni042B",
       "requested": -34,
       "actual": -11
@@ -45926,7 +45764,7 @@
     {
       "left": "yen",
       "right": "uni0434",
-      "requested": -84,
+      "requested": -82,
       "actual": -66
     },
     {
@@ -46183,12 +46021,6 @@
     },
     {
       "left": "plus",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "plus",
       "right": "uni0432",
       "requested": -2,
       "actual": 0
@@ -46363,12 +46195,6 @@
     },
     {
       "left": "multiply",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "multiply",
       "right": "uni042F",
       "requested": 2,
       "actual": 0
@@ -46495,12 +46321,6 @@
     },
     {
       "left": "divide",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "divide",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -46604,12 +46424,6 @@
     {
       "left": "greater",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "greater",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -46771,12 +46585,6 @@
     },
     {
       "left": "less",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "less",
       "right": "uni0435",
       "requested": 2,
       "actual": 0
@@ -46803,6 +46611,12 @@
       "left": "less",
       "right": "uni044A",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "less",
+      "right": "uni20B4",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -46892,12 +46706,6 @@
     {
       "left": "asciicircum",
       "right": "uni0422",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "asciicircum",
-      "right": "uni042A",
       "requested": 2,
       "actual": 0
     },
@@ -48615,7 +48423,7 @@
       "left": "uni0413",
       "right": "uni01CE",
       "requested": -106,
-      "actual": -39
+      "actual": -38
     },
     {
       "left": "uni0413",
@@ -48669,7 +48477,7 @@
       "left": "uni0413",
       "right": "ccaron",
       "requested": -130,
-      "actual": -47
+      "actual": -46
     },
     {
       "left": "uni0413",
@@ -48693,7 +48501,7 @@
       "left": "uni0413",
       "right": "ecaron",
       "requested": -132,
-      "actual": -32
+      "actual": -31
     },
     {
       "left": "uni0413",
@@ -48867,7 +48675,7 @@
       "left": "uni0413",
       "right": "ncaron",
       "requested": -122,
-      "actual": -74
+      "actual": -73
     },
     {
       "left": "uni0413",
@@ -48933,7 +48741,7 @@
       "left": "uni0413",
       "right": "rcaron",
       "requested": -122,
-      "actual": 2
+      "actual": 3
     },
     {
       "left": "uni0413",
@@ -48945,7 +48753,7 @@
       "left": "uni0413",
       "right": "scaron",
       "requested": -126,
-      "actual": 7
+      "actual": 8
     },
     {
       "left": "uni0413",
@@ -49047,31 +48855,31 @@
       "left": "uni0413",
       "right": "z",
       "requested": -114,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0413",
       "right": "zacute",
       "requested": -114,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0413",
       "right": "zcaron",
       "requested": -114,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0413",
       "right": "zdotaccent",
       "requested": -114,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0413",
       "right": "ccaron.ss01",
       "requested": -66,
-      "actual": -47
+      "actual": -46
     },
     {
       "left": "uni0413",
@@ -49083,7 +48891,7 @@
       "left": "uni0413",
       "right": "ecaron.ss01",
       "requested": -52,
-      "actual": -17
+      "actual": -16
     },
     {
       "left": "uni0413",
@@ -49143,7 +48951,7 @@
       "left": "uni0413",
       "right": "uni0416",
       "requested": -28,
-      "actual": -21
+      "actual": -20
     },
     {
       "left": "uni0413",
@@ -49737,7 +49545,7 @@
       "left": "uni0414",
       "right": "uni0437",
       "requested": -38,
-      "actual": -11
+      "actual": -12
     },
     {
       "left": "uni0414",
@@ -49863,12 +49671,6 @@
       "left": "uni0415",
       "right": "uni0427",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0415",
-      "right": "uni042A",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -50025,12 +49827,6 @@
       "left": "uni0401",
       "right": "uni0427",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0401",
-      "right": "uni042A",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -51955,6 +51751,12 @@
     },
     {
       "left": "uni0418",
+      "right": "idieresis",
+      "requested": -12,
+      "actual": -8
+    },
+    {
+      "left": "uni0418",
       "right": "igrave",
       "requested": -12,
       "actual": -5
@@ -52064,7 +51866,7 @@
     {
       "left": "uni0418",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -52233,7 +52035,7 @@
       "left": "uni0419",
       "right": "idieresis",
       "requested": -12,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni0419",
@@ -52346,7 +52148,7 @@
     {
       "left": "uni0419",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -53198,7 +53000,7 @@
     {
       "left": "uni041A",
       "right": "uni04B0",
-      "requested": -40,
+      "requested": -38,
       "actual": 29
     },
     {
@@ -54326,7 +54128,7 @@
     {
       "left": "uni041D",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -54601,6 +54403,12 @@
     },
     {
       "left": "uni041F",
+      "right": "idieresis",
+      "requested": -12,
+      "actual": -8
+    },
+    {
+      "left": "uni041F",
       "right": "igrave",
       "requested": -12,
       "actual": -5
@@ -54710,7 +54518,7 @@
     {
       "left": "uni041F",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -55580,61 +55388,61 @@
     {
       "left": "uni0423",
       "right": "U",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Uacute",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Ubreve",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Ucircumflex",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Udieresis",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Ugrave",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Uhungarumlaut",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Umacron",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Uogonek",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
       "left": "uni0423",
       "right": "Uring",
-      "requested": -20,
+      "requested": -22,
       "actual": 6
     },
     {
@@ -55741,12 +55549,6 @@
     },
     {
       "left": "uni0423",
-      "right": "emacron",
-      "requested": -70,
-      "actual": -69
-    },
-    {
-      "left": "uni0423",
       "right": "gbreve",
       "requested": -86,
       "actual": -25
@@ -55791,7 +55593,7 @@
       "left": "uni0423",
       "right": "imacron",
       "requested": -54,
-      "actual": 12
+      "actual": 11
     },
     {
       "left": "uni0423",
@@ -57523,6 +57325,12 @@
     },
     {
       "left": "uni0426",
+      "right": "backslash",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0426",
       "right": "periodcentered.loclCAT",
       "requested": -2,
       "actual": 0
@@ -58209,7 +58017,7 @@
       "left": "uni0427",
       "right": "idieresis",
       "requested": -8,
-      "actual": -5
+      "actual": -4
     },
     {
       "left": "uni0427",
@@ -58401,7 +58209,7 @@
       "left": "uni0428",
       "right": "idieresis",
       "requested": -12,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni0428",
@@ -58450,12 +58258,6 @@
       "right": "uni0427",
       "requested": -6,
       "actual": 11
-    },
-    {
-      "left": "uni0428",
-      "right": "uni042A",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "uni0428",
@@ -59817,7 +59619,7 @@
       "left": "uni042B",
       "right": "idieresis",
       "requested": -12,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni042B",
@@ -59930,7 +59732,7 @@
     {
       "left": "uni042B",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -60829,12 +60631,6 @@
     },
     {
       "left": "uni0430",
-      "right": "uni0438",
-      "requested": 4,
-      "actual": 0
-    },
-    {
-      "left": "uni0430",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -60843,12 +60639,6 @@
       "left": "uni0430",
       "right": "uni043E",
       "requested": 18,
-      "actual": 0
-    },
-    {
-      "left": "uni0430",
-      "right": "uni043F",
-      "requested": 4,
       "actual": 0
     },
     {
@@ -61647,7 +61437,7 @@
       "left": "uni0433",
       "right": "uni0433",
       "requested": -20,
-      "actual": -4
+      "actual": -5
     },
     {
       "left": "uni0433",
@@ -61743,7 +61533,7 @@
       "left": "uni0433",
       "right": "uni0493",
       "requested": -24,
-      "actual": -8
+      "actual": -9
     },
     {
       "left": "uni0433",
@@ -62079,7 +61869,7 @@
       "left": "uni0451",
       "right": "uni0427",
       "requested": -72,
-      "actual": -24
+      "actual": -23
     },
     {
       "left": "uni0451",
@@ -62523,18 +62313,6 @@
       "left": "uni0436",
       "right": "exclam",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "quotedbl",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "quotesingle",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -63373,27 +63151,9 @@
     },
     {
       "left": "uni0438",
-      "right": "uni0430",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
       "right": "uni0437",
       "requested": 0,
       "actual": 7
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0438",
-      "requested": -4,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni043E",
-      "requested": 12,
-      "actual": 0
     },
     {
       "left": "uni0438",
@@ -63411,18 +63171,6 @@
       "left": "uni0438",
       "right": "uni0442",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0443",
-      "requested": -20,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0445",
-      "requested": -16,
       "actual": 0
     },
     {
@@ -63457,24 +63205,6 @@
     },
     {
       "left": "uni0438",
-      "right": "uni04E9",
-      "requested": 12,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni04BB",
-      "requested": -6,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0456",
-      "requested": -6,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
       "right": "uni20BD",
       "requested": 2,
       "actual": 0
@@ -63489,36 +63219,6 @@
       "left": "uni0438",
       "right": "uni043F.flag",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0430.ss01",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0441.ss01",
-      "requested": 14,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0435.ss01",
-      "requested": 14,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0451.ss01",
-      "requested": 14,
-      "actual": 0
-    },
-    {
-      "left": "uni0438",
-      "right": "uni0456.dotless",
-      "requested": -6,
       "actual": 0
     },
     {
@@ -63890,19 +63590,19 @@
     {
       "left": "uni043A",
       "right": "t",
-      "requested": -12,
+      "requested": -14,
       "actual": 3
     },
     {
       "left": "uni043A",
       "right": "tcaron",
-      "requested": -12,
+      "requested": -14,
       "actual": 3
     },
     {
       "left": "uni043A",
       "right": "uni021B",
-      "requested": -12,
+      "requested": -14,
       "actual": 3
     },
     {
@@ -64088,7 +63788,7 @@
     {
       "left": "uni043A",
       "right": "uni042F",
-      "requested": 28,
+      "requested": 26,
       "actual": 34
     },
     {
@@ -64196,7 +63896,7 @@
     {
       "left": "uni043A",
       "right": "uni0447",
-      "requested": -82,
+      "requested": -84,
       "actual": 35
     },
     {
@@ -64262,13 +63962,13 @@
     {
       "left": "uni043A",
       "right": "uni04B1",
-      "requested": -74,
+      "requested": -76,
       "actual": 35
     },
     {
       "left": "uni043A",
       "right": "uni04AF",
-      "requested": -74,
+      "requested": -76,
       "actual": 35
     },
     {
@@ -64280,7 +63980,7 @@
     {
       "left": "uni043A",
       "right": "uni0456",
-      "requested": -40,
+      "requested": -42,
       "actual": 9
     },
     {
@@ -64334,7 +64034,7 @@
     {
       "left": "uni043A",
       "right": "uni0456.dotless",
-      "requested": -40,
+      "requested": -42,
       "actual": 9
     },
     {
@@ -67027,20 +66727,8 @@
     },
     {
       "left": "uni043E",
-      "right": "uni0438",
-      "requested": 12,
-      "actual": 0
-    },
-    {
-      "left": "uni043E",
       "right": "uni043E",
       "requested": 32,
-      "actual": 0
-    },
-    {
-      "left": "uni043E",
-      "right": "uni043F",
-      "requested": 12,
       "actual": 0
     },
     {
@@ -67171,12 +66859,6 @@
     },
     {
       "left": "uni043F",
-      "right": "uni0438",
-      "requested": -10,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
       "right": "uni043B",
       "requested": -24,
       "actual": 19
@@ -67192,30 +66874,6 @@
       "right": "uni043D",
       "requested": -12,
       "actual": -11
-    },
-    {
-      "left": "uni043F",
-      "right": "uni043E",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni043F",
-      "requested": -8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0440",
-      "requested": -8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0443",
-      "requested": -34,
-      "actual": -10
     },
     {
       "left": "uni043F",
@@ -67255,21 +66913,9 @@
     },
     {
       "left": "uni043F",
-      "right": "uni04E9",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
       "right": "uni04BB",
       "requested": -18,
-      "actual": -6
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0456",
-      "requested": -12,
-      "actual": 0
+      "actual": -16
     },
     {
       "left": "uni043F",
@@ -67282,30 +66928,6 @@
       "right": "uni0434.ss07",
       "requested": -8,
       "actual": 19
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0441.ss01",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0435.ss01",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0451.ss01",
-      "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni043F",
-      "right": "uni0456.dotless",
-      "requested": -12,
-      "actual": 0
     },
     {
       "left": "uni043F",
@@ -67339,20 +66961,8 @@
     },
     {
       "left": "uni0440",
-      "right": "uni0438",
-      "requested": 10,
-      "actual": 0
-    },
-    {
-      "left": "uni0440",
       "right": "uni043E",
       "requested": 30,
-      "actual": 0
-    },
-    {
-      "left": "uni0440",
-      "right": "uni043F",
-      "requested": 10,
       "actual": 0
     },
     {
@@ -68379,7 +67989,7 @@
       "left": "uni0443",
       "right": "uni0438",
       "requested": -20,
-      "actual": 0
+      "actual": 7
     },
     {
       "left": "uni0443",
@@ -68398,12 +68008,6 @@
       "right": "uni043E",
       "requested": -22,
       "actual": -16
-    },
-    {
-      "left": "uni0443",
-      "right": "uni043F",
-      "requested": -28,
-      "actual": -14
     },
     {
       "left": "uni0443",
@@ -68715,6 +68319,18 @@
       "left": "uni0444",
       "right": "less",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0444",
+      "right": "percent",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0444",
+      "right": "perthousand",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -75711,7 +75327,7 @@
       "left": "uni0492",
       "right": "uni01CE",
       "requested": -98,
-      "actual": -39
+      "actual": -38
     },
     {
       "left": "uni0492",
@@ -75765,7 +75381,7 @@
       "left": "uni0492",
       "right": "ccaron",
       "requested": -124,
-      "actual": -47
+      "actual": -46
     },
     {
       "left": "uni0492",
@@ -75789,7 +75405,7 @@
       "left": "uni0492",
       "right": "ecaron",
       "requested": -126,
-      "actual": -32
+      "actual": -31
     },
     {
       "left": "uni0492",
@@ -75963,7 +75579,7 @@
       "left": "uni0492",
       "right": "ncaron",
       "requested": -116,
-      "actual": -74
+      "actual": -73
     },
     {
       "left": "uni0492",
@@ -76029,7 +75645,7 @@
       "left": "uni0492",
       "right": "rcaron",
       "requested": -116,
-      "actual": 2
+      "actual": 3
     },
     {
       "left": "uni0492",
@@ -76041,7 +75657,7 @@
       "left": "uni0492",
       "right": "scaron",
       "requested": -118,
-      "actual": 7
+      "actual": 8
     },
     {
       "left": "uni0492",
@@ -76137,31 +75753,31 @@
       "left": "uni0492",
       "right": "z",
       "requested": -102,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0492",
       "right": "zacute",
       "requested": -102,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0492",
       "right": "zcaron",
       "requested": -102,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0492",
       "right": "zdotaccent",
       "requested": -102,
-      "actual": -37
+      "actual": -38
     },
     {
       "left": "uni0492",
       "right": "ccaron.ss01",
       "requested": -64,
-      "actual": -47
+      "actual": -46
     },
     {
       "left": "uni0492",
@@ -76173,7 +75789,7 @@
       "left": "uni0492",
       "right": "ecaron.ss01",
       "requested": -52,
-      "actual": -17
+      "actual": -16
     },
     {
       "left": "uni0492",
@@ -76238,8 +75854,8 @@
     {
       "left": "uni0492",
       "right": "uni0416",
-      "requested": -26,
-      "actual": -21
+      "requested": -28,
+      "actual": -20
     },
     {
       "left": "uni0492",
@@ -79868,7 +79484,7 @@
     {
       "left": "uni04AE",
       "right": "uni042A",
-      "requested": 2,
+      "requested": 0,
       "actual": 8
     },
     {
@@ -80426,7 +80042,7 @@
     {
       "left": "uni0406",
       "right": "uni04B0",
-      "requested": -30,
+      "requested": -28,
       "actual": 9
     },
     {
@@ -80871,7 +80487,7 @@
       "left": "uni0493",
       "right": "uni0433",
       "requested": -22,
-      "actual": -6
+      "actual": -7
     },
     {
       "left": "uni0493",
@@ -80967,7 +80583,7 @@
       "left": "uni0493",
       "right": "uni0493",
       "requested": -22,
-      "actual": -10
+      "actual": -11
     },
     {
       "left": "uni0493",
@@ -81721,20 +81337,8 @@
     },
     {
       "left": "uni04E9",
-      "right": "uni0438",
-      "requested": 12,
-      "actual": 0
-    },
-    {
-      "left": "uni04E9",
       "right": "uni043E",
       "requested": 32,
-      "actual": 0
-    },
-    {
-      "left": "uni04E9",
-      "right": "uni043F",
-      "requested": 12,
       "actual": 0
     },
     {
@@ -82549,12 +82153,6 @@
     },
     {
       "left": "uni04BB",
-      "right": "uni0438",
-      "requested": -10,
-      "actual": 0
-    },
-    {
-      "left": "uni04BB",
       "right": "uni043B",
       "requested": -24,
       "actual": 19
@@ -82575,12 +82173,6 @@
       "left": "uni04BB",
       "right": "uni043E",
       "requested": 8,
-      "actual": 0
-    },
-    {
-      "left": "uni04BB",
-      "right": "uni043F",
-      "requested": -8,
       "actual": 0
     },
     {
@@ -82731,7 +82323,7 @@
       "left": "uni0456",
       "right": "uni0427",
       "requested": -72,
-      "actual": -54
+      "actual": -53
     },
     {
       "left": "uni0456",
@@ -82748,14 +82340,8 @@
     {
       "left": "uni0456",
       "right": "uni0437",
-      "requested": -14,
+      "requested": -16,
       "actual": 6
-    },
-    {
-      "left": "uni0456",
-      "right": "uni0438",
-      "requested": -8,
-      "actual": 0
     },
     {
       "left": "uni0456",
@@ -82773,12 +82359,6 @@
       "left": "uni0456",
       "right": "uni043E",
       "requested": 10,
-      "actual": 0
-    },
-    {
-      "left": "uni0456",
-      "right": "uni043F",
-      "requested": -6,
       "actual": 0
     },
     {
@@ -83649,7 +83229,7 @@
       "left": "uni20B8",
       "right": "uni0414",
       "requested": -102,
-      "actual": -82
+      "actual": -81
     },
     {
       "left": "uni20B8",
@@ -83799,7 +83379,7 @@
       "left": "uni20B8",
       "right": "uni0437",
       "requested": -88,
-      "actual": -86
+      "actual": -87
     },
     {
       "left": "uni20B8",
@@ -85021,7 +84601,25 @@
     },
     {
       "left": "uni20B4",
+      "right": "B",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "D",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
       "right": "Eth",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Dcaron",
       "requested": 2,
       "actual": 0
     },
@@ -85033,7 +84631,199 @@
     },
     {
       "left": "uni20B4",
+      "right": "E",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Eacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Ecaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Ecircumflex",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Edieresis",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Edotaccent",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Egrave",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Emacron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Eogonek",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "F",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "H",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
       "right": "Hbar",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "I",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "IJ",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Iacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Icircumflex",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Idieresis",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Idotaccent",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Igrave",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Imacron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Iogonek",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "K",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0136",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "L",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Lacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Lcaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni013B",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "P",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Thorn",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "R",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Racute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "Rcaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0156",
       "requested": 2,
       "actual": 0
     },
@@ -85207,8 +84997,110 @@
     },
     {
       "left": "uni20B4",
+      "right": "uni0411",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0412",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0413",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0415",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0401",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
       "right": "uni0417",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0418",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0419",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni041A",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni041D",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni041F",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0420",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0426",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0428",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0429",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni042B",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni042C",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni042E",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -85225,8 +85117,26 @@
     },
     {
       "left": "uni20B4",
+      "right": "uni049A",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni04A2",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
       "right": "uni04B0",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0406",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -85237,9 +85147,39 @@
     },
     {
       "left": "uni20B4",
+      "right": "uni041A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
       "right": "uni0442.ss08",
       "requested": -8,
       "actual": 8
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0429.tail_old",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni049A.tail_old",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni04A2.tail_old",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0426.tail_old",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "uni2116",
@@ -87103,18 +87043,6 @@
     },
     {
       "left": "uni2032",
-      "right": "d.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni2032",
-      "right": "dcaron.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni2032",
       "right": "uni041E",
       "requested": 2,
       "actual": 0
@@ -88303,18 +88231,6 @@
     },
     {
       "left": "uni043F.flag",
-      "right": "uni0448",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni043F.flag",
-      "right": "uni0449",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni043F.flag",
       "right": "uni044A",
       "requested": -2,
       "actual": 0
@@ -88334,12 +88250,6 @@
     {
       "left": "uni043F.flag",
       "right": "uni0446.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni043F.flag",
-      "right": "uni0449.tail_old",
       "requested": 2,
       "actual": 0
     },
@@ -89023,73 +88933,73 @@
     },
     {
       "left": "uni043A.flag",
-      "right": "i",
+      "right": "m",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "dotlessi",
+      "right": "n",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "iacute",
+      "right": "nacute",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "icircumflex",
+      "right": "ncaron",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "idieresis",
+      "right": "uni0146",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "i.loclTRK",
+      "right": "ntilde",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "igrave",
+      "right": "eng",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "ij",
+      "right": "p",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "imacron",
+      "right": "r",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "iogonek",
+      "right": "racute",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "j",
+      "right": "rcaron",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "uni0237",
+      "right": "uni0157",
       "requested": 2,
       "actual": 0
     },
@@ -89265,7 +89175,7 @@
       "left": "uni043A.flag",
       "right": "uni0437",
       "requested": -20,
-      "actual": 17
+      "actual": 18
     },
     {
       "left": "uni043A.flag",
@@ -89324,13 +89234,13 @@
     {
       "left": "uni043A.flag",
       "right": "uni044A",
-      "requested": -22,
+      "requested": -24,
       "actual": 18
     },
     {
       "left": "uni043A.flag",
       "right": "uni044F",
-      "requested": -8,
+      "requested": -10,
       "actual": 8
     },
     {
@@ -89630,12 +89540,6 @@
     {
       "left": "uni041A.flag",
       "right": "H",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni041A.flag",
-      "right": "Hbar",
       "requested": 2,
       "actual": 0
     },
@@ -89971,18 +89875,6 @@
     },
     {
       "left": "uni041A.flag",
-      "right": "guillemotright",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni041A.flag",
-      "right": "guilsinglright",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni041A.flag",
       "right": "paragraph",
       "requested": 2,
       "actual": 0
@@ -90135,7 +90027,7 @@
       "left": "uni041A.flag",
       "right": "uni0437",
       "requested": 8,
-      "actual": 30
+      "actual": 31
     },
     {
       "left": "uni041A.flag",
@@ -92104,6 +91996,18 @@
       "right": "uni0445",
       "requested": -22,
       "actual": 10
+    },
+    {
+      "left": "uni0434.ss07",
+      "right": "uni044B",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0434.ss07",
+      "right": "uni044C",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "uni0434.ss07",
@@ -94255,12 +94159,6 @@
     },
     {
       "left": "uni0430.ss01",
-      "right": "uni0418",
-      "requested": -20,
-      "actual": 0
-    },
-    {
-      "left": "uni0430.ss01",
       "right": "uni041A",
       "requested": -20,
       "actual": 0
@@ -94287,12 +94185,6 @@
       "left": "uni0430.ss01",
       "right": "uni041E",
       "requested": -4,
-      "actual": 0
-    },
-    {
-      "left": "uni0430.ss01",
-      "right": "uni041F",
-      "requested": -20,
       "actual": 0
     },
     {
@@ -94339,12 +94231,6 @@
     },
     {
       "left": "uni0430.ss01",
-      "right": "uni0438",
-      "requested": -16,
-      "actual": 0
-    },
-    {
-      "left": "uni0430.ss01",
       "right": "uni043B",
       "requested": -28,
       "actual": 4
@@ -94359,12 +94245,6 @@
       "left": "uni0430.ss01",
       "right": "uni043E",
       "requested": 4,
-      "actual": 0
-    },
-    {
-      "left": "uni0430.ss01",
-      "right": "uni043F",
-      "requested": -14,
       "actual": 0
     },
     {
@@ -96415,12 +96295,6 @@
     },
     {
       "left": "uni0441.ss01",
-      "right": "uni0418",
-      "requested": -12,
-      "actual": 0
-    },
-    {
-      "left": "uni0441.ss01",
       "right": "uni041A",
       "requested": -12,
       "actual": 0
@@ -96441,12 +96315,6 @@
       "left": "uni0441.ss01",
       "right": "uni041E",
       "requested": -10,
-      "actual": 0
-    },
-    {
-      "left": "uni0441.ss01",
-      "right": "uni041F",
-      "requested": -12,
       "actual": 0
     },
     {
@@ -96493,12 +96361,6 @@
     },
     {
       "left": "uni0441.ss01",
-      "right": "uni0438",
-      "requested": -10,
-      "actual": 0
-    },
-    {
-      "left": "uni0441.ss01",
       "right": "uni043D",
       "requested": -2,
       "actual": 0
@@ -96507,12 +96369,6 @@
       "left": "uni0441.ss01",
       "right": "uni043E",
       "requested": -4,
-      "actual": 0
-    },
-    {
-      "left": "uni0441.ss01",
-      "right": "uni043F",
-      "requested": -6,
       "actual": 0
     },
     {
@@ -98545,12 +98401,6 @@
     },
     {
       "left": "uni0435.ss01",
-      "right": "uni0418",
-      "requested": -8,
-      "actual": 0
-    },
-    {
-      "left": "uni0435.ss01",
       "right": "uni041A",
       "requested": -8,
       "actual": 0
@@ -98571,12 +98421,6 @@
       "left": "uni0435.ss01",
       "right": "uni041E",
       "requested": -6,
-      "actual": 0
-    },
-    {
-      "left": "uni0435.ss01",
-      "right": "uni041F",
-      "requested": -8,
       "actual": 0
     },
     {
@@ -100795,12 +100639,6 @@
     },
     {
       "left": "uni0451.ss01",
-      "right": "uni0418",
-      "requested": -8,
-      "actual": 0
-    },
-    {
-      "left": "uni0451.ss01",
       "right": "uni041A",
       "requested": -8,
       "actual": 0
@@ -100825,12 +100663,6 @@
     },
     {
       "left": "uni0451.ss01",
-      "right": "uni041F",
-      "requested": -8,
-      "actual": 0
-    },
-    {
-      "left": "uni0451.ss01",
       "right": "uni0420",
       "requested": -8,
       "actual": 0
@@ -100851,7 +100683,7 @@
       "left": "uni0451.ss01",
       "right": "uni0427",
       "requested": -66,
-      "actual": -33
+      "actual": -32
     },
     {
       "left": "uni0451.ss01",
@@ -101060,14 +100892,8 @@
     {
       "left": "uni0456.dotless",
       "right": "uni0437",
-      "requested": -14,
+      "requested": -16,
       "actual": 6
-    },
-    {
-      "left": "uni0456.dotless",
-      "right": "uni0438",
-      "requested": -8,
-      "actual": 0
     },
     {
       "left": "uni0456.dotless",
@@ -101085,12 +100911,6 @@
       "left": "uni0456.dotless",
       "right": "uni043E",
       "requested": 10,
-      "actual": 0
-    },
-    {
-      "left": "uni0456.dotless",
-      "right": "uni043F",
-      "requested": -6,
       "actual": 0
     },
     {
@@ -101402,7 +101222,7 @@
     {
       "left": "uni0446.tail_old",
       "right": "parenright",
-      "requested": -24,
+      "requested": -26,
       "actual": -10
     },
     {
@@ -103760,7 +103580,7 @@
     {
       "left": "uni049B.alternate.tail_old",
       "right": "uni0434",
-      "requested": -70,
+      "requested": -68,
       "actual": -13
     },
     {
@@ -104996,7 +104816,7 @@
     {
       "left": "uni049A.tail_old",
       "right": "uni0427",
-      "requested": -90,
+      "requested": -92,
       "actual": -11
     },
     {
@@ -105333,7 +105153,7 @@
       "left": "uni04A2.tail_old",
       "right": "uni0437",
       "requested": -62,
-      "actual": -43
+      "actual": -42
     },
     {
       "left": "uni04A2.tail_old",
@@ -105392,7 +105212,7 @@
     {
       "left": "uni0426.tail_old",
       "right": "J",
-      "requested": -26,
+      "requested": -28,
       "actual": 84
     },
     {
@@ -105668,7 +105488,7 @@
     {
       "left": "uni0426.tail_old",
       "right": "uni04B0",
-      "requested": -60,
+      "requested": -58,
       "actual": -22
     },
     {
@@ -105812,7 +105632,13 @@
         "A",
         "A"
       ],
-      "sha256": "a59819fabfc543edde320188faf7408d683bcf370ebb8682315d6811a1dfce58"
+      "sha256": "a59819fabfc543edde320188faf7408d683bcf370ebb8682315d6811a1dfce58",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.78
+      }
     },
     "uni0411": {
       "character": "Б",
@@ -105823,6 +105649,12 @@
         "B"
       ],
       "sha256": "23d8c6081b55fd512f9ace3eec9b168264ce9fe13716b27cc91fc91f702af3aa",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 478
     },
@@ -105845,6 +105677,12 @@
         "F"
       ],
       "sha256": "7c4ed5360dc2144b389ac707ef50eb5ea8695b81c23f53feed428e2047f8a256",
+      "polish": {
+        "micro": 1,
+        "smooth": 1,
+        "align": 4,
+        "deviation": 0.88
+      },
       "spacing_dx": 0,
       "advance_unspaced": 422
     },
@@ -105857,6 +105695,12 @@
         "A"
       ],
       "sha256": "332e257bc37028423156df8985e19be4414297572e8217df852db18457afab8d",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.97
+      },
       "spacing_dx": -36,
       "advance_unspaced": 590
     },
@@ -105889,6 +105733,12 @@
         "X"
       ],
       "sha256": "473da29551a221164f3078398d2daab47b4019486b8d35a93996d82739ab93cc",
+      "polish": {
+        "micro": 1,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.97
+      },
       "spacing_dx": 4,
       "advance_unspaced": 757
     },
@@ -105901,6 +105751,12 @@
         "S"
       ],
       "sha256": "5e0fd93f65203e62603e4dc90ab1c50c60d76bc9a0e9a9db73812049dd7913cc",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 0,
+        "deviation": 0.97
+      },
       "spacing_dx": -32,
       "advance_unspaced": 371
     },
@@ -105912,7 +105768,13 @@
         "H",
         "H"
       ],
-      "sha256": "9b9f770152f08bfb8b43631a656c17d8e9ae4ca2be6ec42ebf6d0cf5227bcf67"
+      "sha256": "9b9f770152f08bfb8b43631a656c17d8e9ae4ca2be6ec42ebf6d0cf5227bcf67",
+      "polish": {
+        "micro": 3,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 1.11
+      }
     },
     "uni0419": {
       "character": "Й",
@@ -105922,7 +105784,13 @@
         "H",
         "H"
       ],
-      "sha256": "716e6e04e5aa4a047f81e1eecc908b3b5b41c4cc55444805869c7dbe9730e985"
+      "sha256": "716e6e04e5aa4a047f81e1eecc908b3b5b41c4cc55444805869c7dbe9730e985",
+      "polish": {
+        "micro": 3,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 1.11
+      }
     },
     "uni041A": {
       "character": "К",
@@ -105943,6 +105811,12 @@
         "H"
       ],
       "sha256": "f14b7f254da4b109a62a06f67d1b9e87b2562e06247478374936af343275b544",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.8
+      },
       "spacing_dx": -39,
       "advance_unspaced": 466
     },
@@ -105984,7 +105858,13 @@
         "H",
         "H"
       ],
-      "sha256": "a2279e5af493918a8e4211798ff19f0fa0879e707039bed5deffa0cf1ca25842"
+      "sha256": "a2279e5af493918a8e4211798ff19f0fa0879e707039bed5deffa0cf1ca25842",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      }
     },
     "uni0420": {
       "character": "Р",
@@ -106027,6 +105907,12 @@
         "y"
       ],
       "sha256": "174cb10cf62e4013d8bf0cfc82c86484b5fa10c331d2cb489b559415963bf71e",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.87
+      },
       "spacing_dx": -6,
       "advance_unspaced": 401
     },
@@ -106039,6 +105925,12 @@
         "O"
       ],
       "sha256": "80cb5f100ec26ce8f1f29ad3c90ad34bfb1e06616da03dd87f67df07cb28e5ac",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 0,
+        "deviation": 0.73
+      },
       "spacing_dx": -22,
       "advance_unspaced": 610
     },
@@ -106061,6 +105953,12 @@
         "H"
       ],
       "sha256": "01f81533f6afefffc6ccb30c598fa0bb5e5d9000fd8706b7423434ad86a5b02b",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 616
     },
@@ -106073,6 +105971,12 @@
         "H"
       ],
       "sha256": "cf7eb15c32c9c0cce4b69034ae04af042fd12937e25adbab6a5d9cb89272335d",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": -42,
       "advance_unspaced": 546
     },
@@ -106084,7 +105988,13 @@
         "H",
         "H"
       ],
-      "sha256": "272096a26c0704eceb8258279ff67507797f1f9ba45a01f7eecba81fcea47221"
+      "sha256": "272096a26c0704eceb8258279ff67507797f1f9ba45a01f7eecba81fcea47221",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 8,
+        "deviation": 0.8
+      }
     },
     "uni0429": {
       "character": "Щ",
@@ -106095,6 +106005,12 @@
         "H"
       ],
       "sha256": "abc95ecc077ef7260ff09333fe18acdee6eacddff4e1de098eeeb5c96d79b386",
+      "polish": {
+        "micro": 1,
+        "smooth": 2,
+        "align": 10,
+        "deviation": 1.06
+      },
       "spacing_dx": 0,
       "advance_unspaced": 774
     },
@@ -106107,6 +106023,12 @@
         "B"
       ],
       "sha256": "b037ab26695f8c464f596a5e81c899d89f68e7b4b63e3f6128c8218450abdcba",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 5.01
+      },
       "spacing_dx": -10,
       "advance_unspaced": 593
     },
@@ -106118,7 +106040,13 @@
         "B",
         "I"
       ],
-      "sha256": "214828a86f59fdefc9bde37c500595a0924ea0e87a1ae2137fab387756d074ef"
+      "sha256": "214828a86f59fdefc9bde37c500595a0924ea0e87a1ae2137fab387756d074ef",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      }
     },
     "uni042C": {
       "character": "Ь",
@@ -106129,6 +106057,12 @@
         "B"
       ],
       "sha256": "93431445124b98a7d2487e8b79098e3ca65e39e31803babc2b46ea68da16b662",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 478
     },
@@ -106141,6 +106075,12 @@
         "C"
       ],
       "sha256": "460692d1593baa403516619dc24654fe5b0f6fa4e0750c968019662fc4d59aa0",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 1,
+        "deviation": 0.57
+      },
       "spacing_dx": -50,
       "advance_unspaced": 480
     },
@@ -106152,7 +106092,13 @@
         "H",
         "O"
       ],
-      "sha256": "91d6326ee4d78610bc547a81b8892e0d5ac0088a693c66d78d420f6385f821e3"
+      "sha256": "91d6326ee4d78610bc547a81b8892e0d5ac0088a693c66d78d420f6385f821e3",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.8
+      }
     },
     "uni042F": {
       "character": "Я",
@@ -106163,6 +106109,12 @@
         "R"
       ],
       "sha256": "21bd9cd383460b7b4ce15dedffef2bf43bfdc4df682054a745f8d2e68a04bfe1",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.8
+      },
       "spacing_dx": -2,
       "advance_unspaced": 519
     },
@@ -106197,6 +106149,12 @@
         "b"
       ],
       "sha256": "97b405ec9f22077342a6e32b927b6378da490e9163417ac9fd9b21bf1cae0909",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.8
+      },
       "spacing_dx": 4,
       "advance_unspaced": 421
     },
@@ -106209,6 +106167,12 @@
         "r"
       ],
       "sha256": "7629770f246cf7abc966956ddbc5abf555dace1e925094cd94b51c786369c6d6",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      },
       "spacing_dx": -8,
       "advance_unspaced": 335
     },
@@ -106221,6 +106185,12 @@
         "o"
       ],
       "sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
+      "polish": {
+        "micro": 1,
+        "smooth": 2,
+        "align": 0,
+        "deviation": 1.2
+      },
       "spacing_dx": -14,
       "advance_unspaced": 418
     },
@@ -106257,6 +106227,12 @@
         "x"
       ],
       "sha256": "b7bf76c300ef1cf2ef15a5939335c4915dc0f6a8908a5e288fa5ad8220f7ee37",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 8,
+        "deviation": 1.33
+      },
       "spacing_dx": -10,
       "advance_unspaced": 572
     },
@@ -106269,6 +106245,12 @@
         "s"
       ],
       "sha256": "d10960b109112b38556380699b6bf0d4eb8e28166f23bea30532546b53658953",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 2,
+        "deviation": 1.12
+      },
       "spacing_dx": -44,
       "advance_unspaced": 349
     },
@@ -106280,7 +106262,13 @@
         "u",
         "u"
       ],
-      "sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203"
+      "sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.67
+      }
     },
     "uni0439": {
       "character": "й",
@@ -106290,7 +106278,13 @@
         "ubreve",
         "ubreve"
       ],
-      "sha256": "45fd9e4030194c14a38ff02a0b9b6402be52c4174bcbab3f52f9b160891a7373"
+      "sha256": "45fd9e4030194c14a38ff02a0b9b6402be52c4174bcbab3f52f9b160891a7373",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.67
+      }
     },
     "uni043A": {
       "character": "к",
@@ -106301,6 +106295,12 @@
         "k"
       ],
       "sha256": "85d3706448db20423efab188f1de363cff31ff2db1b084df874c38ab4ad506b3",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.82
+      },
       "spacing_dx": 4,
       "advance_unspaced": 451
     },
@@ -106313,6 +106313,12 @@
         "n"
       ],
       "sha256": "01708d16479c5686821d36c75c81684bfa3d86ec750ab54370ffe64b53d67997",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 6,
+        "deviation": 1.17
+      },
       "spacing_dx": -39,
       "advance_unspaced": 476
     },
@@ -106325,6 +106331,12 @@
         "n"
       ],
       "sha256": "235b413d99768c6148bee67528e9fd4d1256229ea885de79911243b861913051",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 5,
+        "deviation": 0.91
+      },
       "spacing_dx": -20,
       "advance_unspaced": 542
     },
@@ -106336,7 +106348,13 @@
         "h",
         "u"
       ],
-      "sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633"
+      "sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 0.8
+      }
     },
     "uni043E": {
       "character": "о",
@@ -106356,7 +106374,13 @@
         "n",
         "n"
       ],
-      "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535"
+      "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.8
+      }
     },
     "uni0440": {
       "character": "р",
@@ -106387,6 +106411,12 @@
         "m"
       ],
       "sha256": "d058f7dcaf20fbc3de637a767cd6f4ab519e93e46b8d8afea230faead5470936",
+      "polish": {
+        "micro": 1,
+        "smooth": 1,
+        "align": 1,
+        "deviation": 1.0
+      },
       "spacing_dx": -4,
       "advance_unspaced": 694
     },
@@ -106409,6 +106439,12 @@
         "o"
       ],
       "sha256": "d6056598a9ec3b0c806f0440b6a5604424720b712ac76fc4cc6d1dd03d44824f",
+      "polish": {
+        "micro": 2,
+        "smooth": 5,
+        "align": 0,
+        "deviation": 1.11
+      },
       "spacing_dx": 12,
       "advance_unspaced": 510
     },
@@ -106431,6 +106467,12 @@
         "u"
       ],
       "sha256": "0c5a7f061cbf17e7efbaefcb3bfb3ed2b9d23c34dd2d8f78c14a0b428b94195e",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 1,
+        "deviation": 0.46
+      },
       "spacing_dx": -10,
       "advance_unspaced": 536
     },
@@ -106443,6 +106485,12 @@
         "h"
       ],
       "sha256": "b529a11eb4d6744d49a5c8284f68c158e749d17025f093ffae044e5e77b2253c",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.67
+      },
       "spacing_dx": -31,
       "advance_unspaced": 454
     },
@@ -106455,6 +106503,12 @@
         "u"
       ],
       "sha256": "517b155f1f02a82d6f19f4721ca54e2305fd6d8902a77146d5a95dce7523ef40",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 1,
+        "deviation": 0.77
+      },
       "spacing_dx": -14,
       "advance_unspaced": 648
     },
@@ -106467,6 +106521,12 @@
         "u"
       ],
       "sha256": "9ce4b2da5dda8509f6f36a626373eaa037c7ba0c6bfeeade61de66cc9168cab7",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 1,
+        "deviation": 0.7
+      },
       "spacing_dx": -10,
       "advance_unspaced": 721
     },
@@ -106479,6 +106539,12 @@
         "b"
       ],
       "sha256": "6ce7d8388b31a3f576c7fef42c86432542e51620c9c6aaed5a033b7f0ec7f861",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 2,
+        "deviation": 0.89
+      },
       "spacing_dx": -12,
       "advance_unspaced": 427
     },
@@ -106491,6 +106557,12 @@
         "n"
       ],
       "sha256": "fcd354946076ea98ada69c5aac76db770f8d79125f293aa5c5acbde3e1736674",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 5,
+        "deviation": 0.89
+      },
       "spacing_dx": 16,
       "advance_unspaced": 511
     },
@@ -106503,6 +106575,12 @@
         "b"
       ],
       "sha256": "ce0f318a6a69a729087b48f39b6718dc8f6d54e792a4681c78c50565cb59f245",
+      "polish": {
+        "micro": 0,
+        "smooth": 2,
+        "align": 3,
+        "deviation": 0.89
+      },
       "spacing_dx": 16,
       "advance_unspaced": 381
     },
@@ -106527,6 +106605,12 @@
         "o"
       ],
       "sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836",
+      "polish": {
+        "micro": 0,
+        "smooth": 4,
+        "align": 0,
+        "deviation": 0.74
+      },
       "spacing_dx": -2,
       "advance_unspaced": 557
     },
@@ -106550,7 +106634,13 @@
         "O",
         "O"
       ],
-      "sha256": "c76df56be170942768dcc71ea92ae4ef91927d0037c12e0b6e15dfabc3a6846f"
+      "sha256": "c76df56be170942768dcc71ea92ae4ef91927d0037c12e0b6e15dfabc3a6846f",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 0,
+        "deviation": 0.5
+      }
     },
     "uni0492": {
       "character": "Ғ",
@@ -106561,6 +106651,12 @@
         "F"
       ],
       "sha256": "a5253daf4dd3c8a7d385b0ac49b2c7ca697e26b5d72eb5728f81cac23a64eaf9",
+      "polish": {
+        "micro": 1,
+        "smooth": 1,
+        "align": 4,
+        "deviation": 0.88
+      },
       "spacing_dx": 4,
       "advance_unspaced": 422
     },
@@ -106573,6 +106669,12 @@
         "K"
       ],
       "sha256": "3a91207f430d6bcf066826a70f04b1b54553d4bdfd11f8578b16ac554aa16d79",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 8,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 577
     },
@@ -106585,6 +106687,12 @@
         "H"
       ],
       "sha256": "312333c0f087392e25c82901071c3d9c38cb9fc0c854107c9544db04d547d5e2",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 614
     },
@@ -106596,7 +106704,13 @@
         "O",
         "O"
       ],
-      "sha256": "acd247a1ec808b2f3cffd90c2f49bca265e22d54607d065eb5bd53400cff3464"
+      "sha256": "acd247a1ec808b2f3cffd90c2f49bca265e22d54607d065eb5bd53400cff3464",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 0,
+        "deviation": 0.6
+      }
     },
     "uni04B0": {
       "character": "Ұ",
@@ -106606,7 +106720,13 @@
         "Y",
         "Y"
       ],
-      "sha256": "085e787d860e4ac2d25e16319a921ea6ac8e440b9c689413b9479c4963708e1f"
+      "sha256": "085e787d860e4ac2d25e16319a921ea6ac8e440b9c689413b9479c4963708e1f",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.78
+      }
     },
     "uni04AE": {
       "character": "Ү",
@@ -106626,7 +106746,13 @@
         "H",
         "h"
       ],
-      "sha256": "6e0173ad0322a590252677ba891dc3b199be10cfe3cc04a12053785a7eb4c065"
+      "sha256": "6e0173ad0322a590252677ba891dc3b199be10cfe3cc04a12053785a7eb4c065",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 3,
+        "deviation": 0.8
+      }
     },
     "uni0406": {
       "character": "І",
@@ -106646,7 +106772,13 @@
         "o",
         "o"
       ],
-      "sha256": "503dc251943bf29759b14017256ee50e902953b97b87aeee34d6b08cc6635aa1"
+      "sha256": "503dc251943bf29759b14017256ee50e902953b97b87aeee34d6b08cc6635aa1",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 0,
+        "deviation": 0.72
+      }
     },
     "uni0493": {
       "character": "ғ",
@@ -106657,6 +106789,12 @@
         "r"
       ],
       "sha256": "a8311754ae2deeb4d4c7e31e6e9073d549bc6fdde467d263b3c7f466f89c8bcf",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      },
       "spacing_dx": -4,
       "advance_unspaced": 335
     },
@@ -106669,6 +106807,12 @@
         "k"
       ],
       "sha256": "c3d3bcf771a08937596f407fd6bac39cfae3479cfb6956edb200e66f4b347eb3",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 0.71
+      },
       "spacing_dx": 4,
       "advance_unspaced": 509
     },
@@ -106681,6 +106825,12 @@
         "u"
       ],
       "sha256": "b1768221c904d9c2ba148405951be23f9d6fa62fe7cf5fa0fdf83fb576a2b648",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.8
+      },
       "spacing_dx": -2,
       "advance_unspaced": 550
     },
@@ -106703,6 +106853,12 @@
         "y"
       ],
       "sha256": "36813736985c1b7fa8918c181280541285dbf278c10cea2aba33b86e498a3074",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": -47,
       "advance_unspaced": 477
     },
@@ -106715,6 +106871,12 @@
         "y"
       ],
       "sha256": "a8d049dbb77063a4cfb71cdca562639c32fcccacd7dda25f0dfc40f66888b268",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": -47,
       "advance_unspaced": 477
     },
@@ -106746,7 +106908,13 @@
         "T",
         "T"
       ],
-      "sha256": "094d9f263463294b2cc585fe36ae63155d62e38dd7fda101c5d1f24e699363d1"
+      "sha256": "094d9f263463294b2cc585fe36ae63155d62e38dd7fda101c5d1f24e699363d1",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.77
+      }
     },
     "uni20BD": {
       "character": "₽",
@@ -106756,7 +106924,13 @@
         "P",
         "P"
       ],
-      "sha256": "c332afd6c539f9c72914ccc7bb896e25fb85ea27a545231d7b6bacd7f290fe6e"
+      "sha256": "c332afd6c539f9c72914ccc7bb896e25fb85ea27a545231d7b6bacd7f290fe6e",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.8
+      }
     },
     "uni20B4": {
       "character": "₴",
@@ -106766,7 +106940,13 @@
         "S",
         "S"
       ],
-      "sha256": "c5b82e4acd389ddde6298a5eb6c374fab873fbb2e920939be431384bf7b322f5"
+      "sha256": "c5b82e4acd389ddde6298a5eb6c374fab873fbb2e920939be431384bf7b322f5",
+      "polish": {
+        "micro": 1,
+        "smooth": 1,
+        "align": 1,
+        "deviation": 0.79
+      }
     },
     "uni2116": {
       "character": "№",
@@ -106776,7 +106956,13 @@
         "N",
         "N"
       ],
-      "sha256": "806435f62585dd81eac79611c8d3946824ccdb97ab2e5af09645ea87e3e0227f"
+      "sha256": "806435f62585dd81eac79611c8d3946824ccdb97ab2e5af09645ea87e3e0227f",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 0.8
+      }
     },
     "uni02BC": {
       "character": "ʼ",
@@ -106936,7 +107122,13 @@
         "quotesingle",
         "quotesingle"
       ],
-      "sha256": "7edaf070f33704080b90bf4379e53086642998e814d7146939708929e61fe67c"
+      "sha256": "7edaf070f33704080b90bf4379e53086642998e814d7146939708929e61fe67c",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.75
+      }
     },
     "uni2033": {
       "character": "″",
@@ -106946,7 +107138,13 @@
         "quotedbl",
         "quotedbl"
       ],
-      "sha256": "0d7168b7b09ab891ba247ab2371e375715f6c1ca0a15ef78d04c5245db3d92fa"
+      "sha256": "0d7168b7b09ab891ba247ab2371e375715f6c1ca0a15ef78d04c5245db3d92fa",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.75
+      }
     },
     "uni2020": {
       "character": "†",
@@ -106996,7 +107194,13 @@
         "O",
         "O"
       ],
-      "sha256": "182c8004119d394c2c2d5ef435d99fbc4c98049994ade334392536694097c2c0"
+      "sha256": "182c8004119d394c2c2d5ef435d99fbc4c98049994ade334392536694097c2c0",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 0,
+        "deviation": 0.5
+      }
     },
     "uni0259": {
       "character": "ə",
@@ -107006,7 +107210,13 @@
         "o",
         "o"
       ],
-      "sha256": "c9b975ef258150791029315941f68707d9900c5d5feb2e81aa9f39f81aeded49"
+      "sha256": "c9b975ef258150791029315941f68707d9900c5d5feb2e81aa9f39f81aeded49",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 0,
+        "deviation": 0.72
+      }
     },
     "uni043F.flag": {
       "character": "п",
@@ -107016,7 +107226,13 @@
         "n",
         "n"
       ],
-      "sha256": "a84e0a551404f1baec6e55a6af6a34010d66c1ab6ba1adb34b87d4b7f634cf60"
+      "sha256": "a84e0a551404f1baec6e55a6af6a34010d66c1ab6ba1adb34b87d4b7f634cf60",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      }
     },
     "uni043A.short": {
       "character": "к",
@@ -107027,6 +107243,12 @@
         "k"
       ],
       "sha256": "3406ee569fb5e5860ddf97e52e08b6dd4b3f48af23aaa3f9249c55cc1f561c8a",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.93
+      },
       "spacing_dx": 4,
       "advance_unspaced": 462
     },
@@ -107039,6 +107261,12 @@
         "k"
       ],
       "sha256": "2a1931ed6e2ced9de45975259972859e5e090d40a69eb746640a700b869d3ad4",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 7,
+        "deviation": 0.82
+      },
       "spacing_dx": 4,
       "advance_unspaced": 451
     },
@@ -107051,6 +107279,12 @@
         "k"
       ],
       "sha256": "ad4f54d4929c0fc350c4c0552724dbd390e9587b441a2852279f7eb166e7c449",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 0.93
+      },
       "spacing_dx": 4,
       "advance_unspaced": 462
     },
@@ -107062,7 +107296,13 @@
         "K",
         "K"
       ],
-      "sha256": "f3bf7a0fa09a85e8b26345f22cded11462250a9fff1e745a589a1294e8afb3fa"
+      "sha256": "f3bf7a0fa09a85e8b26345f22cded11462250a9fff1e745a589a1294e8afb3fa",
+      "polish": {
+        "micro": 0,
+        "smooth": 3,
+        "align": 9,
+        "deviation": 0.92
+      }
     },
     "uni043D.flat": {
       "character": "н",
@@ -107072,7 +107312,13 @@
         "h",
         "u"
       ],
-      "sha256": "35672c1610798c4ea1d98828ecfb25d3b084a2566ef4ea01bd64c3818aaaa828"
+      "sha256": "35672c1610798c4ea1d98828ecfb25d3b084a2566ef4ea01bd64c3818aaaa828",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.8
+      }
     },
     "uni0442.ss08": {
       "character": "т",
@@ -107083,6 +107329,12 @@
         "m"
       ],
       "sha256": "bbc4f220d22653ed0953e4d3d9c2725342302eede07e6495a1a701058469929b",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.8
+      },
       "spacing_dx": -38,
       "advance_unspaced": 358
     },
@@ -107157,6 +107409,12 @@
         "u"
       ],
       "sha256": "f596e321c2dbab54a36d3a13e8f99b4c2c182f0c19d3424765dbb1b482989240",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 1,
+        "deviation": 0.5
+      },
       "spacing_dx": -10,
       "advance_unspaced": 536
     },
@@ -107169,6 +107427,12 @@
         "u"
       ],
       "sha256": "d102d3df82d66df90123c9f1d64beb934a679a063050b15acec513fa8128c6a4",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 4,
+        "deviation": 0.8
+      },
       "spacing_dx": -2,
       "advance_unspaced": 550
     },
@@ -107181,6 +107445,12 @@
         "u"
       ],
       "sha256": "69b3eaffbdea8ba8618d3e638e217994ea03cefd932714021bc835a86b9a5751",
+      "polish": {
+        "micro": 0,
+        "smooth": 1,
+        "align": 0,
+        "deviation": 0.43
+      },
       "spacing_dx": -10,
       "advance_unspaced": 721
     },
@@ -107193,6 +107463,12 @@
         "k"
       ],
       "sha256": "b09a9a722e6903c1c2d012646891f0a64fb97ebe000f785c1a87dd71e69ea47e",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 3,
+        "deviation": 0.67
+      },
       "spacing_dx": -2,
       "advance_unspaced": 510
     },
@@ -107205,6 +107481,12 @@
         "k"
       ],
       "sha256": "da67078df3101b725e49231f7aaf580e11a9b579ed9bdcc862d7040cbcced6a6",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 10,
+        "deviation": 1.03
+      },
       "spacing_dx": 4,
       "advance_unspaced": 508
     },
@@ -107217,6 +107499,12 @@
         "k"
       ],
       "sha256": "54803bcc5b1c615564dc8e39c63962da82275d4caacfc6121b7678d0847f3704",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 6,
+        "deviation": 0.71
+      },
       "spacing_dx": 4,
       "advance_unspaced": 509
     },
@@ -107229,6 +107517,12 @@
         "k"
       ],
       "sha256": "b93b4b99fb1057b458f8be4232987726c39045b2a95d65a7fc0426fb4dab8eb8",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 5,
+        "deviation": 1.02
+      },
       "spacing_dx": -2,
       "advance_unspaced": 510
     },
@@ -107241,6 +107535,12 @@
         "k"
       ],
       "sha256": "0f83ef080fb2ee1f5b0b59789714fa6d1648125bc76b5e81178373e7fc182474",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 10,
+        "deviation": 1.03
+      },
       "spacing_dx": 4,
       "advance_unspaced": 508
     },
@@ -107253,6 +107553,12 @@
         "H"
       ],
       "sha256": "a1f2975c304d2d7be53e913e164d86107c1afd26653f77081c9c48ec13ac38ca",
+      "polish": {
+        "micro": 1,
+        "smooth": 2,
+        "align": 9,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 774
     },
@@ -107265,6 +107571,12 @@
         "K"
       ],
       "sha256": "3bf5ecb5d8cc1ccf40b1d2906903a838b77ab69b470966abdb490680ac6d83df",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 577
     },
@@ -107277,6 +107589,12 @@
         "H"
       ],
       "sha256": "f8c153bbf27ebdecffe18ed4dca74fe103e3bb7790317ab42f1442b04e15c7fb",
+      "polish": {
+        "micro": 0,
+        "smooth": 0,
+        "align": 7,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 614
     },
@@ -107289,6 +107607,12 @@
         "H"
       ],
       "sha256": "a166553347bc25ea57efb8eb0bea16d4fccc9ff9f4e41d202cf674a2916af7c1",
+      "polish": {
+        "micro": 1,
+        "smooth": 0,
+        "align": 9,
+        "deviation": 0.8
+      },
       "spacing_dx": 0,
       "advance_unspaced": 616
     }
@@ -107300,5 +107624,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "80298433e0ccaf47cc1a16b0d00ecdfd95f51cc933f7a429ea77dd2e7eebe0f3"
+  "source_stage_ttf_sha256": "8e2d68336e8502e9414b7d46f0480d31c88a360014147039dfa71eda8ac6b64e"
 }

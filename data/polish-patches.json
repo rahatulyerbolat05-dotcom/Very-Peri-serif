@@ -1,0 +1,4 @@
+{"note":"Reviewed corrections applied to the compiled outline before the polish passes (tools/polish_outlines.py). Keys are glyph names. clamp_y_max: points with x <= x_max above clamp_y_max are lowered to it.",
+ "uni042A":[
+  {"clamp_y_max":730,"x_max":100,"why":"the top-left flag hump rose 15 above the cap height; it now ends level with the 730 overshoot zone"}
+ ]}
