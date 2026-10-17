@@ -1,0 +1,340 @@
+[
+ {
+  "character": "А",
+  "codepoint": "U+0410",
+  "donor": "A",
+  "donor_codepoint": "U+0041",
+  "advance": 457,
+  "bounds": [
+   -74,
+   0,
+   418,
+   730
+  ]
+ },
+ {
+  "character": "В",
+  "codepoint": "U+0412",
+  "donor": "B",
+  "donor_codepoint": "U+0042",
+  "advance": 479,
+  "bounds": [
+   -36,
+   0,
+   485,
+   720
+  ]
+ },
+ {
+  "character": "Е",
+  "codepoint": "U+0415",
+  "donor": "E",
+  "donor_codepoint": "U+0045",
+  "advance": 454,
+  "bounds": [
+   -36,
+   0,
+   499,
+   720
+  ]
+ },
+ {
+  "character": "Ё",
+  "codepoint": "U+0401",
+  "donor": "Edieresis",
+  "donor_codepoint": "U+00CB",
+  "advance": 454,
+  "bounds": [
+   -36,
+   0,
+   512,
+   916
+  ]
+ },
+ {
+  "character": "К",
+  "codepoint": "U+041A",
+  "donor": "K",
+  "donor_codepoint": "U+004B",
+  "advance": 499,
+  "bounds": [
+   -36,
+   0,
+   604,
+   720
+  ]
+ },
+ {
+  "character": "М",
+  "codepoint": "U+041C",
+  "donor": "M",
+  "donor_codepoint": "U+004D",
+  "advance": 665,
+  "bounds": [
+   -43,
+   0,
+   736,
+   720
+  ]
+ },
+ {
+  "character": "Н",
+  "codepoint": "U+041D",
+  "donor": "H",
+  "donor_codepoint": "U+0048",
+  "advance": 545,
+  "bounds": [
+   -36,
+   0,
+   630,
+   720
+  ]
+ },
+ {
+  "character": "О",
+  "codepoint": "U+041E",
+  "donor": "O",
+  "donor_codepoint": "U+004F",
+  "advance": 540,
+  "bounds": [
+   54,
+   -9,
+   535,
+   730
+  ]
+ },
+ {
+  "character": "Р",
+  "codepoint": "U+0420",
+  "donor": "P",
+  "donor_codepoint": "U+0050",
+  "advance": 469,
+  "bounds": [
+   -36,
+   0,
+   509,
+   720
+  ]
+ },
+ {
+  "character": "С",
+  "codepoint": "U+0421",
+  "donor": "C",
+  "donor_codepoint": "U+0043",
+  "advance": 475,
+  "bounds": [
+   55,
+   -9,
+   517,
+   730
+  ]
+ },
+ {
+  "character": "Т",
+  "codepoint": "U+0422",
+  "donor": "T",
+  "donor_codepoint": "U+0054",
+  "advance": 461,
+  "bounds": [
+   51,
+   0,
+   546,
+   735
+  ]
+ },
+ {
+  "character": "Х",
+  "codepoint": "U+0425",
+  "donor": "X",
+  "donor_codepoint": "U+0058",
+  "advance": 545,
+  "bounds": [
+   -36,
+   0,
+   619,
+   720
+  ]
+ },
+ {
+  "character": "І",
+  "codepoint": "U+0406",
+  "donor": "I",
+  "donor_codepoint": "U+0049",
+  "advance": 250,
+  "bounds": [
+   -36,
+   0,
+   335,
+   720
+  ]
+ },
+ {
+  "character": "а",
+  "codepoint": "U+0430",
+  "donor": "a",
+  "donor_codepoint": "U+0061",
+  "advance": 474,
+  "bounds": [
+   13,
+   -9,
+   452,
+   516
+  ]
+ },
+ {
+  "character": "е",
+  "codepoint": "U+0435",
+  "donor": "e",
+  "donor_codepoint": "U+0065",
+  "advance": 348,
+  "bounds": [
+   12,
+   -9,
+   357,
+   516
+  ]
+ },
+ {
+  "character": "ё",
+  "codepoint": "U+0451",
+  "donor": "edieresis",
+  "donor_codepoint": "U+00EB",
+  "advance": 348,
+  "bounds": [
+   12,
+   -9,
+   451,
+   706
+  ]
+ },
+ {
+  "character": "и",
+  "codepoint": "U+0438",
+  "donor": "u",
+  "donor_codepoint": "U+0075",
+  "advance": 508,
+  "bounds": [
+   21,
+   -9,
+   488,
+   516
+  ]
+ },
+ {
+  "character": "о",
+  "codepoint": "U+043E",
+  "donor": "o",
+  "donor_codepoint": "U+006F",
+  "advance": 414,
+  "bounds": [
+   20,
+   -9,
+   393,
+   516
+  ]
+ },
+ {
+  "character": "п",
+  "codepoint": "U+043F",
+  "donor": "n",
+  "donor_codepoint": "U+006E",
+  "advance": 521,
+  "bounds": [
+   19,
+   -9,
+   499,
+   516
+  ]
+ },
+ {
+  "character": "р",
+  "codepoint": "U+0440",
+  "donor": "p",
+  "donor_codepoint": "U+0070",
+  "advance": 450,
+  "bounds": [
+   -89,
+   -205,
+   430,
+   583
+  ]
+ },
+ {
+  "character": "с",
+  "codepoint": "U+0441",
+  "donor": "c",
+  "donor_codepoint": "U+0063",
+  "advance": 351,
+  "bounds": [
+   15,
+   -9,
+   352,
+   516
+  ]
+ },
+ {
+  "character": "т",
+  "codepoint": "U+0442",
+  "donor": "m",
+  "donor_codepoint": "U+006D",
+  "advance": 745,
+  "bounds": [
+   19,
+   -9,
+   723,
+   516
+  ]
+ },
+ {
+  "character": "у",
+  "codepoint": "U+0443",
+  "donor": "y",
+  "donor_codepoint": "U+0079",
+  "advance": 418,
+  "bounds": [
+   -107,
+   -215,
+   408,
+   516
+  ]
+ },
+ {
+  "character": "х",
+  "codepoint": "U+0445",
+  "donor": "x",
+  "donor_codepoint": "U+0078",
+  "advance": 450,
+  "bounds": [
+   -24,
+   -10,
+   463,
+   516
+  ]
+ },
+ {
+  "character": "і",
+  "codepoint": "U+0456",
+  "donor": "i",
+  "donor_codepoint": "U+0069",
+  "advance": 288,
+  "bounds": [
+   19,
+   -10,
+   268,
+   710
+  ]
+ },
+ {
+  "character": "һ",
+  "codepoint": "U+04BB",
+  "donor": "h",
+  "donor_codepoint": "U+0068",
+  "advance": 476,
+  "bounds": [
+   6,
+   -9,
+   454,
+   743
+  ]
+ }
+]
