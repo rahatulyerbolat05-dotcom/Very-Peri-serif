@@ -3767,7 +3767,7 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.006",
+  "version": "1.007",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
@@ -3913,6 +3913,195 @@
      [
       529,
       513
+     ]
+    ]
+   }
+  }
+ },
+ "declump": {
+  "status": "17.10.2026: author reports ю ж т clump into blots. Measured gaps (units): ж serif tips 10-19 (Latin n/m/k: feet 37-54, heads 76-106), т foot gap 34 and stem gaps 146 (m 46 and 174), ю stem-to-oval gap 33.",
+  "targets": "serif-tip gaps >= 40 (feet and heads), stem gaps close to Latin m 160+, ю link gap about 50",
+  "letters": {
+   "ж": {
+    "method": "warp2d",
+    "stem_probe_y": 150,
+    "advance_delta": 20,
+    "widen": {
+     "stem_left": 245,
+     "stem_right": 305,
+     "left": 10,
+     "right": 10,
+     "left_full_x": 150,
+     "right_full_x": 400
+    },
+    "bands": [
+     {
+      "name": "feet",
+      "y0": -50,
+      "y1": 70,
+      "fade": 14,
+      "knots": [
+       [
+        128,
+        128
+       ],
+       [
+        169,
+        161
+       ],
+       [
+        186,
+        196
+       ],
+       [
+        240,
+        240
+       ],
+       [
+        310,
+        310
+       ],
+       [
+        365,
+        355
+       ],
+       [
+        380,
+        388
+       ],
+       [
+        422,
+        422
+       ]
+      ]
+     },
+     {
+      "name": "heads",
+      "y0": 440,
+      "y1": 560,
+      "fade": 14,
+      "knots": [
+       [
+        128,
+        128
+       ],
+       [
+        175,
+        165
+       ],
+       [
+        187,
+        199
+       ],
+       [
+        240,
+        240
+       ],
+       [
+        310,
+        310
+       ],
+       [
+        365,
+        353
+       ],
+       [
+        375,
+        385
+       ],
+       [
+        422,
+        422
+       ]
+      ]
+     }
+    ]
+   },
+   "т": {
+    "method": "warp2d",
+    "stem_probe_y": 255,
+    "advance_delta": 32,
+    "knots": [
+     [
+      74,
+      74
+     ],
+     [
+      142,
+      142
+     ],
+     [
+      288,
+      304
+     ],
+     [
+      356,
+      372
+     ],
+     [
+      502,
+      534
+     ],
+     [
+      570,
+      602
+     ]
+    ],
+    "bands": [
+     {
+      "name": "feet",
+      "y0": -50,
+      "y1": 70,
+      "fade": 14,
+      "knots": [
+       [
+        142,
+        142
+       ],
+       [
+        202,
+        194
+       ],
+       [
+        236,
+        244
+       ],
+       [
+        288,
+        288
+       ]
+      ]
+     }
+    ]
+   },
+   "ю": {
+    "method": "knots",
+    "stem_probe_y": 200,
+    "advance_delta": 16,
+    "knots": [
+     [
+      79,
+      79
+     ],
+     [
+      142,
+      142
+     ],
+     [
+      175,
+      191
+     ],
+     [
+      241,
+      257
+     ],
+     [
+      449,
+      465
+     ],
+     [
+      516,
+      532
      ]
     ]
    }

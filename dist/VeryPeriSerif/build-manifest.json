@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.006",
+  "version": "1.007",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 132,
-  "kerning_pairs_added": 61561,
+  "kerning_pairs_added": 61479,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -103,6 +103,12 @@
     },
     {
       "left": "A",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "A",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -271,6 +277,12 @@
     },
     {
       "left": "Aacute",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Aacute",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -439,6 +451,12 @@
     },
     {
       "left": "Abreve",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Abreve",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -607,6 +625,12 @@
     },
     {
       "left": "uni01CD",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "uni01CD",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -775,6 +799,12 @@
     },
     {
       "left": "Acircumflex",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Acircumflex",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -943,6 +973,12 @@
     },
     {
       "left": "Adieresis",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Adieresis",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -1111,6 +1147,12 @@
     },
     {
       "left": "Agrave",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Agrave",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -1276,6 +1318,12 @@
       "right": "uni0433",
       "requested": -2,
       "actual": 0
+    },
+    {
+      "left": "Amacron",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
     },
     {
       "left": "Amacron",
@@ -1444,6 +1492,12 @@
       "right": "uni0433",
       "requested": -2,
       "actual": 0
+    },
+    {
+      "left": "Aogonek",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
     },
     {
       "left": "Aogonek",
@@ -1621,6 +1675,12 @@
     },
     {
       "left": "Aring",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Aring",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -1789,6 +1849,12 @@
     },
     {
       "left": "Atilde",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 22
+    },
+    {
+      "left": "Atilde",
       "right": "uni0437",
       "requested": -80,
       "actual": -16
@@ -1923,12 +1989,6 @@
       "left": "AE",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "AE",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -2383,12 +2443,6 @@
     },
     {
       "left": "E",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "E",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2493,12 +2547,6 @@
       "left": "Eacute",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Eacute",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -2611,12 +2659,6 @@
     },
     {
       "left": "Ecaron",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ecaron",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2725,12 +2767,6 @@
     },
     {
       "left": "Ecircumflex",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "Ecircumflex",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -2835,12 +2871,6 @@
       "left": "Edieresis",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Edieresis",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -2949,12 +2979,6 @@
       "left": "Edotaccent",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Edotaccent",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -3063,12 +3087,6 @@
       "left": "Egrave",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Egrave",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -3177,12 +3195,6 @@
       "left": "Emacron",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Emacron",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -3291,12 +3303,6 @@
       "left": "Eogonek",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "Eogonek",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -4489,6 +4495,12 @@
     },
     {
       "left": "K",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 24
+    },
+    {
+      "left": "K",
       "right": "uni0437",
       "requested": -72,
       "actual": -12
@@ -4810,6 +4822,12 @@
       "right": "uni042F",
       "requested": -4,
       "actual": 29
+    },
+    {
+      "left": "uni0136",
+      "right": "uni0436",
+      "requested": -24,
+      "actual": 24
     },
     {
       "left": "uni0136",
@@ -5314,12 +5332,6 @@
       "right": "uni0431",
       "requested": -2,
       "actual": 0
-    },
-    {
-      "left": "M",
-      "right": "uni0436",
-      "requested": -24,
-      "actual": -15
     },
     {
       "left": "M",
@@ -5941,12 +5953,6 @@
     },
     {
       "left": "OE",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "OE",
       "right": "uni0437",
       "requested": -84,
       "actual": -61
@@ -6034,12 +6040,6 @@
       "right": "uni049B.context.tail_old",
       "requested": 2,
       "actual": 0
-    },
-    {
-      "left": "P",
-      "right": "uni0436",
-      "requested": -30,
-      "actual": -26
     },
     {
       "left": "P",
@@ -6133,12 +6133,6 @@
     },
     {
       "left": "R",
-      "right": "uni0436",
-      "requested": -26,
-      "actual": 2
-    },
-    {
-      "left": "R",
       "right": "uni0437",
       "requested": -58,
       "actual": -9
@@ -6220,12 +6214,6 @@
       "right": "uni0433",
       "requested": -8,
       "actual": -7
-    },
-    {
-      "left": "Racute",
-      "right": "uni0436",
-      "requested": -26,
-      "actual": 2
     },
     {
       "left": "Racute",
@@ -6313,12 +6301,6 @@
     },
     {
       "left": "Rcaron",
-      "right": "uni0436",
-      "requested": -26,
-      "actual": 2
-    },
-    {
-      "left": "Rcaron",
       "right": "uni0437",
       "requested": -58,
       "actual": -9
@@ -6400,12 +6382,6 @@
       "right": "uni0433",
       "requested": -8,
       "actual": -7
-    },
-    {
-      "left": "uni0156",
-      "right": "uni0436",
-      "requested": -26,
-      "actual": 2
     },
     {
       "left": "uni0156",
@@ -9016,6 +8992,12 @@
       "right": "uni0433",
       "requested": -38,
       "actual": -36
+    },
+    {
+      "left": "X",
+      "right": "uni0436",
+      "requested": -44,
+      "actual": -15
     },
     {
       "left": "X",
@@ -12091,12 +12073,6 @@
     },
     {
       "left": "d",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "d",
       "right": "uni0437",
       "requested": -66,
       "actual": -36
@@ -12175,12 +12151,6 @@
     },
     {
       "left": "dcaron",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "dcaron",
       "right": "uni044E",
       "requested": -2,
       "actual": 0
@@ -12254,12 +12224,6 @@
     {
       "left": "dcroat",
       "right": "uni0434",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "dcroat",
-      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -12482,8 +12446,8 @@
     {
       "left": "f",
       "right": "uni0436",
-      "requested": -36,
-      "actual": -23
+      "requested": -26,
+      "actual": -18
     },
     {
       "left": "f",
@@ -12703,12 +12667,6 @@
     },
     {
       "left": "g",
-      "right": "uni0436",
-      "requested": -28,
-      "actual": -24
-    },
-    {
-      "left": "g",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
@@ -12787,12 +12745,6 @@
     },
     {
       "left": "gbreve",
-      "right": "uni0436",
-      "requested": -28,
-      "actual": -24
-    },
-    {
-      "left": "gbreve",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
@@ -12865,12 +12817,6 @@
     },
     {
       "left": "uni0123",
-      "right": "uni0436",
-      "requested": -28,
-      "actual": -24
-    },
-    {
-      "left": "uni0123",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
@@ -12940,12 +12886,6 @@
       "right": "uni042F",
       "requested": -16,
       "actual": -14
-    },
-    {
-      "left": "gdotaccent",
-      "right": "uni0436",
-      "requested": -28,
-      "actual": -24
     },
     {
       "left": "gdotaccent",
@@ -13006,12 +12946,6 @@
       "right": "uni042F",
       "requested": -12,
       "actual": 2
-    },
-    {
-      "left": "h",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
     },
     {
       "left": "h",
@@ -13078,12 +13012,6 @@
       "right": "uni042F",
       "requested": -12,
       "actual": 2
-    },
-    {
-      "left": "hbar",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
     },
     {
       "left": "hbar",
@@ -13862,8 +13790,8 @@
     {
       "left": "k",
       "right": "uni0436",
-      "requested": -66,
-      "actual": 0
+      "requested": -58,
+      "actual": -5
     },
     {
       "left": "k",
@@ -14048,8 +13976,8 @@
     {
       "left": "uni0137",
       "right": "uni0436",
-      "requested": -66,
-      "actual": 0
+      "requested": -58,
+      "actual": -5
     },
     {
       "left": "uni0137",
@@ -14221,12 +14149,6 @@
     },
     {
       "left": "l",
-      "right": "uni0436",
-      "requested": -16,
-      "actual": -11
-    },
-    {
-      "left": "l",
       "right": "uni0437",
       "requested": -68,
       "actual": -42
@@ -14272,12 +14194,6 @@
       "right": "uni042F",
       "requested": -10,
       "actual": 3
-    },
-    {
-      "left": "lacute",
-      "right": "uni0436",
-      "requested": -16,
-      "actual": -11
     },
     {
       "left": "lacute",
@@ -14371,12 +14287,6 @@
     },
     {
       "left": "uni013C",
-      "right": "uni0436",
-      "requested": -16,
-      "actual": -11
-    },
-    {
-      "left": "uni013C",
       "right": "uni0437",
       "requested": -68,
       "actual": -42
@@ -14455,12 +14365,6 @@
     },
     {
       "left": "m",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
-    },
-    {
-      "left": "m",
       "right": "uni0437",
       "requested": -70,
       "actual": -43
@@ -14524,12 +14428,6 @@
       "right": "uni042F",
       "requested": -12,
       "actual": 2
-    },
-    {
-      "left": "n",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
     },
     {
       "left": "n",
@@ -14599,12 +14497,6 @@
     },
     {
       "left": "nacute",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
-    },
-    {
-      "left": "nacute",
       "right": "uni0437",
       "requested": -70,
       "actual": -43
@@ -14671,12 +14563,6 @@
     },
     {
       "left": "ncaron",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
-    },
-    {
-      "left": "ncaron",
       "right": "uni0437",
       "requested": -70,
       "actual": -43
@@ -14740,12 +14626,6 @@
       "right": "uni042F",
       "requested": -12,
       "actual": 2
-    },
-    {
-      "left": "uni0146",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
     },
     {
       "left": "uni0146",
@@ -14818,12 +14698,6 @@
       "right": "uni042F",
       "requested": -12,
       "actual": 2
-    },
-    {
-      "left": "ntilde",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
     },
     {
       "left": "ntilde",
@@ -15740,8 +15614,8 @@
     {
       "left": "r",
       "right": "uni0436",
-      "requested": -24,
-      "actual": -15
+      "requested": -16,
+      "actual": -11
     },
     {
       "left": "r",
@@ -15794,8 +15668,8 @@
     {
       "left": "racute",
       "right": "uni0436",
-      "requested": -24,
-      "actual": -15
+      "requested": -16,
+      "actual": -11
     },
     {
       "left": "racute",
@@ -15860,8 +15734,8 @@
     {
       "left": "rcaron",
       "right": "uni0436",
-      "requested": -24,
-      "actual": -15
+      "requested": -16,
+      "actual": -11
     },
     {
       "left": "rcaron",
@@ -15920,8 +15794,8 @@
     {
       "left": "uni0157",
       "right": "uni0436",
-      "requested": -24,
-      "actual": -15
+      "requested": -16,
+      "actual": -11
     },
     {
       "left": "uni0157",
@@ -16147,12 +16021,6 @@
     },
     {
       "left": "germandbls",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "germandbls",
       "right": "uni0437",
       "requested": -90,
       "actual": -51
@@ -16196,6 +16064,12 @@
     {
       "left": "t",
       "right": "uni0433",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "t",
+      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -16597,6 +16471,12 @@
     },
     {
       "left": "uni021B",
+      "right": "uni0436",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni021B",
       "right": "uni0437",
       "requested": -68,
       "actual": -50
@@ -16717,6 +16597,12 @@
     },
     {
       "left": "u",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "u",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16741,6 +16627,12 @@
     },
     {
       "left": "uacute",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uacute",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16765,6 +16657,12 @@
     },
     {
       "left": "ubreve",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "ubreve",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16789,6 +16687,12 @@
     },
     {
       "left": "ucircumflex",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "ucircumflex",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16813,6 +16717,12 @@
     },
     {
       "left": "udieresis",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "udieresis",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16832,6 +16742,12 @@
     {
       "left": "udieresis",
       "right": "uni2248",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "ugrave",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -16867,6 +16783,12 @@
     },
     {
       "left": "uhungarumlaut",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uhungarumlaut",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16891,6 +16813,12 @@
     },
     {
       "left": "umacron",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "umacron",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16915,6 +16843,12 @@
     },
     {
       "left": "uogonek",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uogonek",
       "right": "uni0437",
       "requested": -56,
       "actual": -39
@@ -16934,6 +16868,12 @@
     {
       "left": "uogonek",
       "right": "uni2248",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uring",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -16970,8 +16910,8 @@
     {
       "left": "v",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "v",
@@ -17102,8 +17042,8 @@
     {
       "left": "w",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "w",
@@ -17234,8 +17174,8 @@
     {
       "left": "wacute",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "wacute",
@@ -17366,8 +17306,8 @@
     {
       "left": "wcircumflex",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "wcircumflex",
@@ -17498,8 +17438,8 @@
     {
       "left": "wdieresis",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "wdieresis",
@@ -17630,8 +17570,8 @@
     {
       "left": "wgrave",
       "right": "uni0436",
-      "requested": -40,
-      "actual": 7
+      "requested": -30,
+      "actual": 12
     },
     {
       "left": "wgrave",
@@ -17786,8 +17726,8 @@
     {
       "left": "x",
       "right": "uni0436",
-      "requested": -30,
-      "actual": 3
+      "requested": -20,
+      "actual": 5
     },
     {
       "left": "x",
@@ -17924,8 +17864,8 @@
     {
       "left": "y",
       "right": "uni0436",
-      "requested": -46,
-      "actual": 7
+      "requested": -38,
+      "actual": 12
     },
     {
       "left": "y",
@@ -18062,8 +18002,8 @@
     {
       "left": "yacute",
       "right": "uni0436",
-      "requested": -46,
-      "actual": 7
+      "requested": -38,
+      "actual": 12
     },
     {
       "left": "yacute",
@@ -18194,8 +18134,8 @@
     {
       "left": "ycircumflex",
       "right": "uni0436",
-      "requested": -46,
-      "actual": 7
+      "requested": -38,
+      "actual": 12
     },
     {
       "left": "ycircumflex",
@@ -18332,8 +18272,8 @@
     {
       "left": "ydieresis",
       "right": "uni0436",
-      "requested": -46,
-      "actual": 7
+      "requested": -38,
+      "actual": 12
     },
     {
       "left": "ydieresis",
@@ -18464,8 +18404,8 @@
     {
       "left": "ygrave",
       "right": "uni0436",
-      "requested": -46,
-      "actual": 7
+      "requested": -38,
+      "actual": 12
     },
     {
       "left": "ygrave",
@@ -18589,6 +18529,12 @@
     },
     {
       "left": "z",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "z",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -18609,6 +18555,12 @@
       "left": "z",
       "right": "uni044A",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "z",
+      "right": "uni044E",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -18637,6 +18589,12 @@
     },
     {
       "left": "zacute",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "zacute",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -18657,6 +18615,12 @@
       "left": "zacute",
       "right": "uni044A",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "zacute",
+      "right": "uni044E",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -18685,6 +18649,12 @@
     },
     {
       "left": "zcaron",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "zcaron",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -18705,6 +18675,12 @@
       "left": "zcaron",
       "right": "uni044A",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "zcaron",
+      "right": "uni044E",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -18739,6 +18715,12 @@
     },
     {
       "left": "zdotaccent",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "zdotaccent",
       "right": "uni0437",
       "requested": -58,
       "actual": -55
@@ -18759,6 +18741,12 @@
       "left": "zdotaccent",
       "right": "uni044A",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "zdotaccent",
+      "right": "uni044E",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -20264,8 +20252,8 @@
     {
       "left": "g.ss01",
       "right": "uni0436",
-      "requested": -26,
-      "actual": -9
+      "requested": -18,
+      "actual": -4
     },
     {
       "left": "g.ss01",
@@ -20366,8 +20354,8 @@
     {
       "left": "gbreve.ss01",
       "right": "uni0436",
-      "requested": -26,
-      "actual": -9
+      "requested": -18,
+      "actual": -4
     },
     {
       "left": "gbreve.ss01",
@@ -20462,8 +20450,8 @@
     {
       "left": "uni0123.ss01",
       "right": "uni0436",
-      "requested": -26,
-      "actual": -9
+      "requested": -18,
+      "actual": -4
     },
     {
       "left": "uni0123.ss01",
@@ -20558,8 +20546,8 @@
     {
       "left": "gdotaccent.ss01",
       "right": "uni0436",
-      "requested": -26,
-      "actual": -9
+      "requested": -18,
+      "actual": -4
     },
     {
       "left": "gdotaccent.ss01",
@@ -20785,12 +20773,6 @@
     },
     {
       "left": "f_h",
-      "right": "uni0436",
-      "requested": -18,
-      "actual": -12
-    },
-    {
-      "left": "f_h",
       "right": "uni0437",
       "requested": -70,
       "actual": -43
@@ -20920,12 +20902,6 @@
       "right": "uni042F",
       "requested": 0,
       "actual": 3
-    },
-    {
-      "left": "f_l",
-      "right": "uni0436",
-      "requested": -16,
-      "actual": -11
     },
     {
       "left": "f_l",
@@ -21295,12 +21271,6 @@
     },
     {
       "left": "eight",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "eight",
       "right": "uni043D",
       "requested": 2,
       "actual": 0
@@ -21378,6 +21348,18 @@
       "actual": 0
     },
     {
+      "left": "period",
+      "right": "uni0442",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "comma",
+      "right": "uni0442",
+      "requested": -2,
+      "actual": 0
+    },
+    {
       "left": "colon",
       "right": "uni0437",
       "requested": -2,
@@ -21386,6 +21368,12 @@
     {
       "left": "semicolon",
       "right": "uni0437",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "ellipsis",
+      "right": "uni0442",
       "requested": -2,
       "actual": 0
     },
@@ -21422,6 +21410,12 @@
     {
       "left": "exclam",
       "right": "uni04A3.tail_old",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "exclamdown",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -21601,12 +21595,6 @@
     },
     {
       "left": "backslash",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "backslash",
       "right": "uni0437",
       "requested": -70,
       "actual": -65
@@ -21781,6 +21769,12 @@
     },
     {
       "left": "braceleft",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "braceleft",
       "right": "uni044E",
       "requested": 2,
       "actual": 0
@@ -21858,10 +21852,22 @@
       "actual": -39
     },
     {
+      "left": "quotesinglbase",
+      "right": "uni0442",
+      "requested": -2,
+      "actual": 0
+    },
+    {
       "left": "quotedblbase",
       "right": "uni041B",
       "requested": -42,
       "actual": -39
+    },
+    {
+      "left": "quotedblbase",
+      "right": "uni0442",
+      "requested": -2,
+      "actual": 0
     },
     {
       "left": "quotedblleft",
@@ -21936,12 +21942,6 @@
       "actual": 0
     },
     {
-      "left": "guillemotright",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
       "left": "guilsinglleft",
       "right": "uni0493",
       "requested": 2,
@@ -21963,12 +21963,6 @@
       "left": "guilsinglright",
       "right": "uni0431",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "guilsinglright",
-      "right": "uni0436",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -22010,8 +22004,8 @@
     {
       "left": "ampersand",
       "right": "uni0436",
-      "requested": -18,
-      "actual": 8
+      "requested": -10,
+      "actual": 13
     },
     {
       "left": "ampersand",
@@ -22190,6 +22184,12 @@
     {
       "left": "section",
       "right": "uni0433",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "section",
+      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -23155,6 +23155,12 @@
     },
     {
       "left": "asciicircum",
+      "right": "uni044E",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "asciicircum",
       "right": "uni0451.ss01",
       "requested": 12,
       "actual": 0
@@ -23660,8 +23666,8 @@
     {
       "left": "uni0410",
       "right": "uni0436",
-      "requested": -34,
-      "actual": 26
+      "requested": -24,
+      "actual": 31
     },
     {
       "left": "uni0410",
@@ -23703,7 +23709,7 @@
       "left": "uni0410",
       "right": "uni0442",
       "requested": 0,
-      "actual": 13
+      "actual": 10
     },
     {
       "left": "uni0410",
@@ -24404,6 +24410,12 @@
     {
       "left": "uni0411",
       "right": "uni0434",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0411",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -25706,8 +25718,8 @@
     {
       "left": "uni0414",
       "right": "uni0436",
-      "requested": -46,
-      "actual": -25
+      "requested": -36,
+      "actual": -20
     },
     {
       "left": "uni0414",
@@ -25831,12 +25843,6 @@
     },
     {
       "left": "uni0415",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0415",
       "right": "uni0437",
       "requested": -84,
       "actual": -56
@@ -25935,12 +25941,6 @@
       "left": "uni0401",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0401",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -26864,8 +26864,8 @@
     {
       "left": "uni0416",
       "right": "uni0436",
-      "requested": -46,
-      "actual": -10
+      "requested": -36,
+      "actual": -5
     },
     {
       "left": "uni0416",
@@ -26901,7 +26901,7 @@
       "left": "uni0416",
       "right": "uni0442",
       "requested": -30,
-      "actual": -23
+      "actual": -26
     },
     {
       "left": "uni0416",
@@ -28430,8 +28430,8 @@
     {
       "left": "uni041A",
       "right": "uni0436",
-      "requested": -34,
-      "actual": 28
+      "requested": -24,
+      "actual": 33
     },
     {
       "left": "uni041A",
@@ -28473,7 +28473,7 @@
       "left": "uni041A",
       "right": "uni0442",
       "requested": -24,
-      "actual": 15
+      "actual": 12
     },
     {
       "left": "uni041A",
@@ -30218,8 +30218,8 @@
     {
       "left": "uni041B",
       "right": "uni0436",
-      "requested": -12,
-      "actual": -11
+      "requested": -2,
+      "actual": 0
     },
     {
       "left": "uni041B",
@@ -30530,8 +30530,8 @@
     {
       "left": "uni041C",
       "right": "uni0436",
-      "requested": -24,
-      "actual": -6
+      "requested": -14,
+      "actual": 0
     },
     {
       "left": "uni041C",
@@ -30968,8 +30968,8 @@
     {
       "left": "uni0420",
       "right": "uni0436",
-      "requested": -30,
-      "actual": -24
+      "requested": -20,
+      "actual": -19
     },
     {
       "left": "uni0420",
@@ -32114,8 +32114,8 @@
     {
       "left": "uni0423",
       "right": "uni0436",
-      "requested": -114,
-      "actual": -98
+      "requested": -104,
+      "actual": -93
     },
     {
       "left": "uni0423",
@@ -32606,8 +32606,8 @@
     {
       "left": "uni0425",
       "right": "uni0436",
-      "requested": -54,
-      "actual": -11
+      "requested": -44,
+      "actual": -6
     },
     {
       "left": "uni0425",
@@ -32649,7 +32649,7 @@
       "left": "uni0425",
       "right": "uni0442",
       "requested": -36,
-      "actual": -24
+      "actual": -27
     },
     {
       "left": "uni0425",
@@ -33757,6 +33757,12 @@
     },
     {
       "left": "uni042A",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni042A",
       "right": "uni0438",
       "requested": -2,
       "actual": 0
@@ -34333,6 +34339,12 @@
     },
     {
       "left": "uni042C",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni042C",
       "right": "uni0438",
       "requested": -2,
       "actual": 0
@@ -34826,8 +34838,8 @@
     {
       "left": "uni042F",
       "right": "uni0436",
-      "requested": -40,
-      "actual": -30
+      "requested": -30,
+      "actual": -25
     },
     {
       "left": "uni042F",
@@ -35618,8 +35630,8 @@
     {
       "left": "uni0433",
       "right": "uni0436",
-      "requested": -64,
-      "actual": -32
+      "requested": -56,
+      "actual": -27
     },
     {
       "left": "uni0433",
@@ -36230,500 +36242,452 @@
     {
       "left": "uni0436",
       "right": "A",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Aacute",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Abreve",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "uni01CD",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Acircumflex",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Adieresis",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Agrave",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Amacron",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Aogonek",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Aring",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "Atilde",
-      "requested": -6,
-      "actual": 14
+      "requested": -18,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "AE",
-      "requested": -6,
-      "actual": 14
-    },
-    {
-      "left": "uni0436",
-      "right": "h",
-      "requested": -18,
-      "actual": -17
-    },
-    {
-      "left": "uni0436",
-      "right": "hbar",
-      "requested": -18,
-      "actual": -17
-    },
-    {
-      "left": "uni0436",
-      "right": "k",
-      "requested": -18,
-      "actual": -17
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0137",
-      "requested": -18,
-      "actual": -17
+      "requested": -16,
+      "actual": 0
     },
     {
       "left": "uni0436",
       "right": "l",
-      "requested": -18,
-      "actual": -12
+      "requested": -28,
+      "actual": -26
     },
     {
       "left": "uni0436",
       "right": "lacute",
-      "requested": -18,
-      "actual": -12
+      "requested": -28,
+      "actual": -26
     },
     {
       "left": "uni0436",
       "right": "lcaron",
-      "requested": -18,
-      "actual": -12
+      "requested": -28,
+      "actual": -26
     },
     {
       "left": "uni0436",
       "right": "uni013C",
-      "requested": -18,
-      "actual": -12
+      "requested": -28,
+      "actual": -26
     },
     {
       "left": "uni0436",
       "right": "v",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "w",
-      "requested": -28,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "wacute",
-      "requested": -28,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "wcircumflex",
-      "requested": -28,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "wdieresis",
-      "requested": -28,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "wgrave",
-      "requested": -28,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "x",
-      "requested": -32,
-      "actual": 4
-    },
-    {
-      "left": "uni0436",
-      "right": "y",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "yacute",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "ycircumflex",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "ydieresis",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "ygrave",
-      "requested": -34,
-      "actual": 11
-    },
-    {
-      "left": "uni0436",
-      "right": "one",
-      "requested": -10,
-      "actual": -9
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0410",
-      "requested": -6,
-      "actual": 23
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0414",
-      "requested": -58,
-      "actual": -19
-    },
-    {
-      "left": "uni0436",
-      "right": "uni041B",
-      "requested": -50,
-      "actual": -14
-    },
-    {
-      "left": "uni0436",
-      "right": "uni041C",
-      "requested": -10,
-      "actual": -9
-    },
-    {
-      "left": "uni0436",
-      "right": "uni042F",
-      "requested": -2,
-      "actual": 13
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0432",
-      "requested": -34,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0433",
-      "requested": -38,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0436",
-      "requested": -66,
-      "actual": 3
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0437",
-      "requested": -78,
-      "actual": -32
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0438",
-      "requested": -32,
-      "actual": -12
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0439",
-      "requested": -32,
-      "actual": -12
-    },
-    {
-      "left": "uni0436",
-      "right": "uni043A",
-      "requested": -32,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni043B",
-      "requested": -76,
-      "actual": -14
-    },
-    {
-      "left": "uni0436",
-      "right": "uni043C",
-      "requested": -50,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni043D",
-      "requested": -34,
-      "actual": -5
-    },
-    {
-      "left": "uni0436",
-      "right": "uni043F",
-      "requested": -30,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0442",
-      "requested": -30,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0443",
-      "requested": -68,
-      "actual": 13
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0445",
-      "requested": -60,
-      "actual": 13
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0446",
-      "requested": -38,
-      "actual": -16
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0447",
-      "requested": -84,
-      "actual": -12
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0448",
-      "requested": -42,
-      "actual": -20
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0449",
-      "requested": -38,
-      "actual": -16
-    },
-    {
-      "left": "uni0436",
-      "right": "uni044A",
-      "requested": -30,
+      "requested": -46,
       "actual": -4
     },
     {
       "left": "uni0436",
-      "right": "uni044B",
-      "requested": -22,
-      "actual": 7
+      "right": "w",
+      "requested": -38,
+      "actual": -4
     },
     {
       "left": "uni0436",
-      "right": "uni044C",
-      "requested": -22,
-      "actual": 7
+      "right": "wacute",
+      "requested": -38,
+      "actual": -4
     },
     {
       "left": "uni0436",
-      "right": "uni044E",
+      "right": "wcircumflex",
+      "requested": -38,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "wdieresis",
+      "requested": -38,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "wgrave",
+      "requested": -38,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "x",
+      "requested": -44,
+      "actual": -10
+    },
+    {
+      "left": "uni0436",
+      "right": "y",
+      "requested": -46,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "yacute",
+      "requested": -46,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "ycircumflex",
+      "requested": -46,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "ydieresis",
+      "requested": -46,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "ygrave",
+      "requested": -46,
+      "actual": -4
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0410",
+      "requested": -18,
+      "actual": 9
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0414",
+      "requested": -70,
+      "actual": -33
+    },
+    {
+      "left": "uni0436",
+      "right": "uni041B",
+      "requested": -60,
+      "actual": -28
+    },
+    {
+      "left": "uni0436",
+      "right": "uni042F",
+      "requested": -14,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0432",
+      "requested": -44,
+      "actual": -24
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0433",
+      "requested": -48,
+      "actual": -24
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0436",
+      "requested": -68,
+      "actual": -6
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0437",
+      "requested": -90,
+      "actual": -46
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0438",
+      "requested": -44,
+      "actual": -27
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0439",
+      "requested": -44,
+      "actual": -27
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043A",
+      "requested": -44,
+      "actual": -24
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043B",
+      "requested": -88,
+      "actual": -28
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043C",
+      "requested": -60,
+      "actual": -24
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043D",
+      "requested": -44,
+      "actual": -19
+    },
+    {
+      "left": "uni0436",
+      "right": "uni043F",
       "requested": -40,
-      "actual": -12
+      "actual": -24
     },
     {
       "left": "uni0436",
-      "right": "uni044F",
-      "requested": -64,
+      "right": "uni0442",
+      "requested": -40,
+      "actual": -27
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0443",
+      "requested": -80,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0445",
+      "requested": -72,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0446",
+      "requested": -48,
       "actual": -31
     },
     {
       "left": "uni0436",
+      "right": "uni0447",
+      "requested": -90,
+      "actual": -27
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0448",
+      "requested": -52,
+      "actual": -35
+    },
+    {
+      "left": "uni0436",
+      "right": "uni0449",
+      "requested": -48,
+      "actual": -31
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044A",
+      "requested": -42,
+      "actual": -19
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044B",
+      "requested": -32,
+      "actual": -7
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044C",
+      "requested": -32,
+      "actual": -7
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044E",
+      "requested": -50,
+      "actual": -26
+    },
+    {
+      "left": "uni0436",
+      "right": "uni044F",
+      "requested": -76,
+      "actual": -45
+    },
+    {
+      "left": "uni0436",
       "right": "uni0493",
-      "requested": -36,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni049B",
-      "requested": -34,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni04A3",
-      "requested": -38,
-      "actual": -10
+      "requested": -50,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni04B1",
       "requested": -108,
-      "actual": -28
+      "actual": -43
     },
     {
       "left": "uni0436",
       "right": "uni04AF",
       "requested": -108,
-      "actual": -28
+      "actual": -43
     },
     {
       "left": "uni0436",
       "right": "uni04BB",
-      "requested": -42,
-      "actual": -10
+      "requested": -54,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni0456",
-      "requested": -32,
-      "actual": -10
-    },
-    {
-      "left": "uni0436",
-      "right": "uni20B4",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "uni2012",
-      "requested": 2,
-      "actual": 0
+      "requested": -44,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni043F.flag",
-      "requested": -30,
-      "actual": -10
+      "requested": -40,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni043A.short",
-      "requested": -34,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni0442.ss08",
-      "requested": -54,
-      "actual": -21
+      "requested": -66,
+      "actual": -36
     },
     {
       "left": "uni0436",
       "right": "uni0434.ss07",
-      "requested": -88,
-      "actual": -21
+      "requested": -100,
+      "actual": -35
     },
     {
       "left": "uni0436",
       "right": "uni0456.dotless",
-      "requested": -32,
-      "actual": -10
+      "requested": -44,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni0446.tail_old",
-      "requested": -38,
-      "actual": -16
+      "requested": -48,
+      "actual": -31
     },
     {
       "left": "uni0436",
       "right": "uni04A3.tail_old",
-      "requested": -38,
-      "actual": -10
+      "requested": -50,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni0449.tail_old",
-      "requested": -38,
-      "actual": -16
+      "requested": -48,
+      "actual": -31
     },
     {
       "left": "uni0436",
       "right": "uni049B.alternate",
-      "requested": -42,
-      "actual": -10
+      "requested": -52,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni049B.context",
-      "requested": -36,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni049B.tail_old",
-      "requested": -34,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni049B.alternate.tail_old",
-      "requested": -42,
-      "actual": -10
+      "requested": -52,
+      "actual": -24
     },
     {
       "left": "uni0436",
       "right": "uni049B.context.tail_old",
-      "requested": -36,
-      "actual": -10
+      "requested": -46,
+      "actual": -24
     },
     {
       "left": "uni0437",
@@ -38570,8 +38534,8 @@
     {
       "left": "uni043A",
       "right": "uni0436",
-      "requested": -106,
-      "actual": 8
+      "requested": -98,
+      "actual": 13
     },
     {
       "left": "uni043A",
@@ -38625,7 +38589,7 @@
       "left": "uni043A",
       "right": "uni0442",
       "requested": -52,
-      "actual": -5
+      "actual": -8
     },
     {
       "left": "uni043A",
@@ -38990,8 +38954,8 @@
     {
       "left": "uni043B",
       "right": "uni0436",
-      "requested": -54,
-      "actual": -7
+      "requested": -44,
+      "actual": 0
     },
     {
       "left": "uni043B",
@@ -39026,12 +38990,6 @@
     {
       "left": "uni043B",
       "right": "uni043F",
-      "requested": -22,
-      "actual": -20
-    },
-    {
-      "left": "uni043B",
-      "right": "uni0442",
       "requested": -22,
       "actual": -20
     },
@@ -39290,8 +39248,8 @@
     {
       "left": "uni043C",
       "right": "uni0436",
-      "requested": -52,
-      "actual": -7
+      "requested": -42,
+      "actual": 0
     },
     {
       "left": "uni043C",
@@ -39704,8 +39662,8 @@
     {
       "left": "uni043F",
       "right": "uni0436",
-      "requested": -44,
-      "actual": -3
+      "requested": -34,
+      "actual": 2
     },
     {
       "left": "uni043F",
@@ -40315,6 +40273,12 @@
     },
     {
       "left": "uni0442",
+      "right": "uni0436",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0442",
       "right": "uni0437",
       "requested": -46,
       "actual": -38
@@ -40393,8 +40357,20 @@
     },
     {
       "left": "uni0442",
+      "right": "uni049B.context",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0442",
       "right": "uni049B.alternate.tail_old",
       "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0442",
+      "right": "uni049B.context.tail_old",
+      "requested": 2,
       "actual": 0
     },
     {
@@ -40514,8 +40490,8 @@
     {
       "left": "uni0443",
       "right": "uni0436",
-      "requested": -78,
-      "actual": 9
+      "requested": -68,
+      "actual": 14
     },
     {
       "left": "uni0443",
@@ -40844,8 +40820,8 @@
     {
       "left": "uni0445",
       "right": "uni0436",
-      "requested": -58,
-      "actual": 12
+      "requested": -48,
+      "actual": 17
     },
     {
       "left": "uni0445",
@@ -40917,7 +40893,7 @@
       "left": "uni0445",
       "right": "uni0442",
       "requested": -18,
-      "actual": 0
+      "actual": -4
     },
     {
       "left": "uni0445",
@@ -41287,12 +41263,6 @@
     },
     {
       "left": "uni0447",
-      "right": "uni0442",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0447",
       "right": "uni0456",
       "requested": -2,
       "actual": 0
@@ -41552,12 +41522,6 @@
     {
       "left": "uni044B",
       "right": "uni0440",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044B",
-      "right": "uni0442",
       "requested": 2,
       "actual": 0
     },
@@ -47420,8 +47384,8 @@
     {
       "left": "uni04BA",
       "right": "uni0436",
-      "requested": -22,
-      "actual": -7
+      "requested": -12,
+      "actual": 0
     },
     {
       "left": "uni04BA",
@@ -47786,8 +47750,8 @@
     {
       "left": "uni0493",
       "right": "uni0436",
-      "requested": -64,
-      "actual": -32
+      "requested": -56,
+      "actual": -27
     },
     {
       "left": "uni0493",
@@ -48105,7 +48069,7 @@
       "left": "uni049B",
       "right": "uni0436",
       "requested": -150,
-      "actual": -67
+      "actual": -62
     },
     {
       "left": "uni049B",
@@ -48536,8 +48500,8 @@
     {
       "left": "uni04B1",
       "right": "uni0436",
-      "requested": -114,
-      "actual": -26
+      "requested": -108,
+      "actual": -21
     },
     {
       "left": "uni04B1",
@@ -48806,8 +48770,8 @@
     {
       "left": "uni04AF",
       "right": "uni0436",
-      "requested": -114,
-      "actual": -26
+      "requested": -108,
+      "actual": -21
     },
     {
       "left": "uni04AF",
@@ -48968,8 +48932,8 @@
     {
       "left": "uni04BB",
       "right": "uni0436",
-      "requested": -44,
-      "actual": -3
+      "requested": -34,
+      "actual": 2
     },
     {
       "left": "uni04BB",
@@ -49172,8 +49136,8 @@
     {
       "left": "uni0456",
       "right": "uni0436",
-      "requested": -34,
-      "actual": -3
+      "requested": -24,
+      "actual": 2
     },
     {
       "left": "uni0456",
@@ -51169,12 +51133,6 @@
     },
     {
       "left": "uni20BD",
-      "right": "uni0436",
-      "requested": -28,
-      "actual": -24
-    },
-    {
-      "left": "uni20BD",
       "right": "uni043F",
       "requested": 2,
       "actual": 0
@@ -51476,6 +51434,12 @@
     {
       "left": "uni20B4",
       "right": "sterling",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni20B4",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -52754,8 +52718,8 @@
     {
       "left": "uni2116",
       "right": "uni0436",
-      "requested": -110,
-      "actual": -44
+      "requested": -100,
+      "actual": -39
     },
     {
       "left": "uni2116",
@@ -54908,8 +54872,8 @@
     {
       "left": "uni043A.short",
       "right": "uni0436",
-      "requested": -116,
-      "actual": -3
+      "requested": -108,
+      "actual": 2
     },
     {
       "left": "uni043A.short",
@@ -54963,7 +54927,7 @@
       "left": "uni043A.short",
       "right": "uni0442",
       "requested": -62,
-      "actual": -16
+      "actual": -19
     },
     {
       "left": "uni043A.short",
@@ -55274,8 +55238,8 @@
     {
       "left": "uni0442.ss08",
       "right": "uni0436",
-      "requested": -56,
-      "actual": -19
+      "requested": -46,
+      "actual": -14
     },
     {
       "left": "uni0442.ss08",
@@ -55502,8 +55466,8 @@
     {
       "left": "uni0434.ss07",
       "right": "uni0436",
-      "requested": -54,
-      "actual": -22
+      "requested": -44,
+      "actual": -17
     },
     {
       "left": "uni0434.ss07",
@@ -57698,8 +57662,8 @@
     {
       "left": "uni0430.ss01",
       "right": "uni0436",
-      "requested": -52,
-      "actual": -18
+      "requested": -42,
+      "actual": -12
     },
     {
       "left": "uni0430.ss01",
@@ -64508,8 +64472,8 @@
     {
       "left": "uni0456.dotless",
       "right": "uni0436",
-      "requested": -34,
-      "actual": -3
+      "requested": -24,
+      "actual": 2
     },
     {
       "left": "uni0456.dotless",
@@ -65505,7 +65469,7 @@
       "left": "uni049B.alternate",
       "right": "uni0436",
       "requested": -150,
-      "actual": -67
+      "actual": -62
     },
     {
       "left": "uni049B.alternate",
@@ -65727,7 +65691,7 @@
       "left": "uni049B.context",
       "right": "uni0436",
       "requested": -150,
-      "actual": -118
+      "actual": -113
     },
     {
       "left": "uni049B.context",
@@ -66128,8 +66092,8 @@
     {
       "left": "uni049B.tail_old",
       "right": "uni0436",
-      "requested": -150,
-      "actual": -67
+      "requested": -148,
+      "actual": -62
     },
     {
       "left": "uni049B.tail_old",
@@ -66585,7 +66549,7 @@
       "left": "uni049B.alternate.tail_old",
       "right": "uni0436",
       "requested": -150,
-      "actual": -67
+      "actual": -62
     },
     {
       "left": "uni049B.alternate.tail_old",
@@ -66962,8 +66926,8 @@
     {
       "left": "uni049B.context.tail_old",
       "right": "uni0436",
-      "requested": -150,
-      "actual": -118
+      "requested": -148,
+      "actual": -113
     },
     {
       "left": "uni049B.context.tail_old",
@@ -68471,7 +68435,7 @@
     "д": "data/condense-bowls/uni0434-primary.glif",
     "е": "data/homoglyph/ie-cy.glif",
     "ё": "data/homoglyph/io-cy.glif",
-    "ж": "data/weight-balance/uni0436-primary.glif",
+    "ж": "data/declump/uni0436-primary.glif",
     "з": "data/width-refinement/uni0437-primary.glif",
     "и": "data/codex/uni0438-02.glif",
     "й": "data/codex/uni0439-01.glif",
@@ -68483,7 +68447,7 @@
     "п": "data/pe/pe.glif",
     "р": "data/homoglyph/er-cy.glif",
     "с": "data/homoglyph/es-cy.glif",
-    "т": "data/width-refinement/uni0442-primary.glif",
+    "т": "data/declump/uni0442-primary.glif",
     "у": "data/homoglyph/u-cy.glif",
     "ф": "data/weight-balance/uni0444-primary.glif",
     "х": "data/homoglyph/ha-cy.glif",
@@ -68495,7 +68459,7 @@
     "ы": "data/width-refinement/uni044B-primary.glif",
     "ь": "data/soft/S3.glif",
     "э": "data/codex/uni044D-02.glif",
-    "ю": "data/condense-bowls/uni044E-primary.glif",
+    "ю": "data/declump/uni044E-primary.glif",
     "я": "data/codex/uni044F-01.glif",
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "Ғ": "data/kz2/Gh2.glif",
@@ -68946,13 +68910,13 @@
     },
     "uni0436": {
       "character": "ж",
-      "path": "data/weight-balance/uni0436-primary.glif",
-      "advance": 552,
+      "path": "data/declump/uni0436-primary.glif",
+      "advance": 572,
       "donors": [
         "x",
         "x"
       ],
-      "sha256": "03b9869dee49da0469c8068a3c3f51b1688240cc2b0f5d3504ad148df35ac729"
+      "sha256": "240247becc8fac42c333d1c49a5824d3929840ab5ebfe3eab63cf280175233af"
     },
     "uni0437": {
       "character": "з",
@@ -69066,13 +69030,13 @@
     },
     "uni0442": {
       "character": "т",
-      "path": "data/width-refinement/uni0442-primary.glif",
-      "advance": 662,
+      "path": "data/declump/uni0442-primary.glif",
+      "advance": 694,
       "donors": [
         "m",
         "m"
       ],
-      "sha256": "a10d69c05e823083b23b15db9aea657bc3428c331bd6af01cace383e2ef66432"
+      "sha256": "d058f7dcaf20fbc3de637a767cd6f4ab519e93e46b8d8afea230faead5470936"
     },
     "uni0443": {
       "character": "у",
@@ -69186,13 +69150,13 @@
     },
     "uni044E": {
       "character": "ю",
-      "path": "data/condense-bowls/uni044E-primary.glif",
-      "advance": 541,
+      "path": "data/declump/uni044E-primary.glif",
+      "advance": 557,
       "donors": [
         "h",
         "o"
       ],
-      "sha256": "4eefadbc10db3d491c420a9a08cb0f052e40b2adb06b66cd3c8b198120218b51"
+      "sha256": "727e99a01ed61acdf143a12257e0a40cfe166661472e1d4d3d58f3204f4d7836"
     },
     "uni044F": {
       "character": "я",
@@ -69872,5 +69836,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "79b6e49e0c237c3dfe082556b2bb8c201eac9d92c41527c1afcbeeee4a1338a6"
+  "source_stage_ttf_sha256": "25183ed5ab2f8fccf7b2319482889b85631f9d669f3f2149d87db0213612967c"
 }

@@ -1,0 +1,113 @@
+[
+  {
+    "character": "ж",
+    "role": "primary",
+    "source": "data/weight-balance/uni0436-primary.glif",
+    "sha256": "03b9869dee49da0469c8068a3c3f51b1688240cc2b0f5d3504ad148df35ac729",
+    "path": "data/declump/uni0436-primary.glif",
+    "advance_before": 552,
+    "advance_after": 572,
+    "before_stem_runs": [
+      [
+        99.328,
+        157.994
+      ],
+      [
+        245.0,
+        305.0
+      ],
+      [
+        391.596,
+        450.323
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        89.328,
+        148.211
+      ],
+      [
+        244.979,
+        305.05
+      ],
+      [
+        401.357,
+        460.323
+      ]
+    ]
+  },
+  {
+    "character": "т",
+    "role": "primary",
+    "source": "data/width-refinement/uni0442-primary.glif",
+    "sha256": "a10d69c05e823083b23b15db9aea657bc3428c331bd6af01cace383e2ef66432",
+    "path": "data/declump/uni0442-primary.glif",
+    "advance_before": 662,
+    "advance_after": 694,
+    "before_stem_runs": [
+      [
+        74.0,
+        142.0
+      ],
+      [
+        288.0,
+        356.0
+      ],
+      [
+        502.0,
+        570.0
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        74.151,
+        142.0
+      ],
+      [
+        304.0,
+        371.881
+      ],
+      [
+        534.0,
+        602.0
+      ]
+    ]
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/condense-bowls/uni044E-primary.glif",
+    "sha256": "4eefadbc10db3d491c420a9a08cb0f052e40b2adb06b66cd3c8b198120218b51",
+    "path": "data/declump/uni044E-primary.glif",
+    "advance_before": 541,
+    "advance_after": 557,
+    "before_stem_runs": [
+      [
+        79.0,
+        142.0
+      ],
+      [
+        175.424,
+        240.536
+      ],
+      [
+        447.541,
+        512.628
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        79.0,
+        142.0
+      ],
+      [
+        191.441,
+        256.544
+      ],
+      [
+        463.541,
+        528.628
+      ]
+    ]
+  }
+]
