@@ -3111,5 +3111,13 @@
     []
    ]
   ]
+ },
+ "regular_de_tail": {
+  "status": "[РЕШЕНИЕ] 17.10.2026: rounded native q bowl with native j hook; triangular body rejected by author",
+  "advance": 442,
+  "hook_dx": 224,
+  "hook_join_y": 44,
+  "bowl_floor": -9,
+  "inner_stem_x": 303
  }
 }

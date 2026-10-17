@@ -1,0 +1,27 @@
+{
+  "path": "data/regular-de-tail/uni0434.glif",
+  "variant": "01",
+  "label": "Округлая чаша, нижний крючок",
+  "advance": 442,
+  "bounds": [
+    30.0,
+    -215.0,
+    379.6428527832031,
+    516.0
+  ],
+  "glif_sha256": "78d9c0ece51e5d1688b3f6563239080fadad31dadd49dace26c6de0360967ff3",
+  "status": "selected",
+  "bowl_donor": "Instrument Serif Regular q",
+  "hook_donor": "Instrument Serif Regular j",
+  "hook_translation": [
+    224,
+    0
+  ],
+  "hook_geometry": "native quadratic controls, no scaling",
+  "printed_alternative": {
+    "path": "data/regular-de-refinement/uni0434.glif",
+    "feature": "ss07",
+    "source": "Codex",
+    "label": "Печатная д"
+  }
+}

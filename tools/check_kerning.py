@@ -15,10 +15,11 @@ def check(data,font,native,chars,native_kern):
     from contour_contacts import Auditor
     contour_audit=Auditor(font)
     counts={};checks=0
-    modes={'default':{},'ss01':{'ss01':True},'ss08':{'ss08':True},'ss09':{'ss09':True},
-           'combined':{'ss01':True,'ss08':True,'ss09':True},
-           'ss01+ss08':{'ss01':True,'ss08':True},'ss01+ss09':{'ss01':True,'ss09':True},
-           'ss08+ss09':{'ss08':True,'ss09':True},'aalt':{'aalt':1},'aalt+ss09':{'aalt':1,'ss09':True}}
+    from itertools import product
+    tags=('ss01','ss07','ss08','ss09')
+    modes={'+'.join(t for t,on in zip(tags,flags) if on) or 'default':
+           {t:True for t,on in zip(tags,flags) if on} for flags in product((False,True),repeat=4)}
+    modes.update({'aalt':{'aalt':1},'aalt+ss09':{'aalt':1,'ss09':True}})
     for label,features in modes.items():
         for a in chars:
             for b in chars:
@@ -54,8 +55,8 @@ def check(data,font,native,chars,native_kern):
         for b in native_chars:
             assert signature(hf,font,a+b)==signature(nhf,native,a+b),('native regression',repr(a+b))
             native_count+=1
-    # Only lowercase д may change from the preceding Regular 1.005 release.
-    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','fa52875:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
+    # Only lowercase д may change from the preceding Regular 1.006 release.
+    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','5d86041:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
     changed={old.getBestCmap()[0x0434]}
     assert changed=={font.getBestCmap()[0x0434]}
@@ -63,6 +64,10 @@ def check(data,font,native,chars,native_kern):
         if name in changed:continue
         assert font['glyf'][name].compile(font['glyf'])==old['glyf'][name].compile(old['glyf']),name
         assert font['hmtx'][name]==old['hmtx'][name],name
+    # Printed alternate must preserve the complete former primary glyph.
+    alt='uni0434.ss07';primary=old.getBestCmap()[0x0434]
+    assert font['glyf'][alt].compile(font['glyf'])==old['glyf'][primary].compile(old['glyf'])
+    assert font['hmtx'][alt]==old['hmtx'][primary]
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())
     for r in geometry:
         assert r['final_min_gap']>=r['minimum_allowed']-1e-8,r
@@ -74,6 +79,6 @@ def check(data,font,native,chars,native_kern):
         'native_unicode_pairs_preserved':native_count,
         'geometric_pairs_checked':len(geometry),'unchanged_outlines_and_advances':len(old.getGlyphOrder())-len(changed),'intentional_outline_changes':sorted(changed),
         'native_native_pairs_changed':0,'vector_pairs_without_body_overlap':len(contour_audit.checked),
-        'scope':'All 84×84 ordered pairs in ten feature configurations, mixed pairs in both directions, every geometric result and unchanged source shapes/metrics.'}
+        'scope':'All 84×84 ordered pairs in all 16 stylistic-set combinations plus two alternate modes, mixed pairs in both directions, every geometric result and unchanged source shapes/metrics.'}
     Path('dist/VeryPeriSerifDraft/kerning-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     return result

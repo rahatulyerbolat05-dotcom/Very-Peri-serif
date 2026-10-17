@@ -1,0 +1,1051 @@
+{
+  "date": "2026-10-17",
+  "google_fonts_commit": "47d54ca1ebb14fd864695f1d39dc734f39017c33",
+  "normalization": "uniform scaling to Latin x outline top; each font retains width/height ratio; no outline edits",
+  "variable_instances": "wght400, opsz48 where available, other axes default",
+  "shaping": "HarfBuzz, cyrl; ru or explicitly labeled bg; GSUB applied",
+  "source_scope": "Google Fonts OFL families with U+0434; comparison sample, not a census",
+  "regular_ru_rows": 12,
+  "other_rows": 26,
+  "regional_and_sets_rows": 7,
+  "italic_rows": 14,
+  "smallcaps_excluded_from_plates": 5,
+  "references": [
+    {
+      "family": "Prata",
+      "family_id": "prata",
+      "style": "normal",
+      "filename": "Prata-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/prata/Prata-Regular.ttf",
+      "sha256": "3b2b880737be3bda5f03554297b758516876157c88f9e3b3bae8fa1fc96a2c2c",
+      "axes": {},
+      "x_height": 518,
+      "upm": 1000,
+      "license": "docs/research/de-references/prata-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/prata/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        -20,
+        -165,
+        533,
+        518
+      ],
+      "advance": 540,
+      "descender_per_x": 0.3185328185328185,
+      "width_per_x": 1.0675675675675675
+    },
+    {
+      "family": "Oranienbaum",
+      "family_id": "oranienbaum",
+      "style": "normal",
+      "filename": "Oranienbaum-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oranienbaum/Oranienbaum-Regular.ttf",
+      "sha256": "d0c2527f106ddaf53bebce08e903b585d1fd1d830eddd23ed723c313b4fe2c6c",
+      "axes": {},
+      "x_height": 460,
+      "upm": 1000,
+      "license": "docs/research/de-references/oranienbaum-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oranienbaum/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "afii10069",
+      "glyph_bounds": [
+        0,
+        -145,
+        455,
+        460
+      ],
+      "advance": 485,
+      "descender_per_x": 0.31521739130434784,
+      "width_per_x": 0.9891304347826086
+    },
+    {
+      "family": "Old Standard TT",
+      "family_id": "oldstandardtt",
+      "style": "normal",
+      "filename": "OldStandard-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oldstandardtt/OldStandard-Regular.ttf",
+      "sha256": "42717a1280b523a506ca2b0285cca380e77fe214b1f6e3d75a8b925005f19eac",
+      "axes": {},
+      "x_height": 456,
+      "upm": 1000,
+      "license": "docs/research/de-references/oldstandardtt-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oldstandardtt/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        12,
+        -156,
+        480,
+        456
+      ],
+      "advance": 490,
+      "descender_per_x": 0.34210526315789475,
+      "width_per_x": 1.0263157894736843
+    },
+    {
+      "family": "Old Standard TT",
+      "family_id": "oldstandardtt",
+      "style": "italic",
+      "filename": "OldStandard-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oldstandardtt/OldStandard-Italic.ttf",
+      "sha256": "4b9522f4711317fc06e2413a58b4662c249cb707df193d682b9d640e365ef564",
+      "axes": {},
+      "x_height": 456,
+      "upm": 1000,
+      "license": "docs/research/de-references/oldstandardtt-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/oldstandardtt/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        52,
+        -12,
+        488,
+        720
+      ],
+      "advance": 494,
+      "descender_per_x": 0.02631578947368421,
+      "width_per_x": 0.956140350877193
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "normal",
+      "filename": "CormorantGaramond[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434.1",
+      "glyph_bounds": [
+        8.199951171875,
+        -134.2000732421875,
+        464.00006103515625,
+        405.0
+      ],
+      "advance": 473,
+      "descender_per_x": 0.34766858352898317,
+      "width_per_x": 1.1808293001639412
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "normal",
+      "filename": "CormorantGaramond[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        35.99993896484375,
+        -281,
+        393.2003173828125,
+        398.79998779296875
+      ],
+      "advance": 466,
+      "descender_per_x": 0.727979274611399,
+      "width_per_x": 0.9253895813937014
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "normal",
+      "filename": "CormorantGaramond[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss10": 1
+      },
+      "glyph_name": "uni0434.ss10",
+      "glyph_bounds": [
+        35.99993896484375,
+        -281,
+        393.2003173828125,
+        398.79998779296875
+      ],
+      "advance": 466,
+      "descender_per_x": 0.727979274611399,
+      "width_per_x": 0.9253895813937014
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "normal",
+      "filename": "CormorantGaramond[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss14": 1
+      },
+      "glyph_name": "uni0434.ss14",
+      "glyph_bounds": [
+        8.199951171875,
+        -156.0,
+        452.00006103515625,
+        388
+      ],
+      "advance": 480,
+      "descender_per_x": 0.40414507772020725,
+      "width_per_x": 1.1497412172623866
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "italic",
+      "filename": "CormorantGaramond-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        32.249929428076335,
+        -14,
+        391.83459318289357,
+        729
+      ],
+      "advance": 412,
+      "descender_per_x": 0.035443037974683546,
+      "width_per_x": 0.9103409208982716
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "italic",
+      "filename": "CormorantGaramond-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "italic",
+      "filename": "CormorantGaramond-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss09": 1
+      },
+      "glyph_name": "uni0434.ss09",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Garamond",
+      "family_id": "cormorantgaramond",
+      "style": "italic",
+      "filename": "CormorantGaramond-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss10": 1
+      },
+      "glyph_name": "uni0434.ss10",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "normal",
+      "filename": "CormorantInfant[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant%5Bwght%5D.ttf",
+      "sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434.1",
+      "glyph_bounds": [
+        35.99993896484375,
+        -281,
+        393.2003173828125,
+        398.79998779296875
+      ],
+      "advance": 466,
+      "descender_per_x": 0.727979274611399,
+      "width_per_x": 0.9253895813937014
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "normal",
+      "filename": "CormorantInfant[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant%5Bwght%5D.ttf",
+      "sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss10": 1
+      },
+      "glyph_name": "uni0434.ss10",
+      "glyph_bounds": [
+        8.199951171875,
+        -134.2000732421875,
+        464.00006103515625,
+        405.0
+      ],
+      "advance": 473,
+      "descender_per_x": 0.34766858352898317,
+      "width_per_x": 1.1808293001639412
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "normal",
+      "filename": "CormorantInfant[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant%5Bwght%5D.ttf",
+      "sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss14": 1
+      },
+      "glyph_name": "uni0434.ss14",
+      "glyph_bounds": [
+        8.199951171875,
+        -156.0,
+        452.00006103515625,
+        388
+      ],
+      "advance": 480,
+      "descender_per_x": 0.40414507772020725,
+      "width_per_x": 1.1497412172623866
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "normal",
+      "filename": "CormorantInfant[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant%5Bwght%5D.ttf",
+      "sha256": "48c6efe07539c75d3108795467898706a9cd71ce876d461e45f58482156d7bf3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 386,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "aalt": 1
+      },
+      "glyph_name": "uni0434.sc",
+      "glyph_bounds": [
+        19.99993896484375,
+        -156.0,
+        538.0003051757812,
+        487.0
+      ],
+      "advance": 558,
+      "descender_per_x": 0.40414507772020725,
+      "width_per_x": 1.3419698606500972
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "italic",
+      "filename": "CormorantInfant-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf",
+      "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434.1",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "italic",
+      "filename": "CormorantInfant-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf",
+      "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "italic",
+      "filename": "CormorantInfant-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf",
+      "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss09": 1
+      },
+      "glyph_name": "uni0434.ss09",
+      "glyph_bounds": [
+        -18.23329469567426,
+        -281,
+        385.75418795072113,
+        409.1428509147981
+      ],
+      "advance": 409,
+      "descender_per_x": 0.7113924050632912,
+      "width_per_x": 1.0227531206237859
+    },
+    {
+      "family": "Cormorant Infant",
+      "family_id": "cormorantinfant",
+      "style": "italic",
+      "filename": "CormorantInfant-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/CormorantInfant-Italic%5Bwght%5D.ttf",
+      "sha256": "d5f81edef82cf31c093d057709e1bfb42aa776aacf78651b14f9817c2decb251",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 395,
+      "upm": 1000,
+      "license": "docs/research/de-references/cormorantinfant-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantinfant/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "ss10": 1
+      },
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        32.249929428076335,
+        -14,
+        391.83459318289357,
+        729
+      ],
+      "advance": 412,
+      "descender_per_x": 0.035443037974683546,
+      "width_per_x": 0.9103409208982716
+    },
+    {
+      "family": "Playfair Display",
+      "family_id": "playfairdisplay",
+      "style": "normal",
+      "filename": "PlayfairDisplay[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 515,
+      "upm": 1000,
+      "license": "docs/research/de-references/playfairdisplay-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        7,
+        -157,
+        502,
+        514
+      ],
+      "advance": 524,
+      "descender_per_x": 0.3048543689320388,
+      "width_per_x": 0.9611650485436893
+    },
+    {
+      "family": "Playfair Display",
+      "family_id": "playfairdisplay",
+      "style": "normal",
+      "filename": "PlayfairDisplay[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf",
+      "sha256": "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 515,
+      "upm": 1000,
+      "license": "docs/research/de-references/playfairdisplay-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "aalt": 1
+      },
+      "glyph_name": "uni0434.smcp",
+      "glyph_bounds": [
+        3,
+        -160,
+        590,
+        608
+      ],
+      "advance": 611,
+      "descender_per_x": 0.3106796116504854,
+      "width_per_x": 1.1398058252427183
+    },
+    {
+      "family": "Playfair Display",
+      "family_id": "playfairdisplay",
+      "style": "italic",
+      "filename": "PlayfairDisplay-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf",
+      "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 528,
+      "upm": 1000,
+      "license": "docs/research/de-references/playfairdisplay-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        21,
+        -14,
+        447,
+        782
+      ],
+      "advance": 487,
+      "descender_per_x": 0.026515151515151516,
+      "width_per_x": 0.8068181818181818
+    },
+    {
+      "family": "Playfair Display",
+      "family_id": "playfairdisplay",
+      "style": "italic",
+      "filename": "PlayfairDisplay-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/PlayfairDisplay-Italic%5Bwght%5D.ttf",
+      "sha256": "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 528,
+      "upm": 1000,
+      "license": "docs/research/de-references/playfairdisplay-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/playfairdisplay/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "aalt": 1
+      },
+      "glyph_name": "uni0434.smcp",
+      "glyph_bounds": [
+        -130,
+        -190,
+        667,
+        608
+      ],
+      "advance": 636,
+      "descender_per_x": 0.35984848484848486,
+      "width_per_x": 1.509469696969697
+    },
+    {
+      "family": "Lora",
+      "family_id": "lora",
+      "style": "normal",
+      "filename": "Lora[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/Lora%5Bwght%5D.ttf",
+      "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 500,
+      "upm": 1000,
+      "license": "docs/research/de-references/lora-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        22,
+        -178,
+        564,
+        500
+      ],
+      "advance": 591,
+      "descender_per_x": 0.356,
+      "width_per_x": 1.084
+    },
+    {
+      "family": "Lora",
+      "family_id": "lora",
+      "style": "normal",
+      "filename": "Lora[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/Lora%5Bwght%5D.ttf",
+      "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 500,
+      "upm": 1000,
+      "license": "docs/research/de-references/lora-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        42,
+        -271,
+        502,
+        516
+      ],
+      "advance": 575,
+      "descender_per_x": 0.542,
+      "width_per_x": 0.92
+    },
+    {
+      "family": "Lora",
+      "family_id": "lora",
+      "style": "italic",
+      "filename": "Lora-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+      "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 511,
+      "upm": 1000,
+      "license": "docs/research/de-references/lora-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        37.95744680851064,
+        -11,
+        451.2857142857143,
+        758
+      ],
+      "advance": 495,
+      "descender_per_x": 0.021526418786692758,
+      "width_per_x": 0.8088615801902225
+    },
+    {
+      "family": "Lora",
+      "family_id": "lora",
+      "style": "italic",
+      "filename": "Lora-Italic[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+      "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3",
+      "axes": {
+        "wght": 400
+      },
+      "x_height": 511,
+      "upm": 1000,
+      "license": "docs/research/de-references/lora-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/lora/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        14,
+        -271,
+        457,
+        511
+      ],
+      "advance": 518,
+      "descender_per_x": 0.5303326810176126,
+      "width_per_x": 0.8669275929549902
+    },
+    {
+      "family": "Literata",
+      "family_id": "literata",
+      "style": "normal",
+      "filename": "Literata[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/Literata%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+      "axes": {
+        "opsz": 48,
+        "wght": 400
+      },
+      "x_height": 510.3431396484375,
+      "upm": 1000,
+      "license": "docs/research/de-references/literata-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        11.771240234375,
+        -156.32843017578125,
+        546.0996704101562,
+        510.3431396484375
+      ],
+      "advance": 590,
+      "descender_per_x": 0.3063202344279027,
+      "width_per_x": 1.046998359856207
+    },
+    {
+      "family": "Literata",
+      "family_id": "literata",
+      "style": "normal",
+      "filename": "Literata[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/Literata%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "b41138c9373112f32abb589cc22e8674b06ed4048b0c513be922bdd26f274440",
+      "axes": {
+        "opsz": 48,
+        "wght": 400
+      },
+      "x_height": 510.3431396484375,
+      "upm": 1000,
+      "license": "docs/research/de-references/literata-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "aalt": 1
+      },
+      "glyph_name": "uni0434.sc",
+      "glyph_bounds": [
+        8.09967041015625,
+        -124.32843017578125,
+        574.0702514648438,
+        560.3431396484375
+      ],
+      "advance": 618,
+      "descender_per_x": 0.24361732433873406,
+      "width_per_x": 1.109000076780831
+    },
+    {
+      "family": "Literata",
+      "family_id": "literata",
+      "style": "italic",
+      "filename": "Literata-Italic[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/Literata-Italic%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+      "axes": {
+        "opsz": 48,
+        "wght": 400
+      },
+      "x_height": 524.3431396484375,
+      "upm": 1000,
+      "license": "docs/research/de-references/literata-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        47.44281005859375,
+        -14,
+        471.45751953125,
+        776.2434692382812
+      ],
+      "advance": 514,
+      "descender_per_x": 0.026700072798486015,
+      "width_per_x": 0.8086588293249157
+    },
+    {
+      "family": "Literata",
+      "family_id": "literata",
+      "style": "italic",
+      "filename": "Literata-Italic[opsz,wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/Literata-Italic%5Bopsz%2Cwght%5D.ttf",
+      "sha256": "d483dfaeba9cbf4ce71d32a52ee65df82f7e35b15fff8d1011cdb242d1fcd465",
+      "axes": {
+        "opsz": 48,
+        "wght": 400
+      },
+      "x_height": 524.3431396484375,
+      "upm": 1000,
+      "license": "docs/research/de-references/literata-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/literata/METADATA.pb",
+      "language": "ru",
+      "features": {
+        "aalt": 1
+      },
+      "glyph_name": "uni0434.sc",
+      "glyph_bounds": [
+        12.38397216796875,
+        -125.44281005859375,
+        568.9117431640625,
+        558.5718994140625
+      ],
+      "advance": 585,
+      "descender_per_x": 0.23923801147222193,
+      "width_per_x": 1.0613808571410612
+    },
+    {
+      "family": "PT Serif",
+      "family_id": "ptserif",
+      "style": "normal",
+      "filename": "PT_Serif-Web-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/ptserif/PT_Serif-Web-Regular.ttf",
+      "sha256": "a4951fade06ff8f09b7673aa81ffb65a8cd409e24d3289a6dc670bc4dda2557a",
+      "axes": {},
+      "x_height": 500,
+      "upm": 1000,
+      "license": "docs/research/de-references/ptserif-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/ptserif/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "afii10069",
+      "glyph_bounds": [
+        9,
+        -148,
+        544.25,
+        500
+      ],
+      "advance": 573,
+      "descender_per_x": 0.296,
+      "width_per_x": 1.0705
+    },
+    {
+      "family": "PT Serif",
+      "family_id": "ptserif",
+      "style": "italic",
+      "filename": "PT_Serif-Web-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/ptserif/PT_Serif-Web-Italic.ttf",
+      "sha256": "f57e95ff9dc85691a3b2e193f2028db36f6663939a46c0fc4f286d618b80b7ce",
+      "axes": {},
+      "x_height": 507,
+      "upm": 1000,
+      "license": "docs/research/de-references/ptserif-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/ptserif/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "afii10069",
+      "glyph_bounds": [
+        29,
+        -12,
+        479,
+        754
+      ],
+      "advance": 496,
+      "descender_per_x": 0.023668639053254437,
+      "width_per_x": 0.8875739644970414
+    },
+    {
+      "family": "Forum",
+      "family_id": "forum",
+      "style": "normal",
+      "filename": "Forum-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/forum/Forum-Regular.ttf",
+      "sha256": "5c9fbe9c4ce76d0269f5088d921d57e58082fd9c28433eacb6de95baf938adf8",
+      "axes": {},
+      "x_height": 420,
+      "upm": 1000,
+      "license": "docs/research/de-references/forum-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/forum/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        8,
+        -90,
+        490,
+        438
+      ],
+      "advance": 504,
+      "descender_per_x": 0.21428571428571427,
+      "width_per_x": 1.1476190476190475
+    },
+    {
+      "family": "Viaoda Libre",
+      "family_id": "viaodalibre",
+      "style": "normal",
+      "filename": "ViaodaLibre-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/viaodalibre/ViaodaLibre-Regular.ttf",
+      "sha256": "adb53ede25107c5ed4c45f993fd014a21ef82ac82b2327a564fe8e994e228942",
+      "axes": {},
+      "x_height": 467,
+      "upm": 1000,
+      "license": "docs/research/de-references/viaodalibre-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/viaodalibre/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        -30,
+        -129,
+        475,
+        467
+      ],
+      "advance": 505,
+      "descender_per_x": 0.2762312633832976,
+      "width_per_x": 1.0813704496788008
+    },
+    {
+      "family": "Viaoda Libre",
+      "family_id": "viaodalibre",
+      "style": "normal",
+      "filename": "ViaodaLibre-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/viaodalibre/ViaodaLibre-Regular.ttf",
+      "sha256": "adb53ede25107c5ed4c45f993fd014a21ef82ac82b2327a564fe8e994e228942",
+      "axes": {},
+      "x_height": 467,
+      "upm": 1000,
+      "license": "docs/research/de-references/viaodalibre-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/viaodalibre/METADATA.pb",
+      "language": "bg",
+      "features": {},
+      "glyph_name": "uni0434.loclBGR",
+      "glyph_bounds": [
+        48,
+        -265,
+        435,
+        487
+      ],
+      "advance": 474,
+      "descender_per_x": 0.5674518201284796,
+      "width_per_x": 0.828693790149893
+    },
+    {
+      "family": "Yeseva One",
+      "family_id": "yesevaone",
+      "style": "normal",
+      "filename": "YesevaOne-Regular.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/yesevaone/YesevaOne-Regular.ttf",
+      "sha256": "88362b33820f0011e163e67b1d570fecd442aa8c05eaac89d5162f9c40d9dac3",
+      "axes": {},
+      "x_height": 500,
+      "upm": 1000,
+      "license": "docs/research/de-references/yesevaone-OFL.txt",
+      "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/yesevaone/METADATA.pb",
+      "language": "ru",
+      "features": {},
+      "glyph_name": "uni0434",
+      "glyph_bounds": [
+        -10,
+        -165,
+        600,
+        500
+      ],
+      "advance": 615,
+      "descender_per_x": 0.33,
+      "width_per_x": 1.22
+    }
+  ]
+}

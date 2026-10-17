@@ -5,3 +5,4 @@ data/codex/OFL.txt -whitespace
 dist/VeryPeriSerifDraft/OFL.txt -whitespace
 dist/VeryPeriSerifDraft/AUTHORS.txt -whitespace
 docs/research/italic-references/*-OFL.txt -whitespace
+docs/research/de-references/*-OFL.txt -whitespace

@@ -1,9 +1,9 @@
 {
-  "ttf_sha256": "3b773db62ea4ce8226ecdf93d0f835d2bbac21d34301d44e2343668081bc0a84",
-  "pdf_sha256": "8c8d80bc0cbb62896fff5ee3421b5a3b87ac172b06ddb5d9ca74e3b0bcc8bf61",
-  "html_sha256": "70caf9a693b808a3362e9488e137d13ab1ed21ad4f23ac723bee4324e1e7c1f6",
-  "pdf_pages": 124,
+  "ttf_sha256": "95173772108913ef2fd94c78f503dab3a6133a1c6b95534e77f4906ef5e664fe",
+  "pdf_sha256": "4e86d3fd61e4808de3e88a9b55ee03842040afb62bd05efcf5194d6316a04c63",
+  "html_sha256": "6a9f9b4c5e63602776ef44e3affa48d0a25950a145db24e3bf0f6b1398fdab2d",
+  "pdf_pages": 126,
   "primary_ordered_pairs": 7056,
-  "alternative_forms": 20,
+  "alternative_forms": 21,
   "offline_html": true
 }

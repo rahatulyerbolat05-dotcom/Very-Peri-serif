@@ -161,7 +161,7 @@ def merge_layout(font,extra,tag):
                 target.FeatureIndex=sorted(set(target.FeatureIndex+source.FeatureIndex));target.FeatureCount=len(target.FeatureIndex)
     # Cyrillic inherits mark/mkmk, ccmp and native liga/dlig as well as additions.
     cyrl=scripts['cyrl'].Script.DefaultLangSys
-    allowed={'kern','mark','mkmk'} if tag=='GPOS' else {'aalt','case','ccmp','dlig','liga','ordn','ss01','calt','ss08','ss09'}
+    allowed={'kern','mark','mkmk'} if tag=='GPOS' else {'aalt','case','ccmp','dlig','liga','ordn','ss01','calt','ss07','ss08','ss09'}
     cyrl.FeatureIndex=sorted(set(cyrl.FeatureIndex+[i for i,r in enumerate(old.FeatureList.FeatureRecord) if r.FeatureTag in allowed]))
     cyrl.FeatureCount=len(cyrl.FeatureIndex)
     # Feature records must be sorted; update every language's indices afterwards.
@@ -215,7 +215,7 @@ def main():
         chosen[ch]=filename;install(ch,filename,name_for(ch))
         for table in font['cmap'].tables:
             if table.isUnicode():table.cmap[ord(ch)]=name_for(ch)
-    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('т','data/te/t1.glif','ss08')]:
+    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('т','data/te/t1.glif','ss08'),('д','data/regular-de-refinement/uni0434.glif','ss07')]:
         install(ch,filename,name_for(ch)+'.'+suffix)
     for ch,basename in [('а','a-cy'),('с','es-cy'),('е','ie-cy'),('ё','io-cy')]:
         install(ch,'data/homoglyph/'+basename+'.ss01.glif',name_for(ch)+'.ss01')
@@ -281,6 +281,11 @@ def main():
     # Add all shape variants of members so feature ordering cannot disable context.
     for name,r in records.items():
         if name==name_for(r['character']):continue
+        if name=='uni0434.ss07':
+            from check_context_classes import test,test_top
+            if test(paths[name])[0]:serif.append(name)
+            if test_top(paths[name])[0]:head.append(name)
+            continue
         if name_for(r['character']) in serif:serif.append(name)
         if name_for(r['character']) in head:head.append(name)
     marktable=native['GPOS'].table.LookupList.Lookup[1].SubTable[0]
@@ -289,6 +294,7 @@ def main():
          '@serif_bl = ['+' '.join(serif)+'];','@head_tl = ['+' '.join(head)+'];',
          '@above_marks = ['+' '.join(above)+'];',
          "feature ccmp { sub uni0456' @above_marks by uni0456.dotless; } ccmp;",
+         'feature ss07 { featureNames { name "Printed Cyrillic de"; }; sub uni0434 by uni0434.ss07; } ss07;',
          'feature calt { script cyrl;',
          "sub uni043F' @serif_bl by uni043F.flag;",
          "sub uni043A' @head_tl by uni043A.short;",
@@ -298,7 +304,7 @@ def main():
     fea += ['} ss01;','feature ss08 { featureNames { name "Alternate Cyrillic te"; }; sub uni0442 by uni0442.ss08; } ss08;',
             'feature ss09 { featureNames { name "Previous tail style"; };']
     fea += [f'sub {a} by {b};' for a,b in tail_pairs.items()]
-    fea += ['} ss09;','feature aalt { sub uni049B from [uni049B.alternate]; } aalt;',
+    fea += ['} ss09;','feature aalt { sub uni049B from [uni049B.alternate]; sub uni0434 from [uni0434.ss07]; } aalt;',
             'feature kern {']
     fea += [f'pos {a} {b} {value};' for (a,b),value in sorted(pairs.items())]
     fea += ['} kern;']
@@ -311,20 +317,20 @@ def main():
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors.',
-            1:'Very Peri Serif Draft',2:'Regular',3:'1.006;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
-            4:'Very Peri Serif Draft Regular',5:'Version 1.006',6:'VeryPeriSerifDraft-Regular'}
+            1:'Very Peri Serif Draft',2:'Regular',3:'1.007;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],
+            4:'Very Peri Serif Draft Regular',5:'Version 1.007',6:'VeryPeriSerifDraft-Regular'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
         font['name'].setName(value,nid,3,1,0x409);font['name'].setName(value,nid,1,0,0)
-    font['head'].fontRevision=1.006;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
+    font['head'].fontRevision=1.007;font.recalcTimestamp=False;font['OS/2'].recalcUnicodeRanges(font)
     font['OS/2'].recalcAvgCharWidth(font)
     font.save(TTF)
     web=TTFont(TTF);web.flavor='woff2';web.save(OUT/'VeryPeriSerifDraft-Regular.woff2')
-    manifest={'family':'Very Peri Serif Draft','version':'1.006','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
+    manifest={'family':'Very Peri Serif Draft','version':'1.007','unicode_letters':len(CHARS),'unicode_symbols_added':list(SYMBOLS),'kerning_preserved':keep_kerning,
               'glyphs_added':len(records),'kerning_pairs_added':len(pairs),'collision_adjustments':clamped,
               'chosen_sources':chosen,'glyph_records':records,
-              'tail_feature':'ss09','te_feature':'ss08','default_context':'calt',
+              'tail_feature':'ss09','te_feature':'ss08','de_feature':'ss07','default_context':'calt',
               'note':'Unapproved designs use first currently displayed proposal; draft spacing and kerning.'}
     (OUT/'build-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     for filename in ('OFL.txt','AUTHORS.txt'):
