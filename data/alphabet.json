@@ -311,26 +311,96 @@
       "provenance": "Codex study; native Instrument Serif donors credited in source study"
     },
     "д": {
-      "selected": "01",
+      "selected": "02",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/regular-de-cormorant/uni0434.glif",
+          "path": "data/cormorant-de/uni0434-01.glif",
           "variant": "01",
-          "label": "Широкая округлая чаша, плавный нижний хвост",
-          "advance": 488,
+          "label": "Исходные пропорции",
+          "advance": 527,
+          "bounds": [
+            30.0,
+            -363.58074951171875,
+            492.1750183105469,
+            516.0
+          ],
+          "glif_sha256": "98df16ccdfbc56516d0f60a48b2a1ae04c5bdb47a61309a9dea57c359aca5930",
+          "transform": {
+            "x_scale": 1.2938816845397547,
+            "body_y_scale": 1.2938816845397547,
+            "tail_y_scale": 1.2938816845397547,
+            "hinge": -12,
+            "x_offset": -16.579661671160387
+          },
+          "status": "proportion study; actual Cormorant outline"
+        },
+        {
+          "path": "data/cormorant-de/uni0434-02.glif",
+          "variant": "02",
+          "label": "Уже на 6%, хвост −280",
+          "advance": 499,
+          "bounds": [
+            30.0,
+            -280.0,
+            464.44451904296875,
+            516.0
+          ],
+          "glif_sha256": "ef8d59a6a3bd1c2686d853311f58e44a3d2748341e59c50c7ed38cb7f1da1e47",
+          "transform": {
+            "x_scale": 1.2162487834673694,
+            "body_y_scale": 1.2938816845397547,
+            "tail_y_scale": 0.9831725642584496,
+            "hinge": -12,
+            "x_offset": -13.784881970890758
+          },
+          "status": "proportion study; actual Cormorant outline"
+        },
+        {
+          "path": "data/cormorant-de/uni0434-03.glif",
+          "variant": "03",
+          "label": "Уже на 12%, хвост −280",
+          "advance": 472,
+          "bounds": [
+            30.0,
+            -280.0,
+            436.7140197753906,
+            516.0
+          ],
+          "glif_sha256": "fb2e948463601dff2144a8c3c8b716427eae5038709647a3552eaeed90e796a1",
+          "transform": {
+            "x_scale": 1.1386158823949841,
+            "body_y_scale": 1.2938816845397547,
+            "tail_y_scale": 0.9831725642584496,
+            "hinge": -12,
+            "x_offset": -10.990102270621136
+          },
+          "status": "proportion study; actual Cormorant outline"
+        },
+        {
+          "path": "data/cormorant-de/uni0434-04.glif",
+          "variant": "04",
+          "label": "Уже на 6%, хвост −240",
+          "advance": 499,
           "bounds": [
             30.0,
             -240.0,
-            436.6428527832031,
+            464.44451904296875,
             516.0
           ],
-          "glif_sha256": "12c05303671f2717d6ca5049d5333066aae3cd1567a64f9e2cb65acb3ef42394",
-          "status": "selected"
+          "glif_sha256": "cc53af2f6274ce40729495505f002a36a9da48f2079a9cf3c656edb628000d44",
+          "transform": {
+            "x_scale": 1.2162487834673694,
+            "body_y_scale": 1.2938816845397547,
+            "tail_y_scale": 0.8344736795000852,
+            "hinge": -12,
+            "x_offset": -13.784881970890758
+          },
+          "status": "proportion study; actual Cormorant outline"
         }
       ],
-      "provenance": "Author selected Cormorant Garamond ss10 / Infant direction; Very Peri contours, 17.10.2026"
+      "provenance": "Actual Cormorant de imported at explicit user request; proportion studies, OFL1.1"
     },
     "ж": {
       "selected": "cyr11",
@@ -1017,6 +1087,33 @@
         }
       ],
       "provenance": "Codex; optical correction requested by user"
+    },
+    "У": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "character": "У",
+          "role": "primary",
+          "path": "data/capital-u-revision/uni0423.glif",
+          "advance": 401,
+          "bounds": [
+            -14.0,
+            -9.0,
+            409.0,
+            720.0
+          ],
+          "glif_sha256": "174cb10cf62e4013d8bf0cfc82c86484b5fa10c331d2cb489b559415963bf71e",
+          "status": "Russian capital U: diagonal lower branch and hook",
+          "origin": "Codex revision of erroneous Y mapping",
+          "variant": "01",
+          "label": "Диагональная нижняя ветвь и крючок"
+        }
+      ],
+      "origin": "Codex",
+      "provenance": "Native y branches and hook moved to cap zones; original Ү remains native Y",
+      "status": "revised at author request"
     }
   },
   "shared_review": {
@@ -1073,9 +1170,9 @@
           "character": "ц",
           "role": "primary",
           "source_name": "ц.svg",
-          "path": "data/drop-tail-variants/uni0446-primary.glif",
+          "path": "data/exact-author-tails/uni0446-primary.glif",
           "source_sha256": "78dfbc9496ea682115cefa3e69040ac3c5c1e14b7b0c8bec8141cd0e518e041d",
-          "glif_sha256": "2955c25c820838d79a6c05ad35524b5f59bb39ed9ea49c87799ed1150223fcf7",
+          "glif_sha256": "0c4964b5de6d596559376eda72abff50de084daf0df07381ae1827c9c747d40c",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1098,10 +1195,10 @@
           "advance": 536,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
           "contours": 1,
-          "tail_style": "drop",
-          "tail_source_glif": "data/user-2026-10-16/uni0446-primary.glif",
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni0446-primary.glif",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16/uni0446-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "status": "author body; new drop tail requested by user; metrics provisional"
+          "status": "full author SVG motif; upper body preserved"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1147,9 +1244,9 @@
           "character": "ң",
           "role": "primary",
           "source_name": "ң.svg",
-          "path": "data/drop-tail-variants/uni04A3-primary.glif",
+          "path": "data/exact-author-tails/uni04A3-primary.glif",
           "source_sha256": "4d8bcbcd90567ad804ec63ba557f070fecd0ba276d7f401b235345ed3463c69e",
-          "glif_sha256": "c972300149b701a9296ef72a3f22d64ef83a67c59a32d2b8594df35e19c81d17",
+          "glif_sha256": "e06ddae82fe05b6092e915a2fe746bb05b7cbd67cfc8871b7591e39d3c5963bd",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1172,10 +1269,10 @@
           "advance": 550,
           "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
           "contours": 1,
-          "tail_style": "drop",
-          "tail_source_glif": "data/user-2026-10-16/uni04A3-primary.glif",
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni04A3-primary.glif",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16/uni04A3-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "status": "author body; new drop tail requested by user; metrics provisional"
+          "status": "full author SVG motif; upper body preserved"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1221,9 +1318,9 @@
           "character": "щ",
           "role": "primary",
           "source_name": "щ.svg",
-          "path": "data/drop-tail-variants/uni0449-primary.glif",
+          "path": "data/exact-author-tails/uni0449-primary.glif",
           "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
-          "glif_sha256": "7c5cbd43d93ea037ca8ec7018ef4e274db5a45fb6451eda6bc41bf10d25288ab",
+          "glif_sha256": "7f1773cece8a8ebca4e6ebed9b1f93dbeb1e59afe812511a3fb83dcb2d9aec6c",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1249,10 +1346,10 @@
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
           "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0449-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni0449-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni0449-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1344,9 +1441,9 @@
           "character": "қ",
           "role": "primary",
           "source_name": "қ - основа.svg",
-          "path": "data/drop-tail-variants/uni049B-primary.glif",
+          "path": "data/exact-author-tails/uni049B-primary.glif",
           "source_sha256": "f10285c1474e00db2792c3b177aabe1d5cc7855934c900edcd2e944efb12477f",
-          "glif_sha256": "ef55d54789df773e068194b7419906d7ba531fc297bfa7e43ff0b3dbf6f3f619",
+          "glif_sha256": "f9bdf8f13ba935eb9956bf6e706d7f7c358576c5bb6d275e2d815480cec7a0d9",
           "svg_path_count": 2,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1372,18 +1469,18 @@
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni049B-primary.glif",
           "original_glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni049B-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni049B-primary.glif"
         },
         {
           "character": "қ",
           "role": "alternate",
           "source_name": "қ - альтернатива.svg",
-          "path": "data/drop-tail-variants/uni049B-alternate.glif",
+          "path": "data/exact-author-tails/uni049B-alternate.glif",
           "source_sha256": "a214558c5e2717ecb43abce7bdb4018b9abeecf767d9d35e2f8a6d37cb11267b",
-          "glif_sha256": "d67669a219c0bb53cd715b35a48ad07dae6c80376d9f803f2cae43b4cdd46b7d",
+          "glif_sha256": "339fea31924983f32338ee4f5d9ebb0e029f92e29395bb143832ccb8526fae12",
           "svg_path_count": 3,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1410,18 +1507,18 @@
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni049B-alternate.glif",
           "original_glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-alternate.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni049B-alternate.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni049B-alternate.glif"
         },
         {
           "character": "қ",
           "role": "context",
           "source_name": "қ лигатура.svg",
-          "path": "data/drop-tail-variants/uni049B-context.glif",
+          "path": "data/exact-author-tails/uni049B-context.glif",
           "source_sha256": "489ad2bff9442d77b8c8c0b308f377192f2aa1e5b183bc8b312d568f5e882719",
-          "glif_sha256": "8af0f5cf99f4fb6539abce59fc14a5b600aeb5b65270b0f8bc5d929aac2de261",
+          "glif_sha256": "c439985eaa36ac56795e0a1165943692dbdb1fec8642e0495758a76f63aeb759",
           "svg_path_count": 3,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1448,10 +1545,10 @@
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni049B-context.glif",
           "original_glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-context.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni049B-context.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni049B-context.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1574,9 +1671,9 @@
           "character": "Щ",
           "role": "primary",
           "source_name": "щ заглавная.svg",
-          "path": "data/drop-tail-variants/uni0429-primary.glif",
+          "path": "data/exact-author-tails/uni0429-primary.glif",
           "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
-          "glif_sha256": "58432be530cf509c18a60743f17ef06e85ec419bda2595ed7b85b5848a5ae575",
+          "glif_sha256": "a1c10cdfeeb7826c7c43b138ae97312e61a62087792b31ab0b6efe5d87a5ae82",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1601,10 +1698,10 @@
           "contours": 1,
           "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
           "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0429-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni0429-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni0429-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1655,7 +1752,7 @@
           "role": "primary",
           "source_name": "қ заглав.svg",
           "origin": "user",
-          "path": "data/drop-tail-variants/uni049A-primary.glif",
+          "path": "data/exact-author-tails/uni049A-primary.glif",
           "transform": [
             1.0084033613445378,
             0,
@@ -1665,7 +1762,7 @@
             720
           ],
           "metrics_status": "provisional; body714 uniformly restored to720, side margins19",
-          "glif_sha256": "3d1b36c5a5c8ba0301ad77fc1177d20fa108ab5ff259c3a185ebc18bc72de695",
+          "glif_sha256": "8087a74c307a5cb3d05db6223ec2ca4f967acb2c12ddbd7b68e5ff0b429d23f6",
           "source_sha256": "09ead442e185382e9232ef9a31ce3ff5a5acd50cb952c6a51ceee6df706ca2e8",
           "advance": 577,
           "bounds": [
@@ -1677,10 +1774,10 @@
           "original_glif": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
           "original_glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
           "contours": 1,
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049A-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-curve-fixes/uni049A-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni049A-primary.glif"
         }
       ],
       "origin": "user",
@@ -1719,32 +1816,6 @@
         }
       ],
       "tail_style": "drop"
-    },
-    "У": {
-      "selected": null,
-      "variants": [
-        {
-          "character": "У",
-          "role": "primary",
-          "source_name": "U-cy.glif",
-          "origin": "Claude archive, user supplied",
-          "path": "data/incoming-caps-2026-10-16/U-cy.glif",
-          "status": "proposal awaiting approval",
-          "metrics_status": "original GLIF metrics retained",
-          "glif_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
-          "source_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
-          "advance": 477,
-          "bounds": [
-            -18.0,
-            0.0,
-            495.0,
-            720.0
-          ]
-        }
-      ],
-      "origin": "Claude",
-      "provenance": "Claude archive, user supplied",
-      "status": "archive proposal; awaiting approval"
     },
     "Ұ": {
       "selected": null,
@@ -1814,7 +1885,7 @@
         {
           "character": "Ң",
           "role": "primary",
-          "path": "data/drop-tail-variants/uni04A2-primary.glif",
+          "path": "data/exact-author-tails/uni04A2-primary.glif",
           "source_name": "ң заглав.svg",
           "transform": [
             1.0084033613445378,
@@ -1825,7 +1896,7 @@
             720
           ],
           "source_sha256": "151b86052f21f766daef0f9d84e3bb6597790f249b394ffdc2b0641efcf5dd18",
-          "glif_sha256": "b0620ab49fddde815de7967ea7b9fbb2bb1ec4e2ed342819eec51ec9d7aed9b4",
+          "glif_sha256": "76eeb492758c97ab8a7d5055c746b34a0d1a7d9913c4f53c2a594a2782de931e",
           "advance": 614,
           "bounds": [
             19.0,
@@ -1833,12 +1904,12 @@
             527.2352905273438,
             720.0
           ],
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "contours": 1,
           "simplified_contours_for_diagnostic_only": 1,
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16-push/uni04A2-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
-          "tail_style": "drop",
-          "tail_source_glif": "data/user-2026-10-16-push/uni04A2-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni04A2-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -1881,10 +1952,10 @@
         {
           "character": "Ц",
           "role": "primary",
-          "path": "data/drop-tail-variants/uni0426-primary.glif",
+          "path": "data/exact-author-tails/uni0426-primary.glif",
           "source_name": "ц заглавная.svg",
           "source_sha256": "a946a49541a39502e24620aa49613240ae8702704a21ae6ed9efcbd627310892",
-          "glif_sha256": "7e065ad937d160e2c1054dab99ba5c28ea9f660bbf96da8f58dcd57628e23bfa",
+          "glif_sha256": "df69c290ac0cbe5ed120eedcddb9219f3cfd63a104d6456914e5eb3dbe82f8e0",
           "transform": [
             1.0084033613445378,
             0,
@@ -1900,11 +1971,11 @@
             527.2352905273438,
             720.0
           ],
-          "status": "author body; new drop tail requested by user; metrics provisional",
+          "status": "full author SVG motif; upper body preserved",
           "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-tse-tail-2026-10-16/uni0426-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
           "contours": 1,
-          "tail_style": "drop",
-          "tail_source_glif": "data/author-tse-tail-2026-10-16/uni0426-primary.glif"
+          "tail_style": "full-author-svg",
+          "tail_source_glif": "data/drop-tail-variants/uni0426-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -2244,6 +2315,800 @@
         }
       ],
       "provenance": "Codex; author requested a natural lower tail, 17.10.2026"
+    },
+    "д-rejected-1.008": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/regular-de-cormorant/uni0434.glif",
+          "variant": "01",
+          "label": "Широкая округлая чаша, плавный нижний хвост",
+          "advance": 488,
+          "bounds": [
+            30.0,
+            -240.0,
+            436.6428527832031,
+            516.0
+          ],
+          "glif_sha256": "12c05303671f2717d6ca5049d5333066aae3cd1567a64f9e2cb65acb3ef42394",
+          "status": "selected"
+        }
+      ],
+      "provenance": "Author selected Cormorant Garamond ss10 / Infant direction; Very Peri contours, 17.10.2026"
+    },
+    "tails-before-full-svg": {
+      "ц": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "ц",
+            "role": "primary",
+            "source_name": "ц.svg",
+            "path": "data/drop-tail-variants/uni0446-primary.glif",
+            "source_sha256": "78dfbc9496ea682115cefa3e69040ac3c5c1e14b7b0c8bec8141cd0e518e041d",
+            "glif_sha256": "2955c25c820838d79a6c05ad35524b5f59bb39ed9ea49c87799ed1150223fcf7",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -130.00100708007812,
+              443.5639953613281,
+              510.0
+            ],
+            "advance": 536,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "tail_style": "drop",
+            "tail_source_glif": "data/user-2026-10-16/uni0446-primary.glif",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16/uni0446-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "status": "author body; new drop tail requested by user; metrics provisional"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "ц",
+            "role": "primary",
+            "source_name": "ц.svg",
+            "path": "data/user-2026-10-16/uni0446-primary.glif",
+            "source_sha256": "78dfbc9496ea682115cefa3e69040ac3c5c1e14b7b0c8bec8141cd0e518e041d",
+            "glif_sha256": "f596e321c2dbab54a36d3a13e8f99b4c2c182f0c19d3424765dbb1b482989240",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -200.38547879259153,
+              521.039,
+              510.0
+            ],
+            "advance": 536,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "щ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "щ",
+            "role": "primary",
+            "source_name": "щ.svg",
+            "path": "data/drop-tail-variants/uni0449-primary.glif",
+            "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
+            "glif_sha256": "7c5cbd43d93ea037ca8ec7018ef4e274db5a45fb6451eda6bc41bf10d25288ab",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#FF0040",
+              "black"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -129.0001220703125,
+              685.0001220703125,
+              510.0
+            ],
+            "advance": 777,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
+            "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0449-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni0449-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "щ",
+            "role": "primary",
+            "source_name": "щ.svg",
+            "path": "data/author-curve-fixes/uni0449-primary.glif",
+            "source_sha256": "592ace0521ed665c97a1f8ceb66a591a2b8ab426534b4f9e5fc2598aedec007e",
+            "glif_sha256": "9631606448a5db0edade8d25b516da5fc85ff4b96f7ee5edacee64497b5a2076",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#FF0040",
+              "black"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -199.38397216796875,
+              762.4749755859375,
+              510.0
+            ],
+            "advance": 777,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0449-primary.glif",
+            "original_glif_sha256": "317a0362cc3fe6f5014ce48330395853be40ce3eb09e0724abb0dd8e5db932cb",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0449-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "қ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "қ",
+            "role": "primary",
+            "source_name": "қ - основа.svg",
+            "path": "data/drop-tail-variants/uni049B-primary.glif",
+            "source_sha256": "f10285c1474e00db2792c3b177aabe1d5cc7855934c900edcd2e944efb12477f",
+            "glif_sha256": "ef55d54789df773e068194b7419906d7ba531fc297bfa7e43ff0b3dbf6f3f619",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              513
+            ],
+            "bounds": [
+              15.0,
+              -125.36805725097656,
+              441.02099609375,
+              513.0
+            ],
+            "advance": 509,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-primary.glif",
+            "original_glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni049B-primary.glif"
+          },
+          {
+            "character": "қ",
+            "role": "alternate",
+            "source_name": "қ - альтернатива.svg",
+            "path": "data/drop-tail-variants/uni049B-alternate.glif",
+            "source_sha256": "a214558c5e2717ecb43abce7bdb4018b9abeecf767d9d35e2f8a6d37cb11267b",
+            "glif_sha256": "d67669a219c0bb53cd715b35a48ad07dae6c80376d9f803f2cae43b4cdd46b7d",
+            "svg_path_count": 3,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -125.36705780029297,
+              442.0,
+              510.0
+            ],
+            "advance": 510,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-alternate.glif",
+            "original_glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-alternate.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni049B-alternate.glif"
+          },
+          {
+            "character": "қ",
+            "role": "context",
+            "source_name": "қ лигатура.svg",
+            "path": "data/drop-tail-variants/uni049B-context.glif",
+            "source_sha256": "489ad2bff9442d77b8c8c0b308f377192f2aa1e5b183bc8b312d568f5e882719",
+            "glif_sha256": "8af0f5cf99f4fb6539abce59fc14a5b600aeb5b65270b0f8bc5d929aac2de261",
+            "svg_path_count": 3,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -125.19205474853516,
+              412.8946838378906,
+              510.0
+            ],
+            "advance": 508,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-context.glif",
+            "original_glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049B-context.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni049B-context.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "қ",
+            "role": "primary",
+            "source_name": "қ - основа.svg",
+            "path": "data/author-curve-fixes/uni049B-primary.glif",
+            "source_sha256": "f10285c1474e00db2792c3b177aabe1d5cc7855934c900edcd2e944efb12477f",
+            "glif_sha256": "54803bcc5b1c615564dc8e39c63962da82275d4caacfc6121b7678d0847f3704",
+            "svg_path_count": 2,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              513
+            ],
+            "bounds": [
+              15.0,
+              -199.3095703125,
+              494.4750061035156,
+              513.0
+            ],
+            "advance": 509,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-primary.glif",
+            "original_glif_sha256": "75584239f1006211782403920b0fe092268e0ea5119610422564f0f4c8c17063",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          },
+          {
+            "character": "қ",
+            "role": "alternate",
+            "source_name": "қ - альтернатива.svg",
+            "path": "data/author-curve-fixes/uni049B-alternate.glif",
+            "source_sha256": "a214558c5e2717ecb43abce7bdb4018b9abeecf767d9d35e2f8a6d37cb11267b",
+            "glif_sha256": "b93b4b99fb1057b458f8be4232987726c39045b2a95d65a7fc0426fb4dab8eb8",
+            "svg_path_count": 3,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -199.3084716796875,
+              494.7040100097656,
+              510.0
+            ],
+            "advance": 510,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-alternate.glif",
+            "original_glif_sha256": "bf28ac3d819f2491d0401ce0a146a0eff5f33e43e3a6fcd865f807b0695283a5",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-alternate.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          },
+          {
+            "character": "қ",
+            "role": "context",
+            "source_name": "қ лигатура.svg",
+            "path": "data/author-curve-fixes/uni049B-context.glif",
+            "source_sha256": "489ad2bff9442d77b8c8c0b308f377192f2aa1e5b183bc8b312d568f5e882719",
+            "glif_sha256": "0f83ef080fb2ee1f5b0b59789714fa6d1648125bc76b5e81178373e7fc182474",
+            "svg_path_count": 3,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333",
+              "#272333",
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              510
+            ],
+            "bounds": [
+              15.0,
+              -199.132568359375,
+              492.7040100097656,
+              510.0
+            ],
+            "advance": 508,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni049B-context.glif",
+            "original_glif_sha256": "b28a9c5d194c4b5e53c1a15ce54c3c325da74112fff6499fcd4cd22dcbbba320",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni049B-context.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "ң": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "ң",
+            "role": "primary",
+            "source_name": "ң.svg",
+            "path": "data/drop-tail-variants/uni04A3-primary.glif",
+            "source_sha256": "4d8bcbcd90567ad804ec63ba557f070fecd0ba276d7f401b235345ed3463c69e",
+            "glif_sha256": "c972300149b701a9296ef72a3f22d64ef83a67c59a32d2b8594df35e19c81d17",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              513
+            ],
+            "bounds": [
+              15.0,
+              -128.36097717285156,
+              457.58197021484375,
+              513.0
+            ],
+            "advance": 550,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 1,
+            "tail_style": "drop",
+            "tail_source_glif": "data/user-2026-10-16/uni04A3-primary.glif",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16/uni04A3-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "status": "author body; new drop tail requested by user; metrics provisional"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "ң",
+            "role": "primary",
+            "source_name": "ң.svg",
+            "path": "data/user-2026-10-16/uni04A3-primary.glif",
+            "source_sha256": "4d8bcbcd90567ad804ec63ba557f070fecd0ba276d7f401b235345ed3463c69e",
+            "glif_sha256": "d102d3df82d66df90123c9f1d64beb934a679a063050b15acec513fa8128c6a4",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1,
+              0,
+              0,
+              -1,
+              15,
+              513
+            ],
+            "bounds": [
+              15.0,
+              -199.3849782384974,
+              535.477,
+              513.0
+            ],
+            "advance": 550,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": "original Bezier segments retained; no smoothing, union or point reduction; overlapping paths retained"
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "Ц": {
+        "selected": "primary",
+        "origin": "user",
+        "variants": [
+          {
+            "character": "Ц",
+            "role": "primary",
+            "path": "data/drop-tail-variants/uni0426-primary.glif",
+            "source_name": "ц заглавная.svg",
+            "source_sha256": "a946a49541a39502e24620aa49613240ae8702704a21ae6ed9efcbd627310892",
+            "glif_sha256": "7e065ad937d160e2c1054dab99ba5c28ea9f660bbf96da8f58dcd57628e23bfa",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "advance": 616,
+            "bounds": [
+              19.0,
+              -130.5728759765625,
+              527.2352905273438,
+              720.0
+            ],
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-tse-tail-2026-10-16/uni0426-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "contours": 1,
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-tse-tail-2026-10-16/uni0426-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "Ц",
+            "role": "primary",
+            "path": "data/author-tse-tail-2026-10-16/uni0426-primary.glif",
+            "source_name": "ц заглавная.svg",
+            "source_sha256": "a946a49541a39502e24620aa49613240ae8702704a21ae6ed9efcbd627310892",
+            "glif_sha256": "a166553347bc25ea57efb8eb0bea16d4fccc9ff9f4e41d202cf674a2916af7c1",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "advance": 616,
+            "bounds": [
+              19.0,
+              -201.57637196573074,
+              596.8151260504202,
+              720.0
+            ],
+            "status": "author corrected construction and tail; metrics provisional",
+            "note": "[РЕШЕНИЕ] Новая авторская Ц: вертикальные стойки, нижняя связь и собственный хвост пользователя. Исходные кривые сохранены; равномерное преобразование корпуса714→720, поле19. Без очистки и перерисовки. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "Щ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "Щ",
+            "role": "primary",
+            "source_name": "щ заглавная.svg",
+            "path": "data/drop-tail-variants/uni0429-primary.glif",
+            "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
+            "glif_sha256": "58432be530cf509c18a60743f17ef06e85ec419bda2595ed7b85b5848a5ae575",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "bounds": [
+              19.0,
+              -128.45921325683594,
+              728.9159545898438,
+              720.0
+            ],
+            "advance": 818,
+            "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
+            "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni0429-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni0429-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "Щ",
+            "role": "primary",
+            "source_name": "щ заглавная.svg",
+            "path": "data/author-curve-fixes/uni0429-primary.glif",
+            "source_sha256": "95f71c413039a6cc975caf99d08a76ab9675acf411b006216dfa6bb0f4200d4b",
+            "glif_sha256": "0e63cada7f6ae3e1a737f6fb05a266fbd18120dfaa5400dfd4e43778b2ef6518",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "#272333"
+            ],
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "bounds": [
+              19.0,
+              -200.62342834472656,
+              798.8900756835938,
+              720.0
+            ],
+            "advance": 818,
+            "metrics_status": "provisional: body baseline SVG y714 aligned to font0, body height restored uniformly to720; side margins19, not final spacing",
+            "contours": 1,
+            "original_glif": "data/user-2026-10-16/uni0429-primary.glif",
+            "original_glif_sha256": "0bb6cadc289eb3427ee5413cd666a5872828f965b0ca2e63a63fdc819bdfe4e8",
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0429-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "Қ": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "Қ",
+            "role": "primary",
+            "source_name": "қ заглав.svg",
+            "origin": "user",
+            "path": "data/drop-tail-variants/uni049A-primary.glif",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "metrics_status": "provisional; body714 uniformly restored to720, side margins19",
+            "glif_sha256": "3d1b36c5a5c8ba0301ad77fc1177d20fa108ab5ff259c3a185ebc18bc72de695",
+            "source_sha256": "09ead442e185382e9232ef9a31ce3ff5a5acd50cb952c6a51ceee6df706ca2e8",
+            "advance": 577,
+            "bounds": [
+              19.0,
+              -126.84513854980469,
+              497.1374816894531,
+              720.0
+            ],
+            "original_glif": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+            "original_glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
+            "contours": 1,
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/author-curve-fixes/uni049A-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/author-curve-fixes/uni049A-primary.glif"
+          }
+        ],
+        "origin": "user",
+        "provenance": "user",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "Қ",
+            "role": "primary",
+            "source_name": "қ заглав.svg",
+            "origin": "user",
+            "path": "data/author-curve-fixes/uni049A-primary.glif",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "metrics_status": "provisional; body714 uniformly restored to720, side margins19",
+            "glif_sha256": "3bf5ecb5d8cc1ccf40b1d2906903a838b77ab69b470966abdb490680ac6d83df",
+            "source_sha256": "09ead442e185382e9232ef9a31ce3ff5a5acd50cb952c6a51ceee6df706ca2e8",
+            "advance": 577,
+            "bounds": [
+              19.0,
+              -201.40737915039062,
+              558.1962890625,
+              720.0
+            ],
+            "original_glif": "data/incoming-caps-2026-10-16/uni049A-primary.glif",
+            "original_glif_sha256": "c70d664efc66a2beb2a8d116c3edece9e45fddf506ee750fb9c38dd03be7f559",
+            "contours": 1,
+            "status": "author drawing with local curve repairs requested by user",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/incoming-caps-2026-10-16/uni049A-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные."
+          }
+        ],
+        "tail_style": "drop"
+      },
+      "Ң": {
+        "selected": "primary",
+        "origin": "user",
+        "variants": [
+          {
+            "character": "Ң",
+            "role": "primary",
+            "path": "data/drop-tail-variants/uni04A2-primary.glif",
+            "source_name": "ң заглав.svg",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "source_sha256": "151b86052f21f766daef0f9d84e3bb6597790f249b394ffdc2b0641efcf5dd18",
+            "glif_sha256": "b0620ab49fddde815de7967ea7b9fbb2bb1ec4e2ed342819eec51ec9d7aed9b4",
+            "advance": 614,
+            "bounds": [
+              19.0,
+              -132.29998779296875,
+              527.2352905273438,
+              720.0
+            ],
+            "status": "author body; new drop tail requested by user; metrics provisional",
+            "contours": 1,
+            "simplified_contours_for_diagnostic_only": 1,
+            "note": "[РЕШЕНИЕ · 16.10.2026] Основной хвост перенесён из точного SVG пользователя; только первая входная кривая согласована с корпусом. Корпус выше базовой линии и ширина сохранены. Прежний хвост доступен как альтернатива: data/user-2026-10-16-push/uni04A2-primary.glif. Координаты капли сохранены с единым масштабом и переносом; прежние хвосты доступны через ss09.",
+            "tail_style": "drop",
+            "tail_source_glif": "data/user-2026-10-16-push/uni04A2-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author body; drop tail primary, previous tail alternative",
+        "tail_alternatives": [
+          {
+            "character": "Ң",
+            "role": "primary",
+            "path": "data/user-2026-10-16-push/uni04A2-primary.glif",
+            "source_name": "ң заглав.svg",
+            "transform": [
+              1.0084033613445378,
+              0,
+              0,
+              -1.0084033613445378,
+              19,
+              720
+            ],
+            "source_sha256": "151b86052f21f766daef0f9d84e3bb6597790f249b394ffdc2b0641efcf5dd18",
+            "glif_sha256": "f8c153bbf27ebdecffe18ed4dca74fe103e3bb7790317ab42f1442b04e15c7fb",
+            "advance": 614,
+            "bounds": [
+              19.0,
+              -201.1749365975713,
+              594.7196638655462,
+              720.0
+            ],
+            "status": "user confirmed mapping; metrics provisional",
+            "contours": 1,
+            "simplified_contours_for_diagnostic_only": 1,
+            "note": "[РЕШЕНИЕ] Авторский SVG; кривые сохранены без очистки. Корпус SVG 714 равномерно приведён к высоте 720; поле слева 19. Интервалы предварительные; назначение буквы подтверждено пользователем."
+          }
+        ],
+        "tail_style": "drop"
+      }
+    },
+    "У-before-diagonal-revision": {
+      "selected": null,
+      "variants": [
+        {
+          "character": "У",
+          "role": "primary",
+          "source_name": "U-cy.glif",
+          "origin": "Claude archive, user supplied",
+          "path": "data/incoming-caps-2026-10-16/U-cy.glif",
+          "status": "proposal awaiting approval",
+          "metrics_status": "original GLIF metrics retained",
+          "glif_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
+          "source_sha256": "036108605d72e11fc012903911538e4781d3feccb9bc1cfa4d11db384a3d3fe1",
+          "advance": 477,
+          "bounds": [
+            -18.0,
+            0.0,
+            495.0,
+            720.0
+          ]
+        }
+      ],
+      "origin": "Claude",
+      "provenance": "Claude archive, user supplied",
+      "status": "archive proposal; awaiting approval"
     }
   },
   "tail_styles": {
@@ -2259,6 +3124,6 @@
       "Қ",
       "Ң"
     ],
-    "note": "Exact author SVG drop tails; previous locally repaired tails retained in tail_alternatives and enabled with ss09."
+    "note": "Full contiguous author SVG motif including entry, drop, inner return and spur; old angular tails retained as ss09."
   }
 }

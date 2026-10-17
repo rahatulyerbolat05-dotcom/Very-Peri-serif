@@ -1,0 +1,202 @@
+[
+  {
+    "character": "ц",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni0446-primary.glif",
+    "previous": "data/drop-tail-variants/uni0446-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      1.0,
+      0,
+      0,
+      -1.0,
+      -226.43600000000004,
+      508.999
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 118.99900000000002
+  },
+  {
+    "character": "щ",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni0449-primary.glif",
+    "previous": "data/drop-tail-variants/uni0449-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      1.0000010060012738,
+      0,
+      0,
+      -1.0000010060012738,
+      14.999430861397741,
+      510.0005165898134
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 120.00012424931663
+  },
+  {
+    "character": "қ",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni049B-primary.glif",
+    "previous": "data/drop-tail-variants/uni049B-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -236.35731772408508,
+      495.5329784406649
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 116.57929415690404
+  },
+  {
+    "character": "қ",
+    "role": "alternate",
+    "path": "data/exact-author-tails/uni049B-alternate.glif",
+    "previous": "data/drop-tail-variants/uni049B-alternate.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -236.12831381783508,
+      495.53397860660425
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 116.58029432284337
+  },
+  {
+    "character": "қ",
+    "role": "context",
+    "path": "data/exact-author-tails/uni049B-context.glif",
+    "previous": "data/drop-tail-variants/uni049B-context.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9716761135481048,
+      0,
+      0,
+      -0.9716761135481048,
+      -238.12831381783508,
+      495.70897855892053
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 116.75529427515966
+  },
+  {
+    "character": "ң",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni04A3-primary.glif",
+    "previous": "data/drop-tail-variants/uni04A3-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9949034916504009,
+      0,
+      0,
+      -0.9949034916504009,
+      -209.00336814140087,
+      507.38235577965725
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 119.36999403600089
+  },
+  {
+    "character": "Ц",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni0426-primary.glif",
+    "previous": "data/drop-tail-variants/uni0426-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      1.0081846661891825,
+      0,
+      0,
+      -1.0081846661891825,
+      -156.81267447772882,
+      513.6571295167385
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 120.4651097029573
+  },
+  {
+    "character": "Щ",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni0429-primary.glif",
+    "previous": "data/drop-tail-variants/uni0429-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9989338611176412,
+      0,
+      0,
+      -0.9989338611176412,
+      50.697917803426094,
+      509.8595232008221
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 120.27531736494205
+  },
+  {
+    "character": "Қ",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni049A-primary.glif",
+    "previous": "data/drop-tail-variants/uni049A-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      0.9798417740550998,
+      0,
+      0,
+      -0.9798417740550998,
+      -178.7776397325356,
+      499.2737535414944
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 117.13546166000549
+  },
+  {
+    "character": "Ң",
+    "role": "primary",
+    "path": "data/exact-author-tails/uni04A2-primary.glif",
+    "previous": "data/drop-tail-variants/uni04A2-primary.glif",
+    "svg_sha256": "8e6e8f7f21319611d93a21ae5f6f19a758c28285ac056acac17545cf6ea8164c",
+    "transform": [
+      1.0251335407292386,
+      0,
+      0,
+      -1.0251335407292386,
+      -168.8670411092216,
+      522.7603482720347
+    ],
+    "exact_source_commands": 25,
+    "upper_adapters": 2,
+    "lower_tail_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "join_y": 122.95826738763162
+  }
+]

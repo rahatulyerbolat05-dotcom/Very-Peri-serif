@@ -1,0 +1,125 @@
+{
+  "source": {
+    "family": "Cormorant Garamond",
+    "family_id": "cormorantgaramond",
+    "style": "normal",
+    "filename": "CormorantGaramond[wght].ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+    "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "axes": {
+      "wght": 400
+    },
+    "x_height": 386,
+    "upm": 1000,
+    "license": "docs/research/de-references/cormorantgaramond-OFL.txt",
+    "metadata_url": "https://raw.githubusercontent.com/google/fonts/47d54ca1ebb14fd864695f1d39dc734f39017c33/ofl/cormorantgaramond/METADATA.pb",
+    "language": "ru",
+    "features": {
+      "ss10": 1
+    },
+    "glyph_name": "uni0434.ss10",
+    "glyph_bounds": [
+      35.99993896484375,
+      -281,
+      393.2003173828125,
+      398.79998779296875
+    ],
+    "advance": 466,
+    "descender_per_x": 0.727979274611399,
+    "width_per_x": 0.9253895813937014
+  },
+  "source_bounds": [
+    35.99993896484375,
+    -281,
+    393.2003173828125,
+    398.79998779296875
+  ],
+  "variants": [
+    {
+      "path": "data/cormorant-de/uni0434-01.glif",
+      "variant": "01",
+      "label": "Исходные пропорции",
+      "advance": 527,
+      "bounds": [
+        30.0,
+        -363.58074951171875,
+        492.1750183105469,
+        516.0
+      ],
+      "glif_sha256": "98df16ccdfbc56516d0f60a48b2a1ae04c5bdb47a61309a9dea57c359aca5930",
+      "transform": {
+        "x_scale": 1.2938816845397547,
+        "body_y_scale": 1.2938816845397547,
+        "tail_y_scale": 1.2938816845397547,
+        "hinge": -12,
+        "x_offset": -16.579661671160387
+      },
+      "status": "proportion study; actual Cormorant outline"
+    },
+    {
+      "path": "data/cormorant-de/uni0434-02.glif",
+      "variant": "02",
+      "label": "Уже на 6%, хвост −280",
+      "advance": 499,
+      "bounds": [
+        30.0,
+        -280.0,
+        464.44451904296875,
+        516.0
+      ],
+      "glif_sha256": "ef8d59a6a3bd1c2686d853311f58e44a3d2748341e59c50c7ed38cb7f1da1e47",
+      "transform": {
+        "x_scale": 1.2162487834673694,
+        "body_y_scale": 1.2938816845397547,
+        "tail_y_scale": 0.9831725642584496,
+        "hinge": -12,
+        "x_offset": -13.784881970890758
+      },
+      "status": "proportion study; actual Cormorant outline"
+    },
+    {
+      "path": "data/cormorant-de/uni0434-03.glif",
+      "variant": "03",
+      "label": "Уже на 12%, хвост −280",
+      "advance": 472,
+      "bounds": [
+        30.0,
+        -280.0,
+        436.7140197753906,
+        516.0
+      ],
+      "glif_sha256": "fb2e948463601dff2144a8c3c8b716427eae5038709647a3552eaeed90e796a1",
+      "transform": {
+        "x_scale": 1.1386158823949841,
+        "body_y_scale": 1.2938816845397547,
+        "tail_y_scale": 0.9831725642584496,
+        "hinge": -12,
+        "x_offset": -10.990102270621136
+      },
+      "status": "proportion study; actual Cormorant outline"
+    },
+    {
+      "path": "data/cormorant-de/uni0434-04.glif",
+      "variant": "04",
+      "label": "Уже на 6%, хвост −240",
+      "advance": 499,
+      "bounds": [
+        30.0,
+        -240.0,
+        464.44451904296875,
+        516.0
+      ],
+      "glif_sha256": "cc53af2f6274ce40729495505f002a36a9da48f2079a9cf3c656edb628000d44",
+      "transform": {
+        "x_scale": 1.2162487834673694,
+        "body_y_scale": 1.2938816845397547,
+        "tail_y_scale": 0.8344736795000852,
+        "hinge": -12,
+        "x_offset": -13.784881970890758
+      },
+      "status": "proportion study; actual Cormorant outline"
+    }
+  ],
+  "selected": "02",
+  "method": "Original quadratic contours retained. Uniform horizontal scale; two vertical affine regions joined on straight stem only, below entire bowl. No redrawing."
+}

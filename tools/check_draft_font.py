@@ -37,7 +37,7 @@ def proof(data,font):
             pen=SVGPathPen(gs);gs[n].draw(pen)
             out.append(f'<path transform="translate({cursor+dx*scale:.3f} {y-dy*scale:.3f}) scale({scale} {-scale})" fill="#272333" d="{pen.getCommands()}"/>')
             cursor+=advance*scale
-    label(55,55,'Very Peri Serif Draft · Regular · 1.008',36)
+    label(55,55,'Very Peri Serif Draft · Regular · 1.009',36)
     for text,y,size in [
         ('Съешь же ещё этих мягких',210,115),('французских булок, да выпей чаю.',360,105),
         ('Қазақ тілі — әдемі тіл.',540,120),('Ә Ғ Қ Ң Ө Ұ Ү Һ І · ә ғ қ ң ө ұ ү һ і',690,100),
@@ -71,6 +71,8 @@ def main():
     checks=[]
     def expect(condition,label):
         assert condition,label;checks.append(label)
+    expect(font['glyf']['uni0423'].compile(font['glyf'])!=font['glyf']['uni04AE'].compile(font['glyf']),'Russian U and Kazakh Ustraight distinct')
+    expect(font['glyf']['uni0423'].yMin==-9 and font['glyf']['uni04AE'].yMin==0,'capital U hook versus upright Ustraight base')
     for ch in CHARS:
         expect(shape(data,font,ch)[0][0]==name_for(ch),'Unicode '+ch)
     for text in ['₸','1 000 ₸','₸100','25 000 ₸']:

@@ -138,6 +138,8 @@ def render(cfg):
 
 
 def main():
+    if json.loads(Path('data/alphabet.json').read_text())['user']['щ']['variants'][0]['path'].startswith('data/exact-author-tails/'):
+        raise SystemExit('Historical partial-tail transfer; use tools/exact_author_tails.py')
     DATA.mkdir(parents=True,exist_ok=True);BUILD.mkdir(parents=True,exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());manifest=[]
     for ch in CHARS:

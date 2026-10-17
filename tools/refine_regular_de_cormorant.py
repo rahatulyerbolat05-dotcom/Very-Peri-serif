@@ -21,6 +21,8 @@ def native_section(ref,name,first,last,dx,dy=0):
     raise AssertionError((name,'native module not found'))
 
 def main():
+    if json.loads(Path('data/alphabet.json').read_text())['codex']['д']['variants'][0]['path'].startswith('data/cormorant-de/'):
+        raise SystemExit('Historical de1.008 rejected; use tools/cormorant_de_proportions.py')
     params=json.loads(Path('data/params.json').read_text());d=params['regular_de_cormorant'];ref=Ref()
     crown=native_section(ref,'q',d['crown_first'],d['crown_last'],d['crown_dx'])
     terminal=native_section(ref,'j',d['terminal_first'],d['terminal_last'],d['terminal_dx'],d['terminal_dy'])

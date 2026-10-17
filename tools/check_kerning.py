@@ -55,11 +55,11 @@ def check(data,font,native,chars,native_kern):
         for b in native_chars:
             assert signature(hf,font,a+b)==signature(nhf,native,a+b),('native regression',repr(a+b))
             native_count+=1
-    # Only lowercase д may change from the preceding Regular 1.007 release.
-    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','767ffe0:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
+    # Only explicitly revised de, capital U and author drop-tail forms may change from the preceding Regular 1.008 release.
+    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','9bd920c:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
-    changed={old.getBestCmap()[0x0434]}
-    assert changed=={font.getBestCmap()[0x0434]}
+    changed={f'uni{ord(ch):04X}' for ch in 'дУцщқңЦЩҚҢ'}|{'uni049B.alternate','uni049B.context'}
+    assert changed.issubset(old.getGlyphOrder())
     for name in old.getGlyphOrder():
         if name in changed:continue
         assert font['glyf'][name].compile(font['glyf'])==old['glyf'][name].compile(old['glyf']),name

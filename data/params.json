@@ -3459,5 +3459,45 @@
    ]
   ],
   "terminal_dy": -40
+ },
+ "cormorant_de_proportions": {
+  "status": "[РЕШЕНИЕ] 17.10.2026 explicit author request: take the actual Cormorant de outline and vary proportions",
+  "body_top": 516,
+  "tail_hinge": -12,
+  "left_bearing": 30,
+  "right_bearing": 35,
+  "selected": "02",
+  "variants": [
+   {
+    "id": "01",
+    "label": "Исходные пропорции",
+    "width": 1.0,
+    "tail_bottom": null
+   },
+   {
+    "id": "02",
+    "label": "Уже на 6%, хвост −280",
+    "width": 0.94,
+    "tail_bottom": -280
+   },
+   {
+    "id": "03",
+    "label": "Уже на 12%, хвост −280",
+    "width": 0.88,
+    "tail_bottom": -280
+   },
+   {
+    "id": "04",
+    "label": "Уже на 6%, хвост −240",
+    "width": 0.94,
+    "tail_bottom": -240
+   }
+  ]
+ },
+ "capital_u_revision": {
+  "status": "[РЕШЕНИЕ] Russian capital У needs diagonal continuation and hook; Kazakh Ү remains native upright Y",
+  "upper_shift": 210,
+  "lower_adjustment": 14,
+  "transition_top": 200
  }
 }

@@ -1,0 +1,17 @@
+{
+  "character": "У",
+  "role": "primary",
+  "path": "data/capital-u-revision/uni0423.glif",
+  "advance": 401,
+  "bounds": [
+    -14.0,
+    -9.0,
+    409.0,
+    720.0
+  ],
+  "glif_sha256": "174cb10cf62e4013d8bf0cfc82c86484b5fa10c331d2cb489b559415963bf71e",
+  "status": "Russian capital U: diagonal lower branch and hook",
+  "origin": "Codex revision of erroneous Y mapping",
+  "variant": "01",
+  "label": "Диагональная нижняя ветвь и крючок"
+}

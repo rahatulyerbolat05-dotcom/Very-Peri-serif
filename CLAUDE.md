@@ -1,3 +1,12 @@
+`[РЕШЕНИЕ · 17.10.2026]` Автор отклонил д1.008 и явно велел взять сам
+контур Cormorant. Это отменяет запрет импортировать Cormorant для д.
+Четыре пропорции в `data/cormorant-de/`, рабочая02 (94%, хвост−280),
+генератор `tools/cormorant_de_proportions.py`; лицензия/авторство включены
+в сборку1.009. Полный авторский SVG-мотив хвостов: `data/exact-author-tails/`,
+генератор `tools/exact_author_tails.py`, прежние хвосты ss09 сохранены.
+Русская У теперь с диагональю и крючком; Ү остаётся прямой Y. Генератор
+`tools/fix_capital_u.py`. Отчёт: `docs/revision-1.009.md`.
+
 `[РЕШЕНИЕ · 17.10.2026]` Автор выбрал Cormorant Garamond ss10 / Infant:
 Regular1.008: новая широкая округлая д и хвост под буквой, в родных
 толщинах. Чаша и хвост нарисованы заново, верх q и капля j без масштаба.
@@ -61,7 +70,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.008, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.009, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.

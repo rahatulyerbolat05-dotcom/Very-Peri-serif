@@ -1,9 +1,10 @@
 # Very Peri Serif
 
 Кириллическое расширение Instrument Serif: русский и казахский, Regular.
-Текущая сборка — **Very Peri Serif Draft**, версия1.008.
+Текущая сборка — **Very Peri Serif Draft**, версия1.009.
 
-[Новая д в выбранном направлении Cormorant](docs/img/de_cormorant_style.svg).
+[д: четыре пропорции исходного Cormorant](docs/img/de_cormorant_proportions.svg).
+[Хвостики и различие прописных У/Ү](docs/revision-1.009.md).
 [Аудит 12 шрифтов и сравнение вариантов д](docs/de-reference-audit.md).
 
 - [Устанавливаемый TTF](dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf)

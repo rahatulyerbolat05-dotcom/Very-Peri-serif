@@ -1,6 +1,6 @@
 # Very Peri Serif Draft — рабочая черновая сборка
 
-Regular, версия1.008. В1.008 основная д перерисована в выбранном направлении Cormorant: округлая чаша и плавный нижний хвост; печатная форма1.006 доступна через ss07. Семейство в меню: **Very Peri Serif Draft**.
+Regular, версия1.009. Основная д — реальный контур Cormorant, вариант02; печатная д доступна через ss07. Русская У с диагональной нижней ветвью, Ү с прямой стойкой. Хвостики перенесены полным мотивом из авторского SVG. Семейство: **Very Peri Serif Draft**.
 Это отдельное имя, поэтому оно не заменяет установленный Instrument Serif.
 
 ## Установка
@@ -64,7 +64,7 @@ OpenType Sanitizer и сравнение FontBakery с оригиналом — 
 Hyperglot проверен с настройками base/primary и подтвердил русский и казахский.
 Полный отчёт не заявляет поддержку всех вспомогательных знаков этих языков.
 
-В1.008 проверены102480 пар по реальным краям глифов и143136
+В1.009 проверены102480 пар по реальным краям глифов и143136
 кириллических/смешанных сочетаний через HarfBuzz, плюс110889 родных пар.
 Проверены все16 комбинаций ss01/ss07/ss08/ss09 и два режима aalt. Учитываются все84×84 пары букв, подстановки,
 латиница, цифры и знаки. Сохранены характерные контакты засечек оригинала.
@@ -90,11 +90,13 @@ Hyperglot проверен с настройками base/primary и подтв�
 
 ```sh
 python -m pip install -r font/requirements.txt
-python -I tools/refine_regular_de_cormorant.py
+python -I tools/cormorant_de_proportions.py
+python -I tools/exact_author_tails.py
+python -I tools/fix_capital_u.py
 python -I tools/build_draft_font.py
 python -I tools/check_draft_font.py
 python -I tools/kerning_proof.py
-python -I tools/de_tail_proof.py
+python -I tools/revision_1009_proof.py
 python -I tools/package_draft_font.py
 ```
 
@@ -103,7 +105,7 @@ python -I tools/package_draft_font.py
 Попарная настройка: `tools/optical_kerning.py`; сводка —
 `kerning-review.json`, проверка — `kerning-validation.json`.
 `kerning-all-pairs.pdf` содержит126 страниц; `kerning-proof.html` —
-интерактивное сравнение1.007/1.008 со встроенными шрифтами, без сети.
+интерактивное сравнение1.008/1.009 со встроенными шрифтами, без сети.
 `--keep-kerning` оставлен для намеренного сохранения текущих пар;
 обычная повторная сборка запускается без этого флага.
 Оптическая проверка контуров: `docs/optical-review.md`.
@@ -130,3 +132,5 @@ SIL Open Font License1.1, полный текст в `OFL.txt`.
 Rodrigo Fuenzalida и Jordan Egstad (`AUTHORS.txt`).
 Кириллическое расширение и изменения — участники проекта Very Peri Serif,2026.
 Это черновая производная версия; родная латиница и её лицензия сохранены.
+
+[РЕШЕНИЕ · 17.10.2026] Глиф д — изменённый Cormorant Garamond Regular ss10, Copyright2015 the Cormorant Project Authors. Лицензия SIL OFL1.1: Cormorant-OFL.txt; подробности Cormorant-NOTICE.txt.
