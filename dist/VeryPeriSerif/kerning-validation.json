@@ -1,5 +1,5 @@
 {
-  "ttf_sha256": "ed7c8a5c0a892aa4283a17352783a644516a5323be57484622c3624ddf33cbd2",
+  "ttf_sha256": "d30f53e2d173d7915ef3be848e2a3c16b0b726999694d4467bff193718888b41",
   "failed": 0,
   "cyrillic_pairs_per_mode": 7056,
   "feature_modes": {
@@ -26,7 +26,7 @@
   "harfbuzz_pairs_checked": 254025,
   "cyrillic_and_mixed_pairs_checked": 143136,
   "native_unicode_pairs_preserved": 110889,
-  "geometric_pairs_checked": 105375,
+  "geometric_pairs_checked": 106344,
   "unchanged_outlines_and_advances": 491,
   "intentional_outline_changes": [
     "uni0416",

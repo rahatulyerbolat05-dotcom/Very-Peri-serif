@@ -1,0 +1,15 @@
+{
+ "uni043D.flat": {
+  "character": "н",
+  "source": "data/en/n4.glif",
+  "source_sha256": "6720d25f87f371fe17d5f03f13f7e48b4abc8fb240530243fe600ae24c498633",
+  "glif_sha256": "35672c1610798c4ea1d98828ecfb25d3b084a2566ef4ea01bd64c3818aaaa828",
+  "advance": 466,
+  "bounds": [
+   10.0,
+   0.0,
+   457.0,
+   513.0
+  ]
+ }
+}

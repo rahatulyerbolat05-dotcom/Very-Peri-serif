@@ -136,6 +136,13 @@ def main(output_dir=OUT,ttf_path=TTF,doc_path=Path('docs/img/draft_font_proof.sv
         expect([x[0] for x in shape(data,font,'к'+right)][0]==expected,f'calt к{right}')
         expected_cap='uni041A.flag' if foot else 'uni041A'
         expect([x[0] for x in shape(data,font,'К'+right)][0]==expected_cap,f'calt К{right}')
+    # н keeps its exit foot next to a lower-left serif (and at the end of a word), flat foot before the other letters
+    for right in CHARS:
+        foot=right in serif_members
+        expected='uni043D' if foot else 'uni043D.flat'
+        expect([x[0] for x in shape(data,font,'н'+right)][0]==expected,f'calt н{right}')
+    expect(shape(data,font,'н')[0][0]=='uni043D','н alone keeps the exit foot')
+    expect(shape(data,font,'но',{'calt':False})[0][0]=='uni043D','calt disabled н')
     expect(shape(data,font,'кн',{'calt':False})[0][0]=='uni043A','calt disabled к')
     expect(shape(data,font,'Кн',{'calt':False})[0][0]=='uni041A','calt disabled К')
     for ch in 'цщқңЦЩҚҢ':

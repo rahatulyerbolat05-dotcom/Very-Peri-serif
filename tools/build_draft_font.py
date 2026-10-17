@@ -223,7 +223,7 @@ def main(output_dir=OUT,ttf_path=TTF):
         chosen[ch]=filename;install(ch,filename,name_for(ch))
         for table in font['cmap'].tables:
             if table.isUnicode():table.cmap[ord(ch)]=name_for(ch)
-    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('к','data/ka-flag/uni043A.flag.glif','flag'),('к','data/ka-flag/uni043A.short.flag.glif','short.flag'),('К','data/ka-flag/uni041A.flag.glif','flag'),('т','data/te/t1.glif','ss08'),('д','data/regular-de-refinement/uni0434.glif','ss07')]:
+    for ch,filename,suffix in [('п','data/pe/pe_flag.glif','flag'),('к','data/ka/ka_short.glif','short'),('к','data/ka-flag/uni043A.flag.glif','flag'),('к','data/ka-flag/uni043A.short.flag.glif','short.flag'),('К','data/ka-flag/uni041A.flag.glif','flag'),('н','data/en-flat/uni043D.flat.glif','flat'),('т','data/te/t1.glif','ss08'),('д','data/regular-de-refinement/uni0434.glif','ss07')]:
         install(ch,filename,name_for(ch)+'.'+suffix)
     for ch,basename in [('а','a-cy'),('с','es-cy'),('е','ie-cy'),('ё','io-cy')]:
         install(ch,'data/homoglyph/'+basename+'.ss01.glif',name_for(ch)+'.ss01')
@@ -296,10 +296,14 @@ def main(output_dir=OUT,ttf_path=TTF):
             continue
         if name_for(r['character']) in serif:serif.append(name)
         if name_for(r['character']) in head:head.append(name)
+    # Letters without a lower-left serif: before them н gets the ordinary flat foot (tools/en_flat.py).
+    plain=[name_for(ch) for ch in CHARS if name_for(ch) not in serif]
+    for name,r in records.items():
+        if name!=name_for(r['character']) and name not in serif and name_for(r['character']) in plain:plain.append(name)
     marktable=native['GPOS'].table.LookupList.Lookup[1].SubTable[0]
     above=[g for g,r in zip(marktable.MarkCoverage.glyphs,marktable.MarkArray.MarkRecord) if r.Class in (0,1)]
     fea=['languagesystem DFLT dflt;','languagesystem latn dflt;','languagesystem cyrl dflt;',
-         '@serif_bl = ['+' '.join(serif)+'];','@head_tl = ['+' '.join(head)+'];',
+         '@serif_bl = ['+' '.join(serif)+'];','@head_tl = ['+' '.join(head)+'];','@no_serif_bl = ['+' '.join(plain)+'];',
          '@above_marks = ['+' '.join(above)+'];',
          "feature ccmp { sub uni0456' @above_marks by uni0456.dotless; } ccmp;",
          'feature ss07 { featureNames { name "Printed Cyrillic de"; }; sub uni0434 by uni0434.ss07; } ss07;',
@@ -312,7 +316,8 @@ def main(output_dir=OUT,ttf_path=TTF):
          'lookup calt_feet {',
          "sub uni043A.short' @serif_bl by uni043A.short.flag;",
          "sub uni043A' @serif_bl by uni043A.flag;",
-         "sub uni041A' @serif_bl by uni041A.flag;",'} calt_feet;','} calt;',
+         "sub uni041A' @serif_bl by uni041A.flag;",
+         "sub uni043D' @no_serif_bl by uni043D.flat;",'} calt_feet;','} calt;',
          'feature ss01 {']
     fea += [f'sub {name_for(ch)} by {name_for(ch)}.ss01;' for ch in 'асеё']
     fea += ['} ss01;','feature ss08 { featureNames { name "Alternate Cyrillic te"; }; sub uni0442 by uni0442.ss08; } ss08;',
