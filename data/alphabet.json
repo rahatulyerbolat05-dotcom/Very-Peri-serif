@@ -316,25 +316,21 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0434-01.glif",
-          "label": "Острый свод",
+          "path": "data/regular-de-refinement/uni0434.glif",
           "variant": "01",
-          "status": "selected",
-          "advance": 416,
+          "label": "Печатная, короткие ножки",
+          "advance": 424,
           "bounds": [
-            33,
-            -215,
-            391,
-            516
+            26.0,
+            -90.0,
+            394.0,
+            510.0
           ],
-          "glif_sha256": "9868fedcfd8689628c53eb676d60a111f47454cfd876bd400c4366021e6d8840",
-          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
-          "source_glyph": "uni0434",
-          "source_glyf_sha256": "7b42c3651455bd27efb05bbbafdc7fe24504990a4362811ce436c034a588e73e",
-          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          "glif_sha256": "6d5171a6cc02c997ec283ff2e098a55749869b2bfa26d251033b151b4d521d18",
+          "status": "selected"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Codex; quieter printed form requested by author, 17.10.2026"
     },
     "ж": {
       "selected": "cyr11",
@@ -2189,6 +2185,32 @@
           "source_glyph": "uni0447",
           "source_glyf_sha256": "a8acc9d35192ff0e98ba183f7e76142cb84d9d709af32dfb02754b4bbc48a50f",
           "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
+        }
+      ],
+      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+    },
+    "д-before-printed-refinement": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/codex/uni0434-01.glif",
+          "label": "Острый свод",
+          "variant": "01",
+          "status": "selected",
+          "advance": 416,
+          "bounds": [
+            33,
+            -215,
+            391,
+            516
+          ],
+          "glif_sha256": "9868fedcfd8689628c53eb676d60a111f47454cfd876bd400c4366021e6d8840",
+          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+          "source_glyph": "uni0434",
+          "source_glyf_sha256": "7b42c3651455bd27efb05bbbafdc7fe24504990a4362811ce436c034a588e73e",
+          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
         }
       ],
       "provenance": "Codex study; native Instrument Serif donors credited in source study"

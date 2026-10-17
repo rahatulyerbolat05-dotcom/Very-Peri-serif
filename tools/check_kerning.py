@@ -54,10 +54,13 @@ def check(data,font,native,chars,native_kern):
         for b in native_chars:
             assert signature(hf,font,a+b)==signature(nhf,native,a+b),('native regression',repr(a+b))
             native_count+=1
-    # Sources and all metrics must remain identical to 1.003.
-    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','6ccce10:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
+    # Only lowercase д may change from the preceding Regular 1.005 release.
+    old=TTFont(io.BytesIO(subprocess.check_output(['git','show','fa52875:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
+    changed={old.getBestCmap()[0x0434]}
+    assert changed=={font.getBestCmap()[0x0434]}
     for name in old.getGlyphOrder():
+        if name in changed:continue
         assert font['glyf'][name].compile(font['glyf'])==old['glyf'][name].compile(old['glyf']),name
         assert font['hmtx'][name]==old['hmtx'][name],name
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())
@@ -69,7 +72,7 @@ def check(data,font,native,chars,native_kern):
         'cyrillic_pairs_per_mode':len(chars)**2,'feature_modes':counts,
         'mixed_pairs_checked':mixed_count,'harfbuzz_pairs_checked':checks+native_count,'cyrillic_and_mixed_pairs_checked':checks,
         'native_unicode_pairs_preserved':native_count,
-        'geometric_pairs_checked':len(geometry),'unchanged_outlines_and_advances':len(old.getGlyphOrder()),
+        'geometric_pairs_checked':len(geometry),'unchanged_outlines_and_advances':len(old.getGlyphOrder())-len(changed),'intentional_outline_changes':sorted(changed),
         'native_native_pairs_changed':0,'vector_pairs_without_body_overlap':len(contour_audit.checked),
         'scope':'All 84×84 ordered pairs in ten feature configurations, mixed pairs in both directions, every geometric result and unchanged source shapes/metrics.'}
     Path('dist/VeryPeriSerifDraft/kerning-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')

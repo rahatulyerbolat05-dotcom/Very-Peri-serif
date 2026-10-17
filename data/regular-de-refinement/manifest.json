@@ -1,0 +1,14 @@
+{
+  "path": "data/regular-de-refinement/uni0434.glif",
+  "variant": "01",
+  "label": "Печатная, короткие ножки",
+  "advance": 424,
+  "bounds": [
+    26.0,
+    -90.0,
+    394.0,
+    510.0
+  ],
+  "glif_sha256": "6d5171a6cc02c997ec283ff2e098a55749869b2bfa26d251033b151b4d521d18",
+  "status": "selected"
+}

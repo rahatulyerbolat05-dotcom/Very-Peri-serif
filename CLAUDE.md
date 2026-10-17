@@ -1,3 +1,10 @@
+[РЕШЕНИЕ · 17.10.2026] Regular1.006: по просьбе автора строчная д
+заменена спокойной печатной формой с короткими ножками до−90.
+Источник `data/regular-de-refinement/`, генератор `tools/refine_regular_de.py`.
+Прежняя петлевая д сохранена в rejected_drawings. Контекстные классы
+и кернинг пересчитаны; другие контуры и ширины1.005 сохраняются.
+Сравнение: `docs/img/regular_de_refinement.svg`.
+
 `[РЕШЕНИЕ · 16.10.2026]` Для будущего Italic подготовлен разбор
 `docs/italic-analysis.md`, карта84 позиций `data/italic-plan.json`,
 измерения `data/params.json → italic.research`. Мастер x-height510;
@@ -32,7 +39,7 @@ U+2011/U+2009/U+202F/U+25CC, `data/text-symbols/`. Кернинг1.002
 # Very Peri Serif — правило проекта
 
 `[РЕШЕНИЕ · 16.10.2026]` Собрана устанавливаемая черновая Regular:
-семейство Very Peri Serif Draft, версия1.005, `dist/VeryPeriSerifDraft/`.
+семейство Very Peri Serif Draft, версия1.006, `dist/VeryPeriSerifDraft/`.
 Сборка: `tools/build_draft_font.py`, функциональная проверка HarfBuzz:
 `tools/check_draft_font.py`, упаковка: `tools/package_draft_font.py`.
 Активны calt п/к/қ, кернинг; ss08 — т Claude, ss09 — прежние хвосты.
