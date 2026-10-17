@@ -4,3 +4,5 @@ build/
 !docs/img/*.png
 __pycache__/
 .hyperglot-cache
+
+.venv/

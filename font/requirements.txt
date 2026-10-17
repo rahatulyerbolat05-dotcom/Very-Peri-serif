@@ -5,3 +5,4 @@ pillow==12.3.0
 uharfbuzz==0.56.3
 brotli==1.2.0
 opentype-sanitizer==9.2.0
+shapely==2.2.0

@@ -85,11 +85,36 @@ Hyperglot проверен с настройками base/primary и подтв�
 
 ## Повторная сборка из репозитория
 
-Нужны Python3.12 и эталон Instrument Serif65c0ef2 в `reference/instrument-serif`.
-Используйте имеющуюся изолированную копию репозитория, без нового worktree.
+Нужны Git и Python3.12. Все текущие GLIF, параметры, лицензии и скрипты
+сохранены в репозитории. Для сборки также нужен исходный Instrument Serif
+строго на коммите65c0ef225f386a3c7e87570a4aa9cc0262c2fd81.
+
+Подготовка с нуля (macOS/Linux):
 
 ```sh
+git clone --branch claude/upbeat-faraday-mzabid https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif.git
+cd Very-Peri-serif
+python3.12 -m venv .venv
+source .venv/bin/activate
 python -m pip install -r font/requirements.txt
+git clone https://github.com/Instrument/instrument-serif reference/instrument-serif
+git -C reference/instrument-serif checkout --detach 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81
+```
+
+На Windows создайте окружение командой `py -3.12 -m venv .venv`,
+а в PowerShell активируйте его через `.venv\Scripts\Activate.ps1`.
+Остальные команды Git/Python одинаковы. Если репозиторий уже есть,
+используйте его; новый worktree не нужен. Клонируйте с историей:
+проверки сравнивают результат с предыдущими версиями через Git.
+Архива исходников ZIP или `--depth 1` для полного набора проверок недостаточно.
+
+Сборка1.012 проверена в отдельной чистой копии с новым окружением
+Python3.12 на Linux: все команды ниже прошли, TTF совпал с опубликованным
+побайтно.
+
+Сборка и проверка из корня репозитория, с активированным окружением:
+
+```sh
 python -I tools/refine_widths.py
 python -I tools/build_draft_font.py
 python -I tools/check_draft_font.py
@@ -98,6 +123,10 @@ python -I tools/width_proof.py --text
 python -I tools/audit_widths.py
 python -I tools/package_draft_font.py
 ```
+
+TTF и WOFF2 появятся в `dist/VeryPeriSerifDraft/`, готовый архив —
+`dist/VeryPeriSerifDraft-Regular.zip`. Первая сборка скачивает только
+зависимости и эталон; текущие рисунки букв не требуют повторной отрисовки.
 
 Если matplotlib не может писать в домашний каталог, задайте
 `XDG_CACHE_HOME=/workspace/.cache` и `MPLCONFIGDIR=/workspace/.cache/matplotlib`.
