@@ -36,9 +36,10 @@ def signed_area(pts):
     return sum(pts[i][0]*pts[(i+1)%len(pts)][1]-pts[(i+1)%len(pts)][0]*pts[i][1] for i in range(len(pts)))/2
 
 
-def round_glyph(glyph,glyf,kind,rects=()):
+def round_glyph(glyph,glyf,kind,rects=(),y0=None,ym=None):
     """Shear Regular glyph by 13 degrees, then bend each contour by its class slope. kind: 'closed' or 'open'."""
     g=type(glyph)();g.__dict__.update({k:(v.copy() if hasattr(v,'copy') else v) for k,v in glyph.__dict__.items()})
+    y0=Y0 if y0 is None else y0;ym=YM if ym is None else ym
     coords,ends,flags=glyph.getCoordinates(glyf)
     new=[];start=0
     for end in ends:
@@ -46,8 +47,8 @@ def round_glyph(glyph,glyf,kind,rects=()):
         outer=signed_area([p for p,f in zip(pts,flags[start:end+1]) if f&1])<0     # TrueType outer contours run clockwise
         slope=SLOPE['open'] if kind=='open' else (SLOPE['outer'] if outer else SLOPE['inner'])
         for x,y in pts:
-            xs=x+S*(y-Y0)                         # plain shear about y=251
-            xs+=slope*(y-YM)*protected_weight(x,y,rects)   # rects are in Regular coordinates
+            xs=x+S*(y-y0)                         # plain shear about y0 (251 for capitals, 255 for lowercase)
+            xs+=slope*(y-ym)*protected_weight(x,y,rects)   # rects are in Regular coordinates
             new.append((xs,y))
         start=end+1
     from fontTools.ttLib.tables._g_l_y_f import GlyphCoordinates

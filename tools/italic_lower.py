@@ -15,6 +15,7 @@ from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.cu2quPen import Cu2QuPen
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from italic_tidy import tidy
+from italic_round import round_glyph
 
 S=math.tan(math.radians(13))
 ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
@@ -26,6 +27,16 @@ STEM_W=63.4                      # u second stem 274.1..337.5
 U_L,U_R=274.1,337.5              # u right stem
 N_L,N_R=52.0,116.2               # n first stem
 U_PITCH=233.                     # u stem1 centre 72.5 -> stem2 centre 305.8
+
+
+def polys_ud(font,name):
+    from italic_rules_measure import polys
+    return polys(font,name,S)
+
+
+def outer_ud(P,y):
+    from italic_rules_measure import runs
+    r=runs(P,y);return r[0][0],r[-1][1]
 
 
 def native(font,name):
@@ -128,13 +139,59 @@ def build(ita,reg):
     def leg_edge(y,off):return c305+LEG_SLOPE*(y-305)+off
     leg=poly([(leg_edge(0,-LEG_W/2),0),(leg_edge(0,LEG_W/2),0),(leg_edge(312,LEG_W/2)+S*312,312),(leg_edge(312,-LEG_W/2)+S*312,312)])
     out['л']=(OR(arch,leg),521)
+    # ---- к ж ь ъ ы: stem with the entry hook of n (or a flat top), arms and bowl of native k and b
+    k=native(ita,'k');b=native(ita,'b')
+    hook=AND(transformed(n_stem1(),dx=-47.8),above(330))         # n stem (52.4..116.1) onto the k/b stem (4.6..69.4)
+    cut_asc=AND(left_of(77),above(345))                          # ascender of k and b above the arm joint
+    ka=OR(SUB(k,cut_asc),hook)
+    out['к']=(ka,447)
+    zh_stem=AND(SUB(k,cut_asc),below(510))                       # k without ascender, flat top at the x-height
+    zh_stem=OR(SUB(zh_stem,AND(left_of(77),above(345))),AND(k,AND(left_of(77),AND(above(344),below(510)))))
+    mirror_arms=transformed(AND(k,right_of(70)),dx=0.)
+    mp=pathops.Path();k_arms=AND(AND(k,right_of(70)),below(520));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
+    out['ж']=(OR(zh_stem,mp),447)
+    soft=OR(SUB(b,cut_asc),hook)
+    out['ь']=(soft,431)
+    hard_stem=AND(SUB(b,cut_asc),below(510))
+    hard_stem=OR(hard_stem,AND(b,AND(left_of(77),AND(above(344),below(510)))))
+    head=OR(band(-110,10,478,510),band(-110,-80,440,510))
+    out['ъ']=(OR(hard_stem,head),431+0)
+    gap=44.0                                                     # bowl to stem, 1.015: clearance 34-57
+    bowl_right=337.6
+    dy=(bowl_right+gap)-U_L
+    out['ы']=(OR(soft,transformed(u_stem2(),dx=dy)),431)
+    # ---- ө ғ: o and r with the crossbar
+    o=native(ita,'o')
+    P=polys_ud(ita,'o');lo,hi=outer_ud(P,255)
+    out['ө']=(OR(o,band(lo+1,hi-1,243,268)),414)
+    out['ғ']=(OR(r,band(-10,116,236,266)),368)
+    # ---- й: native u with the breve
+    out['й']=(native(ita,'ubreve'),508)
+    # ---- letters without a native analogue: Regular shape sheared about y=255 (the capital method)
+    rcm=reg.getBestCmap();rgl=reg['glyf']
+    def sheared(ch,kind=None):
+        gname=rcm[ord(ch)]
+        if kind:g=round_glyph(rgl[gname],rgl,kind,(),255,255)
+        else:
+            pen=TTGlyphPen(None);reg.getGlyphSet()[gname].draw(TransformPen(pen,(1,0,S,1,-S*255,0)));g=pen.glyph()
+        path=pathops.Path();g.draw(path.getPen(glyphSet=None),rgl) if False else None
+        gs=reg.getGlyphSet()
+        pth=pathops.Path();pen2=TransformPen(pth.getPen(),(1,0,S,1,-S*255,0)) if not kind else pth.getPen()
+        if kind:
+            from fontTools.pens.ttGlyphPen import TTGlyphPen as _P
+            g.draw(pth.getPen(),rgl) if hasattr(g,'draw') else None
+        else:gs[gname].draw(pen2)
+        return pth
+    out['\uf101']=(sheared('л'),425)                              # л, variant 2: plain shear of the Regular л (for comparison)
+    for ch,kind in (('м',None),('в',None),('з','open'),('э','open'),('ч',None),('я',None),('ю',None),('ф',None),('б',None)):
+        out[ch]=(sheared(ch,kind),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
     # ---- г: native r (stem with entry, arm)
     out['г']=(r,368)
     return out
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36)}
+BEARINGS={'к':(6,22),'ж':(19,22),'ь':(13,22),'ъ':(13,22),'ы':(13,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(20,22),'э':(20,22),'ч':(20,22),'я':(20,22),'ю':(20,22),'ф':(20,22),'б':(20,22),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22)}
 
 
 def main():
@@ -143,7 +200,8 @@ def main():
     for ch,(path,adv) in built.items():
         glyf=font['glyf'];g=to_glyph(path,glyf)
         g,st=tidy(g,glyf)
-        lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf);g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
+        lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
+        if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         name=f'uni{ord(ch):04X}';glyf[name]=g
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))
         for t in font['cmap'].tables:
