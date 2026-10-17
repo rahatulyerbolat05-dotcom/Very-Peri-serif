@@ -1,0 +1,10 @@
+{
+ "version": "0.5",
+ "log": {
+  "0.1": "caps, plain shear",
+  "0.2": "caps, round correction and node tidy",
+  "0.3": "lowercase pilot \u0448 \u0449 \u0446 \u043d \u0434 \u043b \u0433",
+  "0.4": "\u043a \u0436 \u044c \u044a \u044b \u04e9 \u0493 \u0439, drafts \u0432 \u0437 \u044d \u0447 \u044f \u044e \u0444 \u0431 \u043c",
+  "0.5": "\u044c \u044a \u044b with the low Regular bowl, versioned names"
+ }
+}

@@ -151,15 +151,15 @@ def build(ita,reg):
     mp=pathops.Path();k_arms=AND(AND(k,right_of(70)),below(520));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
     out['ж']=(OR(zh_stem,mp),447)
     soft=OR(SUB(b,cut_asc),hook)
-    out['ь']=(soft,431)
+    out['\uf102']=(soft,431)                                    # ь variant A: native b bowl (reads as upsilon)
     hard_stem=AND(SUB(b,cut_asc),below(510))
     hard_stem=OR(hard_stem,AND(b,AND(left_of(77),AND(above(344),below(510)))))
     head=OR(band(-110,10,478,510),band(-110,-80,440,510))
-    out['ъ']=(OR(hard_stem,head),431+0)
+    out['\uf103']=(OR(hard_stem,head),431)                      # ъ variant A
     gap=44.0                                                     # bowl to stem, 1.015: clearance 34-57
     bowl_right=337.6
     dy=(bowl_right+gap)-U_L
-    out['ы']=(OR(soft,transformed(u_stem2(),dx=dy)),431)
+    out['\uf104']=(OR(soft,transformed(u_stem2(),dx=dy)),431)  # ы variant A
     # ---- ө ғ: o and r with the crossbar
     o=native(ita,'o')
     P=polys_ud(ita,'o');lo,hi=outer_ud(P,255)
@@ -182,6 +182,16 @@ def build(ita,reg):
             g.draw(pth.getPen(),rgl) if hasattr(g,'draw') else None
         else:gs[gname].draw(pen2)
         return pth
+    # ь ъ ы, default: Regular shape (bowl only 57 percent of the x-height, not the full b bowl), sheared; the head of the
+    # stems is replaced by the entry hook of n; the right stem of ы is the clean u stem
+    stem_ud=19.1+34.0/2                                        # centre of the sheared Regular stem (78..146 minus 58.9)
+    hook_b=AND(AND(transformed(n_stem1(),dx=stem_ud-84.25),above(380)),left_of(250))
+    ь_=sheared('ь');out['ь']=(OR(AND(ь_,below(400)),hook_b),367+14)
+    out['ъ']=(sheared('ъ'),385)
+    ы_=sheared('ы');ы_left=AND(ы_,left_of(250))
+    bowl_r=366.5-58.9
+    ыdx=(bowl_r+40.0)-U_L
+    out['ы']=(OR(AND(ы_left,below(400)),hook_b,transformed(u_stem2(),dx=ыdx)),552)
     out['\uf101']=(sheared('л'),425)                              # л, variant 2: plain shear of the Regular л (for comparison)
     for ch,kind in (('м',None),('в',None),('з','open'),('э','open'),('ч',None),('я',None),('ю',None),('ф',None),('б',None)):
         out[ch]=(sheared(ch,kind),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
@@ -191,7 +201,7 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'к':(6,22),'ж':(19,22),'ь':(13,22),'ъ':(13,22),'ы':(13,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(20,22),'э':(20,22),'ч':(20,22),'я':(20,22),'ю':(20,22),'ф':(20,22),'б':(20,22),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22)}
+BEARINGS={'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(20,22),'э':(20,22),'ч':(20,22),'я':(20,22),'ю':(20,22),'ф':(20,22),'б':(20,22),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 def main():
@@ -209,13 +219,14 @@ def main():
         rep.append(dict(character=ch,advance=adv,nodes=len(g.coordinates)))
     font.setGlyphOrder(font['glyf'].glyphOrder)
     out=Path('build/italic-lower');out.mkdir(parents=True,exist_ok=True)
-    family='Very Peri Serif Italic T0 lower';ps='VeryPeriSerifItalicT0lower-Italic'
+    ver=json.loads(Path('data/italic-version.json').read_text())['version'];tag='I'+ver.replace('.','').zfill(3)
+    family=f'Very Peri Serif Italic {tag}';ps=f'VeryPeriSerifItalic{tag}-Italic'
     for r in font['name'].names:
         if r.nameID==1:r.string=family
-        elif r.nameID==3:r.string='0.0;lower test;'+ps
+        elif r.nameID==3:r.string=f'{ver};italic test;'+ps
         elif r.nameID==4:r.string=family+' Italic'
         elif r.nameID==6:r.string=ps
-    target=out/'VeryPeriSerifItalicT0-lower.ttf';font.save(target)
+    target=out/f'VeryPeriSerifItalic{tag}.ttf';font.save(target)
     print(target,rep)
 
 
