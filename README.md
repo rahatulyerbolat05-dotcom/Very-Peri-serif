@@ -1,7 +1,7 @@
 # Very Peri Serif
 
 Кириллическое расширение Instrument Serif: русский и казахский, Regular.
-Финальный **Very Peri Serif Regular**, версия1.010.
+Финальный **Very Peri Serif Regular**, версия1.011.
 
 [Установка и возможности](font/README-regular.md) · [сборка из исходников](font/README.md).
 [Состав и проверка финального релиза](docs/regular-release.md).

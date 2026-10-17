@@ -1,0 +1,14 @@
+[
+  {
+    "character": "ж",
+    "role": "primary",
+    "source": "data/declump/uni0436-primary.glif",
+    "sha256": "240247becc8fac42c333d1c49a5824d3929840ab5ebfe3eab63cf280175233af"
+  },
+  {
+    "character": "д",
+    "role": "primary",
+    "source": "data/condense-bowls/uni0434-primary.glif",
+    "sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3"
+  }
+]

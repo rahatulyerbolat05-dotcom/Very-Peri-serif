@@ -316,7 +316,7 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/condense-bowls/uni0434-primary.glif",
+          "path": "data/neck-repair/uni0434-primary.glif",
           "advance": 418,
           "bounds": [
             30.0,
@@ -324,15 +324,15 @@
             382.7139892578125,
             516.0
           ],
-          "glif_sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3",
+          "glif_sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
           "role": "primary",
           "variant": "01",
-          "label": "Ужатая чаша",
-          "status": "bowl condensed to the Latin counter, requested by author",
-          "condense_source_glif": "data/width-refinement/uni0434-primary.glif"
+          "label": "Сглажены стыки",
+          "status": "neck wobble repaired, requested by author",
+          "neck_source_glif": "data/condense-bowls/uni0434-primary.glif"
         }
       ],
-      "provenance": "Bowl condense requested by author; previous sources archived"
+      "provenance": "Neck repair requested by author; previous sources archived"
     },
     "ж": {
       "selected": "01",
@@ -340,7 +340,7 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/declump/uni0436-primary.glif",
+          "path": "data/neck-repair/uni0436-primary.glif",
           "advance": 572,
           "bounds": [
             -3.0080175399780273,
@@ -348,15 +348,15 @@
             552.7745361328125,
             510.0
           ],
-          "glif_sha256": "240247becc8fac42c333d1c49a5824d3929840ab5ebfe3eab63cf280175233af",
+          "glif_sha256": "b7bf76c300ef1cf2ef15a5939335c4915dc0f6a8908a5e288fa5ad8220f7ee37",
           "role": "primary",
           "variant": "01",
-          "label": "Разведённые слипшиеся места",
-          "status": "declumped to the Latin gaps, requested by author",
-          "declump_source_glif": "data/weight-balance/uni0436-primary.glif"
+          "label": "Сглажены стыки",
+          "status": "neck wobble repaired, requested by author",
+          "neck_source_glif": "data/declump/uni0436-primary.glif"
         }
       ],
-      "provenance": "Declump requested by author; previous sources archived"
+      "provenance": "Neck repair requested by author; previous sources archived"
     },
     "з": {
       "selected": "01",
@@ -4596,6 +4596,56 @@
             "label": "Ужатая чаша",
             "status": "bowl condensed to the Latin counter, requested by author",
             "condense_source_glif": "data/weight-balance/uni044E-primary.glif"
+          }
+        ],
+        "provenance": "Bowl condense requested by author; previous sources archived"
+      }
+    },
+    "before-neck-repair": {
+      "ж": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/declump/uni0436-primary.glif",
+            "advance": 572,
+            "bounds": [
+              -3.0080175399780273,
+              0.0,
+              552.7745361328125,
+              510.0
+            ],
+            "glif_sha256": "240247becc8fac42c333d1c49a5824d3929840ab5ebfe3eab63cf280175233af",
+            "role": "primary",
+            "variant": "01",
+            "label": "Разведённые слипшиеся места",
+            "status": "declumped to the Latin gaps, requested by author",
+            "declump_source_glif": "data/weight-balance/uni0436-primary.glif"
+          }
+        ],
+        "provenance": "Declump requested by author; previous sources archived"
+      },
+      "д": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/condense-bowls/uni0434-primary.glif",
+            "advance": 418,
+            "bounds": [
+              30.0,
+              -280.0,
+              382.7139892578125,
+              516.0
+            ],
+            "glif_sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3",
+            "role": "primary",
+            "variant": "01",
+            "label": "Ужатая чаша",
+            "status": "bowl condensed to the Latin counter, requested by author",
+            "condense_source_glif": "data/width-refinement/uni0434-primary.glif"
           }
         ],
         "provenance": "Bowl condense requested by author; previous sources archived"

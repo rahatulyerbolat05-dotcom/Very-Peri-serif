@@ -1,0 +1,2 @@
+{"note":"Reviewed optical corrections added to the computed kerning of a pair, font units; keys are the two characters (all alternates of those characters). Applied in tools/optical_kerning.py.",
+ "pairs":{"жд":12}}

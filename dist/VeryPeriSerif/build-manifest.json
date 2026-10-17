@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.010",
+  "version": "1.011",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 136,
-  "kerning_pairs_added": 61175,
+  "kerning_pairs_added": 61176,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -7970,7 +7970,7 @@
     {
       "left": "K",
       "right": "uni0436",
-      "requested": -14,
+      "requested": -16,
       "actual": 34
     },
     {
@@ -8384,7 +8384,7 @@
     {
       "left": "uni0136",
       "right": "uni0436",
-      "requested": -14,
+      "requested": -16,
       "actual": 34
     },
     {
@@ -9122,7 +9122,7 @@
     {
       "left": "M",
       "right": "uni0436",
-      "requested": -4,
+      "requested": -6,
       "actual": 0
     },
     {
@@ -16016,7 +16016,7 @@
     {
       "left": "X",
       "right": "uni0436",
-      "requested": -34,
+      "requested": -36,
       "actual": -5
     },
     {
@@ -22177,6 +22177,12 @@
     },
     {
       "left": "g",
+      "right": "uni0436",
+      "requested": -10,
+      "actual": -9
+    },
+    {
+      "left": "g",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -22339,6 +22345,12 @@
     },
     {
       "left": "gbreve",
+      "right": "uni0436",
+      "requested": -10,
+      "actual": -9
+    },
+    {
+      "left": "gbreve",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -22501,6 +22513,12 @@
     },
     {
       "left": "uni0123",
+      "right": "uni0436",
+      "requested": -10,
+      "actual": -9
+    },
+    {
+      "left": "uni0123",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -22660,6 +22678,12 @@
       "right": "uni0435",
       "requested": 2,
       "actual": 0
+    },
+    {
+      "left": "gdotaccent",
+      "right": "uni0436",
+      "requested": -10,
+      "actual": -9
     },
     {
       "left": "gdotaccent",
@@ -32018,7 +32042,7 @@
     {
       "left": "v",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -37507,12 +37531,6 @@
     },
     {
       "left": "e.ss01",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "e.ss01",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -37646,12 +37664,6 @@
     {
       "left": "eacute.ss01",
       "right": "uni0435",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "eacute.ss01",
-      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -37795,12 +37807,6 @@
     },
     {
       "left": "ecaron.ss01",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "ecaron.ss01",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -37939,12 +37945,6 @@
     },
     {
       "left": "ecircumflex.ss01",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "ecircumflex.ss01",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -38077,12 +38077,6 @@
     },
     {
       "left": "edieresis.ss01",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "edieresis.ss01",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -38210,12 +38204,6 @@
     {
       "left": "edotaccent.ss01",
       "right": "uni0435",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "edotaccent.ss01",
-      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -38353,12 +38341,6 @@
     },
     {
       "left": "egrave.ss01",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "egrave.ss01",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -38480,12 +38462,6 @@
     {
       "left": "emacron.ss01",
       "right": "uni0435",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "emacron.ss01",
-      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -38618,12 +38594,6 @@
     {
       "left": "eogonek.ss01",
       "right": "uni0435",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "eogonek.ss01",
-      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -41983,12 +41953,6 @@
     },
     {
       "left": "colon",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "colon",
       "right": "uni0492",
       "requested": 2,
       "actual": 0
@@ -42020,12 +41984,6 @@
     {
       "left": "semicolon",
       "right": "uni0435",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "semicolon",
-      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -51140,7 +51098,7 @@
     {
       "left": "uni0416",
       "right": "uni0436",
-      "requested": 12,
+      "requested": 10,
       "actual": 43
     },
     {
@@ -51830,12 +51788,6 @@
     {
       "left": "uni0417",
       "right": "uni042D",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0417",
-      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -53144,7 +53096,7 @@
     {
       "left": "uni041A",
       "right": "uni0436",
-      "requested": -14,
+      "requested": -16,
       "actual": 43
     },
     {
@@ -54080,7 +54032,7 @@
     {
       "left": "uni041C",
       "right": "uni0436",
-      "requested": -4,
+      "requested": -6,
       "actual": 9
     },
     {
@@ -56216,7 +56168,7 @@
     {
       "left": "uni0423",
       "right": "uni0436",
-      "requested": -82,
+      "requested": -84,
       "actual": -71
     },
     {
@@ -56798,7 +56750,7 @@
     {
       "left": "uni0425",
       "right": "uni0436",
-      "requested": -34,
+      "requested": -36,
       "actual": 4
     },
     {
@@ -62768,13 +62720,13 @@
     {
       "left": "uni0436",
       "right": "uni0448",
-      "requested": -12,
+      "requested": -10,
       "actual": 5
     },
     {
       "left": "uni0436",
       "right": "uni0449",
-      "requested": -12,
+      "requested": -10,
       "actual": 5
     },
     {
@@ -62900,7 +62852,7 @@
     {
       "left": "uni0436",
       "right": "uni0434.ss07",
-      "requested": -26,
+      "requested": -14,
       "actual": 37
     },
     {
@@ -62930,7 +62882,7 @@
     {
       "left": "uni0436",
       "right": "uni0449.tail_old",
-      "requested": -12,
+      "requested": -10,
       "actual": 5
     },
     {
@@ -65018,7 +64970,7 @@
     {
       "left": "uni043B",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 20
     },
     {
@@ -66686,7 +66638,7 @@
     {
       "left": "uni043C",
       "right": "uni0436",
-      "requested": -18,
+      "requested": -20,
       "actual": 20
     },
     {
@@ -68936,7 +68888,7 @@
     {
       "left": "uni0445",
       "right": "uni0436",
-      "requested": -36,
+      "requested": -38,
       "actual": 27
     },
     {
@@ -76791,12 +76743,6 @@
       "left": "uni049A",
       "right": "uni0433",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni049A",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -102440,7 +102386,7 @@
     {
       "left": "uni049B.alternate",
       "right": "uni0436",
-      "requested": -68,
+      "requested": -70,
       "actual": 20
     },
     {
@@ -105782,10 +105728,10 @@
     "б": "data/codex/uni0431-01.glif",
     "в": "data/codex/uni0432-01.glif",
     "г": "data/codex/uni0433-02.glif",
-    "д": "data/condense-bowls/uni0434-primary.glif",
+    "д": "data/neck-repair/uni0434-primary.glif",
     "е": "data/homoglyph/ie-cy.glif",
     "ё": "data/homoglyph/io-cy.glif",
-    "ж": "data/declump/uni0436-primary.glif",
+    "ж": "data/neck-repair/uni0436-primary.glif",
     "з": "data/width-refinement/uni0437-primary.glif",
     "и": "data/codex/uni0438-02.glif",
     "й": "data/codex/uni0439-01.glif",
@@ -106268,13 +106214,13 @@
     },
     "uni0434": {
       "character": "д",
-      "path": "data/condense-bowls/uni0434-primary.glif",
+      "path": "data/neck-repair/uni0434-primary.glif",
       "advance": 420,
       "donors": [
         "o",
         "o"
       ],
-      "sha256": "d8e74754caf550958bb177651936232a3b33605e89a2ab4b02864488b2a656c3",
+      "sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
       "spacing_dx": -14,
       "advance_unspaced": 418
     },
@@ -106304,13 +106250,13 @@
     },
     "uni0436": {
       "character": "ж",
-      "path": "data/declump/uni0436-primary.glif",
+      "path": "data/neck-repair/uni0436-primary.glif",
       "advance": 536,
       "donors": [
         "x",
         "x"
       ],
-      "sha256": "240247becc8fac42c333d1c49a5824d3929840ab5ebfe3eab63cf280175233af",
+      "sha256": "b7bf76c300ef1cf2ef15a5939335c4915dc0f6a8908a5e288fa5ad8220f7ee37",
       "spacing_dx": -10,
       "advance_unspaced": 572
     },
@@ -107354,5 +107300,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "af75f4d457e6144407abfdb124beee1b119f8a3d73513e6ff5fb48ab1bada84a"
+  "source_stage_ttf_sha256": "80298433e0ccaf47cc1a16b0d00ecdfd95f51cc933f7a429ea77dd2e7eebe0f3"
 }

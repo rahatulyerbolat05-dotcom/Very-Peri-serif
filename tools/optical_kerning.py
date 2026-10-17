@@ -9,6 +9,7 @@ import numpy as np
 from PIL import Image,ImageDraw,ImageFont
 
 BUILD=Path('build/kerning')
+ADJUST=json.loads(Path('font/kerning-adjust.json').read_text())['pairs']   # reviewed per-pair corrections
 EQ_WEIGHT=0.6   # fraction of the distance to the Cyrillic median applied
 EQ_LIMIT=40.    # largest equalizing shift, font units
 EQ_OFFSET=-8.   # keeps the mean Cyrillic gap where the donor spacing had it
@@ -115,6 +116,7 @@ def refine(font,native,records,native_kern,overrides):
             # Reviewed pairs remain explicit decisions; geometry still protects them.
             if a in records and b in records and text in overrides:
                 requested=overrides[text]+delta
+            if a in records and b in records:requested+=ADJUST.get(text,0)
             requested=max(-180,min(140,round(requested/2)*2))
             raw_min=float(gap[valid].min()) if valid.any() else 1000.
             # Retain native deliberate serif contacts, but prevent new collisions.
