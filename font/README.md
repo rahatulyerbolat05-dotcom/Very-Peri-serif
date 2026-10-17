@@ -1,6 +1,6 @@
 # Very Peri Serif Draft — рабочая черновая сборка
 
-Regular, версия1.010. Основная д — реальный контур Cormorant, утверждённый вариант03 (самый узкий, 88%); печатная д доступна через ss07. Русская У с диагональной нижней ветвью, Ү с прямой стойкой. Хвостики перенесены полным мотивом из авторского SVG. Семейство: **Very Peri Serif Draft**.
+Regular, версия1.011. Основная д — реальный контур Cormorant, утверждённый вариант03 (самый узкий, 88%); печатная д доступна через ss07. Русская У с диагональной нижней ветвью, Ү с прямой стойкой. Капли из авторского SVG сохранены; стыки с телами ц/щ/қ/ң и заглавных сглажены. Семейство: **Very Peri Serif Draft**.
 Это отдельное имя, поэтому оно не заменяет установленный Instrument Serif.
 
 ## Установка
@@ -64,7 +64,7 @@ OpenType Sanitizer и сравнение FontBakery с оригиналом — 
 Hyperglot проверен с настройками base/primary и подтвердил русский и казахский.
 Полный отчёт не заявляет поддержку всех вспомогательных знаков этих языков.
 
-В1.010 проверены102480 пар по реальным краям глифов и143136
+В1.011 проверены102480 пар по реальным краям глифов и143136
 кириллических/смешанных сочетаний через HarfBuzz, плюс110889 родных пар.
 Проверены все16 комбинаций ss01/ss07/ss08/ss09 и два режима aalt. Учитываются все84×84 пары букв, подстановки,
 латиница, цифры и знаки. Сохранены характерные контакты засечек оригинала.
@@ -91,12 +91,12 @@ Hyperglot проверен с настройками base/primary и подтв�
 ```sh
 python -m pip install -r font/requirements.txt
 python -I tools/cormorant_de_proportions.py
-python -I tools/exact_author_tails.py
+python -I tools/smooth_tail_joins.py
 python -I tools/fix_capital_u.py
 python -I tools/build_draft_font.py
 python -I tools/check_draft_font.py
 python -I tools/kerning_proof.py
-python -I tools/revision_1009_proof.py
+python -I tools/tail_join_proof.py
 python -I tools/package_draft_font.py
 ```
 
@@ -105,7 +105,7 @@ python -I tools/package_draft_font.py
 Попарная настройка: `tools/optical_kerning.py`; сводка —
 `kerning-review.json`, проверка — `kerning-validation.json`.
 `kerning-all-pairs.pdf` содержит126 страниц; `kerning-proof.html` —
-интерактивное сравнение1.009/1.010 со встроенными шрифтами, без сети.
+интерактивное сравнение1.010/1.011 со встроенными шрифтами, без сети.
 `--keep-kerning` оставлен для намеренного сохранения текущих пар;
 обычная повторная сборка запускается без этого флага.
 Оптическая проверка контуров: `docs/optical-review.md`.

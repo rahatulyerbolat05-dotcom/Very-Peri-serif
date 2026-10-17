@@ -3499,5 +3499,18 @@
   "upper_shift": 210,
   "lower_adjustment": 14,
   "transition_top": 200
+ },
+ "tail_join_refinement": {
+  "status": "17.10.2026: keep approved drop, smooth only its attachment to the glyph body",
+  "unchanged_drop_max_y": -30,
+  "outer_join_y": 160,
+  "unchanged_body_min_y": 161,
+  "outer_body_handle_ratio": 0.6,
+  "outer_body_handle_max": 55,
+  "outer_spur_handle_ratio": 0.24,
+  "outer_spur_handle_max": 18,
+  "tiny_connector_max": 0.5,
+  "backtrack_max": 30,
+  "joint_tangent_tolerance_degrees": 0.05
  }
 }

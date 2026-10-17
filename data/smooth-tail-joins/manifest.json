@@ -1,0 +1,152 @@
+[
+  {
+    "character": "ц",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni0446-primary.glif",
+    "previous": "data/exact-author-tails/uni0446-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0006558482205524945,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "щ",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni0449-primary.glif",
+    "previous": "data/exact-author-tails/uni0449-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.001980753387378259,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "қ",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni049B-primary.glif",
+    "previous": "data/exact-author-tails/uni049B-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0007760210697617216,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "қ",
+    "role": "alternate",
+    "path": "data/smooth-tail-joins/uni049B-alternate.glif",
+    "previous": "data/exact-author-tails/uni049B-alternate.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0007760210697617216,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "қ",
+    "role": "context",
+    "path": "data/smooth-tail-joins/uni049B-context.glif",
+    "previous": "data/exact-author-tails/uni049B-context.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0007760210697617216,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "ң",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni04A3-primary.glif",
+    "previous": "data/exact-author-tails/uni04A3-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0004471312927570102,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "Ц",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni0426-primary.glif",
+    "previous": "data/exact-author-tails/uni0426-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 1,
+    "max_attachment_tangent_angle_degrees": 0.0002750516309516092,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "Щ",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni0429-primary.glif",
+    "previous": "data/exact-author-tails/uni0429-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 1,
+    "max_attachment_tangent_angle_degrees": 0.0013994962190069325,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "Қ",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni049A-primary.glif",
+    "previous": "data/exact-author-tails/uni049A-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.0007975959617924538,
+    "closed_simple_contours": true
+  },
+  {
+    "character": "Ң",
+    "role": "primary",
+    "path": "data/smooth-tail-joins/uni04A2-primary.glif",
+    "previous": "data/exact-author-tails/uni04A2-primary.glif",
+    "changed_zone_y": [
+      -30,
+      161
+    ],
+    "approved_drop_xor_area": 0.0,
+    "upper_body_xor_area": 0.0,
+    "removed_join_holes": 0,
+    "max_attachment_tangent_angle_degrees": 0.00032015714869156585,
+    "closed_simple_contours": true
+  }
+]

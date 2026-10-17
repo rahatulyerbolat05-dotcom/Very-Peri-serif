@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif Draft",
-  "version": "1.010",
+  "version": "1.011",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -32870,31 +32870,31 @@
     {
       "left": "uni0429",
       "right": "Y",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429",
       "right": "Yacute",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429",
       "right": "Ycircumflex",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429",
       "right": "Ydieresis",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429",
       "right": "Ygrave",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
@@ -32936,7 +32936,7 @@
     {
       "left": "uni0429",
       "right": "uni04AE",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
@@ -40436,7 +40436,7 @@
     {
       "left": "uni049A",
       "right": "scaron",
-      "requested": -94,
+      "requested": -92,
       "actual": -77
     },
     {
@@ -40556,31 +40556,31 @@
     {
       "left": "uni04A2",
       "right": "Y",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
       "left": "uni04A2",
       "right": "Yacute",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
       "left": "uni04A2",
       "right": "Ycircumflex",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
       "left": "uni04A2",
       "right": "Ydieresis",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
       "left": "uni04A2",
       "right": "Ygrave",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
@@ -40628,7 +40628,7 @@
     {
       "left": "uni04A2",
       "right": "uni04AE",
-      "requested": -98,
+      "requested": -96,
       "actual": -61
     },
     {
@@ -52556,7 +52556,7 @@
     {
       "left": "uni049B.alternate",
       "right": "uni0446",
-      "requested": -94,
+      "requested": -96,
       "actual": -75
     },
     {
@@ -52616,7 +52616,7 @@
     {
       "left": "uni049B.alternate",
       "right": "uni0446.tail_old",
-      "requested": -94,
+      "requested": -96,
       "actual": -75
     },
     {
@@ -55278,10 +55278,10 @@
     "У": "data/capital-u-revision/uni0423.glif",
     "Ф": "data/codex/uni0424-01.glif",
     "Х": "data/homoglyph/Ha-cy.glif",
-    "Ц": "data/exact-author-tails/uni0426-primary.glif",
+    "Ц": "data/smooth-tail-joins/uni0426-primary.glif",
     "Ч": "data/capitals-che-hard-yeru-e/uni0427-01.glif",
     "Ш": "data/sha_cap/Sh1.glif",
-    "Щ": "data/exact-author-tails/uni0429-primary.glif",
+    "Щ": "data/smooth-tail-joins/uni0429-primary.glif",
     "Ъ": "data/capitals-che-hard-yeru-e/uni042A-01.glif",
     "Ы": "data/capitals-che-hard-yeru-e/uni042B-01.glif",
     "Ь": "data/codex/uni042C-01.glif",
@@ -55311,10 +55311,10 @@
     "у": "data/homoglyph/u-cy.glif",
     "ф": "data/author-curve-fixes/uni0444-primary.glif",
     "х": "data/homoglyph/ha-cy.glif",
-    "ц": "data/exact-author-tails/uni0446-primary.glif",
+    "ц": "data/smooth-tail-joins/uni0446-primary.glif",
     "ч": "data/regular-refinement/uni0447.glif",
     "ш": "data/sha/R1.glif",
-    "щ": "data/exact-author-tails/uni0449-primary.glif",
+    "щ": "data/smooth-tail-joins/uni0449-primary.glif",
     "ъ": "data/hard/K2.glif",
     "ы": "data/yery/Y1.glif",
     "ь": "data/soft/S3.glif",
@@ -55323,8 +55323,8 @@
     "я": "data/codex/uni044F-01.glif",
     "Ә": "data/kz-completion/uni04D8-01.glif",
     "Ғ": "data/kz2/Gh2.glif",
-    "Қ": "data/exact-author-tails/uni049A-primary.glif",
-    "Ң": "data/exact-author-tails/uni04A2-primary.glif",
+    "Қ": "data/smooth-tail-joins/uni049A-primary.glif",
+    "Ң": "data/smooth-tail-joins/uni04A2-primary.glif",
     "Ө": "data/kz2/O1.glif",
     "Ұ": "data/incoming-caps-2026-10-16/Ustraightstroke-cy.glif",
     "Ү": "data/homoglyph/Ustraight-cy.glif",
@@ -55332,8 +55332,8 @@
     "І": "data/homoglyph/I-cy.glif",
     "ә": "data/kz-completion/uni04D9-01.glif",
     "ғ": "data/user-2026-10-16-push/uni0493-primary.glif",
-    "қ": "data/exact-author-tails/uni049B-primary.glif",
-    "ң": "data/exact-author-tails/uni04A3-primary.glif",
+    "қ": "data/smooth-tail-joins/uni049B-primary.glif",
+    "ң": "data/smooth-tail-joins/uni04A3-primary.glif",
     "ө": "data/kz2/o1.glif",
     "ұ": "data/regular-refinement/uni04B1.glif",
     "ү": "data/regular-refinement/uni04AF.glif",
@@ -55600,13 +55600,13 @@
     },
     "uni0426": {
       "character": "Ц",
-      "path": "data/exact-author-tails/uni0426-primary.glif",
+      "path": "data/smooth-tail-joins/uni0426-primary.glif",
       "advance": 616,
       "donors": [
         "H",
         "H"
       ],
-      "sha256": "df69c290ac0cbe5ed120eedcddb9219f3cfd63a104d6456914e5eb3dbe82f8e0"
+      "sha256": "01f81533f6afefffc6ccb30c598fa0bb5e5d9000fd8706b7423434ad86a5b02b"
     },
     "uni0427": {
       "character": "Ч",
@@ -55630,13 +55630,13 @@
     },
     "uni0429": {
       "character": "Щ",
-      "path": "data/exact-author-tails/uni0429-primary.glif",
+      "path": "data/smooth-tail-joins/uni0429-primary.glif",
       "advance": 818,
       "donors": [
         "H",
         "H"
       ],
-      "sha256": "a1c10cdfeeb7826c7c43b138ae97312e61a62087792b31ab0b6efe5d87a5ae82"
+      "sha256": "28b16602c02d0b731eff675b37f8f6056060a375ca8b815bf2f0f997be18fc01"
     },
     "uni042A": {
       "character": "Ъ",
@@ -55930,13 +55930,13 @@
     },
     "uni0446": {
       "character": "ц",
-      "path": "data/exact-author-tails/uni0446-primary.glif",
+      "path": "data/smooth-tail-joins/uni0446-primary.glif",
       "advance": 536,
       "donors": [
         "u",
         "u"
       ],
-      "sha256": "0c4964b5de6d596559376eda72abff50de084daf0df07381ae1827c9c747d40c"
+      "sha256": "0c5a7f061cbf17e7efbaefcb3bfb3ed2b9d23c34dd2d8f78c14a0b428b94195e"
     },
     "uni0447": {
       "character": "ч",
@@ -55960,13 +55960,13 @@
     },
     "uni0449": {
       "character": "щ",
-      "path": "data/exact-author-tails/uni0449-primary.glif",
+      "path": "data/smooth-tail-joins/uni0449-primary.glif",
       "advance": 777,
       "donors": [
         "u",
         "u"
       ],
-      "sha256": "7f1773cece8a8ebca4e6ebed9b1f93dbeb1e59afe812511a3fb83dcb2d9aec6c"
+      "sha256": "b02504f9b3274decec615fbd50e27708836d2a32b80e48b224622d82bbcbffa3"
     },
     "uni044A": {
       "character": "ъ",
@@ -56050,23 +56050,23 @@
     },
     "uni049A": {
       "character": "Қ",
-      "path": "data/exact-author-tails/uni049A-primary.glif",
+      "path": "data/smooth-tail-joins/uni049A-primary.glif",
       "advance": 577,
       "donors": [
         "K",
         "K"
       ],
-      "sha256": "8087a74c307a5cb3d05db6223ec2ca4f967acb2c12ddbd7b68e5ff0b429d23f6"
+      "sha256": "3a91207f430d6bcf066826a70f04b1b54553d4bdfd11f8578b16ac554aa16d79"
     },
     "uni04A2": {
       "character": "Ң",
-      "path": "data/exact-author-tails/uni04A2-primary.glif",
+      "path": "data/smooth-tail-joins/uni04A2-primary.glif",
       "advance": 614,
       "donors": [
         "H",
         "H"
       ],
-      "sha256": "76eeb492758c97ab8a7d5055c746b34a0d1a7d9913c4f53c2a594a2782de931e"
+      "sha256": "312333c0f087392e25c82901071c3d9c38cb9fc0c854107c9544db04d547d5e2"
     },
     "uni04E8": {
       "character": "Ө",
@@ -56140,23 +56140,23 @@
     },
     "uni049B": {
       "character": "қ",
-      "path": "data/exact-author-tails/uni049B-primary.glif",
+      "path": "data/smooth-tail-joins/uni049B-primary.glif",
       "advance": 509,
       "donors": [
         "k",
         "k"
       ],
-      "sha256": "f9bdf8f13ba935eb9956bf6e706d7f7c358576c5bb6d275e2d815480cec7a0d9"
+      "sha256": "c3d3bcf771a08937596f407fd6bac39cfae3479cfb6956edb200e66f4b347eb3"
     },
     "uni04A3": {
       "character": "ң",
-      "path": "data/exact-author-tails/uni04A3-primary.glif",
+      "path": "data/smooth-tail-joins/uni04A3-primary.glif",
       "advance": 550,
       "donors": [
         "h",
         "u"
       ],
-      "sha256": "e06ddae82fe05b6092e915a2fe746bb05b7cbd67cfc8871b7591e39d3c5963bd"
+      "sha256": "b1768221c904d9c2ba148405951be23f9d6fa62fe7cf5fa0fdf83fb576a2b648"
     },
     "uni04E9": {
       "character": "ө",
@@ -56600,23 +56600,23 @@
     },
     "uni049B.alternate": {
       "character": "қ",
-      "path": "data/exact-author-tails/uni049B-alternate.glif",
+      "path": "data/smooth-tail-joins/uni049B-alternate.glif",
       "advance": 510,
       "donors": [
         "k",
         "k"
       ],
-      "sha256": "339fea31924983f32338ee4f5d9ebb0e029f92e29395bb143832ccb8526fae12"
+      "sha256": "b09a9a722e6903c1c2d012646891f0a64fb97ebe000f785c1a87dd71e69ea47e"
     },
     "uni049B.context": {
       "character": "қ",
-      "path": "data/exact-author-tails/uni049B-context.glif",
+      "path": "data/smooth-tail-joins/uni049B-context.glif",
       "advance": 508,
       "donors": [
         "k",
         "k"
       ],
-      "sha256": "c439985eaa36ac56795e0a1165943692dbdb1fec8642e0495758a76f63aeb759"
+      "sha256": "da67078df3101b725e49231f7aaf580e11a9b579ed9bdcc862d7040cbcced6a6"
     },
     "uni049B.tail_old": {
       "character": "қ",

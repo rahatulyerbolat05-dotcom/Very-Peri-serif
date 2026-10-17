@@ -43,6 +43,8 @@ def splice_u_body(filename,svg_commands,mapped):
 
 def main():
     cfg=json.loads(Path('data/alphabet.json').read_text());ctx=json.loads(Path('data/context/serif_bl.json').read_text())
+    if any(v['path'].startswith('data/smooth-tail-joins/') for e in cfg['user'].values() for v in e['variants']):
+        print('Keeping refined attachments; run tools/smooth_tail_joins.py to regenerate them.');return
     out=Path('data/exact-author-tails');out.mkdir(exist_ok=True)
     uploaded=Path('/workspace/attachments/cbe95999-4089-460d-982c-35088abe0229/пример хвостика.svg')
     source=out/'author-shcha.svg'

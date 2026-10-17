@@ -1,8 +1,10 @@
 # Very Peri Serif
 
 Кириллическое расширение Instrument Serif: русский и казахский, Regular.
-Текущая сборка — **Very Peri Serif Draft**, версия1.010.
+Текущая сборка — **Very Peri Serif Draft**, версия1.011.
 
+[Плавные стыки хвостиков: сравнение до/после](docs/img/tail_join_refinement.svg).
+[Что исправлено и проверено](docs/tail-join-refinement.md).
 [д: утверждён самый узкий вариант №03; сравнение пропорций](docs/img/de_cormorant_proportions.svg).
 [Хвостики и различие прописных У/Ү](docs/revision-1.009.md).
 [Аудит 12 шрифтов и сравнение вариантов д](docs/de-reference-audit.md).
