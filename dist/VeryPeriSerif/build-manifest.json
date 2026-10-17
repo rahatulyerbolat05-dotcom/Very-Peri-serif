@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.002",
+  "version": "1.003",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 132,
-  "kerning_pairs_added": 63118,
+  "kerning_pairs_added": 63164,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -5265,7 +5265,7 @@
       "left": "M",
       "right": "uni0436",
       "requested": -24,
-      "actual": -16
+      "actual": -15
     },
     {
       "left": "M",
@@ -5313,7 +5313,7 @@
       "left": "N",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "N",
@@ -5361,7 +5361,7 @@
       "left": "Nacute",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "Nacute",
@@ -5409,7 +5409,7 @@
       "left": "Ncaron",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "Ncaron",
@@ -5457,7 +5457,7 @@
       "left": "uni0145",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "uni0145",
@@ -5505,7 +5505,7 @@
       "left": "Ntilde",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "Ntilde",
@@ -5553,7 +5553,7 @@
       "left": "Eng",
       "right": "uni0416",
       "requested": -46,
-      "actual": -45
+      "actual": -44
     },
     {
       "left": "Eng",
@@ -5979,7 +5979,7 @@
       "left": "P",
       "right": "uni0436",
       "requested": -28,
-      "actual": -27
+      "actual": -26
     },
     {
       "left": "P",
@@ -6075,7 +6075,7 @@
       "left": "R",
       "right": "uni0436",
       "requested": -26,
-      "actual": 1
+      "actual": 2
     },
     {
       "left": "R",
@@ -6165,7 +6165,7 @@
       "left": "Racute",
       "right": "uni0436",
       "requested": -26,
-      "actual": 1
+      "actual": 2
     },
     {
       "left": "Racute",
@@ -6255,7 +6255,7 @@
       "left": "Rcaron",
       "right": "uni0436",
       "requested": -26,
-      "actual": 1
+      "actual": 2
     },
     {
       "left": "Rcaron",
@@ -6345,7 +6345,7 @@
       "left": "uni0156",
       "right": "uni0436",
       "requested": -26,
-      "actual": 1
+      "actual": 2
     },
     {
       "left": "uni0156",
@@ -6567,7 +6567,7 @@
       "left": "T",
       "right": "uni0416",
       "requested": -54,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "T",
@@ -6621,7 +6621,7 @@
       "left": "Tcaron",
       "right": "uni0416",
       "requested": -54,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "Tcaron",
@@ -6675,7 +6675,7 @@
       "left": "uni021A",
       "right": "uni0416",
       "requested": -54,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "uni021A",
@@ -7419,7 +7419,7 @@
       "left": "V",
       "right": "uni0416",
       "requested": -72,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "V",
@@ -7671,7 +7671,7 @@
       "left": "W",
       "right": "uni0416",
       "requested": -62,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "W",
@@ -7923,7 +7923,7 @@
       "left": "Wacute",
       "right": "uni0416",
       "requested": -62,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Wacute",
@@ -8175,7 +8175,7 @@
       "left": "Wcircumflex",
       "right": "uni0416",
       "requested": -62,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Wcircumflex",
@@ -8427,7 +8427,7 @@
       "left": "Wdieresis",
       "right": "uni0416",
       "requested": -62,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Wdieresis",
@@ -8679,7 +8679,7 @@
       "left": "Wgrave",
       "right": "uni0416",
       "requested": -62,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Wgrave",
@@ -9063,7 +9063,7 @@
       "left": "Y",
       "right": "uni0416",
       "requested": -70,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Y",
@@ -9321,7 +9321,7 @@
       "left": "Yacute",
       "right": "uni0416",
       "requested": -70,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Yacute",
@@ -9579,7 +9579,7 @@
       "left": "Ycircumflex",
       "right": "uni0416",
       "requested": -70,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Ycircumflex",
@@ -9837,7 +9837,7 @@
       "left": "Ydieresis",
       "right": "uni0416",
       "requested": -70,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Ydieresis",
@@ -10095,7 +10095,7 @@
       "left": "Ygrave",
       "right": "uni0416",
       "requested": -70,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "Ygrave",
@@ -12079,19 +12079,7 @@
     },
     {
       "left": "d",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "d",
       "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "d",
-      "right": "uni049B.context.tail_old",
       "requested": 2,
       "actual": 0
     },
@@ -12175,19 +12163,7 @@
     },
     {
       "left": "dcaron",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "dcaron",
       "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "dcaron",
-      "right": "uni049B.context.tail_old",
       "requested": 2,
       "actual": 0
     },
@@ -12271,19 +12247,7 @@
     },
     {
       "left": "dcroat",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "dcroat",
       "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "dcroat",
-      "right": "uni049B.context.tail_old",
       "requested": 2,
       "actual": 0
     },
@@ -12483,7 +12447,7 @@
       "left": "f",
       "right": "uni0436",
       "requested": -36,
-      "actual": -24
+      "actual": -23
     },
     {
       "left": "f",
@@ -12711,13 +12675,19 @@
       "left": "g",
       "right": "uni0436",
       "requested": -28,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "g",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
+    },
+    {
+      "left": "g",
+      "right": "uni044E",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "g",
@@ -12789,13 +12759,19 @@
       "left": "gbreve",
       "right": "uni0436",
       "requested": -28,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "gbreve",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
+    },
+    {
+      "left": "gbreve",
+      "right": "uni044E",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "gbreve",
@@ -12861,13 +12837,19 @@
       "left": "uni0123",
       "right": "uni0436",
       "requested": -28,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "uni0123",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
+    },
+    {
+      "left": "uni0123",
+      "right": "uni044E",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "uni0123",
@@ -12933,13 +12915,19 @@
       "left": "gdotaccent",
       "right": "uni0436",
       "requested": -28,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "gdotaccent",
       "right": "uni043B",
       "requested": -66,
       "actual": -41
+    },
+    {
+      "left": "gdotaccent",
+      "right": "uni044E",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "gdotaccent",
@@ -12992,8 +12980,8 @@
     {
       "left": "h",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "h",
@@ -13064,8 +13052,8 @@
     {
       "left": "hbar",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "hbar",
@@ -14211,7 +14199,7 @@
       "left": "l",
       "right": "uni0436",
       "requested": -16,
-      "actual": -12
+      "actual": -11
     },
     {
       "left": "l",
@@ -14265,7 +14253,7 @@
       "left": "lacute",
       "right": "uni0436",
       "requested": -16,
-      "actual": -12
+      "actual": -11
     },
     {
       "left": "lacute",
@@ -14361,7 +14349,7 @@
       "left": "uni013C",
       "right": "uni0436",
       "requested": -16,
-      "actual": -12
+      "actual": -11
     },
     {
       "left": "uni013C",
@@ -14444,8 +14432,8 @@
     {
       "left": "m",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "m",
@@ -14516,8 +14504,8 @@
     {
       "left": "n",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "n",
@@ -14588,8 +14576,8 @@
     {
       "left": "nacute",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "nacute",
@@ -14660,8 +14648,8 @@
     {
       "left": "ncaron",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "ncaron",
@@ -14732,8 +14720,8 @@
     {
       "left": "uni0146",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "uni0146",
@@ -14810,8 +14798,8 @@
     {
       "left": "ntilde",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "ntilde",
@@ -16159,12 +16147,6 @@
     },
     {
       "left": "germandbls",
-      "right": "uni04D8",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "germandbls",
       "right": "uni0493",
       "requested": 2,
       "actual": 0
@@ -16173,12 +16155,6 @@
       "left": "germandbls",
       "right": "uni20B4",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "germandbls",
-      "right": "uni018F",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -16977,7 +16953,7 @@
       "left": "v",
       "right": "uni0436",
       "requested": -40,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "v",
@@ -17108,8 +17084,8 @@
     {
       "left": "w",
       "right": "uni0436",
-      "requested": -38,
-      "actual": 6
+      "requested": -40,
+      "actual": 7
     },
     {
       "left": "w",
@@ -17185,12 +17161,6 @@
     },
     {
       "left": "w",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "w",
       "right": "uni04B1",
       "requested": -62,
       "actual": -11
@@ -17204,12 +17174,6 @@
     {
       "left": "w",
       "right": "uni20BD",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "w",
-      "right": "uni043A.short",
       "requested": 2,
       "actual": 0
     },
@@ -17239,27 +17203,9 @@
     },
     {
       "left": "w",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "w",
-      "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "w",
       "right": "uni049B.alternate.tail_old",
       "requested": -8,
       "actual": 1
-    },
-    {
-      "left": "w",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "wacute",
@@ -17270,8 +17216,8 @@
     {
       "left": "wacute",
       "right": "uni0436",
-      "requested": -38,
-      "actual": 6
+      "requested": -40,
+      "actual": 7
     },
     {
       "left": "wacute",
@@ -17347,12 +17293,6 @@
     },
     {
       "left": "wacute",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wacute",
       "right": "uni04B1",
       "requested": -62,
       "actual": -11
@@ -17366,12 +17306,6 @@
     {
       "left": "wacute",
       "right": "uni20BD",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wacute",
-      "right": "uni043A.short",
       "requested": 2,
       "actual": 0
     },
@@ -17401,27 +17335,9 @@
     },
     {
       "left": "wacute",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wacute",
-      "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wacute",
       "right": "uni049B.alternate.tail_old",
       "requested": -8,
       "actual": 1
-    },
-    {
-      "left": "wacute",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "wcircumflex",
@@ -17432,8 +17348,8 @@
     {
       "left": "wcircumflex",
       "right": "uni0436",
-      "requested": -38,
-      "actual": 6
+      "requested": -40,
+      "actual": 7
     },
     {
       "left": "wcircumflex",
@@ -17509,12 +17425,6 @@
     },
     {
       "left": "wcircumflex",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wcircumflex",
       "right": "uni04B1",
       "requested": -62,
       "actual": -11
@@ -17528,12 +17438,6 @@
     {
       "left": "wcircumflex",
       "right": "uni20BD",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wcircumflex",
-      "right": "uni043A.short",
       "requested": 2,
       "actual": 0
     },
@@ -17563,27 +17467,9 @@
     },
     {
       "left": "wcircumflex",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wcircumflex",
-      "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wcircumflex",
       "right": "uni049B.alternate.tail_old",
       "requested": -8,
       "actual": 1
-    },
-    {
-      "left": "wcircumflex",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "wdieresis",
@@ -17594,8 +17480,8 @@
     {
       "left": "wdieresis",
       "right": "uni0436",
-      "requested": -38,
-      "actual": 6
+      "requested": -40,
+      "actual": 7
     },
     {
       "left": "wdieresis",
@@ -17671,12 +17557,6 @@
     },
     {
       "left": "wdieresis",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wdieresis",
       "right": "uni04B1",
       "requested": -62,
       "actual": -11
@@ -17690,12 +17570,6 @@
     {
       "left": "wdieresis",
       "right": "uni20BD",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wdieresis",
-      "right": "uni043A.short",
       "requested": 2,
       "actual": 0
     },
@@ -17725,27 +17599,9 @@
     },
     {
       "left": "wdieresis",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wdieresis",
-      "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wdieresis",
       "right": "uni049B.alternate.tail_old",
       "requested": -8,
       "actual": 1
-    },
-    {
-      "left": "wdieresis",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "wgrave",
@@ -17756,8 +17612,8 @@
     {
       "left": "wgrave",
       "right": "uni0436",
-      "requested": -38,
-      "actual": 6
+      "requested": -40,
+      "actual": 7
     },
     {
       "left": "wgrave",
@@ -17833,12 +17689,6 @@
     },
     {
       "left": "wgrave",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wgrave",
       "right": "uni04B1",
       "requested": -62,
       "actual": -11
@@ -17852,12 +17702,6 @@
     {
       "left": "wgrave",
       "right": "uni20BD",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wgrave",
-      "right": "uni043A.short",
       "requested": 2,
       "actual": 0
     },
@@ -17887,27 +17731,9 @@
     },
     {
       "left": "wgrave",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wgrave",
-      "right": "uni049B.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "wgrave",
       "right": "uni049B.alternate.tail_old",
       "requested": -8,
       "actual": 1
-    },
-    {
-      "left": "wgrave",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
-      "actual": 0
     },
     {
       "left": "x",
@@ -17942,8 +17768,8 @@
     {
       "left": "x",
       "right": "uni0436",
-      "requested": -28,
-      "actual": 2
+      "requested": -30,
+      "actual": 3
     },
     {
       "left": "x",
@@ -18081,7 +17907,7 @@
       "left": "y",
       "right": "uni0436",
       "requested": -46,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "y",
@@ -18225,7 +18051,7 @@
       "left": "yacute",
       "right": "uni0436",
       "requested": -46,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "yacute",
@@ -18363,7 +18189,7 @@
       "left": "ycircumflex",
       "right": "uni0436",
       "requested": -46,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "ycircumflex",
@@ -18507,7 +18333,7 @@
       "left": "ydieresis",
       "right": "uni0436",
       "requested": -46,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "ydieresis",
@@ -18645,7 +18471,7 @@
       "left": "ygrave",
       "right": "uni0436",
       "requested": -46,
-      "actual": 6
+      "actual": 7
     },
     {
       "left": "ygrave",
@@ -18799,12 +18625,6 @@
     },
     {
       "left": "z",
-      "right": "uni044E",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "z",
       "right": "uni04B1",
       "requested": -44,
       "actual": -35
@@ -18853,12 +18673,6 @@
     },
     {
       "left": "zacute",
-      "right": "uni044E",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "zacute",
       "right": "uni04B1",
       "requested": -44,
       "actual": -35
@@ -18903,12 +18717,6 @@
       "left": "zcaron",
       "right": "uni044A",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "zcaron",
-      "right": "uni044E",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -18963,12 +18771,6 @@
       "left": "zdotaccent",
       "right": "uni044A",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "zdotaccent",
-      "right": "uni044E",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -19923,7 +19725,7 @@
       "left": "dcaron.ss01",
       "right": "uni0416",
       "requested": -18,
-      "actual": 23
+      "actual": 24
     },
     {
       "left": "dcaron.ss01",
@@ -20481,7 +20283,7 @@
       "left": "g.ss01",
       "right": "uni0436",
       "requested": -26,
-      "actual": -10
+      "actual": -9
     },
     {
       "left": "g.ss01",
@@ -20583,7 +20385,7 @@
       "left": "gbreve.ss01",
       "right": "uni0436",
       "requested": -26,
-      "actual": -10
+      "actual": -9
     },
     {
       "left": "gbreve.ss01",
@@ -20679,7 +20481,7 @@
       "left": "uni0123.ss01",
       "right": "uni0436",
       "requested": -26,
-      "actual": -10
+      "actual": -9
     },
     {
       "left": "uni0123.ss01",
@@ -20775,7 +20577,7 @@
       "left": "gdotaccent.ss01",
       "right": "uni0436",
       "requested": -26,
-      "actual": -10
+      "actual": -9
     },
     {
       "left": "gdotaccent.ss01",
@@ -20929,12 +20731,6 @@
     },
     {
       "left": "f_f_l",
-      "right": "uni0416",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "f_f_l",
       "right": "uni041B",
       "requested": -46,
       "actual": -28
@@ -21002,8 +20798,8 @@
     {
       "left": "f_h",
       "right": "uni0436",
-      "requested": -16,
-      "actual": -13
+      "requested": -18,
+      "actual": -12
     },
     {
       "left": "f_h",
@@ -21121,12 +20917,6 @@
     },
     {
       "left": "f_l",
-      "right": "uni0416",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "f_l",
       "right": "uni041B",
       "requested": -46,
       "actual": -28
@@ -21141,7 +20931,7 @@
       "left": "f_l",
       "right": "uni0436",
       "requested": -16,
-      "actual": -12
+      "actual": -11
     },
     {
       "left": "f_l",
@@ -21259,12 +21049,6 @@
     },
     {
       "left": "one",
-      "right": "uni0416",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "one",
       "right": "uni041B",
       "requested": -46,
       "actual": -28
@@ -21355,12 +21139,6 @@
     },
     {
       "left": "three",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "three",
       "right": "uni04B0",
       "requested": 2,
       "actual": 0
@@ -21439,12 +21217,6 @@
     },
     {
       "left": "five",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "five",
       "right": "uni043D",
       "requested": 2,
       "actual": 0
@@ -21466,12 +21238,6 @@
       "right": "uni0427",
       "requested": -90,
       "actual": -58
-    },
-    {
-      "left": "six",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "six",
@@ -21710,13 +21476,13 @@
     {
       "left": "periodcentered",
       "right": "uni04D9",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
       "left": "periodcentered",
       "right": "uni0259",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
@@ -21798,6 +21564,18 @@
       "actual": 0
     },
     {
+      "left": "numbersign",
+      "right": "uni049B.alternate",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "numbersign",
+      "right": "uni049B.alternate.tail_old",
+      "requested": 2,
+      "actual": 0
+    },
+    {
       "left": "slash",
       "right": "uni0423",
       "requested": 2,
@@ -21830,6 +21608,12 @@
     {
       "left": "backslash",
       "right": "uni0433",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "backslash",
+      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -21938,13 +21722,13 @@
     {
       "left": "periodcentered.loclCAT",
       "right": "uni04D9",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
       "left": "periodcentered.loclCAT",
       "right": "uni0259",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
@@ -21962,13 +21746,13 @@
     {
       "left": "periodcentered.loclCAT.case",
       "right": "uni04D9",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
       "left": "periodcentered.loclCAT.case",
       "right": "uni0259",
-      "requested": -82,
+      "requested": -80,
       "actual": -60
     },
     {
@@ -22203,7 +21987,7 @@
       "left": "ampersand",
       "right": "uni0436",
       "requested": -18,
-      "actual": 7
+      "actual": 8
     },
     {
       "left": "ampersand",
@@ -22274,8 +22058,8 @@
     {
       "left": "ampersand",
       "right": "uni04D9",
-      "requested": -60,
-      "actual": -58
+      "requested": -58,
+      "actual": -57
     },
     {
       "left": "ampersand",
@@ -22298,8 +22082,8 @@
     {
       "left": "ampersand",
       "right": "uni0259",
-      "requested": -60,
-      "actual": -58
+      "requested": -58,
+      "actual": -57
     },
     {
       "left": "ampersand",
@@ -22767,7 +22551,7 @@
       "left": "yen",
       "right": "uni0416",
       "requested": -68,
-      "actual": -29
+      "actual": -28
     },
     {
       "left": "yen",
@@ -22874,7 +22658,7 @@
     {
       "left": "yen",
       "right": "uni0434",
-      "requested": -96,
+      "requested": -98,
       "actual": -80
     },
     {
@@ -22923,7 +22707,7 @@
       "left": "yen",
       "right": "uni0444",
       "requested": -68,
-      "actual": -59
+      "actual": -60
     },
     {
       "left": "yen",
@@ -22993,6 +22777,12 @@
     },
     {
       "left": "yen",
+      "right": "uni04A3",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "yen",
       "right": "uni04E9",
       "requested": -78,
       "actual": -67
@@ -23050,6 +22840,12 @@
       "right": "uni0451.ss01",
       "requested": -78,
       "actual": -57
+    },
+    {
+      "left": "yen",
+      "right": "uni04A3.tail_old",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "yen",
@@ -23311,20 +23107,8 @@
     },
     {
       "left": "less",
-      "right": "uni04A3",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "less",
       "right": "uni20B4",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "less",
-      "right": "uni04A3.tail_old",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -23337,6 +23121,18 @@
       "left": "asciicircum",
       "right": "uni0432",
       "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "asciicircum",
+      "right": "uni04D9",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "asciicircum",
+      "right": "uni0259",
+      "requested": -2,
       "actual": 0
     },
     {
@@ -23368,6 +23164,18 @@
       "right": "uni0437",
       "requested": -90,
       "actual": -88
+    },
+    {
+      "left": "perthousand",
+      "right": "uni04D8",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "perthousand",
+      "right": "uni018F",
+      "requested": -2,
+      "actual": 0
     },
     {
       "left": "dieresis",
@@ -23521,19 +23329,7 @@
     },
     {
       "left": "cedilla",
-      "right": "uni04D8",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "cedilla",
       "right": "uni04D9",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "cedilla",
-      "right": "uni018F",
       "requested": -2,
       "actual": 0
     },
@@ -23563,25 +23359,19 @@
     },
     {
       "left": "ogonek",
+      "right": "uni0416",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "ogonek",
       "right": "uni0434",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "ogonek",
-      "right": "uni04D8",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "ogonek",
       "right": "uni04D9",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "ogonek",
-      "right": "uni018F",
       "requested": -2,
       "actual": 0
     },
@@ -23780,8 +23570,8 @@
     {
       "left": "uni0410",
       "right": "uni0436",
-      "requested": -32,
-      "actual": 25
+      "requested": -34,
+      "actual": 26
     },
     {
       "left": "uni0410",
@@ -25796,7 +25586,7 @@
     {
       "left": "uni0414",
       "right": "uni0436",
-      "requested": -44,
+      "requested": -46,
       "actual": -26
     },
     {
@@ -25840,12 +25630,6 @@
       "right": "uni0445",
       "requested": -36,
       "actual": -15
-    },
-    {
-      "left": "uni0414",
-      "right": "uni044E",
-      "requested": -2,
-      "actual": 0
     },
     {
       "left": "uni0414",
@@ -26475,91 +26259,91 @@
       "left": "uni0416",
       "right": "T",
       "requested": -52,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "uni0416",
       "right": "Tcaron",
       "requested": -52,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "uni0416",
       "right": "uni021A",
       "requested": -52,
-      "actual": -50
+      "actual": -49
     },
     {
       "left": "uni0416",
       "right": "V",
-      "requested": -62,
-      "actual": -11
+      "requested": -60,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "W",
-      "requested": -60,
-      "actual": -11
+      "requested": -58,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Wacute",
-      "requested": -60,
-      "actual": -11
+      "requested": -58,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Wcircumflex",
-      "requested": -60,
-      "actual": -11
+      "requested": -58,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Wdieresis",
-      "requested": -60,
-      "actual": -11
+      "requested": -58,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Wgrave",
-      "requested": -60,
-      "actual": -11
+      "requested": -58,
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "X",
       "requested": -82,
-      "actual": -58
+      "actual": -57
     },
     {
       "left": "uni0416",
       "right": "Y",
       "requested": -64,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Yacute",
       "requested": -64,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Ycircumflex",
       "requested": -64,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Ydieresis",
       "requested": -64,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "Ygrave",
       "requested": -64,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
@@ -26607,7 +26391,7 @@
       "left": "uni0416",
       "right": "igrave",
       "requested": -46,
-      "actual": -23
+      "actual": -22
     },
     {
       "left": "uni0416",
@@ -26769,7 +26553,7 @@
       "left": "uni0416",
       "right": "yen",
       "requested": -62,
-      "actual": -29
+      "actual": -28
     },
     {
       "left": "uni0416",
@@ -26883,13 +26667,13 @@
       "left": "uni0416",
       "right": "uni0422",
       "requested": -52,
-      "actual": -48
+      "actual": -47
     },
     {
       "left": "uni0416",
       "right": "uni0423",
       "requested": -28,
-      "actual": -13
+      "actual": -12
     },
     {
       "left": "uni0416",
@@ -26907,7 +26691,7 @@
       "left": "uni0416",
       "right": "uni0427",
       "requested": -98,
-      "actual": -49
+      "actual": -48
     },
     {
       "left": "uni0416",
@@ -26925,7 +26709,7 @@
       "left": "uni0416",
       "right": "uni042A",
       "requested": -62,
-      "actual": -57
+      "actual": -56
     },
     {
       "left": "uni0416",
@@ -26961,13 +26745,13 @@
       "left": "uni0416",
       "right": "uni0436",
       "requested": -46,
-      "actual": -11
+      "actual": -10
     },
     {
       "left": "uni0416",
       "right": "uni0437",
       "requested": -104,
-      "actual": -44
+      "actual": -45
     },
     {
       "left": "uni0416",
@@ -27027,7 +26811,7 @@
       "left": "uni0416",
       "right": "uni044F",
       "requested": -64,
-      "actual": -43
+      "actual": -44
     },
     {
       "left": "uni0416",
@@ -27051,13 +26835,13 @@
       "left": "uni0416",
       "right": "uni04B0",
       "requested": -62,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni0416",
       "right": "uni04AE",
       "requested": -64,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni0416",
@@ -27093,7 +26877,7 @@
       "left": "uni0416",
       "right": "uni20B8",
       "requested": -124,
-      "actual": -52
+      "actual": -51
     },
     {
       "left": "uni0416",
@@ -28533,7 +28317,7 @@
       "left": "uni041A",
       "right": "uni0436",
       "requested": -34,
-      "actual": 27
+      "actual": 28
     },
     {
       "left": "uni041A",
@@ -30319,6 +30103,12 @@
     },
     {
       "left": "uni041B",
+      "right": "uni0436",
+      "requested": -12,
+      "actual": -11
+    },
+    {
+      "left": "uni041B",
       "right": "uni0437",
       "requested": -88,
       "actual": -46
@@ -30403,12 +30193,6 @@
     },
     {
       "left": "uni041B",
-      "right": "uni049B",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni041B",
       "right": "uni04A3",
       "requested": -2,
       "actual": 0
@@ -30463,12 +30247,6 @@
     },
     {
       "left": "uni041B",
-      "right": "uni043A.short",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni041B",
       "right": "uni0434.ss07",
       "requested": -82,
       "actual": -35
@@ -30483,12 +30261,6 @@
       "left": "uni041B",
       "right": "uni049B.alternate",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni041B",
-      "right": "uni049B.tail_old",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -30651,7 +30423,7 @@
       "left": "uni041C",
       "right": "uni0436",
       "requested": -24,
-      "actual": -7
+      "actual": -6
     },
     {
       "left": "uni041C",
@@ -31077,7 +30849,7 @@
       "left": "uni0420",
       "right": "uni0436",
       "requested": -28,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "uni0420",
@@ -31311,7 +31083,7 @@
       "left": "uni0422",
       "right": "uni0416",
       "requested": -54,
-      "actual": -48
+      "actual": -47
     },
     {
       "left": "uni0422",
@@ -32364,6 +32136,18 @@
       "actual": 0
     },
     {
+      "left": "uni0424",
+      "right": "uni049B.context",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0424",
+      "right": "uni049B.context.tail_old",
+      "requested": -2,
+      "actual": 0
+    },
+    {
       "left": "uni0425",
       "right": "V",
       "requested": -48,
@@ -32636,8 +32420,8 @@
     {
       "left": "uni0425",
       "right": "uni0436",
-      "requested": -52,
-      "actual": -12
+      "requested": -54,
+      "actual": -11
     },
     {
       "left": "uni0425",
@@ -32973,13 +32757,13 @@
       "left": "uni0426",
       "right": "j",
       "requested": -76,
-      "actual": -62
+      "actual": -61
     },
     {
       "left": "uni0426",
       "right": "uni0237",
       "requested": -76,
-      "actual": -62
+      "actual": -61
     },
     {
       "left": "uni0426",
@@ -34863,7 +34647,7 @@
       "left": "uni042F",
       "right": "uni0436",
       "requested": -40,
-      "actual": -31
+      "actual": -30
     },
     {
       "left": "uni042F",
@@ -36105,37 +35889,37 @@
       "left": "uni0436",
       "right": "v",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "w",
       "requested": -28,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "wacute",
       "requested": -28,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "wcircumflex",
       "requested": -28,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "wdieresis",
       "requested": -28,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "wgrave",
       "requested": -28,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
@@ -36147,31 +35931,31 @@
       "left": "uni0436",
       "right": "y",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "yacute",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "ycircumflex",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "ydieresis",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
       "right": "ygrave",
       "requested": -34,
-      "actual": 10
+      "actual": 11
     },
     {
       "left": "uni0436",
@@ -36194,8 +35978,14 @@
     {
       "left": "uni0436",
       "right": "uni041B",
-      "requested": -48,
+      "requested": -50,
       "actual": -14
+    },
+    {
+      "left": "uni0436",
+      "right": "uni041C",
+      "requested": -10,
+      "actual": -9
     },
     {
       "left": "uni0436",
@@ -36218,8 +36008,8 @@
     {
       "left": "uni0436",
       "right": "uni0436",
-      "requested": -64,
-      "actual": 2
+      "requested": -66,
+      "actual": 3
     },
     {
       "left": "uni0436",
@@ -36231,13 +36021,13 @@
       "left": "uni0436",
       "right": "uni0438",
       "requested": -32,
-      "actual": -13
+      "actual": -12
     },
     {
       "left": "uni0436",
       "right": "uni0439",
       "requested": -32,
-      "actual": -13
+      "actual": -12
     },
     {
       "left": "uni0436",
@@ -36279,7 +36069,7 @@
       "left": "uni0436",
       "right": "uni0443",
       "requested": -68,
-      "actual": 12
+      "actual": 13
     },
     {
       "left": "uni0436",
@@ -36290,32 +36080,32 @@
     {
       "left": "uni0436",
       "right": "uni0446",
-      "requested": -36,
-      "actual": -17
+      "requested": -38,
+      "actual": -16
     },
     {
       "left": "uni0436",
       "right": "uni0447",
       "requested": -84,
-      "actual": -13
+      "actual": -12
     },
     {
       "left": "uni0436",
       "right": "uni0448",
       "requested": -42,
-      "actual": -21
+      "actual": -20
     },
     {
       "left": "uni0436",
       "right": "uni0449",
       "requested": -38,
-      "actual": -17
+      "actual": -16
     },
     {
       "left": "uni0436",
       "right": "uni044A",
       "requested": -30,
-      "actual": -5
+      "actual": -4
     },
     {
       "left": "uni0436",
@@ -36332,7 +36122,7 @@
     {
       "left": "uni0436",
       "right": "uni044E",
-      "requested": -38,
+      "requested": -40,
       "actual": -12
     },
     {
@@ -36363,13 +36153,13 @@
       "left": "uni0436",
       "right": "uni04B1",
       "requested": -108,
-      "actual": -29
+      "actual": -28
     },
     {
       "left": "uni0436",
       "right": "uni04AF",
       "requested": -108,
-      "actual": -29
+      "actual": -28
     },
     {
       "left": "uni0436",
@@ -36411,7 +36201,7 @@
       "left": "uni0436",
       "right": "uni0442.ss08",
       "requested": -54,
-      "actual": -22
+      "actual": -21
     },
     {
       "left": "uni0436",
@@ -36428,8 +36218,8 @@
     {
       "left": "uni0436",
       "right": "uni0446.tail_old",
-      "requested": -36,
-      "actual": -17
+      "requested": -38,
+      "actual": -16
     },
     {
       "left": "uni0436",
@@ -36441,7 +36231,7 @@
       "left": "uni0436",
       "right": "uni0449.tail_old",
       "requested": -38,
-      "actual": -17
+      "actual": -16
     },
     {
       "left": "uni0436",
@@ -38217,7 +38007,7 @@
       "left": "uni043A",
       "right": "uni0436",
       "requested": -106,
-      "actual": 7
+      "actual": 8
     },
     {
       "left": "uni043A",
@@ -38636,8 +38426,8 @@
     {
       "left": "uni043B",
       "right": "uni0436",
-      "requested": -52,
-      "actual": -8
+      "requested": -54,
+      "actual": -7
     },
     {
       "left": "uni043B",
@@ -38937,7 +38727,7 @@
       "left": "uni043C",
       "right": "uni0436",
       "requested": -52,
-      "actual": -8
+      "actual": -7
     },
     {
       "left": "uni043C",
@@ -39231,7 +39021,7 @@
       "left": "uni043F",
       "right": "uni0436",
       "requested": -44,
-      "actual": -4
+      "actual": -3
     },
     {
       "left": "uni043F",
@@ -39338,6 +39128,12 @@
     {
       "left": "uni0441",
       "right": "uni044A",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0441",
+      "right": "uni044E",
       "requested": 2,
       "actual": 0
     },
@@ -39601,18 +39397,6 @@
     },
     {
       "left": "uni0442",
-      "right": "uni0448",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0442",
-      "right": "uni0449",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0442",
       "right": "uni04E8",
       "requested": 2,
       "actual": 0
@@ -39661,32 +39445,14 @@
     },
     {
       "left": "uni0442",
-      "right": "uni0449.tail_old",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0442",
       "right": "uni049B.alternate",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni0442",
-      "right": "uni049B.context",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0442",
       "right": "uni049B.alternate.tail_old",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0442",
-      "right": "uni049B.context.tail_old",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -39849,7 +39615,7 @@
       "left": "uni0443",
       "right": "uni0436",
       "requested": -76,
-      "actual": 8
+      "actual": 9
     },
     {
       "left": "uni0443",
@@ -40095,7 +39861,7 @@
       "left": "uni0445",
       "right": "uni0436",
       "requested": -56,
-      "actual": 11
+      "actual": 12
     },
     {
       "left": "uni0445",
@@ -40166,7 +39932,7 @@
     {
       "left": "uni0445",
       "right": "uni0446",
-      "requested": -26,
+      "requested": -28,
       "actual": -4
     },
     {
@@ -40310,7 +40076,7 @@
     {
       "left": "uni0445",
       "right": "uni0446.tail_old",
-      "requested": -26,
+      "requested": -28,
       "actual": -4
     },
     {
@@ -40359,19 +40125,19 @@
       "left": "uni0446",
       "right": "J",
       "requested": -80,
-      "actual": -54
+      "actual": -53
     },
     {
       "left": "uni0446",
       "right": "j",
       "requested": -80,
-      "actual": -58
+      "actual": -57
     },
     {
       "left": "uni0446",
       "right": "uni0237",
       "requested": -80,
-      "actual": -58
+      "actual": -57
     },
     {
       "left": "uni0447",
@@ -40489,6 +40255,12 @@
     },
     {
       "left": "uni0447",
+      "right": "uni0442",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0447",
       "right": "uni0456",
       "requested": -2,
       "actual": 0
@@ -40587,19 +40359,19 @@
       "left": "uni0449",
       "right": "J",
       "requested": -78,
-      "actual": -55
+      "actual": -54
     },
     {
       "left": "uni0449",
       "right": "j",
       "requested": -78,
-      "actual": -59
+      "actual": -58
     },
     {
       "left": "uni0449",
       "right": "uni0237",
       "requested": -78,
-      "actual": -59
+      "actual": -58
     },
     {
       "left": "uni044A",
@@ -40748,6 +40520,12 @@
     {
       "left": "uni044B",
       "right": "uni0440",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044B",
+      "right": "uni0442",
       "requested": 2,
       "actual": 0
     },
@@ -41635,6 +41413,114 @@
     },
     {
       "left": "uni044E",
+      "right": "c",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "cacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ccaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ccedilla",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "cdotaccent",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "d",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "eth",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "dcaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "dcroat",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "e",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "eacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ecaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ecircumflex",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "edieresis",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "edotaccent",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "egrave",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "emacron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "eogonek",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "f",
       "requested": 2,
       "actual": 0
@@ -41833,6 +41719,66 @@
     },
     {
       "left": "uni044E",
+      "right": "o",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "oacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ocircumflex",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "odieresis",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ograve",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ohungarumlaut",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "omacron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "oslash",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "otilde",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "oe",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "p",
       "requested": 2,
       "actual": 0
@@ -41840,6 +41786,12 @@
     {
       "left": "uni044E",
       "right": "thorn",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "q",
       "requested": 2,
       "actual": 0
     },
@@ -41983,30 +41935,6 @@
     },
     {
       "left": "uni044E",
-      "right": "z",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "zacute",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "zcaron",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
-      "right": "zdotaccent",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni044E",
       "right": "a.ss01",
       "requested": 2,
       "actual": 0
@@ -42073,6 +42001,108 @@
     },
     {
       "left": "uni044E",
+      "right": "c.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "cacute.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ccaron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ccedilla.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "cdotaccent.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "d.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "dcaron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "dcroat.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "e.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "eacute.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ecaron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "ecircumflex.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "edieresis.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "edotaccent.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "egrave.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "emacron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "eogonek.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "g.ss01",
       "requested": 2,
       "actual": 0
@@ -42133,6 +42163,12 @@
     },
     {
       "left": "uni044E",
+      "right": "q_j",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "zero",
       "requested": 2,
       "actual": 0
@@ -42188,6 +42224,12 @@
     {
       "left": "uni044E",
       "right": "bullet",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "numbersign",
       "requested": 2,
       "actual": 0
     },
@@ -42259,6 +42301,12 @@
     },
     {
       "left": "uni044E",
+      "right": "at",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
       "right": "ampersand",
       "requested": 2,
       "actual": 0
@@ -42278,6 +42326,12 @@
     {
       "left": "uni044E",
       "right": "bar",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "cent",
       "requested": 2,
       "actual": 0
     },
@@ -42308,6 +42362,12 @@
     {
       "left": "uni044E",
       "right": "minus",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni044E",
+      "right": "divide",
       "requested": 2,
       "actual": 0
     },
@@ -42775,12 +42835,6 @@
     },
     {
       "left": "uni044F",
-      "right": "uni0449",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044F",
       "right": "uni04E8",
       "requested": -2,
       "actual": 0
@@ -42823,12 +42877,6 @@
     },
     {
       "left": "uni044F",
-      "right": "uni0449.tail_old",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni044F",
       "right": "uni049B.context",
       "requested": -2,
       "actual": 0
@@ -42836,6 +42884,12 @@
     {
       "left": "uni044F",
       "right": "uni049B.context.tail_old",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni04D8",
+      "right": "AE",
       "requested": -2,
       "actual": 0
     },
@@ -42883,12 +42937,6 @@
     },
     {
       "left": "uni04D8",
-      "right": "asterisk",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D8",
       "right": "quotedblleft",
       "requested": -2,
       "actual": 0
@@ -42908,12 +42956,6 @@
     {
       "left": "uni04D8",
       "right": "dollar",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D8",
-      "right": "asciicircum",
       "requested": -2,
       "actual": 0
     },
@@ -42980,18 +43022,6 @@
     {
       "left": "uni04D8",
       "right": "macron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D8",
-      "right": "cedilla",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D8",
-      "right": "ogonek",
       "requested": -2,
       "actual": 0
     },
@@ -43574,7 +43604,7 @@
     {
       "left": "uni0492",
       "right": "uni0416",
-      "requested": -62,
+      "requested": -60,
       "actual": -55
     },
     {
@@ -43635,7 +43665,7 @@
       "left": "uni049A",
       "right": "J",
       "requested": -78,
-      "actual": -64
+      "actual": -63
     },
     {
       "left": "uni049A",
@@ -43790,7 +43820,7 @@
     {
       "left": "uni049A",
       "right": "X",
-      "requested": -108,
+      "requested": -106,
       "actual": -101
     },
     {
@@ -43839,13 +43869,13 @@
       "left": "uni049A",
       "right": "j",
       "requested": -100,
-      "actual": -70
+      "actual": -68
     },
     {
       "left": "uni049A",
       "right": "uni0237",
       "requested": -100,
-      "actual": -70
+      "actual": -68
     },
     {
       "left": "uni049A",
@@ -43958,7 +43988,7 @@
     {
       "left": "uni049A",
       "right": "uni0425",
-      "requested": -108,
+      "requested": -106,
       "actual": -99
     },
     {
@@ -45051,7 +45081,7 @@
       "left": "uni04B0",
       "right": "uni0416",
       "requested": -70,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni04B0",
@@ -45116,7 +45146,7 @@
     {
       "left": "uni04B0",
       "right": "uni0426",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
@@ -45128,7 +45158,7 @@
     {
       "left": "uni04B0",
       "right": "uni0428",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
@@ -45188,13 +45218,13 @@
     {
       "left": "uni04B0",
       "right": "uni049A",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
       "left": "uni04B0",
       "right": "uni04A2",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
@@ -45260,19 +45290,19 @@
     {
       "left": "uni04B0",
       "right": "uni049A.tail_old",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
       "left": "uni04B0",
       "right": "uni04A2.tail_old",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
       "left": "uni04B0",
       "right": "uni0426.tail_old",
-      "requested": -34,
+      "requested": -32,
       "actual": 9
     },
     {
@@ -45999,7 +46029,7 @@
       "left": "uni04AE",
       "right": "uni0416",
       "requested": -70,
-      "actual": -9
+      "actual": -8
     },
     {
       "left": "uni04AE",
@@ -46340,8 +46370,8 @@
     {
       "left": "uni04BA",
       "right": "uni0436",
-      "requested": -20,
-      "actual": -8
+      "requested": -22,
+      "actual": -7
     },
     {
       "left": "uni04BA",
@@ -46615,210 +46645,6 @@
     },
     {
       "left": "uni04D9",
-      "right": "a",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "abreve",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "uni01CE",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "acircumflex",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "adieresis",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "agrave",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "amacron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aogonek",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aring",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "atilde",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "ae",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "s",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "sacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "scaron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "scedilla",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "uni0219",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "z",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "zacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "zcaron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "zdotaccent",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "a.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aacute.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "abreve.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "uni01CE.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "acircumflex.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "adieresis.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "agrave.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "amacron.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aogonek.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "aring.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "atilde.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "ordfeminine",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "ordmasculine",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
       "right": "two",
       "requested": -2,
       "actual": 0
@@ -46861,24 +46687,6 @@
     },
     {
       "left": "uni04D9",
-      "right": "asterisk",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "trademark",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
-      "right": "degree",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni04D9",
       "right": "dollar",
       "requested": -2,
       "actual": 0
@@ -46904,6 +46712,18 @@
     {
       "left": "uni04D9",
       "right": "perthousand",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni04D9",
+      "right": "cedilla",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni04D9",
+      "right": "ogonek",
       "requested": -2,
       "actual": 0
     },
@@ -47331,7 +47151,7 @@
       "left": "uni049B",
       "right": "uni0436",
       "requested": -150,
-      "actual": -68
+      "actual": -67
     },
     {
       "left": "uni049B",
@@ -47655,7 +47475,7 @@
       "left": "uni04B1",
       "right": "uni0436",
       "requested": -114,
-      "actual": -27
+      "actual": -26
     },
     {
       "left": "uni04B1",
@@ -47925,7 +47745,7 @@
       "left": "uni04AF",
       "right": "uni0436",
       "requested": -114,
-      "actual": -27
+      "actual": -26
     },
     {
       "left": "uni04AF",
@@ -48075,7 +47895,7 @@
       "left": "uni04BB",
       "right": "uni0436",
       "requested": -44,
-      "actual": -4
+      "actual": -3
     },
     {
       "left": "uni04BB",
@@ -48195,7 +48015,7 @@
       "left": "uni0456",
       "right": "uni0436",
       "requested": -34,
-      "actual": -4
+      "actual": -3
     },
     {
       "left": "uni0456",
@@ -48987,7 +48807,7 @@
       "left": "uni20B8",
       "right": "uni0416",
       "requested": -118,
-      "actual": -52
+      "actual": -51
     },
     {
       "left": "uni20B8",
@@ -50115,7 +49935,7 @@
       "left": "uni20BD",
       "right": "uni0436",
       "requested": -26,
-      "actual": -25
+      "actual": -24
     },
     {
       "left": "uni20BD",
@@ -53005,6 +52825,12 @@
     },
     {
       "left": "uni018F",
+      "right": "AE",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni018F",
       "right": "S",
       "requested": -2,
       "actual": 0
@@ -53047,12 +52873,6 @@
     },
     {
       "left": "uni018F",
-      "right": "asterisk",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni018F",
       "right": "quotedblleft",
       "requested": -2,
       "actual": 0
@@ -53072,12 +52892,6 @@
     {
       "left": "uni018F",
       "right": "dollar",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni018F",
-      "right": "asciicircum",
       "requested": -2,
       "actual": 0
     },
@@ -53144,18 +52958,6 @@
     {
       "left": "uni018F",
       "right": "macron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni018F",
-      "right": "cedilla",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni018F",
-      "right": "ogonek",
       "requested": -2,
       "actual": 0
     },
@@ -53251,210 +53053,6 @@
     },
     {
       "left": "uni0259",
-      "right": "a",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "abreve",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "uni01CE",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "acircumflex",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "adieresis",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "agrave",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "amacron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aogonek",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aring",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "atilde",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "ae",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "s",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "sacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "scaron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "scedilla",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "uni0219",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "z",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "zacute",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "zcaron",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "zdotaccent",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "a.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aacute.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "abreve.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "uni01CE.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "acircumflex.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "adieresis.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "agrave.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "amacron.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aogonek.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "aring.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "atilde.ss01",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "ordfeminine",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "ordmasculine",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
       "right": "two",
       "requested": -2,
       "actual": 0
@@ -53497,24 +53095,6 @@
     },
     {
       "left": "uni0259",
-      "right": "asterisk",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "trademark",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
-      "right": "degree",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0259",
       "right": "dollar",
       "requested": -2,
       "actual": 0
@@ -53540,6 +53120,18 @@
     {
       "left": "uni0259",
       "right": "perthousand",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0259",
+      "right": "cedilla",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0259",
+      "right": "ogonek",
       "requested": -2,
       "actual": 0
     },
@@ -53804,73 +53396,73 @@
     {
       "left": "uni043A.short",
       "right": "A",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Aacute",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Abreve",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "uni01CD",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Acircumflex",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Adieresis",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Agrave",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Amacron",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Aogonek",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Aring",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "Atilde",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
       "left": "uni043A.short",
       "right": "AE",
-      "requested": -10,
+      "requested": -12,
       "actual": 8
     },
     {
@@ -54098,31 +53690,31 @@
     {
       "left": "uni043A.short",
       "right": "z",
-      "requested": -28,
+      "requested": -30,
       "actual": -25
     },
     {
       "left": "uni043A.short",
       "right": "zacute",
-      "requested": -28,
+      "requested": -30,
       "actual": -25
     },
     {
       "left": "uni043A.short",
       "right": "zcaron",
-      "requested": -28,
+      "requested": -30,
       "actual": -25
     },
     {
       "left": "uni043A.short",
       "right": "zdotaccent",
-      "requested": -28,
+      "requested": -30,
       "actual": -25
     },
     {
       "left": "uni043A.short",
       "right": "uni0410",
-      "requested": -10,
+      "requested": -12,
       "actual": 17
     },
     {
@@ -54171,7 +53763,7 @@
       "left": "uni043A.short",
       "right": "uni0436",
       "requested": -116,
-      "actual": -4
+      "actual": -3
     },
     {
       "left": "uni043A.short",
@@ -54254,13 +53846,13 @@
     {
       "left": "uni043A.short",
       "right": "uni0448",
-      "requested": -94,
+      "requested": -96,
       "actual": -79
     },
     {
       "left": "uni043A.short",
       "right": "uni0449",
-      "requested": -90,
+      "requested": -92,
       "actual": -75
     },
     {
@@ -54386,7 +53978,7 @@
     {
       "left": "uni043A.short",
       "right": "uni0449.tail_old",
-      "requested": -90,
+      "requested": -92,
       "actual": -75
     },
     {
@@ -54537,7 +54129,7 @@
       "left": "uni0442.ss08",
       "right": "uni0436",
       "requested": -54,
-      "actual": -20
+      "actual": -19
     },
     {
       "left": "uni0442.ss08",
@@ -54765,7 +54357,7 @@
       "left": "uni0434.ss07",
       "right": "uni0436",
       "requested": -54,
-      "actual": -23
+      "actual": -22
     },
     {
       "left": "uni0434.ss07",
@@ -55551,7 +55143,7 @@
       "left": "uni0456.dotless",
       "right": "uni0436",
       "requested": -34,
-      "actual": -4
+      "actual": -3
     },
     {
       "left": "uni0456.dotless",
@@ -56037,7 +55629,7 @@
       "left": "uni04A3.tail_old",
       "right": "uni0434",
       "requested": -74,
-      "actual": -62
+      "actual": -63
     },
     {
       "left": "uni04A3.tail_old",
@@ -56271,7 +55863,7 @@
       "left": "uni0449.tail_old",
       "right": "uni0434",
       "requested": -74,
-      "actual": -62
+      "actual": -63
     },
     {
       "left": "uni0449.tail_old",
@@ -56324,61 +55916,61 @@
     {
       "left": "uni049B.alternate",
       "right": "u",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "uacute",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "ubreve",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "ucircumflex",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "udieresis",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "ugrave",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "uhungarumlaut",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "umacron",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "uogonek",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
       "left": "uni049B.alternate",
       "right": "uring",
-      "requested": -90,
+      "requested": -92,
       "actual": -71
     },
     {
@@ -56469,7 +56061,7 @@
       "left": "uni049B.alternate",
       "right": "uni0436",
       "requested": -150,
-      "actual": -68
+      "actual": -67
     },
     {
       "left": "uni049B.alternate",
@@ -56691,7 +56283,7 @@
       "left": "uni049B.context",
       "right": "uni0436",
       "requested": -150,
-      "actual": -119
+      "actual": -118
     },
     {
       "left": "uni049B.context",
@@ -56966,7 +56558,7 @@
     {
       "left": "uni049B.tail_old",
       "right": "x",
-      "requested": -114,
+      "requested": -112,
       "actual": -58
     },
     {
@@ -57087,13 +56679,13 @@
       "left": "uni049B.tail_old",
       "right": "uni0434",
       "requested": -118,
-      "actual": -62
+      "actual": -63
     },
     {
       "left": "uni049B.tail_old",
       "right": "uni0436",
       "requested": -150,
-      "actual": -68
+      "actual": -67
     },
     {
       "left": "uni049B.tail_old",
@@ -57549,7 +57141,7 @@
       "left": "uni049B.alternate.tail_old",
       "right": "uni0436",
       "requested": -150,
-      "actual": -68
+      "actual": -67
     },
     {
       "left": "uni049B.alternate.tail_old",
@@ -57927,7 +57519,7 @@
       "left": "uni049B.context.tail_old",
       "right": "uni0436",
       "requested": -150,
-      "actual": -119
+      "actual": -118
     },
     {
       "left": "uni049B.context.tail_old",
@@ -58070,31 +57662,31 @@
     {
       "left": "uni0429.tail_old",
       "right": "Y",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429.tail_old",
       "right": "Yacute",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429.tail_old",
       "right": "Ycircumflex",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429.tail_old",
       "right": "Ydieresis",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
       "left": "uni0429.tail_old",
       "right": "Ygrave",
-      "requested": -100,
+      "requested": -98,
       "actual": -63
     },
     {
@@ -58202,7 +57794,7 @@
     {
       "left": "uni0429.tail_old",
       "right": "g.ss01",
-      "requested": -76,
+      "requested": -74,
       "actual": -25
     },
     {
@@ -58292,7 +57884,7 @@
     {
       "left": "uni0429.tail_old",
       "right": "uni04AE",
-      "requested": -100,
+      "requested": -98,
       "actual": -61
     },
     {
@@ -58353,7 +57945,7 @@
       "left": "uni049A.tail_old",
       "right": "Oslash",
       "requested": -124,
-      "actual": -108
+      "actual": -107
     },
     {
       "left": "uni049A.tail_old",
@@ -58802,7 +58394,7 @@
     {
       "left": "uni049A.tail_old",
       "right": "uni04B0",
-      "requested": -120,
+      "requested": -118,
       "actual": -52
     },
     {
@@ -60836,5 +60428,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "267ec3b743f29a253834b976bad62f9383ef2428db36a0fa7cdd380582231230"
+  "source_stage_ttf_sha256": "348497eeec869bd0169e31ec5410508dc90ee19a5d39d0bc9e30efca318eaa78"
 }

@@ -60,13 +60,18 @@ def check(data,font,native,chars,native_kern,report_path=None):
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
     changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзж'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
+    def same_shape(name_new,name_old):
+        # Outline hygiene (1.003) changes node structure, never the shape: two-sided deviation under 1.5 units.
+        from outline_clean import GlyphShape,max_deviation
+        if font['glyf'][name_new].compile(font['glyf'])==old['glyf'][name_old].compile(old['glyf']):return True
+        return max_deviation(GlyphShape(font.getGlyphSet(),name_new),GlyphShape(old.getGlyphSet(),name_old))<=1.5
     for name in old.getGlyphOrder():
         if name in changed:continue
-        assert font['glyf'][name].compile(font['glyf'])==old['glyf'][name].compile(old['glyf']),name
-        assert font['hmtx'][name]==old['hmtx'][name],name
+        assert same_shape(name,name),name
+        assert font['hmtx'][name][0]==old['hmtx'][name][0] and abs(font['hmtx'][name][1]-old['hmtx'][name][1])<=2,name
     # Printed alternate stays identical to its existing 1.007 outline and metrics.
     alt='uni0434.ss07';primary=alt
-    assert font['glyf'][alt].compile(font['glyf'])==old['glyf'][primary].compile(old['glyf'])
+    assert same_shape(alt,primary)
     assert font['hmtx'][alt]==old['hmtx'][primary]
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())
     for r in geometry:

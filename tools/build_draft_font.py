@@ -25,6 +25,8 @@ from fontTools.ufoLib.glifLib import readGlyphFromString
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 import pathops
 from audit_author_glyphs import rectangle
+from outline_clean import clean_path
+CLEAN_QUAD_TOLERANCE=.5   # cubic->quadratic error for cleaned outlines, font units
 
 REF=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf')
 OUT=Path('dist/VeryPeriSerifDraft')
@@ -196,7 +198,11 @@ def main(output_dir=OUT,ttf_path=TTF):
         else:
             path,advance=load(filename);checksum=hashlib.sha256(Path(filename).read_bytes()).hexdigest()
         path=pathops.simplify(path,fix_winding=True,clockwise=True)
-        pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,.1,reverse_direction=False))
+        # Added glyphs only: merge redundant nodes, exact extrema/smooth joins. Verbatim
+        # Instrument homoglyphs keep their native structure.
+        tolerance=.1
+        if not native_donor and 'data/homoglyph/' not in str(filename):path=clean_path(path);tolerance=CLEAN_QUAD_TOLERANCE
+        pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,tolerance,reverse_direction=False))
         glyph=pen.glyph()
         # Integer rounding can create zero-length export fragments. Clean the
         # compiled copy; never rewrite the source GLIF or a native Latin glyph.
