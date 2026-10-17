@@ -1,0 +1,199 @@
+[
+ {
+  "character": "А",
+  "source": "native Italic A"
+ },
+ {
+  "character": "Б",
+  "source": "Regular sheared",
+  "advance": 472
+ },
+ {
+  "character": "В",
+  "source": "native Italic B"
+ },
+ {
+  "character": "Г",
+  "source": "Regular sheared",
+  "advance": 384
+ },
+ {
+  "character": "Д",
+  "source": "Regular sheared",
+  "advance": 554
+ },
+ {
+  "character": "Е",
+  "source": "native Italic E"
+ },
+ {
+  "character": "Ж",
+  "source": "Regular sheared",
+  "advance": 723
+ },
+ {
+  "character": "З",
+  "source": "Regular sheared",
+  "advance": 343
+ },
+ {
+  "character": "И",
+  "source": "Regular sheared",
+  "advance": 546
+ },
+ {
+  "character": "Й",
+  "source": "Regular sheared",
+  "advance": 546
+ },
+ {
+  "character": "К",
+  "source": "native Italic K"
+ },
+ {
+  "character": "Л",
+  "source": "Regular sheared",
+  "advance": 415
+ },
+ {
+  "character": "М",
+  "source": "native Italic M"
+ },
+ {
+  "character": "Н",
+  "source": "native Italic H"
+ },
+ {
+  "character": "О",
+  "source": "native Italic O"
+ },
+ {
+  "character": "П",
+  "source": "Regular sheared",
+  "advance": 546
+ },
+ {
+  "character": "Р",
+  "source": "native Italic P"
+ },
+ {
+  "character": "С",
+  "source": "native Italic C"
+ },
+ {
+  "character": "Т",
+  "source": "native Italic T"
+ },
+ {
+  "character": "У",
+  "source": "Regular sheared",
+  "advance": 383
+ },
+ {
+  "character": "Ф",
+  "source": "Regular sheared",
+  "advance": 568
+ },
+ {
+  "character": "Х",
+  "source": "native Italic X"
+ },
+ {
+  "character": "Ц",
+  "source": "Regular sheared",
+  "advance": 548
+ },
+ {
+  "character": "Ч",
+  "source": "Regular sheared",
+  "advance": 500
+ },
+ {
+  "character": "Ш",
+  "source": "Regular sheared",
+  "advance": 705
+ },
+ {
+  "character": "Щ",
+  "source": "Regular sheared",
+  "advance": 706
+ },
+ {
+  "character": "Ъ",
+  "source": "Regular sheared",
+  "advance": 565
+ },
+ {
+  "character": "Ы",
+  "source": "Regular sheared",
+  "advance": 674
+ },
+ {
+  "character": "Ь",
+  "source": "Regular sheared",
+  "advance": 460
+ },
+ {
+  "character": "Э",
+  "source": "Regular sheared",
+  "advance": 452
+ },
+ {
+  "character": "Ю",
+  "source": "Regular sheared",
+  "advance": 685
+ },
+ {
+  "character": "Я",
+  "source": "Regular sheared",
+  "advance": 507
+ },
+ {
+  "character": "Ё",
+  "source": "native Italic Edieresis"
+ },
+ {
+  "character": "Ә",
+  "source": "Regular sheared",
+  "advance": 540
+ },
+ {
+  "character": "Ғ",
+  "source": "Regular sheared",
+  "advance": 388
+ },
+ {
+  "character": "Қ",
+  "source": "Regular sheared",
+  "advance": 487
+ },
+ {
+  "character": "Ң",
+  "source": "Regular sheared",
+  "advance": 548
+ },
+ {
+  "character": "Ө",
+  "source": "Regular sheared",
+  "advance": 540
+ },
+ {
+  "character": "Ұ",
+  "source": "Regular sheared",
+  "advance": 477
+ },
+ {
+  "character": "Ү",
+  "source": "Regular sheared",
+  "advance": 477
+ },
+ {
+  "character": "Һ",
+  "source": "Regular sheared",
+  "advance": 485
+ },
+ {
+  "character": "І",
+  "source": "native Italic I"
+ }
+]
