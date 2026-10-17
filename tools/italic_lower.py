@@ -184,14 +184,16 @@ def build(ita,reg):
         return pth
     # ь ъ ы, default: Regular shape (bowl only 57 percent of the x-height, not the full b bowl), sheared; the head of the
     # stems is replaced by the entry hook of n; the right stem of ы is the clean u stem
-    stem_ud=19.1+34.0/2                                        # centre of the sheared Regular stem (78..146 minus 58.9)
-    hook_b=AND(AND(transformed(n_stem1(),dx=stem_ud-84.25),above(380)),left_of(250))
-    ь_=sheared('ь');out['ь']=(OR(AND(ь_,below(400)),hook_b),367+14)
-    out['ъ']=(sheared('ъ'),385)
-    ы_=sheared('ы');ы_left=AND(ы_,left_of(250))
+    # the stem is the native n stem (entry hook, flat base, 65 wide), its right edge on the Regular stem edge (ud 87.1);
+    # only the bowl (and the head of ъ) is taken from the sheared Regular letter
+    n_stem=transformed(n_stem1(),dx=87.1-116.1)
+    ь_=sheared('ь');out['ь']=(OR(n_stem,AND(AND(ь_,right_of(80)),below(430))),367+14)
+    ъ_=sheared('ъ');ъ_stem=band(37.1,105.1,0,440)
+    out['ъ']=(OR(AND(ъ_,above(430)),ъ_stem,AND(AND(ъ_,right_of(98)),below(430))),385)
+    ы_=sheared('ы')
     bowl_r=366.5-58.9
     ыdx=(bowl_r+40.0)-U_L
-    out['ы']=(OR(AND(ы_left,below(400)),hook_b,transformed(u_stem2(),dx=ыdx)),552)
+    out['ы']=(OR(n_stem,AND(AND(AND(ы_,right_of(80)),left_of(330)),below(430)),transformed(u_stem2(),dx=ыdx)),552)
     out['\uf101']=(sheared('л'),425)                              # л, variant 2: plain shear of the Regular л (for comparison)
     for ch,kind in (('м',None),('в',None),('з','open'),('э','open'),('ч',None),('я',None),('ю',None),('ф',None),('б',None)):
         out[ch]=(sheared(ch,kind),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
