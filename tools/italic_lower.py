@@ -1,0 +1,164 @@
+#!/usr/bin/env python3
+"""Italic lowercase pilot: Cyrillic letters assembled from native Instrument Serif Italic parts.
+Everything is cut and joined along the slant axis: ud = x - tan13 * y (the native stems are vertical in ud, so a cut
+along ud keeps a stem whole). Parts are never scaled; they are moved whole (CLAUDE.md, lesson of Regular 1.015).
+Letters built here (docs/italic-rules.md 6.3): ш щ ц н д (native n/u/q/j parts), г (native r), л (native arch + leg).
+Writes build/italic-lower/VeryPeriSerifItalicT0-lower.ttf (the caps test font plus these letters).
+"""
+import json,math,sys
+from pathlib import Path
+import pathops
+from pathops import PathOp
+from fontTools.ttLib import TTFont
+from fontTools.pens.transformPen import TransformPen
+from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.pens.cu2quPen import Cu2QuPen
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from italic_tidy import tidy
+
+S=math.tan(math.radians(13))
+ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
+REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf')
+CAPS=Path('build/italic-caps/VeryPeriSerifItalicT0-caps.ttf')
+
+# measured on the native u/n (tools/italic_rules_measure.py scans, de-slanted ud): stem edges
+STEM_W=63.4                      # u second stem 274.1..337.5
+U_L,U_R=274.1,337.5              # u right stem
+N_L,N_R=52.0,116.2               # n first stem
+U_PITCH=233.                     # u stem1 centre 72.5 -> stem2 centre 305.8
+
+
+def native(font,name):
+    p=pathops.Path();gs=font.getGlyphSet();gs[name].draw(p.getPen(glyphSet=gs));return p
+
+
+def transformed(path,dx=0.,dy=0.,shear=0.,about=0.):
+    out=pathops.Path();pen=TransformPen(out.getPen(),(1,0,shear,1,dx-shear*about,dy));path.draw(pen);return out
+
+
+def poly(points):
+    p=pathops.Path();pen=p.getPen();pen.moveTo(points[0])
+    for q in points[1:]:pen.lineTo(q)
+    pen.closePath();return p
+
+
+def band(ud0,ud1,y0,y1):
+    """Slanted rectangle: ud in [ud0,ud1], y in [y0,y1]."""
+    return poly([(ud0+S*y0,y0),(ud1+S*y0,y0),(ud1+S*y1,y1),(ud0+S*y1,y1)])
+
+
+def right_of(c):return band(c,c+4000,-1500,2000)
+def left_of(c):return band(c-4000,c,-1500,2000)
+def above(y):return band(-4000,4000,y,2000)
+def below(y):return band(-4000,4000,-1500,y)
+
+
+def AND(a,b):return pathops.op(a,b,PathOp.INTERSECTION,fix_winding=True)
+def OR(*ps):
+    r=ps[0]
+    for q in ps[1:]:r=pathops.op(r,q,PathOp.UNION,fix_winding=True)
+    return r
+def SUB(a,b):return pathops.op(a,b,PathOp.DIFFERENCE,fix_winding=True)
+
+
+def to_glyph(path,glyf):
+    path=pathops.simplify(path,fix_winding=True)
+    pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,0.5,reverse_direction=False));g=pen.glyph();g.recalcBounds(glyf);return g
+
+
+def build(ita,reg):
+    u=native(ita,'u');n=native(ita,'n');q=native(ita,'q');j=native(ita,'j');r=native(ita,'r')
+    out={}
+    # ---- stems cleaned from the bowl/arch joints so that they can be reused
+    def u_stem2(left=U_L,right=U_R):
+        return OR(band(left,right,100,485),AND(u,AND(right_of(262),below(192))),AND(u,AND(right_of(262),above(480))))
+    def n_stem1():
+        trap=poly([(50.4+S*55,55),(117.0+S*55,55),(116.1+S*340,340),(52.4+S*340,340)])
+        return OR(trap,AND(n,AND(left_of(126),below(60))),AND(n,AND(left_of(126),above(300))))
+    # ---- ш: u + u with a shared middle stem
+    A=AND(u,left_of(338))                                       # u without its exit foot (the foot is covered by the next stem)
+    shift=U_PITCH
+    B=transformed(u,dx=shift)
+    Bclip=AND(B,OR(below(150),right_of(400)))
+    sha=OR(A,Bclip)
+    out['ш']=(sha,508+int(shift))
+    # ---- ц, щ: tail from the Regular ц (stalk + drop, sheared) under the last stem, in place of the exit foot
+    rcm=reg.getBestCmap();rc=native(reg,rcm[ord('ц')])
+    tail_reg=AND(rc,poly([(290,-400),(520,-400),(520,-8),(290,-8)]))
+    # Regular stem left edge x=305 at y=-10; Italic stem left edge ud=U_L
+    def tail_at(stem_left):
+        t=transformed(tail_reg,shear=S,about=0.)        # slant about the baseline
+        return transformed(t,dx=stem_left-305.0)
+    def stem_to_tail(stem_left,stem_right):
+        # straight stem down to y=20, narrowing into the stalk (46 wide) by y=-2
+        return poly([(stem_left+S*60,60),(stem_right+S*60,60),(stem_right+S*60-(stem_right-stem_left-46)*0.0,60)])
+    def foot_cut(base,l=262):return SUB(AND(base,left_of(l+76)),AND(right_of(l),below(58)))
+    ts=U_L
+    def with_tail(base,l,lo):
+        """base: glyph whose last stem has left edge ud=l+(U_L-262) and an exit foot on the right; swap the foot for the tail.
+        The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
+        into the 46 wide stalk of the Regular tail."""
+        left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
+        wr=poly([(right+S*260,260),(right-k+S*-10,-10),(right-k+S*-10+300,-10),(right+S*260+300,260)])
+        wl=poly([(left+S*170,170),(left+k+S*-10,-10),(left+k+S*-10-14-k,-10),(left+S*170-14,170)])
+        cut=lambda g:SUB(SUB(g,wr),wl)
+        stem=cut(band(left,right+4,-10,70))
+        body=cut(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))))
+        return OR(body,stem,tail_at(left+k))
+    out['ц']=(with_tail(u,262,0),508+8)
+    shift2=shift
+    out['щ']=(with_tail(sha,262+shift2,shift2),508+int(shift2)+8)
+    # ---- н: first stem of n, last stem of u, crossbar
+    gapL=N_R+146.0                                    # counter 0.80 of Regular (182) = 146
+    d=gapL-U_L
+    st2=transformed(u_stem2(),dx=d)
+    bar=band(N_R-6,U_L+d+6,252,282)
+    en=OR(n_stem1(),st2,bar)
+    out['н']=(en,int(14+ (U_R+d)+ 87+ 4))
+    # ---- д: bowl and stem of q down to the baseline, descender and hook of j
+    dsh=237.0-51.6
+    jd=transformed(j,dx=dsh)
+    a_=native(ita,'a')
+    de=OR(AND(AND(a_,above(125)),left_of(338)),AND(AND(q,above(0)),below(126)),AND(jd,below(6)))
+    out['д']=(de,430)
+    # ---- л: right half of n (arch from its thin side, stem, exit) + a straight thin leg along the Regular leg slope
+    arch=OR(AND(n,right_of(262)),AND(n,AND(right_of(122),above(305))))
+    LEG_W=28.2;LEG_SLOPE=0.2493                    # Regular leg: 29 wide, tan 14 degrees (measured in ud)
+    c305=142.05                                    # centre of the native arch thin side at y=305 (n: 128.0..156.1)
+    def leg_edge(y,off):return c305+LEG_SLOPE*(y-305)+off
+    leg=poly([(leg_edge(0,-LEG_W/2),0),(leg_edge(0,LEG_W/2),0),(leg_edge(312,LEG_W/2)+S*312,312),(leg_edge(312,-LEG_W/2)+S*312,312)])
+    out['л']=(OR(arch,leg),521)
+    # ---- г: native r (stem with entry, arm)
+    out['г']=(r,368)
+    return out
+
+
+# side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
+BEARINGS={'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36)}
+
+
+def main():
+    ita=TTFont(ITA);reg=TTFont(REG);font=TTFont(CAPS)
+    built=build(ita,reg);rep=[]
+    for ch,(path,adv) in built.items():
+        glyf=font['glyf'];g=to_glyph(path,glyf)
+        g,st=tidy(g,glyf)
+        lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf);g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
+        name=f'uni{ord(ch):04X}';glyf[name]=g
+        font['hmtx'][name]=(adv,getattr(g,'xMin',0))
+        for t in font['cmap'].tables:
+            if t.isUnicode():t.cmap[ord(ch)]=name
+        rep.append(dict(character=ch,advance=adv,nodes=len(g.coordinates)))
+    font.setGlyphOrder(font['glyf'].glyphOrder)
+    out=Path('build/italic-lower');out.mkdir(parents=True,exist_ok=True)
+    family='Very Peri Serif Italic T0 lower';ps='VeryPeriSerifItalicT0lower-Italic'
+    for r in font['name'].names:
+        if r.nameID==1:r.string=family
+        elif r.nameID==3:r.string='0.0;lower test;'+ps
+        elif r.nameID==4:r.string=family+' Italic'
+        elif r.nameID==6:r.string=ps
+    target=out/'VeryPeriSerifItalicT0-lower.ttf';font.save(target)
+    print(target,rep)
+
+
+if __name__=='__main__':main()
