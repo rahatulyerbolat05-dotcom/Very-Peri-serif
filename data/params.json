@@ -3767,12 +3767,95 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.001",
+  "version": "1.002",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "dist/VeryPeriSerif",
   "archive": "dist/VeryPeriSerif-Regular.zip",
   "date": "2026-10-17"
+ },
+ "weight_balance": {
+  "status": "17.10.2026: author reports ф ж ю look heavy; measured x-height-band ink density 0.44/0.40/0.37 against a Latin range 0.26-0.37. Strokes thinned with outer silhouette and advance fixed.",
+  "baseline_commit": "193ce18",
+  "target": "x-band density: ф<=0.42, ж<=0.38, ю<=0.35 (Latin lowercase 0.26-0.37)",
+  "letters": {
+   "ф": {
+    "method": "knots",
+    "stem_probe_y": 255,
+    "knots": [
+     [
+      15,
+      15
+     ],
+     [
+      91,
+      82
+     ],
+     [
+      221,
+      225
+     ],
+     [
+      289,
+      285
+     ],
+     [
+      419,
+      428
+     ],
+     [
+      495,
+      495
+     ]
+    ]
+   },
+   "ю": {
+    "method": "knots",
+    "stem_probe_y": 200,
+    "knots": [
+     [
+      79,
+      79
+     ],
+     [
+      147,
+      142
+     ],
+     [
+      175,
+      175
+     ],
+     [
+      250,
+      241
+     ],
+     [
+      454,
+      463
+     ],
+     [
+      529,
+      529
+     ]
+    ]
+   },
+   "ж": {
+    "method": "branches_and_stem",
+    "stem_probe_y": 150,
+    "branch_thinning": 8,
+    "foot_share": 0.5,
+    "knots": [
+     [
+      241,
+      245
+     ],
+     [
+      309,
+      305
+     ]
+    ]
+   }
+  }
  }
 }

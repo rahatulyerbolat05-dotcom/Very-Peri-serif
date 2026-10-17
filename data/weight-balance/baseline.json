@@ -1,0 +1,20 @@
+[
+  {
+    "character": "ф",
+    "role": "primary",
+    "source": "data/width-refinement/uni0444-primary.glif",
+    "sha256": "18697cf01be8c704d66e54eac4cd33ffbd7c396af11bb013f97225d8308bc4ca"
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/width-refinement/uni044E-primary.glif",
+    "sha256": "979a406f2b3600b01c86b90157143211f8884701a1042697cee3593977988545"
+  },
+  {
+    "character": "ж",
+    "role": "primary",
+    "source": "data/codex/uni0436-cyr11.glif",
+    "sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6"
+  }
+]

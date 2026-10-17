@@ -1,0 +1,113 @@
+[
+  {
+    "character": "ф",
+    "role": "primary",
+    "source": "data/width-refinement/uni0444-primary.glif",
+    "sha256": "18697cf01be8c704d66e54eac4cd33ffbd7c396af11bb013f97225d8308bc4ca",
+    "path": "data/weight-balance/uni0444-primary.glif",
+    "advance_before": 510,
+    "advance_after": 510,
+    "before_stem_runs": [
+      [
+        15.372,
+        91.249
+      ],
+      [
+        221.0,
+        289.0
+      ],
+      [
+        418.564,
+        494.704
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        15.351,
+        82.244
+      ],
+      [
+        225.0,
+        285.0
+      ],
+      [
+        427.573,
+        494.721
+      ]
+    ]
+  },
+  {
+    "character": "ю",
+    "role": "primary",
+    "source": "data/width-refinement/uni044E-primary.glif",
+    "sha256": "979a406f2b3600b01c86b90157143211f8884701a1042697cee3593977988545",
+    "path": "data/weight-balance/uni044E-primary.glif",
+    "advance_before": 557,
+    "advance_after": 557,
+    "before_stem_runs": [
+      [
+        79.0,
+        147.0
+      ],
+      [
+        175.435,
+        249.516
+      ],
+      [
+        454.484,
+        528.636
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        79.0,
+        142.0
+      ],
+      [
+        175.442,
+        240.53
+      ],
+      [
+        463.472,
+        528.659
+      ]
+    ]
+  },
+  {
+    "character": "ж",
+    "role": "primary",
+    "source": "data/codex/uni0436-cyr11.glif",
+    "sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6",
+    "path": "data/weight-balance/uni0436-primary.glif",
+    "advance_before": 552,
+    "advance_after": 552,
+    "before_stem_runs": [
+      [
+        92.955,
+        156.886
+      ],
+      [
+        241.0,
+        309.0
+      ],
+      [
+        392.702,
+        456.702
+      ]
+    ],
+    "after_stem_runs": [
+      [
+        99.328,
+        157.994
+      ],
+      [
+        245.0,
+        305.0
+      ],
+      [
+        391.596,
+        450.323
+      ]
+    ]
+  }
+]

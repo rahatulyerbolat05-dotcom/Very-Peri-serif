@@ -1,8 +1,8 @@
 {
   "method": "Native-calibrated soft-min edge spacing; 2-unit row profiles; 1000 px/em; native contacts retained only for close optical-gap estimates and matching contact height.",
   "pairs_evaluated": 102480,
-  "nonzero_additional_pairs": 63038,
-  "collision_limited_pairs": 9635,
+  "nonzero_additional_pairs": 63118,
+  "collision_limited_pairs": 9893,
   "visible_glyphs": 482,
   "added_glyphs_kerned": 122,
   "native_native_pairs_changed": 0,

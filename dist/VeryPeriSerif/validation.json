@@ -871,9 +871,9 @@
     "WOFF2 layout roundtrip GDEF",
     "exhaustive kerning and unchanged outlines"
   ],
-  "ttf_sha256": "dc291a3143bf3d0bb774c7ba89a80079b706a1ffa397afe94cf652644cbf2834",
+  "ttf_sha256": "16302aa1da634544809c12c5df62d4db89ff0e265cfa82cc656a631bd0543d72",
   "kerning_checks": {
-    "ttf_sha256": "dc291a3143bf3d0bb774c7ba89a80079b706a1ffa397afe94cf652644cbf2834",
+    "ttf_sha256": "16302aa1da634544809c12c5df62d4db89ff0e265cfa82cc656a631bd0543d72",
     "failed": 0,
     "cyrillic_pairs_per_mode": 7056,
     "feature_modes": {
@@ -901,7 +901,7 @@
     "cyrillic_and_mixed_pairs_checked": 143136,
     "native_unicode_pairs_preserved": 110889,
     "geometric_pairs_checked": 102480,
-    "unchanged_outlines_and_advances": 492,
+    "unchanged_outlines_and_advances": 491,
     "intentional_outline_changes": [
       "uni0416",
       "uni0424",
@@ -912,6 +912,7 @@
       "uni042B",
       "uni042E",
       "uni0434",
+      "uni0436",
       "uni0437",
       "uni0442",
       "uni0444",

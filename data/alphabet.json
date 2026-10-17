@@ -335,30 +335,28 @@
       "provenance": "Width/weight refinement requested by author; previous sources archived"
     },
     "ж": {
-      "selected": "cyr11",
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
         {
-          "path": "data/codex/uni0436-cyr11.glif",
-          "label": "Cyr11 / импорт",
-          "variant": "cyr11",
-          "status": "selected",
+          "path": "data/weight-balance/uni0436-primary.glif",
           "advance": 552,
           "bounds": [
-            -2.142857142857143,
-            0,
-            551.8,
-            510
+            2.402927875518799,
+            0.0,
+            547.2484741210938,
+            510.0
           ],
-          "glif_sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6",
-          "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
-          "source_glyph": "uni0436",
-          "source_glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea",
-          "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          "glif_sha256": "03b9869dee49da0469c8068a3c3f51b1688240cc2b0f5d3504ad148df35ac729",
+          "role": "primary",
+          "variant": "01",
+          "label": "Облегчённые штрихи",
+          "status": "weight balance requested by author",
+          "weight_source_glif": "data/codex/uni0436-cyr11.glif"
         }
       ],
-      "provenance": "user/Claude Cyr11; integrated and retained by Codex"
+      "provenance": "Weight balance requested by author; previous sources archived"
     },
     "з": {
       "selected": "01",
@@ -1127,23 +1125,23 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/width-refinement/uni044E-primary.glif",
+          "path": "data/weight-balance/uni044E-primary.glif",
           "advance": 557,
           "bounds": [
-            15.0,
+            16.511680603027344,
             -9.0,
-            532.0,
+            531.8123168945312,
             516.0
           ],
-          "glif_sha256": "979a406f2b3600b01c86b90157143211f8884701a1042697cee3593977988545",
+          "glif_sha256": "dcd3e5e142fa377510790bff2bd556eeceb536dbf4a4e06a4147fb01b6323482",
           "role": "primary",
           "variant": "01",
-          "label": "Согласованные пропорции",
-          "status": "width/weight refinement requested by author",
-          "width_source_glif": "data/yu/yu1.glif"
+          "label": "Облегчённые штрихи",
+          "status": "weight balance requested by author",
+          "weight_source_glif": "data/width-refinement/uni044E-primary.glif"
         }
       ],
-      "provenance": "Width/weight refinement requested by author; previous sources archived"
+      "provenance": "Weight balance requested by author; previous sources archived"
     },
     "ш": {
       "selected": "01",
@@ -1482,9 +1480,9 @@
           "character": "ф",
           "role": "primary",
           "source_name": "a строчная.svg",
-          "path": "data/width-refinement/uni0444-primary.glif",
+          "path": "data/weight-balance/uni0444-primary.glif",
           "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
-          "glif_sha256": "18697cf01be8c704d66e54eac4cd33ffbd7c396af11bb013f97225d8308bc4ca",
+          "glif_sha256": "3ff5029cfae2d2125ca8752282fbd0a0e465f5fb00a7e7b2129495793924f7c0",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [
@@ -1509,10 +1507,11 @@
           "contours": 3,
           "original_glif": "data/user-2026-10-16/uni0444-primary.glif",
           "original_glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
-          "status": "width/weight refinement requested by author",
+          "status": "weight balance requested by author",
           "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные.",
-          "label": "Согласованные пропорции",
-          "width_source_glif": "data/author-curve-fixes/uni0444-primary.glif"
+          "label": "Облегчённые штрихи",
+          "width_source_glif": "data/author-curve-fixes/uni0444-primary.glif",
+          "weight_source_glif": "data/width-refinement/uni0444-primary.glif"
         }
       ],
       "provenance": "авторский SVG пользователя",
@@ -4381,6 +4380,101 @@
           }
         ],
         "provenance": "Codex; optical correction requested by user"
+      }
+    },
+    "before-weight-balance": {
+      "ф": {
+        "selected": "primary",
+        "variants": [
+          {
+            "character": "ф",
+            "role": "primary",
+            "source_name": "a строчная.svg",
+            "path": "data/width-refinement/uni0444-primary.glif",
+            "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
+            "glif_sha256": "18697cf01be8c704d66e54eac4cd33ffbd7c396af11bb013f97225d8308bc4ca",
+            "svg_path_count": 1,
+            "exact_duplicate_paths_omitted_in_derivative": 0,
+            "fills": [
+              "black"
+            ],
+            "transform": [
+              3.4843205574912894,
+              0,
+              0,
+              -3.4843205574912894,
+              15,
+              740
+            ],
+            "bounds": [
+              15.0,
+              -205.0,
+              495.0,
+              740.0
+            ],
+            "advance": 510,
+            "metrics_status": "provisional: 15-unit margins, donor-aligned x-height; not final spacing",
+            "contours": 3,
+            "original_glif": "data/user-2026-10-16/uni0444-primary.glif",
+            "original_glif_sha256": "88f09d9ff2322a4450505e95e2c2d95afbad34e45263fb3a5c47905bffb3a675",
+            "status": "width/weight refinement requested by author",
+            "note": "[РЕШЕНИЕ · 16.10.2026] Локальные исправления авторских кривых по запросу пользователя; исходный GLIF сохранён в data/user-2026-10-16/uni0444-primary.glif. Операции перечислены в data/author-curve-fixes/manifest.json. F-детали и форма хвоста сохранены; у ф уточнены вес чаш и нижний стык. Интервалы предварительные.",
+            "label": "Согласованные пропорции",
+            "width_source_glif": "data/author-curve-fixes/uni0444-primary.glif"
+          }
+        ],
+        "provenance": "авторский SVG пользователя",
+        "status": "author geometry locally repaired at user request; metrics provisional"
+      },
+      "ю": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/width-refinement/uni044E-primary.glif",
+            "advance": 557,
+            "bounds": [
+              15.0,
+              -9.0,
+              532.0,
+              516.0
+            ],
+            "glif_sha256": "979a406f2b3600b01c86b90157143211f8884701a1042697cee3593977988545",
+            "role": "primary",
+            "variant": "01",
+            "label": "Согласованные пропорции",
+            "status": "width/weight refinement requested by author",
+            "width_source_glif": "data/yu/yu1.glif"
+          }
+        ],
+        "provenance": "Width/weight refinement requested by author; previous sources archived"
+      },
+      "ж": {
+        "selected": "cyr11",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/codex/uni0436-cyr11.glif",
+            "label": "Cyr11 / импорт",
+            "variant": "cyr11",
+            "status": "selected",
+            "advance": 552,
+            "bounds": [
+              -2.142857142857143,
+              0,
+              551.8,
+              510
+            ],
+            "glif_sha256": "ecdd34d7cf94df84e2938cb53ea49f32fb62adaebd75e57b20b047a37e6e7ed6",
+            "source_file": "studies/regular/ereversed-refined/ereversed-02.ttf",
+            "source_glyph": "uni0436",
+            "source_glyf_sha256": "254beed2a07eb520a80ba3eea7280ff9d09579c99d8493b5db0bad5dcaee83ea",
+            "source_file_sha256": "36c2daa0642b792255385b7731a90c38111ab347e2e53ab36058348a1485f3bd"
+          }
+        ],
+        "provenance": "user/Claude Cyr11; integrated and retained by Codex"
       }
     }
   },
