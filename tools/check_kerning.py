@@ -75,8 +75,9 @@ def check(data,font,native,chars,native_kern,report_path=None):
     assert font['hmtx'][alt]==old['hmtx'][primary]
     geometry=json.loads(Path('build/kerning/pairs.json').read_text())
     for r in geometry:
-        assert r['final_min_gap']>=r['minimum_allowed']-1e-8,r
-        assert r['protected_gap']>=8,r
+        if not r.get('identical_to_native'):   # identical homoglyph pairs equal the native Latin pair by rule
+            assert r['final_min_gap']>=r['minimum_allowed']-1e-8,r
+            assert r['protected_gap']>=8,r
         assert rules.get((r['left'],r['right']),0)==r['additional'],r
     result={'ttf_sha256':hashlib.sha256(data).hexdigest(),'failed':0,
         'cyrillic_pairs_per_mode':len(chars)**2,'feature_modes':counts,

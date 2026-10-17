@@ -61,6 +61,16 @@ def refine(font,native,records,native_kern,overrides):
             ch=next((chr(c) for c,g in native.getBestCmap().items() if g==n),'')
         return ch.islower()
     lower={n:islower(n) for n in allnames}
+    # Glyphs whose outline and advance are identical to a native Latin glyph (homoglyphs such as
+    # А В Е К М Н О Р С Т Х а е о р с у х) must kern exactly like it, in every pairing.
+    ident={}
+    for n in allnames:
+        if n not in active:
+            ident[n]=n;continue
+        for m in reference:
+            ra,rb=actual[n],reference[m]
+            if ra[3]==rb[3] and np.array_equal(ra[2],rb[2]) and np.array_equal(ra[0][ra[2]],rb[0][rb[2]]) and np.array_equal(ra[1][ra[2]],rb[1][rb[2]]):
+                ident[n]=m;break
     nkcache={}
     def nk(a,b):
         if (a,b) not in nkcache:nkcache[a,b]=native_kern(native,a,b)
@@ -77,7 +87,7 @@ def refine(font,native,records,native_kern,overrides):
     raw_targets={p:pair_target(*p) for p in cyr_pairs}
     valid_targets=[t for t in raw_targets.values() if t is not None]
     median_target=float(np.median(valid_targets)) if valid_targets else 0.
-    equalized=0
+    equalized=0;native_overlaps=0
     for a in allnames:
         for b in allnames:
             if a not in active and b not in active:continue
@@ -118,21 +128,27 @@ def refine(font,native,records,native_kern,overrides):
             protected_min=float(gap[protected].min()) if protected.any() else 1000.
             final=max(final,math.ceil(8-protected_min))
             if a in active and b in active:final=max(final,math.ceil(FOOT_MIN-raw_min))
+            identical=False
+            if (a in active or b in active) and a in ident and b in ident:
+                native_final=nk(ident[a],ident[b])
+                # exactly the native Latin pair value, unless the native pair itself touches or overlaps the bodies (clearance under 3 units)
+                if raw_min+native_final>=3:final=native_final;identical=True
+                else:native_overlaps+=1
             underlying=nk(a,b)
             additional=int(final-underlying)
-            if abs(additional)<=2 and raw_min+underlying>=minimum and protected_min+underlying>=8 and not(a in active and b in active and raw_min+underlying<FOOT_MIN):
+            if not identical and abs(additional)<=2 and raw_min+underlying>=minimum and protected_min+underlying>=8 and not(a in active and b in active and raw_min+underlying<FOOT_MIN):
                 additional=0;final=underlying
             if additional:pairs[a,b]=additional
             report.append({'left':a,'right':b,'donors':[da,db],
                 'optical_delta':round(delta,2),'requested':requested,'total':int(final),
-                'additional':additional,'raw_min_gap':raw_min,'minimum_allowed':minimum,
+                'additional':additional,'identical_to_native':identical,'raw_min_gap':raw_min,'minimum_allowed':minimum,
                 'final_min_gap':raw_min+final,'protected_gap':protected_min+final,'collision_limited':final!=requested})
     summary={'method':'Native-calibrated soft-min edge spacing; 2-unit row profiles; 1000 px/em; native contacts retained only for close optical-gap estimates and matching contact height.',
         'pairs_evaluated':len(report),'nonzero_additional_pairs':len(pairs),
         'collision_limited_pairs':sum(r['collision_limited'] for r in report),
         'visible_glyphs':len(allnames),'added_glyphs_kerned':len(active),
         'native_native_pairs_changed':0,'temperature':55,'optical_delta_limit':90,
-        'cyrillic_equalization':{'weight':EQ_WEIGHT,'limit':EQ_LIMIT,'offset':EQ_OFFSET,'foot_min':FOOT_MIN,'median_target':round(median_target,2),'pairs_shifted':int(equalized)},
+        'identical_homoglyph_pairs':sum(r['identical_to_native'] for r in report),'native_pairs_overlapping_kept_protected':native_overlaps,'cyrillic_equalization':{'weight':EQ_WEIGHT,'limit':EQ_LIMIT,'offset':EQ_OFFSET,'foot_min':FOOT_MIN,'median_target':round(median_target,2),'pairs_shifted':int(equalized)},
         'minimum_final_gap':min(r['final_min_gap'] for r in report),'minimum_protected_gap':min(r['protected_gap'] for r in report),
         'note':'Geometric refinement plus proof review; not a claim that all pairs were individually hand-tuned.'}
     (BUILD/'pairs.json').write_text(json.dumps(report,ensure_ascii=False,separators=(',',':'))+'\n')
