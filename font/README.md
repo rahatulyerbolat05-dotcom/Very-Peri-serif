@@ -1,6 +1,6 @@
 # Сборка Very Peri Serif
 
-Финальный **Very Peri Serif Regular 1.013**: установка и функции —
+Финальный **Very Peri Serif Regular 1.015**: установка и функции —
 [README-regular.md](README-regular.md). Готовый архив:
 `dist/VeryPeriSerif-Regular.zip`. Все рисунки букв, параметры, лицензии
 и скрипты хранятся в репозитории.

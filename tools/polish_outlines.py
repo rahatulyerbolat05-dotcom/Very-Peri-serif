@@ -19,6 +19,7 @@ MICRO_CURVE=6.0
 KINK_DEG=8.0
 NODE_SHIFT=1.5
 MAX_DEV=1.5
+JOG_DEV=3.2
 AXIS_EPS=0.6      # neighbours on one horizontal/vertical line: extremum node
 
 
@@ -96,6 +97,28 @@ def align_handles(P):
     return P,count
 
 
+def fix_jogs(P):
+    """A stem edge that meets its bracket through a 10-unit wobble (on, off, off, on: x drifts 2-3 units) becomes straight:
+    the bracket end and its handle take the x of the stem edge."""
+    count=0;changed=True
+    while changed:
+        changed=False;n=len(P)
+        for i in range(n):
+            a,o1,o2,b=P[i],P[(i+1)%n],P[(i+2)%n],P[(i+3)%n]
+            if not(a[2] and not o1[2] and not o2[2] and b[2]):continue
+            dx=abs(a[0]-b[0]);dy=abs(a[1]-b[1])
+            if not(0.5<=dx<=4.5 and 3<=dy<=16 and abs(o1[0]-a[0])<=4 and abs(o2[0]-b[0])<=4):continue
+            before=P[(i-1)%n];after=P[(i+4)%n]
+            if not before[2] and abs(before[0]-a[0])<=4 and (before[1]-a[1])*(b[1]-a[1])<0:   # a is the bracket end
+                x=b[0];before[0]=x;a[0]=x
+            elif not after[2] and abs(after[0]-b[0])<=4 and (after[1]-b[1])*(a[1]-b[1])<0:   # b is the bracket end
+                x=a[0];after[0]=x;b[0]=x
+            else:continue
+            for j in sorted(((i+1)%n,(i+2)%n),reverse=True):P.pop(j)
+            count+=1;changed=True;break
+    return P,count
+
+
 def to_glyph(contours):
     pen=TTGlyphPen(None)
     for P in contours:
@@ -165,6 +188,17 @@ def polish(glyph,glyf,name=None):
             new.append(P)
         if not any(stats.values()) and not patched:continue
         g=to_glyph(new);g.recalcBounds(glyf);dev=hausdorff(glyph,g,glyf);stats['deviation']=round(float(dev),2)
-        if dev<=MAX_DEV or (patched and dev<=8):return g,stats
+        if dev<=MAX_DEV or (patched and dev<=8):return jogs(glyph,glyf,g,stats)
         last=dict(stats,rejected=True)
-    return glyph,last
+    return jogs(glyph,glyf,glyph,last if last else {})
+
+
+def jogs(original,glyf,current,stats):
+    """Final stage: straighten bracket/stem wobbles, judged against the unpolished outline (limit JOG_DEV)."""
+    new=[];n=0
+    for P in contours_of(current,glyf):
+        P,k=fix_jogs([p[:] for p in P]);new.append(P);n+=k
+    if not n:return current,stats
+    g=to_glyph(new);g.recalcBounds(glyf);dev=hausdorff(original,g,glyf)
+    if dev>JOG_DEV:return current,stats
+    return g,dict(stats,jog=n,deviation=round(float(dev),2))

@@ -502,23 +502,23 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/declump/uni0442-primary.glif",
-          "advance": 694,
+          "path": "data/te-canon/uni0442-primary.glif",
+          "advance": 718.0,
           "bounds": [
             15.0,
             -9.0,
-            683.0,
+            707.0,
             516.0
           ],
-          "glif_sha256": "d058f7dcaf20fbc3de637a767cd6f4ab519e93e46b8d8afea230faead5470936",
+          "glif_sha256": "932c7f5f6daaabe64159f46d6d2919a9cee6bd7db4914cb30111963aebab7055",
           "role": "primary",
           "variant": "01",
-          "label": "Разведённые слипшиеся места",
-          "status": "declumped to the Latin gaps, requested by author",
-          "declump_source_glif": "data/width-refinement/uni0442-primary.glif"
+          "label": "Верх как у латинской m",
+          "status": "canonical upper part requested by author",
+          "canon_source_glif": "data/declump/uni0442-primary.glif"
         }
       ],
-      "provenance": "Declump requested by author; previous sources archived"
+      "provenance": "Canonical upper part requested by author; previous sources archived"
     },
     "Б": {
       "selected": null,
@@ -1126,14 +1126,14 @@
       "variants": [
         {
           "path": "data/blot-relief/uni044E-primary.glif",
-          "advance": 557,
+          "advance": 570,
           "bounds": [
             16.511680603027344,
             -9.0,
-            526.8095092773438,
+            544.8123168945312,
             516.0
           ],
-          "glif_sha256": "b3abc43994f9cbb1a21092575f2f04da71cd08cd3a3c4eb12e15db0e4fece278",
+          "glif_sha256": "de61cef04fd30c785fba7d7d00e70c85ab61f336091c51b239dc4af35fb48a5f",
           "role": "primary",
           "variant": "01",
           "label": "Раскрытые пятна",
@@ -1174,14 +1174,14 @@
       "variants": [
         {
           "path": "data/blot-relief/uni044B-primary.glif",
-          "advance": 511,
+          "advance": 526,
           "bounds": [
             -2.0,
             -9.0,
-            496.0,
+            511.0,
             513.0
           ],
-          "glif_sha256": "4af884720a20f0fced2cf35b4c3095a0af2a53f359f0649d35bc3c2c0d5d5318",
+          "glif_sha256": "dcc6ba532c04ea25eee98d9dded2414f7c6a5fe31b9cdcb099f80e0cad24c6a2",
           "role": "primary",
           "variant": "01",
           "label": "Раскрытые пятна",
@@ -4696,6 +4696,32 @@
             "label": "Разведённые слипшиеся места",
             "status": "declumped to the Latin gaps, requested by author",
             "declump_source_glif": "data/condense-bowls/uni044E-primary.glif"
+          }
+        ],
+        "provenance": "Declump requested by author; previous sources archived"
+      }
+    },
+    "before-te-canon": {
+      "т": {
+        "selected": "01",
+        "shared_with_claude": false,
+        "conflict": false,
+        "variants": [
+          {
+            "path": "data/declump/uni0442-primary.glif",
+            "advance": 694,
+            "bounds": [
+              15.0,
+              -9.0,
+              683.0,
+              516.0
+            ],
+            "glif_sha256": "d058f7dcaf20fbc3de637a767cd6f4ab519e93e46b8d8afea230faead5470936",
+            "role": "primary",
+            "variant": "01",
+            "label": "Разведённые слипшиеся места",
+            "status": "declumped to the Latin gaps, requested by author",
+            "declump_source_glif": "data/width-refinement/uni0442-primary.glif"
           }
         ],
         "provenance": "Declump requested by author; previous sources archived"

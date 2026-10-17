@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Open the dark spots of ы and ю by thickness instead of width (author request, 1.013).
+"""Open the dark spots of ы and ю (author request).  1.013 thinned walls and was rejected (the bend showed);
+1.015 moves whole parts apart instead: curves stay identical, only the gaps between parts grow.
+(older description follows)
 ы: 19 units between the bowl of ь and the right stem. ю: 47-60 units between stem and oval (Latin n m: 174).
 Walls and stems are thinned inside a y-band by the monotone C1 x-map of tools/declump.py (serifs outside the
 band keep their shape); the outer silhouette of the right stem, the counters and the advance stay.
@@ -40,6 +42,11 @@ def anchored(design):
     """pchip pads its ends with unit-slope knots 300 units away, which bends the map inside a 300-unit span when the
     first/last knot has another slope. Two identity anchors 40 and 80 units outside each band keep the map exact there."""
     d=copy.deepcopy(design)
+    if d.get('rigid'):     # pure part translation: after the last knot the map continues with its shift
+        for b in d['bands']:
+            k=sorted(map(tuple,b['knots']));lo,hi=k[0][0],k[-1][0];sh=k[-1][1]-k[-1][0]
+            b['knots']=[[lo-80,lo-80],[lo-40,lo-40]]+[list(x) for x in k]+[[hi+40,hi+40+sh],[hi+80,hi+80+sh]]
+        return d
     for b in d['bands']:
         k=sorted(map(tuple,b['knots']));lo,hi=k[0][0],k[-1][0]
         b['knots']=[[lo-80,lo-80],[lo-40,lo-40]]+[list(x) for x in k]+[[hi+40,hi+40],[hi+80,hi+80]]
@@ -49,12 +56,12 @@ def anchored(design):
 def build(ch,source,design):
     design=anchored(design)
     from refine_widths import path_from
-    old,advance=load(source);result=warp_2d(explode_lines(segments(source)),design,.15)
+    old,advance=load(source);result=warp_2d(segments(source) if design.get('rigid') else explode_lines(segments(source)),design,.15)
     p=pathops.simplify(path_from(result),fix_winding=True,clockwise=True)
     assert abs(p.bounds[1]-old.bounds[1])<.02 and abs(p.bounds[3]-old.bounds[3])<.02,(ch,p.bounds,old.bounds)
     y=design['probe_y'];before=runs(old,y);after=runs(p,y)
     assert len(before)==len(after),(ch,before,after)
-    return p,advance,dict(before_runs=before,after_runs=after)
+    return p,advance+design.get('advance_delta',0),dict(before_runs=before,after_runs=after)
 
 
 def main():

@@ -1,0 +1,29 @@
+[
+  {
+    "character": "т",
+    "role": "primary",
+    "source": "data/declump/uni0442-primary.glif",
+    "sha256": "d058f7dcaf20fbc3de637a767cd6f4ab519e93e46b8d8afea230faead5470936",
+    "path": "data/te-canon/uni0442-primary.glif",
+    "advance": 718.0,
+    "scale": 1.0,
+    "stem_before": [
+      534.0,
+      602.0
+    ],
+    "stem_m": [
+      558.0,
+      626.0
+    ],
+    "pitch_before": [
+      230,
+      230,
+      122
+    ],
+    "pitch_after": [
+      242,
+      242,
+      122
+    ]
+  }
+]

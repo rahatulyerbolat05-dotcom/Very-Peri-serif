@@ -3767,7 +3767,7 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.013",
+  "version": "1.015",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
@@ -4108,49 +4108,31 @@
   }
  },
  "blot_relief": {
-  "status": "17.10.2026: author asks to relieve the dark spots of ы and ю with thickness. Measured: ы bowl-to-stem gap 19, ю stem-to-oval 47-60 (Latin n/m counters 174).",
+  "status": "17.10.2026: author asks to relieve the dark spots of ы and ю with thickness. Measured: ы bowl-to-stem gap 19, ю stem-to-oval 47-60 (Latin n/m counters 174). 1.013 (thin walls) rejected by the author: the bend showed. 1.015: whole parts move apart, curves unchanged.",
   "letters": {
    "ы": {
     "method": "warp2d",
+    "rigid": true,
     "probe_y": 150,
+    "advance_delta": 15,
     "bands": [
      {
-      "name": "bowl",
-      "y0": -90,
-      "y1": 290,
-      "fade": 150,
+      "name": "right_stem_apart",
+      "y0": -400,
+      "y1": 1400,
+      "fade": 1,
       "knots": [
        [
-        295,
-        295
+        330,
+        330
        ],
        [
         350,
-        338
+        350
        ],
        [
         366,
-        366
-       ]
-      ]
-     },
-     {
-      "name": "right_stem",
-      "y0": 40,
-      "y1": 440,
-      "fade": 120,
-      "knots": [
-       [
-        366,
-        366
-       ],
-       [
-        369,
-        377
-       ],
-       [
-        437,
-        437
+        381
        ]
       ]
      }
@@ -4158,53 +4140,27 @@
    },
    "ю": {
     "method": "warp2d",
+    "rigid": true,
     "probe_y": 150,
+    "advance_delta": 13,
     "bands": [
      {
-      "name": "stem",
-      "y0": 45,
-      "y1": 440,
-      "fade": 120,
+      "name": "oval_apart",
+      "y0": -400,
+      "y1": 1400,
+      "fade": 1,
       "knots": [
        [
-        79,
-        79
+        150,
+        150
        ],
        [
-        142,
-        136
+        172,
+        172
        ],
        [
-        175,
-        175
-       ]
-      ]
-     },
-     {
-      "name": "oval",
-      "y0": 40,
-      "y1": 520,
-      "fade": 70,
-      "knots": [
-       [
-        175,
-        175
-       ],
-       [
-        189,
-        196
-       ],
-       [
-        256,
-        256
-       ],
-       [
-        465,
-        465
-       ],
-       [
-        532,
-        527
+        190,
+        203
        ]
       ]
      }
