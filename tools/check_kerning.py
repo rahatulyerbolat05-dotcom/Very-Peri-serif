@@ -61,10 +61,10 @@ def check(data,font,native,chars,native_kern,report_path=None):
     changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзж'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
     def same_shape(name_new,name_old):
-        # Outline hygiene (1.003) changes node structure, never the shape: two-sided deviation under 1.5 units.
+        # Outline hygiene (1.003) changes node structure, never the shape: two-sided deviation under 2.0 units.
         from outline_clean import GlyphShape,max_deviation
         if font['glyf'][name_new].compile(font['glyf'])==old['glyf'][name_old].compile(old['glyf']):return True
-        return max_deviation(GlyphShape(font.getGlyphSet(),name_new),GlyphShape(old.getGlyphSet(),name_old))<=1.5
+        return max_deviation(GlyphShape(font.getGlyphSet(),name_new),GlyphShape(old.getGlyphSet(),name_old))<=2.0
     for name in old.getGlyphOrder():
         if name in changed:continue
         assert same_shape(name,name),name

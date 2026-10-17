@@ -1133,7 +1133,7 @@
             531.8123168945312,
             516.0
           ],
-          "glif_sha256": "dcd3e5e142fa377510790bff2bd556eeceb536dbf4a4e06a4147fb01b6323482",
+          "glif_sha256": "5cd271afefea92386a3f1b610256c7bb31373aa5fb6826d1b0b7c374b651d5cd",
           "role": "primary",
           "variant": "01",
           "label": "Облегчённые штрихи",
@@ -1482,7 +1482,7 @@
           "source_name": "a строчная.svg",
           "path": "data/weight-balance/uni0444-primary.glif",
           "source_sha256": "f7417ea0e4d7b2e609e3e84006ef6cabe2adf94b6211c05a223433af130b2c6e",
-          "glif_sha256": "3ff5029cfae2d2125ca8752282fbd0a0e465f5fb00a7e7b2129495793924f7c0",
+          "glif_sha256": "d6056598a9ec3b0c806f0440b6a5604424720b712ac76fc4cc6d1dd03d44824f",
           "svg_path_count": 1,
           "exact_duplicate_paths_omitted_in_derivative": 0,
           "fills": [

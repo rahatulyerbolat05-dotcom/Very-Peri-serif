@@ -76,7 +76,7 @@ def thin_zhe_branches(contours,thickness,foot_share):
 def build(ch,source,design):
     old,advance=load(source);contours=segments(source)
     if design['method']=='branches_and_stem':contours=thin_zhe_branches(contours,design['branch_thinning'],design['foot_share'])
-    p=pathops.simplify(path_from(warp_contours(contours,design['knots'],.01)),fix_winding=True,clockwise=True)
+    p=pathops.simplify(path_from(warp_contours(contours,design['knots'],.15)),fix_winding=True,clockwise=True)
     assert abs(p.bounds[1]-old.bounds[1])<.02 and abs(p.bounds[3]-old.bounds[3])<.02,(ch,p.bounds,old.bounds)
     y=design['stem_probe_y'];before=runs(old,y);after=runs(p,y)
     assert len(before)==len(after),(ch,before,after)

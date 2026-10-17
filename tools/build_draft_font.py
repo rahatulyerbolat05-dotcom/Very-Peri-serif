@@ -26,7 +26,7 @@ from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 import pathops
 from audit_author_glyphs import rectangle
 from outline_clean import clean_path
-CLEAN_QUAD_TOLERANCE=.5   # cubic->quadratic error for cleaned outlines, font units
+CLEAN_QUAD_TOLERANCE=.9   # cubic->quadratic error for cleaned outlines, font units
 
 REF=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf')
 OUT=Path('dist/VeryPeriSerifDraft')
