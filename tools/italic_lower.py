@@ -18,7 +18,7 @@ from italic_tidy import tidy
 from italic_round import round_glyph
 
 S=math.tan(math.radians(13))
-TAIL_KIND='reg'                                  # descender tail of ц щ қ ң: 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
+TAIL_KIND='n'                                    # descender tail of ц щ ң қ: 'n' (native exit stroke of n at descender depth), 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
 ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
 REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf')
 CAPS=Path('build/italic-caps/VeryPeriSerifItalicT0-caps.ttf')
@@ -115,11 +115,21 @@ def build(ita,reg):
     def foot_cut(base,l=262):return SUB(AND(base,left_of(l+76)),AND(right_of(l),below(58)))
     ts=U_L
     TAIL=TAIL_KIND
+    def n_foot(cx,depth=-200.):
+        """The native exit stroke of n (stem foot curving into the thin flick) moved down by `depth`, no scaling: the same gesture as every stem end of the
+        family, at descender depth. Returns (piece, half stem width, y of the stem cut after the move)."""
+        from italic_rules_measure import runs
+        a,b_=runs(polys_ud(ita,'n'),192)[-1]
+        return transformed(AND(n,AND(right_of(250),below(192))),dx=cx-(a+b_)/2+S*depth,dy=depth),(b_-a)/2,192+depth
     def with_tail(base,l,lo):
         """base: glyph whose last stem has left edge ud=l+(U_L-262) and an exit foot on the right; swap the foot for the tail.
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
+        if TAIL=='n':
+            cx=(left+right)/2;wu=(U_R-U_L)/2;foot,wn,ytop=n_foot(cx)
+            taper=poly([(cx-wu+S*150,150),(cx-wn+S*ytop,ytop),(cx+wn+S*ytop,ytop),(cx+wu+S*150,150)])
+            return OR(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))),taper,foot)
         if TAIL in ('j','q'):
             cx=(left+right)/2;ys=6. if TAIL=='j' else 58.;wj=66.9/2;wu=(U_R-U_L)/2
             taper=poly([(cx-wu+S*140,140),(cx-wj+S*ys,ys),(cx+wj+S*ys,ys),(cx+wu+S*140,140)])
@@ -252,7 +262,11 @@ def build(ita,reg):
     st_right=leg_r;st_left=st_right-46.0
     leg_cut=OR(AND(right_of(200),below(62)),AND(right_of(335),below(230)))
     bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
-    out['қ']=(OR(SUB(ka,leg_cut),bridge,tail_at(st_left)),470)
+    if TAIL=='n':
+        cxk=(leg_l+leg_r)/2;foot,wn,ytop=n_foot(cxk)
+        taper=poly([(leg_l+S*62,62),(leg_r+S*62,62),(cxk+wn+S*ytop,ytop),(cxk-wn+S*ytop,ytop)])
+        out['қ']=(OR(SUB(ka,leg_cut),taper,foot),470)
+    else:out['қ']=(OR(SUB(ka,leg_cut),bridge,tail_at(st_left)),470)
     out['ң']=(with_tail(en,d+262,0),500)
     c_u=(U_L+U_R)/2
     u_body=SUB(AND(u,left_of(338)),AND(right_of(262),below(58)))
