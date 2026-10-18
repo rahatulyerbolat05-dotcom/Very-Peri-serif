@@ -18,7 +18,7 @@ from italic_tidy import tidy
 from italic_round import round_glyph
 
 S=math.tan(math.radians(13))
-TAIL_KIND='comma'                                    # descender tail of ц щ ң қ: 'comma' (tail of the native comma under the stroke, which keeps its exit), 'n' (exit stroke of n at descender depth), 'ball', 'wedge', 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
+TAIL_KIND='pen'                                      # descender tail of ц щ ң қ: 'pen' (the exit turns into a downstroke below the line, as written), 'comma' (tail of the native comma under the stroke, which keeps its exit), 'n' (exit stroke of n at descender depth), 'ball', 'wedge', 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
 ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
 REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf')
 CAPS=Path('build/italic-caps/VeryPeriSerifItalicT0-caps.ttf')
@@ -98,6 +98,30 @@ def to_glyph(path,glyf):
     pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,0.5,reverse_direction=False));g=pen.glyph();g.recalcBounds(glyf);return g
 
 
+def slices(path,y,eps=0.3):
+    """(ud_min, ud_max) of each piece of the outline in a thin band at height y (pathops, nonzero fill), left to right."""
+    from fontTools.pens.recordingPen import RecordingPen
+    rec=RecordingPen();AND(path,poly([(-5000,y-eps),(5000,y-eps),(5000,y+eps),(-5000,y+eps)])).draw(rec);out=[];cur=[]
+    for op,args in rec.value:
+        if op=='moveTo':cur=[args[0]]
+        elif op in ('lineTo','curveTo','qCurveTo'):cur+=list(args)
+        elif cur:out.append((min(q[0] for q in cur)-S*y,max(q[0] for q in cur)-S*y));cur=[]
+    return sorted(out)
+
+
+def pen_tail(comma_ext,base,y_top=110.,y_v=16.,depth=-160.,top_width=None):
+    """Descender tail as the pen writes it (Russian cursive, Marck Script, Caveat, Alegreya, Piazzolla): the last stroke keeps its exit up to the right,
+    the pen turns at the exit and makes a downstroke parallel to the slant below the line, which ends turning left (the native comma tip).
+    The downstroke leaves the outer edge of the exit tangentially at y_top (the turning point stays the exit tip), its left edge comes out of the foot
+    at y_v (an open pocket remains between foot and tail), it swells below the baseline and its tip stops at `depth` (у goes to -215: ц stays shorter).
+    top_width: start width when the exit is not a separate piece at y_top (capitals: the flag of the stem foot)."""
+    def edge(y,side):return slices(base,y)[-1][side]
+    rt=edge(y_top,1);sr=(edge(y_top-5,1)-edge(y_top+5,1))/10.
+    if top_width is None:lt=edge(y_top,0);sl=(edge(y_top-5,0)-edge(y_top+5,0))/10.
+    else:lt=rt-top_width;sl=sr                     # capitals: the flag at the foot of the stem is merged with the stem, the downstroke starts as a hairline at its tip
+    return OR(base,comma_ext(lt,y_top,sl,rt,sr,edge(y_v,1),depth))
+
+
 def make_comma_ext(ita):
     """Descender tail 'comma': the lower part of the native comma (below its waist) hung under the last stroke, which keeps its own exit.
     Returns comma_ext(l_top,y_top,sl,r_top,sr,l_j,depth): the tail of the native comma below y=-40, moved (no scaling) so that its waist
@@ -169,6 +193,7 @@ def build(ita,reg):
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
+        if TAIL=='pen':return pen_tail(comma_ext,base)
         if TAIL=='comma':
             return OR(base,comma_ext(left,100.,0.,right,0.,left))
         if TAIL in ('ball','wedge'):
@@ -313,7 +338,9 @@ def build(ita,reg):
     ycut=95 if TAIL in ('ball','wedge') else 62
     leg_cut=OR(AND(right_of(200),below(ycut)),AND(right_of(r2+1.5 if TAIL in ('ball','wedge') else 335),below(230)))
     bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
-    if TAIL=='comma':
+    if TAIL=='pen':
+        out['қ']=(pen_tail(comma_ext,ka),470)
+    elif TAIL=='comma':
         kl=_runs(Pk,40)[1][0];ksl=(_runs(Pk,38)[1][0]-_runs(Pk,42)[1][0])/4.   # leg left edge at y=40 and its lean (0.8 per unit downward): the bridge leaves it tangentially
         out['қ']=(OR(ka,comma_ext(kl,40.,ksl,340.,0.,298.)),470)   # waist under the foot of the leg: the knee stays as heavy as the stem (67 across)
     elif TAIL in ('ball','wedge'):
