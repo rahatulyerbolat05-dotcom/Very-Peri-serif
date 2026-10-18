@@ -19,7 +19,7 @@ import optical_kerning as OK
 import italic_audit as A
 
 NATIVE=set('аеёиопрстух')
-STRENGTH=0.8;DEADBAND=int(next((a.split('=')[1] for a in sys.argv if a.startswith('--deadband=')),24));LIMIT_PLUS=40;LIMIT_MINUS=70;MIN_CLEAR=10;STEP=2
+STRENGTH=0.8;DEADBAND=int(next((a.split('=')[1] for a in sys.argv if a.startswith('--deadband=')),24));LIMIT_PLUS=40;LIMIT_MINUS=70;MIN_CLEAR=20;STEP=2
 LETTERS='абвгдеёжзийклмнопрстуфхцчшщъыьэюя'
 CAPS='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ';CAPS_NATIVE=set('АВЕЁКМНОРСТХ')
 OUT=Path('data/italic-kerning.json')

@@ -1,5 +1,5 @@
 {
- "version": "0.9",
+ "version": "0.10",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -9,6 +9,7 @@
   "0.6": "ь ъ ы: stem from the native n (hook, flat base), bowl from the Regular; audit tool added",
   "0.7": "side bearings of free letters fitted to the native gaps (tools/italic_respace.py); diagnosis of the look against Instrument Serif",
   "0.8": "ю ф from native parts only; в ч я by stem swap (stems from n and u, bowls from the sheared Regular)",
-  "0.9": "caps side bearings and pair kerning (lowercase 15% of pairs, caps+lowercase, caps); Kazakh қ ң ү ұ ә"
+  "0.9": "caps side bearings and pair kerning (lowercase 15% of pairs, caps+lowercase, caps); Kazakh қ ң ү ұ ә",
+  "0.10": "kerning keeps 20 units clear (display tracking -2% safe); tracking scale from the brand-pair reference"
  }
 }
