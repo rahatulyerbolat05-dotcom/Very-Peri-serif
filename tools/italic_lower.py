@@ -127,13 +127,19 @@ def build(ita,reg):
     def foot_cut(base,l=262):return SUB(AND(base,left_of(l+76)),AND(right_of(l),below(58)))
     ts=U_L
     TAIL=TAIL_KIND
-    def descender_tail(cx,y0,w0):
+    def descender_tail(cx,y0,w0,flick=None):
         """'ball': the stem bends right at depth and ends in the round terminal of the family (as the ear of g and the tail of y); 'wedge': straight descender narrowing to a thin end.
         The stroke starts inside the stem along its slant, its width is the perpendicular one (horizontal width times cos 13), so the edges continue the stem edges."""
         xa=lambda y:cx+S*y;x0=xa(y0);wp=w0*math.cos(math.radians(13))
         if TAIL=='ball':
             P=[(x0,y0),(x0-S*(y0+60),-60),(xa(-200)+30,-218),(xa(-200)+88,-196)]
             return OR(sweep(P,wp,33.),disc(P[3][0],P[3][1]+1,18))
+        if TAIL=='comma':
+            # the pattern of Cormorant, EB Garamond, Lora, PT Serif, Literata, Spectral: a short spur to the right at the baseline, the stem goes on as a teardrop whose sharp tip curves to the LEFT
+            P=[(x0,y0),(x0-S*(y0+60),-60),(xa(-150)-8,-140),(xa(-210)-52,-206)]
+            xr=lambda y:xa(y)+wp/2/math.cos(math.radians(13))
+            spur=flick if flick is not None else poly([(xr(8),8),(xr(8)+36,56),(xr(66)+2,66)])
+            return OR(sweep(P,wp,10.),spur)
         P=[(x0,y0),(x0-S*(y0+50),-50),(xa(-120)+6,-120),(xa(-215)+34,-214)]
         return OR(sweep(P,wp,18.),disc(P[3][0],P[3][1]+8,9))
     def n_foot(cx,depth=-200.):
@@ -147,9 +153,10 @@ def build(ita,reg):
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
-        if TAIL in ('ball','wedge'):
+        if TAIL in ('ball','wedge','comma'):
             cx=(left+right)/2;wu=(U_R-U_L)/2;y0=110.     # the stroke starts inside the stem and keeps its slant: the cut at y=58 is covered
-            return OR(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))),descender_tail(cx,y0,2*wu))
+            flick=AND(base,AND(right_of(right-3),AND(below(95),above(24))))      # the native exit tip above the cut: the spur right of the stem
+            return OR(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))),descender_tail(cx,y0,2*wu,flick if TAIL=='comma' else None))
         if TAIL=='n':
             cx=(left+right)/2;wu=(U_R-U_L)/2;foot,wn,ytop=n_foot(cx)
             taper=poly([(cx-wu+S*150,150),(cx-wn+S*ytop,ytop),(cx+wn+S*ytop,ytop),(cx+wu+S*150,150)])
@@ -285,10 +292,10 @@ def build(ita,reg):
     leg_l,leg_r=_runs(Pk,62)[1]                                  # the k leg at y=62 (ud)
     st_right=leg_r;st_left=st_right-46.0
     l2,r2=leg_l2r2=_runs(Pk,95)[1]
-    ycut=95 if TAIL in ('ball','wedge') else 62
-    leg_cut=OR(AND(right_of(200),below(ycut)),AND(right_of(r2+1.5 if TAIL in ('ball','wedge') else 335),below(230)))
+    ycut=95 if TAIL in ('ball','wedge','comma') else 62
+    leg_cut=OR(AND(right_of(200),below(ycut)),AND(right_of(r2+1.5 if TAIL in ('ball','wedge','comma') else 335),below(230)))
     bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
-    if TAIL in ('ball','wedge'):
+    if TAIL in ('ball','wedge','comma'):
         cxk=(leg_l+leg_r)/2;wu=(U_R-U_L)/2
         # leg edges higher up (l2,r2): the taper follows them, no notch at the cut
         taper=poly([(l2+S*95,95),(r2+S*95,95),(cxk+wu+S*28,28),(cxk-wu+S*28,28)])   # ends below the start of the stroke: its slanted cap is covered
