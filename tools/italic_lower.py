@@ -321,9 +321,26 @@ def build(ita,reg):
     out['к']=(ka,447)
     zh_stem=AND(SUB(k,cut_asc),below(510))                       # k without ascender, flat top at the x-height
     zh_stem=OR(SUB(zh_stem,AND(left_of(77),above(345))),AND(k,AND(left_of(77),AND(above(344),below(510)))))
-    mirror_arms=transformed(AND(k,right_of(70)),dx=0.)
+    # ж as written (Cormorant, EB Garamond, PT Serif, Alegreya, Old Standard, Lora): a reversed c, the stem, a c, backs to the stem, a hairline
+    # through them at the middle. The I006-I018 form (k arms mirrored) read as "ЖК" and is kept at U+F106.
     mp=pathops.Path();k_arms=SUB(AND(AND(k,right_of(55)),below(520)),AND(left_of(72),above(500)));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
-    out['ж']=(OR(zh_stem,mp),447)
+    out['\uf106']=(OR(zh_stem,mp),447)
+    c_=native(ita,'c');ZH_GAP=18.;ZH_SL,ZH_SR=4.2,68.4                          # k stem at mid height (ud)
+    c_back=slices(c_,255)[0][0]                                                  # -31.1: outer edge of the back of c at mid height
+    zh_c=transformed(c_,dx=ZH_SR+ZH_GAP-c_back)
+    A2=ZH_SL-ZH_GAP+c_back                                                      # mirror about ud=A2/2: the back of the reversed c ends ZH_GAP left of the stem
+    zh_rc=pathops.Path();c_.draw(TransformPen(zh_rc.getPen(),(-1,0,2*S,1,A2,0)))
+    zh_stem2=AND(AND(k,left_of(72)),below(510))
+    # the joins are the pen's upstrokes (author's sketch), not a level bar: from the back of the reversed c up to the top of the stem, and
+    # from the foot of the stem up into the back of c; "/" strokes are hairlines in this face (x: 26)
+    def hair(a,b,w=24.,bend=0.):
+        X=lambda q:(q[0]+S*q[1],q[1]);du,dy=b[0]-a[0],b[1]-a[1];l=math.hypot(du,dy);nx,ny=-dy/l,du/l
+        P=[a,(a[0]+du/3+nx*bend,a[1]+dy/3+ny*bend),(a[0]+2*du/3+nx*bend,a[1]+2*dy/3+ny*bend),b]
+        return sweep([X(q) for q in P],w,w)
+    rc_back=slices(zh_rc,195)[-1][1];c_back2=slices(zh_c,350)[0][0]          # outer edges of the two backs where the upstrokes meet them
+    zh_h1=hair((rc_back-14,195),(ZH_SL+16,445),bend=-6)                         # reversed c -> top of the stem
+    zh_h2=hair((ZH_SL+18,95),(c_back2+16,350),bend=-6)                          # foot of the stem -> back of c
+    out['ж']=(OR(zh_rc,zh_stem2,zh_c,zh_h1,zh_h2),720)
     soft=OR(SUB(b,cut_asc),hook)
     out['\uf102']=(soft,431)                                    # ь variant A: native b bowl (reads as upsilon)
     hard_stem=AND(SUB(b,cut_asc),below(510))
@@ -380,13 +397,26 @@ def build(ita,reg):
     # right bowl: the native p bowl moved onto that stem, its counter tightened to the left one (d 174 at y=255; p 202). The crossed oval
     # (o + stem) of I008-I017 is kept as the PUA alternate U+F105.
     out['\uf105']=(OR(o,band((o_lo+o_hi)/2-27,(o_lo+o_hi)/2+27,-60,560),transformed(AND(b,above(560)),dx=(o_lo+o_hi)/2-37.9),transformed(AND(p_,below(-60)),dx=(o_lo+o_hi)/2-50.2)),560)
-    d_=native(ita,'d');EF_SL=237.0;EF_CR=170.
-    ef_left=OR(SUB(AND(d_,above(198)),AND(right_of(EF_SL+80),below(260))),AND(q,below(202)))   # d above 200, q below (identical there: -24..45.9, 208.8..304); no exit of d
-    ef_right=AND(transformed(AND(p_,AND(right_of(80),AND(above(-12),below(520)))),dx=EF_SL-17.0-(202.-EF_CR)),right_of(EF_SL))
-    out['ф']=(OR(ef_left,ef_right),600)
+    d_=native(ita,'d')
+    # ф (author: "frankly unfinished" for the d + p bowls of I018, which did not match): two equal native o, moved towards each other, the stem
+    # between them takes the place of their inner walls, the arcs of each o run into the stem at the top and the bottom (Literata, Lora,
+    # PT Serif); counters 158 each (Regular 143). Stem: ascender with flag of d, descender with serif of q, both moved onto it (no scaling).
+    EF_SL=200.;EF_W=66.6;EF_DX=170.
+    ef_bowls=OR(AND(o,left_of(EF_SL+1)),AND(transformed(o,dx=EF_DX),right_of(EF_SL+EF_W-1)))
+    ef_up=OR(AND(d_,AND(AND(right_of(236),left_of(310)),AND(above(245),below(560)))),AND(d_,above(560)))   # stem, ascender, flag of d; not its exit
+    ef_down=AND(q,OR(AND(AND(right_of(236),left_of(304.0)),below(255)),below(-60)))          # stem, descender, serif of q (equal to d at y=250; its right edge 0.3 wider is trimmed to d)
+    ef_stem=OR(transformed(ef_up,dx=EF_SL-237.),transformed(ef_down,dx=EF_SL-237.))
+    out['ф']=(OR(ef_bowls,ef_stem),600)
     # ---- в ч я: stem swap, bowls and legs from the sheared Regular
     v_fill=poly([(150,500),(165,511),(205,510),(222,509),(229,491),(195,468),(188,467),(160,440)])    # the Regular bowl starts right of the n arch: fills the notch between arch and bowl top
-    out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530)),v_fill),435)
+    out['\uf108']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530)),v_fill),435)   # в of I006-I018 (stem with hook and the sheared Regular bowls)
+    # в as written in italic (Cormorant, EB Garamond, Lora, PT Serif, Literata, Old Standard, Alegreya): no straight stem, one stroke: from the
+    # waist down round the lower bowl, up the left spine, over the small upper loop, down into the waist and on to the left as the hairline that
+    # parts the counters. No native donor has bowls of this size (6 and o are almost x-height tall), so it is drawn with the pen model fitted on
+    # the native o (tools/italic_pen.py); skeleton in the de-slanted plane.
+    import italic_pen as PEN
+    VE_SKELETON=[(214,286),(250,235),(268,150),(240,55),(160,-2),(78,14),(30,100),(20,200),(32,300),(62,390),(110,462),(175,507),(232,494),(255,440),(244,365),(220,305),(178,282),(115,267),(55,253),(28,248)]
+    out['в']=(PEN.stroke_open(VE_SKELETON),420)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
     ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
@@ -394,7 +424,28 @@ def build(ita,reg):
     я_=sheared('я')
     я_right=transformed(u_stem2(),dx=191.1-U_L)
     yaleg=poly([(74.4+0.32*(0-100)-14+S*0,0),(74.4+0.32*(0-100)+14,0),(74.4+0.32*(105-100)+14+S*105,105),(74.4+0.32*(105-100)-14+S*105,105)])
-    out['я']=(OR(AND(AND(я_,left_of(196)),above(100)),yaleg,я_right),428)
+    out['\uf107']=(OR(AND(AND(я_,left_of(196)),above(100)),yaleg,я_right),428)   # я of I008-I018 (sheared Regular bowl, straight leg)
+    # я from native parts (author: redo): the closed upper bowl of g (200..516, its right wall 212..283 is where the stem goes), the u stem with
+    # its exit on that wall, the leg: the lower half of the "/" of x with its ball at the baseline, carried up along its own direction to the
+    # bowl bottom next to the stem (Old Standard, Cormorant, EB Garamond: the leg leaves the bowl at the stem and ends at the lower left).
+    g_=native(ita,'g');x_=native(ita,'x')
+    # g bowl without ear and link: the link is cut along an ellipse through the outer contour of the bowl (left -12.2 and right 288 at y=350,
+    # top 516, bottom ~200), so the bowl closes in its own curve instead of a flat cut
+    def ellipse_ud(cu,cy,a,b):
+        k=0.5523;X=lambda u,y:(u+S*y,y);e=pathops.Path();pen=e.getPen();pen.moveTo(X(cu+a,cy))
+        for (p1,p2,p3) in (((cu+a,cy+k*b),(cu+k*a,cy+b),(cu,cy+b)),((cu-k*a,cy+b),(cu-a,cy+k*b),(cu-a,cy)),((cu-a,cy-k*b),(cu-k*a,cy-b),(cu,cy-b)),((cu+k*a,cy-b),(cu+a,cy-k*b),(cu+a,cy))):
+            pen.curveTo(X(*p1),X(*p2),X(*p3))
+        pen.closePath();return e
+    ya_bowl=AND(SUB(g_,AND(above(470),right_of(250))),ellipse_ud(138.,357.,151.5,160.))
+    YA_SL=219.5
+    q_top=OR(band(YA_SL,YA_SL+67.1,196,513),transformed(AND(q,AND(right_of(258),above(470))),dx=YA_SL-237.0))   # stem (67) and the ear of q; the V of q between bowl and ear is filled
+    u_low=transformed(AND(u_stem2(),below(204)),dx=YA_SL-U_L)                  # stem foot and exit of u (63.4)
+    ya_stem=OR(q_top,u_low,poly([(YA_SL+S*150,150),(YA_SL+63.4+S*150,150),(YA_SL+67.1+S*250,250),(YA_SL+S*250,250)]))
+    YA_DX=45.                                                                  # leg moved right: it leaves the bowl bottom next to the stem
+    ya_leg=transformed(AND(x_,AND(left_of(150),below(170))),dx=YA_DX)
+    lean=(133.0-122.0)/50.                                                    # centre of the "/" of x: 133 at y=150, 122 at y=100 (ud)
+    ya_link=poly([(120.0+YA_DX+S*150,150),(145.9+YA_DX+S*150,150),(145.9+YA_DX+lean*70+S*220,220),(120.0+YA_DX+lean*70+S*220,220)])
+    out['я']=(OR(ya_bowl,ya_stem,ya_leg,ya_link),440)
     # ---- м: Regular shape without serifs; the right stem is the clean u stem with its exit (roles as the capital М: thin left stem 30,
     # thick "\\" 69, thin "/" 30, thick right stem)
     м_=sheared('м')
@@ -441,7 +492,7 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}

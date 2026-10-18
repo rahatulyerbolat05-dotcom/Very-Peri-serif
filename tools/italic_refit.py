@@ -99,6 +99,7 @@ def try_implied(s1,s2):
                 pts,c1,c2=spline(x,y)
                 e=hd(orig,pts)
                 if best is None or e<best[0]:best=(e,x,y,c1,c2)
+        if best is None:return None                     # degenerate pair (zero-length piece): nothing to merge
         x0,y0=best[1],best[2];span*=0.3
     e,x,y,c1,c2=best
     c1=np.round(c1);c2=np.round(c2)
