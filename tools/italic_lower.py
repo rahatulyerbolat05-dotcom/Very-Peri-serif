@@ -53,6 +53,14 @@ def poly(points):
     pen.closePath();return p
 
 
+def disc(cx,cy,r,ry=None):
+    """Ellipse (semi-axes r, ry) from four cubic arcs; a round terminal for a stroke end."""
+    ry=r if ry is None else ry;k=0.5522847498
+    p=pathops.Path();pen=p.getPen();pen.moveTo((cx+r,cy))
+    pen.curveTo((cx+r,cy+k*ry),(cx+k*r,cy+ry),(cx,cy+ry));pen.curveTo((cx-k*r,cy+ry),(cx-r,cy+k*ry),(cx-r,cy))
+    pen.curveTo((cx-r,cy-k*ry),(cx-k*r,cy-ry),(cx,cy-ry));pen.curveTo((cx+k*r,cy-ry),(cx+r,cy-k*ry),(cx+r,cy));pen.closePath();return p
+
+
 def band(ud0,ud1,y0,y1):
     """Slanted rectangle: ud in [ud0,ud1], y in [y0,y1]."""
     return poly([(ud0+S*y0,y0),(ud1+S*y0,y0),(ud1+S*y1,y1),(ud0+S*y1,y1)])
@@ -137,8 +145,13 @@ def build(ita,reg):
     LEG_W=41.0;LEG_SLOPE=0.2493                    # perpendicular 37 (thin diagonals 24-37), tan 14 degrees measured in ud; I007 had 28.2 and the lightest colour of the set
     c305=142.05                                    # centre of the native arch thin side at y=305 (n: 128.0..156.1)
     def leg_edge(y,off):return c305+LEG_SLOPE*(y-305)+off
-    leg=poly([(leg_edge(0,-LEG_W/2),0),(leg_edge(0,LEG_W/2),0),(leg_edge(312,LEG_W/2)+S*312,312),(leg_edge(312,-LEG_W/2)+S*312,312)])
-    out['л']=(OR(arch,leg),521)
+    # the leg ends in a round terminal: a disc of the leg's perpendicular half-width, tangent to the baseline (overshoot LEG_DIP), the leg starts at its centre
+    LEG_DIP=3.0;LEG_FULL=120.;LEG_JOIN=330.;LEG_TOP=30.;r_=LEG_W/2*math.cos(math.atan(LEG_SLOPE+S));cy_=r_-LEG_DIP
+    cx_=leg_edge(cy_,0)+S*cy_                      # leg axis at the disc centre (ud axis + slant)
+    def half(y):return LEG_W/2 if y<=LEG_FULL else LEG_W/2+(LEG_TOP/2-LEG_W/2)*min(1.,(y-LEG_FULL)/(LEG_JOIN-LEG_FULL))   # taper to the arch thin side (30 at y=330, native 28-31)
+    ys=[cy_,LEG_FULL,LEG_JOIN+10]
+    leg=poly([(leg_edge(y,-half(y))+S*y,y) for y in ys]+[(leg_edge(y,half(y))+S*y,y) for y in reversed(ys)])
+    out['л']=(OR(arch,leg,disc(cx_,cy_,r_)),521)
     # ---- к ж ь ъ ы: stem with the entry hook of n (or a flat top), arms and bowl of native k and b
     k=native(ita,'k');b=native(ita,'b')
     hook=AND(transformed(n_stem1(),dx=-47.8),above(330))         # n stem (52.4..116.1) onto the k/b stem (4.6..69.4)
@@ -202,7 +215,10 @@ def build(ita,reg):
     dxo=116.1+gap_yu-o_lo
     out['ю']=(OR(n_stem1(),band(110,116.1+gap_yu+22,243,268),transformed(o,dx=dxo)),600)
     c_f=(o_lo+o_hi)/2
-    out['ф']=(OR(o,band(c_f-27.0,c_f+27.0,-60,560),transformed(AND(b,above(560)),dx=c_f-37.9),transformed(AND(p_,below(-60)),dx=c_f-50.2)),560)
+    def f_stem():                                  # 54 wide through the bowl, widening to the native b (66) and p (67) stems over 120 units: no step at the joints
+        W=[(-60,33.5),(0,27.0),(440,27.0),(560,33.0)]
+        return poly([(c_f-w+S*y,y) for y,w in W]+[(c_f+w+S*y,y) for y,w in reversed(W)])
+    out['ф']=(OR(o,f_stem(),transformed(AND(b,above(560)),dx=c_f-37.9),transformed(AND(p_,below(-60)),dx=c_f-50.2)),560)
     # ---- в ч я: stem swap, bowls and legs from the sheared Regular
     out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530))),435)
     ч_=sheared('ч')
