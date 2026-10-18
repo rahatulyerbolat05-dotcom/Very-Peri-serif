@@ -375,11 +375,15 @@ def build(ita,reg):
     gap_yu=57.0                                                  # stem to oval, as in the Regular 1.015
     dxo=116.1+gap_yu-o_lo
     out['ю']=(OR(n_stem1(),band(110,116.1+gap_yu+22,243,268),transformed(o,dx=dxo)),600)
-    c_f=(o_lo+o_hi)/2
-    def f_stem():                                  # 54 wide through the bowl, widening to the native b (66) and p (67) stems over 120 units: no step at the joints
-        W=[(-60,33.5),(0,27.0),(440,27.0),(560,33.0)]
-        return poly([(c_f-w+S*y,y) for y,w in W]+[(c_f+w+S*y,y) for y,w in reversed(W)])
-    out['ф']=(OR(o,f_stem(),transformed(AND(b,above(560)),dx=c_f-37.9),transformed(AND(p_,below(-60)),dx=c_f-50.2)),560)
+    # ф by the usual method (author: not a crossed oval): two bowls on a shared stem, as the Regular ф. Left bowl, stem, ascender and flag:
+    # the native d whole (its bowl joins its own stem, joints untouched); descender and serif: the native q (stem at the same place, 237..304);
+    # right bowl: the native p bowl moved onto that stem, its counter tightened to the left one (d 174 at y=255; p 202). The crossed oval
+    # (o + stem) of I008-I017 is kept as the PUA alternate U+F105.
+    out['\uf105']=(OR(o,band((o_lo+o_hi)/2-27,(o_lo+o_hi)/2+27,-60,560),transformed(AND(b,above(560)),dx=(o_lo+o_hi)/2-37.9),transformed(AND(p_,below(-60)),dx=(o_lo+o_hi)/2-50.2)),560)
+    d_=native(ita,'d');EF_SL=237.0;EF_CR=170.
+    ef_left=OR(SUB(AND(d_,above(198)),AND(right_of(EF_SL+80),below(260))),AND(q,below(202)))   # d above 200, q below (identical there: -24..45.9, 208.8..304); no exit of d
+    ef_right=AND(transformed(AND(p_,AND(right_of(80),AND(above(-12),below(520)))),dx=EF_SL-17.0-(202.-EF_CR)),right_of(EF_SL))
+    out['ф']=(OR(ef_left,ef_right),600)
     # ---- в ч я: stem swap, bowls and legs from the sheared Regular
     v_fill=poly([(150,500),(165,511),(205,510),(222,509),(229,491),(195,468),(188,467),(160,440)])    # the Regular bowl starts right of the n arch: fills the notch between arch and bowl top
     out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530)),v_fill),435)
@@ -437,7 +441,7 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}
