@@ -1,5 +1,5 @@
 {
- "version": "0.7",
+ "version": "0.8",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -7,6 +7,7 @@
   "0.4": "к ж ь ъ ы ө ғ й, drafts в з э ч я ю ф б м",
   "0.5": "ь ъ ы with the low Regular bowl, versioned names",
   "0.6": "ь ъ ы: stem from the native n (hook, flat base), bowl from the Regular; audit tool added",
-  "0.7": "side bearings of free letters fitted to the native gaps (tools/italic_respace.py); diagnosis of the look against Instrument Serif"
+  "0.7": "side bearings of free letters fitted to the native gaps (tools/italic_respace.py); diagnosis of the look against Instrument Serif",
+  "0.8": "ю ф from native parts only; в ч я by stem swap (stems from n and u, bowls from the sheared Regular)"
  }
 }

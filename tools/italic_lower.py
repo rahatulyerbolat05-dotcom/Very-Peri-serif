@@ -134,7 +134,7 @@ def build(ita,reg):
     out['д']=(de,430)
     # ---- л: right half of n (arch from its thin side, stem, exit) + a straight thin leg along the Regular leg slope
     arch=OR(AND(n,right_of(262)),AND(n,AND(right_of(122),above(305))))
-    LEG_W=28.2;LEG_SLOPE=0.2493                    # Regular leg: 29 wide, tan 14 degrees (measured in ud)
+    LEG_W=41.0;LEG_SLOPE=0.2493                    # perpendicular 37 (thin diagonals 24-37), tan 14 degrees measured in ud; I007 had 28.2 and the lightest colour of the set
     c305=142.05                                    # centre of the native arch thin side at y=305 (n: 128.0..156.1)
     def leg_edge(y,off):return c305+LEG_SLOPE*(y-305)+off
     leg=poly([(leg_edge(0,-LEG_W/2),0),(leg_edge(0,LEG_W/2),0),(leg_edge(312,LEG_W/2)+S*312,312),(leg_edge(312,-LEG_W/2)+S*312,312)])
@@ -148,7 +148,7 @@ def build(ita,reg):
     zh_stem=AND(SUB(k,cut_asc),below(510))                       # k without ascender, flat top at the x-height
     zh_stem=OR(SUB(zh_stem,AND(left_of(77),above(345))),AND(k,AND(left_of(77),AND(above(344),below(510)))))
     mirror_arms=transformed(AND(k,right_of(70)),dx=0.)
-    mp=pathops.Path();k_arms=AND(AND(k,right_of(70)),below(520));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
+    mp=pathops.Path();k_arms=SUB(AND(AND(k,right_of(55)),below(520)),AND(left_of(72),above(500)));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
     out['ж']=(OR(zh_stem,mp),447)
     soft=OR(SUB(b,cut_asc),hook)
     out['\uf102']=(soft,431)                                    # ь variant A: native b bowl (reads as upsilon)
@@ -169,9 +169,9 @@ def build(ita,reg):
     out['й']=(native(ita,'ubreve'),508)
     # ---- letters without a native analogue: Regular shape sheared about y=255 (the capital method)
     rcm=reg.getBestCmap();rgl=reg['glyf']
-    def sheared(ch,kind=None):
+    def sheared(ch,kind=None,rects=()):
         gname=rcm[ord(ch)]
-        if kind:g=round_glyph(rgl[gname],rgl,kind,(),255,255)
+        if kind:g=round_glyph(rgl[gname],rgl,kind,rects,255,255)
         else:
             pen=TTGlyphPen(None);reg.getGlyphSet()[gname].draw(TransformPen(pen,(1,0,S,1,-S*255,0)));g=pen.glyph()
         path=pathops.Path();g.draw(path.getPen(glyphSet=None),rgl) if False else None
@@ -195,15 +195,40 @@ def build(ita,reg):
     ыdx=(bowl_r+40.0)-U_L
     out['ы']=(OR(n_stem,AND(AND(AND(ы_,right_of(80)),left_of(330)),below(430)),transformed(u_stem2(),dx=ыdx)),552)
     out['\uf101']=(sheared('л'),425)                              # л, variant 2: plain shear of the Regular л (for comparison)
-    for ch,kind in (('м',None),('в',None),('з','open'),('э','open'),('ч',None),('я',None),('ю',None),('ф',None),('б',None)):
-        out[ch]=(sheared(ch,kind),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
+    # ---- ю ф: only native parts (n stem, o, p and b stems)
+    p_=native(ita,'p')
+    o_lo,o_hi=outer_ud(polys_ud(ita,'o'),255)
+    gap_yu=57.0                                                  # stem to oval, as in the Regular 1.015
+    dxo=116.1+gap_yu-o_lo
+    out['ю']=(OR(n_stem1(),band(110,116.1+gap_yu+22,243,268),transformed(o,dx=dxo)),600)
+    c_f=(o_lo+o_hi)/2
+    out['ф']=(OR(o,band(c_f-27.0,c_f+27.0,-60,560),transformed(AND(b,above(560)),dx=c_f-37.9),transformed(AND(p_,below(-60)),dx=c_f-50.2)),560)
+    # ---- в ч я: stem swap, bowls and legs from the sheared Regular
+    out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530))),435)
+    ч_=sheared('ч')
+    ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
+    ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
+    out['ч']=(OR(AND(ч_stem,above(300)),OR(AND(AND(ч_,left_of(130)),below(300)),AND(AND(ч_,right_of(130)),left_of(240))),ч_right),433)
+    я_=sheared('я')
+    я_right=transformed(u_stem2(),dx=191.1-U_L)
+    yaleg=poly([(74.4+0.32*(0-100)-14+S*0,0),(74.4+0.32*(0-100)+14,0),(74.4+0.32*(105-100)+14+S*105,105),(74.4+0.32*(105-100)-14+S*105,105)])
+    out['я']=(OR(AND(AND(я_,left_of(196)),above(100)),yaleg,я_right),428)
+    # ---- м: Regular shape without serifs; the right stem is the clean u stem with its exit (roles as the capital М: thin left stem 30,
+    # thick "\\" 69, thin "/" 30, thick right stem)
+    м_=sheared('м')
+    lstem=poly([(3.5+0.0344*(0-100),0),(3.5+0.0344*(0-100)+30.4,0),(3.5+0.0344*(510-100)+30.4+S*510,510),(3.5+0.0344*(510-100)+S*510,510)])
+    м_body=SUB(AND(м_,left_of(306)),OR(AND(left_of(100),below(72)),AND(right_of(235),below(60)),AND(left_of(15),above(465)),AND(AND(right_of(225),above(468)),left_of(275.0))))
+    vtip=poly([(163.0+S*50,50),(183.5+S*50,50),(173.5-S*9,-9)])   # the Regular V ends 35 units above the baseline: bring the tip down
+    out['м']=(OR(м_body,lstem,vtip,transformed(u_stem2(),dx=303.5-U_L)),510)
+    for ch,kind in (('з','open'),('э','open'),('б','closed')):
+        out[ch]=(sheared(ch,kind,((-999,999,430,800),) if ch=='б' else ()),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
     # ---- г: native r (stem with entry, arm)
     out['г']=(r,368)
     return out
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(20,22),'э':(20,22),'ч':(20,22),'я':(20,22),'ю':(20,22),'ф':(20,22),'б':(20,22),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}

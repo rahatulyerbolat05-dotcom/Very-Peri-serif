@@ -13,8 +13,9 @@ import math,sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from polish_outlines import polish,contours_of,to_glyph,hausdorff,merge_micro
+from italic_refit import compact_nodes as compact
 
-BUDGET=2.0;KINK_DEG=12.;SMOOTH_DEG=12.;HANDLE_MOVE=1.5;EXTREMUM_BEYOND=0.8
+BUDGET=2.6;KINK_DEG=12.;SMOOTH_DEG=12.;HANDLE_MOVE=1.5;EXTREMUM_BEYOND=0.8
 
 
 def quads(P):
@@ -120,7 +121,7 @@ def tidy(glyph,glyf,name=None):
         cur,st=polish(glyph,glyf,name)
         if hausdorff(glyph,cur,glyf)>BUDGET:cur=glyph;st={}
         stats=dict(st);done=[]
-        for label,fn in (('extrema',split_extrema),('micro',merge_micro),('smooth',smooth_pairs)):
+        for label,fn in (('extrema',split_extrema),('micro',merge_micro),('smooth',smooth_pairs),('compact',compact)):
             if fn is None:
                 g,s_=polish(cur,glyf,name);n=sum(v for k,v in s_.items() if k in ('micro','smooth','align'))
             else:
