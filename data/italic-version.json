@@ -1,11 +1,12 @@
 {
- "version": "0.6",
+ "version": "0.7",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
   "0.3": "lowercase pilot ш щ ц н д л г",
   "0.4": "к ж ь ъ ы ө ғ й, drafts в з э ч я ю ф б м",
   "0.5": "ь ъ ы with the low Regular bowl, versioned names",
-  "0.6": "ь ъ ы: stem from the native n (hook, flat base), bowl from the Regular; audit tool added"
+  "0.6": "ь ъ ы: stem from the native n (hook, flat base), bowl from the Regular; audit tool added",
+  "0.7": "side bearings of free letters fitted to the native gaps (tools/italic_respace.py); diagnosis of the look against Instrument Serif"
  }
 }

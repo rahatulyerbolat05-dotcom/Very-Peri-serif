@@ -206,6 +206,9 @@ def build(ita,reg):
 BEARINGS={'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(20,22),'э':(20,22),'ч':(20,22),'я':(20,22),'ю':(20,22),'ф':(20,22),'б':(20,22),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
+SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}
+
+
 def main():
     ita=TTFont(ITA);reg=TTFont(REG);font=TTFont(CAPS)
     built=build(ita,reg);rep=[]
@@ -214,6 +217,8 @@ def main():
         g,st=tidy(g,glyf)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
+        sp=SPACING.get(ch)
+        if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(glyf);adv+=sp['dadv']
         name=f'uni{ord(ch):04X}';glyf[name]=g
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))
         for t in font['cmap'].tables:
