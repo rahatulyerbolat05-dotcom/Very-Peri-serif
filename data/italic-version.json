@@ -1,5 +1,5 @@
 {
- "version": "0.11",
+ "version": "0.12",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -11,6 +11,7 @@
   "0.8": "ю ф from native parts only; в ч я by stem swap (stems from n and u, bowls from the sheared Regular)",
   "0.9": "caps side bearings and pair kerning (lowercase 15% of pairs, caps+lowercase, caps); Kazakh қ ң ү ұ ә",
   "0.10": "kerning keeps 20 units clear (display tracking -2% safe); tracking scale from the brand-pair reference",
-  "0.11": "л: round left end of the leg, taper to the arch (no step at the joint); ф: stem widens into the b and p stems (no steps)"
+  "0.11": "л: round left end of the leg, taper to the arch (no step at the joint); ф: stem widens into the b and p stems (no steps)",
+  "0.12": "в: notch between the n arch and the bowl top filled; tail variants for ц щ (TAIL_KIND reg|j|q) prepared, default unchanged"
  }
 }

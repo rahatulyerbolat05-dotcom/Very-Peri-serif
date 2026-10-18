@@ -18,6 +18,7 @@ from italic_tidy import tidy
 from italic_round import round_glyph
 
 S=math.tan(math.radians(13))
+TAIL_KIND='reg'                                  # descender tail of ц щ қ ң: 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
 ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
 REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf')
 CAPS=Path('build/italic-caps/VeryPeriSerifItalicT0-caps.ttf')
@@ -113,11 +114,18 @@ def build(ita,reg):
         return poly([(stem_left+S*60,60),(stem_right+S*60,60),(stem_right+S*60-(stem_right-stem_left-46)*0.0,60)])
     def foot_cut(base,l=262):return SUB(AND(base,left_of(l+76)),AND(right_of(l),below(58)))
     ts=U_L
+    TAIL=TAIL_KIND
     def with_tail(base,l,lo):
         """base: glyph whose last stem has left edge ud=l+(U_L-262) and an exit foot on the right; swap the foot for the tail.
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
+        if TAIL in ('j','q'):
+            cx=(left+right)/2;ys=6. if TAIL=='j' else 58.;wj=66.9/2;wu=(U_R-U_L)/2
+            taper=poly([(cx-wu+S*140,140),(cx-wj+S*ys,ys),(cx+wj+S*ys,ys),(cx+wu+S*140,140)])
+            if TAIL=='j':piece=transformed(AND(j,below(ys)),dx=cx-85.2)          # native hook of j, curls left
+            else:piece=transformed(AND(q,AND(right_of(200),below(ys))),dx=cx-270.5) # native descender of q with its flat serif
+            return OR(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))),taper,piece)
         wr=poly([(right+S*260,260),(right-k+S*-10,-10),(right-k+S*-10+300,-10),(right+S*260+300,260)])
         wl=poly([(left+S*170,170),(left+k+S*-10,-10),(left+k+S*-10-14-k,-10),(left+S*170-14,170)])
         cut=lambda g:SUB(SUB(g,wr),wl)
@@ -220,7 +228,8 @@ def build(ita,reg):
         return poly([(c_f-w+S*y,y) for y,w in W]+[(c_f+w+S*y,y) for y,w in reversed(W)])
     out['ф']=(OR(o,f_stem(),transformed(AND(b,above(560)),dx=c_f-37.9),transformed(AND(p_,below(-60)),dx=c_f-50.2)),560)
     # ---- в ч я: stem swap, bowls and legs from the sheared Regular
-    out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530))),435)
+    v_fill=poly([(150,500),(165,511),(205,510),(222,509),(229,491),(195,468),(188,467),(160,440)])    # the Regular bowl starts right of the n arch: fills the notch between arch and bowl top
+    out['в']=(OR(n_stem,AND(AND(sheared('в'),right_of(80)),below(530)),v_fill),435)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
     ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
