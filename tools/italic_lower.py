@@ -325,7 +325,7 @@ def build(ita,reg):
     # through them at the middle. The I006-I018 form (k arms mirrored) read as "ЖК" and is kept at U+F106.
     mp=pathops.Path();k_arms=SUB(AND(AND(k,right_of(55)),below(520)),AND(left_of(72),above(500)));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
     out['\uf106']=(OR(zh_stem,mp),447)
-    c_=native(ita,'c');ZH_GAP=18.;ZH_SL,ZH_SR=4.2,68.4                          # k stem at mid height (ud)
+    c_=native(ita,'c');ZH_GAP=45.;ZH_SL,ZH_SR=4.2,68.4                          # k stem at mid height (ud)
     c_back=slices(c_,255)[0][0]                                                  # -31.1: outer edge of the back of c at mid height
     zh_c=transformed(c_,dx=ZH_SR+ZH_GAP-c_back)
     A2=ZH_SL-ZH_GAP+c_back                                                      # mirror about ud=A2/2: the back of the reversed c ends ZH_GAP left of the stem
@@ -333,13 +333,13 @@ def build(ita,reg):
     zh_stem2=AND(AND(k,left_of(72)),below(510))
     # the joins are the pen's upstrokes (author's sketch), not a level bar: from the back of the reversed c up to the top of the stem, and
     # from the foot of the stem up into the back of c; "/" strokes are hairlines in this face (x: 26)
-    def hair(a,b,w=24.,bend=0.):
+    def hair(a,b,w=14.,bend=0.):                    # 14: the hairline of the pen model (o top); 24 made a dark knot (author)
         X=lambda q:(q[0]+S*q[1],q[1]);du,dy=b[0]-a[0],b[1]-a[1];l=math.hypot(du,dy);nx,ny=-dy/l,du/l
         P=[a,(a[0]+du/3+nx*bend,a[1]+dy/3+ny*bend),(a[0]+2*du/3+nx*bend,a[1]+2*dy/3+ny*bend),b]
         return sweep([X(q) for q in P],w,w)
     rc_back=slices(zh_rc,195)[-1][1];c_back2=slices(zh_c,350)[0][0]          # outer edges of the two backs where the upstrokes meet them
-    zh_h1=hair((rc_back-14,195),(ZH_SL+16,445),bend=-6)                         # reversed c -> top of the stem
-    zh_h2=hair((ZH_SL+18,95),(c_back2+16,350),bend=-6)                          # foot of the stem -> back of c
+    zh_h1=hair((rc_back-12,185),(ZH_SL+14,425),bend=-8)                         # reversed c -> top of the stem
+    zh_h2=hair((ZH_SR-14,105),(c_back2+12,345),bend=-8)                         # foot of the stem -> back of c
     out['ж']=(OR(zh_rc,zh_stem2,zh_c,zh_h1,zh_h2),720)
     soft=OR(SUB(b,cut_asc),hook)
     out['\uf102']=(soft,431)                                    # ь variant A: native b bowl (reads as upsilon)
@@ -415,7 +415,7 @@ def build(ita,reg):
     # parts the counters. No native donor has bowls of this size (6 and o are almost x-height tall), so it is drawn with the pen model fitted on
     # the native o (tools/italic_pen.py); skeleton in the de-slanted plane.
     import italic_pen as PEN
-    VE_SKELETON=[(214,286),(250,235),(268,150),(240,55),(160,-2),(78,14),(30,100),(20,200),(32,300),(62,390),(110,462),(175,507),(232,494),(255,440),(244,365),(220,305),(178,282),(115,267),(55,253),(28,248)]
+    VE_SKELETON=[(190,266),(236,240),(262,175),(258,95),(220,28),(160,-2),(78,14),(30,100),(20,200),(30,300),(55,385),(100,460),(165,507),(228,492),(256,430),(246,352),(222,296),(186,270),(122,248),(62,232),(30,226)]   # I020: waist lowered to 262, upper loop as wide as the lower bowl (author: в unfinished)
     out['в']=(PEN.stroke_open(VE_SKELETON),420)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
