@@ -24,6 +24,7 @@ ROUND={0x417:('open',()),0x42D:('open',()),0x4D8:('open',()),0x4E8:('closed',())
        0x42E:('closed',((89,160,-20,740),(24,228,-20,35),(21,230,690,740))),
        0x424:('closed',((248,319,-20,740),(185,382,-20,35),(185,382,690,740)))}
 REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf');ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
+SPACING=json.loads(Path('data/italic-caps-spacing.json').read_text())['glyphs'] if Path('data/italic-caps-spacing.json').exists() else {}
 CAPS=list(range(0x410,0x430))+[0x401]+[0x4D8,0x492,0x49A,0x4A2,0x4E8,0x4B0,0x4AE,0x4BA,0x406]
 
 
@@ -44,7 +45,10 @@ def main():
         g.recalcBounds(ita['glyf'])
         g,tstats=tidy(g,ita['glyf'])   # no name: Regular patches do not apply to sheared outlines
         new=f'uni{cp:04X}';ita['glyf'][new]=g
-        adv=reg['hmtx'][name][0];ita['hmtx'][new]=(adv,getattr(g,'xMin',0))
+        adv=reg['hmtx'][name][0]
+        sp=SPACING.get(ch)
+        if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(ita['glyf']);adv+=sp['dadv']
+        ita['hmtx'][new]=(adv,getattr(g,'xMin',0))
         for t in ita['cmap'].tables:
             if t.isUnicode():t.cmap[cp]=new
         report.append(dict(character=ch,source='Regular sheared'+(' + round correction' if cp in ROUND else ''),advance=adv,nodes=len(g.coordinates),tidy={k:v for k,v in tstats.items() if k in ('extrema','smooth','deviation')}))

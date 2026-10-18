@@ -220,6 +220,21 @@ def build(ita,reg):
     м_body=SUB(AND(м_,left_of(306)),OR(AND(left_of(100),below(72)),AND(right_of(235),below(60)),AND(left_of(15),above(465)),AND(AND(right_of(225),above(468)),left_of(275.0))))
     vtip=poly([(163.0+S*50,50),(183.5+S*50,50),(173.5-S*9,-9)])   # the Regular V ends 35 units above the baseline: bring the tip down
     out['м']=(OR(м_body,lstem,vtip,transformed(u_stem2(),dx=303.5-U_L)),510)
+    # ---- Kazakh letters: қ ң (tail of ц in place of the exit), ү ұ (u with a straight descender from p), ә (sheared Regular)
+    Pk=polys_ud(ita,'k')
+    from italic_rules_measure import runs as _runs
+    leg_l,leg_r=_runs(Pk,62)[1]                                  # the k leg at y=62 (ud)
+    st_right=leg_r;st_left=st_right-46.0
+    leg_cut=OR(AND(right_of(200),below(62)),AND(right_of(335),below(230)))
+    bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
+    out['қ']=(OR(SUB(ka,leg_cut),bridge,tail_at(st_left)),470)
+    out['ң']=(with_tail(en,d+262,0),500)
+    c_u=(U_L+U_R)/2
+    u_body=SUB(AND(u,left_of(338)),AND(right_of(262),below(58)))
+    descender=OR(band(c_u-32,c_u+32,-100,70),transformed(AND(p_,below(-100)),dx=c_u-50.2))
+    out['ү']=(OR(u_body,descender),508)
+    out['ұ']=(OR(u_body,descender,band(c_u-89,c_u+89,-78,-52)),508)
+    out['ә']=(sheared('ә','closed'),int(round(reg['hmtx'][rcm[ord('ә')]][0]*1.002)))
     for ch,kind in (('з','open'),('э','open'),('б','closed')):
         out[ch]=(sheared(ch,kind,((-999,999,430,800),) if ch=='б' else ()),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
     # ---- г: native r (stem with entry, arm)
@@ -228,7 +243,7 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'ю':(19,21),'ф':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}

@@ -6,11 +6,11 @@
  {
   "character": "Б",
   "source": "Regular sheared",
-  "advance": 472,
-  "nodes": 74,
+  "advance": 514,
+  "nodes": 65,
   "tidy": {
    "smooth": 6,
-   "deviation": 1.0,
+   "deviation": 1.87,
    "extrema": 4
   }
  },
@@ -21,22 +21,22 @@
  {
   "character": "Г",
   "source": "Regular sheared",
-  "advance": 384,
-  "nodes": 48,
+  "advance": 480,
+  "nodes": 42,
   "tidy": {
    "smooth": 3,
-   "deviation": 0.99,
+   "deviation": 1.15,
    "extrema": 2
   }
  },
  {
   "character": "Д",
   "source": "Regular sheared",
-  "advance": 554,
-  "nodes": 72,
+  "advance": 644,
+  "nodes": 67,
   "tidy": {
    "smooth": 3,
-   "deviation": 1.18,
+   "deviation": 1.59,
    "extrema": 3
   }
  },
@@ -47,7 +47,7 @@
  {
   "character": "Ж",
   "source": "Regular sheared",
-  "advance": 723,
+  "advance": 825,
   "nodes": 166,
   "tidy": {
    "smooth": 14,
@@ -58,33 +58,33 @@
  {
   "character": "З",
   "source": "Regular sheared + round correction",
-  "advance": 343,
-  "nodes": 90,
+  "advance": 409,
+  "nodes": 71,
   "tidy": {
    "smooth": 16,
-   "deviation": 1.17,
+   "deviation": 1.93,
    "extrema": 6
   }
  },
  {
   "character": "И",
   "source": "Regular sheared",
-  "advance": 546,
-  "nodes": 102,
+  "advance": 564,
+  "nodes": 91,
   "tidy": {
    "smooth": 8,
-   "deviation": 1.12,
+   "deviation": 1.82,
    "extrema": 6
   }
  },
  {
   "character": "Й",
   "source": "Regular sheared",
-  "advance": 546,
-  "nodes": 127,
+  "advance": 564,
+  "nodes": 112,
   "tidy": {
    "smooth": 11,
-   "deviation": 1.17,
+   "deviation": 1.82,
    "extrema": 7
   }
  },
@@ -95,11 +95,11 @@
  {
   "character": "Л",
   "source": "Regular sheared",
-  "advance": 415,
-  "nodes": 56,
+  "advance": 495,
+  "nodes": 47,
   "tidy": {
    "smooth": 4,
-   "deviation": 0.94,
+   "deviation": 1.35,
    "extrema": 3
   }
  },
@@ -118,11 +118,11 @@
  {
   "character": "П",
   "source": "Regular sheared",
-  "advance": 546,
-  "nodes": 71,
+  "advance": 564,
+  "nodes": 63,
   "tidy": {
    "smooth": 6,
-   "deviation": 0.99,
+   "deviation": 1.15,
    "extrema": 4
   }
  },
@@ -141,18 +141,18 @@
  {
   "character": "У",
   "source": "Regular sheared",
-  "advance": 383,
-  "nodes": 65,
+  "advance": 485,
+  "nodes": 60,
   "tidy": {
    "smooth": 4,
-   "deviation": 0.93,
+   "deviation": 1.21,
    "extrema": 2
   }
  },
  {
   "character": "Ф",
   "source": "Regular sheared + round correction",
-  "advance": 568,
+  "advance": 634,
   "nodes": 95,
   "tidy": {
    "smooth": 14,
@@ -167,7 +167,7 @@
  {
   "character": "Ц",
   "source": "Regular sheared",
-  "advance": 548,
+  "advance": 570,
   "nodes": 100,
   "tidy": {
    "smooth": 13,
@@ -178,7 +178,7 @@
  {
   "character": "Ч",
   "source": "Regular sheared",
-  "advance": 500,
+  "advance": 504,
   "nodes": 82,
   "tidy": {
    "smooth": 6,
@@ -189,19 +189,19 @@
  {
   "character": "Ш",
   "source": "Regular sheared",
-  "advance": 705,
-  "nodes": 93,
+  "advance": 723,
+  "nodes": 85,
   "tidy": {
-   "smooth": 3,
-   "deviation": 0.98,
+   "smooth": 4,
+   "deviation": 1.06,
    "extrema": 5
   }
  },
  {
   "character": "Щ",
   "source": "Regular sheared",
-  "advance": 706,
-  "nodes": 125,
+  "advance": 728,
+  "nodes": 123,
   "tidy": {
    "smooth": 11,
    "deviation": 1.09,
@@ -211,40 +211,40 @@
  {
   "character": "Ъ",
   "source": "Regular sheared",
-  "advance": 565,
-  "nodes": 79,
+  "advance": 611,
+  "nodes": 72,
   "tidy": {
    "smooth": 5,
-   "deviation": 1.0,
+   "deviation": 1.87,
    "extrema": 4
   }
  },
  {
   "character": "Ы",
   "source": "Regular sheared",
-  "advance": 674,
-  "nodes": 104,
+  "advance": 692,
+  "nodes": 93,
   "tidy": {
    "smooth": 8,
-   "deviation": 1.0,
+   "deviation": 1.87,
    "extrema": 6
   }
  },
  {
   "character": "Ь",
   "source": "Regular sheared",
-  "advance": 460,
-  "nodes": 66,
+  "advance": 500,
+  "nodes": 57,
   "tidy": {
    "smooth": 6,
-   "deviation": 1.0,
+   "deviation": 1.87,
    "extrema": 4
   }
  },
  {
   "character": "Э",
   "source": "Regular sheared + round correction",
-  "advance": 452,
+  "advance": 500,
   "nodes": 60,
   "tidy": {
    "smooth": 7,
@@ -255,7 +255,7 @@
  {
   "character": "Ю",
   "source": "Regular sheared + round correction",
-  "advance": 685,
+  "advance": 731,
   "nodes": 86,
   "tidy": {
    "smooth": 10,
@@ -266,11 +266,11 @@
  {
   "character": "Я",
   "source": "Regular sheared",
-  "advance": 507,
-  "nodes": 85,
+  "advance": 519,
+  "nodes": 79,
   "tidy": {
    "smooth": 7,
-   "deviation": 1.01,
+   "deviation": 1.63,
    "extrema": 4
   }
  },
@@ -293,10 +293,10 @@
   "character": "Ғ",
   "source": "Regular sheared",
   "advance": 388,
-  "nodes": 64,
+  "nodes": 58,
   "tidy": {
    "smooth": 3,
-   "deviation": 0.99,
+   "deviation": 1.15,
    "extrema": 2
   }
  },
@@ -304,10 +304,10 @@
   "character": "Қ",
   "source": "Regular sheared",
   "advance": 487,
-  "nodes": 121,
+  "nodes": 103,
   "tidy": {
    "smooth": 12,
-   "deviation": 1.21,
+   "deviation": 1.19,
    "extrema": 6
   }
  },
@@ -326,7 +326,7 @@
   "character": "Ө",
   "source": "Regular sheared + round correction",
   "advance": 540,
-  "nodes": 37,
+  "nodes": 35,
   "tidy": {
    "smooth": 3,
    "deviation": 1.07,
@@ -337,7 +337,7 @@
   "character": "Ұ",
   "source": "Regular sheared",
   "advance": 477,
-  "nodes": 83,
+  "nodes": 80,
   "tidy": {
    "smooth": 2,
    "deviation": 1.25,
@@ -348,7 +348,7 @@
   "character": "Ү",
   "source": "Regular sheared",
   "advance": 477,
-  "nodes": 67,
+  "nodes": 64,
   "tidy": {
    "smooth": 2,
    "deviation": 1.25,
@@ -359,10 +359,10 @@
   "character": "Һ",
   "source": "Regular sheared",
   "advance": 485,
-  "nodes": 87,
+  "nodes": 73,
   "tidy": {
    "smooth": 7,
-   "deviation": 1.01,
+   "deviation": 2.0,
    "extrema": 5
   }
  },
