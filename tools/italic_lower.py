@@ -109,17 +109,21 @@ def slices(path,y,eps=0.3):
     return sorted(out)
 
 
-def pen_tail(comma_ext,base,y_top=110.,y_v=16.,depth=-160.,top_width=None):
-    """Descender tail as the pen writes it (Russian cursive, Marck Script, Caveat, Alegreya, Piazzolla): the last stroke keeps its exit up to the right,
-    the pen turns at the exit and makes a downstroke parallel to the slant below the line, which ends turning left (the native comma tip).
-    The downstroke leaves the outer edge of the exit tangentially at y_top (the turning point stays the exit tip), its left edge comes out of the foot
-    at y_v (an open pocket remains between foot and tail), it swells below the baseline and its tip stops at `depth` (у goes to -215: ц stays shorter).
-    top_width: start width when the exit is not a separate piece at y_top (capitals: the flag of the stem foot)."""
+def pen_tail(comma_ext,base,y_top=72.,y_v=-5.,depth=-150.,top_width=None):
+    """Descender tail as the pen writes it. Russian cursive (propisi): the last element of ц is a line with a rounding to the right that ends
+    just above the bottom line, then a short stick goes down and rounds to the left (the 'claw'); the same in Marck Script, Caveat, Alegreya,
+    Piazzolla. So: the native exit is cut low (y_top, it ends just above the baseline instead of rising to 145), the pen turns there over a round
+    cap and makes a short downstroke parallel to the slant, its left edge leaves the foot at its bottom (y_v; a higher point leaves a crack), it swells below the
+    line and ends in the native comma tip turned left at `depth` (у goes to -215: ц stays shorter).
+    top_width: capitals, whose exit is the flag of the stem foot merged with the stem: the downstroke starts as a hairline at the flag tip."""
     def edge(y,side):return slices(base,y)[-1][side]
-    rt=edge(y_top,1);sr=(edge(y_top-5,1)-edge(y_top+5,1))/10.
-    if top_width is None:lt=edge(y_top,0);sl=(edge(y_top-5,0)-edge(y_top+5,0))/10.
-    else:lt=rt-top_width;sl=sr                     # capitals: the flag at the foot of the stem is merged with the stem, the downstroke starts as a hairline at its tip
-    return OR(base,comma_ext(lt,y_top,sl,rt,sr,edge(y_v,1),depth))
+    if top_width is not None:
+        rt=edge(y_top,1);sr=(edge(y_top-5,1)-edge(y_top+5,1))/10.;lt=rt-top_width
+        return OR(base,comma_ext(lt,y_top,sr,rt,sr,edge(y_v,1),depth))
+    fl,fr=slices(base,y_top)[-1]                    # the exit just above the bay between stem and exit
+    body=SUB(base,AND(AND(right_of(fl-12.),above(y_top)),below(y_top+180.)))  # the rest of the exit (up to its tip near 145, 175 for k, whose tip turns left) goes
+    cap=disc((fl+fr)/2+S*y_top,y_top,(fr-fl)/2)    # round turn of the pen over the whole end of the shortened exit (32 wide at y=72, as thin as the native tip)
+    return OR(body,cap,comma_ext(fl,y_top,0.,fr,0.,edge(y_v,1),depth))
 
 
 def make_comma_ext(ita):
