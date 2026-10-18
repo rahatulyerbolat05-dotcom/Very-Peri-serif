@@ -62,6 +62,18 @@ def disc(cx,cy,r,ry=None):
     pen.curveTo((cx-r,cy-k*ry),(cx-k*r,cy-ry),(cx,cy-ry));pen.curveTo((cx+k*r,cy-ry),(cx+r,cy-k*ry),(cx+r,cy));pen.closePath();return p
 
 
+def sweep(P,w0,w1):
+    """Stroke of widening w0 -> w1 along the cubic centre line P (4 points): each edge is the cubic with its control points moved by the end normals."""
+    def unit(a,b):
+        dx,dy=b[0]-a[0],b[1]-a[1];l=math.hypot(dx,dy);return dx/l,dy/l
+    t0=unit(P[0],P[1]);t1=unit(P[2],P[3]);n0=(-t0[1],t0[0]);n1=(-t1[1],t1[0])
+    def edge(sign):
+        o=[(P[0][0]+sign*n0[0]*w0/2,P[0][1]+sign*n0[1]*w0/2),(P[1][0]+sign*n0[0]*(w0*.75+w1*.25)/2,P[1][1]+sign*n0[1]*(w0*.75+w1*.25)/2),
+           (P[2][0]+sign*n1[0]*(w0*.25+w1*.75)/2,P[2][1]+sign*n1[1]*(w0*.25+w1*.75)/2),(P[3][0]+sign*n1[0]*w1/2,P[3][1]+sign*n1[1]*w1/2)];return o
+    A=edge(1);B=edge(-1)
+    p=pathops.Path();pen=p.getPen();pen.moveTo(A[0]);pen.curveTo(A[1],A[2],A[3]);pen.lineTo(B[3]);pen.curveTo(B[2],B[1],B[0]);pen.closePath();return p
+
+
 def band(ud0,ud1,y0,y1):
     """Slanted rectangle: ud in [ud0,ud1], y in [y0,y1]."""
     return poly([(ud0+S*y0,y0),(ud1+S*y0,y0),(ud1+S*y1,y1),(ud0+S*y1,y1)])
@@ -115,6 +127,15 @@ def build(ita,reg):
     def foot_cut(base,l=262):return SUB(AND(base,left_of(l+76)),AND(right_of(l),below(58)))
     ts=U_L
     TAIL=TAIL_KIND
+    def descender_tail(cx,y0,w0):
+        """'ball': the stem bends right at depth and ends in the round terminal of the family (as the ear of g and the tail of y); 'wedge': straight descender narrowing to a thin end.
+        The stroke starts inside the stem along its slant, its width is the perpendicular one (horizontal width times cos 13), so the edges continue the stem edges."""
+        xa=lambda y:cx+S*y;x0=xa(y0);wp=w0*math.cos(math.radians(13))
+        if TAIL=='ball':
+            P=[(x0,y0),(x0-S*(y0+60),-60),(xa(-200)+30,-218),(xa(-200)+88,-196)]
+            return OR(sweep(P,wp,33.),disc(P[3][0],P[3][1]+1,18))
+        P=[(x0,y0),(x0-S*(y0+50),-50),(xa(-120)+6,-120),(xa(-215)+34,-214)]
+        return OR(sweep(P,wp,18.),disc(P[3][0],P[3][1]+8,9))
     def n_foot(cx,depth=-200.):
         """The native exit stroke of n (stem foot curving into the thin flick) moved down by `depth`, no scaling: the same gesture as every stem end of the
         family, at descender depth. Returns (piece, half stem width, y of the stem cut after the move)."""
@@ -126,6 +147,9 @@ def build(ita,reg):
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
+        if TAIL in ('ball','wedge'):
+            cx=(left+right)/2;wu=(U_R-U_L)/2;y0=110.     # the stroke starts inside the stem and keeps its slant: the cut at y=58 is covered
+            return OR(SUB(AND(base,left_of(right+1)),AND(right_of(l),below(58))),descender_tail(cx,y0,2*wu))
         if TAIL=='n':
             cx=(left+right)/2;wu=(U_R-U_L)/2;foot,wn,ytop=n_foot(cx)
             taper=poly([(cx-wu+S*150,150),(cx-wn+S*ytop,ytop),(cx+wn+S*ytop,ytop),(cx+wu+S*150,150)])
@@ -260,9 +284,16 @@ def build(ita,reg):
     from italic_rules_measure import runs as _runs
     leg_l,leg_r=_runs(Pk,62)[1]                                  # the k leg at y=62 (ud)
     st_right=leg_r;st_left=st_right-46.0
-    leg_cut=OR(AND(right_of(200),below(62)),AND(right_of(335),below(230)))
+    l2,r2=leg_l2r2=_runs(Pk,95)[1]
+    ycut=95 if TAIL in ('ball','wedge') else 62
+    leg_cut=OR(AND(right_of(200),below(ycut)),AND(right_of(r2+1.5 if TAIL in ('ball','wedge') else 335),below(230)))
     bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
-    if TAIL=='n':
+    if TAIL in ('ball','wedge'):
+        cxk=(leg_l+leg_r)/2;wu=(U_R-U_L)/2
+        # leg edges higher up (l2,r2): the taper follows them, no notch at the cut
+        taper=poly([(l2+S*95,95),(r2+S*95,95),(cxk+wu+S*28,28),(cxk-wu+S*28,28)])   # ends below the start of the stroke: its slanted cap is covered
+        out['қ']=(OR(SUB(ka,leg_cut),taper,descender_tail(cxk,40.,2*wu)),470)
+    elif TAIL=='n':
         cxk=(leg_l+leg_r)/2;foot,wn,ytop=n_foot(cxk)
         taper=poly([(leg_l+S*62,62),(leg_r+S*62,62),(cxk+wn+S*ytop,ytop),(cxk-wn+S*ytop,ytop)])
         out['қ']=(OR(SUB(ka,leg_cut),taper,foot),470)
