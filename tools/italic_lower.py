@@ -126,6 +126,44 @@ def pen_tail(comma_ext,base,y_top=72.,y_v=-5.,depth=-150.,top_width=None):
     return OR(body,cap,comma_ext(fl,y_top,0.,fr,0.,edge(y_v,1),depth))
 
 
+def smooth_tail(base,y_c=60.,depth=-150.,tip_r=12.,reach=46.,lean=0.30,tip_dir=(-1.0,-1.0),fillet=18.,flag=None,y_b=0.):
+    """The pen tail drawn as ONE stroke of smooth curves (the author: "make them smoother"; the composite of I015 had curvature jumps at the
+    cap, the bridge and the grafted comma tip). In the de-slanted plane:
+      outer contour: the inner edge of the exit at y_c rises, turns over the top (cap, tangent to the exit edge) and comes down as the right
+                     edge of the downstroke, leaning out by `lean` (the swell of a pressed stroke), then bends down-left into the tip;
+      tip:           round, radius tip_r, centre `reach` left of the foot's right extent at the baseline, `depth` at its lowest;
+      inner contour: from the tip up to the foot, arriving tangent to the foot outline at the baseline: the foot flows into the tail, no crack.
+    The native exit above y_c is removed (in cursive the exit ends just above the line)."""
+    def piece(y):return slices(base,y)[-1]
+    bx=piece(y_b)[1];b_s=(piece(y_b+4.)[1]-piece(y_b-4.)[1])/8.            # foot outline at the baseline and its lean
+    if flag is None:
+        fl,fr=piece(y_c);in_s=(piece(y_c+1.5)[0]-piece(y_c-1.5)[0])/3.     # exit inner edge: ud per unit upward, measured close (it is curved)
+        body=SUB(base,AND(AND(right_of(fl-12.),above(y_c)),below(y_c+180.)))
+    else:                                                                  # capitals: the flag of the stem foot is the exit, merged with the stem
+        fr=piece(y_c)[1];fl=fr-flag;in_s=(piece(y_c+1.5)[1]-piece(y_c-1.5)[1])/3.;body=base
+    def unit(a,b):l=math.hypot(a,b);return a/l,b/l
+    dt=unit(*tip_dir)                                                      # direction of the stroke at the tip: down and to the left (45 degrees in the de-slanted plane)
+    no=(-dt[1],dt[0])
+    if no[0]<0:no=(-no[0],-no[1])                                          # normal to the outer side (it faces lower right)
+    C=(bx-reach,depth+tip_r);O=(C[0]+tip_r*no[0],C[1]+tip_r*no[1]);I=(C[0]-tip_r*no[0],C[1]-tip_r*no[1])
+    B=(bx,0.);E=(fl,y_c);D=(fr,y_c);ld=unit(lean,-1.);di=unit(in_s,1.);db=unit(b_s,1.)
+    L=y_c-depth;k=0.5523
+    X=lambda q:(q[0]+S*q[1],q[1])
+    add=lambda a,b,t:(a[0]+b[0]*t,a[1]+b[1]*t)
+    pth=pathops.Path();pen=pth.getPen()
+    pen.moveTo(X(B))
+    if flag is not None:pen.lineTo(X((bx-25.,(y_b+y_c)/2)))             # capitals: close through the stem, so no eye is left under the flag
+    pen.lineTo(X(E))
+    w=fr-fl;pen.curveTo(X(add(E,di,w*0.75)),X(add(D,ld,-w*0.75)),X(D))                       # turn of the pen
+    pen.curveTo(X(add(D,ld,L*0.40)),X(add(O,dt,-L*0.36)),X(O))                               # outer edge of the downstroke: swells out, then bends left
+    bot=(C[0]+tip_r*dt[0],C[1]+tip_r*dt[1])
+    pen.curveTo(X(add(O,dt,tip_r*k)),X(add(bot,no,tip_r*k)),X(bot))                          # round tip
+    pen.curveTo(X(add(bot,no,-tip_r*k)),X(add(I,dt,tip_r*k)),X(I))
+    pen.curveTo(X(add(I,dt,-L*0.36)),X(add(B,db,-fillet)),X(B))                              # inner edge, tangent to the foot at the baseline (short handle: no wave)
+    pen.closePath()
+    return OR(body,pth)
+
+
 def make_comma_ext(ita):
     """Descender tail 'comma': the lower part of the native comma (below its waist) hung under the last stroke, which keeps its own exit.
     Returns comma_ext(l_top,y_top,sl,r_top,sr,l_j,depth): the tail of the native comma below y=-40, moved (no scaling) so that its waist
@@ -197,7 +235,7 @@ def build(ita,reg):
         The stem narrows on both sides, 8.5 each (right from y=260, left from y=170: the bowl is close above that), to y=-10 (edge lean 11.2 and 14.8 degrees, both native values)
         into the 46 wide stalk of the Regular tail."""
         left=l+(U_L-262);right=left+(U_R-U_L);k=8.5
-        if TAIL=='pen':return pen_tail(comma_ext,base)
+        if TAIL=='pen':return smooth_tail(base)
         if TAIL=='comma':
             return OR(base,comma_ext(left,100.,0.,right,0.,left))
         if TAIL in ('ball','wedge'):
@@ -343,7 +381,7 @@ def build(ita,reg):
     leg_cut=OR(AND(right_of(200),below(ycut)),AND(right_of(r2+1.5 if TAIL in ('ball','wedge') else 335),below(230)))
     bridge=poly([(leg_l+S*62,62),(leg_r+S*62,62),(st_right+S*-10,-10),(st_left+S*-10,-10)])
     if TAIL=='pen':
-        out['қ']=(pen_tail(comma_ext,ka),470)
+        out['қ']=(smooth_tail(ka),470)
     elif TAIL=='comma':
         kl=_runs(Pk,40)[1][0];ksl=(_runs(Pk,38)[1][0]-_runs(Pk,42)[1][0])/4.   # leg left edge at y=40 and its lean (0.8 per unit downward): the bridge leaves it tangentially
         out['қ']=(OR(ka,comma_ext(kl,40.,ksl,340.,0.,298.)),470)   # waist under the foot of the leg: the knee stays as heavy as the stem (67 across)
