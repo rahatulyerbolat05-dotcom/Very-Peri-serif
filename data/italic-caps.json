@@ -168,7 +168,7 @@
   "character": "Ц",
   "source": "Regular sheared",
   "advance": 570,
-  "nodes": 100,
+  "nodes": 84,
   "tidy": {
    "smooth": 13,
    "deviation": 1.19,
@@ -201,7 +201,7 @@
   "character": "Щ",
   "source": "Regular sheared",
   "advance": 728,
-  "nodes": 123,
+  "nodes": 111,
   "tidy": {
    "smooth": 11,
    "deviation": 1.09,
@@ -304,7 +304,7 @@
   "character": "Қ",
   "source": "Regular sheared",
   "advance": 487,
-  "nodes": 103,
+  "nodes": 110,
   "tidy": {
    "smooth": 12,
    "deviation": 1.19,
@@ -315,7 +315,7 @@
   "character": "Ң",
   "source": "Regular sheared",
   "advance": 548,
-  "nodes": 111,
+  "nodes": 97,
   "tidy": {
    "smooth": 12,
    "deviation": 1.55,

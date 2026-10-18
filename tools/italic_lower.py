@@ -98,6 +98,27 @@ def to_glyph(path,glyf):
     pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,0.5,reverse_direction=False));g=pen.glyph();g.recalcBounds(glyf);return g
 
 
+def make_comma_ext(ita):
+    """Descender tail 'comma': the lower part of the native comma (below its waist) hung under the last stroke, which keeps its own exit.
+    Returns comma_ext(l_top,y_top,sl,r_top,sr,l_j,depth): the tail of the native comma below y=-40, moved (no scaling) so that its waist
+    sits at ud=l_j and its tip at `depth`, plus the bridge from the stroke above: left edge from (l_top,y_top) with slope sl (ud per unit
+    downward) to the waist, vertical there; right edge from (r_top,y_top) with slope sr to the waist with the comma's own lean. Both edges
+    are cubics in the de-slanted plane, so the joints are tangent-continuous. Used by the lowercase (here) and the capitals (italic_caps)."""
+    from italic_rules_measure import runs
+    name=ita.getBestCmap()[ord(',')];comma_g=native(ita,name)
+    P=polys_ud(ita,name);CL,CR=runs(P,-40)[0]                        # waist of the comma: left edge stationary (57.4), width 41.9
+    CM=(runs(P,-35)[0][1]-runs(P,-45)[0][1])/10.                       # its right edge leans in by 0.34 per unit downward
+    bottom=ita['glyf'][name].yMin
+    def comma_ext(l_top,y_top,sl,r_top,sr,l_j,depth=-200.):
+        dy=depth-bottom;dx=l_j-CL+S*dy;yj=-40.+dy;r_j=l_j+(CR-CL);h=(y_top-yj)/3.
+        X=lambda u,y:(u+S*y,y)
+        p=pathops.Path();pen=p.getPen()
+        pen.moveTo(X(l_top,y_top));pen.curveTo(X(l_top+sl*h,y_top-h),X(l_j,yj+h),X(l_j,yj))
+        pen.lineTo(X(r_j,yj));pen.curveTo(X(r_j+CM*h,yj+h),X(r_top+sr*h,y_top-h),X(r_top,y_top));pen.closePath()
+        return OR(p,transformed(AND(comma_g,below(-40.)),dx=dx,dy=dy))
+    return comma_ext
+
+
 def build(ita,reg):
     u=native(ita,'u');n=native(ita,'n');q=native(ita,'q');j=native(ita,'j');r=native(ita,'r')
     out={}
@@ -136,22 +157,7 @@ def build(ita,reg):
             return OR(sweep(P,wp,33.),disc(P[3][0],P[3][1]+1,18))
         P=[(x0,y0),(x0-S*(y0+50),-50),(xa(-120)+6,-120),(xa(-215)+34,-214)]
         return OR(sweep(P,wp,18.),disc(P[3][0],P[3][1]+8,9))
-    # ---- descender tail 'comma': the lower part of the native comma (below its waist) hung under the last stroke, which keeps its own exit
-    comma_name=ita.getBestCmap()[ord(',')];comma_g=native(ita,comma_name)
-    from italic_rules_measure import runs as _cr
-    _P=polys_ud(ita,comma_name);CL,CR=_cr(_P,-40)[0]                 # waist of the comma: left edge stationary (57.4), width 41.9
-    CM=(_cr(_P,-35)[0][1]-_cr(_P,-45)[0][1])/10.                       # its right edge leans in by 0.34 per unit downward
-    COMMA_BOTTOM=ita['glyf'][comma_name].yMin
-    def comma_ext(l_top,y_top,sl,r_top,sr,l_j,depth=-200.):
-        """Tail of the native comma below y=-40, moved (no scaling) so that its waist sits at ud=l_j and its tip at `depth`, plus the bridge from the
-        stroke above: left edge from (l_top,y_top) with slope sl (ud per unit downward) to the waist, vertical there; right edge from (r_top,y_top)
-        with slope sr to the waist with the comma's own lean CM. Both edges are cubics in the de-slanted plane, so the joints are tangent-continuous."""
-        dy=depth-COMMA_BOTTOM;dx=l_j-CL+S*dy;yj=-40.+dy;r_j=l_j+(CR-CL);h=(y_top-yj)/3.
-        X=lambda u,y:(u+S*y,y)
-        p=pathops.Path();pen=p.getPen()
-        pen.moveTo(X(l_top,y_top));pen.curveTo(X(l_top+sl*h,y_top-h),X(l_j,yj+h),X(l_j,yj))
-        pen.lineTo(X(r_j,yj));pen.curveTo(X(r_j+CM*h,yj+h),X(r_top+sr*h,y_top-h),X(r_top,y_top));pen.closePath()
-        return OR(p,transformed(AND(comma_g,below(-40.)),dx=dx,dy=dy))
+    comma_ext=make_comma_ext(ita)
     def n_foot(cx,depth=-200.):
         """The native exit stroke of n (stem foot curving into the thin flick) moved down by `depth`, no scaling: the same gesture as every stem end of the
         family, at descender depth. Returns (piece, half stem width, y of the stem cut after the move)."""
