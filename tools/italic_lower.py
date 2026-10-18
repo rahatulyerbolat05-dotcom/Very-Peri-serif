@@ -126,6 +126,33 @@ def pen_tail(comma_ext,base,y_top=72.,y_v=-5.,depth=-150.,top_width=None):
     return OR(body,cap,comma_ext(fl,y_top,0.,fr,0.,edge(y_v,1),depth))
 
 
+def stem_tail(base,y_top,sl=0.,sr=0.,depth=-150.,tip_r=12.,tip_off=-40.,tip_dir=(-1.0,-1.0),hand=(0.62,0.18,0.34,0.50)):
+    """Capitals: the stem (or the leg of Қ) goes on below the line in one stroke and turns left into a round tip, as the pen does it.
+    The Regular drop, its neck and the flag at the foot are removed below y_top (they made the joint crooked: a bent left edge and a knob on
+    the right); the stroke is redrawn from its clean section at y_top (edges with slopes sl, sr in ud per unit downward). In the de-slanted
+    plane: left edge stays straight long, then bends into the tip; right edge comes down, narrows and bends the same way; tip radius tip_r,
+    its centre tip_off from the stroke's left edge (left of it: the bend needs room, a tip under the stem pulls the left edge inwards), lowest
+    point at `depth`; hand: handle lengths (left top, left at the tip, right at the tip, right top) as fractions of the height."""
+    l,r=slices(base,y_top)[-1]
+    body=SUB(SUB(base,AND(right_of(l+1.),below(y_top))),below(-0.5))      # also every remnant of the drop below the line
+    def unit(a,b):d=math.hypot(a,b);return a/d,b/d
+    dt=unit(*tip_dir);no=(-dt[1],dt[0])
+    if no[0]<0:no=(-no[0],-no[1])
+    span=y_top-depth;lb=l+sl*span*0.6                                      # the left edge where it reaches the tip region
+    C=(lb+tip_off,depth+tip_r);O=(C[0]+tip_r*no[0],C[1]+tip_r*no[1]);I=(C[0]-tip_r*no[0],C[1]-tip_r*no[1])
+    bot=(C[0]+tip_r*dt[0],C[1]+tip_r*dt[1]);k=0.5523
+    X=lambda q:(q[0]+S*q[1],q[1]);add=lambda a,b,t:(a[0]+b[0]*t,a[1]+b[1]*t)
+    pth=pathops.Path();pen=pth.getPen()
+    pen.moveTo(X((l,y_top)))
+    h1,h2,h3,h4=hand
+    pen.curveTo(X((l+sl*span*h1,y_top-span*h1)),X(add(I,dt,-span*h2)),X(I))               # left edge
+    pen.curveTo(X(add(I,dt,tip_r*k)),X(add(bot,no,-tip_r*k)),X(bot))                      # round tip
+    pen.curveTo(X(add(bot,no,tip_r*k)),X(add(O,dt,tip_r*k)),X(O))
+    pen.curveTo(X(add(O,dt,-span*h3)),X((r+sr*span*h4,y_top-span*h4)),X((r,y_top)))      # right edge
+    pen.closePath()
+    return OR(body,pth)
+
+
 def smooth_tail(base,y_c=60.,depth=-150.,tip_r=12.,reach=46.,lean=0.30,tip_dir=(-1.0,-1.0),fillet=18.,flag=None,y_b=0.):
     """The pen tail drawn as ONE stroke of smooth curves (the author: "make them smoother"; the composite of I015 had curvature jumps at the
     cap, the bridge and the grafted comma tip). In the de-slanted plane:

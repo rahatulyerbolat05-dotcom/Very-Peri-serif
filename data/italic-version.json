@@ -1,5 +1,5 @@
 {
- "version": "0.16",
+ "version": "0.17",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -16,6 +16,7 @@
   "0.13": "ц щ ң қ and Ц Щ Ң Қ: tail = lower part of the native comma below its waist, hung under the last stroke which keeps its native exit or flag (spur); bridge edges are tangent cubics; lowercase spacing refit",
   "0.14": "tails as written: the exit (lowercase) or the foot flag (capitals) turns into a downstroke parallel to the slant below the line, ending in the native comma tip turned left at -160 (ц щ ң қ Ц Щ Ң Қ); the comma tail of I013 rejected by the author (two strokes from one point cannot be written)",
   "0.15": "tails after the propisi: the exit is cut low (y=72, it ends just above the line), the pen turns over a round cap and makes a short downstroke (the claw) from the bottom of the foot, ending in the native comma tip turned left at -150; no horn above the turn, no crack between foot and tail",
-  "0.16": "smoother tails (author): each tail is one stroke of smooth curves (smooth_tail): exit cut at 60, round turn tangent to its inner edge, outer edge swells and bends left, round tip at -150, inner edge tangent to the foot (lowercase) or meeting the bar end (capitals, no eye under the flag)"
+  "0.16": "smoother tails (author): each tail is one stroke of smooth curves (smooth_tail): exit cut at 60, round turn tangent to its inner edge, outer edge swells and bends left, round tip at -150, inner edge tangent to the foot (lowercase) or meeting the bar end (capitals, no eye under the flag)",
+  "0.17": "capitals Ц Щ Ң Қ: the Regular neck, flag and drop removed below y=170 (they made the joint crooked, author: \"криво\"); the stem (leg of Қ) is redrawn from its clean section and goes on below the line into the tail in one stroke (stem_tail), one contour per letter"
  }
 }

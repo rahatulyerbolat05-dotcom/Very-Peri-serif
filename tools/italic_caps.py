@@ -28,8 +28,9 @@ SPACING=json.loads(Path('data/italic-caps-spacing.json').read_text())['glyphs'] 
 # descender tails: the Regular drop below the baseline gives way to the tail of the native comma (as the lowercase, italic_lower.make_comma_ext);
 # the flag at the foot of the stem stays as the spur. y of the full-width stroke the bridge starts from: stems 160, the stalk at the end of the Қ leg 40
 TAILS={0x426:160.,0x429:160.,0x4A2:160.,0x49A:40.}
-# 'pen' tails of the capitals: (y of the flag tip where the pen turns down, y where the inner edge of the tail meets the foot or bar end)
-CAP_PEN={0x426:(66.,6.),0x429:(66.,6.),0x4A2:(66.,6.),0x49A:(66.,6.)}
+# 'pen' tails of the capitals (italic_lower.stem_tail): y of the clean section of the stem the tail is redrawn from (above the Regular neck,
+# which starts at 161), and for the leg of Қ its edge slopes (ud per unit downward)
+CAP_PEN={0x426:(170.,),0x429:(170.,),0x4A2:(170.,),0x49A:(140.,0.535,0.535,-150.,12.,-30.,(-1.0,-1.0),(0.45,0.18,0.30,0.28))}
 CAPS=list(range(0x410,0x430))+[0x401]+[0x4D8,0x492,0x49A,0x4A2,0x4E8,0x4B0,0x4AE,0x4BA,0x406]
 
 
@@ -66,7 +67,7 @@ def main():
             import italic_lower as IL
             y_top=TAILS[cp];path=IL.pathops.Path();g.draw(path.getPen(),ita['glyf']);l,r=_slices(IL,path,y_top)[-1]
             base=IL.SUB(path,IL.below(-0.5))
-            if IL.TAIL_KIND=='pen':tail=IL.smooth_tail(base,y_c=CAP_PEN[cp][0],flag=30.,y_b=CAP_PEN[cp][1])
+            if IL.TAIL_KIND=='pen':tail=IL.stem_tail(path,*CAP_PEN[cp])
             else:tail=IL.OR(base,comma_ext(l,y_top,0.,r,0.,l))
             g=IL.to_glyph(tail,ita['glyf']);g,_=tidy(g,ita['glyf']);ita['glyf'][new]=g
         adv=reg['hmtx'][name][0]
