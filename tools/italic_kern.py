@@ -26,7 +26,7 @@ STRENGTH=0.8;DEADBAND=int(next((a.split('=')[1] for a in sys.argv if a.startswit
 LETTERS='абвгдеёжзийклмнопрстуфхцчшщъыьэюяәғқңөұүһі'
 CAPS='АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯӘҒҚҢӨҰҮҺІ';CAPS_NATIVE=set('АВЕЁКМНОРСТХҺІ')
 FEATURES=Path('data/italic-features.json')
-BAR_LIMIT={'uni0442.ss03':24}     # printed т: the soft minimum would tuck the neighbours under the bar (-70) and hide its ends
+BAR_LIMIT={'uni0442.ss03':24,'uni0433.ss04':24}     # printed т г: the soft minimum would tuck the neighbours under the bar (-70) and hide its ends
 TARGET=set('аеёиопрстух')|set('АВЕЁКМНОРСТХ')        # the rhythm target: native pairs of I009-I022 (һ і are native but not in the mean)
 OUT=Path('data/italic-kerning.json')
 
