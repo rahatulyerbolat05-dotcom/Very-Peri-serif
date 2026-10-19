@@ -1,0 +1,54 @@
+{
+ "note": "tools/italic_features.py",
+ "glyphs": {
+  "uni0442.srb": {
+   "source": "uni0448 + uni0304",
+   "dx": 141
+  },
+  "uni0442.ss03": {
+   "source": "dotlessi stem + T bar and arms",
+   "bar": [
+    -65,
+    235
+   ],
+   "bar_y": [
+    485.0,
+    510.0
+   ],
+   "points": 59
+  }
+ },
+ "kern_glyphs": {
+  "uni0442.srb": [
+   "т",
+   false
+  ],
+  "uni0442.ss03": [
+   "т",
+   false
+  ],
+  "eth": [
+   "д",
+   true
+  ],
+  "g": [
+   "д",
+   true
+  ],
+  "imacron": [
+   "г",
+   true
+  ],
+  "umacron": [
+   "п",
+   true
+  ]
+ },
+ "features": [
+  "locl SRB",
+  "locl MKD",
+  "ss01",
+  "ss02",
+  "ss03"
+ ]
+}
