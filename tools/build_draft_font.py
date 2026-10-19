@@ -222,6 +222,14 @@ def main(output_dir=OUT,ttf_path=TTF):
         polish_stats={}
         if not native_donor and 'data/homoglyph/' not in str(filename):
             font['glyf'][name]=glyph;glyph,polish_stats=polish(glyph,font['glyf'],name)
+            # 1.016: tangent breaks at seams and short handles faired on the integer grid (tools/italic_fair.py, Regular tolerances:
+            # points within 1.2, glyph within 1.5); kinks of the added letters 223 -> 24, curvature wobble 15 -> 1
+            from italic_fair import fair_regular
+            glyph.recalcBounds(font['glyf']);glyph,fair_stats=fair_regular(glyph,font['glyf'])
+            if len(fair_stats)>1:polish_stats=dict(polish_stats,fair={k:v for k,v in fair_stats.items()})
+            from polish_outlines import straight_edges
+            glyph,again=straight_edges(glyph,font['glyf'],glyph,{})   # a faired handle can bend a straightened edge again
+            if again.get('straight'):polish_stats=dict(polish_stats,straight_after_fair=again['straight'])
         font['glyf'][name]=glyph;order.append(name);glyph.recalcBounds(font['glyf'])
         font['hmtx'][name]=(advance,getattr(glyph,'xMin',0))
         paths[name]=path;records[name]={'character':ch,'path':filename,'advance':advance,'donors':DONORS[ch],

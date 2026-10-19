@@ -1,5 +1,5 @@
 {
- "version": "0.24",
+ "version": "0.25",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -24,6 +24,7 @@
   "0.21": "polish: tools/italic_fair.py on every assembled letter and capital (seams and grid kinks faired, 1-2 unit steps dropped, extrema onto zones), в start set down lightly inside the hairline (no flat on the lower bowl), ч without the Regular foot spur",
   "0.22": "в redrawn: centre line from proportions of PT Serif, Lora, Source Serif, Literata Italic (0.94 o, wide round lower bowl, narrower upper loop) smoothed by a least-squares B-spline, pen of the native o",
   "0.23": "OpenType: locl SRB/MKD italic forms (б ð SRB only, г ī, д g, п ū, т ш̄), ss01 for а с е ё, ss02 д with ascender, ss03 printed т (T arms with drop ends); kerning: tails under the baseline protected (DESC_CLEAR 20), Kazakh letters and the alternates kerned",
-  "0.24": "more alternates: ss04 printed г, ss05 к и ж с выносом (native k; k + mirrored arms), ss06 э from the mirrored native c"
+  "0.24": "more alternates: ss04 printed г, ss05 к и ж с выносом (native k; k + mirrored arms), ss06 э from the mirrored native c",
+  "0.25": "crooked lines: м л я ю д ф edges straightened (polish_outlines.straighten, м diagonals were broken by 4.6, л leg edges bent 1.8); capitals from Regular 1.016 (straight Ц Щ bases, Я Қ legs)"
  }
 }

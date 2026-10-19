@@ -117,6 +117,7 @@ def tidy(glyph,glyf,name=None):
     if glyph.numberOfContours<=0:return glyph,{}
     import polish_outlines as po
     old=po.KINK_DEG;po.KINK_DEG=KINK_DEG       # rounding after the shear leaves 9-10 degree breaks at line-curve nodes
+    old_r=po.STRAIGHT_LEN;po.STRAIGHT_LEN=1e9   # no straightening here: the native Italic stems bow by design (italic_lower straightens its own constructions)
     try:
         cur,st=polish(glyph,glyf,name)
         if hausdorff(glyph,cur,glyf)>BUDGET:cur=glyph;st={}
@@ -132,4 +133,4 @@ def tidy(glyph,glyf,name=None):
             if n and hausdorff(glyph,g,glyf)<=BUDGET:cur=g;stats[label]=n
         stats['deviation']=round(float(hausdorff(glyph,cur,glyf)),2)
         return cur,stats
-    finally:po.KINK_DEG=old
+    finally:po.KINK_DEG=old;po.STRAIGHT_LEN=old_r

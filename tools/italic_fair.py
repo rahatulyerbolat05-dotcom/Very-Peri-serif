@@ -141,3 +141,12 @@ def fair(glyph,glyf):
         if k:stats[label]=k
     stats['deviation']=round(float(hausdorff(glyph,cur,glyf)),2)
     return cur,stats
+
+
+def fair_regular(glyph,glyf):
+    """The same passes with the tolerances of the Regular polish (docs/polish.md: every added letter within 1.5 of its source):
+    points move by up to 1.2, nodes by 1, the glyph stays within 1.5."""
+    global DRIFT,BUDGET,NODE_MOVE,LINE_MOVE,ZONE_SNAP
+    saved=(DRIFT,BUDGET,NODE_MOVE,LINE_MOVE,ZONE_SNAP);DRIFT,BUDGET,NODE_MOVE,LINE_MOVE,ZONE_SNAP=1.2,1.5,1,1.5,1.0
+    try:return fair(glyph,glyf)
+    finally:DRIFT,BUDGET,NODE_MOVE,LINE_MOVE,ZONE_SNAP=saved

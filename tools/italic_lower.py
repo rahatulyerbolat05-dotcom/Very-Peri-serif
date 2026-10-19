@@ -459,8 +459,24 @@ def build(ita,reg):
     м_=sheared('м')
     lstem=poly([(3.5+0.0344*(0-100),0),(3.5+0.0344*(0-100)+30.4,0),(3.5+0.0344*(510-100)+30.4+S*510,510),(3.5+0.0344*(510-100)+S*510,510)])
     м_body=SUB(AND(м_,left_of(306)),OR(AND(left_of(100),below(72)),AND(right_of(235),below(60)),AND(left_of(15),above(465)),AND(AND(right_of(225),above(468)),left_of(275.0))))
-    vtip=poly([(163.0+S*50,50),(183.5+S*50,50),(173.5-S*9,-9)])   # the Regular V ends 35 units above the baseline: bring the tip down
-    out['м']=(OR(м_body,lstem,vtip,transformed(u_stem2(),dx=303.5-U_L)),510)
+    # I025: the V as four straight edges. The Regular V ends blunt 35 above the baseline; a triangle put under it broke both diagonals
+    # (4.6-5.1 units, tools/straightness_audit.py). Edges of the thick "\\" and the thin "/" fitted on the body (y 200-450), anchored at
+    # y=450 where the V enters the stems, and brought to one apex at -9 (overshoot of a point): the slopes change by under a degree,
+    # the stroke widths (69, 31) are kept.
+    import numpy as np
+    ys=list(range(200,451,25));sl=[slices(м_,y) for y in ys]
+    fit=lambda k,e:np.polyfit(ys,[s_[k][e] for s_ in sl],1)
+    (a1,a0),(b1,b0),(c1,c0),(d1,d0)=fit(1,0),fit(1,1),fit(2,0),fit(2,1)
+    Y0,Y1=-9.,450.;A=a1*Y1+a0;Dd=d1*Y1+d0;U=(A+Dd)/2;wt=(b1*Y1+b0)-A;wn=Dd-(c1*Y1+c0)   # apex under the middle of the V top
+    sa=(U-A)/(Y0-Y1);sd=(U-Dd)/(Y0-Y1)
+    def edge(x1,s_,off,y):return x1+s_*(y-Y1)+off
+    def pts(e1,e2,y_lo):return [(edge(*e1,y_lo)+S*y_lo,y_lo),(edge(*e1,Y1+5)+S*(Y1+5),Y1+5),(edge(*e2,Y1+5)+S*(Y1+5),Y1+5),(edge(*e2,y_lo)+S*y_lo,y_lo)]
+    y_in=Y1+((Dd-wn)-(A+wt))/(sa-sd)                                                  # inner apex: right edge of "\\" meets left edge of "/"
+    v_outer=poly([(U+S*Y0,Y0),(A+S*(Y1+5)+sa*5,Y1+5),(Dd+S*(Y1+5)+sd*5,Y1+5)])
+    v_inner=poly([(edge(A,sa,wt,y_in)+S*y_in,y_in),(edge(A,sa,wt,Y1+5)+S*(Y1+5),Y1+5),(edge(Dd,sd,-wn,Y1+5)+S*(Y1+5),Y1+5)])
+    v_new=SUB(v_outer,v_inner)
+    м_body=SUB(м_body,AND(below(Y1),AND(right_of(sl[-1][0][1]-2),left_of(sl[-1][-1][0]+2))))   # the old V below 450, stems kept
+    out['м']=(OR(м_body,lstem,v_new,transformed(u_stem2(),dx=303.5-U_L)),510)
     # ---- Kazakh letters: қ ң (tail of ц in place of the exit), ү ұ (u with a straight descender from p), ә (sheared Regular)
     Pk=polys_ud(ita,'k')
     from italic_rules_measure import runs as _runs
@@ -503,6 +519,7 @@ def build(ita,reg):
 BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
+STRAIGHTEN=set('мляюдф')     # constructions with straight edges (tools/straightness_audit.py); native stems bow and are left alone
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}
 
 
@@ -511,7 +528,12 @@ def main():
     built=build(ita,reg);rep=[]
     for ch,(path,adv) in built.items():
         glyf=font['glyf'];g=to_glyph(path,glyf)
-        g,st=tidy(g,glyf);g,_=fair(g,glyf)              # I021: seams and grid kinks faired (tools/italic_fair.py)
+        g,st=tidy(g,glyf)
+        if ch in STRAIGHTEN:                            # I025: edges of the own constructions meant straight (м diagonals broken 4.6, л leg taper bent 1.8)
+            import polish_outlines as PO;r=PO.STRAIGHT_RATIO;PO.STRAIGHT_RATIO=0.008
+            try:g,_=PO.straight_edges(g,glyf,g,{})
+            finally:PO.STRAIGHT_RATIO=r
+        g,_=fair(g,glyf)                                # I021: seams and grid kinks faired (tools/italic_fair.py)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         sp=SPACING.get(ch)

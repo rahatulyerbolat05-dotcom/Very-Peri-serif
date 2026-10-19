@@ -6,6 +6,12 @@
    KINK_DEG degrees (integer rounding of short handles leaves 1.5-4 degrees) is dropped when it lies within
    NODE_SHIFT units of the midpoint of its two off-curve neighbours: TrueType then derives the node as that
    midpoint, which is tangent-continuous by construction. Extremum nodes (axis-parallel tangent) stay explicit.
+3. Straight edges (straighten, after the other passes): a run of lines and nearly flat curves (sag under STRAIGHT_RATIO of the length)
+   that turns less than STRAIGHT_TURN degrees in all over STRAIGHT_LEN+ units is a stroke edge meant straight; when it leaves its chord by
+   STRAIGHT_MIN or more (a belly, a dent, a line broken at a node: tools/straightness_audit.py) it becomes one line, its two end nodes kept,
+   and the neighbouring handles turn onto it (align_handles); a nearly axial one (under 1.5 degrees, e.g. the Ц Щ bases at 0-5) goes
+   exactly onto the axis, at a zone value when an end has one. The Italic sets STRAIGHT_RATIO 0.008: its native stems bow by design. The native Latin Regular has no such edge apart from the deliberate b q
+   stems; the added letters had 19 (Щ Ц bases, Қ ж м я legs). Limit STRAIGHT_DEV.
 Every glyph is verified against the unpolished outline (Hausdorff <= MAX_DEV) or left untouched.
 """
 import json,math
@@ -20,6 +26,7 @@ KINK_DEG=8.0
 NODE_SHIFT=1.5
 MAX_DEV=1.5
 JOG_DEV=3.2
+STRAIGHT_DEV=4.7;STRAIGHT_TURN=6.;STRAIGHT_LEN=80.;STRAIGHT_RATIO=0.012;STRAIGHT_MIN=0.4   # straighten(): see there
 AXIS_EPS=0.6      # neighbours on one horizontal/vertical line: extremum node
 
 
@@ -193,12 +200,94 @@ def polish(glyph,glyf,name=None):
     return jogs(glyph,glyf,glyph,last if last else {})
 
 
+def _explicit(P):
+    """Same outline with every implied on-curve point (midpoint of two off-curves) written out."""
+    out=[];n=len(P)
+    for k in range(n):
+        p=P[k];q=P[(k+1)%n];out.append(p[:])
+        if not p[2] and not q[2]:out.append([(p[0]+q[0])/2,(p[1]+q[1])/2,True,'implied'])
+    return out
+
+
+def _implicit(P):
+    """Drop the written-out implied nodes that are still the midpoints of two off-curve neighbours."""
+    n=len(P);keep=[]
+    for k,p in enumerate(P):
+        a,b=P[k-1],P[(k+1)%n]
+        if len(p)>3 and not a[2] and not b[2] and abs(p[0]-(a[0]+b[0])/2)<1e-6 and abs(p[1]-(a[1]+b[1])/2)<1e-6:continue
+        keep.append([p[0],p[1],p[2]])
+    return keep
+
+
+def _ang(a,b):return math.atan2(b[1]-a[1],b[0]-a[0])
+def _diff(a,b):return abs(math.degrees((b-a+math.pi)%(2*math.pi)-math.pi))
+ZONES_XY=(0,-205,-215,510,720,740)
+
+
+def straighten(P):
+    P=_explicit(P);n=len(P);ons=[i for i in range(n) if P[i][2]]
+    if len(ons)<3:return _implicit(P),0
+    segs=[]
+    for k,i in enumerate(ons):
+        j=ons[(k+1)%len(ons)];a=P[i][:2];b=P[j][:2];L=math.dist(a,b)
+        if L<1e-6:segs.append(None);continue
+        if (j-i)%n==1:segs.append(dict(i=i,j=j,a0=_ang(a,b),a1=_ang(a,b),flat=True,pts=[a,b]));continue
+        c=P[(i+1)%n][:2];sag=abs((c[0]-a[0])*(b[1]-a[1])-(c[1]-a[1])*(b[0]-a[0]))/L/2      # quadratic: half the control's distance
+        mid=(0.25*a[0]+0.5*c[0]+0.25*b[0],0.25*a[1]+0.5*c[1]+0.25*b[1])
+        segs.append(dict(i=i,j=j,a0=_ang(a,c),a1=_ang(c,b),flat=sag<=STRAIGHT_RATIO*L,pts=[a,mid,b]))
+    m=len(segs);done=set();cuts=[]
+    for k in range(m):
+        if k in done or not segs[k] or not segs[k]['flat']:continue
+        chain=[k];tot=_diff(segs[k]['a0'],segs[k]['a1'])
+        for direction in (1,-1):
+            while len(chain)<m:
+                q=(chain[-1]+1)%m if direction>0 else (chain[0]-1)%m;s_=segs[q]
+                if not s_ or not s_['flat'] or q in chain:break
+                t=tot+(_diff(segs[chain[-1]]['a1'],s_['a0']) if direction>0 else _diff(s_['a1'],segs[chain[0]]['a0']))+_diff(s_['a0'],s_['a1'])
+                if t>STRAIGHT_TURN:break
+                (chain.append if direction>0 else lambda x:chain.insert(0,x))(q);tot=t
+        done.update(chain)
+        A=segs[chain[0]]['pts'][0];B=segs[chain[-1]]['pts'][-1];L=math.dist(A,B)
+        if L<STRAIGHT_LEN:continue
+        allp=[q for c in chain for q in segs[c]['pts']]
+        d=max(abs((q[0]-A[0])*(B[1]-A[1])-(q[1]-A[1])*(B[0]-A[0]))/L for q in allp)
+        ax=min(_diff(_ang(A,B),t) for t in (0,math.pi/2,math.pi,-math.pi/2))
+        if d<STRAIGHT_MIN and not (0<ax<1.5 and max(abs(A[0]-B[0]),abs(A[1]-B[1]))>40 and min(abs(A[0]-B[0]),abs(A[1]-B[1]))>=0.5):continue
+        cuts.append((segs[chain[0]]['i'],segs[chain[-1]]['j'],ax<1.5))
+    if not cuts:return _implicit(P),0
+    drop=set()
+    for i,j,axial in cuts:
+        k=(i+1)%n
+        while k!=j:drop.add(k);k=(k+1)%n
+        if axial:                                         # nearly horizontal/vertical: exactly on the axis, on a zone value if an end has one
+            hor=abs(P[i][0]-P[j][0])>abs(P[i][1]-P[j][1]);c=1 if hor else 0
+            vals=(P[i][c],P[j][c]);v=min(vals,key=lambda x:min(abs(x-z) for z in ZONES_XY)) if hor else round(sum(vals)/2)
+            for e,nb in ((i,(i-1)%n),(j,(j+1)%n)):
+                dv=v-P[e][c];P[e][c]=v
+                if not P[nb][2]:P[nb][c]+=dv              # the outside handle moves with its node: the neighbouring curve keeps its tangent
+    Q=[p for k,p in enumerate(P) if k not in drop];return _implicit(Q),len(cuts)
+
+
+def straight_edges(original,glyf,current,stats):
+    new=[];n=0
+    for P in contours_of(current,glyf):
+        for _ in range(4):                               # a cut can leave the next run of the same edge straight-able
+            Q,k=straighten([p[:] for p in P])
+            if not k:break
+            Q,_=align_handles(Q);P,_=smooth_nodes(Q);n+=k
+        new.append(P)
+    if not n:return current,stats
+    g=to_glyph(new);g.recalcBounds(glyf);dev=hausdorff(original,g,glyf)
+    if dev>STRAIGHT_DEV:return current,dict(stats,straight_rejected=n)
+    return g,dict(stats,straight=n,deviation=round(float(max(dev,stats.get('deviation',0))),2))
+
+
 def jogs(original,glyf,current,stats):
     """Final stage: straighten bracket/stem wobbles, judged against the unpolished outline (limit JOG_DEV)."""
     new=[];n=0
     for P in contours_of(current,glyf):
         P,k=fix_jogs([p[:] for p in P]);new.append(P);n+=k
-    if not n:return current,stats
+    if not n:return straight_edges(original,glyf,current,stats)
     g=to_glyph(new);g.recalcBounds(glyf);dev=hausdorff(original,g,glyf)
-    if dev>JOG_DEV:return current,stats
-    return g,dict(stats,jog=n,deviation=round(float(dev),2))
+    if dev>JOG_DEV:return straight_edges(original,glyf,current,stats)
+    return straight_edges(original,glyf,g,dict(stats,jog=n,deviation=round(float(dev),2)))

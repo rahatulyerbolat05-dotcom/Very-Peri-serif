@@ -3767,13 +3767,13 @@
   "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.015",
+  "version": "1.016",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "dist/VeryPeriSerif",
   "archive": "dist/VeryPeriSerif-Regular.zip",
-  "date": "2026-10-17"
+  "date": "2026-10-19"
  },
  "weight_balance": {
   "status": "17.10.2026: author reports ф ж ю look heavy; measured x-height-band ink density 0.44/0.40/0.37 against a Latin range 0.26-0.37. Strokes thinned with outer silhouette and advance fixed.",

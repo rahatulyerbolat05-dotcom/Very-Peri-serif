@@ -61,13 +61,20 @@ def check(data,font,native,chars,native_kern,report_path=None):
     changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзжЪ'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
     spacing=json.loads(Path('data/spacing.json').read_text())['glyphs'] if Path('data/spacing.json').exists() else {}
+    from polish_outlines import STRAIGHT_DEV
+    manifest=Path('build/regular-release/source/build-manifest.json')
+    STRAIGHTENED={n:min(STRAIGHT_DEV,r['polish']['deviation']) for n,r in json.loads(manifest.read_text())['glyph_records'].items()
+                  if 'straight' in r.get('polish',{})} if manifest.exists() else {}
     def same_shape(name_new,name_old):
         # Outline hygiene (1.003) changes node structure, never the shape: two-sided deviation under 2.0 units.
         # Re-spacing (1.010) only translates a glyph by its recorded dx.
         from outline_clean import GlyphShape,max_deviation
         dx=spacing.get(name_new,{}).get('dx',0)
         if not dx and font['glyf'][name_new].compile(font['glyf'])==old['glyf'][name_old].compile(old['glyf']):return True
-        return max_deviation(GlyphShape(font.getGlyphSet(),name_new,-dx),GlyphShape(old.getGlyphSet(),name_old))<=2.0
+        # Straightened edges (1.016, polish_outlines.straighten: bellies and broken lines made straight, author: "crooked lines") may move
+        # by the deviation the build recorded for that glyph, at most STRAIGHT_DEV.
+        limit=2.0+STRAIGHTENED.get(name_new,0)          # the 1.003-1.015 hygiene allowance plus the recorded straightening
+        return max_deviation(GlyphShape(font.getGlyphSet(),name_new,-dx),GlyphShape(old.getGlyphSet(),name_old))<=limit
     def same_metrics(name_new,name_old):
         sp=spacing.get(name_new)
         if sp:return font['hmtx'][name_new][0]==old['hmtx'][name_old][0]+sp['dadv']
