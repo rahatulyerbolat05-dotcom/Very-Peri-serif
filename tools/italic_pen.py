@@ -118,5 +118,42 @@ def stroke_open(points,scale=1.,taper=None,tol=1.2):
     return to_path([fit(pts+[pts[0]],False,tol)])
 
 
+def smooth_skeleton(points,n_ctrl=16,lam=2.0,n=360):
+    """Least-squares clamped cubic B-spline through the points with a penalty on the second difference of the control polygon
+    (curvature changes slowly instead of following every point): samples [(u,y,du,dy)]."""
+    import numpy as np
+    P=np.array(points,float);d=np.r_[0,np.cumsum(np.hypot(*np.diff(P,axis=0).T))];t=d/d[-1]
+    k=3;inner=np.linspace(0,1,n_ctrl-k+1)[1:-1];knots=np.r_[[0]*(k+1),inner,[1]*(k+1)]
+    def basis(x,der=0):
+        x=min(x,1-1e-12);B=np.zeros(len(knots)-1);j=np.searchsorted(knots,x,side='right')-1;B[j]=1.
+        for q in range(1,k+1):
+            nb=np.zeros(len(knots)-1)
+            for i in range(len(knots)-q-1):
+                a=(x-knots[i])/(knots[i+q]-knots[i])*B[i] if knots[i+q]>knots[i] else 0.
+                b=(knots[i+q+1]-x)/(knots[i+q+1]-knots[i+1])*B[i+1] if knots[i+q+1]>knots[i+1] else 0.
+                nb[i]=a+b
+            if q==k and der:                       # derivative of the degree-k basis from the degree k-1 values
+                dv=np.zeros(n_ctrl)
+                for i in range(n_ctrl):
+                    a=k/(knots[i+k]-knots[i])*B[i] if knots[i+k]>knots[i] else 0.
+                    b=k/(knots[i+k+1]-knots[i+1])*B[i+1] if knots[i+k+1]>knots[i+1] else 0.
+                    dv[i]=a-b
+                return dv
+            B=nb
+        return B[:n_ctrl]
+    A=np.array([basis(x) for x in t]);D=np.diff(np.eye(n_ctrl),2,axis=0)
+    M=A.T@A+lam*D.T@D;M[0]+=0;C=np.linalg.solve(M+1e-9*np.eye(n_ctrl),A.T@P)
+    C[0]=P[0];C[-1]=P[-1]
+    out=[]
+    for i in range(n+1):
+        x=i/n;b=basis(x);db=basis(x,1);p_=b@C;v=db@C;out.append((p_[0],p_[1],v[0],v[1]))
+    return out
+
+
+def stroke_samples(samples,scale=1.,taper=None,tol=1.2):
+    L,R=offsets(samples,scale,taper);pts=L+[p for p in reversed(R)]
+    return to_path([fit(pts+[pts[0]],False,tol)])
+
+
 def _area(P):
     return 0.5*sum(P[i][0]*P[(i+1)%len(P)][1]-P[(i+1)%len(P)][0]*P[i][1] for i in range(len(P)))

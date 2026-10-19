@@ -416,10 +416,15 @@ def build(ita,reg):
     # parts the counters. No native donor has bowls of this size (6 and o are almost x-height tall), so it is drawn with the pen model fitted on
     # the native o (tools/italic_pen.py); skeleton in the de-slanted plane.
     import italic_pen as PEN
-    VE_SKELETON=[(186,270),(236,240),(262,175),(258,95),(220,28),(160,-2),(78,14),(30,100),(20,200),(30,300),(55,385),(100,460),(165,507),(228,492),(256,430),(246,352),(222,296),(186,270),(122,248),(62,232),(30,226)]   # I020: waist lowered to 262, upper loop as wide as the lower bowl (author: в unfinished)
-    # I021: the stroke starts on the hairline it later passes through, set down lightly (45 % of the width, full after one segment), so its butt
-    # end stays inside the hairline (at full width it showed as a flat on the inner side of the lower bowl); fit tolerance 2.5: 125 -> 105 points
-    out['в']=(PEN.stroke_open(VE_SKELETON,taper=(24,0.45),tol=2.5),420)
+    # I022 (author: в still clumsy, no proper curves): 21 hand-placed points interpolated by Catmull-Rom gave uneven curvature, a narrow
+    # beta-like letter (315 wide, both loops alike) and a bump at the lower left. Proportions measured on PT Serif, Lora, Source Serif and
+    # Literata Italic (de-slanted, x-height 510, widths scaled to the native o, 356): в = 0.94 o, lower bowl widest at y 150 (centre line 286),
+    # upper loop narrower (264 at y 400), convex spine that leans right and thins towards the top, hairline falling to the spine (262 -> 236),
+    # lower bowl starting on the falling stroke of the upper loop (sharp inner notch at the right of the waist). Centre line = those points
+    # smoothed by a least-squares cubic B-spline with a curvature penalty (28 control points, lambda 0.3, within 6 of the points), drawn by
+    # the pen of the native o; 56 points (native b 58)
+    VE_SKELETON=[(213,290),(240,268),(262,240),(276,210),(282,185),(286,160),(286,135),(283,110),(275,85),(261,60),(244,35),(212,12),(170,2),(125,10),(85,35),(62,70),(50,105),(44,140),(39,185),(37,230),(38,285),(45,335),(58,385),(83,435),(105,460),(135,490),(185,506),(228,492),(250,465),(260,435),(264,405),(262,375),(255,345),(244,320),(226,300),(200,280),(170,265),(130,253),(90,244),(52,236)]
+    out['в']=(PEN.stroke_samples(PEN.smooth_skeleton(VE_SKELETON,28,0.3),taper=(30,0.5),tol=2.0),420)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
     ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
