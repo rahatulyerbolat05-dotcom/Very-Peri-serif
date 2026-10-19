@@ -18,6 +18,7 @@ from fontTools.pens.ttGlyphPen import TTGlyphPen
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from italic_round import round_glyph
 from italic_tidy import tidy
+from italic_fair import fair
 S=math.tan(math.radians(13));Y0=251
 # round capitals: bent like the native O/C instead of the plain shear (docs/italic-lines.md); rects in Regular coordinates
 ROUND={0x417:('open',()),0x42D:('open',()),0x4D8:('open',()),0x4E8:('closed',()),
@@ -70,6 +71,7 @@ def main():
             if IL.TAIL_KIND=='pen':tail=IL.stem_tail(path,*CAP_PEN[cp])
             else:tail=IL.OR(base,comma_ext(l,y_top,0.,r,0.,l))
             g=IL.to_glyph(tail,ita['glyf']);g,_=tidy(g,ita['glyf']);ita['glyf'][new]=g
+        g,_=fair(g,ita['glyf']);ita['glyf'][new]=g   # I021: grid kinks of the shear and the tail seams (tools/italic_fair.py)
         adv=reg['hmtx'][name][0]
         sp=SPACING.get(ch)
         if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(ita['glyf']);adv+=sp['dadv']

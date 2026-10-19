@@ -15,6 +15,7 @@ from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.cu2quPen import Cu2QuPen
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from italic_tidy import tidy
+from italic_fair import fair
 from italic_round import round_glyph
 
 S=math.tan(math.radians(13))
@@ -415,12 +416,14 @@ def build(ita,reg):
     # parts the counters. No native donor has bowls of this size (6 and o are almost x-height tall), so it is drawn with the pen model fitted on
     # the native o (tools/italic_pen.py); skeleton in the de-slanted plane.
     import italic_pen as PEN
-    VE_SKELETON=[(190,266),(236,240),(262,175),(258,95),(220,28),(160,-2),(78,14),(30,100),(20,200),(30,300),(55,385),(100,460),(165,507),(228,492),(256,430),(246,352),(222,296),(186,270),(122,248),(62,232),(30,226)]   # I020: waist lowered to 262, upper loop as wide as the lower bowl (author: в unfinished)
-    out['в']=(PEN.stroke_open(VE_SKELETON),420)
+    VE_SKELETON=[(186,270),(236,240),(262,175),(258,95),(220,28),(160,-2),(78,14),(30,100),(20,200),(30,300),(55,385),(100,460),(165,507),(228,492),(256,430),(246,352),(222,296),(186,270),(122,248),(62,232),(30,226)]   # I020: waist lowered to 262, upper loop as wide as the lower bowl (author: в unfinished)
+    # I021: the stroke starts on the hairline it later passes through, set down lightly (45 % of the width, full after one segment), so its butt
+    # end stays inside the hairline (at full width it showed as a flat on the inner side of the lower bowl); fit tolerance 2.5: 125 -> 105 points
+    out['в']=(PEN.stroke_open(VE_SKELETON,taper=(24,0.45),tol=2.5),420)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
     ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
-    out['ч']=(OR(AND(ч_stem,above(300)),OR(AND(AND(ч_,left_of(130)),below(300)),AND(AND(ч_,right_of(130)),left_of(240))),ч_right),433)
+    out['ч']=(OR(AND(ч_stem,above(300)),OR(AND(AND(ч_,left_of(130)),below(300)),AND(AND(AND(ч_,right_of(130)),left_of(240)),above(150))),ч_right),433)   # I021: above 150, the Regular foot serif left a spur at the stem foot
     я_=sheared('я')
     я_right=transformed(u_stem2(),dx=191.1-U_L)
     yaleg=poly([(74.4+0.32*(0-100)-14+S*0,0),(74.4+0.32*(0-100)+14,0),(74.4+0.32*(105-100)+14+S*105,105),(74.4+0.32*(105-100)-14+S*105,105)])
@@ -503,7 +506,7 @@ def main():
     built=build(ita,reg);rep=[]
     for ch,(path,adv) in built.items():
         glyf=font['glyf'];g=to_glyph(path,glyf)
-        g,st=tidy(g,glyf)
+        g,st=tidy(g,glyf);g,_=fair(g,glyf)              # I021: seams and grid kinks faired (tools/italic_fair.py)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         sp=SPACING.get(ch)

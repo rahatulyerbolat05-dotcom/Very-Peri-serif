@@ -1,5 +1,5 @@
 {
- "version": "0.20",
+ "version": "0.21",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -20,6 +20,7 @@
   "0.17": "capitals Ц Щ Ң Қ: the Regular neck, flag and drop removed below y=170 (they made the joint crooked, author: \"криво\"); the stem (leg of Қ) is redrawn from its clean section and goes on below the line into the tail in one stroke (stem_tail), one contour per letter",
   "0.18": "ф by the usual method (author: not a crossed oval): two bowls on a shared stem as the Regular ф; native d above y=200 (left bowl, stem, ascender, flag), native q below (bowl bottom, stem, descender, serif), native p bowl on the right with its counter tightened to the left one (170); the crossed oval kept at U+F105",
   "0.19": "author: redo ж я, в \"terribly crooked\", ф \"unfinished\". ж: reversed c + stem + c joined by two rising hairlines (author sketch); я: native g bowl (link cut along its own ellipse) + q stem with ear + u foot + leg from the \"/\" of x with its ball; ф: two equal native o with the stem between them (Literata/Lora); в: italic form drawn with the pen model fitted on the native o (tools/italic_pen.py). Old forms at U+F105-F108",
-  "0.20": "author: ж joins too thick, they blot; в unfinished. ж: joins 24 -> 14 (the pen hairline), backs 45 from the stem (in a 26 gap the long acute wedges filled in); в: waist lowered 286 -> 262, upper loop as wide as the lower bowl, the stroke starts inside the hairline (no cap in the waist)"
+  "0.20": "author: ж joins too thick, they blot; в unfinished. ж: joins 24 -> 14 (the pen hairline), backs 45 from the stem (in a 26 gap the long acute wedges filled in); в: waist lowered 286 -> 262, upper loop as wide as the lower bowl, the stroke starts inside the hairline (no cap in the waist)",
+  "0.21": "polish: tools/italic_fair.py on every assembled letter and capital (seams and grid kinks faired, 1-2 unit steps dropped, extrema onto zones), в start set down lightly inside the hairline (no flat on the lower bowl), ч without the Regular foot spur"
  }
 }

@@ -3,7 +3,7 @@
 A skeleton (through points, smooth Catmull-Rom spline, closed or open) is stroked by a pen whose width depends on the direction of the stroke,
 calibrated on the native o of Instrument Serif Italic (grid search of the xor area between the native o and the o stroked along its own centre
 line): vertical strokes 72 across, horizontal ones 14, thin axis tilted -3 degrees, w = 14 + 58 |sin(a - tilt)|^2.6. Both edges are fitted with cubic Beziers (Schneider's
-method, tolerance 0.6), so the outline is made of a few smooth curves, not a polyline. Coordinates are in the de-slanted plane (ud = x - tan13*y).
+method, tolerance 1.2 by default), so the outline is made of a few smooth curves, not a polyline. Coordinates are in the de-slanted plane (ud = x - tan13*y).
 """
 import math
 import pathops
@@ -34,10 +34,14 @@ def spline(points,closed,n=24):
     return out
 
 
-def offsets(samples,scale=1.):
+def offsets(samples,scale=1.,taper=None):
+    """taper=(k,s0): the first k samples swell from s0 of the width to the full one (a pen set down lightly: its butt end stays inside
+    the stroke it starts from)."""
     L=[];R=[]
-    for u,y,du,dy in samples:
-        l=math.hypot(du,dy) or 1.;nx,ny=-dy/l,du/l;w=width(du,dy)*scale/2
+    for i,(u,y,du,dy) in enumerate(samples):
+        f=1.
+        if taper and i<taper[0]:t=i/taper[0];f=taper[1]+(1-taper[1])*t*t*(3-2*t)
+        l=math.hypot(du,dy) or 1.;nx,ny=-dy/l,du/l;w=width(du,dy)*scale*f/2
         L.append((u+nx*w,y+ny*w));R.append((u-nx*w,y-ny*w))
     return L,R
 
@@ -108,10 +112,10 @@ def stroke_closed(points,scale=1.):
     return pathops.op(big,small,pathops.PathOp.DIFFERENCE,fix_winding=True)
 
 
-def stroke_open(points,scale=1.,cap_round=True):
-    s=spline(points,False);L,R=offsets(s,scale)
+def stroke_open(points,scale=1.,taper=None,tol=1.2):
+    s=spline(points,False);L,R=offsets(s,scale,taper)
     pts=L+[p for p in reversed(R)]
-    return to_path([fit(pts+[pts[0]],False)])
+    return to_path([fit(pts+[pts[0]],False,tol)])
 
 
 def _area(P):
