@@ -6,7 +6,7 @@
  {
   "character": "Б",
   "source": "Regular sheared",
-  "advance": 514,
+  "advance": 516,
   "nodes": 65,
   "tidy": {
    "smooth": 6,
@@ -32,7 +32,7 @@
  {
   "character": "Д",
   "source": "Regular sheared",
-  "advance": 644,
+  "advance": 645,
   "nodes": 67,
   "tidy": {
    "smooth": 3,
@@ -47,7 +47,7 @@
  {
   "character": "Ж",
   "source": "Regular sheared",
-  "advance": 825,
+  "advance": 824,
   "nodes": 166,
   "tidy": {
    "smooth": 14,
@@ -167,7 +167,7 @@
  {
   "character": "Ц",
   "source": "Regular sheared",
-  "advance": 570,
+  "advance": 564,
   "nodes": 78,
   "tidy": {
    "smooth": 13,
@@ -200,7 +200,7 @@
  {
   "character": "Щ",
   "source": "Regular sheared",
-  "advance": 728,
+  "advance": 722,
   "nodes": 106,
   "tidy": {
    "smooth": 11,
@@ -233,7 +233,7 @@
  {
   "character": "Ь",
   "source": "Regular sheared",
-  "advance": 500,
+  "advance": 502,
   "nodes": 57,
   "tidy": {
    "smooth": 6,
