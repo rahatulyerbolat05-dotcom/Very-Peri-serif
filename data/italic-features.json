@@ -16,6 +16,26 @@
     510.0
    ],
    "points": 59
+  },
+  "uni0433.ss04": {
+   "source": "dotlessi stem + T bar and arms",
+   "bar": [
+    null,
+    275
+   ],
+   "bar_y": [
+    485.0,
+    510.0
+   ],
+   "points": 44
+  },
+  "uni044D.ss06": {
+   "source": "c mirrored + hairline bar",
+   "points": 50
+  },
+  "uni0436.ss05": {
+   "source": "k + k arms mirrored about the stem",
+   "points": 141
   }
  },
  "kern_glyphs": {
@@ -26,6 +46,22 @@
   "uni0442.ss03": [
    "т",
    false
+  ],
+  "uni0433.ss04": [
+   "г",
+   false
+  ],
+  "uni0436.ss05": [
+   "ж",
+   false
+  ],
+  "uni044D.ss06": [
+   "э",
+   false
+  ],
+  "k": [
+   "к",
+   true
   ],
   "eth": [
    "д",
@@ -49,6 +85,9 @@
   "locl MKD",
   "ss01",
   "ss02",
-  "ss03"
+  "ss03",
+  "ss04",
+  "ss05",
+  "ss06"
  ]
 }
