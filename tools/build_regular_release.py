@@ -9,6 +9,15 @@ from build_draft_font import main as build_stage
 from check_draft_font import main as validate
 
 
+def stat(font,italic):
+    """STAT for a Regular/Italic family: axes wght (400, Regular) and ital (0 Roman, elidable, linked to 1 / 1 Italic)."""
+    from fontTools.otlLib.builder import buildStatTable
+    axes=[dict(tag='wght',name='Weight',ordering=0,values=[dict(value=400,name='Regular',flags=0x2)]),
+          dict(tag='ital',name='Italic',ordering=1,values=[dict(value=1,name='Italic')] if italic else [dict(value=0,name='Roman',flags=0x2,linkedValue=1)])]
+    buildStatTable(font,axes,elidedFallbackName=2)
+    font['name'].names=[r for r in font['name'].names if r.platformID!=1]   # the axis names are added for both platforms
+
+
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 def save_json(path,value):Path(path).write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
 def command(args,log):
@@ -53,7 +62,11 @@ def main():
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
-        for platform,encoding in ((3,1),(1,0)):font['name'].setName(value,nid,platform,encoding,0x409 if platform==3 else 0)
+        font['name'].setName(value,nid,3,1,0x409)
+    # 1.016 (family with the Italic, tools/build_family.py): Windows names only (FontBakery no_mac_entries: Macintosh name records are
+    # deprecated and every current system reads the Windows ones), and a STAT table with the ital axis, Regular = 0, elidable, linked to 1
+    font['name'].names=[r for r in font['name'].names if r.platformID!=1]
+    stat(font,italic=False)
     font['head'].fontRevision=float(config['version']);font['OS/2'].achVendID=config['vendor_id'];font.recalcTimestamp=False
     font['meta']=newTable('meta');font['meta'].data={'dlng':'Cyrl, Latn','slng':'Cyrl, Latn'}
     ttf=out/(config['postscript_name']+'.ttf');font.save(ttf);web=TTFont(ttf);web.recalcTimestamp=False;web.flavor='woff2';woff=ttf.with_suffix('.woff2');web.save(woff)

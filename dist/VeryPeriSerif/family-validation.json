@@ -1,0 +1,80 @@
+{
+  "regular": {
+    "file": "VeryPeriSerif-Regular.ttf",
+    "version": "1.016",
+    "sha256": "20fa8ca60a97eea8bb5895d1760670234d09c04a363c32e9eaafacded83c7dae"
+  },
+  "italic": {
+    "file": "VeryPeriSerif-Italic.ttf",
+    "version": "0.250",
+    "source": "build/italic-lower/VeryPeriSerifItalicI025.ttf",
+    "sha256": "d2ed95150f86eaea49f7fe178e65f61caf5e4132e1011f540816ac33c5233e4c",
+    "woff2_sha256": "01ca1273023789a510e1a09917d1ca0710c569961eafb23f9369493dea09305b"
+  },
+  "added_to_italic": {
+    "0x2002": "space",
+    "0x2003": "space",
+    "0x2007": "space",
+    "0x2009": "space",
+    "0x200a": "space",
+    "0x200b": "space",
+    "0x202f": "space",
+    "0x2060": "space",
+    "0xfeff": "space",
+    "0x2010": "native hyphen",
+    "0x2011": "native hyphen",
+    "0x2015": "native emdash",
+    "0x2bc": "native quoteright",
+    "0x2248": "upright Regular",
+    "0x25cc": "upright Regular",
+    "0xfffd": "upright Regular",
+    "0x2012": "Regular sheared",
+    "0x2020": "Regular sheared",
+    "0x2021": "Regular sheared",
+    "0x2032": "Regular sheared",
+    "0x2033": "Regular sheared",
+    "0x20b4": "Regular sheared",
+    "0x20b8": "Regular sheared",
+    "0x20bd": "Regular sheared",
+    "0x2116": "Regular sheared",
+    "0x18f": "Regular sheared",
+    "0x259": "Regular sheared"
+  },
+  "checks": {
+    "same family name": true,
+    "styles Regular / Italic": true,
+    "Regular flags": true,
+    "Italic flags": true,
+    "same weight and width": true,
+    "same vertical metrics": true,
+    "same upm and vendor": true,
+    "Italic yMax within winAscent": true,
+    "Italic covers every Regular character": true,
+    "OpenType Sanitizer VeryPeriSerif-Regular.ttf": true,
+    "OpenType Sanitizer VeryPeriSerif-Italic.ttf": true,
+    "no .notdef in sample VeryPeriSerif-Regular.ttf": true,
+    "no .notdef in sample VeryPeriSerif-Italic.ttf": true
+  },
+  "test_pair": {
+    "family": "Very Peri Serif T1016",
+    "files": [
+      "VeryPeriSerifT1016-Regular.ttf",
+      "VeryPeriSerifT1016-Italic.ttf"
+    ],
+    "checks": {
+      "same family name": true,
+      "styles Regular / Italic": true,
+      "Regular flags": true,
+      "Italic flags": true,
+      "same weight and width": true,
+      "same vertical metrics": true,
+      "same upm and vendor": true,
+      "Italic yMax within winAscent": true,
+      "Italic covers every Regular character": true,
+      "OpenType Sanitizer VeryPeriSerifT1016-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1016-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1016-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1016-Italic.ttf": true
+    }
+  }
+}

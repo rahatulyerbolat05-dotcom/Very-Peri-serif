@@ -1,3 +1,10 @@
+`[РЕШЕНИЕ · 19.10.2026]` Семейство (автор: «объедини их»): Regular и Italic — одно семейство **Very Peri Serif**, начертания Regular и
+Italic (`tools/build_family.py` после `build_regular_release.py` и сборки курсива): курсив дополнен 27 знаками Regular (пробелы, дефисы, ʼ из
+родных курсивных; † ‡ ′ ″ ₴ ₸ ₽ № Ə ə наклоном Regular; ≈ ◌ � прямые), общие имена производителя и лицензии, VPER, метрики, связь стилей
+(fsSelection, macStyle, italicAngle), STAT (wght 400, ital 0 Roman elidable → 1 Italic), только имена Windows (FontBakery no_mac_entries).
+Italic хранит свою тестовую версию. Файлы `dist/VeryPeriSerif/VeryPeriSerif-Italic.*`, `dist/VeryPeriSerif-Family.zip`,
+тестовая пара `dist/test/VeryPeriSerifT1016-*`, проверка `family-validation.json`, описание `font/README-family.md`.
+
 `[РЕШЕНИЕ · 19.10.2026]` Regular1.016 и Italic I025 (автор: «неровности есть что в регуляр что в курсиве… линии недоработанные и кривые»):
 `tools/straightness_audit.py` нашёл края, задуманные прямыми, с брюшком или переломом (Regular 19: основания Щ Ц, ножки ж, Қ, м, я, Я;
 Italic: м до 4,6, л 1,8; у родной латиницы только b q). `polish_outlines.straighten` делает их прямыми (почти осевые точно на ось,

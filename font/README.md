@@ -30,6 +30,19 @@ git -C reference/instrument-serif checkout --detach 65c0ef225f386a3c7e87570a4aa9
 заменять текущим HEAD или урезанной веб-версией. Глиф д и необходимые
 лицензии Cormorant уже сохранены; заново скачивать или рисовать его не нужно.
 
+## Семейство Regular + Italic
+
+После финального Regular и сборки курсива (`tools/italic_*.py`, порядок в `CLAUDE.md`):
+
+```sh
+python -I tools/build_family.py
+```
+
+Команда дополняет курсив знаками, которые есть только в Regular, приводит имена, метрики, связь стилей и STAT к одному семейству
+Very Peri Serif и пишет `dist/VeryPeriSerif/VeryPeriSerif-Italic.ttf`/`.woff2`, тестовую пару `dist/test/VeryPeriSerifT<версия>-*.ttf`,
+архив `dist/VeryPeriSerif-Family.zip` и проверку `dist/VeryPeriSerif/family-validation.json`. Описание для пользователя:
+`font/README-family.md`.
+
 ## Финальный Regular
 
 Из корня репозитория, с активированным окружением:
