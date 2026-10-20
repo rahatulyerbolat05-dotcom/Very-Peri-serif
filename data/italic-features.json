@@ -1,6 +1,21 @@
 {
  "note": "tools/italic_features.py",
  "glyphs": {
+  "uni0434.ss02": {
+   "source": "native eth, separate Cyrillic mark base"
+  },
+  "uni0430.ss01": {
+   "source": "native a.ss01, separate Cyrillic mark base"
+  },
+  "uni0435.ss01": {
+   "source": "native e.ss01, separate Cyrillic mark base"
+  },
+  "uni0434.locl": {
+   "source": "native g, separate Cyrillic mark base"
+  },
+  "uni0434.locl.ss01": {
+   "source": "native g.ss01, separate Cyrillic mark base"
+  },
   "uni0442.srb": {
    "source": "uni0448 + uni0304",
    "dx": 141
@@ -38,6 +53,13 @@
    "points": 141
   }
  },
+ "native_cyrillic_variants": {
+  "uni0434.ss02": "eth",
+  "uni0430.ss01": "a.ss01",
+  "uni0435.ss01": "e.ss01",
+  "uni0434.locl": "g",
+  "uni0434.locl.ss01": "g.ss01"
+ },
  "kern_glyphs": {
   "uni0442.srb": [
    "т",
@@ -63,7 +85,7 @@
    "к",
    true
   ],
-  "eth": [
+  "uni0434.ss02": [
    "д",
    true
   ],
@@ -77,6 +99,22 @@
   ],
   "umacron": [
    "п",
+   true
+  ],
+  "uni0430.ss01": [
+   "а",
+   true
+  ],
+  "uni0435.ss01": [
+   "е",
+   true
+  ],
+  "uni0434.locl": [
+   "д",
+   true
+  ],
+  "uni0434.locl.ss01": [
+   "д",
    true
   ]
  },

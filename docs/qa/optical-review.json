@@ -1,0 +1,7602 @@
+{
+  "method": "Measured inventory for visual acceptance; never equates geometry with taste.\n\nAll 84 letters in each style are rendered in family_proof.py. This companion\nrecords width/height/density/curve diagnostics against the pinned baseline and\nnative Latin, so a reviewer can tell an intentional corner from a new defect.\n",
+  "styles": {
+    "Regular": {
+      "letters": {
+        "А": {
+          "before": {
+            "glyph": "uni0410",
+            "advance": 457,
+            "bounds": [
+              -19,
+              0,
+              476,
+              730
+            ],
+            "density": 0.2254,
+            "points": 57,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0410",
+            "advance": 457,
+            "bounds": [
+              -18,
+              0,
+              475,
+              730
+            ],
+            "density": 0.2263,
+            "points": 56,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Б": {
+          "before": {
+            "glyph": "uni0411",
+            "advance": 472,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.3394,
+            "points": 64,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0411",
+            "advance": 472,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.3394,
+            "points": 64,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "В": {
+          "before": {
+            "glyph": "uni0412",
+            "advance": 478,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.3707,
+            "points": 57,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0412",
+            "advance": 478,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.3707,
+            "points": 59,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Г": {
+          "before": {
+            "glyph": "uni0413",
+            "advance": 384,
+            "bounds": [
+              19,
+              0,
+              403,
+              720
+            ],
+            "density": 0.2612,
+            "points": 44,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0413",
+            "advance": 384,
+            "bounds": [
+              19,
+              0,
+              403,
+              720
+            ],
+            "density": 0.2612,
+            "points": 44,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Д": {
+          "before": {
+            "glyph": "uni0414",
+            "advance": 554,
+            "bounds": [
+              -20,
+              -110,
+              532,
+              720
+            ],
+            "density": 0.2275,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0414",
+            "advance": 554,
+            "bounds": [
+              -20,
+              -110,
+              532,
+              720
+            ],
+            "density": 0.2275,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Е": {
+          "before": {
+            "glyph": "uni0415",
+            "advance": 453,
+            "bounds": [
+              19,
+              0,
+              421,
+              720
+            ],
+            "density": 0.3476,
+            "points": 75,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0415",
+            "advance": 453,
+            "bounds": [
+              19,
+              0,
+              422,
+              720
+            ],
+            "density": 0.3468,
+            "points": 71,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ё": {
+          "before": {
+            "glyph": "uni0401",
+            "advance": 453,
+            "bounds": [
+              19,
+              0,
+              421,
+              916
+            ],
+            "density": 0.3165,
+            "points": 91,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0401",
+            "advance": 453,
+            "bounds": [
+              19,
+              0,
+              422,
+              916
+            ],
+            "density": 0.3157,
+            "points": 95,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ж": {
+          "before": {
+            "glyph": "uni0416",
+            "advance": 723,
+            "bounds": [
+              22,
+              0,
+              743,
+              720
+            ],
+            "density": 0.3212,
+            "points": 155,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0416",
+            "advance": 723,
+            "bounds": [
+              22,
+              0,
+              743,
+              720
+            ],
+            "density": 0.3212,
+            "points": 155,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "З": {
+          "before": {
+            "glyph": "uni0417",
+            "advance": 343,
+            "bounds": [
+              -12,
+              -9,
+              309,
+              730
+            ],
+            "density": 0.303,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0417",
+            "advance": 343,
+            "bounds": [
+              -12,
+              -9,
+              309,
+              730
+            ],
+            "density": 0.303,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "И": {
+          "before": {
+            "glyph": "uni0418",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3658,
+            "points": 90,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0418",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3658,
+            "points": 90,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Й": {
+          "before": {
+            "glyph": "uni0419",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              940
+            ],
+            "density": 0.3138,
+            "points": 113,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0419",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              940
+            ],
+            "density": 0.3138,
+            "points": 113,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "К": {
+          "before": {
+            "glyph": "uni041A",
+            "advance": 496,
+            "bounds": [
+              19,
+              0,
+              516,
+              720
+            ],
+            "density": 0.3159,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041A",
+            "advance": 496,
+            "bounds": [
+              19,
+              0,
+              516,
+              720
+            ],
+            "density": 0.3159,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Л": {
+          "before": {
+            "glyph": "uni041B",
+            "advance": 415,
+            "bounds": [
+              -20,
+              0,
+              408,
+              720
+            ],
+            "density": 0.2675,
+            "points": 50,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041B",
+            "advance": 415,
+            "bounds": [
+              -20,
+              0,
+              408,
+              720
+            ],
+            "density": 0.2675,
+            "points": 50,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "М": {
+          "before": {
+            "glyph": "uni041C",
+            "advance": 665,
+            "bounds": [
+              14,
+              0,
+              651,
+              720
+            ],
+            "density": 0.3275,
+            "points": 77,
+            "diagnostics": {
+              "slop": 4,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041C",
+            "advance": 665,
+            "bounds": [
+              14,
+              0,
+              651,
+              720
+            ],
+            "density": 0.3275,
+            "points": 79,
+            "diagnostics": {
+              "slop": 4,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Н": {
+          "before": {
+            "glyph": "uni041D",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3418,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041D",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3418,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "О": {
+          "before": {
+            "glyph": "uni041E",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.2871,
+            "points": 26,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041E",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.2871,
+            "points": 32,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "П": {
+          "before": {
+            "glyph": "uni041F",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3312,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041F",
+            "advance": 546,
+            "bounds": [
+              19,
+              0,
+              527,
+              720
+            ],
+            "density": 0.3312,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Р": {
+          "before": {
+            "glyph": "uni0420",
+            "advance": 466,
+            "bounds": [
+              19,
+              0,
+              442,
+              720
+            ],
+            "density": 0.3032,
+            "points": 50,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0420",
+            "advance": 466,
+            "bounds": [
+              19,
+              0,
+              442,
+              720
+            ],
+            "density": 0.3032,
+            "points": 50,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "С": {
+          "before": {
+            "glyph": "uni0421",
+            "advance": 480,
+            "bounds": [
+              40,
+              -9,
+              440,
+              730
+            ],
+            "density": 0.2688,
+            "points": 43,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0421",
+            "advance": 480,
+            "bounds": [
+              40,
+              -9,
+              440,
+              730
+            ],
+            "density": 0.2688,
+            "points": 43,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Т": {
+          "before": {
+            "glyph": "uni0422",
+            "advance": 437,
+            "bounds": [
+              9,
+              0,
+              448,
+              735
+            ],
+            "density": 0.2609,
+            "points": 58,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 4,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0422",
+            "advance": 461,
+            "bounds": [
+              10,
+              0,
+              451,
+              735
+            ],
+            "density": 0.2598,
+            "points": 56,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 4,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "У": {
+          "before": {
+            "glyph": "uni0423",
+            "advance": 383,
+            "bounds": [
+              -21,
+              -9,
+              403,
+              720
+            ],
+            "density": 0.2212,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0423",
+            "advance": 383,
+            "bounds": [
+              -21,
+              -9,
+              403,
+              720
+            ],
+            "density": 0.2212,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ф": {
+          "before": {
+            "glyph": "uni0424",
+            "advance": 568,
+            "bounds": [
+              13,
+              0,
+              553,
+              720
+            ],
+            "density": 0.3301,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0424",
+            "advance": 568,
+            "bounds": [
+              13,
+              0,
+              553,
+              720
+            ],
+            "density": 0.3301,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Х": {
+          "before": {
+            "glyph": "uni0425",
+            "advance": 546,
+            "bounds": [
+              20,
+              0,
+              527,
+              720
+            ],
+            "density": 0.2526,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0425",
+            "advance": 546,
+            "bounds": [
+              20,
+              0,
+              527,
+              720
+            ],
+            "density": 0.2526,
+            "points": 90,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ц": {
+          "before": {
+            "glyph": "uni0426",
+            "advance": 548,
+            "bounds": [
+              19,
+              -131,
+              527,
+              720
+            ],
+            "density": 0.3024,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0426",
+            "advance": 548,
+            "bounds": [
+              19,
+              -131,
+              527,
+              720
+            ],
+            "density": 0.3024,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ч": {
+          "before": {
+            "glyph": "uni0427",
+            "advance": 500,
+            "bounds": [
+              -20,
+              0,
+              485,
+              720
+            ],
+            "density": 0.2595,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0427",
+            "advance": 500,
+            "bounds": [
+              -20,
+              0,
+              485,
+              720
+            ],
+            "density": 0.2595,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ш": {
+          "before": {
+            "glyph": "uni0428",
+            "advance": 705,
+            "bounds": [
+              19,
+              0,
+              686,
+              720
+            ],
+            "density": 0.3719,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0428",
+            "advance": 705,
+            "bounds": [
+              19,
+              0,
+              686,
+              720
+            ],
+            "density": 0.3719,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Щ": {
+          "before": {
+            "glyph": "uni0429",
+            "advance": 706,
+            "bounds": [
+              19,
+              -128,
+              685,
+              720
+            ],
+            "density": 0.3311,
+            "points": 111,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0429",
+            "advance": 706,
+            "bounds": [
+              19,
+              -128,
+              685,
+              720
+            ],
+            "density": 0.3311,
+            "points": 111,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ъ": {
+          "before": {
+            "glyph": "uni042A",
+            "advance": 565,
+            "bounds": [
+              11,
+              0,
+              555,
+              730
+            ],
+            "density": 0.2616,
+            "points": 69,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042A",
+            "advance": 565,
+            "bounds": [
+              11,
+              0,
+              555,
+              730
+            ],
+            "density": 0.2616,
+            "points": 69,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ы": {
+          "before": {
+            "glyph": "uni042B",
+            "advance": 674,
+            "bounds": [
+              19,
+              0,
+              655,
+              720
+            ],
+            "density": 0.3297,
+            "points": 93,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042B",
+            "advance": 674,
+            "bounds": [
+              19,
+              0,
+              655,
+              720
+            ],
+            "density": 0.3297,
+            "points": 93,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ь": {
+          "before": {
+            "glyph": "uni042C",
+            "advance": 460,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.2967,
+            "points": 57,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042C",
+            "advance": 460,
+            "bounds": [
+              19,
+              0,
+              450,
+              720
+            ],
+            "density": 0.2967,
+            "points": 57,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Э": {
+          "before": {
+            "glyph": "uni042D",
+            "advance": 452,
+            "bounds": [
+              -1,
+              -9,
+              390,
+              730
+            ],
+            "density": 0.2599,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042D",
+            "advance": 452,
+            "bounds": [
+              -1,
+              -9,
+              390,
+              730
+            ],
+            "density": 0.2599,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ю": {
+          "before": {
+            "glyph": "uni042E",
+            "advance": 685,
+            "bounds": [
+              19,
+              -9,
+              645,
+              730
+            ],
+            "density": 0.3399,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042E",
+            "advance": 685,
+            "bounds": [
+              19,
+              -9,
+              645,
+              730
+            ],
+            "density": 0.3399,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Я": {
+          "before": {
+            "glyph": "uni042F",
+            "advance": 507,
+            "bounds": [
+              -11,
+              0,
+              479,
+              720
+            ],
+            "density": 0.3027,
+            "points": 72,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042F",
+            "advance": 507,
+            "bounds": [
+              -11,
+              0,
+              479,
+              720
+            ],
+            "density": 0.3027,
+            "points": 72,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ә": {
+          "before": {
+            "glyph": "uni04D8",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.2897,
+            "points": 51,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04D8",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.2897,
+            "points": 51,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ғ": {
+          "before": {
+            "glyph": "uni0492",
+            "advance": 388,
+            "bounds": [
+              23,
+              0,
+              407,
+              720
+            ],
+            "density": 0.273,
+            "points": 60,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0492",
+            "advance": 388,
+            "bounds": [
+              23,
+              0,
+              407,
+              720
+            ],
+            "density": 0.273,
+            "points": 60,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Қ": {
+          "before": {
+            "glyph": "uni049A",
+            "advance": 487,
+            "bounds": [
+              19,
+              -127,
+              497,
+              720
+            ],
+            "density": 0.2928,
+            "points": 103,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni049A",
+            "advance": 487,
+            "bounds": [
+              19,
+              -127,
+              497,
+              720
+            ],
+            "density": 0.2928,
+            "points": 103,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ң": {
+          "before": {
+            "glyph": "uni04A2",
+            "advance": 548,
+            "bounds": [
+              19,
+              -132,
+              527,
+              720
+            ],
+            "density": 0.3051,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04A2",
+            "advance": 548,
+            "bounds": [
+              19,
+              -132,
+              527,
+              720
+            ],
+            "density": 0.3051,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ө": {
+          "before": {
+            "glyph": "uni04E8",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.3118,
+            "points": 33,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04E8",
+            "advance": 540,
+            "bounds": [
+              40,
+              -9,
+              500,
+              730
+            ],
+            "density": 0.3118,
+            "points": 33,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ұ": {
+          "before": {
+            "glyph": "uni04B0",
+            "advance": 477,
+            "bounds": [
+              -18,
+              0,
+              495,
+              720
+            ],
+            "density": 0.2199,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04B0",
+            "advance": 477,
+            "bounds": [
+              -18,
+              0,
+              495,
+              720
+            ],
+            "density": 0.2199,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ү": {
+          "before": {
+            "glyph": "uni04AE",
+            "advance": 477,
+            "bounds": [
+              -18,
+              0,
+              495,
+              720
+            ],
+            "density": 0.211,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04AE",
+            "advance": 477,
+            "bounds": [
+              -18,
+              0,
+              495,
+              720
+            ],
+            "density": 0.211,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Һ": {
+          "before": {
+            "glyph": "uni04BA",
+            "advance": 485,
+            "bounds": [
+              15,
+              0,
+              470,
+              720
+            ],
+            "density": 0.3163,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 2,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04BA",
+            "advance": 485,
+            "bounds": [
+              15,
+              0,
+              470,
+              720
+            ],
+            "density": 0.3163,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 2,
+              "wobble": 0
+            }
+          }
+        },
+        "І": {
+          "before": {
+            "glyph": "uni0406",
+            "advance": 249,
+            "bounds": [
+              19,
+              0,
+              230,
+              720
+            ],
+            "density": 0.3879,
+            "points": 36,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0406",
+            "advance": 249,
+            "bounds": [
+              19,
+              0,
+              230,
+              720
+            ],
+            "density": 0.3879,
+            "points": 36,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "а": {
+          "before": {
+            "glyph": "uni0430",
+            "advance": 399,
+            "bounds": [
+              24,
+              -9,
+              394,
+              516
+            ],
+            "density": 0.3926,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0430",
+            "advance": 399,
+            "bounds": [
+              24,
+              -9,
+              394,
+              516
+            ],
+            "density": 0.3925,
+            "points": 62,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "б": {
+          "before": {
+            "glyph": "uni0431",
+            "advance": 434,
+            "bounds": [
+              32,
+              -9,
+              391,
+              742
+            ],
+            "density": 0.3493,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0431",
+            "advance": 434,
+            "bounds": [
+              32,
+              -9,
+              391,
+              742
+            ],
+            "density": 0.3493,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "в": {
+          "before": {
+            "glyph": "uni0432",
+            "advance": 435,
+            "bounds": [
+              19,
+              0,
+              399,
+              516
+            ],
+            "density": 0.4177,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0432",
+            "advance": 435,
+            "bounds": [
+              19,
+              0,
+              399,
+              516
+            ],
+            "density": 0.4177,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "г": {
+          "before": {
+            "glyph": "uni0433",
+            "advance": 301,
+            "bounds": [
+              7,
+              0,
+              308,
+              516
+            ],
+            "density": 0.3157,
+            "points": 49,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0433",
+            "advance": 301,
+            "bounds": [
+              7,
+              0,
+              308,
+              516
+            ],
+            "density": 0.3157,
+            "points": 49,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "д": {
+          "before": {
+            "glyph": "uni0434",
+            "advance": 420,
+            "bounds": [
+              16,
+              -280,
+              369,
+              516
+            ],
+            "density": 0.347,
+            "points": 77,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0434",
+            "advance": 420,
+            "bounds": [
+              16,
+              -250,
+              369,
+              516
+            ],
+            "density": 0.3516,
+            "points": 75,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "е": {
+          "before": {
+            "glyph": "uni0435",
+            "advance": 359,
+            "bounds": [
+              21,
+              -9,
+              328,
+              516
+            ],
+            "density": 0.3901,
+            "points": 44,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0435",
+            "advance": 355,
+            "bounds": [
+              23,
+              -9,
+              331,
+              516
+            ],
+            "density": 0.3888,
+            "points": 40,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ё": {
+          "before": {
+            "glyph": "uni0451",
+            "advance": 361,
+            "bounds": [
+              23,
+              -9,
+              337,
+              706
+            ],
+            "density": 0.351,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0451",
+            "advance": 355,
+            "bounds": [
+              23,
+              -9,
+              337,
+              706
+            ],
+            "density": 0.351,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ж": {
+          "before": {
+            "glyph": "uni0436",
+            "advance": 536,
+            "bounds": [
+              -13,
+              0,
+              543,
+              510
+            ],
+            "density": 0.3743,
+            "points": 161,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0436",
+            "advance": 536,
+            "bounds": [
+              -13,
+              0,
+              543,
+              510
+            ],
+            "density": 0.3743,
+            "points": 161,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "з": {
+          "before": {
+            "glyph": "uni0437",
+            "advance": 309,
+            "bounds": [
+              -20,
+              -9,
+              282,
+              516
+            ],
+            "density": 0.2975,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0437",
+            "advance": 309,
+            "bounds": [
+              -20,
+              -9,
+              282,
+              516
+            ],
+            "density": 0.2975,
+            "points": 74,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "и": {
+          "before": {
+            "glyph": "uni0438",
+            "advance": 454,
+            "bounds": [
+              11,
+              -9,
+              440,
+              510
+            ],
+            "density": 0.3585,
+            "points": 57,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0438",
+            "advance": 454,
+            "bounds": [
+              11,
+              -9,
+              439,
+              510
+            ],
+            "density": 0.3594,
+            "points": 59,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "й": {
+          "before": {
+            "glyph": "uni0439",
+            "advance": 454,
+            "bounds": [
+              11,
+              -9,
+              440,
+              730
+            ],
+            "density": 0.3024,
+            "points": 80,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0439",
+            "advance": 454,
+            "bounds": [
+              11,
+              -9,
+              440,
+              730
+            ],
+            "density": 0.3024,
+            "points": 80,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "к": {
+          "before": {
+            "glyph": "uni043A",
+            "advance": 441,
+            "bounds": [
+              19,
+              0,
+              455,
+              510
+            ],
+            "density": 0.366,
+            "points": 83,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043A",
+            "advance": 441,
+            "bounds": [
+              19,
+              0,
+              455,
+              510
+            ],
+            "density": 0.366,
+            "points": 83,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "л": {
+          "before": {
+            "glyph": "uni043B",
+            "advance": 425,
+            "bounds": [
+              -20,
+              0,
+              422,
+              518
+            ],
+            "density": 0.2512,
+            "points": 53,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043B",
+            "advance": 425,
+            "bounds": [
+              -20,
+              0,
+              422,
+              518
+            ],
+            "density": 0.2512,
+            "points": 53,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "м": {
+          "before": {
+            "glyph": "uni043C",
+            "advance": 510,
+            "bounds": [
+              -5,
+              0,
+              507,
+              510
+            ],
+            "density": 0.3825,
+            "points": 65,
+            "diagnostics": {
+              "slop": 4,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 2,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043C",
+            "advance": 510,
+            "bounds": [
+              -5,
+              0,
+              507,
+              510
+            ],
+            "density": 0.3825,
+            "points": 65,
+            "diagnostics": {
+              "slop": 4,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 2,
+              "wobble": 0
+            }
+          }
+        },
+        "н": {
+          "before": {
+            "glyph": "uni043D",
+            "advance": 466,
+            "bounds": [
+              10,
+              -5,
+              452,
+              513
+            ],
+            "density": 0.3539,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043D",
+            "advance": 466,
+            "bounds": [
+              10,
+              -5,
+              452,
+              513
+            ],
+            "density": 0.3539,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "о": {
+          "before": {
+            "glyph": "uni043E",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.356,
+            "points": 21,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043E",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.356,
+            "points": 24,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "п": {
+          "before": {
+            "glyph": "uni043F",
+            "advance": 470,
+            "bounds": [
+              15,
+              0,
+              459,
+              516
+            ],
+            "density": 0.3656,
+            "points": 70,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043F",
+            "advance": 470,
+            "bounds": [
+              15,
+              0,
+              459,
+              516
+            ],
+            "density": 0.3654,
+            "points": 70,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "р": {
+          "before": {
+            "glyph": "uni0440",
+            "advance": 444,
+            "bounds": [
+              12,
+              -205,
+              414,
+              516
+            ],
+            "density": 0.3362,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 1,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0440",
+            "advance": 444,
+            "bounds": [
+              12,
+              -205,
+              414,
+              516
+            ],
+            "density": 0.3362,
+            "points": 67,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 1,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "с": {
+          "before": {
+            "glyph": "uni0441",
+            "advance": 339,
+            "bounds": [
+              23,
+              -9,
+              318,
+              516
+            ],
+            "density": 0.3391,
+            "points": 41,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0441",
+            "advance": 339,
+            "bounds": [
+              23,
+              -9,
+              319,
+              516
+            ],
+            "density": 0.338,
+            "points": 39,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "т": {
+          "before": {
+            "glyph": "uni0442",
+            "advance": 730,
+            "bounds": [
+              11,
+              -9,
+              703,
+              516
+            ],
+            "density": 0.3576,
+            "points": 116,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0442",
+            "advance": 730,
+            "bounds": [
+              11,
+              -9,
+              703,
+              516
+            ],
+            "density": 0.3576,
+            "points": 116,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "у": {
+          "before": {
+            "glyph": "uni0443",
+            "advance": 401,
+            "bounds": [
+              -14,
+              -205,
+              409,
+              510
+            ],
+            "density": 0.221,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0443",
+            "advance": 401,
+            "bounds": [
+              -14,
+              -205,
+              409,
+              510
+            ],
+            "density": 0.221,
+            "points": 63,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ф": {
+          "before": {
+            "glyph": "uni0444",
+            "advance": 542,
+            "bounds": [
+              27,
+              -205,
+              507,
+              740
+            ],
+            "density": 0.3089,
+            "points": 136,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0444",
+            "advance": 542,
+            "bounds": [
+              27,
+              -205,
+              507,
+              740
+            ],
+            "density": 0.3089,
+            "points": 136,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "х": {
+          "before": {
+            "glyph": "uni0445",
+            "advance": 385,
+            "bounds": [
+              -8,
+              0,
+              389,
+              510
+            ],
+            "density": 0.3121,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 6,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0445",
+            "advance": 385,
+            "bounds": [
+              -8,
+              0,
+              389,
+              510
+            ],
+            "density": 0.3121,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 6,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ц": {
+          "before": {
+            "glyph": "uni0446",
+            "advance": 452,
+            "bounds": [
+              5,
+              -130,
+              434,
+              510
+            ],
+            "density": 0.3243,
+            "points": 73,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0446",
+            "advance": 452,
+            "bounds": [
+              5,
+              -130,
+              434,
+              510
+            ],
+            "density": 0.3243,
+            "points": 73,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ч": {
+          "before": {
+            "glyph": "uni0447",
+            "advance": 433,
+            "bounds": [
+              -20,
+              -5,
+              408,
+              510
+            ],
+            "density": 0.2923,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0447",
+            "advance": 433,
+            "bounds": [
+              -20,
+              -5,
+              408,
+              510
+            ],
+            "density": 0.2923,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ш": {
+          "before": {
+            "glyph": "uni0448",
+            "advance": 636,
+            "bounds": [
+              5,
+              -6,
+              619,
+              510
+            ],
+            "density": 0.3792,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 3,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0448",
+            "advance": 636,
+            "bounds": [
+              5,
+              -6,
+              619,
+              510
+            ],
+            "density": 0.3792,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 3,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "щ": {
+          "before": {
+            "glyph": "uni0449",
+            "advance": 639,
+            "bounds": [
+              5,
+              -129,
+              619,
+              510
+            ],
+            "density": 0.3322,
+            "points": 113,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0449",
+            "advance": 639,
+            "bounds": [
+              5,
+              -129,
+              619,
+              510
+            ],
+            "density": 0.3322,
+            "points": 113,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ъ": {
+          "before": {
+            "glyph": "uni044A",
+            "advance": 385,
+            "bounds": [
+              -9,
+              -9,
+              385,
+              510
+            ],
+            "density": 0.3275,
+            "points": 54,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044A",
+            "advance": 385,
+            "bounds": [
+              -9,
+              -9,
+              385,
+              510
+            ],
+            "density": 0.3275,
+            "points": 54,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ы": {
+          "before": {
+            "glyph": "uni044B",
+            "advance": 552,
+            "bounds": [
+              14,
+              -9,
+              528,
+              513
+            ],
+            "density": 0.3676,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044B",
+            "advance": 552,
+            "bounds": [
+              14,
+              -9,
+              528,
+              513
+            ],
+            "density": 0.3676,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ь": {
+          "before": {
+            "glyph": "uni044C",
+            "advance": 367,
+            "bounds": [
+              14,
+              -9,
+              367,
+              513
+            ],
+            "density": 0.3342,
+            "points": 54,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044C",
+            "advance": 367,
+            "bounds": [
+              14,
+              -9,
+              367,
+              513
+            ],
+            "density": 0.3342,
+            "points": 54,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "э": {
+          "before": {
+            "glyph": "uni044D",
+            "advance": 360,
+            "bounds": [
+              -3,
+              -9,
+              317,
+              516
+            ],
+            "density": 0.3204,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044D",
+            "advance": 360,
+            "bounds": [
+              -3,
+              -9,
+              317,
+              516
+            ],
+            "density": 0.3204,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ю": {
+          "before": {
+            "glyph": "uni044E",
+            "advance": 582,
+            "bounds": [
+              15,
+              -9,
+              543,
+              516
+            ],
+            "density": 0.3604,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 1
+            }
+          },
+          "after": {
+            "glyph": "uni044E",
+            "advance": 582,
+            "bounds": [
+              15,
+              -9,
+              543,
+              516
+            ],
+            "density": 0.3604,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 1
+            }
+          }
+        },
+        "я": {
+          "before": {
+            "glyph": "uni044F",
+            "advance": 428,
+            "bounds": [
+              -6,
+              -9,
+              399,
+              516
+            ],
+            "density": 0.3604,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044F",
+            "advance": 428,
+            "bounds": [
+              -6,
+              -9,
+              399,
+              516
+            ],
+            "density": 0.3604,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ә": {
+          "before": {
+            "glyph": "uni04D9",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.3556,
+            "points": 41,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04D9",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.3556,
+            "points": 41,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ғ": {
+          "before": {
+            "glyph": "uni0493",
+            "advance": 307,
+            "bounds": [
+              11,
+              0,
+              312,
+              516
+            ],
+            "density": 0.3324,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0493",
+            "advance": 307,
+            "bounds": [
+              11,
+              0,
+              312,
+              516
+            ],
+            "density": 0.3324,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "қ": {
+          "before": {
+            "glyph": "uni049B",
+            "advance": 441,
+            "bounds": [
+              19,
+              -125,
+              445,
+              513
+            ],
+            "density": 0.3166,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni049B",
+            "advance": 441,
+            "bounds": [
+              19,
+              -125,
+              445,
+              513
+            ],
+            "density": 0.3166,
+            "points": 101,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ң": {
+          "before": {
+            "glyph": "uni04A3",
+            "advance": 476,
+            "bounds": [
+              13,
+              -128,
+              456,
+              513
+            ],
+            "density": 0.3191,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04A3",
+            "advance": 476,
+            "bounds": [
+              13,
+              -128,
+              456,
+              513
+            ],
+            "density": 0.3191,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ө": {
+          "before": {
+            "glyph": "uni04E9",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.3837,
+            "points": 23,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04E9",
+            "advance": 408,
+            "bounds": [
+              23,
+              -9,
+              383,
+              516
+            ],
+            "density": 0.3837,
+            "points": 23,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ұ": {
+          "before": {
+            "glyph": "uni04B1",
+            "advance": 383,
+            "bounds": [
+              -20,
+              -205,
+              403,
+              510
+            ],
+            "density": 0.2593,
+            "points": 79,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04B1",
+            "advance": 383,
+            "bounds": [
+              -20,
+              -205,
+              403,
+              510
+            ],
+            "density": 0.2593,
+            "points": 79,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ү": {
+          "before": {
+            "glyph": "uni04AF",
+            "advance": 383,
+            "bounds": [
+              -20,
+              -205,
+              403,
+              510
+            ],
+            "density": 0.2505,
+            "points": 63,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04AF",
+            "advance": 383,
+            "bounds": [
+              -20,
+              -205,
+              403,
+              510
+            ],
+            "density": 0.2505,
+            "points": 63,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "һ": {
+          "before": {
+            "glyph": "uni04BB",
+            "advance": 470,
+            "bounds": [
+              15,
+              0,
+              459,
+              740
+            ],
+            "density": 0.3043,
+            "points": 69,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04BB",
+            "advance": 470,
+            "bounds": [
+              15,
+              0,
+              459,
+              740
+            ],
+            "density": 0.3043,
+            "points": 70,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "і": {
+          "before": {
+            "glyph": "uni0456",
+            "advance": 223,
+            "bounds": [
+              15,
+              0,
+              212,
+              710
+            ],
+            "density": 0.3374,
+            "points": 42,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0456",
+            "advance": 223,
+            "bounds": [
+              15,
+              0,
+              212,
+              710
+            ],
+            "density": 0.3374,
+            "points": 46,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        }
+      },
+      "native_controls": {
+        "H": {
+          "glyph": "H",
+          "advance": 546,
+          "bounds": [
+            19,
+            0,
+            527,
+            720
+          ],
+          "density": 0.3418,
+          "points": 84,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "N": {
+          "glyph": "N",
+          "advance": 540,
+          "bounds": [
+            16,
+            -9,
+            524,
+            720
+          ],
+          "density": 0.2936,
+          "points": 62,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "O": {
+          "glyph": "O",
+          "advance": 540,
+          "bounds": [
+            40,
+            -9,
+            500,
+            730
+          ],
+          "density": 0.2871,
+          "points": 32,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "A": {
+          "glyph": "A",
+          "advance": 457,
+          "bounds": [
+            -18,
+            0,
+            475,
+            730
+          ],
+          "density": 0.2263,
+          "points": 56,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 2,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "o": {
+          "glyph": "o",
+          "advance": 408,
+          "bounds": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "density": 0.356,
+          "points": 24,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "n": {
+          "glyph": "n",
+          "advance": 470,
+          "bounds": [
+            15,
+            0,
+            459,
+            516
+          ],
+          "density": 0.3654,
+          "points": 70,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 1,
+            "extrema": 0,
+            "kink": 1,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "u": {
+          "glyph": "u",
+          "advance": 454,
+          "bounds": [
+            11,
+            -9,
+            439,
+            510
+          ],
+          "density": 0.3594,
+          "points": 59,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 1,
+            "extrema": 0,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "m": {
+          "glyph": "m",
+          "advance": 704,
+          "bounds": [
+            15,
+            0,
+            693,
+            516
+          ],
+          "density": 0.3665,
+          "points": 105,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 1,
+            "extrema": 1,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "c": {
+          "glyph": "c",
+          "advance": 339,
+          "bounds": [
+            23,
+            -9,
+            319,
+            516
+          ],
+          "density": 0.338,
+          "points": 39,
+          "diagnostics": {
+            "slop": 1,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 1,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "p": {
+          "glyph": "p",
+          "advance": 444,
+          "bounds": [
+            12,
+            -205,
+            414,
+            516
+          ],
+          "density": 0.3362,
+          "points": 67,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 2,
+            "extrema": 1,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "x": {
+          "glyph": "x",
+          "advance": 385,
+          "bounds": [
+            -8,
+            0,
+            389,
+            510
+          ],
+          "density": 0.3121,
+          "points": 82,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 6,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "y": {
+          "glyph": "y",
+          "advance": 401,
+          "bounds": [
+            -14,
+            -205,
+            409,
+            510
+          ],
+          "density": 0.221,
+          "points": 63,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 3,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "z": {
+          "glyph": "z",
+          "advance": 353,
+          "bounds": [
+            15,
+            0,
+            341,
+            534
+          ],
+          "density": 0.3593,
+          "points": 48,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 2,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        }
+      },
+      "sha256": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+      "baseline_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
+      "zhe_to_en": 1.15,
+      "de_depth": -250
+    },
+    "Italic": {
+      "letters": {
+        "А": {
+          "before": {
+            "glyph": "A",
+            "advance": 457,
+            "bounds": [
+              -74,
+              0,
+              418,
+              730
+            ],
+            "density": 0.2229,
+            "points": 57,
+            "diagnostics": {
+              "slop": 3,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "A",
+            "advance": 457,
+            "bounds": [
+              -74,
+              0,
+              418,
+              730
+            ],
+            "density": 0.2229,
+            "points": 57,
+            "diagnostics": {
+              "slop": 3,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Б": {
+          "before": {
+            "glyph": "uni0411",
+            "advance": 516,
+            "bounds": [
+              -33,
+              0,
+              508,
+              720
+            ],
+            "density": 0.2716,
+            "points": 67,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0411",
+            "advance": 516,
+            "bounds": [
+              -33,
+              0,
+              508,
+              720
+            ],
+            "density": 0.2716,
+            "points": 67,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "В": {
+          "before": {
+            "glyph": "B",
+            "advance": 479,
+            "bounds": [
+              -36,
+              0,
+              485,
+              720
+            ],
+            "density": 0.3002,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0412",
+            "advance": 479,
+            "bounds": [
+              -36,
+              0,
+              485,
+              720
+            ],
+            "density": 0.3002,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Г": {
+          "before": {
+            "glyph": "uni0413",
+            "advance": 480,
+            "bounds": [
+              -33,
+              0,
+              508,
+              720
+            ],
+            "density": 0.1867,
+            "points": 44,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0413",
+            "advance": 480,
+            "bounds": [
+              -33,
+              0,
+              508,
+              720
+            ],
+            "density": 0.1867,
+            "points": 44,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Д": {
+          "before": {
+            "glyph": "uni0414",
+            "advance": 645,
+            "bounds": [
+              -20,
+              -110,
+              721,
+              720
+            ],
+            "density": 0.1695,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0414",
+            "advance": 645,
+            "bounds": [
+              -20,
+              -110,
+              721,
+              720
+            ],
+            "density": 0.1695,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Е": {
+          "before": {
+            "glyph": "E",
+            "advance": 454,
+            "bounds": [
+              -36,
+              0,
+              503,
+              720
+            ],
+            "density": 0.2553,
+            "points": 74,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 5,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "E",
+            "advance": 454,
+            "bounds": [
+              -36,
+              0,
+              503,
+              720
+            ],
+            "density": 0.2553,
+            "points": 74,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 1,
+              "extrema": 5,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ё": {
+          "before": {
+            "glyph": "Edieresis",
+            "advance": 454,
+            "bounds": [
+              -36,
+              0,
+              512,
+              916
+            ],
+            "density": 0.2284,
+            "points": 98,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "Edieresis",
+            "advance": 454,
+            "bounds": [
+              -36,
+              0,
+              512,
+              916
+            ],
+            "density": 0.2284,
+            "points": 98,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ж": {
+          "before": {
+            "glyph": "uni0416",
+            "advance": 824,
+            "bounds": [
+              -20,
+              0,
+              844,
+              720
+            ],
+            "density": 0.2682,
+            "points": 167,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0416",
+            "advance": 824,
+            "bounds": [
+              -20,
+              0,
+              844,
+              720
+            ],
+            "density": 0.2682,
+            "points": 167,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "З": {
+          "before": {
+            "glyph": "uni0417",
+            "advance": 407,
+            "bounds": [
+              -25,
+              -9,
+              386,
+              730
+            ],
+            "density": 0.2357,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0417",
+            "advance": 407,
+            "bounds": [
+              -25,
+              -9,
+              386,
+              730
+            ],
+            "density": 0.2357,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "И": {
+          "before": {
+            "glyph": "uni0418",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              720
+            ],
+            "density": 0.2755,
+            "points": 94,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0418",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              720
+            ],
+            "density": 0.2755,
+            "points": 94,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Й": {
+          "before": {
+            "glyph": "uni0419",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              940
+            ],
+            "density": 0.2362,
+            "points": 115,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0419",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              940
+            ],
+            "density": 0.2362,
+            "points": 115,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "К": {
+          "before": {
+            "glyph": "K",
+            "advance": 499,
+            "bounds": [
+              -36,
+              0,
+              604,
+              720
+            ],
+            "density": 0.2368,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 6,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "K",
+            "advance": 499,
+            "bounds": [
+              -36,
+              0,
+              604,
+              720
+            ],
+            "density": 0.2368,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 6,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Л": {
+          "before": {
+            "glyph": "uni041B",
+            "advance": 495,
+            "bounds": [
+              -20,
+              0,
+              502,
+              720
+            ],
+            "density": 0.2202,
+            "points": 46,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041B",
+            "advance": 495,
+            "bounds": [
+              -20,
+              0,
+              502,
+              720
+            ],
+            "density": 0.2202,
+            "points": 46,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "М": {
+          "before": {
+            "glyph": "M",
+            "advance": 665,
+            "bounds": [
+              -43,
+              0,
+              736,
+              720
+            ],
+            "density": 0.2666,
+            "points": 80,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041C",
+            "advance": 665,
+            "bounds": [
+              -43,
+              0,
+              736,
+              720
+            ],
+            "density": 0.2666,
+            "points": 80,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Н": {
+          "before": {
+            "glyph": "H",
+            "advance": 545,
+            "bounds": [
+              -36,
+              0,
+              630,
+              720
+            ],
+            "density": 0.2549,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041D",
+            "advance": 545,
+            "bounds": [
+              -36,
+              0,
+              630,
+              720
+            ],
+            "density": 0.2549,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "О": {
+          "before": {
+            "glyph": "O",
+            "advance": 540,
+            "bounds": [
+              54,
+              -9,
+              535,
+              730
+            ],
+            "density": 0.2798,
+            "points": 34,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "O",
+            "advance": 540,
+            "bounds": [
+              54,
+              -9,
+              535,
+              730
+            ],
+            "density": 0.2798,
+            "points": 34,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "П": {
+          "before": {
+            "glyph": "uni041F",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              720
+            ],
+            "density": 0.2495,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni041F",
+            "advance": 564,
+            "bounds": [
+              -33,
+              0,
+              641,
+              720
+            ],
+            "density": 0.2495,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Р": {
+          "before": {
+            "glyph": "P",
+            "advance": 469,
+            "bounds": [
+              -36,
+              0,
+              509,
+              720
+            ],
+            "density": 0.23,
+            "points": 52,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0420",
+            "advance": 469,
+            "bounds": [
+              -36,
+              0,
+              509,
+              720
+            ],
+            "density": 0.23,
+            "points": 52,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "С": {
+          "before": {
+            "glyph": "C",
+            "advance": 475,
+            "bounds": [
+              55,
+              -9,
+              519,
+              730
+            ],
+            "density": 0.2259,
+            "points": 45,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "C",
+            "advance": 475,
+            "bounds": [
+              55,
+              -9,
+              519,
+              730
+            ],
+            "density": 0.2259,
+            "points": 45,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Т": {
+          "before": {
+            "glyph": "T",
+            "advance": 461,
+            "bounds": [
+              51,
+              0,
+              550,
+              735
+            ],
+            "density": 0.2265,
+            "points": 56,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 4,
+              "extrema": 5,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "T",
+            "advance": 461,
+            "bounds": [
+              51,
+              0,
+              550,
+              735
+            ],
+            "density": 0.2265,
+            "points": 56,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 4,
+              "extrema": 5,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "У": {
+          "before": {
+            "glyph": "uni0423",
+            "advance": 485,
+            "bounds": [
+              -18,
+              -9,
+              523,
+              720
+            ],
+            "density": 0.1734,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0423",
+            "advance": 485,
+            "bounds": [
+              -18,
+              -9,
+              523,
+              720
+            ],
+            "density": 0.1734,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ф": {
+          "before": {
+            "glyph": "uni0424",
+            "advance": 634,
+            "bounds": [
+              55,
+              0,
+              605,
+              720
+            ],
+            "density": 0.3247,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0424",
+            "advance": 634,
+            "bounds": [
+              55,
+              0,
+              605,
+              720
+            ],
+            "density": 0.3247,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Х": {
+          "before": {
+            "glyph": "X",
+            "advance": 545,
+            "bounds": [
+              -36,
+              0,
+              622,
+              720
+            ],
+            "density": 0.1945,
+            "points": 89,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0425",
+            "advance": 545,
+            "bounds": [
+              -36,
+              0,
+              622,
+              720
+            ],
+            "density": 0.1945,
+            "points": 89,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ц": {
+          "before": {
+            "glyph": "uni0426",
+            "advance": 564,
+            "bounds": [
+              -31,
+              -150,
+              639,
+              720
+            ],
+            "density": 0.2139,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0426",
+            "advance": 564,
+            "bounds": [
+              -31,
+              -150,
+              639,
+              720
+            ],
+            "density": 0.2139,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ч": {
+          "before": {
+            "glyph": "uni0427",
+            "advance": 504,
+            "bounds": [
+              73,
+              0,
+              581,
+              720
+            ],
+            "density": 0.2583,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0427",
+            "advance": 504,
+            "bounds": [
+              73,
+              0,
+              581,
+              720
+            ],
+            "density": 0.2583,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ш": {
+          "before": {
+            "glyph": "uni0428",
+            "advance": 723,
+            "bounds": [
+              -33,
+              0,
+              800,
+              720
+            ],
+            "density": 0.2983,
+            "points": 83,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0428",
+            "advance": 723,
+            "bounds": [
+              -33,
+              0,
+              800,
+              720
+            ],
+            "density": 0.2983,
+            "points": 83,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Щ": {
+          "before": {
+            "glyph": "uni0429",
+            "advance": 722,
+            "bounds": [
+              -32,
+              -150,
+              797,
+              720
+            ],
+            "density": 0.2518,
+            "points": 100,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0429",
+            "advance": 722,
+            "bounds": [
+              -32,
+              -150,
+              797,
+              720
+            ],
+            "density": 0.2518,
+            "points": 100,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ъ": {
+          "before": {
+            "glyph": "uni042A",
+            "advance": 613,
+            "bounds": [
+              78,
+              0,
+              563,
+              730
+            ],
+            "density": 0.2938,
+            "points": 72,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042A",
+            "advance": 613,
+            "bounds": [
+              78,
+              0,
+              563,
+              730
+            ],
+            "density": 0.2938,
+            "points": 72,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ы": {
+          "before": {
+            "glyph": "uni042B",
+            "advance": 692,
+            "bounds": [
+              -33,
+              0,
+              769,
+              720
+            ],
+            "density": 0.2619,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042B",
+            "advance": 692,
+            "bounds": [
+              -33,
+              0,
+              769,
+              720
+            ],
+            "density": 0.2619,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ь": {
+          "before": {
+            "glyph": "uni042C",
+            "advance": 502,
+            "bounds": [
+              -33,
+              0,
+              452,
+              720
+            ],
+            "density": 0.2645,
+            "points": 59,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042C",
+            "advance": 502,
+            "bounds": [
+              -33,
+              0,
+              452,
+              720
+            ],
+            "density": 0.2645,
+            "points": 59,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Э": {
+          "before": {
+            "glyph": "uni042D",
+            "advance": 500,
+            "bounds": [
+              8,
+              -9,
+              460,
+              730
+            ],
+            "density": 0.2243,
+            "points": 52,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042D",
+            "advance": 500,
+            "bounds": [
+              8,
+              -9,
+              460,
+              730
+            ],
+            "density": 0.2243,
+            "points": 52,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ю": {
+          "before": {
+            "glyph": "uni042E",
+            "advance": 731,
+            "bounds": [
+              -32,
+              -9,
+              689,
+              730
+            ],
+            "density": 0.2947,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042E",
+            "advance": 731,
+            "bounds": [
+              -32,
+              -9,
+              689,
+              730
+            ],
+            "density": 0.2947,
+            "points": 84,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Я": {
+          "before": {
+            "glyph": "uni042F",
+            "advance": 519,
+            "bounds": [
+              -60,
+              0,
+              595,
+              720
+            ],
+            "density": 0.2261,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni042F",
+            "advance": 519,
+            "bounds": [
+              -60,
+              0,
+              595,
+              720
+            ],
+            "density": 0.2261,
+            "points": 76,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ә": {
+          "before": {
+            "glyph": "uni04D8",
+            "advance": 540,
+            "bounds": [
+              50,
+              -9,
+              538,
+              730
+            ],
+            "density": 0.275,
+            "points": 42,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04D8",
+            "advance": 540,
+            "bounds": [
+              50,
+              -9,
+              538,
+              730
+            ],
+            "density": 0.275,
+            "points": 42,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ғ": {
+          "before": {
+            "glyph": "uni0492",
+            "advance": 388,
+            "bounds": [
+              -35,
+              0,
+              506,
+              720
+            ],
+            "density": 0.1945,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0492",
+            "advance": 388,
+            "bounds": [
+              -35,
+              0,
+              506,
+              720
+            ],
+            "density": 0.1945,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Қ": {
+          "before": {
+            "glyph": "uni049A",
+            "advance": 487,
+            "bounds": [
+              -38,
+              -150,
+              606,
+              720
+            ],
+            "density": 0.203,
+            "points": 94,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni049A",
+            "advance": 487,
+            "bounds": [
+              -38,
+              -150,
+              606,
+              720
+            ],
+            "density": 0.203,
+            "points": 94,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ң": {
+          "before": {
+            "glyph": "uni04A2",
+            "advance": 548,
+            "bounds": [
+              -38,
+              -150,
+              633,
+              720
+            ],
+            "density": 0.2175,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04A2",
+            "advance": 548,
+            "bounds": [
+              -38,
+              -150,
+              633,
+              720
+            ],
+            "density": 0.2175,
+            "points": 86,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ө": {
+          "before": {
+            "glyph": "uni04E8",
+            "advance": 540,
+            "bounds": [
+              48,
+              -9,
+              543,
+              730
+            ],
+            "density": 0.29,
+            "points": 35,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04E8",
+            "advance": 540,
+            "bounds": [
+              48,
+              -9,
+              543,
+              730
+            ],
+            "density": 0.29,
+            "points": 35,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ұ": {
+          "before": {
+            "glyph": "uni04B0",
+            "advance": 477,
+            "bounds": [
+              54,
+              0,
+              603,
+              720
+            ],
+            "density": 0.2056,
+            "points": 80,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04B0",
+            "advance": 477,
+            "bounds": [
+              54,
+              0,
+              603,
+              720
+            ],
+            "density": 0.2056,
+            "points": 80,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Ү": {
+          "before": {
+            "glyph": "uni04AE",
+            "advance": 477,
+            "bounds": [
+              54,
+              0,
+              603,
+              720
+            ],
+            "density": 0.1973,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04AE",
+            "advance": 477,
+            "bounds": [
+              54,
+              0,
+              603,
+              720
+            ],
+            "density": 0.1973,
+            "points": 64,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "Һ": {
+          "before": {
+            "glyph": "uni04BA",
+            "advance": 485,
+            "bounds": [
+              -43,
+              0,
+              441,
+              720
+            ],
+            "density": 0.2979,
+            "points": 75,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04BA",
+            "advance": 485,
+            "bounds": [
+              -43,
+              0,
+              441,
+              720
+            ],
+            "density": 0.2979,
+            "points": 75,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "І": {
+          "before": {
+            "glyph": "I",
+            "advance": 250,
+            "bounds": [
+              -36,
+              0,
+              335,
+              720
+            ],
+            "density": 0.2152,
+            "points": 36,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "I",
+            "advance": 250,
+            "bounds": [
+              -36,
+              0,
+              335,
+              720
+            ],
+            "density": 0.2152,
+            "points": 36,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "а": {
+          "before": {
+            "glyph": "a",
+            "advance": 474,
+            "bounds": [
+              13,
+              -9,
+              453,
+              516
+            ],
+            "density": 0.3746,
+            "points": 62,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0430",
+            "advance": 474,
+            "bounds": [
+              13,
+              -9,
+              453,
+              516
+            ],
+            "density": 0.3746,
+            "points": 62,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 3,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "б": {
+          "before": {
+            "glyph": "uni0431",
+            "advance": 450,
+            "bounds": [
+              35,
+              -9,
+              470,
+              742
+            ],
+            "density": 0.2878,
+            "points": 69,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0431",
+            "advance": 450,
+            "bounds": [
+              35,
+              -9,
+              470,
+              742
+            ],
+            "density": 0.2878,
+            "points": 69,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "в": {
+          "before": {
+            "glyph": "uni0432",
+            "advance": 403,
+            "bounds": [
+              24,
+              -10,
+              383,
+              516
+            ],
+            "density": 0.3626,
+            "points": 58,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0432",
+            "advance": 403,
+            "bounds": [
+              24,
+              -10,
+              383,
+              516
+            ],
+            "density": 0.3626,
+            "points": 58,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "г": {
+          "before": {
+            "glyph": "uni0433",
+            "advance": 375,
+            "bounds": [
+              9,
+              -1,
+              395,
+              516
+            ],
+            "density": 0.2799,
+            "points": 51,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0433",
+            "advance": 375,
+            "bounds": [
+              9,
+              -1,
+              395,
+              516
+            ],
+            "density": 0.2799,
+            "points": 51,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "д": {
+          "before": {
+            "glyph": "uni0434",
+            "advance": 432,
+            "bounds": [
+              23,
+              -215,
+              432,
+              516
+            ],
+            "density": 0.3272,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0434",
+            "advance": 432,
+            "bounds": [
+              23,
+              -215,
+              432,
+              516
+            ],
+            "density": 0.3272,
+            "points": 66,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "е": {
+          "before": {
+            "glyph": "e",
+            "advance": 348,
+            "bounds": [
+              12,
+              -9,
+              357,
+              516
+            ],
+            "density": 0.3362,
+            "points": 47,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0435",
+            "advance": 348,
+            "bounds": [
+              12,
+              -9,
+              357,
+              516
+            ],
+            "density": 0.3362,
+            "points": 47,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ё": {
+          "before": {
+            "glyph": "edieresis",
+            "advance": 348,
+            "bounds": [
+              12,
+              -9,
+              451,
+              706
+            ],
+            "density": 0.2437,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "edieresis",
+            "advance": 348,
+            "bounds": [
+              12,
+              -9,
+              451,
+              706
+            ],
+            "density": 0.2437,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ж": {
+          "before": {
+            "glyph": "uni0436",
+            "advance": 824,
+            "bounds": [
+              9,
+              -9,
+              822,
+              516
+            ],
+            "density": 0.3298,
+            "points": 124,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0436",
+            "advance": 702,
+            "bounds": [
+              9,
+              -9,
+              700,
+              516
+            ],
+            "density": 0.3582,
+            "points": 96,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "з": {
+          "before": {
+            "glyph": "uni0437",
+            "advance": 348,
+            "bounds": [
+              -20,
+              -9,
+              339,
+              516
+            ],
+            "density": 0.2828,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0437",
+            "advance": 348,
+            "bounds": [
+              -20,
+              -9,
+              339,
+              516
+            ],
+            "density": 0.2827,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 4,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "и": {
+          "before": {
+            "glyph": "u",
+            "advance": 508,
+            "bounds": [
+              17,
+              -9,
+              489,
+              516
+            ],
+            "density": 0.3655,
+            "points": 56,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 8,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "u",
+            "advance": 508,
+            "bounds": [
+              17,
+              -9,
+              489,
+              516
+            ],
+            "density": 0.3655,
+            "points": 56,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 8,
+              "kink": 3,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "й": {
+          "before": {
+            "glyph": "uni0439",
+            "advance": 495,
+            "bounds": [
+              17,
+              -9,
+              485,
+              730
+            ],
+            "density": 0.3094,
+            "points": 90,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0439",
+            "advance": 495,
+            "bounds": [
+              17,
+              -9,
+              485,
+              730
+            ],
+            "density": 0.3094,
+            "points": 90,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "к": {
+          "before": {
+            "glyph": "uni043A",
+            "advance": 488,
+            "bounds": [
+              8,
+              -9,
+              462,
+              516
+            ],
+            "density": 0.3758,
+            "points": 79,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043A",
+            "advance": 488,
+            "bounds": [
+              8,
+              -9,
+              462,
+              516
+            ],
+            "density": 0.3758,
+            "points": 79,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "л": {
+          "before": {
+            "glyph": "uni043B",
+            "advance": 443,
+            "bounds": [
+              -20,
+              -9,
+              427,
+              515
+            ],
+            "density": 0.2518,
+            "points": 46,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043B",
+            "advance": 443,
+            "bounds": [
+              -20,
+              -9,
+              427,
+              515
+            ],
+            "density": 0.2518,
+            "points": 46,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "м": {
+          "before": {
+            "glyph": "uni043C",
+            "advance": 523,
+            "bounds": [
+              -6,
+              -9,
+              511,
+              510
+            ],
+            "density": 0.3638,
+            "points": 53,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 3,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043C",
+            "advance": 523,
+            "bounds": [
+              -6,
+              -9,
+              511,
+              510
+            ],
+            "density": 0.3638,
+            "points": 53,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 3,
+              "wobble": 0
+            }
+          }
+        },
+        "н": {
+          "before": {
+            "glyph": "uni043D",
+            "advance": 478,
+            "bounds": [
+              9,
+              -9,
+              468,
+              516
+            ],
+            "density": 0.3451,
+            "points": 70,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni043D",
+            "advance": 478,
+            "bounds": [
+              9,
+              -9,
+              468,
+              516
+            ],
+            "density": 0.3451,
+            "points": 70,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "о": {
+          "before": {
+            "glyph": "o",
+            "advance": 414,
+            "bounds": [
+              20,
+              -9,
+              393,
+              516
+            ],
+            "density": 0.346,
+            "points": 30,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "o",
+            "advance": 414,
+            "bounds": [
+              20,
+              -9,
+              393,
+              516
+            ],
+            "density": 0.346,
+            "points": 30,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "п": {
+          "before": {
+            "glyph": "n",
+            "advance": 521,
+            "bounds": [
+              14,
+              -9,
+              500,
+              516
+            ],
+            "density": 0.3573,
+            "points": 63,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 7,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "n",
+            "advance": 521,
+            "bounds": [
+              14,
+              -9,
+              500,
+              516
+            ],
+            "density": 0.3573,
+            "points": 63,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 7,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "р": {
+          "before": {
+            "glyph": "p",
+            "advance": 450,
+            "bounds": [
+              -89,
+              -205,
+              430,
+              583
+            ],
+            "density": 0.2409,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 5,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0440",
+            "advance": 450,
+            "bounds": [
+              -89,
+              -205,
+              430,
+              583
+            ],
+            "density": 0.2409,
+            "points": 71,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 5,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "с": {
+          "before": {
+            "glyph": "c",
+            "advance": 351,
+            "bounds": [
+              15,
+              -9,
+              353,
+              516
+            ],
+            "density": 0.2906,
+            "points": 41,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "c",
+            "advance": 351,
+            "bounds": [
+              15,
+              -9,
+              353,
+              516
+            ],
+            "density": 0.2906,
+            "points": 41,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "т": {
+          "before": {
+            "glyph": "m",
+            "advance": 745,
+            "bounds": [
+              14,
+              -9,
+              724,
+              516
+            ],
+            "density": 0.3603,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 9,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0442",
+            "advance": 745,
+            "bounds": [
+              14,
+              -9,
+              724,
+              516
+            ],
+            "density": 0.3603,
+            "points": 88,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 9,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "у": {
+          "before": {
+            "glyph": "y",
+            "advance": 418,
+            "bounds": [
+              -107,
+              -215,
+              408,
+              516
+            ],
+            "density": 0.214,
+            "points": 56,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "y",
+            "advance": 418,
+            "bounds": [
+              -107,
+              -215,
+              408,
+              516
+            ],
+            "density": 0.214,
+            "points": 56,
+            "diagnostics": {
+              "slop": 2,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 2,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ф": {
+          "before": {
+            "glyph": "uni0444",
+            "advance": 605,
+            "bounds": [
+              30,
+              -205,
+              573,
+              743
+            ],
+            "density": 0.277,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0444",
+            "advance": 605,
+            "bounds": [
+              30,
+              -205,
+              573,
+              743
+            ],
+            "density": 0.277,
+            "points": 96,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "х": {
+          "before": {
+            "glyph": "x",
+            "advance": 450,
+            "bounds": [
+              -24,
+              -10,
+              463,
+              516
+            ],
+            "density": 0.2976,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0445",
+            "advance": 450,
+            "bounds": [
+              -24,
+              -10,
+              463,
+              516
+            ],
+            "density": 0.2976,
+            "points": 85,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 0,
+              "kink": 5,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ц": {
+          "before": {
+            "glyph": "uni0446",
+            "advance": 463,
+            "bounds": [
+              17,
+              -150,
+              450,
+              516
+            ],
+            "density": 0.3299,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0446",
+            "advance": 463,
+            "bounds": [
+              17,
+              -150,
+              450,
+              516
+            ],
+            "density": 0.3299,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ч": {
+          "before": {
+            "glyph": "uni0447",
+            "advance": 483,
+            "bounds": [
+              -16,
+              -9,
+              473,
+              516
+            ],
+            "density": 0.2795,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0447",
+            "advance": 483,
+            "bounds": [
+              -16,
+              -9,
+              473,
+              516
+            ],
+            "density": 0.2795,
+            "points": 82,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ш": {
+          "before": {
+            "glyph": "uni0448",
+            "advance": 728,
+            "bounds": [
+              17,
+              -9,
+              718,
+              516
+            ],
+            "density": 0.3674,
+            "points": 104,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0448",
+            "advance": 728,
+            "bounds": [
+              17,
+              -9,
+              718,
+              516
+            ],
+            "density": 0.3674,
+            "points": 104,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "щ": {
+          "before": {
+            "glyph": "uni0449",
+            "advance": 696,
+            "bounds": [
+              17,
+              -150,
+              683,
+              516
+            ],
+            "density": 0.3153,
+            "points": 112,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0449",
+            "advance": 696,
+            "bounds": [
+              17,
+              -150,
+              683,
+              516
+            ],
+            "density": 0.3153,
+            "points": 112,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ъ": {
+          "before": {
+            "glyph": "uni044A",
+            "advance": 343,
+            "bounds": [
+              12,
+              -9,
+              331,
+              510
+            ],
+            "density": 0.3892,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044A",
+            "advance": 343,
+            "bounds": [
+              12,
+              -9,
+              331,
+              510
+            ],
+            "density": 0.3892,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ы": {
+          "before": {
+            "glyph": "uni044B",
+            "advance": 593,
+            "bounds": [
+              10,
+              -9,
+              583,
+              516
+            ],
+            "density": 0.3426,
+            "points": 98,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044B",
+            "advance": 593,
+            "bounds": [
+              10,
+              -9,
+              583,
+              516
+            ],
+            "density": 0.3426,
+            "points": 98,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ь": {
+          "before": {
+            "glyph": "uni044C",
+            "advance": 364,
+            "bounds": [
+              10,
+              -9,
+              352,
+              516
+            ],
+            "density": 0.3555,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044C",
+            "advance": 364,
+            "bounds": [
+              10,
+              -9,
+              352,
+              516
+            ],
+            "density": 0.3555,
+            "points": 65,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "э": {
+          "before": {
+            "glyph": "uni044D",
+            "advance": 377,
+            "bounds": [
+              4,
+              -9,
+              346,
+              516
+            ],
+            "density": 0.3013,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044D",
+            "advance": 377,
+            "bounds": [
+              4,
+              -9,
+              346,
+              516
+            ],
+            "density": 0.3013,
+            "points": 60,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 2,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ю": {
+          "before": {
+            "glyph": "uni044E",
+            "advance": 622,
+            "bounds": [
+              9,
+              -9,
+              589,
+              516
+            ],
+            "density": 0.3579,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044E",
+            "advance": 622,
+            "bounds": [
+              9,
+              -9,
+              589,
+              516
+            ],
+            "density": 0.3579,
+            "points": 68,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "я": {
+          "before": {
+            "glyph": "uni044F",
+            "advance": 413,
+            "bounds": [
+              -12,
+              -9,
+              401,
+              516
+            ],
+            "density": 0.3683,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni044F",
+            "advance": 413,
+            "bounds": [
+              -12,
+              -9,
+              401,
+              516
+            ],
+            "density": 0.3683,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 2,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ә": {
+          "before": {
+            "glyph": "uni04D9",
+            "advance": 409,
+            "bounds": [
+              15,
+              -9,
+              391,
+              516
+            ],
+            "density": 0.3417,
+            "points": 42,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04D9",
+            "advance": 409,
+            "bounds": [
+              15,
+              -9,
+              391,
+              516
+            ],
+            "density": 0.3417,
+            "points": 42,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ғ": {
+          "before": {
+            "glyph": "uni0493",
+            "advance": 369,
+            "bounds": [
+              19,
+              -1,
+              405,
+              516
+            ],
+            "density": 0.2893,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni0493",
+            "advance": 369,
+            "bounds": [
+              19,
+              -1,
+              405,
+              516
+            ],
+            "density": 0.2893,
+            "points": 55,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "қ": {
+          "before": {
+            "glyph": "uni049B",
+            "advance": 475,
+            "bounds": [
+              6,
+              -150,
+              460,
+              516
+            ],
+            "density": 0.3078,
+            "points": 87,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni049B",
+            "advance": 475,
+            "bounds": [
+              6,
+              -150,
+              460,
+              516
+            ],
+            "density": 0.3078,
+            "points": 87,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ң": {
+          "before": {
+            "glyph": "uni04A3",
+            "advance": 459,
+            "bounds": [
+              19,
+              -150,
+              444,
+              516
+            ],
+            "density": 0.3103,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04A3",
+            "advance": 459,
+            "bounds": [
+              19,
+              -150,
+              444,
+              516
+            ],
+            "density": 0.3103,
+            "points": 78,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 1,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ө": {
+          "before": {
+            "glyph": "uni04E9",
+            "advance": 414,
+            "bounds": [
+              20,
+              -9,
+              393,
+              516
+            ],
+            "density": 0.3734,
+            "points": 34,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04E9",
+            "advance": 414,
+            "bounds": [
+              20,
+              -9,
+              393,
+              516
+            ],
+            "density": 0.3734,
+            "points": 34,
+            "diagnostics": {
+              "slop": 1,
+              "zone": 0,
+              "extrema": 0,
+              "kink": 0,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ұ": {
+          "before": {
+            "glyph": "uni04B1",
+            "advance": 475,
+            "bounds": [
+              21,
+              -205,
+              455,
+              516
+            ],
+            "density": 0.3333,
+            "points": 89,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04B1",
+            "advance": 475,
+            "bounds": [
+              21,
+              -205,
+              455,
+              516
+            ],
+            "density": 0.3333,
+            "points": 89,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "ү": {
+          "before": {
+            "glyph": "uni04AF",
+            "advance": 475,
+            "bounds": [
+              21,
+              -205,
+              455,
+              516
+            ],
+            "density": 0.3242,
+            "points": 81,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04AF",
+            "advance": 475,
+            "bounds": [
+              21,
+              -205,
+              455,
+              516
+            ],
+            "density": 0.3242,
+            "points": 81,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 0,
+              "extrema": 1,
+              "kink": 1,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "һ": {
+          "before": {
+            "glyph": "h",
+            "advance": 476,
+            "bounds": [
+              4,
+              -9,
+              455,
+              743
+            ],
+            "density": 0.3023,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 5,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "uni04BB",
+            "advance": 476,
+            "bounds": [
+              4,
+              -9,
+              455,
+              743
+            ],
+            "density": 0.3023,
+            "points": 61,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 5,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        },
+        "і": {
+          "before": {
+            "glyph": "i",
+            "advance": 288,
+            "bounds": [
+              14,
+              -10,
+              273,
+              710
+            ],
+            "density": 0.2961,
+            "points": 48,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 6,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          },
+          "after": {
+            "glyph": "i",
+            "advance": 288,
+            "bounds": [
+              14,
+              -10,
+              273,
+              710
+            ],
+            "density": 0.2961,
+            "points": 48,
+            "diagnostics": {
+              "slop": 0,
+              "zone": 1,
+              "extrema": 6,
+              "kink": 4,
+              "micro": 0,
+              "wobble": 0
+            }
+          }
+        }
+      },
+      "native_controls": {
+        "H": {
+          "glyph": "H",
+          "advance": 545,
+          "bounds": [
+            -36,
+            0,
+            630,
+            720
+          ],
+          "density": 0.2549,
+          "points": 84,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 4,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "N": {
+          "glyph": "N",
+          "advance": 542,
+          "bounds": [
+            -42,
+            -9,
+            632,
+            720
+          ],
+          "density": 0.2115,
+          "points": 61,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 3,
+            "kink": 5,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "O": {
+          "glyph": "O",
+          "advance": 540,
+          "bounds": [
+            54,
+            -9,
+            535,
+            730
+          ],
+          "density": 0.2798,
+          "points": 34,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "A": {
+          "glyph": "A",
+          "advance": 457,
+          "bounds": [
+            -74,
+            0,
+            418,
+            730
+          ],
+          "density": 0.2229,
+          "points": 57,
+          "diagnostics": {
+            "slop": 3,
+            "zone": 0,
+            "extrema": 2,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "o": {
+          "glyph": "o",
+          "advance": 414,
+          "bounds": [
+            20,
+            -9,
+            393,
+            516
+          ],
+          "density": 0.346,
+          "points": 30,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 0,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "n": {
+          "glyph": "n",
+          "advance": 521,
+          "bounds": [
+            14,
+            -9,
+            500,
+            516
+          ],
+          "density": 0.3573,
+          "points": 63,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 7,
+            "kink": 4,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "u": {
+          "glyph": "u",
+          "advance": 508,
+          "bounds": [
+            17,
+            -9,
+            489,
+            516
+          ],
+          "density": 0.3655,
+          "points": 56,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 8,
+            "kink": 3,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "m": {
+          "glyph": "m",
+          "advance": 745,
+          "bounds": [
+            14,
+            -9,
+            724,
+            516
+          ],
+          "density": 0.3603,
+          "points": 88,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 9,
+            "kink": 5,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "c": {
+          "glyph": "c",
+          "advance": 351,
+          "bounds": [
+            15,
+            -9,
+            353,
+            516
+          ],
+          "density": 0.2906,
+          "points": 41,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "p": {
+          "glyph": "p",
+          "advance": 450,
+          "bounds": [
+            -89,
+            -205,
+            430,
+            583
+          ],
+          "density": 0.2409,
+          "points": 71,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 2,
+            "extrema": 5,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "x": {
+          "glyph": "x",
+          "advance": 450,
+          "bounds": [
+            -24,
+            -10,
+            463,
+            516
+          ],
+          "density": 0.2976,
+          "points": 85,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 1,
+            "extrema": 0,
+            "kink": 5,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "y": {
+          "glyph": "y",
+          "advance": 418,
+          "bounds": [
+            -107,
+            -215,
+            408,
+            516
+          ],
+          "density": 0.214,
+          "points": 56,
+          "diagnostics": {
+            "slop": 2,
+            "zone": 0,
+            "extrema": 0,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        },
+        "z": {
+          "glyph": "z",
+          "advance": 385,
+          "bounds": [
+            -13,
+            -9,
+            402,
+            516
+          ],
+          "density": 0.2517,
+          "points": 73,
+          "diagnostics": {
+            "slop": 0,
+            "zone": 0,
+            "extrema": 4,
+            "kink": 2,
+            "micro": 0,
+            "wobble": 0
+          }
+        }
+      },
+      "sha256": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
+      "baseline_sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
+      "zhe_to_en": 1.469,
+      "de_depth": -215
+    }
+  },
+  "automated_diagnostics_are_not_visual_approval": true
+}

@@ -326,12 +326,32 @@ def build(ita,reg):
     # through them at the middle. The I006-I018 form (k arms mirrored) read as "ЖК" and is kept at U+F106.
     mp=pathops.Path();k_arms=SUB(AND(AND(k,right_of(55)),below(520)),AND(left_of(72),above(500)));k_arms.draw(TransformPen(mp.getPen(),(-1,0,2*S,1,2*37.0,0)))
     out['\uf106']=(OR(zh_stem,mp),447)
-    c_=native(ita,'c');ZH_GAP=45.;ZH_SL,ZH_SR=4.2,68.4                          # k stem at mid height (ud)
+    # I027: redraw the two bowls with shorter counters, retaining the native
+    # back stroke and terminal widths. A uniform scale would thin both. Only
+    # the open side moves; control points in the counter interpolate smoothly.
+    from fontTools.pens.recordingPen import RecordingPen
+    design=json.loads(Path('data/params.json').read_text())['premium_review']['italic_zhe']
+    rec=RecordingPen();native(ita,'c').draw(rec)
+    c_=pathops.Path();pen=c_.getPen()
+    for op,args in rec.value:
+        pts=[]
+        for x,y in args:
+            ud=x-S*y;t=max(0.,min(1.,(ud-design['protected_ud'])/(design['terminal_ud']-design['protected_ud'])))
+            ud-=design['counter_reduction']*t*t*(3.-2.*t)
+            pts.append((ud+S*y,y))
+        getattr(pen,op)(*pts)
+    ZH_GAP=design['gap'];ZH_SL,ZH_SR=4.2,68.4                          # k stem at mid height (ud)
     c_back=slices(c_,255)[0][0]                                                  # -31.1: outer edge of the back of c at mid height
     zh_c=transformed(c_,dx=ZH_SR+ZH_GAP-c_back)
     A2=ZH_SL-ZH_GAP+c_back                                                      # mirror about ud=A2/2: the back of the reversed c ends ZH_GAP left of the stem
     zh_rc=pathops.Path();c_.draw(TransformPen(zh_rc.getPen(),(-1,0,2*S,1,A2,0)))
-    zh_stem2=AND(AND(k,left_of(72)),below(510))
+    # The clipped k stem retained two branch stubs on its right edge (up to
+    # 3 units), visible as notches in the author's enlargement. Draw one clean
+    # stem on the measured slant instead, with the same perpendicular weight.
+    zh_stem2=pathops.Path();sp=zh_stem2.getPen();X=lambda u,y:(u+S*y,y)
+    sp.moveTo(X(ZH_SL,510.));sp.lineTo(X(ZH_SL,2.))
+    sp.qCurveTo(X(ZH_SL,0.),X(ZH_SL+2.,0.));sp.lineTo(X(ZH_SR-2.,0.))
+    sp.qCurveTo(X(ZH_SR,0.),X(ZH_SR,2.));sp.lineTo(X(ZH_SR,510.));sp.closePath()
     # the joins are the pen's upstrokes (author's sketch), not a level bar: from the back of the reversed c up to the top of the stem, and
     # from the foot of the stem up into the back of c; "/" strokes are hairlines in this face (x: 26)
     def hair(a,b,w=14.,bend=0.):                    # 14: the hairline of the pen model (o top); 24 made a dark knot (author)
@@ -531,7 +551,7 @@ def build(ita,reg):
 BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
-STRAIGHTEN=set('мляюдф')     # constructions with straight edges (tools/straightness_audit.py); native stems bow and are left alone
+STRAIGHTEN=set('мляюдфж')    # own straight edges; the native bowed stems are left alone
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}
 
 
@@ -546,6 +566,10 @@ def main():
             try:g,_=PO.straight_edges(g,glyf,g,{})
             finally:PO.STRAIGHT_RATIO=r
         g,_=fair(g,glyf)                                # I021: seams and grid kinks faired (tools/italic_fair.py)
+        detail={}
+        if ch in 'жз':
+            from italic_detail import smooth_ze,smooth_zhe
+            g,detail=(smooth_ze if ch=='з' else smooth_zhe)(g,glyf)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         sp=SPACING.get(ch)
@@ -554,7 +578,7 @@ def main():
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))
         for t in font['cmap'].tables:
             if t.isUnicode():t.cmap[ord(ch)]=name
-        rep.append(dict(character=ch,advance=adv,nodes=len(g.coordinates)))
+        rep.append(dict(character=ch,advance=adv,nodes=len(g.coordinates),detail=detail))
     font.setGlyphOrder(font['glyf'].glyphOrder)
     out=Path('build/italic-lower');out.mkdir(parents=True,exist_ok=True)
     ver=json.loads(Path('data/italic-version.json').read_text())['version'];tag='I'+ver.replace('.','').zfill(3)
@@ -565,6 +589,7 @@ def main():
         elif r.nameID==4:r.string=family+' Italic'
         elif r.nameID==6:r.string=ps
     target=out/f'VeryPeriSerifItalic{tag}.ttf';font.save(target)
+    (out/'detail-repairs.json').write_text(json.dumps([r for r in rep if r['detail']],ensure_ascii=False,indent=2)+'\n')
     print(target,rep)
 
 

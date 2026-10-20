@@ -1,0 +1,60 @@
+{
+  "version": "1.100",
+  "date": "2026-10-20",
+  "baseline_commit": "a7bec14",
+  "font_builds": [
+    "make clean; make family; independent checks, proofs and packaging",
+    "make clean; make BROWSER=1"
+  ],
+  "fonts": {
+    "fonts/otf/VeryPeriSerif-Italic.otf": {
+      "sha256": "bfe2e6acbd4cf218c313d41bfb82f83d2e388b377ea7149a3aedf3cc1d09cd4d",
+      "identical_after_two_clean_builds": true
+    },
+    "fonts/otf/VeryPeriSerif-Regular.otf": {
+      "sha256": "0355eaa942aba1ed249b4725ae450b6b44cd8a803e3a23576038acbc474f7504",
+      "identical_after_two_clean_builds": true
+    },
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": {
+      "sha256": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
+      "identical_after_two_clean_builds": true
+    },
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": {
+      "sha256": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+      "identical_after_two_clean_builds": true
+    },
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": {
+      "sha256": "15a9c77b4aa1796ac8d0a6755ffeb4fa53b3ee4113b1ae4c7643ad940b34f1f6",
+      "identical_after_two_clean_builds": true
+    },
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": {
+      "sha256": "cbcf440218b307a0badb0597c4288e076573f89465407756b6664295b3052bfa",
+      "identical_after_two_clean_builds": true
+    }
+  },
+  "family_specimen": {
+    "file": "build/release/family-specimen.pdf",
+    "sha256": "a12ec484da3f9fc1d5f7ed17f450f78ab1c502e398c2faf9225e1866d35cd489",
+    "identical_after_regeneration": true,
+    "scale": "96 CSS px per inch; 133.333 px = 100 pt"
+  },
+  "archive": {
+    "file": "dist/VeryPeriSerif-1.100.zip",
+    "sha256": "8b56e2e8bb5f92469e3df9440d3cafa9ae8c3c97d1bf1d03fa4588b7c8c5615a",
+    "identical_after_two_final_packages": true,
+    "repeat_command": "python -I tools/family_proof.py; python -I tools/package_release.py --browser",
+    "note": "PDF physical scale was corrected before publication; font binaries remained identical. The two final packages use the same corrected PDF layout."
+  },
+  "previous_release_files": {
+    "dist/VeryPeriSerif-1.016.zip": {
+      "sha256": "f49f9ea1875faab755b72174eba81857a7d3ae76e974a4c0d972c87684d68994",
+      "unchanged_from_baseline": true
+    },
+    "dist/VeryPeriSerifDraft-Regular.zip": {
+      "sha256": "a93da7f70d44439839481ecb82522471e2173be169c89b163fcbf2a8554b807a",
+      "unchanged_from_baseline": true
+    }
+  },
+  "de_source_regeneration": "Repeated tools/premium_regular.py: selected GLIF, original GLIF, inventory, context and manifest byte-identical.",
+  "failed": 0
+}

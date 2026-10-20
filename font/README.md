@@ -1,70 +1,84 @@
 # Сборка Very Peri Serif
 
-Готовые шрифты лежат в `fonts/`, архив для скачивания в `dist/`. Здесь описано, как собрать их заново из исходников
-(`data/` — контуры GLIF/SVG и параметры, `tools/` — скрипты, `font/` — OpenType, кернинг и тексты для пользователя).
+Рабочие исходники: `data/` (GLIF/SVG, параметры), `tools/` (построение и проверки), `font/` (OpenType и описание).
+Готовые файлы: `fonts/`; неизменяемые архивы выпусков: `dist/`.
 
 ## Подготовка
 
-Нужны Git, Python 3.12 и make. Нужна полная история репозитория: проверки сравнивают результат с прежними версиями
-через Git, поэтому ZIP исходников и `--depth 1` не подходят.
+Проверенное окружение — Linux, Python **3.12**, Git, GNU make и Bash. Для Windows используйте WSL2 с этим же Linux-процессом.
+Установка готового TTF/OTF не требует Python или WSL. Нативная сборка в PowerShell не заявляется.
+Нужна полная история Git: проверки сравнивают контуры с прежними коммитами; исходный ZIP и shallow clone не подходят.
 
 ```sh
 git clone https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif.git
 cd Very-Peri-serif
+# Если версия по умолчанию старее нужного выпуска, переключитесь на ветку/тег этого выпуска.
 python3.12 -m venv .venv
-source .venv/bin/activate          # Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-```
-
-Эталон Instrument Serif скачивается при первой сборке (`tools/fetch_reference.sh`) и закрепляется на коммите
-`65c0ef2`: все измерения сняты с него. Урезанную веб-версию Instrument Serif использовать нельзя.
-
-## Одна команда
-
-```sh
+source .venv/bin/activate
+python -m pip install -r requirements.txt -r requirements-quality.txt
 make
 ```
 
-| Шаг | Цель make | Скрипты | Результат |
-|---|---|---|---|
-| 1 | `regular` | `build_regular_release.py`, `make_test_copy.py` | `build/release/VeryPeriSerif-Regular.*`, `dist/test/VeryPeriSerifT<версия>-Regular.ttf` |
-| 2 | `italic` | `italic_caps.py` → `italic_lower.py` → `italic_features.py` → `italic_kern.py` | `build/italic-lower/VeryPeriSerifItalicI<NNN>.ttf` |
-| 3 | `family` | `build_family.py` | Regular и Italic одним семейством, `build/release/VeryPeriSerif-Italic.*` |
-| 4 | `release` | `package_release.py` (`ttf2otf.py`) | `fonts/ttf`, `fonts/otf`, `fonts/webfonts`, `docs/qa/`, `dist/VeryPeriSerif-<версия>.zip` |
+Версии основных инструментов закреплены в двух requirements-файлах. Эталон Instrument Serif закреплён на полном коммите
+`65c0ef225f386a3c7e87570a4aa9cc0262c2fd81`, загружается при первой сборке. Копия с fonts.gstatic.com не подходит.
+Matplotlib при необходимости направляется в доступный каталог через `MPLCONFIGDIR` и `XDG_CACHE_HOME`.
 
-`make regular` собирает только Regular. `make clean` удаляет `build/`. `make quality` запускает FontBakery
-(профиль universal, без сети) на `fonts/ttf`, для него нужен `requirements-quality.txt`.
+## Цели
 
-Что проверяется при сборке:
+| Команда | Результат |
+|---|---|
+| `make regular` | Regular, полный прежний набор проверок, тестовая копия с отдельным именем |
+| `make italic` | свежий рисунок прописных, строчных и альтернатив Italic; без финального кернинга |
+| `make family` | завершение символов и якорей Italic, удаление экспериментальных PUA, полный кернинг, tnum, связь начертаний |
+| `make quality` | независимая приёмка обоих TTF из `build/release/`, FontBakery Universal без сети и Hyperglot с shaping |
+| `make` | всё выше, полный образец PDF/HTML, оптический отчёт, шесть шрифтов в `fonts/`, отчёты в `docs/qa/`, ZIP |
+| `make clean` | удалить только `build/`; исходники, готовые и старые выпуски сохраняются |
 
-- Regular: все функциональные тесты и сочетания HarfBuzz на конечном TTF (контекстные формы, ss01–ss09, aalt), все
-  пары кернинга, контуры и таблицы против исходной стадии, OpenType Sanitizer (`docs/qa/validation.json`,
-  `kerning-validation.json`, `release-validation.json`).
-- Семейство: связь стилей, метрики, покрытие курсивом всех знаков Regular, набор без .notdef (`docs/qa/family-validation.json`).
-- Публикация: OTF совпадает с TTF (расстояние Хаусдорфа контуров, те же таблицы и ширины), WOFF2 с TTF, лицензия и имена
-  (`docs/qa/package-check.json`).
+`tools/italic_kern.py` применяется один раз к свежему шрифту внутри `build_family.py`, после добавления знаков.
+Не запускайте его повторно на уже кернённом файле: иначе поправки складываются.
 
-## Подбор полей курсива
+Дополнительная браузерная приёмка:
 
-Поля курсива записаны в `data/italic-spacing.json` и `data/italic-caps-spacing.json`, сборка их только применяет.
-Чтобы подогнать их заново после изменения форм, цепочка такая (порядок важен, см. docstring `tools/italic_respace.py`):
-`italic_respace.py --caps --reset`, `italic_caps.py`, `italic_respace.py --reset`, `italic_lower.py`, `italic_respace.py`,
-`italic_lower.py`, `italic_respace.py --caps`, `italic_caps.py`, `italic_lower.py`, затем `make release`.
+```sh
+# Нужны Node.js, Chromium и Poppler (pdftotext, pdffonts).
+# Модуль Playwright (без загрузки второго браузера):
+npm install --prefix build/browser-tools --no-save --no-package-lock playwright@1.62.1
+make BROWSER=1
+# Или только проверка уже опубликованных файлов:
+node tools/check_browser.cjs
+```
 
-## Работа с исходниками
+При другом расположении Chromium задайте `CHROMIUM_PATH`. Браузерная проверка поднимает локальный HTTP-сервер только на время теста,
+загружает все шесть файлов, проверяет CSS-начертания, равенство ширин между форматами и табличные цифры, создаёт PDF с живым текстом.
+После `make clean` повторите установку Playwright, если модуль находился в `build/browser-tools`.
+Пакетировщик проверяет `data/premium-decisions.json → approved_fonts`: это SHA256 шрифтов, принятых по оптическим образцам.
+При изменении рисунка сначала пересоберите/проверьте семейство и образцы, затем обновите эти хеши после просмотра.
+Снимки и PDF — в `build/premium/browser/`, результат — `docs/qa/browser-check.json`. Этот тест не заменяет Windows/macOS/Adobe/Office/Figma.
+В окружении без браузера обычный `make` работает; старый браузерный отчёт не является доказательством проверки новых бинарников.
 
-`data/alphabet.json` задаёт активные GLIF, `data/params.json` — параметры (единственный источник чисел).
-Кернинг Regular: `tools/optical_kerning.py`, `font/kerning-overrides.json`. Контекстные классы проверяются
-перед сборкой автоматически (`tools/check_context_classes.py`). `build-manifest.json` хранит выбранные источники и SHA256.
+## Что принимается
 
-Если matplotlib не может писать в домашний каталог, задайте `XDG_CACHE_HOME` и `MPLCONFIGDIR`.
+- Regular: все сочетания русского/казахского алфавита в 18 режимах, смешанные пары, сохранность родной латиницы и контекстных классов.
+- Italic: 64 комбинации ss01–ss06, локализованные формы SRB/MKD, все порядки регистров и смешанные партнёры; независимые векторные пересечения.
+- Оба: ударения, NFC/NFD, составные знаки, удаление точки у і, лигатуры, tnum, метрики и связь стилей.
+- FontBakery: профиль Universal, без сетевых проверок. Hyperglot: русский и казахский с shaping.
+- Публикация: OTS на TTF/OTF/WOFF2; совпадение таблиц/ширин; допустимое отклонение конвертации контуров; лицензии, архив и SHA256.
+- Оптика: `docs/img/premium-*-alphabet.svg`, `premium-comparison.svg`, семейный PDF и `docs/premium-acceptance.md`.
 
-## Прежние сборки
+Автоматический диагностический счётчик кривых не является оценкой красоты. Результат оптического просмотра записывается отдельно.
 
-`dist/VeryPeriSerifDraft/` — черновая сборка 1.010 для истории и сравнений (в редакторе **Very Peri Serif Draft**),
-`docs/history.md` — журнал прежних выпусков.
+## Повторяемость и выпуски
+
+Общая версия семейства — `data/params.json → regular_release.version`; дата также там. `data/italic-version.json` хранит внутренний номер рисунка.
+Для изменения **любого** начертания увеличьте общую версию перед публикацией.
+Пакетировщик сохраняет прежние ZIP и отказывается заменять существующий архив другим содержимым. Повторная сборка одинаковых исходников
+должна давать одинаковые шесть шрифтов и ZIP. `docs/qa/` привязан к SHA256 конечных файлов.
+
+`tools/premium_regular.py` воспроизводит сокращённую петлю д из сохранённого предыдущего GLIF, без накопления деформации.
+Основной `make` читает уже выбранный GLIF. Поля курсива — `data/italic-spacing.json`, `data/italic-caps-spacing.json`;
+кернинг рассчитывается после их применения. Эталонная латиница не редактируется.
 
 ## Лицензия
 
-SIL Open Font License 1.1, текст и копирайты в `OFL.txt`; авторы в `AUTHORS.txt`, участие ИИ в `FONTLOG.txt` и
-`font/ai-disclosure.json`. Разбор: `docs/legal-review.md`.
+SIL Open Font License 1.1; `OFL.txt`, `AUTHORS.txt`, `CONTRIBUTORS.txt`, `FONTLOG.txt`, `font/ai-disclosure.json`.
+Атрибуция Cormorant сохраняется, пока Regular д использует производный контур. Рисунок Italic этой производной не содержит.

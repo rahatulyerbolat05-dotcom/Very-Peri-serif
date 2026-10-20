@@ -15,5 +15,5 @@ git -C reference/instrument-serif checkout -q --detach 65c0ef225f386a3c7e87570a4
 commit="$(git -C reference/instrument-serif rev-parse --short=7 HEAD)"
 echo "commit: $commit"
 # все измерения сняты с коммита 65c0ef2 (CLAUDE.md, раздел 1); на другом коммите сборка может отличаться
-[ "$commit" = "65c0ef2" ] || echo "ВНИМАНИЕ: ожидался коммит 65c0ef2" >&2
+[ "$(git -C reference/instrument-serif rev-parse HEAD)" = "65c0ef225f386a3c7e87570a4aa9cc0262c2fd81" ]
 ls reference/instrument-serif/sources reference/instrument-serif/fonts/ttf

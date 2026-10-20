@@ -1,11 +1,12 @@
 # Very Peri Serif: build from the sources in data/ and tools/.
 #   make            both styles, then fonts/ttf otf webfonts, docs/qa and the download in dist/
 #   make regular    the Regular only (build/release, test copy in dist/test)
-#   make quality    FontBakery (universal profile) on fonts/ttf, needs requirements-quality.txt
+#   make quality    independent acceptance, FontBakery Universal and Hyperglot on build/release
 #   make clean      remove build/
-# Requires Python 3.11+ with requirements.txt, and git for the Instrument Serif reference.
+# Requires Python 3.12, requirements.txt + requirements-quality.txt, and git.
 
 PY  := python3 -I
+BROWSER ?= 0
 REF := reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf
 
 .PHONY: all release family italic regular reference quality clean
@@ -25,18 +26,21 @@ italic: regular
 	$(PY) tools/italic_caps.py
 	$(PY) tools/italic_lower.py
 	$(PY) tools/italic_features.py
-	$(PY) tools/italic_kern.py
 
 family: italic
 	$(PY) tools/build_family.py
 
 release: family
-	$(PY) tools/package_release.py
+	$(PY) tools/check_family.py
+	$(PY) tools/quality_family.py
+	$(PY) tools/family_proof.py
+	$(PY) tools/optical_review.py
+	$(PY) tools/package_release.py $(if $(filter 1,$(BROWSER)),--browser,)
+	$(PY) tools/readme_header.py
 
 quality:
-	mkdir -p build
-	python3 -m fontbakery check-universal --skip-network --no-progress --no-colors \
-	  --json build/fontbakery-universal.json fonts/ttf/VeryPeriSerif-Regular.ttf fonts/ttf/VeryPeriSerif-Italic.ttf
+	$(PY) tools/check_family.py
+	$(PY) tools/quality_family.py
 
 clean:
 	rm -rf build

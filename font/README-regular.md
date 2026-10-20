@@ -1,4 +1,4 @@
-# Very Peri Serif — Regular 1.015
+# Very Peri Serif — Regular 1.100
 
 Устанавливаемое начертание Regular: русский, казахский и латиница.
 В меню редактора шрифт называется **Very Peri Serif**, начертание **Regular**.
@@ -45,14 +45,13 @@ body { font-family: "Very Peri Serif", serif; }
 
 ## Состав релиза
 
-Regular 1.015 фиксирует последние формы: компактные составные буквы,
+Regular 1.100 фиксирует выбранные формы: компактные составные буквы,
 суженную чашу д, усиленные стенки з, авторские капли с плавными стыками
-и различимые У/Ү. Это одно прямое начертание веса400; курсив развивается отдельно.
+и различимые У/Ү. Прямое начертание веса 400; в семействе также есть Italic 1.100.
 
-Контуры, ширины, кернинг и функции OpenType соответствуют проверенной
-геометрии1.012. Для финального релиза оформлены имя, версия и метаданные.
-Проверки относятся к конечным TTF/WOFF2: результаты — `validation.json`,
-`kerning-validation.json`, `release-validation.json`, `quality-summary.json`.
+Округлая чаша д сохранена, нижняя петля укорочена с −280 до −250. Омоглифы копируются из исходного TTF вместе с хинтингом.
+`tnum` включает табличные цифры. Общая версия Regular и Italic — 1.100.
+Проверки относятся к конечным TTF/WOFF2; результаты — `docs/qa/` и `docs/premium-acceptance.md`.
 `SHA256SUMS.txt` позволяет проверить файлы архива.
 
 ## Повторная сборка
@@ -70,8 +69,8 @@ python -I tools/build_regular_release.py
 проверки FontBakery и Hyperglot:
 
 ```sh
-python -m pip install -r requirements-quality.txt
-python -I tools/build_regular_release.py --quality
+make family
+make quality
 ```
 
 ## Лицензия и авторство

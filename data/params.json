@@ -3764,22 +3764,23 @@
   }
  },
  "regular_release": {
-  "status": "17.10.2026: author requests final installable Regular release of current selected outlines",
+  "status": "20.10.2026: self-reviewed family release; acceptance in docs/premium-acceptance.md",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.016",
+  "version": "1.100",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "build/release",
   "archive": "build/release/VeryPeriSerif-Regular.zip",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "cyrillic_author": "Yerbolat",
   "ai_note": "Cyrillic outlines made with AI assistance (Claude, Codex) under the direction of the author.",
   "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif), Copyright 2026 The Very Peri Serif Project Authors (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)",
   "copyright_cormorant": "Cyrillic de: Copyright 2015 The Cormorant Project Authors (https://github.com/CatharsisFonts/Cormorant)",
   "release_directory": "fonts",
-  "release_archive": "dist"
+  "release_archive": "dist",
+  "family_win_ascent": 1300
  },
  "weight_balance": {
   "status": "17.10.2026: author reports ф ж ю look heavy; measured x-height-band ink density 0.44/0.40/0.37 against a Latin range 0.26-0.37. Strokes thinned with outer silhouette and advance fixed.",
@@ -4172,6 +4173,20 @@
      }
     ]
    }
+  }
+ },
+ "premium_review": {
+  "status": "20.10.2026 design decisions, baseline a7bec14; optical acceptance in docs/premium-acceptance.md",
+  "italic_zhe": {
+   "counter_reduction": 48.0,
+   "gap": 32.0,
+   "protected_ud": 55.0,
+   "terminal_ud": 180.0
+  },
+  "regular_de": {
+   "tail_displacement": 30.0,
+   "unchanged_above": -10.0,
+   "original_bottom": -280.0
   }
  }
 }

@@ -32,6 +32,8 @@ from italic_tidy import tidy
 from italic_fair import fair
 
 OUT=Path('data/italic-features.json')
+NATIVE_VARIANTS={'uni0434.ss02':'eth','uni0430.ss01':'a.ss01','uni0435.ss01':'e.ss01',
+                 'uni0434.locl':'g','uni0434.locl.ss01':'g.ss01'}
 T_BAR=150.                     # half length of the printed т bar from the stem centre (ud); native t: 71 left, 93 right of its stem
 ARM=60.;ARM_W=70.             # arms of the printed т г: depth below the bar top, width of the piece of T taken at each end
 G_BAR=190.                     # right reach of the printed г bar from the stem centre (Regular г: 206)
@@ -69,6 +71,11 @@ def printed(font,lo,hi):
 
 def build_glyphs(font):
     glyf=font['glyf'];hmtx=font['hmtx'];new={}
+    # Cyrillic eth-shaped de/be needs its own accent anchor. The Latin eth has
+    # none; keep its shaping unchanged and give the Cyrillic alternate a copy.
+    for name,source in NATIVE_VARIANTS.items():
+        glyf[name]=copy.deepcopy(glyf[source]);hmtx[name]=hmtx[source]
+        new[name]=dict(source='native '+source+', separate Cyrillic mark base')
     # т for Serbian/Macedonian: ш with the macron placed as on ū (umacron: macron moved 29 over u)
     u_off=dict((c.glyphName,c.x) for c in glyf['umacron'].components)['uni0304']
     dx=round(top_centre(font,'uni0448')-top_centre(font,'u')+u_off)
@@ -106,21 +113,21 @@ languagesystem cyrl MKD;
 feature locl {
   script cyrl;
   language SRB exclude_dflt;
-    sub uni0431 by eth;
+    sub uni0431 by uni0434.ss02;
     sub uni0433 by imacron;
-    sub uni0434 by g;
+    sub uni0434 by uni0434.locl;
     sub n by umacron;
     sub m by uni0442.srb;
   language MKD exclude_dflt;
     sub uni0433 by imacron;
-    sub uni0434 by g;
+    sub uni0434 by uni0434.locl;
     sub n by umacron;
     sub m by uni0442.srb;
 } locl;
 feature ss02 {
   featureNames { name "Cyrillic de with ascender"; name 3 1 0x0419 "д с выносом вверх"; };
   script cyrl;
-  sub uni0434 by eth;
+  sub uni0434 by uni0434.ss02;
 } ss02;
 feature ss03 {
   featureNames { name "Cyrillic printed te"; name 3 1 0x0419 "т печатная"; };
@@ -190,8 +197,9 @@ def main():
     for n in new:gdef[n]=1
     font.save(path)
     # glyphs the kerning measures besides the cmap letters: (glyph, letter it stands for, native outline)
-    kern_glyphs={'uni0442.srb':['т',False],'uni0442.ss03':['т',False],'uni0433.ss04':['г',False],'uni0436.ss05':['ж',False],'uni044D.ss06':['э',False],'k':['к',True],'eth':['д',True],'g':['д',True],'imacron':['г',True],'umacron':['п',True]}
-    OUT.write_text(json.dumps({'note':'tools/italic_features.py','glyphs':new,'kern_glyphs':kern_glyphs,'features':['locl SRB','locl MKD','ss01','ss02','ss03','ss04','ss05','ss06']},ensure_ascii=False,indent=1)+'\n')
+    kern_glyphs={'uni0442.srb':['т',False],'uni0442.ss03':['т',False],'uni0433.ss04':['г',False],'uni0436.ss05':['ж',False],'uni044D.ss06':['э',False],'k':['к',True],'uni0434.ss02':['д',True],'g':['д',True],'imacron':['г',True],'umacron':['п',True]}
+    kern_glyphs.update({name:[chr(int(name[3:7],16)),True] for name in NATIVE_VARIANTS})
+    OUT.write_text(json.dumps({'note':'tools/italic_features.py','glyphs':new,'native_cyrillic_variants':NATIVE_VARIANTS,'kern_glyphs':kern_glyphs,'features':['locl SRB','locl MKD','ss01','ss02','ss03','ss04','ss05','ss06']},ensure_ascii=False,indent=1)+'\n')
     print(path,new)
 
 

@@ -1,8 +1,8 @@
 {
-  "version": "1.016",
-  "italic_version": "0.260",
-  "archive": "dist/VeryPeriSerif-1.016.zip",
-  "archive_sha256": "f49f9ea1875faab755b72174eba81857a7d3ae76e974a4c0d972c87684d68994",
+  "version": "1.100",
+  "italic_version": "1.100",
+  "archive": "dist/VeryPeriSerif-1.100.zip",
+  "archive_sha256": "8b56e2e8bb5f92469e3df9440d3cafa9ae8c3c97d1bf1d03fa4588b7c8c5615a",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",
@@ -18,16 +18,18 @@
     "fonts/webfonts/VeryPeriSerif-Italic.woff2",
     "fonts/webfonts/VeryPeriSerif-Regular.woff2",
     "fonts/webfonts/very-peri-serif.css",
-    "specimen/VeryPeriSerif-Regular-Specimen.pdf"
+    "specimen/VeryPeriSerif-Family-Specimen.pdf",
+    "specimen/VeryPeriSerif-Regular-Specimen.pdf",
+    "specimen/family.html"
   ],
   "otf": {
     "Regular": {
-      "glyphs": 513,
+      "glyphs": 525,
       "hausdorff_worst": 0.707,
       "over_limit": []
     },
     "Italic": {
-      "glyphs": 471,
+      "glyphs": 491,
       "hausdorff_worst": 0.713,
       "over_limit": []
     }

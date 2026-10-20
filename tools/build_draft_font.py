@@ -71,7 +71,8 @@ def native_kern(font,left,right):
     indices=next(r.Feature.LookupListIndex for r in table.FeatureList.FeatureRecord if r.FeatureTag=='kern')
     total=0
     for idx in indices:
-        for s in table.LookupList.Lookup[idx].SubTable:
+        for raw in table.LookupList.Lookup[idx].SubTable:
+            s=raw.ExtSubTable if hasattr(raw,'ExtSubTable') else raw
             if left not in s.Coverage.glyphs:continue
             assert s.ValueFormat1==4 and s.ValueFormat2==0
             if s.Format==1:
@@ -99,7 +100,8 @@ def extend_anchors(font,records):
     original=dict(bases)
     for name,r in records.items():
         if r['character'] in SYMBOLS and r['character'] not in '◌Əə':continue
-        donor=r['donors'][0]
+        donor=r.get('native_copy',r['donors'][0])
+        if donor not in original:donor=r['donors'][0]
         if r['character']=='і':donor='dotlessi'
         if donor not in original:donor='E' if r['character'].isupper() else 'e'
         anchors=copy.deepcopy(original[donor])
@@ -196,14 +198,29 @@ def main(output_dir=OUT,ttf_path=TTF):
     output_dir.mkdir(parents=True,exist_ok=True);Path('font').mkdir(exist_ok=True)
     cfg=json.loads(Path('data/alphabet.json').read_text());context=json.loads(Path('data/context/serif_bl.json').read_text())
     font=TTFont(REF);native=TTFont(REF);order=list(font.getGlyphOrder());records={};paths={};chosen={};tail_pairs={}
+    # GLIF is an outline interchange format: it cannot carry TrueType instructions.
+    # Copy the actual native glyph for declared homoglyphs, including components
+    # and hint programs, rather than converting it through cubic paths twice.
+    homoglyphs=json.loads(Path('data/homoglyph/meta.json').read_text())
+    native_paths={str(Path('data/homoglyph')/(r['glyph']+'.glif')):r['latin']
+                  for r in homoglyphs.values() if 'latin' in r}
+    native_paths.update({f'data/homoglyph/{base}.ss01.glif':lat+'.ss01'
+                         for base,lat in [('a-cy','a'),('es-cy','c'),('ie-cy','e'),('io-cy','edieresis')]})
     def install(ch,filename,name,native_donor=None):
+        native_copy=native_donor or native_paths.get(str(filename))
         if native_donor:
             path=pathops.Path();native.getGlyphSet()[native_donor].draw(path.getPen())
             advance=native['hmtx'][native_donor][0]
             checksum=hashlib.sha256(native['glyf'][native_donor].compile(native['glyf'])).hexdigest()
         else:
             path,advance=load(filename);checksum=hashlib.sha256(Path(filename).read_bytes()).hexdigest()
-        spaced=SPACING.get(name) if not native_donor else None
+        if not native_copy and ch in {'А':'A','п':'n','и':'u'}:
+            candidate={'А':'A','п':'n','и':'u'}[ch]
+            original=pathops.Path();native.getGlyphSet()[candidate].draw(original.getPen())
+            difference=pathops.op(path,original,pathops.PathOp.XOR)
+            if abs(difference.area)<.01 and advance==native['hmtx'][candidate][0]:
+                native_copy=candidate
+        spaced=SPACING.get(name) if not native_copy else None
         advance_unspaced=advance
         if spaced:
             moved=pathops.Path();path.draw(TransformPen(moved.getPen(),(1,0,0,1,spaced['dx'],0)));path=moved;advance=advance+spaced['dadv']
@@ -211,7 +228,7 @@ def main(output_dir=OUT,ttf_path=TTF):
         # Added glyphs only: merge redundant nodes, exact extrema/smooth joins. Verbatim
         # Instrument homoglyphs keep their native structure.
         tolerance=.1
-        if not native_donor and 'data/homoglyph/' not in str(filename):path=clean_path(path);tolerance=CLEAN_QUAD_TOLERANCE
+        if not native_copy:path=clean_path(path);tolerance=CLEAN_QUAD_TOLERANCE
         pen=TTGlyphPen(None);path.draw(Cu2QuPen(pen,tolerance,reverse_direction=False))
         glyph=pen.glyph()
         # Integer rounding can create zero-length export fragments. Clean the
@@ -219,8 +236,11 @@ def main(output_dir=OUT,ttf_path=TTF):
         rounded=pathops.Path();glyph.draw(rounded.getPen(),font['glyf'])
         rounded=pathops.simplify(rounded,fix_winding=True,clockwise=True)
         pen=TTGlyphPen(None);rounded.draw(Cu2QuPen(pen,.1,reverse_direction=False));glyph=pen.glyph()
+        if native_copy:
+            glyph=copy.deepcopy(native['glyf'][native_copy])
+            advance=native['hmtx'][native_copy][0]
         polish_stats={}
-        if not native_donor and 'data/homoglyph/' not in str(filename):
+        if not native_copy:
             font['glyf'][name]=glyph;glyph,polish_stats=polish(glyph,font['glyf'],name)
             # 1.016: tangent breaks at seams and short handles faired on the integer grid (tools/italic_fair.py, Regular tolerances:
             # points within 1.2, glyph within 1.5); kinks of the added letters 223 -> 24, curvature wobble 15 -> 1
@@ -237,6 +257,7 @@ def main(output_dir=OUT,ttf_path=TTF):
         if polish_stats:records[name]['polish']=polish_stats
         if spaced:records[name].update(spacing_dx=spaced['dx'],advance_unspaced=advance_unspaced)
         if native_donor:records[name]['donors']=(native_donor,native_donor)
+        if native_copy:records[name]['native_copy']=native_copy
     for ch in CHARS:
         items=source_items(ch,cfg);assert items,ch
         chosen[ch]=items[0]['path'];install(ch,items[0]['path'],name_for(ch))
@@ -261,52 +282,16 @@ def main(output_dir=OUT,ttf_path=TTF):
             old=base+'.tail_old';install(ch,item['path'],old);tail_pairs[base]=old
     font.setGlyphOrder(order);font['maxp'].numGlyphs=len(order)
     extend_anchors(font,records)
-    # Pair generation: native donor values plus explicitly reviewed draft pairs.
-    pairs={};overrides=json.loads(Path('font/kerning-overrides.json').read_text())['pairs']
-    original_names=native.getGlyphOrder()
-    right=lambda n:records[n]['donors'][1] if n in records else n
-    left=lambda n:records[n]['donors'][0] if n in records else n
-    cache={}
-    def donor_value(a,b):
-        key=(right(a),left(b))
-        if key not in cache:cache[key]=native_kern(native,*key)
-        return cache[key]
-    for a in order:
-        for b in order:
-            if a not in records and b not in records:continue
-            value=donor_value(a,b)
-            if a not in records:
-                value-=native_kern(native,a,b)
-            if a in records and b in records:
-                text=records[a]['character']+records[b]['character']
-                value=overrides.get(text,value)
-            if value:pairs[a,b]=value
-    # Collision protection on every Cyrillic pair, including after substitutions.
-    profiles={n:glyph_profile(p) for n,p in paths.items()};clamped=[]
-    donor_profiles={}
-    def native_clearance(a,b):
-        da,db=right(a),left(b)
-        for donor in (da,db):
-            if donor not in donor_profiles:
-                path=pathops.Path();glyphset=native.getGlyphSet();glyphset[donor].draw(path.getPen(glyphSet=glyphset))
-                donor_profiles[donor]=glyph_profile(path)
-        gap=min((native['hmtx'][da][0]+pb[0]-pa[1] for pa,pb in zip(donor_profiles[da],donor_profiles[db]) if pa and pb),default=1000)
-        # Native serifs can deliberately touch; do not turn AA/KA into loose pairs.
-        return min(6,gap+native_kern(native,da,db))
-    for a in records:
-        for b in records:
-            gap=min((records[a]['advance']+pb[0]-pa[1] for pa,pb in zip(profiles[a],profiles[b]) if pa and pb),default=1000)
-            value=pairs.get((a,b),0);minimum=native_clearance(a,b)
-            safe=max(value,round(minimum-gap+.499))
-            if safe!=value:clamped.append({'left':a,'right':b,'requested':value,'actual':safe})
-            if safe:pairs[a,b]=safe
-            else:pairs.pop((a,b),None)
-    if not keep_kerning:
-        from optical_kerning import refine
-        pairs,clamped=refine(font,native,records,native_kern,overrides)
+    # The optical pass includes donor kerning and collision protection. The
+    # historical preliminary vector-profile pass was discarded immediately by
+    # refine(); avoiding it makes clean builds faster without changing results.
+    overrides=json.loads(Path('font/kerning-overrides.json').read_text())['pairs']
     if keep_kerning:
         assert kept_pairs and all(a in order and b in order for a,b in kept_pairs)
         pairs=kept_pairs;clamped=[]
+    else:
+        from optical_kerning import refine
+        pairs,clamped=refine(font,native,records,native_kern,overrides)
     serif=[name_for(ch) for ch in context['declared_class']['lower']+context['declared_class']['upper'] if ch in CHARS]
     head=[name_for(ch) for ch in context['ka_short']['declared_class']['lower'] if ch in CHARS]
     # Add all shape variants of members so feature ordering cannot disable context.
@@ -332,11 +317,13 @@ def main(output_dir=OUT,ttf_path=TTF):
          'feature ss07 { featureNames { name "Printed Cyrillic de"; }; sub uni0434 by uni0434.ss07; } ss07;',
          'feature calt { script cyrl;',
          'lookup calt_forms {',
+         'lookupflag IgnoreMarks;',
          "sub uni043F' @serif_bl by uni043F.flag;",
          "sub uni043A' @head_tl by uni043A.short;",
          "sub uni049B' @head_tl by uni049B.context;",'} calt_forms;',
          '# к, к.short and К get the exit foot of н (tools/ka_flag.py) before a letter with a lower-left serif; қ keeps its tail',
          'lookup calt_feet {',
+         'lookupflag IgnoreMarks;',
          "sub uni043A.short' @serif_bl by uni043A.short.flag;",
          "sub uni043A' @serif_bl by uni043A.flag;",
          "sub uni041A' @serif_bl by uni041A.flag;",
@@ -347,7 +334,7 @@ def main(output_dir=OUT,ttf_path=TTF):
             'feature ss09 { featureNames { name "Previous tail style"; };']
     fea += [f'sub {a} by {b};' for a,b in tail_pairs.items()]
     fea += ['} ss09;','feature aalt { sub uni049B from [uni049B.alternate]; sub uni0434 from [uni0434.ss07]; } aalt;',
-            'feature kern {']
+            'feature kern { lookupflag IgnoreMarks;']
     fea += [f'pos {a} {b} {value};' for (a,b),value in sorted(pairs.items())]
     fea += ['} kern;']
     features='\n'.join(fea)+'\n';Path('font/draft-features.fea').write_text(features)
@@ -357,6 +344,9 @@ def main(output_dir=OUT,ttf_path=TTF):
         if tag in extra:del extra[tag]
     addOpenTypeFeaturesFromString(extra,features)
     merge_layout(font,extra,'GSUB');merge_layout(font,extra,'GPOS');font['name']=extra['name']
+    from family_finish import tabular_figures, stressed_i
+    tabular_figures(font)
+    stressed_i(font)
     digest=hashlib.sha256(json.dumps(records,sort_keys=True).encode()).hexdigest()
     values={0:native['name'].getDebugName(0)+'; Cyrillic extension 2026 Very Peri Serif project contributors; Modified de Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant).',
             1:'Very Peri Serif Draft',2:'Regular',3:'1.012;VPER;VeryPeriSerifDraft-Regular;'+digest[:12],

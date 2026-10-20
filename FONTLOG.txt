@@ -48,3 +48,16 @@ Acknowledgements
 ----------------
 Instrument Serif: Rodrigo Fuenzalida, Jordan Egstad (Instrument). Cormorant (the Regular de): the Cormorant
 Project Authors. Cyrillic extension: Yerbolat, with AI assistance as described above.
+
+20 October 2026 — Family release 1.100 (Regular and Italic; internal drawing I027).
+At the author’s request, Codex independently implements and checks the premium audit:
+- Native TrueType outlines, metrics and hint programs for declared Regular homoglyphs.
+- Native-compatible mark anchors on constructed Italic bases and alternatives.
+- Italic kerning in all case orders, mixed partners, punctuation, digits and currencies.
+- Narrower reconstructed Italic zhe; Regular rounded de loop shortened to -250.
+- Author-requested ж/з detail repairs: clean ж stem without k branch stubs, tangent-aligned bowl shoulder; з upper shoulder 4.6 degrees to zero (about 1 unit of contour displacement).
+- Optional tabular figures; rejected PUA experiments kept only in development sources.
+- Independent HarfBuzz/vector checks, offline FontBakery Universal and Hyperglot.
+- Complete alphabet/specimen proofs; Linux Chromium checks of all six font formats.
+- Versioned immutable download archives. Attribution of the Cormorant-derived de retained.
+Native Windows/macOS and commercial application checks are not claimed; see docs/premium-acceptance.md.

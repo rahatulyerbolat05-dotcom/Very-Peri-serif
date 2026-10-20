@@ -15,14 +15,15 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.016.zip`](dist/VeryPeriSerif-1.016.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.100.zip`](dist/VeryPeriSerif-1.100.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-The Regular is a release (1.016). The Italic (0.260) is a test design: its letters are complete, and their forms
-are still being refined.
+Regular and Italic share release **1.100**. The release adds complete Cyrillic stress-mark anchors,
+full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
+The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).
 
 ## Language support
 
@@ -38,13 +39,14 @@ and Mongolian are covered too (checked letter by letter); Belarusian, Ukrainian,
 | `ss01` | а с е ё from the native ss01 set of a c e ë | the same, from the native Italic set |
 | `ss02`–`ss06` | — | д with an ascender, printed т, printed г, к and ж with an ascender, э from the native c |
 | `ss07` `ss08` `ss09` | printed д, alternate т, previous tail style | — |
+| `tnum` | tabular lining figures; proportional by default | the same |
 | `locl` | — | Serbian and Macedonian forms of б г д п т |
 | `aalt` `ccmp` `liga` `dlig` `case` `ordn` `mark` `mkmk` | native Instrument Serif features | native Instrument Serif features |
 
 ## Building
 
 ```sh
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.txt -r requirements-quality.txt
 make
 ```
 
@@ -53,9 +55,11 @@ make
 
 ## Changelog
 
+- 20.10.2026: family 1.100, stress marks, native hinted homoglyphs, tabular figures, broader Italic kerning, optical review and immutable archives.
+
 - 20.10.2026: one release archive, OTF and web fonts next to TTF; licence and authors files checked.
 - 19.10.2026: Regular 1.016, straight edges and fairing; Regular and Italic linked as one family.
-- 17–19.10.2026: Italic test builds I001–I025.
+- 17–20.10.2026: Italic test builds I001–I026.
 - 17.10.2026: Regular 1.000, first release; 1.001–1.015 spacing, kerning and outline polish.
 
 Every decision is recorded in [CLAUDE.md](CLAUDE.md); older notes in [docs/history.md](docs/history.md).
@@ -71,7 +75,8 @@ by the Cormorant Project Authors. Very Peri Serif is not made or endorsed by Ins
 ## AI disclosure
 
 The Cyrillic outlines, spacing and kerning were made with the assistance of AI systems (Anthropic Claude, OpenAI Codex)
-under the direction of the author, who wrote the brief, chose and corrected every form and drew some of them. The Latin
+under the direction of the author, who wrote the brief, selected and corrected designs, and drew some of them.
+Release 1.100 was independently checked by the assistant at the author’s request; platform limits are recorded in the acceptance report. The Latin
 is Instrument Serif, unchanged. Details: [FONTLOG.txt](FONTLOG.txt), [font/ai-disclosure.json](font/ai-disclosure.json).
 
 ## License

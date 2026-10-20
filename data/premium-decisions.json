@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-20",
+  "baseline_commit": "a7bec14",
+  "release": "1.100",
+  "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
+  "decisions": [
+    {
+      "status": "measured",
+      "item": "Italic constructed letters lack mark anchors; add native-compatible anchors."
+    },
+    {
+      "status": "measured",
+      "item": "Regular homoglyph GLIF roundtrip loses hint programs; clone declared native glyphs."
+    },
+    {
+      "status": "design",
+      "item": "Italic zhe counters shortened by up to 48 units per bowl; gaps 45 to 32; no uniform scaling."
+    },
+    {
+      "status": "preserved",
+      "item": "Keep the author-selected rounded Cormorant-derived Regular de, and its printed ss07 alternative."
+    },
+    {
+      "status": "scope",
+      "item": "No claim of complete Bulgarian/Serbian/Ukrainian support; language expansion and small caps remain separate work."
+    },
+    {
+      "status": "release",
+      "item": "Both styles share a release version; internal italic drawing revision remains I027."
+    },
+    {
+      "status": "design",
+      "item": "Regular de bowl and width retained; smooth displacement below -10 shortens loop -280 to -250; printed ss07 unchanged."
+    },
+    {
+      "status": "measured",
+      "item": "Additional kern/calt lookups must ignore combining marks; stress-word spacing regression added."
+    },
+    {
+      "status": "scope",
+      "item": "Add Bulgarian stressed i characters Ѝ/ѝ without claiming full local-form review."
+    },
+    {
+      "status": "author_request",
+      "item": "Remove visible notches in italic ж and upper shoulder kink of з. ж: remove k branch stubs; redraw clean stem with native weight; correct bowl shoulder tangent. з: outgoing handle y487 to489; contour deviation ~1 unit. Per-glyph assertions and enlarged proof."
+    }
+  ],
+  "approved_fonts": {
+    "Regular": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+    "Italic": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e"
+  },
+  "optical_acceptance": {
+    "date": "2026-10-20",
+    "reviewer": "Codex, self-acceptance authorized by author",
+    "viewed": [
+      "complete 84-letter Regular alphabet",
+      "complete 84-letter Italic alphabet",
+      "Russian and Kazakh words, both styles",
+      "stress and stacked marks",
+      "all stylistic sets and SRB/MKD local forms",
+      "12/24/100 pt on light and dark backgrounds",
+      "numbers, punctuation, ligatures, tabular figures",
+      "before/after de and zhe",
+      "enlarged final exported zhe and ze joins"
+    ],
+    "decisions": [
+      "Regular rounded de retained with shorter loop; no new triangular construction.",
+      "Italic zhe now follows surrounding lowercase proportions; protected bowl spines and terminals retain their stroke weight.",
+      "Stem nicks and bowl shoulder of italic zhe corrected; ze upper shoulder is smooth at the exported quadratic contour.",
+      "Author tails, Kazakh letter distinctions, handwritten Cyrillic and native Latin retained.",
+      "Inherited native ogonek contours and intentional italic ka loop are accepted; contour counts alone do not justify changing the design."
+    ],
+    "limitations": [
+      "No native Windows/macOS or commercial-app test",
+      "No physical print test",
+      "Display typeface; no small-text optical master promised"
+    ],
+    "diagnostic_spots_reviewed": {
+      "Regular": [
+        "ы: short terminal handles",
+        "ю: serif-to-stem blend",
+        "ъ: pointed inner counter junction",
+        "Э: terminal blend"
+      ],
+      "Italic": [
+        "В: junction of bowls",
+        "Г: stem-to-foot angle",
+        "д: inner bowl/stem junction",
+        "я: bowl/stem transition"
+      ],
+      "result": "Retained after enlarged inspection; native pen transitions and intentional counter corners are not forced into zero-angle joins. No new diagnostics relative to baseline, except exact native-copy restoration."
+    }
+  }
+}

@@ -12,7 +12,7 @@ Licence checks (docs/legal-review.md): OFL.txt opens with the copyright lines of
 the Cormorant line only where its outline is (the Regular). Every font passes the OpenType Sanitizer.
 Usage: python3 -I tools/package_release.py
 """
-import hashlib,json,re,shutil,sys,zipfile
+import base64,hashlib,io,json,os,re,shutil,subprocess,sys,zipfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from fontTools.ttLib import TTFont
@@ -22,7 +22,7 @@ import ttf2otf
 CONFIG=json.loads(Path('data/params.json').read_text())['regular_release']
 SRC=Path(CONFIG['directory']);FONTS=Path(CONFIG['release_directory']);DIST=Path(CONFIG['release_archive']);QA=Path('docs/qa')
 STYLES=('Regular','Italic');LEGAL=('OFL.txt','AUTHORS.txt','CONTRIBUTORS.txt','FONTLOG.txt')
-REPORTS=('build-manifest.json','validation.json','kerning-validation.json','release-validation.json','quality-summary.json','family-validation.json')
+REPORTS=('build-manifest.json','validation.json','kerning-validation.json','release-validation.json','quality-summary.json','family-validation.json','family-acceptance.json','fontbakery-universal.json','optical-review.json')
 OFL_COPIES=('reference/instrument-serif/OFL.txt','data/cormorant-de/OFL.txt')
 CSS="""/* Very Peri Serif {version}. SIL Open Font License 1.1, see OFL.txt. */
 @font-face {{
@@ -52,8 +52,11 @@ Install / Установка
   Компьютер: установите оба файла из fonts/ttf (или fonts/otf; один формат, не оба).
   Web / сайт: fonts/webfonts, connect very-peri-serif.css.
 
-Versions: Regular {regular}, Italic {italic} (test design, its forms are still being refined).
-Версии: Regular {regular}, Italic {italic} (тестовый, формы ещё уточняются).
+Versions: Regular {regular}, Italic {italic}. Russian, Kazakh and inherited Latin; designed for display use.
+Версии: Regular {regular}, Italic {italic}. Русский, казахский и исходная латиница; акцидентный шрифт.
+Tabular figures: enable tnum. / Табличные цифры: включите tnum.
+family.html is a live-font specimen. Family-Specimen.pdf contains outline examples of both styles and features.
+family.html — образец с живым текстом; Family-Specimen.pdf — векторные образцы обоих начертаний и функций.
 
 Licence / Лицензия
   SIL Open Font License 1.1 (OFL.txt). Free to use in any work, commercial included: print, logos, sites, apps.
@@ -102,6 +105,9 @@ def check_licence(fonts):
 
 
 def main():
+    approved=json.loads(Path('data/premium-decisions.json').read_text()).get('approved_fonts',{})
+    current={s:sha(SRC/f'VeryPeriSerif-{s}.ttf') for s in STYLES}
+    if approved!=current:raise RuntimeError('Optical review is not current: inspect the proofs and record the accepted font hashes in data/premium-decisions.json')
     for d in ('ttf','otf','webfonts'):(FONTS/d).mkdir(parents=True,exist_ok=True)
     QA.mkdir(parents=True,exist_ok=True);Path('docs/specimen').mkdir(parents=True,exist_ok=True);DIST.mkdir(exist_ok=True)
     italic_version=TTFont(SRC/'VeryPeriSerif-Italic.ttf')['name'].getDebugName(5).replace('Version ','')
@@ -116,28 +122,53 @@ def main():
     for r in REPORTS:
         if (SRC/r).exists():shutil.copyfile(SRC/r,QA/r)
     specimen=Path('docs/specimen/VeryPeriSerif-Regular-Specimen.pdf');shutil.copyfile(SRC/'specimen.pdf',specimen)
+    family_specimen=Path('docs/specimen/VeryPeriSerif-Family-Specimen.pdf');shutil.copyfile(SRC/'family-specimen.pdf',family_specimen)
+    if '--browser' in sys.argv:subprocess.run(['node','tools/check_browser.cjs'],check=True)
     checks=check_licence({s:TTFont(files[s][0]) for s in STYLES})
     for s in STYLES:
         for p in files[s]:
-            r=ots.sanitize(str(p),'/dev/null',capture_output=True);checks['OpenType Sanitizer '+p.name]=r.returncode==0
+            r=ots.sanitize(str(p),os.devnull,capture_output=True);checks['OpenType Sanitizer '+p.name]=r.returncode==0
         checks[s+': WOFF2 = TTF tables']=all(TTFont(files[s][2]).getTableData(t)==TTFont(files[s][0]).getTableData(t) for t in TTFont(files[s][0]).keys() if t not in ('GlyphOrder','head'))
+    if not all(checks.values()):raise RuntimeError('Package validation failed: '+str([k for k,v in checks.items() if not v]))
+    for name in ('family-acceptance.json','quality-summary.json'):
+        assert (SRC/name).exists(), 'Run make quality before packaging'
+    qa=json.loads((SRC/'quality-summary.json').read_text())
+    assert qa['fonts']=={p.name:sha(p) for s in STYLES for p in files[s] if p.suffix=='.ttf'}, 'QA is stale'
+    acceptance=json.loads((SRC/'family-acceptance.json').read_text())
+    assert acceptance['failed']==0 and {r['style']:r['sha256'] for r in acceptance['fonts']}==current, 'Functional acceptance is stale'
+    optical=json.loads((SRC/'optical-review.json').read_text())
+    assert {s:r['sha256'] for s,r in optical['styles'].items()}==current, 'Optical measurements are stale'
+    # Embed WOFF2 in the downloadable specimen so it also opens offline as a
+    # file:// document, without cross-origin restrictions on adjacent files.
+    live=Path('docs/specimen/family.html').read_text()
+    for s in STYLES:
+        woff=FONTS/'webfonts'/f'VeryPeriSerif-{s}.woff2'
+        live=live.replace('../../fonts/webfonts/'+woff.name,'data:font/woff2;base64,'+base64.b64encode(woff.read_bytes()).decode())
     # the download
     root=f'VeryPeriSerif-{CONFIG["version"]}';title=f'Very Peri Serif {CONFIG["version"]}'
     members={'README.txt':README.format(version=CONFIG['version'],line='='*len(title),regular=CONFIG['version'],italic=italic_version,url=CONFIG['project_url']).encode(),
-             'ai-disclosure.json':Path('font/ai-disclosure.json').read_bytes(),'specimen/'+specimen.name:specimen.read_bytes()}
+             'ai-disclosure.json':Path('font/ai-disclosure.json').read_bytes(),'specimen/'+specimen.name:specimen.read_bytes(),
+             'specimen/'+family_specimen.name:family_specimen.read_bytes(),
+             # Inside the archive fonts/ is one level above specimen/.
+             'specimen/family.html':live.encode()}
     for p in LEGAL:members[p]=Path(p).read_bytes()
     for s in STYLES:
         for p in files[s]:members['fonts/'+p.parent.name+'/'+p.name]=p.read_bytes()
     members['fonts/webfonts/very-peri-serif.css']=(FONTS/'webfonts'/'very-peri-serif.css').read_bytes()
     members['SHA256SUMS.txt']=''.join(hashlib.sha256(members[m]).hexdigest()+'  '+m+'\n' for m in sorted(members)).encode()
-    for old in DIST.glob('VeryPeriSerif-*.zip'):old.unlink()
     archive=DIST/f'{root}.zip';date=tuple(map(int,CONFIG['date'].split('-')))+(0,0,0)
-    with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
+    buffer=io.BytesIO()
+    with zipfile.ZipFile(buffer,'w',zipfile.ZIP_DEFLATED) as z:
         dirs={root+'/'}|{root+'/'+'/'.join(m.split('/')[:k])+'/' for m in members for k in range(1,m.count('/')+1)}
         for d in sorted(dirs):
             info=zipfile.ZipInfo(d,date_time=date);info.external_attr=0o40755<<16;z.writestr(info,b'')
         for m in sorted(members):
             info=zipfile.ZipInfo(root+'/'+m,date_time=date);info.compress_type=zipfile.ZIP_DEFLATED;info.external_attr=0o100644<<16;z.writestr(info,members[m])
+    content=buffer.getvalue()
+    if archive.exists():
+        if archive.read_bytes()!=content:
+            raise RuntimeError(f'{archive} already exists with different content; increment the family version. Existing releases are immutable.')
+    else:archive.write_bytes(content)
     with zipfile.ZipFile(archive) as z:
         checks['archive opens and every member is intact']=z.testzip() is None
         checks['archive fonts identical to fonts/']=all(z.read(root+'/fonts/'+p.parent.name+'/'+p.name)==p.read_bytes() for s in STYLES for p in files[s])

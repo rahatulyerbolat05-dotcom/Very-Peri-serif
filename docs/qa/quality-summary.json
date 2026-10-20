@@ -1,13 +1,54 @@
 {
-  "ttf_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
-  "woff2_sha256": "bd8f41958eae4d99c4b71acdf44487158dea72874f16b48f1208557df48df5b9",
-  "opentype_sanitizer": {
-    "ttf": "PASS",
-    "woff2": "PASS"
+  "fonts": {
+    "VeryPeriSerif-Regular.ttf": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+    "VeryPeriSerif-Italic.ttf": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e"
   },
-  "functional_checks": 1039,
-  "harfbuzz_pairs_checked": 254025,
-  "fontbakery": "NOT RUN",
-  "hyperglot_base_primary": "NOT RUN",
-  "network_checks": "SKIPPED"
+  "tools": {
+    "fonttools": "4.67.0",
+    "fontbakery": "1.1.0",
+    "hyperglot": "0.8.1",
+    "uharfbuzz": "0.56.3"
+  },
+  "fontbakery_profile": "universal",
+  "network_checks": "SKIPPED",
+  "fontbakery": {
+    "(not finished)": 0,
+    "INFO": 6,
+    "PASS": 163,
+    "SKIP": 71,
+    "WARN": 2
+  },
+  "warnings": [
+    {
+      "font": "VeryPeriSerif-Regular.ttf",
+      "check": "<FontBakeryCheck:contour_count>",
+      "messages": [
+        {
+          "code": "contour-count",
+          "message": "This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.\n\nThe following glyphs do not have the recommended number of contours:\n\n\t- Glyph name: aogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: eogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: Uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: Uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: aogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: eogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: uogonek\tContours detected: 2\tExpected: 1\n"
+        }
+      ]
+    },
+    {
+      "font": "VeryPeriSerif-Italic.ttf",
+      "check": "<FontBakeryCheck:contour_count>",
+      "messages": [
+        {
+          "code": "contour-count",
+          "message": "This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.\n\nThe following glyphs do not have the recommended number of contours:\n\n\t- Glyph name: aogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: eogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: Uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: uni043A\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: Uogonek\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: aogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: eogonek\tContours detected: 3\tExpected: 2\n\n\t- Glyph name: uni043A\tContours detected: 2\tExpected: 1\n\n\t- Glyph name: uogonek\tContours detected: 2\tExpected: 1\n"
+        }
+      ]
+    }
+  ],
+  "hyperglot_primary_with_shaping": {
+    "VeryPeriSerif-Regular.ttf": {
+      "rus": true,
+      "kaz": true
+    },
+    "VeryPeriSerif-Italic.ttf": {
+      "rus": true,
+      "kaz": true
+    }
+  },
+  "failed": 0
 }

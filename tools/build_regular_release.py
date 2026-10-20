@@ -68,6 +68,8 @@ def main():
     font['name'].names=[r for r in font['name'].names if r.platformID!=1]
     stat(font,italic=False)
     font['head'].fontRevision=float(config['version']);font['OS/2'].achVendID=config['vendor_id'];font.recalcTimestamp=False
+    font['head'].modified=int(datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc).timestamp())+2082844800
+    font['OS/2'].usWinAscent=max(font['OS/2'].usWinAscent,config['family_win_ascent'])
     font['meta']=newTable('meta');font['meta'].data={'dlng':'Cyrl, Latn','slng':'Cyrl, Latn'}
     ttf=out/(config['postscript_name']+'.ttf');font.save(ttf);web=TTFont(ttf);web.recalcTimestamp=False;web.flavor='woff2';woff=ttf.with_suffix('.woff2');web.save(woff)
     manifest.update(family=config['family'],version=config['version'],release_status='final Regular',source_stage_version=manifest['version'],source_stage_ttf_sha256=sha(source_ttf),note='Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.')

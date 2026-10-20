@@ -79,7 +79,13 @@ def check(data,font,native,chars,native_kern,report_path=None):
         sp=spacing.get(name_new)
         if sp:return font['hmtx'][name_new][0]==old['hmtx'][name_old][0]+sp['dadv']
         return font['hmtx'][name_new][0]==old['hmtx'][name_old][0] and abs(font['hmtx'][name_new][1]-old['hmtx'][name_old][1])<=2
+    source_records=json.loads(manifest.read_text())['glyph_records']
     for name in old.getGlyphOrder():
+        native_copy=source_records.get(name,{}).get('native_copy')
+        if native_copy:
+            assert font['glyf'][name].compile(font['glyf'])==native['glyf'][native_copy].compile(native['glyf']),('native copy',name)
+            assert font['hmtx'][name]==native['hmtx'][native_copy],('native metrics',name)
+            continue
         if name in changed:continue
         assert same_shape(name,name),name
         assert same_metrics(name,name),name

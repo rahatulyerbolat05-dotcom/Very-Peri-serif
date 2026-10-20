@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.016",
-    "sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5"
+    "version": "1.100",
+    "sha256": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "0.260",
-    "source": "build/italic-lower/VeryPeriSerifItalicI026.ttf",
-    "sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
-    "woff2_sha256": "683a1b0d938f5b77c0e3bd500d65d5832b52666107b2df844b0aa2ebbcf8aa6a"
+    "version": "1.100",
+    "source": "build/italic-lower/VeryPeriSerifItalicI027.ttf",
+    "sha256": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
+    "woff2_sha256": "15a9c77b4aa1796ac8d0a6755ffeb4fa53b3ee4113b1ae4c7643ad940b34f1f6"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -40,6 +40,618 @@
     "0x18f": "Regular sheared",
     "0x259": "Regular sheared"
   },
+  "mark_anchors": {
+    "uni0411": {
+      "donor": "E",
+      "top": [
+        365,
+        720
+      ]
+    },
+    "uni0412": {
+      "donor": "E",
+      "top": [
+        346,
+        720
+      ]
+    },
+    "uni0413": {
+      "donor": "E",
+      "top": [
+        347,
+        720
+      ]
+    },
+    "uni0414": {
+      "donor": "E",
+      "top": [
+        430,
+        720
+      ]
+    },
+    "uni0416": {
+      "donor": "E",
+      "top": [
+        519,
+        720
+      ]
+    },
+    "uni0417": {
+      "donor": "O",
+      "top": [
+        310,
+        720
+      ]
+    },
+    "uni0418": {
+      "donor": "E",
+      "top": [
+        389,
+        720
+      ]
+    },
+    "uni0419": {
+      "donor": "E",
+      "top": [
+        440,
+        940
+      ]
+    },
+    "uni041B": {
+      "donor": "E",
+      "top": [
+        354,
+        720
+      ]
+    },
+    "uni041C": {
+      "donor": "E",
+      "top": [
+        440,
+        720
+      ]
+    },
+    "uni041D": {
+      "donor": "E",
+      "top": [
+        380,
+        720
+      ]
+    },
+    "uni041F": {
+      "donor": "E",
+      "top": [
+        389,
+        720
+      ]
+    },
+    "uni0420": {
+      "donor": "E",
+      "top": [
+        342,
+        720
+      ]
+    },
+    "uni0423": {
+      "donor": "E",
+      "top": [
+        350,
+        720
+      ]
+    },
+    "uni0424": {
+      "donor": "O",
+      "top": [
+        424,
+        720
+      ]
+    },
+    "uni0425": {
+      "donor": "E",
+      "top": [
+        380,
+        720
+      ]
+    },
+    "uni0426": {
+      "donor": "E",
+      "top": [
+        389,
+        720
+      ]
+    },
+    "uni0427": {
+      "donor": "E",
+      "top": [
+        359,
+        720
+      ]
+    },
+    "uni0428": {
+      "donor": "E",
+      "top": [
+        468,
+        720
+      ]
+    },
+    "uni0429": {
+      "donor": "E",
+      "top": [
+        468,
+        720
+      ]
+    },
+    "uni042A": {
+      "donor": "E",
+      "top": [
+        414,
+        720
+      ]
+    },
+    "uni042B": {
+      "donor": "E",
+      "top": [
+        453,
+        720
+      ]
+    },
+    "uni042C": {
+      "donor": "E",
+      "top": [
+        358,
+        720
+      ]
+    },
+    "uni042D": {
+      "donor": "O",
+      "top": [
+        357,
+        720
+      ]
+    },
+    "uni042E": {
+      "donor": "O",
+      "top": [
+        472,
+        720
+      ]
+    },
+    "uni042F": {
+      "donor": "E",
+      "top": [
+        366,
+        720
+      ]
+    },
+    "uni04D8": {
+      "donor": "O",
+      "top": [
+        377,
+        720
+      ]
+    },
+    "uni0492": {
+      "donor": "E",
+      "top": [
+        301,
+        720
+      ]
+    },
+    "uni049A": {
+      "donor": "E",
+      "top": [
+        350,
+        720
+      ]
+    },
+    "uni04A2": {
+      "donor": "E",
+      "top": [
+        381,
+        720
+      ]
+    },
+    "uni04E8": {
+      "donor": "O",
+      "top": [
+        377,
+        720
+      ]
+    },
+    "uni04B0": {
+      "donor": "E",
+      "top": [
+        346,
+        720
+      ]
+    },
+    "uni04AE": {
+      "donor": "E",
+      "top": [
+        346,
+        720
+      ]
+    },
+    "uni04BA": {
+      "donor": "E",
+      "top": [
+        350,
+        720
+      ]
+    },
+    "uni0430": {
+      "donor": "a",
+      "native_anchor_copy": true
+    },
+    "uni0431": {
+      "donor": "n",
+      "top": [
+        338,
+        742
+      ]
+    },
+    "uni0432": {
+      "donor": "n",
+      "top": [
+        261,
+        510
+      ]
+    },
+    "uni0433": {
+      "donor": "n",
+      "top": [
+        247,
+        510
+      ]
+    },
+    "uni0434": {
+      "donor": "n",
+      "top": [
+        276,
+        510
+      ]
+    },
+    "uni0435": {
+      "donor": "e",
+      "native_anchor_copy": true
+    },
+    "uni0436": {
+      "donor": "n",
+      "top": [
+        410,
+        510
+      ]
+    },
+    "uni0437": {
+      "donor": "o",
+      "top": [
+        233,
+        510
+      ]
+    },
+    "uni0439": {
+      "donor": "ubreve",
+      "top": [
+        338,
+        730
+      ]
+    },
+    "uni043A": {
+      "donor": "n",
+      "top": [
+        304,
+        510
+      ]
+    },
+    "uni043B": {
+      "donor": "n",
+      "top": [
+        281,
+        510
+      ]
+    },
+    "uni043C": {
+      "donor": "n",
+      "top": [
+        321,
+        510
+      ]
+    },
+    "uni043D": {
+      "donor": "n",
+      "top": [
+        298,
+        510
+      ]
+    },
+    "uni0440": {
+      "donor": "n",
+      "top": [
+        301,
+        583
+      ]
+    },
+    "uni0442": {
+      "donor": "n",
+      "top": [
+        432,
+        510
+      ]
+    },
+    "uni0444": {
+      "donor": "o",
+      "top": [
+        415,
+        743
+      ]
+    },
+    "uni0445": {
+      "donor": "n",
+      "top": [
+        284,
+        510
+      ]
+    },
+    "uni0446": {
+      "donor": "n",
+      "top": [
+        291,
+        510
+      ]
+    },
+    "uni0447": {
+      "donor": "n",
+      "top": [
+        301,
+        510
+      ]
+    },
+    "uni0448": {
+      "donor": "n",
+      "top": [
+        424,
+        510
+      ]
+    },
+    "uni0449": {
+      "donor": "n",
+      "top": [
+        408,
+        510
+      ]
+    },
+    "uni044A": {
+      "donor": "n",
+      "top": [
+        231,
+        510
+      ]
+    },
+    "uni044B": {
+      "donor": "n",
+      "top": [
+        356,
+        510
+      ]
+    },
+    "uni044C": {
+      "donor": "n",
+      "top": [
+        242,
+        510
+      ]
+    },
+    "uni044D": {
+      "donor": "o",
+      "top": [
+        248,
+        510
+      ]
+    },
+    "uni044E": {
+      "donor": "o",
+      "top": [
+        370,
+        510
+      ]
+    },
+    "uni044F": {
+      "donor": "n",
+      "top": [
+        266,
+        510
+      ]
+    },
+    "uni04D9": {
+      "donor": "o",
+      "top": [
+        264,
+        510
+      ]
+    },
+    "uni0493": {
+      "donor": "n",
+      "top": [
+        244,
+        510
+      ]
+    },
+    "uni049B": {
+      "donor": "n",
+      "top": [
+        297,
+        510
+      ]
+    },
+    "uni04A3": {
+      "donor": "n",
+      "top": [
+        289,
+        510
+      ]
+    },
+    "uni04E9": {
+      "donor": "o",
+      "top": [
+        266,
+        510
+      ]
+    },
+    "uni04B1": {
+      "donor": "n",
+      "top": [
+        297,
+        510
+      ]
+    },
+    "uni04AF": {
+      "donor": "n",
+      "top": [
+        297,
+        510
+      ]
+    },
+    "uni04BB": {
+      "donor": "n",
+      "top": [
+        351,
+        743
+      ]
+    },
+    "uni018F": {
+      "donor": "O",
+      "top": [
+        377,
+        720
+      ]
+    },
+    "uni0259": {
+      "donor": "o",
+      "top": [
+        263,
+        510
+      ]
+    },
+    "uni0434.ss02": {
+      "donor": "n",
+      "top": [
+        319,
+        754
+      ]
+    },
+    "uni0430.ss01": {
+      "donor": "a",
+      "alternate_anchor": true
+    },
+    "uni0435.ss01": {
+      "donor": "e",
+      "alternate_anchor": true
+    },
+    "uni0434.locl": {
+      "donor": "g",
+      "native_anchor_copy": true
+    },
+    "uni0434.locl.ss01": {
+      "donor": "g",
+      "alternate_anchor": true
+    },
+    "uni0442.srb": {
+      "donor": "n",
+      "top": [
+        462,
+        675
+      ]
+    },
+    "uni0442.ss03": {
+      "donor": "n",
+      "top": [
+        230,
+        510
+      ]
+    },
+    "uni0433.ss04": {
+      "donor": "n",
+      "top": [
+        235,
+        510
+      ]
+    },
+    "uni044D.ss06": {
+      "donor": "o",
+      "top": [
+        252,
+        510
+      ]
+    },
+    "uni0436.ss05": {
+      "donor": "n",
+      "top": [
+        496,
+        743
+      ]
+    }
+  },
+  "native_cyrillic_clones": {
+    "uni0412": "B",
+    "uni041C": "M",
+    "uni041D": "H",
+    "uni0420": "P",
+    "uni0425": "X",
+    "uni0430": "a",
+    "uni0435": "e",
+    "uni0440": "p",
+    "uni0442": "m",
+    "uni0445": "x",
+    "uni04BB": "h",
+    "uni0434.ss02": "eth",
+    "uni0430.ss01": "a.ss01",
+    "uni0435.ss01": "e.ss01",
+    "uni0434.locl": "g",
+    "uni0434.locl.ss01": "g.ss01"
+  },
+  "removed_experimental_glyphs": [
+    "uniF101",
+    "uniF102",
+    "uniF103",
+    "uniF104",
+    "uniF105",
+    "uniF106",
+    "uniF107",
+    "uniF108"
+  ],
+  "tabular_figures": {
+    "cell": 461,
+    "glyphs": [
+      "zero.tnum",
+      "one.tnum",
+      "two.tnum",
+      "three.tnum",
+      "four.tnum",
+      "five.tnum",
+      "six.tnum",
+      "seven.tnum",
+      "eight.tnum",
+      "nine.tnum"
+    ]
+  },
+  "kerning": {
+    "target_gaps": {
+      "ll": 110.31686269097722,
+      "Ul": 147.64819438150744,
+      "lU": 154.68142200298354,
+      "UU": 171.36435853947268
+    },
+    "pairs_evaluated": 63302,
+    "categories": {
+      "UU": 8525,
+      "Ul": 10656,
+      "punctuation/digits/symbols": 20073,
+      "lU": 10656,
+      "ll": 13392
+    },
+    "native_native_pairs_changed": 0,
+    "minimum_clearance": 5.0
+  },
   "checks": {
     "same family name": true,
     "styles Regular / Italic": true,
@@ -56,10 +668,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1016",
+    "family": "Very Peri Serif T1100",
     "files": [
-      "VeryPeriSerifT1016-Regular.ttf",
-      "VeryPeriSerifT1016-Italic.ttf"
+      "VeryPeriSerifT1100-Regular.ttf",
+      "VeryPeriSerifT1100-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -71,10 +683,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1016-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1016-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1016-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1016-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1100-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1100-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1100-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1100-Italic.ttf": true
     }
   }
 }

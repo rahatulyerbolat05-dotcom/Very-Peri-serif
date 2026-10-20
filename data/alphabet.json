@@ -316,19 +316,19 @@
       "conflict": false,
       "variants": [
         {
-          "path": "data/neck-repair/uni0434-primary.glif",
+          "path": "data/premium-regular/uni0434.glif",
           "advance": 418,
           "bounds": [
             30.0,
-            -280.0,
+            -250.0,
             382.7139892578125,
             516.0
           ],
-          "glif_sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
+          "glif_sha256": "52c3bcd8f92b9efcbe278bc4438507584bcb2057b6288e8cb01294e36399e196",
           "role": "primary",
           "variant": "01",
-          "label": "Сглажены стыки",
-          "status": "neck wobble repaired, requested by author",
+          "label": "Округлая д: сохранена чаша, нижняя петля до −250",
+          "status": "selected",
           "neck_source_glif": "data/condense-bowls/uni0434-primary.glif"
         }
       ],
@@ -4726,6 +4726,30 @@
         ],
         "provenance": "Declump requested by author; previous sources archived"
       }
+    },
+    "д-before-premium-loop": {
+      "selected": "01",
+      "shared_with_claude": false,
+      "conflict": false,
+      "variants": [
+        {
+          "path": "data/neck-repair/uni0434-primary.glif",
+          "advance": 418,
+          "bounds": [
+            30.0,
+            -280.0,
+            382.7139892578125,
+            516.0
+          ],
+          "glif_sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
+          "role": "primary",
+          "variant": "01",
+          "label": "Сглажены стыки",
+          "status": "neck wobble repaired, requested by author",
+          "neck_source_glif": "data/condense-bowls/uni0434-primary.glif"
+        }
+      ],
+      "provenance": "Neck repair requested by author; previous sources archived"
     }
   },
   "tail_styles": {

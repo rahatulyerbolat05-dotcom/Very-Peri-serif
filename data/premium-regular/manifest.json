@@ -1,0 +1,20 @@
+{
+  "source": "data/neck-repair/uni0434-primary.glif",
+  "source_sha256": "1cc0a1ad7ad599dd531d966b381cc1c00834b6cfa13f22457b9faad6ae3eb202",
+  "path": "data/premium-regular/uni0434.glif",
+  "before_bounds": [
+    30.0,
+    -280.0,
+    382.7139892578125,
+    516.0
+  ],
+  "after_bounds": [
+    30.0,
+    -250.0,
+    382.7139892578125,
+    516.0
+  ],
+  "method": "Keep the selected rounded de; shorten only its overactive lower loop.\n\nThe previous source remains untouched. The smooth displacement is zero above\n-10 and +30 at -280, with zero derivative at both ends. Bowl, width, terminals'\nhorizontal proportions and printed ss07 stay unchanged.\n",
+  "printed_ss07": "unchanged",
+  "date": "2026-10-20"
+}

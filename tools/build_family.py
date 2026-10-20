@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Very Peri Serif as one family: the Regular release and the current Italic test build linked as Regular and Italic (author: "merge them").
+"""Very Peri Serif as one family: the Regular and the reviewed Italic linked as Regular and Italic (author: "merge them").
 1. Italic completed with the 27 characters only the Regular had: spaces and invisible controls (Regular advances), hyphen/bar/apostrophe
    mapped to the native Italic hyphen, em dash and right quote, the others (figure dash, daggers, primes, currency, numero, schwa) as
    the Regular outlines sheared by 13 degrees about y=255 (the method of the capitals, docs/italic-rules.md 6.0), tidied and faired;
    the mathematical and technical signs (approximately equal, dotted circle, replacement character) stay upright, as in the native Italic.
 2. One family: name IDs 1/2/4/6 (Very Peri Serif / Regular, Italic; VeryPeriSerif-Regular, VeryPeriSerif-Italic), the Regular's copyright,
    manufacturer, designer, URLs and licence on both, vendor VPER, the same vertical metrics, style linking (fsSelection REGULAR/ITALIC,
-   macStyle, italicAngle -13), meta table, STAT (wght 400; ital 1 Italic, the Regular has ital 0 elidable linked to 1), Windows names only. The Italic keeps its own version (data/italic-version.json): it is still a test design.
+   macStyle, italicAngle -13), meta table, STAT (wght 400; ital 1 Italic, the Regular has ital 0 elidable linked to 1), Windows names only. Both styles share the release version; data/italic-version.json records the separate drawing revision.
 3. build/release/VeryPeriSerif-Italic.ttf/.woff2 (regular_release.directory), a test pair under the family of the test Regular (dist/test,
    tools/make_test_copy.py), build/release/family-validation.json (OpenType Sanitizer, linking, coverage, shaping). The published fonts/,
    docs/qa/ and the release archive in dist/ are written from these by tools/package_release.py.
 Usage: python3 -I tools/build_family.py [italic.ttf]   (default: the latest build/italic-lower/VeryPeriSerifItalicI*.ttf)
 """
-import glob,hashlib,json,math,shutil,sys,zipfile
+import glob,hashlib,json,math,os,shutil,sys,zipfile
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from fontTools.ttLib import TTFont
@@ -20,6 +20,7 @@ from fontTools.ttLib.tables._g_l_y_f import Glyph
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.transformPen import TransformPen
 import ots
+from family_finish import extend_italic_anchors, remove_experiments, tabular_figures, mark_ascent, stressed_i
 from italic_tidy import tidy
 from italic_fair import fair
 
@@ -104,7 +105,7 @@ def validate(regp,itap):
     ck('Italic yMax within winAscent',ita['head'].yMax<=ita['OS/2'].usWinAscent and -ita['head'].yMin<=ita['OS/2'].usWinDescent)
     missing=sorted(set(reg.getBestCmap())-set(ita.getBestCmap()));ck('Italic covers every Regular character',not missing)
     for p in (regp,itap):
-        r=ots.sanitize(str(p),'/dev/null',capture_output=True);ck('OpenType Sanitizer '+Path(p).name,r.returncode==0)
+        r=ots.sanitize(str(p),os.devnull,capture_output=True);ck('OpenType Sanitizer '+Path(p).name,r.returncode==0)
     import uharfbuzz as hb
     for p in (regp,itap):
         f=hb.Font(hb.Face(Path(p).read_bytes()));b=hb.Buffer();b.add_str('Съешь же ещё этих мягких французских булок, да выпей чаю. № 5 ₸ ₽');b.guess_segment_properties();hb.shape(f,b,{})
@@ -115,12 +116,26 @@ def validate(regp,itap):
 def main():
     args=[a for a in sys.argv[1:] if not a.startswith('--')]
     src=Path(args[0]) if args else Path(sorted(glob.glob('build/italic-lower/VeryPeriSerifItalicI*.ttf'))[-1])
-    version='%.3f'%float(json.loads(Path('data/italic-version.json').read_text())['version'])
+    version=CONFIG['version']
     reg=TTFont(REG);ita=TTFont(src)
     added=complete(ita,reg);link(ita,reg,version)
+    anchors,native_aliases=extend_italic_anchors(ita)
+    removed=remove_experiments(ita)
+    stressed_i(ita)
+    from italic_kern import apply as kern_italic
+    kerning=kern_italic(ita,native_aliases=native_aliases)
+    figures=tabular_figures(ita)
+    ita['OS/2'].recalcUnicodeRanges(ita)
+    ita['OS/2'].recalcAvgCharWidth(ita)
+    # A stacked accent on a tall Cyrillic base must not be clipped in legacy
+    # Windows renderers. Preserve the common typographic line spacing.
+    ascent=max(mark_ascent(ita),reg['OS/2'].usWinAscent)
+    assert ascent<=reg['OS/2'].usWinAscent, 'Regular build must reserve the family mark ascent'
     set_names(ita,reg,'Very Peri Serif','Italic','VeryPeriSerif-Italic',version)
+    ita.recalcTimestamp=False
+    ita['head'].created=reg['head'].created;ita['head'].modified=reg['head'].modified
     ttf=OUT/'VeryPeriSerif-Italic.ttf';ita.save(ttf)
-    woff=OUT/'VeryPeriSerif-Italic.woff2';w=TTFont(ttf);w.flavor='woff2';w.save(woff)
+    woff=OUT/'VeryPeriSerif-Italic.woff2';w=TTFont(ttf);w.recalcTimestamp=False;w.flavor='woff2';w.save(woff)
     # test pair: the Italic under the family of the test Regular (tools/make_test_copy.py)
     tag='T'+CONFIG['version'].replace('.','');test=TEST/f'VeryPeriSerif{tag}-Italic.ttf'
     t=TTFont(ttf);fam=f'Very Peri Serif {tag}'
@@ -132,7 +147,8 @@ def main():
     t.save(test)
     checks=validate(REG,ttf);tchecks=validate(TEST/f'VeryPeriSerif{tag}-Regular.ttf',test)
     report=dict(regular=dict(file=REG.name,version=CONFIG['version'],sha256=sha(REG)),italic=dict(file=ttf.name,version=version,source=str(src),sha256=sha(ttf),woff2_sha256=sha(woff)),
-                added_to_italic=added,checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
+                added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,
+                checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
     (OUT/'family-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     shutil.copyfile('font/README-family.md',OUT/'README-family.md')
     members=['VeryPeriSerif-Regular.ttf','VeryPeriSerif-Regular.woff2','VeryPeriSerif-Italic.ttf','VeryPeriSerif-Italic.woff2','README-family.md','OFL.txt','AUTHORS.txt','FONTLOG.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','family-validation.json']
