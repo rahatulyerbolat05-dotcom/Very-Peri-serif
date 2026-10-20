@@ -1,8 +1,12 @@
 Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+Copyright 2026 The Very Peri Serif Project Authors (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif),
+Cyrillic extension of Instrument Serif. No Reserved Font Name is declared by either project.
+The Cyrillic de of the Regular is modified from Cormorant Garamond, Copyright 2015 the Cormorant Project Authors
+(github.com/CatharsisFonts/Cormorant), also under the SIL Open Font License 1.1 (Cormorant-OFL.txt, Cormorant-NOTICE.txt).
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
-https://scripts.sil.org/OFL
+https://openfontlicense.org
 
 
 -----------------------------------------------------------

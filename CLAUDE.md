@@ -1,3 +1,10 @@
+`[РЕШЕНИЕ · 20.10.2026]` Юридическая проверка (автор: «насчёт юридической стороны»): `docs/legal-review.md`. Пакет: `font/legal/OFL.txt`
+(копирайт Instrument, проекта, Cormorant), `AUTHORS.txt` (был шаблон Instrument), `FONTLOG.txt` (изменения, участие ИИ по ст. 21 закона РК
+об ИИ, вклад автора); name ID 9/10 из `regular_release.cyrillic_author`/`ai_note`; у курсива копирайт и описание без Cormorant. Автор
+предложил убрать Cormorant из документов: нельзя, пока д Regular — изменённый контур Cormorant (`tools/cormorant_de_proportions.py`,
+условие 2 OFL); законный путь — заменить д своей. Имя «Very Peri» = цвет PANTONE 17-3938, регистрации знака не найдено, перед коммерческим
+брендом проверить USPTO/WIPO/НИИС.
+
 `[РЕШЕНИЕ · 19.10.2026]` Семейство (автор: «объедини их»): Regular и Italic — одно семейство **Very Peri Serif**, начертания Regular и
 Italic (`tools/build_family.py` после `build_regular_release.py` и сборки курсива): курсив дополнен 27 знаками Regular (пробелы, дефисы, ʼ из
 родных курсивных; † ‡ ′ ″ ₴ ₸ ₽ № Ə ə наклоном Regular; ≈ ◌ � прямые), общие имена производителя и лицензии, VPER, метрики, связь стилей

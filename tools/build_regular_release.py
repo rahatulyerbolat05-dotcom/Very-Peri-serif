@@ -58,7 +58,7 @@ def main():
     stage=build/'source';source_ttf=stage/'VeryPeriSerifDraft-Regular.ttf'
     with (build/'source-build.log').open('w') as log,contextlib.redirect_stdout(log),contextlib.redirect_stderr(log):build_stage(output_dir=stage,ttf_path=source_ttf)
     font=TTFont(source_ttf);source=TTFont(source_ttf);manifest=json.loads((stage/'build-manifest.json').read_text())
-    values={1:config['family'],2:config['style'],3:config['version']+';'+config['vendor_id']+';'+config['postscript_name']+';'+sha(source_ttf)[:12],4:config['family']+' '+config['style'],5:'Version '+config['version'],6:config['postscript_name'],8:'Very Peri Serif project',9:source['name'].getDebugName(9)+'; Cyrillic extension: Very Peri Serif project contributors',10:'Regular. Latin, Russian and Kazakh. Based on Instrument Serif; modified Cormorant Cyrillic de.',11:config['project_url'],13:'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org',14:'https://openfontlicense.org'}
+    values={1:config['family'],2:config['style'],3:config['version']+';'+config['vendor_id']+';'+config['postscript_name']+';'+sha(source_ttf)[:12],4:config['family']+' '+config['style'],5:'Version '+config['version'],6:config['postscript_name'],8:'Very Peri Serif project',9:source['name'].getDebugName(9)+'; Cyrillic extension: '+config['cyrillic_author'],10:'Regular. Latin, Russian and Kazakh. Based on Instrument Serif; Cyrillic de modified from Cormorant Garamond. '+config['ai_note'],11:config['project_url'],13:'This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org',14:'https://openfontlicense.org'}
     for nid in (16,17):font['name'].removeNames(nameID=nid)
     for nid,value in values.items():
         font['name'].removeNames(nameID=nid)
@@ -72,7 +72,7 @@ def main():
     ttf=out/(config['postscript_name']+'.ttf');font.save(ttf);web=TTFont(ttf);web.recalcTimestamp=False;web.flavor='woff2';woff=ttf.with_suffix('.woff2');web.save(woff)
     manifest.update(family=config['family'],version=config['version'],release_status='final Regular',source_stage_version=manifest['version'],source_stage_ttf_sha256=sha(source_ttf),note='Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.')
     save_json(out/'build-manifest.json',manifest)
-    for filename in ('OFL.txt','AUTHORS.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt'):shutil.copyfile(stage/filename,out/filename)
+    for filename in ('OFL.txt','AUTHORS.txt','FONTLOG.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt'):shutil.copyfile(stage/filename,out/filename)
     shutil.copyfile('font/README-regular.md',out/'README.md')
     print('Checking final TTF/WOFF2 and all kerning/feature modes...',flush=True)
     validate(output_dir=out,ttf_path=ttf,doc_path=Path('docs/img/regular_release_proof.svg'),final=True)
@@ -109,7 +109,7 @@ def main():
         quality['hyperglot_base_primary']={k:k in languages for k in ('Russian','Kazakh')};expect(all(quality['hyperglot_base_primary'].values()),'Russian and Kazakh base coverage')
     save_json(out/'quality-summary.json',quality)
     specimen(ttf,out/'specimen.pdf',config)
-    members=[ttf.name,woff.name,'README.md','OFL.txt','AUTHORS.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','proof.svg','specimen.pdf','build-manifest.json','validation.json','kerning-validation.json','release-validation.json','quality-summary.json']
+    members=[ttf.name,woff.name,'README.md','OFL.txt','AUTHORS.txt','FONTLOG.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','proof.svg','specimen.pdf','build-manifest.json','validation.json','kerning-validation.json','release-validation.json','quality-summary.json']
     (out/'SHA256SUMS.txt').write_text(''.join(sha(out/name)+'  '+name+'\n' for name in sorted(members)))
     archive=Path(config['archive'])
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as package:

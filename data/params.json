@@ -3773,7 +3773,9 @@
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "dist/VeryPeriSerif",
   "archive": "dist/VeryPeriSerif-Regular.zip",
-  "date": "2026-10-19"
+  "date": "2026-10-19",
+  "cyrillic_author": "Yerbolat",
+  "ai_note": "Cyrillic outlines made with AI assistance (Claude, Codex) under the direction of the author."
  },
  "weight_balance": {
   "status": "17.10.2026: author reports ф ж ю look heavy; measured x-height-band ink density 0.44/0.40/0.37 against a Latin range 0.26-0.37. Strokes thinned with outer silhouette and advance fixed.",

@@ -2,14 +2,14 @@
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
     "version": "1.016",
-    "sha256": "20fa8ca60a97eea8bb5895d1760670234d09c04a363c32e9eaafacded83c7dae"
+    "sha256": "4052671eb2d8c096d7e5df2f3125dbfa0d13c6a0a563410a3b42481ae285c8a9"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
     "version": "0.250",
     "source": "build/italic-lower/VeryPeriSerifItalicI025.ttf",
-    "sha256": "d2ed95150f86eaea49f7fe178e65f61caf5e4132e1011f540816ac33c5233e4c",
-    "woff2_sha256": "01ca1273023789a510e1a09917d1ca0710c569961eafb23f9369493dea09305b"
+    "sha256": "5e1e02533807978c522c6201c735043dd159acb88273a6e809f5ea2c904bbb0f",
+    "woff2_sha256": "0ef5d6300f807bbc9cf8ac012c4a75f410e61bb28b5be71960345fba96a8aa42"
   },
   "added_to_italic": {
     "0x2002": "space",

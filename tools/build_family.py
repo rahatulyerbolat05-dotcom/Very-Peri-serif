@@ -66,6 +66,9 @@ def set_names(font,reg,family,style,ps,version,keep_feature_names=True):
     name.names=[r for r in reg['name'].names if r.nameID in LINK_IDS]+kept
     uid=hashlib.sha256(b''.join(font['glyf'][n].compile(font['glyf']) for n in font.getGlyphOrder())).hexdigest()[:12]
     values={1:family,2:style,3:f'{version};{CONFIG["vendor_id"]};{ps};{uid}',4:f'{family} {style}' if style!='Regular' else f'{family} Regular',5:f'Version {version}',6:ps}
+    if style=='Italic':                                                       # no Cormorant outline in the Italic (docs/legal-review.md)
+        values[0]=reg['name'].getDebugName(0).split('; Modified de')[0]+'.'
+        values[10]='Italic. Latin, Russian and Kazakh. Based on Instrument Serif Italic. '+CONFIG['ai_note']
     for nid,v in values.items():
         name.setName(v,nid,3,1,0x409)
     name.names=[r for r in name.names if r.platformID!=1]                     # Windows names only, as the Regular 1.016
@@ -131,7 +134,7 @@ def main():
                 added_to_italic=added,checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
     (OUT/'family-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     shutil.copyfile('font/README-family.md',OUT/'README-family.md')
-    members=['VeryPeriSerif-Regular.ttf','VeryPeriSerif-Regular.woff2','VeryPeriSerif-Italic.ttf','VeryPeriSerif-Italic.woff2','README-family.md','OFL.txt','AUTHORS.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','family-validation.json']
+    members=['VeryPeriSerif-Regular.ttf','VeryPeriSerif-Regular.woff2','VeryPeriSerif-Italic.ttf','VeryPeriSerif-Italic.woff2','README-family.md','OFL.txt','AUTHORS.txt','FONTLOG.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','family-validation.json']
     sums=''.join(sha(OUT/m)+'  '+m+'\n' for m in sorted(members))
     archive=OUT.parent/'VeryPeriSerif-Family.zip';date=tuple(map(int,CONFIG['date'].split('-')))+(0,0,0)
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:

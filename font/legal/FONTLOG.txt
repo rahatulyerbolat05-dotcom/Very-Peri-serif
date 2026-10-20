@@ -1,0 +1,41 @@
+FONTLOG for Very Peri Serif
+===========================
+
+This file records the history of this modified version of Instrument Serif, as SIL recommends for OFL fonts.
+
+Basic font information
+----------------------
+Very Peri Serif is a Cyrillic extension of Instrument Serif (Regular and Italic): Russian and Kazakh letters,
+Cyrillic OpenType features (contextual forms, stylistic sets, Serbian and Macedonian italic forms) and the
+punctuation and currency signs these languages need. The Latin of Instrument Serif is kept unchanged.
+Licence: SIL Open Font License 1.1 (OFL.txt). No Reserved Font Name is declared.
+
+What was changed against the original
+-------------------------------------
+- Added: 84 Cyrillic letters in Regular and Italic, Cyrillic alternates, tenge, ruble, hryvnia and numero signs,
+  typographic spaces and controls, Latin schwa.
+- Added OpenType: calt, ss01-ss09, locl (Serbian, Macedonian), Cyrillic kerning, a STAT table.
+- Renamed: the family is Very Peri Serif; the original name Instrument Serif is not used as a font name.
+- Not changed: the native Latin outlines, spacing and kerning of Instrument Serif.
+- Regular: the Cyrillic de is a modified outline of Cormorant Garamond (SIL OFL 1.1, Cormorant-OFL.txt),
+  taken at the author's explicit request. No other outline of any third-party font is included.
+
+How it was made (transparency, Law of the Republic of Kazakhstan "On Artificial Intelligence", art. 21)
+--------------------------------------------------------------------------------------------------------
+The Cyrillic outlines were built with the assistance of AI systems (Anthropic Claude, OpenAI Codex) by tools
+in this repository, mostly by assembling parts of the native Instrument Serif glyphs and by measured rules.
+The human author directed the work and made every design decision: the brief and the instruction
+(docs/instruction.md), the choice among variants, rejections and corrections (the decision log in CLAUDE.md
+records each one with the author's words), and own drawings (the vertical Ц and the tail motifs, sent as SVG and
+embedded without changes). Apart from the Cormorant de stated above, no outline of any other typeface is included.
+
+Change log
+----------
+Regular: 1.000 (17.10.2026) first release; 1.001-1.016 spacing, kerning, outline polish, straight edges.
+Italic: test builds I001-I025 (17-19.10.2026), see data/italic-version.json; not yet a final release.
+Family: Regular and Italic linked as one family Very Peri Serif (19.10.2026).
+
+Acknowledgements
+----------------
+Instrument Serif: Rodrigo Fuenzalida, Jordan Egstad (Instrument). Cormorant (the Regular de): the Cormorant
+Project Authors. Cyrillic extension: Yerbolat, with AI assistance as described above.

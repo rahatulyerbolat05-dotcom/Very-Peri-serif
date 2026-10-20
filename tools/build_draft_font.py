@@ -375,8 +375,8 @@ def main(output_dir=OUT,ttf_path=TTF):
               'tail_feature':'ss09','te_feature':'ss08','de_feature':'ss07','default_context':'calt',
               'note':'Unapproved designs use first currently displayed proposal; draft spacing and kerning.'}
     (output_dir/'build-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
-    for filename in ('OFL.txt','AUTHORS.txt'):
-        shutil.copyfile(Path('reference/instrument-serif')/filename,output_dir/filename)
+    for filename in ('OFL.txt','AUTHORS.txt','FONTLOG.txt'):   # project licence header, authors and FONTLOG (docs/legal-review.md)
+        shutil.copyfile(Path('font/legal')/filename,output_dir/filename)
     shutil.copyfile('data/cormorant-de/OFL.txt',output_dir/'Cormorant-OFL.txt')
     shutil.copyfile('data/cormorant-de/NOTICE.txt',output_dir/'Cormorant-NOTICE.txt')
     print(json.dumps({'ttf':str(ttf_path),'added_glyphs':len(records),'kerning_pairs':len(pairs),'clamped_pairs':len(clamped)},ensure_ascii=False))
