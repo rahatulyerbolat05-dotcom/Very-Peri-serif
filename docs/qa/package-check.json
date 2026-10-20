@@ -1,0 +1,71 @@
+{
+  "version": "1.016",
+  "italic_version": "0.250",
+  "archive": "dist/VeryPeriSerif-1.016.zip",
+  "archive_sha256": "d59d698c58d8d67db4f0bcf5b14e19a6d92010fdbb34e569d3887d440067c993",
+  "members": [
+    "AUTHORS.txt",
+    "CONTRIBUTORS.txt",
+    "FONTLOG.txt",
+    "OFL.txt",
+    "README.txt",
+    "SHA256SUMS.txt",
+    "ai-disclosure.json",
+    "fonts/otf/VeryPeriSerif-Italic.otf",
+    "fonts/otf/VeryPeriSerif-Regular.otf",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf",
+    "fonts/ttf/VeryPeriSerif-Regular.ttf",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2",
+    "fonts/webfonts/very-peri-serif.css",
+    "specimen/VeryPeriSerif-Regular-Specimen.pdf"
+  ],
+  "otf": {
+    "Regular": {
+      "glyphs": 513,
+      "hausdorff_worst": 0.707,
+      "over_limit": []
+    },
+    "Italic": {
+      "glyphs": 471,
+      "hausdorff_worst": 0.713,
+      "over_limit": []
+    }
+  },
+  "checks": {
+    "OFL.txt body is the official OFL 1.1 text (reference/instrument-serif/OFL.txt)": true,
+    "OFL.txt body is the official OFL 1.1 text (data/cormorant-de/OFL.txt)": true,
+    "OFL.txt preamble names OFL 1.1 and its FAQ address": true,
+    "OFL.txt opens with the project copyright lines": true,
+    "OFL.txt carries the Cormorant line": true,
+    "no Reserved Font Name claimed": true,
+    "Regular: name 0 = project copyright + Cormorant": true,
+    "Regular: name 13/14 OFL 1.1": true,
+    "Regular: name 10 AI note": true,
+    "Regular: name 1 not Instrument Serif": true,
+    "Regular: installable and editable (fsType 0)": true,
+    "Italic: name 0 = project copyright": true,
+    "Italic: name 13/14 OFL 1.1": true,
+    "Italic: name 10 AI note": true,
+    "Italic: name 1 not Instrument Serif": true,
+    "Italic: installable and editable (fsType 0)": true,
+    "OFL.txt present": true,
+    "AUTHORS.txt present": true,
+    "CONTRIBUTORS.txt present": true,
+    "FONTLOG.txt present": true,
+    "AUTHORS.txt names the Cyrillic author": true,
+    "ai-disclosure.json is valid JSON": true,
+    "OpenType Sanitizer VeryPeriSerif-Regular.ttf": true,
+    "OpenType Sanitizer VeryPeriSerif-Regular.otf": true,
+    "OpenType Sanitizer VeryPeriSerif-Regular.woff2": true,
+    "Regular: WOFF2 = TTF tables": true,
+    "OpenType Sanitizer VeryPeriSerif-Italic.ttf": true,
+    "OpenType Sanitizer VeryPeriSerif-Italic.otf": true,
+    "OpenType Sanitizer VeryPeriSerif-Italic.woff2": true,
+    "Italic: WOFF2 = TTF tables": true,
+    "archive opens and every member is intact": true,
+    "archive fonts identical to fonts/": true
+  },
+  "passed": 32,
+  "failed": []
+}
