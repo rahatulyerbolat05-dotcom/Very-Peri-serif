@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.100",
+  "release": "1.101",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -43,52 +43,85 @@
     {
       "status": "author_request",
       "item": "Remove visible notches in italic ж and upper shoulder kink of з. ж: remove k branch stubs; redraw clean stem with native weight; correct bowl shoulder tangent. з: outgoing handle y487 to489; contour deviation ~1 unit. Per-glyph assertions and enlarged proof."
+    },
+    {
+      "status": "author_request",
+      "item": "Default italic г: exact native dotlessi body from locl SRB imacron, without uni0304. Preserve SRB/MKD macron and printed ss04; retain previous construction source and 1.100 archive."
     }
   ],
   "approved_fonts": {
-    "Regular": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
-    "Italic": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e"
+    "Regular": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+    "Italic": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3"
   },
   "optical_acceptance": {
-    "date": "2026-10-20",
+    "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
+    "scope": "Default italic ghe selected by author: Serbian body without the macron",
     "viewed": [
-      "complete 84-letter Regular alphabet",
-      "complete 84-letter Italic alphabet",
-      "Russian and Kazakh words, both styles",
-      "stress and stacked marks",
-      "all stylistic sets and SRB/MKD local forms",
-      "12/24/100 pt on light and dark backgrounds",
-      "numbers, punctuation, ligatures, tabular figures",
-      "before/after de and zhe",
-      "enlarged final exported zhe and ze joins"
+      "final ghe comparison, old/default/Serbian local form",
+      "Russian and Kazakh ghe word samples with final kerning",
+      "complete final Italic alphabet",
+      "final Italic running-text page"
     ],
     "decisions": [
-      "Regular rounded de retained with shorter loop; no new triangular construction.",
-      "Italic zhe now follows surrounding lowercase proportions; protected bowl spines and terminals retain their stroke weight.",
-      "Stem nicks and bowl shoulder of italic zhe corrected; ze upper shoulder is smooth at the exported quadratic contour.",
-      "Author tails, Kazakh letter distinctions, handwritten Cyrillic and native Latin retained.",
-      "Inherited native ogonek contours and intentional italic ka loop are accepted; contour counts alone do not justify changing the design."
+      "Accept exact native dotlessi body and metrics (375 to 288 units).",
+      "Retain native stroke weight and endpoints; remove only the separate macron from the selected construction.",
+      "locl SRB/MKD and printed ss04 pass explicit shaping checks.",
+      "All other outlines, hint programs and advance/sidebearing metrics match accepted 1.100 byte for byte, as recorded in docs/qa/ghe-1.101.json."
     ],
+    "functional_assertions": 3734,
     "limitations": [
-      "No native Windows/macOS or commercial-app test",
-      "No physical print test",
-      "Display typeface; no small-text optical master promised"
-    ],
-    "diagnostic_spots_reviewed": {
-      "Regular": [
-        "ы: short terminal handles",
-        "ю: serif-to-stem blend",
-        "ъ: pointed inner counter junction",
-        "Э: terminal blend"
+      "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
+    ]
+  },
+  "previous_approved_fonts": {
+    "1.100": {
+      "Regular": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+      "Italic": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e"
+    }
+  },
+  "previous_optical_acceptance": {
+    "1.100": {
+      "date": "2026-10-20",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "viewed": [
+        "complete 84-letter Regular alphabet",
+        "complete 84-letter Italic alphabet",
+        "Russian and Kazakh words, both styles",
+        "stress and stacked marks",
+        "all stylistic sets and SRB/MKD local forms",
+        "12/24/100 pt on light and dark backgrounds",
+        "numbers, punctuation, ligatures, tabular figures",
+        "before/after de and zhe",
+        "enlarged final exported zhe and ze joins"
       ],
-      "Italic": [
-        "В: junction of bowls",
-        "Г: stem-to-foot angle",
-        "д: inner bowl/stem junction",
-        "я: bowl/stem transition"
+      "decisions": [
+        "Regular rounded de retained with shorter loop; no new triangular construction.",
+        "Italic zhe now follows surrounding lowercase proportions; protected bowl spines and terminals retain their stroke weight.",
+        "Stem nicks and bowl shoulder of italic zhe corrected; ze upper shoulder is smooth at the exported quadratic contour.",
+        "Author tails, Kazakh letter distinctions, handwritten Cyrillic and native Latin retained.",
+        "Inherited native ogonek contours and intentional italic ka loop are accepted; contour counts alone do not justify changing the design."
       ],
-      "result": "Retained after enlarged inspection; native pen transitions and intentional counter corners are not forced into zero-angle joins. No new diagnostics relative to baseline, except exact native-copy restoration."
+      "limitations": [
+        "No native Windows/macOS or commercial-app test",
+        "No physical print test",
+        "Display typeface; no small-text optical master promised"
+      ],
+      "diagnostic_spots_reviewed": {
+        "Regular": [
+          "ы: short terminal handles",
+          "ю: serif-to-stem blend",
+          "ъ: pointed inner counter junction",
+          "Э: terminal blend"
+        ],
+        "Italic": [
+          "В: junction of bowls",
+          "Г: stem-to-foot angle",
+          "д: inner bowl/stem junction",
+          "я: bowl/stem transition"
+        ],
+        "result": "Retained after enlarged inspection; native pen transitions and intentional counter corners are not forced into zero-angle joins. No new diagnostics relative to baseline, except exact native-copy restoration."
+      }
     }
   }
 }

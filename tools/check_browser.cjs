@@ -35,6 +35,7 @@ const server = http.createServer((req,res) => {
         await face.load();document.fonts.add(face);
         const canvas=document.createElement('canvas');const ctx=canvas.getContext('2d');ctx.font=(style==='Italic'?'italic ':'')+'64px "'+family+'"';
         const texts=['Съешь же ещё этих мягких французских булок.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.',
+                     'глина город дорога · гүл ертеңгі',
                      'о́ я́ ы́ э́ ю́ ә́ ү́ і́ ё́ · О́ Ә́ Ү́','office affine final · 12 500 ₸'];
         results.push({format,style,status:face.status,widths:texts.map(t=>ctx.measureText(t).width)});
       }
@@ -65,8 +66,12 @@ const server = http.createServer((req,res) => {
     await page.pdf({path:path.join(dest,'live-text.pdf'),format:'A4',printBackground:true});
     const pdf=path.join(dest,'live-text.pdf');
     const extracted=execFileSync('pdftotext',[pdf,'-'],{encoding:'utf8'}).replace(/\s+/g,' ');
-    for(const text of ['Красота начинается с внимания к деталям.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.'])
-      if(!extracted.includes(text))throw Error('PDF text roundtrip failed: '+text);
+    report.pdf_text_occurrences={};
+    for(const text of ['Красота начинается с внимания к деталям.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.','глина город дорога · гүл ертеңгі']) {
+      const count=extracted.split(text).length-1;
+      if(count<2)throw Error('PDF text roundtrip must pass in both styles: '+text);
+      report.pdf_text_occurrences[text]=count;
+    }
     const embedded=execFileSync('pdffonts',[pdf],{encoding:'utf8'});
     if(!embedded.includes('VeryPeriSerif-Regular')||!embedded.includes('VeryPeriSerif-Italic'))
       throw Error('Both font styles must be embedded in the PDF');

@@ -2,10 +2,10 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+      "sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
       "style": "Regular",
-      "version": "Version 1.100",
-      "passed": 1593,
+      "version": "Version 1.101",
+      "passed": 1598,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
@@ -1404,6 +1404,11 @@
         "Accents preserve contextual forms and kerning пн",
         "Accents preserve contextual forms and kerning кн",
         "Accents preserve contextual forms and kerning қн",
+        "Accents preserve contextual forms and kerning гл",
+        "Accents preserve contextual forms and kerning нг",
+        "Accents preserve contextual forms and kerning гТ",
+        "Accents preserve contextual forms and kerning Тг",
+        "Accents preserve contextual forms and kerning гү",
         "Stacked marks я",
         "Stacked marks within Windows ascent я",
         "Stacked marks ы",
@@ -1640,15 +1645,19 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
+      "sha256": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
       "style": "Italic",
-      "version": "Version 1.100",
-      "passed": 2127,
+      "version": "Version 1.101",
+      "passed": 2136,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
         "No residual curve kinks in ж",
         "No residual curve kinks in з",
+        "Serbian ghe body is native dotlessi",
+        "Default ghe exactly matches Serbian body without macron",
+        "Serbian and Macedonian ghe retain macron",
+        "Printed ghe alternative retained",
         "No experimental PUA characters",
         "Native outlines, hints and metrics preserved",
         "Attached stress А {} ru",
@@ -3732,6 +3741,11 @@
         "Accents preserve contextual forms and kerning пн",
         "Accents preserve contextual forms and kerning кн",
         "Accents preserve contextual forms and kerning қн",
+        "Accents preserve contextual forms and kerning гл",
+        "Accents preserve contextual forms and kerning нг",
+        "Accents preserve contextual forms and kerning гТ",
+        "Accents preserve contextual forms and kerning Тг",
+        "Accents preserve contextual forms and kerning гү",
         "Stacked marks я",
         "Stacked marks within Windows ascent я",
         "Stacked marks ы",
@@ -3847,10 +3861,10 @@
       },
       "harfbuzz_pairs_checked": 495271,
       "native_unicode_pairs_preserved": 110889,
-      "vector_pairs_checked": 17823,
+      "vector_pairs_checked": 17626,
       "raster_homoglyphs": []
     }
   ],
-  "passed": 3720,
+  "passed": 3734,
   "failed": 0
 }

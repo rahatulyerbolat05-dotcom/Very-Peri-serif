@@ -56,6 +56,14 @@ def check(path, exhaustive=True):
         from polish_audit import check as curve_check
         for ch in 'жз':
             ck(not curve_check(f,f.getBestCmap()[ord(ch)])['kink'],'No residual curve kinks in '+ch)
+        # Author request: default г is exactly locl SRB г minus its top line.
+        body=[c for c in native['glyf']['imacron'].components if c.glyphName!='uni0304']
+        ck(len(body)==1 and body[0].glyphName=='dotlessi' and (body[0].x,body[0].y)==(0,0), 'Serbian ghe body is native dotlessi')
+        ghe=f.getBestCmap()[ord('г')]
+        ck(f['glyf'][ghe].compile(f['glyf'])==native['glyf'][body[0].glyphName].compile(native['glyf'])
+           and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
+        ck(shape('г',language='sr')[0][0]=='imacron' and shape('г',language='mk')[0][0]=='imacron', 'Serbian and Macedonian ghe retain macron')
+        ck(shape('г',{'ss04':1})[0][0]=='uni0433.ss04', 'Printed ghe alternative retained')
     ck(not any(0xF101 <= cp <= 0xF108 for cp in f.getBestCmap()), 'No experimental PUA characters')
     ck(all(f['glyf'][n].compile(f['glyf']) == native['glyf'][n].compile(native['glyf'])
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')
@@ -74,7 +82,7 @@ def check(path, exhaustive=True):
     for text in ('Ѝ','ѝ'):
         ck(ord(text) in f.getBestCmap(), 'Stressed Bulgarian i encoded '+text)
         ck(shape(text)==shape(unicodedata.normalize('NFD',text)), 'Stressed i NFC/NFD '+text)
-    for text in ('жа','дж','яд','ыж','эж','юн','әп','үк','нк','пн','кн','қн'):
+    for text in ('жа','дж','яд','ыж','эж','юн','әп','үк','нк','пн','кн','қн','гл','нг','гТ','Тг','гү'):
         accented=text[0]+'\u0301'+text[1]
         ck(sum(x[1] for x in shape(text))==sum(x[1] for x in shape(accented)), 'Accents preserve contextual forms and kerning '+text)
     for ch in 'яыэюәүЯЫЭЮӘҮ':

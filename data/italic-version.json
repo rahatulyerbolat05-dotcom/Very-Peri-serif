@@ -1,5 +1,5 @@
 {
- "version": "0.27",
+ "version": "0.28",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -27,6 +27,7 @@
   "0.24": "more alternates: ss04 printed г, ss05 к и ж с выносом (native k; k + mirrored arms), ss06 э from the mirrored native c",
   "0.25": "crooked lines: м л я ю д ф edges straightened (polish_outlines.straighten, м diagonals were broken by 4.6, л leg edges bent 1.8); capitals from Regular 1.016 (straight Ц Щ bases, Я Қ legs)",
   "0.26": "в reaches the round overshoots 516/-9 (was 507/-2: the pen kept the outline inside the skeleton); з ends its upper stroke in the drop of э instead of the thin Regular hook (lightest letter 0.259)",
-  "0.27": "Family 1.100: narrower reconstructed zhe; mark coverage; full case/mixed/punctuation kerning; source-only experiments; tabular figures; release acceptance."
+  "0.27": "Family 1.100: narrower reconstructed zhe; mark coverage; full case/mixed/punctuation kerning; source-only experiments; tabular figures; release acceptance.",
+  "0.28": "Author: default lowercase ghe is the native dotlessi body of Serbian locl imacron, without the macron; preserve locl and printed ss04. Family release 1.101."
  }
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""OpenType additions of the Italic test font (I023, author: "come up with alternate forms, ligatures and kerning"):
+"""Italic native aliases and OpenType additions (from I023; default ghe revised in I028):
+  default г      I028: the body of locl SRB imacron without the macron, exact native dotlessi.
   locl SRB, MKD  Serbian and Macedonian italic forms (Krista Radoeva, localfonts.eu; John Hudson proposed locl for these languages):
                  г -> ī (native imacron), д -> g (native g), п -> ū (native umacron), т -> ш with macron (uni0442.srb, composite);
                  б -> ð shape (native eth, drawn by Instrument as a delta) for Serbian only: for Macedonian print the delta б is disputed
@@ -7,8 +8,7 @@
   ss01           the native ss01 (a c d e g without the exit tail) for the Cyrillic homoglyphs а с е ё as well (D10 of the Regular).
   ss02           д with the ascender (the delta form of Russian handwriting), the native eth outline.
   ss03           printed т (T-shaped): stem of the native ı without its entry hook, bar and arm ends of the native T at the x-height.
-  ss04           printed г (Г-shaped), the same parts, no left arm (as the Regular г). Italic т = m and г = r are the forms readers most often
-                 take for Latin (typejournal.ru, 'The three-legged te'); the printed forms are the cure for mixed Latin-Cyrillic settings.
+  ss04           printed г (Г-shaped), the same parts, no left arm (as the Regular г), retained as an alternative to the cursive default.
   ss05           к and ж with the ascender, in the spirit of the Bulgarian forms (ka, zhe with ascenders: Inconsolata LGC notes; Lettersoup
                  lists ж in loclBGR): к = the native k, ж = the native k and its arms mirrored about the stem. Not a locl BGR: Bulgarian
                  and Russian italics differ little (Lettersoup), the choice stays with the user.
@@ -32,7 +32,7 @@ from italic_tidy import tidy
 from italic_fair import fair
 
 OUT=Path('data/italic-features.json')
-NATIVE_VARIANTS={'uni0434.ss02':'eth','uni0430.ss01':'a.ss01','uni0435.ss01':'e.ss01',
+NATIVE_VARIANTS={'uni0433':'dotlessi','uni0434.ss02':'eth','uni0430.ss01':'a.ss01','uni0435.ss01':'e.ss01',
                  'uni0434.locl':'g','uni0434.locl.ss01':'g.ss01'}
 T_BAR=150.                     # half length of the printed т bar from the stem centre (ud); native t: 71 left, 93 right of its stem
 ARM=60.;ARM_W=70.             # arms of the printed т г: depth below the bar top, width of the piece of T taken at each end
@@ -71,6 +71,9 @@ def printed(font,lo,hi):
 
 def build_glyphs(font):
     glyf=font['glyf'];hmtx=font['hmtx'];new={}
+    # I028: the author chose the body of Serbian г without its macron.
+    # Native imacron = dotlessi at (0, 0) + uni0304; clone that body verbatim,
+    # including its hints and metrics. locl SRB/MKD still selects imacron.
     # Cyrillic eth-shaped de/be needs its own accent anchor. The Latin eth has
     # none; keep its shaping unchanged and give the Cyrillic alternate a copy.
     for name,source in NATIVE_VARIANTS.items():

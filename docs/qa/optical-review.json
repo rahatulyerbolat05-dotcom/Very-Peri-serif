@@ -3794,7 +3794,7 @@
           }
         }
       },
-      "sha256": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
+      "sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
       "baseline_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
       "zhe_to_en": 1.15,
       "de_depth": -250
@@ -5714,20 +5714,20 @@
           },
           "after": {
             "glyph": "uni0433",
-            "advance": 375,
+            "advance": 288,
             "bounds": [
-              9,
-              -1,
-              395,
+              14,
+              -10,
+              273,
               516
             ],
-            "density": 0.2799,
-            "points": 51,
+            "density": 0.3435,
+            "points": 36,
             "diagnostics": {
               "slop": 0,
-              "zone": 0,
-              "extrema": 0,
-              "kink": 0,
+              "zone": 1,
+              "extrema": 6,
+              "kink": 4,
               "micro": 0,
               "wobble": 0
             }
@@ -7592,7 +7592,7 @@
           }
         }
       },
-      "sha256": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
+      "sha256": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
       "baseline_sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
       "zhe_to_en": 1.469,
       "de_depth": -215

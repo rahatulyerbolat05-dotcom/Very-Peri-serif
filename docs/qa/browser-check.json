@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "cee9de64b7544572f20bd12fbe0ff480791b0b004ea2fd3e92398b3bc86d1b66",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "e7dcca1fe3b8077bfb4584ee634a7da4adab67f76b14442991d4038d4a39222e",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "0355eaa942aba1ed249b4725ae450b6b44cd8a803e3a23576038acbc474f7504",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "bfe2e6acbd4cf218c313d41bfb82f83d2e388b377ea7149a3aedf3cc1d09cd4d",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "cbcf440218b307a0badb0597c4288e076573f89465407756b6664295b3052bfa",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "15a9c77b4aa1796ac8d0a6755ffeb4fa53b3ee4113b1ae4c7643ad940b34f1f6"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "b88cb2beb16210d77bab5617fe1186994535ea0627ed60be340a9586ecc9ef74",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "f110e9405ea4dd805f229676cabe2441c5a76a6cf8e6335d4387359858de2727",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "1d136e7ddb4743de26130c2d8a1d5c04ae90903b9042f64743e5198f4b7d0136",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "13b483407fef8f745f40076c6b0ed9f95153f4e4048f82ec39017b9c8ca2dd0e"
   },
   "results": {
     "results": [
@@ -26,6 +26,7 @@
         "widths": [
           1068.7340087890625,
           843.1986083984375,
+          721.1506958007812,
           473.6631164550781,
           568.7670288085938
         ]
@@ -35,8 +36,9 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1150.1419677734375,
+          1145.533935546875,
           909.6944580078125,
+          748.798828125,
           488.8951110839844,
           585.4070434570312
         ]
@@ -48,6 +50,7 @@
         "widths": [
           1068.7340087890625,
           843.1986083984375,
+          721.1506958007812,
           473.6631164550781,
           568.7670288085938
         ]
@@ -57,8 +60,9 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1150.1419677734375,
+          1145.533935546875,
           909.6944580078125,
+          748.798828125,
           488.8951110839844,
           585.4070434570312
         ]
@@ -70,6 +74,7 @@
         "widths": [
           1068.7340087890625,
           843.1986083984375,
+          721.1506958007812,
           473.6631164550781,
           568.7670288085938
         ]
@@ -79,8 +84,9 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1150.1419677734375,
+          1145.533935546875,
           909.6944580078125,
+          748.798828125,
           488.8951110839844,
           585.4070434570312
         ]
@@ -116,6 +122,11 @@
         29.515625
       ]
     ],
+    "pdf_text_occurrences": {
+      "Красота начинается с внимания к деталям.": 2,
+      "Қазақ тілі: жаңбыр, үміт, ұлы, өмір.": 2,
+      "глина город дорога · гүл ертеңгі": 2
+    },
     "pdf_text_roundtrip": true,
     "pdf_font_table": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+VeryPeriSerif-Regular         CID TrueType      Identity-H       yes yes yes      5  0\nCAAAAA+VeryPeriSerif-Italic          CID TrueType      Identity-H       yes yes yes      6  0\n"
   },

@@ -62,6 +62,9 @@ def main():
     proofs={s:Proof(out/f'VeryPeriSerif-{s}.ttf') for s in ('Regular','Italic')}
     config=json.loads(Path('data/params.json').read_text())['regular_release']
     version=config['version']
+    previous_ghe=images/'before/Italic-1.100.ttf'
+    if not previous_ghe.exists():
+        previous_ghe.write_bytes(subprocess.check_output(['git','show','fdd1fe5:fonts/ttf/VeryPeriSerif-Italic.ttf']))
     date=datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc)
     meta={'Title':'Very Peri Serif '+version+' — Regular & Italic','Author':'Very Peri Serif project',
           'CreationDate':date,'ModDate':date}
@@ -79,7 +82,7 @@ def main():
                 x=30+(i%7)*195;y=220+(i//7)*145
                 ax.text(x,y-105,ch,fontsize=10,color='#777777')
                 p.line(ax,ch,x+35,y,133.333)
-            pdf.savefig(fig);fig.savefig('docs/img/premium-'+style.lower()+'-alphabet.svg',metadata={'Date':'2026-10-20'})
+            pdf.savefig(fig);fig.savefig('docs/img/premium-'+style.lower()+'-alphabet.svg',metadata={'Date':config['date']})
             fig.savefig(images/(style+'-alphabet.png'));plt.close(fig)
         fig,ax=page('Stress, decomposed sequences, stacked marks and Kazakh distinctions')
         for i,(style,p) in enumerate(proofs.items()):
@@ -120,22 +123,33 @@ def main():
                 p.line(ax,text,45,y+j*115,85)
             p.line(ax,'0123456789 · 111 000 · 888 000',45,y+575,85,{'tnum':1})
         pdf.savefig(fig);fig.savefig(images/'numbers.png');plt.close(fig)
+        fig,ax=page('Italic · г · previous / chosen default / Serbian local form',1200,1250)
+        old_ghe=Proof(previous_ghe)
+        for i,(label,p,lang) in enumerate((('1.100',old_ghe,'ru'),(version,proofs['Italic'],'ru'),('locl SRB',proofs['Italic'],'sr'))):
+            ax.text(45+i*400,110,label,fontsize=15,color='#69656a')
+            p.line(ax,'г',100+i*400,410,330,language=lang)
+        for i,(label,p) in enumerate((('Previous · 1.100',old_ghe),('Default · '+version,proofs['Italic']))):
+            y=520+i*360;ax.text(45,y,label,fontsize=15,color='#69656a')
+            p.line(ax,'глина · город · дорога',45,y+115,95)
+            p.line(ax,'гүл · ертеңгі · ғылым',45,y+245,95)
+        pdf.savefig(fig);fig.savefig('docs/img/ghe-revision.svg',metadata={'Date':config['date']})
+        fig.savefig(images/'ghe.png');plt.close(fig)
     # Compact before/after proof. The baseline comes from the recorded published
     # a7bec14 binaries, never from a font rebuilt after editing the sources.
-    fig,ax=page('Italic · a7bec14 / 1.100 · bowls reconstructed, native Latin unchanged',1600,1050)
+    fig,ax=page('Italic · a7bec14 / '+version+' · bowls reconstructed, native Latin unchanged',1600,1050)
     for i,src in enumerate((images/'before/Italic.ttf',out/'VeryPeriSerif-Italic.ttf')):
         p=Proof(src);y=220+i*470
         ax.text(35,y-120,'Before' if i==0 else 'After',fontsize=15,color='#777777')
         p.line(ax,'жизнь · мужчина · вежливость',35,y,115)
         p.line(ax,'ж жж нж жн · н о п и ш т м ж ф ю ы д з в',35,y+170,95)
-    fig.savefig('docs/img/premium-comparison.svg',metadata={'Date':'2026-10-20'});fig.savefig(images/'comparison.png');plt.close(fig)
+    fig.savefig('docs/img/premium-comparison.svg',metadata={'Date':config['date']});fig.savefig(images/'comparison.png');plt.close(fig)
     fig,ax=page('Regular · rounded de retained, lower loop -280 / -250',1600,900)
     for i,src in enumerate((images/'before/Regular.ttf',out/'VeryPeriSerif-Regular.ttf')):
         p=Proof(src);y=230+i*410
         ax.text(35,y-120,'Before' if i==0 else 'After',fontsize=15,color='#777777')
         p.line(ax,'дело · вода · звезда · дождь · подход',35,y,115)
         p.line(ax,'д дд нд дн · дно · двадцать · дело',35,y+135,90)
-    fig.savefig('docs/img/premium-de-comparison.svg',metadata={'Date':'2026-10-20'});fig.savefig(images/'de-comparison.png');plt.close(fig)
+    fig.savefig('docs/img/premium-de-comparison.svg',metadata={'Date':config['date']});fig.savefig(images/'de-comparison.png');plt.close(fig)
     # Enlargements of the actual exported outlines requested by the author.
     # Align ж by its central stem; its overall width has also changed.
     before=Proof(images/'before/Italic.ttf');after=proofs['Italic']
@@ -147,7 +161,7 @@ def main():
             centre=p.font['hmtx'][n][0]/2+10 if ch=='ж' else 230
             ax.add_patch(PathPatch(pen.result(),facecolor=INK,edgecolor='none',transform=Affine2D().translate(-centre,0)+ax.transData))
             ax.set_xlim((-100,100) if ch=='ж' else (-120,120));ax.set_ylim((120,440) if ch=='ж' else (435,535));ax.set_aspect('equal');ax.axis('off')
-            ax.set_title(ch+' · '+('Before a7bec14' if col==0 else 'After 1.100'),fontsize=16,color='#69656a')
+            ax.set_title(ch+' · '+('Before a7bec14' if col==0 else 'After '+version),fontsize=16,color='#69656a')
     fig.tight_layout();fig.savefig('docs/img/premium-joins.svg',metadata={'Date':config['date']});fig.savefig(images/'joins.png');plt.close(fig)
     # Minimal portable live-font specimen (PDF above uses outlines deliberately).
     styles='''@font-face{font-family:VP;src:url('../../fonts/webfonts/VeryPeriSerif-Regular.woff2');font-style:normal}
@@ -160,6 +174,7 @@ body{margin:48px;background:#f5f2ec;color:#272333;font-family:system-ui}main{max
         klass='sample'+(' italic' if style=='Italic' else '')
         blocks += ['<h2>'+style+'</h2>']
         for text in [UP,LOW,'Красота начинается с внимания к деталям.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.',
+                     'глина город дорога · гүл ертеңгі',
                      'о́ я́ ы́ э́ ю́ ә́ ү́ і́ ё́ · О́ Я́ Ы́ Э́ Ю́ Ә́ Ү́','office affine final · 12 500 ₸']:
             blocks.append('<p class="'+klass+'">'+html.escape(text)+'</p>')
         blocks.append('<p class="'+klass+' tabular">0123456789 · 111 000 · 888 000</p>')

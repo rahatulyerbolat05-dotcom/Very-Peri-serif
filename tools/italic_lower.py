@@ -2,7 +2,8 @@
 """Italic lowercase pilot: Cyrillic letters assembled from native Instrument Serif Italic parts.
 Everything is cut and joined along the slant axis: ud = x - tan13 * y (the native stems are vertical in ud, so a cut
 along ud keeps a stem whole). Parts are never scaled; they are moved whole (CLAUDE.md, lesson of Regular 1.015).
-Letters built here (docs/italic-rules.md 6.3): ш щ ц н д (native n/u/q/j parts), г (native r), л (native arch + leg).
+Letters built here (docs/italic-rules.md 6.3): ш щ ц н д (native n/u/q/j parts), previous г (native r), л (native arch + leg).
+The final I028 default г is selected in italic_features.py from native dotlessi.
 Writes build/italic-lower/VeryPeriSerifItalicT0-lower.ttf (the caps test font plus these letters).
 """
 import json,math,sys
@@ -542,7 +543,8 @@ def build(ita,reg):
     # (491.0..516.0 against 490.7..516.0); the region keeps clear of the waist diagonal of з below it (its top: 336 at ud 40, 361.5 at ud 70).
     ze_top=poly([(u+S*y,y) for u,y in ((-300,342),(40,342),(70,366),(70,620),(-300,620))])
     out['з']=(OR(SUB(out['з'][0],ze_top),AND(out['э'][0],ze_top)),out['з'][1])
-    # ---- г: native r (stem with entry, arm)
+    # ---- previous г: native r (stem with entry, arm), source retained.
+    # I028's final default is installed from dotlessi by italic_features.py.
     out['г']=(r,368)
     return out
 

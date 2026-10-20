@@ -5,11 +5,12 @@
 
 | Файл | Начертание | Версия |
 |---|---|---|
-| `VeryPeriSerif-Regular.ttf`, `.woff2` | Regular | 1.100 |
-| `VeryPeriSerif-Italic.ttf`, `.woff2` | Italic | 1.100 (рисунок I027) |
+| `VeryPeriSerif-Regular.ttf`, `.woff2` | Regular | 1.101 |
+| `VeryPeriSerif-Italic.ttf`, `.woff2` | Italic | 1.101 (рисунок I028) |
 
 Строчные Italic следуют рукописным русским формам и пластике Instrument Serif Italic; прописные согласованы с Regular.
-Номер внутренней разработки I027 хранится отдельно от общей версии выпуска. Приёмка — `docs/premium-acceptance.md`.
+Основная строчная г в 1.101 — тело сербской формы без макрона; ss04 даёт печатную г, язык sr/mk — форму с макроном.
+Номер внутренней разработки I028 хранится отдельно от общей версии выпуска. Приёмка — `docs/premium-acceptance.md`.
 
 ## Установка
 

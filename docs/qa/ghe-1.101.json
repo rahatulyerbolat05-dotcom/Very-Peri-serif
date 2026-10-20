@@ -1,0 +1,31 @@
+{
+  "version": "1.101",
+  "date": "2026-10-21",
+  "baseline_commit": "fdd1fe585afe4b5d725e8808c36c1ebcc6aa53fd",
+  "styles": {
+    "Regular": {
+      "sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
+      "outline_changes": [
+        "uni0433"
+      ],
+      "advance_or_bearing_changes": [
+        "uni0433"
+      ],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "ghe": {
+    "previous_advance": 375,
+    "new_advance": 288,
+    "native_source": "imacron body: dotlessi at (0,0); no uni0304",
+    "body_and_metrics_test": "PASS in check_family.py",
+    "locl_and_ss04_test": "PASS in check_family.py"
+  }
+}

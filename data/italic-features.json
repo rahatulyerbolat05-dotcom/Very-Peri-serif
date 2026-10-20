@@ -1,6 +1,9 @@
 {
  "note": "tools/italic_features.py",
  "glyphs": {
+  "uni0433": {
+   "source": "native dotlessi, separate Cyrillic mark base"
+  },
   "uni0434.ss02": {
    "source": "native eth, separate Cyrillic mark base"
   },
@@ -54,6 +57,7 @@
   }
  },
  "native_cyrillic_variants": {
+  "uni0433": "dotlessi",
   "uni0434.ss02": "eth",
   "uni0430.ss01": "a.ss01",
   "uni0435.ss01": "e.ss01",
@@ -99,6 +103,10 @@
   ],
   "umacron": [
    "п",
+   true
+  ],
+  "uni0433": [
+   "г",
    true
   ],
   "uni0430.ss01": [

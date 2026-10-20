@@ -61,3 +61,10 @@ At the author’s request, Codex independently implements and checks the premium
 - Complete alphabet/specimen proofs; Linux Chromium checks of all six font formats.
 - Versioned immutable download archives. Attribution of the Cormorant-derived de retained.
 Native Windows/macOS and commercial application checks are not claimed; see docs/premium-acceptance.md.
+
+21 October 2026 — Family release 1.101 (internal drawing I028).
+At the author's request, the default lowercase italic ghe is the exact native body
+of the Serbian locl form without its macron (dotlessi, including its hints and metrics).
+Serbian/Macedonian locl and the printed ss04 form are retained. Kerning is rebuilt
+for the new width; stress marks and every Cyrillic pair/feature mode are checked.
+Previous drawing sources and release archives are preserved.
