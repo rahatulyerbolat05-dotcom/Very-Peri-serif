@@ -11,7 +11,7 @@ from fontTools.ttLib import TTFont
 config=json.loads(Path('data/params.json').read_text())['regular_release']
 tag=sys.argv[1] if len(sys.argv)>1 else 'T'+config['version'].replace('.','')
 source=Path(config['directory'])/'VeryPeriSerif-Regular.ttf'
-out=Path(config['directory']).parent/'test';out.mkdir(exist_ok=True)
+out=Path('dist/test');out.mkdir(parents=True,exist_ok=True)
 font=TTFont(source);family=f"Very Peri Serif {tag}";ps=f"VeryPeriSerif{tag}-Regular"
 for record in font['name'].names:
     if record.nameID==1:record.string=family

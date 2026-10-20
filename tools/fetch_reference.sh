@@ -7,9 +7,13 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p reference
 if [ -d reference/instrument-serif/.git ]; then
-  git -C reference/instrument-serif pull --ff-only -q
+  git -C reference/instrument-serif fetch -q origin
 else
-  GIT_LFS_SKIP_SMUDGE=1 git clone --depth 1 -q https://github.com/Instrument/instrument-serif reference/instrument-serif
+  GIT_LFS_SKIP_SMUDGE=1 git clone -q https://github.com/Instrument/instrument-serif reference/instrument-serif
 fi
-echo "commit: $(git -C reference/instrument-serif rev-parse --short HEAD)"
+git -C reference/instrument-serif checkout -q --detach 65c0ef225f386a3c7e87570a4aa9cc0262c2fd81
+commit="$(git -C reference/instrument-serif rev-parse --short=7 HEAD)"
+echo "commit: $commit"
+# все измерения сняты с коммита 65c0ef2 (CLAUDE.md, раздел 1); на другом коммите сборка может отличаться
+[ "$commit" = "65c0ef2" ] || echo "ВНИМАНИЕ: ожидался коммит 65c0ef2" >&2
 ls reference/instrument-serif/sources reference/instrument-serif/fonts/ttf

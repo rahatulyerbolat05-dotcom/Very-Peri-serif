@@ -24,7 +24,7 @@ S=math.tan(math.radians(13));Y0=251
 ROUND={0x417:('open',()),0x42D:('open',()),0x4D8:('open',()),0x4E8:('closed',()),
        0x42E:('closed',((89,160,-20,740),(24,228,-20,35),(21,230,690,740))),
        0x424:('closed',((248,319,-20,740),(185,382,-20,35),(185,382,690,740)))}
-REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf');ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
+REG=Path(json.loads(Path('data/params.json').read_text())['regular_release']['directory'])/'VeryPeriSerif-Regular.ttf';ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
 SPACING=json.loads(Path('data/italic-caps-spacing.json').read_text())['glyphs'] if Path('data/italic-caps-spacing.json').exists() else {}
 # descender tails: the Regular drop below the baseline gives way to the tail of the native comma (as the lowercase, italic_lower.make_comma_ext);
 # the flag at the foot of the stem stays as the spur. y of the full-width stroke the bridge starts from: stems 160, the stalk at the end of the Қ leg 40

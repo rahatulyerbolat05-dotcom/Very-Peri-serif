@@ -11,7 +11,7 @@ Cormorant Garamond (OFL 1.1, без зарезервированных имён)
 | Условие OFL | Что значит для проекта | Состояние |
 |---|---|---|
 | 1. Шрифт нельзя продавать сам по себе | Файл шрифта нельзя продавать отдельно; можно продавать вместе с программой, услугой, набором | учесть при продаже |
-| 2. Каждая копия несёт копирайт и лицензию | В пакете OFL.txt с копирайтом Instrument, проекта и Cormorant; Cormorant-OFL.txt и NOTICE | исправлено |
+| 2. Каждая копия несёт копирайт и лицензию | Один `OFL.txt` открывается тремя строками копирайта (Instrument, проект, Cormorant), текст лицензии слово в слово как у Instrument и Cormorant (проверяет `tools/package_release.py`); те же строки в name ID 0 | исправлено |
 | 3. Зарезервированные имена | У Instrument и Cormorant их нет; своё имя Very Peri Serif не содержит «Instrument» | выполнено |
 | 4. Имена авторов оригинала не для рекламы | Упоминание «основан на Instrument Serif» в описании допустимо; «шрифт от Instrument» нельзя | выполнено |
 | 5. Производная только под OFL | Very Peri Serif остаётся под OFL 1.1, другую лицензию поставить нельзя | выполнено |
@@ -34,9 +34,14 @@ Cormorant Garamond (OFL 1.1, без зарезервированных имён)
 - Охрана: произведение с участием ИИ охраняется авторским правом только при творческом вкладе человека. Вклад автора здесь
   записан: задание и инструкция, выбор и отклонение вариантов, правки, собственные чертежи (журнал CLAUDE.md, FONTLOG.txt).
   Для OFL это важно меньше, чем для закрытого шрифта: шрифт и так открыт, но авторство даёт право требовать соблюдения OFL.
-- Прозрачность (ст. 21): пользователь должен знать, что продукт создан с помощью ИИ. Сделано: строка в описании шрифта
-  (name ID 10), FONTLOG.txt, AUTHORS.txt. Точный объём обязанности (машиночитаемая маркировка «синтетического контента»)
-  в публикациях описан по-разному, его стоит сверить с текстом закона.
+- Прозрачность (ст. 21). П. 2: синтетические результаты ИИ распространяются только с машиночитаемой маркировкой и с
+  предупреждением, которое человек замечает без усилий; п. 3: обязанность лежит прежде всего на собственниках и владельцах
+  систем ИИ. Шрифт сделан людьми и ИИ вместе, поэтому сделано с запасом:
+  - машиночитаемо: name ID 10 каждого файла шрифта и `ai-disclosure.json` в архиве (с термином IPTC
+    `compositeWithTrainedAlgorithmicMedia`, словарь, который используют C2PA и фотобанки);
+  - для человека: раздел «Участие ИИ» в README, README.txt архива, FONTLOG.txt, AUTHORS.txt, CONTRIBUTORS.txt.
+  Текст статьи пересказан по публикациям (prg.kz, Kursiv, zakon.kz); официальную редакцию стоит сверить на adilet.zan.kz,
+  у закона есть изменения от 25.08.2026.
 - Изучение других шрифтов только для измерений (пропорции, толщины) не является копированием контуров и в документах
   не перечисляется.
 
@@ -61,16 +66,45 @@ USPTO (tmsearch.uspto.gov), WIPO Global Brand Database, реестр НИИС К
 
 ## 5. Что исправлено в пакете
 
-- `OFL.txt`: шапка с копирайтом Instrument, проекта и Cormorant (раньше только Instrument).
-- `AUTHORS.txt`: настоящий список авторов (раньше шаблон Instrument без строки о кириллице, вопреки пункту 1 CLAUDE.md).
-- `FONTLOG.txt`: что изменено против оригинала, как сделано, участие ИИ, вклад автора.
-- Name ID 9/10: автор кириллицы и пометка об ИИ; у курсива свои копирайт и описание без Cormorant.
-- Источники: `font/legal/`, параметры `regular_release.cyrillic_author`, `regular_release.ai_note` в `data/params.json`.
+- `OFL.txt` в корне: шапка с копирайтом Instrument, проекта и Cormorant (раньше только Instrument), текст OFL 1.1 без
+  изменений. Отдельные `Cormorant-OFL.txt` и `NOTICE` больше не нужны: лицензия та же, копирайт в шапке.
+- `AUTHORS.txt`: настоящий список авторов (раньше шаблон Instrument без строки о кириллице). `CONTRIBUTORS.txt`: все
+  участники Instrument Serif и автор кириллицы; ИИ названы инструментами, а не авторами.
+- `FONTLOG.txt`: что изменено против оригинала, как сделано, участие ИИ, вклад автора, состав файлов.
+- Name ID 0 = строки копирайта из `OFL.txt` (у курсива без Cormorant), 9/10: автор кириллицы и пометка об ИИ.
+- Источники: корень репозитория, параметры `regular_release.copyright`, `copyright_cormorant`, `cyrillic_author`,
+  `ai_note` в `data/params.json`, `font/ai-disclosure.json`.
+
+## 6. Архив выпуска
+
+`dist/VeryPeriSerif-<версия>.zip`, одна папка `VeryPeriSerif-<версия>/`:
+
+```
+README.txt            установка, кратко лицензия и ИИ (англ./рус.)
+OFL.txt AUTHORS.txt CONTRIBUTORS.txt FONTLOG.txt
+ai-disclosure.json    машиночитаемая пометка об ИИ
+SHA256SUMS.txt
+fonts/ttf/  fonts/otf/  fonts/webfonts/ (WOFF2 и very-peri-serif.css)
+specimen/
+```
+
+Отчёты проверки в архив не входят (они в `docs/qa/`): пользователю нужны шрифты и лицензия. Каждая сборка проверяет
+лицензию и имена заново (`docs/qa/package-check.json`).
+
+## 7. Открытая лицензия в праве РК
+
+Отдельной нормы об открытых (публичных) лицензиях в Законе РК «Об авторском праве и смежных правах» поиск не нашёл, как и
+судебной практики по OFL. По устройству OFL — разрешение правообладателей на условиях: кто нарушает условия, теряет
+разрешение (раздел TERMINATION). Для пользователей риска нет: OFL только разрешает. Для автора важно одно: соблюдать её условия по отношению к Instrument и Cormorant, это и
+проверяет сборка.
 
 ## Источники
 
 - SIL OFL 1.1 и OFL FAQ: https://openfontlicense.org, копия FAQ: https://mirror.ircam.fr/pub/CTAN/fonts/cm-unicode/doc/OFL-FAQ.txt
 - Pantone 17-3938 Very Peri: https://www.pantone.com/articles/press-releases/introducing-pantone-17-3938-very-peri-pantone-color-of-the-year-2022
 - Отчёт продавца Zazzle: https://community.zazzle.com/t5/ask-a-question/can-we-use-pantone-color-names-in-titles-and-tags/m-p/52702
-- Закон РК об ИИ: https://kz.kursiv.media/2026-01-18/klsv-zakon-ob-ii-vstupil-v-silu-chto-izmenitsya/ ,
+- Закон РК об ИИ, ст. 21: https://prg.kz/document/?doc_id=34207749 , https://www.zakon.kz/pravo/6498326-v-kazakhstane-vvodyat-nakazanie-za-dipfeyki-i-otsutstvie-markirovki-sdelano-ii.html ,
+  https://kz.kursiv.media/2026-01-18/klsv-zakon-ob-ii-vstupil-v-silu-chto-izmenitsya/ ,
   https://factcheck.kz/articles/zakon-ob-ii-v-kazahstane-chto-on-izmenit , https://prg.kz/document/?doc_id=32246322
+- Термины IPTC Digital Source Type: https://cv.iptc.org/newscodes/digitalsourcetype/
+- Раскладка репозитория шрифта Google Fonts: https://googlefonts.github.io/gf-guide/upstream.html

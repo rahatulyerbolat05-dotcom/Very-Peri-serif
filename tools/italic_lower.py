@@ -21,7 +21,7 @@ from italic_round import round_glyph
 S=math.tan(math.radians(13))
 TAIL_KIND='pen'                                      # descender tail of ц щ ң қ: 'pen' (the exit turns into a downstroke below the line, as written), 'comma' (tail of the native comma under the stroke, which keeps its exit), 'n' (exit stroke of n at descender depth), 'ball', 'wedge', 'reg' (Regular drop), 'j' (native hook), 'q' (native flat foot)
 ITA=Path('reference/instrument-serif/fonts/ttf/InstrumentSerif-Italic.ttf')
-REG=Path('dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf')
+REG=Path(json.loads(Path('data/params.json').read_text())['regular_release']['directory'])/'VeryPeriSerif-Regular.ttf'
 CAPS=Path('build/italic-caps/VeryPeriSerifItalicT0-caps.ttf')
 
 # measured on the native u/n (tools/italic_rules_measure.py scans, de-slanted ud): stem edges

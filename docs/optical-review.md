@@ -77,6 +77,6 @@ python -I tools/check_draft_font.py
 python -I tools/review_regular.py
 ```
 
-Для повторной проверки нужны зависимости из `font/requirements.txt`.
+Для повторной проверки нужны зависимости из `requirements.txt`.
 Финальные отчёты HarfBuzz/FontBakery/OTS — в `dist/VeryPeriSerifDraft/`.
 Проверка сохранения старых пар входит в функциональные тесты сборки.

@@ -6,3 +6,5 @@ uharfbuzz==0.56.3
 brotli==1.2.0
 opentype-sanitizer==9.2.0
 shapely==2.2.0
+numpy==2.5.3
+glyphsLib==6.16.1

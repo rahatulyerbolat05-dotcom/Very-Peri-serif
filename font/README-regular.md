@@ -59,18 +59,18 @@ Regular 1.015 фиксирует последние формы: компактн
 
 Нужны Git, Python3.12 и полная история этого репозитория. Подготовка
 окружения и точный коммит Instrument Serif — в `font/README.md` репозитория.
-После установки `font/requirements.txt` из корня репозитория:
+После установки `requirements.txt` из корня репозитория:
 
 ```sh
 python -I tools/build_regular_release.py
 ```
 
 Команда заново строит шрифт по текущим исходникам, проверяет финальные
-файлы и формирует `dist/VeryPeriSerif-Regular.zip`. Для дополнительной
+файлы и пишет их в `build/release/`; публикацию в `fonts/` и архив `dist/VeryPeriSerif-<версия>.zip` делает `make release`. Для дополнительной
 проверки FontBakery и Hyperglot:
 
 ```sh
-python -m pip install -r font/requirements-quality.txt
+python -m pip install -r requirements-quality.txt
 python -I tools/build_regular_release.py --quality
 ```
 

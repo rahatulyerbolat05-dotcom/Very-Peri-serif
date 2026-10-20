@@ -1,0 +1,16 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file. See the latter for an explanation.
+# "The ... Project Authors" in OFL.txt and in the font copyright (name ID 0) means the people listed here.
+
+# Instrument Serif: the Latin, every native glyph and the base design
+# https://github.com/Instrument/instrument-serif
+Rodrigo Fuenzalida <fuenzarodrigo@gmail.com>
+Jordan Egstad <jordan.egstad@instrument.com>
+
+# Very Peri Serif: the Cyrillic extension (Russian, Kazakh; Regular and Italic)
+# https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif
+Yerbolat (https://github.com/rahatulyerbolat05-dotcom)
+
+# Modified source: the Cyrillic de of the Regular is a modified outline of Cormorant Garamond
+# https://github.com/CatharsisFonts/Cormorant
+The Cormorant Project Authors

@@ -4,10 +4,10 @@
 прямого начертания. Имя семейства — **Very Peri Serif**, начертание —
 **Regular**, PostScript — `VeryPeriSerif-Regular`, вес400.
 
-- [Устанавливаемый TTF](../dist/VeryPeriSerif/VeryPeriSerif-Regular.ttf)
-- [WOFF2 для сайта](../dist/VeryPeriSerif/VeryPeriSerif-Regular.woff2)
-- [Архив с лицензиями и примерами](../dist/VeryPeriSerif-Regular.zip)
-- [Трёхстраничный PDF: набор, алфавит, альтернативы](../dist/VeryPeriSerif/specimen.pdf)
+- [Устанавливаемый TTF](../fonts/ttf/VeryPeriSerif-Regular.ttf)
+- [WOFF2 для сайта](../fonts/webfonts/VeryPeriSerif-Regular.woff2)
+- [Архив с лицензиями и примерами](../dist/VeryPeriSerif-1.016.zip)
+- [Трёхстраничный PDF: набор, алфавит, альтернативы](../docs/specimen/VeryPeriSerif-Regular-Specimen.pdf)
 - [SVG-пример готового шрифта](img/regular_release_proof.svg)
 - [Установка и функции](../font/README-regular.md)
 - [Сборка из исходников](../font/README.md)
@@ -42,7 +42,7 @@ Draft-файлы сохранены отдельно для истории. Ку
   кроме служебных данных `head`.
 - OpenType Sanitizer: PASS для TTF и WOFF2.
 - FontBakery: нет FAIL/ERROR; точные результаты и оставшиеся
-  предупреждения — в [quality-summary.json](../dist/VeryPeriSerif/quality-summary.json).
+  предупреждения — в [quality-summary.json](../docs/qa/quality-summary.json).
 - Hyperglot base/primary подтверждает русский и казахский. Этот режим
   проверяет базовые языковые алфавиты, а не все вспомогательные символы.
 
@@ -56,8 +56,8 @@ Draft-файлы сохранены отдельно для истории. Ку
 
 Параметры релиза: `data/params.json → regular_release`.
 Единая команда: `python -I tools/build_regular_release.py --quality`;
-для неё нужны зависимости из `font/requirements.txt` и
-`font/requirements-quality.txt`, а также закреплённый Instrument Serif.
+для неё нужны зависимости из `requirements.txt` и
+`requirements-quality.txt`, а также закреплённый Instrument Serif.
 Без `--quality` остаются все основные функциональные, векторные и
 санитарные проверки; FontBakery/Hyperglot явно отмечаются как не запущенные.
 

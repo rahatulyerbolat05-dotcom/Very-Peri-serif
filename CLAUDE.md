@@ -1,4 +1,13 @@
-`[РЕШЕНИЕ · 20.10.2026]` Юридическая проверка (автор: «насчёт юридической стороны»): `docs/legal-review.md`. Пакет: `font/legal/OFL.txt`
+`[РЕШЕНИЕ · 20.10.2026]` Оформление по образцу Instrument (автор: «оформим сборку… как у Instrument… структурировать архив… лицензию
+проверить»): в корне README.md (англ.), README.ru.md, OFL.txt (три строки копирайта = name ID 0, текст OFL 1.1 без изменений),
+AUTHORS.txt, CONTRIBUTORS.txt, FONTLOG.txt, requirements.txt, Makefile (`make` = regular → italic → family → release). Публикация
+`fonts/ttf|otf|webfonts` (OTF из TTF `tools/ttf2otf.py`, Хаусдорф контуров до 0,71), отчёты `docs/qa/`, образец `docs/specimen/`, архив
+`dist/VeryPeriSerif-<версия>.zip` (`tools/package_release.py`: README.txt, лицензия, ai-disclosure.json, fonts/, specimen/; проверка
+лицензии и имён `docs/qa/package-check.json`). Рабочая сборка `build/release` (`regular_release.directory`); `dist/VeryPeriSerif/` и
+прежние архивы убраны. ИИ помечен машиночитаемо (name ID 10, `font/ai-disclosure.json`, IPTC) и для человека (README). Прежний README
+— `docs/history.md`, шапка README `tools/readme_header.py`.
+
+`[РЕШЕНИЕ · 20.10.2026]` Юридическая проверка (автор: «насчёт юридической стороны»): `docs/legal-review.md`. Пакет: `OFL.txt`
 (копирайт Instrument, проекта, Cormorant), `AUTHORS.txt` (был шаблон Instrument), `FONTLOG.txt` (изменения, участие ИИ по ст. 21 закона РК
 об ИИ, вклад автора); name ID 9/10 из `regular_release.cyrillic_author`/`ai_note`; у курсива копирайт и описание без Cormorant. Автор
 предложил убрать Cormorant из документов: нельзя, пока д Regular — изменённый контур Cormorant (`tools/cormorant_de_proportions.py`,

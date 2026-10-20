@@ -17,8 +17,9 @@ What was changed against the original
 - Added OpenType: calt, ss01-ss09, locl (Serbian, Macedonian), Cyrillic kerning, a STAT table.
 - Renamed: the family is Very Peri Serif; the original name Instrument Serif is not used as a font name.
 - Not changed: the native Latin outlines, spacing and kerning of Instrument Serif.
-- Regular: the Cyrillic de is a modified outline of Cormorant Garamond (SIL OFL 1.1, Cormorant-OFL.txt),
-  taken at the author's explicit request. No other outline of any third-party font is included.
+- Regular: the Cyrillic de is a modified outline of Cormorant Garamond (SIL OFL 1.1, the same licence; its
+  copyright line opens OFL.txt), taken at the author's explicit request. No other outline of any third-party font
+  is included.
 
 How it was made (transparency, Law of the Republic of Kazakhstan "On Artificial Intelligence", art. 21)
 --------------------------------------------------------------------------------------------------------
@@ -28,6 +29,14 @@ The human author directed the work and made every design decision: the brief and
 (docs/instruction.md), the choice among variants, rejections and corrections (the decision log in CLAUDE.md
 records each one with the author's words), and own drawings (the vertical Ц and the tail motifs, sent as SVG and
 embedded without changes). Apart from the Cormorant de stated above, no outline of any other typeface is included.
+
+Files
+-----
+fonts/ttf       TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office)
+fonts/otf       OpenType CFF, the same design with cubic outlines
+fonts/webfonts  WOFF2 and an @font-face stylesheet for websites
+OFL.txt, AUTHORS.txt, CONTRIBUTORS.txt, FONTLOG.txt  licence, authors and history
+ai-disclosure.json  machine-readable statement of the AI assistance (in the release archive)
 
 Change log
 ----------

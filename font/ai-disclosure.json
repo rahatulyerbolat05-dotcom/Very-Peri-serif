@@ -1,0 +1,23 @@
+{
+  "font": "Very Peri Serif",
+  "statement": "The Cyrillic extension of this font (Russian and Kazakh letters, their alternates, spacing and kerning) was made with the assistance of AI systems under the direction of a human author. The Latin is Instrument Serif, drawn by people, and is unchanged.",
+  "statement_ru": "Кириллическое расширение шрифта (русские и казахские буквы, их альтернативы, поля и кернинг) сделано с помощью систем искусственного интеллекта под руководством автора-человека. Латиница — Instrument Serif, нарисована людьми, не изменена.",
+  "legal_basis": "Law of the Republic of Kazakhstan No. 230-VIII of 17 November 2025 \"On Artificial Intelligence\", article 21 (transparency); in force from 18 January 2026",
+  "digital_source_type": "http://cv.iptc.org/newscodes/digitalsourcetype/compositeWithTrainedAlgorithmicMedia",
+  "ai_systems": [
+    {"name": "Claude", "provider": "Anthropic"},
+    {"name": "Codex", "provider": "OpenAI"}
+  ],
+  "role_of_ai": "Writing the build tools (tools/) and assembling Cyrillic outlines from parts of the Instrument Serif glyphs by measured rules; spacing and kerning by measurement.",
+  "human_author": "Yerbolat (https://github.com/rahatulyerbolat05-dotcom)",
+  "human_contribution": [
+    "the brief and the design instruction (docs/instruction.md)",
+    "the choice among variants, every rejection and correction, recorded with the author's words in CLAUDE.md",
+    "own drawings sent as SVG and embedded without changes: the vertical capital Tse with its tail and the drop-shaped tails"
+  ],
+  "unchanged_human_work": "Instrument Serif Latin by Rodrigo Fuenzalida with direction from Instrument (https://github.com/Instrument/instrument-serif)",
+  "where_marked": [
+    "font metadata: name ID 10 (description) of every font file",
+    "FONTLOG.txt, AUTHORS.txt, CONTRIBUTORS.txt, README"
+  ]
+}
