@@ -1,8 +1,8 @@
 {
   "version": "1.016",
-  "italic_version": "0.250",
+  "italic_version": "0.260",
   "archive": "dist/VeryPeriSerif-1.016.zip",
-  "archive_sha256": "d59d698c58d8d67db4f0bcf5b14e19a6d92010fdbb34e569d3887d440067c993",
+  "archive_sha256": "f49f9ea1875faab755b72174eba81857a7d3ae76e974a4c0d972c87684d68994",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",

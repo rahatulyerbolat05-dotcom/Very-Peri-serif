@@ -424,7 +424,14 @@ def build(ita,reg):
     # smoothed by a least-squares cubic B-spline with a curvature penalty (28 control points, lambda 0.3, within 6 of the points), drawn by
     # the pen of the native o; 56 points (native b 58)
     VE_SKELETON=[(213,290),(240,268),(262,240),(276,210),(282,185),(286,160),(286,135),(283,110),(275,85),(261,60),(244,35),(212,12),(170,2),(125,10),(85,35),(62,70),(50,105),(44,140),(39,185),(37,230),(38,285),(45,335),(58,385),(83,435),(105,460),(135,490),(185,506),(228,492),(250,465),(260,435),(264,405),(262,375),(255,345),(244,320),(226,300),(200,280),(170,265),(130,253),(90,244),(52,236)]
-    out['в']=(PEN.stroke_samples(PEN.smooth_skeleton(VE_SKELETON,28,0.3),taper=(30,0.5),tol=2.0),420)
+    # I026: the pen kept the outline inside 507/-2 (the skeleton top and bottom are the centre of a hairline); a round letter overshoots to
+    # 516/-9 like the native o. The centre line is stretched in y (linear, two rounds) until the outline meets both overshoots.
+    lo,hi=0.,506.;ve=None
+    for _ in range(3):
+        skel=[(u,lo+(y-2.)*(hi-lo)/504.) for u,y in VE_SKELETON]
+        ve=PEN.stroke_samples(PEN.smooth_skeleton(skel,28,0.3),taper=(30,0.5),tol=2.0);b=ve.bounds
+        lo+=-9-b[1];hi+=516-b[3]
+    out['в']=(ve,420)
     ч_=sheared('ч')
     ч_stem=transformed(n_stem1(),dx=14.1-84.25)                 # left stem: n stem centred on the Regular stem (ud -19.9..48.1)
     ч_right=transformed(u_stem2(),dx=222.1-U_L)                   # right stem: clean u stem with its exit
@@ -510,6 +517,11 @@ def build(ita,reg):
     out['ә']=(sheared('ә','closed'),int(round(reg['hmtx'][rcm[ord('ә')]][0]*1.002)))
     for ch,kind in (('з','open'),('э','open'),('б','closed')):
         out[ch]=(sheared(ch,kind,((-999,999,430,800),) if ch=='б' else ()),int(round(reg['hmtx'][rcm[ord(ch)]][0]*1.002)))
+    # I026: the upper stroke of з ended in the thin hook of the Regular з, while э, c and 3 of the italic end in a drop (and з was the
+    # lightest letter, 0.259): the drop of э and the start of its arc replace the hook. Seam at ud 70, where the two arcs agree within 0.3
+    # (491.0..516.0 against 490.7..516.0); the region keeps clear of the waist diagonal of з below it (its top: 336 at ud 40, 361.5 at ud 70).
+    ze_top=poly([(u+S*y,y) for u,y in ((-300,342),(40,342),(70,366),(70,620),(-300,620))])
+    out['з']=(OR(SUB(out['з'][0],ze_top),AND(out['э'][0],ze_top)),out['з'][1])
     # ---- г: native r (stem with entry, arm)
     out['г']=(r,368)
     return out

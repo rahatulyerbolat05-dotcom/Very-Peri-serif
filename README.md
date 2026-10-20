@@ -21,7 +21,7 @@ original, it is made for large sizes.
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-The Regular is a release (1.016). The Italic (0.250) is a test design: its letters are complete, and their forms
+The Regular is a release (1.016). The Italic (0.260) is a test design: its letters are complete, and their forms
 are still being refined.
 
 ## Language support

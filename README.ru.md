@@ -21,7 +21,7 @@ Very Peri Serif сохраняет латиницу Instrument Serif без из
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 и [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) для сайтов |
 | [`docs/specimen`](docs/specimen) | образец шрифта в PDF |
 
-Regular — выпуск 1.016. Italic 0.250 — тестовый: все буквы на месте, формы ещё уточняются.
+Regular — выпуск 1.016. Italic 0.260 — тестовый: все буквы на месте, формы ещё уточняются.
 
 ## Языки
 
