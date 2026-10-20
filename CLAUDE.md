@@ -1,3 +1,6 @@
+`[РЕШЕНИЕ · 20.10.2026]` Автор подтвердил имя латиницей «Yerbolat» (AUTHORS.txt, CONTRIBUTORS.txt, name ID 9, ai-disclosure.json) и
+велел оставить д Regular (изменённый контур Cormorant): копирайт и лицензия Cormorant остаются в OFL.txt и name ID 0 Regular, у курсива их нет.
+
 `[РЕШЕНИЕ · 20.10.2026]` Оформление по образцу Instrument (автор: «оформим сборку… как у Instrument… структурировать архив… лицензию
 проверить»): в корне README.md (англ.), README.ru.md, OFL.txt (три строки копирайта = name ID 0, текст OFL 1.1 без изменений),
 AUTHORS.txt, CONTRIBUTORS.txt, FONTLOG.txt, requirements.txt, Makefile (`make` = regular → italic → family → release). Публикация
