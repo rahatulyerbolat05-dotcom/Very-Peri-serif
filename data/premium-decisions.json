@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.107",
+  "release": "1.108",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -75,29 +75,40 @@
     {
       "status": "author_request",
       "item": "Author confirmed that Regular я right-foot edge was still uneven in 1.106. Replace the whole left edge from (346,-9) to (280,95) with one convex cubic. Replace the single-node regression with a complete edge-profile convexity test that fails on 1.106."
+    },
+    {
+      "status": "author_request",
+      "item": "Inventory all glyphs for the same waves and construction seams as ya. After the author noted defects in nearly all initial crops, review complete transitions, remove micro-steps, restore true straight edges, and store 39 Regular / 49 Italic (including two final sheared prime sources) exact reviewed quadratic sources after provisional polish and before kerning."
     }
   ],
   "approved_fonts": {
-    "Regular": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
-    "Italic": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545"
+    "Regular": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
+    "Italic": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Complete left edge of the right foot of Regular lowercase я",
+    "scope": "Full glyph inventory, contextual/stylistic/local forms and signs; reviewed 1.108 curve sources",
     "viewed": [
-      "final exported Regular ya: 1.106/1.107 full glyph and word comparison",
-      "final exported right-foot enlargement: full convex edge without the old shoulder"
+      "154 original suspect fragments and proposed transitions; final before/after contact sheets",
+      "final exported Regular and Italic featured curve panels",
+      "final enlarged manual joins: ж/м/қ, italic ь/ш/д/к and double dagger",
+      "final exported prime outlines after affine transformation and grid alignment",
+      "final Russian and Kazakh words, both styles; punctuation and currency signs",
+      "final family alphabet and feature specimens"
     ],
     "decisions": [
-      "Accept the complete convex replacement: no visible wave where the straight stem enters the lower foot.",
-      "Prior 1.106 fails the full-edge convexity regression; 1.107 passes.",
-      "Only uni044F Regular differs in outline from 1.106; all advances and bearings, all other outlines and hint programs are preserved. docs/qa/ya-regular-foot-1.107.json."
+      "Accept 39 Regular and 49 Italic exact quadratic outline sources, including both finished italic primes.",
+      "Whole transitions replace the Regular м step/plateau and т wave; italic counter caps use shared implicit tangents.",
+      "Preserve approved я, all advances and side bearings, native outlines and hint programs.",
+      "Reject newly introduced hard corners independently of the small-kink detector; validate limiting tangents for coincident controls."
     ],
     "functional_assertions": 3780,
     "limitations": [
-      "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
-    ]
+      "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed.",
+      "Diagnostics nominate review sites; no universal numerical proof of artistic finish is claimed."
+    ],
+    "curve_assertions": 1380
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -127,6 +138,10 @@
     "1.106": {
       "Regular": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
       "Italic": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5"
+    },
+    "1.107": {
+      "Regular": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
+      "Italic": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545"
     }
   },
   "previous_optical_acceptance": {
@@ -271,6 +286,24 @@
         "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
       ],
       "author_followup": "Author rejected the visible right-foot edge after release: collinearity at one node did not remove the wave across the full transition."
+    },
+    "1.107": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Complete left edge of the right foot of Regular lowercase я",
+      "viewed": [
+        "final exported Regular ya: 1.106/1.107 full glyph and word comparison",
+        "final exported right-foot enlargement: full convex edge without the old shoulder"
+      ],
+      "decisions": [
+        "Accept the complete convex replacement: no visible wave where the straight stem enters the lower foot.",
+        "Prior 1.106 fails the full-edge convexity regression; 1.107 passes.",
+        "Only uni044F Regular differs in outline from 1.106; all advances and bearings, all other outlines and hint programs are preserved. docs/qa/ya-regular-foot-1.107.json."
+      ],
+      "functional_assertions": 3780,
+      "limitations": [
+        "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
+      ]
     }
   }
 }

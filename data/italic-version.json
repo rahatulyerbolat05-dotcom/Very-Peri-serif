@@ -1,5 +1,5 @@
 {
- "version": "0.31",
+ "version": "0.32",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -31,6 +31,7 @@
   "0.28": "Author: default lowercase ghe is the native dotlessi body of Serbian locl imacron, without the macron; preserve locl and printed ss04. Family release 1.101.",
   "0.29": "Family 1.102: Kazakh ғ derives from the selected default г; retain crossbar height/thickness, fit overhangs, share mark anchors and advance, rebuild kerning. Restore the native -9 overshoot of the italic д bowl instead of clipping it at the baseline.",
   "0.30": "Family 1.103: strengthen the bottom arc of italic я from 9 to 15 units by deepening only its native-g bowl clipping ellipse; preserve body, stem, leg and accepted advance 413.",
-  "0.31": "Family 1.104: remove the visible donor seams of italic я. Replace the top g-bowl/q-stem notch and lower link/stem triangular spur with tangent-matched quadratic splines; preserve bowl, counter, advance 413 and side bearings. Family 1.105, 1.106 and 1.107 reuse the unchanged I031 drawing while Regular я is refined."
+  "0.31": "Family 1.104: remove the visible donor seams of italic я. Replace the top g-bowl/q-stem notch and lower link/stem triangular spur with tangent-matched quadratic splines; preserve bowl, counter, advance 413 and side bearings. Family 1.105, 1.106 and 1.107 reuse the unchanged I031 drawing while Regular я is refined.",
+  "0.32": "Family 1.108: reviewed local curve sources for constructed capitals, lowercase, alternates and signs after the complete 491-glyph Italic inventory. Remove accidental waves, short steps and tangent breaks; preserve inherited native outlines and all advances/bearings. Sources: data/curve-finish/Italic."
  }
 }

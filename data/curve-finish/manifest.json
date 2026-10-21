@@ -1,0 +1,6626 @@
+{
+  "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
+  "release": "1.108",
+  "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
+  "glyphs": {
+    "Regular": {
+      "uni0416": {
+        "path": "data/curve-finish/Regular/uni0416.glif",
+        "sha256": "cc3a8f4908174f9a2fe35ef8cc0ea5e92a13d82f66a421b2982aa0982ce4fbcb",
+        "advance_and_lsb": [
+          723,
+          22
+        ],
+        "contours": 1,
+        "before_bounds": [
+          22,
+          0,
+          743,
+          720
+        ],
+        "bounds": [
+          22,
+          0,
+          743,
+          720
+        ],
+        "outline_deviation": 1.118,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                252.0,
+                413.0
+              ],
+              "degrees": 6.51,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.558,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                513.0,
+                413.0
+              ],
+              "degrees": 6.51,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.558,
+            "radius": 36
+          }
+        ]
+      },
+      "uni042F": {
+        "path": "data/curve-finish/Regular/uni042F.glif",
+        "sha256": "0dafe4c23abd972dcda4203e2ac67073ad30c0fa1b6e3d98b9874ed0cebb8676",
+        "advance_and_lsb": [
+          507,
+          -11
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -11,
+          0,
+          479,
+          720
+        ],
+        "bounds": [
+          -11,
+          0,
+          479,
+          720
+        ],
+        "outline_deviation": 1.596,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                19.0,
+                26.0
+              ],
+              "degrees": 3.72,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.265,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                -7.0,
+                18.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                -10.0,
+                10.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.234,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                -9.0,
+                5.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0436": {
+        "path": "data/curve-finish/Regular/uni0436.glif",
+        "sha256": "74c714181d188aa44cdb11eb390f7cbe4d46c1f1e606d34cad1566ea3ffa8243",
+        "advance_and_lsb": [
+          536,
+          -13
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -13,
+          0,
+          543,
+          510
+        ],
+        "bounds": [
+          -13,
+          0,
+          543,
+          510
+        ],
+        "outline_deviation": 3.165,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                222.0,
+                298.0
+              ],
+              "degrees": 7.92,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.075,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                482.0,
+                72.0
+              ],
+              "degrees": 3.03,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.737,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                308.0,
+                298.0
+              ],
+              "degrees": 7.15,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.424,
+            "radius": 22
+          },
+          {
+            "target": {
+              "xy": [
+                70.5,
+                445.25
+              ],
+              "contour": 0,
+              "turn": -11.99,
+              "length": 15.43,
+              "neighbour_turns": [
+                6.91,
+                61.39
+              ],
+              "segment_ids": [
+                18
+              ],
+              "kind": "full wave transition"
+            },
+            "fit_error": 3.369,
+            "radius": 80
+          },
+          {
+            "target": {
+              "xy": [
+                456.0,
+                440.5
+              ],
+              "contour": 0,
+              "turn": -18.43,
+              "length": 13.66,
+              "neighbour_turns": [
+                63.43,
+                9.42
+              ],
+              "segment_ids": [
+                73
+              ],
+              "kind": "full wave transition"
+            },
+            "fit_error": 1.64,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                122.0,
+                374.0
+              ],
+              "degrees": 4.02,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.49
+          },
+          {
+            "target": {
+              "xy": [
+                490.0,
+                51.0
+              ],
+              "degrees": 2.6,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              212,
+              310
+            ],
+            "control_after": [
+              215,
+              307
+            ]
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              320,
+              314
+            ],
+            "control_after": [
+              318,
+              310
+            ]
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              314,
+              306
+            ],
+            "control_after": [
+              313,
+              304
+            ]
+          }
+        ]
+      },
+      "uni043B": {
+        "path": "data/curve-finish/Regular/uni043B.glif",
+        "sha256": "781f7dead1944376a6eecb3d91bf81334f410fd9c9a2ed91d167bce7ff95f518",
+        "advance_and_lsb": [
+          425,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          0,
+          422,
+          518
+        ],
+        "bounds": [
+          -20,
+          0,
+          422,
+          518
+        ],
+        "outline_deviation": 0.808,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                44.0,
+                60.0
+              ],
+              "degrees": 6.41,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.74,
+            "radius": 18
+          }
+        ]
+      },
+      "uni043C": {
+        "path": "data/curve-finish/Regular/uni043C.glif",
+        "sha256": "046d7c1c43955f5401b63baea49b117dc447ae9828ed15fa62ff8b0c0ad3a47d",
+        "advance_and_lsb": [
+          510,
+          -5
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -5,
+          0,
+          507,
+          510
+        ],
+        "bounds": [
+          -5,
+          0,
+          507,
+          510
+        ],
+        "outline_deviation": 1.804,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                59.0,
+                60.0
+              ],
+              "length": 2.0,
+              "contour": 0,
+              "kind": "micro"
+            },
+            "fit_error": 1.414,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                440.0,
+                60.0
+              ],
+              "length": 2.0,
+              "contour": 0,
+              "kind": "micro"
+            },
+            "fit_error": 1.672,
+            "radius": 48
+          },
+          {
+            "target": {
+              "xy": [
+                91.0,
+                48.0
+              ],
+              "degrees": 10.11,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.346,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                118.0,
+                26.0
+              ],
+              "degrees": 3.17,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.468,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                75.0,
+                465.0
+              ],
+              "degrees": 11.44,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.221,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                100.0,
+                34.0
+              ],
+              "degrees": 11.53,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.28,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                438.0,
+                108.0
+              ],
+              "degrees": 5.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.19,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                439.0,
+                90.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.028,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                104.0,
+                30.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                93.0,
+                47.0
+              ],
+              "degrees": 14.04,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                111.0,
+                28.0
+              ],
+              "degrees": 36.87,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.65,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                104.0,
+                30.0
+              ],
+              "degrees": 15.07,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              93,
+              42
+            ],
+            "control_after": [
+              93,
+              44
+            ]
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              92.0,
+              84.0
+            ],
+            "end": [
+              143.0,
+              23.0
+            ],
+            "controls": [
+              [
+                91.0,
+                60.0
+              ],
+              [
+                93.0,
+                39.0
+              ],
+              [
+                103.0,
+                30.0
+              ],
+              [
+                130.0,
+                25.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni044A": {
+        "path": "data/curve-finish/Regular/uni044A.glif",
+        "sha256": "67df2a86cac0562b3f3749f79cce75383fcc495f3bd80a3a36db91da80a6600a",
+        "advance_and_lsb": [
+          385,
+          -9
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -9,
+          -9,
+          385,
+          510
+        ],
+        "bounds": [
+          -9,
+          -9,
+          385,
+          510
+        ],
+        "outline_deviation": 1.093,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                28.0,
+                427.0
+              ],
+              "degrees": 3.73,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.843,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                19.0,
+                414.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.414,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                32.0,
+                446.0
+              ],
+              "degrees": 4.56,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni044B": {
+        "path": "data/curve-finish/Regular/uni044B.glif",
+        "sha256": "5f19bc192f40b0c25ed3dc654ececc0c1fa087650db28e722d62fc990569ce75",
+        "advance_and_lsb": [
+          552,
+          14
+        ],
+        "contours": 3,
+        "before_bounds": [
+          14,
+          -9,
+          528,
+          513
+        ],
+        "bounds": [
+          14,
+          -9,
+          528,
+          513
+        ],
+        "outline_deviation": 0.828,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                363.0,
+                482.0
+              ],
+              "degrees": 7.13,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 0.431,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                390.0,
+                476.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.0,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni044E": {
+        "path": "data/curve-finish/Regular/uni044E.glif",
+        "sha256": "a8203487cf718435d8ae87a784a9c418b1e456bbe3733f8add3a7ec87d7621f6",
+        "advance_and_lsb": [
+          582,
+          15
+        ],
+        "contours": 2,
+        "before_bounds": [
+          15,
+          -9,
+          543,
+          516
+        ],
+        "bounds": [
+          15,
+          -9,
+          543,
+          516
+        ],
+        "outline_deviation": 0.876,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                194.0,
+                26.75
+              ],
+              "contour": 0,
+              "turn": -9.46,
+              "length": 6.03,
+              "neighbour_turns": [
+                87.27,
+                9.46
+              ],
+              "segment_ids": [
+                39
+              ],
+              "kind": "waves"
+            },
+            "fit_error": 0.54,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                172.0,
+                29.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni049A": {
+        "path": "data/curve-finish/Regular/uni049A.glif",
+        "sha256": "5513ca6a5ad91b5563b57b29efddf0c836270f08bd0cf5f13516cd0000286668",
+        "advance_and_lsb": [
+          487,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -127,
+          497,
+          720
+        ],
+        "bounds": [
+          19,
+          -127,
+          497,
+          720
+        ],
+        "outline_deviation": 1.112,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                442.0,
+                76.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.615,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                463.0,
+                73.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.65,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                356.0,
+                55.0
+              ],
+              "degrees": 3.58,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.826,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                430.0,
+                84.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                355.0,
+                19.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.478,
+            "radius": 40
+          },
+          {
+            "target": {
+              "xy": [
+                356.0,
+                65.0
+              ],
+              "degrees": 6.49,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.072,
+            "radius": 30
+          },
+          {
+            "target": {
+              "xy": [
+                446.0,
+                76.0
+              ],
+              "degrees": 20.22,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni04A2": {
+        "path": "data/curve-finish/Regular/uni04A2.glif",
+        "sha256": "b41a65b5abc8182d40084f5747b6ba87ed11f0f84dd19520207248958518ed78",
+        "advance_and_lsb": [
+          548,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -132,
+          527,
+          720
+        ],
+        "bounds": [
+          19,
+          -132,
+          527,
+          720
+        ],
+        "outline_deviation": 1.29,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                502.0,
+                76.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.909,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                481.0,
+                79.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.671,
+            "radius": 22
+          },
+          {
+            "target": {
+              "xy": [
+                462.0,
+                102.0
+              ],
+              "degrees": 5.91,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.36,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                466.0,
+                91.0
+              ],
+              "degrees": 13.67,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni04BA": {
+        "path": "data/curve-finish/Regular/uni04BA.glif",
+        "sha256": "74e7381fc74436c4c70a69bfeb04a394fa622d482331f6639f274d100c97ed69",
+        "advance_and_lsb": [
+          485,
+          15
+        ],
+        "contours": 1,
+        "before_bounds": [
+          15,
+          0,
+          470,
+          720
+        ],
+        "bounds": [
+          15,
+          0,
+          470,
+          720
+        ],
+        "outline_deviation": 1.118,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                156.0,
+                367.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.839,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                161.0,
+                385.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni049B": {
+        "path": "data/curve-finish/Regular/uni049B.glif",
+        "sha256": "261b012b3dc6a29ffb45b7a7318bd13762870088e97f8c36b0c60b13cc1e4a7f",
+        "advance_and_lsb": [
+          441,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -125,
+          445,
+          513
+        ],
+        "bounds": [
+          19,
+          -125,
+          445,
+          513
+        ],
+        "outline_deviation": 1.454,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                383.0,
+                75.0
+              ],
+              "degrees": 4.86,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.462,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                404.0,
+                72.0
+              ],
+              "degrees": 5.91,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.692,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                386.0,
+                75.0
+              ],
+              "degrees": 12.09,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                370.0,
+                83.0
+              ],
+              "degrees": 9.46,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              359.0,
+              100.0
+            ],
+            "end": [
+              386.0,
+              75.0
+            ],
+            "controls": [
+              [
+                365.0,
+                88.0
+              ],
+              [
+                377.0,
+                78.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni04B1": {
+        "path": "data/curve-finish/Regular/uni04B1.glif",
+        "sha256": "bc5e861aa0407e07a31a55bf55b82f6b494578f8a416bd2003622da8955c4dca",
+        "advance_and_lsb": [
+          383,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          -205,
+          403,
+          510
+        ],
+        "bounds": [
+          -20,
+          -205,
+          403,
+          510
+        ],
+        "outline_deviation": 1.489,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                122.0,
+                443.0
+              ],
+              "degrees": 3.48,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.358,
+            "radius": 26
+          }
+        ]
+      },
+      "uni04AF": {
+        "path": "data/curve-finish/Regular/uni04AF.glif",
+        "sha256": "d514e64dce1ede2cfe470b5b27b6563758883b5d90a28379876ac7b386f09dbf",
+        "advance_and_lsb": [
+          383,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          -205,
+          403,
+          510
+        ],
+        "bounds": [
+          -20,
+          -205,
+          403,
+          510
+        ],
+        "outline_deviation": 1.489,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                122.0,
+                443.0
+              ],
+              "degrees": 3.48,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.358,
+            "radius": 26
+          }
+        ]
+      },
+      "uni2032": {
+        "path": "data/curve-finish/Regular/uni2032.glif",
+        "sha256": "de371f30896868d765bea1bcca405b27b47c123a41c32cea9e067a937324f4c7",
+        "advance_and_lsb": [
+          145,
+          44
+        ],
+        "contours": 1,
+        "before_bounds": [
+          44,
+          482,
+          107,
+          725
+        ],
+        "bounds": [
+          44,
+          482,
+          107,
+          725
+        ],
+        "outline_deviation": 1.003,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                105.0,
+                710.0
+              ],
+              "degrees": 6.18,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.292,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                47.0,
+                485.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                101.0,
+                684.0
+              ],
+              "degrees": 9.9,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.945,
+            "radius": 22
+          }
+        ]
+      },
+      "uni2033": {
+        "path": "data/curve-finish/Regular/uni2033.glif",
+        "sha256": "ad10cbc5d8dbdf0b60f49d1e55f65f5730d74221cd27023673e2ab79b467aacc",
+        "advance_and_lsb": [
+          250,
+          44
+        ],
+        "contours": 2,
+        "before_bounds": [
+          44,
+          482,
+          212,
+          725
+        ],
+        "bounds": [
+          44,
+          482,
+          212,
+          725
+        ],
+        "outline_deviation": 1.024,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                105.0,
+                710.0
+              ],
+              "degrees": 6.18,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.912,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                210.0,
+                710.0
+              ],
+              "degrees": 6.18,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 1.292,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                47.0,
+                485.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                152.0,
+                485.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                206.0,
+                684.0
+              ],
+              "degrees": 9.9,
+              "contour": 1,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.945,
+            "radius": 22
+          }
+        ]
+      },
+      "uni2248": {
+        "path": "data/curve-finish/Regular/uni2248.glif",
+        "sha256": "9c6b0def831f3668644203a104573aee854cdd4d3ce7d21b5271e9bfad3221ba",
+        "advance_and_lsb": [
+          531,
+          60
+        ],
+        "contours": 2,
+        "before_bounds": [
+          60,
+          234,
+          470,
+          481
+        ],
+        "bounds": [
+          60,
+          234,
+          470,
+          481
+        ],
+        "outline_deviation": 1.491,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                466.0,
+                348.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.819,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                64.0,
+                367.0
+              ],
+              "degrees": 11.31,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 0.819,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                64.0,
+                237.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                466.0,
+                478.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                468.0,
+                335.0
+              ],
+              "degrees": 3.45,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                62.0,
+                380.0
+              ],
+              "degrees": 3.19,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                450.0,
+                348.0
+              ],
+              "degrees": 18.43,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                80.0,
+                367.0
+              ],
+              "degrees": 18.43,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                444.0,
+                339.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.65,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                86.0,
+                376.0
+              ],
+              "degrees": 8.13,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                80.0,
+                367.0
+              ],
+              "degrees": 8.13,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                86.0,
+                376.0
+              ],
+              "degrees": 3.37,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.236,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni043A.short": {
+        "path": "data/curve-finish/Regular/uni043A.short.glif",
+        "sha256": "c5dd42a8afcbd2e21f0974c8233ec5510c366c50818a62179f9c75b4b2dd8d4d",
+        "advance_and_lsb": [
+          440,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          0,
+          455,
+          513
+        ],
+        "bounds": [
+          19,
+          0,
+          455,
+          513
+        ],
+        "outline_deviation": 1.075,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                27.0,
+                440.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.525,
+            "radius": 18
+          }
+        ]
+      },
+      "uni043A.flag": {
+        "path": "data/curve-finish/Regular/uni043A.flag.glif",
+        "sha256": "596efcee7fe37ba798c1826a79c98e087fdf437ab1d8fe180fe9d66852089bf5",
+        "advance_and_lsb": [
+          447,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -5,
+          446,
+          510
+        ],
+        "bounds": [
+          19,
+          -5,
+          446,
+          510
+        ],
+        "outline_deviation": 2.008,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                438.0,
+                61.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.526,
+            "radius": 18
+          }
+        ]
+      },
+      "uni043A.short.flag": {
+        "path": "data/curve-finish/Regular/uni043A.short.flag.glif",
+        "sha256": "d611321179c1df03361fe9772ab4061b5d6264b5ec28161b18b8481b0b3363a1",
+        "advance_and_lsb": [
+          438,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -5,
+          440,
+          513
+        ],
+        "bounds": [
+          19,
+          -5,
+          440,
+          513
+        ],
+        "outline_deviation": 1.075,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                27.0,
+                440.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.525,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0442.ss08": {
+        "path": "data/curve-finish/Regular/uni0442.ss08.glif",
+        "sha256": "bf613ec3d289e8a8484a388e2e29d91250f7372f67aa45204795b6fc8a535536",
+        "advance_and_lsb": [
+          296,
+          -18
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -18,
+          0,
+          300,
+          510
+        ],
+        "bounds": [
+          -18,
+          0,
+          300,
+          510
+        ],
+        "outline_deviation": 1.455,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                19.0,
+                427.0
+              ],
+              "degrees": 4.09,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.769,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                263.0,
+                427.0
+              ],
+              "degrees": 4.09,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.769,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                10.0,
+                414.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.414,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                272.0,
+                414.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.414,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                22.0,
+                445.0
+              ],
+              "degrees": 7.58,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.243,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                260.0,
+                445.0
+              ],
+              "degrees": 7.58,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.243,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                21.0,
+                434.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.507,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                262.0,
+                434.0
+              ],
+              "degrees": 14.04,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0434.ss07": {
+        "path": "data/curve-finish/Regular/uni0434.ss07.glif",
+        "sha256": "f81e2ace72ac4c4565e9220c244d80d67165a2aebc033b3e1d05eb8724f44aca",
+        "advance_and_lsb": [
+          356,
+          -20
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -20,
+          -90,
+          348,
+          510
+        ],
+        "bounds": [
+          -20,
+          -90,
+          348,
+          510
+        ],
+        "outline_deviation": 0.863,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                10.0,
+                -80.0
+              ],
+              "degrees": 3.48,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.51,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                12.0,
+                -62.0
+              ],
+              "degrees": 8.26,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.413,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                329.0,
+                -90.0
+              ],
+              "degrees": 5.71,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.34,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                10.0,
+                -79.0
+              ],
+              "degrees": 4.64,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.574,
+            "radius": 22
+          },
+          {
+            "target": {
+              "xy": [
+                14.0,
+                -50.0
+              ],
+              "degrees": 6.07,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.956,
+            "radius": 22
+          }
+        ]
+      },
+      "uni04A3.tail_old": {
+        "path": "data/curve-finish/Regular/uni04A3.tail_old.glif",
+        "sha256": "522ba62895c0ce9e41da14bbff5bbbbf2c390b0ad5a3454e75c1ed235cd2c8fd",
+        "advance_and_lsb": [
+          513,
+          13
+        ],
+        "contours": 1,
+        "before_bounds": [
+          13,
+          -199,
+          533,
+          513
+        ],
+        "bounds": [
+          13,
+          -199,
+          533,
+          513
+        ],
+        "outline_deviation": 0.833,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                499.0,
+                -139.0
+              ],
+              "degrees": 4.75,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.623,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0449.tail_old": {
+        "path": "data/curve-finish/Regular/uni0449.tail_old.glif",
+        "sha256": "5ea0c334385606130054cd9f5b9f721896a85571a4c2f3cadb238bdd260e45db",
+        "advance_and_lsb": [
+          676,
+          5
+        ],
+        "contours": 1,
+        "before_bounds": [
+          5,
+          -199,
+          696,
+          510
+        ],
+        "bounds": [
+          5,
+          -199,
+          696,
+          510
+        ],
+        "outline_deviation": 2.169,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                662.0,
+                -139.0
+              ],
+              "degrees": 4.75,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.623,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                463.75,
+                47.5
+              ],
+              "contour": 0,
+              "turn": -7.67,
+              "length": 21.58,
+              "neighbour_turns": [
+                136.33,
+                3.61
+              ],
+              "segment_ids": [
+                52
+              ],
+              "kind": "full wave transition"
+            },
+            "fit_error": 1.695,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                444.0,
+                30.0
+              ],
+              "degrees": 4.76,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                420.0,
+                9.0
+              ],
+              "degrees": 3.86,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni049B.alternate": {
+        "path": "data/curve-finish/Regular/uni049B.alternate.glif",
+        "sha256": "fbbc9c323e219d61386606a1518bbcff95f9f69b21d9f72b00b5c07b6c4d5c68",
+        "advance_and_lsb": [
+          436,
+          13
+        ],
+        "contours": 1,
+        "before_bounds": [
+          13,
+          -125,
+          440,
+          510
+        ],
+        "bounds": [
+          13,
+          -125,
+          440,
+          510
+        ],
+        "outline_deviation": 1.257,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                398.0,
+                72.0
+              ],
+              "degrees": 5.51,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.797,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                378.0,
+                75.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.755,
+            "radius": 22
+          },
+          {
+            "target": {
+              "xy": [
+                353.0,
+                100.0
+              ],
+              "degrees": 3.59,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                397.0,
+                73.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni049B.context": {
+        "path": "data/curve-finish/Regular/uni049B.context.glif",
+        "sha256": "4b8846897e7e20f127d39ec6e91e66dd02fde016136b3490fa81213a23f44bf7",
+        "advance_and_lsb": [
+          440,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -125,
+          417,
+          510
+        ],
+        "bounds": [
+          19,
+          -125,
+          417,
+          510
+        ],
+        "outline_deviation": 0.855,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                402.0,
+                73.0
+              ],
+              "degrees": 5.6,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.701,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                382.0,
+                75.0
+              ],
+              "degrees": 8.75,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni049B.tail_old": {
+        "path": "data/curve-finish/Regular/uni049B.tail_old.glif",
+        "sha256": "9f10be5299ec7b130142907b22740340394dd3a5f9b0b5af3c3b606191a0eb0d",
+        "advance_and_lsb": [
+          478,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -199,
+          498,
+          513
+        ],
+        "bounds": [
+          19,
+          -199,
+          498,
+          513
+        ],
+        "outline_deviation": 0.833,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                464.0,
+                -139.0
+              ],
+              "degrees": 4.75,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.623,
+            "radius": 18
+          }
+        ]
+      },
+      "uni049B.context.tail_old": {
+        "path": "data/curve-finish/Regular/uni049B.context.tail_old.glif",
+        "sha256": "a41ce97877d33a1a4d182371ad660481827bee5f2e4012fce94966e92c9efaf9",
+        "advance_and_lsb": [
+          477,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -199,
+          497,
+          510
+        ],
+        "bounds": [
+          19,
+          -199,
+          497,
+          510
+        ],
+        "outline_deviation": 0.984,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                463.0,
+                -138.0
+              ],
+              "degrees": 8.66,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.518,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                468.0,
+                -155.0
+              ],
+              "degrees": 12.89,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.365
+          }
+        ]
+      },
+      "uni0429.tail_old": {
+        "path": "data/curve-finish/Regular/uni0429.tail_old.glif",
+        "sha256": "2e846619938b9d867818666dd896cd7abbc8aa5d11451aa01e42a40f0478899c",
+        "advance_and_lsb": [
+          735,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -201,
+          755,
+          720
+        ],
+        "bounds": [
+          19,
+          -201,
+          755,
+          720
+        ],
+        "outline_deviation": 0.984,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                615.0,
+                99.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.948,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                721.0,
+                -139.0
+              ],
+              "degrees": 8.66,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.518,
+            "radius": 18
+          },
+          {
+            "repair": "restore exact original horizontal/vertical stroke edges after local joins",
+            "aligned_points": 1
+          },
+          {
+            "target": {
+              "xy": [
+                726.0,
+                -156.0
+              ],
+              "degrees": 12.89,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.365
+          }
+        ]
+      },
+      "uni049A.tail_old": {
+        "path": "data/curve-finish/Regular/uni049A.tail_old.glif",
+        "sha256": "5f1c1964efdb03e67f0cd73eae78e943a0fc64a66c4aa3f9f4767c7bedbf85cc",
+        "advance_and_lsb": [
+          538,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -201,
+          558,
+          720
+        ],
+        "bounds": [
+          19,
+          -201,
+          558,
+          720
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                446.0,
+                78.0
+              ],
+              "degrees": 3.75,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.767,
+            "radius": 18
+          }
+        ]
+      },
+      "uni04A2.tail_old": {
+        "path": "data/curve-finish/Regular/uni04A2.tail_old.glif",
+        "sha256": "6577fcf62bd6397d4a4230fb202d28d5daff8af05918147b4642980097e9c444",
+        "advance_and_lsb": [
+          575,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -201,
+          595,
+          720
+        ],
+        "bounds": [
+          19,
+          -201,
+          595,
+          720
+        ],
+        "outline_deviation": 0.847,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                560.0,
+                -140.0
+              ],
+              "degrees": 5.03,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.62,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0442": {
+        "path": "data/curve-finish/Regular/uni0442.glif",
+        "sha256": "cd8177ad42c06c7f5804d364dde0ddb16213dcaa3b3c70a51ab387ec752e8751",
+        "advance_and_lsb": [
+          730,
+          11
+        ],
+        "contours": 1,
+        "before_bounds": [
+          11,
+          -9,
+          703,
+          516
+        ],
+        "bounds": [
+          11,
+          -9,
+          703,
+          516
+        ],
+        "outline_deviation": 4.338,
+        "repairs": [
+          {
+            "kind": "full convex right-foot edge",
+            "source_points": [
+              [
+                621,
+                -9
+              ],
+              [
+                584,
+                -9
+              ],
+              [
+                554,
+                37.56
+              ],
+              [
+                554,
+                95
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0419": {
+        "path": "data/curve-finish/Regular/uni0419.glif",
+        "sha256": "210ca8c152aee0be9dbd7cd14a98b86aec744487a68c6190ca3cc4ddedc5da84",
+        "advance_and_lsb": [
+          546,
+          19
+        ],
+        "contours": 2,
+        "before_bounds": [
+          19,
+          0,
+          527,
+          940
+        ],
+        "bounds": [
+          19,
+          0,
+          527,
+          940
+        ],
+        "outline_deviation": 0.767,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                133.0,
+                938.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.803,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                413.0,
+                938.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.803,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni042D": {
+        "path": "data/curve-finish/Regular/uni042D.glif",
+        "sha256": "3337abe2c18f6a815b913700531d77ae5cb2f91158c1fa58b029c4d905c3c16d",
+        "advance_and_lsb": [
+          452,
+          -1
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -1,
+          -9,
+          390,
+          730
+        ],
+        "bounds": [
+          -1,
+          -9,
+          390,
+          730
+        ],
+        "outline_deviation": 0.54,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                19.0,
+                155.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                22.0,
+                594.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni0439": {
+        "path": "data/curve-finish/Regular/uni0439.glif",
+        "sha256": "51f1b031d311b3cc8b4f2a43feeaf9697562a5be2644b8cbca0835c13fbf7212",
+        "advance_and_lsb": [
+          454,
+          11
+        ],
+        "contours": 2,
+        "before_bounds": [
+          11,
+          -9,
+          440,
+          730
+        ],
+        "bounds": [
+          11,
+          -9,
+          440,
+          730
+        ],
+        "outline_deviation": 0.767,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                76.0,
+                728.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.803,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                356.0,
+                728.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.803,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni049B.alternate.tail_old": {
+        "path": "data/curve-finish/Regular/uni049B.alternate.tail_old.glif",
+        "sha256": "382402ef0a741c7b2b2818db76f37da4006382c04ba403954e68771ce6d90ee8",
+        "advance_and_lsb": [
+          473,
+          13
+        ],
+        "contours": 1,
+        "before_bounds": [
+          13,
+          -199,
+          493,
+          510
+        ],
+        "bounds": [
+          13,
+          -199,
+          493,
+          510
+        ],
+        "outline_deviation": 0.794,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                209.0,
+                3.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni041B": {
+        "path": "data/curve-finish/Regular/uni041B.glif",
+        "sha256": "7b6a28b2a55944f64a08f60a6b83c4d8305806279aea2e19a612d33e62f60fc4",
+        "advance_and_lsb": [
+          415,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          0,
+          408,
+          720
+        ],
+        "bounds": [
+          -20,
+          0,
+          408,
+          720
+        ],
+        "outline_deviation": 0.802,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                265.0,
+                654.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.295,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                253.0,
+                659.0
+              ],
+              "degrees": 6.56,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.344,
+            "radius": 8
+          }
+        ]
+      },
+      "uni041A.flag": {
+        "path": "data/curve-finish/Regular/uni041A.flag.glif",
+        "sha256": "734aa0dd8f47ebf54ecd67f2afafcb2569516a54e9ffc5a244f04917448dc18a",
+        "advance_and_lsb": [
+          496,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -5,
+          502,
+          720
+        ],
+        "bounds": [
+          19,
+          -5,
+          502,
+          720
+        ],
+        "outline_deviation": 0.83,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                500.0,
+                61.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.134,
+            "radius": 10
+          },
+          {
+            "target": {
+              "xy": [
+                494.0,
+                67.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0449": {
+        "path": "data/curve-finish/Regular/uni0449.glif",
+        "sha256": "1b03b3d3271baa230e2d659fc1fdce339d1cb6d4464a3491accd2ae250c4c84e",
+        "advance_and_lsb": [
+          639,
+          5
+        ],
+        "contours": 1,
+        "before_bounds": [
+          5,
+          -129,
+          619,
+          510
+        ],
+        "bounds": [
+          5,
+          -129,
+          619,
+          510
+        ],
+        "outline_deviation": 2.169,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                463.75,
+                47.5
+              ],
+              "contour": 0,
+              "turn": -7.67,
+              "length": 21.58,
+              "neighbour_turns": [
+                136.33,
+                3.61
+              ],
+              "segment_ids": [
+                21
+              ],
+              "kind": "full wave transition"
+            },
+            "fit_error": 1.695,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                444.0,
+                30.0
+              ],
+              "degrees": 4.76,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                420.0,
+                9.0
+              ],
+              "degrees": 3.86,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      }
+    },
+    "Italic": {
+      "uni0413": {
+        "path": "data/curve-finish/Italic/uni0413.glif",
+        "sha256": "883dc84b8f00720b95e6ede5bd0116ae0b7ce849fc327006cccc5edfce4dbd2a",
+        "advance_and_lsb": [
+          480,
+          -33
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -33,
+          0,
+          508,
+          720
+        ],
+        "bounds": [
+          -33,
+          0,
+          508,
+          720
+        ],
+        "outline_deviation": 1.191,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                124.0,
+                67.0
+              ],
+              "degrees": 5.43,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.3,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                125.0,
+                38.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni0414": {
+        "path": "data/curve-finish/Italic/uni0414.glif",
+        "sha256": "f30e37051232dee02e06bc29297f683aaa6c9d13dd3594d80d96024970df59eb",
+        "advance_and_lsb": [
+          645,
+          -20
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -20,
+          -110,
+          721,
+          720
+        ],
+        "bounds": [
+          -20,
+          -110,
+          721,
+          720
+        ],
+        "outline_deviation": 1.516,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                -18.0,
+                -94.0
+              ],
+              "degrees": 4.48,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.633,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                407.0,
+                30.0
+              ],
+              "degrees": 8.13,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 1.071,
+            "radius": 26
+          },
+          {
+            "repair": "restore exact original horizontal/vertical stroke edges after local joins",
+            "aligned_points": 1
+          }
+        ]
+      },
+      "uni0416": {
+        "path": "data/curve-finish/Italic/uni0416.glif",
+        "sha256": "e378935d38aefce9fb1b622bb083308dcda398511794c33d1724b3262d10c494",
+        "advance_and_lsb": [
+          824,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          0,
+          844,
+          720
+        ],
+        "bounds": [
+          -20,
+          0,
+          844,
+          720
+        ],
+        "outline_deviation": 1.636,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                -6.0,
+                23.0
+              ],
+              "degrees": 3.9,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.591,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                303.0,
+                413.0
+              ],
+              "degrees": 10.64,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.361,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                403.0,
+                697.0
+              ],
+              "degrees": 7.95,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.469,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                596.0,
+                697.0
+              ],
+              "degrees": 5.91,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.822,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                693.0,
+                23.0
+              ],
+              "degrees": 5.39,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.793,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                440.0,
+                23.0
+              ],
+              "degrees": 6.51,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.491,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                247.0,
+                23.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.393,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                702.0,
+                12.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                -19.0,
+                12.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.0,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                314.0,
+                431.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.0,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                610.0,
+                715.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                422.0,
+                26.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.411,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                421.0,
+                694.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.411,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                670.0,
+                27.0
+              ],
+              "degrees": 8.97,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.329,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                568.0,
+                693.0
+              ],
+              "degrees": 7.77,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.222,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                348.0,
+                720.0
+              ],
+              "degrees": 4.4,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.315,
+            "radius": 10
+          },
+          {
+            "target": {
+              "xy": [
+                440.0,
+                23.0
+              ],
+              "degrees": 5.91,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                449.0,
+                12.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                293.0,
+                398.0
+              ],
+              "degrees": 3.42,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.696
+          },
+          {
+            "target": {
+              "xy": [
+                395.0,
+                708.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                577.0,
+                694.0
+              ],
+              "degrees": 14.04,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                653.0,
+                38.0
+              ],
+              "degrees": 13.67,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0418": {
+        "path": "data/curve-finish/Italic/uni0418.glif",
+        "sha256": "58800a1ccbd1c5ae621fa13150a7754477173731fb994aa01b722a7bdb807026",
+        "advance_and_lsb": [
+          564,
+          -33
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -33,
+          0,
+          641,
+          720
+        ],
+        "bounds": [
+          -33,
+          0,
+          641,
+          720
+        ],
+        "outline_deviation": 1.511,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                124.0,
+                67.0
+              ],
+              "degrees": 6.17,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.3,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                121.0,
+                48.0
+              ],
+              "degrees": 10.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.772,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                457.0,
+                531.0
+              ],
+              "degrees": 5.45,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.19,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                453.0,
+                539.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                127.0,
+                80.0
+              ],
+              "degrees": 10.49,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.455,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                124.0,
+                69.0
+              ],
+              "degrees": 4.64,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.208,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                127.0,
+                80.0
+              ],
+              "degrees": 10.49,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.335,
+            "radius": 40
+          },
+          {
+            "target": {
+              "xy": [
+                123.0,
+                43.0
+              ],
+              "degrees": 4.57,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "replace short line/curve boundary handles with one longer tangent",
+            "xy": [
+              453,
+              513
+            ]
+          }
+        ]
+      },
+      "uni0419": {
+        "path": "data/curve-finish/Italic/uni0419.glif",
+        "sha256": "7554adb5ce21e4994c21354d7bef4c61283954e555a1c52a726067d4a91a7b6e",
+        "advance_and_lsb": [
+          564,
+          -33
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -33,
+          0,
+          641,
+          940
+        ],
+        "bounds": [
+          -33,
+          0,
+          641,
+          940
+        ],
+        "outline_deviation": 1.511,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                124.0,
+                67.0
+              ],
+              "degrees": 6.17,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.3,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                121.0,
+                48.0
+              ],
+              "degrees": 10.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.772,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                457.0,
+                531.0
+              ],
+              "degrees": 5.45,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.19,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                453.0,
+                539.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                127.0,
+                80.0
+              ],
+              "degrees": 10.49,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.455,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                124.0,
+                69.0
+              ],
+              "degrees": 4.64,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.208,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                127.0,
+                80.0
+              ],
+              "degrees": 10.49,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.335,
+            "radius": 40
+          },
+          {
+            "target": {
+              "xy": [
+                123.0,
+                43.0
+              ],
+              "degrees": 4.57,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "replace short line/curve boundary handles with one longer tangent",
+            "xy": [
+              453,
+              513
+            ]
+          }
+        ]
+      },
+      "uni041B": {
+        "path": "data/curve-finish/Italic/uni041B.glif",
+        "sha256": "832f684c7f50f65021d30c7c9026749f29349a83d102a7e7742611c3ef30a218",
+        "advance_and_lsb": [
+          495,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          0,
+          502,
+          720
+        ],
+        "bounds": [
+          -20,
+          0,
+          502,
+          720
+        ],
+        "outline_deviation": 1.0,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                64.0,
+                60.0
+              ],
+              "degrees": 6.04,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.718,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                55.0,
+                42.0
+              ],
+              "degrees": 4.86,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.15,
+            "radius": 10
+          },
+          {
+            "target": {
+              "xy": [
+                388.0,
+                688.0
+              ],
+              "degrees": 3.65,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.744
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              390,
+              692
+            ],
+            "control_after": [
+              391,
+              693
+            ]
+          }
+        ]
+      },
+      "uni041F": {
+        "path": "data/curve-finish/Italic/uni041F.glif",
+        "sha256": "8c23b535193bc1c57f770ba9b6055e2ce4e01d70528d7b5d7f4c22fbdc30aeb1",
+        "advance_and_lsb": [
+          564,
+          -33
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -33,
+          0,
+          641,
+          720
+        ],
+        "bounds": [
+          -33,
+          0,
+          641,
+          720
+        ],
+        "outline_deviation": 1.191,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                124.0,
+                67.0
+              ],
+              "degrees": 5.46,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.3,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                125.0,
+                38.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni0424": {
+        "path": "data/curve-finish/Italic/uni0424.glif",
+        "sha256": "de8377991d236fe9cc5bf29054c9c0f95b3833931d535f12336f0f81f7e15689",
+        "advance_and_lsb": [
+          634,
+          55
+        ],
+        "contours": 3,
+        "before_bounds": [
+          55,
+          0,
+          605,
+          720
+        ],
+        "bounds": [
+          55,
+          0,
+          605,
+          720
+        ],
+        "outline_deviation": 0.713,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                363.0,
+                654.0
+              ],
+              "degrees": 5.87,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.444,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0426": {
+        "path": "data/curve-finish/Italic/uni0426.glif",
+        "sha256": "217f50c4023064bbd68d738a5892e88f45cb0594c857105a72068eaf01e845b4",
+        "advance_and_lsb": [
+          564,
+          -31
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -31,
+          -150,
+          639,
+          720
+        ],
+        "bounds": [
+          -31,
+          -150,
+          639,
+          720
+        ],
+        "outline_deviation": 1.55,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                639.0,
+                710.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.121,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0428": {
+        "path": "data/curve-finish/Italic/uni0428.glif",
+        "sha256": "510b3f4812a492530a287576905657843e24aabd78395c0dd04d629fe92165c8",
+        "advance_and_lsb": [
+          723,
+          -33
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -33,
+          0,
+          800,
+          720
+        ],
+        "bounds": [
+          -33,
+          0,
+          800,
+          720
+        ],
+        "outline_deviation": 1.305,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                480.0,
+                30.0
+              ],
+              "degrees": 7.59,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.301,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                501.0,
+                43.0
+              ],
+              "degrees": 9.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.359,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                497.0,
+                37.0
+              ],
+              "degrees": 19.33,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                505.0,
+                54.0
+              ],
+              "degrees": 5.91,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                497.0,
+                37.0
+              ],
+              "degrees": 4.86,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.236,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0429": {
+        "path": "data/curve-finish/Italic/uni0429.glif",
+        "sha256": "04d39c9edcea1c8ed43de2c3b6a63487c78a65335f07ac195bc94ad598f99d1a",
+        "advance_and_lsb": [
+          722,
+          -32
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -32,
+          -150,
+          797,
+          720
+        ],
+        "bounds": [
+          -32,
+          -150,
+          797,
+          720
+        ],
+        "outline_deviation": 1.55,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                797.0,
+                710.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.121,
+            "radius": 18
+          }
+        ]
+      },
+      "uni042D": {
+        "path": "data/curve-finish/Italic/uni042D.glif",
+        "sha256": "9d640a0cb70d979df847dd045a872d28212a9cc5072b08e51f64d5b0c3340f14",
+        "advance_and_lsb": [
+          500,
+          8
+        ],
+        "contours": 1,
+        "before_bounds": [
+          8,
+          -9,
+          460,
+          730
+        ],
+        "bounds": [
+          8,
+          -9,
+          460,
+          730
+        ],
+        "outline_deviation": 0.83,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                359.0,
+                388.0
+              ],
+              "degrees": 4.76,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.688,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                122.0,
+                671.0
+              ],
+              "degrees": 4.09,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.417,
+            "radius": 18
+          },
+          {
+            "repair": "restore exact original horizontal/vertical stroke edges after local joins",
+            "aligned_points": 1
+          }
+        ]
+      },
+      "uni042E": {
+        "path": "data/curve-finish/Italic/uni042E.glif",
+        "sha256": "8e1adfba4a239c936558c9bbd86da16df6fa66b33985f0fba36c7b013df613ba",
+        "advance_and_lsb": [
+          731,
+          -32
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -32,
+          -9,
+          689,
+          730
+        ],
+        "bounds": [
+          -32,
+          -9,
+          689,
+          730
+        ],
+        "outline_deviation": 1.15,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                330.0,
+                697.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.395,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                174.0,
+                23.0
+              ],
+              "degrees": 5.29,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.499,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                156.0,
+                26.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.334,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                312.0,
+                694.0
+              ],
+              "degrees": 5.6,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.27,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                343.0,
+                708.0
+              ],
+              "degrees": 4.4,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.125,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                138.0,
+                29.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.236,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                184.0,
+                12.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                336.0,
+                700.0
+              ],
+              "degrees": 12.53,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni042F": {
+        "path": "data/curve-finish/Italic/uni042F.glif",
+        "sha256": "d73eece8590aa2d6de84e08c76d9d74234cea4a268ba831851696b3c56883761",
+        "advance_and_lsb": [
+          519,
+          -60
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -60,
+          0,
+          595,
+          720
+        ],
+        "bounds": [
+          -60,
+          0,
+          595,
+          720
+        ],
+        "outline_deviation": 1.008,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                -25.0,
+                26.0
+              ],
+              "degrees": 3.49,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.099,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                -52.0,
+                19.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                -58.0,
+                10.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.371,
+            "radius": 8
+          },
+          {
+            "target": {
+              "xy": [
+                -57.0,
+                3.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0492": {
+        "path": "data/curve-finish/Italic/uni0492.glif",
+        "sha256": "0ec8c7afab96dcc3062e3d92a59db6b37ab5c6a4a67d37180dce00cb21193c21",
+        "advance_and_lsb": [
+          388,
+          -35
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -35,
+          0,
+          506,
+          720
+        ],
+        "bounds": [
+          -35,
+          0,
+          506,
+          720
+        ],
+        "outline_deviation": 1.191,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                122.0,
+                67.0
+              ],
+              "degrees": 5.47,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.3,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                123.0,
+                38.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni049A": {
+        "path": "data/curve-finish/Italic/uni049A.glif",
+        "sha256": "000b3896e37035c3fcc49b6064c7f798acf53226ed7720ef77a9f24d7dced55d",
+        "advance_and_lsb": [
+          487,
+          -38
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -38,
+          -150,
+          606,
+          720
+        ],
+        "bounds": [
+          -38,
+          -150,
+          606,
+          720
+        ],
+        "outline_deviation": 1.105,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                206.0,
+                378.0
+              ],
+              "degrees": 4.21,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.838,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                194.0,
+                372.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni04A2": {
+        "path": "data/curve-finish/Italic/uni04A2.glif",
+        "sha256": "928b7d8b17ee8deaa2747e2127a21dbcb89384763a4dfbfe44790778fa2ed3a1",
+        "advance_and_lsb": [
+          548,
+          -38
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -38,
+          -150,
+          633,
+          720
+        ],
+        "bounds": [
+          -38,
+          -150,
+          633,
+          720
+        ],
+        "outline_deviation": 1.55,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                181.0,
+                344.0
+              ],
+              "degrees": 4.68,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.613,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                397.0,
+                358.0
+              ],
+              "degrees": 4.4,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.556,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                633.0,
+                710.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.121,
+            "radius": 18
+          }
+        ]
+      },
+      "uni04B0": {
+        "path": "data/curve-finish/Italic/uni04B0.glif",
+        "sha256": "95da05b657a4025c6fe3751a05a994495b081467d456120429e7e3df592e6dba",
+        "advance_and_lsb": [
+          477,
+          54
+        ],
+        "contours": 1,
+        "before_bounds": [
+          54,
+          0,
+          603,
+          720
+        ],
+        "bounds": [
+          54,
+          0,
+          603,
+          720
+        ],
+        "outline_deviation": 1.163,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                218.0,
+                653.0
+              ],
+              "degrees": 5.12,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.823,
+            "radius": 18
+          }
+        ]
+      },
+      "uni04AE": {
+        "path": "data/curve-finish/Italic/uni04AE.glif",
+        "sha256": "1483dea945671a8e24a76af1e8073218eaa2c6a33e90ecf67d8714be92751216",
+        "advance_and_lsb": [
+          477,
+          54
+        ],
+        "contours": 1,
+        "before_bounds": [
+          54,
+          0,
+          603,
+          720
+        ],
+        "bounds": [
+          54,
+          0,
+          603,
+          720
+        ],
+        "outline_deviation": 1.163,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                218.0,
+                653.0
+              ],
+              "degrees": 5.12,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.823,
+            "radius": 18
+          }
+        ]
+      },
+      "uni04BA": {
+        "path": "data/curve-finish/Italic/uni04BA.glif",
+        "sha256": "b7a07336fbf014fb0bda9790627ef6e8e364e0d3c9b7762a98af4c16d7ee6d4e",
+        "advance_and_lsb": [
+          485,
+          -43
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -43,
+          0,
+          441,
+          720
+        ],
+        "bounds": [
+          -43,
+          0,
+          441,
+          720
+        ],
+        "outline_deviation": 1.31,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                361.0,
+                67.0
+              ],
+              "degrees": 4.11,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.923,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                183.0,
+                367.0
+              ],
+              "degrees": 10.87,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.858,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                113.0,
+                66.0
+              ],
+              "degrees": 5.34,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.917,
+            "radius": 18
+          }
+        ]
+      },
+      "uni043D": {
+        "path": "data/curve-finish/Italic/uni043D.glif",
+        "sha256": "0409b7334249bd079a0397b47e15c834f7d2c5402c730b8195b2e783838fe7aa",
+        "advance_and_lsb": [
+          478,
+          9
+        ],
+        "contours": 1,
+        "before_bounds": [
+          9,
+          -9,
+          468,
+          516
+        ],
+        "bounds": [
+          9,
+          -9,
+          468,
+          516
+        ],
+        "outline_deviation": 0.767,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                427.0,
+                480.0
+              ],
+              "degrees": 3.35,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          }
+        ]
+      },
+      "uni043A": {
+        "path": "data/curve-finish/Italic/uni043A.glif",
+        "sha256": "6497d10de40f460b771ace5ac0af6f71c05a211088343d065f19010f2aaf2694",
+        "advance_and_lsb": [
+          488,
+          8
+        ],
+        "contours": 2,
+        "before_bounds": [
+          8,
+          -9,
+          462,
+          516
+        ],
+        "bounds": [
+          8,
+          -9,
+          462,
+          516
+        ],
+        "outline_deviation": 0.965,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                94.0,
+                0.0
+              ],
+              "degrees": 10.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.827,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                185.0,
+                345.0
+              ],
+              "degrees": 4.06,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.881,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                186.0,
+                324.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "merge short stem-boundary controls into one tangent",
+            "xy": [
+              189,
+              363
+            ]
+          }
+        ]
+      },
+      "uni0436": {
+        "path": "data/curve-finish/Italic/uni0436.glif",
+        "sha256": "66b7566585f999794a9251169c2d42033c7484c9bd9721589b97918ccbfc07b9",
+        "advance_and_lsb": [
+          702,
+          9
+        ],
+        "contours": 1,
+        "before_bounds": [
+          9,
+          -9,
+          700,
+          516
+        ],
+        "bounds": [
+          9,
+          -9,
+          700,
+          516
+        ],
+        "outline_deviation": 1.0,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                357.0,
+                387.0
+              ],
+              "degrees": 9.86,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.1,
+            "radius": 26
+          }
+        ]
+      },
+      "uni044C": {
+        "path": "data/curve-finish/Italic/uni044C.glif",
+        "sha256": "01d54779b4746d7584e354455a51ef1e36883b6bc9ed265b9996a1ee9d0ee19e",
+        "advance_and_lsb": [
+          364,
+          10
+        ],
+        "contours": 2,
+        "before_bounds": [
+          10,
+          -9,
+          352,
+          516
+        ],
+        "bounds": [
+          10,
+          -9,
+          352,
+          516
+        ],
+        "outline_deviation": 0.937,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                206.0,
+                430.0
+              ],
+              "degrees": 3.07,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.576,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                165.0,
+                251.0
+              ],
+              "degrees": 6.04,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 0.495,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                175.0,
+                259.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                177.0,
+                304.0
+              ],
+              "degrees": 4.23,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.277,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                187.0,
+                289.0
+              ],
+              "degrees": 3.37,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                180.0,
+                293.0
+              ],
+              "degrees": 18.43,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "reviewed join handle",
+            "control_before": [
+              181,
+              292
+            ],
+            "control_after": [
+              181,
+              291
+            ]
+          },
+          {
+            "repair": "replace short explicit node with shared implicit tangent",
+            "xy": [
+              180,
+              293
+            ]
+          }
+        ]
+      },
+      "uni044A": {
+        "path": "data/curve-finish/Italic/uni044A.glif",
+        "sha256": "6ca919eaf0579040a1110dc496acf74f6a56da7ab6cd222f493743dccad604e4",
+        "advance_and_lsb": [
+          343,
+          12
+        ],
+        "contours": 2,
+        "before_bounds": [
+          12,
+          -9,
+          331,
+          510
+        ],
+        "bounds": [
+          12,
+          -9,
+          331,
+          510
+        ],
+        "outline_deviation": 1.33,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                41.0,
+                510.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.385,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                29.0,
+                500.0
+              ],
+              "degrees": 4.78,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 1.006,
+            "radius": 22
+          }
+        ]
+      },
+      "uni044B": {
+        "path": "data/curve-finish/Italic/uni044B.glif",
+        "sha256": "cb5049c0eed63554f0c12682cb4ae62c56665ee5f5cf20f91b7a7bb154cb20a1",
+        "advance_and_lsb": [
+          593,
+          10
+        ],
+        "contours": 3,
+        "before_bounds": [
+          10,
+          -9,
+          583,
+          516
+        ],
+        "bounds": [
+          10,
+          -9,
+          583,
+          516
+        ],
+        "outline_deviation": 1.491,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                206.0,
+                430.0
+              ],
+              "degrees": 3.07,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.576,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                542.0,
+                480.0
+              ],
+              "degrees": 3.35,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                145.0,
+                161.0
+              ],
+              "degrees": 3.53,
+              "contour": 2,
+              "kind": "kinks"
+            },
+            "fit_error": 0.643,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                177.0,
+                304.0
+              ],
+              "degrees": 4.23,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.277,
+            "radius": 12
+          },
+          {
+            "target": {
+              "xy": [
+                187.0,
+                289.0
+              ],
+              "degrees": 3.37,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                180.0,
+                293.0
+              ],
+              "degrees": 18.43,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                187.0,
+                289.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.65,
+            "tangent_after": 0.483
+          }
+        ]
+      },
+      "uni0447": {
+        "path": "data/curve-finish/Italic/uni0447.glif",
+        "sha256": "70ded8ab5b7d01497b02ce808f478a8c3e692cc23e287f33d37bdb7bb62eed0e",
+        "advance_and_lsb": [
+          483,
+          -16
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -16,
+          -9,
+          473,
+          516
+        ],
+        "bounds": [
+          -16,
+          -9,
+          473,
+          516
+        ],
+        "outline_deviation": 0.902,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                432.0,
+                480.0
+              ],
+              "degrees": 3.35,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                88.0,
+                300.0
+              ],
+              "degrees": 4.94,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.407,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                88.0,
+                282.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          }
+        ]
+      },
+      "uni043C": {
+        "path": "data/curve-finish/Italic/uni043C.glif",
+        "sha256": "a81b550bd7c193f7d1d70031c5928d5ac0383631d04d3f6f5bfbf8be817b3a7c",
+        "advance_and_lsb": [
+          523,
+          -6
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -6,
+          -9,
+          511,
+          510
+        ],
+        "bounds": [
+          -6,
+          -9,
+          511,
+          510
+        ],
+        "outline_deviation": 2.74,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                417.0,
+                508.0
+              ],
+              "length": 2.24,
+              "contour": 0,
+              "kind": "micro"
+            },
+            "fit_error": 2.0,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                380.0,
+                482.0
+              ],
+              "length": 2.3,
+              "contour": 0,
+              "kind": "micro"
+            },
+            "fit_error": 1.649,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                369.0,
+                455.0
+              ],
+              "degrees": 4.8,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.543,
+            "radius": 48
+          }
+        ]
+      },
+      "uni049B": {
+        "path": "data/curve-finish/Italic/uni049B.glif",
+        "sha256": "0ecb4df7c96184c19285015dd8976ac65a21c9e62390e047b667b84ad1104d6a",
+        "advance_and_lsb": [
+          475,
+          6
+        ],
+        "contours": 2,
+        "before_bounds": [
+          6,
+          -150,
+          460,
+          516
+        ],
+        "bounds": [
+          6,
+          -150,
+          460,
+          516
+        ],
+        "outline_deviation": 0.965,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                92.0,
+                0.0
+              ],
+              "degrees": 10.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.827,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                183.0,
+                345.0
+              ],
+              "degrees": 4.06,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.881,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                184.0,
+                324.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "merge short stem-boundary controls into one tangent",
+            "xy": [
+              187,
+              363
+            ]
+          }
+        ]
+      },
+      "uni04A3": {
+        "path": "data/curve-finish/Italic/uni04A3.glif",
+        "sha256": "33f2259093423c1a158b89577ecfed9794aa79f4000eb3d15e72d2279b6cbf91",
+        "advance_and_lsb": [
+          459,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          -150,
+          444,
+          516
+        ],
+        "bounds": [
+          19,
+          -150,
+          444,
+          516
+        ],
+        "outline_deviation": 0.767,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                437.0,
+                480.0
+              ],
+              "degrees": 3.35,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          }
+        ]
+      },
+      "uni04AF": {
+        "path": "data/curve-finish/Italic/uni04AF.glif",
+        "sha256": "539cd6c41e27021ca53e118b66198e2b3f5a116b1cebf5b0d572709ab6a0ecfe",
+        "advance_and_lsb": [
+          475,
+          21
+        ],
+        "contours": 1,
+        "before_bounds": [
+          21,
+          -205,
+          455,
+          516
+        ],
+        "bounds": [
+          21,
+          -205,
+          455,
+          516
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                356.0,
+                79.0
+              ],
+              "degrees": 5.26,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.452,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                322.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              312.0,
+              210.0
+            ],
+            "end": [
+              321.0,
+              201.0
+            ],
+            "controls": [
+              [
+                315.0,
+                216.0
+              ],
+              [
+                324.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni04B1": {
+        "path": "data/curve-finish/Italic/uni04B1.glif",
+        "sha256": "86f58af69b4939d8b4a709d9b1fd5c120a323e771424803717eb57b809b3e3f3",
+        "advance_and_lsb": [
+          475,
+          21
+        ],
+        "contours": 1,
+        "before_bounds": [
+          21,
+          -205,
+          455,
+          516
+        ],
+        "bounds": [
+          21,
+          -205,
+          455,
+          516
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                356.0,
+                79.0
+              ],
+              "degrees": 5.26,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.452,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                322.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              312.0,
+              210.0
+            ],
+            "end": [
+              321.0,
+              201.0
+            ],
+            "controls": [
+              [
+                315.0,
+                216.0
+              ],
+              [
+                324.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0431": {
+        "path": "data/curve-finish/Italic/uni0431.glif",
+        "sha256": "14de4c38f0da745077c04417d5aad3bbbb0c4ff6a9d25c04badcdf2b81c7f823",
+        "advance_and_lsb": [
+          450,
+          35
+        ],
+        "contours": 2,
+        "before_bounds": [
+          35,
+          -9,
+          470,
+          742
+        ],
+        "bounds": [
+          35,
+          -9,
+          470,
+          742
+        ],
+        "outline_deviation": 0.901,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                69.0,
+                381.0
+              ],
+              "degrees": 7.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.617,
+            "radius": 18
+          }
+        ]
+      },
+      "uni0442.ss03": {
+        "path": "data/curve-finish/Italic/uni0442.ss03.glif",
+        "sha256": "11d0f8442b0910fde2e915d063df006a33b8f9d410ec0c555965bd84f5dfa2f9",
+        "advance_and_lsb": [
+          342,
+          14
+        ],
+        "contours": 1,
+        "before_bounds": [
+          14,
+          -9,
+          328,
+          525
+        ],
+        "bounds": [
+          14,
+          -9,
+          328,
+          525
+        ],
+        "outline_deviation": 1.308,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                249.0,
+                452.0
+              ],
+              "degrees": 5.04,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.333,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                328.0,
+                502.0
+              ],
+              "degrees": 10.89,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.03,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                260.0,
+                510.0
+              ],
+              "degrees": 3.37,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                100.0,
+                510.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.419,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                85.0,
+                452.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.912,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                278.0,
+                513.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                80.0,
+                514.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                321.0,
+                467.0
+              ],
+              "degrees": 8.43,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.491,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                252.0,
+                470.0
+              ],
+              "degrees": 4.93,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.394,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                259.0,
+                426.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                294.0,
+                518.0
+              ],
+              "degrees": 3.07,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                69.0,
+                519.0
+              ],
+              "degrees": 3.18,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                252.0,
+                434.0
+              ],
+              "degrees": 12.91,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                259.0,
+                426.0
+              ],
+              "degrees": 6.34,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni0433.ss04": {
+        "path": "data/curve-finish/Italic/uni0433.ss04.glif",
+        "sha256": "ee6f3043f2f7caab40ce77dd2a56056dd15e05635cb31ebe4d01c0f51fcfcc32",
+        "advance_and_lsb": [
+          351,
+          14
+        ],
+        "contours": 1,
+        "before_bounds": [
+          14,
+          -9,
+          337,
+          525
+        ],
+        "bounds": [
+          14,
+          -9,
+          337,
+          525
+        ],
+        "outline_deviation": 1.308,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                258.0,
+                452.0
+              ],
+              "degrees": 5.04,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.333,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                337.0,
+                502.0
+              ],
+              "degrees": 10.89,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.03,
+            "radius": 36
+          },
+          {
+            "target": {
+              "xy": [
+                269.0,
+                510.0
+              ],
+              "degrees": 3.37,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.354,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                287.0,
+                513.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                330.0,
+                467.0
+              ],
+              "degrees": 8.43,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.491,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                261.0,
+                470.0
+              ],
+              "degrees": 4.93,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.394,
+            "radius": 16
+          },
+          {
+            "target": {
+              "xy": [
+                268.0,
+                426.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                303.0,
+                518.0
+              ],
+              "degrees": 3.07,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                261.0,
+                434.0
+              ],
+              "degrees": 12.91,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                268.0,
+                426.0
+              ],
+              "degrees": 6.34,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni044D.ss06": {
+        "path": "data/curve-finish/Italic/uni044D.ss06.glif",
+        "sha256": "872e14708ae4ac4df9a8430388e45979eb8c950edf789de5513ed392a125b1a4",
+        "advance_and_lsb": [
+          387,
+          22
+        ],
+        "contours": 1,
+        "before_bounds": [
+          22,
+          -9,
+          364,
+          516
+        ],
+        "bounds": [
+          22,
+          -9,
+          364,
+          516
+        ],
+        "outline_deviation": 0.989,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                99.0,
+                342.0
+              ],
+              "degrees": 3.83,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.628,
+            "radius": 18
+          },
+          {
+            "repair": "merge short line-boundary controls into one tangent",
+            "xy": [
+              103,
+              359
+            ]
+          }
+        ]
+      },
+      "uni0436.ss05": {
+        "path": "data/curve-finish/Italic/uni0436.ss05.glif",
+        "sha256": "41423ad03463775ea2157be6c2ee5fb56f48a6cee2f27504f27abbdfaddaa065",
+        "advance_and_lsb": [
+          766,
+          19
+        ],
+        "contours": 3,
+        "before_bounds": [
+          19,
+          -9,
+          744,
+          743
+        ],
+        "bounds": [
+          19,
+          -9,
+          744,
+          743
+        ],
+        "outline_deviation": 1.496,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                556.0,
+                740.0
+              ],
+              "degrees": 4.97,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.574,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                473.0,
+                647.0
+              ],
+              "degrees": 3.93,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.346,
+            "radius": 26
+          },
+          {
+            "target": {
+              "xy": [
+                361.0,
+                163.0
+              ],
+              "degrees": 4.77,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.48,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                376.0,
+                0.0
+              ],
+              "degrees": 10.3,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.827,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                469.0,
+                669.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.707,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                560,
+                734
+              ],
+              "kind": "short terminal tangent"
+            },
+            "control_before": [
+              560,
+              734
+            ],
+            "control_after": [
+              560,
+              737
+            ],
+            "why": "align the short handle with the adjoining stroke; remove the below-baseline control overshoot for dagger"
+          }
+        ]
+      },
+      "uni2248": {
+        "path": "data/curve-finish/Italic/uni2248.glif",
+        "sha256": "9c6b0def831f3668644203a104573aee854cdd4d3ce7d21b5271e9bfad3221ba",
+        "advance_and_lsb": [
+          531,
+          60
+        ],
+        "contours": 2,
+        "before_bounds": [
+          60,
+          234,
+          470,
+          481
+        ],
+        "bounds": [
+          60,
+          234,
+          470,
+          481
+        ],
+        "outline_deviation": 1.491,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                466.0,
+                348.0
+              ],
+              "degrees": 11.31,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.819,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                64.0,
+                367.0
+              ],
+              "degrees": 11.31,
+              "contour": 1,
+              "kind": "kinks"
+            },
+            "fit_error": 0.819,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                64.0,
+                237.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                466.0,
+                478.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.118,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                468.0,
+                335.0
+              ],
+              "degrees": 3.45,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                62.0,
+                380.0
+              ],
+              "degrees": 3.19,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                450.0,
+                348.0
+              ],
+              "degrees": 18.43,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                80.0,
+                367.0
+              ],
+              "degrees": 18.43,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                444.0,
+                339.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 3.65,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                86.0,
+                376.0
+              ],
+              "degrees": 8.13,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                80.0,
+                367.0
+              ],
+              "degrees": 8.13,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                86.0,
+                376.0
+              ],
+              "degrees": 3.37,
+              "contour": 1,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.236,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni2020": {
+        "path": "data/curve-finish/Italic/uni2020.glif",
+        "sha256": "516805e9f6b195963220e1d01fd4516670a9dc08bf926aa17107cd034115c9db",
+        "advance_and_lsb": [
+          310,
+          81
+        ],
+        "contours": 1,
+        "before_bounds": [
+          81,
+          -1,
+          334,
+          720
+        ],
+        "bounds": [
+          81,
+          0,
+          334,
+          720
+        ],
+        "outline_deviation": 1.037,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                95.0,
+                480.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.806,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                329.0,
+                488.0
+              ],
+              "degrees": 8.46,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.322,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                113.0,
+                8.0
+              ],
+              "degrees": 7.55,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.536,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                92.0,
+                502.0
+              ],
+              "degrees": 4.97,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.214,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                326.0,
+                510.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                81,
+                -1
+              ],
+              "kind": "short terminal tangent"
+            },
+            "control_before": [
+              81,
+              -1
+            ],
+            "control_after": [
+              81,
+              0
+            ],
+            "why": "align the short handle with the adjoining stroke; remove the below-baseline control overshoot for dagger"
+          },
+          {
+            "repair": "restore exact original horizontal/vertical stroke edges after local joins",
+            "aligned_points": 1
+          },
+          {
+            "target": {
+              "xy": [
+                91.0,
+                496.0
+              ],
+              "degrees": 14.04,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni2021": {
+        "path": "data/curve-finish/Italic/uni2021.glif",
+        "sha256": "4f82c155881a06ea23e24c7f92fdbe3126f247b511b1c982a6546830dba211ce",
+        "advance_and_lsb": [
+          310,
+          34
+        ],
+        "contours": 1,
+        "before_bounds": [
+          34,
+          -1,
+          334,
+          720
+        ],
+        "bounds": [
+          34,
+          0,
+          334,
+          720
+        ],
+        "outline_deviation": 1.49,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                95.0,
+                480.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.806,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                329.0,
+                488.0
+              ],
+              "degrees": 8.46,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.322,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                273.0,
+                280.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.806,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                276.0,
+                258.0
+              ],
+              "degrees": 8.46,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 1.365,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                113.0,
+                8.0
+              ],
+              "degrees": 7.53,
+              "contour": 0,
+              "kind": "kinks"
+            },
+            "fit_error": 0.536,
+            "radius": 18
+          },
+          {
+            "target": {
+              "xy": [
+                89.0,
+                0.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.328,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                92.0,
+                502.0
+              ],
+              "degrees": 4.97,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.214,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                42.0,
+                250.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                326.0,
+                510.0
+              ],
+              "degrees": 7.13,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "restore exact original horizontal/vertical stroke edges after local joins",
+            "aligned_points": 2
+          },
+          {
+            "target": {
+              "xy": [
+                84.0,
+                1.0
+              ],
+              "degrees": 18.43,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.0,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                91.0,
+                496.0
+              ],
+              "degrees": 14.04,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                278.0,
+                279.0
+              ],
+              "degrees": 26.57,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              95.0,
+              0.0
+            ],
+            "end": [
+              83.0,
+              8.0
+            ],
+            "controls": [
+              [
+                81.0,
+                0.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0434": {
+        "path": "data/curve-finish/Italic/uni0434.glif",
+        "sha256": "4933d5c972221eaf615ed5863b36332dace0daab4cce4d97933c71fe8e6da1c3",
+        "advance_and_lsb": [
+          432,
+          23
+        ],
+        "contours": 2,
+        "before_bounds": [
+          23,
+          -215,
+          431,
+          516
+        ],
+        "bounds": [
+          23,
+          -215,
+          431,
+          516
+        ],
+        "outline_deviation": 1.647,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                286.0,
+                176.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                287.0,
+                169.0
+              ],
+              "degrees": 5.12,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.257,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                285.0,
+                176.0
+              ],
+              "degrees": 15.26,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 1.414,
+            "tangent_after": 0.0
+          },
+          {
+            "target": {
+              "xy": [
+                277.0,
+                172.0
+              ],
+              "degrees": 2.73,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.237
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              277.0,
+              172.0
+            ],
+            "end": [
+              286.0,
+              163.0
+            ],
+            "controls": [
+              [
+                281.0,
+                179.0
+              ],
+              [
+                289.0,
+                176.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0493": {
+        "path": "data/curve-finish/Italic/uni0493.glif",
+        "sha256": "f6cb90b2da445c74bc8d05b14935fa535e14a6bf2dd462515d8b2ab21b815332",
+        "advance_and_lsb": [
+          288,
+          17
+        ],
+        "contours": 1,
+        "before_bounds": [
+          17,
+          -10,
+          270,
+          516
+        ],
+        "bounds": [
+          17,
+          -10,
+          270,
+          516
+        ],
+        "outline_deviation": 1.103,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                267.0,
+                184.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                20.0,
+                322.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 0.5,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                266.0,
+                169.0
+              ],
+              "degrees": 2.82,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.0,
+            "tangent_after": 0.059
+          },
+          {
+            "target": {
+              "xy": [
+                244.0,
+                174.0
+              ],
+              "degrees": 2.94,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.053
+          },
+          {
+            "target": {
+              "xy": [
+                43.0,
+                332.0
+              ],
+              "degrees": 2.94,
+              "contour": 0,
+              "kind": "exact short-handle join"
+            },
+            "handle_movement": 2.414,
+            "tangent_after": 0.053
+          }
+        ]
+      },
+      "uni0439": {
+        "path": "data/curve-finish/Italic/uni0439.glif",
+        "sha256": "8bfd99d6ca4c73f026c74c15ee96c868a1cb60388e0e0938a0cbe92c0a138d7f",
+        "advance_and_lsb": [
+          495,
+          17
+        ],
+        "contours": 2,
+        "before_bounds": [
+          17,
+          -9,
+          485,
+          730
+        ],
+        "bounds": [
+          17,
+          -9,
+          485,
+          730
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                479.0,
+                725.0
+              ],
+              "kind": "integer-grid curve join"
+            },
+            "movement": 1.414,
+            "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "target": {
+              "xy": [
+                318.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              308.0,
+              210.0
+            ],
+            "end": [
+              317.0,
+              201.0
+            ],
+            "controls": [
+              [
+                311.0,
+                216.0
+              ],
+              [
+                320.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0448": {
+        "path": "data/curve-finish/Italic/uni0448.glif",
+        "sha256": "ace45972270888f82ce47ff5120700f16f26a072ba5ae438a031e5de9f2d70ac",
+        "advance_and_lsb": [
+          728,
+          17
+        ],
+        "contours": 1,
+        "before_bounds": [
+          17,
+          -9,
+          718,
+          516
+        ],
+        "bounds": [
+          17,
+          -9,
+          718,
+          516
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                551.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                318.0,
+                207.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.336,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              308.0,
+              210.0
+            ],
+            "end": [
+              317.0,
+              201.0
+            ],
+            "controls": [
+              [
+                311.0,
+                216.0
+              ],
+              [
+                320.0,
+                213.0
+              ]
+            ]
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              541.0,
+              210.0
+            ],
+            "end": [
+              550.0,
+              201.0
+            ],
+            "controls": [
+              [
+                544.0,
+                216.0
+              ],
+              [
+                553.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0446": {
+        "path": "data/curve-finish/Italic/uni0446.glif",
+        "sha256": "1ad4cb9b9483268f4b196dfd74fc4d3a3b330f6afbc77fb11a9f7867ce76e65a",
+        "advance_and_lsb": [
+          463,
+          17
+        ],
+        "contours": 1,
+        "before_bounds": [
+          17,
+          -150,
+          450,
+          516
+        ],
+        "bounds": [
+          17,
+          -150,
+          450,
+          516
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                318.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              308.0,
+              210.0
+            ],
+            "end": [
+              317.0,
+              201.0
+            ],
+            "controls": [
+              [
+                311.0,
+                216.0
+              ],
+              [
+                320.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni0449": {
+        "path": "data/curve-finish/Italic/uni0449.glif",
+        "sha256": "3826978975df3c0f1e355c5ee083b74900ffc91802559e3e4ac8f794a6743682",
+        "advance_and_lsb": [
+          696,
+          17
+        ],
+        "contours": 1,
+        "before_bounds": [
+          17,
+          -150,
+          683,
+          516
+        ],
+        "bounds": [
+          17,
+          -150,
+          683,
+          516
+        ],
+        "outline_deviation": 1.007,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                551.0,
+                207.0
+              ],
+              "degrees": 5.25,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.338,
+            "radius": 6
+          },
+          {
+            "target": {
+              "xy": [
+                318.0,
+                207.0
+              ],
+              "degrees": 5.19,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.336,
+            "radius": 6
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              308.0,
+              210.0
+            ],
+            "end": [
+              317.0,
+              201.0
+            ],
+            "controls": [
+              [
+                311.0,
+                216.0
+              ],
+              [
+                320.0,
+                213.0
+              ]
+            ]
+          },
+          {
+            "repair": "whole short transition with shared implicit quadratic tangents",
+            "start": [
+              541.0,
+              210.0
+            ],
+            "end": [
+              550.0,
+              201.0
+            ],
+            "controls": [
+              [
+                544.0,
+                216.0
+              ],
+              [
+                553.0,
+                213.0
+              ]
+            ]
+          }
+        ]
+      },
+      "uni043B": {
+        "path": "data/curve-finish/Italic/uni043B.glif",
+        "sha256": "e250c45fc1fd7af169439d39904702cdab554edcd799de1b89921190b42851bb",
+        "advance_and_lsb": [
+          443,
+          -20
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -20,
+          -9,
+          427,
+          515
+        ],
+        "bounds": [
+          -20,
+          -9,
+          427,
+          515
+        ],
+        "outline_deviation": 1.0,
+        "repairs": [
+          {
+            "target": {
+              "xy": [
+                -17.0,
+                24.0
+              ],
+              "degrees": 8.13,
+              "contour": 0,
+              "kind": "refined whole join"
+            },
+            "fit_error": 0.321,
+            "radius": 8
+          }
+        ]
+      },
+      "uni2032": {
+        "path": "data/curve-finish/Italic/uni2032.glif",
+        "sha256": "0f2a30477e79e2b88350557f47dd5a13982567920e0422611bfc4ac7c2d9dc44",
+        "advance_and_lsb": [
+          145,
+          98
+        ],
+        "contours": 1,
+        "before_bounds": [
+          98,
+          481,
+          213,
+          725
+        ],
+        "bounds": [
+          98,
+          482,
+          213,
+          725
+        ],
+        "outline_deviation": 1.342,
+        "repairs": [
+          {
+            "repair": "preserve affine Regular prime curve; bypass secondary fairing seam; align bottom control after grid rounding",
+            "source": "Regular uni2032",
+            "control_delta": [
+              0,
+              2
+            ]
+          }
+        ]
+      },
+      "uni2033": {
+        "path": "data/curve-finish/Italic/uni2033.glif",
+        "sha256": "f897452bcff39d8704eaf23286184397db259d8131c3d29111235787f29ea02e",
+        "advance_and_lsb": [
+          250,
+          98
+        ],
+        "contours": 2,
+        "before_bounds": [
+          98,
+          481,
+          318,
+          725
+        ],
+        "bounds": [
+          98,
+          482,
+          318,
+          725
+        ],
+        "outline_deviation": 1.476,
+        "repairs": [
+          {
+            "repair": "preserve affine Regular prime curve; bypass secondary fairing seam; align bottom control after grid rounding",
+            "source": "Regular uni2033",
+            "control_delta": [
+              0,
+              2
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "derived_from_regular": {
+    "Italic": {
+      "uni2032": {
+        "source": "uni2032",
+        "advance": 145,
+        "left_side_bearing": 98
+      },
+      "uni2033": {
+        "source": "uni2033",
+        "advance": 250,
+        "left_side_bearing": 98
+      }
+    }
+  }
+}

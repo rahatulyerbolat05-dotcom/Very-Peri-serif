@@ -106,3 +106,11 @@ The author confirmed that the 1.106 tangent fix still left a visible wave.
 Replace the complete left edge of the right foot of Regular ya with one
 convex cubic from the bottom to the straight stem. Validate monotone edge
 slope over the whole exported curve instead of testing one collinear node.
+
+21 October 2026 — Family release 1.108 (internal drawing I032).
+Audit all 1,016 glyphs, including components, stylistic/local forms and signs.
+Reviewed quadratic sources replace accidental waves, micro-steps and uneven
+stem/serif joins of constructed glyphs. Preserve all advances, side bearings,
+accepted ya forms and inherited native outlines/hinting. Curve sources apply
+after provisional generation and before kerning; complete outline/feature,
+collision, language, sanitizer and browser checks accompany the release.

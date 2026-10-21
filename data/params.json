@@ -3764,10 +3764,10 @@
   }
  },
  "regular_release": {
-  "status": "21.10.2026: Regular ya entire right-foot edge redrawn as one convex cubic at the author's request",
+  "status": "21.10.2026: family-wide reviewed curve finish after complete glyph audit",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.107",
+  "version": "1.108",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",

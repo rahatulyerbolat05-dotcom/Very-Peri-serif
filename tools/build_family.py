@@ -39,6 +39,8 @@ def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 
 def complete(ita,reg):
     rcm=reg.getBestCmap();glyf=ita['glyf'];hmtx=ita['hmtx'];added={}
+    curve_manifest=Path('data/curve-finish/manifest.json')
+    retained_spacing=json.loads(curve_manifest.read_text()).get('derived_from_regular',{}).get('Italic',{}) if curve_manifest.exists() else {}
     def put(cp,name,glyph,adv):
         if name not in glyf.glyphOrder:glyf[name]=glyph
         hmtx[name]=(adv,getattr(glyph,'xMin',0) if glyph.numberOfContours else 0)
@@ -55,6 +57,10 @@ def complete(ita,reg):
         name=rcm[cp];pen=TTGlyphPen(None)
         gs[name].draw(TransformPen(pen,(1,0,0,1,0,0) if cp in UPRIGHT else (1,0,S,1,-S*Y0,0)));g=pen.glyph();g.recalcBounds(glyf)
         if cp in SHEAR:g,_=tidy(g,glyf);g,_=fair(g,glyf);g.recalcBounds(glyf)
+        if name in retained_spacing:
+            metrics=retained_spacing[name]
+            assert reg['hmtx'][name][0]==metrics['advance']
+            g.coordinates.translate((metrics['left_side_bearing']-g.xMin,0));g.recalcBounds(glyf)
         put(cp,name,g,reg['hmtx'][name][0]);added[hex(cp)]='upright Regular' if cp in UPRIGHT else 'Regular sheared'
     ita.setGlyphOrder(glyf.glyphOrder)
     gdef=ita['GDEF'].table.GlyphClassDef.classDefs
@@ -121,6 +127,8 @@ def main():
     added=complete(ita,reg);link(ita,reg,version)
     anchors,native_aliases=extend_italic_anchors(ita)
     removed=remove_experiments(ita)
+    from curve_finish import apply as finish_curves
+    curve_sources=finish_curves(ita,'Italic')
     stressed_i(ita)
     from italic_kern import apply as kern_italic
     kerning=kern_italic(ita,native_aliases=native_aliases)
@@ -147,7 +155,7 @@ def main():
     t.save(test)
     checks=validate(REG,ttf);tchecks=validate(TEST/f'VeryPeriSerif{tag}-Regular.ttf',test)
     report=dict(regular=dict(file=REG.name,version=CONFIG['version'],sha256=sha(REG)),italic=dict(file=ttf.name,version=version,source=str(src),sha256=sha(ttf),woff2_sha256=sha(woff)),
-                added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,
+                added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,curve_finish=curve_sources,
                 checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
     (OUT/'family-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     shutil.copyfile('font/README-family.md',OUT/'README-family.md')

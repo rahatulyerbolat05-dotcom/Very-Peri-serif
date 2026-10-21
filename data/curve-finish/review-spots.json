@@ -1,0 +1,2591 @@
+[
+  {
+    "style": "Regular",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      252.0,
+      413.0
+    ],
+    "degrees": 6.51,
+    "contour": 0,
+    "id": 1
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      513.0,
+      413.0
+    ],
+    "degrees": 6.51,
+    "contour": 0,
+    "id": 2
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0419",
+    "characters": [
+      "Й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      133.0,
+      938.0
+    ],
+    "degrees": 6.34,
+    "contour": 1,
+    "id": 3
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0419",
+    "characters": [
+      "Й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      413.0,
+      938.0
+    ],
+    "degrees": 6.34,
+    "contour": 1,
+    "id": 4
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni041B",
+    "characters": [
+      "Л"
+    ],
+    "kind": "kinks",
+    "xy": [
+      265.0,
+      654.0
+    ],
+    "degrees": 8.13,
+    "contour": 0,
+    "id": 5
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0432",
+    "characters": [
+      "в"
+    ],
+    "kind": "waves",
+    "xy": [
+      69.83,
+      474.17
+    ],
+    "contour": 0,
+    "turn": 28.14,
+    "length": 73.56,
+    "neighbour_turns": [
+      -161.25,
+      -107.13
+    ],
+    "segment_ids": [
+      13,
+      14
+    ],
+    "id": 6
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "waves",
+    "xy": [
+      34.25,
+      46.25
+    ],
+    "contour": 0,
+    "turn": 56.04,
+    "length": 33.28,
+    "neighbour_turns": [
+      -161.57,
+      -7.73
+    ],
+    "segment_ids": [
+      15
+    ],
+    "id": 7
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "waves",
+    "xy": [
+      70.5,
+      445.25
+    ],
+    "contour": 0,
+    "turn": -11.99,
+    "length": 15.43,
+    "neighbour_turns": [
+      6.91,
+      61.39
+    ],
+    "segment_ids": [
+      22
+    ],
+    "id": 8
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "waves",
+    "xy": [
+      38.4,
+      472.0
+    ],
+    "contour": 0,
+    "turn": 61.39,
+    "length": 67.6,
+    "neighbour_turns": [
+      -11.99,
+      -180.0
+    ],
+    "segment_ids": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "id": 9
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "waves",
+    "xy": [
+      492.25,
+      471.25
+    ],
+    "contour": 0,
+    "turn": 63.43,
+    "length": 74.66,
+    "neighbour_turns": [
+      -180.0,
+      -18.43
+    ],
+    "segment_ids": [
+      68,
+      69,
+      70
+    ],
+    "id": 10
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "waves",
+    "xy": [
+      456.0,
+      440.5
+    ],
+    "contour": 0,
+    "turn": -18.43,
+    "length": 13.66,
+    "neighbour_turns": [
+      63.43,
+      9.42
+    ],
+    "segment_ids": [
+      71
+    ],
+    "id": 11
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      222.0,
+      298.0
+    ],
+    "degrees": 7.92,
+    "contour": 0,
+    "id": 12
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      308.0,
+      298.0
+    ],
+    "degrees": 7.15,
+    "contour": 0,
+    "id": 13
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0439",
+    "characters": [
+      "й"
+    ],
+    "kind": "waves",
+    "xy": [
+      378.67,
+      28.67
+    ],
+    "contour": 0,
+    "turn": 41.45,
+    "length": 97.01,
+    "neighbour_turns": [
+      -164.74,
+      -138.37
+    ],
+    "segment_ids": [
+      31,
+      32
+    ],
+    "id": 14
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0439",
+    "characters": [
+      "й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      76.0,
+      728.0
+    ],
+    "degrees": 6.34,
+    "contour": 1,
+    "id": 15
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0439",
+    "characters": [
+      "й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      356.0,
+      728.0
+    ],
+    "degrees": 6.34,
+    "contour": 1,
+    "id": 16
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A",
+    "characters": [
+      "к"
+    ],
+    "kind": "waves",
+    "xy": [
+      74.0,
+      484.5
+    ],
+    "contour": 0,
+    "turn": 21.48,
+    "length": 85.05,
+    "neighbour_turns": [
+      -160.23,
+      -122.01
+    ],
+    "segment_ids": [
+      11,
+      12
+    ],
+    "id": 17
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043B",
+    "characters": [
+      "л"
+    ],
+    "kind": "kinks",
+    "xy": [
+      44.0,
+      60.0
+    ],
+    "degrees": 6.41,
+    "contour": 0,
+    "id": 18
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "kinks",
+    "xy": [
+      91.0,
+      48.0
+    ],
+    "degrees": 10.11,
+    "contour": 0,
+    "id": 19
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "kinks",
+    "xy": [
+      75.0,
+      465.0
+    ],
+    "degrees": 11.44,
+    "contour": 0,
+    "id": 20
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "micro",
+    "xy": [
+      59.0,
+      60.0
+    ],
+    "length": 2.0,
+    "contour": 0,
+    "id": 21
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "micro",
+    "xy": [
+      440.0,
+      60.0
+    ],
+    "length": 2.0,
+    "contour": 0,
+    "id": 22
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043D",
+    "characters": [
+      "н"
+    ],
+    "kind": "waves",
+    "xy": [
+      76.67,
+      481.33
+    ],
+    "contour": 0,
+    "turn": 30.68,
+    "length": 98.93,
+    "neighbour_turns": [
+      -160.63,
+      -131.63
+    ],
+    "segment_ids": [
+      11,
+      12
+    ],
+    "id": 23
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043D",
+    "characters": [
+      "н"
+    ],
+    "kind": "waves",
+    "xy": [
+      390.67,
+      28.67
+    ],
+    "contour": 0,
+    "turn": 41.45,
+    "length": 97.01,
+    "neighbour_turns": [
+      -164.74,
+      -138.37
+    ],
+    "segment_ids": [
+      31,
+      32
+    ],
+    "id": 24
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0442",
+    "characters": [
+      "т"
+    ],
+    "kind": "waves",
+    "xy": [
+      557.0,
+      50.25
+    ],
+    "contour": 0,
+    "turn": 4.64,
+    "length": 8.73,
+    "neighbour_turns": [
+      -78.69,
+      -15.95
+    ],
+    "segment_ids": [
+      6
+    ],
+    "id": 25
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0442",
+    "characters": [
+      "т"
+    ],
+    "kind": "waves",
+    "xy": [
+      70.17,
+      481.33
+    ],
+    "contour": 0,
+    "turn": 30.68,
+    "length": 94.6,
+    "neighbour_turns": [
+      -160.63,
+      -131.63
+    ],
+    "segment_ids": [
+      52,
+      53
+    ],
+    "id": 26
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0442",
+    "characters": [
+      "т"
+    ],
+    "kind": "kinks",
+    "xy": [
+      555.0,
+      77.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 27
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0444",
+    "characters": [
+      "ф"
+    ],
+    "kind": "waves",
+    "xy": [
+      228.75,
+      713.38
+    ],
+    "contour": 0,
+    "turn": 26.03,
+    "length": 80.21,
+    "neighbour_turns": [
+      -167.58,
+      -126.16
+    ],
+    "segment_ids": [
+      36,
+      37,
+      38
+    ],
+    "id": 28
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0447",
+    "characters": [
+      "ч"
+    ],
+    "kind": "waves",
+    "xy": [
+      347.67,
+      28.67
+    ],
+    "contour": 0,
+    "turn": 41.45,
+    "length": 97.01,
+    "neighbour_turns": [
+      -164.74,
+      -138.37
+    ],
+    "segment_ids": [
+      36,
+      37
+    ],
+    "id": 29
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0448",
+    "characters": [
+      "ш"
+    ],
+    "kind": "waves",
+    "xy": [
+      561.17,
+      29.67
+    ],
+    "contour": 0,
+    "turn": 31.86,
+    "length": 93.28,
+    "neighbour_turns": [
+      -160.63,
+      -131.99
+    ],
+    "segment_ids": [
+      38,
+      39
+    ],
+    "id": 30
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0449",
+    "characters": [
+      "щ"
+    ],
+    "kind": "waves",
+    "xy": [
+      463.75,
+      47.5
+    ],
+    "contour": 0,
+    "turn": -7.67,
+    "length": 21.58,
+    "neighbour_turns": [
+      136.33,
+      3.61
+    ],
+    "segment_ids": [
+      21
+    ],
+    "id": 31
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044B",
+    "characters": [
+      "ы"
+    ],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -160.63,
+      -131.99
+    ],
+    "segment_ids": [
+      16,
+      17
+    ],
+    "id": 32
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044B",
+    "characters": [
+      "ы"
+    ],
+    "kind": "waves",
+    "xy": [
+      360.0,
+      482.25
+    ],
+    "contour": 1,
+    "turn": -9.46,
+    "length": 6.03,
+    "neighbour_turns": [
+      82.87,
+      9.46
+    ],
+    "segment_ids": [
+      5
+    ],
+    "id": 33
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044B",
+    "characters": [
+      "ы"
+    ],
+    "kind": "waves",
+    "xy": [
+      468.67,
+      29.83
+    ],
+    "contour": 1,
+    "turn": 44.22,
+    "length": 95.54,
+    "neighbour_turns": [
+      -164.74,
+      -141.34
+    ],
+    "segment_ids": [
+      18,
+      19
+    ],
+    "id": 34
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044C",
+    "characters": [
+      "ь"
+    ],
+    "kind": "waves",
+    "xy": [
+      80.67,
+      481.33
+    ],
+    "contour": 0,
+    "turn": 30.68,
+    "length": 98.93,
+    "neighbour_turns": [
+      -160.63,
+      -131.63
+    ],
+    "segment_ids": [
+      16,
+      17
+    ],
+    "id": 35
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044E",
+    "characters": [
+      "ю"
+    ],
+    "kind": "waves",
+    "xy": [
+      76.83,
+      480.0
+    ],
+    "contour": 0,
+    "turn": 34.88,
+    "length": 91.87,
+    "neighbour_turns": [
+      -161.86,
+      -135.0
+    ],
+    "segment_ids": [
+      10,
+      11
+    ],
+    "id": 36
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni044E",
+    "characters": [
+      "ю"
+    ],
+    "kind": "waves",
+    "xy": [
+      194.0,
+      26.75
+    ],
+    "contour": 0,
+    "turn": -9.46,
+    "length": 6.03,
+    "neighbour_turns": [
+      87.27,
+      9.46
+    ],
+    "segment_ids": [
+      39
+    ],
+    "id": 37
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049A",
+    "characters": [
+      "Қ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      442.0,
+      76.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 38
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni04BA",
+    "characters": [
+      "Һ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      156.0,
+      367.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 39
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B",
+    "characters": [
+      "қ"
+    ],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -153.43,
+      -131.99
+    ],
+    "segment_ids": [
+      42,
+      43
+    ],
+    "id": 40
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B",
+    "characters": [
+      "қ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      404.0,
+      72.0
+    ],
+    "degrees": 5.91,
+    "contour": 0,
+    "id": 41
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni04A3",
+    "characters": [
+      "ң"
+    ],
+    "kind": "waves",
+    "xy": [
+      78.83,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.86,
+    "length": 98.54,
+    "neighbour_turns": [
+      -160.63,
+      -131.99
+    ],
+    "segment_ids": [
+      41,
+      42
+    ],
+    "id": 42
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2032",
+    "characters": [
+      "′"
+    ],
+    "kind": "kinks",
+    "xy": [
+      105.0,
+      710.0
+    ],
+    "degrees": 6.18,
+    "contour": 0,
+    "id": 43
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2032",
+    "characters": [
+      "′"
+    ],
+    "kind": "kinks",
+    "xy": [
+      47.0,
+      485.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 44
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2033",
+    "characters": [
+      "″"
+    ],
+    "kind": "kinks",
+    "xy": [
+      105.0,
+      710.0
+    ],
+    "degrees": 6.18,
+    "contour": 0,
+    "id": 45
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2033",
+    "characters": [
+      "″"
+    ],
+    "kind": "kinks",
+    "xy": [
+      47.0,
+      485.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 46
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2033",
+    "characters": [
+      "″"
+    ],
+    "kind": "kinks",
+    "xy": [
+      210.0,
+      710.0
+    ],
+    "degrees": 6.18,
+    "contour": 1,
+    "id": 47
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2033",
+    "characters": [
+      "″"
+    ],
+    "kind": "kinks",
+    "xy": [
+      152.0,
+      485.0
+    ],
+    "degrees": 11.31,
+    "contour": 1,
+    "id": 48
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      64.0,
+      237.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 49
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      466.0,
+      348.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 50
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      64.0,
+      367.0
+    ],
+    "degrees": 11.31,
+    "contour": 1,
+    "id": 51
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      466.0,
+      478.0
+    ],
+    "degrees": 11.31,
+    "contour": 1,
+    "id": 52
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043F.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      74.17,
+      481.33
+    ],
+    "contour": 0,
+    "turn": 30.68,
+    "length": 94.6,
+    "neighbour_turns": [
+      -160.63,
+      -131.63
+    ],
+    "segment_ids": [
+      11,
+      12
+    ],
+    "id": 53
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043F.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      390.67,
+      28.67
+    ],
+    "contour": 0,
+    "turn": 41.45,
+    "length": 97.01,
+    "neighbour_turns": [
+      -164.74,
+      -138.37
+    ],
+    "segment_ids": [
+      28,
+      29
+    ],
+    "id": 54
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.short",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -162.26,
+      -131.99
+    ],
+    "segment_ids": [
+      9,
+      10
+    ],
+    "id": 55
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.short",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      27.0,
+      440.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 56
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      74.0,
+      484.5
+    ],
+    "contour": 0,
+    "turn": 21.48,
+    "length": 85.05,
+    "neighbour_turns": [
+      -160.23,
+      -122.01
+    ],
+    "segment_ids": [
+      11,
+      12
+    ],
+    "id": 57
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      394.0,
+      28.83
+    ],
+    "contour": 0,
+    "turn": 57.32,
+    "length": 80.71,
+    "neighbour_turns": [
+      -172.65,
+      -126.87
+    ],
+    "segment_ids": [
+      40,
+      41
+    ],
+    "id": 58
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.flag",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      438.0,
+      61.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 59
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.short.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -162.26,
+      -131.99
+    ],
+    "segment_ids": [
+      9,
+      10
+    ],
+    "id": 60
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.short.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      395.33,
+      30.0
+    ],
+    "contour": 0,
+    "turn": 58.47,
+    "length": 80.87,
+    "neighbour_turns": [
+      -167.68,
+      -126.87
+    ],
+    "segment_ids": [
+      41,
+      42
+    ],
+    "id": 61
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043A.short.flag",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      27.0,
+      440.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 62
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni041A.flag",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      457.9,
+      34.0
+    ],
+    "contour": 0,
+    "turn": 58.16,
+    "length": 83.33,
+    "neighbour_turns": [
+      -171.87,
+      -126.87
+    ],
+    "segment_ids": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "id": 63
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni041A.flag",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      500.0,
+      61.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 64
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni043D.flat",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      76.67,
+      481.33
+    ],
+    "contour": 0,
+    "turn": 30.68,
+    "length": 98.93,
+    "neighbour_turns": [
+      -160.63,
+      -131.63
+    ],
+    "segment_ids": [
+      11,
+      12
+    ],
+    "id": 65
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0434.ss07",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      329.0,
+      -90.0
+    ],
+    "degrees": 5.71,
+    "contour": 0,
+    "id": 66
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni04A3.tail_old",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      78.83,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.86,
+    "length": 98.54,
+    "neighbour_turns": [
+      -160.63,
+      -131.99
+    ],
+    "segment_ids": [
+      12,
+      13
+    ],
+    "id": 67
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0449.tail_old",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      463.75,
+      47.5
+    ],
+    "contour": 0,
+    "turn": -7.67,
+    "length": 21.58,
+    "neighbour_turns": [
+      136.33,
+      3.61
+    ],
+    "segment_ids": [
+      23
+    ],
+    "id": 68
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.alternate",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      398.0,
+      72.0
+    ],
+    "degrees": 5.51,
+    "contour": 0,
+    "id": 69
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.context",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      477.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -146.18,
+      -131.99
+    ],
+    "segment_ids": [
+      42,
+      43
+    ],
+    "id": 70
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.context",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      402.0,
+      73.0
+    ],
+    "degrees": 5.6,
+    "contour": 0,
+    "id": 71
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.tail_old",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      480.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -153.43,
+      -131.99
+    ],
+    "segment_ids": [
+      48,
+      49
+    ],
+    "id": 72
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.alternate.tail_old",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      209.0,
+      3.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 73
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.context.tail_old",
+    "characters": [],
+    "kind": "waves",
+    "xy": [
+      79.17,
+      477.33
+    ],
+    "contour": 0,
+    "turn": 31.5,
+    "length": 97.58,
+    "neighbour_turns": [
+      -146.18,
+      -131.99
+    ],
+    "segment_ids": [
+      48,
+      49
+    ],
+    "id": 74
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni049B.context.tail_old",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      463.0,
+      -138.0
+    ],
+    "degrees": 8.66,
+    "contour": 0,
+    "id": 75
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0429.tail_old",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      615.0,
+      99.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 76
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni0429.tail_old",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      721.0,
+      -139.0
+    ],
+    "degrees": 8.66,
+    "contour": 0,
+    "id": 77
+  },
+  {
+    "style": "Regular",
+    "glyph": "uni04A2.tail_old",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      560.0,
+      -140.0
+    ],
+    "degrees": 5.03,
+    "contour": 0,
+    "id": 78
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0413",
+    "characters": [
+      "Г"
+    ],
+    "kind": "kinks",
+    "xy": [
+      124.0,
+      67.0
+    ],
+    "degrees": 5.43,
+    "contour": 0,
+    "id": 79
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0414",
+    "characters": [
+      "Д"
+    ],
+    "kind": "kinks",
+    "xy": [
+      407.0,
+      30.0
+    ],
+    "degrees": 8.13,
+    "contour": 1,
+    "id": 80
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      303.0,
+      413.0
+    ],
+    "degrees": 10.64,
+    "contour": 0,
+    "id": 81
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      403.0,
+      697.0
+    ],
+    "degrees": 7.95,
+    "contour": 0,
+    "id": 82
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      596.0,
+      697.0
+    ],
+    "degrees": 5.91,
+    "contour": 0,
+    "id": 83
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      693.0,
+      23.0
+    ],
+    "degrees": 5.39,
+    "contour": 0,
+    "id": 84
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0416",
+    "characters": [
+      "Ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      440.0,
+      23.0
+    ],
+    "degrees": 6.51,
+    "contour": 0,
+    "id": 85
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0418",
+    "characters": [
+      "И"
+    ],
+    "kind": "kinks",
+    "xy": [
+      124.0,
+      67.0
+    ],
+    "degrees": 6.17,
+    "contour": 0,
+    "id": 86
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0418",
+    "characters": [
+      "И"
+    ],
+    "kind": "kinks",
+    "xy": [
+      457.0,
+      531.0
+    ],
+    "degrees": 5.45,
+    "contour": 0,
+    "id": 87
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0419",
+    "characters": [
+      "Й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      124.0,
+      67.0
+    ],
+    "degrees": 6.17,
+    "contour": 0,
+    "id": 88
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0419",
+    "characters": [
+      "Й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      457.0,
+      531.0
+    ],
+    "degrees": 5.45,
+    "contour": 0,
+    "id": 89
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni041B",
+    "characters": [
+      "Л"
+    ],
+    "kind": "kinks",
+    "xy": [
+      64.0,
+      60.0
+    ],
+    "degrees": 6.04,
+    "contour": 0,
+    "id": 90
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni041F",
+    "characters": [
+      "П"
+    ],
+    "kind": "kinks",
+    "xy": [
+      124.0,
+      67.0
+    ],
+    "degrees": 5.46,
+    "contour": 0,
+    "id": 91
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0424",
+    "characters": [
+      "Ф"
+    ],
+    "kind": "kinks",
+    "xy": [
+      363.0,
+      654.0
+    ],
+    "degrees": 5.87,
+    "contour": 0,
+    "id": 92
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0426",
+    "characters": [
+      "Ц"
+    ],
+    "kind": "kinks",
+    "xy": [
+      639.0,
+      710.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 93
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0428",
+    "characters": [
+      "Ш"
+    ],
+    "kind": "kinks",
+    "xy": [
+      480.0,
+      30.0
+    ],
+    "degrees": 7.59,
+    "contour": 0,
+    "id": 94
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0429",
+    "characters": [
+      "Щ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      797.0,
+      710.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 95
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni042E",
+    "characters": [
+      "Ю"
+    ],
+    "kind": "kinks",
+    "xy": [
+      330.0,
+      697.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 96
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni042E",
+    "characters": [
+      "Ю"
+    ],
+    "kind": "kinks",
+    "xy": [
+      174.0,
+      23.0
+    ],
+    "degrees": 5.29,
+    "contour": 0,
+    "id": 97
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0492",
+    "characters": [
+      "Ғ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      122.0,
+      67.0
+    ],
+    "degrees": 5.47,
+    "contour": 0,
+    "id": 98
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04A2",
+    "characters": [
+      "Ң"
+    ],
+    "kind": "kinks",
+    "xy": [
+      633.0,
+      710.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 99
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04B0",
+    "characters": [
+      "Ұ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      218.0,
+      653.0
+    ],
+    "degrees": 5.12,
+    "contour": 0,
+    "id": 100
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04AE",
+    "characters": [
+      "Ү"
+    ],
+    "kind": "kinks",
+    "xy": [
+      218.0,
+      653.0
+    ],
+    "degrees": 5.12,
+    "contour": 0,
+    "id": 101
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04BA",
+    "characters": [
+      "Һ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      183.0,
+      367.0
+    ],
+    "degrees": 10.87,
+    "contour": 0,
+    "id": 102
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04BA",
+    "characters": [
+      "Һ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      113.0,
+      66.0
+    ],
+    "degrees": 5.34,
+    "contour": 0,
+    "id": 103
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0448",
+    "characters": [
+      "ш"
+    ],
+    "kind": "kinks",
+    "xy": [
+      318.0,
+      207.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 104
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0448",
+    "characters": [
+      "ш"
+    ],
+    "kind": "kinks",
+    "xy": [
+      551.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 105
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0446",
+    "characters": [
+      "ц"
+    ],
+    "kind": "kinks",
+    "xy": [
+      318.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 106
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0449",
+    "characters": [
+      "щ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      551.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 107
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0449",
+    "characters": [
+      "щ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      318.0,
+      207.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 108
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0434",
+    "characters": [
+      "д"
+    ],
+    "kind": "kinks",
+    "xy": [
+      286.0,
+      176.0
+    ],
+    "degrees": 8.97,
+    "contour": 0,
+    "id": 109
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni043B",
+    "characters": [
+      "л"
+    ],
+    "kind": "kinks",
+    "xy": [
+      -17.0,
+      24.0
+    ],
+    "degrees": 8.13,
+    "contour": 0,
+    "id": 110
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni043A",
+    "characters": [
+      "к"
+    ],
+    "kind": "kinks",
+    "xy": [
+      94.0,
+      0.0
+    ],
+    "degrees": 10.3,
+    "contour": 0,
+    "id": 111
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0436",
+    "characters": [
+      "ж"
+    ],
+    "kind": "kinks",
+    "xy": [
+      357.0,
+      387.0
+    ],
+    "degrees": 9.86,
+    "contour": 0,
+    "id": 112
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0493",
+    "characters": [
+      "ғ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      267.0,
+      184.0
+    ],
+    "degrees": 8.13,
+    "contour": 0,
+    "id": 113
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0493",
+    "characters": [
+      "ғ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      20.0,
+      322.0
+    ],
+    "degrees": 8.13,
+    "contour": 0,
+    "id": 114
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0439",
+    "characters": [
+      "й"
+    ],
+    "kind": "kinks",
+    "xy": [
+      318.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 115
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni044C",
+    "characters": [
+      "ь"
+    ],
+    "kind": "kinks",
+    "xy": [
+      165.0,
+      251.0
+    ],
+    "degrees": 6.04,
+    "contour": 1,
+    "id": 116
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni044A",
+    "characters": [
+      "ъ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      41.0,
+      510.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 117
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0444",
+    "characters": [
+      "ф"
+    ],
+    "kind": "waves",
+    "xy": [
+      369.33,
+      716.0
+    ],
+    "contour": 0,
+    "turn": -32.68,
+    "length": 99.08,
+    "neighbour_turns": [
+      138.18,
+      170.1
+    ],
+    "segment_ids": [
+      10,
+      11
+    ],
+    "id": 118
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "micro",
+    "xy": [
+      417.0,
+      508.0
+    ],
+    "length": 2.24,
+    "contour": 0,
+    "id": 119
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni043C",
+    "characters": [
+      "м"
+    ],
+    "kind": "micro",
+    "xy": [
+      380.0,
+      482.0
+    ],
+    "length": 2.3,
+    "contour": 0,
+    "id": 120
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni049B",
+    "characters": [
+      "қ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      92.0,
+      0.0
+    ],
+    "degrees": 10.3,
+    "contour": 0,
+    "id": 121
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04AF",
+    "characters": [
+      "ү"
+    ],
+    "kind": "kinks",
+    "xy": [
+      322.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 122
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04AF",
+    "characters": [
+      "ү"
+    ],
+    "kind": "kinks",
+    "xy": [
+      356.0,
+      79.0
+    ],
+    "degrees": 5.26,
+    "contour": 0,
+    "id": 123
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04B1",
+    "characters": [
+      "ұ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      322.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 124
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni04B1",
+    "characters": [
+      "ұ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      356.0,
+      79.0
+    ],
+    "degrees": 5.26,
+    "contour": 0,
+    "id": 125
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0431",
+    "characters": [
+      "б"
+    ],
+    "kind": "kinks",
+    "xy": [
+      69.0,
+      381.0
+    ],
+    "degrees": 7.3,
+    "contour": 0,
+    "id": 126
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.srb",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      318.0,
+      207.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 127
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.srb",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      551.0,
+      207.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 128
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.ss03",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      249.0,
+      452.0
+    ],
+    "degrees": 5.04,
+    "contour": 0,
+    "id": 129
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.ss03",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      328.0,
+      502.0
+    ],
+    "degrees": 10.89,
+    "contour": 0,
+    "id": 130
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.ss03",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      100.0,
+      510.0
+    ],
+    "degrees": 5.19,
+    "contour": 0,
+    "id": 131
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0442.ss03",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      85.0,
+      452.0
+    ],
+    "degrees": 5.25,
+    "contour": 0,
+    "id": 132
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0433.ss04",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      258.0,
+      452.0
+    ],
+    "degrees": 5.04,
+    "contour": 0,
+    "id": 133
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0433.ss04",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      337.0,
+      502.0
+    ],
+    "degrees": 10.89,
+    "contour": 0,
+    "id": 134
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni0436.ss05",
+    "characters": [],
+    "kind": "kinks",
+    "xy": [
+      376.0,
+      0.0
+    ],
+    "degrees": 10.3,
+    "contour": 0,
+    "id": 135
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      64.0,
+      237.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 136
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      466.0,
+      348.0
+    ],
+    "degrees": 11.31,
+    "contour": 0,
+    "id": 137
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      64.0,
+      367.0
+    ],
+    "degrees": 11.31,
+    "contour": 1,
+    "id": 138
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2248",
+    "characters": [
+      "≈"
+    ],
+    "kind": "kinks",
+    "xy": [
+      466.0,
+      478.0
+    ],
+    "degrees": 11.31,
+    "contour": 1,
+    "id": 139
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2020",
+    "characters": [
+      "†"
+    ],
+    "kind": "kinks",
+    "xy": [
+      89.0,
+      0.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 140
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2020",
+    "characters": [
+      "†"
+    ],
+    "kind": "kinks",
+    "xy": [
+      95.0,
+      480.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 141
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2020",
+    "characters": [
+      "†"
+    ],
+    "kind": "kinks",
+    "xy": [
+      326.0,
+      510.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 142
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2020",
+    "characters": [
+      "†"
+    ],
+    "kind": "kinks",
+    "xy": [
+      329.0,
+      488.0
+    ],
+    "degrees": 8.46,
+    "contour": 0,
+    "id": 143
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2020",
+    "characters": [
+      "†"
+    ],
+    "kind": "kinks",
+    "xy": [
+      113.0,
+      8.0
+    ],
+    "degrees": 7.55,
+    "contour": 0,
+    "id": 144
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      89.0,
+      0.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 145
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      42.0,
+      250.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 146
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      95.0,
+      480.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 147
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      326.0,
+      510.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 148
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      329.0,
+      488.0
+    ],
+    "degrees": 8.46,
+    "contour": 0,
+    "id": 149
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      273.0,
+      280.0
+    ],
+    "degrees": 7.13,
+    "contour": 0,
+    "id": 150
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      276.0,
+      258.0
+    ],
+    "degrees": 8.46,
+    "contour": 0,
+    "id": 151
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni2021",
+    "characters": [
+      "‡"
+    ],
+    "kind": "kinks",
+    "xy": [
+      113.0,
+      8.0
+    ],
+    "degrees": 7.53,
+    "contour": 0,
+    "id": 152
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni040D",
+    "characters": [
+      "Ѝ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      124.0,
+      67.0
+    ],
+    "degrees": 6.17,
+    "contour": 0,
+    "id": 153
+  },
+  {
+    "style": "Italic",
+    "glyph": "uni040D",
+    "characters": [
+      "Ѝ"
+    ],
+    "kind": "kinks",
+    "xy": [
+      457.0,
+      531.0
+    ],
+    "degrees": 5.45,
+    "contour": 0,
+    "id": 154
+  }
+]

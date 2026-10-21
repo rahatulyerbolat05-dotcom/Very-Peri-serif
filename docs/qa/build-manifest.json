@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.107",
+  "version": "1.108",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -33,7 +33,7 @@
   ],
   "kerning_preserved": false,
   "glyphs_added": 136,
-  "kerning_pairs_added": 60165,
+  "kerning_pairs_added": 60117,
   "collision_adjustments": [
     {
       "left": ".notdef",
@@ -8557,6 +8557,18 @@
     },
     {
       "left": "Lslash",
+      "right": "uni043A.short",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "Lslash",
+      "right": "uni043A.short.flag",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "Lslash",
       "right": "uni043D.flat",
       "requested": 2,
       "actual": 0
@@ -10675,6 +10687,12 @@
     },
     {
       "left": "P",
+      "right": "uni0436",
+      "requested": -12,
+      "actual": -11
+    },
+    {
+      "left": "P",
       "right": "uni20B8",
       "requested": -66,
       "actual": -57
@@ -10875,7 +10893,7 @@
       "left": "R",
       "right": "uni042F",
       "requested": 4,
-      "actual": 17
+      "actual": 16
     },
     {
       "left": "R",
@@ -10965,7 +10983,7 @@
       "left": "Racute",
       "right": "uni042F",
       "requested": 4,
-      "actual": 17
+      "actual": 16
     },
     {
       "left": "Racute",
@@ -11055,7 +11073,7 @@
       "left": "Rcaron",
       "right": "uni042F",
       "requested": 4,
-      "actual": 17
+      "actual": 16
     },
     {
       "left": "Rcaron",
@@ -11145,7 +11163,7 @@
       "left": "uni0156",
       "right": "uni042F",
       "requested": 4,
-      "actual": 17
+      "actual": 16
     },
     {
       "left": "uni0156",
@@ -11755,7 +11773,19 @@
     },
     {
       "left": "uni1E9E",
+      "right": "uni043A.short",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni1E9E",
       "right": "uni043A.flag",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni1E9E",
+      "right": "uni043A.short.flag",
       "requested": -2,
       "actual": 0
     },
@@ -15140,7 +15170,7 @@
     {
       "left": "X",
       "right": "uni0436",
-      "requested": -34,
+      "requested": -36,
       "actual": -5
     },
     {
@@ -18889,18 +18919,6 @@
     },
     {
       "left": "d",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "d",
-      "right": "uni043A.short.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "d",
       "right": "uni049B.alternate",
       "requested": 2,
       "actual": 0
@@ -19039,18 +19057,6 @@
     },
     {
       "left": "dcaron",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "dcaron",
-      "right": "uni043A.short.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "dcaron",
       "right": "uni049B.alternate",
       "requested": 2,
       "actual": 0
@@ -19131,18 +19137,6 @@
       "left": "dcroat",
       "right": "uni20BD",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "dcroat",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "dcroat",
-      "right": "uni043A.short.flag",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -20540,7 +20534,7 @@
     {
       "left": "f",
       "right": "uni0436",
-      "requested": -16,
+      "requested": -18,
       "actual": -8
     },
     {
@@ -21512,7 +21506,7 @@
     {
       "left": "h",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -21590,7 +21584,7 @@
     {
       "left": "hbar",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -22233,7 +22227,7 @@
       "left": "icircumflex",
       "right": "uni042D",
       "requested": -18,
-      "actual": 35
+      "actual": 36
     },
     {
       "left": "icircumflex",
@@ -24271,6 +24265,12 @@
     },
     {
       "left": "l",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 4
+    },
+    {
+      "left": "l",
       "right": "uni0437",
       "requested": -26,
       "actual": 2
@@ -24436,6 +24436,12 @@
       "right": "uni0433",
       "requested": 2,
       "actual": 0
+    },
+    {
+      "left": "lacute",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 4
     },
     {
       "left": "lacute",
@@ -24763,6 +24769,12 @@
     },
     {
       "left": "uni013C",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 4
+    },
+    {
+      "left": "uni013C",
       "right": "uni0437",
       "requested": -26,
       "actual": 2
@@ -24974,7 +24986,7 @@
     {
       "left": "m",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -25052,7 +25064,7 @@
     {
       "left": "n",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -25130,7 +25142,7 @@
     {
       "left": "nacute",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -25214,7 +25226,7 @@
     {
       "left": "ncaron",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -25292,7 +25304,7 @@
     {
       "left": "uni0146",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -25376,7 +25388,7 @@
     {
       "left": "ntilde",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -26809,6 +26821,12 @@
     },
     {
       "left": "q",
+      "right": "uni0436",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "q",
       "right": "uni043A",
       "requested": 2,
       "actual": 0
@@ -26924,7 +26942,7 @@
     {
       "left": "r",
       "right": "uni0436",
-      "requested": -6,
+      "requested": -8,
       "actual": 0
     },
     {
@@ -27002,7 +27020,7 @@
     {
       "left": "racute",
       "right": "uni0436",
-      "requested": -6,
+      "requested": -8,
       "actual": 0
     },
     {
@@ -27080,7 +27098,7 @@
     {
       "left": "rcaron",
       "right": "uni0436",
-      "requested": -6,
+      "requested": -8,
       "actual": 0
     },
     {
@@ -27158,7 +27176,7 @@
     {
       "left": "uni0157",
       "right": "uni0436",
-      "requested": -6,
+      "requested": -8,
       "actual": 0
     },
     {
@@ -30122,7 +30140,7 @@
     {
       "left": "w",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -30242,7 +30260,7 @@
     {
       "left": "w",
       "right": "uni0442.ss08",
-      "requested": 14,
+      "requested": 12,
       "actual": 34
     },
     {
@@ -30302,7 +30320,7 @@
     {
       "left": "wacute",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -30422,7 +30440,7 @@
     {
       "left": "wacute",
       "right": "uni0442.ss08",
-      "requested": 14,
+      "requested": 12,
       "actual": 34
     },
     {
@@ -30482,7 +30500,7 @@
     {
       "left": "wcircumflex",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -30602,7 +30620,7 @@
     {
       "left": "wcircumflex",
       "right": "uni0442.ss08",
-      "requested": 14,
+      "requested": 12,
       "actual": 34
     },
     {
@@ -30662,7 +30680,7 @@
     {
       "left": "wdieresis",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -30782,7 +30800,7 @@
     {
       "left": "wdieresis",
       "right": "uni0442.ss08",
-      "requested": 14,
+      "requested": 12,
       "actual": 34
     },
     {
@@ -30842,7 +30860,7 @@
     {
       "left": "wgrave",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 22
     },
     {
@@ -30962,7 +30980,7 @@
     {
       "left": "wgrave",
       "right": "uni0442.ss08",
-      "requested": 14,
+      "requested": 12,
       "actual": 34
     },
     {
@@ -31040,7 +31058,7 @@
     {
       "left": "x",
       "right": "uni0436",
-      "requested": -10,
+      "requested": -12,
       "actual": 18
     },
     {
@@ -31539,7 +31557,7 @@
       "left": "ycircumflex",
       "right": "uni042D",
       "requested": -72,
-      "actual": -54
+      "actual": -53
     },
     {
       "left": "ycircumflex",
@@ -34633,7 +34651,19 @@
     },
     {
       "left": "d.ss01",
+      "right": "uni043A.short",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "d.ss01",
       "right": "uni043A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "d.ss01",
+      "right": "uni043A.short.flag",
       "requested": 2,
       "actual": 0
     },
@@ -34999,7 +35029,19 @@
     },
     {
       "left": "dcaron.ss01",
+      "right": "uni043A.short",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "dcaron.ss01",
       "right": "uni043A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "dcaron.ss01",
+      "right": "uni043A.short.flag",
       "requested": 2,
       "actual": 0
     },
@@ -35179,7 +35221,19 @@
     },
     {
       "left": "dcroat.ss01",
+      "right": "uni043A.short",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "dcroat.ss01",
       "right": "uni043A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "dcroat.ss01",
+      "right": "uni043A.short.flag",
       "requested": 2,
       "actual": 0
     },
@@ -37616,7 +37670,7 @@
     {
       "left": "f_h",
       "right": "uni043B",
-      "requested": -16,
+      "requested": -14,
       "actual": 14
     },
     {
@@ -37876,6 +37930,12 @@
       "right": "uni0433",
       "requested": 2,
       "actual": 0
+    },
+    {
+      "left": "f_l",
+      "right": "uni0436",
+      "requested": 2,
+      "actual": 4
     },
     {
       "left": "f_l",
@@ -38204,6 +38264,12 @@
     {
       "left": "zero",
       "right": "uni0431",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "zero",
+      "right": "uni0436",
       "requested": 2,
       "actual": 0
     },
@@ -39757,19 +39823,7 @@
     },
     {
       "left": "bullet",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "bullet",
       "right": "uni043A.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "bullet",
-      "right": "uni043A.short.flag",
       "requested": -2,
       "actual": 0
     },
@@ -39817,12 +39871,6 @@
     },
     {
       "left": "numbersign",
-      "right": "uni0436",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "numbersign",
       "right": "uni0437",
       "requested": -2,
       "actual": 0
@@ -39848,6 +39896,12 @@
     {
       "left": "slash",
       "right": "uni0434",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "slash",
+      "right": "uni0436",
       "requested": -2,
       "actual": 0
     },
@@ -41401,7 +41455,19 @@
     },
     {
       "left": "at",
+      "right": "uni043A.short",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "at",
       "right": "uni043A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "at",
+      "right": "uni043A.short.flag",
       "requested": 2,
       "actual": 0
     },
@@ -42156,12 +42222,6 @@
       "actual": 0
     },
     {
-      "left": "degree",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
       "left": "bar",
       "right": "uni042F",
       "requested": 2,
@@ -42345,12 +42405,6 @@
       "left": "cent",
       "right": "uni04AF",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "cent",
-      "right": "uni2248",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -44446,6 +44500,12 @@
       "right": "uni043D.flat",
       "requested": 2,
       "actual": 18
+    },
+    {
+      "left": "uni0410",
+      "right": "uni0442.ss08",
+      "requested": -16,
+      "actual": -15
     },
     {
       "left": "uni0410",
@@ -48379,12 +48439,6 @@
     },
     {
       "left": "uni0417",
-      "right": "uni0436",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0417",
       "right": "uni0437",
       "requested": -54,
       "actual": -48
@@ -51410,7 +51464,7 @@
     {
       "left": "uni0420",
       "right": "uni0436",
-      "requested": -10,
+      "requested": -12,
       "actual": -9
     },
     {
@@ -52688,7 +52742,7 @@
     {
       "left": "uni0423",
       "right": "uni0436",
-      "requested": -82,
+      "requested": -84,
       "actual": -71
     },
     {
@@ -53270,7 +53324,7 @@
     {
       "left": "uni0425",
       "right": "uni0436",
-      "requested": -34,
+      "requested": -36,
       "actual": 4
     },
     {
@@ -57206,7 +57260,7 @@
     {
       "left": "uni042F",
       "right": "uni0436",
-      "requested": -8,
+      "requested": -10,
       "actual": -5
     },
     {
@@ -57457,7 +57511,19 @@
     },
     {
       "left": "uni0430",
+      "right": "uni043A.short",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0430",
       "right": "uni043A.flag",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0430",
+      "right": "uni043A.short.flag",
       "requested": 2,
       "actual": 0
     },
@@ -58154,7 +58220,7 @@
     {
       "left": "uni0433",
       "right": "uni0436",
-      "requested": -18,
+      "requested": -20,
       "actual": 9
     },
     {
@@ -58178,7 +58244,7 @@
     {
       "left": "uni0433",
       "right": "uni043C",
-      "requested": -28,
+      "requested": -26,
       "actual": -14
     },
     {
@@ -58489,6 +58555,12 @@
     },
     {
       "left": "uni0435",
+      "right": "uni0436",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni0435",
       "right": "uni0438",
       "requested": 8,
       "actual": 0
@@ -58623,6 +58695,12 @@
       "left": "uni0451",
       "right": "uni0451",
       "requested": 24,
+      "actual": 0
+    },
+    {
+      "left": "uni0451",
+      "right": "uni0436",
+      "requested": -2,
       "actual": 0
     },
     {
@@ -58831,6 +58909,18 @@
     },
     {
       "left": "uni0436",
+      "right": "Eth",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "Dcroat",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
       "right": "G",
       "requested": 2,
       "actual": 0
@@ -58951,56 +59041,26 @@
     },
     {
       "left": "uni0436",
-      "right": "h",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "hbar",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "k",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "uni0137",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
       "right": "l",
-      "requested": -2,
+      "requested": -4,
       "actual": 0
     },
     {
       "left": "uni0436",
       "right": "lacute",
-      "requested": -2,
+      "requested": -4,
       "actual": 0
     },
     {
       "left": "uni0436",
       "right": "lcaron",
-      "requested": -2,
+      "requested": -4,
       "actual": 0
     },
     {
       "left": "uni0436",
       "right": "uni013C",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0436",
-      "right": "thorn",
-      "requested": -2,
+      "requested": -4,
       "actual": 0
     },
     {
@@ -59012,31 +59072,31 @@
     {
       "left": "uni0436",
       "right": "w",
-      "requested": -12,
+      "requested": -14,
       "actual": 22
     },
     {
       "left": "uni0436",
       "right": "wacute",
-      "requested": -12,
+      "requested": -14,
       "actual": 22
     },
     {
       "left": "uni0436",
       "right": "wcircumflex",
-      "requested": -12,
+      "requested": -14,
       "actual": 22
     },
     {
       "left": "uni0436",
       "right": "wdieresis",
-      "requested": -12,
+      "requested": -14,
       "actual": 22
     },
     {
       "left": "uni0436",
       "right": "wgrave",
-      "requested": -12,
+      "requested": -14,
       "actual": 22
     },
     {
@@ -59074,6 +59134,30 @@
       "right": "ygrave",
       "requested": -20,
       "actual": 22
+    },
+    {
+      "left": "uni0436",
+      "right": "z",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "zacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "zcaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni0436",
+      "right": "zdotaccent",
+      "requested": 2,
+      "actual": 0
     },
     {
       "left": "uni0436",
@@ -59444,7 +59528,7 @@
     {
       "left": "uni0436",
       "right": "uni049B.context",
-      "requested": -22,
+      "requested": -24,
       "actual": 0
     },
     {
@@ -59462,7 +59546,7 @@
     {
       "left": "uni0436",
       "right": "uni049B.context.tail_old",
-      "requested": -22,
+      "requested": -24,
       "actual": 0
     },
     {
@@ -60836,7 +60920,7 @@
     {
       "left": "uni043A",
       "right": "uni043A.short",
-      "requested": -34,
+      "requested": -32,
       "actual": 5
     },
     {
@@ -60848,7 +60932,7 @@
     {
       "left": "uni043A",
       "right": "uni043A.short.flag",
-      "requested": -34,
+      "requested": -32,
       "actual": 5
     },
     {
@@ -61508,7 +61592,7 @@
     {
       "left": "uni043B",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 20
     },
     {
@@ -62173,6 +62257,78 @@
     },
     {
       "left": "uni043C",
+      "right": "a",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "abreve",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "uni01CE",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "acircumflex",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "adieresis",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "agrave",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "amacron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aogonek",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aring",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "atilde",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "ae",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
       "right": "b",
       "requested": 2,
       "actual": 0
@@ -62671,6 +62827,72 @@
     },
     {
       "left": "uni043C",
+      "right": "a.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aacute.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "abreve.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "uni01CE.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "acircumflex.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "adieresis.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "agrave.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "amacron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aogonek.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "aring.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
+      "right": "atilde.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043C",
       "right": "c.ss01",
       "requested": 2,
       "actual": 0
@@ -62834,12 +63056,6 @@
     {
       "left": "uni043C",
       "right": "q_j",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni043C",
-      "right": "zero",
       "requested": 2,
       "actual": 0
     },
@@ -63296,7 +63512,7 @@
     {
       "left": "uni043C",
       "right": "uni049B",
-      "requested": -14,
+      "requested": -16,
       "actual": -12
     },
     {
@@ -63410,13 +63626,13 @@
     {
       "left": "uni043C",
       "right": "uni049B.context",
-      "requested": -14,
+      "requested": -16,
       "actual": -12
     },
     {
       "left": "uni043C",
       "right": "uni049B.tail_old",
-      "requested": -14,
+      "requested": -16,
       "actual": -12
     },
     {
@@ -63428,7 +63644,7 @@
     {
       "left": "uni043C",
       "right": "uni049B.context.tail_old",
-      "requested": -14,
+      "requested": -16,
       "actual": -12
     },
     {
@@ -64023,12 +64239,6 @@
       "left": "uni0441",
       "right": "uni0451",
       "requested": 14,
-      "actual": 0
-    },
-    {
-      "left": "uni0441",
-      "right": "uni0436",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -64688,7 +64898,7 @@
     {
       "left": "uni0443",
       "right": "uni0436",
-      "requested": -56,
+      "requested": -58,
       "actual": 24
     },
     {
@@ -74216,7 +74426,7 @@
     {
       "left": "uni04A2",
       "right": "uni0414",
-      "requested": -28,
+      "requested": -26,
       "actual": 0
     },
     {
@@ -74432,7 +74642,7 @@
     {
       "left": "uni04A2",
       "right": "uni0434.ss07",
-      "requested": -26,
+      "requested": -24,
       "actual": 0
     },
     {
@@ -76694,7 +76904,7 @@
     {
       "left": "uni04BA",
       "right": "uni043B",
-      "requested": -20,
+      "requested": -18,
       "actual": 15
     },
     {
@@ -77372,7 +77582,7 @@
     {
       "left": "uni0493",
       "right": "uni0436",
-      "requested": -20,
+      "requested": -22,
       "actual": 7
     },
     {
@@ -77487,18 +77697,6 @@
       "left": "uni0493",
       "right": "uni043F.flag",
       "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0493",
-      "right": "uni043A.short",
-      "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni0493",
-      "right": "uni043A.short.flag",
-      "requested": 2,
       "actual": 0
     },
     {
@@ -77990,7 +78188,7 @@
     {
       "left": "uni049B",
       "right": "uni0433",
-      "requested": -34,
+      "requested": -32,
       "actual": 7
     },
     {
@@ -78554,7 +78752,7 @@
     {
       "left": "uni04B1",
       "right": "uni0436",
-      "requested": -50,
+      "requested": -52,
       "actual": 36
     },
     {
@@ -78896,7 +79094,7 @@
     {
       "left": "uni04AF",
       "right": "uni0436",
-      "requested": -50,
+      "requested": -52,
       "actual": 36
     },
     {
@@ -81415,6 +81613,12 @@
     },
     {
       "left": "uni20BD",
+      "right": "uni0436",
+      "requested": -10,
+      "actual": -9
+    },
+    {
+      "left": "uni20BD",
       "right": "uni043F",
       "requested": 2,
       "actual": 0
@@ -81837,7 +82041,7 @@
       "left": "uni20B4",
       "right": "uni0442.ss08",
       "requested": -8,
-      "actual": 8
+      "actual": 7
     },
     {
       "left": "uni2116",
@@ -83078,7 +83282,7 @@
     {
       "left": "uni2116",
       "right": "uni0436",
-      "requested": -92,
+      "requested": -96,
       "actual": -29
     },
     {
@@ -83330,7 +83534,7 @@
     {
       "left": "uni2116",
       "right": "uni043A.short",
-      "requested": -68,
+      "requested": -66,
       "actual": -39
     },
     {
@@ -83342,7 +83546,7 @@
     {
       "left": "uni2116",
       "right": "uni043A.short.flag",
-      "requested": -68,
+      "requested": -66,
       "actual": -39
     },
     {
@@ -83695,7 +83899,37 @@
     },
     {
       "left": "uni2032",
+      "right": "uni0423",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2032",
       "right": "uni04E8",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni2033",
+      "right": "G",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni2033",
+      "right": "Gbreve",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni2033",
+      "right": "uni0122",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni2033",
+      "right": "Gdotaccent",
       "requested": 2,
       "actual": 0
     },
@@ -83845,6 +84079,12 @@
     },
     {
       "left": "uni2248",
+      "right": "b",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
       "right": "c",
       "requested": -2,
       "actual": 0
@@ -83899,67 +84139,91 @@
     },
     {
       "left": "uni2248",
-      "right": "o",
+      "right": "f",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "oacute",
+      "right": "h",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "ocircumflex",
+      "right": "hbar",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "odieresis",
+      "right": "k",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "ograve",
+      "right": "uni0137",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "ohungarumlaut",
+      "right": "l",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "omacron",
+      "right": "lacute",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "oslash",
+      "right": "lcaron",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "otilde",
+      "right": "uni013C",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
-      "right": "oe",
+      "right": "thorn",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
       "right": "q",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
+      "right": "germandbls",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
+      "right": "t",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
+      "right": "tcaron",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
+      "right": "uni021B",
       "requested": -2,
       "actual": 0
     },
@@ -84031,18 +84295,6 @@
     },
     {
       "left": "uni2248",
-      "right": "zero",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni2248",
-      "right": "six",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni2248",
       "right": "nine",
       "requested": -2,
       "actual": 0
@@ -84067,6 +84319,12 @@
     },
     {
       "left": "uni2248",
+      "right": "braceright",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
       "right": "uni0410",
       "requested": 2,
       "actual": 0
@@ -84075,12 +84333,6 @@
       "left": "uni2248",
       "right": "uni043C",
       "requested": 2,
-      "actual": 0
-    },
-    {
-      "left": "uni2248",
-      "right": "uni043E",
-      "requested": -2,
       "actual": 0
     },
     {
@@ -84109,13 +84361,19 @@
     },
     {
       "left": "uni2248",
-      "right": "uni04E9",
+      "right": "uni04BB",
       "requested": -2,
       "actual": 0
     },
     {
       "left": "uni2248",
       "right": "uni2021",
+      "requested": -2,
+      "actual": 0
+    },
+    {
+      "left": "uni2248",
+      "right": "uni2248",
       "requested": -2,
       "actual": 0
     },
@@ -85292,7 +85550,7 @@
     {
       "left": "uni043A.short",
       "right": "uni0436",
-      "requested": -72,
+      "requested": -74,
       "actual": 38
     },
     {
@@ -85561,73 +85819,145 @@
     },
     {
       "left": "uni043A.flag",
-      "right": "i",
+      "right": "a",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "dotlessi",
+      "right": "aacute",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "iacute",
+      "right": "abreve",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "icircumflex",
+      "right": "uni01CE",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "idieresis",
+      "right": "acircumflex",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "i.loclTRK",
+      "right": "adieresis",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "igrave",
+      "right": "agrave",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "ij",
+      "right": "amacron",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "imacron",
+      "right": "aogonek",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "iogonek",
+      "right": "aring",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "j",
+      "right": "atilde",
       "requested": 2,
       "actual": 0
     },
     {
       "left": "uni043A.flag",
-      "right": "uni0237",
+      "right": "ae",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "m",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "n",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "nacute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "ncaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "uni0146",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "ntilde",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "eng",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "p",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "r",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "racute",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "rcaron",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "uni0157",
       "requested": 2,
       "actual": 0
     },
@@ -85783,6 +86113,72 @@
     },
     {
       "left": "uni043A.flag",
+      "right": "a.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "aacute.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "abreve.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "uni01CE.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "acircumflex.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "adieresis.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "agrave.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "amacron.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "aogonek.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "aring.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
+      "right": "atilde.ss01",
+      "requested": 2,
+      "actual": 0
+    },
+    {
+      "left": "uni043A.flag",
       "right": "uni0431",
       "requested": -40,
       "actual": -35
@@ -85820,7 +86216,7 @@
     {
       "left": "uni043A.flag",
       "right": "uni043C",
-      "requested": -28,
+      "requested": -30,
       "actual": -9
     },
     {
@@ -85862,7 +86258,7 @@
     {
       "left": "uni043A.flag",
       "right": "uni044A",
-      "requested": -22,
+      "requested": -24,
       "actual": 18
     },
     {
@@ -85982,7 +86378,7 @@
     {
       "left": "uni043A.short.flag",
       "right": "uni0436",
-      "requested": -52,
+      "requested": -54,
       "actual": -26
     },
     {
@@ -87974,7 +88370,7 @@
     {
       "left": "uni0442.ss08",
       "right": "uni0436",
-      "requested": -10,
+      "requested": -12,
       "actual": 20
     },
     {
@@ -90843,7 +91239,7 @@
       "left": "uni0430.ss01",
       "right": "uni042F",
       "requested": -28,
-      "actual": -6
+      "actual": -7
     },
     {
       "left": "uni0430.ss01",
@@ -95293,18 +95689,6 @@
     },
     {
       "left": "uni0435.ss01",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0435.ss01",
-      "right": "uni043A.short.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0435.ss01",
       "right": "uni0430.ss01",
       "requested": 10,
       "actual": 0
@@ -97573,18 +97957,6 @@
     },
     {
       "left": "uni0451.ss01",
-      "right": "uni043A.short",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0451.ss01",
-      "right": "uni043A.short.flag",
-      "requested": -2,
-      "actual": 0
-    },
-    {
-      "left": "uni0451.ss01",
       "right": "uni0430.ss01",
       "requested": 10,
       "actual": 0
@@ -99032,7 +99404,7 @@
     {
       "left": "uni049B.alternate",
       "right": "uni0446",
-      "requested": -52,
+      "requested": -50,
       "actual": 9
     },
     {
@@ -99098,7 +99470,7 @@
     {
       "left": "uni049B.alternate",
       "right": "uni0446.tail_old",
-      "requested": -52,
+      "requested": -50,
       "actual": 9
     },
     {
@@ -100370,7 +100742,7 @@
     {
       "left": "uni049B.alternate.tail_old",
       "right": "uni0436",
-      "requested": -104,
+      "requested": -106,
       "actual": -17
     },
     {
@@ -100394,7 +100766,7 @@
     {
       "left": "uni049B.alternate.tail_old",
       "right": "uni043C",
-      "requested": -68,
+      "requested": -70,
       "actual": -41
     },
     {
@@ -102541,7 +102913,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 757
+      "advance_unspaced": 757,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0416.glif",
+        "sha256": "cc3a8f4908174f9a2fe35ef8cc0ea5e92a13d82f66a421b2982aa0982ce4fbcb",
+        "reviewed_outline": true
+      }
     },
     "uni0417": {
       "character": "З",
@@ -102603,6 +102980,11 @@
           "lines": 5,
           "deviation": 0.67
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0419.glif",
+        "sha256": "210ca8c152aee0be9dbd7cd14a98b86aec744487a68c6190ca3cc4ddedc5da84",
+        "reviewed_outline": true
       }
     },
     "uni041A": {
@@ -102637,7 +103019,12 @@
         }
       },
       "spacing_dx": -39,
-      "advance_unspaced": 466
+      "advance_unspaced": 466,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni041B.glif",
+        "sha256": "7b6a28b2a55944f64a08f60a6b83c4d8305806279aea2e19a612d33e62f60fc4",
+        "reviewed_outline": true
+      }
     },
     "uni041C": {
       "character": "М",
@@ -102962,7 +103349,12 @@
         }
       },
       "spacing_dx": -50,
-      "advance_unspaced": 480
+      "advance_unspaced": 480,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni042D.glif",
+        "sha256": "3337abe2c18f6a815b913700531d77ae5cb2f91158c1fa58b029c4d905c3c16d",
+        "reviewed_outline": true
+      }
     },
     "uni042E": {
       "character": "Ю",
@@ -103007,7 +103399,12 @@
         "straight_after_fair": 1
       },
       "spacing_dx": -2,
-      "advance_unspaced": 519
+      "advance_unspaced": 519,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni042F.glif",
+        "sha256": "0dafe4c23abd972dcda4203e2ac67073ad30c0fa1b6e3d98b9874ed0cebb8676",
+        "reviewed_outline": true
+      }
     },
     "uni0430": {
       "character": "а",
@@ -103153,7 +103550,12 @@
         }
       },
       "spacing_dx": -10,
-      "advance_unspaced": 572
+      "advance_unspaced": 572,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0436.glif",
+        "sha256": "74c714181d188aa44cdb11eb390f7cbe4d46c1f1e606d34cad1566ea3ffa8243",
+        "reviewed_outline": true
+      }
     },
     "uni0437": {
       "character": "з",
@@ -103207,6 +103609,11 @@
           "lines": 3,
           "deviation": 1.0
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0439.glif",
+        "sha256": "51f1b031d311b3cc8b4f2a43feeaf9697562a5be2644b8cbca0835c13fbf7212",
+        "reviewed_outline": true
       }
     },
     "uni043A": {
@@ -103253,7 +103660,12 @@
         }
       },
       "spacing_dx": -39,
-      "advance_unspaced": 476
+      "advance_unspaced": 476,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043B.glif",
+        "sha256": "781f7dead1944376a6eecb3d91bf81334f410fd9c9a2ed91d167bce7ff95f518",
+        "reviewed_outline": true
+      }
     },
     "uni043C": {
       "character": "м",
@@ -103278,7 +103690,12 @@
         }
       },
       "spacing_dx": -20,
-      "advance_unspaced": 542
+      "advance_unspaced": 542,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043C.glif",
+        "sha256": "046d7c1c43955f5401b63baea49b117dc447ae9828ed15fa62ff8b0c0ad3a47d",
+        "reviewed_outline": true
+      }
     },
     "uni043D": {
       "character": "н",
@@ -103366,7 +103783,12 @@
         }
       },
       "spacing_dx": -4,
-      "advance_unspaced": 718
+      "advance_unspaced": 718,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0442.glif",
+        "sha256": "cd8177ad42c06c7f5804d364dde0ddb16213dcaa3b3c70a51ab387ec752e8751",
+        "reviewed_outline": true
+      }
     },
     "uni0443": {
       "character": "у",
@@ -103503,7 +103925,12 @@
         }
       },
       "spacing_dx": -10,
-      "advance_unspaced": 721
+      "advance_unspaced": 721,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0449.glif",
+        "sha256": "1b03b3d3271baa230e2d659fc1fdce339d1cb6d4464a3491accd2ae250c4c84e",
+        "reviewed_outline": true
+      }
     },
     "uni044A": {
       "character": "ъ",
@@ -103525,7 +103952,12 @@
         }
       },
       "spacing_dx": -12,
-      "advance_unspaced": 427
+      "advance_unspaced": 427,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni044A.glif",
+        "sha256": "67df2a86cac0562b3f3749f79cce75383fcc495f3bd80a3a36db91da80a6600a",
+        "reviewed_outline": true
+      }
     },
     "uni044B": {
       "character": "ы",
@@ -103548,7 +103980,12 @@
         }
       },
       "spacing_dx": 16,
-      "advance_unspaced": 526
+      "advance_unspaced": 526,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni044B.glif",
+        "sha256": "5f19bc192f40b0c25ed3dc654ececc0c1fa087650db28e722d62fc990569ce75",
+        "reviewed_outline": true
+      }
     },
     "uni044C": {
       "character": "ь",
@@ -103604,7 +104041,12 @@
         }
       },
       "spacing_dx": -2,
-      "advance_unspaced": 570
+      "advance_unspaced": 570,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni044E.glif",
+        "sha256": "a8203487cf718435d8ae87a784a9c418b1e456bbe3733f8add3a7ec87d7621f6",
+        "reviewed_outline": true
+      }
     },
     "uni044F": {
       "character": "я",
@@ -103694,7 +104136,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 577
+      "advance_unspaced": 577,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049A.glif",
+        "sha256": "5513ca6a5ad91b5563b57b29efddf0c836270f08bd0cf5f13516cd0000286668",
+        "reviewed_outline": true
+      }
     },
     "uni04A2": {
       "character": "Ң",
@@ -103717,7 +104164,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 614
+      "advance_unspaced": 614,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04A2.glif",
+        "sha256": "b41a65b5abc8182d40084f5747b6ba87ed11f0f84dd19520207248958518ed78",
+        "reviewed_outline": true
+      }
     },
     "uni04E8": {
       "character": "Ө",
@@ -103785,6 +104237,11 @@
           "lines": 3,
           "deviation": 1.0
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04BA.glif",
+        "sha256": "74e7381fc74436c4c70a69bfeb04a394fa622d482331f6639f274d100c97ed69",
+        "reviewed_outline": true
       }
     },
     "uni0406": {
@@ -103862,7 +104319,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 509
+      "advance_unspaced": 509,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.glif",
+        "sha256": "261b012b3dc6a29ffb45b7a7318bd13762870088e97f8c36b0c60b13cc1e4a7f",
+        "reviewed_outline": true
+      }
     },
     "uni04A3": {
       "character": "ң",
@@ -103917,7 +104379,12 @@
         }
       },
       "spacing_dx": -47,
-      "advance_unspaced": 477
+      "advance_unspaced": 477,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04B1.glif",
+        "sha256": "bc5e861aa0407e07a31a55bf55b82f6b494578f8a416bd2003622da8955c4dca",
+        "reviewed_outline": true
+      }
     },
     "uni04AF": {
       "character": "ү",
@@ -103939,7 +104406,12 @@
         }
       },
       "spacing_dx": -47,
-      "advance_unspaced": 477
+      "advance_unspaced": 477,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04AF.glif",
+        "sha256": "d514e64dce1ede2cfe470b5b27b6563758883b5d90a28379876ac7b386f09dbf",
+        "reviewed_outline": true
+      }
     },
     "uni04BB": {
       "character": "һ",
@@ -104215,6 +104687,11 @@
           "nodes2": 1,
           "deviation": 0.5
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni2032.glif",
+        "sha256": "de371f30896868d765bea1bcca405b27b47c123a41c32cea9e067a937324f4c7",
+        "reviewed_outline": true
       }
     },
     "uni2033": {
@@ -104236,6 +104713,11 @@
           "nodes2": 2,
           "deviation": 0.5
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni2033.glif",
+        "sha256": "ad10cbc5d8dbdf0b60f49d1e55f65f5730d74221cd27023673e2ab79b467aacc",
+        "reviewed_outline": true
       }
     },
     "uni2020": {
@@ -104272,6 +104754,11 @@
           "nodes": 8,
           "deviation": 1.0
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni2248.glif",
+        "sha256": "9c6b0def831f3668644203a104573aee854cdd4d3ce7d21b5271e9bfad3221ba",
+        "reviewed_outline": true
       }
     },
     "uniFFFD": {
@@ -104366,7 +104853,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 462
+      "advance_unspaced": 462,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043A.short.glif",
+        "sha256": "c5dd42a8afcbd2e21f0974c8233ec5510c366c50818a62179f9c75b4b2dd8d4d",
+        "reviewed_outline": true
+      }
     },
     "uni043A.flag": {
       "character": "к",
@@ -104389,7 +104881,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 451
+      "advance_unspaced": 451,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043A.flag.glif",
+        "sha256": "596efcee7fe37ba798c1826a79c98e087fdf437ab1d8fe180fe9d66852089bf5",
+        "reviewed_outline": true
+      }
     },
     "uni043A.short.flag": {
       "character": "к",
@@ -104412,7 +104909,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 462
+      "advance_unspaced": 462,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043A.short.flag.glif",
+        "sha256": "d611321179c1df03361fe9772ab4061b5d6264b5ec28161b18b8481b0b3363a1",
+        "reviewed_outline": true
+      }
     },
     "uni041A.flag": {
       "character": "К",
@@ -104434,6 +104936,11 @@
           "lines": 5,
           "deviation": 1.0
         }
+      },
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni041A.flag.glif",
+        "sha256": "734aa0dd8f47ebf54ecd67f2afafcb2569516a54e9ffc5a244f04917448dc18a",
+        "reviewed_outline": true
       }
     },
     "uni043D.flat": {
@@ -104477,7 +104984,12 @@
         }
       },
       "spacing_dx": -38,
-      "advance_unspaced": 358
+      "advance_unspaced": 358,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0442.ss08.glif",
+        "sha256": "bf613ec3d289e8a8484a388e2e29d91250f7372f67aa45204795b6fc8a535536",
+        "reviewed_outline": true
+      }
     },
     "uni0434.ss07": {
       "character": "д",
@@ -104495,7 +105007,12 @@
         }
       },
       "spacing_dx": -46,
-      "advance_unspaced": 424
+      "advance_unspaced": 424,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0434.ss07.glif",
+        "sha256": "f81e2ace72ac4c4565e9220c244d80d67165a2aebc033b3e1d05eb8724f44aca",
+        "reviewed_outline": true
+      }
     },
     "uni0430.ss01": {
       "character": "а",
@@ -104595,7 +105112,12 @@
         }
       },
       "spacing_dx": -2,
-      "advance_unspaced": 550
+      "advance_unspaced": 550,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04A3.tail_old.glif",
+        "sha256": "522ba62895c0ce9e41da14bbff5bbbbf2c390b0ad5a3454e75c1ed235cd2c8fd",
+        "reviewed_outline": true
+      }
     },
     "uni0449.tail_old": {
       "character": "щ",
@@ -104618,7 +105140,12 @@
         }
       },
       "spacing_dx": -10,
-      "advance_unspaced": 721
+      "advance_unspaced": 721,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0449.tail_old.glif",
+        "sha256": "5ea0c334385606130054cd9f5b9f721896a85571a4c2f3cadb238bdd260e45db",
+        "reviewed_outline": true
+      }
     },
     "uni049B.alternate": {
       "character": "қ",
@@ -104641,7 +105168,12 @@
         }
       },
       "spacing_dx": -2,
-      "advance_unspaced": 510
+      "advance_unspaced": 510,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.alternate.glif",
+        "sha256": "fbbc9c323e219d61386606a1518bbcff95f9f69b21d9f72b00b5c07b6c4d5c68",
+        "reviewed_outline": true
+      }
     },
     "uni049B.context": {
       "character": "қ",
@@ -104665,7 +105197,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 508
+      "advance_unspaced": 508,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.context.glif",
+        "sha256": "4b8846897e7e20f127d39ec6e91e66dd02fde016136b3490fa81213a23f44bf7",
+        "reviewed_outline": true
+      }
     },
     "uni049B.tail_old": {
       "character": "қ",
@@ -104688,7 +105225,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 509
+      "advance_unspaced": 509,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.tail_old.glif",
+        "sha256": "9f10be5299ec7b130142907b22740340394dd3a5f9b0b5af3c3b606191a0eb0d",
+        "reviewed_outline": true
+      }
     },
     "uni049B.alternate.tail_old": {
       "character": "қ",
@@ -104711,7 +105253,12 @@
         }
       },
       "spacing_dx": -2,
-      "advance_unspaced": 510
+      "advance_unspaced": 510,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.alternate.tail_old.glif",
+        "sha256": "382402ef0a741c7b2b2818db76f37da4006382c04ba403954e68771ce6d90ee8",
+        "reviewed_outline": true
+      }
     },
     "uni049B.context.tail_old": {
       "character": "қ",
@@ -104735,7 +105282,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 508
+      "advance_unspaced": 508,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049B.context.tail_old.glif",
+        "sha256": "a41ce97877d33a1a4d182371ad660481827bee5f2e4012fce94966e92c9efaf9",
+        "reviewed_outline": true
+      }
     },
     "uni0429.tail_old": {
       "character": "Щ",
@@ -104758,7 +105310,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 774
+      "advance_unspaced": 774,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0429.tail_old.glif",
+        "sha256": "2e846619938b9d867818666dd896cd7abbc8aa5d11451aa01e42a40f0478899c",
+        "reviewed_outline": true
+      }
     },
     "uni049A.tail_old": {
       "character": "Қ",
@@ -104782,7 +105339,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 577
+      "advance_unspaced": 577,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni049A.tail_old.glif",
+        "sha256": "5f1c1964efdb03e67f0cd73eae78e943a0fc64a66c4aa3f9f4767c7bedbf85cc",
+        "reviewed_outline": true
+      }
     },
     "uni04A2.tail_old": {
       "character": "Ң",
@@ -104805,7 +105367,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 614
+      "advance_unspaced": 614,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04A2.tail_old.glif",
+        "sha256": "6577fcf62bd6397d4a4230fb202d28d5daff8af05918147b4642980097e9c444",
+        "reviewed_outline": true
+      }
     },
     "uni0426.tail_old": {
       "character": "Ц",
@@ -104838,5 +105405,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "ac573d38bc14d50898d6581f76224e7f3a788aa2b3e7a0cc6d1f0e87a0297db1"
+  "source_stage_ttf_sha256": "1565ff69daf2705376d389235119f35381643fc1b6ade9ddc93c9aed45d86a7c"
 }

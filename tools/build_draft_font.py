@@ -281,6 +281,11 @@ def main(output_dir=OUT,ttf_path=TTF):
             role=item['role'];base=name_for(ch)+('' if role=='primary' else '.'+role)
             old=base+'.tail_old';install(ch,item['path'],old);tail_pairs[base]=old
     font.setGlyphOrder(order);font['maxp'].numGlyphs=len(order)
+    from curve_finish import apply as finish_curves
+    for name,record in finish_curves(font,'Regular').items():
+        records[name]['curve_finish']=record
+        path=pathops.Path();font['glyf'][name].draw(path.getPen(),font['glyf'])
+        paths[name]=path
     extend_anchors(font,records)
     # The optical pass includes donor kerning and collision protection. The
     # historical preliminary vector-profile pass was discarded immediately by

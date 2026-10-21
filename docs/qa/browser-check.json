@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "20e02a01b6040c83ab2f8ceaabafe25d870b117df061e8865bdc564e34e63709",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "0ec71dc90e562aed1e3263c259ffbafdba23ff08c8076d5761d4078778f05ca3",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "922c5710455211487d6fe4f38a817cda02d74bf76677a6d79fdbfb6fa9652219",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "364e0f56f0f9e59a1aa11a3ea470bbee5dbf73d913d06dc83300ed743854fa21"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "70b09d438af303e1fe2dad21f557343e1d41b92c8df42b1abc476bce4c04a8c1",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "ff899b27fc0ee25720b8a04b17303fbd98813fb6df1f6021282ec48b0f546705",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "dc46cddd5b29b1d407a7ef2bdc07c45f2bd78f9047eecbcdd76a798ca804b8c6",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "245bd4f5d2252683973201911523bd480f81034a5b4c2b6b5143d258a89c9410"
   },
   "results": {
     "results": [
@@ -38,7 +38,7 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.533935546875,
+          1145.406005859375,
           909.6944580078125,
           748.798828125,
           1039.55029296875,
@@ -66,7 +66,7 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.533935546875,
+          1145.406005859375,
           909.6944580078125,
           748.798828125,
           1039.55029296875,
@@ -94,7 +94,7 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.533935546875,
+          1145.406005859375,
           909.6944580078125,
           748.798828125,
           1039.55029296875,
