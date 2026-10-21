@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
+      "sha256": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
       "style": "Regular",
-      "version": "Version 1.102",
+      "version": "Version 1.103",
       "passed": 1605,
       "failed": 0,
       "checks": [
@@ -1652,10 +1652,10 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002",
+      "sha256": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591",
       "style": "Italic",
-      "version": "Version 1.102",
-      "passed": 2153,
+      "version": "Version 1.103",
+      "passed": 2161,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
@@ -1675,6 +1675,14 @@
         "De retains rounded native bowl at y=-4.5",
         "De retains rounded native bowl at y=0.5",
         "De retains rounded native bowl at y=5.5",
+        "Ya lower bowl is continuous at x=140.1",
+        "Ya lower bowl is continuous at x=145.1",
+        "Ya lower bowl is continuous at x=150.1",
+        "Ya lower bowl is continuous at x=155.1",
+        "Ya lower bowl is continuous at x=160.1",
+        "Ya lower bowl is continuous at x=165.1",
+        "Ya lower arc holds the reviewed 14-16 unit hairline",
+        "Ya has no new contour kink",
         "No experimental PUA characters",
         "Native outlines, hints and metrics preserved",
         "Attached stress А {} ru",
@@ -3889,6 +3897,6 @@
       "raster_homoglyphs": []
     }
   ],
-  "passed": 3758,
+  "passed": 3766,
   "failed": 0
 }

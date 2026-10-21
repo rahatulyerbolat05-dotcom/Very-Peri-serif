@@ -470,13 +470,14 @@ def build(ita,reg):
     # bowl bottom next to the stem (Old Standard, Cormorant, EB Garamond: the leg leaves the bowl at the stem and ends at the lower left).
     g_=native(ita,'g');x_=native(ita,'x')
     # g bowl without ear and link: the link is cut along an ellipse through the outer contour of the bowl (left -12.2 and right 288 at y=350,
-    # top 516, bottom ~200), so the bowl closes in its own curve instead of a flat cut
+    # top 516, bottom ~191). The deeper lower arc retains a 14-16 unit hairline;
+    # the old -197 ellipse left only 9 units below the counter in the exported я.
     def ellipse_ud(cu,cy,a,b):
         k=0.5523;X=lambda u,y:(u+S*y,y);e=pathops.Path();pen=e.getPen();pen.moveTo(X(cu+a,cy))
         for (p1,p2,p3) in (((cu+a,cy+k*b),(cu+k*a,cy+b),(cu,cy+b)),((cu-k*a,cy+b),(cu-a,cy+k*b),(cu-a,cy)),((cu-a,cy-k*b),(cu-k*a,cy-b),(cu,cy-b)),((cu+k*a,cy-b),(cu+a,cy-k*b),(cu+a,cy))):
             pen.curveTo(X(*p1),X(*p2),X(*p3))
         pen.closePath();return e
-    ya_bowl=AND(SUB(g_,AND(above(470),right_of(250))),ellipse_ud(138.,357.,151.5,160.))
+    ya_bowl=AND(SUB(g_,AND(above(470),right_of(250))),ellipse_ud(138.,357.,151.5,166.))
     YA_SL=219.5
     q_top=OR(band(YA_SL,YA_SL+67.1,196,513),transformed(AND(q,AND(right_of(258),above(470))),dx=YA_SL-237.0))   # stem (67) and the ear of q; the V of q between bowl and ear is filled
     u_low=transformed(AND(u_stem2(),below(204)),dx=YA_SL-U_L)                  # stem foot and exit of u (63.4)

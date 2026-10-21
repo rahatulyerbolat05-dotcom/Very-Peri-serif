@@ -68,6 +68,9 @@ def main():
     previous_revision=images/'before/Italic-1.101.ttf'
     if not previous_revision.exists():
         previous_revision.write_bytes(subprocess.check_output(['git','show','b0763f3:fonts/ttf/VeryPeriSerif-Italic.ttf']))
+    previous_ya=images/'before/Italic-1.102.ttf'
+    if version=='1.103' and not previous_ya.exists():
+        previous_ya.write_bytes(subprocess.check_output(['git','show','3888bab:fonts/ttf/VeryPeriSerif-Italic.ttf']))
     date=datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc)
     meta={'Title':'Very Peri Serif '+version+' — Regular & Italic','Author':'Very Peri Serif project',
           'CreationDate':date,'ModDate':date}
@@ -148,7 +151,8 @@ def main():
             end=p.line(ax,'ғылым · ғарыш · ағаш',x,1050,84,language='kk')
             assert end<x+700,('Revision specimen width',end-x)
             p.line(ax,'гүл · тоғыз · ғалым',x,1200,84,language='kk')
-        pdf.savefig(fig);fig.savefig('docs/img/italic-1.102.svg',metadata={'Date':config['date']})
+        pdf.savefig(fig)
+        if version=='1.102':fig.savefig('docs/img/italic-1.102.svg',metadata={'Date':config['date']})
         fig.savefig(images/'italic-1.102.png');plt.close(fig)
         # Outline-level enlargement of the defect from the author's screenshot.
         fig,axes=plt.subplots(1,2,figsize=(12,4),facecolor=BG)
@@ -160,8 +164,27 @@ def main():
             ax.set_xlim(35,170);ax.set_ylim(-20,48);ax.set_aspect('equal');ax.axis('off')
             ax.set_title('д · '+('Before 1.101' if col==0 else 'After '+version),fontsize=15,color='#69656a')
         fig.tight_layout();pdf.savefig(fig)
-        fig.savefig('docs/img/de-bowl-1.102.svg',metadata={'Date':config['date']})
+        if version=='1.102':fig.savefig('docs/img/de-bowl-1.102.svg',metadata={'Date':config['date']})
         fig.savefig(images/'de-bowl-1.102.png');plt.close(fig)
+        if version=='1.103':
+            old_ya=Proof(previous_ya)
+            fig,ax=page('Italic я · lower bowl · 1.102 / 1.103',1500,1150)
+            for col,(label,p) in enumerate((('Before · 1.102',old_ya),('After · 1.103',proofs['Italic']))):
+                x=45+750*col;ax.text(x,105,label,fontsize=16,color='#69656a')
+                p.line(ax,'я',x+150,750,790)
+                p.line(ax,'моя · яркая · земля',x,960,87)
+            pdf.savefig(fig);fig.savefig('docs/img/ya-1.103.svg',metadata={'Date':config['date']})
+            fig.savefig(images/'ya-1.103.png');plt.close(fig)
+            fig,axes=plt.subplots(1,2,figsize=(12,4),facecolor=BG)
+            for col,p in enumerate((old_ya,proofs['Italic'])):
+                ax=axes[col];ax.set_facecolor(BG);name=p.font.getBestCmap()[ord('я')]
+                pen=MplPen(p.gs);p.gs[name].draw(pen)
+                ax.add_patch(PathPatch(pen.result(),facecolor=INK,edgecolor='none'))
+                ax.set_xlim(95,205);ax.set_ylim(182,250);ax.set_aspect('equal');ax.axis('off')
+                ax.set_title('я · '+('Before 1.102' if col==0 else 'After 1.103'),fontsize=15,color='#69656a')
+            fig.tight_layout();pdf.savefig(fig)
+            fig.savefig('docs/img/ya-bowl-1.103.svg',metadata={'Date':config['date']})
+            fig.savefig(images/'ya-bowl-1.103.png');plt.close(fig)
     # Compact before/after proof. The baseline comes from the recorded published
     # a7bec14 binaries, never from a font rebuilt after editing the sources.
     fig,ax=page('Italic · a7bec14 / '+version+' · bowls reconstructed, native Latin unchanged',1600,1050)
@@ -204,6 +227,7 @@ body{margin:48px;background:#f5f2ec;color:#272333;font-family:system-ui}main{max
         for text in [UP,LOW,'Красота начинается с внимания к деталям.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.',
                      'глина город дорога · гүл ертеңгі',
                      'дело вода дождь · ғылым ғарыш ағаш тоғыз',
+                     'моя · яркая · земля',
                      'о́ я́ ы́ э́ ю́ ә́ ү́ і́ ё́ · О́ Я́ Ы́ Э́ Ю́ Ә́ Ү́','office affine final · 12 500 ₸']:
             blocks.append('<p class="'+klass+'">'+html.escape(text)+'</p>')
         blocks.append('<p class="'+klass+' tabular">0123456789 · 111 000 · 888 000</p>')

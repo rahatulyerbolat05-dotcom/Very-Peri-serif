@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.102",
+  "release": "1.103",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -55,29 +55,31 @@
     {
       "status": "measured",
       "item": "Italic д was clipped at y0, leaving a 74-unit chord. Restore the native q bowl overshoot at -9; preserve accepted advance 432 through a spacing override. Descender profile deviation at most 0.7 units."
+    },
+    {
+      "status": "author_request",
+      "item": "Italic я lower bowl was nine units at its hairline. Deepen the native g bowl clipping ellipse to yield 15 units, preserve advance 413 and keep the junction smooth."
     }
   ],
   "approved_fonts": {
-    "Regular": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
-    "Italic": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002"
+    "Regular": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
+    "Italic": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Italic barred ghe consistency and de baseline clipping repair",
+    "scope": "Italic lowercase я lower bowl stroke weight and junction",
     "viewed": [
-      "final 1.102 comparison: д and г/ғ with baseline guides",
-      "enlarged de bowl before/after",
-      "Russian and Kazakh words in the final comparison",
-      "complete final Italic alphabet at 100 pt",
+      "final 1.102/1.103 ya comparison and Russian word samples",
+      "enlarged final ya lower bowl",
       "final Italic running-text page"
     ],
     "decisions": [
-      "Accept restored round overshoot of the de bowl: no baseline chord; advance remains 432.",
-      "Accept barred ghe derived from the selected default ghe, crossbar joined in one outline, matching width 288 and mark anchors.",
-      "Only uni0434 and uni0493 Italic outlines differ from accepted 1.101; only uni0493 advance/bearing metrics change. Regular and every other outline/hint/metric are preserved; docs/qa/italic-1.102.json."
+      "Accept the 15-15.8 unit lower bowl, visually balanced with neighbouring thin strokes.",
+      "The leg and its junction stay smooth; contour check reports no new kink.",
+      "Only the uni044F Italic outline differs from 1.102. Advances, bearings, all other outlines and native hinting are preserved; docs/qa/ya-1.103.json."
     ],
-    "functional_assertions": 3758,
+    "functional_assertions": 3766,
     "limitations": [
       "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
     ]
@@ -90,6 +92,10 @@
     "1.101": {
       "Regular": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
       "Italic": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3"
+    },
+    "1.102": {
+      "Regular": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
+      "Italic": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002"
     }
   },
   "previous_optical_acceptance": {
@@ -152,6 +158,27 @@
         "All other outlines, hint programs and advance/sidebearing metrics match accepted 1.100 byte for byte, as recorded in docs/qa/ghe-1.101.json."
       ],
       "functional_assertions": 3734,
+      "limitations": [
+        "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
+      ]
+    },
+    "1.102": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Italic barred ghe consistency and de baseline clipping repair",
+      "viewed": [
+        "final 1.102 comparison: д and г/ғ with baseline guides",
+        "enlarged de bowl before/after",
+        "Russian and Kazakh words in the final comparison",
+        "complete final Italic alphabet at 100 pt",
+        "final Italic running-text page"
+      ],
+      "decisions": [
+        "Accept restored round overshoot of the de bowl: no baseline chord; advance remains 432.",
+        "Accept barred ghe derived from the selected default ghe, crossbar joined in one outline, matching width 288 and mark anchors.",
+        "Only uni0434 and uni0493 Italic outlines differ from accepted 1.101; only uni0493 advance/bearing metrics change. Regular and every other outline/hint/metric are preserved; docs/qa/italic-1.102.json."
+      ],
+      "functional_assertions": 3758,
       "limitations": [
         "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
       ]

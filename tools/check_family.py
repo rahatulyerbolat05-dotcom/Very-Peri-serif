@@ -83,6 +83,18 @@ def check(path, exhaustive=True):
         for y in (-8.5,-4.5,.5,5.5):
             actual,expected=runs(bowl,y)[0],runs(donor,y)[0]
             ck(all(abs(x-z-dx)<1 for x,z in zip(actual,expected)), 'De retains rounded native bowl at y='+str(y))
+        # Actual ink across the lower arc of я; the 1.102 ellipse left a
+        # 9-unit hairline at the bottom of the bowl.
+        ya=f.getBestCmap()[ord('я')]
+        outline=polys(f,ya,0)
+        upright=[[(-y,x) for x,y in contour] for contour in outline]
+        widths=[]
+        for x in (140.1,145.1,150.1,155.1,160.1,165.1):
+            arc=[b-a for a,b in runs(upright,x) if 180<-b<235 and -a<270]
+            ck(len(arc)==1, 'Ya lower bowl is continuous at x='+str(x))
+            widths.extend(arc)
+        ck(all(14<=w<=16.5 for w in widths), 'Ya lower arc holds the reviewed 14-16 unit hairline')
+        ck(not curve_check(f,ya)['kink'], 'Ya has no new contour kink')
     ck(not any(0xF101 <= cp <= 0xF108 for cp in f.getBestCmap()), 'No experimental PUA characters')
     ck(all(f['glyf'][n].compile(f['glyf']) == native['glyf'][n].compile(native['glyf'])
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')

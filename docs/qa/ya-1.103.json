@@ -1,0 +1,44 @@
+{
+  "version": "1.103",
+  "date": "2026-10-21",
+  "baseline_commit": "3888babbed8f98d1b1b4c7b94e5b15366f991412",
+  "styles": {
+    "Regular": {
+      "sha256": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591",
+      "outline_changes": [
+        "uni044F"
+      ],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "ya": {
+    "advance": 413,
+    "bottom_arc_profiles_at_x_140_to_165": {
+      "before": [
+        9.8,
+        9.2,
+        9.0,
+        9.0,
+        9.3,
+        9.8
+      ],
+      "after": [
+        15.8,
+        15.2,
+        15.0,
+        15.0,
+        15.2,
+        15.6
+      ]
+    },
+    "new_kinks": 0
+  }
+}

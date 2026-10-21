@@ -77,3 +77,9 @@ of being clipped at the baseline; its descender and advance are retained.
 Kerning is rebuilt, with independent outline-profile and shaping regressions.
 Final-font comparisons, enlarged proofs and six-format browser/PDF checks are
 recorded with the release. Native Latin and previous archives are preserved.
+
+21 October 2026 — Family release 1.103 (internal drawing I030).
+The author's enlargement revealed a nine-unit lower hairline in italic ya.
+Its native-g bowl clipping ellipse is deepened, bringing the minimum lower
+arc to 15 units without changing the stem, leg or advance. Final-font profile,
+curve, shaping and package checks accompany the release. Older archives stay.

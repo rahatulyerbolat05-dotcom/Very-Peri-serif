@@ -37,6 +37,7 @@ const server = http.createServer((req,res) => {
         const texts=['Съешь же ещё этих мягких французских булок.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.',
                      'глина город дорога · гүл ертеңгі',
                      'дело вода дождь · ғылым ғарыш ағаш тоғыз',
+                     'моя · яркая · земля',
                      'о́ я́ ы́ э́ ю́ ә́ ү́ і́ ё́ · О́ Ә́ Ү́','office affine final · 12 500 ₸'];
         results.push({format,style,status:face.status,widths:texts.map(t=>ctx.measureText(t).width)});
       }
@@ -69,7 +70,7 @@ const server = http.createServer((req,res) => {
     const extracted=execFileSync('pdftotext',[pdf,'-'],{encoding:'utf8'}).replace(/\s+/g,' ');
     report.pdf_text_occurrences={};
     for(const text of ['Красота начинается с внимания к деталям.','Қазақ тілі: жаңбыр, үміт, ұлы, өмір.','глина город дорога · гүл ертеңгі',
-                       'дело вода дождь · ғылым ғарыш ағаш тоғыз']) {
+                       'дело вода дождь · ғылым ғарыш ағаш тоғыз','моя · яркая · земля']) {
       const count=extracted.split(text).length-1;
       if(count<2)throw Error('PDF text roundtrip must pass in both styles: '+text);
       report.pdf_text_occurrences[text]=count;

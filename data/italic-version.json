@@ -1,5 +1,5 @@
 {
- "version": "0.29",
+ "version": "0.30",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -29,6 +29,7 @@
   "0.26": "в reaches the round overshoots 516/-9 (was 507/-2: the pen kept the outline inside the skeleton); з ends its upper stroke in the drop of э instead of the thin Regular hook (lightest letter 0.259)",
   "0.27": "Family 1.100: narrower reconstructed zhe; mark coverage; full case/mixed/punctuation kerning; source-only experiments; tabular figures; release acceptance.",
   "0.28": "Author: default lowercase ghe is the native dotlessi body of Serbian locl imacron, without the macron; preserve locl and printed ss04. Family release 1.101.",
-  "0.29": "Family 1.102: Kazakh ғ derives from the selected default г; retain crossbar height/thickness, fit overhangs, share mark anchors and advance, rebuild kerning. Restore the native -9 overshoot of the italic д bowl instead of clipping it at the baseline."
+  "0.29": "Family 1.102: Kazakh ғ derives from the selected default г; retain crossbar height/thickness, fit overhangs, share mark anchors and advance, rebuild kerning. Restore the native -9 overshoot of the italic д bowl instead of clipping it at the baseline.",
+  "0.30": "Family 1.103: strengthen the bottom arc of italic я from 9 to 15 units by deepening only its native-g bowl clipping ellipse; preserve body, stem, leg and accepted advance 413."
  }
 }
