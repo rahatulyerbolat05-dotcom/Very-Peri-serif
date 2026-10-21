@@ -430,7 +430,7 @@
       "path": "data/codex/uni044F-01.glif",
       "label": "Петля и капля y",
       "variant": "01",
-      "status": "selected; both leg-to-bowl shoulders smoothed at author request",
+      "status": "selected; both leg-to-bowl shoulders and right-foot inner edge smoothed at author request",
       "advance": 444,
       "bounds": [
         24,
@@ -438,7 +438,7 @@
         429,
         516
       ],
-      "glif_sha256": "a4ff8f06ff568722ae0173751e77de688673c479da37b180c36380311ece9e5f",
+      "glif_sha256": "450eb1da5517ff4991401f25717e93283faa60d95761b44b69f673a4f095d0d9",
       "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
       "source_glyph": "uni044F",
       "source_glyf_sha256": "9668b3c6299d469e321095af75e0b614e5af3c772ab9a45afefd9b0cb83fee30",

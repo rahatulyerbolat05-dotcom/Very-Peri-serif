@@ -95,3 +95,8 @@ Both sharp leg-to-bowl shoulders of Regular lowercase ya are replaced with
 compact tangent-matched quadratic curves. Advance, side bearings, bounds,
 bowl, terminals and the Italic drawing are unchanged. Final-font curve,
 scope, shaping and enlarged comparison checks accompany the release.
+
+21 October 2026 — Family release 1.106 (internal drawing I031).
+The remaining kink on the inner left edge of the right foot of Regular
+lowercase ya is removed by placing its adjacent quadratic controls on one
+exact tangent. Advance, bearings, bounds and the Italic drawing are unchanged.

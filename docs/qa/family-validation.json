@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.105",
-    "sha256": "a22915e4182318639b9ca6a35f6709ad6b361ffff801f17e58189fc420d8d853"
+    "version": "1.106",
+    "sha256": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.105",
+    "version": "1.106",
     "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
-    "sha256": "b0854317e7cf6afdac6a618c20cfbb7be097014c02e49164d28f4912d08f819c",
-    "woff2_sha256": "ae228319db9209ad4b52c3d7cfde0621fbf3a14c67a3bd4244c9fd12040b7657"
+    "sha256": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5",
+    "woff2_sha256": "4244dbf9be7e98688e2ae282445e974967f9f7264c5a900d394ffc3de7c79bef"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -666,10 +666,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1105",
+    "family": "Very Peri Serif T1106",
     "files": [
-      "VeryPeriSerifT1105-Regular.ttf",
-      "VeryPeriSerifT1105-Italic.ttf"
+      "VeryPeriSerifT1106-Regular.ttf",
+      "VeryPeriSerifT1106-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -681,10 +681,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1105-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1105-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1105-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1105-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1106-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1106-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1106-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1106-Italic.ttf": true
     }
   }
 }

@@ -15,14 +15,14 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.105.zip`](dist/VeryPeriSerif-1.105.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.106.zip`](dist/VeryPeriSerif-1.106.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.105**. Both sharp leg-to-bowl shoulders of Regular я now use compact tangent-matched curves.
-[Shape comparison and checks](docs/ya-regular-1.105.md). Metrics and proportions stay unchanged; the Italic drawing remains I031.
+Regular and Italic share release **1.106**. The inner edge of the right foot of Regular я now follows one exact tangent without the remaining kink.
+[Shape comparison and checks](docs/ya-regular-1.106.md). Metrics and proportions stay unchanged; the Italic drawing remains I031.
 The family includes complete Cyrillic stress-mark anchors,
 full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
 The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).
@@ -57,6 +57,7 @@ make
 
 ## Changelog
 
+- 21.10.2026: family 1.106, remaining kink removed from the inner edge of the right foot of Regular я.
 - 21.10.2026: family 1.105, both leg-to-bowl shoulders of Regular я smoothed without changing its metrics.
 - 21.10.2026: family 1.104, both donor seams of italic я smoothed without changing its metrics.
 - 21.10.2026: family 1.103, italic я lower bowl strengthened from 9 to 15 units without changing its advance.

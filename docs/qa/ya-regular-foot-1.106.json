@@ -1,0 +1,56 @@
+{
+  "version": "1.106",
+  "date": "2026-10-21",
+  "baseline_commit": "686e313dadf67f60ba761006f6829626f3bb36d1",
+  "styles": {
+    "Regular": {
+      "sha256": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
+      "outline_changes": [
+        "uni044F"
+      ],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "ya": {
+    "advance_and_lsb": [
+      428,
+      -6
+    ],
+    "bounds": [
+      -6,
+      -9,
+      399,
+      516
+    ],
+    "contours": 2,
+    "right_foot_tangent_points": [
+      [
+        264,
+        30,
+        false
+      ],
+      [
+        260,
+        56,
+        true
+      ],
+      [
+        258,
+        69,
+        false
+      ]
+    ],
+    "tangent_cross_product": 0,
+    "kinks": 0,
+    "micro_segments": 0,
+    "curvature_wobbles": 0
+  }
+}

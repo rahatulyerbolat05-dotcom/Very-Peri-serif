@@ -108,8 +108,8 @@ def check(path, exhaustive=True):
            [(213,205,True),(216,216,False),(235,207,False),(232,196,True)],
            'Ya lower link/stem seam is one rounded spline')
     else:
-        # Regular 1.105: replace the two sharp leg-to-bowl corners with small
-        # tangent-matched curves while preserving the accepted dimensions.
+        # Regular 1.105/1.106: round the two leg-to-bowl corners, then remove
+        # the remaining kink on the inner edge of the right foot.
         from polish_audit import check as curve_check
         ya=f.getBestCmap()[ord('я')]
         yg=f['glyf'][ya];coords,ends,flags=yg.getCoordinates(f['glyf'])
@@ -123,6 +123,10 @@ def check(path, exhaustive=True):
         ck([(x,y,on) for x,y,on in points if 185<=x<=220 and 235<=y<=250]==
            [(218,248,False),(193,247,False),(190,237,True)],
            'Regular ya inner leg shoulder is a rounded spline')
+        foot=[(x,y,on) for x,y,on in points if 245<=x<=270 and 20<=y<=75]
+        ck(foot==[(264,30,False),(260,56,True),(258,69,False)] and
+           (260-264)*(69-56)==(56-30)*(258-260),
+           'Regular ya right-foot inner edge has one exact tangent')
         ya_quality=curve_check(f,ya)
         ck(not ya_quality['kink'], 'Regular ya has no contour kink')
         ck(not ya_quality['micro'], 'Regular ya has no micro-segment at either repaired join')
