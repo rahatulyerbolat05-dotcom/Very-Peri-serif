@@ -1,0 +1,50 @@
+{
+  "version": "1.104",
+  "date": "2026-10-21",
+  "baseline_commit": "89e8b25d0594e6819338f412ad36e3d095532d34",
+  "styles": {
+    "Regular": {
+      "sha256": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00",
+      "outline_changes": [
+        "uni044F"
+      ],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "ya": {
+    "advance_and_lsb": [
+      413,
+      -12
+    ],
+    "bottom_arc_profiles_at_x_140_to_165": {
+      "before": [
+        15.8,
+        15.2,
+        15.0,
+        15.0,
+        15.2,
+        15.6
+      ],
+      "after": [
+        15.8,
+        15.2,
+        15.0,
+        15.0,
+        15.2,
+        15.6
+      ]
+    },
+    "contours": 2,
+    "kinks": 0,
+    "micro_segments": 0,
+    "curvature_wobbles": 0
+  }
+}

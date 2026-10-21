@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.103",
-    "sha256": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df"
+    "version": "1.104",
+    "sha256": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.103",
-    "source": "build/italic-lower/VeryPeriSerifItalicI030.ttf",
-    "sha256": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591",
-    "woff2_sha256": "dbbbff73b042fc4cf06e9a82117c534c1c24bb69116126e67ab5f90bee2c4705"
+    "version": "1.104",
+    "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
+    "sha256": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00",
+    "woff2_sha256": "60cfc2fe2471edf19f9c06d626c6a126aecfa10d8d81c3992f79665a7dcb2813"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -666,10 +666,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1103",
+    "family": "Very Peri Serif T1104",
     "files": [
-      "VeryPeriSerifT1103-Regular.ttf",
-      "VeryPeriSerifT1103-Italic.ttf"
+      "VeryPeriSerifT1104-Regular.ttf",
+      "VeryPeriSerifT1104-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -681,10 +681,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1103-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1103-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1103-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1103-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1104-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1104-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1104-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1104-Italic.ttf": true
     }
   }
 }

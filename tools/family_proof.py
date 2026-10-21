@@ -71,6 +71,9 @@ def main():
     previous_ya=images/'before/Italic-1.102.ttf'
     if version=='1.103' and not previous_ya.exists():
         previous_ya.write_bytes(subprocess.check_output(['git','show','3888bab:fonts/ttf/VeryPeriSerif-Italic.ttf']))
+    previous_ya_joins=images/'before/Italic-1.103.ttf'
+    if version=='1.104' and not previous_ya_joins.exists():
+        previous_ya_joins.write_bytes(subprocess.check_output(['git','show','89e8b25:fonts/ttf/VeryPeriSerif-Italic.ttf']))
     date=datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc)
     meta={'Title':'Very Peri Serif '+version+' — Regular & Italic','Author':'Very Peri Serif project',
           'CreationDate':date,'ModDate':date}
@@ -185,6 +188,26 @@ def main():
             fig.tight_layout();pdf.savefig(fig)
             fig.savefig('docs/img/ya-bowl-1.103.svg',metadata={'Date':config['date']})
             fig.savefig(images/'ya-bowl-1.103.png');plt.close(fig)
+        if version=='1.104':
+            old_ya=Proof(previous_ya_joins)
+            fig,ax=page('Italic я · smooth donor joins · 1.103 / 1.104',1500,1150)
+            for col,(label,p) in enumerate((('Before · 1.103',old_ya),('After · 1.104',proofs['Italic']))):
+                x=45+750*col;ax.text(x,105,label,fontsize=16,color='#69656a')
+                p.line(ax,'я',x+150,750,790)
+                p.line(ax,'моя · яркая · земля',x,960,87)
+            pdf.savefig(fig);fig.savefig('docs/img/ya-joins-1.104.svg',metadata={'Date':config['date']})
+            fig.savefig(images/'ya-joins-1.104.png');plt.close(fig)
+            fig,axes=plt.subplots(2,2,figsize=(12,7),facecolor=BG)
+            for col,p in enumerate((old_ya,proofs['Italic'])):
+                name=p.font.getBestCmap()[ord('я')]
+                for row,(xlim,ylim,label) in enumerate((((205,325),(470,530),'top bowl / stem'),((150,265),(135,235),'lower link / stem'))):
+                    ax=axes[row,col];ax.set_facecolor(BG);pen=MplPen(p.gs);p.gs[name].draw(pen)
+                    ax.add_patch(PathPatch(pen.result(),facecolor=INK,edgecolor='none'))
+                    ax.set_xlim(*xlim);ax.set_ylim(*ylim);ax.set_aspect('equal');ax.axis('off')
+                    ax.set_title(label+' · '+('1.103' if col==0 else '1.104'),fontsize=14,color='#69656a')
+            fig.tight_layout();pdf.savefig(fig)
+            fig.savefig('docs/img/ya-joins-detail-1.104.svg',metadata={'Date':config['date']})
+            fig.savefig(images/'ya-joins-detail-1.104.png');plt.close(fig)
     # Compact before/after proof. The baseline comes from the recorded published
     # a7bec14 binaries, never from a font rebuilt after editing the sources.
     fig,ax=page('Italic · a7bec14 / '+version+' · bowls reconstructed, native Latin unchanged',1600,1050)

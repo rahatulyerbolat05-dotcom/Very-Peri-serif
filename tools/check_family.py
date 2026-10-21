@@ -94,7 +94,19 @@ def check(path, exhaustive=True):
             ck(len(arc)==1, 'Ya lower bowl is continuous at x='+str(x))
             widths.extend(arc)
         ck(all(14<=w<=16.5 for w in widths), 'Ya lower arc holds the reviewed 14-16 unit hairline')
-        ck(not curve_check(f,ya)['kink'], 'Ya has no new contour kink')
+        ya_quality=curve_check(f,ya)
+        ck(not ya_quality['kink'], 'Ya has no contour kink')
+        ck(not ya_quality['micro'], 'Ya has no micro-segment at either repaired join')
+        ck(not ya_quality['wobble'], 'Ya has no curvature wobble at either repaired join')
+        yg=f['glyf'][ya];coords,ends,flags=yg.getCoordinates(f['glyf'])
+        points=[(coords[i][0],coords[i][1],bool(flags[i]&1)) for i in range(len(coords))]
+        ck(yg.numberOfContours==2, 'Ya has exactly body and counter contours')
+        ck([(x,y,on) for x,y,on in points if 220<=x<=310 and 510<=y<=516]==
+           [(305,513,True),(290,513,False),(260,516,False),(229,516,True)],
+           'Ya top bowl/stem seam is one tangent-matched spline')
+        ck([(x,y,on) for x,y,on in points if 211<=x<=240 and 190<=y<=220]==
+           [(213,205,True),(216,216,False),(235,207,False),(232,196,True)],
+           'Ya lower link/stem seam is one rounded spline')
     ck(not any(0xF101 <= cp <= 0xF108 for cp in f.getBestCmap()), 'No experimental PUA characters')
     ck(all(f['glyf'][n].compile(f['glyf']) == native['glyf'][n].compile(native['glyf'])
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.103",
+  "release": "1.104",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -59,27 +59,31 @@
     {
       "status": "author_request",
       "item": "Italic я lower bowl was nine units at its hairline. Deepen the native g bowl clipping ellipse to yield 15 units, preserve advance 413 and keep the junction smooth."
+    },
+    {
+      "status": "author_request",
+      "item": "Remove the remaining visible donor seams in italic я: replace the top g-bowl/q-stem notch and lower link/stem triangular spur with tangent-matched quadratic splines; preserve bowl, counter, advance 413 and bearings."
     }
   ],
   "approved_fonts": {
-    "Regular": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
-    "Italic": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591"
+    "Regular": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
+    "Italic": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Italic lowercase я lower bowl stroke weight and junction",
+    "scope": "Italic lowercase я top and lower donor joins",
     "viewed": [
-      "final 1.102/1.103 ya comparison and Russian word samples",
-      "enlarged final ya lower bowl",
+      "final 1.103/1.104 ya comparison and Russian word samples",
+      "enlarged final ya top and lower joins",
       "final Italic running-text page"
     ],
     "decisions": [
-      "Accept the 15-15.8 unit lower bowl, visually balanced with neighbouring thin strokes.",
-      "The leg and its junction stay smooth; contour check reports no new kink.",
-      "Only the uni044F Italic outline differs from 1.102. Advances, bearings, all other outlines and native hinting are preserved; docs/qa/ya-1.103.json."
+      "Accept the tangent-matched top shoulder without the 1.103 notch.",
+      "Accept the rounded lower link/stem shoulder without the triangular spur.",
+      "Only the uni044F Italic outline differs from 1.103. Advances, bearings, bowl weight, all other outlines and native hinting are preserved; docs/qa/ya-joins-1.104.json."
     ],
-    "functional_assertions": 3766,
+    "functional_assertions": 3771,
     "limitations": [
       "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
     ]
@@ -96,6 +100,10 @@
     "1.102": {
       "Regular": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
       "Italic": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002"
+    },
+    "1.103": {
+      "Regular": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
+      "Italic": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591"
     }
   },
   "previous_optical_acceptance": {

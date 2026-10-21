@@ -485,7 +485,13 @@ def build(ita,reg):
     YA_DX=45.                                                                  # leg moved right: it leaves the bowl bottom next to the stem
     ya_leg=transformed(AND(x_,AND(left_of(150),below(170))),dx=YA_DX)
     lean=(133.0-122.0)/50.                                                    # centre of the "/" of x: 133 at y=150, 122 at y=100 (ud)
-    ya_link=poly([(120.0+YA_DX+S*150,150),(145.9+YA_DX+S*150,150),(145.9+YA_DX+lean*70+S*220,220),(120.0+YA_DX+lean*70+S*220,220)])
+    # Taper the link as it enters the bowl. The former parallel-sided polygon
+    # projected past the bowl and left a pointed triangular spur at the seam.
+    ya_link=pathops.Path();p=ya_link.getPen()
+    p.moveTo((120.0+YA_DX+S*150,150));p.lineTo((145.9+YA_DX+S*150,150))
+    p.curveTo((145.9+YA_DX+lean*30+S*180,180),(142.0+YA_DX+lean*55+S*205,205),(139.0+YA_DX+lean*70+S*220,220))
+    p.lineTo((120.0+YA_DX+lean*70+S*220,220))
+    p.curveTo((120.0+YA_DX+lean*50+S*200,200),(120.0+YA_DX+lean*25+S*175,175),(120.0+YA_DX+S*150,150));p.closePath()
     out['я']=(OR(ya_bowl,ya_stem,ya_leg,ya_link),440)
     # ---- м: Regular shape without serifs; the right stem is the clean u stem with its exit (roles as the capital М: thin left stem 30,
     # thick "\\" 69, thin "/" 30, thick right stem)
@@ -574,9 +580,9 @@ def main():
             finally:PO.STRAIGHT_RATIO=r
         g,_=fair(g,glyf)                                # I021: seams and grid kinks faired (tools/italic_fair.py)
         detail={}
-        if ch in 'жз':
-            from italic_detail import smooth_ze,smooth_zhe
-            g,detail=(smooth_ze if ch=='з' else smooth_zhe)(g,glyf)
+        if ch in 'жзя':
+            from italic_detail import smooth_ya,smooth_ze,smooth_zhe
+            g,detail=({'ж':smooth_zhe,'з':smooth_ze,'я':smooth_ya}[ch])(g,glyf)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         sp=SPACING.get(ch)

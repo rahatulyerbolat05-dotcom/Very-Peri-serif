@@ -15,14 +15,14 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.103.zip`](dist/VeryPeriSerif-1.103.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.104.zip`](dist/VeryPeriSerif-1.104.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.103**. The lower arc of italic я is now strong enough to read with the neighbouring letters.
-[Shape comparison and checks](docs/ya-1.103.md). Italic ғ follows the selected г body, and the clipped bottom of italic д is rounded again.
+Regular and Italic share release **1.104**. The remaining donor seams of italic я are now smooth at both stem joins.
+[Shape comparison and checks](docs/ya-joins-1.104.md). Its lower arc keeps the corrected weight from 1.103; italic ғ follows the selected г body.
 The family includes complete Cyrillic stress-mark anchors,
 full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
 The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).
@@ -57,6 +57,7 @@ make
 
 ## Changelog
 
+- 21.10.2026: family 1.104, both donor seams of italic я smoothed without changing its metrics.
 - 21.10.2026: family 1.103, italic я lower bowl strengthened from 9 to 15 units without changing its advance.
 - 21.10.2026: family 1.102, consistent italic г/ғ, restored round bottom of д, rebuilt kerning and regression proofs.
 - 21.10.2026: family 1.101, default italic г from the native Serbian body without the macron; locl and ss04 retained.

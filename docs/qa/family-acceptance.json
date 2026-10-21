@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
+      "sha256": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
       "style": "Regular",
-      "version": "Version 1.103",
+      "version": "Version 1.104",
       "passed": 1605,
       "failed": 0,
       "checks": [
@@ -1652,10 +1652,10 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591",
+      "sha256": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00",
       "style": "Italic",
-      "version": "Version 1.103",
-      "passed": 2161,
+      "version": "Version 1.104",
+      "passed": 2166,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
@@ -1682,7 +1682,12 @@
         "Ya lower bowl is continuous at x=160.1",
         "Ya lower bowl is continuous at x=165.1",
         "Ya lower arc holds the reviewed 14-16 unit hairline",
-        "Ya has no new contour kink",
+        "Ya has no contour kink",
+        "Ya has no micro-segment at either repaired join",
+        "Ya has no curvature wobble at either repaired join",
+        "Ya has exactly body and counter contours",
+        "Ya top bowl/stem seam is one tangent-matched spline",
+        "Ya lower link/stem seam is one rounded spline",
         "No experimental PUA characters",
         "Native outlines, hints and metrics preserved",
         "Attached stress А {} ru",
@@ -3897,6 +3902,6 @@
       "raster_homoglyphs": []
     }
   ],
-  "passed": 3766,
+  "passed": 3771,
   "failed": 0
 }
