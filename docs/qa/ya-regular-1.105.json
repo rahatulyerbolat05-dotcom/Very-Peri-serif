@@ -1,0 +1,42 @@
+{
+  "version": "1.105",
+  "date": "2026-10-21",
+  "baseline_commit": "54b903d79f20a07b8b2a6c6b03ef25ff46c99e7c",
+  "styles": {
+    "Regular": {
+      "sha256": "a22915e4182318639b9ca6a35f6709ad6b361ffff801f17e58189fc420d8d853",
+      "outline_changes": [
+        "uni044F"
+      ],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "b0854317e7cf6afdac6a618c20cfbb7be097014c02e49164d28f4912d08f819c",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "ya": {
+    "advance_and_lsb": [
+      428,
+      -6
+    ],
+    "bounds": [
+      -6,
+      -9,
+      399,
+      516
+    ],
+    "contours": 2,
+    "kinks": 0,
+    "micro_segments": 0,
+    "curvature_wobbles": 0,
+    "smoothed_shoulders": [
+      "outer leg-to-bowl",
+      "inner leg-to-stem"
+    ]
+  }
+}

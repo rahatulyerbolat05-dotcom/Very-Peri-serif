@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.104",
+  "version": "1.105",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -103614,14 +103614,16 @@
         "o",
         "n"
       ],
-      "sha256": "f2f1f43d2a91aca24c272e9d0846a7a4d0d45ef37a89025c6b3c557d95b46846",
+      "sha256": "a4ff8f06ff568722ae0173751e77de688673c479da37b180c36380311ece9e5f",
       "polish": {
-        "straight": 1,
-        "deviation": 2.06,
+        "micro": 0,
+        "smooth": 0,
+        "align": 2,
+        "deviation": 0.67,
         "fair": {
-          "nodes": 2,
+          "nodes": 4,
           "lines": 1,
-          "deviation": 0.99
+          "deviation": 1.0
         }
       },
       "spacing_dx": -30,
@@ -104836,5 +104838,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "f7cc9393105429ba29e0b68d57256803db392de03ad76829d8f17cc1d136b838"
+  "source_stage_ttf_sha256": "01d8156958087aef6fb3a1b774b0a31bed0cd81d228fea28305906cc206f0657"
 }

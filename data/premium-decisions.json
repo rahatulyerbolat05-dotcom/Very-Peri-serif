@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.104",
+  "release": "1.105",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -63,27 +63,31 @@
     {
       "status": "author_request",
       "item": "Remove the remaining visible donor seams in italic я: replace the top g-bowl/q-stem notch and lower link/stem triangular spur with tangent-matched quadratic splines; preserve bowl, counter, advance 413 and bearings."
+    },
+    {
+      "status": "author_request",
+      "item": "Regular я: replace both sharp leg-to-bowl shoulders with compact tangent-matched quadratic curves; preserve advance 428, bearing -6, bounds, bowl, terminals and overall proportions."
     }
   ],
   "approved_fonts": {
-    "Regular": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
-    "Italic": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00"
+    "Regular": "a22915e4182318639b9ca6a35f6709ad6b361ffff801f17e58189fc420d8d853",
+    "Italic": "b0854317e7cf6afdac6a618c20cfbb7be097014c02e49164d28f4912d08f819c"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Italic lowercase я top and lower donor joins",
+    "scope": "Regular lowercase я outer and inner leg-to-bowl shoulders",
     "viewed": [
-      "final 1.103/1.104 ya comparison and Russian word samples",
-      "enlarged final ya top and lower joins",
-      "final Italic running-text page"
+      "final 1.104/1.105 Regular ya comparison and Russian word samples",
+      "enlarged final Regular ya outer and inner shoulders",
+      "final Regular running-text page"
     ],
     "decisions": [
-      "Accept the tangent-matched top shoulder without the 1.103 notch.",
-      "Accept the rounded lower link/stem shoulder without the triangular spur.",
-      "Only the uni044F Italic outline differs from 1.103. Advances, bearings, bowl weight, all other outlines and native hinting are preserved; docs/qa/ya-joins-1.104.json."
+      "Accept both compact rounded shoulders without visible corners or local swelling.",
+      "Preserve the accepted bowl, counter, stem, terminals, advance 428, bearing -6 and bounds.",
+      "Only the uni044F Regular outline differs from 1.104. Italic, advances, bearings, all other outlines and native hinting are preserved; docs/qa/ya-regular-1.105.json."
     ],
-    "functional_assertions": 3771,
+    "functional_assertions": 3779,
     "limitations": [
       "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
     ]
@@ -104,6 +108,10 @@
     "1.103": {
       "Regular": "fddfb58a55c2fc342cfcdceb4dc38da515cd63d49d6e6108fcec1c5f125161df",
       "Italic": "98b7d84feb85f159c76ea3d7638d551050ad752f2ecbd4bddfa26c4537216591"
+    },
+    "1.104": {
+      "Regular": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
+      "Italic": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00"
     }
   },
   "previous_optical_acceptance": {
@@ -187,6 +195,25 @@
         "Only uni0434 and uni0493 Italic outlines differ from accepted 1.101; only uni0493 advance/bearing metrics change. Regular and every other outline/hint/metric are preserved; docs/qa/italic-1.102.json."
       ],
       "functional_assertions": 3758,
+      "limitations": [
+        "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
+      ]
+    },
+    "1.104": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Italic lowercase я top and lower donor joins",
+      "viewed": [
+        "final 1.103/1.104 ya comparison and Russian word samples",
+        "enlarged final ya top and lower joins",
+        "final Italic running-text page"
+      ],
+      "decisions": [
+        "Accept the tangent-matched top shoulder without the 1.103 notch.",
+        "Accept the rounded lower link/stem shoulder without the triangular spur.",
+        "Only the uni044F Italic outline differs from 1.103. Advances, bearings, bowl weight, all other outlines and native hinting are preserved; docs/qa/ya-joins-1.104.json."
+      ],
+      "functional_assertions": 3771,
       "limitations": [
         "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
       ]

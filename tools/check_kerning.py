@@ -58,7 +58,7 @@ def check(data,font,native,chars,native_kern,report_path=None):
     # Only the recorded width/weight refinements (incl. 1.001 weight balance of ж ф ю) may change from Regular 1.011.
     old=TTFont(io.BytesIO(subprocess.check_output(['git','show','f3614aa:dist/VeryPeriSerifDraft/VeryPeriSerifDraft-Regular.ttf'])))
     assert set(old.getGlyphOrder()).issubset(font.getGlyphOrder())
-    changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзжЪ'}|{'uni0429.tail_old','uni0449.tail_old'}
+    changed={f'uni{ord(ch):04X}' for ch in 'ЖШЩЫЮюФЧтшщыфдзжЪя'}|{'uni0429.tail_old','uni0449.tail_old'}
     assert changed.issubset(old.getGlyphOrder())
     spacing=json.loads(Path('data/spacing.json').read_text())['glyphs'] if Path('data/spacing.json').exists() else {}
     from polish_outlines import STRAIGHT_DEV

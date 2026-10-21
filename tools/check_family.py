@@ -107,6 +107,26 @@ def check(path, exhaustive=True):
         ck([(x,y,on) for x,y,on in points if 211<=x<=240 and 190<=y<=220]==
            [(213,205,True),(216,216,False),(235,207,False),(232,196,True)],
            'Ya lower link/stem seam is one rounded spline')
+    else:
+        # Regular 1.105: replace the two sharp leg-to-bowl corners with small
+        # tangent-matched curves while preserving the accepted dimensions.
+        from polish_audit import check as curve_check
+        ya=f.getBestCmap()[ord('я')]
+        yg=f['glyf'][ya];coords,ends,flags=yg.getCoordinates(f['glyf'])
+        points=[(coords[i][0],coords[i][1],bool(flags[i]&1)) for i in range(len(coords))]
+        ck(f['hmtx'][ya]==(428,-6), 'Regular ya preserves accepted advance and bearing')
+        ck((yg.xMin,yg.yMin,yg.xMax,yg.yMax)==(-6,-9,399,516), 'Regular ya preserves accepted bounds')
+        ck(yg.numberOfContours==2, 'Regular ya has exactly body and counter contours')
+        ck([(x,y,on) for x,y,on in points if 145<=x<=160 and 220<=y<=246]==
+           [(155,222,False),(158,234,True),(159,238,False),(156,244,False),(148,245,True)],
+           'Regular ya outer leg shoulder is a rounded spline')
+        ck([(x,y,on) for x,y,on in points if 185<=x<=220 and 235<=y<=250]==
+           [(218,248,False),(193,247,False),(190,237,True)],
+           'Regular ya inner leg shoulder is a rounded spline')
+        ya_quality=curve_check(f,ya)
+        ck(not ya_quality['kink'], 'Regular ya has no contour kink')
+        ck(not ya_quality['micro'], 'Regular ya has no micro-segment at either repaired join')
+        ck(not ya_quality['wobble'], 'Regular ya has no curvature wobble at either repaired join')
     ck(not any(0xF101 <= cp <= 0xF108 for cp in f.getBestCmap()), 'No experimental PUA characters')
     ck(all(f['glyf'][n].compile(f['glyf']) == native['glyf'][n].compile(native['glyf'])
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')

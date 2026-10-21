@@ -2,13 +2,21 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "15220f4276b0df261ea16be9a9b94edf7dfbb94be26b1fd8343fdcb10bea8129",
+      "sha256": "a22915e4182318639b9ca6a35f6709ad6b361ffff801f17e58189fc420d8d853",
       "style": "Regular",
-      "version": "Version 1.104",
-      "passed": 1605,
+      "version": "Version 1.105",
+      "passed": 1613,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
+        "Regular ya preserves accepted advance and bearing",
+        "Regular ya preserves accepted bounds",
+        "Regular ya has exactly body and counter contours",
+        "Regular ya outer leg shoulder is a rounded spline",
+        "Regular ya inner leg shoulder is a rounded spline",
+        "Regular ya has no contour kink",
+        "Regular ya has no micro-segment at either repaired join",
+        "Regular ya has no curvature wobble at either repaired join",
         "No experimental PUA characters",
         "Native outlines, hints and metrics preserved",
         "Attached stress А {} ru",
@@ -1652,9 +1660,9 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "d7e066f1277788abfb04c5b13fd4a95092525b08277880ec2e8310b728b0eb00",
+      "sha256": "b0854317e7cf6afdac6a618c20cfbb7be097014c02e49164d28f4912d08f819c",
       "style": "Italic",
-      "version": "Version 1.104",
+      "version": "Version 1.105",
       "passed": 2166,
       "failed": 0,
       "checks": [
@@ -3902,6 +3910,6 @@
       "raster_homoglyphs": []
     }
   ],
-  "passed": 3771,
+  "passed": 3779,
   "failed": 0
 }

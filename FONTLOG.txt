@@ -89,3 +89,9 @@ The remaining donor seams of italic ya are smoothed: the top bowl-to-stem
 notch and the pointed lower link-to-stem spur now use tangent-matched quadratic
 splines. Bowl, counter, advance and side bearings are unchanged. Final-font
 outline comparison and enlarged seam proofs accompany the release.
+
+21 October 2026 — Family release 1.105 (internal drawing I031).
+Both sharp leg-to-bowl shoulders of Regular lowercase ya are replaced with
+compact tangent-matched quadratic curves. Advance, side bearings, bounds,
+bowl, terminals and the Italic drawing are unchanged. Final-font curve,
+scope, shaping and enlarged comparison checks accompany the release.

@@ -745,7 +745,7 @@
       "provenance": "Codex; optical correction requested by user"
     },
     "я": {
-      "selected": null,
+      "selected": "01",
       "shared_with_claude": false,
       "conflict": false,
       "variants": [
@@ -753,7 +753,7 @@
           "path": "data/codex/uni044F-01.glif",
           "label": "Петля и капля y",
           "variant": "01",
-          "status": "unselected",
+          "status": "selected; both leg-to-bowl shoulders smoothed at author request",
           "advance": 444,
           "bounds": [
             24,
@@ -761,14 +761,14 @@
             429,
             516
           ],
-          "glif_sha256": "f2f1f43d2a91aca24c272e9d0846a7a4d0d45ef37a89025c6b3c557d95b46846",
+          "glif_sha256": "a4ff8f06ff568722ae0173751e77de688673c479da37b180c36380311ece9e5f",
           "source_file": "studies/regular/che-ya/che-ya-shorti01.ttf",
           "source_glyph": "uni044F",
           "source_glyf_sha256": "9668b3c6299d469e321095af75e0b614e5af3c772ab9a45afefd9b0cb83fee30",
           "source_file_sha256": "0aa57e7a0e6e840da0a39695745ebd69d9ffff0741a411868b934c87f78f1ad2"
         }
       ],
-      "provenance": "Codex study; native Instrument Serif donors credited in source study"
+      "provenance": "Codex study; author-requested Regular я refinement; native Instrument Serif donors credited in source study"
     },
     "э": {
       "selected": "02",
@@ -1200,7 +1200,6 @@
     "open_codex_choices": [
       "й",
       "ч",
-      "я",
       "И",
       "Б",
       "Д",
