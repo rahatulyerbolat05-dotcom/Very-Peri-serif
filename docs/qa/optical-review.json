@@ -3141,8 +3141,8 @@
               399,
               516
             ],
-            "density": 0.3625,
-            "points": 78,
+            "density": 0.3627,
+            "points": 80,
             "diagnostics": {
               "slop": 0,
               "zone": 0,
@@ -3794,7 +3794,7 @@
           }
         }
       },
-      "sha256": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
+      "sha256": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
       "baseline_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
       "zhe_to_en": 1.15,
       "de_depth": -250
@@ -6939,12 +6939,12 @@
               401,
               516
             ],
-            "density": 0.3728,
-            "points": 77,
+            "density": 0.373,
+            "points": 75,
             "diagnostics": {
               "slop": 0,
               "zone": 2,
-              "extrema": 2,
+              "extrema": 1,
               "kink": 0,
               "micro": 0,
               "wobble": 0
@@ -7592,7 +7592,7 @@
           }
         }
       },
-      "sha256": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a",
+      "sha256": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
       "baseline_sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
       "zhe_to_en": 1.469,
       "de_depth": -215

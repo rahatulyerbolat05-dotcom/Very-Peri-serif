@@ -1,6 +1,6 @@
 {
   "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
-  "release": "1.108",
+  "release": "1.109",
   "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
   "glyphs": {
     "Regular": {
@@ -2629,6 +2629,57 @@
             },
             "handle_movement": 2.0,
             "tangent_after": 0.0
+          }
+        ]
+      },
+      "uni044F": {
+        "path": "data/curve-finish/Regular/uni044F.glif",
+        "sha256": "f0a371041eb4afc501edc8e8eaf998590feafa679a3b0b9a760b028cf2d82d0d",
+        "advance_and_lsb": [
+          428,
+          -6
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -6,
+          -9,
+          399,
+          516
+        ],
+        "bounds": [
+          -6,
+          -9,
+          399,
+          516
+        ],
+        "outline_deviation": 1.767,
+        "review_baseline_commit": "6e8abaf7b461761707ce648be59eba4fe62a44eb",
+        "repairs": [
+          {
+            "repair": "replace upper-right bowl arc with reviewed quadratic spline; match curvature at the crown after integer rounding",
+            "peak": [
+              215,
+              516
+            ],
+            "controls": [
+              [
+                246,
+                516
+              ],
+              [
+                278,
+                504
+              ],
+              [
+                306,
+                471
+              ],
+              [
+                318,
+                431
+              ]
+            ],
+            "peak_curvature_relative_jump": 0.048907388137357
           }
         ]
       }
@@ -6603,6 +6654,71 @@
             "control_delta": [
               0,
               2
+            ]
+          }
+        ]
+      },
+      "uni044F": {
+        "path": "data/curve-finish/Italic/uni044F.glif",
+        "sha256": "3008e88082dc0b2cbb8f2129a146823469ae9fa4d90928e739c39593367f818c",
+        "advance_and_lsb": [
+          413,
+          -12
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -12,
+          -9,
+          401,
+          516
+        ],
+        "bounds": [
+          -12,
+          -9,
+          401,
+          516
+        ],
+        "outline_deviation": 2.061,
+        "review_baseline_commit": "6e8abaf7b461761707ce648be59eba4fe62a44eb",
+        "repairs": [
+          {
+            "repair": "replace short two-line stem transition with one tangent-aligned quadratic",
+            "start": [
+              268,
+              73
+            ],
+            "control": [
+              268,
+              79
+            ],
+            "end": [
+              273,
+              100
+            ]
+          },
+          {
+            "repair": "round exit cap with implicit quadratic tangents; retain terminal bounds",
+            "start": [
+              398,
+              170
+            ],
+            "controls": [
+              [
+                401,
+                179
+              ],
+              [
+                398,
+                188
+              ],
+              [
+                381,
+                189
+              ]
+            ],
+            "end": [
+              376,
+              175
             ]
           }
         ]

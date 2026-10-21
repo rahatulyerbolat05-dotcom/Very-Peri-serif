@@ -114,3 +114,12 @@ stem/serif joins of constructed glyphs. Preserve all advances, side bearings,
 accepted ya forms and inherited native outlines/hinting. Curve sources apply
 after provisional generation and before kerning; complete outline/feature,
 collision, language, sanitizer and browser checks accompany the release.
+
+21 October 2026 — Family release 1.109 (internal drawing I033).
+Author-reported ya defects: the Regular crown had tangent continuity but an
+uneven curvature change. Replace its upper-right arc with reviewed quadratics
+whose exported crown curvatures agree. Italic ya loses its short stem jog and
+exit-cap corner. Preserve counters, all advances/bearings and bounds.
+Only lowercase ya changes outline in each style relative to 1.108.
+OTF ya uses exact quadratic degree elevation with fractional controls, avoiding
+new CFF fitting/rounding defects. Exported cubic controls are independently checked.

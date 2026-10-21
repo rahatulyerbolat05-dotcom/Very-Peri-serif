@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.108",
+  "release": "1.109",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -79,36 +79,42 @@
     {
       "status": "author_request",
       "item": "Inventory all glyphs for the same waves and construction seams as ya. After the author noted defects in nearly all initial crops, review complete transitions, remove micro-steps, restore true straight edges, and store 39 Regular / 49 Italic (including two final sheared prime sources) exact reviewed quadratic sources after provisional polish and before kerning."
+    },
+    {
+      "status": "author_request",
+      "item": "Author reports ya defects in both styles and locates the Regular issue at the top. Match exported crown curvature of Regular ya; remove the short Italic stem jog and terminal corner. Preserve all other outlines and all metrics against release 1.108."
+    },
+    {
+      "status": "measured",
+      "item": "OTF rounding/fitting can reintroduce a crown irregularity absent from the reviewed TTF. Export both ya glyphs by exact degree elevation with fractional CFF controls; verify all cubic controls within 0.002 units. Measured drift below 0.0001 units."
     }
   ],
   "approved_fonts": {
-    "Regular": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
-    "Italic": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a"
+    "Regular": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
+    "Italic": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Full glyph inventory, contextual/stylistic/local forms and signs; reviewed 1.108 curve sources",
+    "scope": "Regular ya upper arc and Italic ya stem/terminal, compared with published 1.108",
     "viewed": [
-      "154 original suspect fragments and proposed transitions; final before/after contact sheets",
-      "final exported Regular and Italic featured curve panels",
-      "final enlarged manual joins: ж/м/қ, italic ь/ш/д/к and double dagger",
-      "final exported prime outlines after affine transformation and grid alignment",
-      "final Russian and Kazakh words, both styles; punctuation and currency signs",
-      "final family alphabet and feature specimens"
+      "Final 1.108/1.109 Regular ya full glyph and enlarged upper bowl",
+      "Final 1.108/1.109 Italic ya full glyph, stem/foot and enlarged terminal",
+      "Final Russian and Kazakh words in both styles",
+      "Serialized exact-CFF and TTF ya closeups in both styles"
     ],
     "decisions": [
-      "Accept 39 Regular and 49 Italic exact quadratic outline sources, including both finished italic primes.",
-      "Whole transitions replace the Regular м step/plateau and т wave; italic counter caps use shared implicit tangents.",
-      "Preserve approved я, all advances and side bearings, native outlines and hint programs.",
-      "Reject newly introduced hard corners independently of the small-kink detector; validate limiting tangents for coincident controls."
+      "Accept the upper-right Regular bowl arc; all four exported arc joins have curvature jumps under five percent.",
+      "Accept the continuous Italic stem transition and rounded exit cap without the previous kink.",
+      "Only uni044F changes outline in each style; counters, all advances/bearings, native outlines and hint programs match published 1.108.",
+      "Preserve exact ya geometry in CFF instead of re-fitting and integer-rounding the reviewed quadratic contours."
+    ],
+    "limitations": [
+      "No native Windows/macOS/commercial-app or physical print test."
     ],
     "functional_assertions": 3780,
-    "limitations": [
-      "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed.",
-      "Diagnostics nominate review sites; no universal numerical proof of artistic finish is claimed."
-    ],
-    "curve_assertions": 1380
+    "curve_assertions": 1394,
+    "ya_assertions": 38
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -142,6 +148,10 @@
     "1.107": {
       "Regular": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
       "Italic": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545"
+    },
+    "1.108": {
+      "Regular": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
+      "Italic": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a"
     }
   },
   "previous_optical_acceptance": {
@@ -304,6 +314,31 @@
       "limitations": [
         "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
       ]
+    },
+    "1.108": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Full glyph inventory, contextual/stylistic/local forms and signs; reviewed 1.108 curve sources",
+      "viewed": [
+        "154 original suspect fragments and proposed transitions; final before/after contact sheets",
+        "final exported Regular and Italic featured curve panels",
+        "final enlarged manual joins: ж/м/қ, italic ь/ш/д/к and double dagger",
+        "final exported prime outlines after affine transformation and grid alignment",
+        "final Russian and Kazakh words, both styles; punctuation and currency signs",
+        "final family alphabet and feature specimens"
+      ],
+      "decisions": [
+        "Accept 39 Regular and 49 Italic exact quadratic outline sources, including both finished italic primes.",
+        "Whole transitions replace the Regular м step/plateau and т wave; italic counter caps use shared implicit tangents.",
+        "Preserve approved я, all advances and side bearings, native outlines and hint programs.",
+        "Reject newly introduced hard corners independently of the small-kink detector; validate limiting tangents for coincident controls."
+      ],
+      "functional_assertions": 3780,
+      "limitations": [
+        "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed.",
+        "Diagnostics nominate review sites; no universal numerical proof of artistic finish is claimed."
+      ],
+      "curve_assertions": 1380
     }
   }
 }

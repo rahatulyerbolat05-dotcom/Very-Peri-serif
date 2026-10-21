@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.108",
-    "sha256": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6"
+    "version": "1.109",
+    "sha256": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.108",
+    "version": "1.109",
     "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
-    "sha256": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a",
-    "woff2_sha256": "245bd4f5d2252683973201911523bd480f81034a5b4c2b6b5143d258a89c9410"
+    "sha256": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
+    "woff2_sha256": "92b7e7ed974acd3818a6115ed27f8521e79fc8c7b2b6abeb23c30192a7a1a8ac"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -895,6 +895,11 @@
       "path": "data/curve-finish/Italic/uni2033.glif",
       "sha256": "f897452bcff39d8704eaf23286184397db259d8131c3d29111235787f29ea02e",
       "reviewed_outline": true
+    },
+    "uni044F": {
+      "path": "data/curve-finish/Italic/uni044F.glif",
+      "sha256": "3008e88082dc0b2cbb8f2129a146823469ae9fa4d90928e739c39593367f818c",
+      "reviewed_outline": true
     }
   },
   "checks": {
@@ -913,10 +918,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1108",
+    "family": "Very Peri Serif T1109",
     "files": [
-      "VeryPeriSerifT1108-Regular.ttf",
-      "VeryPeriSerifT1108-Italic.ttf"
+      "VeryPeriSerifT1109-Regular.ttf",
+      "VeryPeriSerifT1109-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -928,10 +933,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1108-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1108-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1108-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1108-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1109-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1109-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1109-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1109-Italic.ttf": true
     }
   }
 }

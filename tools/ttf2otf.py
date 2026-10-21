@@ -3,26 +3,35 @@
 The TrueType quadratic outlines are converted to cubic ones by fontTools qu2cu (MAX_ERR font units, composites drawn out), every other
 table (cmap, GSUB, GPOS, GDEF, STAT, name, OS/2, hhea, hmtx, meta) is copied unchanged; post becomes format 3 (names live in CFF),
 the TrueType hinting tables go. The blue zones are the alignment zones of the Instrument sources (CLAUDE.md 2).
+Reviewed ya uses exact degree elevation with fractional CFF controls; check() verifies the serialized controls separately.
 Check (check()): the same glyph order, advances, vertical metrics and shaping tables, every glyph within MAX_ERR+0.5 of the TTF (Hausdorff distance of densely sampled outlines).
 Usage: python3 -I tools/ttf2otf.py in.ttf out.otf
 """
-import sys
+import math,sys
 from pathlib import Path
 from fontTools.ttLib import TTFont,newTable
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.qu2cuPen import Qu2CuPen
+from fontTools.pens.reverseContourPen import ReverseContourPen
+from fontTools.pens.basePen import BasePen
 
 MAX_ERR=0.5
 BLUES=[-15,0,510,525,720,735,740,755];OTHER_BLUES=[-220,-205];STEM_V=68;STEM_H=30
 DROP=('glyf','loca','cvt ','fpgm','prep','gasp','hdmx','LTSH','VDMX')
+EXACT_CUBICS={'uni044F'}  # Preserve the reviewed ya crown and short terminal transitions.
 
 
 def convert(src,dst):
     tt=TTFont(src);gs=tt.getGlyphSet();order=tt.getGlyphOrder();cs={}
     for n in order:
-        pen=T2CharStringPen(tt['hmtx'][n][0],gs)
-        gs[n].draw(Qu2CuPen(pen,max_err=MAX_ERR,all_cubic=False,reverse_direction=True))   # TrueType outlines run clockwise, CFF counter-clockwise; a quadratic left by qu2cu (on-curve-less circles) is raised to a cubic exactly by T2CharStringPen
+        pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in EXACT_CUBICS else .5)
+        if n in EXACT_CUBICS:
+            # Degree elevation is exact; retaining fractional controls avoids
+            # reintroducing a crown kink through integer CFF rounding/fitting.
+            gs[n].draw(ReverseContourPen(pen))
+        else:
+            gs[n].draw(Qu2CuPen(pen,max_err=MAX_ERR,all_cubic=False,reverse_direction=True))   # TrueType outlines run clockwise, CFF counter-clockwise; a quadratic left by qu2cu (on-curve-less circles) is raised to a cubic exactly by T2CharStringPen
         cs[n]=pen.getCharString()
     name=tt['name'];post=tt['post']
     fb=FontBuilder(tt['head'].unitsPerEm,isTTF=False);fb.setupGlyphOrder(order)
@@ -50,7 +59,26 @@ def check(ttf,otf):
         pa=samples(ga,n);pb=samples(gb,n)
         dev=max(nearest(pa,pb),nearest(pb,pa));worst=max(worst,dev)   # Hausdorff distance of the outlines
         if dev>MAX_ERR+0.5:bad.append((n,round(float(dev),3)))
-    return dict(glyphs=len(a.getGlyphOrder()),hausdorff_worst=round(float(worst),3),over_limit=bad)
+    exact={n:exact_cubic_error(a,b,n) for n in EXACT_CUBICS if n in ga}
+    assert all(error<.002 for error in exact.values()),('Exact CFF outline drift',exact)
+    return dict(glyphs=len(a.getGlyphOrder()),hausdorff_worst=round(float(worst),3),over_limit=bad,exact_cubic_control_error=exact)
+
+
+def exact_cubic_error(ttf,otf,name):
+    """Compare exported CFF with exact quadratic degree elevation, including closures."""
+    class Cubics(BasePen):
+        def __init__(self,gs):super().__init__(gs);self.ops=[]
+        def _moveTo(self,p):self.start=p;self.ops.append(('M',(p,)))
+        def _lineTo(self,p):self.ops.append(('L',(p,)))
+        def _curveToOne(self,a,b,c):self.ops.append(('C',(a,b,c)))
+        def _closePath(self):
+            if self.ops[-1]==('L',(self.start,)):self.ops.pop()
+            self.ops.append(('Z',()))
+        _endPath=_closePath
+    a=Cubics(ttf.getGlyphSet());b=Cubics(otf.getGlyphSet())
+    ttf.getGlyphSet()[name].draw(ReverseContourPen(a));otf.getGlyphSet()[name].draw(b)
+    assert [op for op,pts in a.ops]==[op for op,pts in b.ops],('Exact CFF segment structure',name)
+    return max((math.dist(p,q) for (_,ps),(_,qs) in zip(a.ops,b.ops) for p,q in zip(ps,qs)),default=0.)
 
 
 def samples(gs,name,spacing=4.):

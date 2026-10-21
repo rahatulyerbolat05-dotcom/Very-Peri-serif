@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.108",
+  "version": "1.109",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -104069,7 +104069,12 @@
         }
       },
       "spacing_dx": -30,
-      "advance_unspaced": 444
+      "advance_unspaced": 444,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni044F.glif",
+        "sha256": "f0a371041eb4afc501edc8e8eaf998590feafa679a3b0b9a760b028cf2d82d0d",
+        "reviewed_outline": true
+      }
     },
     "uni04D8": {
       "character": "Ә",
@@ -105405,5 +105410,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "1565ff69daf2705376d389235119f35381643fc1b6ade9ddc93c9aed45d86a7c"
+  "source_stage_ttf_sha256": "081e8c1149bff105b4d16bc5268fb73b49ae88008bcb96449f3ae319fa9785bf"
 }
