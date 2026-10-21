@@ -64,6 +64,25 @@ def check(path, exhaustive=True):
            and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
         ck(shape('г',language='sr')[0][0]=='imacron' and shape('г',language='mk')[0][0]=='imacron', 'Serbian and Macedonian ghe retain macron')
         ck(shape('г',{'ss04':1})[0][0]=='uni0433.ss04', 'Printed ghe alternative retained')
+        # Compare independent flattened profiles of the actual exported outlines.
+        from italic_rules_measure import polys, runs
+        barred=f.getBestCmap()[ord('ғ')]
+        body,with_bar=[polys(f,n,0) for n in (ghe,barred)]
+        ck(f['hmtx'][barred][0]==f['hmtx'][ghe][0], 'Barred ghe shares default ghe advance')
+        ck(f['glyf'][barred].numberOfContours==1, 'Barred ghe crossbar is merged into the body')
+        profiles=[(runs(body,y+.1),runs(with_bar,y+.1)) for y in range(0,511,5) if not 230<=y<=272]
+        ck(all(len(a)==len(b) and all(abs(x-z)<1.25 for ar,br in zip(a,b) for x,z in zip(ar,br))
+               for a,b in profiles), 'Barred ghe preserves default body outside crossbar')
+        a,b=runs(body,251.1)[0],runs(with_bar,251.1)[0]
+        ck(a[0]-b[0]>30 and b[1]-a[1]>25, 'Barred ghe crossbar projects on both sides')
+        ck(shape('г\u0301')[-1][1:]==shape('ғ\u0301')[-1][1:], 'Ghe and barred ghe share stress anchors')
+        de=f.getBestCmap()[ord('д')]
+        ck(f['hmtx'][de][0]==432, 'De preserves accepted advance after bowl repair')
+        bowl,donor=polys(f,de,0),polys(native,'q',0)
+        dx=f['glyf'][de].xMin-native['glyf']['q'].xMin
+        for y in (-8.5,-4.5,.5,5.5):
+            actual,expected=runs(bowl,y)[0],runs(donor,y)[0]
+            ck(all(abs(x-z-dx)<1 for x,z in zip(actual,expected)), 'De retains rounded native bowl at y='+str(y))
     ck(not any(0xF101 <= cp <= 0xF108 for cp in f.getBestCmap()), 'No experimental PUA characters')
     ck(all(f['glyf'][n].compile(f['glyf']) == native['glyf'][n].compile(native['glyf'])
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')
@@ -82,7 +101,7 @@ def check(path, exhaustive=True):
     for text in ('Ѝ','ѝ'):
         ck(ord(text) in f.getBestCmap(), 'Stressed Bulgarian i encoded '+text)
         ck(shape(text)==shape(unicodedata.normalize('NFD',text)), 'Stressed i NFC/NFD '+text)
-    for text in ('жа','дж','яд','ыж','эж','юн','әп','үк','нк','пн','кн','қн','гл','нг','гТ','Тг','гү'):
+    for text in ('жа','дж','яд','ыж','эж','юн','әп','үк','нк','пн','кн','қн','гл','нг','гТ','Тг','гү','ға','ағ','ғұ','ғТ','Тғ','дд','нд'):
         accented=text[0]+'\u0301'+text[1]
         ck(sum(x[1] for x in shape(text))==sum(x[1] for x in shape(accented)), 'Accents preserve contextual forms and kerning '+text)
     for ch in 'яыэюәүЯЫЭЮӘҮ':

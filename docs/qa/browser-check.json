@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "b88cb2beb16210d77bab5617fe1186994535ea0627ed60be340a9586ecc9ef74",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "f110e9405ea4dd805f229676cabe2441c5a76a6cf8e6335d4387359858de2727",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "1d136e7ddb4743de26130c2d8a1d5c04ae90903b9042f64743e5198f4b7d0136",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "13b483407fef8f745f40076c6b0ed9f95153f4e4048f82ec39017b9c8ca2dd0e"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "58dfd0ee8338a03c215443831e40e10853658f599f239266fa04575afc83aef2",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "141cce0d6959abceb2eb9c4c2bcaba347cee236950b6f8b39bb531d34523a933",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "b3939b2adc53ac0cbaa09034be64d052212bb7380fd20c927c2e79c107d20cfa",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "7bbbff6cec36bd50f0ed830ec0b18bdd962d56898fed3394bce4bffb1d413403"
   },
   "results": {
     "results": [
@@ -27,6 +27,7 @@
           1068.7340087890625,
           843.1986083984375,
           721.1506958007812,
+          990.334228515625,
           473.6631164550781,
           568.7670288085938
         ]
@@ -39,6 +40,7 @@
           1145.533935546875,
           909.6944580078125,
           748.798828125,
+          1039.55029296875,
           488.8951110839844,
           585.4070434570312
         ]
@@ -51,6 +53,7 @@
           1068.7340087890625,
           843.1986083984375,
           721.1506958007812,
+          990.334228515625,
           473.6631164550781,
           568.7670288085938
         ]
@@ -63,6 +66,7 @@
           1145.533935546875,
           909.6944580078125,
           748.798828125,
+          1039.55029296875,
           488.8951110839844,
           585.4070434570312
         ]
@@ -75,6 +79,7 @@
           1068.7340087890625,
           843.1986083984375,
           721.1506958007812,
+          990.334228515625,
           473.6631164550781,
           568.7670288085938
         ]
@@ -87,6 +92,7 @@
           1145.533935546875,
           909.6944580078125,
           748.798828125,
+          1039.55029296875,
           488.8951110839844,
           585.4070434570312
         ]
@@ -125,10 +131,11 @@
     "pdf_text_occurrences": {
       "Красота начинается с внимания к деталям.": 2,
       "Қазақ тілі: жаңбыр, үміт, ұлы, өмір.": 2,
-      "глина город дорога · гүл ертеңгі": 2
+      "глина город дорога · гүл ертеңгі": 2,
+      "дело вода дождь · ғылым ғарыш ағаш тоғыз": 2
     },
     "pdf_text_roundtrip": true,
-    "pdf_font_table": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+VeryPeriSerif-Regular         CID TrueType      Identity-H       yes yes yes      5  0\nCAAAAA+VeryPeriSerif-Italic          CID TrueType      Identity-H       yes yes yes      6  0\n"
+    "pdf_font_table": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nAAAAAA+NotoSans-Bold                 CID TrueType      Identity-H       yes yes yes      4  0\nBAAAAA+VeryPeriSerif-Regular         CID TrueType      Identity-H       yes yes yes      5  0\nCAAAAA+VeryPeriSerif-Italic          CID TrueType      Identity-H       yes yes yes      8  0\n"
   },
   "failed": 0,
   "not_tested": [

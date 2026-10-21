@@ -106,6 +106,8 @@ def extend_italic_anchors(font):
                 donor = 'edieresis'
             elif ch == 'Ё':
                 donor = 'Edieresis'
+            elif ch == 'ғ':
+                donor = cm[ord('г')]
             anchors = copy.deepcopy(bases[donor])
             dx = (font['hmtx'][name][0] - font['hmtx'][donor][0]) / 2
             # Accents clear ascenders and existing diacritics. Round overshoots

@@ -1,0 +1,55 @@
+{
+  "version": "1.102",
+  "date": "2026-10-21",
+  "baseline_commit": "b0763f32d36933976dd239e208278cffdf152d5b",
+  "styles": {
+    "Regular": {
+      "sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    },
+    "Italic": {
+      "sha256": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002",
+      "outline_changes": [
+        "uni0434",
+        "uni0493"
+      ],
+      "advance_or_bearing_changes": [
+        "uni0493"
+      ],
+      "all_other_outlines_hints_and_metrics_preserved": true
+    }
+  },
+  "failed": 0,
+  "de": {
+    "advance_before": 432,
+    "advance_after": 432,
+    "bowl_bottom_after": -9,
+    "baseline_flat_segments": {
+      "before": [
+        {
+          "from": [
+            65.0,
+            0.0
+          ],
+          "to": [
+            139.0,
+            0.0
+          ],
+          "length": 74.0
+        }
+      ],
+      "after": []
+    },
+    "descender_max_profile_deviation": 0.7,
+    "fresh_source_rebuild_matches_cached_glyph_and_metrics": true
+  },
+  "barred_ghe": {
+    "advance_before": 369,
+    "advance_after": 288,
+    "body": "default ghe / native dotlessi",
+    "body_profile_and_stress_anchors": "PASS in check_family.py",
+    "contours": 1
+  }
+}

@@ -3794,7 +3794,7 @@
           }
         }
       },
-      "sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+      "sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
       "baseline_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
       "zhe_to_en": 1.15,
       "de_depth": -250
@@ -5760,15 +5760,15 @@
             "bounds": [
               23,
               -215,
-              432,
+              431,
               516
             ],
-            "density": 0.3272,
-            "points": 66,
+            "density": 0.3291,
+            "points": 79,
             "diagnostics": {
               "slop": 0,
               "zone": 0,
-              "extrema": 1,
+              "extrema": 2,
               "kink": 1,
               "micro": 0,
               "wobble": 0
@@ -7016,20 +7016,20 @@
           },
           "after": {
             "glyph": "uni0493",
-            "advance": 369,
+            "advance": 288,
             "bounds": [
-              19,
-              -1,
-              405,
+              17,
+              -10,
+              270,
               516
             ],
-            "density": 0.2893,
-            "points": 55,
+            "density": 0.3716,
+            "points": 48,
             "diagnostics": {
               "slop": 0,
-              "zone": 0,
-              "extrema": 0,
-              "kink": 0,
+              "zone": 1,
+              "extrema": 6,
+              "kink": 6,
               "micro": 0,
               "wobble": 0
             }
@@ -7592,7 +7592,7 @@
           }
         }
       },
-      "sha256": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
+      "sha256": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002",
       "baseline_sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
       "zhe_to_en": 1.469,
       "de_depth": -215

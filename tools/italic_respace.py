@@ -3,7 +3,7 @@
 native letters (docs/italic-rules.md R17-R19; method of tools/respace.py for the Regular).
 Model: gap(a,b) = m + s_r(a) + s_l(b) for pairs that involve a free letter; m is the mean gap of native/native pairs (а е ё и о п р с т у х),
 native letters keep s=0. Weighted (letter frequency) ridge least squares; shifts rounded to even units, floor -20 on any side bearing.
-Writes data/italic-spacing.json: {character: {dx, dadv}}; tools/italic_lower.py applies it. Workflow: build with an empty spacing file, run this, build again.
+Writes data/italic-spacing.json: {character: {dx, dadv}}; tools/italic_lower.py applies it. An optional manually selected advance fixes the final width independently of control-point rounding. Workflow: build with an empty spacing file, run this, build again.
 Usage: python3 -I tools/italic_respace.py [font.ttf] [--reset]
 --caps fits the capitals; the shifts are absolute, so it must measure a build whose capitals carry no shifts (I021: measured on a build
 with shifts applied it returned only the residuals and the next build lost the spacing; every other chain flipped). Chain:

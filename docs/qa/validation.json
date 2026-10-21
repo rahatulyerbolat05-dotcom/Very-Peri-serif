@@ -1042,9 +1042,9 @@
     "WOFF2 layout roundtrip GDEF",
     "exhaustive kerning and unchanged outlines"
   ],
-  "ttf_sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+  "ttf_sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
   "kerning_checks": {
-    "ttf_sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac",
+    "ttf_sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094",
     "failed": 0,
     "cyrillic_pairs_per_mode": 7056,
     "feature_modes": {

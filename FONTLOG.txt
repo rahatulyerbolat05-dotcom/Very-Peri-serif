@@ -68,3 +68,12 @@ of the Serbian locl form without its macron (dotlessi, including its hints and m
 Serbian/Macedonian locl and the printed ss04 form are retained. Kerning is rebuilt
 for the new width; stress marks and every Cyrillic pair/feature mode are checked.
 Previous drawing sources and release archives are preserved.
+
+21 October 2026 — Family release 1.102 (internal drawing I029).
+Kazakh lowercase italic barred ghe follows the selected default ghe body, with
+a merged crossbar at the previous height and weight, matching advance and mark
+anchors. The italic de bowl retains the native q round overshoot at -9 instead
+of being clipped at the baseline; its descender and advance are retained.
+Kerning is rebuilt, with independent outline-profile and shaping regressions.
+Final-font comparisons, enlarged proofs and six-format browser/PDF checks are
+recorded with the release. Native Latin and previous archives are preserved.

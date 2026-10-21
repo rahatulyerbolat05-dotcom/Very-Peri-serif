@@ -4802,7 +4802,7 @@
                         {
                             "message": {
                                 "code": "size-impact",
-                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Italic.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 165.4kb |\n | Hinted Size   | 183.6kb   |\n | Increase      | 18.2kb      |\n | Change        | 11.0 %  |\n"
+                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Italic.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 164.1kb |\n | Hinted Size   | 182.3kb   |\n | Increase      | 18.2kb      |\n | Change        | 11.1 %  |\n"
                             },
                             "status": "INFO"
                         }

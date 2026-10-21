@@ -3764,10 +3764,10 @@
   }
  },
  "regular_release": {
-  "status": "21.10.2026: author selects italic ghe as Serbian form without the macron",
+  "status": "21.10.2026: barred ghe follows default ghe; italic de bowl clipping corrected",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.101",
+  "version": "1.102",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
@@ -4187,6 +4187,13 @@
    "tail_displacement": 30.0,
    "unchanged_above": -10.0,
    "original_bottom": -280.0
+  },
+  "italic_ghe_bar": {
+   "bottom": 236,
+   "top": 266,
+   "left_overhang": 54,
+   "right_overhang": 36,
+   "quadratic_tolerance": 0.1
   }
  }
 }

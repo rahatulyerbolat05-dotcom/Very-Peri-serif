@@ -19,6 +19,19 @@
   "uni0434.locl.ss01": {
    "source": "native g.ss01, separate Cyrillic mark base"
   },
+  "uni0493": {
+   "source": "default uni0433 + crossbar",
+   "bar_y": [
+    236,
+    266
+   ],
+   "overhangs": [
+    54,
+    36
+   ],
+   "points": 48,
+   "merged_contours": 1
+  },
   "uni0442.srb": {
    "source": "uni0448 + uni0304",
    "dx": 141

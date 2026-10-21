@@ -27,6 +27,8 @@ import pathops
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import Glyph,GlyphComponent
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
+from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.pens.cu2quPen import Cu2QuPen
 import italic_lower as L
 from italic_tidy import tidy
 from italic_fair import fair
@@ -46,6 +48,23 @@ def path_of(font,name):
 
 def top_centre(font,name,y=470):
     sl=L.slices(path_of(font,name),y);return (sl[0][0]+sl[-1][1])/2+L.S*y
+
+
+def barred_ghe(font):
+    """Build ғ from the selected default г, keeping the two bodies in sync."""
+    cfg=json.loads(Path('data/params.json').read_text())['premium_review']['italic_ghe_bar']
+    body=path_of(font,'uni0433');y0,y1=cfg['bottom'],cfg['top']
+    lo,hi=L.slices(body,(y0+y1)/2)[0]
+    bar=L.band(lo-cfg['left_overhang'],hi+cfg['right_overhang'],y0,y1)
+    # Merge the crossbar into one contour. Retain the native body's curves;
+    # avoid fairing/reshaping the complete already-approved default ghe.
+    path=L.OR(body,bar);pen=TTGlyphPen(None)
+    path.draw(Cu2QuPen(pen,cfg['quadratic_tolerance'],reverse_direction=False))
+    glyph=pen.glyph();glyph.recalcBounds(font['glyf'])
+    assert glyph.numberOfContours==1,'Barred ghe must have one merged outline'
+    return glyph,{'source':'default uni0433 + crossbar','bar_y':[y0,y1],
+                  'overhangs':[cfg['left_overhang'],cfg['right_overhang']],
+                  'points':len(glyph.coordinates),'merged_contours':glyph.numberOfContours}
 
 
 def printed(font,lo,hi):
@@ -79,6 +98,9 @@ def build_glyphs(font):
     for name,source in NATIVE_VARIANTS.items():
         glyf[name]=copy.deepcopy(glyf[source]);hmtx[name]=hmtx[source]
         new[name]=dict(source='native '+source+', separate Cyrillic mark base')
+    # I029: follow the newly selected г rather than the previous r construction.
+    gh,info=barred_ghe(font);glyf['uni0493']=gh
+    hmtx['uni0493']=(hmtx['uni0433'][0],gh.xMin);new['uni0493']=info
     # т for Serbian/Macedonian: ш with the macron placed as on ū (umacron: macron moved 29 over u)
     u_off=dict((c.glyphName,c.x) for c in glyf['umacron'].components)['uni0304']
     dx=round(top_centre(font,'uni0448')-top_centre(font,'u')+u_off)

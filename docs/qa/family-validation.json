@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.101",
-    "sha256": "d0d9fe75a93a04f161e912f83418919ef3ff1c918d22c0588f4ab5d766bb1bac"
+    "version": "1.102",
+    "sha256": "f2d74450f5ee716ac437a0303d8f51f565f76cd2821b2f0f91d95467bb28c094"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.101",
-    "source": "build/italic-lower/VeryPeriSerifItalicI028.ttf",
-    "sha256": "9e5b4952edce4f0a92698f44468fc951f659e14ed501b913b46234749d71f5e3",
-    "woff2_sha256": "13b483407fef8f745f40076c6b0ed9f95153f4e4048f82ec39017b9c8ca2dd0e"
+    "version": "1.102",
+    "source": "build/italic-lower/VeryPeriSerifItalicI029.ttf",
+    "sha256": "79273a9f9498832a1e0963e8e31ea4180c18cd0a0b01cbd0fc4048471e919002",
+    "woff2_sha256": "7bbbff6cec36bd50f0ed830ec0b18bdd962d56898fed3394bce4bffb1d413403"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -467,9 +467,9 @@
       ]
     },
     "uni0493": {
-      "donor": "n",
+      "donor": "uni0433",
       "top": [
-        244,
+        203,
         510
       ]
     },
@@ -666,10 +666,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1101",
+    "family": "Very Peri Serif T1102",
     "files": [
-      "VeryPeriSerifT1101-Regular.ttf",
-      "VeryPeriSerifT1101-Italic.ttf"
+      "VeryPeriSerifT1102-Regular.ttf",
+      "VeryPeriSerifT1102-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -681,10 +681,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1101-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1101-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1101-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1101-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1102-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1102-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1102-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1102-Italic.ttf": true
     }
   }
 }

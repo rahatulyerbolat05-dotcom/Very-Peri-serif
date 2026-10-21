@@ -15,14 +15,15 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.101.zip`](dist/VeryPeriSerif-1.101.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.102.zip`](dist/VeryPeriSerif-1.102.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.101**. The default italic г is now the Serbian form without its macron.
-[Shape comparison and checks](docs/ghe-1.101.md). The release adds complete Cyrillic stress-mark anchors,
+Regular and Italic share release **1.102**. Italic ғ now follows the selected г body with a crossbar,
+and the clipped bottom of the italic д bowl is rounded again. [Comparison and checks](docs/italic-1.102.md).
+The family includes complete Cyrillic stress-mark anchors,
 full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
 The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).
 
@@ -56,6 +57,7 @@ make
 
 ## Changelog
 
+- 21.10.2026: family 1.102, consistent italic г/ғ, restored round bottom of д, rebuilt kerning and regression proofs.
 - 21.10.2026: family 1.101, default italic г from the native Serbian body without the macron; locl and ss04 retained.
 
 - 20.10.2026: family 1.100, stress marks, native hinted homoglyphs, tabular figures, broader Italic kerning, optical review and immutable archives.

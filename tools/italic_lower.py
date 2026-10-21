@@ -3,7 +3,7 @@
 Everything is cut and joined along the slant axis: ud = x - tan13 * y (the native stems are vertical in ud, so a cut
 along ud keeps a stem whole). Parts are never scaled; they are moved whole (CLAUDE.md, lesson of Regular 1.015).
 Letters built here (docs/italic-rules.md 6.3): ш щ ц н д (native n/u/q/j parts), previous г (native r), л (native arch + leg).
-The final I028 default г is selected in italic_features.py from native dotlessi.
+The final г and ғ share their body in italic_features.py (I028/I029).
 Writes build/italic-lower/VeryPeriSerifItalicT0-lower.ttf (the caps test font plus these letters).
 """
 import json,math,sys
@@ -297,11 +297,15 @@ def build(ita,reg):
     bar=band(N_R-6,U_L+d+6,252,282)
     en=OR(n_stem1(),st2,bar)
     out['н']=(en,int(14+ (U_R+d)+ 87+ 4))
-    # ---- д: bowl and stem of q down to the baseline, descender and hook of j
+    # ---- д: bowl of a/q, descender and hook of j
     dsh=237.0-51.6
     jd=transformed(j,dx=dsh)
     a_=native(ita,'a')
-    de=OR(AND(AND(a_,above(125)),left_of(338)),AND(AND(q,above(0)),below(126)),AND(jd,below(6)))
+    # Keep the complete native q bowl, including its -9 round overshoot.
+    # Cutting at y=0 removed the arc and left a visible 74-unit flat chord.
+    # The q/j stems coincide here; their overlap ends below the bowl, not on it.
+    bowl_floor=ita['glyf']['a'].yMin-1
+    de=OR(AND(AND(a_,above(125)),left_of(338)),AND(AND(q,above(bowl_floor)),below(126)),AND(jd,below(6)))
     out['д']=(de,430)
     # ---- л: right half of n (arch from its thin side, stem, exit) + a straight thin leg along the Regular leg slope
     arch=OR(AND(n,right_of(262)),AND(n,AND(right_of(122),above(305))))
@@ -373,7 +377,7 @@ def build(ita,reg):
     bowl_right=337.6
     dy=(bowl_right+gap)-U_L
     out['\uf104']=(OR(soft,transformed(u_stem2(),dx=dy)),431)  # ы variant A
-    # ---- ө ғ: o and r with the crossbar
+    # ---- ө and previous r-based ғ; final ғ follows г in italic_features.py.
     o=native(ita,'o')
     P=polys_ud(ita,'o');lo,hi=outer_ud(P,255)
     out['ө']=(OR(o,band(lo+1,hi-1,243,268)),414)
@@ -576,6 +580,9 @@ def main():
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
         sp=SPACING.get(ch)
         if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(glyf);adv+=sp['dadv']
+        # An accepted advance can stay fixed when curve quantization changes
+        # the control-point bounding box by one unit (I029: rounded de bowl).
+        if sp and 'advance' in sp:adv=sp['advance']
         name=f'uni{ord(ch):04X}';glyf[name]=g
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))
         for t in font['cmap'].tables:
