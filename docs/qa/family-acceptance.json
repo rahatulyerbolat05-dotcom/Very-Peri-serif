@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
+      "sha256": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
       "style": "Regular",
-      "version": "Version 1.106",
+      "version": "Version 1.107",
       "passed": 1614,
       "failed": 0,
       "checks": [
@@ -14,7 +14,7 @@
         "Regular ya has exactly body and counter contours",
         "Regular ya outer leg shoulder is a rounded spline",
         "Regular ya inner leg shoulder is a rounded spline",
-        "Regular ya right-foot inner edge has one exact tangent",
+        "Regular ya complete right-foot edge is convex without a wave",
         "Regular ya has no contour kink",
         "Regular ya has no micro-segment at either repaired join",
         "Regular ya has no curvature wobble at either repaired join",
@@ -1661,9 +1661,9 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5",
+      "sha256": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545",
       "style": "Italic",
-      "version": "Version 1.106",
+      "version": "Version 1.107",
       "passed": 2166,
       "failed": 0,
       "checks": [

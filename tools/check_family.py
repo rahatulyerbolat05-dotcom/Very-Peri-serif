@@ -123,10 +123,14 @@ def check(path, exhaustive=True):
         ck([(x,y,on) for x,y,on in points if 185<=x<=220 and 235<=y<=250]==
            [(218,248,False),(193,247,False),(190,237,True)],
            'Regular ya inner leg shoulder is a rounded spline')
-        foot=[(x,y,on) for x,y,on in points if 245<=x<=270 and 20<=y<=75]
-        ck(foot==[(264,30,False),(260,56,True),(258,69,False)] and
-           (260-264)*(69-56)==(56-30)*(258-260),
-           'Regular ya right-foot inner edge has one exact tangent')
+        # Collinearity at one node missed the multi-segment wave in 1.106.
+        # Measure the complete exported edge: a convex foot has a monotone
+        # slope from the bottom bowl to the straight stem.
+        from italic_rules_measure import polys, runs
+        outline=polys(f,ya,0)
+        foot=[min(a for a,b in runs(outline,y+.1) if a>220) for y in range(0,101,5)]
+        ck(all(foot[i+1]-2*foot[i]+foot[i-1]>=-.05 for i in range(1,len(foot)-1)),
+           'Regular ya complete right-foot edge is convex without a wave')
         ya_quality=curve_check(f,ya)
         ck(not ya_quality['kink'], 'Regular ya has no contour kink')
         ck(not ya_quality['micro'], 'Regular ya has no micro-segment at either repaired join')

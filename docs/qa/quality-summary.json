@@ -1,7 +1,7 @@
 {
   "fonts": {
-    "VeryPeriSerif-Regular.ttf": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
-    "VeryPeriSerif-Italic.ttf": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5"
+    "VeryPeriSerif-Regular.ttf": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
+    "VeryPeriSerif-Italic.ttf": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545"
   },
   "tools": {
     "fonttools": "4.67.0",

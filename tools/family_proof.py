@@ -80,6 +80,10 @@ def main():
     previous_regular_foot=images/'before/Regular-1.105.ttf'
     if version=='1.106' and not previous_regular_foot.exists():
         previous_regular_foot.write_bytes(subprocess.check_output(['git','show','686e313:fonts/ttf/VeryPeriSerif-Regular.ttf']))
+    if version=='1.107':
+        previous_regular_foot=images/'before/Regular-1.106.ttf'
+        if not previous_regular_foot.exists():
+            previous_regular_foot.write_bytes(subprocess.check_output(['git','show','aa705fd:fonts/ttf/VeryPeriSerif-Regular.ttf']))
     date=datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc)
     meta={'Title':'Very Peri Serif '+version+' — Regular & Italic','Author':'Very Peri Serif project',
           'CreationDate':date,'ModDate':date}
@@ -233,25 +237,26 @@ def main():
             fig.tight_layout();pdf.savefig(fig)
             fig.savefig('docs/img/ya-regular-detail-1.105.svg',metadata={'Date':config['date']})
             fig.savefig(images/'ya-regular-detail-1.105.png');plt.close(fig)
-        if version=='1.106':
+        if version in ('1.106','1.107'):
+            previous='1.105' if version=='1.106' else '1.106'
             old_ya=Proof(previous_regular_foot)
-            fig,ax=page('Regular я · smooth right foot · 1.105 / 1.106',1500,1150)
-            for col,(label,p) in enumerate((('Before · 1.105',old_ya),('After · 1.106',proofs['Regular']))):
+            fig,ax=page('Regular я · right foot · '+previous+' / '+version,1500,1150)
+            for col,(label,p) in enumerate((('Before · '+previous,old_ya),('After · '+version,proofs['Regular']))):
                 x=45+750*col;ax.text(x,105,label,fontsize=16,color='#69656a')
                 p.line(ax,'я',x+150,750,790)
                 p.line(ax,'моя · яркая · земля',x,960,87)
-            pdf.savefig(fig);fig.savefig('docs/img/ya-regular-foot-1.106.svg',metadata={'Date':config['date']})
-            fig.savefig(images/'ya-regular-foot-1.106.png');plt.close(fig)
+            pdf.savefig(fig);fig.savefig('docs/img/ya-regular-foot-'+version+'.svg',metadata={'Date':config['date']})
+            fig.savefig(images/('ya-regular-foot-'+version+'.png'));plt.close(fig)
             fig,axes=plt.subplots(1,2,figsize=(12,4),facecolor=BG)
             for col,p in enumerate((old_ya,proofs['Regular'])):
                 ax=axes[col];ax.set_facecolor(BG);name=p.font.getBestCmap()[ord('я')]
                 pen=MplPen(p.gs);p.gs[name].draw(pen)
                 ax.add_patch(PathPatch(pen.result(),facecolor=INK,edgecolor='none'))
                 ax.set_xlim(220,330);ax.set_ylim(-20,125);ax.set_aspect('equal');ax.axis('off')
-                ax.set_title('я · '+('1.105' if col==0 else '1.106'),fontsize=15,color='#69656a')
+                ax.set_title('я · '+(previous if col==0 else version),fontsize=15,color='#69656a')
             fig.tight_layout();pdf.savefig(fig)
-            fig.savefig('docs/img/ya-regular-foot-detail-1.106.svg',metadata={'Date':config['date']})
-            fig.savefig(images/'ya-regular-foot-detail-1.106.png');plt.close(fig)
+            fig.savefig('docs/img/ya-regular-foot-detail-'+version+'.svg',metadata={'Date':config['date']})
+            fig.savefig(images/('ya-regular-foot-detail-'+version+'.png'));plt.close(fig)
     # Compact before/after proof. The baseline comes from the recorded published
     # a7bec14 binaries, never from a font rebuilt after editing the sources.
     fig,ax=page('Italic · a7bec14 / '+version+' · bowls reconstructed, native Latin unchanged',1600,1050)

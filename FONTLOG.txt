@@ -100,3 +100,9 @@ scope, shaping and enlarged comparison checks accompany the release.
 The remaining kink on the inner left edge of the right foot of Regular
 lowercase ya is removed by placing its adjacent quadratic controls on one
 exact tangent. Advance, bearings, bounds and the Italic drawing are unchanged.
+
+21 October 2026 — Family release 1.107 (internal drawing I031).
+The author confirmed that the 1.106 tangent fix still left a visible wave.
+Replace the complete left edge of the right foot of Regular ya with one
+convex cubic from the bottom to the straight stem. Validate monotone edge
+slope over the whole exported curve instead of testing one collinear node.

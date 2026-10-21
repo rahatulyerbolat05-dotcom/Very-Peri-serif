@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
   "baseline_commit": "a7bec14",
-  "release": "1.106",
+  "release": "1.107",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -71,25 +71,28 @@
     {
       "status": "author_request",
       "item": "Regular я: remove the remaining kink on the inner left edge of the right foot by making its adjacent quadratic controls exactly collinear; preserve all metrics and bounds."
+    },
+    {
+      "status": "author_request",
+      "item": "Author confirmed that Regular я right-foot edge was still uneven in 1.106. Replace the whole left edge from (346,-9) to (280,95) with one convex cubic. Replace the single-node regression with a complete edge-profile convexity test that fails on 1.106."
     }
   ],
   "approved_fonts": {
-    "Regular": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
-    "Italic": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5"
+    "Regular": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
+    "Italic": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545"
   },
   "optical_acceptance": {
     "date": "2026-10-21",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Regular lowercase я inner edge of the right foot",
+    "scope": "Complete left edge of the right foot of Regular lowercase я",
     "viewed": [
-      "final 1.105/1.106 Regular ya comparison and Russian word samples",
-      "enlarged final Regular ya right foot",
-      "final Regular running-text page"
+      "final exported Regular ya: 1.106/1.107 full glyph and word comparison",
+      "final exported right-foot enlargement: full convex edge without the old shoulder"
     ],
     "decisions": [
-      "Accept the continuous inner edge of the right foot without the 1.105 direction break.",
-      "Require exact collinearity of exported controls (264,30), (260,56), (258,69); cross product zero.",
-      "Only the uni044F Regular outline differs from 1.105. Italic, advances, bearings, all other outlines and native hinting are preserved; docs/qa/ya-regular-foot-1.106.json."
+      "Accept the complete convex replacement: no visible wave where the straight stem enters the lower foot.",
+      "Prior 1.106 fails the full-edge convexity regression; 1.107 passes.",
+      "Only uni044F Regular differs in outline from 1.106; all advances and bearings, all other outlines and hint programs are preserved. docs/qa/ya-regular-foot-1.107.json."
     ],
     "functional_assertions": 3780,
     "limitations": [
@@ -120,6 +123,10 @@
     "1.105": {
       "Regular": "a22915e4182318639b9ca6a35f6709ad6b361ffff801f17e58189fc420d8d853",
       "Italic": "b0854317e7cf6afdac6a618c20cfbb7be097014c02e49164d28f4912d08f819c"
+    },
+    "1.106": {
+      "Regular": "2433d952caf6404763a1d93c135b130473a9c8448e9a17ac7b37ff14c5852a40",
+      "Italic": "f1c4aeeb3e0476d3312335f8bef1b34d7db48d64bcfa685ce9efe5c4822234f5"
     }
   },
   "previous_optical_acceptance": {
@@ -244,6 +251,26 @@
       "limitations": [
         "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
       ]
+    },
+    "1.106": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Regular lowercase я inner edge of the right foot",
+      "viewed": [
+        "final 1.105/1.106 Regular ya comparison and Russian word samples",
+        "enlarged final Regular ya right foot",
+        "final Regular running-text page"
+      ],
+      "decisions": [
+        "Accept the continuous inner edge of the right foot without the 1.105 direction break.",
+        "Require exact collinearity of exported controls (264,30), (260,56), (258,69); cross product zero.",
+        "Only the uni044F Regular outline differs from 1.105. Italic, advances, bearings, all other outlines and native hinting are preserved; docs/qa/ya-regular-foot-1.106.json."
+      ],
+      "functional_assertions": 3780,
+      "limitations": [
+        "Linux browser checks only; native Windows/macOS/commercial-app and physical print tests are not claimed."
+      ],
+      "author_followup": "Author rejected the visible right-foot edge after release: collinearity at one node did not remove the wave across the full transition."
     }
   }
 }

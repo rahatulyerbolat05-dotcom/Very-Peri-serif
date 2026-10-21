@@ -1,0 +1,139 @@
+{
+  "version": "1.107",
+  "baseline_commit": "aa705fd92a923b64fd309f5ace83caa3b68d1d42",
+  "styles": {
+    "Regular": {
+      "sha256": "5b09265093939942e10c224eda0f14be2ac09971fe3cb9d011b31ef72b4137dd",
+      "outline_changes": [
+        "uni044F"
+      ],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true,
+      "GPOS_GSUB_GDEF_cmap_hmtx_preserved": true
+    },
+    "Italic": {
+      "sha256": "95ff6359b8958d6b3a2c0ded8ade1554f9c890066b2372546b16a45315b3d545",
+      "outline_changes": [],
+      "advance_or_bearing_changes": [],
+      "all_other_outlines_hints_and_metrics_preserved": true,
+      "GPOS_GSUB_GDEF_cmap_hmtx_preserved": true
+    }
+  },
+  "failed": 0,
+  "ya": {
+    "metrics": [
+      428,
+      -6
+    ],
+    "bounds": [
+      -6,
+      -9,
+      399,
+      516
+    ],
+    "edge_profiles": {
+      "before": {
+        "x_at_y_0_to_100_step_5": [
+          287.9,
+          282.4,
+          278.3,
+          274.9,
+          271.9,
+          269.4,
+          267.1,
+          265.2,
+          263.6,
+          262.2,
+          261.1,
+          260.1,
+          259.3,
+          258.1,
+          256.4,
+          253.6,
+          251.5,
+          250.6,
+          250.1,
+          250.0,
+          250.0
+        ],
+        "second_differences": [
+          1.4,
+          0.7,
+          0.4,
+          0.5,
+          0.2,
+          0.4,
+          0.3,
+          0.2,
+          0.3,
+          0.1,
+          0.2,
+          -0.4,
+          -0.5,
+          -1.1,
+          0.7,
+          1.2,
+          0.4,
+          0.4,
+          0.1
+        ],
+        "convex": false
+      },
+      "after": {
+        "x_at_y_0_to_100_step_5": [
+          288.7,
+          282.8,
+          278.0,
+          273.9,
+          270.4,
+          267.3,
+          264.5,
+          262.1,
+          259.9,
+          258.0,
+          256.3,
+          254.9,
+          253.7,
+          252.6,
+          251.8,
+          251.1,
+          250.6,
+          250.3,
+          250.1,
+          250.0,
+          250.0
+        ],
+        "second_differences": [
+          1.1,
+          0.7,
+          0.6,
+          0.4,
+          0.3,
+          0.4,
+          0.2,
+          0.3,
+          0.2,
+          0.3,
+          0.2,
+          0.1,
+          0.3,
+          0.1,
+          0.2,
+          0.2,
+          0.1,
+          0.1,
+          0.1
+        ],
+        "convex": true
+      }
+    },
+    "curve_diagnostics": {
+      "slop": [],
+      "zone": [],
+      "extrema": [],
+      "kink": [],
+      "micro": [],
+      "wobble": []
+    }
+  }
+}
