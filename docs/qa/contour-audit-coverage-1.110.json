@@ -1,0 +1,46 @@
+{
+  "release": "1.110",
+  "purpose": "Coverage snapshot for a proposed audit, not a defect or acceptance report",
+  "styles": {
+    "Regular": {
+      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+      "glyphs": 525,
+      "unique_shapes": 447,
+      "explicit_finish_sources": 40,
+      "diagnostic_candidates_all_glyphs": {
+        "waves": 105,
+        "kinks": 2139,
+        "micro": 2,
+        "roughness": 0
+      },
+      "diagnostic_candidates_unique_shapes": {
+        "waves": 97,
+        "kinks": 1904,
+        "micro": 2,
+        "roughness": 0
+      },
+      "native_unchanged_glyphs": 377,
+      "contours_without_explicit_oncurve": 6
+    },
+    "Italic": {
+      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+      "glyphs": 491,
+      "unique_shapes": 414,
+      "explicit_finish_sources": 51,
+      "diagnostic_candidates_all_glyphs": {
+        "waves": 24,
+        "kinks": 2234,
+        "micro": 1,
+        "roughness": 0
+      },
+      "diagnostic_candidates_unique_shapes": {
+        "waves": 19,
+        "kinks": 1933,
+        "micro": 1,
+        "roughness": 0
+      },
+      "native_unchanged_glyphs": 377,
+      "contours_without_explicit_oncurve": 6
+    }
+  }
+}
