@@ -15,14 +15,14 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.109.zip`](dist/VeryPeriSerif-1.109.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.110.zip`](dist/VeryPeriSerif-1.110.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.109**. The upper bowl of Regular я and the stem/terminal joins of Italic я have been refined after the author reported remaining defects.
-[Before/after and checks](docs/ya-1.109.md). All advances and side bearings are preserved; the Italic drawing is I033. The family-wide curve review remains documented in [1.108](docs/curve-review-1.108.md).
+Regular and Italic share release **1.110**. Default Italic г and ғ have a wider flourish span, with the diagonal stem's weight and angle retained.
+[Before/after and checks](docs/ghe-width-1.110.md). The advance is 308 units (+20); the Italic drawing is I034. The [1.109 ya corrections](docs/ya-1.109.md) are preserved.
 The family includes complete Cyrillic stress-mark anchors,
 full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
 The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).
@@ -57,6 +57,7 @@ make
 
 ## Changelog
 
+- 22.10.2026: family 1.110, wider default Italic г/ғ with unchanged stem weight.
 - 21.10.2026: family 1.109, Regular я crown and Italic я stem/terminal corrections.
 - 21.10.2026: family 1.108, complete glyph curve audit and reviewed corrections in both styles.
 - 21.10.2026: family 1.107, the complete right-foot edge of Regular я redrawn as one convex curve.

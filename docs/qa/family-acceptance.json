@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
+      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
       "style": "Regular",
-      "version": "Version 1.109",
+      "version": "Version 1.110",
       "passed": 1614,
       "failed": 0,
       "checks": [
@@ -1661,17 +1661,22 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
+      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
       "style": "Italic",
-      "version": "Version 1.109",
-      "passed": 2166,
+      "version": "Version 1.110",
+      "passed": 2171,
       "failed": 0,
       "checks": [
         "Russian and Kazakh coverage",
         "No residual curve kinks in ж",
         "No residual curve kinks in з",
         "Serbian ghe body is native dotlessi",
-        "Default ghe exactly matches Serbian body without macron",
+        "Wider ghe advance",
+        "Wider ghe preserves diagonal stem at y=205.1",
+        "Wider ghe preserves diagonal stem at y=230.1",
+        "Wider ghe preserves diagonal stem at y=255.1",
+        "Wider ghe preserves diagonal stem at y=280.1",
+        "Wider ghe preserves diagonal stem at y=305.1",
         "Serbian and Macedonian ghe retain macron",
         "Printed ghe alternative retained",
         "Barred ghe shares default ghe advance",
@@ -3907,10 +3912,10 @@
       },
       "harfbuzz_pairs_checked": 495271,
       "native_unicode_pairs_preserved": 110889,
-      "vector_pairs_checked": 17626,
+      "vector_pairs_checked": 17823,
       "raster_homoglyphs": []
     }
   ],
-  "passed": 3780,
+  "passed": 3785,
   "failed": 0
 }

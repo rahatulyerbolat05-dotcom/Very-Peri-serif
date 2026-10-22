@@ -1,0 +1,29 @@
+{
+  "version": "1.110",
+  "baseline_commit": "4ffae31c961c4ec2108224c522d815b24433f456",
+  "styles": {
+    "Regular": {
+      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+      "changed_outlines": [],
+      "changed_metrics": []
+    },
+    "Italic": {
+      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+      "changed_outlines": [
+        "uni0493",
+        "uni0433"
+      ],
+      "changed_metrics": [
+        "uni0493",
+        "uni0433"
+      ],
+      "advance_before": 288,
+      "advance_after": 308,
+      "stem_translation_x": 10,
+      "diagonal_stem_weight_preserved": true,
+      "mark_anchor_dx": 10
+    }
+  },
+  "passed": 366,
+  "failed": 0
+}

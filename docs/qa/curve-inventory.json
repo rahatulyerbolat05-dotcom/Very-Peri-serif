@@ -1,7 +1,7 @@
 {
   "fonts": {
     "Regular": {
-      "sha256": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
+      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
       "glyph_count": 525,
       "types": {
         "simple": 291,
@@ -28722,14 +28722,14 @@
       }
     },
     "Italic": {
-      "sha256": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
+      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
       "glyph_count": 491,
       "types": {
         "simple": 259,
         "composite": 221,
         "empty": 11
       },
-      "unique_shapes": 413,
+      "unique_shapes": 414,
       "roughness_threshold": 0.35,
       "glyphs": {
         ".notdef": {
@@ -53876,7 +53876,7 @@
           ],
           "kind": "simple",
           "native_unchanged": false,
-          "same_shape_as": "dotlessi",
+          "same_shape_as": null,
           "origin": [
             14.0,
             -10.0
@@ -53886,10 +53886,10 @@
             "kinks": [
               {
                 "xy": [
-                  43.0,
+                  44.0,
                   332.0
                 ],
-                "degrees": 2.94,
+                "degrees": 3.62,
                 "contour": 0
               },
               {
@@ -53902,15 +53902,15 @@
               },
               {
                 "xy": [
-                  244.0,
+                  263.0,
                   174.0
                 ],
-                "degrees": 2.94,
+                "degrees": 3.62,
                 "contour": 0
               },
               {
                 "xy": [
-                  266.0,
+                  286.0,
                   169.0
                 ],
                 "degrees": 4.09,

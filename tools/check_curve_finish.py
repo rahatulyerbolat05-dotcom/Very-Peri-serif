@@ -27,8 +27,10 @@ def hard_corners(font,name):
     return found
 
 
-def introduced_corners(old,new,name):
+def introduced_corners(old,new,name,translation=(0,0)):
     original=hard_corners(old,name)
+    for point in original:
+        point['xy']=[point['xy'][i]+translation[i] for i in (0,1)]
     return [p for p in hard_corners(new,name) if not any(
         q['contour']==p['contour'] and math.dist(p['xy'],q['xy'])<7
         and abs(p['degrees']-q['degrees'])<18 for q in original)]
@@ -49,7 +51,11 @@ def main():
         native=TTFont(f'reference/instrument-serif/fonts/ttf/InstrumentSerif-{style}.ttf')
         ck(old.getGlyphOrder()==new.getGlyphOrder(),(style,'glyph order'))
         metrics=[n for n in new.getGlyphOrder() if old['hmtx'][n]!=new['hmtx'][n]]
-        ck(not metrics,(style,'metrics',metrics))
+        intentional_metrics={n:r for n,r in manifest['glyphs'][style].items()
+                             if r.get('input_advance_and_lsb',r['advance_and_lsb'])!=r['advance_and_lsb']}
+        ck(set(metrics)==set(intentional_metrics),(style,'unplanned metrics',metrics))
+        for n,r in intentional_metrics.items():
+            ck(list(old['hmtx'][n])==r['input_advance_and_lsb'] and list(new['hmtx'][n])==r['advance_and_lsb'],(style,'declared metrics',n))
         direct=[n for n in new.getGlyphOrder() if old['glyf'][n].compile(old['glyf'])!=new['glyf'][n].compile(new['glyf'])]
         expected=set(manifest['glyphs'][style])|set(manifest.get('derived_from_regular',{}).get(style,{}))
         ck(set(direct)==expected,(style,'unplanned outline changes',set(direct)^expected))
@@ -66,12 +72,12 @@ def main():
             ck(not after['micro'],(style,'remaining short step',n))
             short=lambda d:[p for p in d['waves'] if p['length']<30 and abs(p['turn'])<25]
             ck(not short(after),(style,'remaining short curvature reversal',n))
-            introduced=introduced_corners(old,new,n)
+            introduced=introduced_corners(old,new,n,r.get('comparison_translation',(0,0)))
             ck(not introduced,(style,'introduced hard corner',n,introduced))
             def area(font):
                 p=pathops.Path();font.getGlyphSet()[n].draw(p.getPen());return abs(p.area)
             a,b=area(old),area(new)
-            ck(abs(b-a)/max(1,a)<.025,(style,'ink area drift',n,a,b))
+            ck(abs(b-a)/max(1,a)<r.get('maximum_relative_ink_area_change',.025),(style,'ink area drift',n,a,b))
             rows[n]={'before':before,'after':after,'relative_ink_area_change':round((b-a)/max(1,a),6),'bounds':r['bounds'],'outline_deviation':r['outline_deviation']}
         for n in manifest.get('derived_from_regular',{}).get(style,{}):
             ck(not introduced_corners(old,new,n),(style,'introduced hard corner in derived sign',n))

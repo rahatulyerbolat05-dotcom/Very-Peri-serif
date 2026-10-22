@@ -129,6 +129,8 @@ def main():
     removed=remove_experiments(ita)
     from curve_finish import apply as finish_curves
     curve_sources=finish_curves(ita,'Italic')
+    from italic_ghe_width import finish as finish_ghe_width
+    ghe_width=finish_ghe_width(ita,native_aliases,anchors)
     stressed_i(ita)
     from italic_kern import apply as kern_italic
     kerning=kern_italic(ita,native_aliases=native_aliases)
@@ -155,7 +157,7 @@ def main():
     t.save(test)
     checks=validate(REG,ttf);tchecks=validate(TEST/f'VeryPeriSerif{tag}-Regular.ttf',test)
     report=dict(regular=dict(file=REG.name,version=CONFIG['version'],sha256=sha(REG)),italic=dict(file=ttf.name,version=version,source=str(src),sha256=sha(ttf),woff2_sha256=sha(woff)),
-                added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,curve_finish=curve_sources,
+                added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,curve_finish=curve_sources,ghe_width=ghe_width,
                 checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
     (OUT/'family-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     shutil.copyfile('font/README-family.md',OUT/'README-family.md')

@@ -34,10 +34,12 @@ def apply(font, style):
     for name,record in records.items():
         assert name in font['glyf'],('Missing generated curve base',style,name)
         assert name not in native.getGlyphOrder(),('Native glyph must stay unchanged',name)
-        assert list(font['hmtx'][name])==record['advance_and_lsb'],('Curve finish metrics',style,name)
+        incoming=record.get('input_advance_and_lsb',record['advance_and_lsb'])
+        assert list(font['hmtx'][name])==incoming,('Curve finish metrics',style,name)
         g=load_source(name,record);g.recalcBounds(font['glyf'])
         assert g.numberOfContours==record['contours'],('Curve source contour count',name)
         assert [g.xMin,g.yMin,g.xMax,g.yMax]==record['bounds'],('Curve source bounds',name)
         font['glyf'][name]=g
+        font['hmtx'][name]=tuple(record['advance_and_lsb'])
         result[name]={'path':record['path'],'sha256':record['sha256'],'reviewed_outline':True}
     return result

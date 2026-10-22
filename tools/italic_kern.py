@@ -73,7 +73,7 @@ def apply(font,native_aliases=None):
         # native italic edge logic, rather than Regular's diagonal donors.
         special = {'н': 'n', 'ш': 'm', 'щ': 'm', 'ц': 'u', 'ң': 'n', 'қ': 'k',
                    'д': 'g', 'ж': 'c', 'в': 'b', 'я': 'a', 'ю': 'o', 'ф': 'o',
-                   'ы': 'b' if side == 0 else 'n', 'ү': 'y', 'ұ': 'y', 'ғ': 'dotlessi'}
+                   'ы': 'b' if side == 0 else 'n', 'ү': 'y', 'ұ': 'y', 'г': 'dotlessi', 'ғ': 'dotlessi'}
         return special.get(ch, d)
     nk_cache = {}
     def nk(a, b):

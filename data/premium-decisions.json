@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "baseline_commit": "a7bec14",
-  "release": "1.109",
+  "release": "1.110",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -87,34 +87,38 @@
     {
       "status": "measured",
       "item": "OTF rounding/fitting can reintroduce a crown irregularity absent from the reviewed TTF. Export both ya glyphs by exact degree elevation with fractional CFF controls; verify all cubic controls within 0.002 units. Measured drift below 0.0001 units."
+    },
+    {
+      "status": "author_request",
+      "item": "Widen the default Italic ghe; choose +20 advance units (~7%) by extending flourishes with the diagonal stem intact. Synchronize barred ghe and shift mark anchors +10; keep Regular and local/printed forms. Remove the exact-native alias classification for the authored default Cyrillic ghe."
     }
   ],
   "approved_fonts": {
-    "Regular": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
-    "Italic": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713"
+    "Regular": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+    "Italic": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8"
   },
   "optical_acceptance": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Regular ya upper arc and Italic ya stem/terminal, compared with published 1.108",
+    "scope": "Default Italic г/ғ width, stroke weight, marks and spacing against 1.109",
     "viewed": [
-      "Final 1.108/1.109 Regular ya full glyph and enlarged upper bowl",
-      "Final 1.108/1.109 Italic ya full glyph, stem/foot and enlarged terminal",
-      "Final Russian and Kazakh words in both styles",
-      "Serialized exact-CFF and TTF ya closeups in both styles"
+      "Final exported 1.109/1.110 г and ғ, full outlines and enlarged stem/exit",
+      "Final Russian and Kazakh word comparison with kerning and stress marks",
+      "Final default, Serbian local and printed ss04 samples"
     ],
     "decisions": [
-      "Accept the upper-right Regular bowl arc; all four exported arc joins have curvature jumps under five percent.",
-      "Accept the continuous Italic stem transition and rounded exit cap without the previous kink.",
-      "Only uni044F changes outline in each style; counters, all advances/bearings, native outlines and hint programs match published 1.108.",
-      "Preserve exact ya geometry in CFF instead of re-fitting and integer-rounding the reviewed quadratic contours."
+      "Accept +20 advance units (288 to 308) through wider entry and exit flourishes; stem weight and slope preserved.",
+      "Accept shared inner flourish controls for г/ғ while retaining smooth approved terminal caps and crossbar corners.",
+      "Regular and all other outlines/metrics match 1.109; native dotlessi, Serbian/Macedonian imacron and ss04 retained.",
+      "All stress anchors translate +10 with the stem; both letters are evaluated for every Russian/Kazakh letter pairing."
     ],
     "limitations": [
-      "No native Windows/macOS/commercial-app or physical print test."
+      "Native Windows/macOS/commercial-app and physical print tests are not claimed."
     ],
-    "functional_assertions": 3780,
-    "curve_assertions": 1394,
-    "ya_assertions": 38
+    "functional_assertions": 3785,
+    "curve_assertions": 1403,
+    "ya_assertions": 38,
+    "ghe_width_assertions": 366
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -152,6 +156,10 @@
     "1.108": {
       "Regular": "ac4f30871f79104adcf53c4baaa71dfe735312f2eebe80ffa12bf2dbf2b803f6",
       "Italic": "446e8327040a14ba49ca7baa30ee9c13f93c24671a6f84ecad4147b68243ce7a"
+    },
+    "1.109": {
+      "Regular": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
+      "Italic": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713"
     }
   },
   "previous_optical_acceptance": {
@@ -339,6 +347,29 @@
         "Diagnostics nominate review sites; no universal numerical proof of artistic finish is claimed."
       ],
       "curve_assertions": 1380
+    },
+    "1.109": {
+      "date": "2026-10-21",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Regular ya upper arc and Italic ya stem/terminal, compared with published 1.108",
+      "viewed": [
+        "Final 1.108/1.109 Regular ya full glyph and enlarged upper bowl",
+        "Final 1.108/1.109 Italic ya full glyph, stem/foot and enlarged terminal",
+        "Final Russian and Kazakh words in both styles",
+        "Serialized exact-CFF and TTF ya closeups in both styles"
+      ],
+      "decisions": [
+        "Accept the upper-right Regular bowl arc; all four exported arc joins have curvature jumps under five percent.",
+        "Accept the continuous Italic stem transition and rounded exit cap without the previous kink.",
+        "Only uni044F changes outline in each style; counters, all advances/bearings, native outlines and hint programs match published 1.108.",
+        "Preserve exact ya geometry in CFF instead of re-fitting and integer-rounding the reviewed quadratic contours."
+      ],
+      "limitations": [
+        "No native Windows/macOS/commercial-app or physical print test."
+      ],
+      "functional_assertions": 3780,
+      "curve_assertions": 1394,
+      "ya_assertions": 38
     }
   }
 }

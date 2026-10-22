@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.109",
-    "sha256": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2"
+    "version": "1.110",
+    "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.109",
+    "version": "1.110",
     "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
-    "sha256": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
-    "woff2_sha256": "92b7e7ed974acd3818a6115ed27f8521e79fc8c7b2b6abeb23c30192a7a1a8ac"
+    "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+    "woff2_sha256": "092dbe5554af945887681a73cb63c47dddd08629cedf9760e732038131d2368f"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -299,7 +299,8 @@
     },
     "uni0433": {
       "donor": "dotlessi",
-      "native_anchor_copy": true
+      "anchor_dx": 10,
+      "reviewed_wider_cyrillic_body": true
     },
     "uni0434": {
       "donor": "n",
@@ -467,11 +468,9 @@
       ]
     },
     "uni0493": {
-      "donor": "uni0433",
-      "top": [
-        203,
-        510
-      ]
+      "donor": "dotlessi",
+      "anchor_dx": 10,
+      "reviewed_wider_cyrillic_body": true
     },
     "uni049B": {
       "donor": "n",
@@ -600,7 +599,6 @@
     "uni0442": "m",
     "uni0445": "x",
     "uni04BB": "h",
-    "uni0433": "dotlessi",
     "uni0434.ss02": "eth",
     "uni0430.ss01": "a.ss01",
     "uni0435.ss01": "e.ss01",
@@ -639,13 +637,13 @@
       "lU": 154.68142200298354,
       "UU": 171.36435853947268
     },
-    "pairs_evaluated": 62581,
+    "pairs_evaluated": 63302,
     "categories": {
       "UU": 8525,
-      "Ul": 10536,
-      "punctuation/digits/symbols": 19929,
-      "lU": 10536,
-      "ll": 13055
+      "Ul": 10656,
+      "punctuation/digits/symbols": 20073,
+      "lU": 10656,
+      "ll": 13392
     },
     "native_native_pairs_changed": 0,
     "minimum_clearance": 5.0
@@ -858,7 +856,7 @@
     },
     "uni0493": {
       "path": "data/curve-finish/Italic/uni0493.glif",
-      "sha256": "f6cb90b2da445c74bc8d05b14935fa535e14a6bf2dd462515d8b2ab21b815332",
+      "sha256": "fbab8c31a3743f8cbf3cf21d0633c8338e29d14bc2fa217a5d149e8e30285372",
       "reviewed_outline": true
     },
     "uni0439": {
@@ -900,7 +898,22 @@
       "path": "data/curve-finish/Italic/uni044F.glif",
       "sha256": "3008e88082dc0b2cbb8f2129a146823469ae9fa4d90928e739c39593367f818c",
       "reviewed_outline": true
+    },
+    "uni0433": {
+      "path": "data/curve-finish/Italic/uni0433.glif",
+      "sha256": "a54a698a50956fde56d51a2828264937b41524324648db1a0e251bbbc42ee63f",
+      "reviewed_outline": true
     }
+  },
+  "ghe_width": {
+    "advance_before": 288,
+    "advance_after": 308,
+    "anchor_dx": 10,
+    "independent_kerning": [
+      "uni0433",
+      "uni0493"
+    ],
+    "native_local_and_printed_forms_preserved": true
   },
   "checks": {
     "same family name": true,
@@ -918,10 +931,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1109",
+    "family": "Very Peri Serif T1110",
     "files": [
-      "VeryPeriSerifT1109-Regular.ttf",
-      "VeryPeriSerifT1109-Italic.ttf"
+      "VeryPeriSerifT1110-Regular.ttf",
+      "VeryPeriSerifT1110-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -933,10 +946,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1109-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1109-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1109-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1109-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1110-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1110-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1110-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1110-Italic.ttf": true
     }
   }
 }

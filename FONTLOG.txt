@@ -123,3 +123,10 @@ exit-cap corner. Preserve counters, all advances/bearings and bounds.
 Only lowercase ya changes outline in each style relative to 1.108.
 OTF ya uses exact quadratic degree elevation with fractional controls, avoiding
 new CFF fitting/rounding defects. Exported cubic controls are independently checked.
+
+22 October 2026 — Family release 1.110 (internal drawing I034).
+The author requested a wider default Italic ghe. Extend the entry and exit
+flourishes while keeping the diagonal stem's weight and angle; advance 288 to
+308. Apply the same width adjustment to barred ghe, shift both mark anchors by 10,
+and compute independent Cyrillic kerning. Preserve native Latin dotlessi,
+Serbian/Macedonian imacron, the printed alternate, Regular and all other outlines.

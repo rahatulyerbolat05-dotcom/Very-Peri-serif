@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "ce9783a3d0a91cc4c5e60aef2973f040ffa42a6e2a300588131466978008d846",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "6925cc75b1ef56789eb1a899d81294fd3ff70776791107fd17ac6b9211537f07",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "723695588ff738782ccac2aa2a68d4d604dbef0b7e5252fe171a1f395dce9d64",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "92b7e7ed974acd3818a6115ed27f8521e79fc8c7b2b6abeb23c30192a7a1a8ac"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "89f48cc92e4fa835316a74f028af7f4345f004503f2ffd7bf543852f076244d9",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "b7607919f01fd8d271e6f11baeb129d271753fd0440d462a3a54baa26fad23af",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "27c0b3d623233338bfab403bf0c45230c29e53cb62e795e482e8ace3da17f558",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "092dbe5554af945887681a73cb63c47dddd08629cedf9760e732038131d2368f"
   },
   "results": {
     "results": [
@@ -38,10 +38,10 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.406005859375,
+          1144.1259765625,
           909.6944580078125,
-          748.798828125,
-          1039.55029296875,
+          751.9985961914062,
+          1044.4141845703125,
           419.13531494140625,
           488.8951110839844,
           585.4070434570312
@@ -66,10 +66,10 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.406005859375,
+          1144.1259765625,
           909.6944580078125,
-          748.798828125,
-          1039.55029296875,
+          751.9985961914062,
+          1044.4141845703125,
           419.13531494140625,
           488.8951110839844,
           585.4070434570312
@@ -94,10 +94,10 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1145.406005859375,
+          1144.1259765625,
           909.6944580078125,
-          748.798828125,
-          1039.55029296875,
+          751.9985961914062,
+          1044.4141845703125,
           419.13531494140625,
           488.8951110839844,
           585.4070434570312

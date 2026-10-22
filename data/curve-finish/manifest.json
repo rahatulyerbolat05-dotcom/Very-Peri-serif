@@ -1,6 +1,6 @@
 {
   "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
-  "release": "1.109",
+  "release": "1.110",
   "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
   "glyphs": {
     "Regular": {
@@ -6163,9 +6163,13 @@
       },
       "uni0493": {
         "path": "data/curve-finish/Italic/uni0493.glif",
-        "sha256": "f6cb90b2da445c74bc8d05b14935fa535e14a6bf2dd462515d8b2ab21b815332",
-        "advance_and_lsb": [
+        "sha256": "fbab8c31a3743f8cbf3cf21d0633c8338e29d14bc2fa217a5d149e8e30285372",
+        "input_advance_and_lsb": [
           288,
+          17
+        ],
+        "advance_and_lsb": [
+          308,
           17
         ],
         "contours": 1,
@@ -6178,72 +6182,28 @@
         "bounds": [
           17,
           -10,
-          270,
+          290,
           516
         ],
-        "outline_deviation": 1.103,
+        "outline_deviation": 20.0,
+        "review_baseline_commit": "4ffae31c961c4ec2108224c522d815b24433f456",
+        "maximum_relative_ink_area_change": 0.04,
         "repairs": [
           {
-            "target": {
-              "xy": [
-                267.0,
-                184.0
-              ],
-              "kind": "integer-grid curve join"
-            },
-            "movement": 0.5,
-            "repair": "remove explicit node to use an exact implicit midpoint"
-          },
-          {
-            "target": {
-              "xy": [
-                20.0,
-                322.0
-              ],
-              "kind": "integer-grid curve join"
-            },
-            "movement": 0.5,
-            "repair": "remove explicit node to use an exact implicit midpoint"
-          },
-          {
-            "target": {
-              "xy": [
-                266.0,
-                169.0
-              ],
-              "degrees": 2.82,
-              "contour": 0,
-              "kind": "exact short-handle join"
-            },
-            "handle_movement": 2.0,
-            "tangent_after": 0.059
-          },
-          {
-            "target": {
-              "xy": [
-                244.0,
-                174.0
-              ],
-              "degrees": 2.94,
-              "contour": 0,
-              "kind": "exact short-handle join"
-            },
-            "handle_movement": 2.414,
-            "tangent_after": 0.053
-          },
-          {
-            "target": {
-              "xy": [
-                43.0,
-                332.0
-              ],
-              "degrees": 2.94,
-              "contour": 0,
-              "kind": "exact short-handle join"
-            },
-            "handle_movement": 2.414,
-            "tangent_after": 0.053
+            "design": "author requests a wider default Italic ghe",
+            "advance_delta": 20,
+            "stem_translation_x": 10,
+            "protected_unslanted_stem_band": [
+              52,
+              118
+            ],
+            "recipe": "tools/italic_ghe_width.py:widened_body, shared protected stem and flourish mapping; crossbar translated by +10",
+            "native_local_and_printed_forms": "unchanged"
           }
+        ],
+        "comparison_translation": [
+          10,
+          0
         ]
       },
       "uni0439": {
@@ -6720,6 +6680,47 @@
               376,
               175
             ]
+          }
+        ]
+      },
+      "uni0433": {
+        "path": "data/curve-finish/Italic/uni0433.glif",
+        "sha256": "a54a698a50956fde56d51a2828264937b41524324648db1a0e251bbbc42ee63f",
+        "input_advance_and_lsb": [
+          288,
+          14
+        ],
+        "advance_and_lsb": [
+          308,
+          14
+        ],
+        "contours": 1,
+        "before_bounds": [
+          14,
+          -10,
+          273,
+          516
+        ],
+        "bounds": [
+          14,
+          -10,
+          293,
+          516
+        ],
+        "outline_deviation": 19.908,
+        "review_baseline_commit": "4ffae31c961c4ec2108224c522d815b24433f456",
+        "maximum_relative_ink_area_change": 0.04,
+        "repairs": [
+          {
+            "design": "author requests a wider default Italic ghe",
+            "advance_delta": 20,
+            "stem_translation_x": 10,
+            "protected_unslanted_stem_band": [
+              52,
+              118
+            ],
+            "recipe": "tools/italic_ghe_width.py:widened_body; barred_ghe regenerates the shared crossbar body",
+            "native_local_and_printed_forms": "unchanged"
           }
         ]
       }

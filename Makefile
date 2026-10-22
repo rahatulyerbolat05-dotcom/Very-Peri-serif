@@ -34,10 +34,12 @@ release: family
 	$(PY) tools/check_family.py
 	$(PY) tools/check_curve_finish.py
 	$(PY) tools/check_ya_revision.py
+	$(PY) tools/check_ghe_width.py
 	$(PY) tools/quality_family.py
 	$(PY) tools/family_proof.py
 	$(PY) tools/curve_finish_proof.py
 	$(PY) tools/ya_revision_proof.py
+	$(PY) tools/ghe_width_proof.py
 	$(PY) tools/family_curve_audit.py --root build/release --output docs/qa/curve-inventory.json
 	$(PY) tools/optical_review.py
 	$(PY) tools/package_release.py $(if $(filter 1,$(BROWSER)),--browser,)
@@ -47,6 +49,7 @@ quality:
 	$(PY) tools/check_family.py
 	$(PY) tools/check_curve_finish.py
 	$(PY) tools/check_ya_revision.py
+	$(PY) tools/check_ghe_width.py
 	$(PY) tools/quality_family.py
 
 clean:

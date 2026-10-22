@@ -35,6 +35,7 @@ def jump_at(font, xy):
 
 def main():
     version = json.loads(Path('data/params.json').read_text())['regular_release']['version']
+    sources = json.loads(Path('data/curve-finish/manifest.json').read_text())['glyphs']
     report = {'version': version, 'baseline_commit': BASELINE, 'styles': {}}
     checks = 0
     def ck(ok, context):
@@ -47,8 +48,12 @@ def main():
         old = TTFont(io.BytesIO(subprocess.check_output(['git', 'show', f'{BASELINE}:fonts/ttf/VeryPeriSerif-{style}.ttf'])))
         ck(new.getGlyphOrder() == old.getGlyphOrder(), (style, 'glyph order'))
         changed = [n for n in new.getGlyphOrder() if new['glyf'][n].compile(new['glyf']) != old['glyf'][n].compile(old['glyf'])]
-        ck(changed == [NAME], (style, 'only lowercase ya changes', changed))
-        ck(new['hmtx'].metrics == old['hmtx'].metrics, (style, 'all advances and bearings'))
+        refinements = {n:r for n,r in sources[style].items()
+                       if r.get('input_advance_and_lsb',r['advance_and_lsb']) != r['advance_and_lsb']}
+        ck(set(changed) == {NAME}|set(refinements), (style, 'only ya and declared width refinements change', changed))
+        expected_metrics = dict(old['hmtx'].metrics)
+        expected_metrics.update({n:tuple(r['advance_and_lsb']) for n,r in refinements.items()})
+        ck(new['hmtx'].metrics == expected_metrics, (style, 'all other advances and bearings'))
         a, b = old['glyf'][NAME], new['glyf'][NAME]
         ck((a.xMin, a.yMin, a.xMax, a.yMax) == (b.xMin, b.yMin, b.xMax, b.yMax), (style, 'ya bounds'))
         ck(a.numberOfContours == b.numberOfContours == 2, (style, 'contours'))

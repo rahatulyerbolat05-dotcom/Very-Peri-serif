@@ -60,8 +60,17 @@ def check(path, exhaustive=True):
         body=[c for c in native['glyf']['imacron'].components if c.glyphName!='uni0304']
         ck(len(body)==1 and body[0].glyphName=='dotlessi' and (body[0].x,body[0].y)==(0,0), 'Serbian ghe body is native dotlessi')
         ghe=f.getBestCmap()[ord('г')]
-        ck(f['glyf'][ghe].compile(f['glyf'])==native['glyf'][body[0].glyphName].compile(native['glyf'])
-           and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
+        width_cfg=json.loads(Path('data/params.json').read_text())['premium_review'].get('italic_ghe_width')
+        if width_cfg:
+            from italic_rules_measure import polys,runs
+            actual=polys(f,ghe,0);original=polys(native,'dotlessi',0)
+            ck(f['hmtx'][ghe][0]==width_cfg['advance'], 'Wider ghe advance')
+            for y in (205.1,230.1,255.1,280.1,305.1):
+                a,b=runs(actual,y),runs(original,y)
+                ck(len(a)==len(b)==1 and all(abs(x-z-width_cfg['anchor_dx'])<.1 for x,z in zip(a[0],b[0])), 'Wider ghe preserves diagonal stem at y='+str(y))
+        else:
+            ck(f['glyf'][ghe].compile(f['glyf'])==native['glyf'][body[0].glyphName].compile(native['glyf'])
+               and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
         ck(shape('г',language='sr')[0][0]=='imacron' and shape('г',language='mk')[0][0]=='imacron', 'Serbian and Macedonian ghe retain macron')
         ck(shape('г',{'ss04':1})[0][0]=='uni0433.ss04', 'Printed ghe alternative retained')
         # Compare independent flattened profiles of the actual exported outlines.

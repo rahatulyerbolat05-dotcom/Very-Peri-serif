@@ -3764,16 +3764,16 @@
   }
  },
  "regular_release": {
-  "status": "21.10.2026: author-reported ya defects; Regular crown and Italic stem/terminal repaired",
+  "status": "22.10.2026: wider default Italic ghe and coherent barred ghe, protected stem weight",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.109",
+  "version": "1.110",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "build/release",
   "archive": "build/release/VeryPeriSerif-Regular.zip",
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "cyrillic_author": "Yerbolat",
   "ai_note": "Cyrillic outlines made with AI assistance (Claude, Codex) under the direction of the author.",
   "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif), Copyright 2026 The Very Peri Serif Project Authors (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)",
@@ -4194,6 +4194,16 @@
    "left_overhang": 54,
    "right_overhang": 36,
    "quadratic_tolerance": 0.1
+  },
+  "italic_ghe_width": {
+   "delta": 20,
+   "advance": 308,
+   "anchor_dx": 10,
+   "protected_unslanted_stem_band": [
+    52,
+    118
+   ],
+   "flourish_transition_span": 112
   }
  }
 }

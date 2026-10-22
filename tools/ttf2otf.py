@@ -20,13 +20,18 @@ MAX_ERR=0.5
 BLUES=[-15,0,510,525,720,735,740,755];OTHER_BLUES=[-220,-205];STEM_V=68;STEM_H=30
 DROP=('glyf','loca','cvt ','fpgm','prep','gasp','hdmx','LTSH','VDMX')
 EXACT_CUBICS={'uni044F'}  # Preserve the reviewed ya crown and short terminal transitions.
+EXACT_ITALIC_CUBICS={'uni0433','uni0493'}
+
+
+def exact_names(font):
+    return EXACT_CUBICS | (EXACT_ITALIC_CUBICS if font['post'].italicAngle else set())
 
 
 def convert(src,dst):
-    tt=TTFont(src);gs=tt.getGlyphSet();order=tt.getGlyphOrder();cs={}
+    tt=TTFont(src);gs=tt.getGlyphSet();order=tt.getGlyphOrder();cs={};exact=exact_names(tt)
     for n in order:
-        pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in EXACT_CUBICS else .5)
-        if n in EXACT_CUBICS:
+        pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in exact else .5)
+        if n in exact:
             # Degree elevation is exact; retaining fractional controls avoids
             # reintroducing a crown kink through integer CFF rounding/fitting.
             gs[n].draw(ReverseContourPen(pen))
@@ -59,7 +64,7 @@ def check(ttf,otf):
         pa=samples(ga,n);pb=samples(gb,n)
         dev=max(nearest(pa,pb),nearest(pb,pa));worst=max(worst,dev)   # Hausdorff distance of the outlines
         if dev>MAX_ERR+0.5:bad.append((n,round(float(dev),3)))
-    exact={n:exact_cubic_error(a,b,n) for n in EXACT_CUBICS if n in ga}
+    exact={n:exact_cubic_error(a,b,n) for n in exact_names(a) if n in ga}
     assert all(error<.002 for error in exact.values()),('Exact CFF outline drift',exact)
     return dict(glyphs=len(a.getGlyphOrder()),hausdorff_worst=round(float(worst),3),over_limit=bad,exact_cubic_control_error=exact)
 

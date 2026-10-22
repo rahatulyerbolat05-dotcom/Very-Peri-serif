@@ -1,5 +1,5 @@
 {
- "version": "0.33",
+ "version": "0.34",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -33,6 +33,7 @@
   "0.30": "Family 1.103: strengthen the bottom arc of italic я from 9 to 15 units by deepening only its native-g bowl clipping ellipse; preserve body, stem, leg and accepted advance 413.",
   "0.31": "Family 1.104: remove the visible donor seams of italic я. Replace the top g-bowl/q-stem notch and lower link/stem triangular spur with tangent-matched quadratic splines; preserve bowl, counter, advance 413 and side bearings. Family 1.105, 1.106 and 1.107 reuse the unchanged I031 drawing while Regular я is refined.",
   "0.32": "Family 1.108: reviewed local curve sources for constructed capitals, lowercase, alternates and signs after the complete 491-glyph Italic inventory. Remove accidental waves, short steps and tangent breaks; preserve inherited native outlines and all advances/bearings. Sources: data/curve-finish/Italic.",
-  "0.33": "Family 1.109: remove short stem jog and exit-cap corner of italic я after grid fairing; preserve bowl, counter, metrics and bounds."
+  "0.33": "Family 1.109: remove short stem jog and exit-cap corner of italic я after grid fairing; preserve bowl, counter, metrics and bounds.",
+  "0.34": "Family 1.110: widen default Cyrillic г/ғ by 20 advance units, preserve stem weight/angle, extend entry and exit flourishes, shift mark anchors by 10; retain native Serbian/Macedonian and printed ss04 forms."
  }
 }
