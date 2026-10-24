@@ -23,6 +23,10 @@ original, it is made for large sizes.
 
 Regular and Italic share release **1.110**. Default Italic г and ғ have a wider flourish span, with the diagonal stem's weight and angle retained.
 [Before/after and checks](docs/ghe-width-1.110.md). The advance is 308 units (+20); the Italic drawing is I034. The [1.109 ya corrections](docs/ya-1.109.md) are preserved.
+
+[Contour roughness review is ongoing](docs/contour-audit-1.110.md): new detectors,
+a complete outline atlas and a candidate queue inspect the current release.
+These diagnostics do not yet constitute completed optical acceptance.
 The family includes complete Cyrillic stress-mark anchors,
 full case-order and mixed-partner Italic kerning, opt-in tabular figures, and a revised narrower Italic ж.
 The rounded Regular д retains its bowl with a quieter lower loop. [Acceptance and limits](docs/premium-acceptance.md).

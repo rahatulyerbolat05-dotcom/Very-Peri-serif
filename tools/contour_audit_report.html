@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Very Peri Serif — очередь проверки контуров</title>
+<style>
+/* FONT_FACES */
+*{box-sizing:border-box}body{margin:0;background:#f5f2ec;color:#272333;font:15px/1.45 system-ui,sans-serif}
+header,main{max-width:1480px;margin:auto;padding:24px}h1{font-size:27px;margin:0 0 8px}h2{font-size:19px}
+p{max-width:1050px}a{color:#6749a0}small,.muted{color:#68616f}.warning{border-left:4px solid #b77c28;padding:8px 15px;background:#efe4d0}
+.toolbar{position:sticky;top:0;z-index:3;background:#f5f2ecf5;border-block:1px solid #d8d0c5;display:flex;flex-wrap:wrap;gap:10px;padding:12px 24px}
+label{font-size:12px;display:grid;gap:3px}select,input,button{font:inherit;color:inherit;background:#fffdfa;border:1px solid #c8bfb1;border-radius:5px;padding:7px}
+input{min-width:170px}button{cursor:pointer}button:disabled{opacity:.35;cursor:default}.stats{display:flex;flex-wrap:wrap;gap:20px;margin:20px 0}
+.stats b{font-size:22px;display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:18px}
+.card{background:#fffdfa;border:1px solid #ded7cd;border-radius:8px;overflow:hidden;padding:15px;min-width:0}.card h2{margin:0 0 4px;font-size:18px;overflow-wrap:anywhere}
+.tag{display:inline-block;background:#ede5f5;padding:3px 6px;border-radius:4px;font-size:11px;margin:2px}.review{background:#f6e1c0}
+.canvases{display:flex;gap:5px;margin:10px 0;justify-content:center}canvas{max-width:100%;border:1px solid #eee7dd;background:#f8f5f0}
+.canvases figure{margin:0;min-width:0}.canvases figcaption{color:#68616f;font-size:11px;margin-top:3px}
+.context{font-size:37px;line-height:1.3;border-block:1px solid #eee7dd;padding:8px;margin:8px 0;overflow:hidden;white-space:nowrap}
+details{font-size:12px;margin-top:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere;max-height:230px;overflow:auto;font-size:11px}
+.pager{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:15px 0}.atlas{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.atlas .card h2{font-size:14px}.comparison{display:flex;flex-wrap:wrap;gap:8px}.comparison figure{margin:0}figcaption{font-size:11px;text-align:center}
+table{border-collapse:collapse;font-size:12px}td,th{padding:5px 10px;border:1px solid #ddd1c0;text-align:left}code{font-size:12px}
+@media(max-width:500px){header,main{padding:15px}.grid{grid-template-columns:1fr}.toolbar{position:static;padding:10px}.canvases{flex-wrap:wrap}}
+</style>
+<header>
+<h1>Very Peri Serif · проверка контуров 1.110</h1>
+<p>Очередь подозрительных мест из <strong>фактических TTF, OTF и WOFF2</strong>. Чёрная заливка — экспортированный контур; красная отметка — место сигнала; синие линии — управляющие; зелёная гребёнка — кривизна.</p>
+<p class="warning">Найденное место ещё не означает ошибку. Засечки, перекладины и намеренные углы также дают сигналы. Этот отчёт не является оптической приёмкой; просмотр и решения пока не завершены.</p>
+<div id="stats" class="stats"></div>
+<details><summary>Покрытие и ограничения</summary><div id="coverage"></div>
+<p>Сканируются касательные без верхней границы угла, скачки кривизны, волны через несколько сегментов, короткие/вырожденные участки, почти прямые изгибы и пересечения внутри контура. Пересечения получены по адаптивной полилинии и требуют подтверждения. Межконтурные наложения, толщина штрихов, хинтинг и независимый системный растр этим этапом ещё не принимаются. «Атлас» включает и формы без автоматических сигналов.</p>
+<pre id="identity"></pre></details>
+</header>
+<div class="toolbar">
+<label>Вид<select id="mode"><option value="queue">Подозрительные места</option><option value="atlas">Атлас всех форм</option></select></label>
+<label>Начертание<select id="style"><option value="">Оба</option><option>Regular</option><option>Italic</option></select></label>
+<label>Формат<select id="format"><option value="">Все</option><option>TTF</option><option>OTF</option><option>WOFF2</option></select></label>
+<label>Тип сигнала<select id="kind"><option value="">Все</option></select></label>
+<label>Приоритет просмотра<select id="priority"><option value="60">Сильные сигналы (60+)</option><option value="0">Все измерения</option></select></label>
+<label>Статус<select id="status"><option value="">Все</option><option value="unreviewed">Не разобрано</option><option value="defect">Дефект</option><option value="intentional">Намеренная форма</option><option value="fixed_pending_recheck">Ждёт перепроверки</option></select></label>
+<label>Буква / имя глифа<input id="search" placeholder="Например: я, ж, uni04E8"></label>
+<label>Состав<select id="scope"><option value="">Все глифы</option><option value="cyr">С кириллицей</option></select></label>
+</div>
+<main><div class="pager"><button id="prev">← Назад</button><span id="position"></span><button id="next">Дальше →</button></div>
+<div id="cards" class="grid"></div><p id="empty" hidden>По этим условиям мест не найдено. Это не заключение о качестве остальных контуров.</p>
+</main>
+<script id="data" type="application/octet-stream">/* AUDIT_DATA */</script>
+<script>
+'use strict';
+(async()=>{
+const bytes=Uint8Array.from(atob(document.getElementById('data').textContent.trim()),c=>c.charCodeAt(0));
+const D=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text()), $=id=>document.getElementById(id);
+const names={tangent_break:'Излом касательной',curvature_jump:'Скачок кривизны',curvature_wave:'Волна',short_segment:'Короткий участок',zero_segment:'Нулевой сегмент',empty_contour:'Пустой контур',open_contour:'Незамкнутый контур',undefined_tangent:'Нет касательной',singular_endpoint:'Нулевая производная в узле',interior_stationary:'Остановка внутри кривой',disconnected:'Разрыв сегментов',self_intersection:'Самопересечение: кандидат',near_straight_bend:'Изгиб почти прямой'};
+const states={unreviewed:'Не разобрано',defect:'Дефект',intentional:'Намеренная форма',fixed_pending_recheck:'Ждёт перепроверки'};
+function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
+for(const [value,text]of Object.entries(names)){$('kind').append(new Option(text,value));}
+for(const [title,value]of [['Файлов',Object.keys(D.fonts).length],['Глифов в шести файлах',Object.values(D.fonts).reduce((n,f)=>n+f.read_glyphs,0)],['Измерений для разбора',D.summary.sites],['Целых форм ждут просмотра',D.summary.unreviewed_whole_forms],['Ошибок разбора',D.errors.length],['Оптическая приёмка','не завершена']]){const n=el('div',title);n.prepend(el('b',String(value)));$('stats').append(n);}
+const table=el('table'),head=el('tr');['Файл','Глифы','Контуры','Уникальные формы'].forEach(x=>head.append(el('th',x)));table.append(head);
+for(const [key,f]of Object.entries(D.fonts)){const tr=el('tr');[key,`${f.read_glyphs}/${f.glyph_count}`,f.read_contours,f.unique_shapes].forEach(x=>tr.append(el('td',String(x))));table.append(tr);}$('coverage').append(table);
+$('identity').textContent=JSON.stringify({detector_sha256:D.detector_sha256,fonts:Object.fromEntries(Object.entries(D.fonts).map(([k,v])=>[k,v.sha256])),errors:D.errors,stale_decisions:D.stale_decisions},null,2);
+function uses(c){return D.shapes[c.geometry_sha256].uses.filter(([key])=>!c.style||D.fonts[key].style===c.style);}
+function textFor(c){return uses(c).map(([key,name])=>[name,...D.fonts[key].glyphs[name].characters].join(' ')).join(' ');}
+function labelFor(c){const all=uses(c);const chars=[...new Set(all.flatMap(([k,n])=>D.fonts[k].glyphs[n].characters))];chars.sort((a,b)=>Number(/[\u0400-\u052f]/u.test(b))-Number(/[\u0400-\u052f]/u.test(a)));const name=all[0]?.[1]||'∅';return (chars.length?chars.slice(0,10).join(' ')+' · ':'')+name;}
+const labels=new Map();for(const c of D.cases)if(!labels.has(c.geometry_sha256))labels.set(c.geometry_sha256,textFor(c));
+const atlas=[];for(const [id,shape]of Object.entries(D.shapes)){for(const style of ['Regular','Italic'])if(shape.uses.some(([k])=>D.fonts[k].style===style))atlas.push({geometry_sha256:id,style});}
+let page=0,rows=[];
+function filter(){page=0;const mode=$('mode').value,style=$('style').value,fmt=$('format').value,kind=$('kind').value,status=$('status').value,query=$('search').value.trim().toLowerCase(),scope=$('scope').value,minimum=Number($('priority').value);
+rows=(mode==='queue'?D.cases:atlas).filter(c=>{if(style&&c.style!==style)return false;if(fmt&&!uses(c).some(([k])=>D.fonts[k].format===fmt))return false;if(mode==='queue'&&(c.priority<minimum||(kind&&!c.kinds.includes(kind))||(status&&c.status!==status)))return false;const text=labels.get(c.geometry_sha256)||textFor(c);if(query&&!text.toLowerCase().includes(query))return false;return !scope||/[\u0400-\u052f]/u.test(text);});render();}
+function canvas(w,h){const c=el('canvas');c.style.width=w+'px';c.style.height=h+'px';c.width=w*2;c.height=h*2;return c;}
+function drawPath(ctx,shape){ctx.beginPath();for(let i=0;i<shape.contours.length;i++){const contour=shape.contours[i];if(!contour.length)continue;ctx.moveTo(...contour[0][0]);for(const p of contour){if(p.length===2)ctx.lineTo(...p[1]);else if(p.length===3)ctx.quadraticCurveTo(...p[1],...p[2]);else ctx.bezierCurveTo(...p[1],...p[2],...p[3]);}if(shape.closed[i])ctx.closePath();}}
+function bezier(p,t){p=p.map(x=>x.slice());for(let n=p.length-1;n;n--)for(let i=0;i<n;i++)p[i]=p[i].map((v,j)=>(1-t)*v+t*p[i+1][j]);return p[0];}
+function deriv(p){return p.slice(1).map((a,i)=>a.map((v,j)=>(p.length-1)*(v-p[i][j])));}
+function value(p,t){const d=deriv(p),dd=deriv(d),v=bezier(d,t),a=dd.length?bezier(dd,t):[0,0],speed=Math.hypot(...v);return {xy:bezier(p,t),v,k:speed>1e-10?(v[0]*a[1]-v[1]*a[0])/speed**3:NaN};}
+function draw(c,shape,spot=null,zoom=false){const ctx=c.getContext('2d'),w=c.width/2,h=c.height/2;ctx.setTransform(2,0,0,2,0,0);ctx.clearRect(0,0,w,h);
+let box=shape.bounds;if(spot&&zoom){const wave=spot.evidence.find(e=>e.kind==='curvature_wave');const r=Math.max(24,Math.min(100,wave?wave.metrics.span*.7:45));box=[spot.xy[0]-r,spot.xy[1]-r,spot.xy[0]+r,spot.xy[1]+r];}
+const bw=Math.max(1,box[2]-box[0]),bh=Math.max(1,box[3]-box[1]),s=Math.min((w-24)/bw,(h-24)/bh),tx=(w-bw*s)/2-box[0]*s,ty=(h-bh*s)/2+box[3]*s;
+ctx.setTransform(2*s,0,0,-2*s,2*tx,2*ty);drawPath(ctx,shape);ctx.fillStyle='#272333';ctx.fill('nonzero');
+if(spot){ctx.strokeStyle='#c94e3b';ctx.lineWidth=1.5/s;ctx.beginPath();ctx.arc(...spot.xy,4/s,0,2*Math.PI);ctx.stroke();
+if(zoom){for(const p of shape.contours[spot.contour]){if(!p.some(q=>Math.hypot(q[0]-spot.xy[0],q[1]-spot.xy[1])<120))continue;ctx.strokeStyle='#5283b0';ctx.lineWidth=.7/s;ctx.beginPath();ctx.moveTo(...p[0]);for(const q of p.slice(1))ctx.lineTo(...q);ctx.stroke();for(let i=0;i<p.length;i++){ctx.fillStyle=i===0||i===p.length-1?'#c94e3b':'#5283b0';ctx.beginPath();ctx.arc(...p[i],2/s,0,2*Math.PI);ctx.fill();}for(let t=.02;t<1;t+=.06){const a=value(p,t);if(!Number.isFinite(a.k))continue;const speed=Math.hypot(...a.v);const len=Math.max(-28,Math.min(28,a.k*400));ctx.strokeStyle='#479b76';ctx.lineWidth=.7/s;ctx.beginPath();ctx.moveTo(...a.xy);ctx.lineTo(a.xy[0]-a.v[1]/speed*len,a.xy[1]+a.v[0]/speed*len);ctx.stroke();}}}}
+ctx.setTransform(2,0,0,2,0,0);}
+function graph(c,shape,spot){const ctx=c.getContext('2d'),w=c.width/2,h=c.height/2;ctx.setTransform(2,0,0,2,0,0);let a=[],s=0,prev=null;for(const p of shape.contours[spot.contour])for(let i=0;i<=24;i++){const v=value(p,i/24);if(prev)s+=Math.hypot(v.xy[0]-prev[0],v.xy[1]-prev[1]);a.push({s,k:v.k});prev=v.xy;}
+const total=s,range=80,center=spot.s,subset=a.map(v=>({...v,d:(v.s-center+total*1.5)%total-total*.5})).filter(v=>Math.abs(v.d)<=range&&Number.isFinite(v.k)).sort((x,y)=>x.d-y.d);const max=Math.max(.001,...subset.map(v=>Math.abs(v.k)));ctx.strokeStyle='#ded7cd';ctx.beginPath();ctx.moveTo(0,h/2);ctx.lineTo(w,h/2);ctx.stroke();ctx.strokeStyle='#479b76';ctx.beginPath();subset.forEach((v,i)=>{const x=w/2+v.d/range*w/2,y=h/2-v.k/max*(h/2-15);if(i)ctx.lineTo(x,y);else ctx.moveTo(x,y);});ctx.stroke();ctx.strokeStyle='#c94e3b';ctx.beginPath();ctx.moveTo(w/2,6);ctx.lineTo(w/2,h-6);ctx.stroke();ctx.fillStyle='#68616f';ctx.font='10px system-ui';ctx.fillText('κ: ±'+max.toPrecision(2)+' · окно ±80 ед.',6,h-4);}
+function formatsComparison(card,c){const d=el('details'),summary=el('summary','Сопоставить TTF / OTF / WOFF2');d.append(summary);card.append(d);d.addEventListener('toggle',()=>{if(!d.open||d.dataset.loaded)return;d.dataset.loaded='1';const glyph=uses(c)[0]?.[1];if(!glyph)return;const wrap=el('div',undefined,'comparison');for(const fmt of ['TTF','OTF','WOFF2']){const f=D.fonts[c.style+'/'+fmt],g=f?.glyphs[glyph];if(!g||!g.shape)continue;const figure=el('figure'),cv=canvas(140,170);draw(cv,D.shapes[g.shape]);figure.append(cv,el('figcaption',fmt+' · '+glyph));wrap.append(figure);}d.append(wrap);});}
+function card(c){const shape=D.shapes[c.geometry_sha256],n=el('article',undefined,'card');n.append(el('h2',labelFor(c)));const fmts=[...new Set(uses(c).map(([k])=>D.fonts[k].format))].join(' / ');n.append(el('small',c.style+' · '+fmts));
+if(c.id){n.append(el('div',states[c.status]||c.status,'tag review'));for(const k of c.kinds)n.append(el('span',names[k]||k,'tag'));const previews=el('div',undefined,'canvases'),full=canvas(175,200),zoom=canvas(220,200);draw(full,shape,c);draw(zoom,shape,c,true);for(const [cv,caption]of [[full,'Целая форма'],[zoom,'Увеличение и кривизна']]){const figure=el('figure');figure.append(cv,el('figcaption',caption));previews.append(figure);}n.append(previews);const g=canvas(390,85);graph(g,shape,c);n.append(g);const detail=el('details');detail.append(el('summary','Измерения · '+c.id),el('pre',JSON.stringify(c.evidence,null,2)));n.append(detail);if(c.reason)n.append(el('p',c.reason));
+}else{const cv=canvas(190,235);draw(cv,shape);n.append(cv);n.append(el('small',shape.contours.length+' контуров · '+c.geometry_sha256.slice(0,12)));}
+const chars=uses(c).flatMap(([key,name])=>D.fonts[key].glyphs[name].characters),ch=chars.find(x=>/[\u0400-\u052f]/u.test(x))||chars.find(x=>/[A-Za-z]/u.test(x));if(ch){const text=el('div','н'+ch+'н · о'+ch+'о','context');text.style.fontFamily='proof'+c.style;n.append(text);}formatsComparison(n,c);return n;}
+function render(){const size=$('mode').value==='queue'?24:48,total=Math.max(1,Math.ceil(rows.length/size));page=Math.min(page,total-1);$('cards').className=$('mode').value==='queue'?'grid':'atlas';$('cards').replaceChildren(...rows.slice(page*size,(page+1)*size).map(card));$('position').textContent=`${rows.length} ${$('mode').value==='queue'?'мест':'форм'} · страница ${page+1}/${total}`;$('prev').disabled=page===0;$('next').disabled=page>=total-1;$('empty').hidden=rows.length>0;}
+for(const id of ['mode','style','format','kind','status','scope','priority'])$(id).addEventListener('change',filter);$('search').addEventListener('input',filter);$('prev').onclick=()=>{page--;render();};$('next').onclick=()=>{page++;render();};filter();window.auditReport=D;
+})().catch(e=>{document.getElementById('cards').textContent='Не удалось открыть отчёт: '+e.message;throw e;});
+</script>
+</html>

@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "description": "Per-site decisions bound to exact geometry and detector hashes; no inherited blanket approvals.",
+  "decisions": {},
+  "forms": {}
+}

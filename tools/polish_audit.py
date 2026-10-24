@@ -27,7 +27,12 @@ def contours(font,name):
 def segments(C):
     """Split a quadratic TrueType contour into segments: ('L',p0,p1) or ('Q',p0,c,p1)."""
     n=len(C);start=next((i for i,p in enumerate(C) if p[2]),None)
-    if start is None:return []
+    if not n:return []
+    if start is None:
+        # A legal TrueType contour can consist entirely of off-curve points.
+        # Its implicit start is the midpoint of the last and first controls.
+        mid=((C[-1][0]+C[0][0])/2,(C[-1][1]+C[0][1])/2,True)
+        return segments([mid]+C)
     P=C[start:]+C[:start];P.append(P[0]);segs=[];cur=P[0];i=1;pend=[]
     for p in P[1:]:
         if p[2]:

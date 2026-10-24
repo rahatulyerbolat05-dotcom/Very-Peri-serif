@@ -9,7 +9,7 @@ PY  := python3 -I
 BROWSER ?= 0
 REF := reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf
 
-.PHONY: all release family italic regular reference quality clean
+.PHONY: all release family italic regular reference quality contour-audit clean
 
 all: release
 
@@ -51,6 +51,14 @@ quality:
 	$(PY) tools/check_ya_revision.py
 	$(PY) tools/check_ghe_width.py
 	$(PY) tools/quality_family.py
+
+# Published files only: no outline changes, font rebuild or release packaging.
+# A successful scan means complete parsing, not that the candidates are accepted.
+contour-audit:
+	$(PY) tools/check_contour_geometry.py --output docs/qa/contour-detector-checks-1.110.json
+	$(PY) tools/contour_audit.py
+	$(PY) tools/contour_audit_proof.py
+	$(if $(filter 1,$(BROWSER)),node tools/check_contour_audit_browser.cjs,@:)
 
 clean:
 	rm -rf build

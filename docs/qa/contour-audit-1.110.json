@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "detector_sha256": "6415c0c2313e8c6adcfba50f6900bfd4fa9c1c3145f50dd0d85c47f688f1d822",
+  "rules": {
+    "angle_degrees": 1.5,
+    "micro_length": 3.0,
+    "flatness": 0.035,
+    "sample_step": 1.0,
+    "curvature_floor": 0.0002,
+    "jump_absolute": 0.003,
+    "jump_relative": 0.35,
+    "scales": [
+      4,
+      12,
+      32,
+      80
+    ],
+    "merge_arc_distance": 8.0
+  },
+  "coordinates": "1000 UPM; per-shape control-point bounding-box origin",
+  "candidates_are_not_confirmed_defects": true,
+  "errors": [],
+  "geometry_engine_sha256": "4e310e6687a91f7623f9971846afbd0d837e1724805e2deb4f3fb1c2c2a33e1b",
+  "stale_decisions": [],
+  "stale_form_decisions": [],
+  "summary": {
+    "sites": 50642,
+    "errors": 0,
+    "unresolved": 50642,
+    "unreviewed_whole_forms": 1770,
+    "by_style": {
+      "Regular": {
+        "sites": 26090,
+        "detector_evidence": {
+          "tangent_break": 8054,
+          "curvature_wave": 137,
+          "curvature_jump": 15951,
+          "near_straight_bend": 2905,
+          "short_segment": 7
+        },
+        "statuses": {
+          "unreviewed": 26090
+        }
+      },
+      "Italic": {
+        "sites": 24552,
+        "detector_evidence": {
+          "tangent_break": 7767,
+          "self_intersection": 6,
+          "curvature_wave": 133,
+          "curvature_jump": 12388,
+          "singular_endpoint": 8,
+          "short_segment": 10,
+          "near_straight_bend": 5144
+        },
+        "statuses": {
+          "unreviewed": 24552
+        }
+      }
+    },
+    "visual_acceptance": false
+  },
+  "fonts": {
+    "Regular/TTF": {
+      "file": "fonts/ttf/VeryPeriSerif-Regular.ttf",
+      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+      "style": "Regular",
+      "format": "TTF",
+      "version": "Version 1.110",
+      "glyph_count": 525,
+      "read_glyphs": 525,
+      "read_contours": 986,
+      "unique_shapes": 447
+    },
+    "Regular/OTF": {
+      "file": "fonts/otf/VeryPeriSerif-Regular.otf",
+      "sha256": "89f48cc92e4fa835316a74f028af7f4345f004503f2ffd7bf543852f076244d9",
+      "style": "Regular",
+      "format": "OTF",
+      "version": "Version 1.110",
+      "glyph_count": 525,
+      "read_glyphs": 525,
+      "read_contours": 986,
+      "unique_shapes": 473
+    },
+    "Regular/WOFF2": {
+      "file": "fonts/webfonts/VeryPeriSerif-Regular.woff2",
+      "sha256": "27c0b3d623233338bfab403bf0c45230c29e53cb62e795e482e8ace3da17f558",
+      "style": "Regular",
+      "format": "WOFF2",
+      "version": "Version 1.110",
+      "glyph_count": 525,
+      "ttf_table_differences_except_head": [],
+      "read_glyphs": 525,
+      "read_contours": 986,
+      "unique_shapes": 447
+    },
+    "Italic/TTF": {
+      "file": "fonts/ttf/VeryPeriSerif-Italic.ttf",
+      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+      "style": "Italic",
+      "format": "TTF",
+      "version": "Version 1.110",
+      "glyph_count": 491,
+      "read_glyphs": 491,
+      "read_contours": 949,
+      "unique_shapes": 414
+    },
+    "Italic/OTF": {
+      "file": "fonts/otf/VeryPeriSerif-Italic.otf",
+      "sha256": "b7607919f01fd8d271e6f11baeb129d271753fd0440d462a3a54baa26fad23af",
+      "style": "Italic",
+      "format": "OTF",
+      "version": "Version 1.110",
+      "glyph_count": 491,
+      "read_glyphs": 491,
+      "read_contours": 949,
+      "unique_shapes": 440
+    },
+    "Italic/WOFF2": {
+      "file": "fonts/webfonts/VeryPeriSerif-Italic.woff2",
+      "sha256": "092dbe5554af945887681a73cb63c47dddd08629cedf9760e732038131d2368f",
+      "style": "Italic",
+      "format": "WOFF2",
+      "version": "Version 1.110",
+      "glyph_count": 491,
+      "ttf_table_differences_except_head": [],
+      "read_glyphs": 491,
+      "read_contours": 949,
+      "unique_shapes": 414
+    }
+  },
+  "queue_file": "docs/qa/contour-audit-1.110.json.gz",
+  "queue_sha256": "3a10ca71d0896beac7668c9f9695a5c8a208015b9e72b0d471ce7f278d60cb1a"
+}

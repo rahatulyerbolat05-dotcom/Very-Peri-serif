@@ -1,0 +1,10 @@
+{
+  "detector_sha256": "6415c0c2313e8c6adcfba50f6900bfd4fa9c1c3145f50dd0d85c47f688f1d822",
+  "geometry_engine_sha256": "4e310e6687a91f7623f9971846afbd0d837e1724805e2deb4f3fb1c2c2a33e1b",
+  "exit_code": 1,
+  "parse_errors": 0,
+  "unresolved_sites": 50642,
+  "unreviewed_whole_forms": 1770,
+  "repeat_report_identical": true,
+  "meaning": "Correctly refuses optical acceptance of unreviewed findings and whole forms; cached repeat is deterministic"
+}
