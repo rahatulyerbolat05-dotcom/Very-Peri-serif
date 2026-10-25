@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "name": "ofl-cyrillic-extension",
+  "version": "1.0.0",
+  "date": "2026-10-25",
+  "files": {
+    "LICENSE.txt": "b8497aebb76735d5b5c77fb5567643e348fc2ff7bf51398e32546b8c036873f0",
+    "NOTICE.md": "0a24ed51d780f32fb669ee91d47ea39c5062f1033374a6ba5ab0de7180592cfc",
+    "README.md": "fc0be0e46fb41f3f0dfbaaf18f0562a66d4e4a1303cbb767fee2019d6e0f9b56",
+    "SKILL.md": "719d0aff0b721a2bd6d2546ab49d353ae1839a2c25d2255ab5a0215b78dbaf63",
+    "assets/acceptance-template.md": "f7c35b4182241338aa5b212cfacb7cca532e697baa97831b5e8cc257317f5f55",
+    "assets/glyph-card.example.json": "0269c817cfa88e7f39885b190523b5c95618518e15ed3d99777075cd4ac15ff1",
+    "assets/owner-profile.json": "dbbbd310492dae6a33c872e017f29bf5a9e80e2d8b59b23d35e1e678f68f7c22",
+    "assets/project-template.json": "0f9df354dbfd55f3b5e90cc49cf41693eb0cd17f9d4de36f1e01965d673a92b2",
+    "references/algorithms.ru.md": "6984856d538fc298e30fe369c04485fd2385ee64db8f51ad27999260ece35fe8",
+    "references/lessons.ru.md": "5a57ad68a8e396bb26847bbcc4e9fe30baf44adf77ca775d672dadfd2482dbf5",
+    "references/letter-grammar.ru.md": "6976d41fd0d042c656e45ee6e8e25659d4581305798382063fafac0c56169e31",
+    "references/workflow.ru.md": "0dada336716936568931171203e7c259479db64fc07cc8037a40b0fa23b05339",
+    "scripts/audit_outlines.py": "adc8c6adb73c4e698ddfb2be752ba8ca711f6f5ec5b9bc44bb475b87c91a34da",
+    "scripts/compare_native.py": "6f7a0eb752495da15b4ae97a9acf59c5e92a6f56ffa2edca4a2d1994781afd4e",
+    "scripts/exact_nodes.py": "120b232ccd5be1a3a82cb51d8b1914ef29d0692dc0a0669786b5cb80d5dcd68d",
+    "scripts/font_probe.py": "1412ae0eec68c4dc825efafa75e2de918cc811e196d9e4be64388527a546664d",
+    "scripts/font_support.py": "a83dae167928f5fafb290e59531a2664950422bc4c48fd94b3ee5744ec8ee62d",
+    "scripts/install_skill.py": "679af032f6d74e1517a0d9a1141fa8640d24e1e53f4e79c57340a10d136407cc",
+    "scripts/outline_geometry.py": "6d14ed5d6916ab031b541450a179fc77682e34fde826f4c40370041f0e08bc26",
+    "scripts/reduce_nodes.py": "1ec7df8537ffda6453961f51227d797cbfafc50691b518cb6cfaad9f61f425dc",
+    "scripts/requirements.txt": "eb8bea8f3332240f2733b81a56f3e1ce54287810a0c1f256de4295f1ab285efe",
+    "skill.json": "c71a2bab42a8c3dadacba4c10e94b591d7e925f46e77cfc94767f5804e5225c2",
+    "tests/test_portable_skill.py": "f5ea8c549549272ef92309dc5da66f0913039f0d14e5d2a5e2ad20eb37ace60b"
+  },
+  "note": "Manifest excludes itself; caches and input fonts are never packaged."
+}

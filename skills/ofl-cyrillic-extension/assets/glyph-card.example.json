@@ -1,0 +1,18 @@
+{
+  "glyph": "uni0436",
+  "unicode": "U+0436",
+  "style": "Regular",
+  "status": "hypothesis",
+  "silhouette": "Describe the Cyrillic structure before choosing donor shapes.",
+  "ductus": "Describe load-bearing and thin strokes and entry/exit logic; not a claim of historical pen reconstruction.",
+  "donors": [{"font_sha256": "REPLACE", "glyph": "REPLACE", "part": "REPLACE", "transform": "REPLACE with measured transform"}],
+  "metrics": {"advance": null, "lsb": null, "bounds": null},
+  "protected_regions": [],
+  "intentional_corners": [],
+  "review_regions": [],
+  "source_file": null,
+  "source_sha256": null,
+  "exported_font_sha256": null,
+  "proofs": [],
+  "decision": {"status": "unreviewed", "reason": null, "reviewer": null}
+}

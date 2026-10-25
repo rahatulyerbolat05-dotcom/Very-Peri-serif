@@ -1,0 +1,9 @@
+{
+  "name": "ofl-cyrillic-extension",
+  "version": "1.0.0",
+  "release_date": "2026-10-25",
+  "owner": "Yerbolat Rakhatuly (DEW)",
+  "target_clients": ["Codex project skills", "Claude Code project skills"],
+  "default_languages": ["ru", "kk"],
+  "scope": "Agent workflow, reusable tooling and templates; no automatic outline-design engine or pre-drawn glyphs"
+}

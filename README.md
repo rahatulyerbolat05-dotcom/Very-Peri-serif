@@ -109,3 +109,11 @@ is Instrument Serif, unchanged. Details: [FONTLOG.txt](FONTLOG.txt), [font/ai-di
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1 ([OFL.txt](OFL.txt)). This license is
 available with a FAQ at: https://openfontlicense.org
+
+## Reusable Cyrillic-extension workflow
+
+The methods, successful techniques and failure controls are saved as the
+[Claude Code / Codex skill](skills/ofl-cyrillic-extension/README.md), with a
+[standalone instruction](docs/cyrillic-extension-playbook.md) and
+[portable installation ZIP](dist/skills/ofl-cyrillic-extension-1.0.0.zip).
+It derives a new font model from each input instead of copying Very Peri geometry.

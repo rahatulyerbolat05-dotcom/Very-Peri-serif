@@ -1,0 +1,113 @@
+{
+  "skill": "ofl-cyrillic-extension",
+  "version": "1.0.0",
+  "date": "2026-10-25",
+  "archive": "dist/skills/ofl-cyrillic-extension-1.0.0.zip",
+  "archive_sha256": "f01f78048e839ee419d8ab3f356fea7f0039bc8179af39106c7c14b9b124b685",
+  "checks": {
+    "synthetic_tests": 27,
+    "test_failures": 0,
+    "tests_repeated_from_unpacked_bundle_outside_repository": true,
+    "unpacked_probe_and_native_comparison": true,
+    "project_install_layouts": [
+      ".agents/skills/ofl-cyrillic-extension",
+      ".claude/skills/ofl-cyrillic-extension"
+    ],
+    "installer_idempotence_and_backup": true,
+    "frontmatter_yaml_and_relative_links_validated": true,
+    "standalone_instruction_matches_skill_reference": true,
+    "archive_crc_and_all_file_hashes_verified": true,
+    "deterministic_archive_rebuild": true
+  },
+  "measured_inputs": {
+    "intake-ttf": {
+      "input_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+      "family": "Instrument Serif",
+      "upm": 1000,
+      "x_height": 510,
+      "missing_ru_kz": 84,
+      "license_status": "unverified"
+    },
+    "intake-cff": {
+      "input_sha256": "8299613dc56e9530d6a416cf8b9b24c209457f9ea66a7c118a024c7714c01cd6",
+      "family": "Instrument Serif",
+      "upm": 1000,
+      "x_height": 510,
+      "missing_ru_kz": 84,
+      "license_status": "unverified"
+    },
+    "intake-other-family": {
+      "input_sha256": "e64e508b2aa2880f907e470c4550980ec4c0694d103a43f36150ac3f93189bee",
+      "family": "Open Sans",
+      "upm": 2048,
+      "x_height": 1096,
+      "missing_ru_kz": 0,
+      "license_status": "unverified"
+    }
+  },
+  "native_comparisons": {
+    "native-ttf": {
+      "before_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+      "after_sha256": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
+      "passed": 2253,
+      "failed": 0,
+      "expected_result": "pass"
+    },
+    "native-cff-positive": {
+      "before_sha256": "8299613dc56e9530d6a416cf8b9b24c209457f9ea66a7c118a024c7714c01cd6",
+      "after_sha256": "8299613dc56e9530d6a416cf8b9b24c209457f9ea66a7c118a024c7714c01cd6",
+      "passed": 2253,
+      "failed": 0,
+      "expected_result": "pass"
+    },
+    "native-cff-negative": {
+      "before_sha256": "8299613dc56e9530d6a416cf8b9b24c209457f9ea66a7c118a024c7714c01cd6",
+      "after_sha256": "b748a35042fea5c7621b1a4dadbf508981d2a263981e0413ac4f3e0a2a2761e0",
+      "passed": 1873,
+      "failed": 380,
+      "expected_result": "strict_rejection_of_rebuilt_CFF"
+    }
+  },
+  "full_scan": {
+    "input_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+    "summary": {
+      "expected_glyphs": 377,
+      "parsed_glyphs": 377,
+      "contours": 767,
+      "unique_shapes": 360,
+      "candidates": 9167,
+      "unresolved_candidates": 9167,
+      "unreviewed_whole_forms": 375,
+      "errors": 0,
+      "kinds": {
+        "curvature_jump": 5908,
+        "tangent_break": 2027,
+        "near_straight_bend": 1198,
+        "curvature_wave": 32,
+        "short_segment": 2
+      }
+    },
+    "status": "review_pending",
+    "optical_acceptance_claimed": false
+  },
+  "real_point_reduction": {
+    "input_sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+    "output_sha256": "95de1f631c4d2b0bf23e4d65a319277698858ab1b4b54e8bec16b0347118bbd2",
+    "glyphs": 15,
+    "points_removed": 18,
+    "mode": "applied_and_serialized_checked"
+  },
+  "visual_review": {
+    "file": "native-controls.svg from actual input probe",
+    "renderer": "CairoSVG 2.8.2",
+    "viewed": true,
+    "result": "All control letters visible at one common scale; no clipped glyphs."
+  },
+  "limitations": [
+    "No second complete Cyrillic extension was designed as part of packaging this workflow.",
+    "Actual Claude Code/Codex UI discovery was not exercised; standard project layouts and file installation were checked.",
+    "Claude web/desktop skill upload not tested.",
+    "Chromium screenshot timed out in the current environment; CairoSVG rendering was inspected instead.",
+    "Scanner results are review candidates, not optical acceptance; sampled native shaping is not exhaustive kerning."
+  ]
+}

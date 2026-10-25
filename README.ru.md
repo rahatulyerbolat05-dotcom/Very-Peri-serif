@@ -109,3 +109,11 @@ Instrument Serif нарисовал [Rodrigo Fuenzalida](https://rfuenzalida.com
 
 Шрифт распространяется по лицензии SIL Open Font License, версия 1.1 ([OFL.txt](OFL.txt)). Лицензия и ответы на частые
 вопросы: https://openfontlicense.org
+
+## Повторное использование опыта
+
+[Скилл для Claude Code и Codex](skills/ofl-cyrillic-extension/README.md),
+[отдельная инструкция нейронке](docs/cyrillic-extension-playbook.md) и
+[установочный ZIP](dist/skills/ofl-cyrillic-extension-1.0.0.zip) сохраняют методику,
+удачные приёмы и проверки ошибок. Скилл начинает с закономерностей нового
+исходника, не переносит рисунок и числовые параметры Very Peri.

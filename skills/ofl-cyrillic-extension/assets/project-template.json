@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "project": "REPLACE",
+  "stage": "intake",
+  "input_files": [],
+  "license": {"status": "unverified", "file": null, "upstream_url": null, "reserved_font_names": [], "evidence": null},
+  "extension_author": "Yerbolat Rakhatuly (DEW)",
+  "target_languages": ["ru", "kk"],
+  "styles": [],
+  "variation_scope": "REPLACE: static styles or explicitly named variable masters/instances",
+  "font_model": {
+    "source_sha256": null,
+    "units_per_em": null,
+    "purpose_and_sizes": null,
+    "heights_and_overshoots": null,
+    "stroke_profiles_by_direction": null,
+    "slant_and_stress_separately": null,
+    "spacing_controls": null,
+    "terminal_and_serif_grammar": null,
+    "donor_inventory": [],
+    "measurements_have_source_and_method": false
+  },
+  "glyph_cards": [],
+  "protected_native_glyphs": [],
+  "protected_native_shaping_samples": [],
+  "declared_native_changes": [],
+  "accepted_sources_manifest": null,
+  "decisions": [],
+  "review_queue": [],
+  "build_command": null,
+  "validation": {"technical": "not_run", "geometry": "not_run", "optical": "not_reviewed", "rebuild": "not_run"},
+  "release": {"version": null, "status": "draft", "files_and_sha256": {}, "limitations": []}
+}
