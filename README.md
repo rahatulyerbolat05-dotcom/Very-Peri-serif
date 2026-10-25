@@ -24,6 +24,9 @@ original, it is made for large sizes.
 Regular and Italic share release **1.111**. The first contour-audit repair batch removes self-crossing loops at the pointed Italic ц/щ/ң tail joins. All other outlines and all metrics are retained.
 [Before/after and checks](docs/tail-joins-1.111.md). The Italic drawing is I035; [the wider г/ғ from 1.110](docs/ghe-width-1.110.md) are preserved.
 
+[Renamed installation copy of 1.111](dist/VeryPeriSerif-T1111.zip): two TTFs under
+the distinct family **Very Peri Serif T1111**, for installation alongside the main family.
+
 [Contour roughness review is ongoing](docs/tail-joins-1.111.md): new detectors,
 a complete outline atlas and a candidate queue inspect the current release.
 These diagnostics do not yet constitute completed optical acceptance.
