@@ -1,0 +1,152 @@
+{
+  "variant": "El Arch 1",
+  "date": "2026-10-26",
+  "style": "Italic",
+  "unicode": "U+043B",
+  "baseline": "v1.113",
+  "baseline_ttf_sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
+  "glif_sha256": "1fcfc24d908e6e839e31a7eb8730a9d7bb2a56a551a9b9781ba5c5f9dd36390f",
+  "advance_and_lsb": [
+    350,
+    10
+  ],
+  "control_bounds": [
+    10,
+    -9,
+    343,
+    516
+  ],
+  "stored_points": 37,
+  "reference": "Author screenshot supplied in chat: one arch, rounded left terminal, flat right foot, no exit flourish.",
+  "construction": {
+    "right_shoulder": "Native Italic n upper shoulder translated -125 x, not scaled.",
+    "shoulder_outer": [
+      [
+        272,
+        516
+      ],
+      [
+        309,
+        516
+      ],
+      [
+        343,
+        456
+      ],
+      [
+        326,
+        394
+      ]
+    ],
+    "shoulder_inner": [
+      [
+        263,
+        404
+      ],
+      [
+        274,
+        443
+      ],
+      [
+        259,
+        473
+      ],
+      [
+        245,
+        473
+      ]
+    ],
+    "right_foot": [
+      [
+        223,
+        0
+      ],
+      [
+        157,
+        0
+      ]
+    ],
+    "left_branch": "New continuous arched stroke, round overshoot -9 and native top overshoot 516. Coordinates in saved GLIF are authoritative.",
+    "cubic_recipe": [
+      [
+        "M",
+        44,
+        -9
+      ],
+      [
+        "C",
+        18,
+        -9,
+        10,
+        25,
+        10,
+        67
+      ],
+      [
+        "C",
+        10,
+        238,
+        167,
+        516,
+        272,
+        516
+      ],
+      [
+        "Q",
+        309,
+        516,
+        343,
+        456,
+        326,
+        394
+      ],
+      [
+        "L",
+        223,
+        0
+      ],
+      [
+        "L",
+        157,
+        0
+      ],
+      [
+        "L",
+        263,
+        404
+      ],
+      [
+        "Q",
+        274,
+        443,
+        259,
+        473,
+        245,
+        473
+      ],
+      [
+        "C",
+        179,
+        473,
+        65,
+        255,
+        65,
+        119
+      ],
+      [
+        "C",
+        65,
+        64,
+        80,
+        -9,
+        44,
+        -9
+      ],
+      [
+        "Z"
+      ]
+    ],
+    "quadratic_tolerance": 0.25
+  },
+  "status": "Separate installable design variant; primary release unchanged."
+}

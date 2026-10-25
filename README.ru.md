@@ -6,6 +6,9 @@
 Единственная рабочая ветка — `claude/upbeat-faraday-mzabid`, она же ветка по умолчанию.
 [Как устроены репозиторий и архив](docs/repository.md).
 
+[Новый вариант курсивной «л» — посмотреть и скачать](docs/italic-el-arch.md)
+(`Very Peri Serif El Arch 1`, устанавливается отдельно).
+
 > Кириллическое расширение [Instrument Serif](https://github.com/Instrument/instrument-serif): русский и казахский, начертания Regular и Italic.
 
 ![Very Peri Serif: Regular и Italic](docs/img/header.svg)

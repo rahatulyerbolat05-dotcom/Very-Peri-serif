@@ -6,6 +6,9 @@ Current release: **1.113**. This link always points to the current packaged fami
 The single working/default branch is `claude/upbeat-faraday-mzabid`.
 [Repository and archive guide](docs/repository.md).
 
+[Arched italic Cyrillic «л» — preview and optional download](docs/italic-el-arch.md)
+(`Very Peri Serif El Arch 1`, a separately installable design variant).
+
 > A Cyrillic extension of [Instrument Serif](https://github.com/Instrument/instrument-serif): Russian and Kazakh, in the Regular and the Italic.
 
 ![Very Peri Serif: Regular and Italic](docs/img/header.svg)

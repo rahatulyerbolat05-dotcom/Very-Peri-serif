@@ -1,0 +1,803 @@
+{
+  "passed": 3003,
+  "failed": 0,
+  "changed_glyphs": [
+    "uni043B"
+  ],
+  "baseline": "v1.113",
+  "variant": "Very Peri Serif El Arch 1",
+  "date": "2026-10-26",
+  "pairs_checked": 899,
+  "minimum_pair_clearance": 14.0,
+  "font_sha256": {
+    "ttf": "888733e133d8988b2c577ac03b5ed81eea21f81d82b1930c99023a80168ef047",
+    "otf": "79b113316af0fdac9e2aca3b5a043c8f8ddc7e76bdb739c08691ae62a450b72f",
+    "woff2": "d1c5f2e5c44a8b780eecddfea4d394a7bc9dc38b1f9768069840a5ca24665f8a"
+  },
+  "geometry_candidates": {
+    "ttf": [
+      {
+        "kind": "tangent_break",
+        "segment": 14,
+        "s": 1206.43646,
+        "xy": [
+          223.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 75.34953,
+          "incoming": [
+            -0.25292166571710767,
+            -0.9674867601217516
+          ],
+          "outgoing": [
+            -1.0,
+            0.0
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "tangent_break",
+        "segment": 15,
+        "s": 1272.43646,
+        "xy": [
+          157.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 104.70167,
+          "incoming": [
+            -1.0,
+            0.0
+          ],
+          "outgoing": [
+            0.25378613331477856,
+            0.9672603571619863
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 16,
+        "s": 1690.11097,
+        "xy": [
+          263.0,
+          404.0
+        ],
+        "metrics": {
+          "incoming": 0.0,
+          "outgoing": 0.003438,
+          "absolute": 0.003438,
+          "relative": 0.63222
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 17,
+        "s": 1745.20883,
+        "xy": [
+          266.5,
+          458.0
+        ],
+        "metrics": {
+          "incoming": 0.0484978,
+          "outgoing": 0.0222613,
+          "absolute": 0.0262365,
+          "relative": 0.51956
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 28,
+        "s": 2256.72873,
+        "xy": [
+          68.0,
+          50.5
+        ],
+        "metrics": {
+          "incoming": 0.000166,
+          "outgoing": -0.0051473,
+          "absolute": 0.0053134,
+          "relative": 0.74341
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 30,
+        "s": 2309.56289,
+        "xy": [
+          60.0,
+          -1.0
+        ],
+        "metrics": {
+          "incoming": -0.0306685,
+          "outgoing": -0.0524044,
+          "absolute": 0.0217359,
+          "relative": 0.39952
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 25,
+        "s": 2178.18884,
+        "xy": [
+          65.18016,
+          128.96068
+        ],
+        "metrics": {
+          "deviation": 0.42382,
+          "window": 32
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 5,
+        "s": 313.24662,
+        "xy": [
+          63.35149,
+          280.38374
+        ],
+        "metrics": {
+          "deviation": 1.01444,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 335.06474,
+        "xy": [
+          72.59682,
+          300.15031
+        ],
+        "metrics": {
+          "deviation": 0.85967,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 355.88346,
+        "xy": [
+          81.8276,
+          318.80943
+        ],
+        "metrics": {
+          "deviation": 0.81916,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 376.70217,
+        "xy": [
+          91.46076,
+          337.26374
+        ],
+        "metrics": {
+          "deviation": 0.87893,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 12,
+        "s": 791.26371,
+        "xy": [
+          328.00456,
+          401.67493
+        ],
+        "metrics": {
+          "deviation": 0.68223,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 16,
+        "s": 1696.99821,
+        "xy": [
+          264.79243,
+          410.67696
+        ],
+        "metrics": {
+          "deviation": 0.47221,
+          "window": 80
+        },
+        "contour": 0
+      }
+    ],
+    "otf": [
+      {
+        "kind": "curvature_jump",
+        "segment": 1,
+        "s": 18.75431,
+        "xy": [
+          60.0,
+          -1.0
+        ],
+        "metrics": {
+          "incoming": 0.0524046,
+          "outgoing": 0.0306684,
+          "absolute": 0.0217362,
+          "relative": 0.39953
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 3,
+        "s": 71.58728,
+        "xy": [
+          68.0,
+          50.5
+        ],
+        "metrics": {
+          "incoming": 0.0051474,
+          "outgoing": -0.0001661,
+          "absolute": 0.0053135,
+          "relative": 0.74342
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 14,
+        "s": 583.10495,
+        "xy": [
+          266.5,
+          458.0
+        ],
+        "metrics": {
+          "incoming": -0.0222613,
+          "outgoing": -0.0484979,
+          "absolute": 0.0262365,
+          "relative": 0.51956
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 15,
+        "s": 638.20006,
+        "xy": [
+          263.0,
+          404.0
+        ],
+        "metrics": {
+          "incoming": -0.003438,
+          "outgoing": 0.0,
+          "absolute": 0.003438,
+          "relative": 0.63221
+        },
+        "contour": 0
+      },
+      {
+        "kind": "tangent_break",
+        "segment": 16,
+        "s": 1055.87458,
+        "xy": [
+          157.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 104.70167,
+          "incoming": [
+            -0.25378613331477856,
+            -0.9672603571619863
+          ],
+          "outgoing": [
+            1.0,
+            0.0
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "tangent_break",
+        "segment": 17,
+        "s": 1121.87458,
+        "xy": [
+          223.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 75.34953,
+          "incoming": [
+            1.0,
+            0.0
+          ],
+          "outgoing": [
+            0.25292166571710767,
+            0.9674867601217516
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 5,
+        "s": 149.13069,
+        "xy": [
+          65.1459,
+          127.95565
+        ],
+        "metrics": {
+          "deviation": 0.41984,
+          "window": 32
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 18,
+        "s": 1535.06429,
+        "xy": [
+          327.52839,
+          399.77892
+        ],
+        "metrics": {
+          "deviation": 0.43777,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 24,
+        "s": 1945.65907,
+        "xy": [
+          94.28892,
+          342.49948
+        ],
+        "metrics": {
+          "deviation": 0.91132,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 24,
+        "s": 1967.46915,
+        "xy": [
+          84.0852,
+          323.22363
+        ],
+        "metrics": {
+          "deviation": 0.82475,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 24,
+        "s": 1988.28786,
+        "xy": [
+          74.75843,
+          304.61101
+        ],
+        "metrics": {
+          "deviation": 0.83947,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 25,
+        "s": 2011.08931,
+        "xy": [
+          65.0,
+          284.0
+        ],
+        "metrics": {
+          "deviation": 0.96742,
+          "window": 80
+        },
+        "contour": 0
+      }
+    ],
+    "woff2": [
+      {
+        "kind": "tangent_break",
+        "segment": 14,
+        "s": 1206.43646,
+        "xy": [
+          223.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 75.34953,
+          "incoming": [
+            -0.25292166571710767,
+            -0.9674867601217516
+          ],
+          "outgoing": [
+            -1.0,
+            0.0
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "tangent_break",
+        "segment": 15,
+        "s": 1272.43646,
+        "xy": [
+          157.0,
+          0.0
+        ],
+        "metrics": {
+          "degrees": 104.70167,
+          "incoming": [
+            -1.0,
+            0.0
+          ],
+          "outgoing": [
+            0.25378613331477856,
+            0.9672603571619863
+          ]
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 16,
+        "s": 1690.11097,
+        "xy": [
+          263.0,
+          404.0
+        ],
+        "metrics": {
+          "incoming": 0.0,
+          "outgoing": 0.003438,
+          "absolute": 0.003438,
+          "relative": 0.63222
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 17,
+        "s": 1745.20883,
+        "xy": [
+          266.5,
+          458.0
+        ],
+        "metrics": {
+          "incoming": 0.0484978,
+          "outgoing": 0.0222613,
+          "absolute": 0.0262365,
+          "relative": 0.51956
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 28,
+        "s": 2256.72873,
+        "xy": [
+          68.0,
+          50.5
+        ],
+        "metrics": {
+          "incoming": 0.000166,
+          "outgoing": -0.0051473,
+          "absolute": 0.0053134,
+          "relative": 0.74341
+        },
+        "contour": 0
+      },
+      {
+        "kind": "curvature_jump",
+        "segment": 30,
+        "s": 2309.56289,
+        "xy": [
+          60.0,
+          -1.0
+        ],
+        "metrics": {
+          "incoming": -0.0306685,
+          "outgoing": -0.0524044,
+          "absolute": 0.0217359,
+          "relative": 0.39952
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 25,
+        "s": 2178.18884,
+        "xy": [
+          65.18016,
+          128.96068
+        ],
+        "metrics": {
+          "deviation": 0.42382,
+          "window": 32
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 5,
+        "s": 313.24662,
+        "xy": [
+          63.35149,
+          280.38374
+        ],
+        "metrics": {
+          "deviation": 1.01444,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 335.06474,
+        "xy": [
+          72.59682,
+          300.15031
+        ],
+        "metrics": {
+          "deviation": 0.85967,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 355.88346,
+        "xy": [
+          81.8276,
+          318.80943
+        ],
+        "metrics": {
+          "deviation": 0.81916,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 6,
+        "s": 376.70217,
+        "xy": [
+          91.46076,
+          337.26374
+        ],
+        "metrics": {
+          "deviation": 0.87893,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 12,
+        "s": 791.26371,
+        "xy": [
+          328.00456,
+          401.67493
+        ],
+        "metrics": {
+          "deviation": 0.68223,
+          "window": 80
+        },
+        "contour": 0
+      },
+      {
+        "kind": "near_straight_bend",
+        "segment": 16,
+        "s": 1696.99821,
+        "xy": [
+          264.79243,
+          410.67696
+        ],
+        "metrics": {
+          "deviation": 0.47221,
+          "window": 80
+        },
+        "contour": 0
+      }
+    ]
+  },
+  "optical_review": "Arched el and word specimens reviewed separately; not whole-family optical acceptance.",
+  "pair_corrections": {
+    ".notdef uni043B": -54,
+    "B uni043B": 30,
+    "K uni043B": -24,
+    "L uni043B": 24,
+    "Lacute uni043B": 24,
+    "Lcaron uni043B": 24,
+    "Lslash uni043B": 24,
+    "O uni043B": 20,
+    "Oacute uni043B": 20,
+    "Ocircumflex uni043B": 20,
+    "Odieresis uni043B": 20,
+    "Ograve uni043B": 20,
+    "Ohungarumlaut uni043B": 20,
+    "Omacron uni043B": 20,
+    "Oslash uni043B": 20,
+    "Otilde uni043B": 20,
+    "Q uni043B": 20,
+    "S uni043B": 24,
+    "Sacute uni043B": 24,
+    "Scaron uni043B": 24,
+    "Scedilla uni043B": 24,
+    "T uni043B": -32,
+    "Tcaron uni043B": -32,
+    "Thorn uni043B": 30,
+    "X uni043B": -22,
+    "Y uni043B": -34,
+    "Yacute uni043B": -34,
+    "Ycircumflex uni043B": -34,
+    "Ydieresis uni043B": -34,
+    "Ygrave uni043B": -34,
+    "Z uni043B": 20,
+    "Zacute uni043B": 20,
+    "Zcaron uni043B": 20,
+    "Zdotaccent uni043B": 20,
+    "b uni043B": 22,
+    "eth uni043B": 20,
+    "f_b uni043B": 22,
+    "o uni043B": 22,
+    "oacute uni043B": 22,
+    "ocircumflex uni043B": 22,
+    "odieresis uni043B": 22,
+    "ograve uni043B": 22,
+    "ohungarumlaut uni043B": 22,
+    "omacron uni043B": 22,
+    "ordfeminine uni043B": 20,
+    "oslash uni043B": 22,
+    "otilde uni043B": 22,
+    "p uni043B": 22,
+    "thorn uni043B": 22,
+    "uni0136 uni043B": -24,
+    "uni013B uni043B": 24,
+    "uni0218 uni043B": 24,
+    "uni021A uni043B": -32,
+    "uni0259 uni043B": 22,
+    "uni0411 uni043B": 20,
+    "uni0412 uni043B": 30,
+    "uni0413 uni043B": -70,
+    "uni0416 uni043B": -26,
+    "uni0417 uni043B": 20,
+    "uni0423 uni043B": -70,
+    "uni0424 uni043B": 26,
+    "uni0425 uni043B": -22,
+    "uni042D uni043B": 20,
+    "uni042E uni043B": 20,
+    "uni0433.ss04 uni043B": -64,
+    "uni0434.ss02 uni043B": 20,
+    "uni043B .notdef": -42,
+    "uni043B A": -20,
+    "uni043B AE": -31,
+    "uni043B Aacute": -20,
+    "uni043B Abreve": -20,
+    "uni043B Acircumflex": -20,
+    "uni043B Adieresis": -20,
+    "uni043B Agrave": -20,
+    "uni043B Amacron": -20,
+    "uni043B Aogonek": -20,
+    "uni043B Aring": -20,
+    "uni043B Atilde": -20,
+    "uni043B C": 26,
+    "uni043B Cacute": 26,
+    "uni043B Ccaron": 26,
+    "uni043B Ccedilla": 26,
+    "uni043B Cdotaccent": 26,
+    "uni043B Q": 28,
+    "uni043B S": -22,
+    "uni043B Sacute": -22,
+    "uni043B Scaron": -22,
+    "uni043B Scedilla": -22,
+    "uni043B T": -26,
+    "uni043B Tcaron": -26,
+    "uni043B X": -31,
+    "uni043B Y": -20,
+    "uni043B Yacute": -20,
+    "uni043B Ycircumflex": -20,
+    "uni043B Ydieresis": -20,
+    "uni043B Ygrave": -20,
+    "uni043B Z": -28,
+    "uni043B Zacute": -28,
+    "uni043B Zcaron": -28,
+    "uni043B Zdotaccent": -28,
+    "uni043B f": -24,
+    "uni043B f_b": -24,
+    "uni043B f_f_i": -24,
+    "uni043B f_f_l": -24,
+    "uni043B f_h": -24,
+    "uni043B f_i": -24,
+    "uni043B f_l": -24,
+    "uni043B germandbls": -22,
+    "uni043B ordfeminine": 28,
+    "uni043B ordmasculine": 22,
+    "uni043B t": -22,
+    "uni043B tcaron": -22,
+    "uni043B uni01CD": -20,
+    "uni043B uni0218": -22,
+    "uni043B uni021A": -26,
+    "uni043B uni021B": -22,
+    "uni043B uni0414": -38,
+    "uni043B uni0416": -40,
+    "uni043B uni0417": -26,
+    "uni043B uni041B": -32,
+    "uni043B uni0424": 20,
+    "uni043B uni0425": -31,
+    "uni043B uni042A": -34,
+    "uni043B uni042D": -36,
+    "uni043B uni0436": -20,
+    "uni043B uni0436.ss05": -52,
+    "uni043B uni044D.ss06": -30,
+    "uni043B uni04AE": -20,
+    "uni043B y": 22,
+    "uni043B yacute": 22,
+    "uni043B ycircumflex": 22,
+    "uni043B ydieresis": 22,
+    "uni043B ygrave": 22,
+    "uni0440 uni043B": 22,
+    "uni0442.ss03 uni043B": -36,
+    "uni0444 uni043B": 20,
+    "uni044A uni043B": 20,
+    "uni044C uni043B": 20,
+    "uni044D uni043B": 20,
+    "uni044D.ss06 uni043B": 22,
+    "uni044E uni043B": 20,
+    "uni0492 uni043B": -50,
+    "uni049B uni043B": -27,
+    "uni04AE uni043B": -32,
+    "uni04B0 uni043B": -26,
+    "uni04D9 uni043B": 22,
+    "uni04E9 uni043B": 22,
+    "uni1E9E uni043B": 24,
+    "v uni043B": 22,
+    "w uni043B": 20,
+    "wacute uni043B": 20,
+    "wcircumflex uni043B": 20,
+    "wdieresis uni043B": 20,
+    "wgrave uni043B": 20,
+    "y uni043B": 22,
+    "yacute uni043B": 22,
+    "ycircumflex uni043B": 22,
+    "ydieresis uni043B": 22,
+    "ygrave uni043B": 22
+  },
+  "anchor_changes": [
+    [
+      1,
+      0,
+      252,
+      0,
+      281,
+      259
+    ],
+    [
+      1,
+      0,
+      252,
+      2,
+      163,
+      190
+    ]
+  ]
+}
