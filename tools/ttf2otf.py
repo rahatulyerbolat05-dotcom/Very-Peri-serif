@@ -20,7 +20,7 @@ MAX_ERR=0.5
 BLUES=[-15,0,510,525,720,735,740,755];OTHER_BLUES=[-220,-205];STEM_V=68;STEM_H=30
 DROP=('glyf','loca','cvt ','fpgm','prep','gasp','hdmx','LTSH','VDMX')
 EXACT_CUBICS={'uni044F'}  # Preserve the reviewed ya crown and short terminal transitions.
-EXACT_ITALIC_CUBICS={'uni0433','uni0493','uni0446','uni0449','uni04A3','uni0447'}
+EXACT_ITALIC_CUBICS={'uni0433','uni0493','uni0446','uni0449','uni04A3','uni0447','uni043B.ss10'}
 
 
 def exact_names(font):
@@ -36,6 +36,10 @@ def convert(src,dst):
         style='Italic' if tt['post'].italicAngle else 'Regular';frozen=json.loads(raw)[style]
     for n in order:
         pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in exact else .5)
+        if n == 'uni043B.ss10':
+            # Quantize absolute CFF controls, avoiding accumulated relative
+            # rounding and the spurious micro-segment at contour closure.
+            pen.round=lambda value:round(value*65536)/65536
         if n in exact:
             # Degree elevation is exact; retaining fractional controls avoids
             # reintroducing a crown kink through integer CFF rounding/fitting.

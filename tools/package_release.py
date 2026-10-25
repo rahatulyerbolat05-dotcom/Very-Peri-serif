@@ -56,6 +56,7 @@ Install / Установка
 Versions: Regular {regular}, Italic {italic}. Russian, Kazakh and inherited Latin; designed for display use.
 Версии: Regular {regular}, Italic {italic}. Русский, казахский и исходная латиница; акцидентный шрифт.
 Tabular figures: enable tnum. / Табличные цифры: включите tnum.
+Italic arched л: enable ss10. / Курсивная л с округлой аркой и хвостом: включите ss10.
 family.html is a live-font specimen. Family-Specimen.pdf contains outline examples of both styles and features.
 family.html — образец с живым текстом; Family-Specimen.pdf — векторные образцы обоих начертаний и функций.
 
@@ -171,6 +172,9 @@ def main():
              'specimen/'+family_specimen.name:family_specimen.read_bytes(),
              # Inside the archive fonts/ is one level above specimen/.
              'specimen/family.html':live.encode()}
+    alternate_proof=Path(f'docs/specimen/VeryPeriSerif-El-Alternate-{CONFIG["version"]}.pdf')
+    if alternate_proof.exists():
+        members['specimen/'+alternate_proof.name]=alternate_proof.read_bytes()
     for p in LEGAL:members[p]=Path(p).read_bytes()
     for s in STYLES:
         for p in files[s]:members['fonts/'+p.parent.name+'/'+p.name]=p.read_bytes()

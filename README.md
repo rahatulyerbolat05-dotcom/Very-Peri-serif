@@ -2,13 +2,11 @@
 
 **[СКАЧАТЬ / DOWNLOAD — Very Peri Serif: Regular + Italic](dist/VeryPeriSerif-latest.zip)**
 
-Current release: **1.113**. This link always points to the current packaged family.
+Current release: **1.114**. This link always points to the current packaged family.
 The single working/default branch is `claude/upbeat-faraday-mzabid`.
 [Repository and archive guide](docs/repository.md).
 
-[Italic Cyrillic «л» — compare and download variants](docs/italic-el-arch-2.md):
-**El Arch 2** combines the arch with the original exit; **El Arch 1** has a flat foot.
-Both are separately installable design variants.
+[The alternative italic «л» is embedded — enable ss10](docs/el-alternate-1.114.md).
 
 > A Cyrillic extension of [Instrument Serif](https://github.com/Instrument/instrument-serif): Russian and Kazakh, in the Regular and the Italic.
 
@@ -25,19 +23,21 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.113.zip`](dist/VeryPeriSerif-1.113.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.114.zip`](dist/VeryPeriSerif-1.114.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share frozen release **1.113** (Italic I037). Lossless cleanup removes
-57 stored points from 38 glyphs, with identical paths, metrics, hinting and shaping.
-Author metadata: **Yerbolat Rakhatuly (DEW)**; upstream Instrument/Cormorant credits and OFL retained.
-[Release checks and limitations](docs/final-1.113.md).
+Regular and Italic share release **1.114** (Italic I038). The approved rounded-arch
+Cyrillic **л with an exit stroke** is embedded as **ss10**, also available through `aalt`.
+The default л stays unchanged. Enable **stylistic set 10** in your app's OpenType
+settings, or use `font-feature-settings: "ss10" 1` on the web.
+[Specimen, instructions and checks](docs/el-alternate-1.114.md).
 
-[Renamed installation copy of 1.113](dist/VeryPeriSerif-T1113.zip): two TTFs under
-the distinct family **Very Peri Serif T1113**, for installation alongside the main family.
+[Renamed installation copy of 1.114](dist/VeryPeriSerif-T1114.zip): two TTFs under
+**Very Peri Serif T1114**, for installation alongside the main family.
+The frozen 1.113 release with exact redundant-node reduction remains archived.
 
 [Contour roughness review is ongoing](docs/final-1.113.md): new detectors,
 a complete outline atlas and a candidate queue inspect the current release.

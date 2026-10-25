@@ -1,0 +1,738 @@
+{
+  "version": "1.114",
+  "baseline": "v1.113",
+  "passed": 4353,
+  "failed": 0,
+  "fonts": {
+    "Regular/ttf": {
+      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "glyphs": 525
+    },
+    "Regular/otf": {
+      "sha256": "25f0a34a4dfef5c2fcd28bbf6403d5a5aad6d3db19fb00b855137dcb3144b366",
+      "glyphs": 525
+    },
+    "Regular/woff2": {
+      "sha256": "a14d448395d26805fe7a59a6a309481fb540f1ecd3743fd518941f2c9cc3cce5",
+      "glyphs": 525
+    },
+    "Italic/ttf": {
+      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "glyphs": 492,
+      "all_visible_pairs_checked": 929,
+      "geometry_candidates": [
+        {
+          "kind": "curvature_jump",
+          "segment": 15,
+          "s": 1098.98978,
+          "xy": [
+            250.0,
+            104.0
+          ],
+          "metrics": {
+            "incoming": 0.0,
+            "outgoing": 0.0151799,
+            "absolute": 0.0151799,
+            "relative": 0.88358
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 16,
+          "s": 1125.23704,
+          "xy": [
+            247.0,
+            78.0
+          ],
+          "metrics": {
+            "incoming": 0.0066667,
+            "outgoing": 0.0114464,
+            "absolute": 0.0047797,
+            "relative": 0.35547
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 19,
+          "s": 1327.94229,
+          "xy": [
+            351.0,
+            175.0
+          ],
+          "metrics": {
+            "incoming": 0.0008946,
+            "outgoing": -0.0388842,
+            "absolute": 0.0397789,
+            "relative": 0.97296
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 21,
+          "s": 1359.78916,
+          "xy": [
+            374.0,
+            178.0
+          ],
+          "metrics": {
+            "incoming": -0.0650923,
+            "outgoing": -0.1685266,
+            "absolute": 0.1034343,
+            "relative": 0.60656
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 28,
+          "s": 1765.40292,
+          "xy": [
+            186.0,
+            114.0
+          ],
+          "metrics": {
+            "incoming": -0.0030738,
+            "outgoing": 0.0,
+            "absolute": 0.0030738,
+            "relative": 0.60582
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 30,
+          "s": 2065.45182,
+          "xy": [
+            263.0,
+            404.0
+          ],
+          "metrics": {
+            "incoming": 0.0,
+            "outgoing": 0.003438,
+            "absolute": 0.003438,
+            "relative": 0.63222
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 31,
+          "s": 2120.54968,
+          "xy": [
+            266.5,
+            458.0
+          ],
+          "metrics": {
+            "incoming": 0.0484978,
+            "outgoing": 0.0222613,
+            "absolute": 0.0262365,
+            "relative": 0.51956
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 42,
+          "s": 2632.06957,
+          "xy": [
+            68.0,
+            50.5
+          ],
+          "metrics": {
+            "incoming": 0.000166,
+            "outgoing": -0.0051473,
+            "absolute": 0.0053134,
+            "relative": 0.74341
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 44,
+          "s": 2684.90373,
+          "xy": [
+            60.0,
+            -1.0
+          ],
+          "metrics": {
+            "incoming": -0.0306685,
+            "outgoing": -0.0524044,
+            "absolute": 0.0217359,
+            "relative": 0.39952
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 39,
+          "s": 2554.52601,
+          "xy": [
+            65.14615,
+            127.9633
+          ],
+          "metrics": {
+            "deviation": 0.42,
+            "window": 32
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 5,
+          "s": 313.24662,
+          "xy": [
+            63.35149,
+            280.38374
+          ],
+          "metrics": {
+            "deviation": 1.01444,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 335.06474,
+          "xy": [
+            72.59682,
+            300.15031
+          ],
+          "metrics": {
+            "deviation": 0.85967,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 355.88346,
+          "xy": [
+            81.8276,
+            318.80943
+          ],
+          "metrics": {
+            "deviation": 0.81916,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 376.70217,
+          "xy": [
+            91.46076,
+            337.26374
+          ],
+          "metrics": {
+            "deviation": 0.87893,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 12,
+          "s": 791.26371,
+          "xy": [
+            328.00456,
+            401.67493
+          ],
+          "metrics": {
+            "deviation": 0.6473,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 27,
+          "s": 1762.41692,
+          "xy": [
+            185.24257,
+            111.1055
+          ],
+          "metrics": {
+            "deviation": 0.56728,
+            "window": 80
+          },
+          "contour": 0
+        }
+      ]
+    },
+    "Italic/otf": {
+      "sha256": "7fe8be97fc1d3f58ec6982dae48386478ea880f32f960bf79c40c51ef696b5d8",
+      "glyphs": 492,
+      "geometry_candidates": [
+        {
+          "kind": "curvature_jump",
+          "segment": 1,
+          "s": 18.75431,
+          "xy": [
+            60.0,
+            -1.0
+          ],
+          "metrics": {
+            "incoming": 0.0524046,
+            "outgoing": 0.0306684,
+            "absolute": 0.0217362,
+            "relative": 0.39953
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 3,
+          "s": 71.58728,
+          "xy": [
+            68.0,
+            50.5
+          ],
+          "metrics": {
+            "incoming": 0.0051474,
+            "outgoing": -0.0001661,
+            "absolute": 0.0053135,
+            "relative": 0.74342
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 14,
+          "s": 583.10495,
+          "xy": [
+            266.5,
+            458.0
+          ],
+          "metrics": {
+            "incoming": -0.0222613,
+            "outgoing": -0.0484979,
+            "absolute": 0.0262365,
+            "relative": 0.51956
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 15,
+          "s": 638.20006,
+          "xy": [
+            263.0,
+            404.0
+          ],
+          "metrics": {
+            "incoming": -0.003438,
+            "outgoing": 0.0,
+            "absolute": 0.003438,
+            "relative": 0.63221
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 17,
+          "s": 938.24896,
+          "xy": [
+            186.0,
+            114.0
+          ],
+          "metrics": {
+            "incoming": 0.0,
+            "outgoing": 0.0030738,
+            "absolute": 0.0030738,
+            "relative": 0.60582
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 24,
+          "s": 1343.85319,
+          "xy": [
+            374.0,
+            178.0
+          ],
+          "metrics": {
+            "incoming": 0.1685267,
+            "outgoing": 0.0650926,
+            "absolute": 0.1034341,
+            "relative": 0.60656
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 26,
+          "s": 1375.70006,
+          "xy": [
+            351.0,
+            175.0
+          ],
+          "metrics": {
+            "incoming": 0.0388842,
+            "outgoing": -0.0008946,
+            "absolute": 0.0397788,
+            "relative": 0.97296
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 29,
+          "s": 1578.39816,
+          "xy": [
+            247.0,
+            78.0
+          ],
+          "metrics": {
+            "incoming": -0.0114464,
+            "outgoing": -0.0066667,
+            "absolute": 0.0047797,
+            "relative": 0.35547
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 30,
+          "s": 1604.64543,
+          "xy": [
+            250.0,
+            104.0
+          ],
+          "metrics": {
+            "incoming": -0.0151799,
+            "outgoing": 0.0,
+            "absolute": 0.0151799,
+            "relative": 0.88358
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 5,
+          "s": 149.13069,
+          "xy": [
+            65.1459,
+            127.95565
+          ],
+          "metrics": {
+            "deviation": 0.41984,
+            "window": 32
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 38,
+          "s": 2318.00913,
+          "xy": [
+            95.71418,
+            345.10821
+          ],
+          "metrics": {
+            "deviation": 0.93432,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 38,
+          "s": 2339.81921,
+          "xy": [
+            85.45057,
+            325.86616
+          ],
+          "metrics": {
+            "deviation": 0.83095,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 38,
+          "s": 2359.64656,
+          "xy": [
+            76.50434,
+            308.17229
+          ],
+          "metrics": {
+            "deviation": 0.83077,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 38,
+          "s": 2382.44801,
+          "xy": [
+            66.66464,
+            287.60414
+          ],
+          "metrics": {
+            "deviation": 0.93966,
+            "window": 80
+          },
+          "contour": 0
+        }
+      ]
+    },
+    "Italic/woff2": {
+      "sha256": "8fb2b4fdd07dee875e126c88798759769c69405ff002a7fdac24349a852035df",
+      "glyphs": 492,
+      "geometry_candidates": [
+        {
+          "kind": "curvature_jump",
+          "segment": 15,
+          "s": 1098.98978,
+          "xy": [
+            250.0,
+            104.0
+          ],
+          "metrics": {
+            "incoming": 0.0,
+            "outgoing": 0.0151799,
+            "absolute": 0.0151799,
+            "relative": 0.88358
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 16,
+          "s": 1125.23704,
+          "xy": [
+            247.0,
+            78.0
+          ],
+          "metrics": {
+            "incoming": 0.0066667,
+            "outgoing": 0.0114464,
+            "absolute": 0.0047797,
+            "relative": 0.35547
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 19,
+          "s": 1327.94229,
+          "xy": [
+            351.0,
+            175.0
+          ],
+          "metrics": {
+            "incoming": 0.0008946,
+            "outgoing": -0.0388842,
+            "absolute": 0.0397789,
+            "relative": 0.97296
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 21,
+          "s": 1359.78916,
+          "xy": [
+            374.0,
+            178.0
+          ],
+          "metrics": {
+            "incoming": -0.0650923,
+            "outgoing": -0.1685266,
+            "absolute": 0.1034343,
+            "relative": 0.60656
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 28,
+          "s": 1765.40292,
+          "xy": [
+            186.0,
+            114.0
+          ],
+          "metrics": {
+            "incoming": -0.0030738,
+            "outgoing": 0.0,
+            "absolute": 0.0030738,
+            "relative": 0.60582
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 30,
+          "s": 2065.45182,
+          "xy": [
+            263.0,
+            404.0
+          ],
+          "metrics": {
+            "incoming": 0.0,
+            "outgoing": 0.003438,
+            "absolute": 0.003438,
+            "relative": 0.63222
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 31,
+          "s": 2120.54968,
+          "xy": [
+            266.5,
+            458.0
+          ],
+          "metrics": {
+            "incoming": 0.0484978,
+            "outgoing": 0.0222613,
+            "absolute": 0.0262365,
+            "relative": 0.51956
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 42,
+          "s": 2632.06957,
+          "xy": [
+            68.0,
+            50.5
+          ],
+          "metrics": {
+            "incoming": 0.000166,
+            "outgoing": -0.0051473,
+            "absolute": 0.0053134,
+            "relative": 0.74341
+          },
+          "contour": 0
+        },
+        {
+          "kind": "curvature_jump",
+          "segment": 44,
+          "s": 2684.90373,
+          "xy": [
+            60.0,
+            -1.0
+          ],
+          "metrics": {
+            "incoming": -0.0306685,
+            "outgoing": -0.0524044,
+            "absolute": 0.0217359,
+            "relative": 0.39952
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 39,
+          "s": 2554.52601,
+          "xy": [
+            65.14615,
+            127.9633
+          ],
+          "metrics": {
+            "deviation": 0.42,
+            "window": 32
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 5,
+          "s": 313.24662,
+          "xy": [
+            63.35149,
+            280.38374
+          ],
+          "metrics": {
+            "deviation": 1.01444,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 335.06474,
+          "xy": [
+            72.59682,
+            300.15031
+          ],
+          "metrics": {
+            "deviation": 0.85967,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 355.88346,
+          "xy": [
+            81.8276,
+            318.80943
+          ],
+          "metrics": {
+            "deviation": 0.81916,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 6,
+          "s": 376.70217,
+          "xy": [
+            91.46076,
+            337.26374
+          ],
+          "metrics": {
+            "deviation": 0.87893,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 12,
+          "s": 791.26371,
+          "xy": [
+            328.00456,
+            401.67493
+          ],
+          "metrics": {
+            "deviation": 0.6473,
+            "window": 80
+          },
+          "contour": 0
+        },
+        {
+          "kind": "near_straight_bend",
+          "segment": 27,
+          "s": 1762.41692,
+          "xy": [
+            185.24257,
+            111.1055
+          ],
+          "metrics": {
+            "deviation": 0.56728,
+            "window": 80
+          },
+          "contour": 0
+        }
+      ]
+    }
+  },
+  "scope": "One approved ss10 alternate, its layout and preservation of every existing glyph and default behavior; not whole-family optical acceptance."
+}

@@ -74,7 +74,7 @@ def sha(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
-def kern_lookup(font):
+def kern_lookup(font, name=NAME):
     """Append only л pairs; every existing lookup and script remains intact."""
     profiles = OK.profiles(font)
     cm = font.getBestCmap()
@@ -98,7 +98,7 @@ def kern_lookup(font):
         if n not in chars:
             chars[n] = chars.get(n.split('.')[0], 'a')
     rows, corrections = [], {}
-    pairs = {(NAME, n) for n in profiles} | {(n, NAME) for n in profiles}
+    pairs = {(name, n) for n in profiles} | {(n, name) for n in profiles}
     for a, b in sorted(pairs):
         ca, cb = chars[a], chars[b]
         g, valid = OK.gap_profile(profiles[a], profiles[b])
@@ -124,7 +124,7 @@ def kern_lookup(font):
            'languagesystem cyrl dflt; feature kern { lookupflag IgnoreMarks;\n')
     fea += '\n'.join(f'pos {a} {b} {v};' for (a, b), v in corrections.items())
     fea += '\n} kern;'
-    extra = TTFont(io.BytesIO(baseline('ttf')))
+    extra = copy.deepcopy(font)
     for tag in ('GSUB', 'GPOS', 'GDEF'):
         del extra[tag]
     addOpenTypeFeaturesFromString(extra, fea)

@@ -53,6 +53,11 @@ def main():
     with zipfile.ZipFile(archive) as z:
         assert z.testzip() is None
         assert all(z.read(f'VeryPeriSerif-{tag}/'+name)==data for name,data in members.items())
+    release_files=[Path('dist')/f'VeryPeriSerif-{version}.zip',archive]
+    release_files+=sorted(p for p in Path(cfg['release_directory']).rglob('*') if p.suffix in ('.ttf','.otf','.woff2'))
+    assert len(release_files)==8
+    Path(f'dist/VeryPeriSerif-{version}-SHA256SUMS.txt').write_text(
+        ''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+p.as_posix()+'\n' for p in release_files))
     print(json.dumps({'archive':str(archive),'family':family,'sha256':hashlib.sha256(raw).hexdigest()}))
 
 

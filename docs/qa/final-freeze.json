@@ -1,5 +1,5 @@
 {
-  "version": "1.113",
+  "version": "1.114",
   "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
   "passed": 1271,
   "failed": 0,
@@ -7,15 +7,15 @@
     "Regular": {
       "glyphs": 15,
       "points_removed": 18,
-      "ttf_sha256": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
+      "ttf_sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
       "cff_programs_unchanged": 525
     },
     "Italic": {
       "glyphs": 23,
       "points_removed": 39,
-      "ttf_sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
+      "ttf_sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
       "cff_programs_unchanged": 491
     }
   },
-  "scope": "Exact geometric preservation, metrics, hinting, shaping and metadata; not universal artistic acceptance."
+  "scope": "Frozen base glyphs: exact geometric preservation, metrics, hinting, shaping and metadata. Added ss10 is independently checked by check_italic_el_alternate.py; not universal artistic acceptance."
 }

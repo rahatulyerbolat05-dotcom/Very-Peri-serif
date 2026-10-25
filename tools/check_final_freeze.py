@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify representation-only release changes against the published 1.112."""
+"""Verify frozen base glyphs against 1.112; ss10 has a separate full-font gate."""
 import argparse
 import hashlib
 import io
@@ -9,7 +9,7 @@ import subprocess
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fontTools.ttLib import TTFont
+from italic_el_alternate import legacy_font as TTFont  # base-glyph regression; ss10 has its own gate
 from exact_node_reduction import canonical_outline, geometry_fingerprint
 
 
@@ -62,7 +62,7 @@ def main():
             ck(style+' '+fmt+' version',n.getDebugName(5)=='Version '+cfg['version'])
         stats[style]={'glyphs':len(changed),'points_removed':removed,'ttf_sha256':hashlib.sha256(current_path.read_bytes()).hexdigest(),'cff_programs_unchanged':len(before.getGlyphOrder())}
     report={'version':cfg['version'],'baseline_commit':manifest['baseline_commit'],'passed':len(checks),'failed':0,'styles':stats,
-            'scope':'Exact geometric preservation, metrics, hinting, shaping and metadata; not universal artistic acceptance.'}
+            'scope':'Frozen base glyphs: exact geometric preservation, metrics, hinting, shaping and metadata. Added ss10 is independently checked by check_italic_el_alternate.py; not universal artistic acceptance.'}
     Path('docs/qa/final-freeze.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report))
 

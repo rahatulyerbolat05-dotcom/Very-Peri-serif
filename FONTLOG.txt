@@ -14,7 +14,7 @@ What was changed against the original
 -------------------------------------
 - Added: 84 Cyrillic letters in Regular and Italic, Cyrillic alternates, tenge, ruble, hryvnia and numero signs,
   typographic spaces and controls, Latin schwa.
-- Added OpenType: calt, ss01-ss09, locl (Serbian, Macedonian), Cyrillic kerning, a STAT table.
+- Added OpenType: calt, ss01-ss10, locl (Serbian, Macedonian), Cyrillic kerning, a STAT table.
 - Renamed: the family is Very Peri Serif; the original name Instrument Serif is not used as a font name.
 - Not changed: the native Latin outlines, spacing and kerning of Instrument Serif.
 - Regular: the Cyrillic de is a modified outline of Cormorant Garamond (SIL OFL 1.1, the same licence; its
@@ -139,3 +139,11 @@ Replace the author-reported transverse step in Italic ч by one convex quadratic
 
 25 October 2026 — Frozen release 1.113 (internal drawing I037).
 Losslessly remove 57 redundant stored TrueType points across 38 authored glyphs, without refitting curves. Preserve accepted CFF programs, native outlines/hints, all metrics, marks, kerning and ligatures. Identify the Cyrillic author as Yerbolat Rakhatuly (DEW) in font metadata and accompanying documents. Preserve original Instrument Serif and Cormorant notices and the unmodified SIL OFL 1.1 license body.
+
+2026-10-26 — Version 1.114 / Italic I038
+-------------------------------------
+Added optional italic lowercase Cyrillic el with a rounded arch and the original
+exit stroke, selected by stylistic set ss10 or the alternates menu (aalt).
+Drawing selected by Yerbolat Rakhatuly (DEW). The alternate has its own spacing,
+kerning and mark anchors. All existing default glyphs, metrics, native hinting
+and layout behavior are retained. TTF, OTF and WOFF2 include the feature.

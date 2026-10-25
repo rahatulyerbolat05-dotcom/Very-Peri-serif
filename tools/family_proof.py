@@ -116,10 +116,10 @@ def main():
             ax.text(45,y-35,style,fontsize=16,color='#777777')
             modes=[('Default',{},'ru')]
             if style=='Regular':modes += [('ss01',{'ss01':1},'ru'),('ss07',{'ss07':1},'ru'),('ss08',{'ss08':1},'ru'),('ss09',{'ss09':1},'ru')]
-            else:modes += [('ss%02d'%i,{'ss%02d'%i:1},'ru') for i in range(1,7)]+[('locl SRB',{},'sr'),('locl MKD',{},'mk')]
+            else:modes += [('ss%02d'%i,{'ss%02d'%i:1},'ru') for i in range(1,7)]+[('ss10',{'ss10':1},'ru'),('locl SRB',{},'sr'),('locl MKD',{},'mk')]
             for label,features,lang in modes:
                 ax.text(45,y+10,label,fontsize=10,color='#777777')
-                p.line(ax,'б г д п т · к ж э · ц щ қ ң',200,y+45,67,features,language=lang);y+=90
+                p.line(ax,'л · б г д п т · к ж э · ц щ қ ң',200,y+45,67,features,language=lang);y+=85
             y+=90
         pdf.savefig(fig);fig.savefig(images/'alternates.png');plt.close(fig)
         for dark in (False,True):
@@ -303,6 +303,9 @@ body{margin:48px;background:#f5f2ec;color:#272333;font-family:system-ui}main{max
                      'о́ я́ ы́ э́ ю́ ә́ ү́ і́ ё́ · О́ Я́ Ы́ Э́ Ю́ Ә́ Ү́','office affine final · 12 500 ₸']:
             blocks.append('<p class="'+klass+'">'+html.escape(text)+'</p>')
         blocks.append('<p class="'+klass+' tabular">0123456789 · 111 000 · 888 000</p>')
+        if style == 'Italic':
+            blocks.append('<h3>ss10 — л: округлая арка и хвост</h3>')
+            blocks.append('<p class="'+klass+'" style="font-feature-settings: &quot;ss10&quot; 1">лилия · аллея · люблю · гүл · әлем</p>')
     blocks.append('</main>')
     Path('docs/specimen').mkdir(parents=True,exist_ok=True)
     Path('docs/specimen/family.html').write_text('\n'.join(blocks))

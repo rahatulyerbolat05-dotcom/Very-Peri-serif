@@ -1,0 +1,42 @@
+{
+  "version": "1.114",
+  "date": "2026-10-26",
+  "source_build": {
+    "command": "make family",
+    "status": "PASS",
+    "fresh_regular_and_italic_i038": true
+  },
+  "acceptance_stages": {
+    "check_and_proof_command": "make -o family release",
+    "completed_through": "optical_review.py; packaging continued separately after recording the reviewed font hashes",
+    "packaging_and_final_commands": [
+      "tools/package_release.py",
+      "tools/package_renamed_copy.py",
+      "tools/check_final_freeze.py",
+      "tools/check_italic_el_alternate.py --root fonts",
+      "tools/check_tail_joins.py --root fonts",
+      "tools/check_italic_che.py --root fonts",
+      "tools/check_contour_geometry.py",
+      "tools/contour_audit.py"
+    ],
+    "status": "PASS"
+  },
+  "ss10_checks": 4353,
+  "functional_checks": 4475,
+  "base_freeze_checks": 1271,
+  "all_visible_ss10_pairs": 929,
+  "package_checks": 36,
+  "fontbakery": {
+    "(not finished)": 0,
+    "INFO": 6,
+    "PASS": 163,
+    "SKIP": 71,
+    "WARN": 2
+  },
+  "fonts": {
+    "Regular": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+    "Italic": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f"
+  },
+  "latest_archive_sha256": "70cca15366ff0a3cdfca70fce6c499d2578d7a2c13e29dbb4fc7b7086e754c70",
+  "scope": "Approved alternate only; global artistic queue remains open."
+}

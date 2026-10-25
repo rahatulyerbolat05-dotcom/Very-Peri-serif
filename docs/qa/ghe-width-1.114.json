@@ -1,0 +1,72 @@
+{
+  "version": "1.114",
+  "baseline_commit": "4ffae31c961c4ec2108224c522d815b24433f456",
+  "styles": {
+    "Regular": {
+      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "changed_outlines": [
+        "uni0413",
+        "uni0414",
+        "uni0419",
+        "uni042A",
+        "uni042F",
+        "uni0431",
+        "uni0432",
+        "uni0436",
+        "uni0439",
+        "uni043A",
+        "uni043C",
+        "uni0492",
+        "uni04E9",
+        "uni0442.ss08",
+        "uni04A2.tail_old"
+      ],
+      "changed_metrics": []
+    },
+    "Italic": {
+      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "changed_outlines": [
+        "uni0426",
+        "uni0429",
+        "uni042A",
+        "uni042E",
+        "uni042F",
+        "uni049A",
+        "uni04A2",
+        "uni0448",
+        "uni0446",
+        "uni0449",
+        "uni043D",
+        "uni0434",
+        "uni0493",
+        "uni044C",
+        "uni044A",
+        "uni044B",
+        "uni0444",
+        "uni0447",
+        "uni043C",
+        "uni04A3",
+        "uni04AF",
+        "uni04B1",
+        "uni0433",
+        "uni25CC",
+        "uni2021",
+        "uni2032",
+        "uni2033",
+        "uni20B4",
+        "uni20BD"
+      ],
+      "changed_metrics": [
+        "uni0493",
+        "uni0433"
+      ],
+      "advance_before": 288,
+      "advance_after": 308,
+      "stem_translation_x": 10,
+      "diagonal_stem_weight_preserved": true,
+      "mark_anchor_dx": 10
+    }
+  },
+  "passed": 366,
+  "failed": 0
+}

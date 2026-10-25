@@ -9,7 +9,7 @@ import sys
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 import numpy as np
 import pathops
-from fontTools.ttLib import TTFont
+from italic_el_alternate import legacy_font as TTFont  # base-glyph regression; ss10 has its own gate
 from contour_geometry import read_outline, inspect_outline, angle
 from fix_italic_che import NAME, START, CONTROL, END, old_font
 from polish_outlines import contours_of, hausdorff

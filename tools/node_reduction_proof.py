@@ -14,8 +14,9 @@ from family_proof import Proof,page
 
 
 def main():
-    m=json.loads(Path('data/node-reduction/manifest.json').read_text());v=m['release']
+    m=json.loads(Path('data/node-reduction/manifest.json').read_text())
     config=json.loads(Path('data/params.json').read_text())['regular_release']
+    v=config['version']  # never overwrite the historical 1.113 specimen
     dest=Path('build/finalize');dest.mkdir(exist_ok=True)
     date=datetime.datetime.fromisoformat(config['date']).replace(tzinfo=datetime.timezone.utc)
     target=Path(f'docs/specimen/VeryPeriSerif-Node-Reduction-{v}.pdf')
@@ -41,7 +42,7 @@ def main():
                 fig.suptitle(f'{style} · 1.112 / {v} · exact coincident paths',fontsize=15)
                 fig.subplots_adjust(left=.035,right=.965,bottom=.07,top=.87,wspace=.28,hspace=.38)
                 pdf.savefig(fig);fig.savefig(dest/f'nodes-{style}-{pg+1}.png',dpi=110);plt.close(fig)
-        fig,ax=page('1.113 · frozen geometry · Russian and Kazakh',1500,1450)
+        fig,ax=page(v+' · frozen base glyphs · Russian and Kazakh',1500,1450)
         for k,style in enumerate(('Regular','Italic')):
             proof=Proof(f'build/release/VeryPeriSerif-{style}.ttf');y=140+k*650
             ax.text(45,y-40,style,fontsize=16,color='#69656a')

@@ -31,6 +31,7 @@ family: italic
 	$(PY) tools/build_family.py
 
 release: family
+	$(PY) tools/check_italic_el_alternate.py --formats ttf,woff2
 	$(PY) tools/check_exact_node_reduction.py
 	$(PY) tools/check_family.py
 	$(PY) tools/check_curve_finish.py
@@ -40,6 +41,7 @@ release: family
 	$(PY) tools/check_italic_che.py --formats ttf,woff2
 	$(PY) tools/quality_family.py
 	$(PY) tools/family_proof.py
+	$(PY) tools/el_alternate_proof.py
 	$(PY) tools/node_reduction_proof.py
 	$(PY) tools/curve_finish_proof.py
 	$(PY) tools/ya_revision_proof.py
@@ -51,6 +53,7 @@ release: family
 	$(PY) tools/package_release.py $(if $(filter 1,$(BROWSER)),--browser,)
 	$(PY) tools/package_renamed_copy.py
 	$(PY) tools/check_final_freeze.py
+	$(PY) tools/check_italic_el_alternate.py --root fonts
 	$(PY) tools/check_tail_joins.py --root fonts
 	$(PY) tools/check_italic_che.py --root fonts
 	$(PY) tools/italic_tail_loop_proof.py
@@ -59,6 +62,7 @@ release: family
 	$(PY) tools/readme_header.py
 
 quality:
+	$(PY) tools/check_italic_el_alternate.py --formats ttf,woff2
 	$(PY) tools/check_family.py
 	$(PY) tools/check_curve_finish.py
 	$(PY) tools/check_ya_revision.py

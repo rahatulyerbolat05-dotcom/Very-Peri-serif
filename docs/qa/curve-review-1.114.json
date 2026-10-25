@@ -1,0 +1,7706 @@
+{
+  "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
+  "version": "1.114",
+  "styles": {
+    "Regular": {
+      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "all_glyphs_inventoried": 525,
+      "reviewed_direct_changes": [
+        "uni0413",
+        "uni0414",
+        "uni0416",
+        "uni0419",
+        "uni041B",
+        "uni042A",
+        "uni042D",
+        "uni042F",
+        "uni0431",
+        "uni0432",
+        "uni0436",
+        "uni0439",
+        "uni043A",
+        "uni043B",
+        "uni043C",
+        "uni0442",
+        "uni0449",
+        "uni044A",
+        "uni044B",
+        "uni044E",
+        "uni044F",
+        "uni0492",
+        "uni049A",
+        "uni04A2",
+        "uni04BA",
+        "uni049B",
+        "uni04E9",
+        "uni04B1",
+        "uni04AF",
+        "uni2032",
+        "uni2033",
+        "uni2248",
+        "uni043A.short",
+        "uni043A.flag",
+        "uni043A.short.flag",
+        "uni041A.flag",
+        "uni0442.ss08",
+        "uni0434.ss07",
+        "uni04A3.tail_old",
+        "uni0449.tail_old",
+        "uni049B.alternate",
+        "uni049B.context",
+        "uni049B.tail_old",
+        "uni049B.alternate.tail_old",
+        "uni049B.context.tail_old",
+        "uni0429.tail_old",
+        "uni049A.tail_old",
+        "uni04A2.tail_old"
+      ],
+      "inherited_component_changes": [],
+      "advance_or_bearing_changes": [],
+      "native_outlines_and_hints_preserved": true,
+      "glyphs": {
+        "uni0416": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  252.0,
+                  413.0
+                ],
+                "degrees": 6.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  254.0,
+                  446.0
+                ],
+                "degrees": 1.77,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  53.0,
+                  697.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  286.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  479.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  712.0,
+                  697.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  511.0,
+                  446.0
+                ],
+                "degrees": 1.77,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  513.0,
+                  413.0
+                ],
+                "degrees": 6.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  479.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  286.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  53.0,
+                  697.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  286.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  479.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  712.0,
+                  697.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  479.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  286.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000214,
+          "bounds": [
+            22,
+            0,
+            743,
+            720
+          ],
+          "outline_deviation": 1.118
+        },
+        "uni042F": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  19.0,
+                  26.0
+                ],
+                "degrees": 3.72,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  41.0,
+                  41.0
+                ],
+                "degrees": 1.93,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000356,
+          "bounds": [
+            -11,
+            0,
+            479,
+            720
+          ],
+          "outline_deviation": 1.59648
+        },
+        "uni0436": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  34.25,
+                  46.25
+                ],
+                "contour": 0,
+                "turn": 56.04,
+                "length": 33.28,
+                "neighbour_turns": [
+                  -161.57,
+                  -7.73
+                ],
+                "segment_ids": [
+                  15
+                ]
+              },
+              {
+                "xy": [
+                  70.5,
+                  445.25
+                ],
+                "contour": 0,
+                "turn": -11.99,
+                "length": 15.43,
+                "neighbour_turns": [
+                  6.91,
+                  61.39
+                ],
+                "segment_ids": [
+                  22
+                ]
+              },
+              {
+                "xy": [
+                  38.4,
+                  472.0
+                ],
+                "contour": 0,
+                "turn": 61.39,
+                "length": 67.6,
+                "neighbour_turns": [
+                  -11.99,
+                  -180.0
+                ],
+                "segment_ids": [
+                  23,
+                  24,
+                  25,
+                  26
+                ]
+              },
+              {
+                "xy": [
+                  492.25,
+                  471.25
+                ],
+                "contour": 0,
+                "turn": 63.43,
+                "length": 74.66,
+                "neighbour_turns": [
+                  -180.0,
+                  -18.43
+                ],
+                "segment_ids": [
+                  68,
+                  69,
+                  70
+                ]
+              },
+              {
+                "xy": [
+                  456.0,
+                  440.5
+                ],
+                "contour": 0,
+                "turn": -18.43,
+                "length": 13.66,
+                "neighbour_turns": [
+                  63.43,
+                  9.42
+                ],
+                "segment_ids": [
+                  71
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  120.0,
+                  105.0
+                ],
+                "degrees": 2.06,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  222.0,
+                  298.0
+                ],
+                "degrees": 7.92,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  308.0,
+                  298.0
+                ],
+                "degrees": 7.15,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  410.0,
+                  428.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  482.0,
+                  72.0
+                ],
+                "degrees": 3.03,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  412.0,
+                  101.0
+                ],
+                "degrees": 2.71,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  34.25,
+                  46.25
+                ],
+                "contour": 0,
+                "turn": 56.04,
+                "length": 33.28,
+                "neighbour_turns": [
+                  -161.57,
+                  -7.73
+                ],
+                "segment_ids": [
+                  108
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  410.0,
+                  428.0
+                ],
+                "degrees": 1.9,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  412.0,
+                  101.0
+                ],
+                "degrees": 2.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  120.0,
+                  105.0
+                ],
+                "degrees": 2.06,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.002721,
+          "bounds": [
+            -13,
+            0,
+            543,
+            510
+          ],
+          "outline_deviation": 3.16504
+        },
+        "uni043B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  44.0,
+                  60.0
+                ],
+                "degrees": 6.41,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  411.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  127.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  127.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  411.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000652,
+          "bounds": [
+            -20,
+            0,
+            422,
+            518
+          ],
+          "outline_deviation": 0.808
+        },
+        "uni043C": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  372.0,
+                  49.0
+                ],
+                "degrees": 1.98,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  91.0,
+                  48.0
+                ],
+                "degrees": 10.11,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  118.0,
+                  26.0
+                ],
+                "degrees": 3.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  143.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  75.0,
+                  465.0
+                ],
+                "degrees": 11.44,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  52.0,
+                  482.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  496.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [
+              {
+                "xy": [
+                  59.0,
+                  60.0
+                ],
+                "length": 2.0,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  440.0,
+                  60.0
+                ],
+                "length": 2.0,
+                "contour": 0
+              }
+            ],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  438.0,
+                  116.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  471.0,
+                  26.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  496.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  372.0,
+                  49.0
+                ],
+                "degrees": 1.98,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  143.0,
+                  23.0
+                ],
+                "degrees": 3.55,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  62.0,
+                  84.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  74.0,
+                  439.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  52.0,
+                  482.0
+                ],
+                "degrees": 4.6,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.00042,
+          "bounds": [
+            -5,
+            0,
+            507,
+            510
+          ],
+          "outline_deviation": 1.8042
+        },
+        "uni044A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  28.0,
+                  427.0
+                ],
+                "degrees": 3.73,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -9.4e-05,
+          "bounds": [
+            -9,
+            -9,
+            385,
+            510
+          ],
+          "outline_deviation": 1.093
+        },
+        "uni044B": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.99
+                ],
+                "segment_ids": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "xy": [
+                  360.0,
+                  482.25
+                ],
+                "contour": 1,
+                "turn": -9.46,
+                "length": 6.03,
+                "neighbour_turns": [
+                  82.87,
+                  9.46
+                ],
+                "segment_ids": [
+                  5
+                ]
+              },
+              {
+                "xy": [
+                  354.0,
+                  482.75
+                ],
+                "contour": 1,
+                "turn": 9.46,
+                "length": 6.03,
+                "neighbour_turns": [
+                  -9.46,
+                  -171.87
+                ],
+                "segment_ids": [
+                  6
+                ]
+              },
+              {
+                "xy": [
+                  468.67,
+                  29.83
+                ],
+                "contour": 1,
+                "turn": 44.22,
+                "length": 95.54,
+                "neighbour_turns": [
+                  -164.74,
+                  -141.34
+                ],
+                "segment_ids": [
+                  18,
+                  19
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  363.0,
+                  482.0
+                ],
+                "degrees": 7.13,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  351.0,
+                  483.0
+                ],
+                "degrees": 8.13,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.99
+                ],
+                "segment_ids": [
+                  16,
+                  17
+                ]
+              },
+              {
+                "xy": [
+                  468.67,
+                  29.83
+                ],
+                "contour": 1,
+                "turn": 44.22,
+                "length": 95.54,
+                "neighbour_turns": [
+                  -164.74,
+                  -141.34
+                ],
+                "segment_ids": [
+                  3,
+                  4
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -5.4e-05,
+          "bounds": [
+            14,
+            -9,
+            528,
+            513
+          ],
+          "outline_deviation": 0.828
+        },
+        "uni044E": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  76.83,
+                  480.0
+                ],
+                "contour": 0,
+                "turn": 34.88,
+                "length": 91.87,
+                "neighbour_turns": [
+                  -161.86,
+                  -135.0
+                ],
+                "segment_ids": [
+                  10,
+                  11
+                ]
+              },
+              {
+                "xy": [
+                  194.0,
+                  26.75
+                ],
+                "contour": 0,
+                "turn": -9.46,
+                "length": 6.03,
+                "neighbour_turns": [
+                  87.27,
+                  9.46
+                ],
+                "segment_ids": [
+                  39
+                ]
+              },
+              {
+                "xy": [
+                  200.5,
+                  26.25
+                ],
+                "contour": 0,
+                "turn": 9.46,
+                "length": 7.03,
+                "neighbour_turns": [
+                  -9.46,
+                  -180.0
+                ],
+                "segment_ids": [
+                  40
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  191.0,
+                  27.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  76.83,
+                  480.0
+                ],
+                "contour": 0,
+                "turn": 34.88,
+                "length": 91.87,
+                "neighbour_turns": [
+                  -161.86,
+                  -135.0
+                ],
+                "segment_ids": [
+                  40,
+                  41
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  155.0,
+                  34.0
+                ],
+                "degrees": 2.12,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 9.8e-05,
+          "bounds": [
+            15,
+            -9,
+            543,
+            516
+          ],
+          "outline_deviation": 0.876
+        },
+        "uni049A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  442.0,
+                  76.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  463.0,
+                  73.0
+                ],
+                "degrees": 3.18,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  356.0,
+                  55.0
+                ],
+                "degrees": 3.58,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  378.0
+                ],
+                "degrees": 2.8,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  345.0,
+                  93.0
+                ],
+                "degrees": 2.2,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  378.0
+                ],
+                "degrees": 2.8,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000716,
+          "bounds": [
+            19,
+            -127,
+            497,
+            720
+          ],
+          "outline_deviation": 1.112
+        },
+        "uni04A2": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  502.0,
+                  76.0
+                ],
+                "degrees": 3.18,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  460.0,
+                  111.0
+                ],
+                "degrees": 2.34,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000242,
+          "bounds": [
+            19,
+            -132,
+            527,
+            720
+          ],
+          "outline_deviation": 1.29
+        },
+        "uni04BA": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  459.0,
+                  23.0
+                ],
+                "degrees": 2.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  287.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  156.0,
+                  367.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  459.0,
+                  23.0
+                ],
+                "degrees": 2.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  287.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000142,
+          "bounds": [
+            15,
+            0,
+            470,
+            720
+          ],
+          "outline_deviation": 1.118
+        },
+        "uni049B": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -153.43,
+                  -131.99
+                ],
+                "segment_ids": [
+                  42,
+                  43
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  383.0,
+                  75.0
+                ],
+                "degrees": 4.86,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  404.0,
+                  72.0
+                ],
+                "degrees": 5.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  432.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -153.43,
+                  -131.99
+                ],
+                "segment_ids": [
+                  6,
+                  7
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  432.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000322,
+          "bounds": [
+            19,
+            -125,
+            445,
+            513
+          ],
+          "outline_deviation": 1.454
+        },
+        "uni04B1": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  122.0,
+                  443.0
+                ],
+                "degrees": 3.48,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000244,
+          "bounds": [
+            -20,
+            -205,
+            403,
+            510
+          ],
+          "outline_deviation": 1.489
+        },
+        "uni04AF": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  122.0,
+                  443.0
+                ],
+                "degrees": 3.48,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000253,
+          "bounds": [
+            -20,
+            -205,
+            403,
+            510
+          ],
+          "outline_deviation": 1.489
+        },
+        "uni2032": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  105.0,
+                  710.0
+                ],
+                "degrees": 6.18,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  47.0,
+                  485.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.008702,
+          "bounds": [
+            44,
+            482,
+            107,
+            725
+          ],
+          "outline_deviation": 1.003
+        },
+        "uni2033": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  105.0,
+                  710.0
+                ],
+                "degrees": 6.18,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  47.0,
+                  485.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  210.0,
+                  710.0
+                ],
+                "degrees": 6.18,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  152.0,
+                  485.0
+                ],
+                "degrees": 11.31,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  102.0,
+                  692.0
+                ],
+                "degrees": 1.52,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.005746,
+          "bounds": [
+            44,
+            482,
+            212,
+            725
+          ],
+          "outline_deviation": 1.024
+        },
+        "uni2248": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  64.0,
+                  237.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  466.0,
+                  348.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  64.0,
+                  367.0
+                ],
+                "degrees": 11.31,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  466.0,
+                  478.0
+                ],
+                "degrees": 11.31,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.003559,
+          "bounds": [
+            60,
+            234,
+            470,
+            481
+          ],
+          "outline_deviation": 1.491
+        },
+        "uni043A.short": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -162.26,
+                  -131.99
+                ],
+                "segment_ids": [
+                  9,
+                  10
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  27.0,
+                  440.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  288.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  443.0,
+                  23.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  266.0,
+                  23.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -175.72,
+                  -131.99
+                ],
+                "segment_ids": [
+                  34,
+                  35
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  443.0,
+                  23.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  266.0,
+                  23.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  288.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 7.3e-05,
+          "bounds": [
+            19,
+            0,
+            455,
+            513
+          ],
+          "outline_deviation": 1.075
+        },
+        "uni043A.flag": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  74.0,
+                  484.5
+                ],
+                "contour": 0,
+                "turn": 21.48,
+                "length": 85.05,
+                "neighbour_turns": [
+                  -160.23,
+                  -122.01
+                ],
+                "segment_ids": [
+                  11,
+                  12
+                ]
+              },
+              {
+                "xy": [
+                  394.0,
+                  28.83
+                ],
+                "contour": 0,
+                "turn": 57.32,
+                "length": 80.71,
+                "neighbour_turns": [
+                  -172.65,
+                  -126.87
+                ],
+                "segment_ids": [
+                  40,
+                  41
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  433.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  261.0,
+                  354.0
+                ],
+                "degrees": 2.02,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  438.0,
+                  61.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  394.0,
+                  28.83
+                ],
+                "contour": 0,
+                "turn": 57.32,
+                "length": 80.71,
+                "neighbour_turns": [
+                  -161.57,
+                  -126.87
+                ],
+                "segment_ids": [
+                  32,
+                  33
+                ]
+              },
+              {
+                "xy": [
+                  74.0,
+                  484.5
+                ],
+                "contour": 0,
+                "turn": 21.48,
+                "length": 85.05,
+                "neighbour_turns": [
+                  -160.23,
+                  -122.01
+                ],
+                "segment_ids": [
+                  2,
+                  3
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  433.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  261.0,
+                  354.0
+                ],
+                "degrees": 2.02,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  420.0,
+                  71.0
+                ],
+                "degrees": 3.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000376,
+          "bounds": [
+            19,
+            -5,
+            446,
+            510
+          ],
+          "outline_deviation": 2.008
+        },
+        "uni043A.short.flag": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -162.26,
+                  -131.99
+                ],
+                "segment_ids": [
+                  9,
+                  10
+                ]
+              },
+              {
+                "xy": [
+                  395.33,
+                  30.0
+                ],
+                "contour": 0,
+                "turn": 58.47,
+                "length": 80.87,
+                "neighbour_turns": [
+                  -167.68,
+                  -126.87
+                ],
+                "segment_ids": [
+                  41,
+                  42
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  27.0,
+                  440.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  288.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  204.0,
+                  259.0
+                ],
+                "degrees": 1.5,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  395.33,
+                  30.0
+                ],
+                "contour": 0,
+                "turn": 58.47,
+                "length": 80.87,
+                "neighbour_turns": [
+                  -167.68,
+                  -126.87
+                ],
+                "segment_ids": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -175.72,
+                  -131.99
+                ],
+                "segment_ids": [
+                  32,
+                  33
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  204.0,
+                  259.0
+                ],
+                "degrees": 1.5,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  288.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 7.6e-05,
+          "bounds": [
+            19,
+            -5,
+            440,
+            513
+          ],
+          "outline_deviation": 1.075
+        },
+        "uni0442.ss08": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  19.0,
+                  427.0
+                ],
+                "degrees": 4.09,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  263.0,
+                  427.0
+                ],
+                "degrees": 4.09,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  229.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  258.0,
+                  450.0
+                ],
+                "degrees": 2.12,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  229.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000279,
+          "bounds": [
+            -18,
+            0,
+            300,
+            510
+          ],
+          "outline_deviation": 1.45472
+        },
+        "uni0434.ss07": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  329.0,
+                  -90.0
+                ],
+                "degrees": 5.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  10.0,
+                  -80.0
+                ],
+                "degrees": 3.48,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  149.0,
+                  474.0
+                ],
+                "degrees": 1.87,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  318.0,
+                  -80.0
+                ],
+                "degrees": 1.63,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  149.0,
+                  474.0
+                ],
+                "degrees": 1.87,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000131,
+          "bounds": [
+            -20,
+            -90,
+            348,
+            510
+          ],
+          "outline_deviation": 0.863
+        },
+        "uni04A3.tail_old": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  78.83,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.86,
+                "length": 98.54,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.99
+                ],
+                "segment_ids": [
+                  12,
+                  13
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  499.0,
+                  -139.0
+                ],
+                "degrees": 4.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  199.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  78.83,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.86,
+                "length": 98.54,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.99
+                ],
+                "segment_ids": [
+                  57,
+                  58
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  504.0,
+                  -156.0
+                ],
+                "degrees": 2.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  199.0,
+                  23.0
+                ],
+                "degrees": 1.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -5.9e-05,
+          "bounds": [
+            13,
+            -199,
+            533,
+            513
+          ],
+          "outline_deviation": 0.833
+        },
+        "uni0449.tail_old": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  463.75,
+                  47.5
+                ],
+                "contour": 0,
+                "turn": -7.67,
+                "length": 21.58,
+                "neighbour_turns": [
+                  136.33,
+                  3.61
+                ],
+                "segment_ids": [
+                  23
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  662.0,
+                  -139.0
+                ],
+                "degrees": 4.75,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  667.0,
+                  -156.0
+                ],
+                "degrees": 2.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  444.0,
+                  30.0
+                ],
+                "degrees": 2.49,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000176,
+          "bounds": [
+            5,
+            -199,
+            696,
+            510
+          ],
+          "outline_deviation": 2.169
+        },
+        "uni049B.alternate": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  398.0,
+                  72.0
+                ],
+                "degrees": 5.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  24.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  165.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  282.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  427.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  24.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  165.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  282.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  427.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000492,
+          "bounds": [
+            13,
+            -125,
+            440,
+            510
+          ],
+          "outline_deviation": 1.257
+        },
+        "uni049B.context": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  477.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -146.18,
+                  -131.99
+                ],
+                "segment_ids": [
+                  42,
+                  43
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  382.0,
+                  75.0
+                ],
+                "degrees": 3.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  402.0,
+                  73.0
+                ],
+                "degrees": 5.6,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  261.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  170.0,
+                  297.0
+                ],
+                "degrees": 2.03,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  477.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -146.18,
+                  -131.99
+                ],
+                "segment_ids": [
+                  7,
+                  8
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  170.0,
+                  297.0
+                ],
+                "degrees": 2.03,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  357.0,
+                  100.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  261.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -8.4e-05,
+          "bounds": [
+            19,
+            -125,
+            417,
+            510
+          ],
+          "outline_deviation": 0.855
+        },
+        "uni049B.tail_old": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -153.43,
+                  -131.99
+                ],
+                "segment_ids": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  464.0,
+                  -139.0
+                ],
+                "degrees": 4.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  301.0,
+                  68.0
+                ],
+                "degrees": 2.43,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  204.0,
+                  259.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  432.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  480.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -153.43,
+                  -131.99
+                ],
+                "segment_ids": [
+                  68,
+                  69
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  171.0,
+                  299.0
+                ],
+                "degrees": 2.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  432.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  469.0,
+                  -156.0
+                ],
+                "degrees": 2.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  301.0,
+                  68.0
+                ],
+                "degrees": 2.43,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  204.0,
+                  259.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -6.2e-05,
+          "bounds": [
+            19,
+            -199,
+            498,
+            513
+          ],
+          "outline_deviation": 0.833
+        },
+        "uni049B.context.tail_old": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  477.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -146.18,
+                  -131.99
+                ],
+                "segment_ids": [
+                  48,
+                  49
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  463.0,
+                  -138.0
+                ],
+                "degrees": 8.66,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  261.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  170.0,
+                  297.0
+                ],
+                "degrees": 2.03,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  79.17,
+                  477.33
+                ],
+                "contour": 0,
+                "turn": 31.5,
+                "length": 97.58,
+                "neighbour_turns": [
+                  -146.18,
+                  -131.99
+                ],
+                "segment_ids": [
+                  68,
+                  69
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  170.0,
+                  297.0
+                ],
+                "degrees": 2.03,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  477.0,
+                  -192.0
+                ],
+                "degrees": 2.27,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  171.0,
+                  261.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.0002,
+          "bounds": [
+            19,
+            -199,
+            497,
+            510
+          ],
+          "outline_deviation": 0.984
+        },
+        "uni0429.tail_old": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  615.0,
+                  99.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  640.0,
+                  79.0
+                ],
+                "degrees": 1.79,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  721.0,
+                  -139.0
+                ],
+                "degrees": 8.66,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  640.0,
+                  79.0
+                ],
+                "degrees": 3.18,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -2.8e-05,
+          "bounds": [
+            19,
+            -201,
+            755,
+            720
+          ],
+          "outline_deviation": 0.984
+        },
+        "uni049A.tail_old": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  378.0
+                ],
+                "degrees": 2.8,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  446.0,
+                  78.0
+                ],
+                "degrees": 3.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  360.0,
+                  68.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  378.0
+                ],
+                "degrees": 2.8,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  464.0,
+                  75.0
+                ],
+                "degrees": 1.62,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  360.0,
+                  68.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000111,
+          "bounds": [
+            19,
+            -201,
+            558,
+            720
+          ],
+          "outline_deviation": 1.007
+        },
+        "uni04A2.tail_old": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  560.0,
+                  -140.0
+                ],
+                "degrees": 5.03,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  565.0,
+                  -157.0
+                ],
+                "degrees": 3.31,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -5.9e-05,
+          "bounds": [
+            19,
+            -201,
+            595,
+            720
+          ],
+          "outline_deviation": 0.84705
+        },
+        "uni0442": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  557.0,
+                  50.25
+                ],
+                "contour": 0,
+                "turn": 4.64,
+                "length": 8.73,
+                "neighbour_turns": [
+                  -78.69,
+                  -15.95
+                ],
+                "segment_ids": [
+                  6
+                ]
+              },
+              {
+                "xy": [
+                  70.17,
+                  481.33
+                ],
+                "contour": 0,
+                "turn": 30.68,
+                "length": 94.6,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.63
+                ],
+                "segment_ids": [
+                  52,
+                  53
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  555.0,
+                  77.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  438.0,
+                  23.0
+                ],
+                "degrees": 2.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  264.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  70.17,
+                  481.33
+                ],
+                "contour": 0,
+                "turn": 30.68,
+                "length": 94.6,
+                "neighbour_turns": [
+                  -160.63,
+                  -131.63
+                ],
+                "segment_ids": [
+                  49,
+                  50
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  438.0,
+                  23.0
+                ],
+                "degrees": 2.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  264.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.002401,
+          "bounds": [
+            11,
+            -9,
+            703,
+            516
+          ],
+          "outline_deviation": 4.338
+        },
+        "uni0419": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  133.0,
+                  938.0
+                ],
+                "degrees": 6.34,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  413.0,
+                  938.0
+                ],
+                "degrees": 6.34,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  325.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  325.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 4.7e-05,
+          "bounds": [
+            19,
+            0,
+            527,
+            940
+          ],
+          "outline_deviation": 0.76732
+        },
+        "uni042D": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  19.0,
+                  155.0
+                ],
+                "degrees": 3.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  22.0,
+                  594.0
+                ],
+                "degrees": 3.37,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 1.3e-05,
+          "bounds": [
+            -1,
+            -9,
+            390,
+            730
+          ],
+          "outline_deviation": 0.54
+        },
+        "uni0439": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  378.67,
+                  28.67
+                ],
+                "contour": 0,
+                "turn": 41.45,
+                "length": 97.01,
+                "neighbour_turns": [
+                  -164.74,
+                  -138.37
+                ],
+                "segment_ids": [
+                  31,
+                  32
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  76.0,
+                  728.0
+                ],
+                "degrees": 6.34,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  356.0,
+                  728.0
+                ],
+                "degrees": 6.34,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  378.67,
+                  28.67
+                ],
+                "contour": 0,
+                "turn": 41.45,
+                "length": 97.01,
+                "neighbour_turns": [
+                  -164.74,
+                  -138.37
+                ],
+                "segment_ids": [
+                  31,
+                  32
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 7.3e-05,
+          "bounds": [
+            11,
+            -9,
+            440,
+            730
+          ],
+          "outline_deviation": 0.76732
+        },
+        "uni049B.alternate.tail_old": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  165.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  282.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  427.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  209.0,
+                  3.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  24.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  165.0,
+                  299.0
+                ],
+                "degrees": 2.28,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  282.0,
+                  425.0
+                ],
+                "degrees": 1.69,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  427.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  24.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 2e-05,
+          "bounds": [
+            13,
+            -199,
+            493,
+            510
+          ],
+          "outline_deviation": 0.794
+        },
+        "uni041B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  265.0,
+                  654.0
+                ],
+                "degrees": 8.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  253.0,
+                  659.0
+                ],
+                "degrees": 6.56,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  142.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  204.0,
+                  697.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  397.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  397.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  251.0,
+                  651.0
+                ],
+                "degrees": 2.39,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  142.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  204.0,
+                  697.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.00111,
+          "bounds": [
+            -20,
+            0,
+            408,
+            720
+          ],
+          "outline_deviation": 0.802
+        },
+        "uni041A.flag": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  457.9,
+                  34.0
+                ],
+                "contour": 0,
+                "turn": 58.16,
+                "length": 83.33,
+                "neighbour_turns": [
+                  -171.87,
+                  -126.87
+                ],
+                "segment_ids": [
+                  41,
+                  42,
+                  43,
+                  44
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  335.0,
+                  693.0
+                ],
+                "degrees": 2.27,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  500.0,
+                  61.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  449.0,
+                  34.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  457.9,
+                  34.0
+                ],
+                "contour": 0,
+                "turn": 58.16,
+                "length": 83.33,
+                "neighbour_turns": [
+                  -163.41,
+                  -126.87
+                ],
+                "segment_ids": [
+                  33,
+                  34,
+                  35,
+                  36
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  221.0,
+                  697.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  335.0,
+                  693.0
+                ],
+                "degrees": 2.27,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  484.0,
+                  697.0
+                ],
+                "degrees": 1.61,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  482.0,
+                  71.0
+                ],
+                "degrees": 1.7,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  449.0,
+                  34.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -1.3e-05,
+          "bounds": [
+            19,
+            -5,
+            502,
+            720
+          ],
+          "outline_deviation": 0.83
+        },
+        "uni0449": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  463.75,
+                  47.5
+                ],
+                "contour": 0,
+                "turn": -7.67,
+                "length": 21.58,
+                "neighbour_turns": [
+                  136.33,
+                  3.61
+                ],
+                "segment_ids": [
+                  21
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  444.0,
+                  30.0
+                ],
+                "degrees": 2.49,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000231,
+          "bounds": [
+            5,
+            -129,
+            619,
+            510
+          ],
+          "outline_deviation": 2.169
+        },
+        "uni044F": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000759,
+          "bounds": [
+            -6,
+            -9,
+            399,
+            516
+          ],
+          "outline_deviation": 1.767
+        },
+        "uni0413": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  403.0,
+                  531.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  403.0,
+                  531.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  221.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            19,
+            0,
+            403,
+            720
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni0414": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  -19.0,
+                  -94.0
+                ],
+                "degrees": 2.14,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  175.0,
+                  697.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  520.0,
+                  15.0
+                ],
+                "degrees": 1.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  529.0,
+                  -94.0
+                ],
+                "degrees": 1.62,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  -19.0,
+                  -94.0
+                ],
+                "degrees": 2.14,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  175.0,
+                  697.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  520.0,
+                  15.0
+                ],
+                "degrees": 1.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  529.0,
+                  -94.0
+                ],
+                "degrees": 1.62,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            -20,
+            -110,
+            532,
+            720
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni042A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  11.0,
+                  531.0
+                ],
+                "degrees": 2.85,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  11.0,
+                  531.0
+                ],
+                "degrees": 2.85,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            11,
+            0,
+            555,
+            730
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni0431": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  32.0,
+                  381.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  32.0,
+                  381.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            32,
+            -9,
+            391,
+            742
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni0432": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  69.83,
+                  474.17
+                ],
+                "contour": 0,
+                "turn": 28.14,
+                "length": 73.56,
+                "neighbour_turns": [
+                  -161.25,
+                  -107.13
+                ],
+                "segment_ids": [
+                  13,
+                  14
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  69.83,
+                  474.17
+                ],
+                "contour": 0,
+                "turn": 28.14,
+                "length": 73.56,
+                "neighbour_turns": [
+                  -161.25,
+                  -107.13
+                ],
+                "segment_ids": [
+                  13,
+                  14
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            19,
+            0,
+            399,
+            516
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni043A": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  74.0,
+                  484.5
+                ],
+                "contour": 0,
+                "turn": 21.48,
+                "length": 85.05,
+                "neighbour_turns": [
+                  -160.23,
+                  -122.01
+                ],
+                "segment_ids": [
+                  11,
+                  12
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  433.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  261.0,
+                  354.0
+                ],
+                "degrees": 2.02,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  443.0,
+                  23.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  266.0,
+                  23.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  74.0,
+                  484.5
+                ],
+                "contour": 0,
+                "turn": 21.48,
+                "length": 85.05,
+                "neighbour_turns": [
+                  -160.23,
+                  -122.01
+                ],
+                "segment_ids": [
+                  11,
+                  12
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  30.0,
+                  23.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  433.0,
+                  487.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  261.0,
+                  354.0
+                ],
+                "degrees": 2.02,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  443.0,
+                  23.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  266.0,
+                  23.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            19,
+            0,
+            455,
+            510
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni0492": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  407.0,
+                  531.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  225.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  407.0,
+                  531.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  225.0,
+                  23.0
+                ],
+                "degrees": 1.88,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            23,
+            0,
+            407,
+            720
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni04E9": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            23,
+            -9,
+            383,
+            516
+          ],
+          "outline_deviation": 0.0
+        }
+      }
+    },
+    "Italic": {
+      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "all_glyphs_inventoried": 491,
+      "reviewed_direct_changes": [
+        "uni0413",
+        "uni0414",
+        "uni0416",
+        "uni0418",
+        "uni0419",
+        "uni041B",
+        "uni041F",
+        "uni0424",
+        "uni0426",
+        "uni0428",
+        "uni0429",
+        "uni042A",
+        "uni042D",
+        "uni042E",
+        "uni042F",
+        "uni0492",
+        "uni049A",
+        "uni04A2",
+        "uni04B0",
+        "uni04AE",
+        "uni04BA",
+        "uni0448",
+        "uni0446",
+        "uni0449",
+        "uni043D",
+        "uni0434",
+        "uni043B",
+        "uni043A",
+        "uni0436",
+        "uni0493",
+        "uni0439",
+        "uni044C",
+        "uni044A",
+        "uni044B",
+        "uni0444",
+        "uni0447",
+        "uni044F",
+        "uni043C",
+        "uni049B",
+        "uni04A3",
+        "uni04AF",
+        "uni04B1",
+        "uni0431",
+        "uni0433",
+        "uni0442.ss03",
+        "uni0433.ss04",
+        "uni044D.ss06",
+        "uni0436.ss05",
+        "uni2248",
+        "uni25CC",
+        "uni2020",
+        "uni2021",
+        "uni2032",
+        "uni2033",
+        "uni20B4",
+        "uni20BD"
+      ],
+      "inherited_component_changes": [
+        "uni0442.srb",
+        "uni040D"
+      ],
+      "advance_or_bearing_changes": [
+        "uni0493",
+        "uni0433"
+      ],
+      "native_outlines_and_hints_preserved": true,
+      "glyphs": {
+        "uni0413": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  124.0,
+                  67.0
+                ],
+                "degrees": 5.43,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  121.0,
+                  48.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.001105,
+          "bounds": [
+            -33,
+            0,
+            508,
+            720
+          ],
+          "outline_deviation": 1.191
+        },
+        "uni0414": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  -18.0,
+                  -94.0
+                ],
+                "degrees": 4.48,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  407.0,
+                  30.0
+                ],
+                "degrees": 8.13,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  424.0,
+                  43.0
+                ],
+                "degrees": 2.16,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  427.0,
+                  54.0
+                ],
+                "degrees": 3.49,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000416,
+          "bounds": [
+            -20,
+            -110,
+            721,
+            720
+          ],
+          "outline_deviation": 1.516
+        },
+        "uni0416": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  186.0,
+                  10.0
+                ],
+                "degrees": 1.74,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  -6.0,
+                  23.0
+                ],
+                "degrees": 3.9,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  303.0,
+                  413.0
+                ],
+                "degrees": 10.64,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  348.0,
+                  720.0
+                ],
+                "degrees": 4.4,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  369.0,
+                  378.0
+                ],
+                "degrees": 2.64,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  403.0,
+                  697.0
+                ],
+                "degrees": 7.95,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  596.0,
+                  697.0
+                ],
+                "degrees": 5.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  657.0,
+                  697.0
+                ],
+                "degrees": 2.27,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  829.0,
+                  697.0
+                ],
+                "degrees": 2.53,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  693.0,
+                  23.0
+                ],
+                "degrees": 5.39,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  495.0,
+                  10.0
+                ],
+                "degrees": 1.74,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  530.0,
+                  25.0
+                ],
+                "degrees": 2.41,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  440.0,
+                  23.0
+                ],
+                "degrees": 6.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  247.0,
+                  23.0
+                ],
+                "degrees": 3.18,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  530.0,
+                  25.0
+                ],
+                "degrees": 2.41,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  265.0,
+                  26.0
+                ],
+                "degrees": 3.75,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  275.0,
+                  27.0
+                ],
+                "degrees": 2.05,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  186.0,
+                  10.0
+                ],
+                "degrees": 1.74,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  12.0,
+                  26.0
+                ],
+                "degrees": 3.18,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  369.0,
+                  378.0
+                ],
+                "degrees": 2.64,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  404.0,
+                  697.0
+                ],
+                "degrees": 1.85,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  657.0,
+                  697.0
+                ],
+                "degrees": 2.27,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  829.0,
+                  697.0
+                ],
+                "degrees": 2.53,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  495.0,
+                  10.0
+                ],
+                "degrees": 1.74,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000125,
+          "bounds": [
+            -20,
+            0,
+            844,
+            720
+          ],
+          "outline_deviation": 1.636
+        },
+        "uni0418": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  124.0,
+                  67.0
+                ],
+                "degrees": 6.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  121.0,
+                  48.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  457.0,
+                  531.0
+                ],
+                "degrees": 5.45,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  442.0,
+                  527.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  151.0,
+                  124.0
+                ],
+                "degrees": 2.14,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000142,
+          "bounds": [
+            -33,
+            0,
+            641,
+            720
+          ],
+          "outline_deviation": 1.511
+        },
+        "uni0419": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  124.0,
+                  67.0
+                ],
+                "degrees": 6.17,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  121.0,
+                  48.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  457.0,
+                  531.0
+                ],
+                "degrees": 5.45,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  442.0,
+                  527.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  151.0,
+                  124.0
+                ],
+                "degrees": 2.14,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000127,
+          "bounds": [
+            -33,
+            0,
+            641,
+            940
+          ],
+          "outline_deviation": 1.511
+        },
+        "uni041B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  388.0,
+                  688.0
+                ],
+                "degrees": 3.67,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  64.0,
+                  60.0
+                ],
+                "degrees": 6.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  64.0,
+                  59.0
+                ],
+                "degrees": 2.6,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  388.0,
+                  688.0
+                ],
+                "degrees": 3.65,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000919,
+          "bounds": [
+            -20,
+            0,
+            502,
+            720
+          ],
+          "outline_deviation": 1.0
+        },
+        "uni041F": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  124.0,
+                  67.0
+                ],
+                "degrees": 5.46,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  121.0,
+                  48.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000705,
+          "bounds": [
+            -33,
+            0,
+            641,
+            720
+          ],
+          "outline_deviation": 1.191
+        },
+        "uni0424": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  363.0,
+                  654.0
+                ],
+                "degrees": 5.87,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  359.0,
+                  636.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 1e-05,
+          "bounds": [
+            55,
+            0,
+            605,
+            720
+          ],
+          "outline_deviation": 0.713
+        },
+        "uni0426": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  623.0,
+                  697.0
+                ],
+                "degrees": 1.87,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  639.0,
+                  710.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000184,
+          "bounds": [
+            -31,
+            -150,
+            639,
+            720
+          ],
+          "outline_deviation": 1.55011
+        },
+        "uni0428": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  480.0,
+                  30.0
+                ],
+                "degrees": 7.59,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  505.0,
+                  54.0
+                ],
+                "degrees": 2.49,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  509.0,
+                  67.0
+                ],
+                "degrees": 2.97,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -5.4e-05,
+          "bounds": [
+            -33,
+            0,
+            800,
+            720
+          ],
+          "outline_deviation": 1.305
+        },
+        "uni0429": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  781.0,
+                  697.0
+                ],
+                "degrees": 1.87,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  797.0,
+                  710.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  372.0,
+                  697.0
+                ],
+                "degrees": 2.36,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  372.0,
+                  697.0
+                ],
+                "degrees": 2.36,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000126,
+          "bounds": [
+            -32,
+            -150,
+            797,
+            720
+          ],
+          "outline_deviation": 1.55011
+        },
+        "uni042D": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  12.0,
+                  137.0
+                ],
+                "degrees": 2.0,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  359.0,
+                  388.0
+                ],
+                "degrees": 4.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  122.0,
+                  671.0
+                ],
+                "degrees": 4.09,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  132.0,
+                  692.0
+                ],
+                "degrees": 1.93,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  12.0,
+                  137.0
+                ],
+                "degrees": 2.0,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -6e-06,
+          "bounds": [
+            8,
+            -9,
+            460,
+            730
+          ],
+          "outline_deviation": 0.83
+        },
+        "uni042E": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  330.0,
+                  697.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  174.0,
+                  23.0
+                ],
+                "degrees": 5.29,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  302.0,
+                  693.0
+                ],
+                "degrees": 1.7,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000136,
+          "bounds": [
+            -32,
+            -9,
+            689,
+            730
+          ],
+          "outline_deviation": 1.14994
+        },
+        "uni042F": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  360.0,
+                  312.0
+                ],
+                "degrees": 1.72,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  -25.0,
+                  26.0
+                ],
+                "degrees": 3.49,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  360.0,
+                  312.0
+                ],
+                "degrees": 1.72,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  1.0,
+                  41.0
+                ],
+                "degrees": 2.17,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000263,
+          "bounds": [
+            -60,
+            0,
+            595,
+            720
+          ],
+          "outline_deviation": 1.00803
+        },
+        "uni0492": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  122.0,
+                  67.0
+                ],
+                "degrees": 5.47,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  119.0,
+                  48.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000664,
+          "bounds": [
+            -35,
+            0,
+            506,
+            720
+          ],
+          "outline_deviation": 1.191
+        },
+        "uni049A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  292.0,
+                  413.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  206.0,
+                  378.0
+                ],
+                "degrees": 4.21,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  292.0,
+                  413.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  218.0,
+                  392.0
+                ],
+                "degrees": 3.9,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 6.3e-05,
+          "bounds": [
+            -38,
+            -150,
+            606,
+            720
+          ],
+          "outline_deviation": 1.10454
+        },
+        "uni04A2": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  181.0,
+                  344.0
+                ],
+                "degrees": 4.68,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  397.0,
+                  358.0
+                ],
+                "degrees": 4.4,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  617.0,
+                  697.0
+                ],
+                "degrees": 1.87,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  633.0,
+                  710.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  421.0,
+                  402.0
+                ],
+                "degrees": 2.93,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  177.0,
+                  326.0
+                ],
+                "degrees": 1.52,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  407.0,
+                  344.0
+                ],
+                "degrees": 3.0,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  421.0,
+                  402.0
+                ],
+                "degrees": 2.93,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000141,
+          "bounds": [
+            -38,
+            -150,
+            633,
+            720
+          ],
+          "outline_deviation": 1.55011
+        },
+        "uni04B0": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  108.0,
+                  695.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  218.0,
+                  653.0
+                ],
+                "degrees": 5.12,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  108.0,
+                  695.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000607,
+          "bounds": [
+            54,
+            0,
+            603,
+            720
+          ],
+          "outline_deviation": 1.163
+        },
+        "uni04AE": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  108.0,
+                  695.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  218.0,
+                  653.0
+                ],
+                "degrees": 5.12,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  108.0,
+                  695.0
+                ],
+                "degrees": 1.51,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000632,
+          "bounds": [
+            54,
+            0,
+            603,
+            720
+          ],
+          "outline_deviation": 1.163
+        },
+        "uni04BA": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  361.0,
+                  67.0
+                ],
+                "degrees": 4.11,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  385.0,
+                  26.0
+                ],
+                "degrees": 1.99,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  183.0,
+                  367.0
+                ],
+                "degrees": 10.87,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  113.0,
+                  66.0
+                ],
+                "degrees": 5.34,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  385.0,
+                  26.0
+                ],
+                "degrees": 1.99,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  179.0,
+                  349.0
+                ],
+                "degrees": 1.86,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000369,
+          "bounds": [
+            -43,
+            0,
+            441,
+            720
+          ],
+          "outline_deviation": 1.31
+        },
+        "uni043D": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  427.0,
+                  480.0
+                ],
+                "degrees": 3.35,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  301.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  177.0,
+                  301.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000429,
+          "bounds": [
+            9,
+            -9,
+            468,
+            516
+          ],
+          "outline_deviation": 0.76707
+        },
+        "uni043A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  94.0,
+                  0.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  185.0,
+                  345.0
+                ],
+                "degrees": 4.06,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000148,
+          "bounds": [
+            8,
+            -9,
+            462,
+            516
+          ],
+          "outline_deviation": 0.965
+        },
+        "uni0436": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  357.0,
+                  387.0
+                ],
+                "degrees": 9.86,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  86.0,
+                  342.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  86.0,
+                  342.0
+                ],
+                "degrees": 2.04,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.00025,
+          "bounds": [
+            9,
+            -9,
+            700,
+            516
+          ],
+          "outline_deviation": 1.0
+        },
+        "uni044C": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  110.0,
+                  10.0
+                ],
+                "degrees": 3.2,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  304.0
+                ],
+                "degrees": 4.23,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  184.0,
+                  331.0
+                ],
+                "degrees": 2.01,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  206.0,
+                  430.0
+                ],
+                "degrees": 3.07,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  165.0,
+                  251.0
+                ],
+                "degrees": 6.04,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  110.0,
+                  10.0
+                ],
+                "degrees": 3.2,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  184.0,
+                  331.0
+                ],
+                "degrees": 2.59,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000907,
+          "bounds": [
+            10,
+            -9,
+            352,
+            516
+          ],
+          "outline_deviation": 0.93708
+        },
+        "uni044A": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  41.0,
+                  510.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000312,
+          "bounds": [
+            12,
+            -9,
+            331,
+            510
+          ],
+          "outline_deviation": 1.32957
+        },
+        "uni044B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  110.0,
+                  10.0
+                ],
+                "degrees": 3.2,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  177.0,
+                  304.0
+                ],
+                "degrees": 4.23,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  184.0,
+                  331.0
+                ],
+                "degrees": 2.01,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  206.0,
+                  430.0
+                ],
+                "degrees": 3.07,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  542.0,
+                  480.0
+                ],
+                "degrees": 3.35,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  145.0,
+                  161.0
+                ],
+                "degrees": 3.53,
+                "contour": 2
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  110.0,
+                  10.0
+                ],
+                "degrees": 3.2,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  184.0,
+                  331.0
+                ],
+                "degrees": 2.59,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.001043,
+          "bounds": [
+            10,
+            -9,
+            583,
+            516
+          ],
+          "outline_deviation": 1.49059
+        },
+        "uni0447": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  432.0,
+                  480.0
+                ],
+                "degrees": 3.35,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  160.0,
+                  340.0
+                ],
+                "degrees": 1.87,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  88.0,
+                  300.0
+                ],
+                "degrees": 4.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.001048,
+          "bounds": [
+            -16,
+            -9,
+            473,
+            516
+          ],
+          "outline_deviation": 5.3675
+        },
+        "uni043C": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  369.0,
+                  455.0
+                ],
+                "degrees": 4.8,
+                "contour": 0
+              }
+            ],
+            "micro": [
+              {
+                "xy": [
+                  417.0,
+                  508.0
+                ],
+                "length": 2.24,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  380.0,
+                  482.0
+                ],
+                "length": 2.3,
+                "contour": 0
+              }
+            ],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.001087,
+          "bounds": [
+            -6,
+            -9,
+            511,
+            510
+          ],
+          "outline_deviation": 2.73987
+        },
+        "uni049B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  92.0,
+                  0.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  183.0,
+                  345.0
+                ],
+                "degrees": 4.06,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000142,
+          "bounds": [
+            6,
+            -150,
+            460,
+            516
+          ],
+          "outline_deviation": 0.965
+        },
+        "uni04A3": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  437.0,
+                  480.0
+                ],
+                "degrees": 3.35,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  187.0,
+                  301.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  321.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  13,
+                  14
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  187.0,
+                  301.0
+                ],
+                "degrees": 1.75,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000308,
+          "bounds": [
+            19,
+            -150,
+            444,
+            516
+          ],
+          "outline_deviation": 1.4142
+        },
+        "uni04AF": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  322.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  308.0,
+                  -166.0
+                ],
+                "degrees": 1.68,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  356.0,
+                  79.0
+                ],
+                "degrees": 5.26,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  308.0,
+                  -166.0
+                ],
+                "degrees": 1.68,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000273,
+          "bounds": [
+            21,
+            -205,
+            455,
+            516
+          ],
+          "outline_deviation": 1.00668
+        },
+        "uni04B1": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  322.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  250.0,
+                  -100.0
+                ],
+                "degrees": 1.93,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  308.0,
+                  -166.0
+                ],
+                "degrees": 1.68,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  316.0,
+                  -100.0
+                ],
+                "degrees": 1.58,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  356.0,
+                  79.0
+                ],
+                "degrees": 5.26,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  250.0,
+                  -100.0
+                ],
+                "degrees": 1.93,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  308.0,
+                  -166.0
+                ],
+                "degrees": 1.68,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  316.0,
+                  -100.0
+                ],
+                "degrees": 1.58,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000265,
+          "bounds": [
+            21,
+            -205,
+            455,
+            516
+          ],
+          "outline_deviation": 1.00668
+        },
+        "uni0431": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  69.0,
+                  381.0
+                ],
+                "degrees": 7.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  66.0,
+                  363.0
+                ],
+                "degrees": 2.44,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000459,
+          "bounds": [
+            35,
+            -9,
+            470,
+            742
+          ],
+          "outline_deviation": 0.901
+        },
+        "uni0442.ss03": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  249.0,
+                  452.0
+                ],
+                "degrees": 5.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  318.0,
+                  450.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  328.0,
+                  502.0
+                ],
+                "degrees": 10.89,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  260.0,
+                  510.0
+                ],
+                "degrees": 3.37,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  100.0,
+                  510.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  85.0,
+                  452.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  327.0,
+                  492.0
+                ],
+                "degrees": 2.34,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000352,
+          "bounds": [
+            14,
+            -9,
+            328,
+            525
+          ],
+          "outline_deviation": 1.308
+        },
+        "uni0433.ss04": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  258.0,
+                  452.0
+                ],
+                "degrees": 5.04,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  327.0,
+                  450.0
+                ],
+                "degrees": 2.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  337.0,
+                  502.0
+                ],
+                "degrees": 10.89,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  269.0,
+                  510.0
+                ],
+                "degrees": 3.37,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  336.0,
+                  492.0
+                ],
+                "degrees": 2.34,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000487,
+          "bounds": [
+            14,
+            -9,
+            337,
+            525
+          ],
+          "outline_deviation": 1.308
+        },
+        "uni044D.ss06": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  99.0,
+                  342.0
+                ],
+                "degrees": 3.83,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000399,
+          "bounds": [
+            22,
+            -9,
+            364,
+            516
+          ],
+          "outline_deviation": 0.989
+        },
+        "uni0436.ss05": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  558.0,
+                  728.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  556.0,
+                  740.0
+                ],
+                "degrees": 4.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  473.0,
+                  647.0
+                ],
+                "degrees": 3.93,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  361.0,
+                  163.0
+                ],
+                "degrees": 4.77,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  376.0,
+                  0.0
+                ],
+                "degrees": 10.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  357.0,
+                  145.0
+                ],
+                "degrees": 1.91,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  530.0,
+                  734.0
+                ],
+                "degrees": 2.18,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000308,
+          "bounds": [
+            19,
+            -9,
+            744,
+            743
+          ],
+          "outline_deviation": 1.496
+        },
+        "uni2248": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  64.0,
+                  237.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  466.0,
+                  348.0
+                ],
+                "degrees": 11.31,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  64.0,
+                  367.0
+                ],
+                "degrees": 11.31,
+                "contour": 1
+              },
+              {
+                "xy": [
+                  466.0,
+                  478.0
+                ],
+                "degrees": 11.31,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.003559,
+          "bounds": [
+            60,
+            234,
+            470,
+            481
+          ],
+          "outline_deviation": 1.491
+        },
+        "uni2020": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  89.0,
+                  0.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  95.0,
+                  480.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  92.0,
+                  502.0
+                ],
+                "degrees": 4.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  326.0,
+                  510.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  329.0,
+                  488.0
+                ],
+                "degrees": 8.46,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  113.0,
+                  8.0
+                ],
+                "degrees": 7.55,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  117.0,
+                  26.0
+                ],
+                "degrees": 1.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  89.0,
+                  488.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.001621,
+          "bounds": [
+            81,
+            0,
+            334,
+            720
+          ],
+          "outline_deviation": 1.037
+        },
+        "uni2021": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  89.0,
+                  0.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  42.0,
+                  250.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  39.0,
+                  272.0
+                ],
+                "degrees": 4.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  95.0,
+                  480.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  92.0,
+                  502.0
+                ],
+                "degrees": 4.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  326.0,
+                  510.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  329.0,
+                  488.0
+                ],
+                "degrees": 8.46,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  273.0,
+                  280.0
+                ],
+                "degrees": 7.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  276.0,
+                  258.0
+                ],
+                "degrees": 8.46,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  113.0,
+                  8.0
+                ],
+                "degrees": 7.53,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  117.0,
+                  26.0
+                ],
+                "degrees": 1.76,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  36.0,
+                  258.0
+                ],
+                "degrees": 1.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  39.0,
+                  272.0
+                ],
+                "degrees": 4.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  89.0,
+                  488.0
+                ],
+                "degrees": 2.73,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.00067,
+          "bounds": [
+            34,
+            0,
+            334,
+            720
+          ],
+          "outline_deviation": 1.4899
+        },
+        "uni0434": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  286.0,
+                  176.0
+                ],
+                "degrees": 8.97,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  287.0,
+                  169.0
+                ],
+                "degrees": 5.12,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000605,
+          "bounds": [
+            23,
+            -215,
+            431,
+            516
+          ],
+          "outline_deviation": 1.64739
+        },
+        "uni0493": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  266.0,
+                  169.0
+                ],
+                "degrees": 2.82,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  267.0,
+                  184.0
+                ],
+                "degrees": 8.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  244.0,
+                  174.0
+                ],
+                "degrees": 2.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  21.0,
+                  337.0
+                ],
+                "degrees": 2.3,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  20.0,
+                  322.0
+                ],
+                "degrees": 8.13,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  43.0,
+                  332.0
+                ],
+                "degrees": 2.94,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  21.0,
+                  337.0
+                ],
+                "degrees": 2.3,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.024582,
+          "bounds": [
+            17,
+            -10,
+            290,
+            516
+          ],
+          "outline_deviation": 20.0
+        },
+        "uni0439": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  318.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000209,
+          "bounds": [
+            17,
+            -9,
+            485,
+            730
+          ],
+          "outline_deviation": 1.007
+        },
+        "uni0448": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  370.0,
+                  150.0
+                ],
+                "degrees": 1.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  318.0,
+                  207.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  302.0,
+                  139.0
+                ],
+                "degrees": 1.83,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  551.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  370.0,
+                  150.0
+                ],
+                "degrees": 1.54,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000245,
+          "bounds": [
+            17,
+            -9,
+            718,
+            516
+          ],
+          "outline_deviation": 1.00668
+        },
+        "uni0446": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  318.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  328.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  30,
+                  31
+                ]
+              }
+            ],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.0003,
+          "bounds": [
+            17,
+            -150,
+            450,
+            516
+          ],
+          "outline_deviation": 1.4142
+        },
+        "uni0449": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  551.0,
+                  207.0
+                ],
+                "degrees": 5.25,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  370.0,
+                  150.0
+                ],
+                "degrees": 1.54,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  318.0,
+                  207.0
+                ],
+                "degrees": 5.19,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  302.0,
+                  139.0
+                ],
+                "degrees": 1.83,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  561.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  54,
+                  55
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  370.0,
+                  150.0
+                ],
+                "degrees": 1.54,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.000293,
+          "bounds": [
+            17,
+            -150,
+            683,
+            516
+          ],
+          "outline_deviation": 1.4142
+        },
+        "uni043B": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  301.0,
+                  104.0
+                ],
+                "degrees": 1.78,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  141.0,
+                  340.0
+                ],
+                "degrees": 1.71,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  -17.0,
+                  24.0
+                ],
+                "degrees": 8.13,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  301.0,
+                  104.0
+                ],
+                "degrees": 1.78,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  141.0,
+                  340.0
+                ],
+                "degrees": 1.79,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.001376,
+          "bounds": [
+            -20,
+            -9,
+            427,
+            515
+          ],
+          "outline_deviation": 1.0
+        },
+        "uni2032": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  211.0,
+                  710.0
+                ],
+                "degrees": 4.18,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.00817,
+          "bounds": [
+            98,
+            482,
+            213,
+            725
+          ],
+          "outline_deviation": 1.34199
+        },
+        "uni2033": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  316.0,
+                  710.0
+                ],
+                "degrees": 4.18,
+                "contour": 1
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.007078,
+          "bounds": [
+            98,
+            482,
+            318,
+            725
+          ],
+          "outline_deviation": 1.47625
+        },
+        "uni044F": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  232.0,
+                  196.0
+                ],
+                "degrees": 2.45,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  232.0,
+                  196.0
+                ],
+                "degrees": 2.45,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.000414,
+          "bounds": [
+            -12,
+            -9,
+            401,
+            516
+          ],
+          "outline_deviation": 2.061
+        },
+        "uni0433": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  43.0,
+                  332.0
+                ],
+                "degrees": 2.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  21.0,
+                  337.0
+                ],
+                "degrees": 3.57,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  244.0,
+                  174.0
+                ],
+                "degrees": 2.94,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  266.0,
+                  169.0
+                ],
+                "degrees": 4.09,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  44.0,
+                  332.0
+                ],
+                "degrees": 3.62,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  21.0,
+                  337.0
+                ],
+                "degrees": 3.57,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  263.0,
+                  174.0
+                ],
+                "degrees": 3.62,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  286.0,
+                  169.0
+                ],
+                "degrees": 4.09,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.026073,
+          "bounds": [
+            14,
+            -10,
+            293,
+            516
+          ],
+          "outline_deviation": 19.908
+        },
+        "uni042A": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": -0.0,
+          "bounds": [
+            78,
+            0,
+            563,
+            730
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni0444": {
+          "before": {
+            "waves": [
+              {
+                "xy": [
+                  369.33,
+                  716.0
+                ],
+                "contour": 0,
+                "turn": -32.68,
+                "length": 99.08,
+                "neighbour_turns": [
+                  138.18,
+                  170.1
+                ],
+                "segment_ids": [
+                  10,
+                  11
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  445.0,
+                  728.0
+                ],
+                "degrees": 1.86,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [
+              {
+                "xy": [
+                  369.33,
+                  716.0
+                ],
+                "contour": 0,
+                "turn": -32.68,
+                "length": 99.08,
+                "neighbour_turns": [
+                  138.18,
+                  170.1
+                ],
+                "segment_ids": [
+                  10,
+                  11
+                ]
+              }
+            ],
+            "kinks": [
+              {
+                "xy": [
+                  445.0,
+                  728.0
+                ],
+                "degrees": 1.86,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            30,
+            -205,
+            573,
+            743
+          ],
+          "outline_deviation": 0.75108
+        },
+        "uni25CC": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            45,
+            15,
+            525,
+            495
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni20B4": {
+          "before": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  384.0,
+                  527.0
+                ],
+                "degrees": 1.8,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [
+              {
+                "xy": [
+                  384.0,
+                  527.0
+                ],
+                "degrees": 1.8,
+                "contour": 0
+              }
+            ],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            -4,
+            -9,
+            446,
+            730
+          ],
+          "outline_deviation": 0.0
+        },
+        "uni20BD": {
+          "before": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "after": {
+            "waves": [],
+            "kinks": [],
+            "micro": [],
+            "roughness": []
+          },
+          "relative_ink_area_change": 0.0,
+          "bounds": [
+            -40,
+            0,
+            510,
+            720
+          ],
+          "outline_deviation": 0.0
+        }
+      }
+    }
+  },
+  "failed": 0,
+  "passed": 1494
+}

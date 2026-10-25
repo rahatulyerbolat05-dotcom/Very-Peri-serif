@@ -135,6 +135,8 @@ def main():
     from italic_kern import apply as kern_italic
     kerning=kern_italic(ita,native_aliases=native_aliases)
     figures=tabular_figures(ita)
+    from italic_el_alternate import apply as add_el_alternate
+    el_alternate=add_el_alternate(ita)
     ita['OS/2'].recalcUnicodeRanges(ita)
     ita['OS/2'].recalcAvgCharWidth(ita)
     # A stacked accent on a tall Cyrillic base must not be clipped in legacy
@@ -158,7 +160,7 @@ def main():
     checks=validate(REG,ttf);tchecks=validate(TEST/f'VeryPeriSerif{tag}-Regular.ttf',test)
     report=dict(regular=dict(file=REG.name,version=CONFIG['version'],sha256=sha(REG)),italic=dict(file=ttf.name,version=version,source=str(src),sha256=sha(ttf),woff2_sha256=sha(woff)),
                 added_to_italic=added,mark_anchors=anchors,native_cyrillic_clones=native_aliases,removed_experimental_glyphs=removed,tabular_figures=figures,kerning=kerning,curve_finish=curve_sources,ghe_width=ghe_width,
-                checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
+                el_alternate=el_alternate,checks=checks,test_pair=dict(family=fam,files=[f'VeryPeriSerif{tag}-Regular.ttf',test.name],checks=tchecks))
     (OUT/'family-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     shutil.copyfile('font/README-family.md',OUT/'README-family.md')
     members=['VeryPeriSerif-Regular.ttf','VeryPeriSerif-Regular.woff2','VeryPeriSerif-Italic.ttf','VeryPeriSerif-Italic.woff2','README-family.md','OFL.txt','AUTHORS.txt','FONTLOG.txt','Cormorant-OFL.txt','Cormorant-NOTICE.txt','family-validation.json']

@@ -73,6 +73,8 @@ def check(path, exhaustive=True):
                and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
         ck(shape('г',language='sr')[0][0]=='imacron' and shape('г',language='mk')[0][0]=='imacron', 'Serbian and Macedonian ghe retain macron')
         ck(shape('г',{'ss04':1})[0][0]=='uni0433.ss04', 'Printed ghe alternative retained')
+        ck(shape('л',{'ss10':1})[0][0]=='uni043B.ss10', 'Arched el alternate active')
+        ck(shape('л')[0][0]=='uni043B', 'Default el retained')
         # Compare independent flattened profiles of the actual exported outlines.
         from italic_rules_measure import polys, runs
         barred=f.getBestCmap()[ord('ғ')]
@@ -149,6 +151,8 @@ def check(path, exhaustive=True):
            and f['hmtx'][n] == native['hmtx'][n] for n in native.getGlyphOrder()), 'Native outlines, hints and metrics preserved')
     # Upper marks can follow any alphabetic base, including feature variants.
     features = [{}, {'ss01':1}, {'ss02':1,'ss03':1,'ss04':1,'ss05':1,'ss06':1}] if style == 'Italic' else [{}, {'ss01':1,'ss07':1,'ss08':1,'ss09':1}]
+    if style == 'Italic':
+        features.append({'ss10':1})
     mark_count = 0
     for mode,language in itertools.product(features,('ru','kk','sr','mk')):
         for ch in CHARS + 'Əə':

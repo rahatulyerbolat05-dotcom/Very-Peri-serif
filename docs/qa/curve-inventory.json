@@ -1,7 +1,7 @@
 {
   "fonts": {
     "Regular": {
-      "sha256": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
+      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
       "glyph_count": 525,
       "types": {
         "simple": 291,
@@ -28722,14 +28722,14 @@
       }
     },
     "Italic": {
-      "sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
-      "glyph_count": 491,
+      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "glyph_count": 492,
       "types": {
-        "simple": 259,
+        "simple": 260,
         "composite": 221,
         "empty": 11
       },
-      "unique_shapes": 414,
+      "unique_shapes": 415,
       "roughness_threshold": 0.35,
       "glyphs": {
         ".notdef": {
@@ -56209,6 +56209,22 @@
                 "contour": 0
               }
             ],
+            "micro": [],
+            "roughness": []
+          }
+        },
+        "uni043B.ss10": {
+          "characters": [],
+          "kind": "simple",
+          "native_unchanged": false,
+          "same_shape_as": null,
+          "origin": [
+            10.0,
+            -9.0
+          ],
+          "diagnostics": {
+            "waves": [],
+            "kinks": [],
             "micro": [],
             "roughness": []
           }

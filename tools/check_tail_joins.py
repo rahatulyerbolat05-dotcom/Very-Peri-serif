@@ -16,7 +16,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import numpy as np
 import pathops
-from fontTools.ttLib import TTFont
+from italic_el_alternate import legacy_font as TTFont  # base-glyph regression; ss10 has its own gate
 from contour_geometry import Segment, read_outline, inspect_outline
 from tail_join_geometry import NAMES, TIPS, join_pair, nonendpoint_intersections
 from fix_italic_tail_joins import BASELINE

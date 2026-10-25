@@ -3,7 +3,7 @@
 import hashlib, io, json, subprocess, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fontTools.ttLib import TTFont
+from italic_el_alternate import legacy_font as TTFont  # base-glyph regression; ss10 has its own gate
 import pathops
 import uharfbuzz as hb
 from family_finish import base_tables
