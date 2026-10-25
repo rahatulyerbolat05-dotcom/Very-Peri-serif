@@ -79,6 +79,23 @@ Authors / Авторы: AUTHORS.txt, CONTRIBUTORS.txt. Source / Исходник
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
+def publish_latest(archive):
+    """Refresh the single download link after validating the versioned release."""
+    archive=Path(archive)
+    assert archive.name==f'VeryPeriSerif-{CONFIG["version"]}.zip'
+    latest=DIST/'VeryPeriSerif-latest.zip'
+    pending=DIST/'.VeryPeriSerif-latest.zip.tmp'
+    shutil.copyfile(archive,pending)
+    assert sha(pending)==sha(archive)
+    pending.replace(latest)
+    metadata={'version':CONFIG['version'],'date':CONFIG['date'],'archive':archive.name,
+              'download':latest.name,'sha256':sha(latest),'styles':list(STYLES)}
+    pending=DIST/'.latest.json.tmp'
+    pending.write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+'\n')
+    pending.replace(DIST/'latest.json')
+    return metadata
+
+
 def ofl_body(path):return Path(path).read_text().split('-----------------------------------------------------------',1)[1]
 
 
@@ -180,6 +197,7 @@ def main():
     (QA/'package-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(dict(archive=str(archive),passed=report['passed'],failed=report['failed'],otf={s:otf_checks[s]['hausdorff_worst'] for s in STYLES}),ensure_ascii=False))
     if report['failed']:sys.exit(1)
+    publish_latest(archive)
 
 
 if __name__=='__main__':main()

@@ -1,5 +1,11 @@
 # Very Peri Serif
 
+**[СКАЧАТЬ / DOWNLOAD — Very Peri Serif: Regular + Italic](dist/VeryPeriSerif-latest.zip)**
+
+Current release: **1.113**. This link always points to the current packaged family.
+The single working/default branch is `claude/upbeat-faraday-mzabid`.
+[Repository and archive guide](docs/repository.md).
+
 > A Cyrillic extension of [Instrument Serif](https://github.com/Instrument/instrument-serif): Russian and Kazakh, in the Regular and the Italic.
 
 ![Very Peri Serif: Regular and Italic](docs/img/header.svg)
