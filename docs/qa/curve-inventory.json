@@ -1,7 +1,7 @@
 {
   "fonts": {
     "Regular": {
-      "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+      "sha256": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
       "glyph_count": 525,
       "types": {
         "simple": 291,
@@ -28722,7 +28722,7 @@
       }
     },
     "Italic": {
-      "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
+      "sha256": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5",
       "glyph_count": 491,
       "types": {
         "simple": 259,
@@ -53203,7 +53203,25 @@
             -150.0
           ],
           "diagnostics": {
-            "waves": [],
+            "waves": [
+              {
+                "xy": [
+                  328.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  30,
+                  31
+                ]
+              }
+            ],
             "kinks": [],
             "micro": [],
             "roughness": []
@@ -53221,7 +53239,25 @@
             -150.0
           ],
           "diagnostics": {
-            "waves": [],
+            "waves": [
+              {
+                "xy": [
+                  561.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  54,
+                  55
+                ]
+              }
+            ],
             "kinks": [
               {
                 "xy": [
@@ -53695,7 +53731,25 @@
             -150.0
           ],
           "diagnostics": {
-            "waves": [],
+            "waves": [
+              {
+                "xy": [
+                  321.5,
+                  -84.5
+                ],
+                "contour": 0,
+                "turn": -27.15,
+                "length": 87.46,
+                "neighbour_turns": [
+                  34.77,
+                  362.69
+                ],
+                "segment_ids": [
+                  13,
+                  14
+                ]
+              }
+            ],
             "kinks": [
               {
                 "xy": [

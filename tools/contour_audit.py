@@ -9,6 +9,7 @@ from collections import Counter
 import hashlib
 import gzip
 import json
+import re
 from pathlib import Path
 import sys
 
@@ -22,6 +23,14 @@ from contour_geometry import (RULES, Segment, cluster, digest, inspect_outline,
 
 
 def sha(path): return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def published_version(root=Path('fonts')):
+    path = root/'ttf/VeryPeriSerif-Regular.ttf'
+    with TTFont(path) as font:
+        match = re.match(r'Version (\d+\.\d+)\b', font['name'].getDebugName(5))
+    if not match: raise ValueError('Cannot identify the published family version')
+    return match[1]
 
 
 def detector_hash():
@@ -72,7 +81,7 @@ def apply_decisions(report, ledger):
 
 
 def run(root, cache_path=None):
-    report = {'schema': 1, 'detector_sha256': detector_hash(), 'rules': RULES,
+    report = {'schema': 1, 'release': published_version(root), 'detector_sha256': detector_hash(), 'rules': RULES,
               'coordinates': '1000 UPM; per-shape control-point bounding-box origin',
               'candidates_are_not_confirmed_defects': True,
               'fonts': {}, 'shapes': {}, 'cases': [], 'errors': []}
@@ -171,14 +180,17 @@ def summarize(report):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--root', type=Path, default=Path('fonts'))
-    ap.add_argument('--output', type=Path, default=Path('docs/qa/contour-audit-1.110.json'))
-    ap.add_argument('--html', type=Path, default=Path('docs/specimen/contour-audit-1.110.html'))
+    ap.add_argument('--output', type=Path)
+    ap.add_argument('--html', type=Path)
     ap.add_argument('--decisions', type=Path, default=Path('data/contour-review.json'))
     ap.add_argument('--cache', type=Path, default=Path('build/contour-audit/geometry-cache.json.gz'))
     ap.add_argument('--require-reviewed', action='store_true')
     args = ap.parse_args(); report = run(args.root, args.cache)
+    if args.output is None: args.output = Path(f'docs/qa/contour-audit-{report["release"]}.json')
+    if args.html is None: args.html = Path(f'docs/specimen/contour-audit-{report["release"]}.html')
     ledger = json.loads(args.decisions.read_text()) if args.decisions.exists() else {'decisions': {}}
     apply_decisions(report, ledger); summarize(report)
+    report['resolved_batches'] = ledger.get('resolved_batches', {})
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.html.parent.mkdir(parents=True, exist_ok=True)
     # Machine-readable queue stays separate from the geometry-heavy visual report.

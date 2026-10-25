@@ -1,0 +1,195 @@
+{
+  "release": "1.111",
+  "baseline_commit": "0e188acf468be06e90c88e27e85dc9f8f6aa6a48",
+  "fonts": {
+    "Regular/ttf": {
+      "sha256": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+      "glyphs": {}
+    },
+    "Regular/otf": {
+      "sha256": "4c244f1564c77f65f6d74448a74dc6e2ae65b2e2134cd19fcc90ffe511f2c325",
+      "glyphs": {},
+      "changed_charstrings": []
+    },
+    "Regular/woff2": {
+      "sha256": "391794253b726ac8c272eccc6455570ac4b43cedc130e92a2fc22c9cbafbe256",
+      "glyphs": {}
+    },
+    "Italic/ttf": {
+      "sha256": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5",
+      "glyphs": {
+        "uni0446": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              374.87769117611464,
+              -0.5524073487748343
+            ],
+            "residual": 5.684352728092187e-14
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 8.147663701238311e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni0449": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              607.8776911761147,
+              -0.5524073487748343
+            ],
+            "residual": 1.1102230246251565e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 5.5430720539764094e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni04A3": {
+          "original_intersection": {
+            "parameters": [
+              0.9310344827586207,
+              0.1724137931034483
+            ],
+            "xy": [
+              366.64565992865636,
+              -1.3317479191438768
+            ],
+            "residual": 4.440892098500626e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 9.767893975686137e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        }
+      }
+    },
+    "Italic/otf": {
+      "sha256": "2ccf5dcd757e91011189fad203ba68c97178040e8ee9cbff32b1d9ab9b6e68fe",
+      "glyphs": {
+        "uni0446": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              374.87769117611464,
+              -0.5524073487748343
+            ],
+            "residual": 5.684352728092187e-14
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 8.094919230641091e-05,
+          "exact_cubic_control_error": 7.509777352148362e-05,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni0449": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              607.8776911761147,
+              -0.5524073487748343
+            ],
+            "residual": 1.1102230246251565e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 5.5223883082065206e-05,
+          "exact_cubic_control_error": 7.50977735715326e-05,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni04A3": {
+          "original_intersection": {
+            "parameters": [
+              0.9310344827586207,
+              0.1724137931034483
+            ],
+            "xy": [
+              366.64565992865636,
+              -1.3317479191438768
+            ],
+            "residual": 4.440892098500626e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 9.739664691213343e-05,
+          "exact_cubic_control_error": 0.0001220703125,
+          "pointed_counter_join_intentionally_retained": true
+        }
+      },
+      "changed_charstrings": [
+        "uni0446",
+        "uni0449",
+        "uni04A3"
+      ]
+    },
+    "Italic/woff2": {
+      "sha256": "d6897991579ae3ca359063eaec14dc52f51b7d6b34bc2b28f5a480a7e0dce46e",
+      "glyphs": {
+        "uni0446": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              374.87769117611464,
+              -0.5524073487748343
+            ],
+            "residual": 5.684352728092187e-14
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 8.147663701238311e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni0449": {
+          "original_intersection": {
+            "parameters": [
+              0.9688247548920729,
+              0.08110462458160153
+            ],
+            "xy": [
+              607.8776911761147,
+              -0.5524073487748343
+            ],
+            "residual": 1.1102230246251565e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 5.5430720539764094e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        },
+        "uni04A3": {
+          "original_intersection": {
+            "parameters": [
+              0.9310344827586207,
+              0.1724137931034483
+            ],
+            "xy": [
+              366.64565992865636,
+              -1.3317479191438768
+            ],
+            "residual": 4.440892098500626e-16
+          },
+          "exact_crossings_after": [],
+          "relative_ink_area_change": 9.767893975686137e-05,
+          "exact_cubic_control_error": 0.0,
+          "pointed_counter_join_intentionally_retained": true
+        }
+      }
+    }
+  },
+  "partial_optical_batch": true,
+  "passed": 118,
+  "failed": 0
+}

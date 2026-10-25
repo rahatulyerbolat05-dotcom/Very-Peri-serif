@@ -12,4 +12,4 @@ def write_html(report, output, root):
         base64.b64encode((root/'webfonts'/f'VeryPeriSerif-{style}.woff2').read_bytes()).decode()+')}'
         for style in ('Regular', 'Italic'))
     source = Path(__file__).with_suffix('.html').read_text()
-    output.write_text(source.replace('/* FONT_FACES */', faces).replace('/* AUDIT_DATA */', payload))
+    output.write_text(source.replace('/* RELEASE_VERSION */', report['release']).replace('/* FONT_FACES */', faces).replace('/* AUDIT_DATA */', payload))

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-22</dc:date>
+    <dc:date>2026-10-25</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -487,7 +487,7 @@ z
 " clip-path="url(#pc67c81cf13)" style="fill: #272333"/>
    </g>
    <g id="text_2">
-    <!-- ж · After 1.110 -->
+    <!-- ж · After 1.111 -->
     <g style="fill: #69656a" transform="translate(801.80875 23.04) scale(0.16 -0.16)">
      <defs>
       <path id="DejaVuSans-24" d="M 2188 4044 
@@ -534,27 +534,6 @@ L 684 0
 L 684 794 
 z
 " transform="scale(0.015625)"/>
-      <path id="DejaVuSans-13" d="M 2034 4250 
-Q 1547 4250 1301 3770 
-Q 1056 3291 1056 2328 
-Q 1056 1369 1301 889 
-Q 1547 409 2034 409 
-Q 2525 409 2770 889 
-Q 3016 1369 3016 2328 
-Q 3016 3291 2770 3770 
-Q 2525 4250 2034 4250 
-z
-M 2034 4750 
-Q 2819 4750 3233 4129 
-Q 3647 3509 3647 2328 
-Q 3647 1150 3233 529 
-Q 2819 -91 2034 -91 
-Q 1250 -91 836 529 
-Q 422 1150 422 2328 
-Q 422 3509 836 4129 
-Q 1250 4750 2034 4750 
-z
-" transform="scale(0.015625)"/>
      </defs>
      <use xlink:href="#DejaVuSans-3ca"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(90.09375 0)"/>
@@ -570,7 +549,7 @@ z
      <use xlink:href="#DejaVuSans-11" transform="translate(520.984375 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(552.765625 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(616.390625 0)"/>
-     <use xlink:href="#DejaVuSans-13" transform="translate(680.015625 0)"/>
+     <use xlink:href="#DejaVuSans-14" transform="translate(680.015625 0)"/>
     </g>
    </g>
   </g>
@@ -767,7 +746,7 @@ z
 " clip-path="url(#p170fcc51a1)" style="fill: #272333"/>
    </g>
    <g id="text_4">
-    <!-- з · After 1.110 -->
+    <!-- з · After 1.111 -->
     <g style="fill: #69656a" transform="translate(804.7625 413.431364) scale(0.16 -0.16)">
      <use xlink:href="#DejaVuSans-3cb"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(53.171875 0)"/>
@@ -783,7 +762,7 @@ z
      <use xlink:href="#DejaVuSans-11" transform="translate(484.0625 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(515.84375 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(579.46875 0)"/>
-     <use xlink:href="#DejaVuSans-13" transform="translate(643.09375 0)"/>
+     <use xlink:href="#DejaVuSans-14" transform="translate(643.09375 0)"/>
     </g>
    </g>
   </g>

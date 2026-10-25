@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-22</dc:date>
+    <dc:date>2026-10-25</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -2666,8 +2666,8 @@ L 302.86125 836.91
 Q 302.43375 838.7625 302.43375 840.1875 
 Q 302.43375 842.04 303.28875 843.25125 
 Q 304.14375 844.4625 306.28125 844.4625 
-Q 307.635 844.4625 308.84625 843.75 
-Q 308.3475 843.96375 307.99125 844.89 
+Q 307.635 844.4625 308.775 843.82125 
+Q 308.3475 844.10625 307.99125 844.96125 
 Q 307.635 845.81625 307.100625 847.17 
 Q 306.56625 848.52375 305.675625 849.8775 
 Q 304.785 851.23125 303.609375 852.264375 
@@ -3651,13 +3651,13 @@ z
     </g>
    </g>
    <g id="text_3">
-    <!-- 1.110 -->
+    <!-- 1.111 -->
     <g style="fill: #69656a" transform="translate(333.75 82.5) scale(0.15 -0.15)">
      <use xlink:href="#DejaVuSans-14"/>
      <use xlink:href="#DejaVuSans-11" transform="translate(63.625 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(95.40625 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(159.03125 0)"/>
-     <use xlink:href="#DejaVuSans-13" transform="translate(222.65625 0)"/>
+     <use xlink:href="#DejaVuSans-14" transform="translate(222.65625 0)"/>
     </g>
    </g>
    <g id="text_4">
@@ -3780,7 +3780,7 @@ z
     </g>
    </g>
    <g id="text_6">
-    <!-- Default · 1.110 -->
+    <!-- Default · 1.111 -->
     <g style="fill: #69656a" transform="translate(33.75 660) scale(0.15 -0.15)">
      <defs>
       <path id="DejaVuSans-27" d="M 1259 4147 
@@ -3817,7 +3817,7 @@ z
      <use xlink:href="#DejaVuSans-11" transform="translate(524.34375 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(556.125 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(619.75 0)"/>
-     <use xlink:href="#DejaVuSans-13" transform="translate(683.375 0)"/>
+     <use xlink:href="#DejaVuSans-14" transform="translate(683.375 0)"/>
     </g>
    </g>
   </g>

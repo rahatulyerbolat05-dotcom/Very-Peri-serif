@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "89f48cc92e4fa835316a74f028af7f4345f004503f2ffd7bf543852f076244d9",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "b7607919f01fd8d271e6f11baeb129d271753fd0440d462a3a54baa26fad23af",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "27c0b3d623233338bfab403bf0c45230c29e53cb62e795e482e8ace3da17f558",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "092dbe5554af945887681a73cb63c47dddd08629cedf9760e732038131d2368f"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "4c244f1564c77f65f6d74448a74dc6e2ae65b2e2134cd19fcc90ffe511f2c325",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "2ccf5dcd757e91011189fad203ba68c97178040e8ee9cbff32b1d9ab9b6e68fe",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "391794253b726ac8c272eccc6455570ac4b43cedc130e92a2fc22c9cbafbe256",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "d6897991579ae3ca359063eaec14dc52f51b7d6b34bc2b28f5a480a7e0dce46e"
   },
   "results": {
     "results": [

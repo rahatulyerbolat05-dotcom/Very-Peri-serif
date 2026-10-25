@@ -197,7 +197,10 @@ class GeometryTests(unittest.TestCase):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument('--output', default='build/contour-audit/detector-checks.json'); args = ap.parse_args()
+    ap.add_argument('--output'); args = ap.parse_args()
+    if args.output is None:
+        from contour_audit import published_version
+        args.output = 'docs/qa/contour-detector-checks-'+published_version()+'.json'
     result = unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.loadTestsFromTestCase(GeometryTests))
     import hashlib
     report = {'tests': result.testsRun, 'failures': len(result.failures), 'errors': len(result.errors),

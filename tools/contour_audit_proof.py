@@ -17,13 +17,14 @@ import numpy as np
 from fontTools.ttLib import TTFont
 from alphabet_sheet import MplPen
 from contour_geometry import read_outline, sample_contour
-from contour_audit import detector_hash
+from contour_audit import detector_hash, published_version
 
 BG, INK = '#f5f2ec', '#272333'
 
 
 def main():
-    data = json.loads(gzip.decompress(Path('docs/qa/contour-audit-1.110.json.gz').read_bytes()))
+    version = published_version()
+    data = json.loads(gzip.decompress(Path(f'docs/qa/contour-audit-{version}.json.gz').read_bytes()))
     assert data['detector_sha256'] == detector_hash(), 'Audit detector changed: rerun the scan'
     fonts = {}
     for key, row in data['fonts'].items():
@@ -45,14 +46,14 @@ def main():
             used.add(name); items.append((case, key, name))
             if len(items) == 12: break
         selected[style] = items
-    target = Path('docs/specimen/VeryPeriSerif-Contour-Audit-1.110.pdf')
-    date = datetime.datetime(2026, 10, 24, tzinfo=datetime.timezone.utc)
+    target = Path(f'docs/specimen/VeryPeriSerif-Contour-Audit-{version}.pdf')
+    date = datetime.datetime.fromisoformat(json.loads(Path('data/params.json').read_text())['regular_release']['date']).replace(tzinfo=datetime.timezone.utc)
     with PdfPages(target, metadata={'Title': 'Very Peri Serif — diagnostic candidates, not accepted defects',
                                     'CreationDate': date, 'ModDate': date}) as pdf:
         for style, items in selected.items():
             for page in range(0, len(items), 4):
                 fig, axs = plt.subplots(4, 3, figsize=(14, 15), facecolor=BG)
-                fig.suptitle(style+' · 1.110 · candidates awaiting review', fontsize=17)
+                fig.suptitle(style+' · '+version+' · candidates awaiting review', fontsize=17)
                 for row, (case, key, name) in enumerate(items[page:page+4]):
                     f = fonts[key]; gs = f.getGlyphSet(); pen = MplPen(gs); gs[name].draw(pen)
                     contours, closed = read_outline(f, name)
@@ -93,7 +94,7 @@ def main():
                     ax.set_xlabel('arc distance from signal, units'); ax.set_ylabel('curvature'); ax.tick_params(labelsize=8)
                 fig.tight_layout(rect=(0, 0, 1, .97)); pdf.savefig(fig)
                 if page == 0:
-                    fig.savefig(f'docs/img/contour-audit-{style.lower()}-1.110.svg', metadata={'Date': '2026-10-24'})
+                    fig.savefig(f'docs/img/contour-audit-{style.lower()}-{version}.svg', metadata={'Date': date.date().isoformat()})
                     out = Path('build/contour-audit'); out.mkdir(exist_ok=True)
                     fig.savefig(out/f'{style}-overview.png', dpi=100)
                 plt.close(fig)

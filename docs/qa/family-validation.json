@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.110",
-    "sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548"
+    "version": "1.111",
+    "sha256": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.110",
+    "version": "1.111",
     "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
-    "sha256": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8",
-    "woff2_sha256": "092dbe5554af945887681a73cb63c47dddd08629cedf9760e732038131d2368f"
+    "sha256": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5",
+    "woff2_sha256": "d6897991579ae3ca359063eaec14dc52f51b7d6b34bc2b28f5a480a7e0dce46e"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -796,7 +796,7 @@
     },
     "uni04A3": {
       "path": "data/curve-finish/Italic/uni04A3.glif",
-      "sha256": "33f2259093423c1a158b89577ecfed9794aa79f4000eb3d15e72d2279b6cbf91",
+      "sha256": "a67780b0b314596fcb540370d388eb8801fb6c5924a681b0508c2f100e0b53fe",
       "reviewed_outline": true
     },
     "uni04AF": {
@@ -871,12 +871,12 @@
     },
     "uni0446": {
       "path": "data/curve-finish/Italic/uni0446.glif",
-      "sha256": "1ad4cb9b9483268f4b196dfd74fc4d3a3b330f6afbc77fb11a9f7867ce76e65a",
+      "sha256": "17557afa4541d7eb4e357fec585bb239fc152634b18394be788863be48394d28",
       "reviewed_outline": true
     },
     "uni0449": {
       "path": "data/curve-finish/Italic/uni0449.glif",
-      "sha256": "3826978975df3c0f1e355c5ee083b74900ffc91802559e3e4ac8f794a6743682",
+      "sha256": "739aeacc79df5b3f78ccbe4496558bfb84fe64c67a9e332b4ec3b4b40e6fb60e",
       "reviewed_outline": true
     },
     "uni043B": {
@@ -931,10 +931,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1110",
+    "family": "Very Peri Serif T1111",
     "files": [
-      "VeryPeriSerifT1110-Regular.ttf",
-      "VeryPeriSerifT1110-Italic.ttf"
+      "VeryPeriSerifT1111-Regular.ttf",
+      "VeryPeriSerifT1111-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -946,10 +946,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1110-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1110-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1110-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1110-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1111-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1111-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1111-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1111-Italic.ttf": true
     }
   }
 }

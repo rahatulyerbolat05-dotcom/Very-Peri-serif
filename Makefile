@@ -35,14 +35,20 @@ release: family
 	$(PY) tools/check_curve_finish.py
 	$(PY) tools/check_ya_revision.py
 	$(PY) tools/check_ghe_width.py
+	$(PY) tools/check_tail_joins.py --formats ttf,woff2
 	$(PY) tools/quality_family.py
 	$(PY) tools/family_proof.py
 	$(PY) tools/curve_finish_proof.py
 	$(PY) tools/ya_revision_proof.py
 	$(PY) tools/ghe_width_proof.py
+	$(PY) tools/italic_tail_loop_proof.py
 	$(PY) tools/family_curve_audit.py --root build/release --output docs/qa/curve-inventory.json
 	$(PY) tools/optical_review.py
 	$(PY) tools/package_release.py $(if $(filter 1,$(BROWSER)),--browser,)
+	$(PY) tools/check_tail_joins.py --root fonts
+	$(PY) tools/italic_tail_loop_proof.py
+	$(PY) tools/check_contour_geometry.py
+	$(PY) tools/contour_audit.py
 	$(PY) tools/readme_header.py
 
 quality:
@@ -50,12 +56,13 @@ quality:
 	$(PY) tools/check_curve_finish.py
 	$(PY) tools/check_ya_revision.py
 	$(PY) tools/check_ghe_width.py
+	$(PY) tools/check_tail_joins.py --formats ttf,woff2
 	$(PY) tools/quality_family.py
 
 # Published files only: no outline changes, font rebuild or release packaging.
 # A successful scan means complete parsing, not that the candidates are accepted.
 contour-audit:
-	$(PY) tools/check_contour_geometry.py --output docs/qa/contour-detector-checks-1.110.json
+	$(PY) tools/check_contour_geometry.py
 	$(PY) tools/contour_audit.py
 	$(PY) tools/contour_audit_proof.py
 	$(if $(filter 1,$(BROWSER)),node tools/check_contour_audit_browser.cjs,@:)

@@ -15,16 +15,16 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.110.zip`](dist/VeryPeriSerif-1.110.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.111.zip`](dist/VeryPeriSerif-1.111.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.110**. Default Italic г and ғ have a wider flourish span, with the diagonal stem's weight and angle retained.
-[Before/after and checks](docs/ghe-width-1.110.md). The advance is 308 units (+20); the Italic drawing is I034. The [1.109 ya corrections](docs/ya-1.109.md) are preserved.
+Regular and Italic share release **1.111**. The first contour-audit repair batch removes self-crossing loops at the pointed Italic ц/щ/ң tail joins. All other outlines and all metrics are retained.
+[Before/after and checks](docs/tail-joins-1.111.md). The Italic drawing is I035; [the wider г/ғ from 1.110](docs/ghe-width-1.110.md) are preserved.
 
-[Contour roughness review is ongoing](docs/contour-audit-1.110.md): new detectors,
+[Contour roughness review is ongoing](docs/tail-joins-1.111.md): new detectors,
 a complete outline atlas and a candidate queue inspect the current release.
 These diagnostics do not yet constitute completed optical acceptance.
 The family includes complete Cyrillic stress-mark anchors,
@@ -61,6 +61,7 @@ make
 
 ## Changelog
 
+- 25.10.2026: family 1.111, first repair batch for the pointed Italic ц/щ/ң tail joins.
 - 22.10.2026: family 1.110, wider default Italic г/ғ with unchanged stem weight.
 - 21.10.2026: family 1.109, Regular я crown and Italic я stem/terminal corrections.
 - 21.10.2026: family 1.108, complete glyph curve audit and reviewed corrections in both styles.

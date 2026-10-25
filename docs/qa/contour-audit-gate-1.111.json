@@ -1,0 +1,11 @@
+{
+  "release": "1.111",
+  "detector_sha256": "935a4e5b4e6b198e1fac3f4988f1deb51e091eb24cba09dff64f103588a0f249",
+  "exit_code": 1,
+  "parse_errors": 0,
+  "confirmed_tail_crossing_candidates_remaining": 0,
+  "unresolved_sites": 50629,
+  "unreviewed_whole_forms": 1770,
+  "repeat_report_identical": true,
+  "meaning": "Local tail repair does not grant optical acceptance to the remaining global queue"
+}

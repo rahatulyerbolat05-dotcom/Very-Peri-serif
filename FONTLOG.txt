@@ -130,3 +130,6 @@ flourishes while keeping the diagonal stem's weight and angle; advance 288 to
 308. Apply the same width adjustment to barred ghe, shift both mark anchors by 10,
 and compute independent Cyrillic kerning. Preserve native Latin dotlessi,
 Serbian/Macedonian imacron, the printed alternate, Regular and all other outlines.
+
+25 October 2026 — Family release 1.111 (internal drawing I035).
+First contour-audit repair batch: remove confirmed adjacent-quadratic self-crossing loops at the pointed Italic ц, щ and ң tail/body joins. Only two points per glyph change; all other points, glyphs, advances, bearings, native hints, marks, features and kerning are retained. Exact degree elevation preserves these three outlines in CFF. Full contour triage remains open; this is a targeted correction release.

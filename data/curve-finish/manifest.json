@@ -1,6 +1,6 @@
 {
   "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
-  "release": "1.110",
+  "release": "1.111",
   "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
   "glyphs": {
     "Regular": {
@@ -4848,7 +4848,7 @@
       },
       "uni04A3": {
         "path": "data/curve-finish/Italic/uni04A3.glif",
-        "sha256": "33f2259093423c1a158b89577ecfed9794aa79f4000eb3d15e72d2279b6cbf91",
+        "sha256": "a67780b0b314596fcb540370d388eb8801fb6c5924a681b0508c2f100e0b53fe",
         "advance_and_lsb": [
           459,
           19
@@ -4866,7 +4866,7 @@
           444,
           516
         ],
-        "outline_deviation": 0.767,
+        "outline_deviation": 1.4142,
         "repairs": [
           {
             "target": {
@@ -4880,6 +4880,38 @@
             },
             "fit_error": 0.354,
             "radius": 18
+          },
+          {
+            "repair": "remove literal self-crossing loop at pointed tail/body join",
+            "baseline_commit": "0e188acf468be06e90c88e27e85dc9f8f6aa6a48",
+            "tip_before": [
+              369,
+              0
+            ],
+            "tip_after": [
+              368,
+              -1
+            ],
+            "control_before": [
+              362,
+              -3
+            ],
+            "control_after": [
+              362,
+              -5
+            ],
+            "confirmed_intersection_before": {
+              "parameters": [
+                0.9310344827586207,
+                0.1724137931034483
+              ],
+              "xy": [
+                366.64565992865636,
+                -1.3317479191438768
+              ],
+              "residual": 4.440892098500626e-16
+            },
+            "recipe": "tools/fix_italic_tail_joins.py"
           }
         ]
       },
@@ -6369,7 +6401,7 @@
       },
       "uni0446": {
         "path": "data/curve-finish/Italic/uni0446.glif",
-        "sha256": "1ad4cb9b9483268f4b196dfd74fc4d3a3b330f6afbc77fb11a9f7867ce76e65a",
+        "sha256": "17557afa4541d7eb4e357fec585bb239fc152634b18394be788863be48394d28",
         "advance_and_lsb": [
           463,
           17
@@ -6387,7 +6419,7 @@
           450,
           516
         ],
-        "outline_deviation": 1.007,
+        "outline_deviation": 1.4142,
         "repairs": [
           {
             "target": {
@@ -6422,12 +6454,44 @@
                 213.0
               ]
             ]
+          },
+          {
+            "repair": "remove literal self-crossing loop at pointed tail/body join",
+            "baseline_commit": "0e188acf468be06e90c88e27e85dc9f8f6aa6a48",
+            "tip_before": [
+              376,
+              0
+            ],
+            "tip_after": [
+              375,
+              -1
+            ],
+            "control_before": [
+              369,
+              -3
+            ],
+            "control_after": [
+              369,
+              -5
+            ],
+            "confirmed_intersection_before": {
+              "parameters": [
+                0.9688247548920729,
+                0.08110462458160153
+              ],
+              "xy": [
+                374.87769117611464,
+                -0.5524073487748343
+              ],
+              "residual": 5.684352728092187e-14
+            },
+            "recipe": "tools/fix_italic_tail_joins.py"
           }
         ]
       },
       "uni0449": {
         "path": "data/curve-finish/Italic/uni0449.glif",
-        "sha256": "3826978975df3c0f1e355c5ee083b74900ffc91802559e3e4ac8f794a6743682",
+        "sha256": "739aeacc79df5b3f78ccbe4496558bfb84fe64c67a9e332b4ec3b4b40e6fb60e",
         "advance_and_lsb": [
           696,
           17
@@ -6445,7 +6509,7 @@
           683,
           516
         ],
-        "outline_deviation": 1.007,
+        "outline_deviation": 1.4142,
         "repairs": [
           {
             "target": {
@@ -6514,6 +6578,38 @@
                 213.0
               ]
             ]
+          },
+          {
+            "repair": "remove literal self-crossing loop at pointed tail/body join",
+            "baseline_commit": "0e188acf468be06e90c88e27e85dc9f8f6aa6a48",
+            "tip_before": [
+              609,
+              0
+            ],
+            "tip_after": [
+              608,
+              -1
+            ],
+            "control_before": [
+              602,
+              -3
+            ],
+            "control_after": [
+              602,
+              -5
+            ],
+            "confirmed_intersection_before": {
+              "parameters": [
+                0.9688247548920729,
+                0.08110462458160153
+              ],
+              "xy": [
+                607.8776911761147,
+                -0.5524073487748343
+              ],
+              "residual": 1.1102230246251565e-16
+            },
+            "recipe": "tools/fix_italic_tail_joins.py"
           }
         ]
       },
@@ -6737,6 +6833,20 @@
         "source": "uni2033",
         "advance": 250,
         "left_side_bearing": 98
+      }
+    }
+  },
+  "outline_revisions": {
+    "1.111": {
+      "baseline_version": "1.110",
+      "baseline_commit": "0e188acf468be06e90c88e27e85dc9f8f6aa6a48",
+      "glyphs": {
+        "Regular": [],
+        "Italic": [
+          "uni0446",
+          "uni0449",
+          "uni04A3"
+        ]
       }
     }
   }

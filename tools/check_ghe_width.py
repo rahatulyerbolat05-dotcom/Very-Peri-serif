@@ -11,6 +11,7 @@ from family_curve_audit import inspect
 from italic_rules_measure import polys, runs
 from check_family import CHARS
 from check_curve_finish import introduced_corners
+from revision_scope import later_outline_changes
 
 BASELINE = '4ffae31c961c4ec2108224c522d815b24433f456'
 NAMES = ('uni0433', 'uni0493')
@@ -37,7 +38,7 @@ def main():
         changed = [n for n in new.getGlyphOrder() if new['glyf'][n].compile(new['glyf']) != old['glyf'][n].compile(old['glyf'])]
         metrics = [n for n in new.getGlyphOrder() if new['hmtx'][n] != old['hmtx'][n]]
         expected = set(NAMES) if style == 'Italic' else set()
-        ck(set(changed) == expected, (style, 'only default ghe/barred ghe outlines', changed))
+        ck(set(changed) == expected | later_outline_changes('1.110', style), (style, 'ghe and explicitly declared later outline revisions', changed))
         ck(set(metrics) == expected, (style, 'only declared advance changes', metrics))
         row = {'sha256': hashlib.sha256(path.read_bytes()).hexdigest(), 'changed_outlines': changed, 'changed_metrics': metrics}
         if style == 'Italic':

@@ -9,6 +9,7 @@ from family_curve_audit import contours, tangent_out, angle
 from polish_audit import segments
 from polish_outlines import hausdorff
 from check_curve_finish import introduced_corners
+from revision_scope import later_outline_changes
 
 BASELINE = '6e8abaf7b461761707ce648be59eba4fe62a44eb'
 NAME = 'uni044F'
@@ -50,7 +51,7 @@ def main():
         changed = [n for n in new.getGlyphOrder() if new['glyf'][n].compile(new['glyf']) != old['glyf'][n].compile(old['glyf'])]
         refinements = {n:r for n,r in sources[style].items()
                        if r.get('input_advance_and_lsb',r['advance_and_lsb']) != r['advance_and_lsb']}
-        ck(set(changed) == {NAME}|set(refinements), (style, 'only ya and declared width refinements change', changed))
+        ck(set(changed) == {NAME}|set(refinements)|later_outline_changes('1.109', style), (style, 'ya, declared width and later outline refinements', changed))
         expected_metrics = dict(old['hmtx'].metrics)
         expected_metrics.update({n:tuple(r['advance_and_lsb']) for n,r in refinements.items()})
         ck(new['hmtx'].metrics == expected_metrics, (style, 'all other advances and bearings'))

@@ -1,6 +1,6 @@
 {
-  "ttf_sha256": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
-  "woff2_sha256": "27c0b3d623233338bfab403bf0c45230c29e53cb62e795e482e8ace3da17f558",
+  "ttf_sha256": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+  "woff2_sha256": "391794253b726ac8c272eccc6455570ac4b43cedc130e92a2fc22c9cbafbe256",
   "source_stage_ttf_sha256": "081e8c1149bff105b4d16bc5268fb73b49ae88008bcb96449f3ae319fa9785bf",
   "passed": 1222,
   "failed": 0,

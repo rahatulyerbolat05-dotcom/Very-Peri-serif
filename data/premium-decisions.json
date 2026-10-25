@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "baseline_commit": "a7bec14",
-  "release": "1.110",
+  "release": "1.111",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -91,32 +91,38 @@
     {
       "status": "author_request",
       "item": "Widen the default Italic ghe; choose +20 advance units (~7%) by extending flourishes with the diagonal stem intact. Synchronize barred ghe and shift mark anchors +10; keep Regular and local/printed forms. Remove the exact-native alias classification for the authored default Cyrillic ghe."
+    },
+    {
+      "status": "author_request",
+      "item": "First contour-audit repair batch: confirm adjacent-quadratic self-crossings and remove only the small loops at pointed Italic ц/щ/ң tail/body joins. Preserve all other points, forms, metrics, marks and shaping. Export these three CFF forms exactly; the remaining global contour queue is not accepted by this batch."
     }
   ],
   "approved_fonts": {
-    "Regular": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
-    "Italic": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8"
+    "Regular": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+    "Italic": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5"
   },
   "optical_acceptance": {
-    "date": "2026-10-22",
+    "date": "2026-10-25",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Default Italic г/ғ width, stroke weight, marks and spacing against 1.109",
+    "scope": "Partial batch: three exact tail/body loop repairs against published 1.110",
     "viewed": [
-      "Final exported 1.109/1.110 г and ғ, full outlines and enlarged stem/exit",
-      "Final Russian and Kazakh word comparison with kerning and stress marks",
-      "Final default, Serbian local and printed ss04 samples"
+      "Final full Italic ц/щ/ң and sub-unit crossing enlargements against 1.110",
+      "Two actual Bezier branches and independently confirmed original intersections",
+      "Final Russian/Kazakh words and accent samples",
+      "Final serialized TTF/CFF join comparison"
     ],
     "decisions": [
-      "Accept +20 advance units (288 to 308) through wider entry and exit flourishes; stem weight and slope preserved.",
-      "Accept shared inner flourish controls for г/ғ while retaining smooth approved terminal caps and crossbar corners.",
-      "Regular and all other outlines/metrics match 1.109; native dotlessi, Serbian/Macedonian imacron and ss04 retained.",
-      "All stress anchors translate +10 with the stem; both letters are evaluated for every Russian/Kazakh letter pairing."
+      "Accept removal of the three literal self-crossing loops while retaining the pointed join and tail design.",
+      "Exactly two points change in each selected glyph; all other points, all other glyphs, all metrics, all shaping tables and native hints are preserved.",
+      "Exact CFF degree elevation retains repaired geometry; complete optical triage of other findings remains open."
     ],
     "limitations": [
-      "Native Windows/macOS/commercial-app and physical print tests are not claimed."
+      "Full contour queue remains open.",
+      "No native Windows/macOS/commercial-app or physical print test."
     ],
     "functional_assertions": 3785,
     "curve_assertions": 1403,
+    "tail_join_assertions": 118,
     "ya_assertions": 38,
     "ghe_width_assertions": 366
   },
@@ -160,6 +166,10 @@
     "1.109": {
       "Regular": "6cac68af746cfd9a04991a98928b83794a64079d0da86c54763e4f382417e5c2",
       "Italic": "c0e7e9bee7dd512a5861df3229ca46a8623d1de08f68da04f42e968098220713"
+    },
+    "1.110": {
+      "Regular": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
+      "Italic": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8"
     }
   },
   "previous_optical_acceptance": {
@@ -370,6 +380,29 @@
       "functional_assertions": 3780,
       "curve_assertions": 1394,
       "ya_assertions": 38
+    },
+    "1.110": {
+      "date": "2026-10-22",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Default Italic г/ғ width, stroke weight, marks and spacing against 1.109",
+      "viewed": [
+        "Final exported 1.109/1.110 г and ғ, full outlines and enlarged stem/exit",
+        "Final Russian and Kazakh word comparison with kerning and stress marks",
+        "Final default, Serbian local and printed ss04 samples"
+      ],
+      "decisions": [
+        "Accept +20 advance units (288 to 308) through wider entry and exit flourishes; stem weight and slope preserved.",
+        "Accept shared inner flourish controls for г/ғ while retaining smooth approved terminal caps and crossbar corners.",
+        "Regular and all other outlines/metrics match 1.109; native dotlessi, Serbian/Macedonian imacron and ss04 retained.",
+        "All stress anchors translate +10 with the stem; both letters are evaluated for every Russian/Kazakh letter pairing."
+      ],
+      "limitations": [
+        "Native Windows/macOS/commercial-app and physical print tests are not claimed."
+      ],
+      "functional_assertions": 3785,
+      "curve_assertions": 1403,
+      "ya_assertions": 38,
+      "ghe_width_assertions": 366
     }
   }
 }

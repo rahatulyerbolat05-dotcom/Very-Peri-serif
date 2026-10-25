@@ -1,8 +1,8 @@
 {
-  "version": "1.110",
-  "italic_version": "1.110",
-  "archive": "dist/VeryPeriSerif-1.110.zip",
-  "archive_sha256": "8015ae2c95871d9c2c5aa2ddb9bd74a3bdb46b7d2c004a02d55f1d16bb8c2574",
+  "version": "1.111",
+  "italic_version": "1.111",
+  "archive": "dist/VeryPeriSerif-1.111.zip",
+  "archive_sha256": "a9df1e3336a88236abc949bba90ecad9a324a9b21a630be942aed5233dd14aa7",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",
@@ -36,9 +36,12 @@
       "hausdorff_worst": 0.758,
       "over_limit": [],
       "exact_cubic_control_error": {
-        "uni044F": 9.09858389133851e-05,
+        "uni04A3": 0.0001220703125,
+        "uni0433": 7.509777353977075e-05,
+        "uni0446": 7.509777352148362e-05,
+        "uni0449": 7.50977735715326e-05,
         "uni0493": 6.918065648728772e-05,
-        "uni0433": 7.509777353977075e-05
+        "uni044F": 9.09858389133851e-05
       }
     }
   },

@@ -4,10 +4,11 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const http=require('node:http');
 let chromium;try{({chromium}=require('playwright'));}catch{({chromium}=require(path.resolve(__dirname,'../build/browser-tools/node_modules/playwright')));}
+const release=JSON.parse(fs.readFileSync(path.resolve(__dirname,'../data/params.json'),'utf8')).regular_release.version;
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
  const output=path.resolve(__dirname,'../build/contour-audit');fs.mkdirSync(output,{recursive:true});
- const htmlPath=path.resolve(__dirname,'../docs/specimen/contour-audit-1.110.html');
+ const htmlPath=path.resolve(__dirname,'../docs/specimen/contour-audit-'+release+'.html');
  const server=http.createServer((req,res)=>{
   if(new URL(req.url,'http://localhost').pathname!=='/audit.html'){res.writeHead(404);res.end();return;}
   res.writeHead(200,{'Content-Type':'text/html; charset=utf-8'});res.end(fs.readFileSync(htmlPath));
@@ -47,7 +48,7 @@ let chromium;try{({chromium}=require('playwright'));}catch{({chromium}=require(p
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1),'Mobile report overflows horizontally');
   assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);
   const report={platform:'Linux',engine:'Chromium '+browser.version(),html_sha256:crypto.createHash('sha256').update(fs.readFileSync(htmlPath)).digest('hex'),checks:['Embedded report over local HTTP without external requests','All six files represented','Queue and atlas filters','Ө outline drawn','Actual TTF/OTF/WOFF2 comparison','Wave filter','Empty search','Mobile layout'],not_tested:['file:// navigation: blocked by managed Chromium policy','Other operating systems and browsers'],page_errors:errors,remote_requests:remote,summary,failed:0};
-  fs.writeFileSync(path.resolve(__dirname,'../docs/qa/contour-audit-browser-1.110.json'),JSON.stringify(report,null,2)+'\n');
+  fs.writeFileSync(path.resolve(__dirname,'../docs/qa/contour-audit-browser-'+release+'.json'),JSON.stringify(report,null,2)+'\n');
   console.log('Contour report browser checks passed');
  }finally{await browser.close();server.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
