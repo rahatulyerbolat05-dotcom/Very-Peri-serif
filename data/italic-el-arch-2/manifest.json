@@ -1,0 +1,171 @@
+{
+  "variant": "El Arch 2",
+  "date": "2026-10-26",
+  "style": "Italic",
+  "unicode": "U+043B",
+  "baseline": "v1.113",
+  "baseline_ttf_sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
+  "glif_sha256": "e9fd1acd196afdce9899e91d3fe58c6d687ae0868d9c742e9b19d31459319795",
+  "advance_and_lsb": [
+    392,
+    10
+  ],
+  "control_bounds": [
+    10,
+    -9,
+    376,
+    516
+  ],
+  "stored_points": 56,
+  "reference": "Author hybrid sketch: rounded left branch of El Arch 1 with the original 1.113 right foot and exit.",
+  "construction": {
+    "arch_source": "data/italic-el-arch/uni043B.glif",
+    "arch_sha256": "1fcfc24d908e6e839e31a7eb8730a9d7bb2a56a551a9b9781ba5c5f9dd36390f",
+    "tail_source": "v1.113:fonts/ttf/VeryPeriSerif-Italic.ttf, uni043B",
+    "tail_translation": [
+      -51,
+      0
+    ],
+    "shared_junctions": [
+      [
+        326,
+        394
+      ],
+      [
+        263,
+        404
+      ]
+    ],
+    "unchanged_arch": "All other El Arch 1 points and flags retained exactly.",
+    "unchanged_foot": "Original foot/exit translated -51 x, with one documented +2 y adjustment to its entry control.",
+    "tail_points": [
+      [
+        326.0,
+        394.0,
+        true
+      ],
+      [
+        303.0,
+        305.0,
+        true
+      ],
+      [
+        250.0,
+        104.0,
+        true
+      ],
+      [
+        247.0,
+        91.0,
+        false
+      ],
+      [
+        247.0,
+        78.0,
+        true
+      ],
+      [
+        247.0,
+        47.0,
+        false
+      ],
+      [
+        291.0,
+        48.0,
+        false
+      ],
+      [
+        329.0,
+        102.0,
+        false
+      ],
+      [
+        351.0,
+        175.0,
+        true
+      ],
+      [
+        354.0,
+        185.0,
+        false
+      ],
+      [
+        372.0,
+        186.0,
+        false
+      ],
+      [
+        376.0,
+        170.0,
+        false
+      ],
+      [
+        349.0,
+        89.0,
+        false
+      ],
+      [
+        310.0,
+        21.0,
+        false
+      ],
+      [
+        265.0,
+        -9.0,
+        false
+      ],
+      [
+        242.0,
+        -9.0,
+        true
+      ],
+      [
+        216.0,
+        -9.0,
+        false
+      ],
+      [
+        178.0,
+        28.0,
+        false
+      ],
+      [
+        178.0,
+        61.0,
+        true
+      ],
+      [
+        178.0,
+        84.0,
+        false
+      ],
+      [
+        186.0,
+        114.0,
+        true
+      ],
+      [
+        237.0,
+        305.0,
+        true
+      ],
+      [
+        263.0,
+        404.0,
+        true
+      ]
+    ],
+    "join_adjustment": {
+      "before": [
+        247,
+        91
+      ],
+      "after": [
+        247,
+        93
+      ],
+      "purpose": "Reduce inherited line-to-foot tangent break from 1.777 degrees to below 1 degree; maximum curve displacement is 1 unit."
+    }
+  },
+  "status": "Separate installable design variant; primary release unchanged."
+}

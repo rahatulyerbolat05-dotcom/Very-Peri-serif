@@ -3,8 +3,9 @@
 
 The 1.113 release remains the baseline. Only uni043B, its metrics, mark
 anchors and pairs are redesigned; the installable family has a unique name.
-Run from the repository root: python3 -I tools/build_el_arch_variant.py
+Run from the repository root: python3 -I tools/build_el_arch_variant.py --variant 2
 """
+import argparse
 import copy
 import datetime
 import hashlib
@@ -43,6 +44,24 @@ SOURCE = Path('data/italic-el-arch/uni043B.glif')
 MANIFEST = SOURCE.with_name('manifest.json')
 QA = Path('docs/qa/el-arch-1.json')
 ZIP = Path('dist/VeryPeriSerif-ElArch1.zip')
+VARIANT = 1
+LABEL = 'El Arch 1'
+BOTTOM_ANCHOR = 190
+
+
+def configure_variant(number):
+    global VARIANT, LABEL, FAMILY, PS_NAME, OUT, SOURCE, MANIFEST, QA, ZIP, BOTTOM_ANCHOR
+    VARIANT = number
+    LABEL = f'El Arch {number}'
+    FAMILY = 'Very Peri Serif '+LABEL
+    PS_NAME = f'VeryPeriSerifElArch{number}-Italic'
+    suffix = '' if number == 1 else f'-{number}'
+    OUT = Path('build/el-arch'+suffix)
+    SOURCE = Path('data/italic-el-arch'+suffix+'/uni043B.glif')
+    MANIFEST = SOURCE.with_name('manifest.json')
+    QA = Path(f'docs/qa/el-arch-{number}.json')
+    ZIP = Path(f'dist/VeryPeriSerif-ElArch{number}.zip')
+    BOTTOM_ANCHOR = 190 if number == 1 else 220
 
 
 def baseline(fmt):
@@ -138,7 +157,7 @@ def anchors(font):
                 old = anchor.XCoordinate
                 # Top: halfway between the two crown extrema, with the native
                 # italic offset to the accent baseline. Bottom: flat foot centre.
-                new = 259 if anchor.YCoordinate > 0 else 190
+                new = 259 if anchor.YCoordinate > 0 else BOTTOM_ANCHOR
                 anchor.XCoordinate = new
                 changes.append([li, si, index, ai, old, new])
     return changes
@@ -187,6 +206,24 @@ def verify(old_raw, paths, anchor_changes, offset, rows):
         ck(same or name == NAME, ('unexpected outline/hint change', name))
         ck(name == NAME or old['hmtx'][name] == new['hmtx'][name], ('unexpected metric change', name))
     ck(changed == [NAME], 'only lowercase Cyrillic el redesigned')
+    if VARIANT == 2:
+        # Independently reconstruct the declared graft from both frozen donors.
+        # No broad optical tolerance can hide a changed arch or mangled exit.
+        from polish_outlines import contours_of
+        pen = TTGlyphPointPen(None)
+        readGlyphFromString(Path('data/italic-el-arch/uni043B.glif').read_text(), SimpleNamespace(), pen)
+        arch = contours_of(pen.glyph(), new['glyf'])[0]
+        foot = list(reversed(contours_of(old['glyf'][NAME], old['glyf'])[0]))
+        start = next(i for i, p in enumerate(foot) if p[:2] == [377, 394])
+        foot = foot[start:]+foot[:start]
+        end = next(i for i, p in enumerate(foot) if p[:2] == [314, 404])
+        foot = [[x-51, y, on] for x, y, on in foot[:end+1]]
+        control = next(p for p in foot if p[:2] == [247, 91])
+        control[1] = 93
+        a = next(i for i, p in enumerate(arch) if p[:2] == [326, 394])
+        b = next(i for i, p in enumerate(arch) if p[:2] == [263, 404])
+        ck(contours_of(new['glyf'][NAME], new['glyf'])[0] == arch[:a]+foot+arch[b+1:],
+           'exact arch and original exit graft, only declared control adjustment')
     for tag in ('cmap', 'GSUB', 'GDEF', 'cvt ', 'fpgm', 'prep', 'STAT', 'meta'):
         if tag in old:
             ck(old.getTableData(tag) == new.getTableData(tag), ('unchanged table', tag))
@@ -231,8 +268,11 @@ def verify(old_raw, paths, anchor_changes, offset, rows):
         bad = {'self_intersection', 'zero_segment', 'stationary_point', 'transverse_step', 'short_segment'}
         ck(not any(r['kind'] in bad for r in findings), ('no topology defects or short steps', fmt))
         corners = [r for r in findings if r['kind'] == 'tangent_break']
-        ck(all(r['xy'][1] == 0 for r in corners) and len(corners) == 2,
-           ('only two intentional flat-foot corners', fmt))
+        if VARIANT == 1:
+            ck(all(r['xy'][1] == 0 for r in corners) and len(corners) == 2,
+               ('only two intentional flat-foot corners', fmt))
+        else:
+            ck(not corners, ('no tangent break in the hybrid arch or exit', fmt))
         diagnostics[fmt] = findings
         if fmt == 'otf':
             cs = f['CFF '].cff.topDictIndex[0].CharStrings
@@ -261,21 +301,31 @@ def proof(ttf):
     old, new = Proof(old_path), Proof(ttf)
     fig, ax = page('Very Peri Serif · Italic · arched л', 1400, 1200)
     ax.text(60, 110, '1.113', fontsize=14, color='#69656a')
-    ax.text(590, 110, 'El Arch 1', fontsize=14, color='#69656a')
-    old.line(ax, 'л', 70, 465, 580); new.line(ax, 'л', 590, 465, 580)
+    if VARIANT == 1:
+        ax.text(590, 110, LABEL, fontsize=14, color='#69656a')
+        old.line(ax, 'л', 70, 465, 580); new.line(ax, 'л', 590, 465, 580)
+    else:
+        with zipfile.ZipFile('dist/VeryPeriSerif-ElArch1.zip') as archive:
+            path = OUT/'arch1.ttf'
+            path.write_bytes(archive.read('VeryPeriSerif-ElArch1/VeryPeriSerifElArch1-Italic.ttf'))
+        ax.text(500, 110, 'El Arch 1', fontsize=14, color='#69656a')
+        ax.text(920, 110, LABEL, fontsize=14, color='#69656a')
+        old.line(ax, 'л', 60, 465, 550)
+        Proof(path).line(ax, 'л', 500, 465, 550)
+        new.line(ax, 'л', 920, 465, 550)
     for i, text in enumerate(('лилия · луна · аллея · люблю',
                               'платье · линия · молоко',
                               'лл · лп · пл · ли · ил · ла · ол',
                               'гүл · әлем · ләззат')):
         end = new.line(ax, text, 60, 680+i*120, 102)
         assert end < 1340, ('proof overflow', text)
-    fig.savefig('docs/img/el-arch-1.svg', metadata={'Date': DATE})
-    fig.savefig(OUT/'el-arch-1.png', dpi=110)
+    fig.savefig(f'docs/img/el-arch-{VARIANT}.svg', metadata={'Date': DATE})
+    fig.savefig(OUT/f'el-arch-{VARIANT}.png', dpi=110)
     moment = datetime.datetime.fromisoformat(DATE).replace(tzinfo=datetime.timezone.utc)
-    with PdfPages('docs/specimen/VeryPeriSerif-ElArch1.pdf',
+    with PdfPages(f'docs/specimen/VeryPeriSerif-ElArch{VARIANT}.pdf',
                   metadata={'Title': FAMILY, 'CreationDate': moment, 'ModDate': moment}) as pdf:
         pdf.savefig(fig)
-        fig2, ax2 = page('El Arch 1 · text sizes and combining marks', 1400, 1050)
+        fig2, ax2 = page(LABEL+' · text sizes and combining marks', 1400, 1050)
         y = 135
         for size in (24, 36, 48, 72, 110):
             new.line(ax2, 'лилия, аллея, люблю · гүл, әлем', 60, y, size)
@@ -287,6 +337,9 @@ def proof(ttf):
 
 
 def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--variant', type=int, choices=(1, 2), default=1)
+    configure_variant(ap.parse_args().variant)
     OUT.mkdir(parents=True, exist_ok=True)
     manifest = json.loads(MANIFEST.read_text())
     raw = baseline('ttf')
@@ -303,7 +356,7 @@ def main():
     rows, corrections, offset = kern_lookup(font)
     for record in font['name'].names:
         values = {1: FAMILY, 2: 'Italic', 3: f'1.113;VPER;{PS_NAME};{sha(source)[:12]}',
-                  4: FAMILY+' Italic', 5: 'Version 1.113; El Arch 1', 6: PS_NAME,
+                  4: FAMILY+' Italic', 5: 'Version 1.113; '+LABEL, 6: PS_NAME,
                   16: FAMILY, 17: 'Italic'}
         if record.nameID in values:
             record.string = values[record.nameID]
@@ -330,28 +383,37 @@ def main():
     for name, source in (('Cormorant-OFL.txt', 'data/cormorant-de/OFL.txt'),
                          ('Cormorant-NOTICE.txt', 'data/cormorant-de/NOTICE.txt')):
         members[name] = subprocess.check_output(['git', 'show', f'{BASELINE}:{source}'])
+    command = 'python3 -I tools/build_el_arch_variant.py'
+    if VARIANT != 1:
+        command += f' --variant {VARIANT}'
     members['README.txt'] = (FAMILY+'\n\n'
         'Вариант строчной курсивной л по рисунку автора от 26.10.2026.\n'
-        'Установите VeryPeriSerifElArch1-Italic.ttf и выберите семейство\n'
-        'Very Peri Serif El Arch 1, начертание Italic. OTF — альтернативный формат\n'
+        f'Установите {PS_NAME}.ttf и выберите семейство\n'
+        f'{FAMILY}, начертание Italic. OTF — альтернативный формат\n'
         'установки, WOFF2 — для сайта. Достаточно установить один формат.\n'
         'Основной выпуск 1.113 сохранён отдельно.\n'
         'Изменены только л, её поля, пары и якоря знаков.\n'
         'Автор кириллицы: Yerbolat Rakhatuly (DEW). Лицензия: OFL 1.1.\n'
         'Остальные уведомления и исходная латиница сохранены.\n'
-        'Сборка: python3 -I tools/build_el_arch_variant.py\n').encode()
-    members['FONTLOG.txt'] += ('\n2026-10-26 — El Arch 1, optional Italic design study.\n'
+        f'Сборка: {command}\n').encode()
+    members['FONTLOG.txt'] += (f'\n2026-10-26 — {LABEL}, optional Italic design study.\n'
         'Arched lowercase Cyrillic el by Yerbolat Rakhatuly (DEW),\n'
         'developed with OpenAI Codex. Other 1.113 glyphs retained.\n').encode()
-    members['el-arch-1.svg'] = Path('docs/img/el-arch-1.svg').read_bytes()
-    members['VeryPeriSerif-ElArch1.pdf'] = Path('docs/specimen/VeryPeriSerif-ElArch1.pdf').read_bytes()
+    members[f'el-arch-{VARIANT}.svg'] = Path(f'docs/img/el-arch-{VARIANT}.svg').read_bytes()
+    members[f'VeryPeriSerif-ElArch{VARIANT}.pdf'] = Path(f'docs/specimen/VeryPeriSerif-ElArch{VARIANT}.pdf').read_bytes()
     members['qa.json'] = QA.read_bytes()
     members['SHA256SUMS.txt'] = ''.join(sha(data)+'  '+name+'\n' for name, data in sorted(members.items())).encode()
-    with zipfile.ZipFile(ZIP, 'w', zipfile.ZIP_DEFLATED) as archive:
+    pending = io.BytesIO()
+    with zipfile.ZipFile(pending, 'w', zipfile.ZIP_DEFLATED) as archive:
         for name, data in sorted(members.items()):
-            info = zipfile.ZipInfo('VeryPeriSerif-ElArch1/'+name, (2026, 10, 26, 0, 0, 0))
+            info = zipfile.ZipInfo(f'VeryPeriSerif-ElArch{VARIANT}/'+name, (2026, 10, 26, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED; info.external_attr = 0o100644 << 16
             archive.writestr(info, data)
+    candidate = pending.getvalue()
+    if ZIP.exists():
+        assert ZIP.read_bytes() == candidate, 'Versioned variants are immutable; choose a new variant number'
+    else:
+        ZIP.write_bytes(candidate)
     with zipfile.ZipFile(ZIP) as archive:
         assert archive.testzip() is None
     ZIP.with_suffix('.sha256').write_text(sha(ZIP.read_bytes())+'  '+ZIP.name+'\n')

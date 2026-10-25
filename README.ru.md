@@ -6,8 +6,9 @@
 Единственная рабочая ветка — `claude/upbeat-faraday-mzabid`, она же ветка по умолчанию.
 [Как устроены репозиторий и архив](docs/repository.md).
 
-[Новый вариант курсивной «л» — посмотреть и скачать](docs/italic-el-arch.md)
-(`Very Peri Serif El Arch 1`, устанавливается отдельно).
+[Варианты курсивной «л» — сравнить и скачать](docs/italic-el-arch-2.md):
+арка с выходным хвостом **El Arch 2** и первая проба **El Arch 1**.
+Устанавливаются отдельно.
 
 > Кириллическое расширение [Instrument Serif](https://github.com/Instrument/instrument-serif): русский и казахский, начертания Regular и Italic.
 
