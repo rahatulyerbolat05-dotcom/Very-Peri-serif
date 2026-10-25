@@ -1,0 +1,46 @@
+{
+  "version": "1.112",
+  "baseline_commit": "6e8abaf7b461761707ce648be59eba4fe62a44eb",
+  "styles": {
+    "Regular": {
+      "sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+      "changed_glyphs": [
+        "uni044F"
+      ],
+      "outline_deviation": 1.767,
+      "relative_ink_area_change": 0.0007590703226751717,
+      "crown_curvatures_before": [
+        0.002976190476190476,
+        0.005382545174932718
+      ],
+      "crown_curvatures_after": [
+        0.002976190476190476,
+        0.003121748178980229
+      ],
+      "upper_arc_relative_curvature_jumps": [
+        0.048907388137356955,
+        0.032258064516129115,
+        0.005555555555555536,
+        0.0055248618784529135
+      ]
+    },
+    "Italic": {
+      "sha256": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c",
+      "changed_glyphs": [
+        "uni0446",
+        "uni0449",
+        "uni0493",
+        "uni0447",
+        "uni044F",
+        "uni04A3",
+        "uni0433"
+      ],
+      "outline_deviation": 2.061,
+      "relative_ink_area_change": 0.0004144250857071282,
+      "stem_break_degrees": 0.08749348709470696,
+      "terminal_break_degrees": 0.8126515942537375
+    }
+  },
+  "passed": 38,
+  "failed": 0
+}

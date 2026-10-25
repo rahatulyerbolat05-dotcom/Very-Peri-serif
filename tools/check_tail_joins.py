@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Independent first repair-batch acceptance, including serialized CFF geometry.
 
-The baseline is published 1.110. Only the three Italic tail glyphs may change;
-all metrics, marks, features, native outlines and every other glyph stay intact.
+The baseline is published 1.110. The three tail glyphs retain this repair;
+explicit later outline batches have their own strict whole-font acceptance.
+All metrics, marks, features and native outlines remain protected.
 """
 import argparse
 import hashlib
@@ -21,6 +22,7 @@ from tail_join_geometry import NAMES, TIPS, join_pair, nonendpoint_intersections
 from fix_italic_tail_joins import BASELINE
 from check_curve_finish import introduced_corners
 from ttf2otf import exact_cubic_error
+from revision_scope import later_outline_changes
 
 
 def published(style, fmt):
@@ -65,7 +67,8 @@ def main():
         ck(reference.getGlyphOrder() == ttf.getGlyphOrder(), (style, 'glyph order'))
         for name in ttf.getGlyphOrder():
             if reference['glyf'][name].compile(reference['glyf']) != ttf['glyf'][name].compile(ttf['glyf']): changed.append(name)
-        ck(set(changed) == (set(NAMES) if style == 'Italic' else set()), (style, 'only declared outlines', changed))
+        expected = (set(NAMES) if style == 'Italic' else set()) | later_outline_changes('1.111', style)
+        ck(set(changed) == expected, (style, 'tail outlines and explicitly declared later revisions', changed))
         ck(reference['hmtx'].metrics == ttf['hmtx'].metrics, (style, 'all advances and bearings retained'))
         for tag in ('cmap', 'GSUB', 'GPOS', 'GDEF'):
             ck(reference.getTableData(tag) == ttf.getTableData(tag), (style, 'unchanged shaping/mark/kerning table', tag))
@@ -91,7 +94,7 @@ def main():
                 for n in f.getGlyphOrder():
                     ca[n].decompile(); cb[n].decompile()
                     if ca[n].program != cb[n].program: program_changes.append(n)
-                ck(set(program_changes) == (set(NAMES) if style == 'Italic' else set()), (style, 'only declared CFF programs', program_changes))
+                ck(set(program_changes) == expected, (style, 'only declared CFF programs', program_changes))
                 row['changed_charstrings'] = program_changes
             if style == 'Italic':
                 for name in NAMES:

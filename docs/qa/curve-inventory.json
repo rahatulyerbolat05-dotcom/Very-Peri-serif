@@ -1,7 +1,7 @@
 {
   "fonts": {
     "Regular": {
-      "sha256": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+      "sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
       "glyph_count": 525,
       "types": {
         "simple": 291,
@@ -28722,7 +28722,7 @@
       }
     },
     "Italic": {
-      "sha256": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5",
+      "sha256": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c",
       "glyph_count": 491,
       "types": {
         "simple": 259,
@@ -53642,16 +53642,7 @@
           ],
           "diagnostics": {
             "waves": [],
-            "kinks": [
-              {
-                "xy": [
-                  160.0,
-                  340.0
-                ],
-                "degrees": 1.87,
-                "contour": 0
-              }
-            ],
+            "kinks": [],
             "micro": [],
             "roughness": []
           }

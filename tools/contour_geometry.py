@@ -17,7 +17,8 @@ from shapely.validation import explain_validity
 RULES = {'angle_degrees': 1.5, 'micro_length': 3.0, 'flatness': 0.035,
          'sample_step': 1.0, 'curvature_floor': 0.0002,
          'jump_absolute': 0.003, 'jump_relative': 0.35,
-         'scales': [4, 12, 32, 80], 'merge_arc_distance': 8.0}
+         'scales': [4, 12, 32, 80], 'merge_arc_distance': 8.0,
+         'step_length': 16., 'step_turn_degrees': 25., 'step_net_turn_degrees': 45.}
 
 
 def digest(value):
@@ -204,6 +205,18 @@ def inspect_contour(contour, closed=True):
         if has_join and degrees+1e-9 >= RULES['angle_degrees']:
             add('tangent_break', i, start, seg.points[0], degrees=round(degrees, 5),
                 incoming=a.tolist(), outgoing=b.tolist()); breaks.append(start)
+        # A short transverse line between two broadly aligned branches is a
+        # different signal from an isolated intentional corner. The author's che
+        # contained a 10-unit bridge with turns +64/-96 degrees (a visible tooth).
+        if has_join and n >= 3 and seg.degree == 1 and 0 < length <= RULES['step_length'] and (closed or i+1 < n):
+            after = contour[(i+1)%n].tangent(False)
+            if a is not None and b is not None and after is not None:
+                before_turn = math.degrees(math.atan2(float(cross(a,b)), float(np.dot(a,b))))
+                after_turn = math.degrees(math.atan2(float(cross(b,after)), float(np.dot(b,after))))
+                if (before_turn*after_turn < 0 and min(abs(before_turn),abs(after_turn)) >= RULES['step_turn_degrees']
+                    and abs(before_turn+after_turn) <= RULES['step_net_turn_degrees']):
+                    add('transverse_step', i, start+length/2, seg.evaluate(.5), length=round(length,5),
+                        before_degrees=round(before_turn,5), after_degrees=round(after_turn,5))
         # One-sided endpoint limits; zero-derivative cases are separately visible.
         kl, kr = float(previous.curvature(1.)), float(seg.curvature(0.))
         if has_join and (not math.isfinite(kl) or not math.isfinite(kr)):

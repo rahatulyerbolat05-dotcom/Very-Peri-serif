@@ -1,0 +1,11 @@
+{
+  "release": "1.112",
+  "detector_sha256": "d8731785c8d6516c6f2faff55900baa93b880a548420c57785dc5dc8a76e26d5",
+  "exit_code": 1,
+  "parse_errors": 0,
+  "specific_intentional_curve_to_line_sites": 2,
+  "unresolved_sites": 50614,
+  "unreviewed_whole_forms": 1770,
+  "repeat_report_identical": true,
+  "meaning": "The che correction and two explicit local review decisions do not approve the remaining global queue"
+}

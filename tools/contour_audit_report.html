@@ -51,7 +51,7 @@ table{border-collapse:collapse;font-size:12px}td,th{padding:5px 10px;border:1px 
 (async()=>{
 const bytes=Uint8Array.from(atob(document.getElementById('data').textContent.trim()),c=>c.charCodeAt(0));
 const D=JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text()), $=id=>document.getElementById(id);
-const names={tangent_break:'Излом касательной',curvature_jump:'Скачок кривизны',curvature_wave:'Волна',short_segment:'Короткий участок',zero_segment:'Нулевой сегмент',empty_contour:'Пустой контур',open_contour:'Незамкнутый контур',undefined_tangent:'Нет касательной',singular_endpoint:'Нулевая производная в узле',interior_stationary:'Остановка внутри кривой',disconnected:'Разрыв сегментов',self_intersection:'Самопересечение: кандидат',near_straight_bend:'Изгиб почти прямой'};
+const names={tangent_break:'Излом касательной',curvature_jump:'Скачок кривизны',curvature_wave:'Волна',short_segment:'Короткий участок',zero_segment:'Нулевой сегмент',empty_contour:'Пустой контур',open_contour:'Незамкнутый контур',undefined_tangent:'Нет касательной',singular_endpoint:'Нулевая производная в узле',interior_stationary:'Остановка внутри кривой',disconnected:'Разрыв сегментов',self_intersection:'Самопересечение: кандидат',near_straight_bend:'Изгиб почти прямой',transverse_step:'Поперечная ступенька'};
 const states={unreviewed:'Не разобрано',defect:'Дефект',intentional:'Намеренная форма',fixed_pending_recheck:'Ждёт перепроверки'};
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 for(const [value,text]of Object.entries(names)){$('kind').append(new Option(text,value));}

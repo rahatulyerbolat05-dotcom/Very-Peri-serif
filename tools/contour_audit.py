@@ -44,7 +44,7 @@ def priority(evidence):
             'undefined_tangent': 90, 'disconnected': 95, 'interior_stationary': 90,
             'self_intersection': 80, 'singular_endpoint': 60,
             'curvature_wave': 65, 'curvature_jump': 45,
-            'short_segment': 45, 'near_straight_bend': 30, 'tangent_break': 25}
+            'short_segment': 45, 'near_straight_bend': 30, 'tangent_break': 25, 'transverse_step': 80}
     kinds = {e['kind'] for e in evidence}
     return min(100, max(base[e['kind']] for e in evidence)+6*(len(kinds)-1))
 

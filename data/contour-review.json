@@ -1,7 +1,20 @@
 {
   "schema": 1,
   "description": "Per-site decisions bound to exact geometry and detector hashes; no inherited blanket approvals.",
-  "decisions": {},
+  "decisions": {
+    "094c33d9b032ceb0c7764bb8": {
+      "geometry_sha256": "192efe991dc057542bf9c5944a6de0cf970ef64eaf4ee42329d4d80e6fe55cc1",
+      "detector_sha256": "d8731785c8d6516c6f2faff55900baa93b880a548420c57785dc5dc8a76e26d5",
+      "status": "intentional",
+      "reason": "Проверенный переход новой выпуклой дуги ч в прямую стойку: разница касательных <0,5°, кривизна ожидаемо меняется до нуля. Поперечная ступенька, волны и микросегменты отсутствуют; целая буква и увеличение TTF/CFF просмотрены. docs/qa/che-1.112.json."
+    },
+    "d8196adf47cf75aa6fcf67dc": {
+      "geometry_sha256": "b740a30b0cb08efad108350175de0f1b651bdf4469f2fde8fc0fe93361a77714",
+      "detector_sha256": "d8731785c8d6516c6f2faff55900baa93b880a548420c57785dc5dc8a76e26d5",
+      "status": "intentional",
+      "reason": "Проверенный переход новой выпуклой дуги ч в прямую стойку: разница касательных <0,5°, кривизна ожидаемо меняется до нуля. Поперечная ступенька, волны и микросегменты отсутствуют; целая буква и увеличение TTF/CFF просмотрены. docs/qa/che-1.112.json."
+    }
+  },
   "forms": {},
   "resolved_batches": {
     "1.111": {
@@ -25,6 +38,25 @@
       "accepted_ttf_sha256": {
         "Regular": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
         "Italic": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5"
+      }
+    },
+    "1.112": {
+      "scope": "The author-reported inner che construction step; no blanket approval of the remaining queue",
+      "report": "docs/qa/che-1.112.json",
+      "proof": "docs/specimen/VeryPeriSerif-Che-1.112.pdf",
+      "before_audit_sha256": "5713bc9b2a65ab82ad28194aceafb391f07aa356b3be1455d78aed23cec97f33",
+      "old_candidate_ids": [
+        "0a0f728ecb00b838b070d13f",
+        "d29b749253d9f6efa24aee68",
+        "816710cfb4eb58c1f80f8481",
+        "53e6a91d21406ec66cd97753"
+      ],
+      "glyphs": [
+        "uni0447"
+      ],
+      "accepted_ttf_sha256": {
+        "Regular": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+        "Italic": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c"
       }
     }
   }

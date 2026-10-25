@@ -1,0 +1,48 @@
+{
+  "release": "1.112",
+  "baseline_version": "1.111",
+  "fonts": {
+    "Regular/ttf": {
+      "sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828"
+    },
+    "Regular/otf": {
+      "sha256": "d6a4894b60483241550ac15ec6bcd621966dc5fd23cb73c8fdc18e63bc00cd04",
+      "changed_charstrings": []
+    },
+    "Regular/woff2": {
+      "sha256": "a060b7d2cf63f3d1dea7716e81d4e53caf28f3bef0a49d01003320b6a56c88c1"
+    },
+    "Italic/ttf": {
+      "sha256": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c",
+      "start_angle_degrees": 0.0,
+      "end_angle_degrees": 0.3862109189932829,
+      "start_curvature_relative_jump": 0.07777924072854936,
+      "end_curve_to_line_curvature_jump": 0.006011355696721572,
+      "relative_ink_area_change": 0.0013238096454628743,
+      "exact_cubic_control_error": 0
+    },
+    "Italic/otf": {
+      "sha256": "b2446e5e196e20686758a6ed2a5b96070719247d405cf57542bb006d47c5946a",
+      "changed_charstrings": [
+        "uni0447"
+      ],
+      "start_angle_degrees": 3.1223720218500547e-06,
+      "end_angle_degrees": 0.38621304549818286,
+      "start_curvature_relative_jump": 0.07777930687053058,
+      "end_curve_to_line_curvature_jump": 0.006011355150238619,
+      "relative_ink_area_change": 0.0013232851297411978,
+      "exact_cubic_control_error": 0.00010298897671360429
+    },
+    "Italic/woff2": {
+      "sha256": "acf7b7aa970539e30ee207684ce4af64445e88133ef034491abe9c48e2289578",
+      "start_angle_degrees": 0.0,
+      "end_angle_degrees": 0.3862109189932829,
+      "start_curvature_relative_jump": 0.07777924072854936,
+      "end_curve_to_line_curvature_jump": 0.006011355696721572,
+      "relative_ink_area_change": 0.0013238096454628743,
+      "exact_cubic_control_error": 0
+    }
+  },
+  "passed": 47,
+  "failed": 0
+}

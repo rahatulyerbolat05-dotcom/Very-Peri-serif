@@ -1,0 +1,65 @@
+{
+  "platform": "Linux",
+  "engine": "Chromium 154.0.8037.57",
+  "html_sha256": "85c739e1638f450880aa7077f217fd2db161864ce2ae415c2e3f807ae51878e3",
+  "checks": [
+    "Embedded report over local HTTP without external requests",
+    "All six files represented",
+    "Queue and atlas filters",
+    "Ө outline drawn",
+    "Actual TTF/OTF/WOFF2 comparison",
+    "Wave filter",
+    "Empty search",
+    "Mobile layout"
+  ],
+  "not_tested": [
+    "file:// navigation: blocked by managed Chromium policy",
+    "Other operating systems and browsers"
+  ],
+  "page_errors": [],
+  "remote_requests": [],
+  "summary": {
+    "sites": 50616,
+    "fonts": 6,
+    "errors": [],
+    "summary": {
+      "sites": 50616,
+      "errors": 0,
+      "unresolved": 50614,
+      "unreviewed_whole_forms": 1770,
+      "by_style": {
+        "Regular": {
+          "sites": 26090,
+          "detector_evidence": {
+            "tangent_break": 8054,
+            "curvature_wave": 137,
+            "curvature_jump": 15951,
+            "near_straight_bend": 2905,
+            "short_segment": 7
+          },
+          "statuses": {
+            "unreviewed": 26090
+          }
+        },
+        "Italic": {
+          "sites": 24526,
+          "detector_evidence": {
+            "tangent_break": 7702,
+            "short_segment": 12,
+            "transverse_step": 6,
+            "curvature_wave": 139,
+            "curvature_jump": 12419,
+            "singular_endpoint": 8,
+            "near_straight_bend": 5135
+          },
+          "statuses": {
+            "unreviewed": 24524,
+            "intentional": 2
+          }
+        }
+      },
+      "visual_acceptance": false
+    }
+  },
+  "failed": 0
+}

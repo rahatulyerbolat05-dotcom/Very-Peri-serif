@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "baseline_commit": "a7bec14",
-  "release": "1.111",
+  "release": "1.112",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -95,36 +95,38 @@
     {
       "status": "author_request",
       "item": "First contour-audit repair batch: confirm adjacent-quadratic self-crossings and remove only the small loops at pointed Italic ц/щ/ң tail/body joins. Preserve all other points, forms, metrics, marks and shaping. Export these three CFF forms exactly; the remaining global contour queue is not accepted by this batch."
+    },
+    {
+      "status": "author_request",
+      "item": "Author screenshot identifies a transverse construction step on the inner bowl/stem transition of Italic ч. Replace the entire short donor join by one convex quadratic; preserve all surrounding points and all other glyphs, metrics and shaping. Add a targeted transverse-step regression and exact CFF export."
     }
   ],
   "approved_fonts": {
-    "Regular": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
-    "Italic": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5"
+    "Regular": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+    "Italic": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c"
   },
   "optical_acceptance": {
     "date": "2026-10-25",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Partial batch: three exact tail/body loop repairs against published 1.110",
+    "scope": "Author-reported Italic che transition only, against 1.111",
     "viewed": [
-      "Final full Italic ц/щ/ң and sub-unit crossing enlargements against 1.110",
-      "Two actual Bezier branches and independently confirmed original intersections",
-      "Final Russian/Kazakh words and accent samples",
-      "Final serialized TTF/CFF join comparison"
+      "Final full che and enlarged transition, 1.111/1.112",
+      "Final words, pairs and stress samples",
+      "Final serialized CFF/TTF enlarged transition"
     ],
     "decisions": [
-      "Accept removal of the three literal self-crossing loops while retaining the pointed join and tail design.",
-      "Exactly two points change in each selected glyph; all other points, all other glyphs, all metrics, all shaping tables and native hints are preserved.",
-      "Exact CFF degree elevation retains repaired geometry; complete optical triage of other findings remains open."
-    ],
-    "limitations": [
-      "Full contour queue remains open.",
-      "No native Windows/macOS/commercial-app or physical print test."
+      "Accept one convex quadratic in place of the visible donor step; no wave, micro-step or large tangent break in this region.",
+      "Preserve all other stored points, all other glyphs and all metrics/shaping tables.",
+      "Accept <0.5 degree curve/straight tangent difference and the normal curve-to-line curvature change; do not claim global G2 continuity."
     ],
     "functional_assertions": 3785,
     "curve_assertions": 1403,
+    "che_assertions": 47,
     "tail_join_assertions": 118,
-    "ya_assertions": 38,
-    "ghe_width_assertions": 366
+    "limitations": [
+      "Global optical queue remains open.",
+      "No native Windows/macOS/commercial-app or physical print test."
+    ]
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -170,6 +172,10 @@
     "1.110": {
       "Regular": "d3d8066d36c9f51251cade548aca792c8ae69f073ff3da234585d808ee442548",
       "Italic": "306dc15e0f0d3db8b43e837f80b541d5521749fd479455a05534e52e8a2357b8"
+    },
+    "1.111": {
+      "Regular": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
+      "Italic": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5"
     }
   },
   "previous_optical_acceptance": {
@@ -401,6 +407,31 @@
       ],
       "functional_assertions": 3785,
       "curve_assertions": 1403,
+      "ya_assertions": 38,
+      "ghe_width_assertions": 366
+    },
+    "1.111": {
+      "date": "2026-10-25",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Partial batch: three exact tail/body loop repairs against published 1.110",
+      "viewed": [
+        "Final full Italic ц/щ/ң and sub-unit crossing enlargements against 1.110",
+        "Two actual Bezier branches and independently confirmed original intersections",
+        "Final Russian/Kazakh words and accent samples",
+        "Final serialized TTF/CFF join comparison"
+      ],
+      "decisions": [
+        "Accept removal of the three literal self-crossing loops while retaining the pointed join and tail design.",
+        "Exactly two points change in each selected glyph; all other points, all other glyphs, all metrics, all shaping tables and native hints are preserved.",
+        "Exact CFF degree elevation retains repaired geometry; complete optical triage of other findings remains open."
+      ],
+      "limitations": [
+        "Full contour queue remains open.",
+        "No native Windows/macOS/commercial-app or physical print test."
+      ],
+      "functional_assertions": 3785,
+      "curve_assertions": 1403,
+      "tail_join_assertions": 118,
       "ya_assertions": 38,
       "ghe_width_assertions": 366
     }

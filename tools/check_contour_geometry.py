@@ -144,6 +144,20 @@ class GeometryTests(unittest.TestCase):
         self.assertTrue(kind([line((0, 0), (2, 0))], 'short_segment'))
         self.assertTrue(kind([line((0, 0), (0, 0))], 'zero_segment'))
 
+    def test_transverse_che_construction_step(self):
+        c = [Segment([(168,287),(165,292),(162,300)]), line((162,300),(152,301)),
+             line((152,301),(160,340))]
+        r = kind(c,'transverse_step')
+        self.assertEqual(len(r),1)
+        self.assertGreater(abs(r[0]['metrics']['before_degrees']),60)
+        self.assertGreater(abs(r[0]['metrics']['after_degrees']),90)
+        self.assertFalse(kind([Segment([(212,267),(142,267),(160,340)]),
+                               line((160,340),(177,411))],'transverse_step'))
+
+    def test_serif_corner_is_not_automatically_a_step(self):
+        c = [line((0,0),(30,0)),line((30,0),(30,10)),line((30,10),(0,10))]
+        self.assertFalse(kind(c,'transverse_step'))
+
     def test_topology_crossing(self):
         c = [line((0, 0), (20, 20)), line((20, 20), (0, 20)),
              line((0, 20), (20, 0)), line((20, 0), (0, 0))]

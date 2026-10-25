@@ -1,0 +1,10 @@
+{
+  "tests": 19,
+  "failures": 0,
+  "errors": 0,
+  "geometry_source_sha256": "6d14ed5d6916ab031b541450a179fc77682e34fde826f4c40370041f0e08bc26",
+  "test_source_sha256": "56588043f077c53fb9daa6d3ad2a1b67526fdb0f80483a341557a525f22a0b48",
+  "skipped": 0,
+  "scope": "Synthetic controls, invariance tests and an author-rejected historical glyph.\n\nThese verify detection of particular phenomena, not aesthetic precision on every\nglyph. Corner fixtures deliberately produce candidates and are not defects.\n",
+  "failure_details": []
+}

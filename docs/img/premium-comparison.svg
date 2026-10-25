@@ -3089,10 +3089,7 @@ Q 438.26625 477.73875 438.09375 478.515
 L 436.9725 483.60375 
 Q 436.36875 486.45 433.26375 490.460625 
 Q 430.15875 494.47125 425.15625 494.47125 
-Q 422.39625 494.47125 421.36125 492.74625 
-Q 421.1025 492.315 420.84375 491.625 
-L 419.98125 491.53875 
-L 420.67125 488.175 
+Q 419.11875 494.47125 420.67125 488.175 
 L 422.1375 482.05125 
 Q 422.655 479.895 422.655 477.9975 
 Q 422.655 475.41 421.404375 474.2025 
@@ -5134,7 +5131,7 @@ z
 " clip-path="url(#pe968559c1d)" style="fill: #272333"/>
    </g>
    <g id="text_1">
-    <!-- Italic · a7bec14 / 1.111 · bowls reconstructed, native Latin unchanged -->
+    <!-- Italic · a7bec14 / 1.112 · bowls reconstructed, native Latin unchanged -->
     <g style="fill: #69656a" transform="translate(33.75 36) scale(0.16 -0.16)">
      <defs>
       <path id="DejaVuSans-2c" d="M 628 4666 
@@ -5353,6 +5350,30 @@ L 1344 794
 L 1344 0 
 L 684 0 
 L 684 794 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-15" d="M 1228 531 
+L 3431 531 
+L 3431 0 
+L 469 0 
+L 469 531 
+Q 828 903 1448 1529 
+Q 2069 2156 2228 2338 
+Q 2531 2678 2651 2914 
+Q 2772 3150 2772 3378 
+Q 2772 3750 2511 3984 
+Q 2250 4219 1831 4219 
+Q 1534 4219 1204 4116 
+Q 875 4013 500 3803 
+L 500 4441 
+Q 881 4594 1212 4672 
+Q 1544 4750 1819 4750 
+Q 2544 4750 2975 4387 
+Q 3406 4025 3406 3419 
+Q 3406 3131 3298 2873 
+Q 3191 2616 2906 2266 
+Q 2828 2175 2409 1742 
+Q 1991 1309 1228 531 
 z
 " transform="scale(0.015625)"/>
       <path id="DejaVuSans-52" d="M 1959 3097 
@@ -5612,7 +5633,7 @@ z
      <use xlink:href="#DejaVuSans-11" transform="translate(928.90625 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(960.6875 0)"/>
      <use xlink:href="#DejaVuSans-14" transform="translate(1024.3125 0)"/>
-     <use xlink:href="#DejaVuSans-14" transform="translate(1087.9375 0)"/>
+     <use xlink:href="#DejaVuSans-15" transform="translate(1087.9375 0)"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(1151.5625 0)"/>
      <use xlink:href="#DejaVuSans-79" transform="translate(1183.34375 0)"/>
      <use xlink:href="#DejaVuSans-3" transform="translate(1215.125 0)"/>

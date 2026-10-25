@@ -133,3 +133,6 @@ Serbian/Macedonian imacron, the printed alternate, Regular and all other outline
 
 25 October 2026 — Family release 1.111 (internal drawing I035).
 First contour-audit repair batch: remove confirmed adjacent-quadratic self-crossing loops at the pointed Italic ц, щ and ң tail/body joins. Only two points per glyph change; all other points, glyphs, advances, bearings, native hints, marks, features and kerning are retained. Exact degree elevation preserves these three outlines in CFF. Full contour triage remains open; this is a targeted correction release.
+
+25 October 2026 — Family release 1.112 (internal drawing I036).
+Replace the author-reported transverse step in Italic ч by one convex quadratic. Preserve the rest of the glyph, all other glyphs, metrics, marks, ligatures and kerning. Exact CFF degree elevation preserves the repaired arc. Add a transverse-step detector and regression for the reported seam. Full contour triage remains open.

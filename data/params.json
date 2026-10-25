@@ -3764,10 +3764,10 @@
   }
  },
  "regular_release": {
-  "status": "25.10.2026: first contour-audit repair batch; remove exact self-crossing loops in Italic ц/щ/ң tail joins",
+  "status": "25.10.2026: remove author-reported transverse construction step in Italic ч; retain the surrounding form and spacing",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.111",
+  "version": "1.112",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",

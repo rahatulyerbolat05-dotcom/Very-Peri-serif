@@ -20,7 +20,7 @@ MAX_ERR=0.5
 BLUES=[-15,0,510,525,720,735,740,755];OTHER_BLUES=[-220,-205];STEM_V=68;STEM_H=30
 DROP=('glyf','loca','cvt ','fpgm','prep','gasp','hdmx','LTSH','VDMX')
 EXACT_CUBICS={'uni044F'}  # Preserve the reviewed ya crown and short terminal transitions.
-EXACT_ITALIC_CUBICS={'uni0433','uni0493','uni0446','uni0449','uni04A3'}
+EXACT_ITALIC_CUBICS={'uni0433','uni0493','uni0446','uni0449','uni04A3','uni0447'}
 
 
 def exact_names(font):

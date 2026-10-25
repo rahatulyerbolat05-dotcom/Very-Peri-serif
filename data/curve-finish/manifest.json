@@ -1,6 +1,6 @@
 {
   "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
-  "release": "1.111",
+  "release": "1.112",
   "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
   "glyphs": {
     "Regular": {
@@ -4656,7 +4656,7 @@
       },
       "uni0447": {
         "path": "data/curve-finish/Italic/uni0447.glif",
-        "sha256": "70ded8ab5b7d01497b02ce808f478a8c3e692cc23e287f33d37bdb7bb62eed0e",
+        "sha256": "06883a0833fc84fd2716707eaf786ee554b0fa65990d4d3bcfb720eb50aeca84",
         "advance_and_lsb": [
           483,
           -16
@@ -4674,7 +4674,7 @@
           473,
           516
         ],
-        "outline_deviation": 0.902,
+        "outline_deviation": 5.3675,
         "repairs": [
           {
             "target": {
@@ -4712,6 +4712,46 @@
             },
             "movement": 1.118,
             "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "replace transverse construction step and whole inner transition with one convex quadratic",
+            "baseline_commit": "7e666222dbf743efff98c3dad22dd10051d1c82b",
+            "start": [
+              212,
+              267
+            ],
+            "control": [
+              142,
+              267
+            ],
+            "end": [
+              160,
+              340
+            ],
+            "removed_points": [
+              [
+                180,
+                267
+              ],
+              [
+                168,
+                287
+              ],
+              [
+                165,
+                292
+              ],
+              [
+                162,
+                300
+              ],
+              [
+                152,
+                301
+              ]
+            ],
+            "recipe": "tools/fix_italic_che.py",
+            "source_nodes_removed": 4
           }
         ]
       },
@@ -6846,6 +6886,16 @@
           "uni0446",
           "uni0449",
           "uni04A3"
+        ]
+      }
+    },
+    "1.112": {
+      "baseline_version": "1.111",
+      "baseline_commit": "7e666222dbf743efff98c3dad22dd10051d1c82b",
+      "glyphs": {
+        "Regular": [],
+        "Italic": [
+          "uni0447"
         ]
       }
     }
