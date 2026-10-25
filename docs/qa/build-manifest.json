@@ -1,6 +1,6 @@
 {
   "family": "Very Peri Serif",
-  "version": "1.112",
+  "version": "1.113",
   "unicode_letters": 84,
   "unicode_symbols_added": [
     "₸",
@@ -102846,7 +102846,12 @@
         }
       },
       "spacing_dx": 0,
-      "advance_unspaced": 422
+      "advance_unspaced": 422,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0413.glif",
+        "sha256": "b35ba9e259deab6f7cdcf637f35fa562e984504ab1ccf4313f13f40d480248fb",
+        "reviewed_outline": true
+      }
     },
     "uni0414": {
       "character": "Д",
@@ -102869,7 +102874,12 @@
         }
       },
       "spacing_dx": -36,
-      "advance_unspaced": 590
+      "advance_unspaced": 590,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0414.glif",
+        "sha256": "9e9c922c127bf082dabca2b0210e6cd1beeb050cf8e36aea190d4a9436a7b21e",
+        "reviewed_outline": true
+      }
     },
     "uni0415": {
       "character": "Е",
@@ -102983,7 +102993,7 @@
       },
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni0419.glif",
-        "sha256": "210ca8c152aee0be9dbd7cd14a98b86aec744487a68c6190ca3cc4ddedc5da84",
+        "sha256": "b1420cddee9925d1a6653db5c66e2c568e2a5a697adfaa19dde351b4a7c76402",
         "reviewed_outline": true
       }
     },
@@ -103282,7 +103292,12 @@
         }
       },
       "spacing_dx": -10,
-      "advance_unspaced": 593
+      "advance_unspaced": 593,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni042A.glif",
+        "sha256": "3cd9717b2dfaae1da64f19f0013f3d869c4f7db247615a6f0131bc8b0ea83b70",
+        "reviewed_outline": true
+      }
     },
     "uni042B": {
       "character": "Ы",
@@ -103402,7 +103417,7 @@
       "advance_unspaced": 519,
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni042F.glif",
-        "sha256": "0dafe4c23abd972dcda4203e2ac67073ad30c0fa1b6e3d98b9874ed0cebb8676",
+        "sha256": "4b5af7d90e72fe09afdb6c24a234c079db37fb4d1a4cc27d1709f262cabfd396",
         "reviewed_outline": true
       }
     },
@@ -103436,7 +103451,12 @@
         }
       },
       "spacing_dx": 8,
-      "advance_unspaced": 408
+      "advance_unspaced": 408,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0431.glif",
+        "sha256": "a301958bb8258e97e9a90d93634a8b2b284df0572a53c6164563657fc768d465",
+        "reviewed_outline": true
+      }
     },
     "uni0432": {
       "character": "в",
@@ -103459,7 +103479,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 421
+      "advance_unspaced": 421,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0432.glif",
+        "sha256": "4b2c1ccbc066fcca84e82af6bc15f31168d9415b6bcc297a7a25831a27625106",
+        "reviewed_outline": true
+      }
     },
     "uni0433": {
       "character": "г",
@@ -103553,7 +103578,7 @@
       "advance_unspaced": 572,
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni0436.glif",
-        "sha256": "74c714181d188aa44cdb11eb390f7cbe4d46c1f1e606d34cad1566ea3ffa8243",
+        "sha256": "a639731cbb0edc088f1f06fda70a230be803bd70d5c44496325b480ba26b1a56",
         "reviewed_outline": true
       }
     },
@@ -103612,7 +103637,7 @@
       },
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni0439.glif",
-        "sha256": "51f1b031d311b3cc8b4f2a43feeaf9697562a5be2644b8cbca0835c13fbf7212",
+        "sha256": "38607e303538060c9928ef02a59f4266472dcd4af41e1de3e3f582bf6f66f62d",
         "reviewed_outline": true
       }
     },
@@ -103637,7 +103662,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 451
+      "advance_unspaced": 451,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni043A.glif",
+        "sha256": "f2999d0f1589dc16db0eca09d2341e40855633303e30ac63f4e67fa84929784a",
+        "reviewed_outline": true
+      }
     },
     "uni043B": {
       "character": "л",
@@ -103693,7 +103723,7 @@
       "advance_unspaced": 542,
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni043C.glif",
-        "sha256": "046d7c1c43955f5401b63baea49b117dc447ae9828ed15fa62ff8b0c0ad3a47d",
+        "sha256": "cca91b61dccd326cc095861d0d938c2e006ad18be5c7b12b61092dbb29044048",
         "reviewed_outline": true
       }
     },
@@ -104117,7 +104147,12 @@
         }
       },
       "spacing_dx": 4,
-      "advance_unspaced": 422
+      "advance_unspaced": 422,
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni0492.glif",
+        "sha256": "2081cc9c7d815c432f223e834f3e2ff7298c7a560da4b2758f3fafb65e814d4e",
+        "reviewed_outline": true
+      }
     },
     "uni049A": {
       "character": "Қ",
@@ -104362,7 +104397,12 @@
         "o",
         "o"
       ],
-      "sha256": "fb96daae3c2d2ef5b9ec4c8820b177ddd74e82711c2e7776b3d35e35ff11fdb3"
+      "sha256": "fb96daae3c2d2ef5b9ec4c8820b177ddd74e82711c2e7776b3d35e35ff11fdb3",
+      "curve_finish": {
+        "path": "data/curve-finish/Regular/uni04E9.glif",
+        "sha256": "3202283a67a790d77b6846a1b8e6445c65b8f3f68b218b3a370ec443b43fd958",
+        "reviewed_outline": true
+      }
     },
     "uni04B1": {
       "character": "ұ",
@@ -104992,7 +105032,7 @@
       "advance_unspaced": 358,
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni0442.ss08.glif",
-        "sha256": "bf613ec3d289e8a8484a388e2e29d91250f7372f67aa45204795b6fc8a535536",
+        "sha256": "929b032390ba26517c62a1ba31c30c4fe60f8b730f565cef05831241f20d0734",
         "reviewed_outline": true
       }
     },
@@ -105375,7 +105415,7 @@
       "advance_unspaced": 614,
       "curve_finish": {
         "path": "data/curve-finish/Regular/uni04A2.tail_old.glif",
-        "sha256": "6577fcf62bd6397d4a4230fb202d28d5daff8af05918147b4642980097e9c444",
+        "sha256": "dcf503402915d08a4f64c33fa0da05e4be7ea8a31c214d5f8a5d607e21f65eb4",
         "reviewed_outline": true
       }
     },
@@ -105410,5 +105450,5 @@
   "note": "Current selected Regular outlines, spacing, kerning and OpenType features; final naming and release metadata.",
   "release_status": "final Regular",
   "source_stage_version": "1.012",
-  "source_stage_ttf_sha256": "081e8c1149bff105b4d16bc5268fb73b49ae88008bcb96449f3ae319fa9785bf"
+  "source_stage_ttf_sha256": "1993326aa58f5fb44251fbb095b91cff1c0499a8751deb81fecc6057a87f0b14"
 }

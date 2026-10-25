@@ -1,0 +1,440 @@
+{
+  "release": "1.113",
+  "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+  "method": "exact rational geometry; no fitting or point displacement",
+  "styles": {
+    "Regular": {
+      "glyphs": {
+        "uni0413": {
+          "points_before": 44,
+          "points_after": 43,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "3022c91ce2ddf6ed2aef5c02534c5caf1e78b6ea37d9ff031f77781e2f9f293a"
+        },
+        "uni0414": {
+          "points_before": 68,
+          "points_after": 67,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "f09dd52491ec570f92ec96fa73ed38dc49760b946a07b802d390ea82ed353624"
+        },
+        "uni0419": {
+          "points_before": 111,
+          "points_after": 110,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c39434c93bf194c6a21774e134610e29a257ef07162274916e54f1dda92ec01f"
+        },
+        "uni042A": {
+          "points_before": 69,
+          "points_after": 68,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c687777c47884701cd53b071ebd8d2103eadabb942d9f95d1826e7fa452d3c5f"
+        },
+        "uni042F": {
+          "points_before": 76,
+          "points_after": 75,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "0c4ef4636cecc4f0f4c9ecedc6a3aa1c03c5aad00c03df02075563632d62a5b0"
+        },
+        "uni0431": {
+          "points_before": 61,
+          "points_after": 58,
+          "operations": {
+            "implicit_midpoints": 3,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "a276a254092eec9ce49c0ecced3b89b3c4e3f19da642500144c7139eef8b6b28"
+        },
+        "uni0432": {
+          "points_before": 82,
+          "points_after": 81,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "56f11594067c8aa1a8b67e19d9ffb4d1659d27f763a32fd8baf7216ddc0ed29a"
+        },
+        "uni0436": {
+          "points_before": 165,
+          "points_after": 164,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "7825997f405a8bbd83644e3c04a7a6c8c51b771e4a1f3f599fe3f3cd61e03f8f"
+        },
+        "uni0439": {
+          "points_before": 78,
+          "points_after": 77,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "24c785262c4997313daf1f0e9991147d457577e435b1a53b01c71e447be35526"
+        },
+        "uni043A": {
+          "points_before": 83,
+          "points_after": 82,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "fb443423b20a4986f6d8e7171a2d9b6c600ddbe221b98851b3102115c520fabe"
+        },
+        "uni043C": {
+          "points_before": 73,
+          "points_after": 72,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c8abdb594ecd9557a96f03f992aa5cd86d29e97c22ba568fa7dcbd018fd6768b"
+        },
+        "uni0492": {
+          "points_before": 60,
+          "points_after": 59,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "e380130118118a3e6e017715db48a025a3b1b8f26eef3f75f2eec187a68aa9cc"
+        },
+        "uni04E9": {
+          "points_before": 23,
+          "points_after": 21,
+          "operations": {
+            "implicit_midpoints": 2,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "65de543568bbc404f90da363b7c55264428f638b2c7173fb70a408a885150b78"
+        },
+        "uni0442.ss08": {
+          "points_before": 49,
+          "points_after": 48,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 1
+          },
+          "geometry_sha256": "83b34794fdea10043be4e16d5b714cfc44ed5cb9bc3a284071e75de6e4781a57"
+        },
+        "uni04A2.tail_old": {
+          "points_before": 102,
+          "points_after": 101,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 1
+          },
+          "geometry_sha256": "cc0e4a272816986775b07a70e4ddc96f6e781a48d43c2b7f1bbb17eb22305c69"
+        }
+      },
+      "points_removed": 18,
+      "cff_only_dependencies": []
+    },
+    "Italic": {
+      "glyphs": {
+        "uni0426": {
+          "points_before": 74,
+          "points_after": 72,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "d123d41d281e456986ac2094d9bb6ebc3f3db57d421f656fb5c4269e625ce6a4"
+        },
+        "uni0429": {
+          "points_before": 99,
+          "points_after": 97,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "60b8272dee334f3f1c9a75b4a6e6583f91faa1b37ea3cb1bb8d69c5d9bda0da3"
+        },
+        "uni042A": {
+          "points_before": 72,
+          "points_after": 71,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "ff0f2c20de7894815598047b7a4b09297519923827a3bd1f975266e3a3d27ab2"
+        },
+        "uni042E": {
+          "points_before": 91,
+          "points_after": 89,
+          "operations": {
+            "implicit_midpoints": 2,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "7cb213f784d59efed13ad13612051099ccf6f8b252a7f51dcc7271d6e69ddf13"
+        },
+        "uni042F": {
+          "points_before": 80,
+          "points_after": 79,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "613c35058c3aef8c8b74028110dd62ad4ec7d4681397115dba030af322f11bce"
+        },
+        "uni049A": {
+          "points_before": 95,
+          "points_after": 94,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "f01e877894bcb52d6b8746d38d3602abc26ab811d7214d9058debedb196f9cf2"
+        },
+        "uni04A2": {
+          "points_before": 92,
+          "points_after": 91,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c6470e976925b9128d19e96be2c4bee09bb82ebc26c626020fb027bfba9809c0"
+        },
+        "uni0448": {
+          "points_before": 99,
+          "points_after": 98,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c7d4b629f4158fa66dd06248fa888cd9cbdcc2347730704666eb097c22d1c6c4"
+        },
+        "uni043D": {
+          "points_before": 70,
+          "points_after": 69,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "181af99040e76ec822da519371c691661a5cbc8cae56a7bfcfe163e1b355d5bd"
+        },
+        "uni0434": {
+          "points_before": 76,
+          "points_after": 75,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c08ab68e976582abc50e8e89ac8a8b10ebea108fc5b5da555247b1eaf78bede4"
+        },
+        "uni044C": {
+          "points_before": 70,
+          "points_after": 68,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "608472d78c64e8ae3bf29061e8094e3b8e1261981812edb9d1f50d86899caee8"
+        },
+        "uni044A": {
+          "points_before": 59,
+          "points_after": 57,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "0a848ea5cb319f51a1db94fd178a0f4b543dabee2084ba6fed1a4c4903cc3dd3"
+        },
+        "uni044B": {
+          "points_before": 103,
+          "points_after": 101,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 1,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "504fc077973711d251e1214f08ed9b7928c5606dd4e9e8e3d4ecfe69062884eb"
+        },
+        "uni0444": {
+          "points_before": 96,
+          "points_after": 94,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 1,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "1a80a818a7978fe31eeddaad89a1b2e14373b19d2c6e14efb6a61a521e65188d"
+        },
+        "uni043C": {
+          "points_before": 53,
+          "points_after": 48,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 2,
+            "straight_controls": 3,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "84d22a231f1bbd2cc0a71204e9bd09ca41f0361ad09675083a69839ab20fe16b"
+        },
+        "uni04AF": {
+          "points_before": 79,
+          "points_after": 78,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "d152f501fed999370166b6f359a6f72a33f1099163532c2b03d4e11468733ab8"
+        },
+        "uni04B1": {
+          "points_before": 87,
+          "points_after": 86,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 1,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "aba0c90a49cf9d95c94da4dfbdbb597bcd1d9ec888a640a083c7707b7651828c"
+        },
+        "uni25CC": {
+          "points_before": 116,
+          "points_after": 112,
+          "operations": {
+            "implicit_midpoints": 4,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "108359d60b2cf116ce417d068754ad474ec629cb2a6af5557565151815221bc3"
+        },
+        "uni2021": {
+          "points_before": 57,
+          "points_after": 56,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "fd5f6335b06e34d071b3db92ab467b6e870a6b13de24dc024dc41416207bcadf"
+        },
+        "uni2032": {
+          "points_before": 15,
+          "points_after": 13,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 2,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "fc70c5a88c6dc4510ee69f475bb1317a59ec0ad02b1733af903a4d749ab4aa82"
+        },
+        "uni2033": {
+          "points_before": 29,
+          "points_after": 27,
+          "operations": {
+            "implicit_midpoints": 0,
+            "collinear_line_points": 0,
+            "straight_controls": 2,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "ce7332b542ae40430ed0be918a79eeae27065fa1b5c4ce6d6372e408f3b36061"
+        },
+        "uni20B4": {
+          "points_before": 90,
+          "points_after": 89,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "e2c8cd927ec5d908dac500dca6c1c371b60e5c2405851f54fbf7ceb0aef0de9f"
+        },
+        "uni20BD": {
+          "points_before": 70,
+          "points_after": 69,
+          "operations": {
+            "implicit_midpoints": 1,
+            "collinear_line_points": 0,
+            "straight_controls": 0,
+            "split_quadratics": 0
+          },
+          "geometry_sha256": "c4e6903b9015597ed6d72355d7ca227317cee7489edbb9abb67d490e8a9c545c"
+        }
+      },
+      "points_removed": 39,
+      "cff_only_dependencies": [
+        "uni0442.srb"
+      ]
+    }
+  },
+  "cff_programs_sha256": "dfa684ffc1db8b93bc45b21246da55008ab35c2d0c27bb230264256fdf431f7a"
+}

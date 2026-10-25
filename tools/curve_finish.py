@@ -16,6 +16,14 @@ from fontTools.ttLib import TTFont
 MANIFEST=Path('data/curve-finish/manifest.json')
 
 
+def check_input_metrics(actual, record):
+    # Historic provisional generators can quantize a control-point box one
+    # unit differently after a Regular source update. Accept only explicitly
+    # recorded input pairs; the reviewed GLIF and final metrics stay exact.
+    incoming=record.get('input_advance_and_lsb',record['advance_and_lsb'])
+    return list(actual) in [incoming]+record.get('additional_input_advance_and_lsb',[])
+
+
 def load_source(name, record):
     path=Path(record['path']);raw=path.read_bytes()
     assert hashlib.sha256(raw).hexdigest()==record['sha256'],('Curve source hash',name)
@@ -34,8 +42,7 @@ def apply(font, style):
     for name,record in records.items():
         assert name in font['glyf'],('Missing generated curve base',style,name)
         assert name not in native.getGlyphOrder(),('Native glyph must stay unchanged',name)
-        incoming=record.get('input_advance_and_lsb',record['advance_and_lsb'])
-        assert list(font['hmtx'][name])==incoming,('Curve finish metrics',style,name)
+        assert check_input_metrics(font['hmtx'][name],record),('Curve finish metrics',style,name)
         g=load_source(name,record);g.recalcBounds(font['glyf'])
         assert g.numberOfContours==record['contours'],('Curve source contour count',name)
         assert [g.xMin,g.yMin,g.xMax,g.yMax]==record['bounds'],('Curve source bounds',name)

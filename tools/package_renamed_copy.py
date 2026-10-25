@@ -30,10 +30,11 @@ def main():
         target=dest/(ps+'.ttf');target.write_bytes(raw)
         assert ots.sanitize(str(target),os.devnull,capture_output=True).returncode==0
         members[target.name]=raw
-    for name in ('OFL.txt','AUTHORS.txt','CONTRIBUTORS.txt'):members[name]=Path(name).read_bytes()
+    for name in ('OFL.txt','AUTHORS.txt','CONTRIBUTORS.txt','FONTLOG.txt'):members[name]=Path(name).read_bytes()
     members['ai-disclosure.json']=Path('font/ai-disclosure.json').read_bytes()
     members['README.txt']=(f'{family}\n\nRenamed installation copy of Very Peri Serif {version}.\n'
         f'Переименованная копия Very Peri Serif {version} для отдельной установки.\n\n'
+        f'Cyrillic author / Автор кириллицы: {cfg["cyrillic_author"]}.\n\n'
         f'Install both TTFs. Font-menu family / Имя в списке шрифтов: {family}.\n'
         'Regular and Italic. Outlines, kerning, ligatures and mark anchors match the release.\n'
         'Контуры, кернинг, лигатуры и ударения совпадают с основным выпуском.\n'

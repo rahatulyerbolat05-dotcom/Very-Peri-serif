@@ -4770,7 +4770,7 @@
                         {
                             "message": {
                                 "code": "size-impact",
-                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Regular.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 278.3kb |\n | Hinted Size   | 294.4kb   |\n | Increase      | 16.2kb      |\n | Change        | 5.8 %  |\n"
+                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Regular.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 278.3kb |\n | Hinted Size   | 294.5kb   |\n | Increase      | 16.2kb      |\n | Change        | 5.8 %  |\n"
                             },
                             "status": "INFO"
                         }
@@ -4802,7 +4802,7 @@
                         {
                             "message": {
                                 "code": "size-impact",
-                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Italic.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 164.3kb |\n | Hinted Size   | 182.5kb   |\n | Increase      | 18.2kb      |\n | Change        | 11.1 %  |\n"
+                                "message": "Hinting filesize impact:\n\n |               | build/release/VeryPeriSerif-Italic.ttf     |\n |:------------- | ---------------:|\n | Dehinted Size | 164.4kb |\n | Hinted Size   | 182.5kb   |\n | Increase      | 18.2kb      |\n | Change        | 11.1 %  |\n"
                             },
                             "status": "INFO"
                         }

@@ -1,7 +1,7 @@
 {
   "date": "2026-10-25",
   "baseline_commit": "a7bec14",
-  "release": "1.112",
+  "release": "1.113",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -99,30 +99,33 @@
     {
       "status": "author_request",
       "item": "Author screenshot identifies a transverse construction step on the inner bowl/stem transition of Italic ч. Replace the entire short donor join by one convex quadratic; preserve all surrounding points and all other glyphs, metrics and shaping. Add a targeted transverse-step regression and exact CFF export."
+    },
+    {
+      "status": "author_request",
+      "item": "Freeze final build, remove only redundant vector points without changing accepted forms; identify Cyrillic author as Yerbolat Rakhatuly (DEW), retain upstream OFL notices; push build and make repository private."
     }
   ],
   "approved_fonts": {
-    "Regular": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
-    "Italic": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c"
+    "Regular": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
+    "Italic": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea"
   },
   "optical_acceptance": {
     "date": "2026-10-25",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Author-reported Italic che transition only, against 1.111",
+    "scope": "Representation-only cleanup and legal metadata against published 1.112; no blanket optical approval",
     "viewed": [
-      "Final full che and enlarged transition, 1.111/1.112",
-      "Final words, pairs and stress samples",
-      "Final serialized CFF/TTF enlarged transition"
+      "All 38 reduced glyphs in before/after path-and-point overlays",
+      "Complete Russian/Kazakh alphabets in both styles",
+      "Russian/Kazakh word samples, marks and alternates"
     ],
     "decisions": [
-      "Accept one convex quadratic in place of the visible donor step; no wave, micro-step or large tangent break in this region.",
-      "Preserve all other stored points, all other glyphs and all metrics/shaping tables.",
-      "Accept <0.5 degree curve/straight tangent difference and the normal curve-to-line curvature change; do not claim global G2 continuity."
+      "Accept exact rational path equality for every reduced glyph and dependent component.",
+      "Accept 57 fewer stored points with identical metrics, native hints and shaping; freeze all accepted CFF programs.",
+      "Retain previous design decisions and all targeted repairs; global contour triage remains open."
     ],
     "functional_assertions": 3785,
-    "curve_assertions": 1403,
-    "che_assertions": 47,
-    "tail_join_assertions": 118,
+    "curve_assertions": 1494,
+    "freeze_assertions": 1271,
     "limitations": [
       "Global optical queue remains open.",
       "No native Windows/macOS/commercial-app or physical print test."
@@ -176,6 +179,10 @@
     "1.111": {
       "Regular": "43fadc5552a96186ababcdbecb14acf0d2d26ed4edcba311385974308b97a419",
       "Italic": "dd7cb7891bfa8c05fb684da140914c13a43d87afc5d2dc59f0fa77e5e3dab1f5"
+    },
+    "1.112": {
+      "Regular": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+      "Italic": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c"
     }
   },
   "previous_optical_acceptance": {
@@ -434,6 +441,29 @@
       "tail_join_assertions": 118,
       "ya_assertions": 38,
       "ghe_width_assertions": 366
+    },
+    "1.112": {
+      "date": "2026-10-25",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Author-reported Italic che transition only, against 1.111",
+      "viewed": [
+        "Final full che and enlarged transition, 1.111/1.112",
+        "Final words, pairs and stress samples",
+        "Final serialized CFF/TTF enlarged transition"
+      ],
+      "decisions": [
+        "Accept one convex quadratic in place of the visible donor step; no wave, micro-step or large tangent break in this region.",
+        "Preserve all other stored points, all other glyphs and all metrics/shaping tables.",
+        "Accept <0.5 degree curve/straight tangent difference and the normal curve-to-line curvature change; do not claim global G2 continuity."
+      ],
+      "functional_assertions": 3785,
+      "curve_assertions": 1403,
+      "che_assertions": 47,
+      "tail_join_assertions": 118,
+      "limitations": [
+        "Global optical queue remains open.",
+        "No native Windows/macOS/commercial-app or physical print test."
+      ]
     }
   }
 }

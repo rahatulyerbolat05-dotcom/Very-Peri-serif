@@ -16,6 +16,7 @@ from polish_outlines import contours_of, hausdorff
 from check_curve_finish import introduced_corners
 from check_tail_joins import path_in, reduced_quadratics
 from ttf2otf import exact_cubic_error
+from revision_scope import later_outline_changes
 
 
 def rotated(font):
@@ -36,7 +37,8 @@ def main():
         before=old_font(style);ttf=TTFont(path_in(args.root,style,'ttf'))
         ck(before.getGlyphOrder()==ttf.getGlyphOrder(),(style,'glyph order'))
         changed=[n for n in ttf.getGlyphOrder() if before['glyf'][n].compile(before['glyf'])!=ttf['glyf'][n].compile(ttf['glyf'])]
-        ck(changed==([NAME] if style=='Italic' else []),(style,'only Italic che changes',changed))
+        expected=({NAME} if style=='Italic' else set())|later_outline_changes('1.112',style)
+        ck(set(changed)==expected,(style,'che and declared later representation changes',changed))
         ck(before['hmtx'].metrics==ttf['hmtx'].metrics,(style,'all advances and bearings retained'))
         for tag in ('cmap','GSUB','GPOS','GDEF'):
             ck(before.getTableData(tag)==ttf.getTableData(tag),(style,'unchanged shaping',tag))

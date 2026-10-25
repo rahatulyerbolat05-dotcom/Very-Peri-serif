@@ -9,7 +9,7 @@ Jordan Egstad <jordan.egstad@instrument.com>
 
 # Very Peri Serif: the Cyrillic extension (Russian, Kazakh; Regular and Italic)
 # https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif
-Yerbolat (https://github.com/rahatulyerbolat05-dotcom)
+Yerbolat Rakhatuly (DEW) (https://github.com/rahatulyerbolat05-dotcom)
 
 # Modified source: the Cyrillic de of the Regular is a modified outline of Cormorant Garamond
 # https://github.com/CatharsisFonts/Cormorant

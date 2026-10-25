@@ -15,19 +15,21 @@ Very Peri Serif сохраняет латиницу Instrument Serif без из
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.112.zip`](dist/VeryPeriSerif-1.112.zip) | всё перечисленное ниже вместе с лицензией, одним архивом |
+| [`dist/VeryPeriSerif-1.113.zip`](dist/VeryPeriSerif-1.113.zip) | всё перечисленное ниже вместе с лицензией, одним архивом |
 | [`fonts/ttf`](fonts/ttf) | TrueType для программ на компьютере (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, тот же рисунок кубическими кривыми (ставить TTF или OTF, не оба) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 и [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) для сайтов |
 | [`docs/specimen`](docs/specimen) | образец шрифта в PDF |
 
-Regular и Italic — общий выпуск **1.112**. В курсивной ч убрана видимая ступенька между левым штрихом и чашей; участок заменён одной выпуклой кривой. Остальные глифы и метрики сохранены.
-[До/после и проверка](docs/che-1.112.md). Рисунок Italic — I036; [исправления хвостов 1.111](docs/tail-joins-1.111.md) сохранены.
+Regular и Italic — зафиксированный выпуск **1.113** (Italic I037). Удалены
+57 лишних точек в 38 глифах с точным сохранением кривых, метрик, хинтинга и функций.
+Встроено полное имя **Yerbolat Rakhatuly (DEW)**; сведения Instrument/Cormorant и OFL сохранены.
+[Проверки и ограничения выпуска](docs/final-1.113.md).
 
-[Переименованная копия 1.112](dist/VeryPeriSerif-T1112.zip) для параллельной установки:
-два TTF, семейство в меню — **Very Peri Serif T1112**.
+[Переименованная копия 1.113](dist/VeryPeriSerif-T1113.zip) для параллельной установки:
+два TTF, семейство в меню — **Very Peri Serif T1113**.
 
-Продолжается [проверка шероховатостей контуров](docs/che-1.112.md):
+Продолжается [проверка шероховатостей контуров](docs/final-1.113.md):
 добавлены новые детекторы, полный атлас и очередь подозрительных мест.
 Это диагностика текущего выпуска; оптический разбор находок ещё не завершён.
 Исправлены ударения над добавленной кириллицей,
@@ -65,6 +67,7 @@ make
 
 ## Изменения
 
+- 25.10.2026: зафиксированный выпуск 1.113, точное удаление лишних точек и полное имя автора.
 - 25.10.2026: семейство 1.112, убрана ступенька на внутреннем переходе курсивной ч.
 - 25.10.2026: семейство 1.111, первая партия исправлений стыков хвостов курсивных ц/щ/ң.
 - 22.10.2026: семейство 1.110, более широкие курсивные г/ғ с сохранением толщины стойки.
@@ -91,7 +94,7 @@ make
 
 Instrument Serif нарисовал [Rodrigo Fuenzalida](https://rfuenzalida.com) под руководством
 [Jordan Egstad](https://egstad.com), [JD Hooge](http://jdhooge.com/) и [Jack De Caluwé](https://jackdecaluwe.com/) для
-[Instrument](https://instrument.com). Кириллическое расширение — [Yerbolat](https://github.com/rahatulyerbolat05-dotcom).
+[Instrument](https://instrument.com). Кириллическое расширение — [Yerbolat Rakhatuly (DEW)](https://github.com/rahatulyerbolat05-dotcom).
 Строчная д в Regular — изменённый контур [Cormorant Garamond](https://github.com/CatharsisFonts/Cormorant)
 (The Cormorant Project Authors). Very Peri Serif не создан и не одобрен компанией Instrument.
 

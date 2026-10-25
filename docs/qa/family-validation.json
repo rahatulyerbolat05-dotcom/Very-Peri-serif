@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.112",
-    "sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828"
+    "version": "1.113",
+    "sha256": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.112",
-    "source": "build/italic-lower/VeryPeriSerifItalicI031.ttf",
-    "sha256": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c",
-    "woff2_sha256": "acf7b7aa970539e30ee207684ce4af64445e88133ef034491abe9c48e2289578"
+    "version": "1.113",
+    "source": "build/italic-lower/VeryPeriSerifItalicI037.ttf",
+    "sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
+    "woff2_sha256": "9c2cad807f2e0bc788cb60d0e071446507e0419c77767445cc80d17922f100e2"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -691,7 +691,7 @@
     },
     "uni0426": {
       "path": "data/curve-finish/Italic/uni0426.glif",
-      "sha256": "217f50c4023064bbd68d738a5892e88f45cb0594c857105a72068eaf01e845b4",
+      "sha256": "3aed78ec10da6612d2ce2790f25c6efa125457d57ea78b17a411c41a1f23cc03",
       "reviewed_outline": true
     },
     "uni0428": {
@@ -701,7 +701,7 @@
     },
     "uni0429": {
       "path": "data/curve-finish/Italic/uni0429.glif",
-      "sha256": "04d39c9edcea1c8ed43de2c3b6a63487c78a65335f07ac195bc94ad598f99d1a",
+      "sha256": "51787f41ee31600cdec1b30000ef65b7464c2a7b93f9dfbc57b44cef4f44b9ce",
       "reviewed_outline": true
     },
     "uni042D": {
@@ -711,12 +711,12 @@
     },
     "uni042E": {
       "path": "data/curve-finish/Italic/uni042E.glif",
-      "sha256": "8e1adfba4a239c936558c9bbd86da16df6fa66b33985f0fba36c7b013df613ba",
+      "sha256": "9247638291bc7a652b996d8f12ec9b15e9963bf61116e53a380754ceffdbd042",
       "reviewed_outline": true
     },
     "uni042F": {
       "path": "data/curve-finish/Italic/uni042F.glif",
-      "sha256": "d73eece8590aa2d6de84e08c76d9d74234cea4a268ba831851696b3c56883761",
+      "sha256": "636d7824d16e4752e66117f5213e0d596e359ac269e4f0a53151ccadc315d05c",
       "reviewed_outline": true
     },
     "uni0492": {
@@ -726,12 +726,12 @@
     },
     "uni049A": {
       "path": "data/curve-finish/Italic/uni049A.glif",
-      "sha256": "000b3896e37035c3fcc49b6064c7f798acf53226ed7720ef77a9f24d7dced55d",
+      "sha256": "2e16cc639d4fc828cff752203fe725135a53bcc6b2394eb76b63abe9005269cf",
       "reviewed_outline": true
     },
     "uni04A2": {
       "path": "data/curve-finish/Italic/uni04A2.glif",
-      "sha256": "928b7d8b17ee8deaa2747e2127a21dbcb89384763a4dfbfe44790778fa2ed3a1",
+      "sha256": "850dec9463d720740f52b7a155e9d6c4e8323d292c1fc5bd407382753285aea1",
       "reviewed_outline": true
     },
     "uni04B0": {
@@ -751,7 +751,7 @@
     },
     "uni043D": {
       "path": "data/curve-finish/Italic/uni043D.glif",
-      "sha256": "0409b7334249bd079a0397b47e15c834f7d2c5402c730b8195b2e783838fe7aa",
+      "sha256": "8a04793c832d81993e10dc2afca388a3e7afd70c398683a11d2ea25b550a4c35",
       "reviewed_outline": true
     },
     "uni043A": {
@@ -766,17 +766,17 @@
     },
     "uni044C": {
       "path": "data/curve-finish/Italic/uni044C.glif",
-      "sha256": "01d54779b4746d7584e354455a51ef1e36883b6bc9ed265b9996a1ee9d0ee19e",
+      "sha256": "b65a41f81823009a27edb05966afb68ad86f5d599ca58ded652fc4d5e23ba86b",
       "reviewed_outline": true
     },
     "uni044A": {
       "path": "data/curve-finish/Italic/uni044A.glif",
-      "sha256": "6ca919eaf0579040a1110dc496acf74f6a56da7ab6cd222f493743dccad604e4",
+      "sha256": "7dbbd27e4ef12783163970ab2ee113d09142342ebb1e5e26dc09cf200c0b500e",
       "reviewed_outline": true
     },
     "uni044B": {
       "path": "data/curve-finish/Italic/uni044B.glif",
-      "sha256": "cb5049c0eed63554f0c12682cb4ae62c56665ee5f5cf20f91b7a7bb154cb20a1",
+      "sha256": "c23e7e12fdf5b4b23d34c0abc7d5bdb872334b20b4e3547bf19c72316e486ae4",
       "reviewed_outline": true
     },
     "uni0447": {
@@ -786,7 +786,7 @@
     },
     "uni043C": {
       "path": "data/curve-finish/Italic/uni043C.glif",
-      "sha256": "a81b550bd7c193f7d1d70031c5928d5ac0383631d04d3f6f5bfbf8be817b3a7c",
+      "sha256": "866e4c7a08058470cec694b83e182d669e2243bae60f9de4ef179d439b47fc3e",
       "reviewed_outline": true
     },
     "uni049B": {
@@ -801,12 +801,12 @@
     },
     "uni04AF": {
       "path": "data/curve-finish/Italic/uni04AF.glif",
-      "sha256": "539cd6c41e27021ca53e118b66198e2b3f5a116b1cebf5b0d572709ab6a0ecfe",
+      "sha256": "dceeb5990ff3034940ba7558734ed10c6cd151d8bb53e65f56ae8f24dd673bdf",
       "reviewed_outline": true
     },
     "uni04B1": {
       "path": "data/curve-finish/Italic/uni04B1.glif",
-      "sha256": "86f58af69b4939d8b4a709d9b1fd5c120a323e771424803717eb57b809b3e3f3",
+      "sha256": "82bbc155418b3d87b4430ff30accfd22857f657e758d304bd8e17c0f9e0daec4",
       "reviewed_outline": true
     },
     "uni0431": {
@@ -846,12 +846,12 @@
     },
     "uni2021": {
       "path": "data/curve-finish/Italic/uni2021.glif",
-      "sha256": "4f82c155881a06ea23e24c7f92fdbe3126f247b511b1c982a6546830dba211ce",
+      "sha256": "ef6c47d192706ca6df6d0174ddb237e8942f374c82a4f165ca34d5a973dd8087",
       "reviewed_outline": true
     },
     "uni0434": {
       "path": "data/curve-finish/Italic/uni0434.glif",
-      "sha256": "4933d5c972221eaf615ed5863b36332dace0daab4cce4d97933c71fe8e6da1c3",
+      "sha256": "090206f17f33c0eeb1bcecaa89203a9d07cf06084935a255637fe2e0213d1b39",
       "reviewed_outline": true
     },
     "uni0493": {
@@ -866,7 +866,7 @@
     },
     "uni0448": {
       "path": "data/curve-finish/Italic/uni0448.glif",
-      "sha256": "ace45972270888f82ce47ff5120700f16f26a072ba5ae438a031e5de9f2d70ac",
+      "sha256": "163d274dac648509ebfcb37b49ad5b5993ed1e3332f2958cc2f841bb467474f6",
       "reviewed_outline": true
     },
     "uni0446": {
@@ -886,12 +886,12 @@
     },
     "uni2032": {
       "path": "data/curve-finish/Italic/uni2032.glif",
-      "sha256": "0f2a30477e79e2b88350557f47dd5a13982567920e0422611bfc4ac7c2d9dc44",
+      "sha256": "16f608b46f8634f8fb60ca1b74c47789e883318fa0db97995be2d4bcd3ef55da",
       "reviewed_outline": true
     },
     "uni2033": {
       "path": "data/curve-finish/Italic/uni2033.glif",
-      "sha256": "f897452bcff39d8704eaf23286184397db259d8131c3d29111235787f29ea02e",
+      "sha256": "cbc9b2ac64e4d8c44c2c5abd94e3a7e1b1b9733dd1ad51dd785c22325836ca19",
       "reviewed_outline": true
     },
     "uni044F": {
@@ -902,6 +902,31 @@
     "uni0433": {
       "path": "data/curve-finish/Italic/uni0433.glif",
       "sha256": "a54a698a50956fde56d51a2828264937b41524324648db1a0e251bbbc42ee63f",
+      "reviewed_outline": true
+    },
+    "uni042A": {
+      "path": "data/curve-finish/Italic/uni042A.glif",
+      "sha256": "0eb389e618a71468f01712f16d3c2f955004bc93934cb4c376d1d22f753fac5b",
+      "reviewed_outline": true
+    },
+    "uni0444": {
+      "path": "data/curve-finish/Italic/uni0444.glif",
+      "sha256": "3d144dbba14a9666f7edf3954e498329b4393d1846f988b05ed3d5628ca40383",
+      "reviewed_outline": true
+    },
+    "uni25CC": {
+      "path": "data/curve-finish/Italic/uni25CC.glif",
+      "sha256": "a40ec1144ed98922fc91a54c01cf17dc9d910ebf5493574637ff16046d81408b",
+      "reviewed_outline": true
+    },
+    "uni20B4": {
+      "path": "data/curve-finish/Italic/uni20B4.glif",
+      "sha256": "ab1dc7eba60db63173bc72b624171532e69c2cc35866bc93e59ed5c53a5493a0",
+      "reviewed_outline": true
+    },
+    "uni20BD": {
+      "path": "data/curve-finish/Italic/uni20BD.glif",
+      "sha256": "88fa67d2b2b4275b662007a951204421025a18cfefa9b56b999ead5a4da72d6d",
       "reviewed_outline": true
     }
   },
@@ -931,10 +956,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1112",
+    "family": "Very Peri Serif T1113",
     "files": [
-      "VeryPeriSerifT1112-Regular.ttf",
-      "VeryPeriSerifT1112-Italic.ttf"
+      "VeryPeriSerifT1113-Regular.ttf",
+      "VeryPeriSerifT1113-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -946,10 +971,10 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1112-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1112-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1112-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1112-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1113-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1113-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1113-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1113-Italic.ttf": true
     }
   }
 }

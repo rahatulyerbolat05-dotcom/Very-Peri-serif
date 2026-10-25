@@ -136,3 +136,6 @@ First contour-audit repair batch: remove confirmed adjacent-quadratic self-cross
 
 25 October 2026 — Family release 1.112 (internal drawing I036).
 Replace the author-reported transverse step in Italic ч by one convex quadratic. Preserve the rest of the glyph, all other glyphs, metrics, marks, ligatures and kerning. Exact CFF degree elevation preserves the repaired arc. Add a transverse-step detector and regression for the reported seam. Full contour triage remains open.
+
+25 October 2026 — Frozen release 1.113 (internal drawing I037).
+Losslessly remove 57 redundant stored TrueType points across 38 authored glyphs, without refitting curves. Preserve accepted CFF programs, native outlines/hints, all metrics, marks, kerning and ligatures. Identify the Cyrillic author as Yerbolat Rakhatuly (DEW) in font metadata and accompanying documents. Preserve original Instrument Serif and Cormorant notices and the unmodified SIL OFL 1.1 license body.

@@ -94,7 +94,8 @@ def main():
                 for n in f.getGlyphOrder():
                     ca[n].decompile(); cb[n].decompile()
                     if ca[n].program != cb[n].program: program_changes.append(n)
-                ck(set(program_changes) == expected, (style, 'only declared CFF programs', program_changes))
+                expected_cff=(set(NAMES) if style=='Italic' else set())|later_outline_changes('1.111',style,include_representation=False)
+                ck(set(program_changes) == expected_cff, (style, 'only declared CFF geometry changes', program_changes))
                 row['changed_charstrings'] = program_changes
             if style == 'Italic':
                 for name in NAMES:

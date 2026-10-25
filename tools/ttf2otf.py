@@ -7,7 +7,7 @@ Reviewed ya uses exact degree elevation with fractional CFF controls; check() ve
 Check (check()): the same glyph order, advances, vertical metrics and shaping tables, every glyph within MAX_ERR+0.5 of the TTF (Hausdorff distance of densely sampled outlines).
 Usage: python3 -I tools/ttf2otf.py in.ttf out.otf
 """
-import math,sys
+import math,sys,json,hashlib
 from pathlib import Path
 from fontTools.ttLib import TTFont,newTable
 from fontTools.fontBuilder import FontBuilder
@@ -29,6 +29,11 @@ def exact_names(font):
 
 def convert(src,dst):
     tt=TTFont(src);gs=tt.getGlyphSet();order=tt.getGlyphOrder();cs={};exact=exact_names(tt)
+    frozen={};manifest=Path('data/node-reduction/manifest.json')
+    if manifest.exists():
+        config=json.loads(manifest.read_text());path=manifest.with_name('cff-programs.json');raw=path.read_bytes()
+        assert hashlib.sha256(raw).hexdigest()==config['cff_programs_sha256'],'Frozen CFF source hash'
+        style='Italic' if tt['post'].italicAngle else 'Regular';frozen=json.loads(raw)[style]
     for n in order:
         pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in exact else .5)
         if n in exact:
@@ -38,6 +43,13 @@ def convert(src,dst):
         else:
             gs[n].draw(Qu2CuPen(pen,max_err=MAX_ERR,all_cubic=False,reverse_direction=True))   # TrueType outlines run clockwise, CFF counter-clockwise; a quadratic left by qu2cu (on-curve-less circles) is raised to a cubic exactly by T2CharStringPen
         cs[n]=pen.getCharString()
+        if n in frozen:
+            from exact_node_reduction import geometry_fingerprint
+            from fontTools.misc.psCharStrings import T2CharString
+            record=frozen[n]
+            assert geometry_fingerprint(tt,n)==record['geometry_sha256'],('Frozen CFF geometry changed; regenerate reviewed master',n)
+            assert tt['hmtx'][n][0]==record['advance']
+            cs[n]=T2CharString(program=record['program'])
     name=tt['name'];post=tt['post']
     fb=FontBuilder(tt['head'].unitsPerEm,isTTF=False);fb.setupGlyphOrder(order)
     info=dict(FullName=name.getDebugName(4),FamilyName=name.getDebugName(1),Weight=name.getDebugName(2),version=name.getDebugName(5).replace('Version ',''),

@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni2021" format="2">
   <advance width="310"/>
+  <unicode hex="2021"/>
   <outline>
     <contour>
       <point x="266" y="250" type="qcurve"/>
@@ -55,7 +56,6 @@
       <point x="258" y="280"/>
       <point x="267" y="280"/>
       <point x="275" y="280"/>
-      <point x="278" y="279" type="qcurve"/>
       <point x="281" y="278"/>
       <point x="280" y="268"/>
       <point x="276" y="257"/>

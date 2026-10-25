@@ -1,6 +1,6 @@
 Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
-Copyright 2026 The Very Peri Serif Project Authors (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)
-Cyrillic de of the Regular: Copyright 2015 The Cormorant Project Authors (https://github.com/CatharsisFonts/Cormorant)
+Copyright 2026 Yerbolat Rakhatuly (DEW) (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)
+Cyrillic de of the Regular: Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:

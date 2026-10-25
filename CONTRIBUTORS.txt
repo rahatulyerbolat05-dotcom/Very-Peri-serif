@@ -9,7 +9,7 @@ Rodrigo Fuenzalida (https://rfuenzalida.com)
 Jordan Egstad (https://egstad.com)
 JD Hooge (http://jdhooge.com)
 Jack De Caluwé (https://jackdecaluwe.com)
-Yerbolat (https://github.com/rahatulyerbolat05-dotcom)
+Yerbolat Rakhatuly (DEW) (https://github.com/rahatulyerbolat05-dotcom)
 
 # Tools, not authors: the Cyrillic outlines were built with the assistance of AI systems
-# (Anthropic Claude, OpenAI Codex) under the direction of Yerbolat. See FONTLOG.txt.
+# (Anthropic Claude, OpenAI Codex) under the direction of Yerbolat Rakhatuly (DEW). See FONTLOG.txt.

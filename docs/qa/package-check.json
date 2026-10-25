@@ -1,8 +1,8 @@
 {
-  "version": "1.112",
-  "italic_version": "1.112",
-  "archive": "dist/VeryPeriSerif-1.112.zip",
-  "archive_sha256": "1ad6f1ec9eb301073c32fa5aad439ac4a710e1cd08534014fdb7b3b91e2a6ce0",
+  "version": "1.113",
+  "italic_version": "1.113",
+  "archive": "dist/VeryPeriSerif-1.113.zip",
+  "archive_sha256": "1e7f1ddeeeaa3cb8fa34be71f30f034e36e351d613be63d33ac218d4855fa837",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",
@@ -36,13 +36,13 @@
       "hausdorff_worst": 0.758,
       "over_limit": [],
       "exact_cubic_control_error": {
-        "uni0493": 6.918065648728772e-05,
+        "uni04A3": 0.0001220703125,
         "uni044F": 9.09858389133851e-05,
         "uni0447": 0.00010298897671360429,
+        "uni0493": 6.918065648728772e-05,
+        "uni0446": 7.509777352148362e-05,
         "uni0433": 7.509777353977075e-05,
-        "uni04A3": 0.0001220703125,
-        "uni0449": 7.50977735715326e-05,
-        "uni0446": 7.509777352148362e-05
+        "uni0449": 7.50977735715326e-05
       }
     }
   },
@@ -56,11 +56,15 @@
     "Regular: name 0 = project copyright + Cormorant": true,
     "Regular: name 13/14 OFL 1.1": true,
     "Regular: name 10 AI note": true,
+    "Regular: full Cyrillic author in designer metadata": true,
+    "Regular: manufacturer identity": true,
     "Regular: name 1 not Instrument Serif": true,
     "Regular: installable and editable (fsType 0)": true,
     "Italic: name 0 = project copyright": true,
     "Italic: name 13/14 OFL 1.1": true,
     "Italic: name 10 AI note": true,
+    "Italic: full Cyrillic author in designer metadata": true,
+    "Italic: manufacturer identity": true,
     "Italic: name 1 not Instrument Serif": true,
     "Italic: installable and editable (fsType 0)": true,
     "OFL.txt present": true,
@@ -80,6 +84,6 @@
     "archive opens and every member is intact": true,
     "archive fonts identical to fonts/": true
   },
-  "passed": 32,
+  "passed": 36,
   "failed": []
 }

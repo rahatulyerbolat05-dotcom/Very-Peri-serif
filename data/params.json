@@ -3764,23 +3764,25 @@
   }
  },
  "regular_release": {
-  "status": "25.10.2026: remove author-reported transverse construction step in Italic ч; retain the surrounding form and spacing",
+  "status": "Frozen release: exact redundant-node reduction; full author identity and retained OFL provenance",
   "family": "Very Peri Serif",
   "style": "Regular",
-  "version": "1.112",
+  "version": "1.113",
   "postscript_name": "VeryPeriSerif-Regular",
   "vendor_id": "VPER",
   "project_url": "https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif",
   "directory": "build/release",
   "archive": "build/release/VeryPeriSerif-Regular.zip",
   "date": "2026-10-25",
-  "cyrillic_author": "Yerbolat",
-  "ai_note": "Cyrillic outlines made with AI assistance (Claude, Codex) under the direction of the author.",
-  "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif), Copyright 2026 The Very Peri Serif Project Authors (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)",
-  "copyright_cormorant": "Cyrillic de: Copyright 2015 The Cormorant Project Authors (https://github.com/CatharsisFonts/Cormorant)",
+  "cyrillic_author": "Yerbolat Rakhatuly (DEW)",
+  "ai_note": "Cyrillic extension developed with AI assistance (Anthropic Claude, OpenAI Codex) under the direction of Yerbolat Rakhatuly (DEW).",
+  "copyright": "Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif), Copyright 2026 Yerbolat Rakhatuly (DEW) (https://github.com/rahatulyerbolat05-dotcom/Very-Peri-serif)",
+  "copyright_cormorant": "Cyrillic de: Copyright 2015 the Cormorant Project Authors (github.com/CatharsisFonts/Cormorant)",
   "release_directory": "fonts",
   "release_archive": "dist",
-  "family_win_ascent": 1300
+  "family_win_ascent": 1300,
+  "manufacturer": "Yerbolat Rakhatuly (DEW)",
+  "designer_url": "https://github.com/rahatulyerbolat05-dotcom"
  },
  "weight_balance": {
   "status": "17.10.2026: author reports ф ж ю look heavy; measured x-height-band ink density 0.44/0.40/0.37 against a Latin range 0.26-0.37. Strokes thinned with outer silhouette and advance fixed.",

@@ -45,6 +45,7 @@ README="""Very Peri Serif {version}
 
 A Cyrillic extension of Instrument Serif: Russian and Kazakh in the Regular and the Italic.
 Кириллическое расширение Instrument Serif: русский и казахский, начертания Regular и Italic.
+Author of the Cyrillic extension / Автор кириллического расширения: {author}.
 
 Install / Установка
   Desktop (Windows, macOS, Linux, Figma, Adobe, Office): install both files from fonts/ttf
@@ -96,6 +97,8 @@ def check_licence(fonts):
         ck(style+': name 0 = project copyright'+(' + Cormorant' if style=='Regular' else ''),c==(CONFIG['copyright']+'; '+CONFIG['copyright_cormorant'] if style=='Regular' else CONFIG['copyright']))
         ck(style+': name 13/14 OFL 1.1',n.getDebugName(13).startswith('This Font Software is licensed under the SIL Open Font License, Version 1.1') and n.getDebugName(14)=='https://openfontlicense.org')
         ck(style+': name 10 AI note',CONFIG['ai_note'] in (n.getDebugName(10) or ''))
+        ck(style+': full Cyrillic author in designer metadata',CONFIG['cyrillic_author'] in (n.getDebugName(9) or ''))
+        ck(style+': manufacturer identity',n.getDebugName(8)==CONFIG.get('manufacturer','Very Peri Serif project'))
         ck(style+': name 1 not Instrument Serif',n.getDebugName(1)=='Very Peri Serif' and 'Instrument' not in n.getDebugName(6))
         ck(style+': installable and editable (fsType 0)',f['OS/2'].fsType==0)
     for p in LEGAL:ck(p+' present',Path(p).exists())
@@ -146,7 +149,7 @@ def main():
         live=live.replace('../../fonts/webfonts/'+woff.name,'data:font/woff2;base64,'+base64.b64encode(woff.read_bytes()).decode())
     # the download
     root=f'VeryPeriSerif-{CONFIG["version"]}';title=f'Very Peri Serif {CONFIG["version"]}'
-    members={'README.txt':README.format(version=CONFIG['version'],line='='*len(title),regular=CONFIG['version'],italic=italic_version,url=CONFIG['project_url']).encode(),
+    members={'README.txt':README.format(version=CONFIG['version'],line='='*len(title),regular=CONFIG['version'],italic=italic_version,url=CONFIG['project_url'],author=CONFIG['cyrillic_author']).encode(),
              'ai-disclosure.json':Path('font/ai-disclosure.json').read_bytes(),'specimen/'+specimen.name:specimen.read_bytes(),
              'specimen/'+family_specimen.name:family_specimen.read_bytes(),
              # Inside the archive fonts/ is one level above specimen/.

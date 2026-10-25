@@ -1,6 +1,6 @@
 {
   "baseline_commit": "3cff781cad9b14141debcae90b2671f1d12c9dc2",
-  "release": "1.112",
+  "release": "1.113",
   "coordinates": "Final font coordinates, after spacing and general polish. These reviewed sources supersede the provisional generator contour; no second fairing pass.",
   "glyphs": {
     "Regular": {
@@ -56,7 +56,7 @@
       },
       "uni042F": {
         "path": "data/curve-finish/Regular/uni042F.glif",
-        "sha256": "0dafe4c23abd972dcda4203e2ac67073ad30c0fa1b6e3d98b9874ed0cebb8676",
+        "sha256": "4b5af7d90e72fe09afdb6c24a234c079db37fb4d1a4cc27d1709f262cabfd396",
         "advance_and_lsb": [
           507,
           -11
@@ -74,7 +74,7 @@
           479,
           720
         ],
-        "outline_deviation": 1.596,
+        "outline_deviation": 1.59648,
         "repairs": [
           {
             "target": {
@@ -125,12 +125,25 @@
             },
             "handle_movement": 3.0,
             "tangent_after": 0.0
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 76,
+            "points_after": 75,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "0c4ef4636cecc4f0f4c9ecedc6a3aa1c03c5aad00c03df02075563632d62a5b0"
           }
         ]
       },
       "uni0436": {
         "path": "data/curve-finish/Regular/uni0436.glif",
-        "sha256": "74c714181d188aa44cdb11eb390f7cbe4d46c1f1e606d34cad1566ea3ffa8243",
+        "sha256": "a639731cbb0edc088f1f06fda70a230be803bd70d5c44496325b480ba26b1a56",
         "advance_and_lsb": [
           536,
           -13
@@ -148,7 +161,7 @@
           543,
           510
         ],
-        "outline_deviation": 3.165,
+        "outline_deviation": 3.16504,
         "repairs": [
           {
             "target": {
@@ -289,6 +302,19 @@
               313,
               304
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 165,
+            "points_after": 164,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "7825997f405a8bbd83644e3c04a7a6c8c51b771e4a1f3f599fe3f3cd61e03f8f"
           }
         ]
       },
@@ -331,7 +357,7 @@
       },
       "uni043C": {
         "path": "data/curve-finish/Regular/uni043C.glif",
-        "sha256": "046d7c1c43955f5401b63baea49b117dc447ae9828ed15fa62ff8b0c0ad3a47d",
+        "sha256": "cca91b61dccd326cc095861d0d938c2e006ad18be5c7b12b61092dbb29044048",
         "advance_and_lsb": [
           510,
           -5
@@ -349,7 +375,7 @@
           507,
           510
         ],
-        "outline_deviation": 1.804,
+        "outline_deviation": 1.8042,
         "repairs": [
           {
             "target": {
@@ -546,6 +572,19 @@
                 25.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 73,
+            "points_after": 72,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c8abdb594ecd9557a96f03f992aa5cd86d29e97c22ba568fa7dcbd018fd6768b"
           }
         ]
       },
@@ -1557,7 +1596,7 @@
       },
       "uni0442.ss08": {
         "path": "data/curve-finish/Regular/uni0442.ss08.glif",
-        "sha256": "bf613ec3d289e8a8484a388e2e29d91250f7372f67aa45204795b6fc8a535536",
+        "sha256": "929b032390ba26517c62a1ba31c30c4fe60f8b730f565cef05831241f20d0734",
         "advance_and_lsb": [
           296,
           -18
@@ -1575,7 +1614,7 @@
           300,
           510
         ],
-        "outline_deviation": 1.455,
+        "outline_deviation": 1.45472,
         "repairs": [
           {
             "target": {
@@ -1676,6 +1715,19 @@
             },
             "handle_movement": 1.0,
             "tangent_after": 0.0
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 49,
+            "points_after": 48,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 1
+            },
+            "geometry_sha256": "83b34794fdea10043be4e16d5b714cfc44ed5cb9bc3a284071e75de6e4781a57"
           }
         ]
       },
@@ -2208,7 +2260,7 @@
       },
       "uni04A2.tail_old": {
         "path": "data/curve-finish/Regular/uni04A2.tail_old.glif",
-        "sha256": "6577fcf62bd6397d4a4230fb202d28d5daff8af05918147b4642980097e9c444",
+        "sha256": "dcf503402915d08a4f64c33fa0da05e4be7ea8a31c214d5f8a5d607e21f65eb4",
         "advance_and_lsb": [
           575,
           19
@@ -2226,7 +2278,7 @@
           595,
           720
         ],
-        "outline_deviation": 0.847,
+        "outline_deviation": 0.84705,
         "repairs": [
           {
             "target": {
@@ -2240,6 +2292,19 @@
             },
             "fit_error": 0.62,
             "radius": 18
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 102,
+            "points_after": 101,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 1
+            },
+            "geometry_sha256": "cc0e4a272816986775b07a70e4ddc96f6e781a48d43c2b7f1bbb17eb22305c69"
           }
         ]
       },
@@ -2290,7 +2355,7 @@
       },
       "uni0419": {
         "path": "data/curve-finish/Regular/uni0419.glif",
-        "sha256": "210ca8c152aee0be9dbd7cd14a98b86aec744487a68c6190ca3cc4ddedc5da84",
+        "sha256": "b1420cddee9925d1a6653db5c66e2c568e2a5a697adfaa19dde351b4a7c76402",
         "advance_and_lsb": [
           546,
           19
@@ -2308,7 +2373,7 @@
           527,
           940
         ],
-        "outline_deviation": 0.767,
+        "outline_deviation": 0.76732,
         "repairs": [
           {
             "target": {
@@ -2331,6 +2396,19 @@
             },
             "movement": 1.803,
             "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 111,
+            "points_after": 110,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c39434c93bf194c6a21774e134610e29a257ef07162274916e54f1dda92ec01f"
           }
         ]
       },
@@ -2382,7 +2460,7 @@
       },
       "uni0439": {
         "path": "data/curve-finish/Regular/uni0439.glif",
-        "sha256": "51f1b031d311b3cc8b4f2a43feeaf9697562a5be2644b8cbca0835c13fbf7212",
+        "sha256": "38607e303538060c9928ef02a59f4266472dcd4af41e1de3e3f582bf6f66f62d",
         "advance_and_lsb": [
           454,
           11
@@ -2400,7 +2478,7 @@
           440,
           730
         ],
-        "outline_deviation": 0.767,
+        "outline_deviation": 0.76732,
         "repairs": [
           {
             "target": {
@@ -2423,6 +2501,19 @@
             },
             "movement": 1.803,
             "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 78,
+            "points_after": 77,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "24c785262c4997313daf1f0e9991147d457577e435b1a53b01c71e447be35526"
           }
         ]
       },
@@ -2680,6 +2771,302 @@
               ]
             ],
             "peak_curvature_relative_jump": 0.048907388137357
+          }
+        ]
+      },
+      "uni0413": {
+        "path": "data/curve-finish/Regular/uni0413.glif",
+        "sha256": "b35ba9e259deab6f7cdcf637f35fa562e984504ab1ccf4313f13f40d480248fb",
+        "advance_and_lsb": [
+          384,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          0,
+          403,
+          720
+        ],
+        "bounds": [
+          19,
+          0,
+          403,
+          720
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 44,
+            "points_after": 43,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "3022c91ce2ddf6ed2aef5c02534c5caf1e78b6ea37d9ff031f77781e2f9f293a"
+          }
+        ]
+      },
+      "uni0414": {
+        "path": "data/curve-finish/Regular/uni0414.glif",
+        "sha256": "9e9c922c127bf082dabca2b0210e6cd1beeb050cf8e36aea190d4a9436a7b21e",
+        "advance_and_lsb": [
+          554,
+          -20
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -20,
+          -110,
+          532,
+          720
+        ],
+        "bounds": [
+          -20,
+          -110,
+          532,
+          720
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 68,
+            "points_after": 67,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "f09dd52491ec570f92ec96fa73ed38dc49760b946a07b802d390ea82ed353624"
+          }
+        ]
+      },
+      "uni042A": {
+        "path": "data/curve-finish/Regular/uni042A.glif",
+        "sha256": "3cd9717b2dfaae1da64f19f0013f3d869c4f7db247615a6f0131bc8b0ea83b70",
+        "advance_and_lsb": [
+          565,
+          11
+        ],
+        "contours": 2,
+        "before_bounds": [
+          11,
+          0,
+          555,
+          730
+        ],
+        "bounds": [
+          11,
+          0,
+          555,
+          730
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 69,
+            "points_after": 68,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c687777c47884701cd53b071ebd8d2103eadabb942d9f95d1826e7fa452d3c5f"
+          }
+        ]
+      },
+      "uni0431": {
+        "path": "data/curve-finish/Regular/uni0431.glif",
+        "sha256": "a301958bb8258e97e9a90d93634a8b2b284df0572a53c6164563657fc768d465",
+        "advance_and_lsb": [
+          434,
+          32
+        ],
+        "contours": 2,
+        "before_bounds": [
+          32,
+          -9,
+          391,
+          742
+        ],
+        "bounds": [
+          32,
+          -9,
+          391,
+          742
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 61,
+            "points_after": 58,
+            "operations": {
+              "implicit_midpoints": 3,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "a276a254092eec9ce49c0ecced3b89b3c4e3f19da642500144c7139eef8b6b28"
+          }
+        ]
+      },
+      "uni0432": {
+        "path": "data/curve-finish/Regular/uni0432.glif",
+        "sha256": "4b2c1ccbc066fcca84e82af6bc15f31168d9415b6bcc297a7a25831a27625106",
+        "advance_and_lsb": [
+          435,
+          19
+        ],
+        "contours": 3,
+        "before_bounds": [
+          19,
+          0,
+          399,
+          516
+        ],
+        "bounds": [
+          19,
+          0,
+          399,
+          516
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 82,
+            "points_after": 81,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "56f11594067c8aa1a8b67e19d9ffb4d1659d27f763a32fd8baf7216ddc0ed29a"
+          }
+        ]
+      },
+      "uni043A": {
+        "path": "data/curve-finish/Regular/uni043A.glif",
+        "sha256": "f2999d0f1589dc16db0eca09d2341e40855633303e30ac63f4e67fa84929784a",
+        "advance_and_lsb": [
+          441,
+          19
+        ],
+        "contours": 1,
+        "before_bounds": [
+          19,
+          0,
+          455,
+          510
+        ],
+        "bounds": [
+          19,
+          0,
+          455,
+          510
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 83,
+            "points_after": 82,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "fb443423b20a4986f6d8e7171a2d9b6c600ddbe221b98851b3102115c520fabe"
+          }
+        ]
+      },
+      "uni0492": {
+        "path": "data/curve-finish/Regular/uni0492.glif",
+        "sha256": "2081cc9c7d815c432f223e834f3e2ff7298c7a560da4b2758f3fafb65e814d4e",
+        "advance_and_lsb": [
+          388,
+          23
+        ],
+        "contours": 1,
+        "before_bounds": [
+          23,
+          0,
+          407,
+          720
+        ],
+        "bounds": [
+          23,
+          0,
+          407,
+          720
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 60,
+            "points_after": 59,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "e380130118118a3e6e017715db48a025a3b1b8f26eef3f75f2eec187a68aa9cc"
+          }
+        ]
+      },
+      "uni04E9": {
+        "path": "data/curve-finish/Regular/uni04E9.glif",
+        "sha256": "3202283a67a790d77b6846a1b8e6445c65b8f3f68b218b3a370ec443b43fd958",
+        "advance_and_lsb": [
+          408,
+          23
+        ],
+        "contours": 3,
+        "before_bounds": [
+          23,
+          -9,
+          383,
+          516
+        ],
+        "bounds": [
+          23,
+          -9,
+          383,
+          516
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 23,
+            "points_after": 21,
+            "operations": {
+              "implicit_midpoints": 2,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "65de543568bbc404f90da363b7c55264428f638b2c7173fb70a408a885150b78"
           }
         ]
       }
@@ -3516,7 +3903,7 @@
       },
       "uni0426": {
         "path": "data/curve-finish/Italic/uni0426.glif",
-        "sha256": "217f50c4023064bbd68d738a5892e88f45cb0594c857105a72068eaf01e845b4",
+        "sha256": "3aed78ec10da6612d2ce2790f25c6efa125457d57ea78b17a411c41a1f23cc03",
         "advance_and_lsb": [
           564,
           -31
@@ -3534,7 +3921,7 @@
           639,
           720
         ],
-        "outline_deviation": 1.55,
+        "outline_deviation": 1.55011,
         "repairs": [
           {
             "target": {
@@ -3548,6 +3935,19 @@
             },
             "fit_error": 1.121,
             "radius": 18
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 74,
+            "points_after": 72,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "d123d41d281e456986ac2094d9bb6ebc3f3db57d421f656fb5c4269e625ce6a4"
           }
         ]
       },
@@ -3642,7 +4042,7 @@
       },
       "uni0429": {
         "path": "data/curve-finish/Italic/uni0429.glif",
-        "sha256": "04d39c9edcea1c8ed43de2c3b6a63487c78a65335f07ac195bc94ad598f99d1a",
+        "sha256": "51787f41ee31600cdec1b30000ef65b7464c2a7b93f9dfbc57b44cef4f44b9ce",
         "advance_and_lsb": [
           722,
           -32
@@ -3660,7 +4060,7 @@
           797,
           720
         ],
-        "outline_deviation": 1.55,
+        "outline_deviation": 1.55011,
         "repairs": [
           {
             "target": {
@@ -3674,6 +4074,19 @@
             },
             "fit_error": 1.121,
             "radius": 18
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 99,
+            "points_after": 97,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "60b8272dee334f3f1c9a75b4a6e6583f91faa1b37ea3cb1bb8d69c5d9bda0da3"
           }
         ]
       },
@@ -3733,7 +4146,7 @@
       },
       "uni042E": {
         "path": "data/curve-finish/Italic/uni042E.glif",
-        "sha256": "8e1adfba4a239c936558c9bbd86da16df6fa66b33985f0fba36c7b013df613ba",
+        "sha256": "9247638291bc7a652b996d8f12ec9b15e9963bf61116e53a380754ceffdbd042",
         "advance_and_lsb": [
           731,
           -32
@@ -3751,7 +4164,7 @@
           689,
           730
         ],
-        "outline_deviation": 1.15,
+        "outline_deviation": 1.14994,
         "repairs": [
           {
             "target": {
@@ -3856,12 +4269,25 @@
             },
             "handle_movement": 1.414,
             "tangent_after": 0.0
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 91,
+            "points_after": 89,
+            "operations": {
+              "implicit_midpoints": 2,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "7cb213f784d59efed13ad13612051099ccf6f8b252a7f51dcc7271d6e69ddf13"
           }
         ]
       },
       "uni042F": {
         "path": "data/curve-finish/Italic/uni042F.glif",
-        "sha256": "d73eece8590aa2d6de84e08c76d9d74234cea4a268ba831851696b3c56883761",
+        "sha256": "636d7824d16e4752e66117f5213e0d596e359ac269e4f0a53151ccadc315d05c",
         "advance_and_lsb": [
           519,
           -60
@@ -3879,7 +4305,7 @@
           595,
           720
         ],
-        "outline_deviation": 1.008,
+        "outline_deviation": 1.00803,
         "repairs": [
           {
             "target": {
@@ -3930,8 +4356,28 @@
             },
             "handle_movement": 1.0,
             "tangent_after": 0.0
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 80,
+            "points_after": 79,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "613c35058c3aef8c8b74028110dd62ad4ec7d4681397115dba030af322f11bce"
           }
-        ]
+        ],
+        "additional_input_advance_and_lsb": [
+          [
+            519,
+            -59
+          ]
+        ],
+        "input_metrics_note": "Fresh I037 capital generation from current Regular gives LSB -59; the historic I031 source gives -60. Both have advance 519. The reviewed master restores the exact accepted bounds and metrics [519,-60]; final output is checked against published 1.112."
       },
       "uni0492": {
         "path": "data/curve-finish/Italic/uni0492.glif",
@@ -3983,7 +4429,7 @@
       },
       "uni049A": {
         "path": "data/curve-finish/Italic/uni049A.glif",
-        "sha256": "000b3896e37035c3fcc49b6064c7f798acf53226ed7720ef77a9f24d7dced55d",
+        "sha256": "2e16cc639d4fc828cff752203fe725135a53bcc6b2394eb76b63abe9005269cf",
         "advance_and_lsb": [
           487,
           -38
@@ -4001,7 +4447,7 @@
           606,
           720
         ],
-        "outline_deviation": 1.105,
+        "outline_deviation": 1.10454,
         "repairs": [
           {
             "target": {
@@ -4026,12 +4472,25 @@
             },
             "movement": 0.5,
             "repair": "remove explicit node to use an exact implicit midpoint"
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 95,
+            "points_after": 94,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "f01e877894bcb52d6b8746d38d3602abc26ab811d7214d9058debedb196f9cf2"
           }
         ]
       },
       "uni04A2": {
         "path": "data/curve-finish/Italic/uni04A2.glif",
-        "sha256": "928b7d8b17ee8deaa2747e2127a21dbcb89384763a4dfbfe44790778fa2ed3a1",
+        "sha256": "850dec9463d720740f52b7a155e9d6c4e8323d292c1fc5bd407382753285aea1",
         "advance_and_lsb": [
           548,
           -38
@@ -4049,7 +4508,7 @@
           633,
           720
         ],
-        "outline_deviation": 1.55,
+        "outline_deviation": 1.55011,
         "repairs": [
           {
             "target": {
@@ -4089,6 +4548,19 @@
             },
             "fit_error": 1.121,
             "radius": 18
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 92,
+            "points_after": 91,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c6470e976925b9128d19e96be2c4bee09bb82ebc26c626020fb027bfba9809c0"
           }
         ]
       },
@@ -4231,7 +4703,7 @@
       },
       "uni043D": {
         "path": "data/curve-finish/Italic/uni043D.glif",
-        "sha256": "0409b7334249bd079a0397b47e15c834f7d2c5402c730b8195b2e783838fe7aa",
+        "sha256": "8a04793c832d81993e10dc2afca388a3e7afd70c398683a11d2ea25b550a4c35",
         "advance_and_lsb": [
           478,
           9
@@ -4249,7 +4721,7 @@
           468,
           516
         ],
-        "outline_deviation": 0.767,
+        "outline_deviation": 0.76707,
         "repairs": [
           {
             "target": {
@@ -4263,6 +4735,19 @@
             },
             "fit_error": 0.354,
             "radius": 18
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 70,
+            "points_after": 69,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "181af99040e76ec822da519371c691661a5cbc8cae56a7bfcfe163e1b355d5bd"
           }
         ]
       },
@@ -4373,7 +4858,7 @@
       },
       "uni044C": {
         "path": "data/curve-finish/Italic/uni044C.glif",
-        "sha256": "01d54779b4746d7584e354455a51ef1e36883b6bc9ed265b9996a1ee9d0ee19e",
+        "sha256": "b65a41f81823009a27edb05966afb68ad86f5d599ca58ded652fc4d5e23ba86b",
         "advance_and_lsb": [
           364,
           10
@@ -4391,7 +4876,7 @@
           352,
           516
         ],
-        "outline_deviation": 0.937,
+        "outline_deviation": 0.93708,
         "repairs": [
           {
             "target": {
@@ -4486,12 +4971,25 @@
               180,
               293
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 70,
+            "points_after": 68,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "608472d78c64e8ae3bf29061e8094e3b8e1261981812edb9d1f50d86899caee8"
           }
         ]
       },
       "uni044A": {
         "path": "data/curve-finish/Italic/uni044A.glif",
-        "sha256": "6ca919eaf0579040a1110dc496acf74f6a56da7ab6cd222f493743dccad604e4",
+        "sha256": "7dbbd27e4ef12783163970ab2ee113d09142342ebb1e5e26dc09cf200c0b500e",
         "advance_and_lsb": [
           343,
           12
@@ -4509,7 +5007,7 @@
           331,
           510
         ],
-        "outline_deviation": 1.33,
+        "outline_deviation": 1.32957,
         "repairs": [
           {
             "target": {
@@ -4536,12 +5034,25 @@
             },
             "fit_error": 1.006,
             "radius": 22
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 59,
+            "points_after": 57,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "0a848ea5cb319f51a1db94fd178a0f4b543dabee2084ba6fed1a4c4903cc3dd3"
           }
         ]
       },
       "uni044B": {
         "path": "data/curve-finish/Italic/uni044B.glif",
-        "sha256": "cb5049c0eed63554f0c12682cb4ae62c56665ee5f5cf20f91b7a7bb154cb20a1",
+        "sha256": "c23e7e12fdf5b4b23d34c0abc7d5bdb872334b20b4e3547bf19c72316e486ae4",
         "advance_and_lsb": [
           593,
           10
@@ -4559,7 +5070,7 @@
           583,
           516
         ],
-        "outline_deviation": 1.491,
+        "outline_deviation": 1.49059,
         "repairs": [
           {
             "target": {
@@ -4651,6 +5162,19 @@
             },
             "handle_movement": 3.65,
             "tangent_after": 0.483
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 103,
+            "points_after": 101,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 1,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "504fc077973711d251e1214f08ed9b7928c5606dd4e9e8e3d4ecfe69062884eb"
           }
         ]
       },
@@ -4757,7 +5281,7 @@
       },
       "uni043C": {
         "path": "data/curve-finish/Italic/uni043C.glif",
-        "sha256": "a81b550bd7c193f7d1d70031c5928d5ac0383631d04d3f6f5bfbf8be817b3a7c",
+        "sha256": "866e4c7a08058470cec694b83e182d669e2243bae60f9de4ef179d439b47fc3e",
         "advance_and_lsb": [
           523,
           -6
@@ -4775,7 +5299,7 @@
           511,
           510
         ],
-        "outline_deviation": 2.74,
+        "outline_deviation": 2.73987,
         "repairs": [
           {
             "target": {
@@ -4815,6 +5339,19 @@
             },
             "fit_error": 1.543,
             "radius": 48
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 53,
+            "points_after": 48,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 2,
+              "straight_controls": 3,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "84d22a231f1bbd2cc0a71204e9bd09ca41f0361ad09675083a69839ab20fe16b"
           }
         ]
       },
@@ -4957,7 +5494,7 @@
       },
       "uni04AF": {
         "path": "data/curve-finish/Italic/uni04AF.glif",
-        "sha256": "539cd6c41e27021ca53e118b66198e2b3f5a116b1cebf5b0d572709ab6a0ecfe",
+        "sha256": "dceeb5990ff3034940ba7558734ed10c6cd151d8bb53e65f56ae8f24dd673bdf",
         "advance_and_lsb": [
           475,
           21
@@ -4975,7 +5512,7 @@
           455,
           516
         ],
-        "outline_deviation": 1.007,
+        "outline_deviation": 1.00668,
         "repairs": [
           {
             "target": {
@@ -5023,12 +5560,25 @@
                 213.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 79,
+            "points_after": 78,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "d152f501fed999370166b6f359a6f72a33f1099163532c2b03d4e11468733ab8"
           }
         ]
       },
       "uni04B1": {
         "path": "data/curve-finish/Italic/uni04B1.glif",
-        "sha256": "86f58af69b4939d8b4a709d9b1fd5c120a323e771424803717eb57b809b3e3f3",
+        "sha256": "82bbc155418b3d87b4430ff30accfd22857f657e758d304bd8e17c0f9e0daec4",
         "advance_and_lsb": [
           475,
           21
@@ -5046,7 +5596,7 @@
           455,
           516
         ],
-        "outline_deviation": 1.007,
+        "outline_deviation": 1.00668,
         "repairs": [
           {
             "target": {
@@ -5094,6 +5644,19 @@
                 213.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 87,
+            "points_after": 86,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "aba0c90a49cf9d95c94da4dfbdbb597bcd1d9ec888a640a083c7707b7651828c"
           }
         ]
       },
@@ -5939,7 +6502,7 @@
       },
       "uni2021": {
         "path": "data/curve-finish/Italic/uni2021.glif",
-        "sha256": "4f82c155881a06ea23e24c7f92fdbe3126f247b511b1c982a6546830dba211ce",
+        "sha256": "ef6c47d192706ca6df6d0174ddb237e8942f374c82a4f165ca34d5a973dd8087",
         "advance_and_lsb": [
           310,
           34
@@ -5957,7 +6520,7 @@
           334,
           720
         ],
-        "outline_deviation": 1.49,
+        "outline_deviation": 1.4899,
         "repairs": [
           {
             "target": {
@@ -6135,12 +6698,25 @@
                 0.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 57,
+            "points_after": 56,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "fd5f6335b06e34d071b3db92ab467b6e870a6b13de24dc024dc41416207bcadf"
           }
         ]
       },
       "uni0434": {
         "path": "data/curve-finish/Italic/uni0434.glif",
-        "sha256": "4933d5c972221eaf615ed5863b36332dace0daab4cce4d97933c71fe8e6da1c3",
+        "sha256": "090206f17f33c0eeb1bcecaa89203a9d07cf06084935a255637fe2e0213d1b39",
         "advance_and_lsb": [
           432,
           23
@@ -6158,7 +6734,7 @@
           431,
           516
         ],
-        "outline_deviation": 1.647,
+        "outline_deviation": 1.64739,
         "repairs": [
           {
             "target": {
@@ -6230,6 +6806,19 @@
                 176.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 76,
+            "points_after": 75,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c08ab68e976582abc50e8e89ac8a8b10ebea108fc5b5da555247b1eaf78bede4"
           }
         ]
       },
@@ -6349,7 +6938,7 @@
       },
       "uni0448": {
         "path": "data/curve-finish/Italic/uni0448.glif",
-        "sha256": "ace45972270888f82ce47ff5120700f16f26a072ba5ae438a031e5de9f2d70ac",
+        "sha256": "163d274dac648509ebfcb37b49ad5b5993ed1e3332f2958cc2f841bb467474f6",
         "advance_and_lsb": [
           728,
           17
@@ -6367,7 +6956,7 @@
           718,
           516
         ],
-        "outline_deviation": 1.007,
+        "outline_deviation": 1.00668,
         "repairs": [
           {
             "target": {
@@ -6436,6 +7025,19 @@
                 213.0
               ]
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 99,
+            "points_after": 98,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 1,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c7d4b629f4158fa66dd06248fa888cd9cbdcc2347730704666eb097c22d1c6c4"
           }
         ]
       },
@@ -6692,7 +7294,7 @@
       },
       "uni2032": {
         "path": "data/curve-finish/Italic/uni2032.glif",
-        "sha256": "0f2a30477e79e2b88350557f47dd5a13982567920e0422611bfc4ac7c2d9dc44",
+        "sha256": "16f608b46f8634f8fb60ca1b74c47789e883318fa0db97995be2d4bcd3ef55da",
         "advance_and_lsb": [
           145,
           98
@@ -6710,7 +7312,7 @@
           213,
           725
         ],
-        "outline_deviation": 1.342,
+        "outline_deviation": 1.34199,
         "repairs": [
           {
             "repair": "preserve affine Regular prime curve; bypass secondary fairing seam; align bottom control after grid rounding",
@@ -6719,12 +7321,25 @@
               0,
               2
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 15,
+            "points_after": 13,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 2,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "fc70c5a88c6dc4510ee69f475bb1317a59ec0ad02b1733af903a4d749ab4aa82"
           }
         ]
       },
       "uni2033": {
         "path": "data/curve-finish/Italic/uni2033.glif",
-        "sha256": "f897452bcff39d8704eaf23286184397db259d8131c3d29111235787f29ea02e",
+        "sha256": "cbc9b2ac64e4d8c44c2c5abd94e3a7e1b1b9733dd1ad51dd785c22325836ca19",
         "advance_and_lsb": [
           250,
           98
@@ -6742,7 +7357,7 @@
           318,
           725
         ],
-        "outline_deviation": 1.476,
+        "outline_deviation": 1.47625,
         "repairs": [
           {
             "repair": "preserve affine Regular prime curve; bypass secondary fairing seam; align bottom control after grid rounding",
@@ -6751,6 +7366,19 @@
               0,
               2
             ]
+          },
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 29,
+            "points_after": 27,
+            "operations": {
+              "implicit_midpoints": 0,
+              "collinear_line_points": 0,
+              "straight_controls": 2,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "ce7332b542ae40430ed0be918a79eeae27065fa1b5c4ce6d6372e408f3b36061"
           }
         ]
       },
@@ -6859,6 +7487,191 @@
             "native_local_and_printed_forms": "unchanged"
           }
         ]
+      },
+      "uni042A": {
+        "path": "data/curve-finish/Italic/uni042A.glif",
+        "sha256": "0eb389e618a71468f01712f16d3c2f955004bc93934cb4c376d1d22f753fac5b",
+        "advance_and_lsb": [
+          613,
+          78
+        ],
+        "contours": 2,
+        "before_bounds": [
+          78,
+          0,
+          563,
+          730
+        ],
+        "bounds": [
+          78,
+          0,
+          563,
+          730
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 72,
+            "points_after": 71,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "ff0f2c20de7894815598047b7a4b09297519923827a3bd1f975266e3a3d27ab2"
+          }
+        ]
+      },
+      "uni0444": {
+        "path": "data/curve-finish/Italic/uni0444.glif",
+        "sha256": "3d144dbba14a9666f7edf3954e498329b4393d1846f988b05ed3d5628ca40383",
+        "advance_and_lsb": [
+          605,
+          30
+        ],
+        "contours": 3,
+        "before_bounds": [
+          30,
+          -205,
+          573,
+          743
+        ],
+        "bounds": [
+          30,
+          -205,
+          573,
+          743
+        ],
+        "outline_deviation": 0.75108,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 96,
+            "points_after": 94,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 1,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "1a80a818a7978fe31eeddaad89a1b2e14373b19d2c6e14efb6a61a521e65188d"
+          }
+        ]
+      },
+      "uni25CC": {
+        "path": "data/curve-finish/Italic/uni25CC.glif",
+        "sha256": "a40ec1144ed98922fc91a54c01cf17dc9d910ebf5493574637ff16046d81408b",
+        "advance_and_lsb": [
+          570,
+          45
+        ],
+        "contours": 12,
+        "before_bounds": [
+          45,
+          15,
+          525,
+          495
+        ],
+        "bounds": [
+          45,
+          15,
+          525,
+          495
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 116,
+            "points_after": 112,
+            "operations": {
+              "implicit_midpoints": 4,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "108359d60b2cf116ce417d068754ad474ec629cb2a6af5557565151815221bc3"
+          }
+        ]
+      },
+      "uni20B4": {
+        "path": "data/curve-finish/Italic/uni20B4.glif",
+        "sha256": "ab1dc7eba60db63173bc72b624171532e69c2cc35866bc93e59ed5c53a5493a0",
+        "advance_and_lsb": [
+          407,
+          -4
+        ],
+        "contours": 1,
+        "before_bounds": [
+          -4,
+          -9,
+          446,
+          730
+        ],
+        "bounds": [
+          -4,
+          -9,
+          446,
+          730
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 90,
+            "points_after": 89,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "e2c8cd927ec5d908dac500dca6c1c371b60e5c2405851f54fbf7ceb0aef0de9f"
+          }
+        ]
+      },
+      "uni20BD": {
+        "path": "data/curve-finish/Italic/uni20BD.glif",
+        "sha256": "88fa67d2b2b4275b662007a951204421025a18cfefa9b56b999ead5a4da72d6d",
+        "advance_and_lsb": [
+          466,
+          -40
+        ],
+        "contours": 2,
+        "before_bounds": [
+          -40,
+          0,
+          510,
+          720
+        ],
+        "bounds": [
+          -40,
+          0,
+          510,
+          720
+        ],
+        "outline_deviation": 0.0,
+        "repairs": [
+          {
+            "repair": "lossless removal of redundant stored points",
+            "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+            "points_before": 70,
+            "points_after": 69,
+            "operations": {
+              "implicit_midpoints": 1,
+              "collinear_line_points": 0,
+              "straight_controls": 0,
+              "split_quadratics": 0
+            },
+            "geometry_sha256": "c4e6903b9015597ed6d72355d7ca227317cee7489edbb9abb67d490e8a9c545c"
+          }
+        ]
       }
     }
   },
@@ -6896,6 +7709,55 @@
         "Regular": [],
         "Italic": [
           "uni0447"
+        ]
+      }
+    },
+    "1.113": {
+      "baseline_version": "1.112",
+      "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
+      "geometry_preserving": true,
+      "glyphs": {
+        "Regular": [
+          "uni0413",
+          "uni0414",
+          "uni0419",
+          "uni042A",
+          "uni042F",
+          "uni0431",
+          "uni0432",
+          "uni0436",
+          "uni0439",
+          "uni043A",
+          "uni043C",
+          "uni0492",
+          "uni04E9",
+          "uni0442.ss08",
+          "uni04A2.tail_old"
+        ],
+        "Italic": [
+          "uni0426",
+          "uni0429",
+          "uni042A",
+          "uni042E",
+          "uni042F",
+          "uni049A",
+          "uni04A2",
+          "uni0448",
+          "uni043D",
+          "uni0434",
+          "uni044C",
+          "uni044A",
+          "uni044B",
+          "uni0444",
+          "uni043C",
+          "uni04AF",
+          "uni04B1",
+          "uni25CC",
+          "uni2021",
+          "uni2032",
+          "uni2033",
+          "uni20B4",
+          "uni20BD"
         ]
       }
     }

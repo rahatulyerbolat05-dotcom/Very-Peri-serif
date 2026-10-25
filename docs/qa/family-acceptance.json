@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "0637d0a2495eae381256bdd16db10dcdb5d3edfd84fb404e3b062d2f3fa20828",
+      "sha256": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
       "style": "Regular",
-      "version": "Version 1.112",
+      "version": "Version 1.113",
       "passed": 1614,
       "failed": 0,
       "checks": [
@@ -1661,9 +1661,9 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "8bb5d92f1a0fbe88279b992e1566d160b1b6887c7b02c4a6a27db6c0dae7a02c",
+      "sha256": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
       "style": "Italic",
-      "version": "Version 1.112",
+      "version": "Version 1.113",
       "passed": 2171,
       "failed": 0,
       "checks": [

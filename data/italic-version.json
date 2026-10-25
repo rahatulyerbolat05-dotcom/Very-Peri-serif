@@ -1,5 +1,5 @@
 {
- "version": "0.36",
+ "version": "0.37",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -36,6 +36,7 @@
   "0.33": "Family 1.109: remove short stem jog and exit-cap corner of italic я after grid fairing; preserve bowl, counter, metrics and bounds.",
   "0.34": "Family 1.110: widen default Cyrillic г/ғ by 20 advance units, preserve stem weight/angle, extend entry and exit flourishes, shift mark anchors by 10; retain native Serbian/Macedonian and printed ss04 forms.",
   "0.35": "Family 1.111: remove confirmed two-curve self-intersection loops at pointed tail/body joins in ц, щ and ң; keep all other points, shapes, metrics and the author-selected tail style; exact CFF export.",
-  "0.36": "Family 1.112: replace the inner bowl/stem construction step in Italic ч by one convex quadratic from (212,267) via (142,267) to (160,340); preserve all other points, glyphs, metrics and features; exact CFF export."
+  "0.36": "Family 1.112: replace the inner bowl/stem construction step in Italic ч by one convex quadratic from (212,267) via (142,267) to (160,340); preserve all other points, glyphs, metrics and features; exact CFF export.",
+  "0.37": "Frozen 1.113: exact removal of redundant stored points; accepted CFF programs preserved; legal metadata names Yerbolat Rakhatuly (DEW), retaining Instrument/Cormorant notices and OFL 1.1."
  }
 }
