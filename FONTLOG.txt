@@ -147,3 +147,10 @@ exit stroke, selected by stylistic set ss10 or the alternates menu (aalt).
 Drawing selected by Yerbolat Rakhatuly (DEW). The alternate has its own spacing,
 kerning and mark anchors. All existing default glyphs, metrics, native hinting
 and layout behavior are retained. TTF, OTF and WOFF2 include the feature.
+
+2026-10-27 — Version 1.115 / Italic I039
+-------------------------------------
+The author-selected arched lowercase Cyrillic el is now the default in Italic.
+The previous diagonal el is retained in stylistic set ss10 and aalt.
+Both drawings retain their exact outlines, advances, kerning and mark anchors.
+Regular and every other default glyph remain unchanged.

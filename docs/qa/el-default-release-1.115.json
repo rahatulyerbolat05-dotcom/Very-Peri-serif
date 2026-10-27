@@ -1,0 +1,31 @@
+{
+  "version": "1.115",
+  "date": "2026-10-27",
+  "source_generation": "Fresh make family: Regular, caps, I039 lowercase and feature sources completed. Final linking completed with make -o italic family after fixing report metadata and preserving the original binary GPOS partitions.",
+  "default_promotion_checks": 10508,
+  "both_forms_visible_pairs": 1856,
+  "base_freeze_checks": 1271,
+  "fontbakery": {
+    "(not finished)": 0,
+    "INFO": 6,
+    "PASS": 163,
+    "SKIP": 71,
+    "WARN": 2
+  },
+  "font_sha256": {
+    "VeryPeriSerif-Regular.ttf": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
+    "VeryPeriSerif-Italic.ttf": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af"
+  },
+  "archive": {
+    "version": "1.115",
+    "date": "2026-10-27",
+    "archive": "VeryPeriSerif-1.115.zip",
+    "download": "VeryPeriSerif-latest.zip",
+    "sha256": "173a73b2a3351f35a362fe3b7bbe1d4b91787c4c721dd25d2f7b31c115945d78",
+    "styles": [
+      "Regular",
+      "Italic"
+    ]
+  },
+  "scope": "Only selection of the already approved italic el. Prior form retained in ss10/aalt; global optical queue remains open."
+}

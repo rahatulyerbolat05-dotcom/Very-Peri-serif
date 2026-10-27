@@ -14,13 +14,13 @@ def main():
     cfg=json.loads(Path('data/params.json').read_text())['regular_release'];v=cfg['version']
     proof=Proof('build/release/VeryPeriSerif-Italic.ttf')
     fig,ax=page(f'Very Peri Serif {v} · Italic · ss10',1400,1200)
-    ax.text(60,110,'Default',fontsize=15,color='#69656a')
-    ax.text(700,110,'ss10',fontsize=15,color='#69656a')
+    ax.text(60,110,'Default: arched el',fontsize=15,color='#69656a')
+    ax.text(700,110,'ss10: previous diagonal el',fontsize=15,color='#69656a')
     proof.line(ax,'л',60,450,560)
     proof.line(ax,'л',700,450,560,{'ss10':1})
     for k,mode in enumerate(({}, {'ss10':1})):
         y=630+k*275
-        ax.text(60,y-70,'Default' if k==0 else 'ss10',fontsize=15,color='#69656a')
+        ax.text(60,y-70,'Default: arched el' if k==0 else 'ss10: previous diagonal el',fontsize=15,color='#69656a')
         for j,text in enumerate(('лилия · аллея · люблю · луна','гүл · әлем · ләззат · л́ · лл')):
             end=proof.line(ax,text,60,y+j*115,103,mode)
             assert end<1340,(text,end)

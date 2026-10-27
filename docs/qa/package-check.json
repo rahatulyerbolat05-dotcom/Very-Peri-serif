@@ -1,8 +1,8 @@
 {
-  "version": "1.114",
-  "italic_version": "1.114",
-  "archive": "dist/VeryPeriSerif-1.114.zip",
-  "archive_sha256": "70cca15366ff0a3cdfca70fce6c499d2578d7a2c13e29dbb4fc7b7086e754c70",
+  "version": "1.115",
+  "italic_version": "1.115",
+  "archive": "dist/VeryPeriSerif-1.115.zip",
+  "archive_sha256": "173a73b2a3351f35a362fe3b7bbe1d4b91787c4c721dd25d2f7b31c115945d78",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",
@@ -18,7 +18,7 @@
     "fonts/webfonts/VeryPeriSerif-Italic.woff2",
     "fonts/webfonts/VeryPeriSerif-Regular.woff2",
     "fonts/webfonts/very-peri-serif.css",
-    "specimen/VeryPeriSerif-El-Alternate-1.114.pdf",
+    "specimen/VeryPeriSerif-El-Alternate-1.115.pdf",
     "specimen/VeryPeriSerif-Family-Specimen.pdf",
     "specimen/VeryPeriSerif-Regular-Specimen.pdf",
     "specimen/family.html"
@@ -37,14 +37,14 @@
       "hausdorff_worst": 0.758,
       "over_limit": [],
       "exact_cubic_control_error": {
-        "uni043B.ss10": 7.193062154233074e-06,
-        "uni0449": 7.50977735715326e-05,
-        "uni0433": 7.509777353977075e-05,
-        "uni0447": 0.00010298897671360429,
-        "uni0446": 7.509777352148362e-05,
         "uni044F": 9.09858389133851e-05,
         "uni0493": 6.918065648728772e-05,
-        "uni04A3": 0.0001220703125
+        "uni0446": 7.509777352148362e-05,
+        "uni04A3": 0.0001220703125,
+        "uni0449": 7.50977735715326e-05,
+        "uni0447": 0.00010298897671360429,
+        "uni043B": 7.193062154233074e-06,
+        "uni0433": 7.509777353977075e-05
       }
     }
   },

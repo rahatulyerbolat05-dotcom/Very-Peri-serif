@@ -73,8 +73,8 @@ def check(path, exhaustive=True):
                and f['hmtx'][ghe]==native['hmtx']['imacron'], 'Default ghe exactly matches Serbian body without macron')
         ck(shape('г',language='sr')[0][0]=='imacron' and shape('г',language='mk')[0][0]=='imacron', 'Serbian and Macedonian ghe retain macron')
         ck(shape('г',{'ss04':1})[0][0]=='uni0433.ss04', 'Printed ghe alternative retained')
-        ck(shape('л',{'ss10':1})[0][0]=='uni043B.ss10', 'Arched el alternate active')
-        ck(shape('л')[0][0]=='uni043B', 'Default el retained')
+        ck(shape('л',{'ss10':1})[0][0]=='uni043B.ss10', 'Previous el form available through ss10')
+        ck(shape('л')[0][0]=='uni043B' and f['hmtx']['uni043B']==(392,10), 'Arched el is the default')
         # Compare independent flattened profiles of the actual exported outlines.
         from italic_rules_measure import polys, runs
         barred=f.getBestCmap()[ord('ғ')]

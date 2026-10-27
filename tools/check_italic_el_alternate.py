@@ -10,6 +10,7 @@ from pathlib import Path
 import subprocess
 import sys
 from types import SimpleNamespace
+from weakref import WeakKeyDictionary
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import ots
@@ -17,20 +18,25 @@ import uharfbuzz as hb
 from fontTools.pens.ttGlyphPen import TTGlyphPointPen
 from fontTools.ttLib import TTFont
 from fontTools.ufoLib.glifLib import readGlyphFromString
-from italic_el_alternate import NAME, SOURCE, RECORD, legacy_view
+from italic_el_alternate import NAME, SOURCE, RECORD, legacy_view,unpromoted_view
 from build_draft_font import native_kern
 from check_tail_joins import path_in
 from contour_geometry import read_outline, inspect_outline
 from ttf2otf import exact_cubic_error
 from contour_contacts import Auditor
 
+_SHAPERS=WeakKeyDictionary()
+
 
 def shape(font, text, features=None, language='ru'):
-    if font.flavor:
-        font = copy.deepcopy(font)
-        font.flavor = None  # HarfBuzz takes decoded sfnt, not a WOFF2 container
-    buffer = io.BytesIO(); font.save(buffer)
-    hf = hb.Font(hb.Face(buffer.getvalue()))
+    hf=_SHAPERS.get(font)
+    if hf is None:
+        source=font
+        if font.flavor:
+            source=copy.deepcopy(font)
+            source.flavor=None  # decode the container once for all feature modes
+        buffer=io.BytesIO();source.save(buffer)
+        hf=hb.Font(hb.Face(buffer.getvalue()));_SHAPERS[font]=hf
     b = hb.Buffer(); b.add_str(text); b.guess_segment_properties(); b.language = language
     hb.shape(hf, b, features or {})
     return [(font.getGlyphName(g.codepoint),p.x_advance,p.x_offset,p.y_offset)
@@ -56,7 +62,7 @@ def main():
         checks += 1
     for style in ('Regular','Italic'):
         for fmt in args.formats.split(','):
-            path = path_in(args.root,style,fmt); current = TTFont(path)
+            path = path_in(args.root,style,fmt); current = unpromoted_view(TTFont(path))
             current.recalcTimestamp = False
             old = old_font(style,fmt); old.recalcTimestamp = False
             base = legacy_view(current)
@@ -88,7 +94,7 @@ def main():
                     ck(current['glyf'][NAME].getCoordinates(current['glyf']) == pen.glyph().getCoordinates(current['glyf']),
                        (fmt,'exact approved GLIF'))
                 else:
-                    ttf=TTFont(path_in(args.root,style,'ttf'))
+                    ttf=unpromoted_view(TTFont(path_in(args.root,style,'ttf')))
                     ck(exact_cubic_error(ttf,current,NAME)<.002,'exact CFF controls')
                 diag,_=inspect_outline(*read_outline(current,NAME))
                 forbidden={'tangent_break','self_intersection','zero_segment','stationary_point','short_segment','transverse_step'}
@@ -138,7 +144,7 @@ def main():
                 ck(shape(current,'л',{'ss10':1}) == shape(current,'л'),(fmt,'Regular unaffected'))
             report[style+'/'+fmt]=row
     result={'version':version,'baseline':'v1.113','passed':checks,'failed':0,'fonts':report,
-            'scope':'One approved ss10 alternate, its layout and preservation of every existing glyph and default behavior; not whole-family optical acceptance.'}
+            'scope':'Arched/previous el sources and preserved base layout, normalized to pre-promotion identities; actual default promotion is independently checked by check_el_default.py. Not whole-family optical acceptance.'}
     dest=Path(f'docs/qa/el-alternate-{version}.json')
     dest.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'passed':checks,'failed':0,'report':str(dest)}))

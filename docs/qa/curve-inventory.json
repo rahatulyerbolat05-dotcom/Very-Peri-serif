@@ -1,7 +1,7 @@
 {
   "fonts": {
     "Regular": {
-      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "sha256": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
       "glyph_count": 525,
       "types": {
         "simple": 291,
@@ -28722,7 +28722,7 @@
       }
     },
     "Italic": {
-      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "sha256": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af",
       "glyph_count": 492,
       "types": {
         "simple": 260,
@@ -53325,29 +53325,12 @@
           "native_unchanged": false,
           "same_shape_as": null,
           "origin": [
-            -20.0,
+            10.0,
             -9.0
           ],
           "diagnostics": {
             "waves": [],
-            "kinks": [
-              {
-                "xy": [
-                  301.0,
-                  104.0
-                ],
-                "degrees": 1.78,
-                "contour": 0
-              },
-              {
-                "xy": [
-                  141.0,
-                  340.0
-                ],
-                "degrees": 1.79,
-                "contour": 0
-              }
-            ],
+            "kinks": [],
             "micro": [],
             "roughness": []
           }
@@ -56219,12 +56202,29 @@
           "native_unchanged": false,
           "same_shape_as": null,
           "origin": [
-            10.0,
+            -20.0,
             -9.0
           ],
           "diagnostics": {
             "waves": [],
-            "kinks": [],
+            "kinks": [
+              {
+                "xy": [
+                  301.0,
+                  104.0
+                ],
+                "degrees": 1.78,
+                "contour": 0
+              },
+              {
+                "xy": [
+                  141.0,
+                  340.0
+                ],
+                "degrees": 1.79,
+                "contour": 0
+              }
+            ],
             "micro": [],
             "roughness": []
           }

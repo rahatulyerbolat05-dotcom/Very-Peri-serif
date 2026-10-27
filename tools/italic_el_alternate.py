@@ -1,11 +1,13 @@
-"""The approved El Arch 2 drawing as a late, additive ss10 extension.
+"""The approved El Arch 2 as the default, with the previous form in ss10.
 
-Existing outline masters and layout lookups are never regenerated. Historical
+The original additive 1.114 layout is built, then its two complete identities
+are exchanged reversibly. Existing masters are never regenerated. Historical
 curve regressions use a reversible base-font view; check_italic_el_alternate
 independently checks this projection against the actual frozen 1.113 tables.
 """
 import copy
 import hashlib
+import io
 import json
 from pathlib import Path
 from types import SimpleNamespace
@@ -13,11 +15,15 @@ from types import SimpleNamespace
 from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from fontTools.pens.ttGlyphPen import TTGlyphPointPen
 from fontTools.ttLib import TTFont
+from fontTools.ttLib.reorderGlyphs import reorderGlyphs
 from fontTools.ufoLib.glifLib import readGlyphFromString
 from build_draft_font import merge_layout
 from family_finish import base_tables
 
 NAME = 'uni043B.ss10'
+BASE = 'uni043B'
+ARCH_LABEL = 'Cyrillic el: rounded arch and exit'
+PREVIOUS_LABEL = 'Cyrillic el: previous diagonal form'
 SOURCE = Path('data/italic-el-arch-2/uni043B.glif')
 RECORD = Path('data/italic-el-arch-2/opentype.json')
 FEA = '''languagesystem DFLT dflt;
@@ -35,6 +41,60 @@ feature ss10 {
   sub uni043B by uni043B.ss10;
 } ss10;
 '''
+
+
+def is_promoted(font):
+    return font['post'].italicAngle and font['name'].getDebugName(265) == PREVIOUS_LABEL
+
+
+def swap_forms(font, promoting=True):
+    """Exchange two complete glyph identities in GPOS, preserving their rhythm.
+
+    Unicode and GSUB keep mapping л -> uni043B -> uni043B.ss10. Outlines,
+    metrics, all kern classes/pairs and mark anchors travel with each drawing.
+    Applying the inverse restores the exact 1.114 layout, not a fresh fit.
+    """
+    font.ensureDecompiled()
+    if 'glyf' in font:
+        glyf=font['glyf']
+        glyf[BASE],glyf[NAME]=glyf[NAME],glyf[BASE]
+    else:
+        cs=font['CFF '].cff.topDictIndex[0].CharStrings
+        cs[BASE],cs[NAME]=cs[NAME],cs[BASE]
+    metrics=font['hmtx'].metrics
+    metrics[BASE],metrics[NAME]=metrics[NAME],metrics[BASE]
+    mapping={BASE:NAME,NAME:BASE};seen=set()
+    def rename(value):
+        if isinstance(value,str):return mapping.get(value,value)
+        if isinstance(value,(int,float,bool,type(None))):return value
+        if id(value) in seen:return value
+        seen.add(id(value))
+        if isinstance(value,list):
+            value[:]=[rename(v) for v in value]
+        elif isinstance(value,dict):
+            renamed={mapping.get(k,k):rename(v) for k,v in value.items()}
+            value.clear();value.update(renamed)
+        elif isinstance(value,tuple):return tuple(rename(v) for v in value)
+        elif hasattr(value,'__dict__'):
+            for key,item in list(vars(value).items()):setattr(value,key,rename(item))
+        return value
+    rename(font['GPOS'].table)
+    # Coverage arrays and their parallel records must be re-sorted by glyph ID.
+    reorderGlyphs(font,list(font.getGlyphOrder()))
+    for record in font['name'].names:
+        if record.nameID==265:
+            if record.langID==0x419:
+                record.string='л: прежняя диагональная форма' if promoting else 'л: округлая арка и хвост'
+            else:
+                record.string=PREVIOUS_LABEL if promoting else ARCH_LABEL
+    font['OS/2'].recalcAvgCharWidth(font)
+
+
+def unpromoted_view(font):
+    if not is_promoted(font):return font
+    normalized=copy.deepcopy(font)
+    swap_forms(normalized,promoting=False)
+    return normalized
 
 
 def apply(font):
@@ -78,9 +138,23 @@ def apply(font):
             lang.FeatureCount = len(lang.FeatureIndex)
     rows, pairs, offset = kern_lookup(font, NAME)
     assert offset == record['base_gpos_lookups']
-    return {'glyph': NAME, 'feature': 'ss10', 'source': str(SOURCE),
+    promoted=record.get('default_form')=='arched'
+    if promoted:
+        # Freeze the existing binary subtable partitions before moving glyph
+        # identities. Otherwise the first 64K overflow split would depend on
+        # the new Coverage order, obscuring an exact inverse comparison.
+        buffer=io.BytesIO();font.save(buffer)
+        serialized=TTFont(io.BytesIO(buffer.getvalue()))
+        serialized.ensureDecompiled()
+        font['GPOS']=serialized['GPOS']
+        swap_forms(font)
+        exchange={BASE:NAME,NAME:BASE}
+        pairs={(exchange.get(a,a),exchange.get(b,b)):v for (a,b),v in pairs.items()}
+        rows=[dict(r,left=exchange.get(r['left'],r['left']),right=exchange.get(r['right'],r['right'])) for r in rows]
+    return {'glyph': BASE if promoted else NAME,'alternate_glyph':NAME, 'feature': 'ss10', 'source': str(SOURCE),
             'pairs_checked': len(rows), 'pairs': {a+' '+b: v for (a,b),v in pairs.items()},
-            'pair_rows': rows, 'default_el_preserved': True}
+            'pair_rows': rows, 'default_el_preserved': not promoted,
+            'arched_el_is_default':promoted,'ss10_is_previous_form':promoted}
 
 
 def legacy_view(font):
@@ -92,7 +166,7 @@ def legacy_view(font):
     if NAME not in font.getGlyphOrder():
         return font
     record = json.loads(RECORD.read_text())
-    f = copy.deepcopy(font)
+    f = copy.deepcopy(unpromoted_view(font))
     f.ensureDecompiled()  # load lazy glyph-indexed tables before shortening order
     assert f.getGlyphOrder()[-1] == NAME
     f.setGlyphOrder(f.getGlyphOrder()[:-1])

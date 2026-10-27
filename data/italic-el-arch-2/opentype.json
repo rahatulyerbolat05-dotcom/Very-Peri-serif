@@ -1,6 +1,6 @@
 {
-  "release": "1.114",
-  "glyph": "uni043B.ss10",
+  "release": "1.115",
+  "glyph": "uni043B",
   "feature": "ss10",
   "source_sha256": "e9fd1acd196afdce9899e91d3fe58c6d687ae0868d9c742e9b19d31459319795",
   "base_gsub_lookups": 31,
@@ -8,5 +8,9 @@
   "base_max_name_id": 264,
   "feature_name_id": 265,
   "baseline_tag": "v1.113",
-  "scope": "One appended unencoded alternate; existing default glyphs, metrics and layout preserved."
+  "scope": "Promote the approved arch by a reversible exchange of the two drawings, metrics, GPOS classes/pairs and anchors. Unicode and GSUB retain their names.",
+  "default_form": "arched",
+  "previous_form_feature": "ss10",
+  "promotion_baseline": "v1.114",
+  "alternate_glyph": "uni043B.ss10"
 }

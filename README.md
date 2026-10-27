@@ -2,11 +2,11 @@
 
 **[СКАЧАТЬ / DOWNLOAD — Very Peri Serif: Regular + Italic](dist/VeryPeriSerif-latest.zip)**
 
-Current release: **1.114**. This link always points to the current packaged family.
+Current release: **1.115**. This link always points to the current packaged family.
 The single working/default branch is `claude/upbeat-faraday-mzabid`.
 [Repository and archive guide](docs/repository.md).
 
-[The alternative italic «л» is embedded — enable ss10](docs/el-alternate-1.114.md).
+[The arched italic «л» is now the default — release 1.115](docs/el-default-1.115.md).
 
 [Client presentation: PDF, PowerPoint and posters](docs/presentation/README.md).
 
@@ -25,21 +25,21 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.114.zip`](dist/VeryPeriSerif-1.114.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.115.zip`](dist/VeryPeriSerif-1.115.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.114** (Italic I038). The approved rounded-arch
-Cyrillic **л with an exit stroke** is embedded as **ss10**, also available through `aalt`.
-The default л stays unchanged. Enable **stylistic set 10** in your app's OpenType
-settings, or use `font-feature-settings: "ss10" 1` on the web.
-[Specimen, instructions and checks](docs/el-alternate-1.114.md).
+Regular and Italic share release **1.115** (Italic I039). The approved rounded-arch
+Cyrillic **л with an exit stroke is now the default in Italic**. No feature switch
+is needed. **ss10** and `aalt` retain the previous diagonal form.
+Both drawings keep their exact outlines, spacing, kerning and mark anchors;
+Regular stays unchanged. [Specimen and checks](docs/el-default-1.115.md).
 
-[Renamed installation copy of 1.114](dist/VeryPeriSerif-T1114.zip): two TTFs under
-**Very Peri Serif T1114**, for installation alongside the main family.
-The frozen 1.113 release with exact redundant-node reduction remains archived.
+[Renamed installation copy of 1.115](dist/VeryPeriSerif-T1115.zip): two TTFs under
+**Very Peri Serif T1115**, for installation alongside the main family.
+Earlier 1.113 and 1.114 releases remain archived.
 
 [Contour roughness review is ongoing](docs/final-1.113.md): new detectors,
 a complete outline atlas and a candidate queue inspect the current release.

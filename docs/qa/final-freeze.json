@@ -1,5 +1,5 @@
 {
-  "version": "1.114",
+  "version": "1.115",
   "baseline_commit": "c1ab4b0aed080873447d44c71943f74030486e15",
   "passed": 1271,
   "failed": 0,
@@ -7,13 +7,13 @@
     "Regular": {
       "glyphs": 15,
       "points_removed": 18,
-      "ttf_sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "ttf_sha256": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
       "cff_programs_unchanged": 525
     },
     "Italic": {
       "glyphs": 23,
       "points_removed": 39,
-      "ttf_sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "ttf_sha256": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af",
       "cff_programs_unchanged": 491
     }
   },

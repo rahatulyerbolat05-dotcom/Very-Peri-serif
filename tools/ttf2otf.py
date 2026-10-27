@@ -24,7 +24,11 @@ EXACT_ITALIC_CUBICS={'uni0433','uni0493','uni0446','uni0449','uni04A3','uni0447'
 
 
 def exact_names(font):
-    return EXACT_CUBICS | (EXACT_ITALIC_CUBICS if font['post'].italicAngle else set())
+    names=EXACT_CUBICS | (EXACT_ITALIC_CUBICS if font['post'].italicAngle else set())
+    if font['post'].italicAngle:
+        from italic_el_alternate import is_promoted
+        if is_promoted(font):names=(names-{'uni043B.ss10'})|{'uni043B'}
+    return names
 
 
 def convert(src,dst):
@@ -36,7 +40,7 @@ def convert(src,dst):
         style='Italic' if tt['post'].italicAngle else 'Regular';frozen=json.loads(raw)[style]
     for n in order:
         pen=T2CharStringPen(tt['hmtx'][n][0],gs,roundTolerance=0 if n in exact else .5)
-        if n == 'uni043B.ss10':
+        if n in ('uni043B','uni043B.ss10') and n in exact:
             # Quantize absolute CFF controls, avoiding accumulated relative
             # rounding and the spurious micro-segment at contour closure.
             pen.round=lambda value:round(value*65536)/65536

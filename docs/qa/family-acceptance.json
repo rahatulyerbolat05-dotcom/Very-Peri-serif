@@ -2,9 +2,9 @@
   "fonts": [
     {
       "file": "build/release/VeryPeriSerif-Regular.ttf",
-      "sha256": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "sha256": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
       "style": "Regular",
-      "version": "Version 1.114",
+      "version": "Version 1.115",
       "passed": 1614,
       "failed": 0,
       "checks": [
@@ -1661,9 +1661,9 @@
     },
     {
       "file": "build/release/VeryPeriSerif-Italic.ttf",
-      "sha256": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+      "sha256": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af",
       "style": "Italic",
-      "version": "Version 1.114",
+      "version": "Version 1.115",
       "passed": 2861,
       "failed": 0,
       "checks": [
@@ -1679,8 +1679,8 @@
         "Wider ghe preserves diagonal stem at y=305.1",
         "Serbian and Macedonian ghe retain macron",
         "Printed ghe alternative retained",
-        "Arched el alternate active",
-        "Default el retained",
+        "Previous el form available through ss10",
+        "Arched el is the default",
         "Barred ghe shares default ghe advance",
         "Barred ghe crossbar is merged into the body",
         "Barred ghe preserves default body outside crossbar",

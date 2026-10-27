@@ -137,6 +137,14 @@ def main():
     figures=tabular_figures(ita)
     from italic_el_alternate import apply as add_el_alternate
     el_alternate=add_el_alternate(ita)
+    if el_alternate['arched_el_is_default']:
+        from italic_el_alternate import BASE,NAME,SOURCE
+        if BASE in curve_sources:curve_sources[NAME]=curve_sources.pop(BASE)
+        curve_sources[BASE]={'path':str(SOURCE),'sha256':sha(SOURCE),'reviewed_outline':True}
+        if BASE in anchors:anchors[NAME]=anchors.pop(BASE)
+        anchors[BASE]={'source':'reviewed rounded arch','top':[259,510],'bottom':[220,0]}
+        exchange={BASE:NAME,NAME:BASE}
+        kerning['glyph_identity_exchange']=exchange
     ita['OS/2'].recalcUnicodeRanges(ita)
     ita['OS/2'].recalcAvgCharWidth(ita)
     # A stacked accent on a tall Cyrillic base must not be clipped in legacy

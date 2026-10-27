@@ -304,7 +304,7 @@ body{margin:48px;background:#f5f2ec;color:#272333;font-family:system-ui}main{max
             blocks.append('<p class="'+klass+'">'+html.escape(text)+'</p>')
         blocks.append('<p class="'+klass+' tabular">0123456789 · 111 000 · 888 000</p>')
         if style == 'Italic':
-            blocks.append('<h3>ss10 — л: округлая арка и хвост</h3>')
+            blocks.append('<h3>ss10 — л: прежняя диагональная форма</h3>')
             blocks.append('<p class="'+klass+'" style="font-feature-settings: &quot;ss10&quot; 1">лилия · аллея · люблю · гүл · әлем</p>')
     blocks.append('</main>')
     Path('docs/specimen').mkdir(parents=True,exist_ok=True)

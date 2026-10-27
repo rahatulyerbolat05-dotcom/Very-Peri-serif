@@ -8,7 +8,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import PathPatch
 from matplotlib.backends.backend_pdf import PdfPages
-from fontTools.ttLib import TTFont
+from italic_el_alternate import legacy_font as TTFont  # frozen base-source comparison
 from alphabet_sheet import MplPen
 from family_proof import Proof,page
 

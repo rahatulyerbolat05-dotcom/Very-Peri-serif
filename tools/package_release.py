@@ -56,7 +56,8 @@ Install / Установка
 Versions: Regular {regular}, Italic {italic}. Russian, Kazakh and inherited Latin; designed for display use.
 Версии: Regular {regular}, Italic {italic}. Русский, казахский и исходная латиница; акцидентный шрифт.
 Tabular figures: enable tnum. / Табличные цифры: включите tnum.
-Italic arched л: enable ss10. / Курсивная л с округлой аркой и хвостом: включите ss10.
+Italic arched л is the default; ss10 restores the previous diagonal form.
+Курсивная л с округлой аркой — основная; ss10 включает прежнюю диагональную форму.
 family.html is a live-font specimen. Family-Specimen.pdf contains outline examples of both styles and features.
 family.html — образец с живым текстом; Family-Specimen.pdf — векторные образцы обоих начертаний и функций.
 

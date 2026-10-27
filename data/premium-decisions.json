@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "baseline_commit": "a7bec14",
-  "release": "1.114",
+  "release": "1.115",
   "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
   "decisions": [
     {
@@ -107,35 +107,36 @@
     {
       "status": "design",
       "item": "Author selected El Arch 2 for an optional writing form: embed only in Italic as ss10/aalt, retain the default el and all existing default outlines/metrics/layout."
+    },
+    {
+      "status": "author decision",
+      "item": "Make the approved El Arch 2 the default italic lowercase el; retain the previous diagonal el in ss10/aalt with each drawing's exact metrics, anchors and kerning."
     }
   ],
   "approved_fonts": {
-    "Regular": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
-    "Italic": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f"
+    "Regular": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
+    "Italic": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af"
   },
   "optical_acceptance": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Embed the author-selected El Arch 2 as optional ss10/aalt; all previous default glyphs remain frozen. Not universal artistic acceptance.",
+    "scope": "Author-selected arched Italic el becomes default; previous diagonal form retained in ss10/aalt. Exact existing drawings only.",
     "viewed": [
-      "Actual 1.114 default and ss10 full el outlines side by side",
-      "Actual 1.114 shaped Russian/Kazakh words, repeated el and combining acute in both modes",
-      "Previously reviewed El Arch 2 at multiple text sizes; exact same GLIF retained"
+      "Actual 1.115 default arched and ss10 diagonal el at large size",
+      "Actual Russian/Kazakh words, repeated el and combining stress in both modes"
     ],
     "decisions": [
-      "Accept the author-selected 56-point GLIF at advance 392 and LSB 10 without refitting.",
-      "Retain every existing outline, hint program, metric, default substitution and kerning pair; independently compare the reversible base projection with 1.113.",
-      "Add only ss10/aalt lookups, one unencoded glyph, its two mark anchors and its own kern pairs.",
-      "Preserve the unresolved global optical queue; inherited curvature candidates do not receive blanket approval."
+      "Accept the author's requested default selection of the existing 56-point arch without refitting.",
+      "Retain exact outlines and metrics of both drawings while moving all GPOS pairs, classes and mark anchors with them.",
+      "Preserve Regular and all unrelated glyphs; verify actual outputs against 1.114 and the reversible base projection."
     ],
-    "functional_assertions": 4475,
-    "ss10_assertions_ttf_woff2": 3217,
-    "all_visible_ss10_pairs": 929,
     "limitations": [
       "Global optical queue remains open.",
       "No native Windows/macOS/commercial-app or physical print test."
     ],
-    "ss10_assertions_all_formats": 4353
+    "default_promotion_assertions_ttf_woff2": 8248,
+    "default_promotion_assertions_all_formats": 10508,
+    "both_forms_pairs_checked": 1856
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -193,6 +194,10 @@
     "1.113": {
       "Regular": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
       "Italic": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea"
+    },
+    "1.114": {
+      "Regular": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+      "Italic": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f"
     }
   },
   "previous_optical_acceptance": {
@@ -496,6 +501,30 @@
         "Global optical queue remains open.",
         "No native Windows/macOS/commercial-app or physical print test."
       ]
+    },
+    "1.114": {
+      "date": "2026-10-26",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Embed the author-selected El Arch 2 as optional ss10/aalt; all previous default glyphs remain frozen. Not universal artistic acceptance.",
+      "viewed": [
+        "Actual 1.114 default and ss10 full el outlines side by side",
+        "Actual 1.114 shaped Russian/Kazakh words, repeated el and combining acute in both modes",
+        "Previously reviewed El Arch 2 at multiple text sizes; exact same GLIF retained"
+      ],
+      "decisions": [
+        "Accept the author-selected 56-point GLIF at advance 392 and LSB 10 without refitting.",
+        "Retain every existing outline, hint program, metric, default substitution and kerning pair; independently compare the reversible base projection with 1.113.",
+        "Add only ss10/aalt lookups, one unencoded glyph, its two mark anchors and its own kern pairs.",
+        "Preserve the unresolved global optical queue; inherited curvature candidates do not receive blanket approval."
+      ],
+      "functional_assertions": 4475,
+      "ss10_assertions_ttf_woff2": 3217,
+      "all_visible_ss10_pairs": 929,
+      "limitations": [
+        "Global optical queue remains open.",
+        "No native Windows/macOS/commercial-app or physical print test."
+      ],
+      "ss10_assertions_all_formats": 4353
     }
   }
 }
