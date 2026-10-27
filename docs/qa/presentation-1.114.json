@@ -1,0 +1,39 @@
+{
+  "passed": 5081,
+  "failed": 0,
+  "slides": 14,
+  "social_posters": 3,
+  "pdf_vector": true,
+  "source_font_version": "1.114",
+  "actual_text_intersection_candidates": 3,
+  "text_intersections": [
+    {
+      "page": 1,
+      "texts": [
+        "Very Peri",
+        "Serif"
+      ],
+      "intersecting_pixels": 0
+    },
+    {
+      "page": 8,
+      "texts": [
+        "в деталях.",
+        "office"
+      ],
+      "intersecting_pixels": 0
+    },
+    {
+      "page": 14,
+      "texts": [
+        "Very Peri",
+        "Serif"
+      ],
+      "intersecting_pixels": 0
+    }
+  ],
+  "unintended_intersections": 0,
+  "pptx": "14 embedded SVG slides with PNG fallback; native Office not tested",
+  "offline_viewer_browser_test": "Not completed: managed Chromium blocks file URL navigation; PDF and SVG rendering checked independently.",
+  "visual_review": "Full-deck contact sheet, enlarged Kazakh and ss10 slides, social posters; independent PDF raster reviewed."
+}

@@ -8,6 +8,8 @@ The single working/default branch is `claude/upbeat-faraday-mzabid`.
 
 [The alternative italic «л» is embedded — enable ss10](docs/el-alternate-1.114.md).
 
+[Client presentation: PDF, PowerPoint and posters](docs/presentation/README.md).
+
 > A Cyrillic extension of [Instrument Serif](https://github.com/Instrument/instrument-serif): Russian and Kazakh, in the Regular and the Italic.
 
 ![Very Peri Serif: Regular and Italic](docs/img/header.svg)

@@ -2,6 +2,7 @@ reference/
 build/
 *.png
 !docs/img/*.png
+!docs/presentation/**/*.png
 __pycache__/
 .hyperglot-cache
 

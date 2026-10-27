@@ -1,0 +1,2912 @@
+{
+  "date": "2026-10-27",
+  "purpose": "Client-facing presentation",
+  "font_version": "1.114",
+  "author": "Yerbolat Rakhatuly (DEW)",
+  "slides": 14,
+  "social_posters": 3,
+  "slide_size": [
+    1600,
+    900
+  ],
+  "preview_size": [
+    2400,
+    1350
+  ],
+  "social_size": [
+    2160,
+    2700
+  ],
+  "font_sha256": {
+    "R": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
+    "I": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f",
+    "S": "89c3c497f618fdaa0b2d1e98fef93582f28c71debd2c4a8cdf41f190ced2909d"
+  },
+  "pages": [
+    {
+      "number": 1,
+      "title": "Very Peri Serif — презентация гарнитуры",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРЕЗЕНТАЦИЯ ГАРНИТУРЫ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1286.992,
+            51.416,
+            1514.448,
+            66.008
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "01 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Very Peri",
+          "face": "R",
+          "size": 410,
+          "bounds": [
+            72.62,
+            101.8,
+            1298.52,
+            481.05
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Serif",
+          "face": "I",
+          "size": 430,
+          "bounds": [
+            730.229,
+            410.36,
+            1516.33,
+            736.3
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Акцидентная антиква.",
+          "face": "S",
+          "size": 24,
+          "bounds": [
+            88.0,
+            602.792,
+            349.528,
+            624.464
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Русский, қазақша, Latin.",
+          "face": "S",
+          "size": 24,
+          "bounds": [
+            90.328,
+            639.808,
+            367.576,
+            663.76
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "REGULAR / ITALIC",
+          "face": "S",
+          "size": 17,
+          "bounds": [
+            89.649,
+            742.692,
+            246.114,
+            755.17
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Характер в каждой букве",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ХАРАКТЕР",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1433.0,
+            51.528,
+            1515.184,
+            63.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "02 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Характер",
+          "face": "R",
+          "size": 227.32,
+          "bounds": [
+            88.546,
+            110.0,
+            918.02,
+            320.267
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "в каждой",
+          "face": "I",
+          "size": 227.32,
+          "bounds": [
+            89.642,
+            340.267,
+            894.789,
+            555.08
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "букве.",
+          "face": "R",
+          "size": 227.32,
+          "bounds": [
+            91.274,
+            575.08,
+            577.275,
+            790.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Узкие пропорции.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1130.253,
+            218.578,
+            1334.976,
+            240.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Выразительный контраст.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1132.231,
+            253.566,
+            1423.526,
+            276.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Тонкие связи и живые",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1130.23,
+            290.578,
+            1381.275,
+            307.23
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "окончания штрихов.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1131.265,
+            330.442,
+            1363.381,
+            348.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Для айдентики, обложек,",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1130.138,
+            492.405,
+            1412.325,
+            514.324
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "афиш и крупных",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1131.058,
+            528.52,
+            1318.232,
+            551.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "редакционных заголовков.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            1131.955,
+            569.442,
+            1435.785,
+            587.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "01",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1133.24,
+            660.85,
+            1192.91,
+            727.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "гарнитура / два начертания",
+          "face": "S",
+          "size": 17,
+          "bounds": [
+            1241.445,
+            709.862,
+            1472.764,
+            726.08
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Два начертания — два голоса",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ДВА НАЧЕРТАНИЯ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1363.864,
+            51.528,
+            1514.448,
+            66.008
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "03 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "REGULAR",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            85.843,
+            171.244,
+            179.733,
+            185.19
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Внимание",
+          "face": "R",
+          "size": 176.37,
+          "bounds": [
+            87.351,
+            268.012,
+            709.591,
+            396.587
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "к деталям.",
+          "face": "R",
+          "size": 151.92,
+          "bounds": [
+            86.886,
+            511.553,
+            705.796,
+            627.979
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ITALIC",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            880.76,
+            171.244,
+            945.632,
+            185.19
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Внимание",
+          "face": "I",
+          "size": 165.96,
+          "bounds": [
+            874.025,
+            275.506,
+            1511.494,
+            396.494
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "к деталям.",
+          "face": "I",
+          "size": 148.06,
+          "bounds": [
+            881.184,
+            513.6,
+            1495.046,
+            621.833
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Собранный ритм.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            85.342,
+            713.17,
+            274.146,
+            735.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Спокойная опора композиции.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            85.342,
+            745.324,
+            419.302,
+            767.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Рукописное движение.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            882.134,
+            714.292,
+            1125.872,
+            735.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Акцент внутри той же системы.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            880.0,
+            745.324,
+            1217.37,
+            767.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Әсемдік әріптен басталады",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ҚАЗАҚША",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1433.44,
+            51.416,
+            1515.984,
+            66.008
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "04 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Әсемдік",
+          "face": "R",
+          "size": 230.42,
+          "bounds": [
+            93.217,
+            110.0,
+            743.459,
+            335.811
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "әріптен",
+          "face": "I",
+          "size": 230.42,
+          "bounds": [
+            87.456,
+            355.811,
+            827.746,
+            566.644
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "басталады.",
+          "face": "R",
+          "size": 205.31,
+          "bounds": [
+            90.57,
+            586.644,
+            977.521,
+            790.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Әә  Ғғ  Ққ",
+          "face": "R",
+          "size": 78,
+          "bounds": [
+            1243.12,
+            208.06,
+            1483.282,
+            274.906
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ңң  Өө  Ұұ",
+          "face": "R",
+          "size": 78,
+          "bounds": [
+            1241.482,
+            363.06,
+            1511.284,
+            435.99
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Үү  Һһ  Іі",
+          "face": "R",
+          "size": 78,
+          "bounds": [
+            1238.596,
+            517.28,
+            1464.016,
+            590.99
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Казахские буквы —",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            1241.843,
+            675.465,
+            1419.113,
+            694.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "часть гарнитуры",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            1241.406,
+            707.626,
+            1395.173,
+            722.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "в обоих начертаниях.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            1241.615,
+            731.465,
+            1442.502,
+            750.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Детали кириллицы",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "КИРИЛЛИЦА / ДЕТАЛИ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1323.544,
+            51.528,
+            1514.464,
+            66.008
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "05 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Узнать по одной букве.",
+          "face": "R",
+          "size": 135,
+          "bounds": [
+            81.23,
+            96.036,
+            1211.25,
+            229.75
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "д",
+          "face": "R",
+          "size": 650,
+          "bounds": [
+            133.9,
+            259.6,
+            363.35,
+            757.5
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Регулярная д",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            203.768,
+            782.148,
+            317.618,
+            799.32
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ж",
+          "face": "I",
+          "size": 405.98,
+          "bounds": [
+            481.154,
+            385.513,
+            761.417,
+            598.654
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Курсивная ж",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            565.865,
+            782.148,
+            675.827,
+            799.32
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "я",
+          "face": "R",
+          "size": 650,
+          "bounds": [
+            837.0,
+            259.6,
+            1100.25,
+            600.85
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Регулярная я",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            923.966,
+            782.148,
+            1036.25,
+            799.32
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ң",
+          "face": "I",
+          "size": 620.92,
+          "bounds": [
+            1210.408,
+            274.608,
+            1472.441,
+            688.137
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Курсивная ң",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            1286.702,
+            782.148,
+            1394.576,
+            799.32
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Альтернативная л — своё написание",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ВАРИАНТЫ НАПИСАНИЯ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1308.328,
+            51.416,
+            1514.448,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "06 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Своё написание.",
+          "face": "R",
+          "size": 160,
+          "bounds": [
+            90.4,
+            90.2,
+            1014.4,
+            208.44
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "л",
+          "face": "I",
+          "size": 650,
+          "bounds": [
+            273.025,
+            318.25,
+            562.443,
+            658.85
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "л",
+          "face": "I",
+          "size": 650,
+          "bounds": [
+            1039.1,
+            317.6,
+            1275.868,
+            658.85
+          ],
+          "features": {
+            "ss10": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "ОСНОВНАЯ ФОРМА",
+          "face": "S",
+          "size": 15,
+          "bounds": [
+            116.915,
+            299.125,
+            275.585,
+            310.15
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ОКРУГЛАЯ АРКА И ХВОСТ",
+          "face": "S",
+          "size": 15,
+          "bounds": [
+            833.915,
+            299.125,
+            1041.965,
+            310.165
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "лилия · люблю",
+          "face": "I",
+          "size": 95,
+          "bounds": [
+            166.255,
+            659.655,
+            668.71,
+            730.855
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "лилия · люблю",
+          "face": "I",
+          "size": 95,
+          "bounds": [
+            915.085,
+            659.655,
+            1398.73,
+            730.855
+          ],
+          "features": {
+            "ss10": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "Включаемая альтернатива в Italic / стилистический набор ss10",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            85.843,
+            788.465,
+            672.145,
+            807.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Цифры и знак тенге",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ЦИФРЫ И ЗНАКИ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1370.864,
+            51.416,
+            1514.464,
+            66.008
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "07 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "12 500 ₸",
+          "face": "R",
+          "size": 350,
+          "bounds": [
+            85.75,
+            114.25,
+            1039.85,
+            378.15
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "0123456789",
+          "face": "I",
+          "size": 170,
+          "bounds": [
+            92.16,
+            498.35,
+            746.83,
+            626.53
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Табличные цифры",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            1160.2,
+            549.7,
+            1340.34,
+            569.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "для ровных колонок.",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            1160.38,
+            585.08,
+            1364.84,
+            600.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "111 000",
+          "face": "R",
+          "size": 86,
+          "bounds": [
+            1167.546,
+            621.79,
+            1406.884,
+            685.774
+          ],
+          "features": {
+            "tnum": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "888 000",
+          "face": "R",
+          "size": 86,
+          "bounds": [
+            1161.612,
+            697.22,
+            1406.884,
+            760.774
+          ],
+          "features": {
+            "tnum": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "₸  ₽  €  $",
+          "face": "R",
+          "size": 105,
+          "bounds": [
+            86.625,
+            685.85,
+            379.995,
+            784.445
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Пластика строки и лигатуры",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПЛАСТИКА СТРОКИ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1351.376,
+            51.4,
+            1514.464,
+            63.176
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "08 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Плавность",
+          "face": "R",
+          "size": 225,
+          "bounds": [
+            88.275,
+            113.0,
+            1012.35,
+            277.025
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "в деталях.",
+          "face": "I",
+          "size": 240,
+          "bounds": [
+            89.956,
+            340.16,
+            1043.04,
+            515.6
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "office",
+          "face": "R",
+          "size": 315,
+          "bounds": [
+            941.11,
+            457.38,
+            1502.125,
+            695.835
+          ],
+          "features": {
+            "liga": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "Стандартные лигатуры",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            85.342,
+            604.072,
+            332.094,
+            625.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "поддерживают движение",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            85.87,
+            640.988,
+            359.638,
+            658.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "соседних букв.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            85.21,
+            669.17,
+            242.158,
+            691.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "fi",
+          "face": "I",
+          "size": 245,
+          "bounds": [
+            1226.085,
+            164.74,
+            1334.513,
+            350.45
+          ],
+          "features": {
+            "liga": 1
+          },
+          "intentional_crop": false
+        },
+        {
+          "text": "affine · final · film",
+          "face": "I",
+          "size": 76,
+          "bounds": [
+            1045.184,
+            713.152,
+            1508.339,
+            770.76
+          ],
+          "features": {
+            "liga": 1
+          },
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Обложка — пример применения",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРИМЕНЕНИЕ / ОБЛОЖКА",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1293.8,
+            51.4,
+            1515.984,
+            63.176
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "09 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1470.497,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Первое",
+          "face": "R",
+          "size": 205,
+          "bounds": [
+            87.895,
+            172.4,
+            600.19,
+            362.025
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "впечатление.",
+          "face": "I",
+          "size": 130.84,
+          "bounds": [
+            87.247,
+            442.486,
+            770.785,
+            511.189
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Обложка эссе.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            85.403,
+            647.405,
+            241.711,
+            665.322
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Название становится",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            86.231,
+            683.578,
+            323.913,
+            700.23
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "главным изображением.",
+          "face": "S",
+          "size": 23,
+          "bounds": [
+            85.955,
+            717.405,
+            363.036,
+            740.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ЛИТЕРАТУРНАЯ СЕРИЯ / 01",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            953.013,
+            172.575,
+            1134.735,
+            182.143
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Культура",
+          "face": "R",
+          "size": 122.55,
+          "bounds": [
+            952.328,
+            286.765,
+            1374.387,
+            400.123
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "паузы",
+          "face": "I",
+          "size": 185,
+          "bounds": [
+            953.473,
+            429.54,
+            1372.688,
+            564.775
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "О внимании к простому",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            954.22,
+            655.5,
+            1189.54,
+            674.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "и пространстве для мысли.",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            954.7,
+            690.08,
+            1218.42,
+            705.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "КОНЦЕПТ ОБЛОЖКИ",
+          "face": "S",
+          "size": 12,
+          "bounds": [
+            954.164,
+            735.3,
+            1086.676,
+            746.256
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Афиша — пример применения",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРИМЕНЕНИЕ / АФИША",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1313.544,
+            51.416,
+            1515.984,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "10 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1471.017,
+            842.575,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Голос",
+          "face": "R",
+          "size": 365,
+          "bounds": [
+            84.935,
+            119.2,
+            736.314,
+            385.285
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "формы",
+          "face": "I",
+          "size": 385,
+          "bounds": [
+            516.325,
+            426.945,
+            1495.688,
+            791.925
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ТИПОГРАФИЧЕСКАЯ",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            86.18,
+            536.95,
+            262.238,
+            550.18
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ВЫСТАВКА / КОНЦЕПТ",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            87.746,
+            564.95,
+            279.626,
+            581.384
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "2026",
+          "face": "R",
+          "size": 86,
+          "bounds": [
+            1368.444,
+            113.22,
+            1507.592,
+            176.774
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Редакционная веб-страница — пример применения",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРИМЕНЕНИЕ / DIGITAL",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1312.856,
+            51.416,
+            1515.6,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "11 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1471.017,
+            842.666,
+            1515.74,
+            852.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "VERY PERI JOURNAL",
+          "face": "S",
+          "size": 15,
+          "bounds": [
+            122.0,
+            206.125,
+            277.365,
+            219.85
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "КУЛЬТУРА      ДИЗАЙН      СЛОВА",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1258.578,
+            204.832,
+            1474.987,
+            219.444
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Слово",
+          "face": "R",
+          "size": 188,
+          "bounds": [
+            131.52,
+            272.76,
+            532.524,
+            411.692
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "обретает форму",
+          "face": "I",
+          "size": 123.0,
+          "bounds": [
+            126.46,
+            474.61,
+            922.77,
+            592.445
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Внимание к букве меняет ощущение от всей страницы.",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            128.94,
+            630.7,
+            675.82,
+            650.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Заголовок задаёт тон, а паузы помогают его услышать.",
+          "face": "S",
+          "size": 20,
+          "bounds": [
+            127.76,
+            663.4,
+            670.24,
+            682.8
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ЧИТАТЬ МАТЕРИАЛ",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            128.04,
+            714.679,
+            257.67,
+            724.143
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "а",
+          "face": "I",
+          "size": 685,
+          "bounds": [
+            1072.56,
+            294.54,
+            1373.275,
+            654.165
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "НАЗВАНИЯ И МАКЕТЫ — КОНЦЕПТЫ ПРИМЕНЕНИЯ",
+          "face": "S",
+          "size": 14,
+          "bounds": [
+            85.358,
+            792.85,
+            465.576,
+            805.632
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Слова, которые остаются",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1380.864,
+            51.416,
+            1515.632,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "12 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1471.017,
+            842.588,
+            1515.74,
+            852.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Слова,",
+          "face": "R",
+          "size": 280,
+          "bounds": [
+            95.2,
+            105.6,
+            743.68,
+            355.562
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "которые",
+          "face": "I",
+          "size": 280,
+          "bounds": [
+            86.24,
+            356.76,
+            1053.08,
+            577.4
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "остаются.",
+          "face": "R",
+          "size": 280,
+          "bounds": [
+            90.44,
+            607.52,
+            1260.56,
+            754.52
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Кириллический набор",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРИЛОЖЕНИЕ / НАБОР",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1319.416,
+            51.4,
+            1515.184,
+            63.176
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "13 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1471.017,
+            842.588,
+            1515.74,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Русский. Қазақша.",
+          "face": "R",
+          "size": 112,
+          "bounds": [
+            86.128,
+            92.24,
+            804.944,
+            196.96
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Аа",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            142.86,
+            214.3,
+            221.07,
+            280.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Бб",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            348.67,
+            213.358,
+            425.17,
+            280.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Вв",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            553.625,
+            215.2,
+            630.845,
+            280.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Гг",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            774.285,
+            215.2,
+            824.055,
+            280.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Дд",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            957.712,
+            215.2,
+            1041.97,
+            302.5
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ее",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1173.35,
+            215.2,
+            1242.11,
+            280.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ёё",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1378.35,
+            197.56,
+            1447.74,
+            280.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Жж",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            126.39,
+            309.2,
+            242.22,
+            374.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Зз",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            359.74,
+            308.3,
+            412.75,
+            374.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ии",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            550.25,
+            309.2,
+            636.11,
+            374.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Йй",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            755.25,
+            289.4,
+            841.157,
+            374.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Кк",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            961.915,
+            309.2,
+            1047.055,
+            374.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Лл",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1167.365,
+            309.2,
+            1246.565,
+            374.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Мм",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1361.295,
+            309.2,
+            1465.695,
+            374.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Нн",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            138.9,
+            403.2,
+            227.507,
+            468.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Оо",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            348.94,
+            402.3,
+            428.41,
+            468.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Пп",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            548.99,
+            403.2,
+            637.73,
+            468.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Рр",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            758.76,
+            403.2,
+            836.25,
+            486.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Сс",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            969.745,
+            402.3,
+            1037.839,
+            468.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Тт",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1157.444,
+            401.85,
+            1257.185,
+            468.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Уу",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1378.663,
+            403.2,
+            1446.21,
+            486.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Фф",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            133.86,
+            495.4,
+            230.16,
+            580.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Хх",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            347.905,
+            497.2,
+            430.255,
+            562.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Цц",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            549.71,
+            497.2,
+            636.38,
+            573.79
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Чч",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            754.755,
+            497.2,
+            837.195,
+            562.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Шш",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            944.635,
+            497.2,
+            1061.545,
+            562.54
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Щщ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1149.185,
+            497.2,
+            1266.725,
+            573.61
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ъъ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1371.6,
+            496.3,
+            1455.39,
+            562.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ыы",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            129.54,
+            591.2,
+            235.967,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ьь",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            351.955,
+            591.2,
+            425.755,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ээ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            556.386,
+            590.3,
+            625.85,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Юю",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            742.515,
+            590.3,
+            851.685,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Яя",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            959.995,
+            591.2,
+            1042.465,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Әә",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1170.38,
+            590.3,
+            1246.97,
+            656.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ғғ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1388.925,
+            591.2,
+            1439.595,
+            656.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ққ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            142.5,
+            685.2,
+            225.57,
+            761.43
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ңң",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            343.36,
+            685.2,
+            432.55,
+            761.88
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Өө",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            553.94,
+            684.3,
+            633.41,
+            750.81
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Ұұ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            760.38,
+            685.2,
+            835.8,
+            768.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Үү",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            965.47,
+            685.2,
+            1040.71,
+            768.45
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Һһ",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1166.825,
+            683.4,
+            1249.535,
+            750.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Іі",
+          "face": "R",
+          "size": 90,
+          "bounds": [
+            1394.01,
+            685.2,
+            1432.71,
+            750.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Также: исходная латиница Instrument Serif, цифры и знаки.",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            84.18,
+            811.23,
+            606.504,
+            829.32
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Авторство, лицензия и файлы",
+      "text_objects": [
+        {
+          "text": "VERY PERI SERIF",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            84.0,
+            51.416,
+            227.168,
+            63.16
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "ПРИЛОЖЕНИЕ / О ПРОЕКТЕ",
+          "face": "S",
+          "size": 16,
+          "bounds": [
+            1282.408,
+            51.4,
+            1515.04,
+            63.176
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "YERBOLAT RAKHATULY / DEW",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            84.0,
+            842.575,
+            280.708,
+            852.13
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "14 / 14",
+          "face": "S",
+          "size": 13,
+          "bounds": [
+            1471.017,
+            842.666,
+            1515.74,
+            852.0
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Very Peri",
+          "face": "R",
+          "size": 235,
+          "bounds": [
+            79.77,
+            124.8,
+            782.42,
+            342.175
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Serif",
+          "face": "I",
+          "size": 265,
+          "bounds": [
+            85.022,
+            308.78,
+            569.48,
+            509.65
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "REGULAR / ITALIC",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            89.746,
+            588.968,
+            255.856,
+            602.18
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Версия 1.114",
+          "face": "S",
+          "size": 21,
+          "bounds": [
+            90.037,
+            629.922,
+            220.447,
+            650.04
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "СКАЧАТЬ ГАРНИТУРУ",
+          "face": "S",
+          "size": 18,
+          "bounds": [
+            112.098,
+            736.968,
+            310.24,
+            750.18
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Кириллическое расширение Instrument Serif.",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            902.134,
+            193.17,
+            1389.786,
+            215.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Автор кириллицы и руководитель разработки:",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            900.0,
+            227.17,
+            1404.658,
+            249.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Yerbolat Rakhatuly (DEW).",
+          "face": "S",
+          "size": 22,
+          "bounds": [
+            900.0,
+            261.28,
+            1165.496,
+            283.28
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Латинская основа — Instrument Serif.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            900.019,
+            355.465,
+            1247.092,
+            370.266
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Rodrigo Fuenzalida / Jordan Egstad.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            901.843,
+            386.56,
+            1216.065,
+            405.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Строчная д Regular — на основе Cormorant",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            901.159,
+            417.56,
+            1303.674,
+            436.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Garamond, The Cormorant Project Authors.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            901.159,
+            448.56,
+            1287.22,
+            467.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "SIL Open Font License 1.1.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            900.969,
+            546.997,
+            1132.332,
+            565.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "TTF / OTF — для установки. WOFF2 — для сайта.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            900.19,
+            577.598,
+            1339.622,
+            596.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Кириллица создана с ИИ-инструментами",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            901.843,
+            609.434,
+            1283.458,
+            627.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "под руководством автора.",
+          "face": "S",
+          "size": 19,
+          "bounds": [
+            901.615,
+            643.626,
+            1142.896,
+            658.56
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Макеты применения — презентационные концепты.",
+          "face": "S",
+          "size": 15,
+          "bounds": [
+            901.455,
+            726.29,
+            1291.725,
+            740.6
+          ],
+          "features": {},
+          "intentional_crop": false
+        },
+        {
+          "text": "Служебные подписи — Noto Sans.",
+          "face": "S",
+          "size": 15,
+          "bounds": [
+            900.915,
+            750.525,
+            1148.49,
+            765.6
+          ],
+          "features": {},
+          "intentional_crop": false
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "missing_glyphs": 0,
+    "unintended_out_of_bounds": 0,
+    "all_text_outlined": true
+  }
+}

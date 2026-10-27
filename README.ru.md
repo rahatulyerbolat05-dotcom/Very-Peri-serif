@@ -8,6 +8,8 @@
 
 [Альтернативная курсивная «л» уже встроена — как включить ss10](docs/el-alternate-1.114.md).
 
+[Презентация для заказчика: PDF, PowerPoint и постеры](docs/presentation/README.md).
+
 > Кириллическое расширение [Instrument Serif](https://github.com/Instrument/instrument-serif): русский и казахский, начертания Regular и Italic.
 
 ![Very Peri Serif: Regular и Italic](docs/img/header.svg)
