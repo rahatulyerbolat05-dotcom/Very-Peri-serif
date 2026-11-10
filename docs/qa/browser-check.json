@@ -1,6 +1,6 @@
 {
   "platform": "Linux",
-  "engine": "Chromium 154.0.8037.57",
+  "engine": "Chromium 156.0.8078.79",
   "checks": [
     "All six formats loaded",
     "CSS Regular/Italic loaded",
@@ -10,12 +10,12 @@
     "Russian/Kazakh PDF text roundtrip"
   ],
   "fonts": {
-    "fonts/ttf/VeryPeriSerif-Regular.ttf": "88bdd0979f2166be1128baf3272ddf267b25075033616b259278cd6a286d9088",
-    "fonts/ttf/VeryPeriSerif-Italic.ttf": "fbef71c1277c286846f298c3845e26e167d57c91a04eb896c74307d13d3201ea",
-    "fonts/otf/VeryPeriSerif-Regular.otf": "b748a35042fea5c7621b1a4dadbf508981d2a263981e0413ac4f3e0a2a2761e0",
-    "fonts/otf/VeryPeriSerif-Italic.otf": "6e01f4fed6dcce4dae9d9b58444d8b0ae9bd6f8e8724525bb5491db22c823f51",
-    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "994b09f978fdd791596fba848d13a014da74e0101dbf8b76b3e06e3c45720f12",
-    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "9c2cad807f2e0bc788cb60d0e071446507e0419c77767445cc80d17922f100e2"
+    "fonts/ttf/VeryPeriSerif-Regular.ttf": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+    "fonts/ttf/VeryPeriSerif-Italic.ttf": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d",
+    "fonts/otf/VeryPeriSerif-Regular.otf": "3f7a187a93f54d8caeba23880a95c1bbd3bd0f08674a2a9230f229b1e754cbcc",
+    "fonts/otf/VeryPeriSerif-Italic.otf": "a082428161d8462d1cbff91b493e74b655819b7fa0ea66a819cd172b7934acb2",
+    "fonts/webfonts/VeryPeriSerif-Regular.woff2": "84c5561c8e5f762328ede6988bbf24d0fbc0257b5ef08c079981ce0665abbd5d",
+    "fonts/webfonts/VeryPeriSerif-Italic.woff2": "00a735288ee08aa756199fae814ec4fabde3dfcdb24a8d4d7fd1aef197b5a690"
   },
   "results": {
     "results": [
@@ -38,11 +38,11 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1144.1259765625,
-          909.6944580078125,
-          751.9985961914062,
-          1044.4141845703125,
-          419.13531494140625,
+          1142.781982421875,
+          904.574462890625,
+          746.8787231445312,
+          1039.4222412109375,
+          415.8713073730469,
           488.8951110839844,
           585.4070434570312
         ]
@@ -66,11 +66,11 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1144.1259765625,
-          909.6944580078125,
-          751.9985961914062,
-          1044.4141845703125,
-          419.13531494140625,
+          1142.781982421875,
+          904.574462890625,
+          746.8787231445312,
+          1039.4222412109375,
+          415.8713073730469,
           488.8951110839844,
           585.4070434570312
         ]
@@ -94,11 +94,11 @@
         "style": "Italic",
         "status": "loaded",
         "widths": [
-          1144.1259765625,
-          909.6944580078125,
-          751.9985961914062,
-          1044.4141845703125,
-          419.13531494140625,
+          1142.781982421875,
+          904.574462890625,
+          746.8787231445312,
+          1039.4222412109375,
+          415.8713073730469,
           488.8951110839844,
           585.4070434570312
         ]

@@ -154,6 +154,10 @@ def main():
     if not all(checks.values()):raise RuntimeError('Package validation failed: '+str([k for k,v in checks.items() if not v]))
     for name in ('family-acceptance.json','quality-summary.json'):
         assert (SRC/name).exists(), 'Run make quality before packaging'
+    if CONFIG['version']=='1.116':
+        # Validate the six files that will actually enter the archive, before
+        # writing the immutable ZIP or refreshing its public latest alias.
+        subprocess.run([sys.executable,'-I','tools/check_italic_revision.py','--root',str(FONTS)],check=True)
     qa=json.loads((SRC/'quality-summary.json').read_text())
     assert qa['fonts']=={p.name:sha(p) for s in STYLES for p in files[s] if p.suffix=='.ttf'}, 'QA is stale'
     acceptance=json.loads((SRC/'family-acceptance.json').read_text())
@@ -176,6 +180,9 @@ def main():
     alternate_proof=Path(f'docs/specimen/VeryPeriSerif-El-Alternate-{CONFIG["version"]}.pdf')
     if alternate_proof.exists():
         members['specimen/'+alternate_proof.name]=alternate_proof.read_bytes()
+    revision_proof=Path(f'docs/specimen/VeryPeriSerif-Italic-Revision-{CONFIG["version"]}.pdf')
+    if revision_proof.exists():
+        members['specimen/'+revision_proof.name]=revision_proof.read_bytes()
     for p in LEGAL:members[p]=Path(p).read_bytes()
     for s in STYLES:
         for p in files[s]:members['fonts/'+p.parent.name+'/'+p.name]=p.read_bytes()

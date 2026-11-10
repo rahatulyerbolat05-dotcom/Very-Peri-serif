@@ -154,3 +154,14 @@ The author-selected arched lowercase Cyrillic el is now the default in Italic.
 The previous diagonal el is retained in stylistic set ss10 and aalt.
 Both drawings retain their exact outlines, advances, kerning and mark anchors.
 Regular and every other default glyph remain unchanged.
+
+2026-11-10 — Version 1.116 / Italic I040
+-------------------------------------
+Author-approved deeper p-derived upper crowns in Cyrillic italic en, short i,
+tse, yeru, sha, shcha, en with descender, straight u, straight u with stroke,
+zhe and the right che shoulder. Replace the blunt ya wedge with a classical
+upper ear derived from the native a/q. The original em remains pending further
+design and is retained exactly, together with all original spacing and layout.
+Regular outlines, native Latin and the default arched el are retained.
+The twelve editable masters and all other final glyphs/tables are checked
+against the actual published 1.115 files; exact quadratic-to-CFF conversion.

@@ -1,9 +1,9 @@
 {
-  "version": "1.115",
-  "date": "2026-10-27",
-  "archive": "VeryPeriSerif-1.115.zip",
+  "version": "1.116",
+  "date": "2026-11-10",
+  "archive": "VeryPeriSerif-1.116.zip",
   "download": "VeryPeriSerif-latest.zip",
-  "sha256": "173a73b2a3351f35a362fe3b7bbe1d4b91787c4c721dd25d2f7b31c115945d78",
+  "sha256": "ea93f22b17b3faf3e3531c3e8371d9b136144c82a4d1c77b1d519514ea3e8ef4",
   "styles": [
     "Regular",
     "Italic"

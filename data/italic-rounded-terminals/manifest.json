@@ -1,0 +1,1287 @@
+{
+  "baseline_commit": "0330c598b690e4e9ddc6aec53a57218bba476035",
+  "baseline_version": "1.115",
+  "donor": "native Latin p",
+  "donor_cap_points": [
+    [
+      147,
+      562
+    ],
+    [
+      152,
+      583
+    ],
+    [
+      173,
+      583
+    ],
+    [
+      191,
+      583
+    ],
+    [
+      203,
+      583
+    ],
+    [
+      215,
+      569
+    ],
+    [
+      212,
+      556
+    ]
+  ],
+  "method": "Native p shoulder geometry, adapted to each existing stem. All other points retained.",
+  "glyphs": {
+    "uni043D": {
+      "path": "data/italic-rounded-terminals/uni043D.glif",
+      "sha256": "beeada6ea4c32894b331272bf2de68793857e5460302e9ba115b950d36fd71de",
+      "advance_and_lsb": [
+        478,
+        9
+      ],
+      "bounds": [
+        9,
+        -9,
+        468,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              427,
+              480,
+              false
+            ],
+            [
+              432,
+              497,
+              true
+            ],
+            [
+              434,
+              504,
+              false
+            ],
+            [
+              428,
+              510,
+              false
+            ],
+            [
+              421,
+              510,
+              true
+            ],
+            [
+              381,
+              510,
+              true
+            ],
+            [
+              370,
+              510,
+              false
+            ],
+            [
+              365,
+              489,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              428,
+              483,
+              true
+            ],
+            [
+              431,
+              496,
+              false
+            ],
+            [
+              419,
+              510,
+              false
+            ],
+            [
+              407,
+              510,
+              true
+            ],
+            [
+              391,
+              510,
+              true
+            ],
+            [
+              370,
+              510,
+              false
+            ],
+            [
+              365,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            423,
+            462,
+            true
+          ],
+          "stable_after": [
+            363,
+            480,
+            true
+          ],
+          "flat_before": 40,
+          "flat_after": 16,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0439": {
+      "path": "data/italic-rounded-terminals/uni0439.glif",
+      "sha256": "f8262363ced5d435809128e078ebb33c4f6bcb849dbac7bbcce611f6d69a45d6",
+      "advance_and_lsb": [
+        495,
+        17
+      ],
+      "bounds": [
+        17,
+        -9,
+        485,
+        730
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              449,
+              497,
+              true
+            ],
+            [
+              450,
+              501,
+              false
+            ],
+            [
+              445,
+              510,
+              false
+            ],
+            [
+              438,
+              510,
+              true
+            ],
+            [
+              398,
+              510,
+              true
+            ],
+            [
+              384,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              445,
+              483,
+              true
+            ],
+            [
+              448,
+              496,
+              false
+            ],
+            [
+              436,
+              510,
+              false
+            ],
+            [
+              424,
+              510,
+              true
+            ],
+            [
+              409,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ],
+            [
+              383,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            355,
+            95,
+            true
+          ],
+          "stable_after": [
+            376,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0446": {
+      "path": "data/italic-rounded-terminals/uni0446.glif",
+      "sha256": "8893e108ca43513eeb58a40bff526a6768f5a9ab47da37c8e86b2c9e97d036c2",
+      "advance_and_lsb": [
+        463,
+        17
+      ],
+      "bounds": [
+        17,
+        -150,
+        448,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              449,
+              497,
+              true
+            ],
+            [
+              450,
+              501,
+              false
+            ],
+            [
+              445,
+              510,
+              false
+            ],
+            [
+              438,
+              510,
+              true
+            ],
+            [
+              398,
+              510,
+              true
+            ],
+            [
+              384,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              445,
+              483,
+              true
+            ],
+            [
+              448,
+              496,
+              false
+            ],
+            [
+              436,
+              510,
+              false
+            ],
+            [
+              424,
+              510,
+              true
+            ],
+            [
+              409,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ],
+            [
+              383,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            355,
+            95,
+            true
+          ],
+          "stable_after": [
+            376,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni044B": {
+      "path": "data/italic-rounded-terminals/uni044B.glif",
+      "sha256": "5509c677e8dbfe721240cf5e0ab42674c158f0e3ec827e83fade8a8ac221ed5a",
+      "advance_and_lsb": [
+        593,
+        10
+      ],
+      "bounds": [
+        10,
+        -9,
+        583,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              542,
+              480,
+              false
+            ],
+            [
+              547,
+              497,
+              true
+            ],
+            [
+              547,
+              502,
+              false
+            ],
+            [
+              543,
+              510,
+              false
+            ],
+            [
+              536,
+              510,
+              true
+            ],
+            [
+              496,
+              510,
+              true
+            ],
+            [
+              485,
+              510,
+              false
+            ],
+            [
+              480,
+              489,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              543,
+              483,
+              true
+            ],
+            [
+              546,
+              496,
+              false
+            ],
+            [
+              534,
+              510,
+              false
+            ],
+            [
+              522,
+              510,
+              true
+            ],
+            [
+              506,
+              510,
+              true
+            ],
+            [
+              485,
+              510,
+              false
+            ],
+            [
+              480,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            538,
+            462,
+            true
+          ],
+          "stable_after": [
+            478,
+            480,
+            true
+          ],
+          "flat_before": 40,
+          "flat_after": 16,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0448": {
+      "path": "data/italic-rounded-terminals/uni0448.glif",
+      "sha256": "c3071d8874182bf1090910a9fab9884949795b65adecb2bb519c0faf32f30209",
+      "advance_and_lsb": [
+        728,
+        17
+      ],
+      "bounds": [
+        17,
+        -9,
+        718,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              450,
+              500,
+              true
+            ],
+            [
+              451,
+              504,
+              false
+            ],
+            [
+              445,
+              510,
+              false
+            ],
+            [
+              438,
+              510,
+              true
+            ],
+            [
+              398,
+              510,
+              true
+            ],
+            [
+              384,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              445,
+              483,
+              true
+            ],
+            [
+              448,
+              496,
+              false
+            ],
+            [
+              436,
+              510,
+              false
+            ],
+            [
+              424,
+              510,
+              true
+            ],
+            [
+              409,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ],
+            [
+              383,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            429,
+            410,
+            true
+          ],
+          "stable_after": [
+            376,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        },
+        {
+          "old_points": [
+            [
+              682,
+              497,
+              true
+            ],
+            [
+              683,
+              501,
+              false
+            ],
+            [
+              678,
+              510,
+              false
+            ],
+            [
+              671,
+              510,
+              true
+            ],
+            [
+              631,
+              510,
+              true
+            ],
+            [
+              617,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              678,
+              483,
+              true
+            ],
+            [
+              681,
+              496,
+              false
+            ],
+            [
+              669,
+              510,
+              false
+            ],
+            [
+              657,
+              510,
+              true
+            ],
+            [
+              642,
+              510,
+              true
+            ],
+            [
+              621,
+              510,
+              false
+            ],
+            [
+              616,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            588,
+            95,
+            true
+          ],
+          "stable_after": [
+            609,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0449": {
+      "path": "data/italic-rounded-terminals/uni0449.glif",
+      "sha256": "cb2585bd3c588646dfe05d50f417ba59043c19289a90d57d984ec5b294509be1",
+      "advance_and_lsb": [
+        696,
+        17
+      ],
+      "bounds": [
+        17,
+        -150,
+        681,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              682,
+              497,
+              true
+            ],
+            [
+              683,
+              501,
+              false
+            ],
+            [
+              678,
+              510,
+              false
+            ],
+            [
+              671,
+              510,
+              true
+            ],
+            [
+              631,
+              510,
+              true
+            ],
+            [
+              617,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              678,
+              483,
+              true
+            ],
+            [
+              681,
+              496,
+              false
+            ],
+            [
+              669,
+              510,
+              false
+            ],
+            [
+              657,
+              510,
+              true
+            ],
+            [
+              642,
+              510,
+              true
+            ],
+            [
+              621,
+              510,
+              false
+            ],
+            [
+              616,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            588,
+            95,
+            true
+          ],
+          "stable_after": [
+            609,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        },
+        {
+          "old_points": [
+            [
+              450,
+              500,
+              true
+            ],
+            [
+              451,
+              504,
+              false
+            ],
+            [
+              445,
+              510,
+              false
+            ],
+            [
+              438,
+              510,
+              true
+            ],
+            [
+              398,
+              510,
+              true
+            ],
+            [
+              384,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              445,
+              483,
+              true
+            ],
+            [
+              448,
+              496,
+              false
+            ],
+            [
+              436,
+              510,
+              false
+            ],
+            [
+              424,
+              510,
+              true
+            ],
+            [
+              409,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ],
+            [
+              383,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            429,
+            410,
+            true
+          ],
+          "stable_after": [
+            376,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni04A3": {
+      "path": "data/italic-rounded-terminals/uni04A3.glif",
+      "sha256": "501584999eb35ac9c395a40a57c6ad5313580363351516c04de089b6c0fd4eb4",
+      "advance_and_lsb": [
+        459,
+        19
+      ],
+      "bounds": [
+        19,
+        -150,
+        441,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              437,
+              480,
+              false
+            ],
+            [
+              442,
+              497,
+              true
+            ],
+            [
+              444,
+              504,
+              false
+            ],
+            [
+              438,
+              510,
+              false
+            ],
+            [
+              431,
+              510,
+              true
+            ],
+            [
+              391,
+              510,
+              true
+            ],
+            [
+              380,
+              510,
+              false
+            ],
+            [
+              375,
+              489,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              438,
+              483,
+              true
+            ],
+            [
+              441,
+              496,
+              false
+            ],
+            [
+              429,
+              510,
+              false
+            ],
+            [
+              417,
+              510,
+              true
+            ],
+            [
+              401,
+              510,
+              true
+            ],
+            [
+              380,
+              510,
+              false
+            ],
+            [
+              375,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            433,
+            462,
+            true
+          ],
+          "stable_after": [
+            373,
+            480,
+            true
+          ],
+          "flat_before": 40,
+          "flat_after": 16,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni04AF": {
+      "path": "data/italic-rounded-terminals/uni04AF.glif",
+      "sha256": "c3ba578feacd5897e4901dc802b27efc4125c3f5baa78d69c2b12c2e7d4789c0",
+      "advance_and_lsb": [
+        475,
+        21
+      ],
+      "bounds": [
+        21,
+        -205,
+        452,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              454,
+              500,
+              true
+            ],
+            [
+              455,
+              504,
+              false
+            ],
+            [
+              449,
+              510,
+              false
+            ],
+            [
+              442,
+              510,
+              true
+            ],
+            [
+              402,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              449,
+              483,
+              true
+            ],
+            [
+              452,
+              496,
+              false
+            ],
+            [
+              440,
+              510,
+              false
+            ],
+            [
+              428,
+              510,
+              true
+            ],
+            [
+              413,
+              510,
+              true
+            ],
+            [
+              392,
+              510,
+              false
+            ],
+            [
+              387,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            433,
+            410,
+            true
+          ],
+          "stable_after": [
+            380,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni04B1": {
+      "path": "data/italic-rounded-terminals/uni04B1.glif",
+      "sha256": "ab51c1a572fc1c29ba817c85fcbc87d1b312d8bd29ea9db7bad328c752d6db16",
+      "advance_and_lsb": [
+        475,
+        21
+      ],
+      "bounds": [
+        21,
+        -205,
+        452,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              454,
+              500,
+              true
+            ],
+            [
+              455,
+              504,
+              false
+            ],
+            [
+              449,
+              510,
+              false
+            ],
+            [
+              442,
+              510,
+              true
+            ],
+            [
+              402,
+              510,
+              true
+            ],
+            [
+              388,
+              510,
+              false
+            ]
+          ],
+          "new_points": [
+            [
+              449,
+              483,
+              true
+            ],
+            [
+              452,
+              496,
+              false
+            ],
+            [
+              440,
+              510,
+              false
+            ],
+            [
+              428,
+              510,
+              true
+            ],
+            [
+              413,
+              510,
+              true
+            ],
+            [
+              392,
+              510,
+              false
+            ],
+            [
+              387,
+              489,
+              true
+            ]
+          ],
+          "start": [
+            433,
+            410,
+            true
+          ],
+          "stable_after": [
+            380,
+            460,
+            false
+          ],
+          "flat_before": 40,
+          "flat_after": 15,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0436": {
+      "path": "data/italic-rounded-terminals/uni0436.glif",
+      "sha256": "80a666af4b29ec4472a9f86b4972d6c016cf903edd604479f8d6fa18e65a7738",
+      "advance_and_lsb": [
+        702,
+        9
+      ],
+      "bounds": [
+        9,
+        -9,
+        700,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              449,
+              510,
+              true
+            ],
+            [
+              385,
+              510,
+              true
+            ]
+          ],
+          "new_points": [
+            [
+              443,
+              483,
+              true
+            ],
+            [
+              446,
+              496,
+              false
+            ],
+            [
+              434,
+              510,
+              false
+            ],
+            [
+              422,
+              510,
+              true
+            ],
+            [
+              406,
+              510,
+              true
+            ],
+            [
+              385,
+              510,
+              false
+            ],
+            [
+              380,
+              489,
+              true
+            ]
+          ],
+          "flat_before": 64,
+          "flat_after": 16,
+          "right_rounding_depth": 27,
+          "left_rounding_depth": 21
+        }
+      ]
+    },
+    "uni0447": {
+      "path": "data/italic-rounded-terminals/uni0447.glif",
+      "sha256": "d55d7345092aa3e6cb112e01fc98bdf3ad73a631d63ff60d6572674cbae9e03f",
+      "advance_and_lsb": [
+        483,
+        -16
+      ],
+      "bounds": [
+        -16,
+        -9,
+        473,
+        516
+      ],
+      "repairs": [
+        {
+          "old_points": [
+            [
+              432,
+              480,
+              false
+            ],
+            [
+              437,
+              497,
+              true
+            ],
+            [
+              439,
+              504,
+              false
+            ],
+            [
+              433,
+              510,
+              false
+            ],
+            [
+              426,
+              510,
+              true
+            ]
+          ],
+          "new_points": [
+            [
+              433,
+              483,
+              true
+            ],
+            [
+              436,
+              496,
+              false
+            ],
+            [
+              424,
+              510,
+              false
+            ],
+            [
+              412,
+              510,
+              true
+            ]
+          ],
+          "right_rounding_depth": 27,
+          "entry_flag": "retained exactly"
+        }
+      ]
+    }
+  }
+}

@@ -29,49 +29,26 @@ italic: regular
 
 family: italic
 	$(PY) tools/build_family.py
+	$(PY) tools/italic_revision.py
 
+# The 1.116 gate compares the actual whole family with published 1.115.
+# It supersedes historical freezes only for the twelve author-approved masters;
+# every other outline, hint, metric and layout table (including м) stays exact.
 release: family
-	$(PY) tools/check_el_default.py --formats ttf,woff2
-	$(PY) tools/check_italic_el_alternate.py --formats ttf,woff2
-	$(PY) tools/check_exact_node_reduction.py
+	$(PY) tools/check_italic_revision.py
 	$(PY) tools/check_family.py
-	$(PY) tools/check_curve_finish.py
-	$(PY) tools/check_ya_revision.py
-	$(PY) tools/check_ghe_width.py
-	$(PY) tools/check_tail_joins.py --formats ttf,woff2
-	$(PY) tools/check_italic_che.py --formats ttf,woff2
 	$(PY) tools/quality_family.py
 	$(PY) tools/family_proof.py
-	$(PY) tools/el_alternate_proof.py
-	$(PY) tools/node_reduction_proof.py
-	$(PY) tools/curve_finish_proof.py
-	$(PY) tools/ya_revision_proof.py
-	$(PY) tools/ghe_width_proof.py
-	$(PY) tools/italic_tail_loop_proof.py
-	$(PY) tools/italic_che_proof.py
-	$(PY) tools/family_curve_audit.py --root build/release --output docs/qa/curve-inventory.json
+	$(PY) tools/italic_revision_proof.py
 	$(PY) tools/optical_review.py
 	$(PY) tools/package_release.py $(if $(filter 1,$(BROWSER)),--browser,)
 	$(PY) tools/package_renamed_copy.py
-	$(PY) tools/check_final_freeze.py
-	$(PY) tools/check_italic_el_alternate.py --root fonts
-	$(PY) tools/check_el_default.py --root fonts
-	$(PY) tools/check_tail_joins.py --root fonts
-	$(PY) tools/check_italic_che.py --root fonts
-	$(PY) tools/italic_tail_loop_proof.py
-	$(PY) tools/check_contour_geometry.py
-	$(PY) tools/contour_audit.py
+	$(PY) tools/check_italic_revision.py --root fonts
 	$(PY) tools/readme_header.py
 
 quality:
-	$(PY) tools/check_el_default.py --formats ttf,woff2
-	$(PY) tools/check_italic_el_alternate.py --formats ttf,woff2
+	$(PY) tools/check_italic_revision.py
 	$(PY) tools/check_family.py
-	$(PY) tools/check_curve_finish.py
-	$(PY) tools/check_ya_revision.py
-	$(PY) tools/check_ghe_width.py
-	$(PY) tools/check_tail_joins.py --formats ttf,woff2
-	$(PY) tools/check_italic_che.py --formats ttf,woff2
 	$(PY) tools/quality_family.py
 
 # Published files only: no outline changes, font rebuild or release packaging.

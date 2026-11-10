@@ -1,0 +1,76 @@
+{
+  "release": "1.116",
+  "scope": "Deterministic repeat of the new accepted-outline overlay and export stage only.",
+  "production_pipeline": "The full source pipeline ran once in the production build. It was not repeated by this check; functional, quality and browser acceptance are tracked separately.",
+  "repeated_stage": "tools/italic_revision.py",
+  "repeat_count": 1,
+  "full_pipeline_repeated": false,
+  "method": "Copy build/release into an isolated temporary directory, restore the two pre-revision TTF snapshots, share data as read-only inputs through a symlink, use the original Git object database, and rerun the original overlay script with the pinned virtual environment.",
+  "production_completion_marker_observed": "Applied accepted 1.116 masters",
+  "baseline_commit": "0330c598b690e4e9ddc6aec53a57218bba476035",
+  "input_snapshot_sha256": {
+    "VeryPeriSerif-Regular.ttf": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+    "VeryPeriSerif-Italic.ttf": "658a3565c8fe045f26318e7750adf9635347800b40ad31ea13c3357ff70f9c25"
+  },
+  "input_snapshots_unchanged": true,
+  "files": {
+    "build/release/VeryPeriSerif-Regular.ttf": {
+      "production_sha256": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+      "repeated_sha256": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Regular.otf": {
+      "production_sha256": "3f7a187a93f54d8caeba23880a95c1bbd3bd0f08674a2a9230f229b1e754cbcc",
+      "repeated_sha256": "3f7a187a93f54d8caeba23880a95c1bbd3bd0f08674a2a9230f229b1e754cbcc",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Regular.woff2": {
+      "production_sha256": "84c5561c8e5f762328ede6988bbf24d0fbc0257b5ef08c079981ce0665abbd5d",
+      "repeated_sha256": "84c5561c8e5f762328ede6988bbf24d0fbc0257b5ef08c079981ce0665abbd5d",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Italic.ttf": {
+      "production_sha256": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d",
+      "repeated_sha256": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Italic.otf": {
+      "production_sha256": "a082428161d8462d1cbff91b493e74b655819b7fa0ea66a819cd172b7934acb2",
+      "repeated_sha256": "a082428161d8462d1cbff91b493e74b655819b7fa0ea66a819cd172b7934acb2",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Italic.woff2": {
+      "production_sha256": "00a735288ee08aa756199fae814ec4fabde3dfcdb24a8d4d7fd1aef197b5a690",
+      "repeated_sha256": "00a735288ee08aa756199fae814ec4fabde3dfcdb24a8d4d7fd1aef197b5a690",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "build/release/VeryPeriSerif-Family.zip": {
+      "production_sha256": "f5973936bbd32e0350e3b546b9d24337b61c801b1e382206aeceda9376a3094c",
+      "repeated_sha256": "f5973936bbd32e0350e3b546b9d24337b61c801b1e382206aeceda9376a3094c",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "dist/test/VeryPeriSerifT1116-Regular.ttf": {
+      "production_sha256": "e44b8d78dce7f53eea89d185716feef36dda1836d34a4e28eb6cb6e9234c9e64",
+      "repeated_sha256": "e44b8d78dce7f53eea89d185716feef36dda1836d34a4e28eb6cb6e9234c9e64",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    },
+    "dist/test/VeryPeriSerifT1116-Italic.ttf": {
+      "production_sha256": "9d54511a90aa7a5e0d3ea45f5fe4e622992bf0030cd30065f77cb7343de5fede",
+      "repeated_sha256": "9d54511a90aa7a5e0d3ea45f5fe4e622992bf0030cd30065f77cb7343de5fede",
+      "byte_identical": true,
+      "production_unchanged_during_check": true
+    }
+  },
+  "passed": 9,
+  "failed": 0,
+  "failures": [],
+  "limitation": "This is not proof of an independent second run of glyph generation, kerning, specimens, or the final distributable ZIP packaging."
+}

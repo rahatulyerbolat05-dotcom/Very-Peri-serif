@@ -1,0 +1,59 @@
+{
+  "baseline_commit": "0330c598b690e4e9ddc6aec53a57218bba476035",
+  "version": "1.116",
+  "date": "2026-11-10",
+  "approval": "Author accepted rounded terminals and classical ya ear; em variants deferred.",
+  "glyphs": {
+    "uni043D": {
+      "path": "data/italic-rounded-terminals/uni043D.glif",
+      "sha256": "beeada6ea4c32894b331272bf2de68793857e5460302e9ba115b950d36fd71de"
+    },
+    "uni0439": {
+      "path": "data/italic-rounded-terminals/uni0439.glif",
+      "sha256": "f8262363ced5d435809128e078ebb33c4f6bcb849dbac7bbcce611f6d69a45d6"
+    },
+    "uni0446": {
+      "path": "data/italic-rounded-terminals/uni0446.glif",
+      "sha256": "8893e108ca43513eeb58a40bff526a6768f5a9ab47da37c8e86b2c9e97d036c2"
+    },
+    "uni044B": {
+      "path": "data/italic-rounded-terminals/uni044B.glif",
+      "sha256": "5509c677e8dbfe721240cf5e0ab42674c158f0e3ec827e83fade8a8ac221ed5a"
+    },
+    "uni0448": {
+      "path": "data/italic-rounded-terminals/uni0448.glif",
+      "sha256": "c3071d8874182bf1090910a9fab9884949795b65adecb2bb519c0faf32f30209"
+    },
+    "uni0449": {
+      "path": "data/italic-rounded-terminals/uni0449.glif",
+      "sha256": "cb2585bd3c588646dfe05d50f417ba59043c19289a90d57d984ec5b294509be1"
+    },
+    "uni04A3": {
+      "path": "data/italic-rounded-terminals/uni04A3.glif",
+      "sha256": "501584999eb35ac9c395a40a57c6ad5313580363351516c04de089b6c0fd4eb4"
+    },
+    "uni04AF": {
+      "path": "data/italic-rounded-terminals/uni04AF.glif",
+      "sha256": "c3ba578feacd5897e4901dc802b27efc4125c3f5baa78d69c2b12c2e7d4789c0"
+    },
+    "uni04B1": {
+      "path": "data/italic-rounded-terminals/uni04B1.glif",
+      "sha256": "ab51c1a572fc1c29ba817c85fcbc87d1b312d8bd29ea9db7bad328c752d6db16"
+    },
+    "uni0436": {
+      "path": "data/italic-rounded-terminals/uni0436.glif",
+      "sha256": "80a666af4b29ec4472a9f86b4972d6c016cf903edd604479f8d6fa18e65a7738"
+    },
+    "uni0447": {
+      "path": "data/italic-rounded-terminals/uni0447.glif",
+      "sha256": "d55d7345092aa3e6cb112e01fc98bdf3ad73a631d63ff60d6572674cbae9e03f"
+    },
+    "uni044F": {
+      "path": "data/italic-ya-terminal/uni044F.glif",
+      "sha256": "343b03d032bc7e7dcb507d9814db440821ca175002ba06d55df26cd908b74d72"
+    }
+  },
+  "derived_cff_glyphs": {
+    "uni0442.srb": "Existing TTF composite of uni0448 and uni0304; flattened CFF follows the revised sha without changing its components, metrics or layout."
+  }
+}

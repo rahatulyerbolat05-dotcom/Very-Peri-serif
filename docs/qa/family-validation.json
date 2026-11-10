@@ -1,15 +1,15 @@
 {
   "regular": {
     "file": "VeryPeriSerif-Regular.ttf",
-    "version": "1.115",
-    "sha256": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e"
+    "version": "1.116",
+    "sha256": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe"
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "1.115",
-    "source": "build/italic-lower/VeryPeriSerifItalicI039.ttf",
-    "sha256": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af",
-    "woff2_sha256": "932c07cbf609f5cf0dabdc3b006536a180a70d4ed0cc40ed001ddd61c782dea7"
+    "version": "1.116",
+    "source": "build/italic-lower/VeryPeriSerifItalicI040.ttf",
+    "sha256": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d",
+    "woff2_sha256": "00a735288ee08aa756199fae814ec4fabde3dfcdb24a8d4d7fd1aef197b5a690"
   },
   "added_to_italic": {
     "0x2002": "space",
@@ -7466,10 +7466,10 @@
     "no .notdef in sample VeryPeriSerif-Italic.ttf": true
   },
   "test_pair": {
-    "family": "Very Peri Serif T1115",
+    "family": "Very Peri Serif T1116",
     "files": [
-      "VeryPeriSerifT1115-Regular.ttf",
-      "VeryPeriSerifT1115-Italic.ttf"
+      "VeryPeriSerifT1116-Regular.ttf",
+      "VeryPeriSerifT1116-Italic.ttf"
     ],
     "checks": {
       "same family name": true,
@@ -7481,10 +7481,32 @@
       "same upm and vendor": true,
       "Italic yMax within winAscent": true,
       "Italic covers every Regular character": true,
-      "OpenType Sanitizer VeryPeriSerifT1115-Regular.ttf": true,
-      "OpenType Sanitizer VeryPeriSerifT1115-Italic.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1115-Regular.ttf": true,
-      "no .notdef in sample VeryPeriSerifT1115-Italic.ttf": true
+      "OpenType Sanitizer VeryPeriSerifT1116-Regular.ttf": true,
+      "OpenType Sanitizer VeryPeriSerifT1116-Italic.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1116-Regular.ttf": true,
+      "no .notdef in sample VeryPeriSerifT1116-Italic.ttf": true
     }
+  },
+  "accepted_revision": {
+    "manifest": "data/italic-revision-1.116.json",
+    "glyphs": [
+      "uni0436",
+      "uni0439",
+      "uni043D",
+      "uni0446",
+      "uni0447",
+      "uni0448",
+      "uni0449",
+      "uni044B",
+      "uni044F",
+      "uni04A3",
+      "uni04AF",
+      "uni04B1"
+    ],
+    "derived_cff_glyphs": [
+      "uni0442.srb"
+    ],
+    "spacing": "exactly 1.115",
+    "em": "exactly 1.115"
   }
 }

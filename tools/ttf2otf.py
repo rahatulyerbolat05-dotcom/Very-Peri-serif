@@ -28,10 +28,19 @@ def exact_names(font):
     if font['post'].italicAngle:
         from italic_el_alternate import is_promoted
         if is_promoted(font):names=(names-{'uni043B.ss10'})|{'uni043B'}
+    if Path('data/italic-revision-1.116.json').exists():
+        from italic_revision import accepted,config,derived_glyphs
+        if accepted(font):
+            masters=set(config()['glyphs'])
+            names=names|masters|derived_glyphs(font,masters)
     return names
 
 
 def convert(src,dst):
+    probe=TTFont(src)
+    if probe['name'].getDebugName(5)=='Version 1.116' and Path('data/italic-revision-1.116.json').exists():
+        from italic_revision import convert as convert_revision
+        return convert_revision(src,dst)
     tt=TTFont(src);gs=tt.getGlyphSet();order=tt.getGlyphOrder();cs={};exact=exact_names(tt)
     frozen={};manifest=Path('data/node-reduction/manifest.json')
     if manifest.exists():

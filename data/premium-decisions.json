@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-27",
-  "baseline_commit": "a7bec14",
-  "release": "1.115",
-  "scope": "Regular and Italic; Russian, Kazakh and inherited Latin",
+  "date": "2026-11-10",
+  "baseline_commit": "0330c598b690e4e9ddc6aec53a57218bba476035",
+  "release": "1.116",
+  "scope": "Twelve accepted Italic crown/ya contours only; original em and all layout retained.",
   "decisions": [
     {
       "status": "measured",
@@ -111,32 +111,40 @@
     {
       "status": "author decision",
       "item": "Make the approved El Arch 2 the default italic lowercase el; retain the previous diagonal el in ss10/aalt with each drawing's exact metrics, anchors and kerning."
+    },
+    {
+      "status": "author decision",
+      "item": "Publish the accepted rounded upper terminals of eleven Italic glyphs and the native a/q-derived ya ear. Keep the original em and all 1.115 spacing; the two em studies remain deferred."
     }
   ],
   "approved_fonts": {
-    "Regular": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
-    "Italic": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af"
+    "Regular": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+    "Italic": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d"
   },
   "optical_acceptance": {
-    "date": "2026-10-27",
-    "reviewer": "Codex, self-acceptance authorized by author",
-    "scope": "Author-selected arched Italic el becomes default; previous diagonal form retained in ss10/aalt. Exact existing drawings only.",
+    "date": "2026-11-10",
+    "reviewer": "Codex; author-approved crowns and ya ear, final serialized output inspected",
+    "scope": "Only the twelve author-approved Italic outlines from data/italic-revision-1.116.json. Original em retained; no global optical acceptance.",
     "viewed": [
-      "Actual 1.115 default arched and ss10 diagonal el at large size",
-      "Actual Russian/Kazakh words, repeated el and combining stress in both modes"
+      "docs/img/italic-revision-1.116.png",
+      "build/italic-revision/all-changed.png",
+      "build/italic-revision/ya-details.png",
+      "build/italic-revision/words-light.png",
+      "build/italic-revision/words-dark.png"
     ],
     "decisions": [
-      "Accept the author's requested default selection of the existing 56-point arch without refitting.",
-      "Retain exact outlines and metrics of both drawings while moving all GPOS pairs, classes and mark anchors with them.",
-      "Preserve Regular and all unrelated glyphs; verify actual outputs against 1.114 and the reversible base projection."
+      "Accept the same rounded crown masters approved by the author, with p as the native reference.",
+      "Accept the selected ya shoulder, saddle and rising ear; preserve its bowl/counter, leg and exit.",
+      "Retain original em, all metrics and all kerning/mark/layout tables exactly from 1.115.",
+      "Retain the default arched el and ss10 diagonal el."
     ],
+    "functional_assertions": 4475,
+    "revision_assertions_all_formats": 2459,
     "limitations": [
-      "Global optical queue remains open.",
+      "Global contour/optical queue remains open.",
+      "Em redesign deferred.",
       "No native Windows/macOS/commercial-app or physical print test."
-    ],
-    "default_promotion_assertions_ttf_woff2": 8248,
-    "default_promotion_assertions_all_formats": 10508,
-    "both_forms_pairs_checked": 1856
+    ]
   },
   "previous_approved_fonts": {
     "1.100": {
@@ -198,6 +206,10 @@
     "1.114": {
       "Regular": "1da6e514fcf34d28f922aaecf86d642b0cd8bd323930d6570b882cbda483d96e",
       "Italic": "d347b537a60da23f03b0f25af8a7465f96684d70b121a8834ae533328f4d3f9f"
+    },
+    "1.115": {
+      "Regular": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
+      "Italic": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af"
     }
   },
   "previous_optical_acceptance": {
@@ -525,6 +537,27 @@
         "No native Windows/macOS/commercial-app or physical print test."
       ],
       "ss10_assertions_all_formats": 4353
+    },
+    "1.115": {
+      "date": "2026-10-27",
+      "reviewer": "Codex, self-acceptance authorized by author",
+      "scope": "Author-selected arched Italic el becomes default; previous diagonal form retained in ss10/aalt. Exact existing drawings only.",
+      "viewed": [
+        "Actual 1.115 default arched and ss10 diagonal el at large size",
+        "Actual Russian/Kazakh words, repeated el and combining stress in both modes"
+      ],
+      "decisions": [
+        "Accept the author's requested default selection of the existing 56-point arch without refitting.",
+        "Retain exact outlines and metrics of both drawings while moving all GPOS pairs, classes and mark anchors with them.",
+        "Preserve Regular and all unrelated glyphs; verify actual outputs against 1.114 and the reversible base projection."
+      ],
+      "limitations": [
+        "Global optical queue remains open.",
+        "No native Windows/macOS/commercial-app or physical print test."
+      ],
+      "default_promotion_assertions_ttf_woff2": 8248,
+      "default_promotion_assertions_all_formats": 10508,
+      "both_forms_pairs_checked": 1856
     }
   }
 }
