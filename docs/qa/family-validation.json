@@ -6,10 +6,10 @@
   },
   "italic": {
     "file": "VeryPeriSerif-Italic.ttf",
-    "version": "0.260",
-    "source": "build/italic-lower/VeryPeriSerifItalicI026.ttf",
-    "sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
-    "woff2_sha256": "683a1b0d938f5b77c0e3bd500d65d5832b52666107b2df844b0aa2ebbcf8aa6a"
+    "version": "0.270",
+    "source": "build/italic-lower/VeryPeriSerifItalicI027.ttf",
+    "sha256": "4655986bf4c19d4ccd1272ce803ebd31c4f2e7588cb894447b0ea0fd0487dced",
+    "woff2_sha256": "74ec3764b0eaa95a46f12a2f536f1bffe6ba60b4fd423e1e9b63f205690d3259"
   },
   "added_to_italic": {
     "0x2002": "space",

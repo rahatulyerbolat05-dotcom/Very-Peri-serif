@@ -213,6 +213,52 @@ def make_comma_ext(ita):
     return comma_ext
 
 
+def em_author(stem,dx):
+    """м by the author's drawing (I027; the author's SVG of 21.10.2026 was "crooked and outside the rules": 64 segments, a bowed hairline, a
+    pinched V slot, strokes 23.5-32.5 / 62.5 / 6.6-19). The construction is the author's, every edge is now a straight line and every
+    turn one or two cubics with a node on the extremum:
+      thin left stroke   30 wide, 14.9 degrees (native M: left stem 31.3 at 14.9), foot with the corner rounds of the native n foot;
+      arch               round top on 516 (overshoot of a round), into the thick stroke;
+      thick "\\"         65 wide (rule: stems 65-66), leaning back 2.5 degrees as drawn;
+      V                  round bottom on -9; the slot between the thick stroke and the hairline ends in a round of radius 5;
+      hairline "/"       19 wide as drawn (the author's connecting hairline, as in ж: pen hairline 14 < 19 < native entry 26), straight
+                         from the V to the head: its lower edge on the author's line, its upper edge turning into the flat top of the stem;
+      right stem         the native u stem whole (head, 63.4 wide, exit); the slit beside it ends in a round of radius 4.
+    Coordinates are real (slanted) x, y; stem: the clean u stem (build.u_stem2), dx: its shift."""
+    K1,W1,C1=0.266,30.,(68.1,215.);K2,W2,C2=-0.0433,65.,(191.,300.);K3,W3,R3=0.3405,19.,(329.8,250.)
+    Y1,XT,Y2,Y3,XB,Y4,YS=452.,181.,440.,62.,201.,44.,412.;HA=HB=0.58;HS,HT=0.5,0.6;R_TOP,R_V,R_SLIT=2.5,5.,4.
+    l1=lambda y:C1[0]-W1/2+K1*(y-C1[1]);r1=lambda y:l1(y)+W1
+    l2=lambda y:C2[0]-W2/2+K2*(y-C2[1]);r2=lambda y:l2(y)+W2
+    e3r=lambda y:R3[0]+K3*(y-R3[1]);e3l=lambda y:e3r(y)-W3
+    stem_l=lambda y:U_L+dx+S*y
+    cross=lambda f,g:(lambda y:(f(y),y))((g(0)-f(0))/((f(1)-f(0))-(g(1)-g(0))))
+    unit=lambda v:(v[0]/math.hypot(*v),v[1]/math.hypot(*v))
+    def handles(a,ta,b,tb,ha,hb):                   # cubic a -> b with the given travel directions: handles reach ha, hb of the way to the tangent crossing
+        den=ta[0]*tb[1]-ta[1]*tb[0];t=((b[0]-a[0])*tb[1]-(b[1]-a[1])*tb[0])/den;x=(a[0]+ta[0]*t,a[1]+ta[1]*t)
+        return (a[0]+ha*(x[0]-a[0]),a[1]+ha*(x[1]-a[1])),(b[0]+hb*(x[0]-b[0]),b[1]+hb*(x[1]-b[1])),b
+    path=pathops.Path();pen=path.getPen()
+    def corner(a,c,b):pen.curveTo((a[0]+2/3*(c[0]-a[0]),a[1]+2/3*(c[1]-a[1])),(b[0]+2/3*(c[0]-b[0]),b[1]+2/3*(c[1]-b[1])),b)
+    def fillet(A,d_in,d_out,r):                     # corner A rounded with radius r: line to the first tangent point, the arc as one cubic
+        u,v=unit(d_in),unit(d_out);phi=math.acos(max(-1,min(1,u[0]*v[0]+u[1]*v[1])));t=r*math.tan(phi/2);h=4/3*math.tan(phi/4)*r
+        T1=(A[0]-u[0]*t,A[1]-u[1]*t);T2=(A[0]+v[0]*t,A[1]+v[1]*t)
+        pen.lineTo(T1);pen.curveTo((T1[0]+u[0]*h,T1[1]+u[1]*h),(T2[0]-v[0]*h,T2[1]-v[1]*h),T2)
+    head=(402+dx,510)                               # left end of the flat top of the native u stem
+    pen.moveTo((l1(0)+10,0));pen.lineTo((r1(0)-10,0));corner((r1(0)-10,0),(r1(0),0),(r1(11),11))
+    fillet(cross(r1,l2),(K1,1),(-K2,-1),R_TOP);pen.lineTo((l2(Y3),Y3))
+    pen.curveTo(*handles((l2(Y3),Y3),(-K2,-1),(XB,-9),(1,0),HA,HB))
+    pen.curveTo(*handles((XB,-9),(1,0),(e3r(Y4),Y4),(K3,1),HB,HA))
+    fillet(cross(e3r,stem_l),(K3,1),(-S,-1),R_SLIT)
+    pen.lineTo((head[0]+43,470));pen.lineTo((head[0]+43,510));pen.lineTo(head)
+    arch=handles(head,(-1,0),(e3l(YS),YS),(-K3,-1),HT,HS);pen.curveTo(*arch)
+    fillet(cross(e3l,r2),(-K3,-1),(K2,1),R_V);pen.lineTo((r2(Y2),Y2))
+    pen.curveTo(*handles((r2(Y2),Y2),(K2,1),(XT,516),(-1,0),HA,HB))
+    pen.curveTo(*handles((XT,516),(-1,0),(l1(Y1),Y1),(-K1,-1),HB,HA))
+    pen.lineTo((l1(12),12));corner((l1(12),12),(l1(0),0),(l1(0)+10,0));pen.closePath()
+    cut=pathops.Path();cp=cut.getPen();cp.moveTo(head);cp.curveTo(*arch)       # the corner round of the native head lies left of the arch: cut away
+    cp.lineTo((arch[2][0]-40,arch[2][1]));cp.lineTo((arch[2][0]-40,540));cp.lineTo((head[0],540));cp.closePath()
+    return OR(path,SUB(transformed(stem,dx=dx),cut))
+
+
 def build(ita,reg):
     u=native(ita,'u');n=native(ita,'n');q=native(ita,'q');j=native(ita,'j');r=native(ita,'r')
     out={}
@@ -483,7 +529,8 @@ def build(ita,reg):
     v_inner=poly([(edge(A,sa,wt,y_in)+S*y_in,y_in),(edge(A,sa,wt,Y1+5)+S*(Y1+5),Y1+5),(edge(Dd,sd,-wn,Y1+5)+S*(Y1+5),Y1+5)])
     v_new=SUB(v_outer,v_inner)
     м_body=SUB(м_body,AND(below(Y1),AND(right_of(sl[-1][0][1]-2),left_of(sl[-1][-1][0]+2))))   # the old V below 450, stems kept
-    out['м']=(OR(м_body,lstem,v_new,transformed(u_stem2(),dx=303.5-U_L)),510)
+    out['\uf109']=(OR(м_body,lstem,v_new,transformed(u_stem2(),dx=303.5-U_L)),510)   # м of I008-I026 (Regular V with flat heads), kept as a PUA alternate
+    out['м']=(em_author(u_stem2(),303.5-U_L),510)
     # ---- Kazakh letters: қ ң (tail of ц in place of the exit), ү ұ (u with a straight descender from p), ә (sheared Regular)
     Pk=polys_ud(ita,'k')
     from italic_rules_measure import runs as _runs
@@ -528,7 +575,7 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'\uf109':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
 STRAIGHTEN=set('мляюдф')     # constructions with straight edges (tools/straightness_audit.py); native stems bow and are left alone
@@ -548,7 +595,7 @@ def main():
         g,_=fair(g,glyf)                                # I021: seams and grid kinks faired (tools/italic_fair.py)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
-        sp=SPACING.get(ch)
+        sp=SPACING.get({'\uf109':'м'}.get(ch,ch))          # the previous м keeps the fitted bearings of м
         if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(glyf);adv+=sp['dadv']
         name=f'uni{ord(ch):04X}';glyf[name]=g
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))

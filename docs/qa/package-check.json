@@ -1,8 +1,8 @@
 {
   "version": "1.016",
-  "italic_version": "0.260",
+  "italic_version": "0.270",
   "archive": "dist/VeryPeriSerif-1.016.zip",
-  "archive_sha256": "f49f9ea1875faab755b72174eba81857a7d3ae76e974a4c0d972c87684d68994",
+  "archive_sha256": "6079c4c38d51a3abd14359a734efd38632de34e3c02233dea32ef729d1ceae02",
   "members": [
     "AUTHORS.txt",
     "CONTRIBUTORS.txt",
@@ -27,7 +27,7 @@
       "over_limit": []
     },
     "Italic": {
-      "glyphs": 471,
+      "glyphs": 472,
       "hausdorff_worst": 0.713,
       "over_limit": []
     }
