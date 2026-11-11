@@ -1,0 +1,41 @@
+{
+  "version": "1.117",
+  "date": "2026-11-11",
+  "baseline_archive": "dist/VeryPeriSerif-1.116.zip",
+  "baseline_sha256": "ea93f22b17b3faf3e3531c3e8371d9b136144c82a4d1c77b1d519514ea3e8ef4",
+  "baseline_commit": "c28303b00d188f8913fa1aec4e030447d9e64d2a",
+  "svg": "data/italic-author-em/Vector.svg",
+  "svg_sha256": "14bcccb7ea410050586e6ddc39e57e085717d28c162fa8a8a639d4a91f48c6c8",
+  "glyph": "uni043C",
+  "advance": 523,
+  "mapping": {
+    "x": "(svg_x - 42.77) / 5.3",
+    "y": "516 - svg_y / 5.3"
+  },
+  "ttf": {
+    "cu2qu_max_error": 0.1,
+    "reverse_contour": true,
+    "rounding": "fontTools TTGlyphPen integer grid"
+  },
+  "otf": "Original transformed cubic controls at 16.16 precision",
+  "spacing": "Unchanged 1.116 GPOS and advance; LSB follows TTF control bbox",
+  "provenance": "Author uploaded corrected Vector.svg after withdrawing м.svg. No artistic edits.",
+  "native_cyrillic_clones": {
+    "uni0412": "B",
+    "uni041C": "M",
+    "uni041D": "H",
+    "uni0420": "P",
+    "uni0425": "X",
+    "uni0430": "a",
+    "uni0435": "e",
+    "uni0440": "p",
+    "uni0442": "m",
+    "uni0445": "x",
+    "uni04BB": "h",
+    "uni0434.ss02": "eth",
+    "uni0430.ss01": "a.ss01",
+    "uni0435.ss01": "e.ss01",
+    "uni0434.locl": "g",
+    "uni0434.locl.ss01": "g.ss01"
+  }
+}

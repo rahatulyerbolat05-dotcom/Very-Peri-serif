@@ -1,0 +1,2878 @@
+{
+  "version": "1.117",
+  "baseline_version": "1.116",
+  "baseline_archive": "dist/VeryPeriSerif-1.116.zip",
+  "baseline_archive_sha256": "ea93f22b17b3faf3e3531c3e8371d9b136144c82a4d1c77b1d519514ea3e8ef4",
+  "source": "data/italic-author-em/Vector.svg",
+  "source_sha256": "14bcccb7ea410050586e6ddc39e57e085717d28c162fa8a8a639d4a91f48c6c8",
+  "transform": [
+    0.18867924528301888,
+    0,
+    0,
+    -0.18867924528301888,
+    -8.069811320754718,
+    516
+  ],
+  "source_diagnostic_candidates": [
+    {
+      "kind": "curvature_jump",
+      "segment": 0,
+      "s": 0.0,
+      "xy": [
+        -0.48981,
+        -0.0
+      ],
+      "metrics": {
+        "incoming": 0.0600629,
+        "outgoing": 0.0,
+        "absolute": 0.0600629,
+        "relative": 0.96777
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 1,
+      "s": 10.0,
+      "xy": [
+        9.51019,
+        -0.0
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": 0.0549916,
+        "absolute": 0.0549916,
+        "relative": 0.96491
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 2,
+      "s": 28.50353,
+      "xy": [
+        22.4366,
+        11.0
+      ],
+      "metrics": {
+        "incoming": 0.0372915,
+        "outgoing": 0.0,
+        "absolute": 0.0372915,
+        "relative": 0.9491
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 3,
+      "s": 487.80236,
+      "xy": [
+        140.50453,
+        454.86415
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": -0.3280628,
+        "absolute": 0.3280628,
+        "relative": 0.99394
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 4,
+      "s": 494.92465,
+      "xy": [
+        145.41774,
+        454.33019
+      ],
+      "metrics": {
+        "incoming": -0.3279461,
+        "outgoing": 0.0,
+        "absolute": 0.3279461,
+        "relative": 0.99394
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 5,
+      "s": 887.62249,
+      "xy": [
+        162.40642,
+        62.0
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": 0.0047945,
+        "absolute": 0.0047945,
+        "relative": 0.70564
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 6,
+      "s": 971.11929,
+      "xy": [
+        194.6,
+        -9.0
+      ],
+      "metrics": {
+        "incoming": 0.0696912,
+        "outgoing": 0.0267476,
+        "absolute": 0.0429435,
+        "relative": 0.59901
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 7,
+      "s": 1054.99707,
+      "xy": [
+        253.2566,
+        44.0
+      ],
+      "metrics": {
+        "incoming": 0.0102084,
+        "outgoing": 0.0,
+        "absolute": 0.0102084,
+        "relative": 0.83618
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 8,
+      "s": 1496.42676,
+      "xy": [
+        395.54151,
+        461.86981
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": -0.19363,
+        "absolute": 0.19363,
+        "relative": 0.98978
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 9,
+      "s": 1508.6647,
+      "xy": [
+        403.22642,
+        459.68113
+      ],
+      "metrics": {
+        "incoming": -0.1937109,
+        "outgoing": 0.0,
+        "absolute": 0.1937109,
+        "relative": 0.98978
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 11,
+      "s": 1881.97193,
+      "xy": [
+        319.0,
+        96.0
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": 0.0030254,
+        "absolute": 0.0030254,
+        "relative": 0.60203
+      },
+      "contour": 0
+    },
+    {
+      "kind": "tangent_break",
+      "segment": 15,
+      "s": 2261.96643,
+      "xy": [
+        509.0,
+        170.0
+      ],
+      "metrics": {
+        "degrees": 2.93134,
+        "incoming": [
+          0.30274386370386974,
+          0.9530719558300164
+        ],
+        "outgoing": [
+          0.3510871438684905,
+          0.9363427884115227
+        ]
+      },
+      "contour": 0
+    },
+    {
+      "kind": "tangent_break",
+      "segment": 18,
+      "s": 2306.43605,
+      "xy": [
+        487.0,
+        175.0
+      ],
+      "metrics": {
+        "degrees": 2.79889,
+        "incoming": [
+          -0.2942320672268581,
+          -0.9557340062043463
+        ],
+        "outgoing": [
+          -0.34054999315018375,
+          -0.9402264100552642
+        ]
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 21,
+      "s": 2526.57147,
+      "xy": [
+        382.0,
+        95.0
+      ],
+      "metrics": {
+        "incoming": -0.0058479,
+        "outgoing": 0.0,
+        "absolute": 0.0058479,
+        "relative": 0.74515
+      },
+      "contour": 0
+    },
+    {
+      "kind": "short_segment",
+      "segment": 22,
+      "s": 2531.91498,
+      "xy": [
+        383.3783,
+        100.0
+      ],
+      "metrics": {
+        "length": 0.41698
+      },
+      "contour": 0
+    },
+    {
+      "kind": "tangent_break",
+      "segment": 22,
+      "s": 2531.70649,
+      "xy": [
+        383.16981,
+        100.0
+      ],
+      "metrics": {
+        "degrees": 76.83181,
+        "incoming": [
+          0.22781034871690178,
+          0.9737055227415954
+        ],
+        "outgoing": [
+          1.0,
+          0.0
+        ]
+      },
+      "contour": 0
+    },
+    {
+      "kind": "transverse_step",
+      "segment": 22,
+      "s": 2531.91498,
+      "xy": [
+        383.3783,
+        100.0
+      ],
+      "metrics": {
+        "length": 0.41698,
+        "before_degrees": -76.83181,
+        "after_degrees": 76.99996
+      },
+      "contour": 0
+    },
+    {
+      "kind": "tangent_break",
+      "segment": 23,
+      "s": 2532.12347,
+      "xy": [
+        383.58679,
+        100.0
+      ],
+      "metrics": {
+        "degrees": 76.99996,
+        "incoming": [
+          1.0,
+          0.0
+        ],
+        "outgoing": [
+          0.2249517263577689,
+          0.9743699096383567
+        ]
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 24,
+      "s": 2922.1191,
+      "xy": [
+        471.31698,
+        480.0
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": 0.03968,
+        "absolute": 0.03968,
+        "relative": 0.95202
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 25,
+      "s": 2966.04054,
+      "xy": [
+        447.72075,
+        510.0
+      ],
+      "metrics": {
+        "incoming": 0.0396831,
+        "outgoing": -0.0,
+        "absolute": 0.0396831,
+        "relative": 0.95202
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 26,
+      "s": 2988.7613,
+      "xy": [
+        425.0,
+        510.0
+      ],
+      "metrics": {
+        "incoming": -0.0,
+        "outgoing": 0.0882759,
+        "absolute": 0.0882759,
+        "relative": 0.97785
+      },
+      "contour": 0
+    },
+    {
+      "kind": "short_segment",
+      "segment": 27,
+      "s": 2999.30692,
+      "xy": [
+        415.19528,
+        506.51887
+      ],
+      "metrics": {
+        "length": 0.29045
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 27,
+      "s": 2999.16169,
+      "xy": [
+        415.31698,
+        506.59811
+      ],
+      "metrics": {
+        "incoming": 0.0306595,
+        "outgoing": 0.0,
+        "absolute": 0.0306595,
+        "relative": 0.93876
+      },
+      "contour": 0
+    },
+    {
+      "kind": "tangent_break",
+      "segment": 28,
+      "s": 2999.45214,
+      "xy": [
+        415.07358,
+        506.43962
+      ],
+      "metrics": {
+        "degrees": 3.06994,
+        "incoming": [
+          -0.8379980847077728,
+          -0.5456731714369915
+        ],
+        "outgoing": [
+          -0.8660189825829995,
+          -0.5000111216822147
+        ]
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 30,
+      "s": 3490.16226,
+      "xy": [
+        237.44717,
+        53.36981
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": -0.1667192,
+        "absolute": 0.1667192,
+        "relative": 0.98815
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 31,
+      "s": 3504.0553,
+      "xy": [
+        227.71887,
+        54.76415
+      ],
+      "metrics": {
+        "incoming": -0.1667986,
+        "outgoing": -0.0,
+        "absolute": 0.1667986,
+        "relative": 0.98815
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 32,
+      "s": 3889.65214,
+      "xy": [
+        211.03774,
+        440.0
+      ],
+      "metrics": {
+        "incoming": -0.0,
+        "outgoing": 0.0047642,
+        "absolute": 0.0047642,
+        "relative": 0.70433
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 33,
+      "s": 3980.26157,
+      "xy": [
+        174.60075,
+        516.0
+      ],
+      "metrics": {
+        "incoming": 0.0575844,
+        "outgoing": 0.0232813,
+        "absolute": 0.0343031,
+        "relative": 0.57571
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 34,
+      "s": 4077.71679,
+      "xy": [
+        109.74226,
+        452.0
+      ],
+      "metrics": {
+        "incoming": 0.0087734,
+        "outgoing": 0.0,
+        "absolute": 0.0087734,
+        "relative": 0.81436
+      },
+      "contour": 0
+    },
+    {
+      "kind": "curvature_jump",
+      "segment": 35,
+      "s": 4533.017,
+      "xy": [
+        -7.29736,
+        12.0
+      ],
+      "metrics": {
+        "incoming": 0.0,
+        "outgoing": 0.0313502,
+        "absolute": 0.0313502,
+        "relative": 0.94003
+      },
+      "contour": 0
+    },
+    {
+      "kind": "near_straight_bend",
+      "segment": 11,
+      "s": 1890.91379,
+      "xy": [
+        317.13109,
+        87.25254
+      ],
+      "metrics": {
+        "deviation": 0.41829,
+        "window": 32
+      },
+      "contour": 0
+    },
+    {
+      "kind": "near_straight_bend",
+      "segment": 28,
+      "s": 3090.33857,
+      "xy": [
+        366.47003,
+        431.81933
+      ],
+      "metrics": {
+        "deviation": 0.83877,
+        "window": 80
+      },
+      "contour": 0
+    }
+  ],
+  "fonts": {
+    "Regular ttf": {
+      "path": "fonts/ttf/VeryPeriSerif-Regular.ttf",
+      "sha256": "72d27547f3fbc6ef8680ac21cf07552768d6a37d9ef7477f8d515223c7222b7f",
+      "changed_glyphs": [],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": []
+    },
+    "Regular otf": {
+      "path": "fonts/otf/VeryPeriSerif-Regular.otf",
+      "sha256": "96d98571fd07fddce4e4992810c87ca5eaf775e1ca0f13d1054e9f06ac25164b",
+      "changed_charstrings": [],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": []
+    },
+    "Regular woff2": {
+      "path": "fonts/webfonts/VeryPeriSerif-Regular.woff2",
+      "sha256": "6f84c3412ae1a51c76bb4cff3d702ade709bff2f7c9eb132c6029f334e5ef9b9",
+      "changed_glyphs": [],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": []
+    },
+    "Italic ttf": {
+      "path": "fonts/ttf/VeryPeriSerif-Italic.ttf",
+      "sha256": "6a6bdcf3367443c55df3ddd983e3d0f24a9aa6a10c855d48b387f761c380dfc4",
+      "changed_glyphs": [
+        "uni043C"
+      ],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": [],
+      "source_Hausdorff_error": 0.5097484619701844,
+      "geometry": {
+        "contours": 1,
+        "closed": true,
+        "topology": [],
+        "diagnostic_candidates": [
+          {
+            "kind": "curvature_jump",
+            "segment": 0,
+            "s": 0.0,
+            "xy": [
+              0.0,
+              0.0
+            ],
+            "metrics": {
+              "incoming": -0.0,
+              "outgoing": -0.04,
+              "absolute": 0.04,
+              "relative": 0.95238
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 1,
+            "s": 7.45619,
+            "xy": [
+              -7.0,
+              2.0
+            ],
+            "metrics": {
+              "degrees": 11.30993,
+              "incoming": [
+                -0.7071067811865475,
+                0.7071067811865475
+              ],
+              "outgoing": [
+                -0.5547001962252291,
+                0.8320502943378437
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 2,
+            "s": 17.73803,
+            "xy": [
+              -7.0,
+              12.0
+            ],
+            "metrics": {
+              "incoming": -0.0259171,
+              "outgoing": 0.0,
+              "absolute": 0.0259171,
+              "relative": 0.92836
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 3,
+            "s": 473.02805,
+            "xy": [
+              110.0,
+              452.0
+            ],
+            "metrics": {
+              "degrees": 2.79613,
+              "incoming": [
+                0.25697905843042107,
+                0.9664169718750878
+              ],
+              "outgoing": [
+                0.20952908873087345,
+                0.9778024140774094
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 4,
+            "s": 500.54839,
+            "xy": [
+              120.0,
+              477.5
+            ],
+            "metrics": {
+              "incoming": -0.0130115,
+              "outgoing": -0.0071205,
+              "absolute": 0.005891,
+              "relative": 0.39243
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 7,
+            "s": 570.98406,
+            "xy": [
+              175.0,
+              516.0
+            ],
+            "metrics": {
+              "incoming": -0.018595,
+              "outgoing": -0.0561224,
+              "absolute": 0.0375274,
+              "relative": 0.64566
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 11,
+            "s": 661.11859,
+            "xy": [
+              211.0,
+              440.0
+            ],
+            "metrics": {
+              "incoming": -0.0037967,
+              "outgoing": 0.0,
+              "absolute": 0.0037967,
+              "relative": 0.65498
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 12,
+            "s": 1046.49373,
+            "xy": [
+              228.0,
+              55.0
+            ],
+            "metrics": {
+              "degrees": 2.5283,
+              "incoming": [
+                0.04411286082404703,
+                -0.9990265539563592
+              ],
+              "outgoing": [
+                0.0,
+                -1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 14,
+            "s": 1053.69016,
+            "xy": [
+              232.0,
+              50.0
+            ],
+            "metrics": {
+              "incoming": 0.1875,
+              "outgoing": 0.0625,
+              "absolute": 0.125,
+              "relative": 0.65963
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 15,
+            "s": 1057.23989,
+            "xy": [
+              235.5,
+              50.5
+            ],
+            "metrics": {
+              "incoming": 0.1264911,
+              "outgoing": 0.3794733,
+              "absolute": 0.2529822,
+              "relative": 0.66317
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 16,
+            "s": 1060.38173,
+            "xy": [
+              237.0,
+              53.0
+            ],
+            "metrics": {
+              "degrees": 18.9124,
+              "incoming": [
+                0.0,
+                1.0
+              ],
+              "outgoing": [
+                0.32412220611937026,
+                0.9460152194866173
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 19,
+            "s": 1500.53892,
+            "xy": [
+              382.0,
+              468.5
+            ],
+            "metrics": {
+              "incoming": -0.0034232,
+              "outgoing": -0.009238,
+              "absolute": 0.0058148,
+              "relative": 0.51742
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 21,
+            "s": 1551.69962,
+            "xy": [
+              415.0,
+              506.25
+            ],
+            "metrics": {
+              "length": 1.0
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 21,
+            "s": 1551.19962,
+            "xy": [
+              415.0,
+              506.0
+            ],
+            "metrics": {
+              "degrees": 59.03624,
+              "incoming": [
+                0.8574929257125441,
+                0.5144957554275265
+              ],
+              "outgoing": [
+                0.0,
+                1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "singular_endpoint",
+            "segment": 21,
+            "s": 1551.19962,
+            "xy": [
+              415.0,
+              506.0
+            ],
+            "metrics": {},
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 22,
+            "s": 1552.19962,
+            "xy": [
+              415.0,
+              507.0
+            ],
+            "metrics": {
+              "degrees": 63.43495,
+              "incoming": [
+                0.0,
+                1.0
+              ],
+              "outgoing": [
+                0.8944271909999159,
+                0.4472135954999579
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 23,
+            "s": 1562.72579,
+            "xy": [
+              425.0,
+              510.0
+            ],
+            "metrics": {
+              "incoming": -0.09375,
+              "outgoing": 0.0,
+              "absolute": 0.09375,
+              "relative": 0.97911
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 24,
+            "s": 1585.72579,
+            "xy": [
+              448.0,
+              510.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.0347222,
+              "absolute": 0.0347222,
+              "relative": 0.94554
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 27,
+            "s": 1618.13465,
+            "xy": [
+              471.5,
+              491.0
+            ],
+            "metrics": {
+              "incoming": -0.0377858,
+              "outgoing": -0.0667842,
+              "absolute": 0.0289984,
+              "relative": 0.42159
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 28,
+            "s": 1629.32205,
+            "xy": [
+              471.0,
+              480.0
+            ],
+            "metrics": {
+              "degrees": 5.53948,
+              "incoming": [
+                -0.31622776601683794,
+                -0.9486832980505138
+              ],
+              "outgoing": [
+                -0.22317305051716435,
+                -0.9747788413393386
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 29,
+            "s": 2019.65406,
+            "xy": [
+              383.5,
+              100.0
+            ],
+            "metrics": {
+              "length": 1.0
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 29,
+            "s": 2019.15406,
+            "xy": [
+              384.0,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 77.10453,
+              "incoming": [
+                -0.22317305051716435,
+                -0.9747788413393386
+              ],
+              "outgoing": [
+                -1.0,
+                0.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "transverse_step",
+            "segment": 29,
+            "s": 2019.65406,
+            "xy": [
+              383.5,
+              100.0
+            ],
+            "metrics": {
+              "length": 1.0,
+              "before_degrees": -77.10453,
+              "after_degrees": 78.69007
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 30,
+            "s": 2020.15406,
+            "xy": [
+              383.0,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 78.69007,
+              "incoming": [
+                -1.0,
+                0.0
+              ],
+              "outgoing": [
+                -0.19611613513818404,
+                -0.9805806756909202
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 31,
+            "s": 2025.25308,
+            "xy": [
+              382.0,
+              95.0
+            ],
+            "metrics": {
+              "degrees": 2.31706,
+              "incoming": [
+                -0.19611613513818404,
+                -0.9805806756909202
+              ],
+              "outgoing": [
+                -0.23560002562150417,
+                -0.9718501056887047
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 34,
+            "s": 2245.42152,
+            "xy": [
+              487.0,
+              175.0
+            ],
+            "metrics": {
+              "degrees": 2.8079,
+              "incoming": [
+                0.3405539311100652,
+                0.9402249837169191
+              ],
+              "outgoing": [
+                0.2940858488375231,
+                0.95577900872195
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 36,
+            "s": 2276.8857,
+            "xy": [
+              510.0,
+              183.0
+            ],
+            "metrics": {
+              "degrees": 9.16235,
+              "incoming": [
+                0.5144957554275265,
+                -0.8574929257125441
+              ],
+              "outgoing": [
+                0.3713906763541037,
+                -0.9284766908852594
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 37,
+            "s": 2290.21623,
+            "xy": [
+              509.0,
+              170.0
+            ],
+            "metrics": {
+              "degrees": 2.93375,
+              "incoming": [
+                -0.3511234415883917,
+                -0.9363291775690445
+              ],
+              "outgoing": [
+                -0.3027408115768615,
+                -0.9530729253345639
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 41,
+            "s": 2670.42557,
+            "xy": [
+              319.0,
+              96.0
+            ],
+            "metrics": {
+              "incoming": -0.0030645,
+              "outgoing": 0.0,
+              "absolute": 0.0030645,
+              "relative": 0.6051
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 43,
+            "s": 3043.99216,
+            "xy": [
+              403.0,
+              460.0
+            ],
+            "metrics": {
+              "degrees": 13.57043,
+              "incoming": [
+                0.22485950669875845,
+                0.97439119569462
+              ],
+              "outgoing": [
+                0.4472135954999579,
+                0.8944271909999159
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 44,
+            "s": 3048.67884,
+            "xy": [
+              401.875,
+              463.875
+            ],
+            "metrics": {
+              "length": 2.94056
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 44,
+            "s": 3047.20856,
+            "xy": [
+              403.0,
+              463.0
+            ],
+            "metrics": {
+              "incoming": 0.5303301,
+              "outgoing": 0.1767767,
+              "absolute": 0.3535534,
+              "relative": 0.66416
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 46,
+            "s": 3053.20049,
+            "xy": [
+              397.5,
+              464.5
+            ],
+            "metrics": {
+              "incoming": 0.1897367,
+              "outgoing": 0.3794733,
+              "absolute": 0.1897367,
+              "relative": 0.49738
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 47,
+            "s": 3056.34233,
+            "xy": [
+              396.0,
+              462.0
+            ],
+            "metrics": {
+              "degrees": 18.88609,
+              "incoming": [
+                0.0,
+                -1.0
+              ],
+              "outgoing": [
+                -0.32368767906299023,
+                -0.9461639849533561
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 48,
+            "s": 3498.12622,
+            "xy": [
+              253.0,
+              44.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.0083998,
+              "absolute": 0.0083998,
+              "relative": 0.80769
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 52,
+            "s": 3581.52337,
+            "xy": [
+              195.0,
+              -9.0
+            ],
+            "metrics": {
+              "incoming": -0.03125,
+              "outgoing": -0.0561224,
+              "absolute": 0.0248724,
+              "relative": 0.42793
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 56,
+            "s": 3665.32679,
+            "xy": [
+              162.0,
+              62.0
+            ],
+            "metrics": {
+              "incoming": -0.0047093,
+              "outgoing": -0.0,
+              "absolute": 0.0047093,
+              "relative": 0.70191
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 57,
+            "s": 4059.11027,
+            "xy": [
+              144.75,
+              455.625
+            ],
+            "metrics": {
+              "length": 2.83005
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 57,
+            "s": 4057.69524,
+            "xy": [
+              145.0,
+              454.0
+            ],
+            "metrics": {
+              "degrees": 2.48321,
+              "incoming": [
+                -0.04332662330690628,
+                0.9990609609592507
+              ],
+              "outgoing": [
+                0.0,
+                1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 58,
+            "s": 4061.56319,
+            "xy": [
+              143.0,
+              456.75
+            ],
+            "metrics": {
+              "length": 2.07578
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 58,
+            "s": 4060.52529,
+            "xy": [
+              144.0,
+              456.5
+            ],
+            "metrics": {
+              "incoming": 0.7155418,
+              "outgoing": 0.3577709,
+              "absolute": 0.3577709,
+              "relative": 0.49861
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 59,
+            "s": 4063.55358,
+            "xy": [
+              141.25,
+              455.875
+            ],
+            "metrics": {
+              "length": 1.905
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 60,
+            "s": 4064.50607,
+            "xy": [
+              141.0,
+              455.0
+            ],
+            "metrics": {
+              "degrees": 15.00368,
+              "incoming": [
+                0.0,
+                -1.0
+              ],
+              "outgoing": [
+                -0.25888107057025805,
+                -0.9659092044806267
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 61,
+            "s": 4524.17661,
+            "xy": [
+              22.0,
+              11.0
+            ],
+            "metrics": {
+              "degrees": 4.69883,
+              "incoming": [
+                -0.25888107057025805,
+                -0.9659092044806267
+              ],
+              "outgoing": [
+                -0.17888543819998318,
+                -0.9838699100999074
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 62,
+            "s": 4542.16803,
+            "xy": [
+              10.0,
+              0.0
+            ],
+            "metrics": {
+              "incoming": -0.055,
+              "outgoing": -0.0,
+              "absolute": 0.055,
+              "relative": 0.96491
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 10,
+            "s": 656.15196,
+            "xy": [
+              210.65961,
+              444.9628
+            ],
+            "metrics": {
+              "deviation": 0.46378,
+              "window": 32
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 55,
+            "s": 3664.35045,
+            "xy": [
+              162.06759,
+              61.0204
+            ],
+            "metrics": {
+              "deviation": 0.47307,
+              "window": 32
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 17,
+            "s": 1461.39727,
+            "xy": [
+              367.09035,
+              432.33113
+            ],
+            "metrics": {
+              "deviation": 0.83731,
+              "window": 80
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 56,
+            "s": 3665.32679,
+            "xy": [
+              162.0,
+              62.0
+            ],
+            "metrics": {
+              "deviation": 0.71555,
+              "window": 80
+            },
+            "contour": 0
+          }
+        ]
+      }
+    },
+    "Italic otf": {
+      "path": "fonts/otf/VeryPeriSerif-Italic.otf",
+      "sha256": "780124895abb9f5b1600b315d3fd4f9aaa222aafaa35d2f7dc07d2ae3944546c",
+      "changed_charstrings": [
+        "uni043C"
+      ],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": [],
+      "source_Hausdorff_error": 6.1763076938805826e-06,
+      "source_cubic_control_error": 7.554540104592888e-06,
+      "geometry": {
+        "contours": 1,
+        "closed": true,
+        "topology": [],
+        "diagnostic_candidates": [
+          {
+            "kind": "curvature_jump",
+            "segment": 0,
+            "s": 0.0,
+            "xy": [
+              -0.48981,
+              0.0
+            ],
+            "metrics": {
+              "incoming": 0.0600627,
+              "outgoing": 0.0,
+              "absolute": 0.0600627,
+              "relative": 0.96777
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 1,
+            "s": 10.0,
+            "xy": [
+              9.51019,
+              0.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": 0.0549916,
+              "absolute": 0.0549916,
+              "relative": 0.96491
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 2,
+            "s": 28.50352,
+            "xy": [
+              22.4366,
+              11.0
+            ],
+            "metrics": {
+              "incoming": 0.0372915,
+              "outgoing": 0.0,
+              "absolute": 0.0372915,
+              "relative": 0.9491
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 3,
+            "s": 487.80236,
+            "xy": [
+              140.50453,
+              454.86415
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.3280637,
+              "absolute": 0.3280637,
+              "relative": 0.99394
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 4,
+            "s": 494.92465,
+            "xy": [
+              145.41774,
+              454.33018
+            ],
+            "metrics": {
+              "incoming": -0.3279449,
+              "outgoing": 0.0,
+              "absolute": 0.3279449,
+              "relative": 0.99394
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 5,
+            "s": 887.62249,
+            "xy": [
+              162.40642,
+              62.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": 0.0047945,
+              "absolute": 0.0047945,
+              "relative": 0.70564
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 6,
+            "s": 971.11929,
+            "xy": [
+              194.60001,
+              -9.0
+            ],
+            "metrics": {
+              "incoming": 0.0696911,
+              "outgoing": 0.0267476,
+              "absolute": 0.0429435,
+              "relative": 0.59901
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 7,
+            "s": 1054.99706,
+            "xy": [
+              253.25661,
+              44.0
+            ],
+            "metrics": {
+              "incoming": 0.0102084,
+              "outgoing": 0.0,
+              "absolute": 0.0102084,
+              "relative": 0.83618
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 8,
+            "s": 1496.42676,
+            "xy": [
+              395.5415,
+              461.86981
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.1936295,
+              "absolute": 0.1936295,
+              "relative": 0.98978
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 9,
+            "s": 1508.66469,
+            "xy": [
+              403.22641,
+              459.68114
+            ],
+            "metrics": {
+              "incoming": -0.1937109,
+              "outgoing": 0.0,
+              "absolute": 0.1937109,
+              "relative": 0.98978
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 11,
+            "s": 1881.97194,
+            "xy": [
+              319.0,
+              96.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": 0.0030254,
+              "absolute": 0.0030254,
+              "relative": 0.60203
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 15,
+            "s": 2261.96644,
+            "xy": [
+              509.0,
+              170.0
+            ],
+            "metrics": {
+              "degrees": 2.93132,
+              "incoming": [
+                0.3027438969564309,
+                0.9530719452673203
+              ],
+              "outgoing": [
+                0.3510867484514032,
+                0.9363429366753514
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 18,
+            "s": 2306.43606,
+            "xy": [
+              487.0,
+              175.0
+            ],
+            "metrics": {
+              "degrees": 2.79889,
+              "incoming": [
+                -0.29423212311645114,
+                -0.9557339889981865
+              ],
+              "outgoing": [
+                -0.3405499502465747,
+                -0.9402264255949496
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 21,
+            "s": 2526.57147,
+            "xy": [
+              382.0,
+              95.0
+            ],
+            "metrics": {
+              "incoming": -0.0058479,
+              "outgoing": 0.0,
+              "absolute": 0.0058479,
+              "relative": 0.74515
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 22,
+            "s": 2531.91498,
+            "xy": [
+              383.3783,
+              100.0
+            ],
+            "metrics": {
+              "length": 0.41698
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 22,
+            "s": 2531.70649,
+            "xy": [
+              383.16982,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 76.83177,
+              "incoming": [
+                0.22781103975237105,
+                0.9737053610651137
+              ],
+              "outgoing": [
+                1.0,
+                0.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "transverse_step",
+            "segment": 22,
+            "s": 2531.91498,
+            "xy": [
+              383.3783,
+              100.0
+            ],
+            "metrics": {
+              "length": 0.41698,
+              "before_degrees": -76.83177,
+              "after_degrees": 76.99996
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 23,
+            "s": 2532.12347,
+            "xy": [
+              383.58679,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 76.99996,
+              "incoming": [
+                1.0,
+                0.0
+              ],
+              "outgoing": [
+                0.22495173953396483,
+                0.9743699065963826
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 24,
+            "s": 2922.1191,
+            "xy": [
+              471.31699,
+              480.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": 0.0396799,
+              "absolute": 0.0396799,
+              "relative": 0.95202
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 25,
+            "s": 2966.04055,
+            "xy": [
+              447.72075,
+              510.0
+            ],
+            "metrics": {
+              "incoming": 0.0396831,
+              "outgoing": -0.0,
+              "absolute": 0.0396831,
+              "relative": 0.95202
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 26,
+            "s": 2988.7613,
+            "xy": [
+              425.0,
+              510.0
+            ],
+            "metrics": {
+              "incoming": -0.0,
+              "outgoing": 0.088276,
+              "absolute": 0.088276,
+              "relative": 0.97785
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 27,
+            "s": 2999.30692,
+            "xy": [
+              415.19529,
+              506.51887
+            ],
+            "metrics": {
+              "length": 0.29046
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 27,
+            "s": 2999.16169,
+            "xy": [
+              415.31699,
+              506.59811
+            ],
+            "metrics": {
+              "incoming": 0.0306592,
+              "outgoing": 0.0009095,
+              "absolute": 0.0297497,
+              "relative": 0.91091
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 28,
+            "s": 2999.45215,
+            "xy": [
+              415.07358,
+              506.43962
+            ],
+            "metrics": {
+              "degrees": 3.06327,
+              "incoming": [
+                -0.8380617612598523,
+                -0.5455753699664552
+              ],
+              "outgoing": [
+                -0.8660191012508289,
+                -0.5000109161495444
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 30,
+            "s": 3490.16226,
+            "xy": [
+              237.44717,
+              53.36981
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.1667188,
+              "absolute": 0.1667188,
+              "relative": 0.98815
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 31,
+            "s": 3504.0553,
+            "xy": [
+              227.71887,
+              54.76414
+            ],
+            "metrics": {
+              "incoming": -0.166799,
+              "outgoing": -0.0,
+              "absolute": 0.166799,
+              "relative": 0.98815
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 32,
+            "s": 3889.65214,
+            "xy": [
+              211.03773,
+              440.0
+            ],
+            "metrics": {
+              "incoming": -0.0,
+              "outgoing": 0.0047642,
+              "absolute": 0.0047642,
+              "relative": 0.70433
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 33,
+            "s": 3980.26157,
+            "xy": [
+              174.60075,
+              516.0
+            ],
+            "metrics": {
+              "incoming": 0.0575844,
+              "outgoing": 0.0232813,
+              "absolute": 0.0343031,
+              "relative": 0.57571
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 34,
+            "s": 4077.7168,
+            "xy": [
+              109.74226,
+              452.0
+            ],
+            "metrics": {
+              "incoming": 0.0087734,
+              "outgoing": 0.0,
+              "absolute": 0.0087734,
+              "relative": 0.81436
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 35,
+            "s": 4533.017,
+            "xy": [
+              -7.29736,
+              12.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": 0.03135,
+              "absolute": 0.03135,
+              "relative": 0.94003
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 11,
+            "s": 1891.90733,
+            "xy": [
+              316.9383,
+              86.27009
+            ],
+            "metrics": {
+              "deviation": 0.43319,
+              "window": 32
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 28,
+            "s": 3091.33732,
+            "xy": [
+              366.13123,
+              430.88072
+            ],
+            "metrics": {
+              "deviation": 0.79753,
+              "window": 80
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 32,
+            "s": 3890.64785,
+            "xy": [
+              210.99202,
+              441.00099
+            ],
+            "metrics": {
+              "deviation": 0.4005,
+              "window": 80
+            },
+            "contour": 0
+          }
+        ]
+      }
+    },
+    "Italic woff2": {
+      "path": "fonts/webfonts/VeryPeriSerif-Italic.woff2",
+      "sha256": "7fa2bfe00e633b50a21b69e24fe41891a840a8fe004eb46d62bcd6ad535a0803",
+      "changed_glyphs": [
+        "uni043C"
+      ],
+      "ots_returncode": 0,
+      "shaping_cases": 609,
+      "shaping_mismatches": [],
+      "source_Hausdorff_error": 0.5097484619701844,
+      "geometry": {
+        "contours": 1,
+        "closed": true,
+        "topology": [],
+        "diagnostic_candidates": [
+          {
+            "kind": "curvature_jump",
+            "segment": 0,
+            "s": 0.0,
+            "xy": [
+              0.0,
+              0.0
+            ],
+            "metrics": {
+              "incoming": -0.0,
+              "outgoing": -0.04,
+              "absolute": 0.04,
+              "relative": 0.95238
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 1,
+            "s": 7.45619,
+            "xy": [
+              -7.0,
+              2.0
+            ],
+            "metrics": {
+              "degrees": 11.30993,
+              "incoming": [
+                -0.7071067811865475,
+                0.7071067811865475
+              ],
+              "outgoing": [
+                -0.5547001962252291,
+                0.8320502943378437
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 2,
+            "s": 17.73803,
+            "xy": [
+              -7.0,
+              12.0
+            ],
+            "metrics": {
+              "incoming": -0.0259171,
+              "outgoing": 0.0,
+              "absolute": 0.0259171,
+              "relative": 0.92836
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 3,
+            "s": 473.02805,
+            "xy": [
+              110.0,
+              452.0
+            ],
+            "metrics": {
+              "degrees": 2.79613,
+              "incoming": [
+                0.25697905843042107,
+                0.9664169718750878
+              ],
+              "outgoing": [
+                0.20952908873087345,
+                0.9778024140774094
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 4,
+            "s": 500.54839,
+            "xy": [
+              120.0,
+              477.5
+            ],
+            "metrics": {
+              "incoming": -0.0130115,
+              "outgoing": -0.0071205,
+              "absolute": 0.005891,
+              "relative": 0.39243
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 7,
+            "s": 570.98406,
+            "xy": [
+              175.0,
+              516.0
+            ],
+            "metrics": {
+              "incoming": -0.018595,
+              "outgoing": -0.0561224,
+              "absolute": 0.0375274,
+              "relative": 0.64566
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 11,
+            "s": 661.11859,
+            "xy": [
+              211.0,
+              440.0
+            ],
+            "metrics": {
+              "incoming": -0.0037967,
+              "outgoing": 0.0,
+              "absolute": 0.0037967,
+              "relative": 0.65498
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 12,
+            "s": 1046.49373,
+            "xy": [
+              228.0,
+              55.0
+            ],
+            "metrics": {
+              "degrees": 2.5283,
+              "incoming": [
+                0.04411286082404703,
+                -0.9990265539563592
+              ],
+              "outgoing": [
+                0.0,
+                -1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 14,
+            "s": 1053.69016,
+            "xy": [
+              232.0,
+              50.0
+            ],
+            "metrics": {
+              "incoming": 0.1875,
+              "outgoing": 0.0625,
+              "absolute": 0.125,
+              "relative": 0.65963
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 15,
+            "s": 1057.23989,
+            "xy": [
+              235.5,
+              50.5
+            ],
+            "metrics": {
+              "incoming": 0.1264911,
+              "outgoing": 0.3794733,
+              "absolute": 0.2529822,
+              "relative": 0.66317
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 16,
+            "s": 1060.38173,
+            "xy": [
+              237.0,
+              53.0
+            ],
+            "metrics": {
+              "degrees": 18.9124,
+              "incoming": [
+                0.0,
+                1.0
+              ],
+              "outgoing": [
+                0.32412220611937026,
+                0.9460152194866173
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 19,
+            "s": 1500.53892,
+            "xy": [
+              382.0,
+              468.5
+            ],
+            "metrics": {
+              "incoming": -0.0034232,
+              "outgoing": -0.009238,
+              "absolute": 0.0058148,
+              "relative": 0.51742
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 21,
+            "s": 1551.69962,
+            "xy": [
+              415.0,
+              506.25
+            ],
+            "metrics": {
+              "length": 1.0
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 21,
+            "s": 1551.19962,
+            "xy": [
+              415.0,
+              506.0
+            ],
+            "metrics": {
+              "degrees": 59.03624,
+              "incoming": [
+                0.8574929257125441,
+                0.5144957554275265
+              ],
+              "outgoing": [
+                0.0,
+                1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "singular_endpoint",
+            "segment": 21,
+            "s": 1551.19962,
+            "xy": [
+              415.0,
+              506.0
+            ],
+            "metrics": {},
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 22,
+            "s": 1552.19962,
+            "xy": [
+              415.0,
+              507.0
+            ],
+            "metrics": {
+              "degrees": 63.43495,
+              "incoming": [
+                0.0,
+                1.0
+              ],
+              "outgoing": [
+                0.8944271909999159,
+                0.4472135954999579
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 23,
+            "s": 1562.72579,
+            "xy": [
+              425.0,
+              510.0
+            ],
+            "metrics": {
+              "incoming": -0.09375,
+              "outgoing": 0.0,
+              "absolute": 0.09375,
+              "relative": 0.97911
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 24,
+            "s": 1585.72579,
+            "xy": [
+              448.0,
+              510.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.0347222,
+              "absolute": 0.0347222,
+              "relative": 0.94554
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 27,
+            "s": 1618.13465,
+            "xy": [
+              471.5,
+              491.0
+            ],
+            "metrics": {
+              "incoming": -0.0377858,
+              "outgoing": -0.0667842,
+              "absolute": 0.0289984,
+              "relative": 0.42159
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 28,
+            "s": 1629.32205,
+            "xy": [
+              471.0,
+              480.0
+            ],
+            "metrics": {
+              "degrees": 5.53948,
+              "incoming": [
+                -0.31622776601683794,
+                -0.9486832980505138
+              ],
+              "outgoing": [
+                -0.22317305051716435,
+                -0.9747788413393386
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 29,
+            "s": 2019.65406,
+            "xy": [
+              383.5,
+              100.0
+            ],
+            "metrics": {
+              "length": 1.0
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 29,
+            "s": 2019.15406,
+            "xy": [
+              384.0,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 77.10453,
+              "incoming": [
+                -0.22317305051716435,
+                -0.9747788413393386
+              ],
+              "outgoing": [
+                -1.0,
+                0.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "transverse_step",
+            "segment": 29,
+            "s": 2019.65406,
+            "xy": [
+              383.5,
+              100.0
+            ],
+            "metrics": {
+              "length": 1.0,
+              "before_degrees": -77.10453,
+              "after_degrees": 78.69007
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 30,
+            "s": 2020.15406,
+            "xy": [
+              383.0,
+              100.0
+            ],
+            "metrics": {
+              "degrees": 78.69007,
+              "incoming": [
+                -1.0,
+                0.0
+              ],
+              "outgoing": [
+                -0.19611613513818404,
+                -0.9805806756909202
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 31,
+            "s": 2025.25308,
+            "xy": [
+              382.0,
+              95.0
+            ],
+            "metrics": {
+              "degrees": 2.31706,
+              "incoming": [
+                -0.19611613513818404,
+                -0.9805806756909202
+              ],
+              "outgoing": [
+                -0.23560002562150417,
+                -0.9718501056887047
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 34,
+            "s": 2245.42152,
+            "xy": [
+              487.0,
+              175.0
+            ],
+            "metrics": {
+              "degrees": 2.8079,
+              "incoming": [
+                0.3405539311100652,
+                0.9402249837169191
+              ],
+              "outgoing": [
+                0.2940858488375231,
+                0.95577900872195
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 36,
+            "s": 2276.8857,
+            "xy": [
+              510.0,
+              183.0
+            ],
+            "metrics": {
+              "degrees": 9.16235,
+              "incoming": [
+                0.5144957554275265,
+                -0.8574929257125441
+              ],
+              "outgoing": [
+                0.3713906763541037,
+                -0.9284766908852594
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 37,
+            "s": 2290.21623,
+            "xy": [
+              509.0,
+              170.0
+            ],
+            "metrics": {
+              "degrees": 2.93375,
+              "incoming": [
+                -0.3511234415883917,
+                -0.9363291775690445
+              ],
+              "outgoing": [
+                -0.3027408115768615,
+                -0.9530729253345639
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 41,
+            "s": 2670.42557,
+            "xy": [
+              319.0,
+              96.0
+            ],
+            "metrics": {
+              "incoming": -0.0030645,
+              "outgoing": 0.0,
+              "absolute": 0.0030645,
+              "relative": 0.6051
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 43,
+            "s": 3043.99216,
+            "xy": [
+              403.0,
+              460.0
+            ],
+            "metrics": {
+              "degrees": 13.57043,
+              "incoming": [
+                0.22485950669875845,
+                0.97439119569462
+              ],
+              "outgoing": [
+                0.4472135954999579,
+                0.8944271909999159
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 44,
+            "s": 3048.67884,
+            "xy": [
+              401.875,
+              463.875
+            ],
+            "metrics": {
+              "length": 2.94056
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 44,
+            "s": 3047.20856,
+            "xy": [
+              403.0,
+              463.0
+            ],
+            "metrics": {
+              "incoming": 0.5303301,
+              "outgoing": 0.1767767,
+              "absolute": 0.3535534,
+              "relative": 0.66416
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 46,
+            "s": 3053.20049,
+            "xy": [
+              397.5,
+              464.5
+            ],
+            "metrics": {
+              "incoming": 0.1897367,
+              "outgoing": 0.3794733,
+              "absolute": 0.1897367,
+              "relative": 0.49738
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 47,
+            "s": 3056.34233,
+            "xy": [
+              396.0,
+              462.0
+            ],
+            "metrics": {
+              "degrees": 18.88609,
+              "incoming": [
+                0.0,
+                -1.0
+              ],
+              "outgoing": [
+                -0.32368767906299023,
+                -0.9461639849533561
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 48,
+            "s": 3498.12622,
+            "xy": [
+              253.0,
+              44.0
+            ],
+            "metrics": {
+              "incoming": 0.0,
+              "outgoing": -0.0083998,
+              "absolute": 0.0083998,
+              "relative": 0.80769
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 52,
+            "s": 3581.52337,
+            "xy": [
+              195.0,
+              -9.0
+            ],
+            "metrics": {
+              "incoming": -0.03125,
+              "outgoing": -0.0561224,
+              "absolute": 0.0248724,
+              "relative": 0.42793
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 56,
+            "s": 3665.32679,
+            "xy": [
+              162.0,
+              62.0
+            ],
+            "metrics": {
+              "incoming": -0.0047093,
+              "outgoing": -0.0,
+              "absolute": 0.0047093,
+              "relative": 0.70191
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 57,
+            "s": 4059.11027,
+            "xy": [
+              144.75,
+              455.625
+            ],
+            "metrics": {
+              "length": 2.83005
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 57,
+            "s": 4057.69524,
+            "xy": [
+              145.0,
+              454.0
+            ],
+            "metrics": {
+              "degrees": 2.48321,
+              "incoming": [
+                -0.04332662330690628,
+                0.9990609609592507
+              ],
+              "outgoing": [
+                0.0,
+                1.0
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 58,
+            "s": 4061.56319,
+            "xy": [
+              143.0,
+              456.75
+            ],
+            "metrics": {
+              "length": 2.07578
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 58,
+            "s": 4060.52529,
+            "xy": [
+              144.0,
+              456.5
+            ],
+            "metrics": {
+              "incoming": 0.7155418,
+              "outgoing": 0.3577709,
+              "absolute": 0.3577709,
+              "relative": 0.49861
+            },
+            "contour": 0
+          },
+          {
+            "kind": "short_segment",
+            "segment": 59,
+            "s": 4063.55358,
+            "xy": [
+              141.25,
+              455.875
+            ],
+            "metrics": {
+              "length": 1.905
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 60,
+            "s": 4064.50607,
+            "xy": [
+              141.0,
+              455.0
+            ],
+            "metrics": {
+              "degrees": 15.00368,
+              "incoming": [
+                0.0,
+                -1.0
+              ],
+              "outgoing": [
+                -0.25888107057025805,
+                -0.9659092044806267
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "tangent_break",
+            "segment": 61,
+            "s": 4524.17661,
+            "xy": [
+              22.0,
+              11.0
+            ],
+            "metrics": {
+              "degrees": 4.69883,
+              "incoming": [
+                -0.25888107057025805,
+                -0.9659092044806267
+              ],
+              "outgoing": [
+                -0.17888543819998318,
+                -0.9838699100999074
+              ]
+            },
+            "contour": 0
+          },
+          {
+            "kind": "curvature_jump",
+            "segment": 62,
+            "s": 4542.16803,
+            "xy": [
+              10.0,
+              0.0
+            ],
+            "metrics": {
+              "incoming": -0.055,
+              "outgoing": -0.0,
+              "absolute": 0.055,
+              "relative": 0.96491
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 10,
+            "s": 656.15196,
+            "xy": [
+              210.65961,
+              444.9628
+            ],
+            "metrics": {
+              "deviation": 0.46378,
+              "window": 32
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 55,
+            "s": 3664.35045,
+            "xy": [
+              162.06759,
+              61.0204
+            ],
+            "metrics": {
+              "deviation": 0.47307,
+              "window": 32
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 17,
+            "s": 1461.39727,
+            "xy": [
+              367.09035,
+              432.33113
+            ],
+            "metrics": {
+              "deviation": 0.83731,
+              "window": 80
+            },
+            "contour": 0
+          },
+          {
+            "kind": "near_straight_bend",
+            "segment": 56,
+            "s": 3665.32679,
+            "xy": [
+              162.0,
+              62.0
+            ],
+            "metrics": {
+              "deviation": 0.71555,
+              "window": 80
+            },
+            "contour": 0
+          }
+        ]
+      }
+    }
+  },
+  "pair_contacts": {
+    "method": "PathOps intersections of actual serialized outlines; all visible positive-advance glyph partners, both orders, kern on/off. Body excludes y[-25,55] where foot contacts may be intentional. New baseline-only contacts remain explicit review items.",
+    "partners": 465,
+    "pairs_and_modes": 1858,
+    "body_collision_regressions": [],
+    "new_baseline_only_contacts": [],
+    "inherited_or_reduced_contacts": []
+  },
+  "passed": 6341,
+  "failed": 0,
+  "failures": [],
+  "warnings": [
+    {
+      "font": "Italic ttf",
+      "contour_diagnostic_count": 49,
+      "interpretation": "Author source contains intentional corners and sub-unit shoulder/foot segments; no generic smoothing gate."
+    },
+    {
+      "font": "Italic otf",
+      "contour_diagnostic_count": 33,
+      "interpretation": "Author source contains intentional corners and sub-unit shoulder/foot segments; no generic smoothing gate."
+    },
+    {
+      "font": "Italic woff2",
+      "contour_diagnostic_count": 49,
+      "interpretation": "Author source contains intentional corners and sub-unit shoulder/foot segments; no generic smoothing gate."
+    }
+  ],
+  "optical_status": "Author-supplied design. Source fidelity and technical diagnostics do not constitute global optical acceptance."
+}

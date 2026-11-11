@@ -3794,7 +3794,7 @@
           }
         }
       },
-      "sha256": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+      "sha256": "72d27547f3fbc6ef8680ac21cf07552768d6a37d9ef7477f8d515223c7222b7f",
       "baseline_sha256": "143c40058f882cf873bf0214305126ab56133be4dce27965e5aebcea2bea8ea5",
       "zhe_to_en": 1.15,
       "de_depth": -250
@@ -6136,19 +6136,19 @@
             "glyph": "uni043C",
             "advance": 523,
             "bounds": [
-              -6,
               -9,
-              511,
-              510
+              -9,
+              512,
+              516
             ],
-            "density": 0.3642,
-            "points": 48,
+            "density": 0.3503,
+            "points": 87,
             "diagnostics": {
               "slop": 2,
               "zone": 0,
-              "extrema": 0,
-              "kink": 0,
-              "micro": 1,
+              "extrema": 4,
+              "kink": 4,
+              "micro": 13,
               "wobble": 0
             }
           }
@@ -7592,7 +7592,7 @@
           }
         }
       },
-      "sha256": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d",
+      "sha256": "6a6bdcf3367443c55df3ddd983e3d0f24a9aa6a10c855d48b387f761c380dfc4",
       "baseline_sha256": "5ec84c2af8ccf93a1655feaeadda76e4b787f881e0a82aa14372c43f486b00b2",
       "zhe_to_en": 1.469,
       "de_depth": -215

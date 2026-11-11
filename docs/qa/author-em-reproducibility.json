@@ -1,0 +1,88 @@
+{
+  "version": "1.117",
+  "kind": "clean isolated font rebuild",
+  "command": "<external venv>/bin/python -I tools/author_em.py",
+  "copied_inputs": [
+    "tools/",
+    "data/",
+    "font/",
+    "reference/",
+    "dist/VeryPeriSerif-1.116.zip"
+  ],
+  "no_previous_build_or_git": true,
+  "environment": {
+    "python": "3.12.14",
+    "fontTools": "4.67.0"
+  },
+  "source_builder_sha256": "8a95d6763a844dbb6f60152ee8cb6d83bd7c935f150979a0c216022ea87583d5",
+  "baseline_archive_sha256": "ea93f22b17b3faf3e3531c3e8371d9b136144c82a4d1c77b1d519514ea3e8ef4",
+  "build_exit_code": 0,
+  "files": {
+    "build/release/VeryPeriSerif-Regular.ttf": {
+      "exists": true,
+      "rebuilt_sha256": "72d27547f3fbc6ef8680ac21cf07552768d6a37d9ef7477f8d515223c7222b7f",
+      "current_sha256": "72d27547f3fbc6ef8680ac21cf07552768d6a37d9ef7477f8d515223c7222b7f",
+      "identical": true
+    },
+    "build/release/VeryPeriSerif-Regular.otf": {
+      "exists": true,
+      "rebuilt_sha256": "96d98571fd07fddce4e4992810c87ca5eaf775e1ca0f13d1054e9f06ac25164b",
+      "current_sha256": "96d98571fd07fddce4e4992810c87ca5eaf775e1ca0f13d1054e9f06ac25164b",
+      "identical": true
+    },
+    "build/release/VeryPeriSerif-Regular.woff2": {
+      "exists": true,
+      "rebuilt_sha256": "6f84c3412ae1a51c76bb4cff3d702ade709bff2f7c9eb132c6029f334e5ef9b9",
+      "current_sha256": "6f84c3412ae1a51c76bb4cff3d702ade709bff2f7c9eb132c6029f334e5ef9b9",
+      "identical": true
+    },
+    "build/release/VeryPeriSerif-Italic.ttf": {
+      "exists": true,
+      "rebuilt_sha256": "6a6bdcf3367443c55df3ddd983e3d0f24a9aa6a10c855d48b387f761c380dfc4",
+      "current_sha256": "6a6bdcf3367443c55df3ddd983e3d0f24a9aa6a10c855d48b387f761c380dfc4",
+      "identical": true
+    },
+    "build/release/VeryPeriSerif-Italic.otf": {
+      "exists": true,
+      "rebuilt_sha256": "780124895abb9f5b1600b315d3fd4f9aaa222aafaa35d2f7dc07d2ae3944546c",
+      "current_sha256": "780124895abb9f5b1600b315d3fd4f9aaa222aafaa35d2f7dc07d2ae3944546c",
+      "identical": true
+    },
+    "build/release/VeryPeriSerif-Italic.woff2": {
+      "exists": true,
+      "rebuilt_sha256": "7fa2bfe00e633b50a21b69e24fe41891a840a8fe004eb46d62bcd6ad535a0803",
+      "current_sha256": "7fa2bfe00e633b50a21b69e24fe41891a840a8fe004eb46d62bcd6ad535a0803",
+      "identical": true
+    }
+  },
+  "masters": {
+    "data/italic-author-em/Vector.svg": {
+      "rebuilt_sha256": "14bcccb7ea410050586e6ddc39e57e085717d28c162fa8a8a639d4a91f48c6c8",
+      "current_sha256": "14bcccb7ea410050586e6ddc39e57e085717d28c162fa8a8a639d4a91f48c6c8",
+      "identical": true
+    },
+    "data/italic-author-em/uni043C.cubic.glif": {
+      "rebuilt_sha256": "951bd615bc4c0c7ac5b14107f9d9ec14dad40d7fc28989f5c9608ae62a62fab1",
+      "current_sha256": "951bd615bc4c0c7ac5b14107f9d9ec14dad40d7fc28989f5c9608ae62a62fab1",
+      "identical": true
+    },
+    "data/italic-author-em/uni043C.glif": {
+      "rebuilt_sha256": "bc7077fd3e745a27a269c0351d827c54a262b7136f58085cfb8cefe486dd8c0f",
+      "current_sha256": "bc7077fd3e745a27a269c0351d827c54a262b7136f58085cfb8cefe486dd8c0f",
+      "identical": true
+    }
+  },
+  "checks": {
+    "clean_directory": true,
+    "build_successful": true,
+    "six_fonts_byte_identical": true,
+    "svg_unchanged_and_hash_bound": true,
+    "both_glifs_reproduced_exactly": true,
+    "baseline_hash_bound": true,
+    "builder_unchanged_during_run": true
+  },
+  "diagnostics": "Built 1.117: exact author SVG; only italic em drawing and its derived LSB change.\n",
+  "failed": [],
+  "passed": 7,
+  "elapsed_seconds": 5.75
+}

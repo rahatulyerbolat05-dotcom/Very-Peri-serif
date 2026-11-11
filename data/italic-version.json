@@ -1,5 +1,5 @@
 {
- "version": "0.40",
+ "version": "0.41",
  "log": {
   "0.1": "caps, plain shear",
   "0.2": "caps, round correction and node tidy",
@@ -40,6 +40,7 @@
   "0.37": "Frozen 1.113: exact removal of redundant stored points; accepted CFF programs preserved; legal metadata names Yerbolat Rakhatuly (DEW), retaining Instrument/Cormorant notices and OFL 1.1.",
   "0.38": "Family 1.114: approved El Arch 2 embedded as uni043B.ss10, selectable by ss10 and aalt; preserve all existing default outlines and metrics, give the alternate its own anchors and kerning.",
   "0.39": "Family 1.115: author selects El Arch 2 as default italic lowercase el. Previous diagonal form remains available through ss10/aalt; swap drawings with their exact metrics, all kerning and mark anchors.",
-  "0.40": "Family1.116: author-approved p-derived crowns on 11 Cyrillic glyphs and classical a/q-derived ya ear. Preserve original em, all original spacing and the default arched el; em studies remain pending."
+  "0.40": "Family1.116: author-approved p-derived crowns on 11 Cyrillic glyphs and classical a/q-derived ya ear. Preserve original em, all original spacing and the default arched el; em studies remain pending.",
+  "0.41": "Family 1.117: author-supplied Vector.svg becomes italic lowercase em. Uniform coordinate mapping, original cubic CFF, quadratic TTF/WOFF2; all other drawings, advances and layout preserved from 1.116."
  }
 }

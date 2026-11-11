@@ -112,8 +112,11 @@ def check(path, exhaustive=True):
         yg=f['glyf'][ya];coords,ends,flags=yg.getCoordinates(f['glyf'])
         points=[(coords[i][0],coords[i][1],bool(flags[i]&1)) for i in range(len(coords))]
         ck(yg.numberOfContours==2, 'Ya has exactly body and counter contours')
-        if f['name'].getDebugName(5)=='Version 1.116':
-            from italic_revision import accepted
+        if f['name'].getDebugName(5) in ('Version 1.116','Version 1.117'):
+            if f['name'].getDebugName(5)=='Version 1.117':
+                from author_em import accepted
+            else:
+                from italic_revision import accepted
             ck(accepted(f), 'Author-approved upper crowns and classical ya ear match exact masters')
         else:
             ck([(x,y,on) for x,y,on in points if 220<=x<=310 and 510<=y<=516]==
@@ -245,7 +248,10 @@ def check(path, exhaustive=True):
     # True pixel parity of the glyph itself (no string-pair kerning involved).
     raster_pairs=[]
     if style=='Regular':
-        records=json.loads(Path('build/regular-release/source/build-manifest.json').read_text())['glyph_records']
+        manifest=Path('build/regular-release/source/build-manifest.json')
+        if f['name'].getDebugName(5)=='Version 1.117':
+            manifest=Path('data/italic-author-em/regular-native-records.json')
+        records=json.loads(manifest.read_text())['glyph_records']
         meta={r['character']:{'latin':r['native_copy']} for n,r in records.items() if 'native_copy' in r and '.' not in n}
         cmap=f.getBestCmap()
         reverse={n:chr(cp) for cp,n in native.getBestCmap().items()}

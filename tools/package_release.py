@@ -141,7 +141,10 @@ def main():
         assert not otf_checks[s]['over_limit'],otf_checks[s]
         files[s]=(ttf,otf,woff)
     (FONTS/'webfonts'/'very-peri-serif.css').write_text(CSS.format(version=CONFIG['version']))
-    for r in REPORTS:
+    current_reports = REPORTS
+    if CONFIG['version']=='1.117':
+        current_reports=('build-manifest.json','quality-summary.json','family-validation.json','family-acceptance.json','fontbakery-universal.json','optical-review.json')
+    for r in current_reports:
         if (SRC/r).exists():shutil.copyfile(SRC/r,QA/r)
     specimen=Path('docs/specimen/VeryPeriSerif-Regular-Specimen.pdf');shutil.copyfile(SRC/'specimen.pdf',specimen)
     family_specimen=Path('docs/specimen/VeryPeriSerif-Family-Specimen.pdf');shutil.copyfile(SRC/'family-specimen.pdf',family_specimen)
@@ -158,6 +161,8 @@ def main():
         # Validate the six files that will actually enter the archive, before
         # writing the immutable ZIP or refreshing its public latest alias.
         subprocess.run([sys.executable,'-I','tools/check_italic_revision.py','--root',str(FONTS)],check=True)
+    if CONFIG['version']=='1.117':
+        subprocess.run([sys.executable,'-I','tools/check_author_em.py','--root',str(FONTS),'--report','docs/qa/author-em-final.json'],check=True)
     qa=json.loads((SRC/'quality-summary.json').read_text())
     assert qa['fonts']=={p.name:sha(p) for s in STYLES for p in files[s] if p.suffix=='.ttf'}, 'QA is stale'
     acceptance=json.loads((SRC/'family-acceptance.json').read_text())
@@ -183,6 +188,10 @@ def main():
     revision_proof=Path(f'docs/specimen/VeryPeriSerif-Italic-Revision-{CONFIG["version"]}.pdf')
     if revision_proof.exists():
         members['specimen/'+revision_proof.name]=revision_proof.read_bytes()
+    author_proof=Path(f'docs/specimen/VeryPeriSerif-Author-Em-{CONFIG["version"]}.pdf')
+    if CONFIG['version']=='1.117':
+        assert author_proof.exists(), 'Generate the author em proof before packaging'
+        members['specimen/'+author_proof.name]=author_proof.read_bytes()
     for p in LEGAL:members[p]=Path(p).read_bytes()
     for s in STYLES:
         for p in files[s]:members['fonts/'+p.parent.name+'/'+p.name]=p.read_bytes()

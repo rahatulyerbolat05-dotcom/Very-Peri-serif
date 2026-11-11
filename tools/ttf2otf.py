@@ -38,6 +38,9 @@ def exact_names(font):
 
 def convert(src,dst):
     probe=TTFont(src)
+    if probe['name'].getDebugName(5)=='Version 1.117':
+        from author_em import convert as convert_author_em
+        return convert_author_em(src,dst)
     if probe['name'].getDebugName(5)=='Version 1.116' and Path('data/italic-revision-1.116.json').exists():
         from italic_revision import convert as convert_revision
         return convert_revision(src,dst)

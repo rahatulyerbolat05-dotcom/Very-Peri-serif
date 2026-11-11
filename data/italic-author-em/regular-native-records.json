@@ -1,0 +1,346 @@
+{
+  "baseline": "1.116",
+  "glyph_records": {
+    "uni0410": {
+      "character": "А",
+      "path": "data/A/A.glif",
+      "advance": 457,
+      "donors": [
+        "A",
+        "A"
+      ],
+      "sha256": "a59819fabfc543edde320188faf7408d683bcf370ebb8682315d6811a1dfce58",
+      "native_copy": "A"
+    },
+    "uni0412": {
+      "character": "В",
+      "path": "data/homoglyph/Ve-cy.glif",
+      "advance": 478,
+      "donors": [
+        "B",
+        "B"
+      ],
+      "sha256": "a745ef34f6d4c1e85efe7fd68db5d3424d9a6f909df705aa42811c1027d52034",
+      "native_copy": "B"
+    },
+    "uni0415": {
+      "character": "Е",
+      "path": "data/homoglyph/Ie-cy.glif",
+      "advance": 453,
+      "donors": [
+        "E",
+        "E"
+      ],
+      "sha256": "140169edbbdb2cb22b065d8817b34ae04826d5224b54842a6c729f0b92c1e243",
+      "native_copy": "E"
+    },
+    "uni0401": {
+      "character": "Ё",
+      "path": "data/homoglyph/Io-cy.glif",
+      "advance": 453,
+      "donors": [
+        "Edieresis",
+        "Edieresis"
+      ],
+      "sha256": "185e08006fb450cc10b01e8395c25fae4da34002d29e7fca0d08d6e727870264",
+      "native_copy": "Edieresis"
+    },
+    "uni041A": {
+      "character": "К",
+      "path": "data/homoglyph/Ka-cy.glif",
+      "advance": 496,
+      "donors": [
+        "K",
+        "K"
+      ],
+      "sha256": "8baa34a106d121f3afe2f0e3fe70bc4e69ae49186b9f52571b4173fa07aab851",
+      "native_copy": "K"
+    },
+    "uni041C": {
+      "character": "М",
+      "path": "data/homoglyph/Em-cy.glif",
+      "advance": 665,
+      "donors": [
+        "M",
+        "M"
+      ],
+      "sha256": "258c7bfb151bc99cde84b7c389367d63b7178ad63aae6bced8d1405ceebf50ed",
+      "native_copy": "M"
+    },
+    "uni041D": {
+      "character": "Н",
+      "path": "data/homoglyph/En-cy.glif",
+      "advance": 546,
+      "donors": [
+        "H",
+        "H"
+      ],
+      "sha256": "3c8694a5fb19bf3ca9fefeb44066d6a48a2a51262b8653222137f62e602f7899",
+      "native_copy": "H"
+    },
+    "uni041E": {
+      "character": "О",
+      "path": "data/homoglyph/O-cy.glif",
+      "advance": 540,
+      "donors": [
+        "O",
+        "O"
+      ],
+      "sha256": "f479d8c264e9d940b84fbc2f4e1ed56307f50765c901b4e6e2fd9909c001c63f",
+      "native_copy": "O"
+    },
+    "uni0420": {
+      "character": "Р",
+      "path": "data/homoglyph/Er-cy.glif",
+      "advance": 466,
+      "donors": [
+        "P",
+        "P"
+      ],
+      "sha256": "c3176a5fc2945c299bb7931a5031227411e40c5282fb40a49d11b96aed6d4334",
+      "native_copy": "P"
+    },
+    "uni0421": {
+      "character": "С",
+      "path": "data/homoglyph/Es-cy.glif",
+      "advance": 480,
+      "donors": [
+        "C",
+        "C"
+      ],
+      "sha256": "fc193b43ddc875913513df6f4e402885c19992b78b682cd3072fc5f8852859cb",
+      "native_copy": "C"
+    },
+    "uni0422": {
+      "character": "Т",
+      "path": "data/homoglyph/Te-cy.glif",
+      "advance": 461,
+      "donors": [
+        "T",
+        "T"
+      ],
+      "sha256": "ce342139b8d36a86140d0c0665a09fa631775f1361ac14ce6fbf0e650483cb26",
+      "native_copy": "T"
+    },
+    "uni0425": {
+      "character": "Х",
+      "path": "data/homoglyph/Ha-cy.glif",
+      "advance": 546,
+      "donors": [
+        "X",
+        "X"
+      ],
+      "sha256": "ee8992cfeb526ca4cf8b4b125336a18d586d28b878234c4ced3ca9e83665ff3a",
+      "native_copy": "X"
+    },
+    "uni0430": {
+      "character": "а",
+      "path": "data/homoglyph/a-cy.glif",
+      "advance": 399,
+      "donors": [
+        "a",
+        "a"
+      ],
+      "sha256": "cb91ecbfcddccba7d8329d5ffbfa454c659deee78d219ffd2dddd26c874640f8",
+      "native_copy": "a"
+    },
+    "uni0435": {
+      "character": "е",
+      "path": "data/homoglyph/ie-cy.glif",
+      "advance": 355,
+      "donors": [
+        "e",
+        "e"
+      ],
+      "sha256": "3a38cdccc2af860c1f7281fa5bd6f7c3ba609be14f41bd78a80fd474d542fd2e",
+      "native_copy": "e"
+    },
+    "uni0451": {
+      "character": "ё",
+      "path": "data/homoglyph/io-cy.glif",
+      "advance": 355,
+      "donors": [
+        "edieresis",
+        "edieresis"
+      ],
+      "sha256": "8aa10a2ef24043535be59b538e34341b754d2d6691dba3349f0a527df1723710",
+      "native_copy": "edieresis"
+    },
+    "uni0438": {
+      "character": "и",
+      "path": "data/codex/uni0438-02.glif",
+      "advance": 454,
+      "donors": [
+        "u",
+        "u"
+      ],
+      "sha256": "82e444dfced4c2ea232411059541e394b059b6ad469fc7fde5f21c496055f203",
+      "native_copy": "u"
+    },
+    "uni043E": {
+      "character": "о",
+      "path": "data/homoglyph/o-cy.glif",
+      "advance": 408,
+      "donors": [
+        "o",
+        "o"
+      ],
+      "sha256": "d2b9d41fb835b3878a9e693047ce8d6351abff24f3d7d01f474cbfef0f76d6cf",
+      "native_copy": "o"
+    },
+    "uni043F": {
+      "character": "п",
+      "path": "data/pe/pe.glif",
+      "advance": 470,
+      "donors": [
+        "n",
+        "n"
+      ],
+      "sha256": "8fd591a946a00510a3a3df90a0bd706de058e5c1a28860acb28d8f42214e5535",
+      "native_copy": "n"
+    },
+    "uni0440": {
+      "character": "р",
+      "path": "data/homoglyph/er-cy.glif",
+      "advance": 444,
+      "donors": [
+        "p",
+        "p"
+      ],
+      "sha256": "570c355e567d3135849d5c51b9528a38041a78694f009535962554eaf5792367",
+      "native_copy": "p"
+    },
+    "uni0441": {
+      "character": "с",
+      "path": "data/homoglyph/es-cy.glif",
+      "advance": 339,
+      "donors": [
+        "c",
+        "c"
+      ],
+      "sha256": "bd2aa41697267274d994a6c59d5e25e5d49ae2f6706ac05c64381a113cb7fbff",
+      "native_copy": "c"
+    },
+    "uni0443": {
+      "character": "у",
+      "path": "data/homoglyph/u-cy.glif",
+      "advance": 401,
+      "donors": [
+        "y",
+        "y"
+      ],
+      "sha256": "167d17b2830d1554c919a0db1b9451d95250046c86b73700f29ad6ce6c1c9eda",
+      "native_copy": "y"
+    },
+    "uni0445": {
+      "character": "х",
+      "path": "data/homoglyph/ha-cy.glif",
+      "advance": 385,
+      "donors": [
+        "x",
+        "x"
+      ],
+      "sha256": "0b230150ebe6e2009df184991dc15aa7165cd7533c44275f69bbdd7e1d913e84",
+      "native_copy": "x"
+    },
+    "uni04AE": {
+      "character": "Ү",
+      "path": "data/homoglyph/Ustraight-cy.glif",
+      "advance": 477,
+      "donors": [
+        "Y",
+        "Y"
+      ],
+      "sha256": "a17252ec539354b69121202da2101ff430c4e75afeaadcdd09f24fe8569d9d9e",
+      "native_copy": "Y"
+    },
+    "uni0406": {
+      "character": "І",
+      "path": "data/homoglyph/I-cy.glif",
+      "advance": 249,
+      "donors": [
+        "I",
+        "I"
+      ],
+      "sha256": "4943f927ba01d4950c2167962c74bfc23dcd3fe8f2f9fdb59e221eb88cfbfb12",
+      "native_copy": "I"
+    },
+    "uni04BB": {
+      "character": "һ",
+      "path": "data/homoglyph/shha-cy.glif",
+      "advance": 470,
+      "donors": [
+        "h",
+        "h"
+      ],
+      "sha256": "398b328ebb835944941397a27cf591b2406779409afbb89b15e3e37301fa12e5",
+      "native_copy": "h"
+    },
+    "uni0456": {
+      "character": "і",
+      "path": "data/homoglyph/i-cy.glif",
+      "advance": 223,
+      "donors": [
+        "i",
+        "i"
+      ],
+      "sha256": "021faaa7fda1872f09e77a31109f71900297b1803ad5abcfce0b82fe286dc46e",
+      "native_copy": "i"
+    },
+    "uni0430.ss01": {
+      "character": "а",
+      "path": "data/homoglyph/a-cy.ss01.glif",
+      "advance": 389,
+      "donors": [
+        "a",
+        "a"
+      ],
+      "sha256": "7be5e260e59c1d275a48a416fcab5a8f9535c9054bb173d74929bb98f5630465",
+      "native_copy": "a.ss01"
+    },
+    "uni0441.ss01": {
+      "character": "с",
+      "path": "data/homoglyph/es-cy.ss01.glif",
+      "advance": 339,
+      "donors": [
+        "c",
+        "c"
+      ],
+      "sha256": "214337d2a6203a9220b9d67b9c8a022658e170664d0cb163f6a4f5af1abbcfab",
+      "native_copy": "c.ss01"
+    },
+    "uni0435.ss01": {
+      "character": "е",
+      "path": "data/homoglyph/ie-cy.ss01.glif",
+      "advance": 355,
+      "donors": [
+        "e",
+        "e"
+      ],
+      "sha256": "87d5e57ca04393c3c2e75171690ad045417d85143af5f24953e4a16691f67c7c",
+      "native_copy": "e.ss01"
+    },
+    "uni0451.ss01": {
+      "character": "ё",
+      "path": "data/homoglyph/io-cy.ss01.glif",
+      "advance": 355,
+      "donors": [
+        "edieresis",
+        "edieresis"
+      ],
+      "sha256": "773be48b1128ea1b11804adf85d3f1d1e1999851d2987b7f8370c7ff51a2f979",
+      "native_copy": "edieresis.ss01"
+    },
+    "uni0456.dotless": {
+      "character": "і",
+      "path": "reference/instrument-serif/fonts/ttf/InstrumentSerif-Regular.ttf#dotlessi",
+      "advance": 223,
+      "donors": [
+        "dotlessi",
+        "dotlessi"
+      ],
+      "sha256": "a43eeb584176ab074a9e7b0c6b987934d97ec31b9dfd8273fac85e1650228b1f",
+      "native_copy": "dotlessi"
+    }
+  }
+}

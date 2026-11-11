@@ -2,11 +2,11 @@
 
 **[СКАЧАТЬ / DOWNLOAD — Very Peri Serif: Regular + Italic](dist/VeryPeriSerif-latest.zip)**
 
-Current release: **1.116**. This link always points to the current packaged family.
+Current release: **1.117**. This link always points to the current packaged family.
 The single working/default branch is `claude/upbeat-faraday-mzabid`.
 [Repository and archive guide](docs/repository.md).
 
-[Rounded Italic stem terminals and a new «я» ear — release 1.116](docs/italic-revision-1.116.md).
+[The author’s own Italic «м» — release 1.117](docs/author-em-1.117.md).
 
 [Client presentation: PDF, PowerPoint and posters](docs/presentation/README.md).
 
@@ -25,25 +25,26 @@ original, it is made for large sizes.
 
 | | |
 |---|---|
-| [`dist/VeryPeriSerif-1.116.zip`](dist/VeryPeriSerif-1.116.zip) | everything below with the licence, in one archive |
+| [`dist/VeryPeriSerif-1.117.zip`](dist/VeryPeriSerif-1.117.zip) | everything below with the licence, in one archive |
 | [`fonts/ttf`](fonts/ttf) | TrueType, for desktop apps (Windows, macOS, Linux, Figma, Adobe, Office) |
 | [`fonts/otf`](fonts/otf) | OpenType CFF, the same design with cubic outlines (install TTF or OTF, not both) |
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-Regular and Italic share release **1.116** (Italic I040), dated 10 November 2026.
-The Italic has more rounded upper stem terminals in **н й ц ы ш щ ң ү ұ ж ч**,
-drawn from the native Latin p, and a new classical ear on **я**.
-The original **м**, all spacing and kerning, native Latin and the Regular drawing
-are retained. [Scope, sources and checks](docs/italic-revision-1.116.md).
+Regular and Italic share release **1.117** (Italic I041), dated 11 November 2026.
+The Italic **м** now uses the author’s supplied `Vector.svg`, mapped uniformly
+into font coordinates. Its advance remains 523; its left bearing follows the
+new outline. Other drawings, kerning and mark positioning are retained from
+1.116, including the rounded stem terminals and the classical **я** ear.
+[Source, comparison and checks](docs/author-em-1.117.md).
 
 The rounded-arch Cyrillic **л with an exit stroke remains the default in Italic**;
 **ss10** and `aalt` retain its previous diagonal form.
 [The 1.115 change](docs/el-default-1.115.md).
 
-[Renamed installation copy of 1.116](dist/VeryPeriSerif-T1116.zip): two TTFs under
-**Very Peri Serif T1116**, for installation alongside the main family.
-Earlier releases, including 1.115, remain archived.
+[Renamed installation copy of 1.117](dist/VeryPeriSerif-T1117.zip): two TTFs under
+**Very Peri Serif T1117**, for installation alongside the main family.
+Earlier releases, including 1.116, remain archived.
 
 [Contour roughness review is ongoing](docs/final-1.113.md): new detectors,
 a complete outline atlas and a candidate queue inspect the current release.
@@ -77,10 +78,16 @@ python -m pip install -r requirements.txt -r requirements-quality.txt
 make
 ```
 
-`make` builds both styles from the sources (`data/`, `tools/`, `font/`) and publishes `fonts/`, the reports in
-[`docs/qa`](docs/qa) and the archive in `dist/`. Steps and checks: [font/README.md](font/README.md).
+For 1.117, `make family` reproduces both styles from the SHA-pinned 1.116 archive
+and the author’s SVG through `tools/author_em.py`; it does not rerun the legacy
+glyph generators. `make` then checks the family, creates proofs and packages
+`fonts/`, [`docs/qa`](docs/qa) and `dist/`. The original SVG and generated editable
+GLIFs live in [`data/italic-author-em`](data/italic-author-em).
+Steps and checks: [font/README.md](font/README.md).
 
 ## Changelog
+
+- 11.11.2026: family 1.117, the author’s SVG becomes Italic м; advance and layout retained, left bearing derived from the new contour.
 
 - 10.11.2026: family 1.116, rounder upper terminals in eleven Italic glyphs and a new я ear; original м and all kerning retained.
 - 27.10.2026: family 1.115, the arched Italic л becomes the default; previous diagonal form retained in ss10/aalt.

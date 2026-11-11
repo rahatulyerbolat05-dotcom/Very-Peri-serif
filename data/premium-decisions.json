@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-10",
-  "baseline_commit": "0330c598b690e4e9ddc6aec53a57218bba476035",
-  "release": "1.116",
-  "scope": "Twelve accepted Italic crown/ya contours only; original em and all layout retained.",
+  "date": "2026-11-11",
+  "baseline_commit": "c28303b00d188f8913fa1aec4e030447d9e64d2a",
+  "release": "1.117",
+  "scope": "Author-supplied italic em SVG only; uniform coordinate mapping and source-faithful conversion, all other drawings/layout frozen1.116.",
   "decisions": [
     {
       "status": "measured",
@@ -118,31 +118,30 @@
     }
   ],
   "approved_fonts": {
-    "Regular": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
-    "Italic": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d"
+    "Regular": "72d27547f3fbc6ef8680ac21cf07552768d6a37d9ef7477f8d515223c7222b7f",
+    "Italic": "6a6bdcf3367443c55df3ddd983e3d0f24a9aa6a10c855d48b387f761c380dfc4"
   },
   "optical_acceptance": {
-    "date": "2026-11-10",
-    "reviewer": "Codex; author-approved crowns and ya ear, final serialized output inspected",
-    "scope": "Only the twelve author-approved Italic outlines from data/italic-revision-1.116.json. Original em retained; no global optical acceptance.",
+    "date": "2026-11-11",
+    "reviewer": "Codex; author supplied corrected Vector.svg and requested publication",
+    "scope": "Author em source and its final serialized output only; no global optical acceptance.",
     "viewed": [
-      "docs/img/italic-revision-1.116.png",
-      "build/italic-revision/all-changed.png",
-      "build/italic-revision/ya-details.png",
-      "build/italic-revision/words-light.png",
-      "build/italic-revision/words-dark.png"
+      "docs/img/author-em-comparison.png",
+      "docs/img/author-em-context.png",
+      "docs/img/author-em-details.png",
+      "docs/img/author-em-words-light.png",
+      "docs/img/author-em-words-dark.png"
     ],
     "decisions": [
-      "Accept the same rounded crown masters approved by the author, with p as the native reference.",
-      "Accept the selected ya shoulder, saddle and rising ear; preserve its bowl/counter, leg and exit.",
-      "Retain original em, all metrics and all kerning/mark/layout tables exactly from 1.115.",
-      "Retain the default arched el and ss10 diagonal el."
+      "Preserve original SVG with uniform x=(svg_x−42.77)/5.3 and y=516−svg_y/5.3 mapping.",
+      "Retain author-supplied small shoulder and foot segments; no artistic smoothing.",
+      "Keep advance523 and original GPOS, derive LSB−9 from TrueType control bounds.",
+      "All other contours and native hints match1.116; crown/ya revisions and arched el retained."
     ],
-    "functional_assertions": 4475,
-    "revision_assertions_all_formats": 2459,
+    "author_em_assertions": 6341,
+    "all_visible_em_pair_modes": 1858,
     "limitations": [
       "Global contour/optical queue remains open.",
-      "Em redesign deferred.",
       "No native Windows/macOS/commercial-app or physical print test."
     ]
   },
@@ -210,6 +209,10 @@
     "1.115": {
       "Regular": "4aba3aee82264318c94171a37a3bf31dfec8a6172912aca4c3d9cff95bb0e20e",
       "Italic": "4949f4b39f06c67372828e9034e54fa769026ac03eb62540ddbf14cbf8b386af"
+    },
+    "1.116": {
+      "Regular": "45111057fc2004d1e41e94cd9707c7fc43f75ca1f5f4c63627f79874923f72fe",
+      "Italic": "ab88378ea202495ca2841adad60d420607c4d2b0245d779e43f029a952b3904d"
     }
   },
   "previous_optical_acceptance": {
@@ -558,6 +561,31 @@
       "default_promotion_assertions_ttf_woff2": 8248,
       "default_promotion_assertions_all_formats": 10508,
       "both_forms_pairs_checked": 1856
+    },
+    "1.116": {
+      "date": "2026-11-10",
+      "reviewer": "Codex; author-approved crowns and ya ear, final serialized output inspected",
+      "scope": "Only the twelve author-approved Italic outlines from data/italic-revision-1.116.json. Original em retained; no global optical acceptance.",
+      "viewed": [
+        "docs/img/italic-revision-1.116.png",
+        "build/italic-revision/all-changed.png",
+        "build/italic-revision/ya-details.png",
+        "build/italic-revision/words-light.png",
+        "build/italic-revision/words-dark.png"
+      ],
+      "decisions": [
+        "Accept the same rounded crown masters approved by the author, with p as the native reference.",
+        "Accept the selected ya shoulder, saddle and rising ear; preserve its bowl/counter, leg and exit.",
+        "Retain original em, all metrics and all kerning/mark/layout tables exactly from 1.115.",
+        "Retain the default arched el and ss10 diagonal el."
+      ],
+      "functional_assertions": 4475,
+      "revision_assertions_all_formats": 2459,
+      "limitations": [
+        "Global contour/optical queue remains open.",
+        "Em redesign deferred.",
+        "No native Windows/macOS/commercial-app or physical print test."
+      ]
     }
   }
 }

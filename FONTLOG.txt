@@ -165,3 +165,20 @@ design and is retained exactly, together with all original spacing and layout.
 Regular outlines, native Latin and the default arched el are retained.
 The twelve editable masters and all other final glyphs/tables are checked
 against the actual published 1.115 files; exact quadratic-to-CFF conversion.
+
+2026-11-11 — Version 1.117 / Italic I041
+-------------------------------------
+Replace lowercase italic Cyrillic em with the author's corrected Vector.svg.
+The earlier withdrawn upload is not used. Uniform mapping preserves the author's
+shape: x=(svg_x-42.77)/5.3, y=516-svg_y/5.3. Advance remains 523; the TrueType
+left side bearing is derived as -9. CFF retains the original transformed cubic
+controls at 16.16 precision; TTF and WOFF2 use Cu2Qu at 0.1 units followed by
+integer-grid encoding, with measured outline deviation below 0.510 units.
+All other drawings, hints, advances, kerning, marks and layout remain as 1.116.
+Preserve the original SVG and editable cubic/quadratic GLIFs. The release build
+uses the SHA-pinned immutable 1.116 archive plus this source, without rerunning
+the legacy glyph generators. Independent final-file checks: 6341 PASS, 0 FAIL;
+OTS on all six files; 609 shaping cases per format; 1858 em-neighbor pair/mode
+checks with no intersections. Source microsegments remain diagnostic findings,
+not automatically smoothed. This targeted change does not close the global
+optical-review queue. See docs/author-em-1.117.md and docs/qa/author-em.json.
