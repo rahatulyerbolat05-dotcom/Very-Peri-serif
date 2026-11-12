@@ -213,6 +213,14 @@ def make_comma_ext(ita):
     return comma_ext
 
 
+def author_svg(path,scale=5.3,baseline=2734.8):
+    """A drawing of the author (SVG, y down, SCALE px per unit, baseline at BASELINE px) as a path in font units, the form unchanged."""
+    import re
+    from fontTools.svgLib.path import parse_path
+    d=re.search(r' d="([^"]+)"',Path(path).read_text()).group(1)
+    out=pathops.Path();parse_path(d,TransformPen(out.getPen(),(1/scale,0,0,-1/scale,0,baseline/scale)));return out
+
+
 def em_author(stem,dx):
     """м by the author's drawing (I027; the author's SVG of 21.10.2026 was "crooked and outside the rules": 64 segments, a bowed hairline, a
     pinched V slot, strokes 23.5-32.5 / 62.5 / 6.6-19). The construction is the author's, every edge is now a straight line and every
@@ -530,7 +538,8 @@ def build(ita,reg):
     v_new=SUB(v_outer,v_inner)
     м_body=SUB(м_body,AND(below(Y1),AND(right_of(sl[-1][0][1]-2),left_of(sl[-1][-1][0]+2))))   # the old V below 450, stems kept
     out['\uf109']=(OR(м_body,lstem,v_new,transformed(u_stem2(),dx=303.5-U_L)),510)   # м of I008-I026 (Regular V with flat heads), kept as a PUA alternate
-    out['м']=(em_author(u_stem2(),303.5-U_L),510)
+    out['\uf10a']=(em_author(u_stem2(),303.5-U_L),510)        # м of I027 (the first drawing of the author, cleaned), kept as a PUA alternate
+    out['м']=(author_svg('data/author-em-italic-2026-10/author-em-final.svg'),510)   # 1.118: the author's final vector, embedded as drawn
     # ---- Kazakh letters: қ ң (tail of ц in place of the exit), ү ұ (u with a straight descender from p), ә (sheared Regular)
     Pk=polys_ud(ita,'k')
     from italic_rules_measure import runs as _runs
@@ -575,10 +584,10 @@ def build(ita,reg):
 
 
 # side bearings of the native family each letter belongs to (docs/italic-rules.md 5): left, right
-BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'\uf109':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
+BEARINGS={'қ':(6,15),'ң':(19,15),'ү':(21,20),'ұ':(21,20),'ә':(None,None),'к':(6,22),'ж':(19,22),'\uf106':(19,22),'ь':(14,22),'ъ':(14,22),'ы':(14,22),'ө':(20,21),'ғ':(19,-36),'й':(21,20),'в':(20,22),'\uf108':(20,22),'м':(20,22),'\uf109':(20,22),'\uf10a':(20,22),'з':(None,None),'э':(None,None),'ч':(20,22),'я':(20,22),'\uf107':(20,22),'ю':(19,21),'ф':(20,22),'\uf105':(20,22),'б':(None,None),'ш':(21,20),'ц':(21,15),'щ':(21,15),'н':(19,22),'д':(13,10),'л':(20,22),'г':(19,-36),'\uf101':(20,22),'\uf102':(13,22),'\uf103':(13,22),'\uf104':(13,22)}
 
 
-STRAIGHTEN=set('мляюдф')     # constructions with straight edges (tools/straightness_audit.py); native stems bow and are left alone
+STRAIGHTEN=set('ляюдф')     # constructions with straight edges (tools/straightness_audit.py); native stems bow and are left alone
 SPACING=json.loads(Path('data/italic-spacing.json').read_text())['glyphs'] if Path('data/italic-spacing.json').exists() else {}
 
 
@@ -595,7 +604,7 @@ def main():
         g,_=fair(g,glyf)                                # I021: seams and grid kinks faired (tools/italic_fair.py)
         lsb,rsb=BEARINGS[ch];g.recalcBounds(glyf)
         if lsb is not None:g.coordinates.translate((lsb-g.xMin,0));g.recalcBounds(glyf);adv=int(round(g.xMax+rsb))
-        sp=SPACING.get({'\uf109':'м'}.get(ch,ch))          # the previous м keeps the fitted bearings of м
+        sp=SPACING.get({'\uf109':'м','\uf10a':'м'}.get(ch,ch))          # the previous м keeps the fitted bearings of м
         if sp:g.coordinates.translate((sp['dx'],0));g.recalcBounds(glyf);adv+=sp['dadv']
         name=f'uni{ord(ch):04X}';glyf[name]=g
         font['hmtx'][name]=(adv,getattr(g,'xMin',0))

@@ -21,7 +21,7 @@ original, it is made for large sizes.
 | [`fonts/webfonts`](fonts/webfonts) | WOFF2 and [`very-peri-serif.css`](fonts/webfonts/very-peri-serif.css) for websites |
 | [`docs/specimen`](docs/specimen) | specimen PDF |
 
-The Regular is a release (1.016). The Italic (0.270) is a test design: its letters are complete, and their forms
+The Regular is a release (1.016). The Italic (1.118) is a test design: its letters are complete, and their forms
 are still being refined.
 
 ## Language support
@@ -53,6 +53,7 @@ make
 
 ## Changelog
 
+- 12.11.2026: Italic 1.118, the author's final lowercase м.
 - 10.11.2026: Italic I027, the lowercase м after the author's drawing.
 - 20.10.2026: one release archive, OTF and web fonts next to TTF; licence and authors files checked.
 - 19.10.2026: Regular 1.016, straight edges and fairing; Regular and Italic linked as one family.

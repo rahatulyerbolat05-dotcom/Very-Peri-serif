@@ -43,6 +43,7 @@ Change log
 Regular: 1.000 (17.10.2026) first release; 1.001-1.016 spacing, kerning, outline polish, straight edges.
 Italic: test builds I001-I025 (17-19.10.2026), see data/italic-version.json; not yet a final release.
 Family: Regular and Italic linked as one family Very Peri Serif (19.10.2026).
+Italic 1.118 (12.11.2026): lowercase м by the author's own drawing.
 
 Acknowledgements
 ----------------
